@@ -1084,8 +1084,7 @@ weather_update (void)
               if (bg_prize[jj] != NULL)
                 {
 
-sprintf(general_use,"\x1b[1;37m-->\x1b[1;31mBattleground\x1b[1;37m Prize:
-\x1b[0;37m%s",format_obj_to(bg_prize[jj], sch, TRUE));
+sprintf(general_use,"\x1b[1;37m-->\x1b[1;31mBattleground\x1b[1;37m Prize:\x1b[0;37m%s",format_obj_to(bg_prize[jj], sch, TRUE));
                     do_echo (sch, general_use);
                    hasprize = TRUE;
          	}

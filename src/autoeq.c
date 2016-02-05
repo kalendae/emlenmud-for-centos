@@ -121,14 +121,8 @@ create_standards(CHAR_DATA *ch, char *argy)
   pArea = ch->in_room->area;
   if (str_cmp(NAME(ch), "Flatline"))
     {
-      send_to_char("Only Flatline can do this cuz if you do this more than
-once it REALLY screws things up.\n\r", ch);
-      send_to_char("If you are now running the mud, be sure to DELETE the
-area 90000-90999 probably called stuff2.are from playarea.lst then
-recreate the area and then goto room 90000 and then type standards. It
-might also be a good idea to make this function just return after you have
-things set up right. As of now this function cannot be accessed
-without changing something in the source just to be careful.\n\r", ch);
+      send_to_char("Only Flatline can do this cuz if you do this more than once it REALLY screws things up.\n\r", ch);
+      send_to_char("If you are now running the mud, be sure to DELETE the area 90000-90999 probably called stuff2.are from playarea.lst then recreate the area and then goto room 90000 and then type standards. It might also be a good idea to make this function just return after you have things set up right. As of now this function cannot be accessed without changing something in the source just to be careful.\n\r", ch);
       return;
     }
   

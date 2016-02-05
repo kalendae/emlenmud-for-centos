@@ -1,7 +1,4 @@
-#define VERSION_STR "DikuMUD by Hans Staerfeldt, Katja Nyboe, Tom Madsen,
-Michael Seifert, and Sebastian Hammer. MERC 2.1 by Hatchet, Furey, and
-Kahn. NiMUD by Locke. EmlenMud by Owen Emlen. Loc 2.0 by Lonath and 
-Flatline.\n\r\n\rWelcome to The Lands of Chaos!\n\r" 
+#define VERSION_STR "DikuMUD by Hans Staerfeldt, Katja Nyboe, Tom Madsen, Michael Seifert, and Sebastian Hammer. MERC 2.1 by Hatchet, Furey, and Kahn. NiMUD by Locke. EmlenMud by Owen Emlen. Loc 2.0 by Lonath and Flatline.\n\r\n\rWelcome to The Lands of Chaos!\n\r" 
 /*
 #define VERSION_STR "DikuMUD by Hans Staerfeldt, Katja Nyboe, Tom Madsen, 
 Michael Seifert, and Sebastian Hammer. Emlenmud (Owen Emlen),  Lands of  

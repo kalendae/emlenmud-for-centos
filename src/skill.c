@@ -994,8 +994,7 @@ do_slist (CHAR_DATA * ch, char *argy)
 
     if (argy[0] == '\0' || argy == "")
     {
-      send_to_char ("'slist spells': list all spells in the
-game.\n\r'slist skills': list all skills in the game.\n\r'slist prof' lists all of the proficiencies in the game.\n\r", ch);
+      send_to_char ("'slist spells': list all spells in the game.\n\r'slist skills': list all skills in the game.\n\r'slist prof' lists all of the proficiencies in the game.\n\r", ch);
       return;
     }
   if (!str_cmp (argy, "spells"))

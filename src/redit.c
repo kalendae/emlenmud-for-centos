@@ -275,13 +275,13 @@ hugebuf_o[0]='\0';
 		{
 		  pRoom->exit[door] = new_exit ();
 		}
-	      (ROOM_DATA *) pRoom->exit[door]->to_room = rd;
+	      pRoom->exit[door]->to_room = (ROOM_DATA *)rd;
               pRoom->mapexit[door] = rd;
 	      pRoom->exit[door]->vnum = rd->vnum;
 	      pRoom = rd;
 	      door = rev_dir[door];
 	      pExit = new_exit ();
-	      (ROOM_DATA *) pExit->to_room = ch->in_room;
+	      pExit->to_room = (ROOM_DATA *)ch->in_room;
 	      pExit->vnum = ch->in_room->vnum;
               pRoom->mapexit[door] = ch->in_room;
 	      pRoom->exit[door] = pExit;
@@ -324,7 +324,7 @@ hugebuf_o[0]='\0';
 		{
 		  pRoom->exit[door] = new_exit ();
 		}
-	      (ROOM_DATA *) pRoom->exit[door]->to_room = get_room_index (value);
+	      pRoom->exit[door]->to_room = (ROOM_DATA *)get_room_index (value);
 	      /*pRoom->exit[door]->vnum = value; */
 	      
 	      SET_BIT (pArea->area_flags, AREA_CHANGED);

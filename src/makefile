@@ -3,7 +3,7 @@
 CC      = gcc 
 NOCRYPT =
 1BUILD  = 
-C_FLAGS = $(1BUILD) -O2 -m486 -g -DLinux -DNEED_EXTERN $(PROF) $(NOCRYPT)
+C_FLAGS = $(1BUILD) -O2 -g -DLinux -DNEED_EXTERN $(PROF) $(NOCRYPT)
 L_FLAGS = $(PROF) 
 
 O_FILES = aedit.o alien.o ansi_out.o ar.o arena.o  armor.o autoeq.o \

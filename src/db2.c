@@ -324,6 +324,7 @@ cleanup_system (void)
 	}
       fcheck_pbase (e->d_name);
     tte:
+      (void)0;
     }
 #endif
   return;
@@ -4196,7 +4197,7 @@ fix_exits (void)
 		  fexit = TRUE;
 		  if (pexit->vnum > 100000 || pexit->vnum == 0)
 		    continue;
-		  ((ROOM_DATA *) pexit->to_room) = get_room_index (pexit->vnum);
+		  pexit->to_room = (ROOM_DATA *)get_room_index (pexit->vnum);
 		}
 	    }
 	}

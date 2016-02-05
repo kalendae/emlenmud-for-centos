@@ -77,7 +77,7 @@ void read_from_buffer (DESCRIPTOR_DATA * d);
 void stop_idling (CHAR_DATA * ch);
 void print_prompt (CHAR_DATA * ch);
 char *anseval (const char *txt, CHAR_DATA * to);
-static int area_this_reboot;
+int area_this_reboot;
 bool is_equipwipe = FALSE;
 
 char commandlog[3000];
@@ -2385,8 +2385,7 @@ void handle_connecting (DESCRIPTOR_DATA * d, char *argy) {
         }
         full_argy[0] = UPPER (full_argy[0]);
         if (!check_parse_name (full_argy, TRUE)) {                 
-          write_to_buffer (d, "Sorry, that name is invalid. Email skate24_teen@hotmail.com if you feel there 
-is\n\r", 0);
+          write_to_buffer (d, "Sorry, that name is invalid. Email skate24_teen@hotmail.com if you feel there is\n\r", 0);
           write_to_buffer (d, "some sort of mistake (IE your name was valid before, and now won't work).\n\r", 0);
           write_to_buffer (d, "<Hit Enter> ", 0);
           return;
@@ -3311,7 +3310,7 @@ DEATH)?", 0); */
               ch->next = char_list;
               char_list = ch;
 skip:
-              
+              (void)0; 
           }
           
           

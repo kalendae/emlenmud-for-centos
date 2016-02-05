@@ -4198,12 +4198,7 @@ do_areas (CHAR_DATA * ch, char *argy)
   if (LEVEL (ch) >= IMM_LEVEL)
     {
       sprintf (hugebuf_o, "[%3s] %1s %-24s (%-5s-%5s) %10s %3s [%s]\n\r",
-               "                 
-
-                    \x1b[1;37m-\x1b[1;30m= \x1b[1;37mThe Lands of Loreia \x1b[1;30m=\x1b[1;37m-
-
-
-\x1b[1;32mNum\x1b[0;37m", "W", "\x1b[1;36mArea Name\x1b[0;37m", "\x1b[1;34mlvnum\x1b[0;37m", "\x1b[1;34muvnum\x1b[0;37m", "\x1b[1;31mFilename\x1b[0;37m", "\x1b[0;30mSec", "\x1b[1;34mBuilders\x1b[0;37m");
+               "\x1b[1;37m-\x1b[1;30m= \x1b[1;37mThe Lands of Loreia \x1b[1;30m=\x1b[1;37m- \x1b[1;32mNum\x1b[0;37m", "W", "\x1b[1;36mArea Name\x1b[0;37m", "\x1b[1;34mlvnum\x1b[0;37m", "\x1b[1;34muvnum\x1b[0;37m", "\x1b[1;31mFilename\x1b[0;37m", "\x1b[0;30mSec", "\x1b[1;34mBuilders\x1b[0;37m");
       buf[0] = '\0';
       slen = strlen (hugebuf_o);
       for (pAreat = area_first; pAreat != NULL; pAreat = pAreat->next)
