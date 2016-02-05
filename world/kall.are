@@ -1,0 +1,147 @@
+#AREADATA 
+Name Probably not getting done, ask kall~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Kall~
+VNUMs 11401 11600
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#11401
+Name Some Frosty Moors~
+Descr
+~
+Sector 19
+Door 1 0 0 11402 0 0
+~
+~
+End
+
+#11402
+Name Some Frosty Moors~
+Descr
+~
+Sector 19
+Door 1 0 0 11403 0 0
+~
+~
+Door 3 0 0 11401 0 0
+~
+~
+End
+
+#11403
+Name Some Frosty Moors~
+Descr
+~
+Sector 19
+Door 1 0 0 11404 0 0
+~
+~
+Door 3 0 0 11402 0 0
+~
+~
+End
+
+#11404
+Name Some Frosty Moors~
+Descr
+~
+Sector 19
+Door 1 0 0 11405 0 0
+~
+~
+Door 3 0 0 11403 0 0
+~
+~
+End
+
+#11405
+Name Some Frosty Moors~
+Descr
+~
+Sector 19
+Door 0 0 0 11409 0 0
+~
+~
+Door 1 0 0 11406 0 0
+~
+~
+Door 3 0 0 11404 0 0
+~
+~
+End
+
+#11406
+Name Some Frosty Moors~
+Descr
+~
+Sector 19
+Door 0 0 0 11407 0 0
+~
+~
+Door 3 0 0 11405 0 0
+~
+~
+End
+
+#11407
+Name Some Frosty Moors~
+Descr
+~
+Sector 19
+Door 1 0 0 11408 0 0
+~
+~
+Door 2 0 0 11406 0 0
+~
+~
+Door 3 0 0 11409 0 0
+~
+~
+End
+
+#11408
+Name Some Frosty Moors~
+Descr
+~
+Sector 19
+Door 3 0 0 11407 0 0
+~
+~
+End
+
+#11409
+Name Some Frosty Moors~
+Descr
+~
+Sector 19
+Door 1 0 0 11407 0 0
+~
+~
+Door 2 0 0 11405 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

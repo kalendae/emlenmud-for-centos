@@ -1,0 +1,5897 @@
+#AREADATA 
+Name The City of Athenae~
+Repop Knowledge and Power fill the air, its source seems to be from the center of Athenae.
+~
+SCZone 0
+Builders Tonik~
+VNUMs 5000 5249
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#5000
+Name aurelius mayor prac~
+Short Mayor Aurelius~
+Long 
+Mayor Aurelius is here looking over his city.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits4 1
+Money 4000
+Level 400
+Sex 1
+Hp 40
+Guard 0
+ASklTaught 0 16
+ASklTaught 1 18
+ASklTaught 2 174
+ASklTaught 3 591
+ASklTaught 4 72
+ASklTaught 5 172
+ASklTaught 6 185
+ASklTaught 7 186
+ASklTaught 8 177
+ASklTaught 9 188
+ASklTaught 10 176
+ASklTaught 11 195
+ASklTaught 12 211
+ASklTaught 13 212
+ASklTaught 14 62
+ASklTaught 15 551
+ASklTaught 16 145
+End
+
+#5001
+Name athenae Guard~
+Short An Athenaean Guard~
+Long 
+An Athenaean guard stands here blocking your way!
+~
+AMax 1
+NHeight 75
+ActBits 2
+ActBits3 2
+Affect_By 40
+AffectTWO 524288
+Money 300
+Level 30
+Sex 1
+Hp 2
+Guard 0
+End
+
+#5002
+Name athenae Guard~
+Short An Athenaean Guard~
+Long 
+An Athenaean Guard stands here blocking your way!
+~
+AMax 1
+NHeight 75
+ActBits 2
+Affect_By 40
+AffectTWO 524288
+Money 300
+Level 30
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#5003
+Name athenae Guard~
+Short An Athenaean Guard~
+Long 
+An Athenaean Guard stnads here blocking your way!
+~
+AMax 1
+NHeight 75
+ActBits 2
+ActBits3 2
+Affect_By 40
+AffectTWO 524288
+Money 300
+Level 30
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#5004
+Name athenae Guard~
+Short An Athenaean Guard~
+Long 
+An Athenaean Guard stands here blocking your way!
+~
+AMax 1
+NHeight 75
+ActBits 2
+ActBits3 2
+Affect_By 40
+AffectTWO 524288
+Money 300
+Level 30
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#5005
+Name athenae Guard~
+Short An Athenaean Guard~
+Long 
+An Athenaean Guard stands here blocking your way!
+~
+AMax 1
+NHeight 75
+ActBits 2
+ActBits3 2
+Affect_By 40
+AffectTWO 524288
+Money 300
+Level 30
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#5006
+Name athenea Guard~
+Short An Athenaean Guard~
+Long 
+An Athenaean Guard stands here blocking your way!
+~
+AMax 1
+NHeight 75
+ActBits 2
+ActBits3 2
+Affect_By 40
+AffectTWO 524288
+Money 300
+Level 30
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#5007
+Name athenea Guard~
+Short An Athenaean Guard~
+Long 
+An Athenaean Guard stands here blocking your way!
+~
+AMax 1
+NHeight 75
+ActBits 2
+ActBits3 2
+Affect_By 40
+AffectTWO 524288
+Money 300
+Level 30
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#5008
+Name athenae Guard~
+Short An Athenaean Guard~
+Long 
+An Athenaean Guard stands here blocking your way!
+~
+AMax 1
+NHeight 75
+ActBits 2
+ActBits3 2
+Affect_By 40
+AffectTWO 524288
+Money 300
+Level 30
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#5009
+Name athenae Guard~
+Short An Athenaean Guard~
+Long 
+An Athenaean Guard stands here blocking your way!
+~
+AMax 1
+NHeight 75
+ActBits 2
+ActBits3 2
+Affect_By 40
+AffectTWO 524288
+Money 300
+Level 30
+MobType 0
+Hp 2
+Guard 0
+End
+
+#5010
+Name athenae Guard~
+Short Athenaean Guard~
+Long 
+An Athenaean Guard stands here blocking your way!
+~
+AMax 1
+NHeight 75
+ActBits 2
+ActBits3 2
+Affect_By 40
+AffectTWO 524288
+Money 300
+Level 30
+Sex 1
+MobType 0
+Hp 2
+Guard 3
+End
+
+#5011
+Name athenae Guard~
+Short An Athenaean Guard~
+Long 
+An Athenae Guard stands here holding his sword peering at you strangely.
+~
+AMax 4
+NHeight 75
+ActBits 2
+Affect_By 524456
+AffectTWO 524288
+Money 500
+Level 50
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5012
+Name athenae Guard~
+Short An Athenae Guard~
+Long 
+An Athenae Guard stands here holding his sword peering at you strangely.
+~
+AMax 4
+NHeight 75
+ActBits 2
+Affect_By 524456
+AffectTWO 524288
+Money 500
+Level 50
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5013
+Name athenae Guard~
+Short An Athenaean Guard~
+Long 
+An Athenae Guard stands here holding his sword peering at you strangely.
+~
+AMax 4
+NHeight 75
+ActBits 2
+Affect_By 524456
+AffectTWO 524288
+Money 500
+Level 50
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5014
+Name athenae Guard~
+Short An Athenae Guard~
+Long 
+An Athenae Guard stands here holding his sword peering at you strangely.
+~
+AMax 4
+NHeight 75
+ActBits 2
+Affect_By 524456
+AffectTWO 524288
+Money 500
+Level 50
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5015
+Name julian master thief~
+Short Julian, the master thief~
+Long 
+Julian, the master thief skulks about here.
+~
+AMax 1
+ActBits 1
+Affect_By 65536
+Alignment 2
+Money 1200
+Level 120
+Sex 1
+MobType 0
+Guard 0
+Spec spec_thief
+End
+
+#5016
+Name damon warrior~
+Short Damon, the Master Warrior~
+Long 
+Damon, the master warrior wanders about here.
+~
+AMax 1
+ActBits 1
+Money 3000
+Level 300
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#5017
+Name guard elite warrior~
+Short An elite aethenae warrior~
+Long 
+An elite aethenae warrior wanders about here.
+~
+AMax 3
+ActBits 1
+Alignment 1
+Money 1200
+Level 120
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#5020
+Name guild tester~
+Short guild checker test guy~
+Long 
+Guild checker test guy
+~
+AMax 1
+NHeight 0
+ActBits4 4
+Affect_By 520
+Money 100
+Level 10
+Guard 0
+End
+
+#5030
+Name tiny dragon~
+Short A tiny dragon~
+Long 
+A tiny dragon stands here open for attack.
+~
+AMax 5
+NHeight 0
+Affect_By 520
+Money 24464
+Level 9000
+Hp 24464
+Guard 0
+End
+
+#5064
+Name ranger signum dispenser~
+Short ranger signum dispenser~
+Long 
+A ranger signum dispenser stands here preaching about his guild.
+~
+AMax 1
+ActBits 2
+Level 20
+Sex 1
+Hp 2
+Guard 0
+End
+
+#5065
+Name vircilla prac~
+Short Vircilla the Sage~
+Long 
+Vircilla the town sage stands here giving knowledge.
+~
+AMax 1
+ActBits 258
+Affect_By 520
+Alignment 2
+Money 3500
+Level 350
+Sex 2
+MobType 0
+Hp 50
+Guard 0
+ASklTaught 0 568
+ASklTaught 1 591
+ASklTaught 2 356
+ASklTaught 3 194
+ASklTaught 4 161
+ASklTaught 5 261
+ASklTaught 6 84
+End
+
+#5087
+Name banker alma~
+Short Banker Alma~
+Long 
+Alma the banker is here waiting to engange in financial dealings.
+~
+AMax 1
+NHeight 0
+ActBits 393218
+Affect_By 524456
+AffectTWO 524288
+Money 3000
+Level 300
+Sex 2
+Hp 50
+Guard 0
+End
+
+#5092
+Name baker amaryllis~
+Short provisioner amaryllis~
+Long 
+Amaryllis seems keen on displaying her wares.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524456
+AffectTWO 524288
+Money 500
+Level 300
+Sex 2
+Hp 50
+Guard 0
+Shop    0   0   0   0  27 100 100 6 19
+Shopd2 5
+Shopd3 4
+ShopCr 90017
+End
+
+#5137
+Name silvannis~
+Short silvannis~
+Long 
+Silvannis is here to help you with your weapon and armor needs.
+~
+AMax 1
+ActBits 3145730
+Affect_By 524968
+AffectTWO 524288
+Money 500
+Level 300
+Sex 2
+Hp 50
+Guard 0
+Shop    0   9   5  21   0 100 100 6 19
+Shopd2 5
+Shopd3 4
+End
+
+#5142
+Name justina~
+Short merchant justina~
+Long 
+Justina the gemseller is here.
+~
+AMax 1
+ActBits 2
+Affect_By 524456
+AffectTWO 524288
+Money 500
+Level 300
+Sex 2
+Hp 50
+Guard 0
+Shop    0   0   0   0   0 100 100 6 19
+Shopd2 5
+Shopd3 4
+End
+
+#5168
+Name dabney~
+Short Dabney~
+Long 
+Dabney is here selling his equipment.
+~
+AMax 1
+ActBits 2
+Affect_By 532608
+Level 400
+Sex 1
+MobType 0
+Guard 0
+Shop    0  27   0   0   0 100 50 0 24
+Shopd2 5
+Shopd3 4
+End
+
+#5174
+Name thiefs guardian~
+Short a thiefs guardian~
+Long 
+A thiefs guardian stands here waiting to give you passage.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 512
+Money 200
+Level 300
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5180
+Name assassins guardian~
+Short an assassin's guardian~
+Long 
+An assassins guardian waits here to give you passage.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 512
+Money 200
+Level 300
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5184
+Name warrior guardian~
+Short A Warrior Guardian~
+Long 
+A Warrior Guardian waits to give you passage.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 520
+Level 300
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5188
+Name ranger guardian~
+Short A ranger guardian~
+Long 
+A ranger guardian waits to give you passage.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 512
+Money 200
+Level 300
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5192
+Name tinker guardian~
+Short tinker guardian~
+Long 
+A tinker guardian waits to give you passage.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 520
+Money 200
+Level 300
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5194
+Name cleric guardian~
+Short A cleric guardian~
+Long 
+A cleric guardian waits here to give you passage.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 512
+Money 200
+Level 300
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5196
+Name healer guardian~
+Short A healer guardian~
+Long 
+A healer guardian waits to give you passage.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits4 4
+Affect_By 512
+Money 300
+Level 300
+Sex 2
+Hp 50
+Guard 0
+End
+
+#5200
+Name sorcerer guardian~
+Short a sorcerer guardian~
+Long 
+A sorcerer guardian waits here to give you passage.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 512
+Money 200
+Level 300
+Sex 1
+Hp 50
+Guard 0
+End
+
+#5204
+Name mystic guardian~
+Short a mystic guardian~
+Long 
+A mystic guardian waits here to give you passage.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 512
+Money 200
+Level 300
+Sex 1
+Hp 50
+Guard 0
+End
+
+#5208
+Name conjurers guardian~
+Short a conjurers guardian~
+Long 
+A conjurers guardian is waiting to give you passage.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 512
+Money 200
+Level 300
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5212
+Name battlemaster guardian~
+Short a battlemaster guardian~
+Long 
+A battlemaster guardian waits to give you passage.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 512
+Money 200
+Level 300
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#5216
+Name an elite guard~
+Short An elite guard~
+Long 
+An elite guard of Athenae patrols here.
+~
+AMax 5
+NHeight 0
+Money 200
+Level 120
+Sex 1
+MobType 0
+Hp 3
+Guard 0
+End
+
+#5217
+Name conan great prac~
+Short Conan the great~
+Long 
+Conan the well-known barbarian travels this land in search of combat.
+~
+AMax 1
+ActBits 1
+ActBits4 16384
+Affect_By 524968
+AffectTWO 34078728
+Alignment 1
+Money 500
+Level 450
+Sex 1
+MobType 23
+Hp 20
+Guard 0
+Spec spec_warrior
+End
+
+#0
+
+
+
+#OBJDATA
+#5000
+Name cheater helm~
+Short [1m[37ms[30mecret [37mc[30mheater [37mh[30melm~
+Descr
+You shouldn't see this
+[0;36m~
+Type 9
+Extra 8192
+Wear 17
+Values 900 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#5009
+Name spiritual longblade blade mithril~
+Short a [1m[36msp[0m[36mir[1mit[1m[37mu[36mal [0m[36mlo[1mng[37mb[0m[36mla[1mde[0m of [1m[30mm[36mit[37mh[36mr[0m[36mi[1m[30ml[0m~
+Descr
+A [1m[36msp[0m[36mir[1mit[1m[37mu[36mal [0m[36mlo[1mng[37mb[0m[36mla[1mde[0m of [1m[30mm[36mit[37mh[36mr[0m[36mi[1m[30ml[0m lies on the ground.
+[0;36m~
+Type 5
+Extra 37748737
+Wear 24577
+Values 0 0 0 3 0 0 0 4 4 0 2097184
+Weight 9
+Cost 3000
+End
+
+#5015
+Name vercumilated mask horror apb~
+Short a [32mve[1mrc[37mu[30mm[0m[32mil[1mate[36md [30mhorror [0mmask~
+Descr
+A shifting mask lies on the ground collecting dust.
+[0;36m~
+Type 9
+Extra 2
+Wear 65537
+Weight 30
+Cost 302
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+Affect 13 -20 1 0 0
+End
+
+#5016
+Name glowing black ring~
+Short a [1m[37mg[33mlowin[37mg [0m[37mb[1m[30mlac[0m[37mk[0m ring~
+Descr
+A glowing ring lies on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 3
+Values 0 0 0 0 0 0 9 9 0 0 0
+Weight 3
+Cost 300
+Affect 20 2 1 0 0
+Affect 13 3 1 0 0
+End
+
+#5030
+Name tickle structure doll~
+Short [1m[31mA "Tickle Me Structure" Doll[0m~
+Descr
+Here lies a leet doll, one of a kind.
+[0;36m~
+Type 13
+Extra 3
+Wear 24577
+Weight 0
+Cost 0
+Affect 17 1 1 0 0
+End
+
+#5031
+Name magical turban apb~
+Short a [1m[34mm[0m[34ma[1m[36mg[0m[36mi[1m[37mca[34ml [1mt[0m[36mu[1m[36mrb[1m[37ma[0m[36mn[0m~
+Descr
+A [1m[34mm[0m[34ma[1m[36mg[0m[36mi[1m[37mca[34ml [1mt[0m[36mu[1m[36mrb[1m[37ma[0m[36mn[0m lies on the ground.
+[0;36m~
+Type 9
+Extra 33554435
+Wear 17
+Values 0 0 5 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 17 2 1 0 0
+Affect 20 3 1 0 0
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+Affect 19 1 1 0 0
+Affect 18 4 1 0 0
+End
+
+#5032
+Name doll penguin tickle~
+Short a [1m[33mYellow [37mPeNGiuN Doll[0m~
+Descr
+Short [1m[31mA [33mYellow [37mPEnGUIn Doll[0m is here.
+[0;36m~
+Type 13
+Extra 33554435
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#5033
+Name doll hex~
+Short a [1m"[34mHex [0m[1mthe [1m[32mh4x0r[0m[1m"[0m doll~
+Descr
+A child's lost doll lays here in solitude.
+[0;36m~
+Type 13
+Extra 50331651
+Wear 24577
+Weight 0
+Cost 100
+End
+
+#5064
+Name pedang hammer concussion~
+Short a [1mped[31mang[0m hammer~
+Descr
+A pedang hammer is lying here.
+[0;36m~
+Type 5
+Extra 524288
+Wear 16385
+Values 0 25 0 7 0 0 0 3 5 0 0
+Weight 35
+Cost 2500
+End
+
+#5065
+Name rose bush garden~
+Short [32mA small [31mrose [32mbush is planted in the ground here~
+Descr
+[32mA small [31mrose [32mbush is planted in the ground here.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#5066
+Name spiked crimson ring~
+Short a [1m[30mspiked [0m[31mcrimson[0m ring~
+Descr
+A spiked ring lies on the ground collecting dust.
+[0;36m~
+Type 9
+Extra 1
+Wear 3
+Values 0 0 0 4 0 0 7 7 0 0 0
+Weight 13
+Cost 393
+Affect 18 1 1 0 0
+Affect 20 2 1 0 0
+End
+
+#5068
+Name crackling shield~
+Short a [1m[34mc[36mr[34ma[36mc[34mk[36ml[34mi[36mn[34mg[0m[37m shield~
+Descr
+A crackling shield lies on the ground.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 513
+Values 0 0 0 3 0 0 0 0 0 0 0
+Weight 3
+Cost 300
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+Affect 19 -1 1 0 0
+Affect 20 2 1 0 0
+End
+
+#5074
+Name sacred kneepad~
+Short a [1m[36ms[0m[36macre[1md[0m kneepad of [1m[30mes[0m[37ms[1me[0m[37mn[1m[30mce[0m~
+Descr
+A aged kneepad lies on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 2097153
+Values 2 0 0 0 0 0 0 0 0 0 0
+Weight 3
+Cost 0
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+Affect 22 1 1 0 0
+End
+
+#5083
+Name belt dimenstional shift apb~
+Short a belt of [34mdi[1mme[0m[36mn[1msi[34mon[0m[34mal [36ms[1mh[0m[34mi[1m[34mf[0m[36mt[0m~
+Descr
+A belt of [34mdi[1mme[0m[36mn[1msi[34mon[0m[34mal [36ms[1mh[0m[34mi[1m[34mf[0m[36mt[0m lies on the ground.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 2049
+Values 0 5 0 0 0 0 0 0 0 0 0
+Weight 9
+Cost 1000
+Affect 14 10 1 0 0
+Affect 18 3 2 0 0
+Affect 19 1 1 0 0
+End
+
+#5084
+Name titanium backplate obsidian~
+Short an [1m[30mobsidian[0m studded [36mtitanium[0m backplate~
+Descr
+A large titanium backplate is dropped on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 4194305
+Values 0 5 0 0 0 0 0 0 0 0 0
+Weight 30
+Cost 303
+Affect 19 1 1 0 0
+Affect 14 -10 1 0 0
+End
+
+#5085
+Name cyan colored gauntlets~
+Short a pair of [36mcyan colored[0m gauntlets~
+Descr
+A pair of colored gauntlets lie on the ground.
+[0;36m~
+Type 9
+Wear 129
+Values 0 0 0 3 0 0 7 7 0 0 0
+Weight 3
+Cost 0
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+Affect 17 5 1 0 0
+End
+
+#5090
+Name cloak void shifting~
+Short a shifting cloak of the [1m[30mvoid[0m~
+Descr
+A shifting cloak of the void is on the ground
+[0;36m~
+Type 13
+Wear 1
+Weight 0
+Cost 0
+End
+
+#5091
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#5093
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Values 0 0 0 3 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#5094
+Name sword agony apb~
+Short a sword of immense [31ma[1mg[37mo[30mn[31my[0m~
+Descr
+There seems to be a sword laying on the ground.
+[0;36m~
+Type 5
+Extra 4456450
+Wear 24577
+Values 0 60 0 3 0 0 0 5 3 0 0
+Weight 31
+Cost 300
+Affect 19 1 1 0 0
+End
+
+#5100
+Name bat skull obsidian belt~
+Short [1m[30ma b[0m[37ma[1mt[0m[37m-[1m[30ms[0m[37mk[1mu[0m[37ml[1m[30ml [37mo[0m[37mb[1m[30msidi[0m[37ma[1mn[0m belt~
+Descr
+A bat skull belt lies on the ground discarded
+[0;36m~
+Type 9
+Extra 1
+Wear 2049
+Values 0 4 0 0 0 0 0 0 0 0 0
+Weight 31
+Cost 303
+Affect 13 10 1 0 0
+Affect 14 15 1 0 0
+End
+
+#5103
+Name anklet dex NEVER PUT IN GAME~
+Short an anklet of [1m[36md[0m[36mexterit[1m[36my[0m~
+Descr
+An anklet of dexterity is on the ground.
+[0;36m~
+Type 9
+Extra 4097
+Wear 524289
+Weight 300
+Cost 3000
+Affect 2 1 1 0 0
+Affect 13 -500 1 0 0
+Affect 14 -300 1 0 0
+Affect 19 -30 1 0 0
+Affect 22 -30 1 0 0
+Affect 20 -30 1 0 0
+End
+
+#5107
+Name mystical baldric~
+Short a [36mmy[1ms[37mt[36mica[0m[36ml [31mbaldric[0m~
+Descr
+A baldric lies on the ground.
+[0;36m~
+Type 9
+Extra 2
+Wear 32769
+Weight 9
+Cost 3933
+Affect 20 3 1 0 0
+Affect 14 5 1 0 0
+Affect 17 3 1 0 0
+Affect 13 5 1 0 0
+End
+
+#5108
+Name time shifting ring 1 apb~
+Short a [36mti[1m[37mm[36me sh[0m[36mift[1m[37min[30mg r[37mi[30mng~
+Descr
+A ring lies on the ground phasing in and out of time.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 3
+Values 0 1 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+Affect 14 10 1 0 0
+Affect 13 10 1 0 0
+Affect 20 3 1 0 0
+Affect 17 2 1 0 0
+End
+
+#5113
+Name mystical elbowguard~
+Short a [36mmy[1mst[37mi[36mca[0m[36ml[0m elbowguard~
+Descr
+A radiating elbowguard lies in the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 1048577
+Values 0 0 0 3 0 0 7 7 0 0 0
+Weight 3
+Cost 0
+Affect 20 3 1 0 0
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+End
+
+#5116
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#5153
+Name dwarven war boots~
+Short a pair of [1m[32mdwarven [31mwar [32mboots[0m~
+Descr
+A pair of dwarven war boots lie on the ground.
+[0;36m~
+Type 9
+Extra 2
+Wear 65
+Values 5 0 0 0 0 0 9 9 0 0 0
+Weight 9
+Cost 1000
+Affect 18 1 1 0 0
+Affect 14 15 2 0 0
+Affect 22 2 2 0 0
+End
+
+#5154
+Name ring tourmaline apb~
+Short a [34ms[1m[30mp[0m[37mi[1mk[0m[37me[34md [34mt[1mo[0m[32mu[1mr[0m[36mm[1ma[0m[31ml[1mi[34mn[0m[34me[0m ring~
+Descr
+A wierd looking pizza ring is on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 3
+Values 0 0 0 2 0 0 9 9 0 0 0
+Weight 9
+Cost 300
+Affect 13 -10 1 0 0
+Affect 17 1 1 0 0
+Affect 18 -1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#5171
+Name guild key~
+Short a guild key~
+Descr
+A key that unlocks the power of knowledge.
+[0;36m~
+Type 18
+Extra 33570944
+Wear 1
+Weight 50
+Cost 0
+End
+
+#5172
+Name crystal dagger venom piercing~
+Short [1m[30mZ[37ma[30mr[37mc[30mo[37mn[30m'[37ms [1m[32mc[0m[32mrysta[1ml [1m[30mdagger of night[0m~
+Descr
+A crystal dagger of venom has been left here.
+[0;36m~
+Type 5
+Extra 33685505
+Wear 16385
+Values 0 50 0 2 0 0 0 3 7 0 0
+Weight 10
+Cost 10000
+End
+
+#5173
+Name aethenaen warhammer concussion~
+Short an [34mae[1mthena[0m[34men[0m warhammer~
+Descr
+An aethenaen warhammer lies on the ground here.
+[0;36m~
+Type 5
+Extra 524288
+Wear 16385
+Values 0 50 0 8 0 0 0 2 8 0 0
+Weight 40
+Cost 50000
+Affect 18 -3 1 0 0
+Affect 19 1 1 0 0
+End
+
+#5174
+Name signum~
+Short thief's signum~
+Descr
+A signum to Thief's Guild.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 1
+Weight 50
+Cost 500
+End
+
+#5177
+Name guild key~
+Short a guild key~
+Descr
+A key that unlocks the power of knowledge.
+[0;36m~
+Type 18
+Extra 33570944
+Wear 1
+Weight 50
+Cost 0
+End
+
+#5180
+Name signum~
+Short assassin's signum~
+Descr
+A signum to Assassin's Guild.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 1
+Weight 50
+Cost 500
+End
+
+#5181
+Name guild key~
+Short a guild key~
+Descr
+A key that unlocks the power of knowledge.
+[0;36m~
+Type 18
+Extra 33570944
+Wear 1
+Weight 50
+Cost 0
+End
+
+#5184
+Name signum~
+Short warrior's signum~
+Descr
+A token to Warrior's Guild.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 1
+Weight 50
+Cost 500
+End
+
+#5185
+Name guild key~
+Short a guild key~
+Descr
+A key that unlocks the power of knowledge.
+[0;36m~
+Type 18
+Extra 33570944
+Wear 1
+Weight 50
+Cost 0
+End
+
+#5188
+Name signum~
+Short ranger's signum~
+Descr
+A signum to Ranger's Guild.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 1
+Weight 50
+Cost 500
+End
+
+#5189
+Name guild key~
+Short a guild key~
+Descr
+A key that unlocks the power of knowledge.
+[0;36m~
+Type 18
+Extra 33570944
+Wear 1
+Weight 50
+Cost 0
+End
+
+#5190
+Name helmet total protection apb ~
+Short a helmet of [32mt[1mota[0m[32ml[0m [31mpr[1mot[33me[37mc[33mt[31mio[0m[31mn[0m~
+Descr
+A helmet of total protection lies on the ground here.
+[0;36m~
+Type 9
+Extra 8193
+Wear 17
+Values 0 0 5 0 0 0 0 0 0 0 0
+Weight 9
+Cost 300
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
+Affect 22 2 1 0 0
+Affect 13 10 1 0 0
+End
+
+#5191
+Name mask void~
+Short a [1m[36mm[0m[36mas[1mk[0m of the [1m[30mv[0m[37mo[1mi[30md[0m~
+Descr
+A strange mask lies on the ground here.
+[0;36m~
+Type 8
+Extra 1
+Wear 65537
+Weight 0
+Cost 0
+End
+
+#5192
+Name signum~
+Short tinker's signum~
+Descr
+A signum to Tinker's Guild.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 1
+Weight 50
+Cost 500
+End
+
+#5193
+Name guild key~
+Short a guild key~
+Descr
+A key that unlocks the power of knowledge.
+[0;36m~
+Type 18
+Extra 33570944
+Wear 1
+Weight 50
+Cost 0
+End
+
+#5194
+Name signum cleric~
+Short cleric's signum~
+Descr
+A signum to the Cleric's Guild.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 1
+Weight 50
+Cost 2500
+End
+
+#5195
+Name trash reuse~
+Short trash reuse~
+Descr
+Trash reuse
+[0;36m~
+Type 13
+Extra 33554688
+Wear 1
+Weight 50
+Cost 2000
+End
+
+#5196
+Name trash reuse~
+Short trash reuse~
+Descr
+Trash reuse
+[0;36m~
+Type 13
+Extra 33554436
+Wear 1
+Weight 50
+Cost 2000
+End
+
+#5197
+Name guild key~
+Short a guild key~
+Descr
+A key that unlocks the power of knowledge.
+[0;36m~
+Type 18
+Extra 33570944
+Wear 1
+Weight 50
+Cost 0
+End
+
+#5200
+Name signum~
+Short sorcerer's signum~
+Descr
+A Signum to Sorcerer's Guild.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 1
+Weight 50
+Cost 500
+End
+
+#5201
+Name guild key~
+Short a guild key~
+Descr
+A key that unlocks the power of knowledge.
+[0;36m~
+Type 18
+Extra 33570944
+Wear 1
+Weight 50
+Cost 0
+End
+
+#5204
+Name signum~
+Short mystic's signum~
+Descr
+A signum to Mystic's Guild.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 1
+Weight 50
+Cost 500
+End
+
+#5205
+Name guild key~
+Short a guild key~
+Descr
+A key that unlocks the power of knowledge.
+[0;36m~
+Type 18
+Extra 33570944
+Wear 1
+Weight 50
+Cost 0
+End
+
+#5208
+Name signum~
+Short conjurer's signum~
+Descr
+A signum to Conjurer's Guild.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 1
+Weight 50
+Cost 500
+End
+
+#5209
+Name guild key~
+Short a guild key~
+Descr
+A key that unlocks the power of knowledge.
+[0;36m~
+Type 18
+Extra 33570944
+Wear 1
+Weight 50
+Cost 0
+End
+
+#5212
+Name signum~
+Short battlemaster's signum~
+Descr
+A signum to Battlemaster's Guild.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 1
+Weight 50
+Cost 500
+End
+
+#5213
+Name athenae breastplate body~
+Short an [34mat[1m[34mhena[0m[34men[0m breastplate~
+Descr
+A breastplate of Athenae lies here.
+[0;36m~
+Type 9
+Extra 1
+Wear 9
+Values 0 5 1 2 0 0 40 40 0 2 0
+Weight 70
+Cost 5400
+Affect 17 -2 1 0 0
+Affect 18 2 1 0 0
+End
+
+#5214
+Name helmet helm athenae head apb~
+Short an [34mat[1m[34mhena[0m[34men[0m helmet~
+Descr
+A helmet lies here waiting to be worn.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 17
+Values 0 0 2 0 0 0 20 20 0 1 0
+Weight 25
+Cost 500
+Affect 19 1 1 0 0
+End
+
+#5215
+Name shield athenae~
+Short an [34mat[1m[34mhena[0m[34men[0m shield~
+Descr
+A shield lies face-down in the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 513
+Values 1 3 0 4 0 0 30 30 0 0 0
+Weight 30
+Cost 1000
+Affect 17 -1 1 0 0
+Affect 14 -5 1 0 0
+Affect 13 10 1 0 0
+End
+
+#5216
+Name armplates~
+Short armplates of Athenae~
+Descr
+(none)~
+Type 9
+Wear 1
+Weight 0
+Cost 0
+End
+
+#5217
+Name flaming breastplate body 2apb apb~
+Short a [31mflaming[0m breastplate~
+Descr
+A flaming breastplate lies on the ground discarded.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 9
+Values 0 10 0 0 0 0 0 0 0 0 0
+Weight 53
+Cost 2000
+Affect 19 2 1 0 0
+Affect 13 -15 1 0 0
+End
+
+#5219
+Name flayer boots~
+Short a pair of [36mf[1ml[0m[36ma[1my[0m[36me[1mr[0m boots~
+Descr
+A pair of boots lie on the ground
+[0;36m~
+Type 9
+Extra 1
+Wear 65
+Values 4 0 0 0 0 0 0 0 0 0 0
+Weight 9
+Cost 3303
+Affect 22 3 1 0 0
+Affect 14 10 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#5000
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5001 0 0
+~
+~
+Door 1 0 0 5216 0 0
+~
+~
+Door 2 0 0 5002 0 0
+~
+~
+Door 3 0 0 56752 0 0
+~
+~
+End
+
+#5001
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56651 0 0
+~
+~
+Door 1 0 0 5225 0 0
+~
+~
+Door 2 0 0 5000 0 0
+~
+~
+Door 3 0 0 56759 0 0
+~
+~
+End
+
+#5002
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Flags 2
+Sector 30
+Door 0 0 0 5000 0 0
+~
+~
+Door 1 0 0 5007 0 0
+~
+~
+Door 2 0 0 5056 0 0
+~
+~
+Door 3 0 0 5003 0 0
+~
+~
+End
+
+#5003
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56752 0 0
+~
+~
+Door 1 0 0 5002 0 0
+~
+~
+Door 3 0 0 5004 0 0
+~
+~
+End
+
+#5004
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56753 0 0
+~
+~
+Door 1 0 0 5003 0 0
+~
+~
+Door 3 0 0 5005 0 0
+~
+~
+End
+
+#5005
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56754 0 0
+~
+~
+Door 1 0 0 5004 0 0
+~
+~
+Door 3 0 0 5006 0 0
+~
+~
+End
+
+#5006
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56755 0 0
+~
+~
+Door 1 0 0 5005 0 0
+~
+~
+Door 3 0 0 5013 0 0
+~
+~
+End
+
+#5007
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5216 0 0
+~
+~
+Door 1 0 0 5008 0 0
+~
+~
+Door 3 0 0 5002 0 0
+~
+~
+End
+
+#5008
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5217 0 0
+~
+~
+Door 1 0 0 5009 0 0
+~
+~
+Door 3 0 0 5007 0 0
+~
+~
+End
+
+#5009
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5218 0 0
+~
+~
+Door 1 0 0 5010 0 0
+~
+~
+Door 3 0 0 5008 0 0
+~
+~
+End
+
+#5010
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5219 0 0
+~
+~
+Door 1 0 0 5011 0 0
+~
+~
+Door 3 0 0 5009 0 0
+~
+~
+End
+
+#5011
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5220 0 0
+~
+~
+Door 1 0 0 5012 0 0
+~
+~
+Door 3 0 0 5010 0 0
+~
+~
+End
+
+#5012
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5221 0 0
+~
+~
+Door 1 0 0 9106 0 0
+~
+~
+Door 2 0 0 5015 0 0
+~
+~
+Door 3 0 0 5011 0 0
+~
+~
+End
+
+#5013
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56756 0 0
+~
+~
+Door 1 0 0 5006 0 0
+~
+~
+Door 3 0 0 5014 0 0
+~
+~
+End
+
+#5014
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56757 0 0
+~
+~
+Door 1 0 0 5013 0 0
+~
+~
+Door 2 0 0 5041 0 0
+~
+~
+Door 3 0 0 2640 0 0
+~
+~
+End
+
+#5015
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5012 0 0
+~
+~
+Door 1 0 0 4773 0 0
+~
+~
+Door 2 0 0 5016 0 0
+~
+~
+End
+
+#5016
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5015 0 0
+~
+~
+Door 1 0 0 4769 0 0
+~
+~
+Door 2 0 0 5017 0 0
+~
+~
+End
+
+#5017
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5016 0 0
+~
+~
+Door 1 0 0 4765 0 0
+~
+~
+Door 2 0 0 5018 0 0
+~
+~
+End
+
+#5018
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5017 0 0
+~
+~
+Door 1 0 0 10046 0 0
+~
+~
+Door 2 0 0 5019 0 0
+~
+~
+End
+
+#5019
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5018 0 0
+~
+~
+Door 1 0 0 10044 0 0
+~
+~
+Door 2 0 0 5020 0 0
+~
+~
+End
+
+#5020
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5019 0 0
+~
+~
+Door 1 0 0 10042 0 0
+~
+~
+Door 2 0 0 5021 0 0
+~
+~
+End
+
+#5021
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5020 0 0
+~
+~
+Door 1 0 0 5054 0 0
+~
+~
+Door 2 0 0 5022 0 0
+~
+~
+Door 3 0 0 5112 0 0
+~
+~
+End
+
+#5022
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5021 0 0
+~
+~
+Door 1 0 0 10040 0 0
+~
+~
+Door 2 0 0 5023 0 0
+~
+~
+End
+
+#5023
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5022 0 0
+~
+~
+Door 1 0 0 10039 0 0
+~
+~
+Door 2 0 0 5024 0 0
+~
+~
+End
+
+#5024
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5023 0 0
+~
+~
+Door 1 0 0 10038 0 0
+~
+~
+Door 2 0 0 5025 0 0
+~
+~
+End
+
+#5025
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5024 0 0
+~
+~
+Door 1 0 0 10037 0 0
+~
+~
+Door 2 0 0 5026 0 0
+~
+~
+End
+
+#5026
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5025 0 0
+~
+~
+Door 1 0 0 10036 0 0
+~
+~
+Door 2 0 0 5027 0 0
+~
+~
+End
+
+#5027
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5026 0 0
+~
+~
+Door 1 0 0 10035 0 0
+~
+~
+Door 2 0 0 5028 0 0
+~
+~
+End
+
+#5028
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5027 0 0
+~
+~
+Door 1 0 0 10034 0 0
+~
+~
+Door 2 0 0 10006 0 0
+~
+~
+Door 3 0 0 5029 0 0
+~
+~
+End
+
+#5029
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5028 0 0
+~
+~
+Door 2 0 0 10005 0 0
+~
+~
+Door 3 0 0 5030 0 0
+~
+~
+End
+
+#5030
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5029 0 0
+~
+~
+Door 2 0 0 10004 0 0
+~
+~
+Door 3 0 0 5031 0 0
+~
+~
+End
+
+#5031
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5030 0 0
+~
+~
+Door 2 0 0 10003 0 0
+~
+~
+Door 3 0 0 5032 0 0
+~
+~
+End
+
+#5032
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5031 0 0
+~
+~
+Door 2 0 0 10002 0 0
+~
+~
+Door 3 0 0 5033 0 0
+~
+~
+End
+
+#5033
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5032 0 0
+~
+~
+Door 2 0 0 10001 0 0
+~
+~
+Door 3 0 0 5034 0 0
+~
+~
+End
+
+#5034
+Name Outside the Gates of Athenae~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5157 0 0
+~
+~
+Door 1 0 0 5033 0 0
+~
+~
+Door 2 0 0 10000 0 0
+~
+~
+Door 3 0 0 5035 0 0
+~
+~
+End
+
+#5035
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5034 0 0
+~
+~
+Door 2 0 0 10009 0 0
+~
+~
+Door 3 0 0 5036 0 0
+~
+~
+End
+
+#5036
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5035 0 0
+~
+~
+Door 2 0 0 10010 0 0
+~
+~
+Door 3 0 0 5037 0 0
+~
+~
+End
+
+#5037
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5036 0 0
+~
+~
+Door 2 0 0 10011 0 0
+~
+~
+Door 3 0 0 5038 0 0
+~
+~
+End
+
+#5038
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5037 0 0
+~
+~
+Door 2 0 0 10012 0 0
+~
+~
+Door 3 0 0 5039 0 0
+~
+~
+End
+
+#5039
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5038 0 0
+~
+~
+Door 2 0 0 10013 0 0
+~
+~
+Door 3 0 0 5040 0 0
+~
+~
+End
+
+#5040
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5053 0 0
+~
+~
+Door 1 0 0 5039 0 0
+~
+~
+Door 2 0 0 10014 0 0
+~
+~
+End
+
+#5041
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5014 0 0
+~
+~
+Door 2 0 0 5042 0 0
+~
+~
+Door 3 0 0 2641 0 0
+~
+~
+End
+
+#5042
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5041 0 0
+~
+~
+Door 2 0 0 5043 0 0
+~
+~
+Door 3 0 0 2642 0 0
+~
+~
+End
+
+#5043
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5042 0 0
+~
+~
+Door 2 0 0 5044 0 0
+~
+~
+Door 3 0 0 2643 0 0
+~
+~
+End
+
+#5044
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5043 0 0
+~
+~
+Door 2 0 0 5045 0 0
+~
+~
+Door 3 0 0 2644 0 0
+~
+~
+End
+
+#5045
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5044 0 0
+~
+~
+Door 2 0 0 5046 0 0
+~
+~
+Door 3 0 0 2645 0 0
+~
+~
+End
+
+#5046
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5045 0 0
+~
+~
+Door 2 0 0 5047 0 0
+~
+~
+Door 3 0 0 2646 0 0
+~
+~
+End
+
+#5047
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5046 0 0
+~
+~
+Door 1 0 0 5117 0 0
+~
+~
+Door 2 0 0 5048 0 0
+~
+~
+Door 3 0 0 2658 0 0
+~
+~
+End
+
+#5048
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5047 0 0
+~
+~
+Door 2 0 0 5049 0 0
+~
+~
+Door 3 0 0 2659 0 0
+~
+~
+End
+
+#5049
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5048 0 0
+~
+~
+Door 2 0 0 5050 0 0
+~
+~
+End
+
+#5050
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5049 0 0
+~
+~
+Door 2 0 0 5051 0 0
+~
+~
+End
+
+#5051
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5050 0 0
+~
+~
+Door 2 0 0 5052 0 0
+~
+~
+End
+
+#5052
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5051 0 0
+~
+~
+Door 2 0 0 5053 0 0
+~
+~
+End
+
+#5053
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5052 0 0
+~
+~
+Door 2 0 0 5040 0 0
+~
+~
+End
+
+#5054
+Name A Bridge~
+Descr
+A narrow bridge over the Putrid Stream.
+~
+Sector 6
+Door 0 0 0 10042 0 0
+~
+~
+Door 1 0 0 5055 0 0
+~
+~
+Door 2 0 0 10040 0 0
+~
+~
+Door 3 0 0 5021 0 0
+~
+~
+End
+
+#5055
+Name A Bridge~
+Descr
+A Narrow bridge over the Putrid Stream.
+~
+Sector 6
+Door 0 0 0 10043 0 0
+~
+~
+Door 1 0 0 4103 0 0
+~
+~
+Door 2 0 0 10041 0 0
+~
+~
+Door 3 0 0 5054 0 0
+~
+~
+End
+
+#5056
+Name The Gates of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Reset M 5014 1 100
+Reset M 5014 1 100
+Door 0 0 0 5002 0 0
+~
+~
+Door 2 3 0 5068 30 30
+~
+gate~
+End
+
+#5057
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5058 0 0
+~
+~
+Door 2 0 0 5069 0 0
+~
+~
+End
+
+#5058
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5059 0 0
+~
+~
+Door 2 0 0 5070 0 0
+~
+~
+Door 3 0 0 5057 0 0
+~
+~
+End
+
+#5059
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 2 0 0 5071 0 0
+~
+~
+Door 3 0 0 5058 0 0
+~
+~
+End
+
+#5060
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 3 0 0 5059 0 0
+~
+~
+End
+
+#5061
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 3 0 0 5060 0 0
+~
+~
+End
+
+#5062
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 2 0 0 5072 0 0
+~
+~
+Door 3 0 0 5064 0 0
+~
+~
+End
+
+#5064
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5062 0 0
+~
+~
+Door 2 0 0 5073 0 0
+~
+~
+End
+
+#5065
+Name A Small Rose Garden~
+Descr
+This is a small looking garden, it somehow seems a little magical. You
+almost feel your wounds healing just by sitting here. 
+~
+Flags2 6
+Flags 69632
+Reset O 5065 -5 100
+Reset M 5065 1 100
+Reset O 93 -1 10
+Reset O 5153 -1 35
+Door 2 0 0 5074 0 0
+~
+~
+Door 5 259 0 11000 30 30
+~
+trench~
+End
+
+#5066
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 1 0 0 5065 0 0
+~
+~
+End
+
+#5067
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 1 0 0 5066 0 0
+~
+~
+End
+
+#5068
+Name The Northern Street of Athenae~
+Descr
+This is the main street of Athenae. It is bustling with traffic and
+activity. Off to either side you can see doorways that lead to the many
+vendors that call this city their home. 
+~
+Door 0 3 0 5056 30 30
+~
+gate~
+Door 1 0 0 5069 0 0
+~
+~
+Door 2 0 0 5075 0 0
+~
+~
+Door 3 0 0 5072 0 0
+~
+~
+End
+
+#5069
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5057 0 0
+~
+~
+Door 1 0 0 5070 0 0
+~
+~
+Door 2 0 0 5076 0 0
+~
+~
+Door 3 0 0 5068 0 0
+~
+~
+End
+
+#5070
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5058 0 0
+~
+~
+Door 1 0 0 5071 0 0
+~
+~
+Door 2 0 0 5077 0 0
+~
+~
+Door 3 0 0 5069 0 0
+~
+~
+End
+
+#5071
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5059 0 0
+~
+~
+Door 2 0 0 5078 0 0
+~
+~
+Door 3 0 0 5070 0 0
+~
+~
+End
+
+#5072
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5062 0 0
+~
+~
+Door 1 0 0 5068 0 0
+~
+~
+Door 2 0 0 5079 0 0
+~
+~
+Door 3 0 0 5073 0 0
+~
+~
+End
+
+#5073
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5064 0 0
+~
+~
+Door 1 0 0 5072 0 0
+~
+~
+Door 2 0 0 5080 0 0
+~
+~
+Door 3 0 0 5074 0 0
+~
+~
+End
+
+#5074
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5065 0 0
+~
+~
+Door 1 0 0 5073 0 0
+~
+~
+Door 2 0 0 5081 0 0
+~
+~
+End
+
+#5075
+Name The Northern Street of Athenae~
+Descr
+This is the main street of Athenae. It is bustling with traffic and
+activity. Off to either side you can see doorways that lead to the many
+vendors that call this city their home. 
+~
+Door 0 0 0 5068 0 0
+~
+~
+Door 2 0 0 5082 0 0
+~
+~
+End
+
+#5076
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5069 0 0
+~
+~
+Door 1 0 0 5077 0 0
+~
+~
+Door 2 0 0 5088 0 0
+~
+~
+End
+
+#5077
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5070 0 0
+~
+~
+Door 1 0 0 5078 0 0
+~
+~
+Door 2 0 0 5089 0 0
+~
+~
+Door 3 0 0 5076 0 0
+~
+~
+End
+
+#5078
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5071 0 0
+~
+~
+Door 2 0 0 5090 0 0
+~
+~
+Door 3 0 0 5077 0 0
+~
+~
+End
+
+#5079
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5072 0 0
+~
+~
+Door 2 0 0 5083 0 0
+~
+~
+Door 3 0 0 5080 0 0
+~
+~
+End
+
+#5080
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5073 0 0
+~
+~
+Door 1 0 0 5079 0 0
+~
+~
+Door 2 0 0 5084 0 0
+~
+~
+Door 3 0 0 5081 0 0
+~
+~
+End
+
+#5081
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5074 0 0
+~
+~
+Door 1 0 0 5080 0 0
+~
+~
+Door 2 0 0 5085 0 0
+~
+~
+End
+
+#5082
+Name The Northern Street of Athenae~
+Descr
+This is the main street of Athenae. It is bustling with traffic and
+activity. Off to either side you can see doorways that lead to the many
+vendors that call this city their home. 
+~
+Door 0 0 0 5075 0 0
+~
+~
+Door 1 0 0 5088 0 0
+~
+~
+Door 2 0 0 5093 0 0
+~
+~
+Door 3 0 0 5083 0 0
+~
+~
+End
+
+#5083
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5079 0 0
+~
+~
+Door 1 0 0 5082 0 0
+~
+~
+Door 3 0 0 5084 0 0
+~
+~
+End
+
+#5084
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5080 0 0
+~
+~
+Door 1 0 0 5083 0 0
+~
+~
+Door 2 0 0 5098 0 0
+~
+~
+Door 3 515 0 5085 30 30
+~
+door~
+End
+
+#5085
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5081 0 0
+~
+~
+Door 1 0 0 5084 0 0
+~
+~
+Door 2 0 0 5099 0 0
+~
+~
+Door 3 515 0 5086 30 30
+~
+door~
+End
+
+#5086
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 515 0 5085 30 30
+~
+door~
+Door 3 0 0 5087 0 0
+~
+~
+End
+
+#5087
+Name The Bank of Athenae~
+Descr
+Though small, this is the financial center of the world. 
+~
+Reset M 5087 1 100
+Door 1 0 0 5086 0 0
+~
+~
+End
+
+#5088
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5076 0 0
+~
+~
+Door 1 0 0 5089 0 0
+~
+~
+Door 3 0 0 5082 0 0
+~
+~
+End
+
+#5089
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Reset M 5017 1 100
+Door 0 0 0 5077 0 0
+~
+~
+Door 1 0 0 5090 0 0
+~
+~
+Door 2 0 0 5095 0 0
+~
+~
+Door 3 0 0 5088 0 0
+~
+~
+End
+
+#5090
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5078 0 0
+~
+~
+Door 1 515 0 5091 30 30
+~
+door~
+Door 2 0 0 5096 0 0
+~
+~
+Door 3 0 0 5089 0 0
+~
+~
+End
+
+#5091
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5092 0 0
+~
+~
+Door 3 515 0 5090 30 30
+~
+door~
+End
+
+#5092
+Name Provisions Shop~
+Descr
+This is a great place for any traveler to pick up items they would need
+on their trips. Skins, potions, torches, and any other type of provisions
+you could need. 
+~
+Flags 4
+Sector 0
+Reset M 5092 1 100
+Reset O 761 500 100
+Reset O 762 500 100
+Reset O 37 50 100
+Reset O 39 12 100
+Reset O 36 6 100
+Reset O 30 24 100
+Reset O 31 2 100
+Door 3 0 0 5091 0 0
+~
+~
+End
+
+#5093
+Name The Northern Street of Athenae~
+Descr
+This is the main street of Athenae. It is bustling with traffic and
+activity. Off to either side you can see doorways that lead to the many
+vendors that call this city their home. 
+~
+Door 0 0 0 5082 0 0
+~
+~
+Door 2 0 0 5100 0 0
+~
+~
+End
+
+#5094
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5088 0 0
+~
+~
+End
+
+#5095
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5089 0 0
+~
+~
+Door 1 0 0 5096 0 0
+~
+~
+End
+
+#5096
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5090 0 0
+~
+~
+Door 3 0 0 5095 0 0
+~
+~
+End
+
+#5097
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5083 0 0
+~
+~
+End
+
+#5098
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5084 0 0
+~
+~
+Door 3 0 0 5099 0 0
+~
+~
+End
+
+#5099
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5085 0 0
+~
+~
+Door 1 0 0 5098 0 0
+~
+~
+End
+
+#5100
+Name The Northern Street of Athenae~
+Descr
+This is the main street of Athenae. It is bustling with traffic and
+activity. Off to either side you can see doorways that lead to the many
+vendors that call this city their home. 
+~
+Door 0 0 0 5093 0 0
+~
+~
+Door 2 0 0 5107 0 0
+~
+~
+End
+
+#5101
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5100 0 0
+~
+~
+Door 2 0 0 5113 0 0
+~
+~
+End
+
+#5102
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5098 0 0
+~
+~
+End
+
+#5103
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5099 0 0
+~
+~
+End
+
+#5104
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 2 0 0 5108 0 0
+~
+~
+Door 3 0 0 5100 0 0
+~
+~
+End
+
+#5105
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5095 0 0
+~
+~
+End
+
+#5106
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5096 0 0
+~
+~
+Door 1 0 0 5201 0 0
+~
+~
+End
+
+#5107
+Name Ath;The Center of Athenae~
+Descr
+This is the center of Athenae. The mayor is here imparting his advice to
+everyone that will listen. The city continues upward and you wonder if there
+isn't an area beneath where you stand. 
+~
+Flags2 4
+Flags 65536
+Reset M 5000 1 100
+Reset O 53 -1 10
+Reset O 5100 -1 30
+Reset O 44 -5 100
+Reset O 6 -5 100
+Reset O 41020 -1 10
+Reset O 4300 -1 5
+Reset O 90 -1 1
+Door 0 0 0 5100 0 0
+~
+~
+Door 1 0 0 5108 0 0
+~
+~
+Door 2 0 0 5118 0 0
+~
+~
+Door 3 0 0 5113 0 0
+~
+~
+Door 4 0 0 18921 0 0
+~
+~
+Door 5 771 0 10351 38 38
+~
+sewer grate~
+End
+
+#5108
+Name The Eastern Street of Athenae~
+Descr
+This a side street of Athenae. It is bustling with traffic and activity.
+Off to either side you can see doorways that lead to the many vendors that
+call this city their home. 
+~
+Reset M 7 1 100
+Door 1 0 0 5109 0 0
+~
+~
+Door 3 0 0 5107 0 0
+~
+~
+End
+
+#5109
+Name The Eastern Street of Athenae~
+Descr
+This a side street of Athenae. It is bustling with traffic and activity.
+Off to either side you can see doorways that lead to the many vendors that
+call this city their home. 
+~
+Reset M 5216 1 100
+Reset O 5215 -1 25
+Door 1 0 0 5110 0 0
+~
+~
+Door 3 0 0 5108 0 0
+~
+~
+End
+
+#5110
+Name The Eastern Street of Athenae~
+Descr
+This a side street of Athenae. It is bustling with traffic and activity.
+Off to either side you can see doorways that lead to the many vendors that
+call this city their home. 
+~
+Door 1 0 0 5111 0 0
+~
+~
+Door 3 0 0 5109 0 0
+~
+~
+End
+
+#5111
+Name The Eastern Street of Athenae~
+Descr
+This a side street of Athenae. It is bustling with traffic and activity.
+Off to either side you can see doorways that lead to the many vendors that
+call this city their home. 
+~
+Door 1 3 0 5112 30 30
+~
+gate~
+Door 3 0 0 5110 0 0
+~
+~
+End
+
+#5112
+Name The Gates of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Reset M 5011 1 100
+Reset M 5011 1 100
+Door 1 0 0 5021 0 0
+~
+~
+Door 3 3 0 5111 30 30
+~
+gate~
+End
+
+#5113
+Name The Western Street of Athenae~
+Descr
+This a side street of Athenae. It is bustling with traffic and activity.
+Off to either side you can see doorways that lead to the many vendors that
+call this city their home. 
+~
+Reset M 8 1 100
+Reset O 668 -1 100
+Reset M 5216 1 100
+Reset O 5215 -1 25
+Reset O 5213 -1 25
+Reset O 5214 -1 10
+Door 1 0 0 5107 0 0
+~
+~
+Door 3 0 0 5114 0 0
+~
+~
+End
+
+#5114
+Name The Western Street of Athenae~
+Descr
+This a side street of Athenae. It is bustling with traffic and activity.
+Off to either side you can see doorways that lead to the many vendors that
+call this city their home. 
+~
+Door 1 0 0 5113 0 0
+~
+~
+Door 3 0 0 5115 0 0
+~
+~
+End
+
+#5115
+Name The Western Street of Athenae~
+Descr
+This a side street of Athenae. It is bustling with traffic and activity.
+Off to either side you can see doorways that lead to the many vendors that
+call this city their home. 
+~
+Door 1 0 0 5114 0 0
+~
+~
+Door 3 0 0 5116 0 0
+~
+~
+End
+
+#5116
+Name The Western Street of Athenae~
+Descr
+This a side street of Athenae. It is bustling with traffic and activity.
+Off to either side you can see doorways that lead to the many vendors that
+call this city their home. 
+~
+Reset M 5216 1 100
+Reset O 5213 -1 25
+Reset O 5215 -1 25
+Door 1 0 0 5115 0 0
+~
+~
+Door 3 3 0 5117 30 30
+~
+gate~
+End
+
+#5117
+Name The Gates of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Reset M 5012 1 100
+Reset M 5012 1 100
+Door 1 3 0 5116 30 30
+~
+gate~
+Door 3 0 0 5047 0 0
+~
+~
+End
+
+#5118
+Name The Southern Street of Athenae~
+Descr
+This is the main street of Athenae. It is bustling with traffic and
+activity. Off to either side you can see doorways that lead to the many
+vendors that call this city their home. 
+~
+Door 0 0 0 5107 0 0
+~
+~
+Door 2 0 0 5125 0 0
+~
+~
+End
+
+#5119
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5108 0 0
+~
+~
+Door 3 0 0 5118 0 0
+~
+~
+End
+
+#5120
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 1 0 0 5121 0 0
+~
+~
+Door 2 0 0 5127 0 0
+~
+~
+End
+
+#5121
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 2 0 0 5128 0 0
+~
+~
+End
+
+#5122
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5113 0 0
+~
+~
+Door 1 0 0 5118 0 0
+~
+~
+End
+
+#5123
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 2 0 0 5130 0 0
+~
+~
+End
+
+#5124
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 2 0 0 5131 0 0
+~
+~
+End
+
+#5125
+Name The Southern Street of Athenae~
+Descr
+This is the main street of Athenae. It is bustling with traffic and
+activity. Off to either side you can see doorways that lead to the many
+vendors that call this city their home. 
+~
+Reset M 5216 1 100
+Reset O 5219 -1 10
+Door 0 0 0 5118 0 0
+~
+~
+Door 2 0 0 5132 0 0
+~
+~
+End
+
+#5126
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 2 0 0 5133 0 0
+~
+~
+End
+
+#5127
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Reset M 5016 1 100
+Reset O 5173 -1 10
+Reset O 61 -1 10
+Door 1 0 0 5128 0 0
+~
+~
+Door 2 0 0 5134 0 0
+~
+~
+End
+
+#5128
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 2 0 0 5135 0 0
+~
+~
+Door 3 0 0 5127 0 0
+~
+~
+End
+
+#5129
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 2 0 0 5138 0 0
+~
+~
+End
+
+#5130
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 2 0 0 5139 0 0
+~
+~
+Door 3 0 0 5131 0 0
+~
+~
+End
+
+#5131
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5130 0 0
+~
+~
+Door 2 0 0 5140 0 0
+~
+~
+End
+
+#5132
+Name The Southern Street of Athenae~
+Descr
+This is the main street of Athenae. It is bustling with traffic and
+activity. Off to either side you can see doorways that lead to the many
+vendors that call this city their home. 
+~
+Door 0 0 0 5125 0 0
+~
+~
+Door 1 0 0 5133 0 0
+~
+~
+Door 2 0 0 5143 0 0
+~
+~
+Door 3 0 0 5138 0 0
+~
+~
+End
+
+#5133
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5134 0 0
+~
+~
+Door 2 0 0 5144 0 0
+~
+~
+Door 3 0 0 5132 0 0
+~
+~
+End
+
+#5134
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5127 0 0
+~
+~
+Door 1 0 0 5135 0 0
+~
+~
+Door 2 0 0 5145 0 0
+~
+~
+Door 3 0 0 5133 0 0
+~
+~
+End
+
+#5135
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5128 0 0
+~
+~
+Door 1 515 0 5136 30 30
+~
+door~
+Door 2 0 0 5146 0 0
+~
+~
+Door 3 0 0 5134 0 0
+~
+~
+End
+
+#5136
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5137 0 0
+~
+~
+Door 3 515 0 5135 30 30
+~
+door~
+End
+
+#5137
+Name Weapon and Armor Repair of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Flags 4
+Sector 0
+Reset M 5137 1 100
+Door 3 0 0 5136 0 0
+~
+~
+End
+
+#5138
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5132 0 0
+~
+~
+Door 2 0 0 5147 0 0
+~
+~
+Door 3 0 0 5139 0 0
+~
+~
+End
+
+#5139
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Reset M 5017 1 100
+Door 0 0 0 5130 0 0
+~
+~
+Door 1 0 0 5138 0 0
+~
+~
+Door 2 0 0 5148 0 0
+~
+~
+Door 3 0 0 5140 0 0
+~
+~
+End
+
+#5140
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5131 0 0
+~
+~
+Door 1 0 0 5139 0 0
+~
+~
+Door 2 0 0 5149 0 0
+~
+~
+Door 3 515 0 5141 30 30
+~
+door~
+End
+
+#5141
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 515 0 5140 30 30
+~
+door~
+Door 3 0 0 5142 0 0
+~
+~
+End
+
+#5142
+Name The gem Shop of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Flags 4
+Sector 0
+Reset M 5142 1 100
+Reset O 75 2 100
+Reset O 79 2 100
+Reset O 71 2 100
+Reset O 67 2 100
+Reset O 87 2 100
+Reset O 91 2 100
+Reset O 83 2 100
+Reset O 63 2 100
+Reset O 59 2 100
+Reset O 55 2 100
+Reset O 51 2 100
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 5141 0 0
+~
+~
+End
+
+#5143
+Name The Southern Street of Athenae~
+Descr
+This is the main street of Athenae. It is bustling with traffic and
+activity. Off to either side you can see doorways that lead to the many
+vendors that call this city their home. 
+~
+Door 0 0 0 5132 0 0
+~
+~
+Door 2 0 0 5150 0 0
+~
+~
+End
+
+#5144
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Reset M 5017 1 100
+Door 0 0 0 5133 0 0
+~
+~
+Door 1 0 0 5145 0 0
+~
+~
+Door 2 0 0 5151 0 0
+~
+~
+End
+
+#5145
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5134 0 0
+~
+~
+Door 1 0 0 5146 0 0
+~
+~
+Door 2 0 0 5152 0 0
+~
+~
+Door 3 0 0 5144 0 0
+~
+~
+End
+
+#5146
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5135 0 0
+~
+~
+Door 2 0 0 5153 0 0
+~
+~
+Door 3 0 0 5145 0 0
+~
+~
+End
+
+#5147
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5138 0 0
+~
+~
+Door 2 0 0 5154 0 0
+~
+~
+Door 3 0 0 5148 0 0
+~
+~
+End
+
+#5148
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5139 0 0
+~
+~
+Door 1 0 0 5147 0 0
+~
+~
+Door 2 0 0 5155 0 0
+~
+~
+Door 3 0 0 5149 0 0
+~
+~
+End
+
+#5149
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5140 0 0
+~
+~
+Door 1 0 0 5148 0 0
+~
+~
+Door 2 0 0 5156 0 0
+~
+~
+End
+
+#5150
+Name The Southern Street of Athenae~
+Descr
+This is the main street of Athenae. It is bustling with traffic and
+activity. Off to either side you can see doorways that lead to the many
+vendors that call this city their home. 
+~
+Door 0 0 0 5143 0 0
+~
+~
+Door 1 0 0 5151 0 0
+~
+~
+Door 2 3 0 5157 30 30
+~
+gate~
+Door 3 0 0 5154 0 0
+~
+~
+End
+
+#5151
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5144 0 0
+~
+~
+Door 1 0 0 5152 0 0
+~
+~
+Door 2 0 0 5158 0 0
+~
+~
+Door 3 0 0 5150 0 0
+~
+~
+End
+
+#5152
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5145 0 0
+~
+~
+Door 1 0 0 5153 0 0
+~
+~
+Door 2 0 0 5159 0 0
+~
+~
+Door 3 0 0 5151 0 0
+~
+~
+End
+
+#5153
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5146 0 0
+~
+~
+Door 1 0 0 5209 0 0
+~
+~
+Door 2 0 0 5160 0 0
+~
+~
+Door 3 0 0 5152 0 0
+~
+~
+End
+
+#5154
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5147 0 0
+~
+~
+Door 1 0 0 5150 0 0
+~
+~
+Door 2 0 0 5163 0 0
+~
+~
+Door 3 0 0 5155 0 0
+~
+~
+End
+
+#5155
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Reset M 5015 1 100
+Reset O 5084 -1 10
+Reset O 24 -1 3
+Reset O 5015 -1 15
+Reset O 5016 -1 35
+Reset O 2940 -1 35
+Door 0 0 0 5148 0 0
+~
+~
+Door 1 0 0 5154 0 0
+~
+~
+Door 2 0 0 5164 0 0
+~
+~
+Door 3 0 0 5156 0 0
+~
+~
+End
+
+#5156
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5149 0 0
+~
+~
+Door 1 0 0 5155 0 0
+~
+~
+Door 2 0 0 5165 0 0
+~
+~
+Door 3 0 0 5193 0 0
+~
+~
+End
+
+#5157
+Name The Gates of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Reset M 5013 1 100
+Reset M 5013 1 100
+Door 0 3 0 5150 30 30
+~
+gate~
+Door 2 0 0 5034 0 0
+~
+~
+End
+
+#5158
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5151 0 0
+~
+~
+Door 1 0 0 5159 0 0
+~
+~
+End
+
+#5159
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5152 0 0
+~
+~
+Door 1 0 0 5160 0 0
+~
+~
+Door 3 0 0 5158 0 0
+~
+~
+End
+
+#5160
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5153 0 0
+~
+~
+Door 3 0 0 5159 0 0
+~
+~
+End
+
+#5161
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 3 0 0 5160 0 0
+~
+~
+End
+
+#5162
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 3 0 0 5161 0 0
+~
+~
+End
+
+#5163
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5154 0 0
+~
+~
+Door 3 0 0 5164 0 0
+~
+~
+End
+
+#5164
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5155 0 0
+~
+~
+Door 1 0 0 5163 0 0
+~
+~
+Door 3 0 0 5165 0 0
+~
+~
+End
+
+#5165
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5156 0 0
+~
+~
+Door 1 0 0 5164 0 0
+~
+~
+End
+
+#5166
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 1 0 0 5165 0 0
+~
+~
+End
+
+#5167
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 1 0 0 5166 0 0
+~
+~
+End
+
+#5168
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5169 0 0
+~
+~
+Door 2 0 0 5175 0 0
+~
+~
+Door 3 0 0 5242 0 0
+~
+~
+Door 4 0 0 10351 0 0
+~
+~
+End
+
+#5169
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5170 0 0
+~
+~
+Door 2 0 0 5168 0 0
+~
+~
+End
+
+#5170
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5171 0 0
+~
+~
+Door 2 0 0 5169 0 0
+~
+~
+End
+
+#5171
+Name Guard Room~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Reset M 5009 1 100
+Reset O 5201 -1 100
+Door 2 0 0 5170 0 0
+~
+~
+End
+
+#5172
+Name Thief's Way~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5173 0 0
+~
+~
+Door 4 0 0 4813 0 0
+~
+~
+End
+
+#5173
+Name Thief's Way~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 1 0 0 5174 0 0
+~
+~
+Door 2 0 0 5172 0 0
+~
+~
+End
+
+#5174
+Name Thief's Way~
+Cvnuml 137995472
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 3 0 0 5173 0 0
+~
+~
+Door 5 0 0 16065 0 0
+~
+~
+End
+
+#5175
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5168 0 0
+~
+~
+Door 2 0 0 5176 0 0
+~
+~
+End
+
+#5176
+Name Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5175 0 0
+~
+~
+Door 2 0 0 5177 0 0
+~
+~
+End
+
+#5177
+Name Guard Room~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Reset M 5010 1 100
+Reset O 5205 -1 100
+Door 0 0 0 5176 0 0
+~
+~
+End
+
+#5178
+Name Rogue Alley~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 2 0 0 5179 0 0
+~
+~
+Door 4 0 0 5227 0 0
+~
+~
+End
+
+#5179
+Name Rogue Alley~
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 0 0 0 5178 0 0
+~
+~
+Door 1 0 0 5180 0 0
+~
+~
+End
+
+#5180
+Name Rogue Alley~
+Cvnuml 137997184
+Descr
+As you pass through this great city you can almost feel the knowledge seeping from everywhere.
+~
+Door 3 0 0 5179 0 0
+~
+~
+Door 5 0 0 16073 0 0
+~
+~
+End
+
+#5181
+Name Guard Room~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Reset M 5001 1 100
+Reset O 5197 -1 100
+Door 1 0 0 5081 0 0
+~
+~
+End
+
+#5182
+Name The Warrior Halls~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 3 0 0 5183 0 0
+~
+~
+Door 4 0 0 16629 0 0
+~
+~
+End
+
+#5183
+Name The Warrior Halls~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5182 0 0
+~
+~
+Door 2 0 0 5184 0 0
+~
+~
+End
+
+#5184
+Name The Warrior Halls~
+Cvnuml 137983808
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5183 0 0
+~
+~
+Door 5 0 0 16008 0 0
+~
+~
+End
+
+#5185
+Name Guard Room~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Reset M 5002 1 100
+Reset O 91 -1 40
+Door 1 0 0 5103 0 0
+~
+~
+End
+
+#5186
+Name The Ranger Path~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 259 0 2739 30 30
+~
+vines~
+Door 3 0 0 5187 0 0
+~
+~
+End
+
+#5187
+Name The Ranger Path~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Sector 5
+Door 1 0 0 5186 0 0
+~
+~
+Door 2 0 0 5188 0 0
+~
+~
+End
+
+#5188
+Name The Ranger Path~
+Cvnuml 137985584
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Sector 5
+Door 0 0 0 5187 0 0
+~
+~
+Door 5 0 0 16017 0 0
+~
+~
+End
+
+#5189
+Name Guard Room~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5131 0 0
+~
+~
+End
+
+#5190
+Name Tinker's Alley~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 3 0 0 5191 0 0
+~
+~
+Door 4 259 0 10366 30 30
+~
+gateway~
+End
+
+#5191
+Name Tinker's Alley~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5190 0 0
+~
+~
+Door 2 0 0 5192 0 0
+~
+~
+End
+
+#5192
+Name Tinker's Alley~
+Cvnuml 137987040
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5191 0 0
+~
+~
+Door 5 0 0 16024 0 0
+~
+~
+End
+
+#5193
+Name The West-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5156 0 0
+~
+~
+End
+
+#5194
+Name The Halls of Clerics~
+Cvnuml 137983968
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 3 0 0 5195 0 0
+~
+~
+Door 4 0 0 58023 0 0
+~
+~
+End
+
+#5195
+Name The Halls of Clerics~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5194 0 0
+~
+~
+Door 2 0 0 5196 0 0
+~
+~
+End
+
+#5196
+Name The Halls of Clerics~
+Cvnuml 138162696
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5195 0 0
+~
+~
+Door 5 0 0 16009 0 0
+~
+~
+End
+
+#5197
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Reset M 5005 1 100
+Reset O 67 -1 40
+Door 3 0 0 5078 0 0
+~
+~
+End
+
+#5198
+Name Wizards Way~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5199 0 0
+~
+~
+Door 4 259 0 14418 30 30
+~
+granite trapdoor~
+End
+
+#5199
+Name Wizards Way~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 2 0 0 5200 0 0
+~
+~
+Door 3 0 0 5198 0 0
+~
+~
+End
+
+#5200
+Name Wizards Way~
+Cvnuml 137988912
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5199 0 0
+~
+~
+Door 5 0 0 16033 0 0
+~
+~
+End
+
+#5201
+Name Guard Room~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Reset M 5006 1 100
+Reset O 71 -1 40
+Door 3 0 0 5106 0 0
+~
+~
+End
+
+#5202
+Name Mystic Path~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 259 0 21060 30 30
+~
+shrub~
+Door 1 0 0 5203 0 0
+~
+~
+End
+
+#5203
+Name Mystic Path~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 2 0 0 5204 0 0
+~
+~
+Door 3 0 0 5202 0 0
+~
+~
+End
+
+#5204
+Name Mystic Path~
+Cvnuml 137990624
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5203 0 0
+~
+~
+Door 5 0 0 16041 0 0
+~
+~
+End
+
+#5205
+Name Guard Room~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Reset M 5007 1 100
+Reset O 75 -1 40
+Door 3 0 0 5128 0 0
+~
+~
+End
+
+#5206
+Name Conjurer's Alley~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 259 0 55375 30 30
+~
+painting~
+Door 1 0 0 5207 0 0
+~
+~
+End
+
+#5207
+Name Conjurer's Alley~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 2 0 0 5208 0 0
+~
+~
+Door 3 0 0 5206 0 0
+~
+~
+End
+
+#5208
+Name Conjurer's Alley~
+Cvnuml 137992240
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5207 0 0
+~
+~
+Door 5 0 0 16049 0 0
+~
+~
+End
+
+#5209
+Name The East-Wing of Athenae~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Reset M 5008 1 100
+Reset O 79 -1 40
+Door 3 0 0 5153 0 0
+~
+~
+End
+
+#5210
+Name Path of Battle~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 1 0 0 5211 0 0
+~
+~
+Door 3 259 0 41104 30 30
+~
+boulder~
+End
+
+#5211
+Name Path of Battle~
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 2 0 0 5212 0 0
+~
+~
+Door 3 0 0 5210 0 0
+~
+~
+End
+
+#5212
+Name Path of Battle~
+Cvnuml 137993856
+Descr
+As you pass through this great city you can almost feel the knowledge
+seeping from everywhere. 
+~
+Door 0 0 0 5211 0 0
+~
+~
+Door 5 0 0 16057 0 0
+~
+~
+End
+
+#5216
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5225 0 0
+~
+~
+Door 1 0 0 5217 0 0
+~
+~
+Door 2 0 0 5007 0 0
+~
+~
+Door 3 0 0 5000 0 0
+~
+~
+End
+
+#5217
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Reset M 5217 1 100
+Door 0 0 0 5226 0 0
+~
+~
+Door 1 0 0 5218 0 0
+~
+~
+Door 2 0 0 5008 0 0
+~
+~
+Door 3 0 0 5216 0 0
+~
+~
+End
+
+#5218
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5227 0 0
+~
+~
+Door 1 0 0 5219 0 0
+~
+~
+Door 2 0 0 5009 0 0
+~
+~
+Door 3 0 0 5217 0 0
+~
+~
+End
+
+#5219
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5228 0 0
+~
+~
+Door 1 0 0 5220 0 0
+~
+~
+Door 2 0 0 5010 0 0
+~
+~
+Door 3 0 0 5218 0 0
+~
+~
+End
+
+#5220
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5229 0 0
+~
+~
+Door 1 0 0 5221 0 0
+~
+~
+Door 2 0 0 5011 0 0
+~
+~
+Door 3 0 0 5219 0 0
+~
+~
+End
+
+#5221
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5230 0 0
+~
+~
+Door 1 0 0 5222 0 0
+~
+~
+Door 2 0 0 5012 0 0
+~
+~
+Door 3 0 0 5220 0 0
+~
+~
+End
+
+#5222
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5231 0 0
+~
+~
+Door 1 0 0 5223 0 0
+~
+~
+Door 2 0 0 9106 0 0
+~
+~
+Door 3 0 0 5221 0 0
+~
+~
+End
+
+#5223
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5232 0 0
+~
+~
+Door 1 0 0 5224 0 0
+~
+~
+Door 2 0 0 9105 0 0
+~
+~
+Door 3 0 0 5222 0 0
+~
+~
+End
+
+#5224
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5233 0 0
+~
+~
+Door 1 0 0 9094 0 0
+~
+~
+Door 2 0 0 9104 0 0
+~
+~
+Door 3 0 0 5223 0 0
+~
+~
+End
+
+#5225
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5226 0 0
+~
+~
+Door 2 0 0 5216 0 0
+~
+~
+Door 3 0 0 5001 0 0
+~
+~
+End
+
+#5226
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5235 0 0
+~
+~
+Door 1 0 0 5227 0 0
+~
+~
+Door 2 0 0 5217 0 0
+~
+~
+Door 3 0 0 5225 0 0
+~
+~
+End
+
+#5227
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5236 0 0
+~
+~
+Door 1 0 0 5228 0 0
+~
+~
+Door 2 0 0 5218 0 0
+~
+~
+Door 3 0 0 5226 0 0
+~
+~
+Door 5 0 0 5178 0 0
+~
+~
+End
+
+#5228
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5237 0 0
+~
+~
+Door 1 0 0 5229 0 0
+~
+~
+Door 2 0 0 5219 0 0
+~
+~
+Door 3 0 0 5227 0 0
+~
+~
+End
+
+#5229
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5238 0 0
+~
+~
+Door 1 0 0 5230 0 0
+~
+~
+Door 2 0 0 5220 0 0
+~
+~
+Door 3 0 0 5228 0 0
+~
+~
+End
+
+#5230
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5239 0 0
+~
+~
+Door 1 0 0 5231 0 0
+~
+~
+Door 2 0 0 5221 0 0
+~
+~
+Door 3 0 0 5229 0 0
+~
+~
+End
+
+#5231
+Name The Athenae Highlands~
+Descr
+You find yourself in rolling hills near a great city.
+~
+Sector 30
+Door 0 0 0 5240 0 0
+~
+~
+Door 1 0 0 5232 0 0
+~
+~
+Door 2 0 0 5222 0 0
+~
+~
+Door 3 0 0 5230 0 0
+~
+~
+End
+
+#5232
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5241 0 0
+~
+~
+Door 1 0 0 5233 0 0
+~
+~
+Door 2 0 0 5223 0 0
+~
+~
+Door 3 0 0 5231 0 0
+~
+~
+End
+
+#5233
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5243 0 0
+~
+~
+Door 1 0 0 5234 0 0
+~
+~
+Door 2 0 0 5224 0 0
+~
+~
+Door 3 0 0 5232 0 0
+~
+~
+End
+
+#5234
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5244 0 0
+~
+~
+Door 1 0 0 9085 0 0
+~
+~
+Door 2 0 0 9094 0 0
+~
+~
+Door 3 0 0 5233 0 0
+~
+~
+End
+
+#5235
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5236 0 0
+~
+~
+Door 2 0 0 5226 0 0
+~
+~
+End
+
+#5236
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5237 0 0
+~
+~
+Door 2 0 0 5227 0 0
+~
+~
+Door 3 0 0 5235 0 0
+~
+~
+End
+
+#5237
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5238 0 0
+~
+~
+Door 2 0 0 5228 0 0
+~
+~
+Door 3 0 0 5236 0 0
+~
+~
+End
+
+#5238
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5239 0 0
+~
+~
+Door 2 0 0 5229 0 0
+~
+~
+Door 3 0 0 5237 0 0
+~
+~
+End
+
+#5239
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5240 0 0
+~
+~
+Door 2 0 0 5230 0 0
+~
+~
+Door 3 0 0 5238 0 0
+~
+~
+End
+
+#5240
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5241 0 0
+~
+~
+Door 2 0 0 5231 0 0
+~
+~
+Door 3 0 0 5239 0 0
+~
+~
+End
+
+#5241
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5245 0 0
+~
+~
+Door 1 0 0 5243 0 0
+~
+~
+Door 2 0 0 5232 0 0
+~
+~
+Door 3 0 0 5240 0 0
+~
+~
+End
+
+#5242
+Name Dabney's Shop~
+Descr
+Dabney's shop is tucked away here. It is odd that what is a very busy
+trade has been removed from the site of most travelers. 
+~
+Reset M 5168 1 100
+Reset O 7 10 100
+Reset O 90018 10 100
+Reset O 90017 10 100
+Door 1 0 0 18921 0 0
+~
+~
+End
+
+#5243
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5246 0 0
+~
+~
+Door 1 0 0 5244 0 0
+~
+~
+Door 2 0 0 5233 0 0
+~
+~
+Door 3 0 0 5241 0 0
+~
+~
+End
+
+#5244
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 5247 0 0
+~
+~
+Door 1 0 0 9077 0 0
+~
+~
+Door 2 0 0 5234 0 0
+~
+~
+Door 3 0 0 5243 0 0
+~
+~
+End
+
+#5245
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5246 0 0
+~
+~
+Door 2 0 0 5241 0 0
+~
+~
+End
+
+#5246
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5247 0 0
+~
+~
+Door 2 0 0 5243 0 0
+~
+~
+Door 3 0 0 5245 0 0
+~
+~
+End
+
+#5247
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 5248 0 0
+~
+~
+Door 2 0 0 5244 0 0
+~
+~
+Door 3 0 0 5246 0 0
+~
+~
+End
+
+#5248
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 9069 0 0
+~
+~
+Door 2 0 0 9077 0 0
+~
+~
+Door 3 0 0 5247 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

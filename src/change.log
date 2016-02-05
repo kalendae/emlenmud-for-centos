@@ -1,0 +1,95 @@
+Change log:
+// Kilith additions, 05
+
+1- Added in world echo for PK deaths.
+
+// Matuse modifications, Sept 2004
+
+Modifying config.c
+1- Added stance command for monks.  Also stance int for pc_data.
+
+Modified give.c
+1- Casters now regen mana when saccing corpses (pk timer must be < 5,
+   int/wis must be > 21).  Trying to un-thief experience runs.
+
+Modified look.c
+1- added showloot command to display inventory to all others in room
+
+Modified guild.c
+1- leaving guild now results in "remove all" to remove class-only eq
+
+Modified fgt.c, dam2.c, give.c
+1- Monks cannot wield weapons or wear shields.  They can wield gems.
+2- Monks use normal warrior skills, i.e. 2nd/3rd/penetration, but
+   they get random damage messages from a list of fighting moves.
+
+Modified ar.c and ptrack.c
+1- Fixed spell tracking bug where they went off instantly.
+
+Modified info.c
+1- Added new guild combos to who, warlock and monk.
+2- Hardcore now shows up instead of that 'P'
+
+Modified view.c and emlen.h
+1- Allows for 5 "titles" to be put before a race name in look/scan.
+
+Modified death.c
+1- death now only causes about 1/5 item loss
+2- hardcore death causes global echo and freezes char
+
+Modified aw.c
+1- pset now lets you toggle hardcore bit
+
+Modified spl.c
+1- Formula for double casting changed, should we just take it out?
+2- Align shards made to help spirit spells and defend against all
+    spells now
+
+// Bern modifications, Sept 2004
+
+Modified comm.c
+1- Changed CON_CONFIRM_NEW_RACE to send player to CON_GET_HARDCORE
+2- Added in CON_GET_HARDCORE, sends player to roller regardless
+
+Modified emlen.h
+1- Removed commenting out of previously added connection state.
+
+Modified script3.c
+1- Added in bit to recognize necromancer (DI0) and monk (DI1)
+2- Added in bit to check hardcore (DH)
+
+// Bern modifications, August 2004
+
+Modified toptr.c
+1- to remove neutrals from check_pkdata
+2- to remove neutrals from check_topten
+3- to remove neutrals from check_rating
+
+// ARC modifications, June 2002
+
+Modified view.c 
+ 1- for neutral players to be seen as mobs with their race name displayed
+ 2- to include vowel checking utility for using 'A' or 'An' correctly
+ 
+Modified mgc.c 
+ 1- to ward off any player casted direct offensive spells targeting a neutral align
+ 2- to prevent neutral align from casting any offensive spells against players
+ 
+Modified spl.c 
+ 1- to protect neutral players from player casted area spells
+ 2- to prevent other players from being affected by a neutral area spell
+ 
+Modified emlen.h 
+ 1- to include definition of vowel checking utility for using 'A' or 'An' correctly
+
+Modified fgt.c
+ 1- to ward off any player attempting melee offense on neutral align
+ 2- prevent neutral align from trying melee offense on any player
+ melee attacks modified: kill, kick, bash, tackle, backstab, shoot, impale
+ 
+Modified look.c
+ 1- removed concept of seeing player titles in rooms for visual maturity
+ 
+ 
+
+

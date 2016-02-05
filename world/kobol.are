@@ -1,0 +1,692 @@
+#AREADATA 
+Name Kobold Cave~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Tonik~
+VNUMs 33202 33300
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#33209
+Name female kobold~
+Short female kobold~
+Long 
+A female kobold stands here.
+~
+AMax 4
+ActBits 2
+Money 50
+Level 5
+Sex 2
+MobType 0
+Hp 2
+Guard 0
+End
+
+#33221
+Name male kobold~
+Short male kobold~
+Long 
+A male kobold sits here with nothing to do.
+~
+AMax 4
+ActBits 2
+Money 50
+Level 10
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#33227
+Name kobold chief~
+Short kobold chief~
+Long 
+A kobold chief sits here on his bed.
+~
+AMax 1
+ActBits 2
+Money 100
+Level 20
+MobType 0
+Hp 5
+Guard 0
+End
+
+#33228
+Name kobold guard~
+Short kobold guard~
+Long 
+A kobold guard waits here before going on duty.
+~
+AMax 4
+ActBits 2
+Money 75
+Level 15
+MobType 0
+Hp 2
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#33202
+Name sign~
+Short sign~
+Descr
+If you are over level 15 DO NOT enter. Or you will be level 1 again.
+[0;36m~
+Type 12
+Wear 1
+Weight 0
+Cost 0
+End
+
+#33209
+Name unused~
+Short unused~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#33227
+Name bed~
+Short bed~
+Descr
+A bed sits in the corner.
+[0;36m~
+Type 33
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#33202
+Name The Entrance to a Kobold Cave~
+Descr
+An entrance to a small Kobold Cave. These peace loving little people are
+no match for the stronger adventurers that have no place here. 
+~
+Sector 37
+Door 0 0 0 33203 0 0
+~
+~
+Door 4 0 0 65041 0 0
+~
+~
+End
+
+#33203
+Name Entrance to a Kobold Cave~
+Descr
+You are in the guard house before the Kobold cave. Beyond the guards you
+no match for the stronger adventurers that have no place here. 
+~
+Sector 37
+Door 0 0 0 33204 0 0
+~
+~
+Door 2 0 0 33202 0 0
+~
+~
+End
+
+#33204
+Name Tunnel to a Kobold Cave~
+Descr
+You can look from here and see into the massive cave the Kobolds call
+home. It is a dreary place with puddles of condensation on the floor and
+only the dim light of a few torches to light the way. 
+~
+Sector 37
+Door 0 0 0 33205 0 0
+~
+~
+Door 2 0 0 33203 0 0
+~
+~
+End
+
+#33205
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Door 0 0 0 33212 0 0
+~
+~
+Door 1 0 0 33206 0 0
+~
+~
+Door 2 0 0 33204 0 0
+~
+~
+Door 3 0 0 33208 0 0
+~
+~
+End
+
+#33206
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Reset M 33221 1 100
+Reset O 101 -1 100
+Door 0 0 0 33213 0 0
+~
+~
+Door 1 0 0 33207 0 0
+~
+~
+Door 3 0 0 33205 0 0
+~
+~
+End
+
+#33207
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Reset M 33209 1 100
+Reset O 101 -1 100
+Door 0 0 0 33214 0 0
+~
+~
+Door 3 0 0 33206 0 0
+~
+~
+End
+
+#33208
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seem
+very busy. 
+~
+Sector 37
+Reset M 33221 1 100
+Reset O 101 -1 100
+Door 0 0 0 33211 0 0
+~
+~
+Door 1 0 0 33205 0 0
+~
+~
+Door 3 0 0 33209 0 0
+~
+~
+End
+
+#33209
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seem
+very busy. 
+~
+Sector 37
+Reset M 33209 1 100
+Reset O 101 -1 100
+Door 0 0 0 33210 0 0
+~
+~
+Door 1 0 0 33208 0 0
+~
+~
+End
+
+#33210
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Door 0 0 0 33215 0 0
+~
+~
+Door 1 0 0 33211 0 0
+~
+~
+Door 2 0 0 33209 0 0
+~
+~
+End
+
+#33211
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Door 0 0 0 33216 0 0
+~
+~
+Door 1 0 0 33212 0 0
+~
+~
+Door 2 0 0 33208 0 0
+~
+~
+Door 3 0 0 33210 0 0
+~
+~
+End
+
+#33212
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Reset M 66004 1 100
+Door 0 0 0 33217 0 0
+~
+~
+Door 1 0 0 33213 0 0
+~
+~
+Door 2 0 0 33205 0 0
+~
+~
+Door 3 0 0 33211 0 0
+~
+~
+End
+
+#33213
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Door 0 0 0 33218 0 0
+~
+~
+Door 1 0 0 33214 0 0
+~
+~
+Door 2 0 0 33206 0 0
+~
+~
+Door 3 0 0 33212 0 0
+~
+~
+End
+
+#33214
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Door 0 0 0 33219 0 0
+~
+~
+Door 2 0 0 33207 0 0
+~
+~
+Door 3 0 0 33213 0 0
+~
+~
+End
+
+#33215
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Reset M 33209 1 100
+Reset O 101 -1 100
+Door 1 0 0 33216 0 0
+~
+~
+Door 2 0 0 33210 0 0
+~
+~
+End
+
+#33216
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Reset M 33221 1 100
+Reset O 101 -1 100
+Door 1 0 0 33217 0 0
+~
+~
+Door 2 0 0 33211 0 0
+~
+~
+Door 3 0 0 33215 0 0
+~
+~
+End
+
+#33217
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Door 0 0 0 33220 0 0
+~
+~
+Door 1 0 0 33218 0 0
+~
+~
+Door 2 0 0 33212 0 0
+~
+~
+Door 3 0 0 33216 0 0
+~
+~
+End
+
+#33218
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Reset M 33221 1 100
+Reset O 101 -1 100
+Door 1 0 0 33219 0 0
+~
+~
+Door 2 0 0 33213 0 0
+~
+~
+Door 3 0 0 33217 0 0
+~
+~
+End
+
+#33219
+Name Inside a Kobold Cave~
+Descr
+You stand in a large cave. The ceiling is so high you almost cant see
+it. There are only a few Kobolds here right now, but those that are seemit.
+There are only a few Kobolds here right now, but those that are seem very
+busy. 
+~
+Sector 37
+Reset M 33209 1 100
+Reset O 101 -1 100
+Door 2 0 0 33214 0 0
+~
+~
+Door 3 0 0 33218 0 0
+~
+~
+End
+
+#33220
+Name Tunnel to the Rear of the Cave~
+Descr
+This room leads further back into the cave. Every once in awhile there
+is a door leading off to the side. The construction here is of much better
+quality. 
+~
+Sector 37
+Door 0 0 0 33221 0 0
+~
+~
+Door 2 0 0 33217 0 0
+~
+~
+End
+
+#33221
+Name Tunnel to the Rear of the Cave~
+Descr
+This room leads further back into the cave. Every once in awhile there
+is a door leading off to the side. The construction here is of much better
+quality. 
+~
+Sector 37
+Door 0 0 0 33222 0 0
+~
+~
+Door 1 3 0 33229 30 30
+~
+door~
+Door 2 0 0 33220 0 0
+~
+~
+Door 3 3 0 33228 30 30
+~
+door~
+End
+
+#33222
+Name Tunnel to the Rear of the Cave~
+Descr
+This room leads further back into the cave. Every once in awhile there
+is a door leading off to the side. The construction here is of much better
+quality. 
+~
+Sector 37
+Door 0 0 0 33223 0 0
+~
+~
+Door 2 0 0 33221 0 0
+~
+~
+End
+
+#33223
+Name Tunnel to the Rear of the Cave~
+Descr
+This room leads further back into the cave. Every once in awhile there
+is a door leading off to the side. The construction here is of much better
+quality. 
+~
+Sector 37
+Door 2 0 0 33222 0 0
+~
+~
+Door 3 0 0 33224 0 0
+~
+~
+End
+
+#33224
+Name Tunnel to the Rear of the Cave~
+Descr
+This room leads further back into the cave. Every once in awhile there
+is a door leading off to the side. The construction here is of much better
+quality. 
+~
+Sector 37
+Door 1 0 0 33223 0 0
+~
+~
+Door 3 0 0 33225 0 0
+~
+~
+End
+
+#33225
+Name Tunnel to the Rear of the Cave~
+Descr
+This room leads further back into the cave. Every once in awhile there
+is a door leading off to the side. The construction here is of much better
+quality. 
+~
+Sector 37
+Door 0 3 0 33230 30 30
+~
+door~
+Door 1 0 0 33224 0 0
+~
+~
+Door 2 3 0 33231 30 30
+~
+door~
+Door 3 0 0 33226 0 0
+~
+~
+End
+
+#33226
+Name Tunnel to the Rear of the Cave~
+Descr
+This room leads further back into the cave. Every once in awhile there
+is a door leading off to the side. The construction here is of much better
+quality. 
+~
+Sector 37
+Door 1 0 0 33225 0 0
+~
+~
+Door 3 3 0 33227 30 30
+~
+door~
+End
+
+#33227
+Name Kobold Chief's Quarters~
+Descr
+You are in what, by Kobold standards, is a very lavish room. It has a
+desk, a bed and a smattering of other furniture. The area is well lit, dry
+and warm. 
+~
+Sector 37
+Reset M 33227 1 100
+Reset O 33227 -5 100
+Reset O 104 -1 100
+Reset O 104 -1 100
+Door 1 3 0 33226 30 30
+~
+door~
+End
+
+#33228
+Name Guard Room~
+Descr
+Though poorly furnished this room offers a bit of privacy over the open
+living area that the regular citizens use. It seems to house one guard that
+lives in near poverty. 
+~
+Sector 37
+Reset M 33228 1 100
+Reset O 102 -1 100
+Door 1 3 0 33221 30 30
+~
+door~
+End
+
+#33229
+Name Guard Room~
+Descr
+Though poorly furnished this room offers a bit of privacy over the open
+living area that the regular citizens use. It seems to house one guard that
+lives in near poverty. 
+~
+Sector 37
+Reset M 33228 1 100
+Reset O 102 -1 100
+Door 3 3 0 33221 30 30
+~
+door~
+End
+
+#33230
+Name Guard Room~
+Descr
+Though poorly furnished this room offers a bit of privacy over the open
+living area that the regular citizens use. It seems to house one guard that
+lives in near poverty. 
+~
+Sector 37
+Reset M 33228 1 100
+Reset O 102 -1 100
+Door 2 3 0 33225 30 30
+~
+door~
+End
+
+#33231
+Name Guard Room~
+Descr
+Though poorly furnished this room offers a bit of privacy over the open
+living area that the regular citizens use. It seems to house one guard that
+lives in near poverty. 
+~
+Sector 37
+Reset M 33228 1 100
+Reset O 102 -1 100
+Door 0 3 0 33225 30 30
+~
+door~
+End
+
+#0
+
+
+
+#$

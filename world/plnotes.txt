@@ -1,0 +1,3051 @@
+Sender Kilith~
+TBoard 1
+Date Sun Dec 11 12:16:00 2005~
+Stamp 1134328560
+To all~
+Subject eq reimburse~
+Text
+Please keep a periodic printscreen of your inventory and eq. Incase of crash or other mud problems
+This will make it easy for us to reimbures you.  So type world then inventory hit prt scr key, then world eq hit prt scr.
+do this at least once an hr our once every log on and off.
+ 
+This proves you do not cheat :)
+~
+End
+Sender Kilith~
+TBoard 1
+Date Mon Dec 12 11:18:41 2005~
+Stamp 1134411521
+To all~
+Subject log print screen~
+Text
+No it is not ok just to hit save.
+If there is a crash and you lose eq. It is gone then. If you do not keep a screen shot of your eq
+inventory or storage. If it is lost then we can no longer do anything about it.
+ 
+So type world so we have an accurate date, eq hit print screen open up imaging
+paste into imaging and then save it where you cand find it easy. This helps you.
+ 
+This was an idea that IF a crash happens and your pfile was not saved, you can get anything you
+lost back insted of us going we dont know.
+ 
+It was an idea, if you do not want to do it then I guess that is your choice.
+I however would keep a good copy of my eq, inventory, and storage.
+ 
+Kil
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Dec 13 15:38:24 2005~
+Stamp 1134513504
+To all~
+Subject ~
+Text
+If someone is going to be playing with the same ip address as you,
+please notify an immortal BEFORE they roll. This will show that you are
+honestly not trying to cheat and that you agree to work with us instead of
+against us. If it was not mentioned to us, we might consider you
+multiplaying and you will be punished accordingly. 
+Sabelis
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sun Dec 18 14:53:17 2005~
+Stamp 1134942797
+To all~
+Subject Converting~
+Text
+There will no longer be any converting, race changes, or moving stats
+unless stated in help rules or announced publicly to everyone on the mud. If
+you don't like your stats, reroll. If you want to be a on different align,
+reroll. 
+Sabelis
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Dec 20 19:34:02 2005~
+Stamp 1135132442
+To all~
+Subject Building~
+Text
+If anyone is interesting in building a new area, please write a note. 
+Sabelis
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sun Jan  1 20:13:04 2006~
+Stamp 1136171584
+To all~
+Subject reimbursements~
+Text
+I would like to remind everyone about a note posted 3 weeks ago.
+ 
+There will be no reimbursements without a screenshot unless it is
+announced publicly over chat/thunder and/or a note.  If you do not
+provide me with a screenshot, you will get nothing.  If you do not know
+how to make a screen shot please see help screen shot for directions.
+ 
+This is not to insult anyone or call them liars but it is for our
+records and they are much more difficult to alter compared to just
+a text log file.  
+ 
+If you have any concerns about this, please consult me directly.
+ 
+I would recommend making a screenshot every once in a while to keep
+as a backup incase something major happens and your window gets
+closed on you or something.  Another way is to log out and log
+back in once in a while or by typing save a couple times.
+ 
+Thanks,
+Sabelis
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Mon Jan  2 19:27:20 2006~
+Stamp 1136255240
+To sabelis~
+Subject monk ideas~
+Text
+These were some ideas that Psi gave to try to fix up monks.
+ 
+1.  Make it so they are very hard to bash/tackle.
+2. Monks should be uber grapplers.. like a skill that gives them 2 ground moves/round.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Sat Jan  7 14:02:26 2006~
+Stamp 1136667746
+To all~
+Subject !melee kick flurry bug~
+Text
+I have taken the plague of emlen !melee bug out of the game.
+It was a very easy fix none the less and do not know why no one ever fixed it before.
+ 
+All that was happening is you have different positions:
+bashed, casting, standing, fighting, mining, ect ect.
+well when you would stop casting you would be sent into POSITION_STANDING
+When that happened it would allow you to kick into melee right when you hit the command kick
+ 
+then in do_kick and do_flurry there was no check for it because you were in a standing position
+Now there are checks in do_kick, do_flurry, and do_tackle
+ 
+You will no longer be able to kick, tackle, or flurry if you have been in a cast.
+so this means if you see:
+ 
+You begin to utter some strange incantations...
+and you type kick
+ 
+you will now see:
+ 
+You stop casting.
+You can not try to kick someone after trying to cast! You would fall on your ass!!!
+ 
+Enjoy and Samson I will get to you about pointing this out to me once I see you online and now that it is fixed.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Sat Jan  7 18:48:24 2006~
+Stamp 1136684904
+To all~
+Subject !melee bug~
+Text
+You will notice that when you stop casting you will go into a concentration state:
+To get out of that state just type stand and you will stop and become standing again.
+You can move freely and do most anything else but when it comes to some skills
+you must make sure you are standing.
+ 
+If there are any i missed that dont give a messege note me and let me know.
+I tried to find all of the skills that would create a messege.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sun Jan 15 12:46:35 2006~
+Stamp 1137354395
+To all~
+Subject moving stats~
+Text
+I'm allowing people to move stats around for 25 warpoints per stat that
+they would like to be moved. It has to be within your race limits (excluding
+guilds, +stat eq, etc). 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Mon Jan 16 13:56:03 2006~
+Stamp 1137444963
+To all~
+Subject Animate/Raise spells~
+Text
+Anyone that is caught using animate or raise spells improperly will be
+subject to the bug abuse spell. It is ILLEGAL to animate a zombie, ditch
+them or whatever you have to do, raise another and continue to do it until
+you have 2 following you and tons sitting around. Please keep this in mind. 
+~
+End
+Sender Zar~
+TBoard 65
+Date Mon Jan 16 16:22:55 2006~
+Stamp 1137453775
+To immortals~
+Subject Can you fix undeads please~
+Text
+Can you just make it so that when you summon a new one, the old one
+disappears?  It's annoying when they get stuck somewhere and you have to log
+off to get rid of them because you can't recover them and you can't make new
+ones. Or if you ditch them so you can join someone's group, you still have
+to get them killed or get them aggro you so that they are no longer set as
+followers. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Wed Jan 18 17:36:51 2006~
+Stamp 1137631011
+To all~
+Subject Humans~
+Text
+For all those Humans out there, anyone that rolled a Human before today
+will be allowed to ascend when they meet the qualifications that the rest of
+the people need to meet. You will need to contact an immortal to do this.
+The disadvantage of doing so is your stats will not be 25 across. If your
+original stats were higher than the race you are changing then they will
+have to be changed. You will be allowed a roll of 90 for when you ascend and
+the rest of the allowances/rules apply. If you would like to move your
+stats, the cost is still 25 warpoints per stat. Also, by changing to not 25
+across you won't be able to change to all the different classes in the game.
+You make your choice what you want to do and let me know. 
+The only reason I am allowing this is because at the beginning of the
+wipe people didn't think it would be worth it to evolve and then ascend.
+Since evolve was taken out, now more people believe it is worth it to
+ascend and it is a semi-major change I will make an allowance for this.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Jan 19 21:12:07 2006~
+Stamp 1137730327
+To all~
+Subject Monks~
+Text
+You will notice something different about monks. The amount of moves it
+takes to do one of their moves has been reduced as well as the lag after it
+happens. Also, the stances that evolved monks was put in for non-ascended
+characters. For those that are willing to try this out, go ahead.. let me
+know what you think. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sun Jan 22 20:31:33 2006~
+Stamp 1137987093
+To sabelis~
+Subject ~
+Text
+Look into tackle. Check to see why a lvl 40 can tackle a lvl 90 with no
+difficulties. Also, figure out why it is so easy to stand from a tackle. 
+~
+End
+Sender Kilith~
+TBoard 1
+Date Sun Jan 22 21:51:58 2006~
+Stamp 1137991918
+To all~
+Subject Emlen Forum~
+Text
+hey if you guys wanna join a forum about MPV/VoR/LoC/RoP/MC/CCBFH/Fate or whatever emlens you have played
+Join this Emlenmud forum:
+ 
+http://games.groups.yahoo.com/group/mortal_conquest/join
+ 
+It is all about Emlen and the games you have played!
+~
+End
+Sender Kilith~
+TBoard 1
+Date Mon Jan 23 21:54:07 2006~
+Stamp 1138078447
+To all~
+Subject TMC voting~
+Text
+Does anyone goto www.landsofchaos.dune.net and vote for the mud?
+If not please do so.
+ 
+Sorry can not give gifts for this because it is against the rules.
+but hey once a day do it.
+ 
+I will add places with the addy for the webpage all over the place.
+On MOTD, on Greeting, on connection and on farewell!
+ 
+The more you vote maybe the more people we see?
+ 
+Hey gotta try what we can :)
+ 
+Kil
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sun Jan 29 12:22:57 2006~
+Stamp 1138562577
+To all~
+Subject Tackle~
+Text
+I forgot to mention something.... I changed the ratio on how easy it was
+for someone to stand from a tackle. Let me know if you notice any changes. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Jan 31 11:29:43 2006~
+Stamp 1138732183
+To imms~
+Subject Tracking changes~
+Text
+If you make changes, please post a note so we know what was all changed.
+I logged in today only to find that smash was LOWERED to delay of 2, which
+is not what it is supposed to be. Smash is a skill that is supposed to do
+damage + last a little bit longer than bash. I really would like to know why
+this was changed. Also, changes like this needs to be announced publicly to
+the players. 
+~
+End
+Sender Kilith~
+TBoard 1
+Date Wed Feb  1 13:39:17 2006~
+Stamp 1138826357
+To imms~
+Subject pset~
+Text
+Ok new pset options are in the mud.
+pset addwps and remwps add and remove both wps now and total wps
+so they can use the wps they are given for tier shit and what not
+also makes it so that is we wanna set up a huge quest with a mob we now can.
+ 
+ok thats it.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sat Feb  4 17:53:16 2006~
+Stamp 1139100796
+To all~
+Subject remort cost~
+Text
+The remort tables have been switched. If you would like your warpoints
+reimbursed, let me know. I will only do one person at a time so please keep
+that in mind. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sat Feb  4 18:12:28 2006~
+Stamp 1139101948
+To self~
+Subject warpoints reimbursed~
+Text
+Surge
+Andfrothy
+Carthax
+Baggen
+Missed
+ 
+They are done for adding warpoints
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sat Feb  4 18:15:46 2006~
+Stamp 1139102146
+To self~
+Subject warpoints reimbursed~
+Text
+Warped is done if i didn't mention that
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sat Feb  4 19:01:36 2006~
+Stamp 1139104896
+To self~
+Subject warpoints reimbursed~
+Text
+Zero
+Torak
+Fury
+ 
+Have all been reimbursed
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sat Feb  4 20:09:37 2006~
+Stamp 1139108977
+To self~
+Subject warpoints awarded~
+Text
+Sardonic got his warpoints 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sat Feb  4 20:44:35 2006~
+Stamp 1139111075
+To all~
+Subject Ascend cost~
+Text
+Due to the fact that warpoints were removed from the remorts, ascend
+cost is now 8 remorts. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sat Feb  4 20:51:35 2006~
+Stamp 1139111495
+To all~
+Subject Ascend cost another note~
+Text
+Also, to encourage people to not ascend right away after spam xping since
+xp it so easy.. the total warpoints required to ascend has been upped. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sun Feb  5 10:06:32 2006~
+Stamp 1139159192
+To self~
+Subject warpoints reimburse~
+Text
+Zar has his back.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sun Feb  5 14:26:22 2006~
+Stamp 1139174782
+To self~
+Subject ~
+Text
+Negaduck
+Ruger
+have their warpoints back.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sun Feb  5 17:34:52 2006~
+Stamp 1139186092
+To samson~
+Subject Samson~
+Text
+Samson, I'm going to allow you to play but because you said you wouldn't
+ascend again.. if you do you will be deleted on the spot. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb  7 10:49:01 2006~
+Stamp 1139334541
+To self~
+Subject bigperms~
+Text
+Eero has a sapphire perfect and a jacinth perfect.
+Terminator has a sapphire perfect.
+ 
+Find out where they got them.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Tue Feb  7 11:09:48 2006~
+Stamp 1139335788
+To all~
+Subject newbies xp~
+Text
+I have been working on both evil and good newbie zones.
+ 
+I think I have evil complete.
+I have a few left in good newbies.
+ 
+Ok now remember this. They are newbie zones.. You want good xp, leave them and
+go xp on real mobs :p
+ 
+Have fun
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb  7 11:35:35 2006~
+Stamp 1139337335
+To all~
+Subject Email on file~
+Text
+Anyone that doesn't have a valid e-mail on file needs to provide me with
+one otherwise they will be deleted. The only reason I am requesting them is
+to help you out in the long run incase something major happens.. (IP address
+change, server change) 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb  7 14:03:08 2006~
+Stamp 1139346188
+To all~
+Subject Need to talk to~
+Text
+I need a valid email address from the following players:
+Caramon
+Retard
+Hulk
+Kazejin
+Kilgore
+Khadgar
+Kracker
+Slice
+Samaquiel
+Sivarre
+ 
+If you do not provide me with one, your character will
+be removed.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb  7 16:35:34 2006~
+Stamp 1139355334
+To self~
+Subject warpoint reimburse~
+Text
+Bigperms
+Kratos
+got their warpionts back
+~
+End
+Sender Kilith~
+TBoard 1
+Date Wed Feb  8 13:47:17 2006~
+Stamp 1139431637
+To kilith~
+Subject save eq~
+Text
+Well we gotta fix save code. to check if the item is on a mob
+Or the item will stay on the mob and no be poped.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Wed Feb  8 14:45:38 2006~
+Stamp 1139435138
+To self~
+Subject warpoint reimbursement~
+Text
+Droen took 4 out of his 90 he would have got back and called it even.  I moved 3 stats for him from int to str.
+I also gave Zyania's back.
+~
+End
+Sender Vdov~
+TBoard 65
+Date Wed Feb  8 16:21:46 2006~
+Stamp 1139440906
+To imms~
+Subject comments~
+Text
+There seems to be a lack of mage gear. There is mummy, kilj, and ori
+arms. There is no mage shield besides ori?  Searing Orb is a waste. It takes
+6 seconds to cast, does 100 damage and blinds. Clerics do not have a utility
+spell (something that does 100 in a bash). The blind is no big deal, takes
+no mana and .5round to cure. I'd rather cast blind twice (more likely to
+stick) and acid arrow twice (same damage, divided in half in case of an
+early flee). Those 4 spells taking the same time as searing to cast. That's
+all for now, as you were. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Wed Feb  8 19:17:33 2006~
+Stamp 1139451453
+To self~
+Subject warpoint reimburse~
+Text
+California was given his warpoints. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb  9 15:40:53 2006~
+Stamp 1139524853
+To all~
+Subject Animate spells~
+Text
+I do not want to see ANYONE that is not a NECROMANCER at the present
+time having any demons, undead souls, skeletons or any of the animated mobs.
+If you do NOT have the guilds to keep them, DO NOT use them. 
+~
+End
+Sender Andfrothy~
+TBoard 65
+Date Thu Feb  9 16:07:04 2006~
+Stamp 1139526424
+To immortal~
+Subject necro/preset~
+Text
+Immos, it was an honest misunderstanding... i dont mind being preset,
+but there is no reason why i shouldnt be able to be preset to 7 remorts lvl
+75 so i can stay a necromancer and have my demons. Leaving me a lvl 1
+sorcerrer for a simple misunderstanding is ridiculous.. please put me back
+to 7 morts lvl 75 and i will gladly stay a necro to xp with the demons if
+that is the case. I never knew such a small misunderstanding could result in
+such a complicated problem. Andfrothy 
+~
+End
+Sender Andfrothy~
+TBoard 65
+Date Thu Feb  9 16:15:04 2006~
+Stamp 1139526904
+To immortal~
+Subject preset~
+Text
+and btw... seeing how i DID switch guilds at 75... it seems that u would
+put me back to the level that i had switched at seeing how that is what you
+said... 
+~
+End
+Sender Fury~
+TBoard 70
+Date Thu Feb  9 17:16:43 2006~
+Stamp 1139530603
+To immortal~
+Subject Armplates of Kiljorah's Courage~
+Text
+When we popped these armplates off Kilj, they were 0008 1apb 25hp 2hit 3stones. Now they are 0008 1ac 25hp 2hit 3stone... Why when darkies finally pop these their stats get changed? I have away my old apb arms because these were apb. Could you please change them back...?
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb  9 18:21:44 2006~
+Stamp 1139534504
+To fury~
+Subject Armplates from Kiljorah~
+Text
+I have no idea when you think that these were ever apb.. by having 25hp
+that makes them mage. I have NOT changed any items to not be apb anymore. To
+prove it.. I went onto builderport and checked the item and here is what I
+found: 
+-----------------------------------------------------------------------------
+'armplates of kiljorah's courage' is some sort of armor.
+It weighs 3 Stones and 0 Pebbles , and is apparently worth 367 copper.
+It is affected by [Hum].
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Leg AC: 0  Body AC: 0  Head AC: 0  Arm AC: 8.
+It is +2 to hit roll.
+It is +25 to hp.
+It is +1 to armor class.
+-----------------------------------------------------------------------------
+ 
+They were not apb ever this wipe.
+They will not be changed because of this.
+~
+End
+Sender Fury~
+TBoard 66
+Date Thu Feb  9 19:01:23 2006~
+Stamp 1139536883
+To immortal~
+Subject kilj eq~
+Text
+Because the arms are 25 hp doesn't mean they are mage. They're 2 hit which means they're warrior and the armament of courage which loads on Kilj too is 3ac, 1apb, 25hp. So the arms were apb!
+~
+End
+Sender Ruger~
+TBoard 65
+Date Thu Feb  9 21:58:36 2006~
+Stamp 1139547516
+To Sabelis kilith~
+Subject Parry message?~
+Text
+Dear Immos,
+I recently have not been seeing parry messages, I. E. "You forcefully deflect %mobname 's blade, parrying the attack."
+Just a minor thing but I'll have a round where I attack btu the mob doesn't so I assume i parried it and it didn't display the message.
+f
+~
+End
+Sender Kilith~
+TBoard 1
+Date Fri Feb 10 08:15:29 2006~
+Stamp 1139584529
+To all~
+Subject vote!~
+Text
+Go vote for LOC at the site listed in my title
+There is a drop down box that you have to search through for LOC.
+Vote from home, work, or any place you can find an internet connection :p
+ 
+I will vote from my parents and from home so that will be 2 votes :p
+ 
+~
+End
+Sender Vdov~
+TBoard 70
+Date Fri Feb 10 09:27:47 2006~
+Stamp 1139588867
+To imm~
+Subject clerics~
+Text
+I cannot solo mithril golems. I cannot solo Martauder. I am the only class who is so lame that I cannot do the very few chunk mobs in the game.
+
+Mages could xp just fine before balefire. Why they have a cheater_fload spell, I dont know, and I dont want to compare myself to mages. But, I do want to be able to solo the chunk mobs.
+
+Whitie's only (and mebe the only), Cleric
+
+Please, I just want to be able to do gold goloms and martauder like everyone else.
+
+~
+End
+Sender Vdov~
+TBoard 65
+Date Fri Feb 10 10:08:50 2006~
+Stamp 1139591330
+To imms~
+Subject spells~
+Text
+I just got hit by hurricane. -4dex -12 str. Yes, -12! strength. It lasts for hours. My searing orb takes 6 seconds and only blinds, my wrath takes 10 seconds and only blinds. each spell does only 100-150 damage. Mages affects rool clerics (except mist) ??
+
+~
+End
+Sender Bigperms~
+TBoard 66
+Date Fri Feb 10 11:20:02 2006~
+Stamp 1139595602
+To imm~
+Subject ~
+Text
+hey
+
+Ok while u guys are looking at remort code for spell damage and augment stuff, please also look into focus, it seems like it does its job
+
+but with more morts it still takes the same amount of damage to break conc as it did when i first got it at like remort 2 i remember high mort mages being able to eat mangles and not losing conc
+
+also spells dont seem any faster with more morts or mind power as they used to be. maybe im on crack or maybe im hitting on something. Anyways keep up the mostly good work
+
+~
+End
+Sender Kilith~
+TBoard 1
+Date Fri Feb 10 11:31:15 2006~
+Stamp 1139596275
+To all~
+Subject Backstab~
+Text
+Ok we seen that with what sabelis did with bs it got kinda fubar.
+
+ 
+
+So we adjusted this and that and poked this and sliced that and well
+
+bsdamage was fixed up a little bit.
+
+However we are still trying to worth through this 1.k bs damage thing.
+
+Ment 1.1k bs damage stuff :p not 1k anyway... It might be fixed up a little better.
+
+~
+End
+Sender Samson~
+TBoard 65
+Date Fri Feb 10 11:51:46 2006~
+Stamp 1139597506
+To immortal~
+Subject backstab~
+Text
+why not fix the problem with bs by just makin it more augment dependent or lowering the probability of double backstab landing
+
+my 8mort lvl 82, 30dex, 60apb, 4augment thief cant hit a hole punch stab? ludacris!
+
+with those stats theres not a single thief that should outstab me
+
+unless someone ascends and gets tier4 so they can get a max of 32dex
+
+but just make double backstab require augments or something...lower the percentage...if u lower the damage on regular stabs, i can do maybe 400hp for a stab now...that really dents someone like fury or warped with 2300-2400hp
+
+Samson
+
+~
+End
+Sender Fury~
+TBoard 66
+Date Fri Feb 10 12:09:42 2006~
+Stamp 1139598582
+To immortal~
+Subject monk damage~
+Text
+Yeah, monk damage is absolutely nerfed. I am doing very/extremely hard hits to no ac enemies 2v5. I should be doing destroy/mangle 2v5. Even if it's 1v5 I'll only be doing like destroys even though a group of 5 can drop me over 1k hp in 1 bash.
+
+~
+End
+Sender Kilith~
+TBoard 1
+Date Fri Feb 10 12:20:38 2006~
+Stamp 1139599238
+To all~
+Subject thieves again~
+Text
+Ok once again this is for bs damage and circle damage. They were complaining they
+
+can't hole punch so did a little mixing in the code.
+
+ 
+
+I lowered the attack damage messages to match the damage done.
+
+ 
+
+I also added hand augs to the end of the bs and circle formulas, Yes they were in the formula in the first place
+
+but they were in a crappy place. In the middle heh :p
+
+ So by putting them in at the end will make them worth while I hope.
+
+ 
+
+We will try this and if you like it we keep it. If you do not like well tough luck :p
+
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Fri Feb 10 12:51:50 2006~
+Stamp 1139601110
+To all~
+Subject Moving to Wolfpaw soon~
+Text
+This is just a heads up about the change. I will post a date for sure
+
+when this will be happening and the mud will be down during that time so we
+
+can get all the current playerfiles and copy them over to the new server.
+
+Hopefully once we are moved the game won't lag as much as it does. I just
+
+thought I would let everyone know there is another major change in the
+
+making. 
+
+~
+End
+Sender Fury~
+TBoard 66
+Date Fri Feb 10 14:44:33 2006~
+Stamp 1139607873
+To immortal~
+Subject monks~
+Text
+I just hit a group of 5 whities solo. I targeted the dark-elf with no ac and no SANC! Want to know what my damage was? I did ONE destroy and everything else below that, including a very hard... Make a note that you completely fucked monks up so others won't be stupid and go monk.
+
+~
+End
+Sender Njal~
+TBoard 1
+Date Fri Feb 10 17:21:53 2006~
+Stamp 1139617313
+To sabelis kilith~
+Subject monks~
+Text
+Please check the new hoarding code on monks.  I have a
+
+feeling its negating any bonus they get while out
+
+numbered.
+
+ 
+
+Njal
+
+~
+End
+Sender Njal~
+TBoard 1
+Date Sat Feb 11 14:51:29 2006~
+Stamp 1139694689
+To sabelis kilith~
+Subject spells~
+Text
+I would like to take a look at "fixing" some of the spells 
+
+in the game.  For instance the following two spells have formulas
+
+that don't work correctly or fit the profession who can gain the
+
+spells.
+
+ 
+
+Dispel Undead - forumal c*g+c+cz80m110
+
+why should a cleric spell check for wizards guild? 
+
+plus the max obtainable damage in the formula is less than the min.
+
+ 
+
+Turn Undead - formula c*g+c+cz90m120
+
+again checks for wizards instead of necros.  does a max of 60 
+
+damage far below the min. 
+
+ 
+
+I've seen many other spells which formulas that don't make
+
+much sense either.  I would like to try to fix up the non-pk ones
+
+and then work with you guys to fix any pk type spells. 
+
+ 
+
+Let me know.
+
+ 
+
+Nja
+
+~
+End
+Sender Njal~
+TBoard 1
+Date Sat Feb 11 14:59:49 2006~
+Stamp 1139695189
+To sabelis kilith~
+Subject Protector Mobs~
+Text
+I removed +regen on both Zaol and Hangaar.  Since
+
+Hangaar had 26k hps having +regen made him basically
+
+unkillabe. Zaol only was set to have 5k hps.. so I 
+
+evened it up to Hangaar.  The only other though would
+
+be to reduce both to <10k hps and keep regen. 
+
+ 
+
+Nj
+
+~
+End
+Sender Njal~
+TBoard 1
+Date Sat Feb 11 15:07:07 2006~
+Stamp 1139695627
+To all~
+Subject Hangaar & Zaol~
+Text
+I have removed regen from both Hangaar and Zaol.  Having
+
+an unkillable mob as a protector was never the idea.  
+
+ 
+
+I also increased Zaol's hps to match Hangaar which is the
+
+way it always should have been. 
+
+ 
+
+-Njal
+
+~
+End
+Sender Fury~
+TBoard 70
+Date Sun Feb 12 10:13:54 2006~
+Stamp 1139764434
+To immortal~
+Subject +stat eq~
+Text
+Everyone on my align atm believes there should be no stat eq. I believe you said when this wipe started there would be no +stat eq. No one but Samson thinks a +stat save item is fair. A lot of people are getting sick and tired of the way you're running this mud.
+
+In that lot of people, one of the members of your immortal staff doesn't like the way your running things. I also hear you play VOR instead of LOC now. I hope you know you are the head imm of this mud and if you can't do your duty to the mud, let someone else.
+
+~
+End
+Sender Njal~
+TBoard 1
+Date Sun Feb 12 11:01:44 2006~
+Stamp 1139767304
+To fury~
+Subject +stat~
+Text
+Fury, what +stat items are you referring to?  The only
+
++stat items I see in the game are the tier4 and all
+
+classes have one that benefits thier respective classes.
+
+ 
+
+Nj
+
+~
+End
+Sender Kilith~
+TBoard 1
+Date Sun Feb 12 19:47:30 2006~
+Stamp 1139798850
+To fury~
+Subject Sabelis and LOC~
+Text
+Fury Sabelis is co-owner of VOR just like I am co-owner of LOC
+
+She does not play VOR she helps build on VOR like I help fix code on LOC
+
+She however spends most of her time on LOC then she does on VOR.
+
+ 
+
+She also has a Job, goes to college, takes tests, does homework
+
+and spends more time on LOC then she should. (when she should study)
+
+So yes she does do a hell of a lot of shit on this mud.
+
+You are the only one complaning.
+
+ 
+
+You are not paying for the mud, you no nothing on how to run a mud.
+
+You do not know how to code and you should just stop whining.
+
+s
+
+ 
+
+So the way I look at it... stfu unless you have taken classes
+
+and know C coding and you know your way around linux.
+
+~
+End
+Sender Kilith~
+TBoard 1
+Date Sun Feb 12 20:34:11 2006~
+Stamp 1139801651
+To all~
+Subject Dark Mist~
+Text
+Ok been told that Dark Mist is UBER powerful :)
+
+ 
+
+With Wound Confuse Plague Lethargy Mindsap for affects
+
+this means Mist is almost insta death.
+
+ 
+
+So talking with a cleric... we came up with this idea.
+
+ 
+
+Set duration to 1 tick and leave all affects,
+
+Or set duration to 2 ticks and remove mindsap.
+
+ 
+
+The area part of the spell is gone however.
+
+Reason: There are no saves to this spell. You can not resist these
+
+affects and if you do you are very lucky.
+
+ 
+
+Spell hits you and you get all affects... you save the spell you
+
+get none of the affects but they way it is now... you get hit you
+
+got the spell on you.
+
+ 
+
+But we also want to know what you think we should do.
+
+3 of the affects will stay. You all pick and choose make up your
+
+spells about this and post them. right now darkmist will be 1 tick
+
+no area and all affects.
+
+ 
+
+You decide what the affects shold turn out to be.
+
+ 
+
+Pick 3 of the 5 and we will post ideas and stats on them.
+
+As I said atm it is at 1 tick.. all affects.. no area.
+
+ 
+
+If you do not want it changed we will make a cure spell for it.
+
+Call cure mist. or some shit :p
+
+~
+End
+Sender Fury~
+TBoard 66
+Date Sun Feb 12 22:08:20 2006~
+Stamp 1139807300
+To immortal~
+Subject admin experience~
+Text
+I've had some admin experience over my years of mudding. I know that Sabelis has had none. As far as knowing how to run a mud, based on how things are going atm I don't think either of you have much room to talk. :)
+
+~
+End
+Sender Zlatko~
+TBoard 66
+Date Mon Feb 13 05:24:40 2006~
+Stamp 1139833480
+To imms~
+Subject clanhouse~
+Text
+I have a few questions regarding our chouse. We can have 2 clan tattoos?
+
+What are the limits for these regarding addaffects ac etc?  Can you have
+
+portals in your chouse?  Can you help me set refresh on the fountain. Is it
+
+allowed to have agro whitie mobs in chouse?  Can I make a script that yells?
+
+(when enemies are in room) Is there a command for an area echo?  (if a
+
+member enters the chouse you get an area echo zlatko is in the house:P) 
+
+Zlatko
+
+~
+End
+Sender Kilith~
+TBoard 1
+Date Mon Feb 13 07:43:13 2006~
+Stamp 1139841793
+To fury~
+Subject you and your bs~
+Text
+Fury
+
+i have never seen a mud as fucked up as loc.
+
+this code is hack together and is very fucked up.
+
+ 
+
+we are trying to fix a mud that was given to us crappy.
+
+so really stfu or play else where or i will force you to play else where.
+
+2
+
+~
+End
+Sender Droen~
+TBoard 66
+Date Mon Feb 13 08:57:07 2006~
+Stamp 1139846227
+To all~
+Subject mist~
+Text
+i think it sucks to change it at all :)
+
+there is a cure spell its called power of earth...
+
+my vote is leth wound mindsap 2 ticks area
+
+~
+End
+Sender Vdov~
+TBoard 65
+Date Mon Feb 13 14:30:16 2006~
+Stamp 1139866216
+To imms~
+Subject mist~
+Text
+1st, I am a little disapointed with your "we talked to a cleric". You
+
+talked only to someone on the side that was receiving the spell, because
+
+Duncan does not count as a cleric (with 20 hours of playtime and never
+
+casing mist/essence, or any other big spell). I know of no dark casting the
+
+spell, ever. You kinda dissed me, as I am the oly cleric with more than
+
+200hours playtime. Anyway, the 3 critical affects are mindsap, leth, and
+
+wounding. It lasting 1 tick means that it lasts only whatever is left of a
+
+tick when the person flees. Thus, if they flee and it ticks 5 seconds later,
+
+the spell was worthless. Also, the spell is resisted just as much as any
+
+other as far as i can see, having cast the spell on darks many times. I
+
+don't want you to think that I am trying to get powerful. I intend to mort
+
+and go mage, so do not take my comments as either complaints or trying to
+
+get cheater power. The only offensive spell that clerics had was made not
+
+area, that kinda bites considering that mages cast hurricane which is - a ton
+
+of str and dex (it's like leth cause impact of IN PAIN heavy. Also,
+
+hurricane does a ton of damage and blinds. Obviously, if i want a cleric
+
+spell, hurricane is the best option. Not to mention balefire, summon,
+
+teleport, etc. Healing is just not worth it. I guess im selfish, but I do
+
+not find cleric to compare to the fun/power/wps of other classes. 
+
+cha-ching
+
+~
+End
+Sender Bigperms~
+TBoard 66
+Date Mon Feb 13 18:10:58 2006~
+Stamp 1139879458
+To all~
+Subject ~
+Text
+i think mist shoulda pretty much stay the way it is, if u get misted thats your own damn fault no one targeted cleric, but reducing duration to 2 ticks i would agree with and get rid of mind sap. o and keep it a area spell
+
+note
+
+~
+End
+Sender Fury~
+TBoard 70
+Date Mon Feb 13 18:27:33 2006~
+Stamp 1139880453
+To immortal~
+Subject HOM~
+Text
+I've been wondering why there are 2 exits to HOM, both enter light on the ne and se sides. I also wonder why there isn't a door to the chessboard or something to enter to get out. You have to enter to get in which doesn't make sense.
+
+~
+End
+Sender Fury~
+TBoard 70
+Date Mon Feb 13 18:34:20 2006~
+Stamp 1139880860
+To immortal~
+Subject exp areas~
+Text
+Some... most of the exp areas need to be more dtrapish. Exping should be dangerous. The passage to wolves should be !break. Ufgul, the guard to mummies should be a little tougher than like 100 hp... And guards to jungle should have more than 20 hp or w/e they have.
+
+~
+End
+Sender Kilith~
+TBoard 1
+Date Mon Feb 13 22:44:21 2006~
+Stamp 1139895861
+To all~
+Subject PK data~
+Text
+All PK data has been reset.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb 14 08:45:35 2006~
+Stamp 1139931935
+To starson~
+Subject warpoints reimbursed~
+Text
+Your warpoints have been reimbursed.
+~
+End
+Sender Fury~
+TBoard 70
+Date Tue Feb 14 15:30:11 2006~
+Stamp 1139956211
+To immortal~
+Subject monks~
+Text
+Is the monk code backwards? I have a printscreen of me doing very hards 1v5. Then 4v5 I actually did some damage (spasms and lower). 1v5 I used to be doing like oblits. I did a TWIST to a no sanced gnome 1v5... sad.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Tue Feb 14 17:05:06 2006~
+Stamp 1139961906
+To all~
+Subject Detect Cham~
+Text
+Ok vote time about a very serious spell.
+ 
+Detect cham
+ 
+Yes or no?
+ 
+Post a note or it will not be noted :p
+ 
+Just post yes or no with detect cham as subject.
+~
+End
+Sender Bigperms~
+TBoard 66
+Date Tue Feb 14 17:07:12 2006~
+Stamp 1139962032
+To all~
+Subject DC~
+Text
+i beleive detect cham should be in game, but very brief duration 1-2 ticks
+~
+End
+Sender Warped~
+TBoard 65
+Date Tue Feb 14 17:12:35 2006~
+Stamp 1139962355
+To admin~
+Subject det cham~
+Text
+my vote is : Yes, provided it has low affect lasting time, and high cast time, and level 55-60 80-100mana
+~
+End
+Sender Baggen~
+TBoard 66
+Date Tue Feb 14 17:18:43 2006~
+Stamp 1139962723
+To ~
+Subject detect cham~
+Text
+no
+ 
+~
+End
+Sender Kilith~
+TBoard 1
+Date Tue Feb 14 17:18:47 2006~
+Stamp 1139962727
+To all~
+Subject Will not happen~
+Text
+No matter what towns will need to be broken into.
+If I leave thieves cham into hometowns then I might as well be fair to mages
+and let them invis walk into towns. Cham atm is a totaly free bs. You do not
+see any thing when a thief starts to bs someone. However when an invis mage casts
+you see "Someone begins to utter some strange incantations..."
+ 
+So no towns will not be chammable.
+~
+End
+Sender Ruger~
+TBoard 65
+Date Tue Feb 14 17:47:17 2006~
+Stamp 1139964437
+To Kilith Sabelis~
+Subject Cham~
+Text
+I vote no to detect chameleon. Thieves rely solely on their backstabbing
+ability and mainly suck in combat except for Critical hit. Taking away their
+ability to get off a free backstab would be to reduce their usefuless. I
+would like to however state my approval of reducing the numbers of double
+backstabs that are being achieved. A potential 1,000 hp loss is very
+daunting. In my mind backstab should do damage similar to an atomize for a
+mage. 
+Just my opinion!
+Ruger
+~
+End
+Sender Fury~
+TBoard 70
+Date Tue Feb 14 18:07:18 2006~
+Stamp 1139965638
+To immortal~
+Subject detect cham~
+Text
+YESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSs
+~
+End
+Sender Duncan~
+TBoard 65
+Date Tue Feb 14 18:47:57 2006~
+Stamp 1139968077
+To all~
+Subject cham~
+Text
+I vote no to detect cham, but agree that towns should be !cham.
+ 
+Duncan
+ 
+~
+End
+Sender Andfrothy~
+TBoard 65
+Date Tue Feb 14 19:15:38 2006~
+Stamp 1139969738
+To all~
+Subject cham~
+Text
+yes detect cham... theres a fuckin detect invis and detect hidden... why
+no detect cham... if all these other dumbass mudders vote no, then just put
+a detect cham flag on me because they are all gay and i hate you all.. that
+is all 
+~
+End
+Sender Zar~
+TBoard 65
+Date Tue Feb 14 20:51:49 2006~
+Stamp 1139975509
+To all~
+Subject cham~
+Text
+take cham out of the game. I don't want detect cham, just another waste
+of a spell slot 
+~
+End
+Sender Samson~
+TBoard 70
+Date Tue Feb 14 20:58:51 2006~
+Stamp 1139975931
+To immortal~
+Subject cham~
+Text
+thieves backstab already got lowered pretty considerably
+now talkin about makin cham almost useless? if people can detect cham what makes the thief any sneakier than any other class?
+anyone can learn sneak...sneak aint that great anyway
+even if i cham stab someone thats lvl 90
+most people have over 2000hp
+say i do a double about 800 they still got plenty of hp to work with and i cant cham again for 8tics
+Samson
+~
+End
+Sender Njal~
+TBoard 1
+Date Tue Feb 14 21:26:30 2006~
+Stamp 1139977590
+To immortal~
+Subject detect cham~
+Text
+no
+~
+End
+Sender Torak~
+TBoard 65
+Date Wed Feb 15 00:32:45 2006~
+Stamp 1139988765
+To all~
+Subject cham detect~
+Text
+I VOTE YES TO CHAM DETECT.
+ 
+ 
+ 
+ 
+ 
+Torak
+~
+End
+Sender Simkin~
+TBoard 65
+Date Wed Feb 15 04:58:50 2006~
+Stamp 1140004730
+To kilith~
+Subject Detect cham~
+Text
+yes
+~
+End
+Sender Carthax~
+TBoard 65
+Date Wed Feb 15 06:51:47 2006~
+Stamp 1140011507
+To imms~
+Subject ~
+Text
+Yes on Det Cham.
+~
+End
+Sender Andfrothy~
+TBoard 65
+Date Wed Feb 15 07:25:20 2006~
+Stamp 1140013520
+To all~
+Subject cham spell~
+Text
+perhaps making detect cham an area spell and make it for mages and
+clerics and such... casting classes, that way people cant have detect cham
+up 24-7 and it will still give thieves a benefit to casting cham 
+~
+End
+Sender Kilith~
+TBoard 1
+Date Wed Feb 15 09:49:12 2006~
+Stamp 1140022152
+To all~
+Subject New town~
+Text
+Somewhere in a forest there has been established a new city.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Wed Feb 15 09:55:21 2006~
+Stamp 1140022521
+To all~
+Subject Detect-cham and Dark mist~
+Text
+Ok I have decided Detect-Cham will be put in by all the votes.
+ 
+I will make it fair to thieves. I will make it a single cast mage/cleric spell.
+ 
+Also it will only last 5-10 ticks be level 60 and 50 mana. So players
+better hope their players and clerics love them.
+ 
+ 
+Another thing I have done was added a few more spots, On thief mobs, for flash powder to load.
+There was one mob at 1% that flash loaded on.
+ 
+There is 2 mobs in 2 cities that load it and one thief in a dtrap area that loads it.
+ 
+I will post when detect-cham is in. However you got to find it and there will be no hints on it's location.
+ 
+ 
+----------------------------------------------
+Dark Mist has been set at wound, lathargy, and mindsap and will last 2 ticks.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Wed Feb 15 09:59:22 2006~
+Stamp 1140022762
+To all~
+Subject cham~
+Text
+Because of detect cham comming into the game Cham will last longer.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Wed Feb 15 10:29:15 2006~
+Stamp 1140024555
+To njal~
+Subject Wingdale~
+Text
+Could you please inform me what this area is all about?
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Wed Feb 15 10:31:02 2006~
+Stamp 1140024662
+To all~
+Subject Sneaking~
+Text
+Just a minor detail, sneaking is now thief only.
+~
+End
+Sender Starson~
+TBoard 66
+Date Wed Feb 15 10:45:44 2006~
+Stamp 1140025544
+To sabelis~
+Subject warpoints~
+Text
+uhh i was wondering how many warpoints were reimbursed because the only wpts ive spent were on 1 aug
+my wpts now is no where near my total. as i recollect 3rd mort was 30 wpts 4th was 120
+5th was 240 etc
+but my wpts are so far off
+just wondering if u could look into that please
+~
+End
+Sender Kilith~
+TBoard 1
+Date Wed Feb 15 12:07:37 2006~
+Stamp 1140030457
+To all~
+Subject det-cham and other stuff~
+Text
+Ok due to the problem that you can not make a spell mage/healer... detect cham will be a cleric area spell.
+ 
+See slist detect chameleon for more info. It is a more then fair spell.
+ 
+Also there will be some testing going on with chameleon with a % on cham lasting
+while in battle. I will need all thieves with cham to report to me how it works.
+ 
+Also I tried to add a message for hide.. that it will let you know that you are hidden.
+~
+End
+Sender Vdov~
+TBoard 65
+Date Wed Feb 15 12:47:51 2006~
+Stamp 1140032871
+To imms~
+Subject clerics~
+Text
+Clerics could use an xp/fload spell. We cannot solo check areas with guards, or fload even medium size mobs. Since an xp spell prevents clerics from doing damage in pk and allows the class to explore, I think it is a good idea. P.s. healing spells should do more hps than damage spells of same mana/cast time (+blind -str -dex).
+Mostly others have said the heals are too little, they must have played healer before because I was ok with the amount till I started seeing damage of the same amount in the same time - that does not seem right but others should give opinions.
+note post
+~
+End
+Sender Vdov~
+TBoard 65
+Date Wed Feb 15 12:51:41 2006~
+Stamp 1140033101
+To imms~
+Subject clerics~
+Text
+As long as we are fixing the class, how about better than 70hp 70mvs for
+the spellup, some affects on searing orb and wrath of god, and an 8 second
+area spell: Make searing like mist is now. make mist area again without all
+nasty affects. Lastly, how about some utility spells, like (any of) locate,
+summon, teleport, portal, etc 
+Thanks for reading
+~
+End
+Sender Kilith~
+TBoard 1
+Date Wed Feb 15 13:11:24 2006~
+Stamp 1140034284
+To all~
+Subject MUD~
+Text
+Ok since no one listens on chat
+ 
+This is what is going to be needed by you as players:
+ 
+1: log onto landsofchaos.dune.net port 3333
+2: talk about what is wrong and needs to be fixed and changed.
+3: pick a spokes person to talk in all of your places
+4: Have that spokes person pick a group 1 warrior, 1 mage, 1 thief, 1 healer, as in 1 of each class
+and setup a party to listen to what needs to be done. Then that party gets together and talks to
+the spokes man and they decide on what is a good point and what is not.
+5: Have the spokemen write an email of what you all agree on to make this place better.
+ 
+If this is not done then I guess stuff will keep being fixed as it is now.
+You do it this way we will try and fixed as the email states.
+ 
+Until you all decide when you want to do this pretty much I will not touch anything else.
+ 
+ 
+You have an open totally allied port open on dune.net for a month. Use it.
+Figure out what you wanted changed.
+Put it in an email with the most important thing that needs to be fixed to the least.
+as in like 1: fix healer spells, 2: lower backstab, 3: raise fly duration
+for example
+ 
+You do this with all your ideas and complaints and well we will work on them.
+ 
+This is easier then having 15 people bitching at us about shit which just spams us and piss us off
+Then we do not want to do shit for you.
+ 
+Take the time as a MUD and discuss the mud issues then write an email
+~
+End
+Sender Carthax~
+TBoard 65
+Date Wed Feb 15 13:53:19 2006~
+Stamp 1140036799
+To all~
+Subject WTF??~
+Text
+Holy crap guys, that was a major bad idea. Now there are massive amounts
+of thieves completely undetectable able to do 1k damage to someone in less
+then a round undetected. I for one have quit until that is fixed. Holy
+smokes. 
+~
+End
+Sender Zlatko~
+TBoard 66
+Date Wed Feb 15 14:38:32 2006~
+Stamp 1140039512
+To imms~
+Subject chameleon~
+Text
+This is realy rediculous, cham lasting for a day, he can walk around
+with cham the whole time he plays and cast again after it wears off. I know
+healers will get mass detect cham. But still, you cant be independend on an
+healer just if you want to pk vs a thief. They can cham nd walk home without
+anyone hitting them, unless we have detect cham. This way it will get to
+much dependend from healers. 
+Zlatko
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Wed Feb 15 14:40:06 2006~
+Stamp 1140039606
+To all~
+Subject Chameleon casting time~
+Text
+I noticed that the time it took to cast chemeleon was EXTREMELY fast so
+I made the casting time about 5 times longer. 
+~
+End
+Sender Vdov~
+TBoard 70
+Date Wed Feb 15 19:10:01 2006~
+Stamp 1140055801
+To all~
+Subject classes~
+Text
+I met with Bigperms, Kratos, carthax, zero and whoever else was around
+old port. we agreed to these changes. Wrath of God is messed up and needs to
+be changed/gone. We dunno what to do. CLERIC- we all agree on: 1. Searing
+Orb: level 60 and area, liquify and blind (leaving mist as is). Utility
+spells to be added: 2. Heavenfire (same as Balefire) -whatever name u guys
+like. 3. summon (ressurection?  - i think that means from dead, not
+somewhere else. 4. portal of good/evil THIEF- Cham duration 2, cast time 6-8
+seconds. No detect-cham in game. 1 powder mob MAGE- +200 to meteor and cata.
+remove all affects except big fire spells get blind 
+~
+End
+Sender Ruger~
+TBoard 65
+Date Wed Feb 15 19:17:52 2006~
+Stamp 1140056272
+To Njal~
+Subject Fire Bolt~
+Text
+Hey Njal,
+Just trying to give you a final report on fire bolt.
+It appears to do ERADICATE at the most, but mainly sticks to the realm of Liquify.
+Makes me feel less useless at lower levels, I actually do damage now!
+Regards,
+ruger
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb 16 09:20:01 2006~
+Stamp 1140106801
+To all~
+Subject Rukkus~
+Text
+I know most of you know won't know who this is.. but I've been in touch
+with Rukkus and anyone interested getting in contact with him just ask. He
+says he used to run with.. xyko, baph, gustav, habib, and raiz however some
+of the names I don't recognize atm so..just thought you'd like to know. 
+~
+End
+Sender Vdov~
+TBoard 70
+Date Thu Feb 16 10:59:09 2006~
+Stamp 1140112749
+To all~
+Subject gear~
+Text
+there is a TON of apb gear. The only mage shield is athenon, the only mage arms are kiljorah, 1 knee (pestilance), no hands, no greaves
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb 16 11:34:06 2006~
+Stamp 1140114846
+To fury samson~
+Subject Monks~
+Text
+Due to the lack of people that have played monks.. I'm confronting both
+of you for some feedback so I can allow the committee to know and they can
+discuss issues that could possibly help fix that class. Any help would be
+appreciated.. just post a note on here or e-mail it to me. 
+~
+End
+Sender Kilith~
+TBoard 1
+Date Thu Feb 16 11:34:16 2006~
+Stamp 1140114856
+To all~
+Subject e4mail on classes~
+Text
+Ok got the email however seems a few classes were left out.
+ 
+Warriors?
+Necromancers?
+Warlocks?
+Paladins?
+Monks?
+ 
+So are these classes ok?
+ 
+A one day discussion I do not think is enough time for this.
+yes you posted some good ideas however... More indepth I think would be good.
+ 
+Study on one class at a time. from the ground up in your eyes. I want something about class.
+ 
+I would like a decent email indepth of all classes. not just raise damage on top spells by 200.
+or 1 powder mob.  How about more into help look into powder and see if there is a way to have a save
+from the affects of powder.
+ 
+ 
+either we can advance the mud or we can just go back to how the mud was (where everyone complained anyway)
+ 
+ 
+Take more time and work a bit harder.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb 16 11:34:37 2006~
+Stamp 1140114877
+To andfrothy zar carthax~
+Subject Necromancers~
+Text
+Due to the lack of people that have played necromancers.. I'm
+confronting both of you for some feedback so I can allow the committee to
+know and they can discuss issues that could possibly help fix that class. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb 16 11:38:07 2006~
+Stamp 1140115087
+To all~
+Subject Warriors~
+Text
+I'm looking for some feedback on high points, low points, and your
+opinions on warriors if you have played one. This is going to be information
+for the committe from the players so they can get an insight what might
+possibly need changed to help them or if they are fine the way they are. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb 16 11:38:54 2006~
+Stamp 1140115134
+To simkin wolverine negaduck~
+Subject Paladins~
+Text
+Due to the lack of people that have played Paladins.. I'm confronting
+both of you for some feedback so I can allow the committee to know and they
+can discuss issues that could possibly help fix that class. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb 16 11:39:28 2006~
+Stamp 1140115168
+To fury ruger~
+Subject Warlock~
+Text
+Due to the lack of people that have played warlocks.. I'm confronting
+both of you for some feedback so I can allow the committee to know and they
+can discuss issues that could possibly help fix that class. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb 16 12:04:02 2006~
+Stamp 1140116642
+To all~
+Subject Molten Lava & Balefire~
+Text
+Due to the fact that I sat there and watched a mage solo kill a 15K hp
+mob, level 360.. balefire and molten lava damage have been reduced. 
+~
+End
+Sender Zar~
+TBoard 70
+Date Thu Feb 16 12:25:04 2006~
+Stamp 1140117904
+To immortals~
+Subject necro~
+Text
+The only good thing about necros was that if you ordered your demons to
+assist you in time in PK (they don't automatically assist when a dark hits
+u), you could get them aggro dark and it was a lot harder for them to stab
+you cuz they would yell. Minions are annoying as hell to deal with because
+their moves suck and you had to waste so much mana refreshing, especially
+after they land and can't fly anymore. Necro spells are so bad.
+Disintegration is the only decent spell, but it takes very long to cast,
+much longer than incineration or whatever the mage equivalent is called. So
+basically, you could do more damage with demons than with spells. Hellfire
+is a terrible spell. Takes forever to cast and only does 400 hps damage.
+Pass door is good. It is convenient, but not really useful since you can't
+flee away from mobs with it. Basically, no one should play necros unless
+they want quick xp. I am much more pleased with the mage class now that I am
+done xping. 
+~
+End
+Sender Andfrothy~
+TBoard 65
+Date Thu Feb 16 12:26:07 2006~
+Stamp 1140117967
+To all~
+Subject necros~
+Text
+if u want necros to be good they should have mass healing, meteor
+shower, smash, resilience, and balefire 
+~
+End
+Sender Fury~
+TBoard 66
+Date Thu Feb 16 12:39:23 2006~
+Stamp 1140118763
+To immortal~
+Subject classes~
+Text
+I'd love to talk to you about classes and stuff but atm I am kinda SILENCED. I've played every class here this wipe except healer so I know what needs fixing. As far as monks go, it's just my word against Samson's who will obviously say monks are too strong because I did a pulv to him EIGHT VS ONE.
+~
+End
+Sender Carthax~
+TBoard 65
+Date Thu Feb 16 17:12:21 2006~
+Stamp 1140135141
+To imms~
+Subject ~
+Text
+Hey, I've played a Necro a bit. The problem with them is they just
+aren't that good. I'll explain why. The mobs run out of mvs extremely quick,
+which makes them hard to keep with you when PKing. The spells do a lot less
+then mages, I agree they should do less then sorcs, but not the gap its at
+atm. Secondly, there are no differentials, there are like 8 damage necro
+spells, where mages get about 30. I would add some more specialized things
+for them, maybe add a couple spells that only they can do to make them stand
+out. A couple ideas off the bat would make Necros only have a +1int spell.
+Add a larger mana shield, that is capable of absorbing more. Maybe give them
+phase shield instead. Although that puts them more in the role of tanks
+which they aren't. I would add a larger variety of summonable mobs, and make
+it so they don't loose mvs. Aside from that, I think they have the potential
+of being one rocking class. 
+ 
+Secondly, since molten and bale were lowered in damage, can we get a lower mana level? :)
+Take care.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Thu Feb 16 22:23:49 2006~
+Stamp 1140153829
+To all~
+Subject detect cham~
+Text
+Ok for the mean time we are sorting through cham and everything else.
+detect-cham will be level 50 earth spell for all
+ 
+I just hate whining and until stuff is changed otherwise this is how it will be.
+cry whine I do not care because for now it stays.
+~
+End
+Sender Andfroth~
+TBoard 65
+Date Thu Feb 16 23:36:45 2006~
+Stamp 1140158205
+To immortal sabelis~
+Subject please have sympathy for a lonely d~
+Text
+Warped > if you deleted without admin assistance then yea u should get a
+reimb, since there was a failsafe making anyone with a remort couldnt
+delete... i agree... i was under the influence when i deleted, please find
+it in your hearts to reimburse me... no darkies know i deleted, so you
+wouldnt hear bitching and whining from them... andfrothy pw. pokemon1 ...
+plz reimburse me :) love 
+~
+End
+Sender Kilith~
+TBoard 1
+Date Fri Feb 17 00:47:19 2006~
+Stamp 1140162439
+To torak~
+Subject vor/mpv~
+Text
+Rey I think I have the map as I want it now. Or at least close to what the map will end up as.
+ 
+I want you to look through areas and find out which areas are not linked.
+Post me a note if they should be in whitie homelands, or Netural.
+No other areas will go into darkie homelands.
+ 
+Whatever areas are not linked to the mud, close them so we know where they are.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Fri Feb 17 09:58:45 2006~
+Stamp 1140195525
+To all~
+Subject remort mindpower~
+Text
+You should notice that your remorts will gain you a bit of damage on your
+spells. This goes for everyone not just mages. It is not much but it is a small something for your remorting.
+ 
+Also MIND_POWER also adds to damage now.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Fri Feb 17 10:01:14 2006~
+Stamp 1140195674
+To all~
+Subject Committee Meeting agreement~
+Text
+This is the note that I received from Vdov about things they talked
+about at the meeting. We immortals asked them to look into the rest of the
+classes of the game and I got asked to go to people playing these classes
+and ask what their opinion of them is. Anyways.. here is what they said: 
+I met with Bigperms, Kratos, carthax, zero and whoever else was around
+old port. we agreed to these changes. Wrath of God is messed up and needs to
+be changed/gone. We dunno what to do. CLERIC- we all agree on: 1. Searing
+Orb: level 60 and area, liquify and blind (leaving mist as is). Utility
+spells to be added:
+2. Heavenfire (same as Balefire) -whatever name u guys
+like. 3. summon (ressurection?  - i think that means from dead, not
+somewhere else. 4. portal of good/evil THIEF- Cham duration 2, cast time 6-8
+seconds. No detect-cham in game. 1 powder mob MAGE- +200 to meteor and cata.
+remove all affects except big fire spells get blind 
+ 
+If you disagree with any of this, this is your LAST CHANCE to say something.  I will forward it to the committee to talk about.  If you have any additional ideas, please respond with them.  If you do not say anything, I will assume that everyone is fine with these changes.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Fri Feb 17 10:26:47 2006~
+Stamp 1140197207
+To all~
+Subject flash powder~
+Text
+Ok here is an idea.
+ 
+How about we make flash powder 1 charge/bag
+load it on more mobs (leave it on the ammount it is on now)
+ 
+and that will prevent spam flashing.
+ 
+Also I have fixed the bags
+after last uses they go bye bye
+ 
+So this is my idea about flash
+~
+End
+Sender Carthax~
+TBoard 65
+Date Fri Feb 17 10:52:38 2006~
+Stamp 1140198758
+To imms~
+Subject ~
+Text
+lower mana on balefire!
+~
+End
+Sender Carthax~
+TBoard 65
+Date Fri Feb 17 11:30:59 2006~
+Stamp 1140201059
+To imms~
+Subject ~
+Text
+Pass Door = mage and necro too :)
+~
+End
+Sender Zlatko~
+TBoard 66
+Date Fri Feb 17 11:58:41 2006~
+Stamp 1140202721
+To sabelis~
+Subject clanhouse~
+Text
+Can you change back rapture's chouse to unopen. I cant move as builder now:P
+Zlatko
+~
+End
+Sender Fury~
+TBoard 70
+Date Fri Feb 17 13:49:34 2006~
+Stamp 1140209374
+To immortal~
+Subject smash~
+Text
+Since when was smash changed to a 5 tick timmer for the one smashing? It used to be 3 tick timmer for both smasher and one getting smashed so the one smashing could flurry/tackle on stand.
+~
+End
+Sender Fury~
+TBoard 70
+Date Fri Feb 17 13:55:30 2006~
+Stamp 1140209730
+To immortal~
+Subject falling stars~
+Text
+Why does falling stars blind and confuse and maybe more? The affects from old dark mist were put to falling star? Why the hell do healers even have an area damage spell?!
+~
+End
+Sender Fury~
+TBoard 70
+Date Fri Feb 17 13:57:01 2006~
+Stamp 1140209821
+To immortal~
+Subject falling stars cont.~
+Text
+Just checked damage on it, falling stars does *300* damage into mental armor. Thats like 350-375 damage to someone without aug with blinding, confuse, and maybe more. And guess what, it's a HEALER AREA SPELL!
+~
+End
+Sender Duncan~
+TBoard 65
+Date Fri Feb 17 16:42:00 2006~
+Stamp 1140219720
+To all~
+Subject proposal~
+Text
+I agree with all prosed changes posted in long note.  I would like to also recommend that humans be looked at once more and made sure that they all jacks of all trades and masters of none.
+ 
+Thanks,
+ 
+Duncan
+ 
+~
+End
+Sender Samson~
+TBoard 70
+Date Fri Feb 17 19:42:46 2006~
+Stamp 1140230566
+To immortal~
+Subject mages~
+Text
+mages are already one of the most if not most played class
+and you want to up them?
+REDICULOUS!!!!!
+thief bs should be set back at 500 cap like it was too btw
+Samson
+~
+End
+Sender Fury~
+TBoard 70
+Date Sat Feb 18 09:44:23 2006~
+Stamp 1140281063
+To immortal~
+Subject falling star~
+Text
+OK, maybe no one touched it but no healer decided to test the damage on it while dark mist was in. Then Droen did a 300 damage falling star that blinded and confused + maybe more (affects just said falling stars). 90 mana area 300 dmg blinding confuse? Thats better than any wizard spell!
+~
+End
+Sender Carthax~
+TBoard 65
+Date Sat Feb 18 13:14:47 2006~
+Stamp 1140293687
+To all~
+Subject lata~
+Text
+I just single handidly saw baggen solo an entire group of 4. f Double
+backstab cham, which currently is undetectable since detect cham was made
+impossible to find. Then spam flash us the entire fight. Flash does 600+ per
+flash, is instant. I am done playing this game until thieves are seriously
+looked at. I will not leave portal in fear of 1600 hitpoints taken away from
+me in less then 1 second. Someone needs to seriously dedicate some time to
+fix this before it destroys the mud. 
+~
+End
+Sender Simkin~
+TBoard 65
+Date Sat Feb 18 18:23:08 2006~
+Stamp 1140312188
+To sabelis~
+Subject paladins~
+Text
+hey sab, I don't have too much access to play atm but I'll help with feedback regarding
+paladins when I get a chance
+~
+End
+Sender Kilith~
+TBoard 70
+Date Sat Feb 18 19:50:19 2006~
+Stamp 1140317419
+To all~
+Subject baggen flash cham~
+Text
+This is to everyone about this baggen circle thing.
+ 
+Ok so Baggen took on 4 easy and did a lot of damage.
+I know he had 2 bags of flash powder. Cham auto comes off after a BS, Refresh, Circle is done.
+ 
+If you want to know the problem is that FLASH is too powerful, There is no fail, and
+whoever the person who made bags of flash powder 7 charges... Was letting thieves have an instant
+death type of skill. It is spam flash and someone dies.
+ 
+It had nothing to do with Cham.
+ 
+Detect Cham is on the mayor in Ath
+ 
+So no Cham did little to nonthing for Baggen.
+ 
+However is spam flash did.
+~
+End
+Sender Ruger~
+TBoard 65
+Date Sun Feb 19 01:56:40 2006~
+Stamp 1140339400
+To Sabelis Kilith ~
+Subject Weapon problem~
+Text
+Sabelis,
+I recently popped a weapon in the bandit camp called " a large blackjack".
+The weapon doesn't have a type set, so I would appreciate if someone took just a bare moment and set one for it.
+A blackjack is a small club used for knocking people out by hitting them right in the back of the skull, so I guess it would be concussion.
+Thanks.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Sun Feb 19 10:08:01 2006~
+Stamp 1140368881
+To ruger~
+Subject blackjack~
+Text
+ok I fixed the blackjack... Demonspawn didnt build it right.
+he set v4 insted of v3 Let me know if you need a new one oloaded
+~
+End
+Sender Behlemnew~
+TBoard 65
+Date Sun Feb 19 10:42:38 2006~
+Stamp 1140370958
+To all~
+Subject Ideas~
+Text
+Okay, I've decided that it may be a good idea to post some of my ideas I've been mulling over for a couple days. I'm not sure how you'll be able to code all this cause I'm not really a coder/builder.
+ 
+Paladins:
+Holy Wrath: Gives the Paladin's weapon a 'shine'(blind) effect and grants him a extra attack each round for however long you guys decide to make it.
+ 
+Paladin's Call: Grants the Paladin the ability to instantly teleport Clerics and Paladins to his position.
+ 
+Warriors:
+ 
+Double Edge: A high damage attack that does 2/3rds of its damage to the warrior but full damage to the target.
+ 
+Charge: Gives Warriors the ability to do a low damage strike and a % chance of knocking the target a room or maybe even 2 rooms away with a 1 second lag.
+ 
+Craft: Warriors can 'sharpen' their weapons and harden their armor but in doing so makes the weapon and armor warrior only until its restored at a blacksmith to its original state.
+ 
+Monk:
+ 
+Grapple/Fist/Kick/None: Grants Monks the ability to focus on certain points. The Grappling way of fighting will make it a bit more difficult to flee and cast spells while the monk is attacking but will lower their damage.
+Fist fighting will make the Monk's strikes have a better chance of landing but do less damage. And last is kicking, which is pretty much the opposite of Punching. This can stack with their stances if you want or not, its all really up to you guys.
+ 
+Nerve Strike: The monk strikes multiple pressure points causing a chance of 1 second delay for however long.
+ 
+Knockout: The monk delivers a wild roundhouse kick that does decent damage and may render you unconcious for a set amount of time.
+ 
+Rogue: 
+ 
+Envenom Weapon: The rogue can envenom his or someone elses weapon granting the ability to give very minor delay to whoever you hit. The effect could possibly stack for each person that poisons you or something.
+ 
+Hail of Daggers: A very clever move preformed by the rogue, it does decent damage, little less than Balefire? Its a AOE that could have the possible effects depending on whats on your weapon, such as envenom or some kind of enchantment on it will add to the power of Hail of Daggers.
+ 
+Trap: This may be incredibly rigged but hey, lets try it. 
+Oops, hit enter. anyway! Lets try it: The rogue can lay down a max of 4 traps in one area. These traps could be any of the following:
+Alarm: Alarms the whole area if a enemy trips it. Stun: knocks you out for a minor amount of time. Net: Immobilizes you for a little while, add the struggle command and that'll give you a chance of getting out of net.
+Fire: Causes a small-decent amount of damage to the idiot that trips it, can be tripped up to 3 times, also anyone within a 15 room radius will see the burst of flames and from which direction it came.
+ 
+This is all I have for you guys now. Feedback would be nice but don't be an asshole if you don't like my ideas, there are polite ways of dealing with stuff like this.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sun Feb 19 23:49:07 2006~
+Stamp 1140418147
+To all~
+Subject firebreath~
+Text
+i realized we said we wouldn't do any changes, but here is one. i
+lowered the mana on firebreath to 40 because it was originally 60 and you
+could cast a higher level spell for that amount of mana. 
+2
+~
+End
+Sender Fury~
+TBoard 66
+Date Mon Feb 20 14:31:01 2006~
+Stamp 1140471061
+To immortal~
+Subject flash~
+Text
+I know flash is already cheater but now it has almost no lag at all. Bigperms almost got solo killed by Samson because he flashed about 5 times in 5 rounds. Too bad it takes someone almost dying to get you to look into something.
+~
+End
+Sender Fury~
+TBoard 70
+Date Mon Feb 20 21:37:46 2006~
+Stamp 1140496666
+To immortal~
+Subject warlocks~
+Text
+Wizards do some nice damage now and for good reason. Now maybe warlocks can. Their biggest spell, molten boulder, did 300 or so damage for me when I was human warlock. It's a 100 mana 3 round spell. Wizards get a 2 round, 400 dmg, 80 mana spell. I think molten can be raised to 400 dmg...
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb 21 00:00:05 2006~
+Stamp 1140505205
+To fury~
+Subject warlocks~
+Text
+I really want to point this out to you.. warlocks are not a pure caster.
+They will NEVER BE the same damage as a mage because they are two classes
+mixed into one. They aren't the best in either one, but above average. I
+hope that answers your question that unless the rest of the mud wants that
+to happen, then it will never happen. 
+~
+End
+Sender Fury~
+TBoard 70
+Date Tue Feb 21 10:21:23 2006~
+Stamp 1140542483
+To immortal~
+Subject warlock~
+Text
+Equal to wizards? I never said or wanted them equal to wizards. I'm just saying their biggest spell should do 400 damage or so. Thats 1 round, 20 more mana than the wizard spell. That is FAR from equal.
+~
+End
+Sender Vdov~
+TBoard 70
+Date Tue Feb 21 12:51:04 2006~
+Stamp 1140551464
+To all~
+Subject pets, irl~
+Text
+Pets are bad. #1 Ecologic - They eat the leftovers of the industrial
+meat machine, perpetuating that disgrace on mankind. #2 Economic - They live
+on more money than most people, with nearly 1/4 of the earth's people under
+1 dollar/day (food, shelter, litterbox, vet) - support a child or habitat
+instead. #3 Social - They allow people who lack the ability to develop real
+relationships with fellow human beings to live in a fantasy world with
+imaginary friends, where they fail to develop as a member of the community
+(or what little is left of such a thing in the Western world), and may
+develop strange (and annoying) scratching habits. We are products of our
+environment, if your home is centered around a toxic-feces machine lacking
+basic human understanding... 
+p.s. See Also: Mudding
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb 21 13:42:45 2006~
+Stamp 1140554565
+To simkin~
+Subject Divine Healing~
+Text
+Because Kilith went about the wrong way of fixing the spell just to make
+you happy I have returned it to its normal state. Here is why: Anyone that
+has 26 or 27 or higher wisdom will do extreme heals.. I wish to avoid this.
+I set myself with those guilds and 28 wis and did 1700 heal. I don't believe
+it is fair to the other players with you being able to do this because he
+used a "patch fix" as he would put it. The healing for paladins will be
+fixed when we do a real fix. As a human you can possibly get more than 25
+wisdom.. with the towns, guilds and other things. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb 21 20:14:28 2006~
+Stamp 1140578068
+To balin~
+Subject baby~
+Text
+What Kilith meant to say is.. Congratz Balin :P
+~
+End
+Sender Banquo~
+TBoard 65
+Date Wed Feb 22 06:20:37 2006~
+Stamp 1140614437
+To ~
+Subject arc~
+Text
+Does anyone have information pertaining to the contact information or ARC? I would very much like to get ahold of mine. Thanks .f
+~
+End
+Sender Kilith~
+TBoard 1
+Date Wed Feb 22 18:33:21 2006~
+Stamp 1140658401
+To all~
+Subject Freeze/Reroll~
+Text
+Ok here is the deal.
+ 
+We have talked about a freeze/reroll option.
+ 
+ 
+Some players do not want it and some do. However I feel 1 week is not ehough time to play as rerolled character
+and me and Sabelis can not come up with any good time options. I give a month time she says that is
+too long. I do not want this to be well I am bored of this character let me have my other character back
+in a weeks time. If you are going to do this I feel you should spend time on this new character.
+I feel that if you get pked or whatnot you should not be able to run back to your other character just because
+it is there. So is a month too long of a freeze time? So here is the deal. Nothing less the 3 weeks
+and nothing more then a month. if the mud agrees on letting everyone have this option.
+ 
+However on this option HUMANS CAN NOT ASCEND so do not roll a human expecting to ascend.
+Also you ascend into the next race up that you choose from the begining :p
+This means you pick a Dark-Elf you become a Lich.
+ 
+I have also fixed the ascend +stats so that the points will be put onto your character the correct way.
+ 
+Give the Yes or No's on this subject and we will see by Friday.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Wed Feb 22 19:15:56 2006~
+Stamp 1140660956
+To droen~
+Subject what you dont understand~
+Text
+This note refers to note 179
+ 
+This note only applies to people who want to freeze their character and reroll a new character.
+If they get enough wps and whatnot to ascend they can not remort into another race. they must ascend
+from the race they are now to the ascend race the race that are is to become.
+ 
+I am not sure on how to explain it more :p
+~
+End
+Sender Fury~
+TBoard 66
+Date Wed Feb 22 20:10:40 2006~
+Stamp 1140664240
+To immortal~
+Subject mud status~
+Text
+I know Kilith's and Sabelis' position on the +dex item that is in the game. That is not what I'm arguing about. It is clear the mud needs a way of differing non ascended thieves from ascended thieves. If non ascended thieves are hitting max damage, why ascend?
+That is exactly what Samson thought, and he just happens to have the dex item but that is besides the point. There needs to be a 31 dex marker with a heavy weight on it for stab/circle. If the item is taken out and the only +stat item is tier, it is a simple way to fix the problem.
+Also, I've been having thoughts of doing what Samson did with going back to non ascended. I know all the things I'd have to do and not be able to ascend bla bla bla, but with these changes I don't know if monks (the reason I ascended to colossus that got nerfed) will go back to the way they were.
+Monks were made (says Psi, the one who made them) to do little damage in even fights, but do very good damage in outnumbered fights. I had a maxxed out colossus monk fighting no ac and no sanc enemies one vs eight and did a pulv. If they got lowered because of that...
+As far as monks go, it is a dangerous job. I've seen too many times a group of 5-6 take 1.5k hps off someone in a single smash. A monk has to actually go and try to fight those odds just to do damage. I think that is based on how fast the monk could die, they should be rewarded with decent damage.
+~
+End
+Sender Samson~
+TBoard 70
+Date Wed Feb 22 20:53:21 2006~
+Stamp 1140666801
+To immortal~
+Subject freeze/reroll~
+Text
+i vote for freeze/reroll
+3 weeks min freeze time sounds fair
+i might have misread note pretty tired when i read but said nothing over a month? you mean we cant play the new char for more than a month? if so thats not cool...but i mighta misread
+Samson
+~
+End
+Sender Ruger~
+TBoard 65
+Date Wed Feb 22 21:19:26 2006~
+Stamp 1140668366
+To Sabelis Kilith~
+Subject Reboots~
+Text
+Hey immos, I was wondering if it would be possible to implement of
+policy of 4 reboots per day, similar to the last pwipe of LoC and VoR's
+current schedule. Just a idea to maybe make playing a bit more interesting,
+with regards to eq and loads. 
+Regards,
+Ruger
+~
+End
+Sender Bigperms~
+TBoard 66
+Date Thu Feb 23 01:01:45 2006~
+Stamp 1140681705
+To all~
+Subject ~
+Text
+i dont exactly agree with freezing chars and rolling new ones, but maybe it will be good it might up pk etc with more people out their xp'n etc
+however i would ask that all chars be frozen completely naked, no EQ at all so there will be no pstoring of any sense, because i will freeze my mage EQ and all and roll a thief and fload EQ for my mage, completely abusing this system
+just my 2 cents ( not like anyone listens)
+~
+End
+Sender Wonderboy~
+TBoard 66
+Date Thu Feb 23 03:22:26 2006~
+Stamp 1140690146
+To Kilith~
+Subject Freeze/Reroll~
+Text
+Yes
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb 23 08:08:22 2006~
+Stamp 1140707302
+To bigperms~
+Subject freeze/reroll~
+Text
+Bigperms actually I was thinking of making it so that you can't transfer
+eq between the two at all and if you are then you will have both accounts
+deleted on the spot...because the eq should only be for one account and not
+shared between both of them. Otherwise I feel that you aren't totally
+starting out like a brand new character... 
+~
+End
+Sender Starson~
+TBoard 70
+Date Thu Feb 23 09:45:33 2006~
+Stamp 1140713133
+To immortals~
+Subject necros~
+Text
+uhh ok so disintegration is good does like 320, darkened light did 240 and focused death did 340
+disintegration is lvl 58 darkened light is 65 and focused death is 70
+so u see my point :P ty
+~
+End
+Sender Simkin~
+TBoard 65
+Date Thu Feb 23 13:09:36 2006~
+Stamp 1140725376
+To all~
+Subject behlemnew~
+Text
+gotta say.  well written note, some ideas I think are pretty good, but some I just don't know about.
+one of the main things I saw, is that really, rogues, warriors and monks are generally fine,
+monks are still huge as mobkillers, and the balance for them is somewhat decent for pkill, warriors are
+in my opinion the best rounded class loc has ever had.  and thieves are just well, thieves (although
+your hail of daggers idea sounded cool).  not sure an area blind will really do much to help paladins
+and a power summon like that could be overly abused I think.
+ 
+ 
+Simkin
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Thu Feb 23 20:53:08 2006~
+Stamp 1140753188
+To all~
+Subject freeze/reroll~
+Text
+I don't know what the deal is... but technically speaking only 2 people
+have clearly stated what they voted for this. This is not enough votes to
+support this... soooooooo if you would like this to happen you need to write
+a note with your vote.. otherwise this subject will be thrown out. 
+~
+End
+Sender Vdov~
+TBoard 65
+Date Thu Feb 23 20:54:50 2006~
+Stamp 1140753290
+To all~
+Subject freeze/reroll~
+Text
+if ppl wanna split their time investment between 2 chars, sok with me.
+~
+End
+Sender Warped~
+TBoard 70
+Date Thu Feb 23 20:55:54 2006~
+Stamp 1140753354
+To Sabelis~
+Subject vote freeze~
+Text
+YES
+~
+End
+Sender Andfroth~
+TBoard 70
+Date Thu Feb 23 20:58:51 2006~
+Stamp 1140753531
+To sabelis~
+Subject reroll freeze~
+Text
+i vote yes for reroll/freeze...
+~
+End
+Sender Ruger~
+TBoard 65
+Date Thu Feb 23 22:43:43 2006~
+Stamp 1140759823
+To sabelis~
+Subject Freeze/Reroll~
+Text
+I vote YES/SI/DA/JA/CLICKCLICKCLANK.
+~
+End
+Sender Fury~
+TBoard 66
+Date Fri Feb 24 15:44:59 2006~
+Stamp 1140821099
+To immortal~
+Subject freeze/reroll~
+Text
+I don't think it is a good idea. I think there are too many ways to abuse it and much more harm than good that can come from it. What I think should happen is what we've had on other LOC's.That is, reascending. Ascend remorts are many wps
+Ascend remorts are many wps so if someone who was able to hit like 7 mort ascended and used all those wps wanted to reascend, why not let them? It's not like everyone will be doing it. Only the few people who can hit 7 mort ascend can even do it. Sometimes a race gets boring and the player needs change.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Fri Feb 24 18:54:08 2006~
+Stamp 1140832448
+To all~
+Subject freeze/reroll~
+Text
+if you want to reroll without losing your character now ask an imm to transport you through pray.
+We will then transport you to the freeze room where your character will stay for the next 3 weeks or more.
+Follow the instructions in the room description on how to do this.
+~
+End
+Sender Fury~
+TBoard 66
+Date Sat Feb 25 10:09:12 2006~
+Stamp 1140887352
+To immortal~
+Subject stealing loot~
+Text
+Negaduck stole ada chunks from loot today. Just a heads up I'm going to sapk him for them back. I'll follow the rules and take only what he stole.
+~
+End
+Sender Kilith~
+TBoard 1
+Date Sat Feb 25 12:10:03 2006~
+Stamp 1140894603
+To fury negaduck~
+Subject sapk~
+Text
+Fury take this as pay back. You fucked Negaduck durring the Samson loot and split because of the IP change.
+ 
+Well next time do not screw your PK party NO MATTER if it is about an IP change or because you didnt want to be
+heavy... it was a poor excuse and I think is how I have always heard of you playing. You Jewed negaduck
+So now he took the chunks. Well Baggen says he rather have negaduck have them.
+ 
+BaggzLoC: but i rather see em in negaducks hands than furys
+Here is your warning. You SAPK Negaduck I will slay you and let nega take what he wants of your kit
+and let you have the rest if you even keep playing after. You can not jew someone and expect them to do something for you.
+ 
+I do not want to see you talking about sapking nega after this. You sjewed him harder still then he is jewing you.
+ 
+this matter is closed unless you reopen it.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sat Feb 25 13:38:29 2006~
+Stamp 1140899909
+To all~
+Subject Spam dying~
+Text
+Missed was deleted for spam dying. If you don't know the rules on this..
+please read help rules. No one will get special treatment on this policy or
+any other rule on the mud. 
+~
+End
+Sender Zar~
+TBoard 65
+Date Sat Feb 25 13:40:50 2006~
+Stamp 1140900050
+To immortals~
+Subject +mana gear doesn't work~
+Text
+My +mana gear doesn't change my mana level when I equip/remove them.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sat Feb 25 14:46:52 2006~
+Stamp 1140904012
+To all~
+Subject multiplaying~
+Text
+Someone was deleted for multiplaying and made aware of the rules of the
+mud. 
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sat Feb 25 15:53:15 2006~
+Stamp 1140907995
+To self~
+Subject warpoint reimbursement~
+Text
+Terminator got his warpoints back
+~
+End
+Sender Zar~
+TBoard 65
+Date Sat Feb 25 22:13:38 2006~
+Stamp 1140930818
+To immortals~
+Subject another problem with +mana eq~
+Text
+It seems that after a +int/wis town gets captured, mana points will no
+longer go above the max even if you have eq that should make it higher. 
+s
+~
+End
+Sender Fury~
+TBoard 66
+Date Sun Feb 26 14:16:13 2006~
+Stamp 1140988573
+To immortal~
+Subject mud~
+Text
+A vote was taken to say if freeze/reroll would be a good thing. I remember seeing a note saying only 1 person voted for no. Bigperm and I both said no and that note just happened to vanish. WTF is going on?
+I just got word that Kilith had the +stat quest item so high that no one would be able to get it. Then, Kilith lowered the cost of it just so Samson could get the item. WTF IS GOING ON?!
+Then, someone spam died (no clue who) and was deleted for it. However, in help rules it says if someone spam kills they lose ALL wps. Why did no one lose wps if someone spam died?
+If all this information I've got is true then I have one question to ask... can we bring Structure back as head imm?
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Sun Feb 26 18:42:46 2006~
+Stamp 1141004566
+To fury~
+Subject ~
+Text
+It doesn't matter if only TWO people voted no. Why?  Because there was
+at least 7 or 9 others that voted yes. I have no idea what happened to your
+note. I don't even remember seeing it. I haven't removed ANY MESSAGES from
+this board recently. 
+ 
+Second of all, the only reason I agreed to have the plus stat item in is
+because he was going to make it high enough that no one could get it, but
+the quest was changed so we had to change stuff on how it was dealt with.
+It was NOT PURPOSELY made so Samson could get it.  It was still high enough
+otherwise there would be MORE THAN ONE in the game, which there is not.
+ 
+Third of all, I'm not going to release who spam died because they rerolled
+with the same name.  If they do it again, they will be sitebanned.  Also,
+you don't have a clue what anyone had done to them so I don't wanna hear it.
+ 
+Fourth of all, if you continue this bitching.. you will no longer be welcome
+here because that is ALL you do anymore.  I'm getting very tired of it.
+If you don't have respect for me, leave.  If you don't want to play here, go
+somewhere else.  If all you want to do if bitch, please leave and never come back.
+ 
+~
+End
+Sender Kilith~
+TBoard 1
+Date Sun Feb 26 18:58:54 2006~
+Stamp 1141005534
+To all~
+Subject spam death/pk~
+Text
+Ok this spam pk is a very tricky deal.
+In help rules it is all fubar.
+ 
+Here is the problem with the help rules.
+Rule: Do not spam kill one person. Spam killing or spam dying is defined as
+      more than two times in a row within an hour. Sometimes people give up.
+      Leave.
+ 
+They broke gates on homelands town (sap) and so because someone spam dies suicides to them
+should they have to leave that town? My opinion is I do not think so.
+They did not attack him or break the rules.
+ 
+However the rule that WAS broken was Rule: Do not spam die to the members of the opposite alignment.  If you are
+      unsure what spam dying is considered please look at the previous rule
+      for the definition.  This will result in deletion.
+ 
+They did not attack this person after the first death. This person attacked them
+after the first death (while they were fighting Hanggar) and suicided to them.
+ 
+ 
+The person who spam died broke the rules. They were deleted because of it.
+Warped, Carthax, Kratos, Torak, Terminator, and Anarchy
+were the people in the room when he spam died to them. Warped left before the last death
+because he didnt want to be nailed for spam killing someone. Thing is they got bearly
+any warpoints from this since it was a hoard. The other problem they did not
+break the rules. The person that spam died did.
+ 
+The rules migth not be clear? but they didnt chase him and spam pk him. He chased them and spam died.
+ 
+So no they will not be punished for someone that broke the rules and should have staied in the portal
+and cooled off and logged. The rule broke was spam dying not spam killing.
+ 
+The person knew they were in sap and still choose to leave portal.
+That is the end of story about this matter.
+~
+End
+Sender Starson~
+TBoard 66
+Date Mon Feb 27 11:47:00 2006~
+Stamp 1141066020
+To sabelis~
+Subject acid arrow~
+Text
+id just like to say theres no reason a lvl 15 1 round spell should break concentration
+its silly trying to even fight it unless ur going to acid arrow back
+thats not fighting its being silly
+oh id also like to say why isnt arcane intellect working?
+warriors have earthen strength, thieves have agility and healers have clarity
+could we get that back in plz? thanks
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Mon Feb 27 11:53:27 2006~
+Stamp 1141066407
+To starson~
+Subject acid arrow~
+Text
+There are other mages that aren't losing concentration on spells through
+this spell. You are not maxed out on remorts/levels yet so your focus isn't
+at the max it can go. I'm pretty sure that Bigperms can cast through an acid
+arrow because a whitie has said something about his concentration not
+getting broken by 13 hit twist or so. 
+ 
+Also, I believe mages spells are high damage enough therefore you do not
+need the extra stat like the rest of the classes do.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Mon Feb 27 12:05:59 2006~
+Stamp 1141067159
+To all~
+Subject Acid Arrow~
+Text
+Acid arrow yet.. AGAIN has been changed.  It was doing Obliterate at level 15.
+~
+End
+Sender Njal~
+TBoard 1
+Date Mon Feb 27 20:12:15 2006~
+Stamp 1141096335
+To Kilith Sabelis~
+Subject Portal of Good / Evil~
+Text
+I noticed that for whatever reason a portal of good 1 down
+from the throneroom of Yur was there for over 30 minutes until
+I purged the room.  I couldn't recreate the occurance casting 
+portal myself.  
+ 
+ 
+Just keep an eye out for any funky occurances like that.  I 
+think it may have had something to do with the caster logging
+before it wore? 
+ 
+Nj
+~
+End
+Sender Kilith~
+TBoard 1
+Date Tue Feb 28 10:26:28 2006~
+Stamp 1141147588
+To all~
+Subject listen~
+Text
+yo yo yo come listen now....
+http://s7.viastreaming.net:7240
+ 
+for dial up or
+ 
+http://s7.viastreaming.net:7250
+ 
+For cable.
+Copy and paste all that in your web browser. from http to the end of the numbers on the next line down.
+Pick and choose what you want to hear while pking or xping heh.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb 28 12:30:34 2006~
+Stamp 1141155034
+To all~
+Subject changes~
+Text
+A few changes for ya... the guild prereqs has been taken off of sneaking
+due to the fact that people have it that shouldn't so I might as well just
+put it back to how it was. 
+ 
+Next part of business is, I changed two healer spells so we will try
+these out for a lil.  I removed one of the bits off of falling star because
+I felt it was kinda  pretty powerful spell with all the different effects it
+has on it.  Also, I changed the damage on wrath of god because it wasn't worth
+to cast.  Let me know what you think.
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb 28 22:11:10 2006~
+Stamp 1141189870
+To self~
+Subject warpoint reimburse~
+Text
+Psi has been reimbursed
+~
+End
+Sender Sabelis~
+TBoard 1
+Date Tue Feb 28 23:25:42 2006~
+Stamp 1141194342
+To all~
+Subject Clanhouse #2~
+Text
+There is another clanhouse that has been put into the game.  Just fyi.
+~
+End
+Sender Ruger~
+TBoard 65
+Date Tue Feb 28 23:43:02 2006~
+Stamp 1141195382
+To Sabelis Kilith~
+Subject Warlock changes~
+Text
+I was just wondering if the immortals had decided whether or not to
+implement any of the changes for the warlock class as put forward by the
+committee. I look forward to a reply. 
+~
+End
+Sender Ruger~
+TBoard 65
+Date Wed Mar  1 04:52:59 2006~
+Stamp 1141213979
+To Andfroth Vdov~
+Subject Possible Darkie Knowledge of Chouse Location~
+Text
+This morning I encountered a group while trying to check loads. I fled
+to argos and when i attempted to flee home, they blocked with two while
+starson chased me around. I was forced to go to chouse and recall. So I am
+just informing both of you of this incidient and its possible implications
+for the location of our chouse. 
+Regards,
+Ruger
+~
+End
+Sender Falloutboy~
+TBoard 66
+Date Wed Mar  1 11:10:31 2006~
+Stamp 1141236631
+To immortal~
+Subject zar/vdov cheating~
+Text
+Rule: Scripting is not allowed.  Triggers and speedwalks are allowed as long as
+      they don't break any of the rules.  Yes, a group of triggers can be put 
+      together to make a script and it will be considered a script for the purposes 
+      of this rules. Triggers made for pk will not be allowed.
+ 
+They made a trigger to recast acid arrow on me every time they hit it, thus
+preventing me from doing anything, simply because I have a slower connection.
+There is no way for me to do anything against this type of pk triggering,
+they continued this practice even after I told 'm 2-3 times that it was
+cheating.
+ 
+cast 'mana shield'
++* A Human *+ utters the words, 'Acid Arrow'
+OUCH! You just lost your concentration!
++* A Human *+ mangle's you with his fearsome acid arrow!
+1197/1793(Hurt) Mv:329/329 Ma:85/331 XP:67259170 > [Oppnt: Good]
++* A Human *+ begins to utter some strange incantations...
+ 
+cast 'mana shield'
++* A Human *+ utters the words, 'Acid Arrow'
+OUCH! You just lost your concentration!
++* A Human *+ mangle's you with his fearsome acid arrow!
+1155/1793(Hurt) Mv:329/329 Ma:85/331 XP:67259170 > [Oppnt: Good]
++* A Human *+ begins to utter some strange incantations...
+ 
+ 
+etc. etc. etc.
+~
+End
+Sender Vdov~
+TBoard 70
+Date Wed Mar  1 11:54:54 2006~
+Stamp 1141239294
+To all~
+Subject newbies~
+Text
+how about a joined-align quest. our newbs are stuck as lowbs and giving up. make it cheap xp, so just low morts benefit much.
+~
+End
+Sender Bigperms~
+TBoard 70
+Date Fri Mar  3 01:47:12 2006~
+Stamp 1141375632
+To ~
+Subject ~
+Text
+hey lets have a all out blood bath, a certain date a certain all whities and all darkies log on and duke it out in a zone thats only like 6 rooms big, winner takes all
+~
+End
+Sender Droen~
+TBoard 70
+Date Sat Mar  4 06:22:44 2006~
+Stamp 1141478564
+To all~
+Subject newbies~
+Text
+let me get this straight your asking for a combined quest to help your hoard of newbies level?
+how can i put it... GET BENT!
+~
+End
+
+Sender Falloutboy~
+TBoard 66
+Date Sat Mar  4 10:18:56 2006~
+Stamp 1141492736
+To immortal~
+Subject +mana eq~
+Text
+Hey,
+ 
+Equipment that gives +mana, like Zifnab's aura, does not give
+any +mana. This affect on the items does not work.
+ 
+I hope this is an easy fix (should be).
+ 
+Also... just as a detail:
+It would be nice if +kick and +saves would show up on score
+or stat somewhere :).
+~
+End
+
+Sender Raistlin~
+TBoard 65
+Date Sun Mar  5 13:41:26 2006~
+Stamp 1141591286
+To sabelis~
+Subject ~
+Text
+delete this character when can will be rerolling Sturm. to buy my time until can unfreeze sardonic.
+~
+End
+
+Sender Bigperms~
+TBoard 70
+Date Sun Mar  5 16:12:36 2006~
+Stamp 1141600356
+To all~
+Subject ~
+Text
+lets do a big bloody winner take all fight, we all teleport to a 4x4 room and winner takes all, what yall think?
+~
+End
+
+Sender Kilith~
+TBoard 1
+Date Mon Mar  6 15:42:57 2006~
+Stamp 1141684977
+To all~
+Subject +mana eq~
+Text
+If anyone have + mana eq on please remove it until further notice :p
+I am working on the +mana issue and I have new code in the mud.
+I just do not want to have something fuck up your character haha :p
+So until I write a note saying I think it is workiing right
+do not wear it :p
+ 
+ 
+I will if need be create 2 storage characters for the +mana eq
+ 
+and only for +mana eq :p give me anything else and it will be dropped and saced :p
+ 
+Thats it for now.
+~
+End
+

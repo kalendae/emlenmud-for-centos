@@ -1,0 +1,796 @@
+#AREADATA 
+Name Adonis's Area~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Adonis~
+VNUMs 18600 18900
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#18600
+Name no name~
+Short (none)~
+Long 
+(none)
+~
+AMax 5
+NHeight 0
+Level 0
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#18600
+Name stool~
+Short a wooden bar stool~
+Descr
+A small wooden bar stool is here.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#18601
+Name table bench~
+Short a splintered table~
+Descr
+A splintered bench and table sit here.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#18602
+Name herot fountain~
+Short the fountain of herot~
+Descr
+Crystal clear water flows froim a glass fountain here.
+[0;36m~
+Type 25
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#18600
+Name Entrance to Herot~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18601 0 0
+~
+~
+Door 1 0 0 18603 0 0
+~
+~
+Door 2 3 0 18609 30 30
+~
+Mead-Hall door.~
+Door 3 0 0 18602 0 0
+~
+~
+End
+
+#18601
+Name Center of Herot~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 18602 -5 100
+Door 0 0 0 18614 0 0
+~
+~
+Door 1 0 0 18605 0 0
+~
+~
+Door 2 0 0 18600 0 0
+~
+~
+Door 3 0 0 18604 0 0
+~
+~
+End
+
+#18602
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18604 0 0
+~
+~
+Door 1 0 0 18600 0 0
+~
+~
+Door 3 0 0 18610 0 0
+~
+~
+End
+
+#18603
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18605 0 0
+~
+~
+Door 1 0 0 18616 0 0
+~
+~
+Door 3 0 0 18600 0 0
+~
+~
+End
+
+#18604
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18613 0 0
+~
+~
+Door 1 0 0 18601 0 0
+~
+~
+Door 2 0 0 18602 0 0
+~
+~
+Door 3 0 0 18611 0 0
+~
+~
+End
+
+#18605
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Door 0 0 0 18615 0 0
+~
+~
+Door 1 0 0 18617 0 0
+~
+~
+Door 2 0 0 18603 0 0
+~
+~
+Door 3 0 0 18601 0 0
+~
+~
+End
+
+#18606
+Name Outside of a Small Room~
+Descr
+~
+Door 1 3 0 18607 30 30
+~
+door~
+Door 2 0 0 18608 0 0
+~
+~
+End
+
+#18607
+Name King Hrothgar's Private Room~
+Descr
+~
+Door 3 3 0 18606 30 30
+~
+door~
+End
+
+#18608
+Name A Small Corridor~
+Descr
+~
+Door 0 0 0 18606 0 0
+~
+~
+Door 3 0 0 18617 0 0
+~
+~
+End
+
+#18609
+Name Outside Herot~
+Descr
+~
+Sector 27
+Door 0 3 0 18600 30 30
+~
+Mead-Hall door~
+Door 1 0 0 18633 0 0
+~
+~
+Door 2 0 0 18639 0 0
+~
+~
+Door 3 0 0 18634 0 0
+~
+~
+End
+
+#18610
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18611 0 0
+~
+~
+Door 1 0 0 18602 0 0
+~
+~
+End
+
+#18611
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18612 0 0
+~
+~
+Door 1 0 0 18604 0 0
+~
+~
+Door 2 0 0 18610 0 0
+~
+~
+Door 3 3 0 18619 30 30
+~
+door~
+End
+
+#18612
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 18613 0 0
+~
+~
+Door 2 0 0 18611 0 0
+~
+~
+End
+
+#18613
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18620 0 0
+~
+~
+Door 1 0 0 18614 0 0
+~
+~
+Door 2 0 0 18604 0 0
+~
+~
+Door 3 0 0 18612 0 0
+~
+~
+End
+
+#18614
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 18615 0 0
+~
+~
+Door 2 0 0 18601 0 0
+~
+~
+Door 3 0 0 18613 0 0
+~
+~
+End
+
+#18615
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 18618 0 0
+~
+~
+Door 2 0 0 18605 0 0
+~
+~
+Door 3 0 0 18614 0 0
+~
+~
+End
+
+#18616
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18617 0 0
+~
+~
+Door 3 0 0 18603 0 0
+~
+~
+End
+
+#18617
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18618 0 0
+~
+~
+Door 1 0 0 18608 0 0
+~
+~
+Door 2 0 0 18616 0 0
+~
+~
+Door 3 0 0 18605 0 0
+~
+~
+End
+
+#18618
+Name The Herot Gathering Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 18617 0 0
+~
+~
+Door 3 0 0 18615 0 0
+~
+~
+End
+
+#18619
+Name Resting Room~
+Descr
+~
+Flags2 2
+Flags 4
+Sector 0
+Door 1 0 0 18611 0 0
+~
+~
+End
+
+#18620
+Name Path to the Heart of Herot~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18621 0 0
+~
+~
+Door 2 0 0 18613 0 0
+~
+~
+End
+
+#18621
+Name Path to the Heart of Herot~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18622 0 0
+~
+~
+Door 2 0 0 18620 0 0
+~
+~
+End
+
+#18622
+Name The Herot Mead-Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18631 0 0
+~
+~
+Door 1 0 0 18625 0 0
+~
+~
+Door 2 0 0 18621 0 0
+~
+~
+Door 3 0 0 18623 0 0
+~
+~
+End
+
+#18623
+Name At the Tables~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 18601 -5 100
+Door 0 0 0 18630 0 0
+~
+~
+Door 1 0 0 18622 0 0
+~
+~
+Door 3 0 0 18624 0 0
+~
+~
+End
+
+#18624
+Name At the Tables~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 18601 -5 100
+Door 0 0 0 18629 0 0
+~
+~
+Door 1 0 0 18623 0 0
+~
+~
+End
+
+#18625
+Name At the Tables~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 18601 -5 100
+Door 0 0 0 18628 0 0
+~
+~
+Door 1 0 0 18626 0 0
+~
+~
+Door 3 0 0 18622 0 0
+~
+~
+End
+
+#18626
+Name At the Tables~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 18601 -5 100
+Door 0 0 0 18627 0 0
+~
+~
+Door 3 0 0 18625 0 0
+~
+~
+End
+
+#18627
+Name At the Tables~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 18601 -5 100
+Door 2 0 0 18626 0 0
+~
+~
+Door 3 0 0 18628 0 0
+~
+~
+End
+
+#18628
+Name At the Tables~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 18601 -5 100
+Door 1 0 0 18627 0 0
+~
+~
+Door 2 0 0 18625 0 0
+~
+~
+Door 3 0 0 18631 0 0
+~
+~
+End
+
+#18629
+Name At the Tables~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 18601 -5 100
+Door 1 0 0 18630 0 0
+~
+~
+Door 2 0 0 18624 0 0
+~
+~
+End
+
+#18630
+Name At the Tables~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 18601 -5 100
+Door 1 0 0 18631 0 0
+~
+~
+Door 2 0 0 18623 0 0
+~
+~
+Door 3 0 0 18629 0 0
+~
+~
+End
+
+#18631
+Name Aproaching the Bar~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 18632 0 0
+~
+~
+Door 1 0 0 18628 0 0
+~
+~
+Door 2 0 0 18622 0 0
+~
+~
+Door 3 0 0 18630 0 0
+~
+~
+End
+
+#18632
+Name The Heart of Herot~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 18600 -5 100
+Door 2 0 0 18631 0 0
+~
+~
+End
+
+#18633
+Name Forest of Herot~
+Descr
+~
+Sector 27
+Door 3 0 0 18609 0 0
+~
+~
+End
+
+#18634
+Name Forest of Herot~
+Descr
+~
+Sector 27
+Door 1 0 0 18609 0 0
+~
+~
+Door 3 0 0 18636 0 0
+~
+~
+End
+
+#18635
+Name Forest of Herot~
+Descr
+~
+Sector 27
+Door 0 0 0 18636 0 0
+~
+~
+Door 3 0 0 18637 0 0
+~
+~
+End
+
+#18636
+Name Forest of Herot~
+Descr
+~
+Sector 27
+Door 1 0 0 18634 0 0
+~
+~
+Door 2 0 0 18635 0 0
+~
+~
+End
+
+#18637
+Name Outside a Small Home~
+Descr
+~
+Sector 27
+Door 1 0 0 18635 0 0
+~
+~
+Door 2 515 0 18638 30 30
+~
+door~
+End
+
+#18638
+Name Unferth's Home~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 515 0 18637 30 30
+~
+door~
+End
+
+#18639
+Name Cracked Pathway~
+Descr
+~
+Sector 5
+Door 0 0 0 18609 0 0
+~
+~
+Door 2 0 0 18640 0 0
+~
+~
+End
+
+#18640
+Name Cracked Pathway~
+Descr
+~
+Sector 5
+Door 0 0 0 18639 0 0
+~
+~
+Door 3 0 0 18641 0 0
+~
+~
+End
+
+#18641
+Name Cracked Pathway~
+Descr
+~
+Sector 5
+Door 1 0 0 18640 0 0
+~
+~
+Door 2 0 0 18642 0 0
+~
+~
+End
+
+#18642
+Name Cracked Pathway~
+Descr
+~
+Sector 5
+Door 0 0 0 18641 0 0
+~
+~
+Door 1 0 0 18643 0 0
+~
+~
+End
+
+#18643
+Name A Ruined Dragon Tower~
+Descr
+~
+Sector 34
+Door 2 3 0 18644 30 30
+~
+door~
+Door 3 0 0 18642 0 0
+~
+~
+End
+
+#18644
+Name Inside the Tower~
+Descr
+~
+Sector 34
+Door 0 3 0 18643 30 30
+~
+door~
+End
+
+#18645
+Name ~
+Descr
+~
+End
+
+#18646
+Name ~
+Descr
+~
+End
+
+#18647
+Name ~
+Descr
+~
+End
+
+#18648
+Name ~
+Descr
+~
+End
+
+#18649
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

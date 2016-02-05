@@ -1,0 +1,4167 @@
+#AREADATA 
+Name The Sanctuary of Light~
+Repop A beam of light briefly blinds you as the sanctuary is restored to full. 
+~
+SCZone 0
+Builders Structure~
+VNUMs 91401 91700
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#91402
+Name citizen~
+Short A citizen of sanctuary~
+Long 
+A citizen of the sanctuary stands here gossiping of news.
+~
+AMax 35
+NHeight 0
+ActBits 2
+Affect_By 520
+Alignment 2
+Money 30
+Level 120
+MobType 5
+Hp 2
+Guard 0
+End
+
+#91413
+Name smith the armorer~
+Short Smith the armorer~
+Long 
+Smith the armorer stands here repairing armor.
+~
+AMax 1
+NHeight 0
+ActBits 3145730
+Affect_By 648
+Alignment 2
+Level 9000
+Hp 900
+Guard 0
+End
+
+#91448
+Name large guard~
+Short A large guard~
+Long 
+A large guard stating, "Leave now! There is grave danger in these parts!"
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 2
+Affect_By 680
+AffectTWO 524288
+Alignment 2
+Money 300
+Level 275
+Guard 3
+End
+
+#91452
+Name spectre~
+Short a shadowy spectre~
+Long 
+A shadowy spectre attacks anything in sight!
+~
+AMax 10
+NHeight 0
+ActBits 8
+Affect_By 524290
+Alignment 2
+Level 90
+MobType 21
+Hp 2
+Guard 0
+End
+
+#91487
+Name strange fire prac~
+Short A strange being~
+Long 
+A strange looking being stands here completely surrounded by fire.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 524290
+Affect_By 648
+AffectTWO 33554432
+Alignment 2
+Money 30000
+Level 500
+Hp 60
+Guard 4
+ASklTaught 0 226
+ASklTaught 1 259
+ASklTaught 2 117
+End
+
+#91507
+Name guard sanctuary~
+Short A sanctuary guard~
+Long 
+A Sanctuary guard stands here letting noone pass!
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 2
+Affect_By 680
+AffectTWO 34078720
+Alignment 2
+Money 400
+Level 350
+MobType 5
+Hp 25
+Guard 0
+End
+
+#91512
+Name being magic spectacular prac~
+Short A spectacular being~
+Long 
+A spectactular being of magic and myth stands here providing light to the world.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 524290
+Affect_By 128
+Alignment 2
+Money 3000
+Level 500
+MobType 5
+Hp 50
+Guard 0
+ASklTaught 0 228
+ASklTaught 1 242
+ASklTaught 2 244
+ASklTaught 3 123
+ASklTaught 4 108
+End
+
+#91528
+Name guard~
+Short A muscular guard~
+Long 
+A large-muscular guard stands here blocking visitors.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 2
+Affect_By 520
+AffectTWO 524288
+Alignment 2
+Level 300
+Hp 100
+Guard 0
+End
+
+#91530
+Name long aged warrior~
+Short A long-aged warrior~
+Long 
+A long-aged warrior
+~
+AMax 1
+NHeight 0
+ActBits 258
+Affect_By 128
+Alignment 2
+Level 1000
+Hp 900
+Guard 0
+ASklTaught 0 229
+ASklTaught 1 268
+ASklTaught 2 263
+ASklTaught 3 220
+End
+
+#91541
+Name guard~
+Short A wedding-room guard~
+Long 
+A guard saying, 'Noone shall see the women!'
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 2
+Affect_By 648
+AffectTWO 524288
+Alignment 2
+Level 500
+Hp 50
+Guard 5
+End
+
+#91566
+Name server~
+Short A server~
+Long 
+A server stands here looking for the right bottle of wine.
+~
+AMax 15
+NHeight 0
+Alignment 2
+Level 90
+Hp 2
+Guard 0
+End
+
+#91602
+Name elegant women~
+Short An elegant women~
+Long 
+An elegant looking women dressed in the finest threads this world has seen.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 2
+Affect_By 136
+Level 500
+Hp 50
+Guard 5
+End
+
+#91603
+Name caretaker wine~
+Short A caretaker~
+Long 
+A Wine-Celler Caretaker stands here examining fine wines.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 552
+Level 400
+Hp 50
+Guard 0
+End
+
+#91619
+Name guard shadowy~
+Short A shadowy figure~
+Long 
+A shadowy figure guards the below terrain.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 2
+Affect_By 680
+AffectTWO 524288
+Level 200
+Guard 5
+End
+
+#91623
+Name king prac~
+Short The king of darkness~
+Long 
+The king of darkness stands here trying to fiddle with the light elements.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 524290
+Affect_By 680
+AffectTWO 524288
+Money 300
+Level 350
+Hp 20
+Guard 5
+Spec spec_warrior
+BCast_P 10
+ASklTaught 0 253
+ASklTaught 1 250
+ASklTaught 2 135
+ASklTaught 3 100
+End
+
+#91624
+Name guard defender of light~
+Short A defender of light~
+Long 
+A defender of light stands here blocking anything in its way!
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 2
+Affect_By 524936
+AffectTWO 524288
+Money 300
+Level 275
+MobType 5
+Hp 15
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#91413
+Name fountain~
+Short a spectacular fountain~
+Descr
+A spectacular fountain made of mirrors, sparkles with crystal clear water.
+[0;36m~
+Type 25
+Wear 0
+Weight 0
+Cost 0
+End
+
+#91486
+Name flaming sword anarchy~
+Short a [31mf[1ml[33ma[37mm[33mi[31mn[0m[31mg[0m [36ms[1mwor[0m[36md[0m of [1m[30ma[0m[37mna[1mr[0m[37mch[1m[30my[0m~
+Descr
+A flaming sword lies on the ground here
+[0;36m~
+Type 5
+Extra 37748738
+Wear 24577
+Values 0 60 0 3 0 0 0 5 4 0 0
+Weight 0
+Cost 0
+End
+
+#91487
+Name breastplate flaming body apb 2apb~
+Short a [31mf[1ml[33ma[37mm[33mi[31mn[0m[31mg[0m [36mb[1mreastplat[0m[36me[0m of [1m[30ma[0m[37mna[1mr[0m[37mch[1m[30my[0m~
+Descr
+A flaming breastplate lies on the ground here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 9
+Values 0 10 0 0 0 0 0 0 0 0 0
+Weight 30
+Cost 3000
+Affect 13 10 1 0 0
+Affect 18 3 1 0 0
+Affect 19 2 1 0 0
+End
+
+#91500
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#91512
+Name long blade light magic 2apb apb~
+Short a [34ml[1mo[36mn[34mg[0m[34m-b[1ml[36ma[34md[0m[34me[0m of [36ml[1mi[34mg[0m[34mh[36mt[0m and [34mm[1ma[36mg[37mi[0m[36mc[0m~
+Descr
+A long blade of light and magic lies on the ground.
+[0;36m~
+Type 5
+Extra 37748738
+Wear 24577
+Values 0 60 0 3 0 0 0 9 2 0 0
+Weight 32
+Cost 3000
+Affect 19 2 1 0 0
+Affect 18 5 1 0 0
+End
+
+#91524
+Name portal~
+Short a small portal~
+Descr
+A [1m[36md[37mi[0m[37ma[36mm[1m[30mo[37mn[36md[0m studded portal shimmers in the light.
+[0;36m~
+Type 12
+Wear 0
+Values 4 91524 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#91525
+Name portal~
+Short a small portal~
+Descr
+A small portal is in the room here beckoning an exit.
+[0;36m~
+Type 12
+Wear 0
+Values 4 91523 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#91530
+Name no name~
+Short a [36ms[1mwor[0m[36md[0m caled "[36mE[0m [36mx c a l i b u [1mr[0m"~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#91602
+Name gem elegenace~
+Short a [36mshi[1m[36mmmer[0m[36ming[0m [31mg[1me[0m[31mm[0m of [1m[34me[36ml[34me[0m[36mg[1m[34ma[36mn[0m[36mc[1m[34me[0m~
+Descr
+A shimmering gem lies on the ground here.
+[0;36m~
+Type 21
+Extra 33554433
+Wear 24577
+Values 7 100 100 45 0 0 0 0 0 0 0
+Weight 90
+Cost 3000
+End
+
+#91603
+Name ring elegance~
+Short a [36mshi[1m[36mmmer[0m[36ming[0m [31mr[1min[0m[31mg[0m of [1m[34me[36ml[34me[0m[36mg[1m[34ma[36mn[0m[36mc[1m[34me[0m~
+Descr
+A shimmering ring of elegance lies on the ground here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 3
+Values 0 3 0 0 0 0 0 0 0 0 0
+Weight 9
+Cost 30
+Affect 13 25 1 0 0
+End
+
+#91622
+Name defender sword of might~
+Short a [36md[1mefende[0m[36mr [1m[30ms[0m[37mw[1mo[0m[37mr[1m[30md[0m of [31mm[1migh[0m[31mt[0m~
+Descr
+A sword of the defender lies on the ground here.
+[0;36m~
+Type 5
+Extra 4194305
+Wear 24577
+Values 0 60 0 3 0 0 0 7 2 0 0
+Weight 25
+Cost 0
+End
+
+#91623
+Name shield might apb~
+Short a [36md[1mefende[0m[36mr[0m [1m[30ms[0m[37mh[1mi[0m[37mel[1m[30md[0m of [31mm[1migh[0m[31mt[0m~
+Descr
+A defender shield lies on the ground here collecting dust.
+[0;36m~
+Type 9
+Extra 2
+Wear 513
+Values 3 3 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 18 1 1 0 0
+Affect 13 5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#91624
+Name a unseen blocker~
+Short a unseen blocker~
+Descr
+An unseen blocker for 60
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Values 0 0 0 1 0 0 1 60 0 0 0
+Weight 0
+Cost 0
+End
+
+#91625
+Name dagger darkness apb 2apb~
+Short a [31md[1magge[0m[31mr[0m of [36mc[1momplet[0m[36me [1m[30md[0m[37ma[1mr[0m[37mk[1m[30mn[0m[37me[1ms[30ms[0m~
+Descr
+A dagger of complete darkness lies on the ground here.
+[0;36m~
+Type 5
+Extra 33685505
+Wear 24577
+Values 0 60 0 11 0 0 0 9 2 0 0
+Weight 9
+Cost 3000
+Affect 19 2 1 0 0
+End
+
+#91659
+Name kneepad complete darkness apb 2apb~
+Short a [31mk[1mneepa[0m[31md[0m of [36mc[1momplet[0m[36me[0m [1m[30md[0m[37ma[1mr[0m[37mk[1m[30mn[0m[37me[1ms[30ms[0m~
+Descr
+A kneepad of complete darkness lies on the gruond here
+[0;36m~
+Type 9
+Extra 33554434
+Wear 2097153
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 9
+Cost 3000
+Affect 19 2 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#91401
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Door 0 0 0 91402 0 0
+~
+~
+Door 1 0 0 91415 0 0
+~
+~
+Door 3 0 0 91409 0 0
+~
+~
+End
+
+#91402
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Reset M 91402 1 100
+Door 0 0 0 91403 0 0
+~
+~
+Door 1 0 0 91414 0 0
+~
+~
+Door 2 0 0 91401 0 0
+~
+~
+Door 3 0 0 91408 0 0
+~
+~
+End
+
+#91403
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Door 0 0 0 91404 0 0
+~
+~
+Door 1 0 0 91413 0 0
+~
+~
+Door 2 0 0 91402 0 0
+~
+~
+Door 3 0 0 91407 0 0
+~
+~
+End
+
+#91404
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Reset M 91402 1 100
+Door 0 0 0 91405 0 0
+~
+~
+Door 1 0 0 91412 0 0
+~
+~
+Door 2 0 0 91403 0 0
+~
+~
+Door 3 0 0 91406 0 0
+~
+~
+End
+
+#91405
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Door 0 0 0 91425 0 0
+~
+~
+Door 1 0 0 91411 0 0
+~
+~
+Door 2 0 0 91404 0 0
+~
+~
+Door 3 0 0 91410 0 0
+~
+~
+End
+
+#91406
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Reset M 91402 1 100
+Door 0 0 0 91410 0 0
+~
+~
+Door 1 0 0 91404 0 0
+~
+~
+Door 2 0 0 91407 0 0
+~
+~
+End
+
+#91407
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Door 0 0 0 91406 0 0
+~
+~
+Door 1 0 0 91403 0 0
+~
+~
+Door 2 0 0 91408 0 0
+~
+~
+End
+
+#91408
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Reset M 91402 1 100
+Door 0 0 0 91407 0 0
+~
+~
+Door 1 0 0 91402 0 0
+~
+~
+Door 2 0 0 91409 0 0
+~
+~
+End
+
+#91409
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Reset M 91402 1 100
+Door 0 0 0 91408 0 0
+~
+~
+Door 1 0 0 91401 0 0
+~
+~
+End
+
+#91410
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Reset M 91402 1 100
+Door 1 0 0 91405 0 0
+~
+~
+Door 2 0 0 91406 0 0
+~
+~
+End
+
+#91411
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Door 0 0 0 91421 0 0
+~
+~
+Door 1 0 0 91420 0 0
+~
+~
+Door 2 0 0 91412 0 0
+~
+~
+Door 3 0 0 91405 0 0
+~
+~
+End
+
+#91412
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Reset M 91402 1 100
+Door 0 0 0 91411 0 0
+~
+~
+Door 1 0 0 91419 0 0
+~
+~
+Door 2 0 0 91413 0 0
+~
+~
+Door 3 0 0 91404 0 0
+~
+~
+End
+
+#91413
+Name A Spectacular Fountain Made of Mirrors~
+Descr
+~
+Flags2 6
+Flags 4
+Reset M 91413 1 100
+Reset O 91413 -5 100
+Door 0 0 0 91412 0 0
+~
+~
+Door 1 0 0 91418 0 0
+~
+~
+Door 2 0 0 91414 0 0
+~
+~
+Door 3 0 0 91403 0 0
+~
+~
+End
+
+#91414
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Door 0 0 0 91413 0 0
+~
+~
+Door 1 0 0 91417 0 0
+~
+~
+Door 2 0 0 91415 0 0
+~
+~
+Door 3 0 0 91402 0 0
+~
+~
+End
+
+#91415
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Door 0 0 0 91414 0 0
+~
+~
+Door 1 0 0 91416 0 0
+~
+~
+Door 3 0 0 91401 0 0
+~
+~
+End
+
+#91416
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Reset M 91402 1 100
+Door 0 0 0 91417 0 0
+~
+~
+Door 2 3 0 91624 30 30
+~
+gate~
+Door 3 0 0 91415 0 0
+~
+~
+End
+
+#91417
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Reset M 91402 1 100
+Door 0 0 0 91418 0 0
+~
+~
+Door 2 0 0 91416 0 0
+~
+~
+Door 3 0 0 91414 0 0
+~
+~
+End
+
+#91418
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Reset M 91402 1 100
+Door 0 0 0 91419 0 0
+~
+~
+Door 2 0 0 91417 0 0
+~
+~
+Door 3 0 0 91413 0 0
+~
+~
+End
+
+#91419
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Flags 4
+Reset M 91402 1 100
+Door 0 0 0 91420 0 0
+~
+~
+Door 2 0 0 91418 0 0
+~
+~
+Door 3 0 0 91412 0 0
+~
+~
+End
+
+#91420
+Name A Spectacular Room of Mirrors~
+Descr
+~
+Door 2 0 0 91419 0 0
+~
+~
+Door 3 0 0 91411 0 0
+~
+~
+End
+
+#91421
+Name A Room Made of Pure Crystal~
+Descr
+~
+Door 0 0 0 91422 0 0
+~
+~
+Door 2 0 0 91411 0 0
+~
+~
+Door 3 0 0 91425 0 0
+~
+~
+End
+
+#91422
+Name A Room Made of Pure Crystal~
+Descr
+~
+Door 0 0 0 91423 0 0
+~
+~
+Door 2 0 0 91421 0 0
+~
+~
+Door 3 0 0 91424 0 0
+~
+~
+End
+
+#91423
+Name A Room Made of Pure Crystal~
+Descr
+~
+Door 0 0 0 91427 0 0
+~
+~
+Door 2 0 0 91422 0 0
+~
+~
+Door 3 0 0 91426 0 0
+~
+~
+End
+
+#91424
+Name A Room Made of Pure Crystal~
+Descr
+~
+Door 0 0 0 91426 0 0
+~
+~
+Door 1 0 0 91422 0 0
+~
+~
+Door 2 0 0 91425 0 0
+~
+~
+End
+
+#91425
+Name A Room Made of Pure Crystal~
+Descr
+~
+Door 0 0 0 91424 0 0
+~
+~
+Door 1 0 0 91421 0 0
+~
+~
+Door 2 0 0 91405 0 0
+~
+~
+End
+
+#91426
+Name A Room Made of Pure Crystal~
+Descr
+~
+Door 0 259 0 91448 30 30
+~
+forgottenrealm~
+Door 1 0 0 91423 0 0
+~
+~
+Door 2 0 0 91424 0 0
+~
+~
+End
+
+#91427
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 1 0 0 91429 0 0
+~
+~
+Door 2 0 0 91423 0 0
+~
+~
+End
+
+#91428
+Name ~
+Descr
+~
+Door 3 0 0 91427 0 0
+~
+~
+End
+
+#91429
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 1 0 0 91430 0 0
+~
+~
+Door 3 0 0 91427 0 0
+~
+~
+End
+
+#91430
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 1 0 0 91431 0 0
+~
+~
+Door 3 0 0 91429 0 0
+~
+~
+End
+
+#91431
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 1 0 0 91432 0 0
+~
+~
+Door 3 0 0 91430 0 0
+~
+~
+End
+
+#91432
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 1 0 0 91433 0 0
+~
+~
+Door 3 0 0 91431 0 0
+~
+~
+End
+
+#91433
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 1 0 0 91434 0 0
+~
+~
+Door 3 0 0 91432 0 0
+~
+~
+End
+
+#91434
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 1 0 0 91435 0 0
+~
+~
+Door 3 0 0 91433 0 0
+~
+~
+End
+
+#91435
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 0 0 0 91436 0 0
+~
+~
+Door 3 0 0 91434 0 0
+~
+~
+End
+
+#91436
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 0 0 0 91437 0 0
+~
+~
+Door 2 0 0 91435 0 0
+~
+~
+End
+
+#91437
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 0 0 0 91438 0 0
+~
+~
+Door 2 0 0 91436 0 0
+~
+~
+End
+
+#91438
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 0 0 0 91439 0 0
+~
+~
+Door 2 0 0 91437 0 0
+~
+~
+End
+
+#91439
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 0 0 0 91440 0 0
+~
+~
+Door 2 0 0 91438 0 0
+~
+~
+End
+
+#91440
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 0 0 0 91441 0 0
+~
+~
+Door 2 0 0 91439 0 0
+~
+~
+Door 3 259 0 91531 30 30
+~
+weddingroom~
+End
+
+#91441
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 0 0 0 91442 0 0
+~
+~
+Door 2 0 0 91440 0 0
+~
+~
+End
+
+#91442
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 0 0 0 91443 0 0
+~
+~
+Door 2 0 0 91441 0 0
+~
+~
+End
+
+#91443
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 0 0 0 91444 0 0
+~
+~
+Door 2 0 0 91442 0 0
+~
+~
+End
+
+#91444
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 0 0 0 91445 0 0
+~
+~
+Door 2 0 0 91443 0 0
+~
+~
+End
+
+#91445
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 0 0 0 91446 0 0
+~
+~
+Door 2 0 0 91444 0 0
+~
+~
+End
+
+#91446
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 0 0 0 91447 0 0
+~
+~
+Door 2 0 0 91445 0 0
+~
+~
+End
+
+#91447
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 2 0 0 91446 0 0
+~
+~
+Door 3 0 0 91488 0 0
+~
+~
+End
+
+#91448
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags2 6
+Flags 4
+Sector 34
+Reset M 91448 1 100
+Reset O 91623 -1 2
+Reset O 91622 -1 2
+Door 2 259 0 91426 30 30
+~
+forgottenrealm~
+Door 3 0 0 91449 0 0
+~
+~
+End
+
+#91449
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Reset M 91452 1 100
+Door 1 0 0 91448 0 0
+~
+~
+Door 3 0 0 91450 0 0
+~
+~
+End
+
+#91450
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91449 0 0
+~
+~
+Door 3 0 0 91451 0 0
+~
+~
+End
+
+#91451
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91450 0 0
+~
+~
+Door 3 0 0 91452 0 0
+~
+~
+End
+
+#91452
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Reset M 91452 1 100
+Door 1 0 0 91451 0 0
+~
+~
+Door 3 0 0 91453 0 0
+~
+~
+End
+
+#91453
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Reset M 91452 1 100
+Door 1 0 0 91452 0 0
+~
+~
+Door 3 0 0 91454 0 0
+~
+~
+End
+
+#91454
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91453 0 0
+~
+~
+Door 3 0 0 91455 0 0
+~
+~
+End
+
+#91455
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Reset M 91452 1 100
+Door 0 0 0 91456 0 0
+~
+~
+Door 1 0 0 91454 0 0
+~
+~
+End
+
+#91456
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91457 0 0
+~
+~
+Door 2 0 0 91455 0 0
+~
+~
+End
+
+#91457
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Reset M 91452 1 100
+Door 0 0 0 91458 0 0
+~
+~
+Door 2 0 0 91456 0 0
+~
+~
+End
+
+#91458
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91459 0 0
+~
+~
+Door 2 0 0 91457 0 0
+~
+~
+End
+
+#91459
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91460 0 0
+~
+~
+Door 2 0 0 91458 0 0
+~
+~
+End
+
+#91460
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91461 0 0
+~
+~
+Door 1 259 0 91605 30 30
+~
+evil~
+Door 2 0 0 91459 0 0
+~
+~
+End
+
+#91461
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Reset M 91452 1 100
+Door 0 0 0 91462 0 0
+~
+~
+Door 2 0 0 91460 0 0
+~
+~
+End
+
+#91462
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91463 0 0
+~
+~
+Door 2 0 0 91461 0 0
+~
+~
+End
+
+#91463
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91464 0 0
+~
+~
+Door 2 0 0 91462 0 0
+~
+~
+End
+
+#91464
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91465 0 0
+~
+~
+Door 2 0 0 91463 0 0
+~
+~
+End
+
+#91465
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91466 0 0
+~
+~
+Door 2 0 0 91464 0 0
+~
+~
+End
+
+#91466
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Reset M 91452 1 100
+Door 0 0 0 91467 0 0
+~
+~
+Door 2 0 0 91465 0 0
+~
+~
+End
+
+#91467
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91468 0 0
+~
+~
+Door 2 0 0 91466 0 0
+~
+~
+End
+
+#91468
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91469 0 0
+~
+~
+Door 3 0 0 91467 0 0
+~
+~
+End
+
+#91469
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91470 0 0
+~
+~
+Door 3 0 0 91468 0 0
+~
+~
+End
+
+#91470
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Reset M 91452 1 100
+Door 1 0 0 91471 0 0
+~
+~
+Door 3 0 0 91469 0 0
+~
+~
+End
+
+#91471
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91472 0 0
+~
+~
+Door 3 0 0 91470 0 0
+~
+~
+End
+
+#91472
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91473 0 0
+~
+~
+Door 3 0 0 91471 0 0
+~
+~
+End
+
+#91473
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Reset M 91452 1 100
+Door 1 0 0 91474 0 0
+~
+~
+Door 3 0 0 91472 0 0
+~
+~
+End
+
+#91474
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91475 0 0
+~
+~
+Door 3 0 0 91473 0 0
+~
+~
+End
+
+#91475
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91476 0 0
+~
+~
+Door 3 0 0 91474 0 0
+~
+~
+End
+
+#91476
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91477 0 0
+~
+~
+Door 2 0 0 91475 0 0
+~
+~
+End
+
+#91477
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Reset M 91452 1 100
+Door 0 0 0 91478 0 0
+~
+~
+Door 2 0 0 91476 0 0
+~
+~
+End
+
+#91478
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 2 0 0 91477 0 0
+~
+~
+Door 3 0 0 91479 0 0
+~
+~
+End
+
+#91479
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91478 0 0
+~
+~
+Door 3 0 0 91480 0 0
+~
+~
+End
+
+#91480
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91479 0 0
+~
+~
+Door 2 0 0 91481 0 0
+~
+~
+End
+
+#91481
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91480 0 0
+~
+~
+Door 1 0 0 91482 0 0
+~
+~
+End
+
+#91482
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 2 0 0 91483 0 0
+~
+~
+Door 3 0 0 91481 0 0
+~
+~
+End
+
+#91483
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 0 0 0 91482 0 0
+~
+~
+Door 3 0 0 91484 0 0
+~
+~
+End
+
+#91484
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91483 0 0
+~
+~
+Door 3 0 0 91485 0 0
+~
+~
+End
+
+#91485
+Name A Room Filled With Broken Glass~
+Descr
+~
+Flags 4
+Sector 34
+Door 1 0 0 91484 0 0
+~
+~
+Door 4 0 0 91486 0 0
+~
+~
+End
+
+#91486
+Name A Stairwell of Fire~
+Descr
+~
+Door 4 0 0 91487 0 0
+~
+~
+Door 5 0 0 91485 0 0
+~
+~
+End
+
+#91487
+Name A Room of Fire and Lava~
+Descr
+~
+Reset M 91487 1 100
+Reset O 91487 -1 1
+Reset O 91486 -1 1
+Door 5 0 0 91486 0 0
+~
+~
+End
+
+#91488
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 1 0 0 91447 0 0
+~
+~
+Door 3 0 0 91489 0 0
+~
+~
+End
+
+#91489
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 1 0 0 91488 0 0
+~
+~
+Door 3 0 0 91490 0 0
+~
+~
+End
+
+#91490
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 1 0 0 91489 0 0
+~
+~
+Door 3 0 0 91491 0 0
+~
+~
+End
+
+#91491
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 1 0 0 91490 0 0
+~
+~
+Door 3 0 0 91495 0 0
+~
+~
+End
+
+#91492
+Name ~
+Descr
+~
+End
+
+#91493
+Name ~
+Descr
+~
+End
+
+#91494
+Name ~
+Descr
+~
+End
+
+#91495
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 1 0 0 91491 0 0
+~
+~
+Door 3 0 0 91496 0 0
+~
+~
+End
+
+#91496
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 1 0 0 91495 0 0
+~
+~
+Door 3 0 0 91497 0 0
+~
+~
+End
+
+#91497
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 1 0 0 91496 0 0
+~
+~
+Door 3 0 0 91498 0 0
+~
+~
+End
+
+#91498
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 0 0 0 91499 0 0
+~
+~
+Door 1 0 0 91497 0 0
+~
+~
+End
+
+#91499
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 0 0 0 91500 0 0
+~
+~
+Door 2 0 0 91498 0 0
+~
+~
+End
+
+#91500
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 0 0 0 91502 0 0
+~
+~
+Door 2 0 0 91499 0 0
+~
+~
+End
+
+#91501
+Name ~
+Descr
+~
+Door 2 0 0 91500 0 0
+~
+~
+End
+
+#91502
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 0 0 0 91503 0 0
+~
+~
+Door 2 0 0 91500 0 0
+~
+~
+End
+
+#91503
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Reset M 91402 1 100
+Door 0 0 0 91504 0 0
+~
+~
+Door 2 0 0 91502 0 0
+~
+~
+End
+
+#91504
+Name A Beautiful Diamond-Sapphire Pathway~
+Descr
+~
+Door 2 0 0 91503 0 0
+~
+~
+Door 5 0 0 91505 0 0
+~
+~
+End
+
+#91505
+Name An Elegant Stairwell~
+Descr
+~
+Door 4 0 0 91504 0 0
+~
+~
+Door 5 0 0 91506 0 0
+~
+~
+End
+
+#91506
+Name An Elegant Stairwell~
+Descr
+~
+Door 0 0 0 91507 0 0
+~
+~
+Door 4 0 0 91505 0 0
+~
+~
+End
+
+#91507
+Name The Sanctuary Guard-Room~
+Descr
+~
+Flags2 6
+Reset M 91507 1 100
+Door 0 0 0 91508 0 0
+~
+~
+Door 2 0 0 91506 0 0
+~
+~
+End
+
+#91508
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91509 0 0
+~
+~
+Door 1 0 0 91522 0 0
+~
+~
+Door 2 0 0 91507 0 0
+~
+~
+Door 3 0 0 91516 0 0
+~
+~
+End
+
+#91509
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91510 0 0
+~
+~
+Door 1 0 0 91521 0 0
+~
+~
+Door 2 0 0 91508 0 0
+~
+~
+Door 3 0 0 91515 0 0
+~
+~
+End
+
+#91510
+Name Inside the Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91511 0 0
+~
+~
+Door 1 0 0 91520 0 0
+~
+~
+Door 2 0 0 91509 0 0
+~
+~
+Door 3 0 0 91514 0 0
+~
+~
+End
+
+#91511
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91512 0 0
+~
+~
+Door 1 0 0 91519 0 0
+~
+~
+Door 2 0 0 91510 0 0
+~
+~
+Door 3 0 0 91513 0 0
+~
+~
+End
+
+#91512
+Name The Giver of All Light's Haven~
+Descr
+~
+Flags2 6
+Reset M 91512 1 100
+Reset O 91512 -1 1
+Door 1 0 0 91518 0 0
+~
+~
+Door 2 0 0 91511 0 0
+~
+~
+Door 3 0 0 91517 0 0
+~
+~
+Door 5 259 0 91523 30 30
+~
+trapdoor~
+End
+
+#91513
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91517 0 0
+~
+~
+Door 1 0 0 91511 0 0
+~
+~
+Door 2 0 0 91514 0 0
+~
+~
+End
+
+#91514
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91513 0 0
+~
+~
+Door 1 0 0 91510 0 0
+~
+~
+Door 2 0 0 91515 0 0
+~
+~
+End
+
+#91515
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91514 0 0
+~
+~
+Door 1 0 0 91509 0 0
+~
+~
+Door 2 0 0 91516 0 0
+~
+~
+End
+
+#91516
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91515 0 0
+~
+~
+Door 1 0 0 91508 0 0
+~
+~
+End
+
+#91517
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 1 0 0 91512 0 0
+~
+~
+Door 2 0 0 91513 0 0
+~
+~
+End
+
+#91518
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 2 0 0 91519 0 0
+~
+~
+Door 3 0 0 91512 0 0
+~
+~
+End
+
+#91519
+Name ~
+Descr
+~
+Door 0 0 0 91518 0 0
+~
+~
+Door 2 0 0 91520 0 0
+~
+~
+Door 3 0 0 91511 0 0
+~
+~
+End
+
+#91520
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91519 0 0
+~
+~
+Door 2 0 0 91521 0 0
+~
+~
+Door 3 0 0 91510 0 0
+~
+~
+End
+
+#91521
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91520 0 0
+~
+~
+Door 2 0 0 91522 0 0
+~
+~
+Door 3 0 0 91509 0 0
+~
+~
+End
+
+#91522
+Name Inside The Sanctuary Royalty Quarters~
+Descr
+~
+Door 0 0 0 91521 0 0
+~
+~
+Door 3 0 0 91508 0 0
+~
+~
+End
+
+#91523
+Name A Small Portal Room~
+Descr
+~
+Flags2 6
+Reset O 91524 -5 100
+Door 4 259 0 91512 30 30
+~
+trapdoor~
+End
+
+#91524
+Name An Elegant Stairwell Made of Marble~
+Descr
+~
+Reset O 91525 -5 100
+Door 5 0 0 91525 0 0
+~
+~
+End
+
+#91525
+Name An Elegant Stairwell Made of Marble~
+Descr
+~
+Door 4 0 0 91524 0 0
+~
+~
+Door 5 0 0 91526 0 0
+~
+~
+End
+
+#91526
+Name An Elegant Stairwell Made of Marble~
+Descr
+~
+Door 4 0 0 91525 0 0
+~
+~
+Door 5 0 0 91527 0 0
+~
+~
+End
+
+#91527
+Name An Elegant Stairwell Made of Marble~
+Descr
+~
+Door 0 0 0 91528 0 0
+~
+~
+Door 4 0 0 91526 0 0
+~
+~
+End
+
+#91528
+Name A Small Guard-Shack~
+Descr
+~
+Flags2 6
+Reset M 91528 1 100
+Door 0 3 0 91529 30 30
+~
+gate~
+Door 2 0 0 91527 0 0
+~
+~
+End
+
+#91529
+Name An Elegant Room Filled With Preasure Treasure~
+Descr
+~
+Door 0 0 0 91530 0 0
+~
+~
+Door 2 3 0 91528 30 30
+~
+gate~
+End
+
+#91530
+Name An Elegant Room Filled With Great Treasure~
+Descr
+~
+Flags2 6
+Reset M 91530 1 100
+Door 2 0 0 91529 0 0
+~
+~
+End
+
+#91531
+Name A Spectactular Wedding Room~
+Descr
+~
+Door 1 259 0 91440 30 30
+~
+weddingroom~
+Door 3 0 0 91532 0 0
+~
+~
+End
+
+#91532
+Name A Spectactular Wedding Room~
+Descr
+~
+Door 1 0 0 91531 0 0
+~
+~
+Door 3 0 0 91533 0 0
+~
+~
+End
+
+#91533
+Name A Spectactular Wedding Room~
+Descr
+~
+Door 1 0 0 91532 0 0
+~
+~
+Door 3 0 0 91535 0 0
+~
+~
+End
+
+#91534
+Name ~
+Descr
+~
+End
+
+#91535
+Name A Spectactular Wedding Room~
+Descr
+~
+Door 1 0 0 91533 0 0
+~
+~
+Door 3 0 0 91536 0 0
+~
+~
+End
+
+#91536
+Name A Spectactular Wedding Room~
+Descr
+~
+Door 1 0 0 91535 0 0
+~
+~
+Door 3 0 0 91537 0 0
+~
+~
+End
+
+#91537
+Name A Spectactular Wedding Room~
+Descr
+~
+Door 0 0 0 91538 0 0
+~
+~
+Door 1 0 0 91536 0 0
+~
+~
+End
+
+#91538
+Name A Spectactular Wedding Room~
+Descr
+~
+Door 0 0 0 91539 0 0
+~
+~
+Door 2 0 0 91537 0 0
+~
+~
+End
+
+#91539
+Name A Spectactular Wedding Room~
+Descr
+~
+Door 0 0 0 91540 0 0
+~
+~
+Door 2 0 0 91538 0 0
+~
+~
+End
+
+#91540
+Name A Spectactular Wedding Room~
+Descr
+~
+Door 0 0 0 91541 0 0
+~
+~
+Door 2 0 0 91539 0 0
+~
+~
+End
+
+#91541
+Name A Spectactular Wedding Room~
+Descr
+~
+Flags2 6
+Reset M 91541 1 100
+Door 2 0 0 91540 0 0
+~
+~
+Door 5 0 0 91542 0 0
+~
+~
+End
+
+#91542
+Name A Diamond-Ruby Stairwell~
+Descr
+~
+Door 4 0 0 91541 0 0
+~
+~
+Door 5 0 0 91543 0 0
+~
+~
+End
+
+#91543
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Flags2 6
+Flags 16
+Door 0 0 0 91544 0 0
+~
+~
+Door 1 0 0 91560 0 0
+~
+~
+Door 3 0 0 91602 0 0
+~
+~
+Door 4 0 0 91542 0 0
+~
+~
+End
+
+#91544
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91545 0 0
+~
+~
+Door 1 0 0 91559 0 0
+~
+~
+Door 2 0 0 91543 0 0
+~
+~
+End
+
+#91545
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91546 0 0
+~
+~
+Door 1 0 0 91558 0 0
+~
+~
+Door 2 0 0 91544 0 0
+~
+~
+End
+
+#91546
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91547 0 0
+~
+~
+Door 1 0 0 91557 0 0
+~
+~
+Door 2 0 0 91545 0 0
+~
+~
+End
+
+#91547
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91548 0 0
+~
+~
+Door 1 0 0 91556 0 0
+~
+~
+Door 2 0 0 91546 0 0
+~
+~
+End
+
+#91548
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91549 0 0
+~
+~
+Door 1 0 0 91555 0 0
+~
+~
+Door 2 0 0 91547 0 0
+~
+~
+End
+
+#91549
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91550 0 0
+~
+~
+Door 1 0 0 91554 0 0
+~
+~
+Door 2 0 0 91548 0 0
+~
+~
+End
+
+#91550
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91551 0 0
+~
+~
+Door 1 0 0 91553 0 0
+~
+~
+Door 2 0 0 91549 0 0
+~
+~
+End
+
+#91551
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 1 0 0 91552 0 0
+~
+~
+Door 2 0 0 91550 0 0
+~
+~
+Door 3 0 0 91603 0 0
+~
+~
+End
+
+#91552
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 1 0 0 91569 0 0
+~
+~
+Door 2 0 0 91553 0 0
+~
+~
+Door 3 0 0 91551 0 0
+~
+~
+End
+
+#91553
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91552 0 0
+~
+~
+Door 1 0 0 91568 0 0
+~
+~
+Door 2 0 0 91554 0 0
+~
+~
+Door 3 0 0 91550 0 0
+~
+~
+End
+
+#91554
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91553 0 0
+~
+~
+Door 1 0 0 91567 0 0
+~
+~
+Door 2 0 0 91555 0 0
+~
+~
+Door 3 0 0 91549 0 0
+~
+~
+End
+
+#91555
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91554 0 0
+~
+~
+Door 1 0 0 91566 0 0
+~
+~
+Door 2 0 0 91556 0 0
+~
+~
+Door 3 0 0 91548 0 0
+~
+~
+End
+
+#91556
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91555 0 0
+~
+~
+Door 1 0 0 91565 0 0
+~
+~
+Door 2 0 0 91557 0 0
+~
+~
+Door 3 0 0 91547 0 0
+~
+~
+End
+
+#91557
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91556 0 0
+~
+~
+Door 1 0 0 91564 0 0
+~
+~
+Door 2 0 0 91558 0 0
+~
+~
+Door 3 0 0 91546 0 0
+~
+~
+End
+
+#91558
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91557 0 0
+~
+~
+Door 1 0 0 91563 0 0
+~
+~
+Door 2 0 0 91559 0 0
+~
+~
+Door 3 0 0 91545 0 0
+~
+~
+End
+
+#91559
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91558 0 0
+~
+~
+Door 1 0 0 91562 0 0
+~
+~
+Door 2 0 0 91560 0 0
+~
+~
+Door 3 0 0 91544 0 0
+~
+~
+End
+
+#91560
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91559 0 0
+~
+~
+Door 1 0 0 91561 0 0
+~
+~
+Door 3 0 0 91543 0 0
+~
+~
+End
+
+#91561
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91562 0 0
+~
+~
+Door 1 0 0 91578 0 0
+~
+~
+Door 3 0 0 91560 0 0
+~
+~
+End
+
+#91562
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91563 0 0
+~
+~
+Door 1 0 0 91577 0 0
+~
+~
+Door 2 0 0 91561 0 0
+~
+~
+Door 3 0 0 91559 0 0
+~
+~
+End
+
+#91563
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91564 0 0
+~
+~
+Door 1 0 0 91576 0 0
+~
+~
+Door 2 0 0 91562 0 0
+~
+~
+Door 3 0 0 91558 0 0
+~
+~
+End
+
+#91564
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91565 0 0
+~
+~
+Door 1 0 0 91575 0 0
+~
+~
+Door 2 0 0 91563 0 0
+~
+~
+Door 3 0 0 91557 0 0
+~
+~
+End
+
+#91565
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91566 0 0
+~
+~
+Door 1 0 0 91574 0 0
+~
+~
+Door 2 0 0 91564 0 0
+~
+~
+Door 3 0 0 91556 0 0
+~
+~
+End
+
+#91566
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91567 0 0
+~
+~
+Door 1 0 0 91573 0 0
+~
+~
+Door 2 0 0 91565 0 0
+~
+~
+Door 3 0 0 91555 0 0
+~
+~
+End
+
+#91567
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91568 0 0
+~
+~
+Door 1 0 0 91572 0 0
+~
+~
+Door 2 0 0 91566 0 0
+~
+~
+Door 3 0 0 91554 0 0
+~
+~
+End
+
+#91568
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91569 0 0
+~
+~
+Door 1 0 0 91571 0 0
+~
+~
+Door 2 0 0 91567 0 0
+~
+~
+Door 3 0 0 91553 0 0
+~
+~
+End
+
+#91569
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 1 0 0 91570 0 0
+~
+~
+Door 2 0 0 91568 0 0
+~
+~
+Door 3 0 0 91552 0 0
+~
+~
+End
+
+#91570
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 1 0 0 91587 0 0
+~
+~
+Door 2 0 0 91571 0 0
+~
+~
+Door 3 0 0 91569 0 0
+~
+~
+End
+
+#91571
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91570 0 0
+~
+~
+Door 1 0 0 91586 0 0
+~
+~
+Door 2 0 0 91572 0 0
+~
+~
+Door 3 0 0 91568 0 0
+~
+~
+End
+
+#91572
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91571 0 0
+~
+~
+Door 1 0 0 91585 0 0
+~
+~
+Door 2 0 0 91573 0 0
+~
+~
+Door 3 0 0 91567 0 0
+~
+~
+End
+
+#91573
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91572 0 0
+~
+~
+Door 1 0 0 91584 0 0
+~
+~
+Door 2 0 0 91574 0 0
+~
+~
+Door 3 0 0 91566 0 0
+~
+~
+End
+
+#91574
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91573 0 0
+~
+~
+Door 1 0 0 91583 0 0
+~
+~
+Door 2 0 0 91575 0 0
+~
+~
+Door 3 0 0 91565 0 0
+~
+~
+End
+
+#91575
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91574 0 0
+~
+~
+Door 1 0 0 91582 0 0
+~
+~
+Door 2 0 0 91576 0 0
+~
+~
+Door 3 0 0 91564 0 0
+~
+~
+End
+
+#91576
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91575 0 0
+~
+~
+Door 1 0 0 91581 0 0
+~
+~
+Door 2 0 0 91577 0 0
+~
+~
+Door 3 0 0 91563 0 0
+~
+~
+End
+
+#91577
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91576 0 0
+~
+~
+Door 1 0 0 91580 0 0
+~
+~
+Door 2 0 0 91578 0 0
+~
+~
+Door 3 0 0 91562 0 0
+~
+~
+End
+
+#91578
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91577 0 0
+~
+~
+Door 1 0 0 91579 0 0
+~
+~
+Door 3 0 0 91561 0 0
+~
+~
+End
+
+#91579
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91580 0 0
+~
+~
+Door 1 0 0 91596 0 0
+~
+~
+Door 3 0 0 91578 0 0
+~
+~
+End
+
+#91580
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91581 0 0
+~
+~
+Door 1 0 0 91595 0 0
+~
+~
+Door 2 0 0 91579 0 0
+~
+~
+Door 3 0 0 91577 0 0
+~
+~
+End
+
+#91581
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91582 0 0
+~
+~
+Door 1 0 0 91594 0 0
+~
+~
+Door 2 0 0 91580 0 0
+~
+~
+Door 3 0 0 91576 0 0
+~
+~
+End
+
+#91582
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91583 0 0
+~
+~
+Door 1 0 0 91593 0 0
+~
+~
+Door 2 0 0 91581 0 0
+~
+~
+Door 3 0 0 91575 0 0
+~
+~
+End
+
+#91583
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91584 0 0
+~
+~
+Door 1 0 0 91592 0 0
+~
+~
+Door 2 0 0 91582 0 0
+~
+~
+Door 3 0 0 91574 0 0
+~
+~
+End
+
+#91584
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91585 0 0
+~
+~
+Door 1 0 0 91591 0 0
+~
+~
+Door 2 0 0 91583 0 0
+~
+~
+Door 3 0 0 91573 0 0
+~
+~
+End
+
+#91585
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91586 0 0
+~
+~
+Door 1 0 0 91590 0 0
+~
+~
+Door 2 0 0 91584 0 0
+~
+~
+Door 3 0 0 91572 0 0
+~
+~
+End
+
+#91586
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91587 0 0
+~
+~
+Door 1 0 0 91589 0 0
+~
+~
+Door 2 0 0 91585 0 0
+~
+~
+Door 3 0 0 91571 0 0
+~
+~
+End
+
+#91587
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 1 0 0 91588 0 0
+~
+~
+Door 2 0 0 91586 0 0
+~
+~
+Door 3 0 0 91570 0 0
+~
+~
+End
+
+#91588
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 1 0 0 91600 0 0
+~
+~
+Door 2 0 0 91589 0 0
+~
+~
+Door 3 0 0 91587 0 0
+~
+~
+End
+
+#91589
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91588 0 0
+~
+~
+Door 2 0 0 91590 0 0
+~
+~
+Door 3 0 0 91586 0 0
+~
+~
+End
+
+#91590
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91589 0 0
+~
+~
+Door 2 0 0 91591 0 0
+~
+~
+Door 3 0 0 91585 0 0
+~
+~
+End
+
+#91591
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91590 0 0
+~
+~
+Door 2 0 0 91592 0 0
+~
+~
+Door 3 0 0 91584 0 0
+~
+~
+End
+
+#91592
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Reset M 91566 1 100
+Door 0 0 0 91591 0 0
+~
+~
+Door 2 0 0 91593 0 0
+~
+~
+Door 3 0 0 91583 0 0
+~
+~
+End
+
+#91593
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91592 0 0
+~
+~
+Door 2 0 0 91594 0 0
+~
+~
+Door 3 0 0 91582 0 0
+~
+~
+End
+
+#91594
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91593 0 0
+~
+~
+Door 2 0 0 91595 0 0
+~
+~
+Door 3 0 0 91581 0 0
+~
+~
+End
+
+#91595
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91594 0 0
+~
+~
+Door 2 0 0 91596 0 0
+~
+~
+Door 3 0 0 91580 0 0
+~
+~
+End
+
+#91596
+Name The Hidden Wine-Cellar Storage~
+Descr
+~
+Door 0 0 0 91595 0 0
+~
+~
+Door 1 0 0 91601 0 0
+~
+~
+Door 3 0 0 91579 0 0
+~
+~
+End
+
+#91597
+Name ~
+Descr
+~
+End
+
+#91598
+Name ~
+Descr
+~
+End
+
+#91599
+Name ~
+Descr
+~
+End
+
+#91600
+Name A Small Storage Vault~
+Descr
+~
+Door 3 0 0 91588 0 0
+~
+~
+End
+
+#91601
+Name A Dead-End~
+Descr
+~
+Door 3 0 0 91596 0 0
+~
+~
+End
+
+#91602
+Name The Wedding Chambers~
+Descr
+~
+Flags2 4
+Reset M 91602 1 100
+Reset O 91603 -1 1
+Door 1 0 0 91543 0 0
+~
+~
+End
+
+#91603
+Name The Wine-Cellar Caretaker~
+Descr
+~
+Reset M 91603 1 100
+Door 1 0 0 91551 0 0
+~
+~
+End
+
+#91604
+Name ~
+Descr
+~
+End
+
+#91605
+Name Inside A Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 1 0 0 91606 0 0
+~
+~
+Door 3 259 0 91460 30 30
+~
+evil~
+End
+
+#91606
+Name Inside A Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 1 0 0 91607 0 0
+~
+~
+Door 3 0 0 91605 0 0
+~
+~
+End
+
+#91607
+Name Inside A Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 0 0 0 91608 0 0
+~
+~
+Door 3 0 0 91606 0 0
+~
+~
+End
+
+#91608
+Name Inside A Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 0 0 0 91609 0 0
+~
+~
+Door 2 0 0 91607 0 0
+~
+~
+End
+
+#91609
+Name Inside A Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 0 0 0 91610 0 0
+~
+~
+Door 2 0 0 91608 0 0
+~
+~
+End
+
+#91610
+Name Inside A Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 0 0 0 91611 0 0
+~
+~
+Door 2 0 0 91609 0 0
+~
+~
+End
+
+#91611
+Name Inside A Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 2 0 0 91610 0 0
+~
+~
+Door 4 0 0 91612 0 0
+~
+~
+End
+
+#91612
+Name A Rusty Stairwell~
+Descr
+~
+Door 4 0 0 91613 0 0
+~
+~
+Door 5 0 0 91611 0 0
+~
+~
+End
+
+#91613
+Name A Rusty Stairwell~
+Descr
+~
+Flags 32
+Sector 34
+Door 0 0 0 91614 0 0
+~
+~
+Door 5 0 0 91612 0 0
+~
+~
+End
+
+#91614
+Name Inside the Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 0 0 0 91615 0 0
+~
+~
+Door 2 0 0 91613 0 0
+~
+~
+End
+
+#91615
+Name Inside the Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 0 0 0 91616 0 0
+~
+~
+Door 2 0 0 91614 0 0
+~
+~
+End
+
+#91616
+Name Inside the Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 0 0 0 91617 0 0
+~
+~
+Door 2 0 0 91615 0 0
+~
+~
+End
+
+#91617
+Name Inside the Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 0 0 0 91618 0 0
+~
+~
+Door 2 0 0 91616 0 0
+~
+~
+End
+
+#91618
+Name Inside the Chamber of Evil~
+Descr
+~
+Flags 32
+Sector 34
+Door 0 0 0 91619 0 0
+~
+~
+Door 2 0 0 91617 0 0
+~
+~
+End
+
+#91619
+Name Inside the Chamber of Evil~
+Descr
+~
+Flags2 6
+Flags 32
+Sector 34
+Reset M 91619 1 100
+Door 2 0 0 91618 0 0
+~
+~
+Door 5 0 0 91620 0 0
+~
+~
+End
+
+#91620
+Name A Hidden Catacomb of Torture~
+Descr
+~
+Flags 32
+Sector 34
+Door 4 0 0 91619 0 0
+~
+~
+Door 5 0 0 91621 0 0
+~
+~
+End
+
+#91621
+Name A Hidden Catacomb of Torture~
+Descr
+~
+Flags 32
+Sector 34
+Door 4 0 0 91620 0 0
+~
+~
+Door 5 0 0 91622 0 0
+~
+~
+End
+
+#91622
+Name A Hidden Catacomb of Torture~
+Descr
+~
+Flags 32
+Sector 34
+Door 4 0 0 91621 0 0
+~
+~
+Door 5 0 0 91623 0 0
+~
+~
+End
+
+#91623
+Name The Darkened King of Light~
+Descr
+~
+Flags2 6
+Flags 32
+Sector 34
+Reset M 91623 1 100
+Reset O 91625 -1 1
+Reset O 91659 -1 1
+Door 4 0 0 91622 0 0
+~
+~
+End
+
+#91624
+Name The Entrance of the Sanctuary~
+Descr
+~
+Flags2 6
+Flags 4
+Reset M 91624 1 100
+Reset O 91623 -1 2
+Reset O 91622 -1 2
+Door 0 3 0 91416 30 30
+~
+gate~
+Door 2 0 0 91625 0 0
+~
+~
+End
+
+#91625
+Name A Faint Path Into the Light~
+Descr
+~
+Flags 4
+Door 0 0 0 91624 0 0
+~
+~
+Door 2 0 0 91626 0 0
+~
+~
+End
+
+#91626
+Name A Faint Path Into the Light~
+Descr
+~
+Flags 4
+Door 0 0 0 91625 0 0
+~
+~
+Door 4 259 0 8796 30 30
+~
+sanctuary~
+End
+
+#91627
+Name ~
+Descr
+~
+End
+
+#91628
+Name ~
+Descr
+~
+End
+
+#91629
+Name ~
+Descr
+~
+End
+
+#91630
+Name ~
+Descr
+~
+End
+
+#91631
+Name ~
+Descr
+~
+End
+
+#91632
+Name ~
+Descr
+~
+End
+
+#91633
+Name ~
+Descr
+~
+End
+
+#91634
+Name ~
+Descr
+~
+End
+
+#91635
+Name ~
+Descr
+~
+End
+
+#91636
+Name ~
+Descr
+~
+End
+
+#91637
+Name ~
+Descr
+~
+End
+
+#91638
+Name ~
+Descr
+~
+End
+
+#91639
+Name ~
+Descr
+~
+End
+
+#91640
+Name ~
+Descr
+~
+End
+
+#91641
+Name ~
+Descr
+~
+End
+
+#91642
+Name ~
+Descr
+~
+End
+
+#91643
+Name ~
+Descr
+~
+End
+
+#91644
+Name ~
+Descr
+~
+End
+
+#91645
+Name ~
+Descr
+~
+End
+
+#91646
+Name ~
+Descr
+~
+End
+
+#91647
+Name ~
+Descr
+~
+End
+
+#91648
+Name ~
+Descr
+~
+End
+
+#91649
+Name ~
+Descr
+~
+End
+
+#91650
+Name ~
+Descr
+~
+End
+
+#91651
+Name ~
+Descr
+~
+End
+
+#91652
+Name ~
+Descr
+~
+End
+
+#91653
+Name ~
+Descr
+~
+End
+
+#91654
+Name ~
+Descr
+~
+End
+
+#91655
+Name ~
+Descr
+~
+End
+
+#91656
+Name ~
+Descr
+~
+End
+
+#91657
+Name ~
+Descr
+~
+End
+
+#91658
+Name ~
+Descr
+~
+End
+
+#91659
+Name ~
+Descr
+~
+End
+
+#91660
+Name ~
+Descr
+~
+End
+
+#91661
+Name ~
+Descr
+~
+End
+
+#91662
+Name ~
+Descr
+~
+End
+
+#91663
+Name ~
+Descr
+~
+End
+
+#91664
+Name ~
+Descr
+~
+End
+
+#91665
+Name ~
+Descr
+~
+End
+
+#91666
+Name ~
+Descr
+~
+End
+
+#91667
+Name ~
+Descr
+~
+End
+
+#91668
+Name ~
+Descr
+~
+End
+
+#91669
+Name ~
+Descr
+~
+End
+
+#91670
+Name ~
+Descr
+~
+End
+
+#91671
+Name ~
+Descr
+~
+End
+
+#91672
+Name ~
+Descr
+~
+End
+
+#91673
+Name ~
+Descr
+~
+End
+
+#91674
+Name ~
+Descr
+~
+End
+
+#91675
+Name ~
+Descr
+~
+End
+
+#91676
+Name ~
+Descr
+~
+End
+
+#91677
+Name ~
+Descr
+~
+End
+
+#91678
+Name ~
+Descr
+~
+End
+
+#91679
+Name ~
+Descr
+~
+End
+
+#91680
+Name ~
+Descr
+~
+End
+
+#91681
+Name ~
+Descr
+~
+End
+
+#91682
+Name ~
+Descr
+~
+End
+
+#91683
+Name ~
+Descr
+~
+End
+
+#91684
+Name ~
+Descr
+~
+End
+
+#91685
+Name ~
+Descr
+~
+End
+
+#91686
+Name ~
+Descr
+~
+End
+
+#91687
+Name ~
+Descr
+~
+End
+
+#91688
+Name ~
+Descr
+~
+End
+
+#91689
+Name ~
+Descr
+~
+End
+
+#91690
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

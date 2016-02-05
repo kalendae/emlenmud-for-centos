@@ -1,0 +1,3610 @@
+#AREADATA 
+Name Philo's Area~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Philo~
+VNUMs 19901 20100
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#19901
+Name jerrod paymaster~
+Short Jerrod the paymaster~
+Long 
+Jerrod the paymaster sits here, dispensing money.
+~
+Descr
+Jerrod the paymaster is a tall, bulky fellow. He is entrusted with
+maintaining the accounts of the mine, and with disbursing pay to the
+workers. He is well-dressed, and appears to be quite successful in his
+position. 
+~
+AMax 1
+NHeight 73
+ActBits 2
+Money 200
+Level 50
+Sex 1
+MobType 0
+Guard 0
+End
+
+#19902
+Name ragnar foreman~
+Short Ragnar, foreman of the mine~
+Long 
+Ragnar, the foreman of the mine wonders why you're not working.
+~
+Descr
+Ragnar is a huge, irritable looking man. He spends his time bellowing at
+lazy workers, and keeping the accounts of the mine balanced. The workers
+always know where they stand with Ragnar, and usually where they stand is in
+trouble with the boss. 
+ 
+~
+AMax 1
+NHeight 82
+ActBits 2
+Level 70
+Sex 1
+MobType 12
+Guard 0
+End
+
+#19903
+Name lazy worker~
+Short a lazy worker~
+Long 
+A lazy worker is sleeping by a tree here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Level 15
+Sex 1
+MobType 0
+Guard 0
+End
+
+#19906
+Name no name~
+Short (none)~
+Long 
+(none)
+~
+AMax 5
+NHeight 0
+Level 0
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#19901
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19916 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19902
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 19972 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19903
+Name ring of worth~
+Short a [36mp[1ml[34ma[0m[34mt[1m[34mi[0m[36mn[1mu[0m[36mm[0m ring with a rough [31mg[1marne[0m[31mt[0m stone~
+Descr
+A shiny platinum ring sits here.
+[0;36m~
+Type 9
+Wear 3
+Values 0 0 0 2 0 0 0 45 0 1 0
+Weight 0
+Cost 0
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+Affect 18 3 1 0 0
+End
+
+#19904
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 19977 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19905
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19923 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19906
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 19984 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19907
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19940 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19908
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 19988 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19909
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19946 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19910
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 19994 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19911
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19973 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19912
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 19997 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19913
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19978 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19914
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 20000 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19915
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19983 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19916
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 20002 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19917
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19987 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19918
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 20004 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19919
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19992 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19920
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 20005 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19921
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19995 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19922
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 20006 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19923
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 19998 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19924
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading down leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 20007 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19925
+Name ladder~
+Short a ladder~
+Descr
+A ladder leading up leans against the wall here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 20001 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#19926
+Name diving helmet~
+Short a diving helmet~
+Descr
+A diving helmet lays unused on the ground.
+[0;36m~
+Type 13
+Extra 16386
+Wear 17
+Weight 15
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#19901
+Name On a Road to an Open pit Mine~
+Descr
+The mountains part here to reveal a narrow pass. As you look farther down
+the trail, you can see a thick forest scarred by a barren, open pit. A short
+walk past the pit, you see a huge smoldering cone of ash. When the wind
+blows just right, you catch a faint whiff of sulfur. 
+~
+Sector 3
+Door 0 0 0 19902 0 0
+~
+~
+End
+
+#19902
+Name At the Entrance to a Mountain Valley~
+Descr
+You have climbed to the top of the path. From here, the path slopes down
+toward the pit mine and volcano to the north, and away to the south the path
+leads out of this valley. Along each side of the path, the mountains begin
+to give way to a thick forest. 
+~
+Sector 3
+Door 0 0 0 19903 0 0
+~
+~
+Door 2 0 0 19901 0 0
+~
+~
+End
+
+#19903
+Name At a Bend in the Road~
+Descr
+The path bends here to run from the southwest to the northeast. To the
+north of the path, you can barely see the edge of the mine through thick
+foliage. Loud shouts and noises of workmen filter through to your ears. You
+don't see any animals, except for birds resting in the tops of the trees.
+All other wildlife seems to avoid the pit and its workers. 
+~
+Sector 3
+Door 0 0 0 19907 0 0
+~
+~
+Door 1 0 0 19904 0 0
+~
+~
+Door 2 0 0 19902 0 0
+~
+~
+End
+
+#19904
+Name Southeast of the pit~
+Descr
+The path to the mine entrance continues northeast from here. The air
+smells of a mix of fresh greenery and wetted rock. The trail is hard from
+the trampling of many feet, laden with heavy loads of rock and ore. 
+~
+Sector 3
+Door 0 0 0 19905 0 0
+~
+~
+Door 3 0 0 19903 0 0
+~
+~
+End
+
+#19905
+Name Nearing the pit~
+Descr
+The path has almost reached the edge of the pit. The ait is full of the
+sound of tools striking stone, and workers yelling to one another.
+Occasionally the ground trembles as you hear a powerful booming, which seems
+to come from near the bottom of the pit. 
+~
+Sector 3
+Door 0 0 0 19915 0 0
+~
+~
+Door 1 0 0 19906 0 0
+~
+~
+Door 2 0 0 19904 0 0
+~
+~
+Door 3 0 0 19907 0 0
+~
+~
+End
+
+#19906
+Name Overlooking the Edge of the pit~
+Descr
+You can see the edge of the pit clearly from here. A path wraps around
+the mine in both directions. On the eastern side of the mine are several
+wooden buildings. One has several guards around it, while another has a long
+line of workers leading to its door. Around the pit you see workers toiling
+at many different tasks. 
+~
+Door 0 0 0 19916 0 0
+~
+~
+Door 3 0 0 19905 0 0
+~
+~
+End
+
+#19907
+Name In a Forest by the Edge of the pit~
+Descr
+You have wandered off the path and into the forest around the mine. The
+path is to the east, and the forest continues to the west. To the north,
+through the trees, you can see the path that follows the edge of the pit. 
+~
+Sector 27
+Door 0 0 0 19914 0 0
+~
+~
+Door 1 0 0 19905 0 0
+~
+~
+Door 2 0 0 19903 0 0
+~
+~
+Door 3 0 0 19908 0 0
+~
+~
+End
+
+#19908
+Name In a Forest near the Path~
+Descr
+You are standing in a forest near the mine. The miners have thinned the
+trees, and you see many stumps where large trees have been taken to supply
+the mine with timber. There are no animals on the ground here. No doubt the
+noise and stink of the mine has frightened them all away. 
+~
+Sector 27
+Door 0 0 0 19913 0 0
+~
+~
+Door 1 0 0 19907 0 0
+~
+~
+Door 3 0 0 19909 0 0
+~
+~
+End
+
+#19909
+Name Forest near Path~
+Descr
+You are standing in a forest near the mine. The miners have thinned the
+trees, and you see many stumps where large trees have been taken to supply
+the mine with timber. There are no animals on the ground here. No doubt the
+noise and stink of the mine has frightened them all away. 
+~
+Sector 27
+Door 0 0 0 19912 0 0
+~
+~
+Door 1 0 0 19908 0 0
+~
+~
+Door 3 0 0 19910 0 0
+~
+~
+End
+
+#19910
+Name Forest near Path~
+Descr
+You are standing in a forest near the mine. The miners have thinned the
+trees, and you see many stumps where large trees have been taken to supply
+the mine with timber. There are no animals on the ground here. No doubt the
+noise and stink of the mine has frightened them all away. 
+~
+Sector 27
+Door 0 0 0 19911 0 0
+~
+~
+Door 1 0 0 19909 0 0
+~
+~
+End
+
+#19911
+Name Forest near Path~
+Descr
+You are standing in a forest near the mine. The miners have thinned the
+trees, and you see many stumps where large trees have been taken to supply
+the mine with timber. There are no animals on the ground here. No doubt the
+noise and stink of the mine has frightened them all away. 
+~
+Sector 27
+Door 0 0 0 19948 0 0
+~
+~
+Door 1 0 0 19912 0 0
+~
+~
+Door 2 0 0 19910 0 0
+~
+~
+End
+
+#19912
+Name The Southwest Corner of the Mine's Edge~
+Descr
+From this vantage point in the corner of the mine, you can clearly see
+the bottom some one hundred feet below you. There seems to be a great deal
+of activity on the north of the bottom stratum of stone. 
+~
+Sector 5
+Door 0 0 0 19947 0 0
+~
+~
+Door 1 0 0 19913 0 0
+~
+~
+Door 2 0 0 19909 0 0
+~
+~
+Door 3 0 0 19911 0 0
+~
+~
+End
+
+#19913
+Name A Path Around the South Edge of the Mine~
+Descr
+This path leads around the edge of the mine. Workers rush along this
+path, hauling massive burdens of stone and tools. Occasionally a water
+carrier runs past you. A rickety wooden railing provides some protection
+against falling over the edge, but not much. 
+~
+Sector 5
+Door 1 0 0 19914 0 0
+~
+~
+Door 2 0 0 19908 0 0
+~
+~
+Door 3 0 0 19912 0 0
+~
+~
+End
+
+#19914
+Name A Path Around the South Edge of the Mine~
+Descr
+This path leads around the edge of the mine. Workers rush along this
+path, hauling massive burdens of stone and tools. Occasionally a water
+carrier runs past you. A rickety wooden railing provides some protection
+against falling over the edge, but not much. 
+~
+Sector 5
+Door 1 0 0 19915 0 0
+~
+~
+Door 2 0 0 19907 0 0
+~
+~
+Door 3 0 0 19913 0 0
+~
+~
+End
+
+#19915
+Name A Path Around the South Edge of the Mine~
+Descr
+This path leads around the edge of the mine. Workers rush along this
+path, hauling massive burdens of stone and tools. Occasionally a water
+carrier runs past you. A rickety wooden railing provides some protection
+against falling over the edge, but not much. 
+~
+Sector 5
+Door 1 0 0 19916 0 0
+~
+~
+Door 2 0 0 19905 0 0
+~
+~
+Door 3 0 0 19914 0 0
+~
+~
+End
+
+#19916
+Name At the Edge of the Mine, by a Ladder to the next Tier~
+Descr
+Standing on the edge of the mine, you can see the entire operation laid
+out in front of you. Workers are hauling loose rock, mages are blasting at
+the walls, and water rinses the dust away from the stones unearthed here.
+Beastmasters goad mules around the edge of the pit, urging them to raise
+loads of stone hung from ropes. Perhaps you should stand out of the way. 
+~
+Sector 5
+Reset O 19902 -5 100
+Door 1 0 0 19917 0 0
+~
+~
+Door 2 0 0 19906 0 0
+~
+~
+Door 3 0 0 19915 0 0
+~
+~
+End
+
+#19917
+Name A Path Around the South Edge of the Mine~
+Descr
+This path leads around the edge of the mine. Workers rush along this
+path, hauling massive burdens of stone and tools. Occasionally a water
+carrier runs past you. A rickety wooden railing provides some protection
+against falling over the edge, but not much. 
+~
+Sector 5
+Door 1 0 0 19918 0 0
+~
+~
+Door 3 0 0 19916 0 0
+~
+~
+End
+
+#19918
+Name A Path Around the South Edge of the Mine~
+Descr
+This path leads around the edge of the mine. Workers rush along this
+path, hauling massive burdens of stone and tools. Occasionally a water
+carrier runs past you. A rickety wooden railing provides some protection
+against falling over the edge, but not much. 
+~
+Sector 5
+Door 1 0 0 19919 0 0
+~
+~
+Door 3 0 0 19917 0 0
+~
+~
+End
+
+#19919
+Name The Southeast Corner of the Mine's Edge~
+Descr
+The path around the lip of the mine turns north here, toward the
+maintainence and administrative buildings. A few yards northeast of here you
+notice a large shed, and beyond it an office with a long line of exhausted
+workers leading to its entrance. You smell strange vapors floating from the
+group of buildings. 
+~
+Sector 5
+Door 0 0 0 19920 0 0
+~
+~
+Door 3 0 0 19918 0 0
+~
+~
+End
+
+#19920
+Name The Eastern Edge of the Mine~
+Descr
+The path continues north and south along the edge of the mine. A thin
+wooden rail protects you and the workers from falling over the edge. To the
+east, you can see a clump of offices and sheds. Acrid smoke floats through
+this area, stinging your eyes. 
+~
+Sector 5
+Door 0 0 0 19921 0 0
+~
+~
+Door 2 0 0 19919 0 0
+~
+~
+End
+
+#19921
+Name The Eastern Edge of the Mine~
+Descr
+This path follows the edge of the mine, running north and south.
+Immediately to the east there is a large shed that holds spare tools for the
+workers. Northeast of that building is another shrouded in smoke, which
+occasionally flashes fire from its chimney. 
+~
+Sector 5
+Door 0 0 0 19922 0 0
+~
+~
+Door 1 0 0 19931 0 0
+~
+~
+Door 2 0 0 19920 0 0
+~
+~
+End
+
+#19922
+Name The Eastern Edge of the Mine~
+Descr
+This path runs north and south along the brink of the mine pit. To the
+east is a stinking, smoky shack. A tool shed is southeast, and two more
+buildings are to the northeast. 
+~
+Sector 5
+Door 0 0 0 19923 0 0
+~
+~
+Door 1 0 0 19930 0 0
+~
+~
+Door 2 0 0 19921 0 0
+~
+~
+End
+
+#19923
+Name At a Ladder Down~
+Descr
+This path follows the edge of the mine, running north and south. To the
+east is the main building complex of the mine, where all the offices are. To
+the west, you see the many tiers of this open pit mine. It appears to be
+around a hundred feet to the bottom of the mine. You notice some activity on
+the north wall at the bottom of the mine, but can't make out just what is
+going on. 
+~
+Sector 5
+Reset O 19904 -5 100
+Door 0 0 0 19924 0 0
+~
+~
+Door 1 0 0 19929 0 0
+~
+~
+Door 2 0 0 19922 0 0
+~
+~
+End
+
+#19924
+Name The Eastern Edge of the Mine~
+Descr
+This path follows the edge of the mine, running north and south. To the
+east is the main building complex of the mine, where all the offices are. To
+the west, you see the many tiers of this open pit mine. It appears to be
+around a hundred feet to the bottom of the mine. You notice some activity on
+the north wall at the bottom of the mine, but can't make out just what is
+going on. 
+~
+Sector 5
+Door 0 0 0 19925 0 0
+~
+~
+Door 1 0 0 19928 0 0
+~
+~
+Door 2 0 0 19923 0 0
+~
+~
+End
+
+#19925
+Name The Eastern Edge of the Mine~
+Descr
+This path follows the edge of the mine, running north and south. To the
+east is the main building complex of the mine, where all the offices are. To
+the west, you see the many tiers of this open pit mine. It appears to be
+around a hundred feet to the bottom of the mine. You notice some activity on
+the north wall at the bottom of the mine, but can't make out just what is
+going on. 
+~
+Sector 5
+Door 0 0 0 19926 0 0
+~
+~
+Door 2 0 0 19924 0 0
+~
+~
+End
+
+#19926
+Name The northeast Corner of the Mine's Edge~
+Descr
+From here, you can see the mountain pass that led into this valley. To
+the west, there is a forest between the edge of the mine and the base of the
+steep mountains. Not far to the north is another forest, and beyond that,
+the towering volcano. You fancy that you hear a faint rumbling, but perhaps
+your imagination is running away with you. 
+~
+Sector 5
+Door 0 0 0 19957 0 0
+~
+~
+Door 2 0 0 19925 0 0
+~
+~
+Door 3 0 0 19935 0 0
+~
+~
+End
+
+#19927
+Name Paymasters Shack~
+Descr
+This room contains a large desk near the north wall. On top of the desk
+is a heavy iron lockbox, and against the east wall is a sturdy safe. This is
+the paymaster's office, where the workers come daily to pick up their
+salary. 
+~
+Sector 0
+Reset M 19901 1 100
+Reset O 19903 1 1
+Door 2 0 0 19928 0 0
+~
+~
+End
+
+#19928
+Name Clearing in Front of Buildings~
+Descr
+The workers here watch carefully to be sure you don't push into the
+middle of the line. To the north is the paymaster's office, and these
+workers appear to have been waiting for quite a while. East you see a sign
+proclaiming the foreman's office. Occasionally you hear angry bellowing and
+cursing through the open window. 
+~
+Door 0 0 0 19927 0 0
+~
+~
+Door 1 0 0 19934 0 0
+~
+~
+Door 2 0 0 19929 0 0
+~
+~
+Door 3 0 0 19924 0 0
+~
+~
+End
+
+#19929
+Name Clearing in Front of Buildings~
+Descr
+You are standing outside the processing plant for the mine. The building
+is surrounded by the colorful, pungent smoke that issues from its
+smokestack. To the north, you see a line of workers waiting more or less
+patiently outside a small building. To the northeast, you see an office. 
+~
+Door 0 0 0 19928 0 0
+~
+~
+Door 1 0 0 19933 0 0
+~
+~
+Door 2 0 0 19930 0 0
+~
+~
+Door 3 0 0 19923 0 0
+~
+~
+End
+
+#19930
+Name Clearing in Front of Buildings~
+Descr
+Just south of this room you see a tool shed. East is a warehouse, and it
+is heavily guarded. On the north side of the warehouse, there is a building
+with a huge smokestack belching smoke and fire of various colors. To the
+north, you see a long line of workers waiting outside another building. 
+~
+Door 0 0 0 19929 0 0
+~
+~
+Door 1 0 0 19932 0 0
+~
+~
+Door 2 0 0 19931 0 0
+~
+~
+Door 3 0 0 19922 0 0
+~
+~
+End
+
+#19931
+Name A Shed Full of Tools~
+Descr
+This is the main stool storage for the mine. The walls are lined with
+pickaxes, helmets with lights, coils of rope, and many other items. Miners
+filter in and out of this shed in a more or less steady stream, picking up
+new materials to help them work the stone outside. 
+~
+Sector 0
+Door 0 0 0 19930 0 0
+~
+~
+Door 3 0 0 19921 0 0
+~
+~
+End
+
+#19932
+Name Warehouse~
+Descr
+This is the warehouse for the mine. You really shouldn't be in here
+without permission. The only way to walk through this room is by using the
+narrow aisles between bins of valuable ores. You can see iron, copper, and
+other minerals. There is a large vault in the corner. There appears to be a
+yellowish dust on the floor in front of the vault. 
+~
+Sector 0
+Door 0 0 0 19933 0 0
+~
+~
+Door 3 0 0 19930 0 0
+~
+~
+End
+
+#19933
+Name Processing Room for ore~
+Descr
+In this room, metallurgists work around the clock to process the minerals
+the miners excavate. Sweat pours down your back as the furnaces around the
+walls generate gales of superheated air. Alchemists recite chants over the
+melted substances, which further purifies the metals. This results in great
+volumes of smoke and strange gases, which, for the most part, are drawn
+through massive chimneys in the roof. Nevertheless, the lingering remnants
+of the fumes sting your eyes and instantly dry your throat. 
+~
+Sector 0
+Door 2 0 0 19932 0 0
+~
+~
+Door 3 0 0 19929 0 0
+~
+~
+End
+
+#19934
+Name Foreman's Shack~
+Descr
+This is the office of the foreman. From this location, he has a good view
+of his operation. The bosses of various gangs of workers run in and out of
+the office, getting instructions and then passing them on to others outside.
+Against the back wall is the foreman's desk, and behind it is the only chair
+in the room. Obviously the foreman is the only one who will be comfortable
+being in this room. 
+~
+Sector 0
+Reset M 19902 1 100
+Door 3 0 0 19928 0 0
+~
+~
+End
+
+#19935
+Name A Path Around the north Edge of the Mine~
+Descr
+From here, you can see down a hundred feet to the bottom of the mine on
+the south. To the north, you see only trees, and above the trees the smoking
+crater of the volcanic summit. Occasionally the wind is tinged with a hint
+of sulfur stench. 
+~
+Sector 5
+Door 0 0 0 19958 0 0
+~
+~
+Door 1 0 0 19926 0 0
+~
+~
+Door 3 0 0 19936 0 0
+~
+~
+End
+
+#19936
+Name A Path Around the north Edge of the Mine~
+Descr
+From here, you can see down a hundred feet to the bottom of the mine on
+the south. To the north, you see only trees, and above the trees the smoking
+crater of the volcanic summit. Occasionally the wind is tinged with a hint
+of sulfur stench. 
+~
+Sector 5
+Door 0 0 0 19959 0 0
+~
+~
+Door 1 0 0 19935 0 0
+~
+~
+Door 3 0 0 19937 0 0
+~
+~
+End
+
+#19937
+Name A Path Around the north Edge of the Mine~
+Descr
+From here, you can see down a hundred feet to the bottom of the mine on
+the south. To the north, you see only trees, and above the trees the smoking
+crater of the volcanic summit. Occasionally the wind is tinged with a hint
+of sulfur stench. 
+~
+Sector 5
+Door 0 0 0 19960 0 0
+~
+~
+Door 1 0 0 19936 0 0
+~
+~
+Door 3 0 0 19938 0 0
+~
+~
+End
+
+#19938
+Name A Path Around the north Edge of the Mine~
+Descr
+From here, you can see down a hundred feet to the bottom of the mine on
+the south. To the north, you see only trees, and above the trees the smoking
+crater of the volcanic summit. Occasionally the wind is tinged with a hint
+of sulfur stench. 
+~
+Sector 5
+Door 0 0 0 19961 0 0
+~
+~
+Door 1 0 0 19937 0 0
+~
+~
+Door 3 0 0 19939 0 0
+~
+~
+End
+
+#19939
+Name A Path Around the north Edge of the Mine~
+Descr
+From here, you can see down a hundred feet to the bottom of the mine on
+the south. To the north, you see only trees, and above the trees the smoking
+crater of the volcanic summit. Occasionally the wind is tinged with a hint
+of sulfur stench. 
+~
+Sector 5
+Door 0 0 0 19962 0 0
+~
+~
+Door 1 0 0 19938 0 0
+~
+~
+Door 3 0 0 19940 0 0
+~
+~
+End
+
+#19940
+Name A Path Around the north Edge of the Mine~
+Descr
+From here, you can see down a hundred feet to the bottom of the mine on
+the south. To the north, you see only trees, and above the trees the smoking
+crater of the volcanic summit. Occasionally the wind is tinged with a hint
+of sulfur stench. 
+~
+Sector 5
+Reset O 19906 -5 100
+Door 0 0 0 19963 0 0
+~
+~
+Door 1 0 0 19939 0 0
+~
+~
+Door 3 0 0 19941 0 0
+~
+~
+End
+
+#19941
+Name The northwest Corner of the Mine's Edge~
+Descr
+You are standing at the northwest corner of the mine. South and west,
+there is a forest that the miners have left standing. You occasionally see
+mine workers go into the forest, and then return with a large tree, felled
+for timber for tools and supports. You also see birds overhead, but you see
+no sign of game or wildlife otherwise. 
+~
+Sector 5
+Door 1 0 0 19940 0 0
+~
+~
+Door 2 0 0 19942 0 0
+~
+~
+End
+
+#19942
+Name Walking Along the Western Edge of the Mine~
+Descr
+To the east, you see a thin wooden fence seperating the trail from the
+hundred-foot drop into the mine. Beyond that, you see dozens of workers
+hustling from place to place, producing raw mineral ores as quickly as they
+can. Weaving between the workers, water carriers and gofers rush to take
+water and instructions to the workers and their bosses. To the west, there
+is the forest from which the timber to supply this mine is felled. 
+~
+Sector 5
+Door 0 0 0 19941 0 0
+~
+~
+Door 2 0 0 19943 0 0
+~
+~
+Door 3 0 0 19953 0 0
+~
+~
+End
+
+#19943
+Name Walking Along the Western Edge of the Mine~
+Descr
+You are walking a path along the west side of the mine. You can see the
+busy workers of the mine on the east side, and a quiet forest to the west.
+And to the north, always you see the threatening peak of the volcano. 
+~
+Sector 5
+Door 0 0 0 19942 0 0
+~
+~
+Door 2 0 0 19944 0 0
+~
+~
+Door 3 0 0 19952 0 0
+~
+~
+End
+
+#19944
+Name Walking Along the Western Edge of the Mine~
+Descr
+You are walking a path along the west side of the mine. You can see the
+busy workers of the mine on the east side, and a quiet forest to the west.
+And to the north, always you see the threatening peak of the volcano. 
+~
+Sector 5
+Door 0 0 0 19943 0 0
+~
+~
+Door 2 0 0 19945 0 0
+~
+~
+Door 3 0 0 19951 0 0
+~
+~
+End
+
+#19945
+Name Walking Along the Western Edge of the Mine~
+Descr
+You are walking a path along the west side of the mine. You can see the
+busy workers of the mine on the east side, and a quiet forest to the west.
+And to the north, always you see the threatening peak of the volcano. 
+~
+Sector 5
+Door 0 0 0 19944 0 0
+~
+~
+Door 2 0 0 19946 0 0
+~
+~
+Door 3 0 0 19950 0 0
+~
+~
+End
+
+#19946
+Name Walking Along the Western Edge of the Mine~
+Descr
+To the east, you see a thin wooden fence seperating the trail from the
+hundred-foot drop into the mine. Beyond that, you see dozens of workers
+hustling from place to place, producing raw mineral ores as quickly as they
+can. Weaving between the workers, water carriers and gofers rush to take
+water and instructions to the workers and their bosses. To the west, there
+is the forest from which the timber to supply this mine is felled. 
+~
+Sector 5
+Reset O 19908 -5 100
+Door 0 0 0 19945 0 0
+~
+~
+Door 2 0 0 19947 0 0
+~
+~
+Door 3 0 0 19949 0 0
+~
+~
+End
+
+#19947
+Name Walking Along the Western Edge of the Mine~
+Descr
+To the east, you see a thin wooden fence seperating the trail from the
+hundred-foot drop into the mine. Beyond that, you see dozens of workers
+hustling from place to place, producing raw mineral ores as quickly as they
+can. Weaving between the workers, water carriers and gofers rush to take
+water and instructions to the workers and their bosses. To the west, there
+is the forest from which the timber to supply this mine is felled. 
+~
+Sector 5
+Door 0 0 0 19946 0 0
+~
+~
+Door 2 0 0 19912 0 0
+~
+~
+Door 3 0 0 19948 0 0
+~
+~
+End
+
+#19948
+Name Forest Between Path and Mountains~
+Descr
+You are standing in a forest near the mine. The miners have thinned the
+trees, and you see many stumps where large trees have been taken to supply
+the mine with timber. There are no animals on the ground here. No doubt the
+noise and stink of the mine has frightened them all away. 
+~
+Sector 27
+Door 0 0 0 19949 0 0
+~
+~
+Door 1 0 0 19947 0 0
+~
+~
+Door 2 0 0 19911 0 0
+~
+~
+End
+
+#19949
+Name In the Forest Between a Path and the Mountains~
+Descr
+You are standing in a forest near the mine. The miners have thinned the
+trees, and you see many stumps where large trees have been taken to supply
+the mine with timber. There are no animals on the ground here. No doubt the
+noise and stink of the mine has frightened them all away. 
+~
+Sector 27
+Door 0 0 0 19950 0 0
+~
+~
+Door 1 0 0 19946 0 0
+~
+~
+Door 2 0 0 19948 0 0
+~
+~
+End
+
+#19950
+Name In the Forest Beside a Path~
+Descr
+This part of the forest is relatively untouched by the miners. The trees
+tower a hundred feet or so high, and some of them are twenty feet across.
+You can see a path to the east, and to the west you see the mountains
+through the thickening forest. Soft moss and brown needles from the trees
+pad the ground underneath. 
+~
+Sector 27
+Door 0 0 0 19951 0 0
+~
+~
+Door 1 0 0 19945 0 0
+~
+~
+Door 2 0 0 19949 0 0
+~
+~
+Door 3 0 0 19954 0 0
+~
+~
+End
+
+#19951
+Name In the Forest Beside a Path~
+Descr
+This part of the forest is relatively untouched by the miners. The trees
+tower a hundred feet or so high, and some of them are twenty feet across.
+You can see a path to the east, and to the west you see the mountains
+through the thickening forest. Soft moss and brown needles from the trees
+pad the ground underneath. 
+~
+Sector 27
+Door 0 0 0 19952 0 0
+~
+~
+Door 1 0 0 19944 0 0
+~
+~
+Door 2 0 0 19950 0 0
+~
+~
+Door 3 0 0 19955 0 0
+~
+~
+End
+
+#19952
+Name In the Forest Beside a Path~
+Descr
+This part of the forest is relatively untouched by the miners. The trees
+tower a hundred feet or so high, and some of them are twenty feet across.
+You can see a path to the east, and to the west you see the mountains
+through the thickening forest. Soft moss and brown needles from the trees
+pad the ground underneath. 
+~
+Sector 27
+Door 0 0 0 19953 0 0
+~
+~
+Door 1 0 0 19943 0 0
+~
+~
+Door 2 0 0 19951 0 0
+~
+~
+Door 3 0 0 19956 0 0
+~
+~
+End
+
+#19953
+Name In the Forest Between a Path and the Mountains~
+Descr
+To the east, you can see the path that leads around the mine. To the
+west, the mountains rise high into the sky. Clouds float around the summits
+of the mountains, and when the clouds part you catch a glimpse of shiny
+white snow at their peaks. The forest continues to the south from here. 
+~
+Sector 27
+Door 1 0 0 19942 0 0
+~
+~
+Door 2 0 0 19952 0 0
+~
+~
+End
+
+#19954
+Name In a Forest at the Foothills of the Mountains~
+Descr
+The forest is quite thick here, and it would be easy to hide among their
+massive trunks. You are far enough from the mine that the forest has
+absorbed most of the noise, and you occasionally sight a squirrel or
+raccoon. The trees fill the air with a clean scent, and the soft ground
+would make for a good resting place. 
+~
+Sector 27
+Door 0 0 0 19955 0 0
+~
+~
+Door 1 0 0 19950 0 0
+~
+~
+End
+
+#19955
+Name In the Forest at the Foothills of the Mountains~
+Descr
+The forest is quite thick here, and it would be easy to hide among their
+massive trunks. You are far enough from the mine that the forest has
+absorbed most of the noise, and you occasionally sight a squirrel or
+raccoon. The trees fill the air with a clean scent, and the soft ground
+would make for a good resting place. 
+~
+Sector 27
+Door 0 0 0 19956 0 0
+~
+~
+Door 1 0 0 19951 0 0
+~
+~
+Door 2 0 0 19954 0 0
+~
+~
+End
+
+#19956
+Name In the Forest at the Foothills of the Mountains~
+Descr
+The forest is quite thick here, and it would be easy to hide among their
+massive trunks. You are far enough from the mine that the forest has
+absorbed most of the noise, and you occasionally sight a squirrel or
+raccoon. The trees fill the air with a clean scent, and the soft ground
+would make for a good resting place. 
+~
+Sector 27
+Reset M 19903 1 100
+Door 1 0 0 19952 0 0
+~
+~
+Door 2 0 0 19955 0 0
+~
+~
+End
+
+#19957
+Name At the Edge of a Forest near the pit~
+Descr
+~
+Door 2 0 0 19926 0 0
+~
+~
+Door 3 0 0 19958 0 0
+~
+~
+End
+
+#19958
+Name Forestnorth of pit~
+Descr
+~
+Door 1 0 0 19957 0 0
+~
+~
+Door 2 0 0 19935 0 0
+~
+~
+Door 3 0 0 19959 0 0
+~
+~
+End
+
+#19959
+Name Path to the Volcano~
+Descr
+~
+Door 0 0 0 19964 0 0
+~
+~
+Door 1 0 0 19958 0 0
+~
+~
+Door 2 0 0 19936 0 0
+~
+~
+Door 3 0 0 19960 0 0
+~
+~
+End
+
+#19960
+Name Forestn of pit~
+Descr
+~
+Door 0 0 0 19965 0 0
+~
+~
+Door 1 0 0 19959 0 0
+~
+~
+Door 2 0 0 19937 0 0
+~
+~
+Door 3 0 0 19961 0 0
+~
+~
+End
+
+#19961
+Name Forestn of pit~
+Descr
+~
+Door 0 0 0 19966 0 0
+~
+~
+Door 1 0 0 19960 0 0
+~
+~
+Door 2 0 0 19938 0 0
+~
+~
+Door 3 0 0 19962 0 0
+~
+~
+End
+
+#19962
+Name Forestn of pit~
+Descr
+~
+Door 0 0 0 19967 0 0
+~
+~
+Door 1 0 0 19961 0 0
+~
+~
+Door 2 0 0 19939 0 0
+~
+~
+Door 3 0 0 19963 0 0
+~
+~
+End
+
+#19963
+Name Forest n of pit~
+Descr
+~
+Door 1 0 0 19962 0 0
+~
+~
+Door 2 0 0 19940 0 0
+~
+~
+End
+
+#19964
+Name Path to Volcano~
+Descr
+~
+Door 0 0 0 19968 0 0
+~
+~
+Door 2 0 0 19959 0 0
+~
+~
+Door 3 0 0 19965 0 0
+~
+~
+End
+
+#19965
+Name Forest near Volcano~
+Descr
+~
+Door 0 0 0 19969 0 0
+~
+~
+Door 1 0 0 19964 0 0
+~
+~
+Door 2 0 0 19960 0 0
+~
+~
+Door 3 0 0 19966 0 0
+~
+~
+End
+
+#19966
+Name Forest near Volcano~
+Descr
+~
+Door 0 0 0 19970 0 0
+~
+~
+Door 1 0 0 19965 0 0
+~
+~
+Door 2 0 0 19961 0 0
+~
+~
+Door 3 0 0 19967 0 0
+~
+~
+End
+
+#19967
+Name Forest near Volcano~
+Descr
+~
+Door 0 0 0 19971 0 0
+~
+~
+Door 1 0 0 19966 0 0
+~
+~
+Door 2 0 0 19962 0 0
+~
+~
+End
+
+#19968
+Name Base of Volcano~
+Descr
+~
+Door 2 0 0 19964 0 0
+~
+~
+Door 3 0 0 19969 0 0
+~
+~
+End
+
+#19969
+Name Base of Volcano~
+Descr
+~
+Door 1 0 0 19968 0 0
+~
+~
+Door 2 0 0 19965 0 0
+~
+~
+Door 3 0 0 19970 0 0
+~
+~
+End
+
+#19970
+Name Base of Volcano~
+Descr
+~
+Door 1 0 0 19969 0 0
+~
+~
+Door 2 0 0 19966 0 0
+~
+~
+Door 3 0 0 19971 0 0
+~
+~
+End
+
+#19971
+Name Base of Volcano~
+Descr
+~
+Door 1 0 0 19970 0 0
+~
+~
+Door 2 0 0 19967 0 0
+~
+~
+End
+
+#19972
+Name Second Tier of the Mine, by a Ladder~
+Descr
+This is the second level of the mine. As you descend the mine, each floor
+becomes smaller. The minerals here are of a richer type than on the floor
+above. More often, the rocks hold a metallic sheen. As elsewhere in the
+mine, workers smash at the sides of the pit with their picks, and haul loads
+of broken stone into baskets that are then pulled to the top of the pit. 
+~
+Reset O 19901 -5 100
+Door 1 0 0 19973 0 0
+~
+~
+Door 3 0 0 19991 0 0
+~
+~
+End
+
+#19973
+Name Second Tier of the Mine~
+Descr
+This is the second level of the mine. As you descend the mine, each floor
+becomes smaller. The minerals here are of a richer type than on the floor
+above. More often, the rocks hold a metallic sheen. As elsewhere in the
+mine, workers smash at the sides of the pit with their picks, and haul loads
+of broken stone into baskets that are then pulled to the top of the pit. 
+~
+Door 1 0 0 19974 0 0
+~
+~
+Door 3 0 0 19972 0 0
+~
+~
+End
+
+#19974
+Name Second Tier of the Mine~
+Descr
+In this corner of the mine, you notice a few workers relaxing. A large
+boulder serves as a table, and smaller stones have been brought to act as
+chairs. The group of four workers are eating dusty sandwiches, and are
+making wagers over a game of cards. 
+~
+Door 0 0 0 19975 0 0
+~
+~
+Door 3 0 0 19973 0 0
+~
+~
+End
+
+#19975
+Name Second Tier of the Mine~
+Descr
+This side of the mine has less mineral wealth than the others. Mostly,
+the workers here are finding clay. That explains why this face of the mine
+is less populous than the other three. As you look across the mine, You see
+that quartz becomes more common towards the bottom of the mine. 
+~
+Door 0 0 0 19976 0 0
+~
+~
+Door 2 0 0 19974 0 0
+~
+~
+End
+
+#19976
+Name Second Tier of the Mine~
+Descr
+This side of the mine has less mineral wealth than the others. Mostly,
+the workers here are finding clay. That explains why this face of the mine
+is less populous than the other three. As you look across the mine, You see
+that quartz becomes more common towards the bottom of the mine. 
+~
+Door 0 0 0 19977 0 0
+~
+~
+Door 2 0 0 19975 0 0
+~
+~
+End
+
+#19977
+Name Second Tier of the Mine~
+Descr
+This side of the mine has less mineral wealth than the others. Mostly,
+the workers here are finding clay. That explains why this face of the mine
+is less populous than the other three. As you look across the mine, You see
+that quartz becomes more common towards the bottom of the mine. 
+~
+Reset O 19905 -5 100
+Door 0 0 0 19978 0 0
+~
+~
+Door 2 0 0 19976 0 0
+~
+~
+End
+
+#19978
+Name Second Tier of the Mine~
+Descr
+This side of the mine has less mineral wealth than the others. Mostly,
+the workers here are finding clay. That explains why this face of the mine
+is less populous than the other three. As you look across the mine, You see
+that quartz becomes more common towards the bottom of the mine. 
+~
+Door 0 0 0 19979 0 0
+~
+~
+Door 2 0 0 19977 0 0
+~
+~
+End
+
+#19979
+Name Second Tier of the Mine~
+Descr
+The north face of the mine is a very busy one. At this corner of the
+mine, worthless clay begins to give way to valuable metallic ores. You see
+stones that might yield iron, or copper. As you look down, crystal deposits
+of quartz become more and more common. 
+~
+Door 2 0 0 19978 0 0
+~
+~
+Door 3 0 0 19980 0 0
+~
+~
+End
+
+#19980
+Name Second Tier of the Mine~
+Descr
+This wall is crawling with workers. They are pounding at the wall
+everywhere you look. Standing at its base, hanging from ropes to dig at the
+middle of the face, and hanging off the edge to the next level down. The
+path is wider here to accomodate both the workers and the large numbers of
+carts that must carry away the rubble the miners create. 
+~
+Door 1 0 0 19979 0 0
+~
+~
+Door 3 0 0 19981 0 0
+~
+~
+End
+
+#19981
+Name Second Tier of the Mine~
+Descr
+This wall is crawling with workers. They are pounding at the wall
+everywhere you look. Standing at its base, hanging from ropes to dig at the
+middle of the face, and hanging off the edge to the next level down. The
+path is wider here to accomodate both the workers and the large numbers of
+carts that must carry away the rubble the miners create. 
+~
+Door 1 0 0 19980 0 0
+~
+~
+Door 3 0 0 19982 0 0
+~
+~
+End
+
+#19982
+Name Second Tier of the Mine~
+Descr
+This wall is crawling with workers. They are pounding at the wall
+everywhere you look. Standing at its base, hanging from ropes to dig at the
+middle of the face, and hanging off the edge to the next level down. The
+path is wider here to accomodate both the workers and the large numbers of
+carts that must carry away the rubble the miners create. 
+~
+Door 1 0 0 19981 0 0
+~
+~
+Door 3 0 0 19983 0 0
+~
+~
+End
+
+#19983
+Name Second Tier of the Mine~
+Descr
+This wall is crawling with workers. They are pounding at the wall
+everywhere you look. Standing at its base, hanging from ropes to dig at the
+middle of the face, and hanging off the edge to the next level down. The
+path is wider here to accomodate both the workers and the large numbers of
+carts that must carry away the rubble the miners create. 
+~
+Door 1 0 0 19982 0 0
+~
+~
+Door 3 0 0 19984 0 0
+~
+~
+End
+
+#19984
+Name Second Tier of the Mine~
+Descr
+This is the northwest corner of the mine. About seventy feet blow, you
+see tiny figures running back and forth across the bottom of the mine. Here
+in the corner, you see water mages generating great blasts of water to knock
+the rock free, and to wash dirt away from the valuable stone. Occasionally,
+a water mage will stop to fill a huge waterskin for one of the workers or a
+waterboy, but then he goes back to pummeling the stone walls with his art. 
+~
+Reset O 19907 -5 100
+Door 1 0 0 19983 0 0
+~
+~
+Door 2 0 0 19985 0 0
+~
+~
+End
+
+#19985
+Name Second Tier of the Mine~
+Descr
+The western wall of the mine is less worked than the others. Some
+sections appear to be mostly clay like the east wall, but a few sections
+have been dug deeper to reveal veins of silver. Mages and charred-looking
+workers busy themselves here, using fire and explosions to break massive
+sections of the mine wall. 
+~
+Door 0 0 0 19984 0 0
+~
+~
+Door 2 0 0 19986 0 0
+~
+~
+End
+
+#19986
+Name Second Tier of the Mine~
+Descr
+The western wall of the mine is less worked than the others. Some
+sections appear to be mostly clay like the east wall, but a few sections
+have been dug deeper to reveal veins of silver. Mages and charred-looking
+workers busy themselves here, using fire and explosions to break massive
+sections of the mine wall. 
+~
+Door 0 0 0 19985 0 0
+~
+~
+Door 2 0 0 19987 0 0
+~
+~
+End
+
+#19987
+Name Second Tier of the Mine~
+Descr
+The western wall of the mine is less worked than the others. Some
+sections appear to be mostly clay like the east wall, but a few sections
+have been dug deeper to reveal veins of silver. Mages and charred-looking
+workers busy themselves here, using fire and explosions to break massive
+sections of the mine wall. 
+~
+Door 0 0 0 19986 0 0
+~
+~
+Door 2 0 0 19988 0 0
+~
+~
+End
+
+#19988
+Name Second Tier of the Mine~
+Descr
+The western wall of the mine is less worked than the others. Some
+sections appear to be mostly clay like the east wall, but a few sections
+have been dug deeper to reveal veins of silver. Mages and charred-looking
+workers busy themselves here, using fire and explosions to break massive
+sections of the mine wall. 
+~
+Reset O 19909 -5 100
+Door 0 0 0 19987 0 0
+~
+~
+Door 2 0 0 19989 0 0
+~
+~
+End
+
+#19989
+Name Second Tier of the Mine~
+Descr
+From this point in the mine, you have a clear view of the north face of
+the mine. At the bottom of the mine, you see a group of about a dozen
+engineers clambering excitedly around something you can't see. Once in a
+while, a miner will join the group, and then you lose track of him. 
+~
+Door 0 0 0 19988 0 0
+~
+~
+Door 1 0 0 19990 0 0
+~
+~
+End
+
+#19990
+Name Second Tier of the Mine~
+Descr
+This is the second level of the mine. As you descend the mine, each floor
+becomes smaller. The minerals here are of a richer type than on the floor
+above. More often, the rocks hold a metallic sheen. As elsewhere in the
+mine, workers smash at the sides of the pit with their picks, and haul loads
+of broken stone into baskets that are then pulled to the top of the pit. 
+~
+Door 1 0 0 19991 0 0
+~
+~
+Door 3 0 0 19989 0 0
+~
+~
+End
+
+#19991
+Name Second Tier of the Mine~
+Descr
+This is the second level of the mine. As you descend the mine, each floor
+becomes smaller. The minerals here are of a richer type than on the floor
+above. More often, the rocks hold a metallic sheen. As elsewhere in the
+mine, workers smash at the sides of the pit with their picks, and haul loads
+of broken stone into baskets that are then pulled to the top of the pit. 
+~
+Door 1 0 0 19972 0 0
+~
+~
+Door 3 0 0 19990 0 0
+~
+~
+End
+
+#19992
+Name Third Tier of the Mine~
+Descr
+~
+Door 1 0 0 19993 0 0
+~
+~
+Door 3 0 0 20003 0 0
+~
+~
+End
+
+#19993
+Name Third Tier of the Mine~
+Descr
+~
+Door 1 0 0 19994 0 0
+~
+~
+Door 3 0 0 19992 0 0
+~
+~
+End
+
+#19994
+Name Third Tier of the Mine~
+Descr
+~
+Door 0 0 0 19995 0 0
+~
+~
+Door 3 0 0 19993 0 0
+~
+~
+End
+
+#19995
+Name Third Tier of the Mine~
+Descr
+~
+Door 0 0 0 19996 0 0
+~
+~
+Door 2 0 0 19994 0 0
+~
+~
+End
+
+#19996
+Name Third Tier of the Mine~
+Descr
+~
+Door 0 0 0 19997 0 0
+~
+~
+Door 2 0 0 19995 0 0
+~
+~
+End
+
+#19997
+Name Third Tier of the Mine~
+Descr
+~
+Door 2 0 0 19996 0 0
+~
+~
+Door 3 0 0 19998 0 0
+~
+~
+End
+
+#19998
+Name Third Tier of the Mine~
+Descr
+~
+Door 1 0 0 19997 0 0
+~
+~
+Door 3 0 0 19999 0 0
+~
+~
+End
+
+#19999
+Name Third Tier of the Mine~
+Descr
+~
+Door 1 0 0 19998 0 0
+~
+~
+Door 3 0 0 20000 0 0
+~
+~
+End
+
+#20000
+Name Third Tier of the Mine~
+Descr
+~
+Door 1 0 0 19999 0 0
+~
+~
+Door 2 0 0 20001 0 0
+~
+~
+End
+
+#20001
+Name Third Tier of the Mine~
+Descr
+~
+Door 0 0 0 20000 0 0
+~
+~
+Door 2 0 0 20002 0 0
+~
+~
+End
+
+#20002
+Name Third Tier of the Mine~
+Descr
+~
+Door 0 0 0 20001 0 0
+~
+~
+Door 2 0 0 20003 0 0
+~
+~
+End
+
+#20003
+Name Third Tier of the Mine~
+Descr
+~
+Door 0 0 0 20002 0 0
+~
+~
+Door 1 0 0 19992 0 0
+~
+~
+End
+
+#20004
+Name The Bottom of the pit~
+Descr
+All around you are huge, glittering deposits of quartz. Deep within the
+rock you see thick threads of silvery metals, and occasional flecks of
+yellow. Water pours down the sides of the mine from the water blasting
+above, but it dries quickly in the heat here. 
+~
+Sector 31
+Door 0 0 0 20007 0 0
+~
+~
+Door 1 0 0 20005 0 0
+~
+~
+End
+
+#20005
+Name The Bottom of the pit~
+Descr
+All around you are huge, glittering deposits of quartz. Deep within the
+rock you see thick threads of silvery metals, and occasional flecks of
+yellow. Water pours down the sides of the mine from the water blasting
+above, but it dries quickly in the heat here. 
+~
+Sector 31
+Door 0 0 0 20006 0 0
+~
+~
+Door 3 0 0 20004 0 0
+~
+~
+End
+
+#20006
+Name The Bottom of the pit~
+Descr
+This level of the mine is almost entirely quartz. The crystals are marked
+with thick veins of silver, and occasionally with golden flecks. There are
+fewer workers here, but you notice some commotion to the west. 
+~
+Sector 31
+Door 2 0 0 20005 0 0
+~
+~
+Door 3 0 0 20007 0 0
+~
+~
+End
+
+#20007
+Name The Bottom of the pit~
+Descr
+The walls here are mostly quartz. Veins of silver run through the stone,
+and occasionally you see flecks of yellow. There are strange grooves that
+look like drag marks on the ground, leading to the north wall. You notice
+that there are more guards than usual on this floor of the mine, and that
+the guards are tougher looking. There are even a couple mages in full battle
+attire. 
+~
+Sector 31
+Door 0 787 0 20008 35 35
+A huge stone is wedged into the side of the mine here. You see grooves
+along the ground, as if the stone has been moved before. It looks like it
+will roll if you can pull hard enough. 
+~
+stone~
+Door 1 0 0 20006 0 0
+~
+~
+Door 2 0 0 20004 0 0
+~
+~
+End
+
+#20008
+Name The Entrance to a Tunnel~
+Descr
+As you enter the tunnel, you notice that the flecks of gold in the quartz
+walls are becoming more frequent. This tunnel is almost deserted, but you
+hear the loud clang of tools on stone deeper in the mine. The air is heavy
+and cool, as is usual for underground. 
+~
+Door 0 0 0 20009 0 0
+~
+~
+Door 2 0 0 20007 0 0
+~
+~
+End
+
+#20009
+Name A Tunnel in the Hidden Mine~
+Descr
+The walls here are very smooth, almost polished. The quartz left here has
+almost no gold in it, which explains why this area is almost deserted. From
+the sounds up ahead, more gold has been found deeper in the mine. 
+~
+Door 0 0 0 20010 0 0
+~
+~
+Door 2 0 0 20008 0 0
+~
+~
+End
+
+#20010
+Name A Junction in the Hidden Mine~
+Descr
+The tunnel branches here. You can hear some activity to the west, and
+more faintly to the north. A lantern has been hung here to light the way,
+and from this position it casts just enough light to see down all four
+halls. Every shadow is distorted and stretched by the placement of the
+light, giving this place a very unwelcoming feel. 
+~
+Door 0 0 0 20015 0 0
+~
+~
+Door 1 0 0 20011 0 0
+~
+~
+Door 2 0 0 20009 0 0
+~
+~
+Door 3 0 0 20012 0 0
+~
+~
+End
+
+#20011
+Name An Abandoned Branch of the Mine~
+Descr
+Work here has been abandoned. The quartz has given way to granite in all
+directions. It appears that the miners have progressed about 20 feet into
+the granite, and then decided to find easier stone to dig. Unlike the main
+corridor, this part of the tunnel is rough and unfinished. 
+~
+Door 3 0 0 20010 0 0
+~
+~
+End
+
+#20012
+Name A Tunnel in the Hidden Mine~
+Descr
+The sound of workmen grows as you follow this corridor. The rock on the
+south side of the tunnel is dark and spongy in appearance, and gives no sign
+of gold. The north wall is composed of huge, nearly flawless chunks of
+quartz. In fact, the only flaws you see are the thin, bright ribbons of gold
+that run through the rock. As a result of the light at the intersection,
+your shadows play ominously on the wall at the west end of the tunnel. 
+~
+Door 1 0 0 20010 0 0
+~
+~
+Door 3 0 0 20013 0 0
+~
+~
+End
+
+#20013
+Name At a Bend in the Tunnel~
+Descr
+The tunnel gradually turns south here. The tunnel has only been worked
+enough to allow passage, as the rock here shows no sign of precious metals.
+The walls seem sturdy enough, but just in case they are butressed with thick
+timbers. 
+~
+Door 1 0 0 20012 0 0
+~
+~
+Door 2 0 0 20014 0 0
+~
+~
+End
+
+#20014
+Name A Glittering Dead-end in the Tunnel~
+Descr
+This end of the tunnel is very busy, and you can readily see why. The
+walls are nearly glass-clear as a result of the quartz, and thick ropes of
+gold intertwine among the faults in the stone. The workers here are shabby
+and dirty, but you notice that their jewelry is of the highest and most
+expensive quality. 
+~
+Door 0 0 0 20013 0 0
+~
+~
+End
+
+#20015
+Name A Tunnel in the Hidden Mine~
+Descr
+This part of the tunnel looks like a natural cave, although you can see
+places in the floor and celing where outcroppings of rock have been cleared
+away for easier passage. Up ahead, there is another light in the tunnel, and
+the sound of excited workers. 
+~
+Door 0 0 0 20016 0 0
+~
+~
+Door 2 0 0 20010 0 0
+~
+~
+End
+
+#20016
+Name At a Hole in the Tunnel Floor~
+Descr
+The main tunnel continues north, while a smaller tunnel branches to the
+east. The stone here is unremarkable, and this part of the tunnel seems to
+be a part of the same natural chamber as the tunnel just south of here. A
+light is hung in the center of the intersection. On the floor underneath the
+light, there is a hole about six feet in diameter with a rope ladder hanging
+over the edge. The steel spikes holding the ladder in place look sturdy
+enough to hold your weight. 
+~
+Door 0 0 0 20019 0 0
+~
+~
+Door 1 0 0 20017 0 0
+~
+~
+Door 2 0 0 20015 0 0
+~
+~
+Door 5 0 0 20020 0 0
+~
+~
+End
+
+#20017
+Name A new Addition~
+Descr
+This tunnel's walls are very rough, as if the tunnel had been hastily
+dug. There is no sign of wealth in these stones, so the workers were
+probably eager to continue on. 
+~
+Door 1 0 0 20018 0 0
+~
+~
+Door 3 0 0 20016 0 0
+~
+~
+End
+
+#20018
+Name A Dead end in the Tunnel~
+Descr
+The tunnel ends here in difficult to work granite. Someone has made a few
+exploratory holes in the walls, but they too ended in a granite wall. 
+~
+Door 3 0 0 20017 0 0
+~
+~
+End
+
+#20019
+Name A Tunnel in the Hidden Mine~
+Descr
+This end of the tunnel is made of granite. The workers made very little
+progress into the unyielding stone before abandoning this direction in the
+mine. 
+~
+Door 2 0 0 20016 0 0
+~
+~
+End
+
+#20020
+Name Deeper in the Tunnels~
+Descr
+This part of the mine tunnels is entirely walled with quartz, and the
+crystals are marked with thick ribbons and webs of nearly pure gold. A
+string of lanterns runs along the roof of the tunnel, and goes around a bend
+to the south. The sound of workers surrounds you. 
+~
+Door 0 0 0 20024 0 0
+~
+~
+Door 2 0 0 20021 0 0
+~
+~
+Door 4 0 0 20016 0 0
+~
+~
+End
+
+#20021
+Name A Bend in the Tunnel~
+Descr
+The tunnel bends here, running to the north and the west. The string of
+lights continues around the bend in both directions, bringing bright
+illumination to this deep cavern. The quartz is so clear that you can see
+ropes of gold within the stone several yards into the wall. The sight gives
+you the impression of a gleaming spiderweb frozen in a block of ice. 
+~
+Door 0 0 0 20020 0 0
+~
+~
+Door 3 0 0 20022 0 0
+~
+~
+End
+
+#20022
+Name A Deeper Tunnel in the Mine~
+Descr
+This part of the mine tunnels is entirely walled with quartz, and the
+crystals are marked with thick ribbons and webs of nearly pure gold. A
+string of lanterns runs along the roof of the tunnel, and goes around a bend
+to the south. The sound of workers surrounds you. 
+~
+Door 1 0 0 20021 0 0
+~
+~
+Door 3 0 0 20023 0 0
+~
+~
+End
+
+#20023
+Name At a Dead end~
+Descr
+The tunnel comes to an end here. The lights shine brightly, making vision
+in the tunnels clear, and reflecting brilliantly from the wide strands of
+gold embedded in the walls of the tunnel. The end of the tunnel is marked by
+tools, and soon the workers will extend this tunnel deeper into the lode. 
+~
+Door 1 0 0 20022 0 0
+~
+~
+End
+
+#20024
+Name A Tunnel Deep in the Mine~
+Descr
+This tunnel runs southward around a bend, and northward into a small
+chamber. The miners have strung lights along the ceiling to make work
+easier. Here, as in the rest of this level of the tunnels, the walls are
+clear crystals with stunning ropes of gold buried within. 
+~
+Door 0 0 0 20025 0 0
+~
+~
+Door 2 0 0 20020 0 0
+~
+~
+End
+
+#20025
+Name A natural Limestone Cavern~
+Descr
+Hre the quartz deposits give way to limestone. This chamber is damp, and
+shows signs of once having been a natural cavern carved by water. The bones
+of strange creatures show on some of the cut surfaces. Many of the skeletons
+look completely foreign. 
+~
+Door 0 0 0 20028 0 0
+~
+~
+Door 2 0 0 20024 0 0
+~
+~
+Door 3 0 0 20026 0 0
+~
+~
+End
+
+#20026
+Name A natural Limestone Cavern~
+Descr
+Hre the quartz deposits give way to limestone. This chamber is damp, and
+shows signs of once having been a natural cavern carved by water. The bones
+of strange creatures show on some of the cut surfaces. Many of the skeletons
+look completely foreign. 
+~
+Door 0 0 0 20027 0 0
+~
+~
+Door 1 0 0 20025 0 0
+~
+~
+End
+
+#20027
+Name A natural Limestone Cavern~
+Descr
+Hre the quartz deposits give way to limestone. This chamber is damp, and
+shows signs of once having been a natural cavern carved by water. The bones
+of strange creatures show on some of the cut surfaces. Many of the skeletons
+look completely foreign. 
+~
+Door 1 0 0 20028 0 0
+~
+~
+Door 2 0 0 20026 0 0
+~
+~
+End
+
+#20028
+Name A natural Limestone Cavern~
+Descr
+The limestone cavern has a hole in its roof here. Up above, you catch
+glints of light reflected off polished stone. Occasionally you see a glitter
+of yellow metal. The cavern narrows to the north. 
+~
+Door 0 0 0 20029 0 0
+~
+~
+Door 2 0 0 20025 0 0
+~
+~
+Door 3 0 0 20027 0 0
+~
+~
+Door 4 0 0 20030 0 0
+~
+~
+End
+
+#20029
+Name An Alcove in a natural Limestone Cavern~
+Descr
+The limestone cavern narrows to an end here. Water trickles from under
+the north wall, issuing from a tiny crack near the floor. The miners have
+made almost no alteration to the stone here. No doubt, they have been busy
+working more promising locations. 
+~
+Door 2 0 0 20028 0 0
+~
+~
+End
+
+#20030
+Name A Well-lighted Bend in the Tunnel~
+Descr
+The tunnel leads north and west from here. There is also a hole in the
+floor with a rope ladder. There are lights strung along the ceiling in all
+directions, so that it is as bright as daylight in this part of the mine.
+This bend in the tunnel is made of quartz that is cloudy, but still
+transparent enough to reveal the rich veins of gold within. The quartz gives
+way to limestone to the north, but becomes rosy and clearer to the west. 
+~
+Door 0 0 0 20032 0 0
+~
+~
+Door 3 0 0 20031 0 0
+~
+~
+Door 5 0 0 20028 0 0
+~
+~
+End
+
+#20031
+Name At the end of the Tunnel~
+Descr
+The quartz has reddened so much in this part of the tunnel that the gold
+beneath gleams a bloody color. The effect is quite eerie, and with the
+lights in the tunnel, everything in this dead end has also taken on a
+reddish cast. 
+~
+Door 1 0 0 20030 0 0
+~
+~
+End
+
+#20032
+Name A Bright Tunnel~
+Descr
+The tunnel here has turned to limestone, and water trickles along the
+floor. The walls are softly curved, and the stone shows many bright colors
+where various mineral deposits have been left by the slowly dripping water.
+The lights along the ceiling continue to the north and south. 
+~
+Door 0 0 0 20033 0 0
+~
+~
+Door 2 0 0 20030 0 0
+~
+~
+End
+
+#20033
+Name A Moist, Slippery Tunnel~
+Descr
+The path branches here, continuing north and south, and also offering a
+side corridor to the east. Down the east corridor you can see an open area,
+and you hear the soun of machines and small voices. 
+~
+Door 0 0 0 20039 0 0
+~
+~
+Door 1 0 0 20034 0 0
+~
+~
+Door 2 0 0 20032 0 0
+~
+~
+End
+
+#20034
+Name A Guard Post~
+Descr
+The tunnel forms a choke point here, just barely wide enough to admit one
+person with gear. Beyond the constriction in the path, you can see an open
+room. You hear craftsmen working on some project. 
+~
+Door 1 0 0 20035 0 0
+~
+~
+Door 3 0 0 20033 0 0
+~
+~
+End
+
+#20035
+Name The Entrance to a Tinker's Workshop~
+Descr
+You are standing in a stone room that has been carved into a large
+square. Worktables with strange devices atop them line the walls, and tools
+hang above the tables. A large banner that looks like a blueprint of some
+kind hangs above each table, showing a globe-shaped device of some sort. 
+~
+Door 1 0 0 20036 0 0
+~
+~
+Door 2 0 0 20037 0 0
+~
+~
+Door 3 0 0 20034 0 0
+~
+~
+End
+
+#20036
+Name A Tinker's Workshop~
+Descr
+You are standing in a stone room that has been carved into a large
+square. Worktables with strange devices atop them line the walls, and tools
+hang above the tables. A large banner that looks like a blueprint of some
+kind hangs above each table, showing a globe-shaped device of some sort. 
+~
+Door 2 0 0 20038 0 0
+~
+~
+Door 3 0 0 20035 0 0
+~
+~
+End
+
+#20037
+Name A Tinker's Workshop~
+Descr
+You are standing in a stone room that has been carved into a large
+square. Worktables with strange devices atop them line the walls, and tools
+hang above the tables. A large banner that looks like a blueprint of some
+kind hangs above each table, showing a globe-shaped device of some sort. 
+~
+Door 0 0 0 20035 0 0
+~
+~
+Door 1 0 0 20038 0 0
+~
+~
+End
+
+#20038
+Name A Tinker's Workshop~
+Descr
+You are standing in a stone room that has been carved into a large
+square. Worktables with strange devices atop them line the walls, and tools
+hang above the tables. A large banner that looks like a blueprint of some
+kind hangs above each table, showing a globe-shaped device of some sort. 
+~
+Door 0 0 0 20036 0 0
+~
+~
+Door 3 0 0 20037 0 0
+~
+~
+End
+
+#20039
+Name Whoops About to Slip Down!~
+Descr
+The floor is slimy with moisture and sediments. The floor slopes away to
+the north, where you can hear a loud pouring of water. In fact, the floor is
+so slippery and tilted that you find yourself unable to hold your balance! 
+You slide inexorably toward the end of the tunnel... 
+~
+Door 2 0 0 20033 0 0
+~
+~
+End
+
+#20040
+Name At the Bottom of a Chute Into the Underwater Cave~
+Descr
+With a load splash you are dumped into a submerged cave. You must be
+careful as you swim about, since the walls are sharp quartz crystals. The
+gold deposits here are incredibly rich. You notice large crystals that have
+been broken away from the walls laying on the floor of the cavern. It looks
+as though someone has been trying to mine this dangerous cave. 
+~
+Sector 12
+Door 0 0 0 20043 0 0
+~
+~
+Door 1 0 0 20041 0 0
+~
+~
+End
+
+#20041
+Name An Underwater Cave~
+Descr
+This cave has sharp quartz crystal walls, which contain dense formations
+of gold ore. The floor is lined with lumps of broken crystal, and the walls
+are marked as if someone had tried to mine this cave. 
+~
+Sector 12
+Door 0 0 0 20042 0 0
+~
+~
+Door 3 0 0 20040 0 0
+~
+~
+End
+
+#20042
+Name An Underwater Cave~
+Descr
+This cave has sharp quartz crystal walls, which contain dense formations
+of gold ore. The floor is lined with lumps of broken crystal, and the walls
+are marked as if someone had tried to mine this cave. 
+~
+Sector 12
+Door 0 0 0 20045 0 0
+~
+~
+Door 2 0 0 20041 0 0
+~
+~
+Door 3 0 0 20043 0 0
+~
+~
+End
+
+#20043
+Name An Underwater Cave~
+Descr
+This cave has sharp quartz crystal walls, which contain dense formations
+of gold ore. The floor is lined with lumps of broken crystal, and the walls
+are marked as if someone had tried to mine this cave. 
+~
+Sector 12
+Door 0 0 0 20044 0 0
+~
+~
+Door 1 0 0 20042 0 0
+~
+~
+Door 2 0 0 20040 0 0
+~
+~
+End
+
+#20044
+Name An Underwater Cave~
+Descr
+This cave has sharp quartz crystal walls, which contain dense formations
+of gold ore. The floor is lined with lumps of broken crystal, and the walls
+are marked as if someone had tried to mine this cave. 
+~
+Sector 12
+Door 1 0 0 20045 0 0
+~
+~
+Door 2 0 0 20043 0 0
+~
+~
+End
+
+#20045
+Name An Underwater Cave~
+Descr
+This cave has sharp quartz crystal walls, which contain dense formations
+of gold ore. The floor is lined with lumps of broken crystal, and the walls
+are marked as if someone had tried to mine this cave. 
+~
+Sector 12
+Door 0 0 0 20046 0 0
+~
+~
+Door 2 0 0 20042 0 0
+~
+~
+Door 3 0 0 20044 0 0
+~
+~
+End
+
+#20046
+Name An Underwater Cave near a Hole in the Floor~
+Descr
+The water in the cave is murkier in this corner. Here the quartz ends in
+a limestone wall on the north side. You can see a hole in the floor. The
+water near the hole is warmer than that in the rest of this cave. 
+~
+Sector 12
+Door 2 0 0 20045 0 0
+~
+~
+Door 5 0 0 20047 0 0
+~
+~
+End
+
+#20047
+Name The Depths of an Underwater Cave~
+Descr
+The water in this part of the caverns is very warm. The walls of this
+cave are lined with colorful sponges and tiny tentacled creatures which
+cling to the rock. A few small patches of the stone have been scraped bare,
+revealing rich deposits of gemstones. 
+~
+Sector 12
+Door 0 0 0 20054 0 0
+~
+~
+Door 2 0 0 20048 0 0
+~
+~
+Door 4 0 0 20046 0 0
+~
+~
+End
+
+#20048
+Name The Depths of an Underwater Cave~
+Descr
+The water in the north part of this cavern is warmer than the water to
+the south. Brightly colored sponges and tiny tentacled creatures cling to
+the walls around you, and occasionally you see a glint of gemstone through
+the living tapestry. A few patches of stone have been scraped clean, and the
+rock broken away. 
+~
+Door 0 0 0 20047 0 0
+~
+~
+Door 2 0 0 20049 0 0
+~
+~
+End
+
+#20049
+Name The Depths of an Underwater Cave~
+Descr
+As you float in the tepid water of this part of the cave, you see many
+colorful sponges and anemone coating the walls. A large section of the east
+wall has been scraped bare, and the rock there is encrusted with raw jewels.
+~
+Door 0 0 0 20048 0 0
+~
+~
+Door 2 0 0 20050 0 0
+~
+~
+Door 3 0 0 20053 0 0
+~
+~
+End
+
+#20050
+Name The Depths of an Underwater Cave~
+Descr
+The water here is cool, and there are a few sponges on the walls. There
+are also a few small patches of gemstones within the walls, ceiling, and
+floor. The cave becomes smaller to the south, and widens and becomes taller
+to the north and west. 
+~
+Door 0 0 0 20049 0 0
+~
+~
+Door 2 0 0 20051 0 0
+~
+~
+Door 3 0 0 20052 0 0
+~
+~
+End
+
+#20051
+Name A Tight Squeeze Deep in the Underwater Cave~
+Descr
+It is a very tight fit to squeeze into this part of the cavern. The
+ceiling is only about four feet high, and the water here is chilly. The
+walls show no evidence of any deposits more valuable than basalt. 
+~
+Door 0 0 0 20050 0 0
+~
+~
+End
+
+#20052
+Name A Tall Area in the Depths of the Underwater Cave~
+Descr
+The cave opens up into a small vertical shaft here. The ceiling is about
+6 feet high for most of this section of cave, but abruptly extends to ten
+feet high in the southwest corner. Toolmarks indicate that this beginning of
+a shaft is manmade. 
+~
+Door 0 0 0 20053 0 0
+~
+~
+Door 1 0 0 20050 0 0
+~
+~
+End
+
+#20053
+Name The Depths of an Underwater Cave~
+Descr
+In the cool waters of this cavern, there are few living things.
+Occasionally a blind cave fish will dart past you. The stones lining the
+walls are a little sharp here, so be careful as you swim about. 
+~
+Door 1 0 0 20049 0 0
+~
+~
+Door 2 0 0 20052 0 0
+~
+~
+End
+
+#20054
+Name The Depths of an Underwater Cave~
+Descr
+The water is warm here. The sponges and anemone that live in this cave
+appear to like the warm water, since they are thicker here than in the
+cooler water to the south. The deposits of jewels are also denser and more
+widespread here. 
+~
+Door 0 0 0 20057 0 0
+~
+~
+Door 1 0 0 20055 0 0
+~
+~
+Door 2 0 0 20047 0 0
+~
+~
+End
+
+#20055
+Name The Depths of an Underwater Cave~
+Descr
+The water is quite warm here, and the plants and animals along the walls
+are becoming thicker. A large section of the east wall has been cleaned of
+creatures, and you see a dazzling array of large, raw gemstones there. 
+~
+Door 0 0 0 20056 0 0
+~
+~
+Door 3 0 0 20054 0 0
+~
+~
+End
+
+#20056
+Name The Depths of an Underwater Cave~
+Descr
+The water is quite warm here, and the plants and animals along the walls
+are becoming thicker. A large section of the east wall has been cleaned of
+creatures, and you see a dazzling array of large, raw gemstones there. 
+~
+Door 2 0 0 20055 0 0
+~
+~
+Door 3 0 0 20057 0 0
+~
+~
+End
+
+#20057
+Name The Depths of an Underwater Cave~
+Descr
+The water is growing hot. Tiny blind cave fish dart among the plantlife
+lining the walls, ceiling, and floor of this tunnel. The growth is so thick
+that you can only see gems in the patches that have been cleared for mining.
+~
+Door 0 0 0 20058 0 0
+~
+~
+Door 1 0 0 20056 0 0
+~
+~
+Door 2 0 0 20054 0 0
+~
+~
+End
+
+#20058
+Name The Depths of an Underwater Cave~
+Descr
+The water is uncomfortably warm. The tunnel is beginning to narrow as a
+result of the thick growth of plant and animal life along its walls. You are
+also becoming aware of a faint but powerful rumbling sound all around you. 
+~
+Door 0 0 0 20059 0 0
+~
+~
+Door 2 0 0 20057 0 0
+~
+~
+End
+
+#20059
+Name The Depths of an Underwater Cave~
+Descr
+You are floating in the corner of a large chamber in the cave. The walls
+and ceiling are round, almost like a bubble. To the east and north, you see
+that the large bubble in the stone comes to an end. To the west, you see
+that the large bubble in the stone comes to an end. To the west, you can see
+an alcove choked with colorful and delicate-looking plants. The most
+noticable feature of this chamber is a huge pillar of flawless blood red
+stone near the center of the bubble. 
+~
+Door 0 0 0 20062 0 0
+~
+~
+Door 1 0 0 20060 0 0
+~
+~
+Door 2 0 0 20058 0 0
+~
+~
+Door 3 0 0 20063 0 0
+~
+~
+End
+
+#20060
+Name The Depths of an Underwater Cave~
+Descr
+You are floating in a large chamber. The rounded walls continue to the
+north and west. Near the center of this bubble-like chamber there is a huge
+pillar of ruby, which catches what little light there is and casts bloody
+highlights about the area. The water here is becoming uncomfortably warm,
+and the rumbling noises are faily loud here. 
+~
+Door 0 0 0 20061 0 0
+~
+~
+Door 3 0 0 20059 0 0
+~
+~
+End
+
+#20061
+Name The Depths of an Underwater Cave~
+Descr
+The water here is very hot. Your skin is beginning to redden, and you
+feel that you should move along before you burn. The little creatures of the
+cave seem to love the heat, however. Even as the heat intensifies, the
+carpet of living things grows thicker. 
+~
+Door 1 0 0 20064 0 0
+~
+~
+Door 2 0 0 20060 0 0
+~
+~
+Door 3 0 0 20062 0 0
+~
+~
+End
+
+#20062
+Name The Depths of an Underwater Cave~
+Descr
+You are floating in a large chamber. The rounded walls continue to the
+north and west. Near the center of this bubble-like chamber there is a huge
+pillar of ruby, which catches what little light there is and casts bloody
+highlights about the area. The water here is becoming uncomfortably warm,
+and the rumbling noises are faily loud here. 
+~
+Door 1 0 0 20061 0 0
+~
+~
+Door 2 0 0 20059 0 0
+~
+~
+End
+
+#20063
+Name The Depths of an Underwater Cave~
+Descr
+You are forced to hack your way along in this tunnel as a result of the
+dense plantlife it harbors. The hot water here brings many nutrients to
+these plants. As a result of the thick vegetation, there are also thousands
+of tiny fish living in this part of the cave. 
+~
+Door 1 0 0 20059 0 0
+~
+~
+End
+
+#20064
+Name At the end of an Underwater Cave, near an Upward Shaft~
+Descr
+The water here is scalding!  You are pressed on all sides by soft plant
+life. All around, the cave rumbles with a deep, thunderous sound. There is a
+shaft leading upward here, and a clearing to the west. 
+~
+Door 3 0 0 20061 0 0
+~
+~
+Door 4 0 0 20065 0 0
+~
+~
+End
+
+#20065
+Name Wading Through Steaming Water~
+Descr
+This room is filled to a depth of three feet with very hot water. Wisps
+of steam curl up from the water's surface and accumulate in the air,
+creating a thick cloud of steam. You notice a hole in the center of the
+floor leading to a cave below this one. 
+~
+Sector 0
+Door 0 0 0 20069 0 0
+~
+~
+Door 2 0 0 20066 0 0
+~
+~
+Door 3 0 0 20068 0 0
+~
+~
+Door 5 0 0 20064 0 0
+~
+~
+End
+
+#20066
+Name Wading Through Steaming Water~
+Descr
+The cave you are passing through is filled to a depth of three feet with
+steaming water. The vapors rising from the water's surface create a dense
+cloud which obscures your vision. You can hear a deep grumbling, and
+occasionally the ground vibrates slightly. The air smells faintly of rotten
+eggs, and is hot and muggy. 
+~
+Door 0 0 0 20065 0 0
+~
+~
+Door 3 0 0 20067 0 0
+~
+~
+End
+
+#20067
+Name Wading Through Steaming Water~
+Descr
+The cave you are passing through is filled to a depth of three feet with
+steaming water. The vapors rising from the water's surface create a dense
+cloud which obscures your vision. You can hear a deep grumbling, and
+occasionally the ground vibrates slightly. The air smells faintly of rotten
+eggs, and is hot and muggy. 
+~
+Door 0 0 0 20068 0 0
+~
+~
+Door 1 0 0 20066 0 0
+~
+~
+End
+
+#20068
+Name Wading Through Steaming Water~
+Descr
+The cave you are passing through is filled to a depth of three feet with
+steaming water. The vapors rising from the water's surface create a dense
+cloud which obscures your vision. 
+~
+Door 1 0 0 20065 0 0
+~
+~
+Door 2 0 0 20067 0 0
+~
+~
+End
+
+#20069
+Name Wading Through Steaming Water~
+Descr
+This tunnel runs north and south. Scalding water stands two feet deep on
+the floor, and the steam rising from the water has filled the room with a
+warm, clinging fog. You occasionally catch a whiff of sulfur, and the ground
+trembles softly every few minutes. In the center of the room, a large
+boulder has fallen from a hole in the ceiling, allowing you to climb up to
+another level of the caves. 
+~
+Door 0 0 0 20070 0 0
+~
+~
+Door 2 0 0 20065 0 0
+~
+~
+Door 4 0 0 20074 0 0
+~
+~
+End
+
+#20070
+Name Wading Through Steaming Water~
+Descr
+The cave you are passing through is filled to a depth of three feet with
+steaming water. The vapors rising from the water's surface create a dense
+cloud which obscures your vision. You can hear a deep grumbling, and
+occasionally the ground vibrates slightly. The air smells faintly of rotten
+eggs, and is hot and muggy. 
+~
+Door 0 0 0 20073 0 0
+~
+~
+Door 1 0 0 20071 0 0
+~
+~
+Door 2 0 0 20069 0 0
+~
+~
+End
+
+#20071
+Name Wading Through Steaming Water~
+Descr
+The floor is higher here, creating a shelf just above the level of the
+water. The floor is still damp and slick as a result of the mists in the
+cavern. The air is a little cooler here, but the stink of sulphur remains. 
+~
+Door 0 0 0 20072 0 0
+~
+~
+Door 3 0 0 20070 0 0
+~
+~
+End
+
+#20072
+Name Wading Through Steaming Water~
+Descr
+The cave you are passing through is filled to a depth of three feet with
+steaming water. The vapors rising from the water's surface create a dense
+cloud which obscures your vision. You can hear a deep grumbling, and
+occasionally the ground vibrates slightly. The air smells faintly of rotten
+eggs, and is hot and muggy. 
+~
+Door 2 0 0 20071 0 0
+~
+~
+Door 3 0 0 20073 0 0
+~
+~
+End
+
+#20073
+Name Wading Through Steaming Water~
+Descr
+You are standing at the northwest corner of a large square chamber in
+the cave. The floor has dropped away slightly here, putting the water's
+depth at about four feet. You notice that the water is extremely hot in this
+part of the room, and the smell of sulphur is stronger then ever. 
+~
+Door 1 0 0 20072 0 0
+~
+~
+Door 2 0 0 20070 0 0
+~
+~
+End
+
+#20074
+Name Foggy Rooms~
+Descr
+~
+Door 0 0 0 20077 0 0
+~
+~
+Door 2 0 0 20075 0 0
+~
+~
+Door 3 0 0 20076 0 0
+~
+~
+Door 5 0 0 20069 0 0
+~
+~
+End
+
+#20075
+Name Foggy Rooms~
+Descr
+~
+Door 0 0 0 20074 0 0
+~
+~
+End
+
+#20076
+Name Foggy Rooms~
+Descr
+~
+Door 0 0 0 20078 0 0
+~
+~
+Door 1 0 0 20074 0 0
+~
+~
+End
+
+#20077
+Name Foggy Rooms~
+Descr
+~
+Door 2 0 0 20074 0 0
+~
+~
+Door 3 0 0 20078 0 0
+~
+~
+End
+
+#20078
+Name Foggy Rooms~
+Descr
+~
+Door 0 0 0 20079 0 0
+~
+~
+Door 1 0 0 20077 0 0
+~
+~
+Door 2 0 0 20076 0 0
+~
+~
+End
+
+#20079
+Name Foggy Rooms~
+Descr
+~
+Door 2 0 0 20078 0 0
+~
+~
+Door 4 0 0 20080 0 0
+~
+~
+End
+
+#20080
+Name Gassy Path to Volcano~
+Descr
+~
+Door 2 0 0 20081 0 0
+~
+~
+Door 5 0 0 20079 0 0
+~
+~
+End
+
+#20081
+Name Gassy Path to Volcano~
+Descr
+~
+Door 0 0 0 20080 0 0
+~
+~
+Door 2 0 0 20082 0 0
+~
+~
+End
+
+#20082
+Name Gassy Path to Volcano~
+Descr
+~
+Door 0 0 0 20081 0 0
+~
+~
+Door 4 0 0 20083 0 0
+~
+~
+End
+
+#20083
+Name Gassy Path to Volcano~
+Descr
+~
+Door 0 0 0 20084 0 0
+~
+~
+Door 5 0 0 20082 0 0
+~
+~
+End
+
+#20084
+Name Gassy Path to Volcano~
+Descr
+~
+Door 0 0 0 20085 0 0
+~
+~
+Door 2 0 0 20083 0 0
+~
+~
+End
+
+#20085
+Name Gassy Path to Volcano~
+Descr
+~
+Door 1 0 0 20086 0 0
+~
+~
+Door 2 0 0 20084 0 0
+~
+~
+End
+
+#20086
+Name The Exit up to the Volcano~
+Descr
+~
+Door 3 0 0 20085 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

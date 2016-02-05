@@ -1,0 +1,901 @@
+#AREADATA 
+Name The Forgotten Forest~
+Repop A bird is startled by a noise off in the distance.
+~
+SCZone 0
+Builders Bern~
+VNUMs 22500 30001
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#22500
+Name ~
+Descr
+~
+Sector 27
+Door 1 0 0 22502 0 0
+~
+~
+Door 2 0 0 22501 0 0
+~
+~
+End
+
+#22501
+Name ~
+Descr
+~
+Door 0 0 0 22500 0 0
+~
+~
+Door 1 0 0 22503 0 0
+~
+~
+End
+
+#22502
+Name ~
+Descr
+~
+Door 2 0 0 22503 0 0
+~
+~
+Door 3 0 0 22500 0 0
+~
+~
+End
+
+#22503
+Name ~
+Descr
+~
+Door 0 0 0 22502 0 0
+~
+~
+Door 1 0 0 22511 0 0
+~
+~
+Door 2 0 0 22504 0 0
+~
+~
+Door 3 0 0 22501 0 0
+~
+~
+End
+
+#22504
+Name ~
+Descr
+~
+Door 0 0 0 22503 0 0
+~
+~
+Door 1 0 0 22512 0 0
+~
+~
+Door 2 0 0 22505 0 0
+~
+~
+End
+
+#22505
+Name ~
+Descr
+~
+Door 0 0 0 22504 0 0
+~
+~
+Door 1 0 0 22513 0 0
+~
+~
+Door 2 0 0 22506 0 0
+~
+~
+End
+
+#22506
+Name ~
+Descr
+~
+Door 0 0 0 22505 0 0
+~
+~
+Door 1 0 0 22514 0 0
+~
+~
+Door 2 0 0 22507 0 0
+~
+~
+End
+
+#22507
+Name ~
+Descr
+~
+Door 0 0 0 22506 0 0
+~
+~
+Door 1 0 0 22515 0 0
+~
+~
+Door 2 0 0 22508 0 0
+~
+~
+End
+
+#22508
+Name ~
+Descr
+~
+Door 0 0 0 22507 0 0
+~
+~
+Door 1 0 0 22516 0 0
+~
+~
+Door 2 0 0 22509 0 0
+~
+~
+End
+
+#22509
+Name ~
+Descr
+~
+Door 0 0 0 22508 0 0
+~
+~
+Door 1 0 0 22517 0 0
+~
+~
+Door 2 0 0 22510 0 0
+~
+~
+End
+
+#22510
+Name ~
+Descr
+~
+Door 0 0 0 22509 0 0
+~
+~
+Door 1 0 0 22518 0 0
+~
+~
+End
+
+#22511
+Name ~
+Descr
+~
+Door 1 0 0 22519 0 0
+~
+~
+Door 2 0 0 22512 0 0
+~
+~
+Door 3 0 0 22503 0 0
+~
+~
+End
+
+#22512
+Name ~
+Descr
+~
+Door 0 0 0 22511 0 0
+~
+~
+Door 1 0 0 22520 0 0
+~
+~
+Door 2 0 0 22513 0 0
+~
+~
+Door 3 0 0 22504 0 0
+~
+~
+End
+
+#22513
+Name ~
+Descr
+~
+Door 0 0 0 22512 0 0
+~
+~
+Door 1 0 0 22521 0 0
+~
+~
+Door 2 0 0 22514 0 0
+~
+~
+Door 3 0 0 22505 0 0
+~
+~
+End
+
+#22514
+Name ~
+Descr
+~
+Door 0 0 0 22513 0 0
+~
+~
+Door 1 0 0 22522 0 0
+~
+~
+Door 2 0 0 22515 0 0
+~
+~
+Door 3 0 0 22506 0 0
+~
+~
+End
+
+#22515
+Name ~
+Descr
+~
+Door 0 0 0 22514 0 0
+~
+~
+Door 1 0 0 22523 0 0
+~
+~
+Door 2 0 0 22516 0 0
+~
+~
+Door 3 0 0 22507 0 0
+~
+~
+End
+
+#22516
+Name ~
+Descr
+~
+Door 0 0 0 22515 0 0
+~
+~
+Door 1 0 0 22524 0 0
+~
+~
+Door 2 0 0 22517 0 0
+~
+~
+Door 3 0 0 22508 0 0
+~
+~
+End
+
+#22517
+Name ~
+Descr
+~
+Door 0 0 0 22516 0 0
+~
+~
+Door 1 0 0 22525 0 0
+~
+~
+Door 2 0 0 22518 0 0
+~
+~
+Door 3 0 0 22509 0 0
+~
+~
+End
+
+#22518
+Name ~
+Descr
+~
+Door 0 0 0 22517 0 0
+~
+~
+Door 3 0 0 22510 0 0
+~
+~
+End
+
+#22519
+Name ~
+Descr
+~
+Door 2 0 0 22520 0 0
+~
+~
+Door 3 0 0 22511 0 0
+~
+~
+End
+
+#22520
+Name ~
+Descr
+~
+Door 0 0 0 22519 0 0
+~
+~
+Door 1 0 0 22526 0 0
+~
+~
+Door 2 0 0 22521 0 0
+~
+~
+Door 3 0 0 22512 0 0
+~
+~
+End
+
+#22521
+Name ~
+Descr
+~
+Door 0 0 0 22520 0 0
+~
+~
+Door 1 0 0 22527 0 0
+~
+~
+Door 2 0 0 22522 0 0
+~
+~
+Door 3 0 0 22513 0 0
+~
+~
+End
+
+#22522
+Name ~
+Descr
+~
+Door 0 0 0 22521 0 0
+~
+~
+Door 1 0 0 22528 0 0
+~
+~
+Door 2 0 0 22523 0 0
+~
+~
+Door 3 0 0 22514 0 0
+~
+~
+End
+
+#22523
+Name ~
+Descr
+~
+Door 0 0 0 22522 0 0
+~
+~
+Door 1 0 0 22529 0 0
+~
+~
+Door 2 0 0 22524 0 0
+~
+~
+Door 3 0 0 22515 0 0
+~
+~
+End
+
+#22524
+Name ~
+Descr
+~
+Door 0 0 0 22523 0 0
+~
+~
+Door 1 0 0 22530 0 0
+~
+~
+Door 2 0 0 22525 0 0
+~
+~
+Door 3 0 0 22516 0 0
+~
+~
+End
+
+#22525
+Name ~
+Descr
+~
+Door 0 0 0 22524 0 0
+~
+~
+Door 1 0 0 22531 0 0
+~
+~
+Door 3 0 0 22517 0 0
+~
+~
+End
+
+#22526
+Name ~
+Descr
+~
+Door 1 0 0 22532 0 0
+~
+~
+Door 2 0 0 22527 0 0
+~
+~
+Door 3 0 0 22520 0 0
+~
+~
+End
+
+#22527
+Name ~
+Descr
+~
+Door 0 0 0 22526 0 0
+~
+~
+Door 1 0 0 22533 0 0
+~
+~
+Door 2 0 0 22528 0 0
+~
+~
+Door 3 0 0 22521 0 0
+~
+~
+End
+
+#22528
+Name ~
+Descr
+~
+Door 0 0 0 22527 0 0
+~
+~
+Door 1 0 0 22534 0 0
+~
+~
+Door 2 0 0 22529 0 0
+~
+~
+Door 3 0 0 22522 0 0
+~
+~
+End
+
+#22529
+Name ~
+Descr
+~
+Door 0 0 0 22528 0 0
+~
+~
+Door 1 0 0 22535 0 0
+~
+~
+Door 2 0 0 22530 0 0
+~
+~
+Door 3 0 0 22523 0 0
+~
+~
+End
+
+#22530
+Name ~
+Descr
+~
+Door 0 0 0 22529 0 0
+~
+~
+Door 1 0 0 22536 0 0
+~
+~
+Door 2 0 0 22531 0 0
+~
+~
+Door 3 0 0 22524 0 0
+~
+~
+End
+
+#22531
+Name ~
+Descr
+~
+Door 0 0 0 22530 0 0
+~
+~
+Door 3 0 0 22525 0 0
+~
+~
+End
+
+#22532
+Name ~
+Descr
+~
+Door 2 0 0 22533 0 0
+~
+~
+Door 3 0 0 22526 0 0
+~
+~
+End
+
+#22533
+Name ~
+Descr
+~
+Door 0 0 0 22532 0 0
+~
+~
+Door 2 0 0 22534 0 0
+~
+~
+Door 3 0 0 22527 0 0
+~
+~
+End
+
+#22534
+Name ~
+Descr
+~
+Door 0 0 0 22533 0 0
+~
+~
+Door 1 0 0 22537 0 0
+~
+~
+Door 2 0 0 22535 0 0
+~
+~
+Door 3 0 0 22528 0 0
+~
+~
+End
+
+#22535
+Name ~
+Descr
+~
+Door 0 0 0 22534 0 0
+~
+~
+Door 1 0 0 22538 0 0
+~
+~
+Door 2 0 0 22536 0 0
+~
+~
+Door 3 0 0 22529 0 0
+~
+~
+End
+
+#22536
+Name ~
+Descr
+~
+Door 0 0 0 22535 0 0
+~
+~
+Door 1 0 0 22539 0 0
+~
+~
+Door 3 0 0 22530 0 0
+~
+~
+End
+
+#22537
+Name ~
+Descr
+~
+Door 1 0 0 22540 0 0
+~
+~
+Door 2 0 0 22538 0 0
+~
+~
+Door 3 0 0 22534 0 0
+~
+~
+End
+
+#22538
+Name ~
+Descr
+~
+Door 0 0 0 22537 0 0
+~
+~
+Door 1 0 0 22541 0 0
+~
+~
+Door 2 0 0 22539 0 0
+~
+~
+Door 3 0 0 22535 0 0
+~
+~
+End
+
+#22539
+Name ~
+Descr
+~
+Door 0 0 0 22538 0 0
+~
+~
+Door 3 0 0 22536 0 0
+~
+~
+End
+
+#22540
+Name ~
+Descr
+~
+Door 1 0 0 22542 0 0
+~
+~
+Door 2 0 0 22541 0 0
+~
+~
+Door 3 0 0 22537 0 0
+~
+~
+End
+
+#22541
+Name ~
+Descr
+~
+Door 0 0 0 22540 0 0
+~
+~
+Door 3 0 0 22538 0 0
+~
+~
+End
+
+#22542
+Name ~
+Descr
+~
+Door 0 0 0 22543 0 0
+~
+~
+Door 1 0 0 22544 0 0
+~
+~
+Door 3 0 0 22540 0 0
+~
+~
+End
+
+#22543
+Name ~
+Descr
+~
+Door 1 0 0 22545 0 0
+~
+~
+Door 2 0 0 22542 0 0
+~
+~
+End
+
+#22544
+Name ~
+Descr
+~
+Door 0 0 0 22545 0 0
+~
+~
+Door 3 0 0 22542 0 0
+~
+~
+End
+
+#22545
+Name ~
+Descr
+~
+Door 1 0 0 22546 0 0
+~
+~
+Door 2 0 0 22544 0 0
+~
+~
+Door 3 0 0 22543 0 0
+~
+~
+End
+
+#22546
+Name ~
+Descr
+~
+Door 0 0 0 22547 0 0
+~
+~
+Door 1 0 0 22550 0 0
+~
+~
+Door 3 0 0 22545 0 0
+~
+~
+End
+
+#22547
+Name ~
+Descr
+~
+Door 1 0 0 22548 0 0
+~
+~
+Door 2 0 0 22546 0 0
+~
+~
+End
+
+#22548
+Name ~
+Descr
+~
+Door 1 0 0 22549 0 0
+~
+~
+Door 2 0 0 22550 0 0
+~
+~
+Door 3 0 0 22547 0 0
+~
+~
+End
+
+#22549
+Name ~
+Descr
+~
+Door 2 0 0 22551 0 0
+~
+~
+Door 3 0 0 22548 0 0
+~
+~
+End
+
+#22550
+Name ~
+Descr
+~
+Door 0 0 0 22548 0 0
+~
+~
+Door 1 0 0 22551 0 0
+~
+~
+Door 3 0 0 22546 0 0
+~
+~
+End
+
+#22551
+Name ~
+Descr
+~
+Door 0 0 0 22549 0 0
+~
+~
+Door 2 0 0 22552 0 0
+~
+~
+Door 3 0 0 22550 0 0
+~
+~
+End
+
+#22552
+Name ~
+Descr
+~
+Door 0 0 0 22551 0 0
+~
+~
+Door 1 0 0 22554 0 0
+~
+~
+Door 2 0 0 22553 0 0
+~
+~
+End
+
+#22553
+Name ~
+Descr
+~
+Door 0 0 0 22552 0 0
+~
+~
+Door 1 0 0 22555 0 0
+~
+~
+End
+
+#22554
+Name ~
+Descr
+~
+Door 2 0 0 22555 0 0
+~
+~
+Door 3 0 0 22552 0 0
+~
+~
+End
+
+#22555
+Name ~
+Descr
+~
+Door 0 0 0 22554 0 0
+~
+~
+Door 1 0 0 22556 0 0
+~
+~
+Door 3 0 0 22553 0 0
+~
+~
+End
+
+#22556
+Name ~
+Descr
+~
+Door 1 0 0 22557 0 0
+~
+~
+Door 3 0 0 22555 0 0
+~
+~
+End
+
+#22557
+Name ~
+Descr
+~
+Door 3 0 0 22556 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

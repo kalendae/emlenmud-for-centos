@@ -1,0 +1,4933 @@
+#AREADATA 
+Name The Castle of Yur~
+Repop The sounds of metal clank in the distance as a new day begins in Yur.
+~
+SRepop 15
+SCZone 0
+Builders Structure~
+VNUMs 91051 91600
+NQuit 2
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#91097
+Name scorpion~
+Short scorpion~
+Long 
+A scorpion is on the ground here.
+~
+AMax 15
+NHeight 0
+ActBits 8
+Affect_By 512
+Alignment 2
+Level 20
+Hp 2
+Guard 0
+End
+
+#91098
+Name king yur~
+Short The King of Yur~
+Long 
+The King of Yur stands here to serve his masters.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 8840
+AffectTWO 100663304
+Alignment 2
+Money 30
+Level 550
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#91171
+Name squirrel~
+Short squirrel~
+Long 
+A little squirrel is here looking for acorns.
+~
+AMax 8
+NHeight 0
+Alignment 2
+Level 10
+Hp 2
+Guard 0
+End
+
+#91203
+Name guard yur~
+Short guard of yur~
+Long 
+The guards of Yur stand here proudly defending the castle.
+~
+AMax 4
+ActBits 2
+ActBits3 8
+ActBits4 16384
+Affect_By 680
+AffectTWO 524288
+Alignment 2
+Money 400
+Level 150
+Sex 1
+MobType 0
+Hp 2
+Guard 2
+Spec spec_warrior
+End
+
+#91204
+Name guard yur~
+Short Guard of Yur~
+Long 
+The guards of Yur stand here proudly defending the castle.
+~
+AMax 4
+ActBits 2
+ActBits3 8
+Affect_By 680
+AffectTWO 524288
+Alignment 2
+Level 150
+Hp 2
+Guard 2
+Spec spec_warrior
+End
+
+#91227
+Name warrior yur~
+Short warrior of yur~
+Long 
+A warrior of Yur stands here guarding the castle.
+~
+AMax 5
+NHeight 0
+ActBits 2
+Affect_By 552
+AffectTWO 524288
+Alignment 2
+Level 100
+Guard 0
+End
+
+#91261
+Name defender guard yur~
+Short a defender of yur~
+Long 
+A defender of the throne stands here guarding Yur.
+~
+AMax 4
+NHeight 0
+ActBits 2
+ActBits3 8
+Affect_By 648
+AffectTWO 524288
+Alignment 2
+Money 200
+Level 250
+Sex 1
+Hp 50
+Guard 4
+Spec spec_warrior
+End
+
+#91262
+Name healer juna prac~
+Short Juna the healer~
+Long 
+Juna the healer is here ready to heal the injured.
+~
+AMax 1
+ActBits 256
+Affect_By 128
+Alignment 2
+Level 35
+MobType 0
+Guard 0
+ASklTaught 0 110
+ASklTaught 1 198
+End
+
+#0
+
+
+
+#OBJDATA
+#91051
+Name eye king yur~
+Short the [34mE[1my[0m[34me[0m[37m of [33mY[1mu[0m[33mr[0m[37m~
+Descr
+There is a wierd looking eye lying on the ground here.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 6 0 200 25 0 0 0 0 0 0 0
+Weight 10
+Cost 5000
+End
+
+#91052
+Name fREE~
+Short free item~
+Descr
+WTF
+[0;36m~
+Type 13
+Wear 1
+Weight 0
+Cost 0
+End
+
+#91203
+Name torch~
+Short a [31mf[1ml[33ma[37mm[33mi[31mn[0m[31mg [1m[30mtorch[0m[37m~
+Descr
+A [31mf[1ml[33ma[37mm[33mi[31mn[0m[31mg [1m[30mtorch[0m[37m is in the ground providing [31ml[33mig[1mht[0m
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#91204
+Name ticket~
+Short a small ticket says "drop me on the ground"~
+Descr
+A ticket lies on the ground saying "Icewind Dale will have your next clue!"
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#91051
+Name Neut;The Room of Gathering Neutral~
+Descr
+~
+Flags2 6
+Flags 4
+Sector 0
+Door 1 0 0 91055 0 0
+~
+~
+Door 2 0 0 91052 0 0
+~
+~
+Door 3 0 0 91054 0 0
+~
+~
+End
+
+#91052
+Name The Gates of the Stronghold~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91051 0 0
+~
+~
+Door 1 0 0 91056 0 0
+~
+~
+Door 2 3 0 91057 30 30
+~
+gate~
+Door 3 0 0 91053 0 0
+~
+~
+End
+
+#91053
+Name The Neutral Stronghold~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91054 0 0
+~
+~
+Door 1 0 0 91052 0 0
+~
+~
+End
+
+#91054
+Name Inside the Neutral Stronghold~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 91051 0 0
+~
+~
+Door 2 0 0 91053 0 0
+~
+~
+End
+
+#91055
+Name Inside the Neutral Stronghold~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 91056 0 0
+~
+~
+Door 3 0 0 91051 0 0
+~
+~
+End
+
+#91056
+Name The Neutral Stronghold~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91055 0 0
+~
+~
+Door 3 0 0 91052 0 0
+~
+~
+End
+
+#91057
+Name The Northern Path of the Battlefield~
+Cvnuml 138460344
+Descr
+~
+Sector 5
+Door 0 0 0 0 0 0
+~
+~
+Door 2 0 0 91058 0 0
+~
+~
+Door 5 0 0 21052 0 0
+~
+~
+End
+
+#91058
+Name The Northern Path of the Battlefield~
+Descr
+~
+Sector 5
+Door 0 0 0 91057 0 0
+~
+~
+Door 2 0 0 91059 0 0
+~
+~
+End
+
+#91059
+Name The Northern Path of the Battlefield~
+Descr
+~
+Sector 5
+Reset M 91097 5 100
+Door 0 0 0 91058 0 0
+~
+~
+Door 2 0 0 91060 0 0
+~
+~
+End
+
+#91060
+Name The Northern Path of the Battlefield~
+Descr
+~
+Sector 5
+Door 0 0 0 91059 0 0
+~
+~
+Door 2 0 0 91061 0 0
+~
+~
+End
+
+#91061
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91060 0 0
+~
+~
+Door 1 0 0 91063 0 0
+~
+~
+Door 2 0 0 91064 0 0
+~
+~
+Door 3 0 0 91062 0 0
+~
+~
+End
+
+#91062
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 1 0 0 91061 0 0
+~
+~
+Door 2 0 0 91065 0 0
+~
+~
+Door 3 0 0 91068 0 0
+~
+~
+End
+
+#91063
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 2 0 0 91066 0 0
+~
+~
+Door 3 0 0 91061 0 0
+~
+~
+End
+
+#91064
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Reset M 91097 5 100
+Door 0 0 0 91061 0 0
+~
+~
+Door 1 0 0 91066 0 0
+~
+~
+Door 2 0 0 91091 0 0
+~
+~
+Door 3 0 0 91065 0 0
+~
+~
+End
+
+#91065
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91062 0 0
+~
+~
+Door 1 0 0 91064 0 0
+~
+~
+Door 2 0 0 91099 0 0
+~
+~
+Door 3 0 0 91067 0 0
+~
+~
+End
+
+#91066
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91063 0 0
+~
+~
+Door 2 0 0 91083 0 0
+~
+~
+Door 3 0 0 91064 0 0
+~
+~
+End
+
+#91067
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91068 0 0
+~
+~
+Door 1 0 0 91065 0 0
+~
+~
+Door 2 0 0 91107 0 0
+~
+~
+Door 3 0 0 91070 0 0
+~
+~
+End
+
+#91068
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 1 0 0 91062 0 0
+~
+~
+Door 2 0 0 91067 0 0
+~
+~
+Door 3 0 0 91069 0 0
+~
+~
+End
+
+#91069
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 1 0 0 91068 0 0
+~
+~
+Door 2 0 0 91070 0 0
+~
+~
+Door 3 0 0 91072 0 0
+~
+~
+End
+
+#91070
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 0 0 0 91069 0 0
+~
+~
+Door 1 0 0 91067 0 0
+~
+~
+Door 2 0 0 91115 0 0
+~
+~
+Door 3 0 0 91071 0 0
+~
+~
+End
+
+#91071
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91072 0 0
+~
+~
+Door 1 0 0 91070 0 0
+~
+~
+Door 2 0 0 91123 0 0
+~
+~
+Door 3 0 0 91073 0 0
+~
+~
+End
+
+#91072
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 1 0 0 91069 0 0
+~
+~
+Door 2 0 0 91071 0 0
+~
+~
+Door 3 0 0 91074 0 0
+~
+~
+End
+
+#91073
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91074 0 0
+~
+~
+Door 1 0 0 91071 0 0
+~
+~
+Door 2 0 0 91131 0 0
+~
+~
+Door 3 0 0 91139 0 0
+~
+~
+End
+
+#91074
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91075 0 0
+~
+~
+Door 1 0 0 91072 0 0
+~
+~
+Door 2 0 0 91073 0 0
+~
+~
+Door 3 0 0 91076 0 0
+~
+~
+End
+
+#91075
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 2 0 0 91074 0 0
+~
+~
+Door 3 0 0 91077 0 0
+~
+~
+End
+
+#91076
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91077 0 0
+~
+~
+Door 1 0 0 91074 0 0
+~
+~
+Door 2 0 0 91139 0 0
+~
+~
+Door 3 0 0 91079 0 0
+~
+~
+End
+
+#91077
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91082 0 0
+~
+~
+Door 1 0 0 91075 0 0
+~
+~
+Door 2 0 0 91076 0 0
+~
+~
+Door 3 0 0 91078 0 0
+~
+~
+End
+
+#91078
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 1 0 0 91077 0 0
+~
+~
+Door 2 0 0 91079 0 0
+~
+~
+Door 3 0 0 91081 0 0
+~
+~
+End
+
+#91079
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 0 0 0 91078 0 0
+~
+~
+Door 1 0 0 91076 0 0
+~
+~
+Door 2 0 0 91148 0 0
+~
+~
+Door 3 0 0 91080 0 0
+~
+~
+End
+
+#91080
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Reset M 91097 5 100
+Door 0 0 0 91081 0 0
+~
+~
+Door 1 0 0 91079 0 0
+~
+~
+Door 2 0 0 91169 0 0
+~
+~
+Door 3 0 0 91157 0 0
+~
+~
+End
+
+#91081
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 1 0 0 91078 0 0
+~
+~
+Door 2 0 0 91080 0 0
+~
+~
+End
+
+#91082
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Reset M 91171 1 100
+Door 2 0 0 91077 0 0
+~
+~
+End
+
+#91083
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91066 0 0
+~
+~
+Door 1 0 0 91270 0 0
+~
+~
+Door 2 0 0 91084 0 0
+~
+~
+Door 3 0 0 91091 0 0
+~
+~
+End
+
+#91084
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91083 0 0
+~
+~
+Door 2 0 0 91085 0 0
+~
+~
+Door 3 0 0 91092 0 0
+~
+~
+End
+
+#91085
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91084 0 0
+~
+~
+Door 2 0 0 91086 0 0
+~
+~
+Door 3 0 0 91093 0 0
+~
+~
+End
+
+#91086
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91085 0 0
+~
+~
+Door 2 0 0 91087 0 0
+~
+~
+Door 3 0 0 91094 0 0
+~
+~
+End
+
+#91087
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91086 0 0
+~
+~
+Door 2 0 0 91088 0 0
+~
+~
+Door 3 0 0 91095 0 0
+~
+~
+End
+
+#91088
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91087 0 0
+~
+~
+Door 2 0 0 91089 0 0
+~
+~
+Door 3 0 0 91096 0 0
+~
+~
+End
+
+#91089
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91088 0 0
+~
+~
+Door 2 0 0 91090 0 0
+~
+~
+Door 3 0 0 91097 0 0
+~
+~
+End
+
+#91090
+Name The Outter Grounds of the Castle~
+Descr
+~
+Sector 32
+Door 0 0 0 91089 0 0
+~
+~
+Door 3 0 0 91098 0 0
+~
+~
+End
+
+#91091
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91064 0 0
+~
+~
+Door 1 0 0 91083 0 0
+~
+~
+Door 2 0 0 91092 0 0
+~
+~
+Door 3 0 0 91099 0 0
+~
+~
+End
+
+#91092
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91091 0 0
+~
+~
+Door 1 0 0 91084 0 0
+~
+~
+Door 2 0 0 91093 0 0
+~
+~
+Door 3 0 0 91100 0 0
+~
+~
+End
+
+#91093
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91092 0 0
+~
+~
+Door 1 0 0 91085 0 0
+~
+~
+Door 2 0 0 91094 0 0
+~
+~
+Door 3 0 0 91101 0 0
+~
+~
+End
+
+#91094
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Reset M 91171 1 100
+Door 0 0 0 91093 0 0
+~
+~
+Door 1 0 0 91086 0 0
+~
+~
+Door 2 0 0 91095 0 0
+~
+~
+Door 3 0 0 91102 0 0
+~
+~
+End
+
+#91095
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91094 0 0
+~
+~
+Door 1 0 0 91087 0 0
+~
+~
+Door 2 0 0 91096 0 0
+~
+~
+Door 3 0 0 91103 0 0
+~
+~
+End
+
+#91096
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91095 0 0
+~
+~
+Door 1 0 0 91088 0 0
+~
+~
+Door 2 0 0 91097 0 0
+~
+~
+Door 3 0 0 91104 0 0
+~
+~
+End
+
+#91097
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Reset M 91097 1 100
+Door 0 0 0 91096 0 0
+~
+~
+Door 1 0 0 91089 0 0
+~
+~
+Door 2 0 0 91098 0 0
+~
+~
+Door 3 0 0 91105 0 0
+~
+~
+End
+
+#91098
+Name The Outter Grounds of the Castle~
+Descr
+~
+Sector 32
+Door 0 0 0 91097 0 0
+~
+~
+Door 1 0 0 91090 0 0
+~
+~
+Door 3 0 0 91106 0 0
+~
+~
+End
+
+#91099
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Reset M 91171 1 100
+Door 0 0 0 91065 0 0
+~
+~
+Door 1 0 0 91091 0 0
+~
+~
+Door 2 0 0 91100 0 0
+~
+~
+Door 3 0 0 91107 0 0
+~
+~
+End
+
+#91100
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91099 0 0
+~
+~
+Door 1 0 0 91092 0 0
+~
+~
+Door 2 0 0 91101 0 0
+~
+~
+Door 3 0 0 91108 0 0
+~
+~
+End
+
+#91101
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91100 0 0
+~
+~
+Door 1 0 0 91093 0 0
+~
+~
+Door 2 0 0 91102 0 0
+~
+~
+Door 3 0 0 91109 0 0
+~
+~
+End
+
+#91102
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91101 0 0
+~
+~
+Door 1 0 0 91094 0 0
+~
+~
+Door 2 0 0 91103 0 0
+~
+~
+Door 3 0 0 91110 0 0
+~
+~
+End
+
+#91103
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91102 0 0
+~
+~
+Door 1 0 0 91095 0 0
+~
+~
+Door 2 0 0 91104 0 0
+~
+~
+Door 3 0 0 91111 0 0
+~
+~
+End
+
+#91104
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91103 0 0
+~
+~
+Door 1 0 0 91096 0 0
+~
+~
+Door 2 0 0 91105 0 0
+~
+~
+Door 3 0 0 91112 0 0
+~
+~
+End
+
+#91105
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91104 0 0
+~
+~
+Door 1 0 0 91097 0 0
+~
+~
+Door 2 0 0 91106 0 0
+~
+~
+Door 3 0 0 91113 0 0
+~
+~
+End
+
+#91106
+Name The Outter Grounds of the Castle~
+Descr
+~
+Sector 32
+Door 0 0 0 91105 0 0
+~
+~
+Door 1 0 0 91098 0 0
+~
+~
+Door 2 0 0 91177 0 0
+~
+~
+Door 3 0 0 91114 0 0
+~
+~
+End
+
+#91107
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91067 0 0
+~
+~
+Door 1 0 0 91099 0 0
+~
+~
+Door 2 0 0 91108 0 0
+~
+~
+Door 3 0 0 91115 0 0
+~
+~
+End
+
+#91108
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 33
+Reset M 91097 5 100
+Door 0 0 0 91107 0 0
+~
+~
+Door 1 0 0 91100 0 0
+~
+~
+Door 2 0 0 91109 0 0
+~
+~
+Door 3 0 0 91116 0 0
+~
+~
+End
+
+#91109
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91108 0 0
+~
+~
+Door 1 0 0 91101 0 0
+~
+~
+Door 2 0 0 91110 0 0
+~
+~
+Door 3 0 0 91117 0 0
+~
+~
+End
+
+#91110
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91109 0 0
+~
+~
+Door 1 0 0 91102 0 0
+~
+~
+Door 2 0 0 91111 0 0
+~
+~
+Door 3 0 0 91118 0 0
+~
+~
+End
+
+#91111
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91110 0 0
+~
+~
+Door 1 0 0 91103 0 0
+~
+~
+Door 2 0 0 91112 0 0
+~
+~
+Door 3 0 0 91119 0 0
+~
+~
+End
+
+#91112
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91111 0 0
+~
+~
+Door 1 0 0 91104 0 0
+~
+~
+Door 2 0 0 91113 0 0
+~
+~
+Door 3 0 0 91120 0 0
+~
+~
+End
+
+#91113
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Reset M 91097 1 100
+Door 0 0 0 91112 0 0
+~
+~
+Door 1 0 0 91105 0 0
+~
+~
+Door 2 0 0 91114 0 0
+~
+~
+Door 3 0 0 91121 0 0
+~
+~
+End
+
+#91114
+Name The Outter Grounds of the Castle~
+Descr
+~
+Sector 33
+Door 0 0 0 91113 0 0
+~
+~
+Door 1 0 0 91106 0 0
+~
+~
+Door 2 0 0 91178 0 0
+~
+~
+Door 3 0 0 91122 0 0
+~
+~
+End
+
+#91115
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 0 0 0 91070 0 0
+~
+~
+Door 1 0 0 91107 0 0
+~
+~
+Door 2 0 0 91116 0 0
+~
+~
+Door 3 0 0 91123 0 0
+~
+~
+End
+
+#91116
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91115 0 0
+~
+~
+Door 1 0 0 91108 0 0
+~
+~
+Door 2 0 0 91117 0 0
+~
+~
+Door 3 0 0 91124 0 0
+~
+~
+End
+
+#91117
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Reset M 91171 1 100
+Door 0 0 0 91116 0 0
+~
+~
+Door 1 0 0 91109 0 0
+~
+~
+Door 2 0 0 91118 0 0
+~
+~
+Door 3 0 0 91125 0 0
+~
+~
+End
+
+#91118
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91117 0 0
+~
+~
+Door 1 0 0 91110 0 0
+~
+~
+Door 2 0 0 91119 0 0
+~
+~
+Door 3 0 0 91126 0 0
+~
+~
+End
+
+#91119
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Reset M 91097 5 100
+Door 0 0 0 91118 0 0
+~
+~
+Door 1 0 0 91111 0 0
+~
+~
+Door 2 0 0 91120 0 0
+~
+~
+Door 3 0 0 91127 0 0
+~
+~
+End
+
+#91120
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91119 0 0
+~
+~
+Door 1 0 0 91112 0 0
+~
+~
+Door 2 0 0 91121 0 0
+~
+~
+Door 3 0 0 91128 0 0
+~
+~
+End
+
+#91121
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91120 0 0
+~
+~
+Door 1 0 0 91113 0 0
+~
+~
+Door 2 0 0 91122 0 0
+~
+~
+Door 3 0 0 91129 0 0
+~
+~
+End
+
+#91122
+Name The Outter Grounds of the Castle~
+Descr
+~
+Sector 32
+Reset M 91097 5 100
+Door 0 0 0 91121 0 0
+~
+~
+Door 1 0 0 91114 0 0
+~
+~
+Door 2 0 0 91179 0 0
+~
+~
+Door 3 0 0 91130 0 0
+~
+~
+End
+
+#91123
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 0 0 0 91071 0 0
+~
+~
+Door 1 0 0 91115 0 0
+~
+~
+Door 2 0 0 91124 0 0
+~
+~
+Door 3 0 0 91131 0 0
+~
+~
+End
+
+#91124
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91123 0 0
+~
+~
+Door 1 0 0 91116 0 0
+~
+~
+Door 2 0 0 91125 0 0
+~
+~
+Door 3 0 0 91132 0 0
+~
+~
+End
+
+#91125
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91124 0 0
+~
+~
+Door 1 0 0 91117 0 0
+~
+~
+Door 2 0 0 91126 0 0
+~
+~
+Door 3 0 0 91133 0 0
+~
+~
+End
+
+#91126
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91125 0 0
+~
+~
+Door 1 0 0 91118 0 0
+~
+~
+Door 2 0 0 91127 0 0
+~
+~
+Door 3 0 0 91134 0 0
+~
+~
+End
+
+#91127
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91126 0 0
+~
+~
+Door 1 0 0 91119 0 0
+~
+~
+Door 2 0 0 91128 0 0
+~
+~
+Door 3 0 0 91135 0 0
+~
+~
+End
+
+#91128
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91127 0 0
+~
+~
+Door 1 0 0 91120 0 0
+~
+~
+Door 2 0 0 91129 0 0
+~
+~
+Door 3 0 0 91136 0 0
+~
+~
+End
+
+#91129
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91128 0 0
+~
+~
+Door 1 0 0 91121 0 0
+~
+~
+Door 2 0 0 91130 0 0
+~
+~
+Door 3 0 0 91137 0 0
+~
+~
+End
+
+#91130
+Name The Outter Grounds of the Castle~
+Descr
+~
+Sector 32
+Reset M 91097 1 100
+Door 0 0 0 91129 0 0
+~
+~
+Door 1 0 0 91122 0 0
+~
+~
+Door 2 0 0 91180 0 0
+~
+~
+Door 3 0 0 91138 0 0
+~
+~
+End
+
+#91131
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 0 0 0 91073 0 0
+~
+~
+Door 1 0 0 91123 0 0
+~
+~
+Door 2 0 0 91132 0 0
+~
+~
+Door 3 0 0 91140 0 0
+~
+~
+End
+
+#91132
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91131 0 0
+~
+~
+Door 1 0 0 91124 0 0
+~
+~
+Door 2 0 0 91133 0 0
+~
+~
+Door 3 0 0 91141 0 0
+~
+~
+End
+
+#91133
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91132 0 0
+~
+~
+Door 1 0 0 91125 0 0
+~
+~
+Door 2 0 0 91134 0 0
+~
+~
+Door 3 0 0 91142 0 0
+~
+~
+End
+
+#91134
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91133 0 0
+~
+~
+Door 1 0 0 91126 0 0
+~
+~
+Door 2 0 0 91135 0 0
+~
+~
+Door 3 0 0 91143 0 0
+~
+~
+End
+
+#91135
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91134 0 0
+~
+~
+Door 1 0 0 91127 0 0
+~
+~
+Door 2 0 0 91136 0 0
+~
+~
+Door 3 0 0 91144 0 0
+~
+~
+End
+
+#91136
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91135 0 0
+~
+~
+Door 1 0 0 91128 0 0
+~
+~
+Door 2 0 0 91137 0 0
+~
+~
+Door 3 0 0 91145 0 0
+~
+~
+End
+
+#91137
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91136 0 0
+~
+~
+Door 1 0 0 91129 0 0
+~
+~
+Door 2 0 0 91138 0 0
+~
+~
+Door 3 0 0 91146 0 0
+~
+~
+End
+
+#91138
+Name The Outter Grounds of the Castle~
+Descr
+~
+Sector 32
+Door 0 0 0 91137 0 0
+~
+~
+Door 1 0 0 91130 0 0
+~
+~
+Door 2 0 0 91181 0 0
+~
+~
+Door 3 0 0 91147 0 0
+~
+~
+End
+
+#91139
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91076 0 0
+~
+~
+Door 1 0 0 91073 0 0
+~
+~
+Door 2 0 0 91140 0 0
+~
+~
+Door 3 0 0 91148 0 0
+~
+~
+End
+
+#91140
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Reset M 91171 1 100
+Door 0 0 0 91139 0 0
+~
+~
+Door 1 0 0 91131 0 0
+~
+~
+Door 2 0 0 91141 0 0
+~
+~
+Door 3 0 0 91149 0 0
+~
+~
+End
+
+#91141
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Reset M 91097 5 100
+Door 0 0 0 91140 0 0
+~
+~
+Door 1 0 0 91132 0 0
+~
+~
+Door 2 0 0 91142 0 0
+~
+~
+Door 3 0 0 91150 0 0
+~
+~
+End
+
+#91142
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Reset M 91171 1 100
+Door 0 0 0 91141 0 0
+~
+~
+Door 1 0 0 91133 0 0
+~
+~
+Door 2 0 0 91143 0 0
+~
+~
+Door 3 0 0 91151 0 0
+~
+~
+End
+
+#91143
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 33
+Reset M 91171 1 100
+Door 0 0 0 91142 0 0
+~
+~
+Door 1 0 0 91134 0 0
+~
+~
+Door 2 0 0 91144 0 0
+~
+~
+Door 3 0 0 91152 0 0
+~
+~
+End
+
+#91144
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 0 0 0 91143 0 0
+~
+~
+Door 1 0 0 91135 0 0
+~
+~
+Door 2 0 0 91145 0 0
+~
+~
+Door 3 0 0 91153 0 0
+~
+~
+End
+
+#91145
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Reset M 91097 1 100
+Door 0 0 0 91144 0 0
+~
+~
+Door 1 0 0 91136 0 0
+~
+~
+Door 2 0 0 91146 0 0
+~
+~
+Door 3 0 0 91154 0 0
+~
+~
+End
+
+#91146
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91145 0 0
+~
+~
+Door 1 0 0 91137 0 0
+~
+~
+Door 2 0 0 91147 0 0
+~
+~
+Door 3 0 0 91155 0 0
+~
+~
+End
+
+#91147
+Name The Outter Grounds of the Castle~
+Descr
+~
+Sector 32
+Reset M 91097 1 100
+Door 0 0 0 91146 0 0
+~
+~
+Door 1 0 0 91138 0 0
+~
+~
+Door 2 0 0 91182 0 0
+~
+~
+Door 3 0 0 91156 0 0
+~
+~
+End
+
+#91148
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91079 0 0
+~
+~
+Door 1 0 0 91139 0 0
+~
+~
+Door 2 0 0 91149 0 0
+~
+~
+Door 3 0 0 91169 0 0
+~
+~
+End
+
+#91149
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91148 0 0
+~
+~
+Door 1 0 0 91140 0 0
+~
+~
+Door 2 0 0 91150 0 0
+~
+~
+Door 3 0 0 91171 0 0
+~
+~
+End
+
+#91150
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91149 0 0
+~
+~
+Door 1 0 0 91141 0 0
+~
+~
+Door 2 0 0 91151 0 0
+~
+~
+Door 3 0 0 91173 0 0
+~
+~
+End
+
+#91151
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91150 0 0
+~
+~
+Door 1 0 0 91142 0 0
+~
+~
+Door 2 0 0 91152 0 0
+~
+~
+Door 3 0 0 91176 0 0
+~
+~
+End
+
+#91152
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91151 0 0
+~
+~
+Door 1 0 0 91143 0 0
+~
+~
+Door 2 0 0 91153 0 0
+~
+~
+End
+
+#91153
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 33
+Door 0 0 0 91152 0 0
+~
+~
+Door 1 0 0 91144 0 0
+~
+~
+Door 2 0 0 91154 0 0
+~
+~
+End
+
+#91154
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91153 0 0
+~
+~
+Door 1 0 0 91145 0 0
+~
+~
+Door 2 0 0 91155 0 0
+~
+~
+End
+
+#91155
+Name The Southern Battlefields of Galan~
+Descr
+~
+Sector 32
+Door 0 0 0 91154 0 0
+~
+~
+Door 1 0 0 91146 0 0
+~
+~
+Door 2 0 0 91156 0 0
+~
+~
+End
+
+#91156
+Name The Outter Grounds of the Castle~
+Descr
+~
+Sector 32
+Door 0 0 0 91155 0 0
+~
+~
+Door 1 0 0 91147 0 0
+~
+~
+End
+
+#91157
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 1 0 0 91080 0 0
+~
+~
+Door 2 0 0 91158 0 0
+~
+~
+End
+
+#91158
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91157 0 0
+~
+~
+Door 1 0 0 91169 0 0
+~
+~
+Door 2 0 0 91170 0 0
+~
+~
+Door 3 0 0 91159 0 0
+~
+~
+End
+
+#91159
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 1 0 0 91158 0 0
+~
+~
+Door 2 0 0 91160 0 0
+~
+~
+End
+
+#91160
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 0 0 0 91159 0 0
+~
+~
+Door 1 0 0 91170 0 0
+~
+~
+Door 2 0 0 91161 0 0
+~
+~
+End
+
+#91161
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 0 0 0 91160 0 0
+~
+~
+Door 1 0 0 91172 0 0
+~
+~
+Door 2 0 0 91175 0 0
+~
+~
+Door 3 0 0 91162 0 0
+~
+~
+End
+
+#91162
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 1 0 0 91161 0 0
+~
+~
+Door 2 0 0 91163 0 0
+~
+~
+End
+
+#91163
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91162 0 0
+~
+~
+Door 1 0 0 91175 0 0
+~
+~
+End
+
+#91164
+Name The Western Path of Good~
+Descr
+~
+Sector 5
+Door 0 0 0 91163 0 0
+~
+~
+Door 2 0 0 91165 0 0
+~
+~
+End
+
+#91165
+Name The Western Path of Good~
+Descr
+~
+Sector 5
+Door 0 0 0 91164 0 0
+~
+~
+Door 2 0 0 91167 0 0
+~
+~
+Door 3 0 0 91166 0 0
+~
+~
+End
+
+#91166
+Name A Small Hole~
+Descr
+~
+Flags 4
+Sector 37
+Door 1 0 0 91165 0 0
+~
+~
+End
+
+#91167
+Name The Western Path of Good~
+Descr
+~
+Sector 5
+Door 0 0 0 91165 0 0
+~
+~
+Door 2 0 0 91168 0 0
+~
+~
+End
+
+#91168
+Name The Western Path of Good~
+Descr
+~
+Sector 5
+Door 0 0 0 91167 0 0
+~
+~
+End
+
+#91169
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91080 0 0
+~
+~
+Door 1 0 0 91148 0 0
+~
+~
+Door 2 0 0 91171 0 0
+~
+~
+Door 3 0 0 91158 0 0
+~
+~
+End
+
+#91170
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91158 0 0
+~
+~
+Door 1 0 0 91171 0 0
+~
+~
+Door 2 0 0 91172 0 0
+~
+~
+Door 3 0 0 91160 0 0
+~
+~
+End
+
+#91171
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Reset M 91171 1 100
+Door 0 0 0 91169 0 0
+~
+~
+Door 1 0 0 91149 0 0
+~
+~
+Door 2 0 0 91173 0 0
+~
+~
+Door 3 0 0 91170 0 0
+~
+~
+End
+
+#91172
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 8
+Door 0 0 0 91170 0 0
+~
+~
+Door 1 0 0 91173 0 0
+~
+~
+Door 2 0 0 91174 0 0
+~
+~
+Door 3 0 0 91161 0 0
+~
+~
+End
+
+#91173
+Name The Northern Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91171 0 0
+~
+~
+Door 1 0 0 91150 0 0
+~
+~
+Door 2 0 0 91176 0 0
+~
+~
+Door 3 0 0 91172 0 0
+~
+~
+End
+
+#91174
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91172 0 0
+~
+~
+Door 1 0 0 91176 0 0
+~
+~
+Door 3 0 0 91175 0 0
+~
+~
+End
+
+#91175
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91161 0 0
+~
+~
+Door 1 0 0 91174 0 0
+~
+~
+Door 3 0 0 91163 0 0
+~
+~
+End
+
+#91176
+Name The Central Battlefields of Galan~
+Descr
+~
+Sector 27
+Door 0 0 0 91173 0 0
+~
+~
+Door 1 0 0 91151 0 0
+~
+~
+Door 3 0 0 91174 0 0
+~
+~
+End
+
+#91177
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91106 0 0
+~
+~
+Door 2 0 0 91192 0 0
+~
+~
+Door 3 0 0 91178 0 0
+~
+~
+End
+
+#91178
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91114 0 0
+~
+~
+Door 1 0 0 91177 0 0
+~
+~
+Door 3 0 0 91179 0 0
+~
+~
+End
+
+#91179
+Name The Bridge Towards Yur~
+Descr
+~
+Sector 5
+Reset O 91203 -5 100
+Door 0 0 0 91122 0 0
+~
+~
+Door 1 0 0 91178 0 0
+~
+~
+Door 2 0 0 91202 0 0
+~
+~
+Door 3 0 0 91180 0 0
+~
+~
+End
+
+#91180
+Name The Bridge Towards Yur~
+Descr
+~
+Sector 5
+Reset O 91203 -5 100
+Door 0 0 0 91130 0 0
+~
+~
+Door 1 0 0 91179 0 0
+~
+~
+Door 2 0 0 91201 0 0
+~
+~
+Door 3 0 0 91181 0 0
+~
+~
+End
+
+#91181
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91138 0 0
+~
+~
+Door 1 0 0 91180 0 0
+~
+~
+Door 3 0 0 91182 0 0
+~
+~
+End
+
+#91182
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91147 0 0
+~
+~
+Door 1 0 0 91181 0 0
+~
+~
+Door 2 0 0 91183 0 0
+~
+~
+End
+
+#91183
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91182 0 0
+~
+~
+Door 2 0 0 91184 0 0
+~
+~
+End
+
+#91184
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91183 0 0
+~
+~
+Door 3 0 0 91185 0 0
+~
+~
+End
+
+#91185
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91184 0 0
+~
+~
+Door 3 0 0 91186 0 0
+~
+~
+End
+
+#91186
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91185 0 0
+~
+~
+Door 2 0 0 91187 0 0
+~
+~
+End
+
+#91187
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91186 0 0
+~
+~
+Door 2 0 0 91188 0 0
+~
+~
+End
+
+#91188
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91187 0 0
+~
+~
+Door 2 0 0 91189 0 0
+~
+~
+End
+
+#91189
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91188 0 0
+~
+~
+Door 2 0 0 91190 0 0
+~
+~
+End
+
+#91190
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91189 0 0
+~
+~
+Door 2 0 0 91191 0 0
+~
+~
+End
+
+#91191
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91190 0 0
+~
+~
+Door 2 0 0 91259 0 0
+~
+~
+End
+
+#91192
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91177 0 0
+~
+~
+Door 2 0 0 91193 0 0
+~
+~
+End
+
+#91193
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91192 0 0
+~
+~
+Door 1 0 0 91194 0 0
+~
+~
+End
+
+#91194
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91195 0 0
+~
+~
+Door 3 0 0 91193 0 0
+~
+~
+End
+
+#91195
+Name ~
+Descr
+~
+Sector 11
+Door 2 0 0 91196 0 0
+~
+~
+Door 3 0 0 91194 0 0
+~
+~
+End
+
+#91196
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91195 0 0
+~
+~
+Door 2 0 0 91197 0 0
+~
+~
+Door 3 0 0 91217 0 0
+~
+~
+End
+
+#91197
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91196 0 0
+~
+~
+Door 2 0 0 91198 0 0
+~
+~
+Door 3 0 0 91218 0 0
+~
+~
+End
+
+#91198
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91197 0 0
+~
+~
+Door 2 0 0 91199 0 0
+~
+~
+Door 3 0 0 91219 0 0
+~
+~
+End
+
+#91199
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91198 0 0
+~
+~
+Door 2 0 0 91200 0 0
+~
+~
+Door 3 0 0 91220 0 0
+~
+~
+End
+
+#91200
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91199 0 0
+~
+~
+Door 2 0 0 91258 0 0
+~
+~
+Door 3 0 0 91221 0 0
+~
+~
+End
+
+#91201
+Name The Bridge Towards Yur~
+Descr
+~
+Sector 5
+Reset O 91203 -5 100
+Door 0 0 0 91180 0 0
+~
+~
+Door 1 0 0 91202 0 0
+~
+~
+Door 2 0 0 91203 0 0
+~
+~
+Door 3 0 0 91207 0 0
+~
+~
+End
+
+#91202
+Name The Bridge Towers Yur~
+Descr
+~
+Sector 5
+Reset O 91203 -5 100
+Door 0 0 0 91179 0 0
+~
+~
+Door 1 0 0 91206 0 0
+~
+~
+Door 2 0 0 91204 0 0
+~
+~
+Door 3 0 0 91201 0 0
+~
+~
+End
+
+#91203
+Name The Gates of Yur~
+Descr
+~
+Sector 5
+Reset O 91203 -5 100
+Reset M 91203 1 100
+Reset M 91203 1 100
+Reset M 91203 1 100
+Reset M 91203 1 100
+Door 0 0 0 91201 0 0
+~
+~
+Door 1 0 0 91204 0 0
+~
+~
+Door 2 3 0 91210 30 30
+~
+gate~
+Door 3 0 0 91208 0 0
+~
+~
+End
+
+#91204
+Name The Gates of Yur~
+Descr
+~
+Sector 5
+Reset O 91203 -5 100
+Reset M 91204 1 100
+Reset M 91204 1 100
+Reset M 91204 1 100
+Reset M 91204 1 100
+Door 0 0 0 91202 0 0
+~
+~
+Door 1 0 0 91205 0 0
+~
+~
+Door 2 3 0 91214 30 30
+~
+gate~
+Door 3 0 0 91203 0 0
+~
+~
+End
+
+#91205
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91206 0 0
+~
+~
+Door 3 0 0 91204 0 0
+~
+~
+End
+
+#91206
+Name ~
+Descr
+~
+Sector 11
+Door 2 0 0 91205 0 0
+~
+~
+Door 3 0 0 91202 0 0
+~
+~
+End
+
+#91207
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91201 0 0
+~
+~
+Door 2 0 0 91208 0 0
+~
+~
+End
+
+#91208
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91207 0 0
+~
+~
+Door 1 0 0 91203 0 0
+~
+~
+End
+
+#91209
+Name ~
+Descr
+~
+End
+
+#91210
+Name Inside the Walls of Yur~
+Descr
+~
+Door 0 3 0 91203 30 30
+~
+gate~
+Door 1 0 0 91214 0 0
+~
+~
+Door 2 0 0 91237 0 0
+~
+~
+Door 3 0 0 91211 0 0
+~
+~
+End
+
+#91211
+Name Inside the Walls of Yur~
+Descr
+~
+Door 1 0 0 91210 0 0
+~
+~
+Door 2 0 0 91242 0 0
+~
+~
+Door 3 0 0 91212 0 0
+~
+~
+End
+
+#91212
+Name Inside the Walls of Yur~
+Descr
+~
+Door 1 0 0 91211 0 0
+~
+~
+Door 2 0 0 91247 0 0
+~
+~
+Door 3 0 0 91213 0 0
+~
+~
+End
+
+#91213
+Name The Path of Magic~
+Descr
+~
+Sector 5
+Door 1 0 0 91212 0 0
+~
+~
+Door 2 0 0 91252 0 0
+~
+~
+End
+
+#91214
+Name Inside the Walls of Yur~
+Descr
+~
+Door 0 3 0 91204 30 30
+~
+gate~
+Door 1 0 0 91215 0 0
+~
+~
+Door 2 0 0 91232 0 0
+~
+~
+Door 3 0 0 91210 0 0
+~
+~
+End
+
+#91215
+Name Inside the Walls of Yur~
+Descr
+~
+Door 1 0 0 91216 0 0
+~
+~
+Door 2 0 0 91227 0 0
+~
+~
+Door 3 0 0 91214 0 0
+~
+~
+End
+
+#91216
+Name Inside the Walls of Yur~
+Descr
+~
+Door 1 0 0 91217 0 0
+~
+~
+Door 2 0 0 91222 0 0
+~
+~
+Door 3 0 0 91215 0 0
+~
+~
+End
+
+#91217
+Name The Path of Power~
+Descr
+~
+Sector 5
+Door 2 0 0 91218 0 0
+~
+~
+Door 3 0 0 91216 0 0
+~
+~
+End
+
+#91218
+Name The Path of Power~
+Descr
+~
+Sector 5
+Door 0 0 0 91217 0 0
+~
+~
+Door 2 0 0 91219 0 0
+~
+~
+End
+
+#91219
+Name The Path of Power~
+Descr
+~
+Sector 5
+Door 0 0 0 91218 0 0
+~
+~
+Door 2 0 0 91220 0 0
+~
+~
+End
+
+#91220
+Name The Path of Power~
+Descr
+~
+Sector 5
+Door 0 0 0 91219 0 0
+~
+~
+Door 2 0 0 91221 0 0
+~
+~
+End
+
+#91221
+Name The Path of Power~
+Descr
+~
+Sector 5
+Door 0 0 0 91220 0 0
+~
+~
+Door 2 0 0 91257 0 0
+~
+~
+End
+
+#91222
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91216 0 0
+~
+~
+Door 2 0 0 91223 0 0
+~
+~
+Door 3 0 0 91227 0 0
+~
+~
+End
+
+#91223
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91222 0 0
+~
+~
+Door 2 0 0 91224 0 0
+~
+~
+Door 3 0 0 91228 0 0
+~
+~
+End
+
+#91224
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91223 0 0
+~
+~
+Door 2 0 0 91225 0 0
+~
+~
+Door 3 0 0 91229 0 0
+~
+~
+End
+
+#91225
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91224 0 0
+~
+~
+Door 2 0 0 91226 0 0
+~
+~
+Door 3 0 0 91230 0 0
+~
+~
+End
+
+#91226
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91225 0 0
+~
+~
+Door 3 0 0 91231 0 0
+~
+~
+End
+
+#91227
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Reset M 91227 1 100
+Door 0 0 0 91215 0 0
+~
+~
+Door 1 0 0 91222 0 0
+~
+~
+Door 2 0 0 91228 0 0
+~
+~
+Door 3 0 0 91232 0 0
+~
+~
+End
+
+#91228
+Name The Battleworn Castle of Yur~
+Descr
+~
+Sector 34
+Door 0 0 0 91227 0 0
+~
+~
+Door 1 0 0 91223 0 0
+~
+~
+Door 2 0 0 91229 0 0
+~
+~
+Door 3 0 0 91233 0 0
+~
+~
+End
+
+#91229
+Name The Battleworn Castle of Yur~
+Descr
+~
+Sector 34
+Reset M 91227 1 100
+Door 0 0 0 91228 0 0
+~
+~
+Door 1 0 0 91224 0 0
+~
+~
+Door 2 0 0 91230 0 0
+~
+~
+Door 3 0 0 91234 0 0
+~
+~
+End
+
+#91230
+Name The Battleworn Castle of Yur~
+Descr
+~
+Sector 34
+Door 0 0 0 91229 0 0
+~
+~
+Door 1 0 0 91225 0 0
+~
+~
+Door 2 0 0 91231 0 0
+~
+~
+Door 3 0 0 91235 0 0
+~
+~
+End
+
+#91231
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91230 0 0
+~
+~
+Door 1 0 0 91226 0 0
+~
+~
+Door 2 0 0 91277 0 0
+~
+~
+Door 3 0 0 91236 0 0
+~
+~
+End
+
+#91232
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91214 0 0
+~
+~
+Door 1 0 0 91227 0 0
+~
+~
+Door 2 0 0 91233 0 0
+~
+~
+Door 3 0 0 91237 0 0
+~
+~
+End
+
+#91233
+Name The Battleworn Castle of Yur~
+Descr
+~
+Sector 34
+Door 0 0 0 91232 0 0
+~
+~
+Door 1 0 0 91228 0 0
+~
+~
+Door 2 0 0 91234 0 0
+~
+~
+Door 3 0 0 91238 0 0
+~
+~
+End
+
+#91234
+Name The Path to the Throne~
+Descr
+~
+Sector 43
+Door 0 0 0 91233 0 0
+~
+~
+Door 1 0 0 91229 0 0
+~
+~
+Door 2 0 0 91235 0 0
+~
+~
+Door 3 0 0 91239 0 0
+~
+~
+Door 4 0 0 91260 0 0
+~
+~
+End
+
+#91235
+Name The Battleworn Castle of Yur~
+Descr
+~
+Sector 34
+Door 0 0 0 91234 0 0
+~
+~
+Door 1 0 0 91230 0 0
+~
+~
+Door 2 0 0 91236 0 0
+~
+~
+Door 3 0 0 91240 0 0
+~
+~
+End
+
+#91236
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91235 0 0
+~
+~
+Door 1 0 0 91231 0 0
+~
+~
+Door 3 0 0 91241 0 0
+~
+~
+End
+
+#91237
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91210 0 0
+~
+~
+Door 1 0 0 91232 0 0
+~
+~
+Door 2 0 0 91238 0 0
+~
+~
+Door 3 0 0 91242 0 0
+~
+~
+End
+
+#91238
+Name The Battleworn Castle of Yur~
+Descr
+~
+Sector 34
+Door 0 0 0 91237 0 0
+~
+~
+Door 1 0 0 91233 0 0
+~
+~
+Door 2 0 0 91239 0 0
+~
+~
+Door 3 0 0 91243 0 0
+~
+~
+End
+
+#91239
+Name The Battleworn Castle of Yur~
+Descr
+~
+Sector 34
+Door 0 0 0 91238 0 0
+~
+~
+Door 1 0 0 91234 0 0
+~
+~
+Door 2 0 0 91240 0 0
+~
+~
+Door 3 0 0 91244 0 0
+~
+~
+End
+
+#91240
+Name The Battleworn Castle of Yur~
+Descr
+~
+Sector 34
+Door 0 0 0 91239 0 0
+~
+~
+Door 1 0 0 91235 0 0
+~
+~
+Door 2 0 0 91241 0 0
+~
+~
+Door 3 0 0 91245 0 0
+~
+~
+End
+
+#91241
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Reset M 91227 1 100
+Door 0 0 0 91240 0 0
+~
+~
+Door 1 0 0 91236 0 0
+~
+~
+Door 3 0 0 91246 0 0
+~
+~
+End
+
+#91242
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Reset M 91227 1 100
+Door 0 0 0 91211 0 0
+~
+~
+Door 1 0 0 91237 0 0
+~
+~
+Door 2 0 0 91243 0 0
+~
+~
+Door 3 0 0 91247 0 0
+~
+~
+End
+
+#91243
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91242 0 0
+~
+~
+Door 1 0 0 91238 0 0
+~
+~
+Door 2 0 0 91244 0 0
+~
+~
+Door 3 0 0 91248 0 0
+~
+~
+End
+
+#91244
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91243 0 0
+~
+~
+Door 1 0 0 91239 0 0
+~
+~
+Door 2 0 0 91245 0 0
+~
+~
+Door 3 0 0 91249 0 0
+~
+~
+End
+
+#91245
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91244 0 0
+~
+~
+Door 1 0 0 91240 0 0
+~
+~
+Door 2 0 0 91246 0 0
+~
+~
+Door 3 0 0 91250 0 0
+~
+~
+End
+
+#91246
+Name Inside the Walls of Yur~
+Descr
+~
+Sector 26
+Door 0 0 0 91245 0 0
+~
+~
+Door 1 0 0 91241 0 0
+~
+~
+Door 3 0 0 91251 0 0
+~
+~
+End
+
+#91247
+Name Inside the Walls of Yur~
+Descr
+~
+Door 0 0 0 91212 0 0
+~
+~
+Door 1 0 0 91242 0 0
+~
+~
+Door 2 0 0 91248 0 0
+~
+~
+End
+
+#91248
+Name Inside the Walls of Yur~
+Descr
+~
+Door 0 0 0 91247 0 0
+~
+~
+Door 1 0 0 91243 0 0
+~
+~
+Door 2 0 0 91249 0 0
+~
+~
+End
+
+#91249
+Name Inside the Walls of Yur~
+Descr
+~
+Door 0 0 0 91248 0 0
+~
+~
+Door 1 0 0 91244 0 0
+~
+~
+Door 2 0 0 91250 0 0
+~
+~
+End
+
+#91250
+Name Inside the Walls of Yur~
+Descr
+~
+Door 0 0 0 91249 0 0
+~
+~
+Door 1 0 0 91245 0 0
+~
+~
+Door 2 0 0 91251 0 0
+~
+~
+End
+
+#91251
+Name Inside the Walls of Yur~
+Descr
+~
+Reset M 91262 1 65
+Door 0 0 0 91250 0 0
+~
+~
+Door 1 0 0 91246 0 0
+~
+~
+End
+
+#91252
+Name The Path of Magic~
+Descr
+~
+Sector 5
+Door 0 0 0 91213 0 0
+~
+~
+Door 2 0 0 91253 0 0
+~
+~
+End
+
+#91253
+Name The Path of Magic~
+Descr
+~
+Sector 5
+Door 0 0 0 91252 0 0
+~
+~
+Door 2 0 0 91254 0 0
+~
+~
+End
+
+#91254
+Name The Path of Magic~
+Descr
+~
+Sector 5
+Door 0 0 0 91253 0 0
+~
+~
+Door 2 0 0 91255 0 0
+~
+~
+End
+
+#91255
+Name The Path of Magic~
+Descr
+~
+Sector 5
+Door 0 0 0 91254 0 0
+~
+~
+Door 2 0 0 91256 0 0
+~
+~
+End
+
+#91256
+Name The Room of Magic~
+Descr
+~
+Flags2 6
+Sector 43
+Door 0 0 0 91255 0 0
+~
+~
+Door 3 0 0 91259 0 0
+~
+~
+End
+
+#91257
+Name The Room of Power~
+Descr
+~
+Flags 16
+Sector 43
+Door 0 0 0 91221 0 0
+~
+~
+Door 1 0 0 91258 0 0
+~
+~
+End
+
+#91258
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91200 0 0
+~
+~
+Door 2 0 0 91280 0 0
+~
+~
+Door 3 0 0 91257 0 0
+~
+~
+End
+
+#91259
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91191 0 0
+~
+~
+Door 1 0 0 91256 0 0
+~
+~
+Door 2 0 0 91271 0 0
+~
+~
+End
+
+#91260
+Name Some Steep Stairwells~
+Descr
+~
+Door 4 0 0 91261 0 0
+~
+~
+Door 5 0 0 91234 0 0
+~
+~
+End
+
+#91261
+Name The Gates of the Throne Room~
+Descr
+~
+Reset O 91203 -5 100
+Door 4 3 0 91262 30 30
+~
+throne room~
+Door 5 0 0 91260 0 0
+~
+~
+End
+
+#91262
+Name The Throne Room of Yur~
+Cvnumh 91600
+Cvnuml 91051
+Calign 2
+Cbonusstr i~
+Descr
+~
+Flags2 6
+Flags 16512
+Sector 49
+Reset M 91098 1 100
+Reset O 91051 -1 1
+Door 5 3 0 91261 30 30
+~
+throne room~
+End
+
+#91263
+Name The Gates of Light~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 3 0 91168 30 30
+~
+gate~
+Door 3 0 0 91264 0 0
+~
+~
+End
+
+#91264
+Name Inside the Stronghold of Light~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91265 0 0
+~
+~
+Door 1 0 0 91263 0 0
+~
+~
+Door 2 0 0 91266 0 0
+~
+~
+Door 3 0 0 91267 0 0
+~
+~
+End
+
+#91265
+Name Inside the Stronghold of Light~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 91264 0 0
+~
+~
+Door 3 0 0 91268 0 0
+~
+~
+End
+
+#91266
+Name Inside the Stronghold of Light~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91264 0 0
+~
+~
+Door 3 0 0 91269 0 0
+~
+~
+End
+
+#91267
+Name Goo;The Room of Gathering LIGHT~
+Descr
+~
+Flags2 6
+Flags 4
+Sector 0
+Door 0 0 0 91268 0 0
+~
+~
+Door 1 0 0 91264 0 0
+~
+~
+Door 2 0 0 91269 0 0
+~
+~
+End
+
+#91268
+Name Inside the Stronghold of Light~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 91265 0 0
+~
+~
+Door 2 0 0 91267 0 0
+~
+~
+End
+
+#91269
+Name Inside the Stronghold of Light~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91267 0 0
+~
+~
+Door 1 0 0 91266 0 0
+~
+~
+End
+
+#91270
+Name ~
+Descr
+~
+Sector 33
+Door 3 0 0 91083 0 0
+~
+~
+End
+
+#91271
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91259 0 0
+~
+~
+Door 1 0 0 91272 0 0
+~
+~
+End
+
+#91272
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91273 0 0
+~
+~
+Door 3 0 0 91271 0 0
+~
+~
+End
+
+#91273
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91274 0 0
+~
+~
+Door 3 0 0 91272 0 0
+~
+~
+End
+
+#91274
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91275 0 0
+~
+~
+Door 3 0 0 91273 0 0
+~
+~
+End
+
+#91275
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91276 0 0
+~
+~
+Door 3 0 0 91274 0 0
+~
+~
+End
+
+#91276
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91277 0 0
+~
+~
+Door 3 0 0 91275 0 0
+~
+~
+End
+
+#91277
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91231 0 0
+~
+~
+Door 1 0 0 91278 0 0
+~
+~
+Door 3 0 0 91276 0 0
+~
+~
+End
+
+#91278
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91279 0 0
+~
+~
+Door 3 0 0 91277 0 0
+~
+~
+End
+
+#91279
+Name ~
+Descr
+~
+Sector 11
+Door 1 0 0 91280 0 0
+~
+~
+Door 3 0 0 91278 0 0
+~
+~
+End
+
+#91280
+Name ~
+Descr
+~
+Sector 11
+Door 0 0 0 91258 0 0
+~
+~
+Door 3 0 0 91279 0 0
+~
+~
+End
+
+#91281
+Name The Path of Santel~
+Descr
+~
+Sector 5
+Door 0 0 0 91090 0 0
+~
+~
+Door 1 0 0 91298 0 0
+~
+~
+End
+
+#91282
+Name The Eastern Path of Evil~
+Descr
+~
+Sector 5
+Door 1 0 0 91283 0 0
+~
+~
+Door 3 0 0 91085 0 0
+~
+~
+End
+
+#91283
+Name The Eastern Path of Evil~
+Descr
+~
+Sector 5
+Door 2 0 0 91284 0 0
+~
+~
+Door 3 0 0 91282 0 0
+~
+~
+End
+
+#91284
+Name The Eastern Path of Evil~
+Descr
+~
+Sector 5
+Door 0 0 0 91283 0 0
+~
+~
+Door 2 0 0 91285 0 0
+~
+~
+End
+
+#91285
+Name The Eastern Path of Evil~
+Descr
+~
+Sector 5
+Door 0 0 0 91284 0 0
+~
+~
+Door 2 0 0 91286 0 0
+~
+~
+End
+
+#91286
+Name The Eastern Path of Evil~
+Descr
+~
+Sector 5
+Door 0 0 0 91285 0 0
+~
+~
+Door 2 0 0 91287 0 0
+~
+~
+End
+
+#91287
+Name The Eastern Path of Evil~
+Descr
+~
+Sector 5
+Door 0 0 0 91286 0 0
+~
+~
+End
+
+#91288
+Name The Gates of Evil~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 91289 0 0
+~
+~
+Door 3 3 0 91287 30 30
+~
+gate~
+End
+
+#91289
+Name Inside the Stronghold of Evil~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91290 0 0
+~
+~
+Door 1 0 0 91291 0 0
+~
+~
+Door 2 0 0 91292 0 0
+~
+~
+Door 3 0 0 91288 0 0
+~
+~
+End
+
+#91290
+Name Inside the Stronghold of Evil~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 91293 0 0
+~
+~
+Door 2 0 0 91289 0 0
+~
+~
+End
+
+#91291
+Name Inside the Stronghold of Evil~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91293 0 0
+~
+~
+Door 1 0 0 91295 0 0
+~
+~
+Door 2 0 0 91294 0 0
+~
+~
+Door 3 0 0 91289 0 0
+~
+~
+End
+
+#91292
+Name Inside the Stronghold of Evil~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91289 0 0
+~
+~
+Door 1 0 0 91294 0 0
+~
+~
+End
+
+#91293
+Name Inside the Stronghold of Evil~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 91291 0 0
+~
+~
+Door 3 0 0 91290 0 0
+~
+~
+End
+
+#91294
+Name Inside the Stronghold of Evil~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91291 0 0
+~
+~
+Door 3 0 0 91292 0 0
+~
+~
+End
+
+#91295
+Name Evl;The Room of Gathering Dark~
+Descr
+~
+Flags 4
+Sector 43
+Door 3 0 0 91291 0 0
+~
+~
+End
+
+#91296
+Name ~
+Descr
+~
+End
+
+#91297
+Name ~
+Descr
+~
+End
+
+#91298
+Name The Path of Santel~
+Descr
+~
+Sector 5
+Door 1 0 0 91299 0 0
+~
+~
+Door 3 0 0 91281 0 0
+~
+~
+End
+
+#91299
+Name The Path of Santel~
+Descr
+~
+Sector 5
+Door 1 0 0 91300 0 0
+~
+~
+Door 3 0 0 91298 0 0
+~
+~
+End
+
+#91300
+Name The Path of Santel~
+Descr
+~
+Sector 5
+Door 1 0 0 91301 0 0
+~
+~
+Door 3 0 0 91299 0 0
+~
+~
+End
+
+#91301
+Name The Path of Santel~
+Descr
+~
+Sector 5
+Door 1 0 0 91302 0 0
+~
+~
+Door 3 0 0 91300 0 0
+~
+~
+End
+
+#91302
+Name The Path of Santel~
+Descr
+~
+Sector 5
+Door 1 0 0 91303 0 0
+~
+~
+Door 3 0 0 91301 0 0
+~
+~
+End
+
+#91303
+Name The Path of Santel~
+Descr
+~
+Sector 5
+Door 1 0 0 91304 0 0
+~
+~
+Door 3 0 0 91302 0 0
+~
+~
+End
+
+#91304
+Name The Path of Santel~
+Descr
+~
+Sector 5
+Door 3 0 0 91303 0 0
+~
+~
+End
+
+#91305
+Name ~
+Descr
+~
+End
+
+#91306
+Name ~
+Descr
+~
+End
+
+#91307
+Name ~
+Descr
+~
+End
+
+#91308
+Name ~
+Descr
+~
+End
+
+#91309
+Name ~
+Descr
+~
+End
+
+#91310
+Name ~
+Descr
+~
+End
+
+#91311
+Name ~
+Descr
+~
+End
+
+#91312
+Name ~
+Descr
+~
+End
+
+#91313
+Name ~
+Descr
+~
+End
+
+#91314
+Name ~
+Descr
+~
+End
+
+#91315
+Name ~
+Descr
+~
+End
+
+#91316
+Name ~
+Descr
+~
+End
+
+#91317
+Name ~
+Descr
+~
+End
+
+#91318
+Name ~
+Descr
+~
+End
+
+#91319
+Name ~
+Descr
+~
+End
+
+#91320
+Name ~
+Descr
+~
+End
+
+#91321
+Name ~
+Descr
+~
+End
+
+#91322
+Name ~
+Descr
+~
+End
+
+#91323
+Name ~
+Descr
+~
+End
+
+#91324
+Name ~
+Descr
+~
+End
+
+#91325
+Name ~
+Descr
+~
+End
+
+#91326
+Name ~
+Descr
+~
+End
+
+#91327
+Name ~
+Descr
+~
+End
+
+#91328
+Name ~
+Descr
+~
+End
+
+#91329
+Name ~
+Descr
+~
+End
+
+#91330
+Name ~
+Descr
+~
+End
+
+#91331
+Name ~
+Descr
+~
+End
+
+#91332
+Name ~
+Descr
+~
+End
+
+#91333
+Name ~
+Descr
+~
+End
+
+#91334
+Name ~
+Descr
+~
+End
+
+#91335
+Name ~
+Descr
+~
+End
+
+#91336
+Name ~
+Descr
+~
+End
+
+#91337
+Name ~
+Descr
+~
+End
+
+#91338
+Name ~
+Descr
+~
+End
+
+#91339
+Name ~
+Descr
+~
+End
+
+#91340
+Name ~
+Descr
+~
+End
+
+#91341
+Name ~
+Descr
+~
+End
+
+#91342
+Name ~
+Descr
+~
+End
+
+#91343
+Name ~
+Descr
+~
+End
+
+#91344
+Name ~
+Descr
+~
+End
+
+#91345
+Name ~
+Descr
+~
+End
+
+#91346
+Name ~
+Descr
+~
+End
+
+#91347
+Name ~
+Descr
+~
+End
+
+#91348
+Name ~
+Descr
+~
+End
+
+#91349
+Name ~
+Descr
+~
+End
+
+#91350
+Name ~
+Descr
+~
+End
+
+#91351
+Name ~
+Descr
+~
+End
+
+#91352
+Name ~
+Descr
+~
+End
+
+#91353
+Name ~
+Descr
+~
+End
+
+#91354
+Name ~
+Descr
+~
+End
+
+#91355
+Name ~
+Descr
+~
+End
+
+#91356
+Name ~
+Descr
+~
+End
+
+#91357
+Name ~
+Descr
+~
+End
+
+#91358
+Name ~
+Descr
+~
+End
+
+#91359
+Name ~
+Descr
+~
+End
+
+#91360
+Name ~
+Descr
+~
+End
+
+#91361
+Name ~
+Descr
+~
+End
+
+#91362
+Name ~
+Descr
+~
+End
+
+#91363
+Name ~
+Descr
+~
+End
+
+#91364
+Name ~
+Descr
+~
+End
+
+#91365
+Name ~
+Descr
+~
+End
+
+#91366
+Name ~
+Descr
+~
+End
+
+#91367
+Name ~
+Descr
+~
+End
+
+#91368
+Name ~
+Descr
+~
+End
+
+#91369
+Name ~
+Descr
+~
+End
+
+#91370
+Name ~
+Descr
+~
+End
+
+#91371
+Name ~
+Descr
+~
+End
+
+#91372
+Name ~
+Descr
+~
+End
+
+#91373
+Name ~
+Descr
+~
+End
+
+#91374
+Name ~
+Descr
+~
+End
+
+#91375
+Name ~
+Descr
+~
+End
+
+#91376
+Name ~
+Descr
+~
+End
+
+#91377
+Name ~
+Descr
+~
+End
+
+#91378
+Name ~
+Descr
+~
+End
+
+#91379
+Name ~
+Descr
+~
+End
+
+#91380
+Name ~
+Descr
+~
+End
+
+#91381
+Name ~
+Descr
+~
+End
+
+#91382
+Name ~
+Descr
+~
+End
+
+#91383
+Name ~
+Descr
+~
+End
+
+#91384
+Name ~
+Descr
+~
+End
+
+#91385
+Name ~
+Descr
+~
+End
+
+#91386
+Name ~
+Descr
+~
+End
+
+#91387
+Name ~
+Descr
+~
+End
+
+#91388
+Name ~
+Descr
+~
+End
+
+#91389
+Name ~
+Descr
+~
+End
+
+#91390
+Name ~
+Descr
+~
+End
+
+#91391
+Name ~
+Descr
+~
+End
+
+#91392
+Name ~
+Descr
+~
+End
+
+#91393
+Name ~
+Descr
+~
+End
+
+#91394
+Name ~
+Descr
+~
+End
+
+#91395
+Name ~
+Descr
+~
+End
+
+#91396
+Name ~
+Descr
+~
+End
+
+#91397
+Name ~
+Descr
+~
+End
+
+#91398
+Name ~
+Descr
+~
+End
+
+#91399
+Name ~
+Descr
+~
+End
+
+#91400
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

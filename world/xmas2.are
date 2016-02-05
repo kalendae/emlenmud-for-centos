@@ -1,0 +1,5829 @@
+#AREADATA 
+Name Christmas Quest Level Two~
+Repop Merry Christmas and Happy New Year!!
+~
+SCZone 0
+Builders  Kilith~
+VNUMs 5700 6099
+NQuit 2
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#5700
+Name elf~
+Short an elf~
+Long 
+An elf stands here looking around.
+~
+AMax 1
+ActBits 67108866
+Affect_By 552
+AffectTWO 524288
+Money 1000
+Level 400
+Sex 1
+MobType 1
+Guard 0
+End
+
+#5855
+Name elf~
+Short an elf~
+Long 
+An elf stands here looking around.
+~
+AMax 1
+ActBits 67108866
+Affect_By 552
+AffectTWO 524288
+Money 1000
+Level 400
+Sex 1
+MobType 1
+Guard 0
+End
+
+#5920
+Name baby New Year~
+Short Baby New Year~
+Long 
+Baby New Year is here waiting on Father Time.
+~
+AMax 1
+ActBits 2
+Affect_By 680
+AffectTWO 524292
+Money 400
+Level 200
+Sex 1
+MobType 0
+Guard 0
+End
+
+#5951
+Name santa Clause~
+Short Santa Clause~
+Long 
+Santa Clause is here looking over his list... and checking it twice.
+~
+AMax 1
+ActBits 2
+Affect_By 680
+AffectTWO 524292
+Money 400
+Level 200
+Sex 1
+MobType 0
+Guard 0
+End
+
+#6020
+Name father Time~
+Short Father Time~
+Long 
+Father Time is waiting for the New Year to come!
+~
+AMax 1
+ActBits 2
+Affect_By 680
+AffectTWO 524292
+Money 400
+Level 200
+Sex 1
+MobType 0
+Guard 0
+End
+
+#6056
+Name elf~
+Short an elf~
+Long 
+An elf stands here looking around.
+~
+AMax 1
+ActBits 67108866
+Affect_By 552
+AffectTWO 524288
+Money 1000
+Level 400
+Sex 1
+MobType 1
+Guard 0
+End
+
+#6068
+Name elf~
+Short an elf~
+Long 
+An elf stands here looking around.
+~
+AMax 1
+ActBits 67108866
+Affect_By 552
+AffectTWO 524288
+Money 1000
+Level 400
+Sex 1
+MobType 1
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#5700
+Name christmas wish cool additions~
+Short a christmas wish of additions~
+Descr
+A strange piece of paper lies on the ground.
+[0;36m~
+Type 13
+Extra 50331648
+Wear 16385
+Weight 0
+Cost 0
+ExtraDescr christmas wish cool additions~
+Kick_damage for a max of +3 kick on item
+
+You need 2 Tickets for +1 kick_damage
+
+ 
+
+dam (apb) for a max of +2 apb on item
+
+You need 5 Tickets for +1 dam on item
+
+ 
+
+AC (this is for item ac not normal ac) max of +3 on item
+
+You need 2 Tickets for +1 ac on item
+
+ 
+
+saving_throw for a max of +3 save on item
+
+You need 2 Tickets for +1 save on item
+
+ 
+
+Hit max of +3 hit on item
+
+You need 2 Tickets for +1 hit on item
+
+ 
+
+Mana for max of +20 mana on item
+
+You need 1 Ticket for +1 mana on item
+
+ 
+
+Hp for max of +20 Hp on item
+
+You need 1 Ticket for +1 Hp on item
+
+ 
+
+Moves for max of +20 moves on item
+
+You need 1 Ticket for +1 move on item
+
+ 
+
+Stat for a max of +1 stat (str, con, dex, wis, int) ONLY 1 stat MAX
+
+You need 40 Tickets for +1 stat on item
+
+~
+End
+
+#0
+
+
+
+#ROOMDATA
+#5700
+Name Quest Area Level Two~
+Cvnuml 137162472
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5701 0 0
+~
+~
+Door 5 259 0 5699 30 30
+~
+newyearseve~
+End
+
+#5701
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5702 0 0
+~
+~
+Door 2 0 0 5700 0 0
+~
+~
+End
+
+#5702
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5703 0 0
+~
+~
+Door 2 0 0 5701 0 0
+~
+~
+End
+
+#5703
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5704 0 0
+~
+~
+Door 2 0 0 5702 0 0
+~
+~
+End
+
+#5704
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5705 0 0
+~
+~
+Door 2 0 0 5703 0 0
+~
+~
+End
+
+#5705
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5706 0 0
+~
+~
+Door 2 0 0 5704 0 0
+~
+~
+End
+
+#5706
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5707 0 0
+~
+~
+Door 2 0 0 5705 0 0
+~
+~
+End
+
+#5707
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5708 0 0
+~
+~
+Door 2 0 0 5706 0 0
+~
+~
+End
+
+#5708
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5709 0 0
+~
+~
+Door 3 0 0 5707 0 0
+~
+~
+End
+
+#5709
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5710 0 0
+~
+~
+Door 3 0 0 5708 0 0
+~
+~
+End
+
+#5710
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5711 0 0
+~
+~
+Door 2 0 0 5709 0 0
+~
+~
+End
+
+#5711
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5712 0 0
+~
+~
+Door 2 0 0 5710 0 0
+~
+~
+End
+
+#5712
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5711 0 0
+~
+~
+Door 3 0 0 5713 0 0
+~
+~
+End
+
+#5713
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5714 0 0
+~
+~
+Door 1 0 0 5712 0 0
+~
+~
+End
+
+#5714
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5715 0 0
+~
+~
+Door 2 0 0 5713 0 0
+~
+~
+End
+
+#5715
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5716 0 0
+~
+~
+Door 2 0 0 5714 0 0
+~
+~
+End
+
+#5716
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5717 0 0
+~
+~
+Door 2 0 0 5715 0 0
+~
+~
+End
+
+#5717
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5718 0 0
+~
+~
+Door 2 0 0 5716 0 0
+~
+~
+End
+
+#5718
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5717 0 0
+~
+~
+Door 3 0 0 5719 0 0
+~
+~
+End
+
+#5719
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5718 0 0
+~
+~
+Door 3 0 0 5720 0 0
+~
+~
+End
+
+#5720
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5719 0 0
+~
+~
+Door 3 0 0 5721 0 0
+~
+~
+End
+
+#5721
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5720 0 0
+~
+~
+Door 3 0 0 5722 0 0
+~
+~
+End
+
+#5722
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5721 0 0
+~
+~
+Door 3 0 0 5723 0 0
+~
+~
+End
+
+#5723
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5724 0 0
+~
+~
+Door 1 0 0 5722 0 0
+~
+~
+End
+
+#5724
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5725 0 0
+~
+~
+Door 2 0 0 5723 0 0
+~
+~
+End
+
+#5725
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5726 0 0
+~
+~
+Door 2 0 0 5724 0 0
+~
+~
+End
+
+#5726
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5727 0 0
+~
+~
+Door 2 0 0 5725 0 0
+~
+~
+End
+
+#5727
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5728 0 0
+~
+~
+Door 2 0 0 5726 0 0
+~
+~
+End
+
+#5728
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5729 0 0
+~
+~
+Door 2 0 0 5727 0 0
+~
+~
+End
+
+#5729
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5728 0 0
+~
+~
+Door 3 0 0 5730 0 0
+~
+~
+End
+
+#5730
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5729 0 0
+~
+~
+Door 3 0 0 5731 0 0
+~
+~
+End
+
+#5731
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5730 0 0
+~
+~
+Door 3 0 0 5732 0 0
+~
+~
+End
+
+#5732
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5731 0 0
+~
+~
+Door 3 0 0 5733 0 0
+~
+~
+End
+
+#5733
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5732 0 0
+~
+~
+Door 3 0 0 5734 0 0
+~
+~
+End
+
+#5734
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5735 0 0
+~
+~
+Door 1 0 0 5733 0 0
+~
+~
+End
+
+#5735
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5736 0 0
+~
+~
+Door 2 0 0 5734 0 0
+~
+~
+End
+
+#5736
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5735 0 0
+~
+~
+Door 3 0 0 5737 0 0
+~
+~
+End
+
+#5737
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5736 0 0
+~
+~
+Door 3 0 0 5738 0 0
+~
+~
+End
+
+#5738
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5737 0 0
+~
+~
+Door 3 0 0 5739 0 0
+~
+~
+End
+
+#5739
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5738 0 0
+~
+~
+Door 3 0 0 5740 0 0
+~
+~
+End
+
+#5740
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5739 0 0
+~
+~
+Door 2 0 0 5741 0 0
+~
+~
+End
+
+#5741
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5740 0 0
+~
+~
+Door 2 0 0 5742 0 0
+~
+~
+End
+
+#5742
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5741 0 0
+~
+~
+Door 2 0 0 5743 0 0
+~
+~
+End
+
+#5743
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5742 0 0
+~
+~
+Door 2 0 0 5744 0 0
+~
+~
+End
+
+#5744
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5743 0 0
+~
+~
+Door 2 0 0 5745 0 0
+~
+~
+End
+
+#5745
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5744 0 0
+~
+~
+Door 2 0 0 5746 0 0
+~
+~
+End
+
+#5746
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5745 0 0
+~
+~
+Door 2 0 0 5747 0 0
+~
+~
+End
+
+#5747
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5746 0 0
+~
+~
+Door 2 0 0 5748 0 0
+~
+~
+End
+
+#5748
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5747 0 0
+~
+~
+Door 1 0 0 5749 0 0
+~
+~
+End
+
+#5749
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5750 0 0
+~
+~
+Door 3 0 0 5748 0 0
+~
+~
+End
+
+#5750
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5751 0 0
+~
+~
+Door 3 0 0 5749 0 0
+~
+~
+End
+
+#5751
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5752 0 0
+~
+~
+Door 3 0 0 5750 0 0
+~
+~
+End
+
+#5752
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5753 0 0
+~
+~
+Door 3 0 0 5751 0 0
+~
+~
+End
+
+#5753
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5754 0 0
+~
+~
+Door 3 0 0 5752 0 0
+~
+~
+End
+
+#5754
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5753 0 0
+~
+~
+Door 2 0 0 5755 0 0
+~
+~
+End
+
+#5755
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5754 0 0
+~
+~
+Door 2 0 0 5756 0 0
+~
+~
+End
+
+#5756
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5755 0 0
+~
+~
+Door 2 0 0 5757 0 0
+~
+~
+End
+
+#5757
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5756 0 0
+~
+~
+Door 2 0 0 5758 0 0
+~
+~
+End
+
+#5758
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5757 0 0
+~
+~
+Door 3 0 0 5759 0 0
+~
+~
+End
+
+#5759
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5758 0 0
+~
+~
+Door 3 0 0 5760 0 0
+~
+~
+End
+
+#5760
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5759 0 0
+~
+~
+Door 3 0 0 5761 0 0
+~
+~
+End
+
+#5761
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5760 0 0
+~
+~
+Door 3 0 0 5762 0 0
+~
+~
+End
+
+#5762
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5761 0 0
+~
+~
+Door 3 0 0 5763 0 0
+~
+~
+End
+
+#5763
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5762 0 0
+~
+~
+Door 3 0 0 5764 0 0
+~
+~
+End
+
+#5764
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5765 0 0
+~
+~
+Door 1 0 0 5763 0 0
+~
+~
+End
+
+#5765
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5766 0 0
+~
+~
+Door 2 0 0 5764 0 0
+~
+~
+End
+
+#5766
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5767 0 0
+~
+~
+Door 2 0 0 5765 0 0
+~
+~
+End
+
+#5767
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5768 0 0
+~
+~
+Door 3 0 0 5766 0 0
+~
+~
+End
+
+#5768
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5769 0 0
+~
+~
+Door 3 0 0 5767 0 0
+~
+~
+End
+
+#5769
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5770 0 0
+~
+~
+Door 3 0 0 5768 0 0
+~
+~
+End
+
+#5770
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5771 0 0
+~
+~
+Door 3 0 0 5769 0 0
+~
+~
+End
+
+#5771
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5772 0 0
+~
+~
+Door 3 0 0 5770 0 0
+~
+~
+End
+
+#5772
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5773 0 0
+~
+~
+Door 2 0 0 5771 0 0
+~
+~
+End
+
+#5773
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5772 0 0
+~
+~
+Door 3 0 0 5774 0 0
+~
+~
+End
+
+#5774
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5773 0 0
+~
+~
+Door 3 0 0 5775 0 0
+~
+~
+End
+
+#5775
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5774 0 0
+~
+~
+Door 3 0 0 5776 0 0
+~
+~
+End
+
+#5776
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5775 0 0
+~
+~
+Door 3 0 0 5777 0 0
+~
+~
+End
+
+#5777
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5776 0 0
+~
+~
+Door 3 0 0 5778 0 0
+~
+~
+End
+
+#5778
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5777 0 0
+~
+~
+Door 3 0 0 5779 0 0
+~
+~
+End
+
+#5779
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5780 0 0
+~
+~
+Door 1 0 0 5778 0 0
+~
+~
+End
+
+#5780
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5781 0 0
+~
+~
+Door 2 0 0 5779 0 0
+~
+~
+End
+
+#5781
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5782 0 0
+~
+~
+Door 2 0 0 5780 0 0
+~
+~
+End
+
+#5782
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5783 0 0
+~
+~
+Door 2 0 0 5781 0 0
+~
+~
+End
+
+#5783
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5784 0 0
+~
+~
+Door 2 0 0 5782 0 0
+~
+~
+End
+
+#5784
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5785 0 0
+~
+~
+Door 2 0 0 5783 0 0
+~
+~
+End
+
+#5785
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5786 0 0
+~
+~
+Door 2 0 0 5784 0 0
+~
+~
+End
+
+#5786
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5787 0 0
+~
+~
+Door 2 0 0 5785 0 0
+~
+~
+End
+
+#5787
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5788 0 0
+~
+~
+Door 2 0 0 5786 0 0
+~
+~
+End
+
+#5788
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5789 0 0
+~
+~
+Door 2 0 0 5787 0 0
+~
+~
+End
+
+#5789
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5790 0 0
+~
+~
+Door 2 0 0 5788 0 0
+~
+~
+End
+
+#5790
+Name Quest Area Level Two~
+Descr
+~
+Flags2 6
+Flags 4
+Sector 0
+Door 0 0 0 5791 0 0
+~
+~
+Door 1 0 0 5856 0 0
+~
+~
+Door 2 0 0 5789 0 0
+~
+~
+Door 3 0 0 5825 0 0
+~
+~
+End
+
+#5791
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5792 0 0
+~
+~
+Door 2 0 0 5790 0 0
+~
+~
+End
+
+#5792
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5793 0 0
+~
+~
+Door 2 0 0 5791 0 0
+~
+~
+End
+
+#5793
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5792 0 0
+~
+~
+Door 3 0 0 5794 0 0
+~
+~
+End
+
+#5794
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5793 0 0
+~
+~
+Door 3 0 0 5795 0 0
+~
+~
+End
+
+#5795
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5794 0 0
+~
+~
+Door 2 0 0 5796 0 0
+~
+~
+End
+
+#5796
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5795 0 0
+~
+~
+Door 2 0 0 5797 0 0
+~
+~
+End
+
+#5797
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5796 0 0
+~
+~
+Door 3 0 0 5798 0 0
+~
+~
+End
+
+#5798
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5797 0 0
+~
+~
+Door 3 0 0 5799 0 0
+~
+~
+End
+
+#5799
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5798 0 0
+~
+~
+Door 2 0 0 5800 0 0
+~
+~
+End
+
+#5800
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5799 0 0
+~
+~
+Door 2 0 0 5801 0 0
+~
+~
+End
+
+#5801
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5800 0 0
+~
+~
+Door 2 0 0 5802 0 0
+~
+~
+End
+
+#5802
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5801 0 0
+~
+~
+Door 2 0 0 5803 0 0
+~
+~
+End
+
+#5803
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5802 0 0
+~
+~
+Door 2 0 0 5804 0 0
+~
+~
+End
+
+#5804
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5803 0 0
+~
+~
+Door 2 0 0 5805 0 0
+~
+~
+End
+
+#5805
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5804 0 0
+~
+~
+Door 2 0 0 5806 0 0
+~
+~
+End
+
+#5806
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5805 0 0
+~
+~
+Door 2 0 0 5807 0 0
+~
+~
+End
+
+#5807
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5806 0 0
+~
+~
+Door 2 0 0 5808 0 0
+~
+~
+End
+
+#5808
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5807 0 0
+~
+~
+Door 2 0 0 5809 0 0
+~
+~
+End
+
+#5809
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5808 0 0
+~
+~
+Door 2 0 0 5810 0 0
+~
+~
+End
+
+#5810
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5809 0 0
+~
+~
+Door 2 0 0 5811 0 0
+~
+~
+End
+
+#5811
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5810 0 0
+~
+~
+Door 3 0 0 5812 0 0
+~
+~
+End
+
+#5812
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5811 0 0
+~
+~
+Door 2 0 0 5813 0 0
+~
+~
+End
+
+#5813
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5812 0 0
+~
+~
+Door 2 0 0 5814 0 0
+~
+~
+End
+
+#5814
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5813 0 0
+~
+~
+Door 2 0 0 5815 0 0
+~
+~
+End
+
+#5815
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5814 0 0
+~
+~
+Door 3 0 0 5816 0 0
+~
+~
+End
+
+#5816
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5815 0 0
+~
+~
+Door 3 0 0 5817 0 0
+~
+~
+End
+
+#5817
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5816 0 0
+~
+~
+Door 2 0 0 5818 0 0
+~
+~
+End
+
+#5818
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5817 0 0
+~
+~
+Door 2 0 0 5819 0 0
+~
+~
+End
+
+#5819
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5818 0 0
+~
+~
+Door 2 0 0 5820 0 0
+~
+~
+End
+
+#5820
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5819 0 0
+~
+~
+Door 2 0 0 5821 0 0
+~
+~
+End
+
+#5821
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5820 0 0
+~
+~
+Door 1 0 0 5822 0 0
+~
+~
+End
+
+#5822
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5823 0 0
+~
+~
+Door 3 0 0 5821 0 0
+~
+~
+End
+
+#5823
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5824 0 0
+~
+~
+Door 3 0 0 5822 0 0
+~
+~
+End
+
+#5824
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5994 0 0
+~
+~
+Door 3 0 0 5823 0 0
+~
+~
+End
+
+#5825
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5790 0 0
+~
+~
+Door 3 0 0 5826 0 0
+~
+~
+End
+
+#5826
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5825 0 0
+~
+~
+Door 3 0 0 5827 0 0
+~
+~
+End
+
+#5827
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5826 0 0
+~
+~
+Door 2 0 0 5828 0 0
+~
+~
+End
+
+#5828
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5827 0 0
+~
+~
+Door 2 0 0 5829 0 0
+~
+~
+End
+
+#5829
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5828 0 0
+~
+~
+Door 2 0 0 5830 0 0
+~
+~
+End
+
+#5830
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5829 0 0
+~
+~
+Door 1 0 0 5831 0 0
+~
+~
+End
+
+#5831
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5832 0 0
+~
+~
+Door 3 0 0 5830 0 0
+~
+~
+End
+
+#5832
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5833 0 0
+~
+~
+Door 3 0 0 5831 0 0
+~
+~
+End
+
+#5833
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5832 0 0
+~
+~
+Door 2 0 0 5834 0 0
+~
+~
+End
+
+#5834
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5833 0 0
+~
+~
+Door 3 0 0 5835 0 0
+~
+~
+End
+
+#5835
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5834 0 0
+~
+~
+Door 3 0 0 5836 0 0
+~
+~
+End
+
+#5836
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5835 0 0
+~
+~
+Door 2 0 0 5837 0 0
+~
+~
+End
+
+#5837
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5836 0 0
+~
+~
+Door 2 0 0 5838 0 0
+~
+~
+End
+
+#5838
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5837 0 0
+~
+~
+Door 1 0 0 5839 0 0
+~
+~
+End
+
+#5839
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5840 0 0
+~
+~
+Door 3 0 0 5838 0 0
+~
+~
+End
+
+#5840
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5841 0 0
+~
+~
+Door 3 0 0 5839 0 0
+~
+~
+End
+
+#5841
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5840 0 0
+~
+~
+Door 2 0 0 5842 0 0
+~
+~
+End
+
+#5842
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5841 0 0
+~
+~
+Door 3 0 0 5843 0 0
+~
+~
+End
+
+#5843
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5842 0 0
+~
+~
+Door 3 0 0 5844 0 0
+~
+~
+End
+
+#5844
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5843 0 0
+~
+~
+Door 2 0 0 5845 0 0
+~
+~
+End
+
+#5845
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5844 0 0
+~
+~
+Door 2 0 0 5846 0 0
+~
+~
+End
+
+#5846
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5845 0 0
+~
+~
+Door 1 0 0 5847 0 0
+~
+~
+End
+
+#5847
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5848 0 0
+~
+~
+Door 3 0 0 5846 0 0
+~
+~
+End
+
+#5848
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5849 0 0
+~
+~
+Door 3 0 0 5847 0 0
+~
+~
+End
+
+#5849
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5848 0 0
+~
+~
+Door 1 0 0 5850 0 0
+~
+~
+End
+
+#5850
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5851 0 0
+~
+~
+Door 3 0 0 5849 0 0
+~
+~
+End
+
+#5851
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5852 0 0
+~
+~
+Door 3 0 0 5850 0 0
+~
+~
+End
+
+#5852
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5853 0 0
+~
+~
+Door 3 0 0 5851 0 0
+~
+~
+End
+
+#5853
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5854 0 0
+~
+~
+Door 3 0 0 5852 0 0
+~
+~
+End
+
+#5854
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5855 0 0
+~
+~
+Door 3 0 0 5853 0 0
+~
+~
+End
+
+#5855
+Name Dead End~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 5855 1 100
+Reset O 146 -1 30
+Door 3 0 0 5854 0 0
+~
+~
+End
+
+#5856
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5857 0 0
+~
+~
+Door 3 0 0 5790 0 0
+~
+~
+End
+
+#5857
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5858 0 0
+~
+~
+Door 3 0 0 5856 0 0
+~
+~
+End
+
+#5858
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5859 0 0
+~
+~
+Door 3 0 0 5857 0 0
+~
+~
+End
+
+#5859
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5860 0 0
+~
+~
+Door 3 0 0 5858 0 0
+~
+~
+End
+
+#5860
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5861 0 0
+~
+~
+Door 3 0 0 5859 0 0
+~
+~
+End
+
+#5861
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5862 0 0
+~
+~
+Door 3 0 0 5860 0 0
+~
+~
+End
+
+#5862
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5863 0 0
+~
+~
+Door 3 0 0 5861 0 0
+~
+~
+End
+
+#5863
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5864 0 0
+~
+~
+Door 3 0 0 5862 0 0
+~
+~
+End
+
+#5864
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5863 0 0
+~
+~
+Door 2 0 0 5865 0 0
+~
+~
+End
+
+#5865
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5864 0 0
+~
+~
+Door 1 0 0 5866 0 0
+~
+~
+End
+
+#5866
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5867 0 0
+~
+~
+Door 3 0 0 5865 0 0
+~
+~
+End
+
+#5867
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5868 0 0
+~
+~
+Door 3 0 0 5866 0 0
+~
+~
+End
+
+#5868
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5869 0 0
+~
+~
+Door 3 0 0 5867 0 0
+~
+~
+End
+
+#5869
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5870 0 0
+~
+~
+Door 3 0 0 5868 0 0
+~
+~
+End
+
+#5870
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5871 0 0
+~
+~
+Door 3 0 0 5869 0 0
+~
+~
+End
+
+#5871
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5870 0 0
+~
+~
+Door 2 0 0 5872 0 0
+~
+~
+End
+
+#5872
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5871 0 0
+~
+~
+Door 2 0 0 5873 0 0
+~
+~
+End
+
+#5873
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5872 0 0
+~
+~
+Door 1 0 0 5921 0 0
+~
+~
+Door 2 0 0 5874 0 0
+~
+~
+End
+
+#5874
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5873 0 0
+~
+~
+Door 2 0 0 5875 0 0
+~
+~
+End
+
+#5875
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5874 0 0
+~
+~
+Door 2 0 0 5876 0 0
+~
+~
+End
+
+#5876
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5875 0 0
+~
+~
+Door 1 0 0 5877 0 0
+~
+~
+End
+
+#5877
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5878 0 0
+~
+~
+Door 3 0 0 5876 0 0
+~
+~
+End
+
+#5878
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5879 0 0
+~
+~
+Door 3 0 0 5877 0 0
+~
+~
+End
+
+#5879
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5880 0 0
+~
+~
+Door 3 0 0 5878 0 0
+~
+~
+End
+
+#5880
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5881 0 0
+~
+~
+Door 3 0 0 5879 0 0
+~
+~
+End
+
+#5881
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5882 0 0
+~
+~
+Door 3 0 0 5880 0 0
+~
+~
+End
+
+#5882
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5883 0 0
+~
+~
+Door 3 0 0 5881 0 0
+~
+~
+End
+
+#5883
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5884 0 0
+~
+~
+Door 3 0 0 5882 0 0
+~
+~
+End
+
+#5884
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5885 0 0
+~
+~
+Door 3 0 0 5883 0 0
+~
+~
+End
+
+#5885
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5886 0 0
+~
+~
+Door 3 0 0 5884 0 0
+~
+~
+End
+
+#5886
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5887 0 0
+~
+~
+Door 2 0 0 5885 0 0
+~
+~
+End
+
+#5887
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5888 0 0
+~
+~
+Door 2 0 0 5886 0 0
+~
+~
+End
+
+#5888
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5889 0 0
+~
+~
+Door 2 0 0 5887 0 0
+~
+~
+End
+
+#5889
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5890 0 0
+~
+~
+Door 2 0 0 5888 0 0
+~
+~
+End
+
+#5890
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5891 0 0
+~
+~
+Door 2 0 0 5889 0 0
+~
+~
+End
+
+#5891
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5892 0 0
+~
+~
+Door 2 0 0 5890 0 0
+~
+~
+End
+
+#5892
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5893 0 0
+~
+~
+Door 2 0 0 5891 0 0
+~
+~
+End
+
+#5893
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5894 0 0
+~
+~
+Door 2 0 0 5892 0 0
+~
+~
+End
+
+#5894
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5895 0 0
+~
+~
+Door 2 0 0 5893 0 0
+~
+~
+End
+
+#5895
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5896 0 0
+~
+~
+Door 2 0 0 5894 0 0
+~
+~
+End
+
+#5896
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5895 0 0
+~
+~
+Door 3 0 0 5897 0 0
+~
+~
+End
+
+#5897
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5896 0 0
+~
+~
+Door 3 0 0 5898 0 0
+~
+~
+End
+
+#5898
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5897 0 0
+~
+~
+Door 3 0 0 5899 0 0
+~
+~
+End
+
+#5899
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5898 0 0
+~
+~
+Door 3 0 0 5900 0 0
+~
+~
+End
+
+#5900
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5899 0 0
+~
+~
+Door 3 0 0 5901 0 0
+~
+~
+End
+
+#5901
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5900 0 0
+~
+~
+Door 2 0 0 5902 0 0
+~
+~
+End
+
+#5902
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5901 0 0
+~
+~
+Door 2 0 0 5903 0 0
+~
+~
+End
+
+#5903
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5902 0 0
+~
+~
+Door 2 0 0 5904 0 0
+~
+~
+End
+
+#5904
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5903 0 0
+~
+~
+Door 2 0 0 5905 0 0
+~
+~
+End
+
+#5905
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5904 0 0
+~
+~
+Door 2 0 0 5906 0 0
+~
+~
+End
+
+#5906
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5905 0 0
+~
+~
+Door 2 0 0 5907 0 0
+~
+~
+End
+
+#5907
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5906 0 0
+~
+~
+Door 2 0 0 5908 0 0
+~
+~
+End
+
+#5908
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5907 0 0
+~
+~
+Door 2 0 0 5909 0 0
+~
+~
+End
+
+#5909
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5908 0 0
+~
+~
+Door 2 0 0 5910 0 0
+~
+~
+End
+
+#5910
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5909 0 0
+~
+~
+Door 1 0 0 5911 0 0
+~
+~
+End
+
+#5911
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5912 0 0
+~
+~
+Door 3 0 0 5910 0 0
+~
+~
+End
+
+#5912
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5913 0 0
+~
+~
+Door 3 0 0 5911 0 0
+~
+~
+End
+
+#5913
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5914 0 0
+~
+~
+Door 3 0 0 5912 0 0
+~
+~
+End
+
+#5914
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5915 0 0
+~
+~
+Door 2 0 0 5913 0 0
+~
+~
+End
+
+#5915
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5916 0 0
+~
+~
+Door 2 0 0 5914 0 0
+~
+~
+End
+
+#5916
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5917 0 0
+~
+~
+Door 2 0 0 5915 0 0
+~
+~
+End
+
+#5917
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5918 0 0
+~
+~
+Door 2 0 0 5916 0 0
+~
+~
+End
+
+#5918
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5919 0 0
+~
+~
+Door 2 0 0 5917 0 0
+~
+~
+End
+
+#5919
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5920 0 0
+~
+~
+Door 2 0 0 5918 0 0
+~
+~
+End
+
+#5920
+Name Dead End~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 5700 1 100
+Reset O 143 -1 30
+Door 2 0 0 5919 0 0
+~
+~
+End
+
+#5921
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5922 0 0
+~
+~
+Door 3 0 0 5873 0 0
+~
+~
+End
+
+#5922
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5923 0 0
+~
+~
+Door 3 0 0 5921 0 0
+~
+~
+End
+
+#5923
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5924 0 0
+~
+~
+Door 2 0 0 5922 0 0
+~
+~
+End
+
+#5924
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5925 0 0
+~
+~
+Door 2 0 0 5923 0 0
+~
+~
+End
+
+#5925
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5926 0 0
+~
+~
+Door 2 0 0 5924 0 0
+~
+~
+End
+
+#5926
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5927 0 0
+~
+~
+Door 2 0 0 5925 0 0
+~
+~
+End
+
+#5927
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5928 0 0
+~
+~
+Door 2 0 0 5926 0 0
+~
+~
+End
+
+#5928
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5929 0 0
+~
+~
+Door 2 0 0 5927 0 0
+~
+~
+End
+
+#5929
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5930 0 0
+~
+~
+Door 2 0 0 5928 0 0
+~
+~
+End
+
+#5930
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5931 0 0
+~
+~
+Door 2 0 0 5929 0 0
+~
+~
+End
+
+#5931
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5930 0 0
+~
+~
+Door 3 0 0 5932 0 0
+~
+~
+End
+
+#5932
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5931 0 0
+~
+~
+Door 3 0 0 5933 0 0
+~
+~
+End
+
+#5933
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5932 0 0
+~
+~
+Door 3 0 0 5934 0 0
+~
+~
+End
+
+#5934
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5933 0 0
+~
+~
+Door 3 0 0 5935 0 0
+~
+~
+End
+
+#5935
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5934 0 0
+~
+~
+Door 3 0 0 5936 0 0
+~
+~
+End
+
+#5936
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5935 0 0
+~
+~
+Door 3 0 0 5937 0 0
+~
+~
+End
+
+#5937
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5936 0 0
+~
+~
+Door 3 0 0 5938 0 0
+~
+~
+End
+
+#5938
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5937 0 0
+~
+~
+Door 3 0 0 5939 0 0
+~
+~
+End
+
+#5939
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5938 0 0
+~
+~
+Door 3 0 0 5940 0 0
+~
+~
+End
+
+#5940
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5939 0 0
+~
+~
+Door 2 0 0 5941 0 0
+~
+~
+End
+
+#5941
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5940 0 0
+~
+~
+Door 2 0 0 5942 0 0
+~
+~
+End
+
+#5942
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5941 0 0
+~
+~
+Door 1 0 0 5943 0 0
+~
+~
+End
+
+#5943
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5944 0 0
+~
+~
+Door 3 0 0 5942 0 0
+~
+~
+End
+
+#5944
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5945 0 0
+~
+~
+Door 3 0 0 5943 0 0
+~
+~
+End
+
+#5945
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5946 0 0
+~
+~
+Door 3 0 0 5944 0 0
+~
+~
+End
+
+#5946
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5947 0 0
+~
+~
+Door 3 0 0 5945 0 0
+~
+~
+End
+
+#5947
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5948 0 0
+~
+~
+Door 3 0 0 5946 0 0
+~
+~
+End
+
+#5948
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5949 0 0
+~
+~
+Door 3 0 0 5947 0 0
+~
+~
+End
+
+#5949
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5950 0 0
+~
+~
+Door 3 0 0 5948 0 0
+~
+~
+End
+
+#5950
+Name Santa's Workshop~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5949 0 0
+~
+~
+Door 2 0 0 5951 0 0
+~
+~
+End
+
+#5951
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 5951 1 100
+Reset O 5700 -1 20
+Door 0 0 0 5950 0 0
+~
+~
+End
+
+#5952
+Name Dead End~
+Descr
+~
+Flags 4
+Sector 0
+Door 3 0 0 5953 0 0
+~
+~
+End
+
+#5953
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5952 0 0
+~
+~
+Door 3 0 0 5954 0 0
+~
+~
+End
+
+#5954
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6041 0 0
+~
+~
+Door 1 0 0 5953 0 0
+~
+~
+Door 3 0 0 5955 0 0
+~
+~
+End
+
+#5955
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5954 0 0
+~
+~
+Door 3 0 0 5956 0 0
+~
+~
+End
+
+#5956
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6057 0 0
+~
+~
+Door 1 0 0 5955 0 0
+~
+~
+Door 3 0 0 5957 0 0
+~
+~
+End
+
+#5957
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5956 0 0
+~
+~
+Door 3 0 0 5958 0 0
+~
+~
+End
+
+#5958
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5957 0 0
+~
+~
+Door 3 0 0 5959 0 0
+~
+~
+End
+
+#5959
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5958 0 0
+~
+~
+Door 3 0 0 5960 0 0
+~
+~
+End
+
+#5960
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5959 0 0
+~
+~
+Door 3 0 0 5961 0 0
+~
+~
+End
+
+#5961
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5960 0 0
+~
+~
+Door 3 0 0 5962 0 0
+~
+~
+End
+
+#5962
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5961 0 0
+~
+~
+Door 3 0 0 5963 0 0
+~
+~
+End
+
+#5963
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5962 0 0
+~
+~
+Door 3 0 0 5964 0 0
+~
+~
+End
+
+#5964
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5963 0 0
+~
+~
+Door 3 0 0 5965 0 0
+~
+~
+End
+
+#5965
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5964 0 0
+~
+~
+Door 3 0 0 5966 0 0
+~
+~
+End
+
+#5966
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5965 0 0
+~
+~
+Door 3 0 0 5967 0 0
+~
+~
+End
+
+#5967
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5966 0 0
+~
+~
+Door 3 0 0 5968 0 0
+~
+~
+End
+
+#5968
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5969 0 0
+~
+~
+Door 1 0 0 5967 0 0
+~
+~
+End
+
+#5969
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5970 0 0
+~
+~
+Door 2 0 0 5968 0 0
+~
+~
+End
+
+#5970
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5971 0 0
+~
+~
+Door 2 0 0 5969 0 0
+~
+~
+End
+
+#5971
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5972 0 0
+~
+~
+Door 2 0 0 5970 0 0
+~
+~
+End
+
+#5972
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5973 0 0
+~
+~
+Door 2 0 0 5971 0 0
+~
+~
+End
+
+#5973
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5974 0 0
+~
+~
+Door 2 0 0 5972 0 0
+~
+~
+End
+
+#5974
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5975 0 0
+~
+~
+Door 2 0 0 5973 0 0
+~
+~
+End
+
+#5975
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5976 0 0
+~
+~
+Door 2 0 0 5974 0 0
+~
+~
+End
+
+#5976
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5977 0 0
+~
+~
+Door 2 0 0 5975 0 0
+~
+~
+End
+
+#5977
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5978 0 0
+~
+~
+Door 2 0 0 5976 0 0
+~
+~
+End
+
+#5978
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5979 0 0
+~
+~
+Door 2 0 0 5977 0 0
+~
+~
+End
+
+#5979
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5980 0 0
+~
+~
+Door 2 0 0 5978 0 0
+~
+~
+End
+
+#5980
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5981 0 0
+~
+~
+Door 2 0 0 5979 0 0
+~
+~
+End
+
+#5981
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5980 0 0
+~
+~
+Door 3 0 0 5982 0 0
+~
+~
+End
+
+#5982
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5981 0 0
+~
+~
+Door 3 0 0 5983 0 0
+~
+~
+End
+
+#5983
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5982 0 0
+~
+~
+Door 2 0 0 5984 0 0
+~
+~
+End
+
+#5984
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5983 0 0
+~
+~
+Door 2 0 0 5985 0 0
+~
+~
+End
+
+#5985
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5984 0 0
+~
+~
+Door 2 0 0 5986 0 0
+~
+~
+End
+
+#5986
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5985 0 0
+~
+~
+Door 3 0 0 5987 0 0
+~
+~
+End
+
+#5987
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5986 0 0
+~
+~
+Door 3 0 0 5988 0 0
+~
+~
+End
+
+#5988
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5987 0 0
+~
+~
+Door 2 0 0 5989 0 0
+~
+~
+End
+
+#5989
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5988 0 0
+~
+~
+Door 2 0 0 5990 0 0
+~
+~
+End
+
+#5990
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5989 0 0
+~
+~
+Door 1 0 0 5991 0 0
+~
+~
+End
+
+#5991
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5992 0 0
+~
+~
+Door 3 0 0 5990 0 0
+~
+~
+End
+
+#5992
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5993 0 0
+~
+~
+Door 3 0 0 5991 0 0
+~
+~
+End
+
+#5993
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 5994 0 0
+~
+~
+Door 3 0 0 5992 0 0
+~
+~
+End
+
+#5994
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5993 0 0
+~
+~
+Door 2 0 0 5995 0 0
+~
+~
+Door 3 0 0 5824 0 0
+~
+~
+End
+
+#5995
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 5994 0 0
+~
+~
+Door 3 0 0 5996 0 0
+~
+~
+End
+
+#5996
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5995 0 0
+~
+~
+Door 3 0 0 5997 0 0
+~
+~
+End
+
+#5997
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5996 0 0
+~
+~
+Door 3 0 0 5998 0 0
+~
+~
+End
+
+#5998
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5997 0 0
+~
+~
+Door 3 0 0 5999 0 0
+~
+~
+End
+
+#5999
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 5998 0 0
+~
+~
+Door 3 0 0 6000 0 0
+~
+~
+End
+
+#6000
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6001 0 0
+~
+~
+Door 1 0 0 5999 0 0
+~
+~
+End
+
+#6001
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6002 0 0
+~
+~
+Door 2 0 0 6000 0 0
+~
+~
+End
+
+#6002
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6003 0 0
+~
+~
+Door 2 0 0 6001 0 0
+~
+~
+End
+
+#6003
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6004 0 0
+~
+~
+Door 2 0 0 6002 0 0
+~
+~
+End
+
+#6004
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 6003 0 0
+~
+~
+Door 3 0 0 6005 0 0
+~
+~
+End
+
+#6005
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6004 0 0
+~
+~
+Door 3 0 0 6006 0 0
+~
+~
+End
+
+#6006
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6005 0 0
+~
+~
+Door 2 0 0 6007 0 0
+~
+~
+End
+
+#6007
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6006 0 0
+~
+~
+Door 2 0 0 6008 0 0
+~
+~
+End
+
+#6008
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6007 0 0
+~
+~
+Door 2 0 0 6009 0 0
+~
+~
+End
+
+#6009
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6008 0 0
+~
+~
+Door 2 0 0 6010 0 0
+~
+~
+End
+
+#6010
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6009 0 0
+~
+~
+Door 2 0 0 6011 0 0
+~
+~
+End
+
+#6011
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6010 0 0
+~
+~
+Door 2 0 0 6012 0 0
+~
+~
+End
+
+#6012
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6011 0 0
+~
+~
+Door 1 0 0 6013 0 0
+~
+~
+End
+
+#6013
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6014 0 0
+~
+~
+Door 3 0 0 6012 0 0
+~
+~
+End
+
+#6014
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6015 0 0
+~
+~
+Door 3 0 0 6013 0 0
+~
+~
+End
+
+#6015
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6016 0 0
+~
+~
+Door 3 0 0 6014 0 0
+~
+~
+End
+
+#6016
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6017 0 0
+~
+~
+Door 3 0 0 6015 0 0
+~
+~
+End
+
+#6017
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6018 0 0
+~
+~
+Door 3 0 0 6016 0 0
+~
+~
+End
+
+#6018
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6019 0 0
+~
+~
+Door 3 0 0 6017 0 0
+~
+~
+End
+
+#6019
+Name Baby New Year's Play Pen~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 5920 1 100
+Reset O 5700 -1 20
+Door 3 0 0 6018 0 0
+~
+~
+End
+
+#6020
+Name Father Time's Room of Sand~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 6020 1 100
+Reset O 5700 -1 20
+Door 1 0 0 6021 0 0
+~
+~
+End
+
+#6021
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6022 0 0
+~
+~
+Door 3 0 0 6020 0 0
+~
+~
+End
+
+#6022
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6023 0 0
+~
+~
+Door 3 0 0 6021 0 0
+~
+~
+End
+
+#6023
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6024 0 0
+~
+~
+Door 3 0 0 6022 0 0
+~
+~
+End
+
+#6024
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6025 0 0
+~
+~
+Door 3 0 0 6023 0 0
+~
+~
+End
+
+#6025
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6026 0 0
+~
+~
+Door 3 0 0 6024 0 0
+~
+~
+End
+
+#6026
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6027 0 0
+~
+~
+Door 3 0 0 6025 0 0
+~
+~
+End
+
+#6027
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6028 0 0
+~
+~
+Door 3 0 0 6026 0 0
+~
+~
+End
+
+#6028
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6029 0 0
+~
+~
+Door 3 0 0 6027 0 0
+~
+~
+End
+
+#6029
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6030 0 0
+~
+~
+Door 3 0 0 6028 0 0
+~
+~
+End
+
+#6030
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6031 0 0
+~
+~
+Door 2 0 0 6029 0 0
+~
+~
+End
+
+#6031
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6032 0 0
+~
+~
+Door 2 0 0 6030 0 0
+~
+~
+End
+
+#6032
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6033 0 0
+~
+~
+Door 2 0 0 6031 0 0
+~
+~
+End
+
+#6033
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6034 0 0
+~
+~
+Door 2 0 0 6032 0 0
+~
+~
+End
+
+#6034
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6035 0 0
+~
+~
+Door 2 0 0 6033 0 0
+~
+~
+End
+
+#6035
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6036 0 0
+~
+~
+Door 2 0 0 6034 0 0
+~
+~
+End
+
+#6036
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6037 0 0
+~
+~
+Door 2 0 0 6035 0 0
+~
+~
+End
+
+#6037
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 6036 0 0
+~
+~
+Door 3 0 0 6038 0 0
+~
+~
+End
+
+#6038
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6039 0 0
+~
+~
+Door 1 0 0 6037 0 0
+~
+~
+End
+
+#6039
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6040 0 0
+~
+~
+Door 2 0 0 6038 0 0
+~
+~
+End
+
+#6040
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6099 0 0
+~
+~
+Door 3 0 0 6039 0 0
+~
+~
+End
+
+#6041
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6042 0 0
+~
+~
+Door 2 0 0 5954 0 0
+~
+~
+End
+
+#6042
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6043 0 0
+~
+~
+Door 2 0 0 6041 0 0
+~
+~
+End
+
+#6043
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6044 0 0
+~
+~
+Door 3 0 0 6042 0 0
+~
+~
+End
+
+#6044
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6045 0 0
+~
+~
+Door 3 0 0 6043 0 0
+~
+~
+End
+
+#6045
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6046 0 0
+~
+~
+Door 2 0 0 6044 0 0
+~
+~
+End
+
+#6046
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6047 0 0
+~
+~
+Door 2 0 0 6045 0 0
+~
+~
+End
+
+#6047
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6048 0 0
+~
+~
+Door 2 0 0 6046 0 0
+~
+~
+End
+
+#6048
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6049 0 0
+~
+~
+Door 2 0 0 6047 0 0
+~
+~
+End
+
+#6049
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6050 0 0
+~
+~
+Door 2 0 0 6048 0 0
+~
+~
+End
+
+#6050
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6051 0 0
+~
+~
+Door 2 0 0 6049 0 0
+~
+~
+End
+
+#6051
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6052 0 0
+~
+~
+Door 2 0 0 6050 0 0
+~
+~
+End
+
+#6052
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 6051 0 0
+~
+~
+Door 3 0 0 6053 0 0
+~
+~
+End
+
+#6053
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6052 0 0
+~
+~
+Door 3 0 0 6054 0 0
+~
+~
+End
+
+#6054
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6053 0 0
+~
+~
+Door 3 0 0 6055 0 0
+~
+~
+End
+
+#6055
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6054 0 0
+~
+~
+Door 3 0 0 6056 0 0
+~
+~
+End
+
+#6056
+Name Dead End~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 6056 1 100
+Reset O 144 -1 30
+Door 1 0 0 6055 0 0
+~
+~
+End
+
+#6057
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6058 0 0
+~
+~
+Door 2 0 0 5956 0 0
+~
+~
+End
+
+#6058
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6059 0 0
+~
+~
+Door 2 0 0 6057 0 0
+~
+~
+End
+
+#6059
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6060 0 0
+~
+~
+Door 2 0 0 6058 0 0
+~
+~
+End
+
+#6060
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6061 0 0
+~
+~
+Door 3 0 0 6059 0 0
+~
+~
+End
+
+#6061
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6062 0 0
+~
+~
+Door 3 0 0 6060 0 0
+~
+~
+End
+
+#6062
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6063 0 0
+~
+~
+Door 3 0 0 6061 0 0
+~
+~
+End
+
+#6063
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6064 0 0
+~
+~
+Door 2 0 0 6062 0 0
+~
+~
+End
+
+#6064
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6065 0 0
+~
+~
+Door 2 0 0 6063 0 0
+~
+~
+End
+
+#6065
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6066 0 0
+~
+~
+Door 2 0 0 6064 0 0
+~
+~
+End
+
+#6066
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6067 0 0
+~
+~
+Door 2 0 0 6065 0 0
+~
+~
+Door 3 0 0 6069 0 0
+~
+~
+End
+
+#6067
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6068 0 0
+~
+~
+Door 2 0 0 6066 0 0
+~
+~
+End
+
+#6068
+Name Dead End~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 6068 1 100
+Reset O 145 -1 30
+Door 2 0 0 6067 0 0
+~
+~
+End
+
+#6069
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6066 0 0
+~
+~
+Door 3 0 0 6070 0 0
+~
+~
+End
+
+#6070
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6069 0 0
+~
+~
+Door 3 0 0 6071 0 0
+~
+~
+End
+
+#6071
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6072 0 0
+~
+~
+Door 1 0 0 6070 0 0
+~
+~
+End
+
+#6072
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6073 0 0
+~
+~
+Door 2 0 0 6071 0 0
+~
+~
+End
+
+#6073
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 6072 0 0
+~
+~
+Door 3 0 0 6074 0 0
+~
+~
+End
+
+#6074
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6075 0 0
+~
+~
+Door 1 0 0 6073 0 0
+~
+~
+End
+
+#6075
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6076 0 0
+~
+~
+Door 2 0 0 6074 0 0
+~
+~
+End
+
+#6076
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6077 0 0
+~
+~
+Door 2 0 0 6075 0 0
+~
+~
+End
+
+#6077
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6078 0 0
+~
+~
+Door 2 0 0 6076 0 0
+~
+~
+End
+
+#6078
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6079 0 0
+~
+~
+Door 2 0 0 6077 0 0
+~
+~
+End
+
+#6079
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6080 0 0
+~
+~
+Door 3 0 0 6078 0 0
+~
+~
+End
+
+#6080
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 6081 0 0
+~
+~
+Door 3 0 0 6079 0 0
+~
+~
+End
+
+#6081
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6080 0 0
+~
+~
+Door 2 0 0 6082 0 0
+~
+~
+End
+
+#6082
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6081 0 0
+~
+~
+Door 1 0 0 6083 0 0
+~
+~
+End
+
+#6083
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6084 0 0
+~
+~
+Door 3 0 0 6082 0 0
+~
+~
+End
+
+#6084
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6085 0 0
+~
+~
+Door 3 0 0 6083 0 0
+~
+~
+End
+
+#6085
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6086 0 0
+~
+~
+Door 3 0 0 6084 0 0
+~
+~
+End
+
+#6086
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6087 0 0
+~
+~
+Door 3 0 0 6085 0 0
+~
+~
+End
+
+#6087
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6088 0 0
+~
+~
+Door 2 0 0 6086 0 0
+~
+~
+End
+
+#6088
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6089 0 0
+~
+~
+Door 2 0 0 6087 0 0
+~
+~
+End
+
+#6089
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 6088 0 0
+~
+~
+Door 3 0 0 6090 0 0
+~
+~
+End
+
+#6090
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6089 0 0
+~
+~
+Door 3 0 0 6091 0 0
+~
+~
+End
+
+#6091
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6090 0 0
+~
+~
+Door 3 0 0 6092 0 0
+~
+~
+End
+
+#6092
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6091 0 0
+~
+~
+Door 3 0 0 6093 0 0
+~
+~
+End
+
+#6093
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6092 0 0
+~
+~
+Door 3 0 0 6094 0 0
+~
+~
+End
+
+#6094
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6095 0 0
+~
+~
+Door 1 0 0 6093 0 0
+~
+~
+End
+
+#6095
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6096 0 0
+~
+~
+Door 2 0 0 6094 0 0
+~
+~
+End
+
+#6096
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6097 0 0
+~
+~
+Door 2 0 0 6095 0 0
+~
+~
+End
+
+#6097
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 6098 0 0
+~
+~
+Door 2 0 0 6096 0 0
+~
+~
+End
+
+#6098
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 6097 0 0
+~
+~
+Door 3 0 0 6099 0 0
+~
+~
+End
+
+#6099
+Name Quest Area Level Two~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 6098 0 0
+~
+~
+Door 3 0 0 6040 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

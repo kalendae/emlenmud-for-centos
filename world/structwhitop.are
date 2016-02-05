@@ -1,0 +1,3077 @@
+#AREADATA 
+Name The Homelands of Eron~
+Repop The church bells ring as a new day of Eron begins. 
+~
+SCZone 0
+Builders Structure Madman~
+VNUMs 16851 16999
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#16898
+Name goblin guard~
+Short A noble goblin guard~
+Long 
+A noble goblin stands here guarding the entrance.
+~
+AMax 5
+NHeight 0
+ActBits 2
+ActBits3 8
+ActBits4 16384
+Affect_By 8872
+AffectTWO 8
+Alignment 2
+Money 300
+Level 200
+Sex 1
+MobType 32
+Guard 2
+End
+
+#16899
+Name bunny rabbit~
+Short a small bunny rabbit~
+Long 
+A small bunny rabbit sits here hopping along.
+~
+AMax 7
+NHeight 0
+Level 20
+Hp 2
+Guard 0
+End
+
+#16959
+Name hulgoth nomad prac GH~
+Short Hulgoth the nomad~
+Long 
+Hulgoth the nomad stands here to rest.
+~
+AMax 1
+NHeight 30
+ActBits 258
+Affect_By 680
+Alignment 2
+Money 300
+Level 120
+Sex 1
+Hp 5
+Guard 0
+Spec spec_warrior
+ASklTaught 0 556
+ASklTaught 1 568
+ASklTaught 2 565
+ASklTaught 3 555
+End
+
+#16961
+Name spider~
+Short A small spider~
+Long 
+A small spider crawls here making a nest.
+~
+AMax 5
+NHeight 0
+Money 2
+Level 30
+Hp 2
+Guard 0
+End
+
+#16966
+Name human guard~
+Short A tall human guard~
+Long 
+A tall-looking human stands here tactfully ready for combat.
+~
+AMax 5
+NHeight 0
+ActBits 2
+ActBits3 8
+ActBits4 16384
+Affect_By 8872
+AffectTWO 8
+Alignment 2
+Money 300
+Level 200
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#16974
+Name granor prac GH~
+Short Granor~
+Long 
+Granor the city protector wanders the city looking for a fight.
+~
+AMax 1
+NHeight 0
+ActBits 1283
+ActBits4 16384
+Affect_By 680
+AffectTWO 8912908
+Alignment 2
+Money 20000
+Level 400
+Sex 1
+Hp 15
+Guard 0
+ASklTaught 0 235
+ASklTaught 1 70
+ASklTaught 2 146
+ASklTaught 3 18
+ASklTaught 4 64
+ASklTaught 5 78
+ASklTaught 6 274
+End
+
+#16980
+Name dwarf noble guard~
+Short A noble guard~
+Long 
+A noble dwarf guard stands here waiting for the enemy.
+~
+AMax 4
+NHeight 2
+ActBits 2
+ActBits3 8
+ActBits4 16384
+Affect_By 8744
+AffectTWO 8
+Alignment 2
+Money 300
+Level 300
+Sex 1
+MobType 2
+Guard 0
+Spec spec_warrior
+End
+
+#16985
+Name corky~
+Short Corky the banker~
+Long 
+Corky the banker sits here counting coins.
+~
+AMax 1
+NHeight 0
+ActBits 393218
+Affect_By 520
+Alignment 2
+Money 343
+Level 300
+MobType 0
+Hp 900
+Guard 0
+End
+
+#16987
+Name citizen er~
+Short an eron citizen~
+Long 
+An eron citizen wanders here looking for money.
+~
+AMax 9
+NHeight 0
+ActBits 1
+Affect_By 512
+Alignment 2
+Money 300
+Level 50
+MobType 0
+Hp 2
+Guard 0
+End
+
+#16988
+Name orian~
+Short Orian the weaponsmith~
+Long 
+Orian the weaponsmith stands here forging a new weapon.
+~
+AMax 1
+NHeight 0
+ActBits 1048578
+Affect_By 520
+Alignment 2
+Money 10000
+Level 500
+Sex 1
+MobType 0
+Hp 900
+Guard 0
+Shop    0   5   0   0   0 100 50 1 23
+Shopd2 5
+Shopd3 1
+End
+
+#16989
+Name jacob~
+Short Jacob the armorsmith~
+Long 
+Jacob the armorsmith stands here pounding armor.
+~
+AMax 1
+NHeight 0
+ActBits 2097154
+Affect_By 520
+Alignment 2
+Money 10000
+Level 500
+Sex 1
+Hp 900
+Guard 0
+Spec spec_warrior
+Shop    0   9   0   0   0 100 50 1 23
+Shopd2 5
+Shopd3 4
+End
+
+#16990
+Name habil~
+Short Habil the provisioner~
+Long 
+Habil the town provisioner stands here selling goods.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+AffectTWO 8
+Alignment 2
+Money 10000
+Level 500
+Sex 2
+MobType 0
+Hp 900
+Guard 0
+Shop    0   9   5  19   0 100 50 1 23
+Shopd2 5
+Shopd3 4
+ShopCr 37
+End
+
+#16996
+Name conan the Barbarian~
+Short Conan the Barbarian~
+Long 
+Conan the Barbarian stands here remembering of times past.
+~
+AMax 1
+NHeight 30
+ActBits 1
+ActBits4 16384
+Affect_By 680
+AffectTWO 524288
+Alignment 2
+Money 3004
+Level 250
+Sex 1
+Hp 90
+Guard 0
+Spec spec_warrior
+End
+
+#16997
+Name paro~
+Short Paro the wise~
+Long 
+Paro the wise stands here awaiting a new apprentice.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 520
+AffectTWO 33554432
+Alignment 2
+Money 343
+Level 450
+Sex 1
+Hp 900
+Guard 0
+End
+
+#16998
+Name loki~
+Short Liki the Destroyer~
+Long 
+Loki the Destroyer stands here proud teaching you skills.
+~
+AMax 1
+NHeight 30
+ActBits 2
+Affect_By 648
+Money 343
+Level 450
+MobType 0
+Hp 900
+Guard 0
+Spec spec_warrior
+End
+
+#0
+
+
+
+#OBJDATA
+#16974
+Name fountain~
+Short a small sparkling fountain~
+Descr
+[36mA small [1m[37msparkling[0m[36m fountain is here full of water.
+[0;36m~
+Type 25
+Wear 0
+Values 400 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#16851
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16950 0 0
+~
+~
+Door 1 0 0 16852 0 0
+~
+~
+Door 2 0 0 20604 0 0
+~
+~
+End
+
+#16852
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16951 0 0
+~
+~
+Door 1 0 0 16853 0 0
+~
+~
+Door 2 0 0 20603 0 0
+~
+~
+Door 3 0 0 16851 0 0
+~
+~
+End
+
+#16853
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16952 0 0
+~
+~
+Door 1 0 0 20601 0 0
+~
+~
+Door 2 0 0 16854 0 0
+~
+~
+Door 3 0 0 16852 0 0
+~
+~
+End
+
+#16854
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16853 0 0
+~
+~
+Door 1 0 0 16855 0 0
+~
+~
+Door 2 0 0 20624 0 0
+~
+~
+Door 3 0 0 20603 0 0
+~
+~
+End
+
+#16855
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20601 0 0
+~
+~
+Door 1 0 0 16856 0 0
+~
+~
+Door 2 0 0 20625 0 0
+~
+~
+Door 3 0 0 16854 0 0
+~
+~
+End
+
+#16856
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20610 0 0
+~
+~
+Door 1 0 0 16857 0 0
+~
+~
+Door 2 0 0 20626 0 0
+~
+~
+Door 3 0 0 16855 0 0
+~
+~
+End
+
+#16857
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20611 0 0
+~
+~
+Door 1 0 0 20617 0 0
+~
+~
+Door 2 0 0 16859 0 0
+~
+~
+Door 3 0 0 16856 0 0
+~
+~
+End
+
+#16858
+Name An Underground Passage~
+Descr
+There is a well defined path here, leading eastward and then down. It is
+odly out of place in this wasteland. 
+~
+Door 4 0 0 10450 0 0
+~
+~
+Door 5 0 0 16889 0 0
+~
+~
+End
+
+#16859
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16857 0 0
+~
+~
+Door 1 0 0 16860 0 0
+~
+~
+Door 2 0 0 20628 0 0
+~
+~
+Door 3 0 0 20626 0 0
+~
+~
+End
+
+#16860
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20617 0 0
+~
+~
+Door 1 0 0 16861 0 0
+~
+~
+Door 2 0 0 20629 0 0
+~
+~
+Door 3 0 0 16859 0 0
+~
+~
+End
+
+#16861
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20616 0 0
+~
+~
+Door 1 0 0 16862 0 0
+~
+~
+Door 2 0 0 20630 0 0
+~
+~
+Door 3 0 0 16860 0 0
+~
+~
+End
+
+#16862
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20615 0 0
+~
+~
+Door 1 0 0 20640 0 0
+~
+~
+Door 2 0 0 16863 0 0
+~
+~
+Door 3 0 0 16861 0 0
+~
+~
+End
+
+#16863
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16862 0 0
+~
+~
+Door 1 0 0 20648 0 0
+~
+~
+Door 2 0 0 16864 0 0
+~
+~
+Door 3 0 0 20630 0 0
+~
+~
+End
+
+#16864
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16863 0 0
+~
+~
+Door 1 0 0 20654 0 0
+~
+~
+Door 2 0 0 16865 0 0
+~
+~
+Door 3 0 0 20633 0 0
+~
+~
+End
+
+#16865
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16864 0 0
+~
+~
+Door 1 0 0 20661 0 0
+~
+~
+Door 2 0 0 16866 0 0
+~
+~
+Door 3 0 0 20635 0 0
+~
+~
+End
+
+#16866
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16865 0 0
+~
+~
+Door 1 0 0 16868 0 0
+~
+~
+Door 2 0 0 16882 0 0
+~
+~
+Door 3 0 0 16867 0 0
+~
+~
+End
+
+#16867
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20635 0 0
+~
+~
+Door 1 0 0 16866 0 0
+~
+~
+Door 2 0 0 16881 0 0
+~
+~
+Door 3 0 0 16873 0 0
+~
+~
+End
+
+#16868
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20661 0 0
+~
+~
+Door 1 0 0 16869 0 0
+~
+~
+Door 2 0 0 16883 0 0
+~
+~
+Door 3 0 0 16866 0 0
+~
+~
+End
+
+#16869
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20660 0 0
+~
+~
+Door 1 0 0 16870 0 0
+~
+~
+Door 2 0 0 16884 0 0
+~
+~
+Door 3 0 0 16868 0 0
+~
+~
+End
+
+#16870
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Reset M 16899 1 100
+Door 0 0 0 20659 0 0
+~
+~
+Door 1 0 0 16871 0 0
+~
+~
+Door 2 0 0 16885 0 0
+~
+~
+Door 3 0 0 16869 0 0
+~
+~
+End
+
+#16871
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20646 0 0
+~
+~
+Door 1 0 0 16872 0 0
+~
+~
+Door 2 0 0 16886 0 0
+~
+~
+Door 3 0 0 16870 0 0
+~
+~
+End
+
+#16872
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 2 0 0 16887 0 0
+~
+~
+Door 3 0 0 16871 0 0
+~
+~
+End
+
+#16873
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Reset M 16899 1 100
+Door 0 0 0 20634 0 0
+~
+~
+Door 1 0 0 16867 0 0
+~
+~
+Door 2 0 0 16880 0 0
+~
+~
+Door 3 0 0 16874 0 0
+~
+~
+End
+
+#16874
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 16873 0 0
+~
+~
+Door 2 0 0 16879 0 0
+~
+~
+Door 3 0 0 16875 0 0
+~
+~
+End
+
+#16875
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 16874 0 0
+~
+~
+Door 2 0 0 16878 0 0
+~
+~
+Door 3 0 0 16876 0 0
+~
+~
+End
+
+#16876
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Reset M 16899 1 100
+Door 1 0 0 16875 0 0
+~
+~
+Door 2 0 0 16877 0 0
+~
+~
+End
+
+#16877
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16876 0 0
+~
+~
+Door 1 0 0 16878 0 0
+~
+~
+End
+
+#16878
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16875 0 0
+~
+~
+Door 1 0 0 16879 0 0
+~
+~
+Door 2 0 0 16890 0 0
+~
+~
+Door 3 0 0 16877 0 0
+~
+~
+End
+
+#16879
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16874 0 0
+~
+~
+Door 1 0 0 16880 0 0
+~
+~
+Door 2 0 0 16891 0 0
+~
+~
+Door 3 0 0 16878 0 0
+~
+~
+End
+
+#16880
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16873 0 0
+~
+~
+Door 1 0 0 16881 0 0
+~
+~
+Door 2 0 0 16892 0 0
+~
+~
+Door 3 0 0 16879 0 0
+~
+~
+End
+
+#16881
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16867 0 0
+~
+~
+Door 1 0 0 16882 0 0
+~
+~
+Door 2 0 0 16893 0 0
+~
+~
+Door 3 0 0 16880 0 0
+~
+~
+End
+
+#16882
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16866 0 0
+~
+~
+Door 1 0 0 16883 0 0
+~
+~
+Door 2 0 0 16894 0 0
+~
+~
+Door 3 0 0 16881 0 0
+~
+~
+End
+
+#16883
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16868 0 0
+~
+~
+Door 1 0 0 16884 0 0
+~
+~
+Door 2 0 0 16895 0 0
+~
+~
+Door 3 0 0 16882 0 0
+~
+~
+End
+
+#16884
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16869 0 0
+~
+~
+Door 1 0 0 16885 0 0
+~
+~
+Door 2 0 0 16896 0 0
+~
+~
+Door 3 0 0 16883 0 0
+~
+~
+End
+
+#16885
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16870 0 0
+~
+~
+Door 1 0 0 16886 0 0
+~
+~
+Door 2 0 0 16899 0 0
+~
+~
+Door 3 0 0 16884 0 0
+~
+~
+End
+
+#16886
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16871 0 0
+~
+~
+Door 1 0 0 16887 0 0
+~
+~
+Door 2 0 0 16900 0 0
+~
+~
+Door 3 0 0 16885 0 0
+~
+~
+End
+
+#16887
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16872 0 0
+~
+~
+Door 3 0 0 16886 0 0
+~
+~
+End
+
+#16888
+Name ~
+Descr
+~
+Door 0 0 0 16872 0 0
+~
+~
+Door 3 0 0 16887 0 0
+~
+~
+End
+
+#16889
+Name An Underground Passage~
+Descr
+There is a well defined path here, leading eastward and then down. It is
+odly out of place in this wasteland. 
+~
+Door 2 0 0 16897 0 0
+~
+~
+Door 4 0 0 16858 0 0
+~
+~
+End
+
+#16890
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16878 0 0
+~
+~
+Door 1 0 0 16891 0 0
+~
+~
+End
+
+#16891
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16879 0 0
+~
+~
+Door 1 0 0 16892 0 0
+~
+~
+Door 2 0 0 16909 0 0
+~
+~
+Door 3 0 0 16890 0 0
+~
+~
+End
+
+#16892
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Reset M 16899 1 100
+Door 0 0 0 16880 0 0
+~
+~
+Door 1 0 0 16893 0 0
+~
+~
+Door 2 0 0 16908 0 0
+~
+~
+Door 3 0 0 16891 0 0
+~
+~
+End
+
+#16893
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16881 0 0
+~
+~
+Door 1 0 0 16894 0 0
+~
+~
+Door 2 0 0 16906 0 0
+~
+~
+Door 3 0 0 16892 0 0
+~
+~
+End
+
+#16894
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16882 0 0
+~
+~
+Door 1 0 0 16895 0 0
+~
+~
+Door 2 0 0 16905 0 0
+~
+~
+Door 3 0 0 16893 0 0
+~
+~
+End
+
+#16895
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16883 0 0
+~
+~
+Door 1 0 0 16896 0 0
+~
+~
+Door 2 0 0 16903 0 0
+~
+~
+Door 3 0 0 16894 0 0
+~
+~
+End
+
+#16896
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16884 0 0
+~
+~
+Door 1 0 0 16899 0 0
+~
+~
+Door 2 0 0 16902 0 0
+~
+~
+Door 3 0 0 16895 0 0
+~
+~
+End
+
+#16897
+Name Before The Gates of Eron~
+Descr
+You stand before the gates of Eron.
+~
+Door 0 0 0 16889 0 0
+~
+~
+Door 1 0 0 16898 0 0
+~
+~
+End
+
+#16898
+Name The Gates of Eron~
+Descr
+You stand at the entrance to Eron.  The great underground city of the Whities.
+~
+Flags 2
+Reset M 16898 1 100
+Reset M 16898 1 100
+Reset O 260 -1 100
+Reset M 16898 1 100
+Reset O 260 -1 100
+Reset M 16898 1 100
+Reset O 260 -1 100
+Reset M 16898 1 100
+Reset O 260 -1 100
+Door 2 0 0 16904 0 0
+~
+~
+Door 3 0 0 16897 0 0
+~
+~
+End
+
+#16899
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Reset M 16899 1 100
+Door 0 0 0 16885 0 0
+~
+~
+Door 1 0 0 16900 0 0
+~
+~
+Door 2 0 0 16901 0 0
+~
+~
+Door 3 0 0 16896 0 0
+~
+~
+End
+
+#16900
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16886 0 0
+~
+~
+Door 3 0 0 16899 0 0
+~
+~
+End
+
+#16901
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16899 0 0
+~
+~
+Door 3 0 0 16902 0 0
+~
+~
+End
+
+#16902
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16896 0 0
+~
+~
+Door 1 0 0 16901 0 0
+~
+~
+Door 2 0 0 20663 0 0
+~
+~
+Door 3 0 0 16903 0 0
+~
+~
+End
+
+#16903
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16895 0 0
+~
+~
+Door 1 0 0 16902 0 0
+~
+~
+Door 2 0 0 20662 0 0
+~
+~
+Door 3 0 0 16905 0 0
+~
+~
+End
+
+#16904
+Name Before The Gates of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+eiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Door 0 0 0 16898 0 0
+~
+~
+Door 2 0 0 16907 0 0
+~
+~
+End
+
+#16905
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16894 0 0
+~
+~
+Door 1 0 0 16903 0 0
+~
+~
+Door 2 0 0 16910 0 0
+~
+~
+Door 3 0 0 16906 0 0
+~
+~
+End
+
+#16906
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16893 0 0
+~
+~
+Door 1 0 0 16905 0 0
+~
+~
+Door 2 0 0 20664 0 0
+~
+~
+Door 3 0 0 16908 0 0
+~
+~
+End
+
+#16907
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+eiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Door 0 0 0 16904 0 0
+~
+~
+Door 2 0 0 16991 0 0
+~
+~
+End
+
+#16908
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16892 0 0
+~
+~
+Door 1 0 0 16906 0 0
+~
+~
+Door 2 0 0 20665 0 0
+~
+~
+Door 3 0 0 16909 0 0
+~
+~
+End
+
+#16909
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16891 0 0
+~
+~
+Door 1 0 0 16908 0 0
+~
+~
+End
+
+#16910
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16905 0 0
+~
+~
+Door 1 0 0 20662 0 0
+~
+~
+Door 2 0 0 16911 0 0
+~
+~
+Door 3 0 0 20664 0 0
+~
+~
+End
+
+#16911
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16910 0 0
+~
+~
+Door 1 0 0 20666 0 0
+~
+~
+Door 3 0 0 16912 0 0
+~
+~
+End
+
+#16912
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20664 0 0
+~
+~
+Door 1 0 0 16911 0 0
+~
+~
+Door 3 0 0 16913 0 0
+~
+~
+End
+
+#16913
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20665 0 0
+~
+~
+Door 1 0 0 16912 0 0
+~
+~
+Door 3 0 0 16914 0 0
+~
+~
+End
+
+#16914
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 1 0 0 16913 0 0
+~
+~
+Door 3 0 0 16915 0 0
+~
+~
+End
+
+#16915
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 1 0 0 16914 0 0
+~
+~
+Door 2 0 0 16916 0 0
+~
+~
+Door 3 0 0 20678 0 0
+~
+~
+End
+
+#16916
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16915 0 0
+~
+~
+Door 1 0 0 20671 0 0
+~
+~
+Door 2 0 0 16917 0 0
+~
+~
+Door 3 0 0 20679 0 0
+~
+~
+End
+
+#16917
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16916 0 0
+~
+~
+Door 1 0 0 16926 0 0
+~
+~
+Door 3 0 0 16918 0 0
+~
+~
+End
+
+#16918
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20679 0 0
+~
+~
+Door 1 0 0 16917 0 0
+~
+~
+Door 3 0 0 16919 0 0
+~
+~
+End
+
+#16919
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Reset M 16961 1 100
+Door 0 0 0 20680 0 0
+~
+~
+Door 1 0 0 16918 0 0
+~
+~
+Door 2 0 0 16920 0 0
+~
+~
+End
+
+#16920
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16919 0 0
+~
+~
+Door 5 0 0 16921 0 0
+~
+~
+End
+
+#16921
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Reset M 16961 1 100
+Door 2 0 0 16922 0 0
+~
+~
+Door 4 0 0 16920 0 0
+~
+~
+End
+
+#16922
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 0 0 0 16921 0 0
+~
+~
+Door 2 0 0 16923 0 0
+~
+~
+End
+
+#16923
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 0 0 0 16922 0 0
+~
+~
+Door 1 0 0 16924 0 0
+~
+~
+End
+
+#16924
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Reset M 16961 1 100
+Door 3 0 0 16923 0 0
+~
+~
+Door 5 0 0 16925 0 0
+~
+~
+End
+
+#16925
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 34
+Door 0 0 0 16953 0 0
+~
+~
+Door 1 0 0 16962 0 0
+~
+~
+Door 2 0 0 16956 0 0
+~
+~
+Door 4 0 0 16924 0 0
+~
+~
+End
+
+#16926
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20671 0 0
+~
+~
+Door 1 0 0 16927 0 0
+~
+~
+Door 3 0 0 16917 0 0
+~
+~
+End
+
+#16927
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20670 0 0
+~
+~
+Door 1 0 0 16928 0 0
+~
+~
+Door 3 0 0 16926 0 0
+~
+~
+End
+
+#16928
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Reset M 20608 1 100
+Door 0 0 0 20669 0 0
+~
+~
+Door 3 0 0 16927 0 0
+~
+~
+End
+
+#16929
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20668 0 0
+~
+~
+Door 1 0 0 20687 0 0
+~
+~
+Door 2 0 0 16930 0 0
+~
+~
+Door 3 0 0 16928 0 0
+~
+~
+End
+
+#16930
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16929 0 0
+~
+~
+Door 1 0 0 20686 0 0
+~
+~
+Door 2 0 0 16931 0 0
+~
+~
+Door 3 0 0 20682 0 0
+~
+~
+End
+
+#16931
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16930 0 0
+~
+~
+Door 1 0 0 20684 0 0
+~
+~
+Door 2 0 0 16932 0 0
+~
+~
+Door 3 0 0 20683 0 0
+~
+~
+End
+
+#16932
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16931 0 0
+~
+~
+Door 1 0 0 20685 0 0
+~
+~
+Door 3 0 0 16933 0 0
+~
+~
+End
+
+#16933
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20683 0 0
+~
+~
+Door 1 0 0 16932 0 0
+~
+~
+End
+
+#16934
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20688 0 0
+~
+~
+Door 1 0 0 16935 0 0
+~
+~
+Door 2 0 0 20697 0 0
+~
+~
+Door 4 0 0 16933 0 0
+~
+~
+End
+
+#16935
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20689 0 0
+~
+~
+Door 1 0 0 16936 0 0
+~
+~
+Door 2 0 0 20696 0 0
+~
+~
+Door 3 0 0 16934 0 0
+~
+~
+End
+
+#16936
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20690 0 0
+~
+~
+Door 1 0 0 16937 0 0
+~
+~
+Door 2 0 0 20695 0 0
+~
+~
+Door 3 0 0 16935 0 0
+~
+~
+End
+
+#16937
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 20691 0 0
+~
+~
+Door 1 0 0 16938 0 0
+~
+~
+Door 2 0 0 20694 0 0
+~
+~
+Door 3 0 0 16936 0 0
+~
+~
+End
+
+#16938
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16939 0 0
+~
+~
+Door 1 0 0 20692 0 0
+~
+~
+Door 2 0 0 20693 0 0
+~
+~
+Door 3 0 0 16937 0 0
+~
+~
+End
+
+#16939
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 1 0 0 16940 0 0
+~
+~
+Door 2 0 0 16938 0 0
+~
+~
+Door 3 0 0 20691 0 0
+~
+~
+End
+
+#16940
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 0 0 0 16941 0 0
+~
+~
+Door 2 0 0 20692 0 0
+~
+~
+Door 3 0 0 16939 0 0
+~
+~
+End
+
+#16941
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands. 
+~
+Sector 5
+Door 2 0 0 16940 0 0
+~
+~
+Door 5 0 0 16942 0 0
+~
+~
+End
+
+#16942
+Name Just Before the Gates of Eron~
+Descr
+This is just before the gates of eron, to the distance you can see
+several guards standing watching closely. 
+~
+Flags 32
+Door 4 0 0 16941 0 0
+~
+~
+Door 5 0 0 16980 0 0
+~
+~
+End
+
+#16943
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 4561 0 0
+~
+~
+Door 2 0 0 16944 0 0
+~
+~
+Door 3 0 0 4614 0 0
+~
+~
+End
+
+#16944
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16943 0 0
+~
+~
+Door 2 0 0 16945 0 0
+~
+~
+Door 3 0 0 4615 0 0
+~
+~
+End
+
+#16945
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16944 0 0
+~
+~
+Door 1 0 0 16949 0 0
+~
+~
+Door 2 0 0 4618 0 0
+~
+~
+Door 3 0 0 4616 0 0
+~
+~
+End
+
+#16946
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16947 0 0
+~
+~
+Door 1 0 0 4616 0 0
+~
+~
+Door 2 0 0 16948 0 0
+~
+~
+End
+
+#16947
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 4613 0 0
+~
+~
+Door 1 0 0 4615 0 0
+~
+~
+Door 2 0 0 16946 0 0
+~
+~
+End
+
+#16948
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16946 0 0
+~
+~
+Door 1 0 0 4617 0 0
+~
+~
+Door 2 0 0 20608 0 0
+~
+~
+End
+
+#16949
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 2 0 0 4619 0 0
+~
+~
+Door 3 0 0 16945 0 0
+~
+~
+End
+
+#16950
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands.
+~
+Sector 5
+Door 0 0 0 16999 0 0
+~
+~
+Door 1 0 0 16951 0 0
+~
+~
+Door 2 0 0 16851 0 0
+~
+~
+End
+
+#16951
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 16952 0 0
+~
+~
+Door 2 0 0 16852 0 0
+~
+~
+Door 3 0 0 16950 0 0
+~
+~
+End
+
+#16952
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 20602 0 0
+~
+~
+Door 2 0 0 16853 0 0
+~
+~
+Door 3 0 0 16951 0 0
+~
+~
+End
+
+#16953
+Name The Underground Tunnel Towards Eros~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 0 0 0 16954 0 0
+~
+~
+Door 1 0 0 16963 0 0
+~
+~
+Door 2 0 0 16925 0 0
+~
+~
+End
+
+#16954
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 0 0 0 16955 0 0
+~
+~
+Door 1 0 0 16964 0 0
+~
+~
+Door 2 0 0 16953 0 0
+~
+~
+End
+
+#16955
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 1 0 0 16965 0 0
+~
+~
+Door 2 0 0 16954 0 0
+~
+~
+End
+
+#16956
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 0 0 0 16925 0 0
+~
+~
+Door 1 0 0 16961 0 0
+~
+~
+Door 2 0 0 16957 0 0
+~
+~
+End
+
+#16957
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Reset M 16961 1 100
+Door 0 0 0 16956 0 0
+~
+~
+Door 1 0 0 16960 0 0
+~
+~
+Door 2 0 0 16958 0 0
+~
+~
+End
+
+#16958
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 0 0 0 16957 0 0
+~
+~
+Door 1 0 0 16959 0 0
+~
+~
+End
+
+#16959
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Reset M 16959 1 100
+Reset O 55 -1 40
+Door 0 0 0 16960 0 0
+~
+~
+Door 3 0 0 16958 0 0
+~
+~
+End
+
+#16960
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 0 0 0 16961 0 0
+~
+~
+Door 2 0 0 16959 0 0
+~
+~
+Door 3 0 0 16957 0 0
+~
+~
+End
+
+#16961
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Reset M 16961 1 100
+Door 0 0 0 16962 0 0
+~
+~
+Door 2 0 0 16960 0 0
+~
+~
+Door 3 0 0 16956 0 0
+~
+~
+End
+
+#16962
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 0 0 0 16963 0 0
+~
+~
+Door 2 0 0 16961 0 0
+~
+~
+Door 3 0 0 16925 0 0
+~
+~
+End
+
+#16963
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 0 0 0 16964 0 0
+~
+~
+Door 2 0 0 16962 0 0
+~
+~
+Door 3 0 0 16953 0 0
+~
+~
+End
+
+#16964
+Name The Underground Tunnel Towards Eron~
+Descr
+This is one of the many underground tunnels that lead to the city of
+Eron. The tunnels are manmade and are very strudy. 
+~
+Sector 39
+Door 0 0 0 16965 0 0
+~
+~
+Door 2 0 0 16963 0 0
+~
+~
+Door 3 0 0 16954 0 0
+~
+~
+End
+
+#16965
+Name Before the Gates of Eron~
+Descr
+You are right before the gates of Eron. There is not much to see but in
+the distance you can see huge gates guarded by many people. 
+~
+Sector 39
+Door 2 0 0 16964 0 0
+~
+~
+Door 3 0 0 16955 0 0
+~
+~
+Door 5 0 0 16966 0 0
+~
+~
+End
+
+#16966
+Name The Gates of Eron~
+Descr
+These are the spectacular gates of eron. The guards are brave and noble,
+the gates made of steel. There seems to be no other way in except through
+the gates. 
+~
+Flags 16390
+Reset M 16966 1 100
+Reset O 260 -1 100
+Reset M 16966 1 100
+Reset O 260 -1 100
+Reset M 16966 1 100
+Reset O 260 -1 100
+Reset M 16966 1 100
+Reset O 260 -1 100
+Door 0 0 0 16967 0 0
+~
+~
+Door 4 0 0 16965 0 0
+~
+~
+End
+
+#16967
+Name Just Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 0 0 0 16973 0 0
+~
+~
+Door 1 0 0 16975 0 0
+~
+~
+Door 2 0 0 16966 0 0
+~
+~
+Door 3 0 0 16968 0 0
+~
+~
+End
+
+#16968
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 1 0 0 16967 0 0
+~
+~
+Door 3 0 0 16969 0 0
+~
+~
+End
+
+#16969
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 1 0 0 16968 0 0
+~
+~
+Door 3 0 0 16970 0 0
+~
+~
+End
+
+#16970
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 0 0 0 16971 0 0
+~
+~
+Door 1 0 0 16969 0 0
+~
+~
+Door 3 0 0 16987 0 0
+~
+~
+End
+
+#16971
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 0 0 0 16972 0 0
+~
+~
+Door 2 0 0 16970 0 0
+~
+~
+Door 3 0 0 16986 0 0
+~
+~
+End
+
+#16972
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 1 0 0 16984 0 0
+~
+~
+Door 2 0 0 16971 0 0
+~
+~
+Door 3 0 0 16985 0 0
+~
+~
+End
+
+#16973
+Name A Small Path in Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16987 1 100
+Door 0 0 0 16974 0 0
+~
+~
+Door 2 0 0 16967 0 0
+~
+~
+End
+
+#16974
+Name Eron;The Center of Eron~
+Descr
+You are at the Center of Eron, a spectacular fountain sits in the middle
+gushing full of crystal clear water. The fountain is detailed with rare gems
+and numerous carvings. 
+~
+Flags 4
+Reset M 16987 1 100
+Reset M 16974 1 100
+Reset O 16974 -5 100
+Door 0 0 0 16991 0 0
+~
+~
+Door 1 0 0 16982 0 0
+~
+~
+Door 2 0 0 16973 0 0
+~
+~
+Door 3 0 0 16983 0 0
+~
+~
+End
+
+#16975
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16987 1 100
+Door 1 0 0 16976 0 0
+~
+~
+Door 3 0 0 16967 0 0
+~
+~
+End
+
+#16976
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 1 0 0 16977 0 0
+~
+~
+Door 3 0 0 16975 0 0
+~
+~
+End
+
+#16977
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 0 0 0 16978 0 0
+~
+~
+Door 1 0 0 16988 0 0
+~
+~
+Door 3 0 0 16976 0 0
+~
+~
+End
+
+#16978
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 0 0 0 16979 0 0
+~
+~
+Door 1 0 0 16989 0 0
+~
+~
+Door 2 0 0 16977 0 0
+~
+~
+End
+
+#16979
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 1 0 0 16990 0 0
+~
+~
+Door 2 0 0 16978 0 0
+~
+~
+Door 3 0 0 16981 0 0
+~
+~
+End
+
+#16980
+Name The Gates of Eron~
+Descr
+These are the spectacular gates of eron. The guards are brave and noble,
+the gates are made of steel. There seems to be no other way in expect
+through the gates. 
+~
+Flags 20486
+Reset M 16980 1 100
+Reset O 260 -1 100
+Reset M 16980 1 100
+Reset O 260 -1 100
+Reset M 16980 1 100
+Reset O 260 -1 100
+Reset M 16980 1 100
+Reset O 260 -1 100
+Door 0 0 0 16977 0 0
+~
+~
+Door 4 0 0 16942 0 0
+~
+~
+End
+
+#16981
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 1 0 0 16979 0 0
+~
+~
+Door 3 0 0 16982 0 0
+~
+~
+End
+
+#16982
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 1 0 0 16981 0 0
+~
+~
+Door 3 0 0 16974 0 0
+~
+~
+End
+
+#16983
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 1 0 0 16974 0 0
+~
+~
+Door 3 0 0 16984 0 0
+~
+~
+End
+
+#16984
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16987 1 100
+Door 1 0 0 16983 0 0
+~
+~
+Door 3 0 0 16972 0 0
+~
+~
+End
+
+#16985
+Name The Town Banker~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16985 1 100
+Reset M 16987 1 100
+Door 1 0 0 16972 0 0
+~
+~
+End
+
+#16986
+Name A Small Hut~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16987 1 100
+Door 1 0 0 16971 0 0
+~
+~
+End
+
+#16987
+Name A Small Hut~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16987 1 100
+Door 1 0 0 16970 0 0
+~
+~
+End
+
+#16988
+Name Orian the Town Weaponsmith~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16988 1 100
+Reset O 250 4 100
+Reset O 262 4 100
+Reset O 260 4 100
+Reset O 121 1 100
+Reset O 121 1 100
+Reset O 121 1 100
+Reset O 121 1 100
+Reset O 121 1 100
+Reset O 120 1 100
+Reset O 120 1 100
+Reset O 120 1 100
+Reset O 120 1 100
+Reset O 120 1 100
+Reset O 4586 2 100
+Reset O 4587 2 100
+Door 3 0 0 16977 0 0
+~
+~
+End
+
+#16989
+Name Argos the Town Armorsmith~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16989 1 100
+Reset O 207 4 100
+Reset O 206 4 100
+Reset O 205 4 100
+Reset O 104 1 100
+Reset O 103 1 100
+Reset O 103 1 100
+Reset O 102 1 100
+Reset O 102 1 100
+Reset O 102 1 100
+Reset O 4580 2 100
+Reset O 4581 2 100
+Reset O 4582 2 100
+Reset O 4583 2 100
+Reset O 4589 2 100
+Reset O 4588 2 100
+Reset O 4585 2 100
+Reset O 4584 2 100
+Door 3 0 0 16978 0 0
+~
+~
+End
+
+#16990
+Name Habil the Town Provisioner~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16990 1 100
+Reset O 32 2 100
+Reset O 36 6 100
+Reset O 30 12 100
+Reset O 37 24 100
+Reset O 39 6 100
+Door 3 0 0 16979 0 0
+~
+~
+End
+
+#16991
+Name Inside the Town of Eron~
+Descr
+You are in the town of eron, it seems like a very new city, the walls
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 65540
+Sector 34
+Door 0 0 0 16907 0 0
+~
+~
+Door 2 0 0 16974 0 0
+~
+~
+Door 4 0 0 16998 0 0
+~
+~
+End
+
+#16992
+Name A Private Passage~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16987 1 100
+Door 0 0 0 16970 0 0
+~
+~
+End
+
+#16993
+Name Inside the Home of Fallen Warriors~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 0 0 0 16994 0 0
+~
+~
+End
+
+#16994
+Name Inside the Home of Fallen Warriors~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16987 1 100
+Door 0 0 0 16995 0 0
+~
+~
+Door 2 0 0 16993 0 0
+~
+~
+End
+
+#16995
+Name The Center of Warriors~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 0 0 0 16998 0 0
+~
+~
+Door 1 0 0 16997 0 0
+~
+~
+Door 2 0 0 16994 0 0
+~
+~
+Door 3 0 0 16996 0 0
+~
+~
+End
+
+#16996
+Name The Legendary Conan's Home~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Door 1 0 0 16995 0 0
+~
+~
+End
+
+#16997
+Name Paro the Wise's Home~
+Descr
+You are in the town of eron, it seems like a very new city, the walls,
+ceiling, and floor are brand new. The air smells like lemon's and you can
+hear children playing in the backround. 
+~
+Flags 4
+Reset M 16997 1 100
+Door 3 0 0 16995 0 0
+~
+~
+End
+
+#16998
+Name A Marvelous Scarlet Hall~
+Descr
+This is the scarlet hall of eron, the wall's are decorated with several
+painting's and tapestry's. This is the king's royal room, the jewel's
+glitter and the ceiling is highly decorated. You almost feel a bit more
+healed as you enter the room, as if it was control by magic. 
+~
+Flags2 6
+Flags 4
+Door 5 0 0 16991 0 0
+~
+~
+End
+
+#16999
+Name A Well-Traveled Path~
+Descr
+You are on a well-traveled dirt path, used by all throughout the lands.
+~
+Sector 5
+Door 0 0 0 4688 0 0
+~
+~
+Door 2 0 0 16950 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

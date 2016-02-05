@@ -1,0 +1,1650 @@
+#AREADATA 
+Name Icewind Dale~
+Repop A strong wind sweeps down from the north chilling your bones.
+~
+SCZone 0
+Builders Calin~
+VNUMs 12000 12150
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#12000
+Name wolf tundra white~
+Short a tundra wolf~
+Long 
+A tundra wolf snarls and attacks.
+~
+AMax 8
+NHeight 0
+ActBits 8
+Alignment 2
+Level 25
+Sex 1
+MobType 18
+Hp 2
+Guard 0
+End
+
+#12001
+Name no name~
+Short (none)~
+Long 
+(none)
+~
+AMax 5
+NHeight 0
+Level 0
+Guard 0
+End
+
+#12002
+Name dwarven guard~
+Short a dwarven guard~
+Long 
+A dwarven guard is here protecting the watch tower entrance.
+~
+Descr
+This tough looking dwarf proudly stands guard at the entrance to this
+watch tower, all the guards have been selected from amongst the fiercest
+dwarven warriors. 
+~
+AMax 2
+ActBits 2
+ActBits3 2
+Affect_By 512
+Alignment 2
+Money 300
+Level 50
+Sex 1
+MobType 32
+Hp 2
+Guard 1
+GDamR -40
+End
+
+#12003
+Name a dwarven soldier~
+Short A dwarven soldier~
+Long 
+A dwarven soldier watches you carefully.
+~
+Descr
+Standing no more than 4 feet tall, this dwarf is covered from head to toe
+in chain armour, he winks at you and continies on with his duties. 
+~
+AMax 5
+NHeight 0
+AffectTWO 8
+Alignment 2
+Money 200
+Level 50
+Sex 1
+MobType 4
+Hp 2
+Guard 0
+End
+
+#12004
+Name dwarf dwarven soldier sleeping~
+Short a dwarven soldier~
+Long 
+A dwarven soldier relaxes here, waiting for his turn on duty.
+~
+AMax 2
+NHeight 0
+ActBits 2
+Alignment 2
+Money 200
+Level 50
+Hp 2
+Guard 0
+End
+
+#12005
+Name dwarf cleric priest stumpet raki prac~
+Short Stumpet Rakingclaw~
+Long 
+Stumpet Rakingclaw looks up as you interupt her meditation.
+~
+Descr
+A female dwarf with shiny golden hair and beard looks apon you warmly as
+you enter, she wears studded leather armour and a golden cloak, sheathed on
+her belt is a glittering mithril mace. 
+~
+AMax 1
+NHeight 0
+ActBits 258
+Affect_By 2097280
+AffectTWO 8
+Alignment 2
+Money 6000
+Level 325
+Sex 2
+MobType 2
+Hp 40
+Guard 0
+ASklTaught 0 125
+ASklTaught 1 255
+ASklTaught 2 218
+ASklTaught 3 236
+ASklTaught 4 101
+End
+
+#12006
+Name man adventurer~
+Short a hardy adventurer~
+Long 
+A hardy adventurer rests here trying to ward off the chill.
+~
+Descr
+This tough looking adventurer rests his hand on the pommel of his dagger
+as he notices you watching him, he looks as though he can take care of
+himself. 
+~
+AMax 2
+ActBits 2
+Alignment 2
+Money 200
+Level 50
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#12010
+Name dwarf bloody warrior~
+Short a bloody dwarven warrior~
+Long 
+A bloody dwarf moans and staggers towards you.
+~
+Descr
+Bleeding from many wounds under his chaimail armour this dwarf can barely
+walk, you stop and wonder what the hell is going on. 
+~
+AMax 5
+NHeight 0
+ActBits4 1
+Affect_By 64
+Alignment 2
+Money 200
+Level 50
+MobType 2
+Hp 2
+Guard 0
+End
+
+#12011
+Name barbarian warrior enraged orc~
+Short an orcish barbarian~
+Long 
+An orcish barbarian licks his lips and attacks.
+~
+Descr
+Wearing tattered armour and snarling with bloodlust this orc will stop at
+nothing to please his master the evil Dark Lord Pillai. 
+~
+AMax 6
+NHeight 0
+ActBits 9
+Alignment 2
+Money 200
+Level 50
+MobType 25
+Hp 2
+Guard 0
+Spec spec_poison
+End
+
+#12012
+Name trauma orc warrior leader prac~
+Short trauma the orcish captain~
+Long 
+Trauma the orcish captain leads the assault.
+~
+Descr
+Standing well over 6 feet tall, and wearing spiked obsidian armour, this
+orc is one to be feared, his hatred for the dwarves has spurred him on in
+this raid. 
+~
+AMax 1
+ActBits 257
+Money 2000
+Level 300
+MobType 25
+Hp 20
+Guard 0
+ASklTaught 0 585
+ASklTaught 1 249
+ASklTaught 2 183
+ASklTaught 3 239
+End
+
+#12013
+Name hidden dwarf cowardly~
+Short a cowardly dwarf~
+Long 
+A cowardly dwarf hides here.
+~
+Descr
+This dwarf is petrified, instead of running to warn the watch tower of
+the imminent attack all he can do is cower in fear. 
+~
+AMax 5
+NHeight 0
+Affect_By 65536
+Level 25
+MobType 2
+Hp 2
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#12000
+Name corpse~
+Short a nomad corpse~
+Descr
+The frozen corpse of a nomad lies here.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#12001
+Name twinkle scimitar 2apb apb~
+Short a long thin scimitar called "[36mT[1mw[0m[34mi[1mn[36mk[0m[36ml[1me[0m"~
+Descr
+A scimitar lies here abandoned in the dust.
+[0;36m~
+Type 5
+Extra 4456449
+Wear 24577
+Values 0 65 0 3 0 0 0 5 3 0 0
+Weight 10
+Cost 300
+Affect 19 2 2 0 0
+End
+
+#12002
+Name mace enchanted 2apb apb~
+Short an [34me[1mn[0m[36mc[1mh[37ma[36mn[0m[36mt[1m[34me[0m[34md [1m[30mm[0m[36mit[1m[37mh[36mri[30ml[0m mace~
+Descr
+A glittering mace lies in the dust here.
+[0;36m~
+Type 5
+Extra 34078721
+Wear 24577
+Values 0 35 0 8 0 0 0 5 3 0 0
+Weight 22
+Cost 2000
+Affect 19 2 1 0 0
+Affect 18 2 1 0 0
+End
+
+#12003
+Name aura rage trauma floating~
+Short [31mTr[1mau[0m[31mma'[1ms [0m[31mR [1ma [0m[31mG [1mE[0m~
+Descr
+A shimmering aura of rage and hatred hovers here.
+[0;36m~
+Type 9
+Extra 1
+Wear 131073
+Values 2 2 2 2 0 0 0 0 0 0 0
+Weight 5
+Cost 4
+Affect 18 2 1 0 0
+Affect 20 2 1 0 0
+End
+
+#12004
+Name pillai symbol dark apb~
+Short a [35md[31ma[35mr[31mk symbol of [33mPillai[0m ~
+Descr
+A [35md[31ma[35mr[31mk symbol of [33mPillai[0m
+[0;36m~
+Type 9
+Extra 1
+Wear 5
+Values 0 0 3 3 0 0 0 0 0 0 0
+Weight 2
+Cost 2
+Affect 19 1 1 0 0
+End
+
+#12008
+Name battered dwarven chain shirt~
+Short a battered dwarven chain shirt~
+Descr
+A battered dwarven chain shirt lies here.
+[0;36m~
+Type 9
+Wear 9
+Values 3 3 3 0 3 0 2 2 0 0 0
+Weight 10
+Cost 0
+Affect 13 10 1 0 0
+End
+
+#12009
+Name axe spiked double heartseeker apb~
+Short a double bladed axe called, [37m"[31mHea[1m[33mrt Se[31meker[37m"[0m~
+Descr
+A HUGE double bladed axe is stuck into the ground here.
+[0;36m~
+Type 5
+Extra 262145
+Wear 16385
+Values 0 20 0 12 0 0 0 3 6 0 0
+Weight 28
+Cost 5
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#12014
+Name water trough wooden~
+Short a wooden water trough~
+Descr
+A wooden water trough sits along the eastern wall.
+[0;36m~
+Type 17
+Wear 0
+Weight 0
+Cost 0
+End
+
+#12017
+Name wickedly spiked kneeguard~
+Short a wickedly [1m[30mspiked[0m kneeguard~
+Descr
+A wickedly spiked kneeguard lies here.
+[0;36m~
+Type 9
+Wear 2097153
+Values 3 0 0 0 0 0 3 3 0 0 0
+Weight 2
+Cost 2
+Affect 22 1 1 0 0
+End
+
+#12018
+Name chest heart~
+Short a chest with a heart shaped lock~
+Descr
+A small chest is here with a heart shaped lock.
+[0;36m~
+Type 15
+Wear 0
+Values 50000 13 12019 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#12019
+Name heart key~
+Short [0ma [1m[31mh[0m[31meart[0m shaped key~
+Descr
+A heart shaped key is here on the ground unused.
+[0;36m~
+Type 18
+Wear 16385
+Timer 10
+Weight 0
+Cost 0
+End
+
+#12088
+Name symbol meditation apb~
+Short a symbol of [1m[36mt[0m[36mota[1ml[0m [1m[30mme[0m[37md[1mi[0m[37mt[1m[30ma[37mt[0m[37mi[1m[30mon[0m~
+Descr
+A symbol of meditation is laying on the ground here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 5
+Values 0 0 5 0 0 0 0 0 0 0 0
+Weight 9
+Cost 309
+Affect 15 5 1 0 0
+Affect 13 15 1 0 0
+Affect 20 3 1 0 0
+End
+
+#12099
+Name ticket~
+Short a ticket saying drop me~
+Descr
+A ticket saying "The God of Sun in the Citadel is your next stop!"
+[0;36m~
+Type 9
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#12800
+Name Unused~
+Descr
+~
+Flags 4
+End
+
+#13000
+Name ~
+Descr
+~
+End
+
+#12000
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset M 12000 2 100
+Door 1 0 0 12001 0 0
+~
+~
+Door 5 0 0 4733 0 0
+~
+~
+End
+
+#12001
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset M 12000 1 1
+Door 1 0 0 12002 0 0
+~
+~
+Door 3 0 0 12000 0 0
+~
+~
+End
+
+#12002
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset M 12000 2 100
+Door 0 0 0 12003 0 0
+~
+~
+Door 3 0 0 12001 0 0
+~
+~
+End
+
+#12003
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset M 12000 1 100
+Door 0 0 0 12004 0 0
+~
+~
+Door 2 0 0 12002 0 0
+~
+~
+End
+
+#12004
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 0 0 0 12005 0 0
+~
+~
+Door 2 0 0 12003 0 0
+~
+~
+End
+
+#12005
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset O 12000 -5 100
+Door 0 0 0 12006 0 0
+~
+~
+Door 1 0 0 12023 0 0
+~
+~
+Door 2 0 0 12004 0 0
+~
+~
+Door 3 0 0 12008 0 0
+~
+~
+Door 4 0 0 12007 0 0
+~
+~
+End
+
+#12006
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 0 0 0 12017 0 0
+~
+~
+Door 2 0 0 12005 0 0
+~
+~
+End
+
+#12007
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 4 0 0 12025 0 0
+~
+~
+Door 5 0 0 12005 0 0
+~
+~
+End
+
+#12008
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 1 0 0 12005 0 0
+~
+~
+Door 3 0 0 12009 0 0
+~
+~
+End
+
+#12009
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 1 0 0 12008 0 0
+~
+~
+Door 3 0 0 12010 0 0
+~
+~
+End
+
+#12010
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 1 0 0 12009 0 0
+~
+~
+Door 3 0 0 12011 0 0
+~
+~
+End
+
+#12011
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 1 0 0 12010 0 0
+~
+~
+Door 3 0 0 12012 0 0
+~
+~
+End
+
+#12012
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset M 12000 2 100
+Door 1 0 0 12011 0 0
+~
+~
+Door 3 0 0 12013 0 0
+~
+~
+Door 5 0 0 12014 0 0
+~
+~
+End
+
+#12013
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 1 0 0 12012 0 0
+~
+~
+Door 3 0 0 12018 0 0
+~
+~
+End
+
+#12014
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset M 12000 3 100
+Door 4 0 0 12012 0 0
+~
+~
+Door 5 0 0 12015 0 0
+~
+~
+End
+
+#12015
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset M 12000 3 100
+Door 3 0 0 12016 0 0
+~
+~
+Door 4 0 0 12014 0 0
+~
+~
+End
+
+#12016
+Name A Blocked Pass~
+Descr
+This is a dead-end blocked off by several rocks, it is almost like there
+used to be something here but due to several natural disasters it is sealed
+off forever. 
+~
+Sector 19
+Door 1 0 0 12015 0 0
+~
+~
+End
+
+#12017
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset M 12000 2 100
+Door 1 0 0 12019 0 0
+~
+~
+Door 2 0 0 12006 0 0
+~
+~
+End
+
+#12018
+Name A Dead End~
+Descr
+The trail comes to an end here, you cannot go any further due to large
+chunks of rock and ice that block the way from a recent avalanche, maybe you
+should turn back the way you came. 
+~
+Flags2 256
+Sector 19
+Door 1 0 0 12013 0 0
+~
+~
+End
+
+#12019
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 1 0 0 12020 0 0
+~
+~
+Door 3 0 0 12017 0 0
+~
+~
+End
+
+#12020
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset M 12000 1 100
+Reset M 12000 2 100
+Door 2 0 0 12021 0 0
+~
+~
+Door 3 0 0 12019 0 0
+~
+~
+End
+
+#12021
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 0 0 0 12020 0 0
+~
+~
+Door 2 0 0 12022 0 0
+~
+~
+End
+
+#12022
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Reset M 12000 1 100
+Door 0 0 0 12021 0 0
+~
+~
+Door 3 0 0 12023 0 0
+~
+~
+End
+
+#12023
+Name A Long Windy Trail~
+Descr
+This trail winds its way through these mountains, heading towards the
+formidable Icewind Dale, where only the bravest adventurers would dare
+travel. 
+~
+Sector 19
+Door 1 0 0 12022 0 0
+~
+~
+Door 3 0 0 12005 0 0
+~
+~
+End
+
+#12025
+Name A Steep Incline~
+Descr
+The path here starts to get very steep as it climbs towards the top of
+the peak, you hope there will be some kind of shelter or cave soon as you
+need to find a place to seek refuge from the elements. 
+~
+Flags2 256
+Sector 19
+Door 4 0 0 12026 0 0
+~
+~
+Door 5 0 0 12007 0 0
+~
+~
+End
+
+#12026
+Name A Steep Incline~
+Descr
+The path here starts to get very steep as it climbs towards the top of
+the peak, you hope there will be some kind of shelter or cave soon as you
+need to find a place to seek refuge from the elements. 
+~
+Sector 19
+Door 4 0 0 12027 0 0
+~
+~
+Door 5 0 0 12025 0 0
+~
+~
+End
+
+#12027
+Name Approaching the Peak~
+Descr
+The path here starts to get very steep as it climbs towards the top of
+the peak, you hope there will be some kind of shelter or cave soon as you
+need to find a place to seek refuge from the elements. 
+~
+Sector 19
+Door 4 0 0 12028 0 0
+~
+~
+Door 5 0 0 12026 0 0
+~
+~
+End
+
+#12028
+Name The Peak of Mount Kosiousko~
+Descr
+The strong wind from the north blows in your face as you reach the peak,
+to the north Icewind Dale stretches as far as the eye can see, the icy
+plains inhabited by the barbarians and monsters that prey upon each other to
+survive in the harsh environment. 
+~
+Sector 19
+Door 0 0 0 12029 0 0
+~
+~
+Door 1 0 0 12031 0 0
+~
+~
+Door 5 0 0 12027 0 0
+~
+~
+End
+
+#12029
+Name The Peak of Mount Kosiousko~
+Descr
+The strong wind from the north blows in your face as you reach the peak,
+to the north Icewind Dale stretches as far as the eye can see, the icy
+plains inhabited by the barbarians and monsters that prey upon each other to
+survive in the harsh environment. 
+~
+Sector 19
+Door 1 0 0 12030 0 0
+~
+~
+Door 2 0 0 12028 0 0
+~
+~
+End
+
+#12030
+Name Entrance to a Watch Tower~
+Descr
+Here stands a wooden watch tower, built long ago by the dwarves it still
+looks serviceable and seems a good place to stop and rest before continuing
+on your journey. 
+~
+Sector 19
+Reset M 12002 3 100
+Reset O 12017 -1 2
+Reset M 12002 1 100
+Reset O 12017 -1 2
+Door 1 515 0 12032 30 30
+~
+Sturdy wooden door~
+Door 2 0 0 12031 0 0
+~
+~
+Door 3 0 0 12029 0 0
+~
+~
+End
+
+#12031
+Name The Peak of Mount Kosiousko~
+Descr
+The strong wind from the north blows in your face as you reach the peak,
+to the north Icewind Dale stretches as far as the eye can see, the icy
+plains inhabited by the barbarians and monsters that prey upon each other to
+survive in the harsh environment. 
+~
+Sector 19
+Door 0 0 0 12030 0 0
+~
+~
+Door 3 0 0 12028 0 0
+~
+~
+End
+
+#12032
+Name A Sturdy Watch Tower~
+Descr
+This small wooden tower was build many years ago by the late King Bruenor
+so that his people could keep a lookout for the barbarians to the north as
+they often raided into the dwarven mines which lie to the south. Many
+dwarves bustle about in performing their daily duties. 
+~
+Flags 4
+Door 0 0 0 12033 0 0
+~
+~
+Door 1 0 0 12035 0 0
+~
+~
+Door 3 515 0 12030 30 30
+~
+Sturdy wooden door~
+End
+
+#12033
+Name A Sturdy Watch Tower~
+Descr
+This small wooden tower was build many years ago by the late King Bruenor
+so that his people could keep a lookout for the barbarians to the north as
+they often raided into the dwarven mines which lie to the south. Many
+dwarves bustle about in performing their daily duties. 
+~
+Flags 4
+Door 0 0 0 12036 0 0
+~
+~
+Door 1 0 0 12034 0 0
+~
+~
+Door 2 0 0 12032 0 0
+~
+~
+End
+
+#12034
+Name A Sturdy Watch Tower~
+Descr
+This small wooden tower was build many years ago by the late King Bruenor
+so that his people could keep a lookout for the barbarians to the north as
+they often raided into the dwarven mines which lie to the south. Many
+dwarves bustle about in performing their daily duties. 
+~
+Flags 4
+Reset M 12003 3 100
+Reset O 219 12003 100
+Reset O 223 12003 100
+Reset O 222 12003 100
+Door 0 0 0 12037 0 0
+~
+~
+Door 2 0 0 12035 0 0
+~
+~
+Door 3 0 0 12033 0 0
+~
+~
+End
+
+#12035
+Name A Sturdy Watch Tower~
+Descr
+This small wooden tower was build many years ago by the late King Bruenor
+so that his people could keep a lookout for the barbarians to the north as
+they often raided into the dwarven mines which lie to the south. Many
+dwarves bustle about in performing their daily duties. 
+~
+Flags 4
+Door 0 0 0 12034 0 0
+~
+~
+Door 1 0 0 12080 0 0
+~
+~
+Door 3 0 0 12032 0 0
+~
+~
+End
+
+#12036
+Name A Sturdy Watch Tower~
+Descr
+This small wooden tower was build many years ago by the late King Bruenor
+so that his people could keep a lookout for the barbarians to the north as
+they often raided into the dwarven mines which lie to the south. Many
+dwarves bustle about in performing their daily duties. 
+~
+Flags 4
+Reset M 12003 2 100
+Reset O 221 12003 80
+Reset O 220 12003 90
+Reset O 223 12003 90
+Door 0 3 0 12063 30 30
+~
+door~
+Door 1 0 0 12037 0 0
+~
+~
+Door 2 0 0 12033 0 0
+~
+~
+End
+
+#12037
+Name A Sturdy Watch Tower~
+Descr
+You are in a strudy watch tower, here is a dwarven soldier looking out
+for any enemys that may come. 
+~
+Flags 4
+Reset M 12003 2 100
+Door 1 3 0 12038 30 30
+~
+sturdy wooden door~
+Door 2 0 0 12034 0 0
+~
+~
+Door 3 0 0 12036 0 0
+~
+~
+End
+
+#12038
+Name A Dusty Storeroom~
+Descr
+This is the small storeroom for the outpost, it contains some barrels of
+food and water and some rusty pieces of old armour, which lie neglected in a
+pile in the corner. 
+~
+Flags 4
+Reset O 12014 -5 100
+Door 3 3 0 12037 30 30
+~
+sturdy wooden door~
+Door 5 259 0 12039 30 30
+~
+barrel~
+End
+
+#12039
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Flags 4
+Door 1 0 0 12040 0 0
+~
+~
+Door 4 259 0 12038 30 30
+~
+barrel~
+End
+
+#12040
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Reset M 12010 3 100
+Reset O 12008 -1 25
+Door 1 0 0 12041 0 0
+~
+~
+Door 3 0 0 12039 0 0
+~
+~
+End
+
+#12041
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 1 0 0 12042 0 0
+~
+~
+Door 3 0 0 12040 0 0
+~
+~
+End
+
+#12042
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 1 0 0 12043 0 0
+~
+~
+Door 3 0 0 12041 0 0
+~
+~
+End
+
+#12043
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 1 0 0 12044 0 0
+~
+~
+Door 3 0 0 12042 0 0
+~
+~
+End
+
+#12044
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 0 0 0 12045 0 0
+~
+~
+Door 3 0 0 12043 0 0
+~
+~
+End
+
+#12045
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 0 0 0 12046 0 0
+~
+~
+Door 2 0 0 12044 0 0
+~
+~
+End
+
+#12046
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 1 0 0 12047 0 0
+~
+~
+Door 2 0 0 12045 0 0
+~
+~
+End
+
+#12047
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Reset M 12010 5 100
+Reset O 12008 -1 25
+Door 1 0 0 12048 0 0
+~
+~
+Door 3 0 0 12046 0 0
+~
+~
+End
+
+#12048
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 1 0 0 12049 0 0
+~
+~
+Door 3 0 0 12047 0 0
+~
+~
+End
+
+#12049
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 1 0 0 12050 0 0
+~
+~
+Door 3 0 0 12048 0 0
+~
+~
+End
+
+#12050
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Reset M 12011 5 100
+Reset O 12004 -1 3
+Door 0 0 0 12051 0 0
+~
+~
+Door 3 0 0 12049 0 0
+~
+~
+End
+
+#12051
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 0 0 0 12052 0 0
+~
+~
+Door 2 0 0 12050 0 0
+~
+~
+End
+
+#12052
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Reset M 12011 5 100
+Reset O 12004 -1 3
+Reset M 12013 2 100
+Door 0 0 0 12054 0 0
+~
+~
+Door 2 0 0 12051 0 0
+~
+~
+End
+
+#12053
+Name ~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Door 2 0 0 12051 0 0
+~
+~
+End
+
+#12054
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Reset M 12012 5 100
+Reset O 12009 -1 10
+Reset O 12003 -1 25
+Door 2 0 0 12052 0 0
+~
+~
+Door 5 0 0 12055 0 0
+~
+~
+End
+
+#12055
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 4 0 0 12054 0 0
+~
+~
+Door 5 0 0 12056 0 0
+~
+~
+End
+
+#12056
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 0 0 0 12057 0 0
+~
+~
+Door 4 0 0 12055 0 0
+~
+~
+End
+
+#12057
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 0 0 0 12058 0 0
+~
+~
+Door 2 0 0 12056 0 0
+~
+~
+End
+
+#12058
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Sector 47
+Door 2 0 0 12057 0 0
+~
+~
+Door 4 0 0 12059 0 0
+~
+~
+End
+
+#12059
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Flags 32
+Door 2 0 0 12060 0 0
+~
+~
+Door 5 0 0 12058 0 0
+~
+~
+End
+
+#12060
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Flags 32
+Door 0 0 0 12059 0 0
+~
+~
+Door 2 0 0 12061 0 0
+~
+~
+End
+
+#12061
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Flags 32
+Door 0 0 0 12060 0 0
+~
+~
+Door 4 0 0 12062 0 0
+~
+~
+End
+
+#12062
+Name A Secret Tunnel~
+Descr
+You have found a secret tunnel!  , this tunnel is used as an escape route
+in case the tower is ever overrun by the barbarians from the north, so that
+the dwarves would not be trapped and killed. 
+~
+Flags 32
+Door 4 0 0 12000 0 0
+~
+~
+Door 5 0 0 12061 0 0
+~
+~
+End
+
+#12063
+Name Sleeping Quarters~
+Descr
+This small wooden tower was build many years ago by the late King Bruenor
+so that his people could keep a lookout for the barbarians to the north as
+they often raided into the dwarven mines which lie to the south. Many
+dwarves bustle about in performing their daily duties. 
+~
+Door 0 0 0 12064 0 0
+~
+~
+Door 2 3 0 12036 30 30
+~
+door~
+End
+
+#12064
+Name Sleeping Quarters~
+Descr
+This is the sleeping area for this watch tower, all around you are
+snoring dwarves resting up untill it is their turn on duty, up ahead you can
+hear the soft chanting of someone deep in prayer. 
+~
+Flags 4
+Door 0 0 0 12077 0 0
+~
+~
+Door 1 0 0 12065 0 0
+~
+~
+Door 2 0 0 12063 0 0
+~
+~
+Door 3 0 0 12066 0 0
+~
+~
+End
+
+#12065
+Name A Dwarf's Alcove~
+Descr
+This is the sleeping area for this watch tower, all around you are
+snoring dwarves resting up untill it is their turn on duty, up ahead you can
+hear the soft chanting of someone deep in prayer. 
+~
+Flags 4
+Reset M 12004 6 100
+Reset O 9947 -1 30
+Door 3 0 0 12064 0 0
+~
+~
+End
+
+#12066
+Name A Dwarf's Alcove~
+Descr
+This is the sleeping area for this watch tower, all around you are
+snoring dwarves resting up untill it is their turn on duty, up ahead you can
+hear the soft chanting of someone deep in prayer. 
+~
+Flags 4
+Reset M 12004 6 100
+Reset O 60 -1 20
+Door 1 0 0 12064 0 0
+~
+~
+End
+
+#12067
+Name Stumpet's Private Bedroom~
+Descr
+This room is barely furnished, except for an oaken bed in the corner. At
+the foot of the bed is a small chest. 
+~
+Flags 4
+Reset O 12018 -5 100
+Reset O 92 -3 20
+Reset O 68 -3 20
+Reset O 3550 -3 40
+Reset O 12002 -3 1
+Reset O 12001 -3 1
+Door 5 0 0 12077 0 0
+~
+~
+End
+
+#12077
+Name Room of Cleansing~
+Descr
+This is where the dwarves come to pray and to have their wounds healed,
+some beds lie along the northern wall and on the east is a shrine to the
+dwarven god Moridin. 
+~
+Flags2 6
+Flags 65540
+Reset M 12005 1 100
+Reset O 12088 -1 10
+Reset O 3400 -1 10
+Reset O 3401 -1 10
+Reset O 3402 -1 10
+Reset O 3403 -1 10
+Reset O 69 -1 10
+Reset O 12019 -1 25
+Door 2 0 0 12064 0 0
+~
+~
+Door 4 0 0 12067 0 0
+~
+~
+End
+
+#12080
+Name The Common Room~
+Descr
+A blazing fireplace sits along the eastern wall, several chairs and
+tables are set up in this room where the soldiers eat their meals and rest
+in comfort. 
+~
+Flags 4
+Reset M 12006 1 100
+Reset O 500 -1 30
+Door 3 0 0 12035 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,682 @@
+#AREADATA 
+Name Andfroth clanhouse~
+Repop The area seems alive again!
+~
+SCZone 1
+Builders Andfroth~
+VNUMs 93801 93818
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#93801
+Name mud masturbater~
+Short a masturbater~
+Long 
+A fellow masturbater is here waiting to mud with you.
+~
+AMax 8
+NHeight 100
+AClan 4
+ActBits 2
+ActBits3 1
+Affect_By 552
+Money 100
+Level 150
+Sex 1
+MobType 0
+Guard 1
+Spec spec_warrior
+End
+
+#93802
+Name grandma~
+Short grandma~
+Long 
+Grandma is here waiting to help any Masturbater she sees.
+~
+AMax 1
+NHeight 50
+ActBits 1048578
+Money 1000
+Level 300
+Sex 2
+MobType 0
+Guard 0
+End
+
+#93803
+Name grandpa~
+Short grandpa~
+Long 
+Grandpa is here waiting to help any Masturbater he sees.
+~
+AMax 1
+NHeight 50
+ActBits 2097154
+Money 1000
+Level 300
+Sex 1
+MobType 0
+Guard 0
+End
+
+#93804
+Name fuury homosexual~
+Short a homosexual~
+Long 
+Fuury is here waiting to serve all Masturbaters by any and all means.
+~
+AMax 1
+NHeight 50
+ActBits 2
+Money 1000
+Level 300
+Sex 2
+MobType 0
+Guard 0
+Shop    0   0   0   0   0 100 100 1 24
+Shopd2 5
+Shopd3 4
+End
+
+#93805
+Name bigsperm homosexual~
+Short homosexual~
+Long 
+Bigsperm is here waiting to serve all Masturbaters by any means possible.
+~
+AMax 1
+NHeight 50
+ActBits 2
+Money 1000
+Level 300
+Sex 2
+MobType 0
+Guard 0
+Shop    0   0   0   0   0 100 100 1 24
+Shopd2 5
+Shopd3 4
+End
+
+#93806
+Name homosexual wookiee~
+Short homosexual~
+Long 
+Wookiee is here waiting to serve all the Masturbaters he possibly can.
+~
+AMax 1
+NHeight 50
+ActBits 262146
+Money 1000
+Level 300
+Sex 1
+MobType 0
+Guard 0
+End
+
+#93807
+Name sefi homosexual~
+Short homosexual~
+Long 
+SeFi is here tending to all the Masturbaters who cum his way.
+~
+AMax 1
+NHeight 50
+ActBits 2
+Money 1000
+Level 300
+MobType 0
+Guard 0
+Shop    0   0   0   0   0 100 100 1 24
+Shopd2 5
+Shopd3 4
+End
+
+#0
+
+
+
+#OBJDATA
+#93801
+Name magical mushroom~
+Short some [1m[32mm[0m[32ma[1m[35mg[32mi[0m[35mc[0m[32ma[1m[35ml [1m[33mm[0m[33mu[1m[33ms[0m[33mh[1m[33mr[1m[30moo[0m[33mm[1m[33ms[0m~
+Descr
+[36mSome mushrooms are here popping out of the ground waiting to be eaten.
+[0;36m~
+Type 19
+Extra 1
+Wear 16385
+Weight 0
+Cost 100
+End
+
+#93802
+Name zyania kratom mailed package~
+Short a [1m[31mm[0m[31ma[37mi[1m[37ml[31me[0m[31md [0mpackage of [1m[37mZ[0m[37my[1m[30ma[0m[37mn[1m[30mi[0m[37ma[1m[37ms [1m[32mK[0m[32mr[1m[32ma[0m[32mt[1m[32mo[0m[32mm[0m~
+Descr
+[36mA small bag filled with herbs is lying here on the ground.
+[0;36m~
+Type 19
+Extra 2
+Wear 24577
+Weight 1
+Cost 50
+End
+
+#93803
+Name ganja brownie~
+Short a [32mG[1m[32ma[0m[32mnj[1m[32ma [0m[33mBrownie[0m~
+Descr
+[36mA brownie is lying here on the floor waiting for someone to devour it.
+[0;36m~
+Type 19
+Extra 2
+Wear 16385
+Weight 0
+Cost 200
+End
+
+#93804
+Name fountain~
+Short the masturbater's fountain~
+Descr
+[36mA fountain is here providing the Masturbaters with something to drink.
+[0;36m~
+Type 25
+Wear 0
+Values 0 118 0 0 0 0 0 0 0 0 0
+Weight 50
+Cost 0
+End
+
+#93805
+Name glass long island iced tea~
+Short a [1m[30mglass [0mof [1m[36mL[0m[37mon[1m[36mg [32mI[0m[36ms[0m[37ml[1m[36ma[0m[36mn[1m[32md [0m[33mIc[1m[33me[0m[33md T[1m[33me[0m[33ma[0m~
+Descr
+A glass of alcohol is lying here on the floor.
+[0;36m~
+Type 17
+Extra 2
+Wear 24577
+Values 0 0 2 0 0 0 0 0 0 0 0
+Weight 1
+Cost 200
+End
+
+#93806
+Name dried margarita~
+Short a [1m[37mdried [1m[32mm[35ma[0m[37mr[1m[32mg[1m[35ma[1m[32mr[0m[37mi[1m[35mt[1m[32ma[0m [1m[30mglass[0m~
+Descr
+A margarita is here lying on the ground waiting for someone to drink it.
+[0;36m~
+Type 17
+Wear 16385
+Values 0 0 2 0 0 0 0 0 0 0 0
+Weight 1
+Cost 0
+End
+
+#93807
+Name bloody mary~
+Short a [1m[31mB[0m[37ml[31moo[0m[37md[1m[31my [1m[31mM[0m[31ma[1m[31mr[0m[31my~
+Descr
+A glass of liquor is sitting here on the ground waiting for someone to drink it.
+[0;36m~
+Type 17
+Extra 1
+Wear 24577
+Values 0 0 2 0 0 0 0 0 0 0 0
+Weight 1
+Cost 350
+End
+
+#93808
+Name white stained tattoo emblem M&M's~
+Short a [1m[37mwhite [0m[31ms[1m[31mt[1m[30ma[0m[31mi[1m[31mn[1m[30me[0m[31md [1m[35mt[0m[35ma[1m[35mtt[0m[35moo [0mbearing the [1m[33me[0m[31mm[1m[31mb[0m[33ml[0m[31me[1m[33mm [0mof the [34mM[1m[34m&[0m[34mM[0m'[1m[34ms~
+Descr
+A white stained tattoo belonging to the Masturbaters is lying here attracting attention.
+[0;36m~
+Type 9
+Extra 4224
+Wear 16777217
+Values 0 0 0 1 0 0 0 0 0 0 0
+Weight 0
+Cost 1000
+Affect 19 1 1 0 0
+Affect 18 4 1 0 0
+End
+
+#93809
+Name black marked tattoo symbol M&M's~
+Short a [1m[30mblack [1m[36mm[0m[36ma[1m[36mr[0m[36mk[1m[36me[0m[36md [0m[35mt[1m[35ma[0m[35mtt[1m[35moo [0mbearing the [1m[33ms[1m[37my[0m[33mm[0m[33mb[1m[37mo[1m[33ml [0mof the [0m[32mM[1m[32m&[0m[32mM[0m'[1m[32ms[0m~
+Descr
+A black marked tattoo belonging to the Masturbaters is lying here attracting attention.
+[0;36m~
+Type 9
+Extra 4224
+Wear 16777217
+Values 0 0 0 1 0 0 0 0 0 0 0
+Weight 0
+Cost 1000
+Affect 13 10 1 0 0
+Affect 15 20 1 0 0
+End
+
+#93810
+Name statue healer vdov~
+Short a statue of the legendary healer vdov~
+Descr
+[36mA statue of the LegeNdarY [1m[33mH[0m[33me[0m[33ma[1m[33ml[0m[33me[1m[33mr [1m[32mV[0m[32mdo[1m[32mV [0m[36mstands here towering over everything in the area.
+[0;36m~
+Type 13
+Extra 1
+Wear 0
+Weight 50
+Cost 0
+End
+
+#93811
+Name statue godly magi andfroth~
+Short statue of the godly magi ANDFROTH~
+Descr
+[36mA statue of the [1m[31mG[0m[31mo[1m[30md[0m[31ml[1m[31my [1m[32mM[0m[32mag[1m[32mI [1m[35mA[0m[35mn[1m[35md[0m[35mf[1m[35mr[0m[35mo[1m[35mt[0m[35mh [0m[36mis here towering over everything throughout the clanhouse.
+[0;36m~
+Type 13
+Extra 2
+Wear 0
+Weight 50
+Cost 0
+End
+
+#93812
+Name water waterskin skin drink~
+Short a [33mwaterskin[0m~
+Descr
+A waterskin is here.
+[0;36m~
+Type 17
+Wear 1
+Values 10 10 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 50
+End
+
+#93813
+Name water waterskin skin large drink~
+Short a large [33mwaterskin[0m~
+Descr
+You see a large waterskin here.
+[0;36m~
+Type 17
+Wear 1
+Values 20 20 0 0 0 0 0 0 0 0 0
+Weight 4
+Cost 150
+End
+
+#0
+
+
+
+#ROOMDATA
+#93801
+Name A Secluded Path~
+Cvnumh 140463208
+Cvnuml 142328464
+Descr
+You have found a path secluded from the trail. How you stumbled across
+this path is unknown, but you have found a secret within the area. What
+could this path lead to?  You make a quick decision as to what you shall do
+next. 
+~
+Door 4 259 0 56778 30 30
+~
+flap~
+Door 5 259 0 93802 30 30
+~
+zipper~
+End
+
+#93802
+Name The Entrance to the Masterbaters Clanhouse~
+Cvnumh 142341096
+Descr
+You have found the entrance to a clanhouse!  The Mudding Masturbaters do
+not like visitors so it is highly adviced that if you are not part of the
+clan that you leave. The choice is yours, however think before you act. 
+~
+Reset M 93801 1 100
+Reset M 93801 1 100
+Reset M 93801 1 100
+Reset M 93801 1 100
+Reset M 93801 1 100
+Reset M 93801 1 100
+Reset M 93801 1 100
+Reset M 93801 1 100
+Door 1 0 0 93803 0 0
+~
+~
+Door 4 259 0 93801 30 30
+~
+zipper~
+End
+
+#93803
+Name A Mudders Path~
+Descr
+You are travelling down a Mudders Path. To travel this path you must be
+a true mudder. What is a true Mudder. Well, this question can be answered if
+very simply. Did you have to kill the guards to reach this path?  Only the
+true mudders are welcomed here, and if are not one of them, then you do not
+belong here and it is advised to go back!  PROCEED WITH CAUTION!!!  
+~
+Flags 4
+Sector 0
+Door 1 0 0 93804 0 0
+~
+~
+Door 3 0 0 93802 0 0
+~
+~
+End
+
+#93804
+Name A Mudders Path~
+Descr
+You are travelling down a Mudders Path. To travel this path you must be
+a true mudder. What is a true Mudder. Well, this question can be answered if
+very simply. Did you have to kill the guards to reach this path?  Only the
+true mudders are welcomed here, and if are not one of them, then you do not
+belong here and it is advised to go back!  PROCEED WITH CAUTION!!!!  
+~
+Door 0 0 0 93805 0 0
+~
+~
+Door 1 0 0 93807 0 0
+~
+~
+Door 2 0 0 93806 0 0
+~
+~
+Door 3 0 0 93803 0 0
+~
+~
+End
+
+#93805
+Name A Clanhouse Weaponsmith~
+Descr
+A clanhouse weaponsmith is here waiting to assist you. The weaponsmith
+has a small shop filled with tools. It is very hot in here as he has been
+forging new equipment ever since you left. You begin to sweat as the heat
+from the anvil hits your body and fills you with warmth. 
+~
+Flags 4
+Sector 0
+Reset M 93802 1 100
+Door 2 0 0 93804 0 0
+~
+~
+End
+
+#93806
+Name A Clanhouse Armorer~
+Descr
+A clanhouse armorer is here waiting to assist you. The armorer has a
+small shop filled with tools. It is very hot in here as he has been forging
+new equipment ever since you left. You begin to sweat as the heat from the
+anvil hits your body and fills you with warmth. 
+~
+Flags 4
+Sector 0
+Reset M 93803 1 100
+Door 0 0 0 93804 0 0
+~
+~
+End
+
+#93807
+Name The Center of the Clanhouse~
+Cvnumh 142347792
+Cvnuml 142347928
+Descr
+You have arrived at the center of the clanhouse. It is quiet here, and
+you enjoy the tranquility that surrounds you. The only sound you here is a
+trickle from a beautiful fountain rests here. It is nice and warm down here,
+and you enjoy the state of mind your body has as you rest here. 
+~
+Flags 4
+Sector 0
+Reset O 93804 -5 100
+Door 1 0 0 93808 0 0
+~
+~
+Door 3 0 0 93804 0 0
+~
+~
+Door 4 0 0 93812 0 0
+~
+~
+Door 5 0 0 93813 0 0
+~
+~
+End
+
+#93808
+Name A Mudders Path~
+Descr
+You are travelling down a Mudders Path. To travel this path you must be
+a true mudder. What is a true Mudder. Well, this question can be answered if
+very simply. Did you have to kill the guards to reach this path?  Only the
+true mudders are welcomed here, and if are not one of them, then you do not
+belong here and it is advised to go back!  PROCEED WITH CAUTION!!!!  
+~
+Door 0 3 0 93809 30 30
+~
+steel door~
+Door 1 0 0 93811 0 0
+~
+~
+Door 2 3 0 93810 30 30
+~
+steel door~
+Door 3 0 0 93807 0 0
+~
+~
+End
+
+#93809
+Name The Bomb-Ass Bakery~
+Descr
+The bakery smells delicious. You wonder if this baker is running a legal
+and legit operation, but you seem more interested in feasting than in
+worrying about the law. It is hot in here from the oven cooking all these
+baked goods, but its delicious pastries make up for the temperature in here.
+~
+Flags 4
+Sector 0
+Reset M 93804 1 100
+Reset O 93802 10 100
+Reset O 93803 10 100
+Reset O 93801 25 100
+Door 2 3 0 93808 30 30
+~
+steel door~
+End
+
+#93810
+Name The Drunken-Drinking Tavern~
+Descr
+The Drunken-Drinking Tavern is the place to hangout in the clanhouse. It
+is cool in the tavern, however it reaks of an alcoholic odor. Usually people
+don't pay to much attention to the odor as they are wasted before they even
+stumble in here. A cool breeze flows throughout the tavern refreshing
+everyone enjoying themselves in it. 
+~
+Flags 4
+Sector 0
+Reset M 93805 1 100
+Reset O 93806 10 100
+Reset O 93807 10 100
+Reset O 93805 25 100
+Door 0 3 0 93808 30 30
+~
+steel door~
+End
+
+#93811
+Name The Masturbaters Noteboard~
+Descr
+The Masturbaters Noteboard is stands here waiting for you to scribble
+upon. The large bulliten board stands tall in the room and is already filled
+with many interesting thoughts. It is cool as a swift breeze swings past the
+board and runs a tingle up your spine. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 93816 0 0
+~
+~
+Door 3 0 0 93808 0 0
+~
+~
+End
+
+#93812
+Name A Mystical Room of Reckoning~
+Cvnumh 142348200
+Cvnuml 142347112
+Descr
+You have entered a mystical room within the clanhouse. This room cleanses
+your wounds and tends to your body as a feeling of health surges through
+your veins. Strength and energy flows through your bloodstream enhancing
+your vitality. A huge statue of one of the healing Gods is here taking up
+much of the room. 
+~
+Flags2 2
+Sector 8
+Reset O 93810 -5 100
+Door 4 0 0 93815 0 0
+~
+~
+Door 5 0 0 93807 0 0
+~
+~
+End
+
+#93813
+Name A Magical Room of Reckoning~
+Cvnumh 142347112
+Cvnuml 142348064
+Descr
+You have entered a magical room within the clanhouse. This room cleanses
+your mind and tends to your body as a feeling of energy flows through your
+veins. Mind and energy flows through your bloodstream enhancing your
+vitality. A huge statue of one of the magi Gods is here taking up much of
+the room. 
+~
+Flags2 4
+Sector 8
+Reset O 93811 -5 100
+Door 4 0 0 93807 0 0
+~
+~
+Door 5 3 0 93814 30 30
+~
+~
+End
+
+#93814
+Name Below the Magical Room of Reckoning~
+Cvnumh 142347928
+Descr
+You have stumbled upon a secretive room within the clanhouse. This room
+is filled with water making it hard to breathe without some assistance. Your
+body is completely soaked as water covers you from your face to your feet. 
+~
+Sector 12
+Door 4 0 0 93813 0 0
+~
+~
+End
+
+#93815
+Name Above the Mystical Room of Reckoning~
+Cvnuml 142347792
+Descr
+Look You have travelled above the clanhouse into the midsts of the sky.
+It is bright and pleasant above the clanhouse as you soar throughout the air
+looking at where to go. 
+~
+Sector 15
+Door 5 0 0 93812 0 0
+~
+~
+End
+
+#93816
+Name A Mudders Path~
+Descr
+You are travelling down a Mudders Path. To travel this path you must be
+a true mudder. What is a true Mudder. Well, this question can be answered if
+very simply. Did you have to kill the guards to reach this path?  Only the
+true mudders are welcomed here, and if are not one of them, then you do not
+belong here and it is advised to go back!  PROCEED WITH CAUTION!!!!  
+~
+Door 0 3 0 93817 30 30
+~
+wooden door~
+Door 2 3 0 93818 30 30
+~
+wooden door~
+Door 3 0 0 93811 0 0
+~
+~
+End
+
+#93817
+Name The Loan Sharks House~
+Descr
+You have stumbled upon the clanhouses banker. The banker is here staying
+in his house waiting for someone to need his services. It is an elegant
+house as you look throughout your surroundings and realize how beautifully
+decorated it is. 
+~
+Flags 4
+Sector 0
+Reset M 93806 1 100
+Door 2 3 0 93816 30 30
+~
+wooden door~
+End
+
+#93818
+Name A Pawn Shop~
+Descr
+You have wandered into a Pawn Shop within the clanhouse. Various trinkets
+are being crafted and sould here. The room has a pleasant aroma as you take
+a deep breath. It is cool yet damp in the tiny little shack but overall it
+is an elegant little place to shop. 
+~
+Flags 4
+Sector 0
+Reset M 93807 1 100
+Reset O 93813 10 100
+Reset O 93812 25 100
+Reset O 93809 3 100
+Reset O 93808 3 100
+Door 0 3 0 93816 30 30
+~
+wooden door~
+End
+
+#0
+
+
+
+#$

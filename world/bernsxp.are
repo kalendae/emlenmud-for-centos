@@ -1,0 +1,3696 @@
+#AREADATA 
+Name A Black Sand Beach~
+Repop You hear the distant thunder of waves. 
+~
+SCZone 0
+Builders Bern~
+VNUMs 14001 14175
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#14175
+Name fire encased man~
+Short A fire encased man~
+Long 
+A fire encased man lies here guarding an ancient treasure.
+~
+AMax 1
+NHeight 0
+ActBits 10
+Affect_By 648
+AffectTWO 101187584
+Level 300
+Guard 0
+Spec spec_thief
+BCasts paralyze~
+BCast_P 90
+End
+
+#14001
+Name sand lizard monitor~
+Short a monitor~
+Long 
+A monitor is here searching for anything to eat.
+~
+Descr
+This massive lizard easily weighs in at 45 stones and looks to be about 3
+rods long from snout to tip of the tail. It looks to be hungry the way the
+drool is just pouring out of its mouth. Perhaps it would be better to just
+start running now. 
+~
+AMax 5
+NHeight 0
+ActBits 1053
+ActBits3 65536
+Affect_By 544
+AffectTWO 8
+Level 80
+MobType 20
+Hp 20
+Guard 0
+Spec spec_poison
+End
+
+#14002
+Name sand wevel~
+Short a sand wevel~
+Long 
+A sand wevel is here trying to hide from predators.
+~
+Descr
+This small furry creature resembles a cross between a rabbit and a rat.
+It lives in burrows along the junction of the mountain and the beach.
+Unfortunately for the wevel, they apparantly are quite tasty. 
+~
+AMax 6
+NHeight 0
+ActBits 17
+ActBits3 4259840
+Affect_By 512
+Level 20
+MobType 7
+Guard 0
+End
+
+#14003
+Name lemming rat~
+Short a lemming~
+Long 
+A lemming is here moving with the herd.
+~
+Descr
+Lemmings are known for being quite stupid. It would seem that they were
+never asked the age-old question, "If your friends jumped off a cliff would
+you go too?"  
+~
+AMax 5
+NHeight 0
+ActBits 16
+ActBits3 262144
+Level 10
+MobType 7
+Guard 0
+End
+
+#14004
+Name blackened scorpion sand~
+Short a sand scorpion~
+Long 
+A blackened scorpion is here looking for a bite to eat.
+~
+Descr
+This scorpian is very hard to see against the black sand of the beach.
+It is fairly large for a scorpian, looking to be at least 2 hands long.
+Better back off while you can before you aggrivate him. 
+~
+AMax 5
+NHeight 0
+ActBits 1049
+ActBits3 524288
+Affect_By 66048
+AffectTWO 8
+Level 20
+MobType 8
+Guard 0
+Spec spec_poison
+End
+
+#14005
+Name lemming lead rat~
+Short a lemming~
+Long 
+The lead lemming is here trying to round up the herd.
+~
+AMax 1
+NHeight 0
+ActBits 16
+Level 30
+MobType 7
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#14172
+Name packet sand beach~
+Short a small packet of [1m[33msand[0m~
+Descr
+Some small yellow crystals
+[0;36m~
+Type 13
+Wear 1
+Weight 1
+Cost 1
+End
+
+#14173
+Name dagger hatred apb 2apb~
+Short a [36mc[1mrystalize[0m[36md[0m dagger of [31mh[1ma[0m[31mt[1mr[0m[31me[1md[0m~
+Descr
+A rare and valued dagger is on the ground emitting hatred.
+[0;36m~
+Type 5
+Extra 33685506
+Wear 24577
+Values 0 0 0 11 0 0 0 10 2 0 0
+Weight 15
+Cost 3030
+Affect 19 2 1 0 0
+Affect 18 3 1 0 0
+Affect 13 10 1 0 0
+Affect 22 1 1 0 0
+End
+
+#14174
+Name eye ancient~
+Short an [36mE[1my[0m[36me[0m of the [34mA[1mn[0m[36mc[1mi[0m[36me[1m[34mn[0m[34mt[0m~
+Descr
+A very old eye radiating power lies on the ground here.
+[0;36m~
+Type 21
+Extra 33554434
+Wear 24577
+Values 30 60 70 70 0 0 0 0 0 0 0
+Weight 9
+Cost 348333
+End
+
+#14175
+Name shining shoulder courage apb 2apb~
+Short a [34ms[1mh[0m[36mi[1mn[0m[36mi[1m[34mn[0m[34mg[0m shoulderplate of [31mc[1mo[0m[31mu[1mr[0m[31ma[1mg[0m[31me[0m~
+Descr
+A shining shoulderplate lies on the ground here collecting dust.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 32769
+Values 3 3 3 3 0 0 0 0 0 0 0
+Weight 12
+Cost 7500
+Affect 19 2 1 0 0
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#14076
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14070 0 0
+~
+~
+Door 1 0 0 14077 0 0
+~
+~
+Door 2 0 0 14081 0 0
+~
+~
+End
+
+#14077
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14078 0 0
+~
+~
+Door 2 0 0 14080 0 0
+~
+~
+Door 3 0 0 14076 0 0
+~
+~
+End
+
+#14078
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 2 0 0 14079 0 0
+~
+~
+Door 3 0 0 14077 0 0
+~
+~
+End
+
+#14079
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14078 0 0
+~
+~
+Door 2 0 0 14108 0 0
+~
+~
+Door 3 0 0 14080 0 0
+~
+~
+End
+
+#14080
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14077 0 0
+~
+~
+Door 1 0 0 14079 0 0
+~
+~
+Door 3 0 0 14081 0 0
+~
+~
+End
+
+#14081
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14076 0 0
+~
+~
+Door 1 0 0 14080 0 0
+~
+~
+Door 3 0 0 14082 0 0
+~
+~
+End
+
+#14082
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Reset M 14001 1 100
+Door 1 0 0 14081 0 0
+~
+~
+Door 2 0 0 14087 0 0
+~
+~
+Door 3 0 0 14083 0 0
+~
+~
+End
+
+#14083
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 1 0 0 14082 0 0
+~
+~
+Door 2 0 0 14086 0 0
+~
+~
+Door 3 0 0 14084 0 0
+~
+~
+End
+
+#14084
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14075 0 0
+~
+~
+Door 1 0 0 14083 0 0
+~
+~
+Door 2 0 0 14804 0 0
+~
+~
+Door 3 0 0 14085 0 0
+~
+~
+End
+
+#14085
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14074 0 0
+~
+~
+Door 1 0 0 14084 0 0
+~
+~
+Door 2 0 0 14803 0 0
+~
+~
+Door 3 0 0 14801 0 0
+~
+~
+End
+
+#14086
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14083 0 0
+~
+~
+Door 1 0 0 14087 0 0
+~
+~
+Door 2 0 0 14089 0 0
+~
+~
+Door 3 0 0 14804 0 0
+~
+~
+End
+
+#14087
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14082 0 0
+~
+~
+Door 2 0 0 14088 0 0
+~
+~
+Door 3 0 0 14086 0 0
+~
+~
+End
+
+#14088
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14087 0 0
+~
+~
+Door 2 0 0 14091 0 0
+~
+~
+Door 3 0 0 14089 0 0
+~
+~
+End
+
+#14089
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14086 0 0
+~
+~
+Door 1 0 0 14088 0 0
+~
+~
+Door 2 0 0 14090 0 0
+~
+~
+Door 3 0 0 14845 0 0
+~
+~
+End
+
+#14090
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14089 0 0
+~
+~
+Door 1 0 0 14091 0 0
+~
+~
+Door 2 0 0 14092 0 0
+~
+~
+Door 3 0 0 14846 0 0
+~
+~
+End
+
+#14091
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14088 0 0
+~
+~
+Door 2 0 0 14093 0 0
+~
+~
+Door 3 0 0 14090 0 0
+~
+~
+End
+
+#14092
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14090 0 0
+~
+~
+Door 1 0 0 14093 0 0
+~
+~
+Door 2 0 0 14865 0 0
+~
+~
+Door 3 0 0 14847 0 0
+~
+~
+End
+
+#14093
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14091 0 0
+~
+~
+Door 1 0 0 14094 0 0
+~
+~
+Door 2 0 0 14866 0 0
+~
+~
+Door 3 0 0 14092 0 0
+~
+~
+End
+
+#14094
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Reset M 14004 1 100
+Door 1 0 0 14095 0 0
+~
+~
+Door 2 0 0 14109 0 0
+~
+~
+Door 3 0 0 14093 0 0
+~
+~
+End
+
+#14095
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14096 0 0
+~
+~
+Door 1 0 0 14097 0 0
+~
+~
+Door 2 0 0 14110 0 0
+~
+~
+Door 3 0 0 14094 0 0
+~
+~
+End
+
+#14096
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14098 0 0
+~
+~
+Door 2 0 0 14095 0 0
+~
+~
+End
+
+#14097
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14098 0 0
+~
+~
+Door 1 0 0 14099 0 0
+~
+~
+Door 3 0 0 14095 0 0
+~
+~
+End
+
+#14098
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14105 0 0
+~
+~
+Door 1 0 0 14100 0 0
+~
+~
+Door 2 0 0 14097 0 0
+~
+~
+Door 3 0 0 14096 0 0
+~
+~
+End
+
+#14099
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14100 0 0
+~
+~
+Door 1 0 0 14101 0 0
+~
+~
+Door 3 0 0 14097 0 0
+~
+~
+End
+
+#14100
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14106 0 0
+~
+~
+Door 1 0 0 14102 0 0
+~
+~
+Door 2 0 0 14099 0 0
+~
+~
+Door 3 0 0 14098 0 0
+~
+~
+End
+
+#14101
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14102 0 0
+~
+~
+Door 1 0 0 14103 0 0
+~
+~
+Door 2 0 0 14126 0 0
+~
+~
+Door 3 0 0 14099 0 0
+~
+~
+End
+
+#14102
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14104 0 0
+~
+~
+Door 2 0 0 14101 0 0
+~
+~
+Door 3 0 0 14100 0 0
+~
+~
+End
+
+#14103
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Reset M 14002 1 100
+Door 0 0 0 14104 0 0
+~
+~
+Door 3 0 0 14101 0 0
+~
+~
+End
+
+#14104
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 2 0 0 14103 0 0
+~
+~
+Door 3 0 0 14102 0 0
+~
+~
+End
+
+#14105
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14108 0 0
+~
+~
+Door 1 0 0 14106 0 0
+~
+~
+Door 2 0 0 14098 0 0
+~
+~
+End
+
+#14106
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14107 0 0
+~
+~
+Door 2 0 0 14100 0 0
+~
+~
+Door 3 0 0 14105 0 0
+~
+~
+End
+
+#14107
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 2 0 0 14106 0 0
+~
+~
+Door 3 0 0 14108 0 0
+~
+~
+End
+
+#14108
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14079 0 0
+~
+~
+Door 1 0 0 14107 0 0
+~
+~
+Door 2 0 0 14105 0 0
+~
+~
+End
+
+#14109
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14094 0 0
+~
+~
+Door 1 0 0 14110 0 0
+~
+~
+Door 2 0 0 14111 0 0
+~
+~
+Door 3 0 0 14866 0 0
+~
+~
+End
+
+#14110
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14095 0 0
+~
+~
+Door 2 0 0 14112 0 0
+~
+~
+Door 3 0 0 14109 0 0
+~
+~
+End
+
+#14111
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14109 0 0
+~
+~
+Door 1 0 0 14112 0 0
+~
+~
+Door 2 0 0 14871 0 0
+~
+~
+Door 3 0 0 14868 0 0
+~
+~
+End
+
+#14112
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14110 0 0
+~
+~
+Door 1 0 0 14113 0 0
+~
+~
+Door 2 0 0 14114 0 0
+~
+~
+Door 3 0 0 14111 0 0
+~
+~
+End
+
+#14113
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 2 0 0 14115 0 0
+~
+~
+Door 3 0 0 14112 0 0
+~
+~
+End
+
+#14114
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14112 0 0
+~
+~
+Door 1 0 0 14115 0 0
+~
+~
+Door 2 0 0 14116 0 0
+~
+~
+Door 3 0 0 14871 0 0
+~
+~
+End
+
+#14115
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14113 0 0
+~
+~
+Door 2 0 0 14117 0 0
+~
+~
+Door 3 0 0 14114 0 0
+~
+~
+End
+
+#14116
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14114 0 0
+~
+~
+Door 1 0 0 14117 0 0
+~
+~
+Door 2 0 0 14914 0 0
+~
+~
+Door 3 0 0 14900 0 0
+~
+~
+End
+
+#14117
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14115 0 0
+~
+~
+Door 2 0 0 14118 0 0
+~
+~
+Door 3 0 0 14116 0 0
+~
+~
+End
+
+#14118
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14117 0 0
+~
+~
+Door 1 0 0 14119 0 0
+~
+~
+Door 2 0 0 14128 0 0
+~
+~
+Door 3 0 0 14914 0 0
+~
+~
+End
+
+#14119
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 1 0 0 14120 0 0
+~
+~
+Door 2 0 0 14129 0 0
+~
+~
+Door 3 0 0 14118 0 0
+~
+~
+End
+
+#14120
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14121 0 0
+~
+~
+Door 3 0 0 14119 0 0
+~
+~
+End
+
+#14121
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14122 0 0
+~
+~
+Door 2 0 0 14127 0 0
+~
+~
+Door 3 0 0 14120 0 0
+~
+~
+End
+
+#14122
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14123 0 0
+~
+~
+Door 2 0 0 14121 0 0
+~
+~
+End
+
+#14123
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 2 0 0 14122 0 0
+~
+~
+Door 3 0 0 14124 0 0
+~
+~
+End
+
+#14124
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Reset M 14001 1 100
+Door 0 0 0 14125 0 0
+~
+~
+Door 1 0 0 14123 0 0
+~
+~
+End
+
+#14125
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14126 0 0
+~
+~
+Door 2 0 0 14124 0 0
+~
+~
+End
+
+#14126
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14101 0 0
+~
+~
+Door 2 0 0 14125 0 0
+~
+~
+End
+
+#14127
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14121 0 0
+~
+~
+Door 1 0 0 14132 0 0
+~
+~
+End
+
+#14128
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14118 0 0
+~
+~
+Door 1 0 0 14129 0 0
+~
+~
+Door 2 0 0 14130 0 0
+~
+~
+Door 3 0 0 14915 0 0
+~
+~
+End
+
+#14129
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Reset M 14004 1 100
+Door 0 0 0 14119 0 0
+~
+~
+Door 2 0 0 14131 0 0
+~
+~
+Door 3 0 0 14128 0 0
+~
+~
+End
+
+#14130
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14128 0 0
+~
+~
+Door 1 0 0 14131 0 0
+~
+~
+Door 2 0 0 14918 0 0
+~
+~
+Door 3 0 0 14916 0 0
+~
+~
+End
+
+#14131
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14129 0 0
+~
+~
+Door 2 0 0 14138 0 0
+~
+~
+Door 3 0 0 14130 0 0
+~
+~
+End
+
+#14132
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Reset M 14002 1 100
+Door 2 0 0 14133 0 0
+~
+~
+Door 3 0 0 14127 0 0
+~
+~
+End
+
+#14133
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14132 0 0
+~
+~
+Door 2 0 0 14134 0 0
+~
+~
+End
+
+#14134
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14133 0 0
+~
+~
+Door 1 0 0 14135 0 0
+~
+~
+Door 3 0 0 14136 0 0
+~
+~
+End
+
+#14135
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 2 0 0 14153 0 0
+~
+~
+Door 3 0 0 14134 0 0
+~
+~
+End
+
+#14136
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14134 0 0
+~
+~
+Door 2 0 0 14141 0 0
+~
+~
+Door 3 0 0 14137 0 0
+~
+~
+End
+
+#14137
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 1 0 0 14136 0 0
+~
+~
+Door 2 0 0 14140 0 0
+~
+~
+Door 3 0 0 14138 0 0
+~
+~
+End
+
+#14138
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14131 0 0
+~
+~
+Door 1 0 0 14137 0 0
+~
+~
+Door 2 0 0 14139 0 0
+~
+~
+Door 3 0 0 14918 0 0
+~
+~
+End
+
+#14139
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14138 0 0
+~
+~
+Door 1 0 0 14140 0 0
+~
+~
+Door 2 0 0 14142 0 0
+~
+~
+Door 3 0 0 14928 0 0
+~
+~
+End
+
+#14140
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14137 0 0
+~
+~
+Door 1 0 0 14141 0 0
+~
+~
+Door 2 0 0 14143 0 0
+~
+~
+Door 3 0 0 14139 0 0
+~
+~
+End
+
+#14141
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Reset M 14001 1 100
+Door 0 0 0 14136 0 0
+~
+~
+Door 3 0 0 14140 0 0
+~
+~
+End
+
+#14142
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14139 0 0
+~
+~
+Door 1 0 0 14143 0 0
+~
+~
+Door 2 0 0 14937 0 0
+~
+~
+Door 3 0 0 14929 0 0
+~
+~
+End
+
+#14143
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14140 0 0
+~
+~
+Door 2 0 0 14144 0 0
+~
+~
+Door 3 0 0 14142 0 0
+~
+~
+End
+
+#14144
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14143 0 0
+~
+~
+Door 1 0 0 14145 0 0
+~
+~
+Door 2 0 0 14939 0 0
+~
+~
+Door 3 0 0 14937 0 0
+~
+~
+End
+
+#14145
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 2 0 0 14146 0 0
+~
+~
+Door 3 0 0 14144 0 0
+~
+~
+End
+
+#14146
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14145 0 0
+~
+~
+Door 1 0 0 14147 0 0
+~
+~
+Door 2 0 0 14154 0 0
+~
+~
+Door 3 0 0 14939 0 0
+~
+~
+End
+
+#14147
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 1 0 0 14148 0 0
+~
+~
+Door 2 0 0 14155 0 0
+~
+~
+Door 3 0 0 14146 0 0
+~
+~
+End
+
+#14148
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14151 0 0
+~
+~
+Door 1 0 0 14149 0 0
+~
+~
+Door 3 0 0 14147 0 0
+~
+~
+End
+
+#14149
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14150 0 0
+~
+~
+Door 2 0 0 14173 0 0
+~
+~
+Door 3 0 0 14148 0 0
+~
+~
+End
+
+#14150
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Reset M 14002 1 100
+Door 2 0 0 14149 0 0
+~
+~
+Door 3 0 0 14151 0 0
+~
+~
+End
+
+#14151
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14152 0 0
+~
+~
+Door 1 0 0 14150 0 0
+~
+~
+Door 2 0 0 14148 0 0
+~
+~
+End
+
+#14152
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14153 0 0
+~
+~
+Door 2 0 0 14151 0 0
+~
+~
+End
+
+#14153
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14135 0 0
+~
+~
+Door 2 0 0 14152 0 0
+~
+~
+End
+
+#14154
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14146 0 0
+~
+~
+Door 1 0 0 14155 0 0
+~
+~
+Door 2 0 0 14156 0 0
+~
+~
+Door 3 0 0 14945 0 0
+~
+~
+End
+
+#14155
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14147 0 0
+~
+~
+Door 2 0 0 14157 0 0
+~
+~
+Door 3 0 0 14154 0 0
+~
+~
+End
+
+#14156
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14154 0 0
+~
+~
+Door 1 0 0 14157 0 0
+~
+~
+Door 2 0 0 14950 0 0
+~
+~
+Door 3 0 0 14946 0 0
+~
+~
+End
+
+#14157
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14155 0 0
+~
+~
+Door 1 0 0 14158 0 0
+~
+~
+Door 2 0 0 14159 0 0
+~
+~
+Door 3 0 0 14156 0 0
+~
+~
+End
+
+#14158
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Reset M 14004 1 100
+Door 2 0 0 14160 0 0
+~
+~
+Door 3 0 0 14157 0 0
+~
+~
+End
+
+#14159
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14157 0 0
+~
+~
+Door 1 0 0 14160 0 0
+~
+~
+Door 2 0 0 14161 0 0
+~
+~
+Door 3 0 0 14950 0 0
+~
+~
+End
+
+#14160
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14158 0 0
+~
+~
+Door 2 0 0 14162 0 0
+~
+~
+Door 3 0 0 14159 0 0
+~
+~
+End
+
+#14161
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14159 0 0
+~
+~
+Door 1 0 0 14162 0 0
+~
+~
+Door 2 0 0 14163 0 0
+~
+~
+Door 3 0 0 14951 0 0
+~
+~
+End
+
+#14162
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14160 0 0
+~
+~
+Door 2 0 0 14164 0 0
+~
+~
+Door 3 0 0 14161 0 0
+~
+~
+End
+
+#14163
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14161 0 0
+~
+~
+Door 1 0 0 14164 0 0
+~
+~
+Door 3 0 0 14952 0 0
+~
+~
+End
+
+#14164
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14162 0 0
+~
+~
+Door 1 0 0 14165 0 0
+~
+~
+Door 3 0 0 14163 0 0
+~
+~
+End
+
+#14165
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14166 0 0
+~
+~
+Door 3 0 0 14164 0 0
+~
+~
+End
+
+#14166
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Reset M 14002 1 100
+Door 0 0 0 14167 0 0
+~
+~
+Door 3 0 0 14165 0 0
+~
+~
+End
+
+#14167
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14168 0 0
+~
+~
+Door 2 0 0 14166 0 0
+~
+~
+End
+
+#14168
+Name A Beach of Black Sand~
+Descr
+To the east the mountain passage climbs precariously up the mountain
+side. The west has only a cold, wet wind and sand dunes to great you. The
+black sand seems to suck the sun from the sky leaving only clouds and an
+intolerably hot surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14169 0 0
+~
+~
+Door 1 0 0 17699 0 0
+~
+~
+Door 3 0 0 14167 0 0
+~
+~
+End
+
+#14169
+Name A Beach of Black Sand~
+Descr
+To the east the mountain passage climbs precariously up the mountain
+side. The west has only a cold, wet wind and sand dunes to great you. The
+black sand seems to suck the sun from the sky leaving only clouds and an
+intolerably hot surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14170 0 0
+~
+~
+Door 1 0 0 17581 0 0
+~
+~
+Door 2 0 0 14168 0 0
+~
+~
+End
+
+#14170
+Name A Beach of Black Sand~
+Descr
+To the east the mountain passage climbs precariously up the mountain
+side. The west has only a cold, wet wind and sand dunes to great you. The
+black sand seems to suck the sun from the sky leaving only clouds and an
+intolerably hot surface to walk on. 
+~
+Sector 25
+Door 1 0 0 17700 0 0
+~
+~
+Door 2 0 0 14169 0 0
+~
+~
+Door 3 0 0 14171 0 0
+~
+~
+End
+
+#14171
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14172 0 0
+~
+~
+Door 1 0 0 14170 0 0
+~
+~
+End
+
+#14172
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 2 0 0 14171 0 0
+~
+~
+Door 3 0 0 14173 0 0
+~
+~
+End
+
+#14173
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14149 0 0
+~
+~
+Door 1 0 0 14172 0 0
+~
+~
+End
+
+#14175
+Name The Hidden Treasure Room of Blackspire~
+Descr
+Here lies a hidden treasure room guarded by a strong foe. If you want
+this valued treasure I suggest bring more then just yoruself. 
+~
+Door 2 263 54343 9136 90 90
+~
+treasureroom~
+End
+
+#14001
+Name An Opening in the Mountain~
+Descr
+To the west there appears to be a cave leading into the mountain. Judging
+from the tracks on the ground outside the cave it appears to be well
+traveled. As you look to the east the gates of the mighty city of Malos rise
+to the sky. 
+~
+Sector 31
+Door 1 0 0 11734 0 0
+~
+~
+Door 3 0 0 14002 0 0
+~
+~
+End
+
+#14002
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 1 0 0 14001 0 0
+~
+~
+Door 2 0 0 14003 0 0
+~
+~
+End
+
+#14003
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14002 0 0
+~
+~
+Door 2 0 0 14004 0 0
+~
+~
+End
+
+#14004
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14003 0 0
+~
+~
+Door 2 0 0 14005 0 0
+~
+~
+End
+
+#14005
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14004 0 0
+~
+~
+Door 3 0 0 14006 0 0
+~
+~
+End
+
+#14006
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 1 0 0 14005 0 0
+~
+~
+Door 2 0 0 14007 0 0
+~
+~
+End
+
+#14007
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14006 0 0
+~
+~
+Door 5 0 0 14008 0 0
+~
+~
+End
+
+#14008
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 3 0 0 14009 0 0
+~
+~
+Door 4 0 0 14007 0 0
+~
+~
+End
+
+#14009
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14010 0 0
+~
+~
+Door 1 0 0 14008 0 0
+~
+~
+End
+
+#14010
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14011 0 0
+~
+~
+Door 2 0 0 14009 0 0
+~
+~
+End
+
+#14011
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14012 0 0
+~
+~
+Door 2 0 0 14010 0 0
+~
+~
+End
+
+#14012
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 2 0 0 14011 0 0
+~
+~
+Door 3 0 0 14013 0 0
+~
+~
+End
+
+#14013
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14014 0 0
+~
+~
+Door 1 0 0 14012 0 0
+~
+~
+End
+
+#14014
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 2 0 0 14013 0 0
+~
+~
+Door 5 0 0 14015 0 0
+~
+~
+End
+
+#14015
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14016 0 0
+~
+~
+Door 4 0 0 14014 0 0
+~
+~
+End
+
+#14016
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14017 0 0
+~
+~
+Door 2 0 0 14015 0 0
+~
+~
+End
+
+#14017
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 2 0 0 14016 0 0
+~
+~
+Door 3 0 0 14018 0 0
+~
+~
+End
+
+#14018
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14019 0 0
+~
+~
+Door 1 0 0 14017 0 0
+~
+~
+End
+
+#14019
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 2 0 0 14018 0 0
+~
+~
+Door 5 0 0 14020 0 0
+~
+~
+End
+
+#14020
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 1 0 0 14021 0 0
+~
+~
+Door 4 0 0 14019 0 0
+~
+~
+End
+
+#14021
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 2 0 0 14022 0 0
+~
+~
+Door 3 0 0 14020 0 0
+~
+~
+End
+
+#14022
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14021 0 0
+~
+~
+Door 2 0 0 14023 0 0
+~
+~
+End
+
+#14023
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 0 0 0 14022 0 0
+~
+~
+Door 1 0 0 14024 0 0
+~
+~
+End
+
+#14024
+Name A Narrow Passage~
+Descr
+This narrow passage-way is unlike any other you have been in before. It
+seems to almost be perfect in shape and the rock all around you is
+completely smooth. Magic must have played a hand in its creation long ago.
+Judging from the litter scattered around the passage it must be a well used
+route through the mountain. 
+~
+Sector 40
+Door 2 0 0 14025 0 0
+~
+~
+Door 3 0 0 14023 0 0
+~
+~
+End
+
+#14025
+Name A Small Crevice in the Mountain Side~
+Descr
+When looking to the north, you notice a small opening in the mountain.
+The passage seems to be at an incline up into the mountain. To the south the
+beach appears to great you with its dismal grey sky and cold harsh breeze. 
+~
+Sector 25
+Door 0 0 0 14024 0 0
+~
+~
+Door 2 0 0 14026 0 0
+~
+~
+End
+
+#14026
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14025 0 0
+~
+~
+Door 1 0 0 14027 0 0
+~
+~
+Door 2 0 0 14028 0 0
+~
+~
+Door 3 0 0 14029 0 0
+~
+~
+End
+
+#14027
+Name An Eroded Crack~
+Descr
+The wind, rain, and coarse sand have eroded a portion of the
+mountain-side. Rock walls surround the protected enclave and offer some
+protection from the elements. A glance up shows only shear rock walls that
+stretch as far up as the eye can see. 
+~
+Sector 25
+Reset M 14002 1 100
+Door 3 0 0 14026 0 0
+~
+~
+End
+
+#14028
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14026 0 0
+~
+~
+End
+
+#14029
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand to great you. The black sand seems to
+suck the sun from the sky leaving only clouds and a hot surface to walk on.
+To the east the mountains seem to climb to the blue-grey sky. The west has
+only a cold, wet wind and sand dunes to great you. The black sand seems to
+suck the sun from the sky leaving only clouds and an intolerably hot surface
+to walk on. 
+~
+Sector 25
+Door 1 0 0 14026 0 0
+~
+~
+Door 3 0 0 14030 0 0
+~
+~
+End
+
+#14030
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14029 0 0
+~
+~
+Door 2 0 0 14031 0 0
+~
+~
+Door 3 0 0 14032 0 0
+~
+~
+End
+
+#14031
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14030 0 0
+~
+~
+Door 3 0 0 14033 0 0
+~
+~
+End
+
+#14032
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14034 0 0
+~
+~
+Door 1 0 0 14030 0 0
+~
+~
+Door 2 0 0 14033 0 0
+~
+~
+End
+
+#14033
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Reset M 14001 1 100
+Door 0 0 0 14032 0 0
+~
+~
+Door 1 0 0 14031 0 0
+~
+~
+Door 2 0 0 14055 0 0
+~
+~
+Door 3 0 0 14039 0 0
+~
+~
+End
+
+#14034
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14035 0 0
+~
+~
+Door 2 0 0 14032 0 0
+~
+~
+End
+
+#14035
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 2 0 0 14034 0 0
+~
+~
+Door 3 0 0 14036 0 0
+~
+~
+End
+
+#14036
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14037 0 0
+~
+~
+Door 1 0 0 14035 0 0
+~
+~
+End
+
+#14037
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14038 0 0
+~
+~
+Door 2 0 0 14036 0 0
+~
+~
+End
+
+#14038
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. Further passage north is impared by a meeting of the
+sand dune and mountain side. 
+~
+Sector 25
+Reset M 14002 1 100
+Door 2 0 0 14037 0 0
+~
+~
+End
+
+#14039
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14033 0 0
+~
+~
+Door 2 0 0 14056 0 0
+~
+~
+Door 3 0 0 14040 0 0
+~
+~
+End
+
+#14040
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14042 0 0
+~
+~
+Door 1 0 0 14039 0 0
+~
+~
+Door 2 0 0 14057 0 0
+~
+~
+Door 3 0 0 14041 0 0
+~
+~
+End
+
+#14041
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14043 0 0
+~
+~
+Door 1 0 0 14040 0 0
+~
+~
+Door 2 0 0 14746 0 0
+~
+~
+Door 3 0 0 14744 0 0
+~
+~
+End
+
+#14042
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 2 0 0 14040 0 0
+~
+~
+Door 3 0 0 14043 0 0
+~
+~
+End
+
+#14043
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 1 0 0 14042 0 0
+~
+~
+Door 2 0 0 14041 0 0
+~
+~
+Door 3 0 0 14044 0 0
+~
+~
+End
+
+#14044
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14045 0 0
+~
+~
+Door 1 0 0 14043 0 0
+~
+~
+Door 2 0 0 14744 0 0
+~
+~
+Door 3 0 0 14688 0 0
+~
+~
+End
+
+#14045
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14046 0 0
+~
+~
+Door 2 0 0 14044 0 0
+~
+~
+Door 3 0 0 14687 0 0
+~
+~
+End
+
+#14046
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14048 0 0
+~
+~
+Door 1 0 0 14047 0 0
+~
+~
+Door 2 0 0 14045 0 0
+~
+~
+Door 3 0 0 14686 0 0
+~
+~
+End
+
+#14047
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Reset M 14004 1 100
+Door 3 0 0 14046 0 0
+~
+~
+End
+
+#14048
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14049 0 0
+~
+~
+Door 2 0 0 14046 0 0
+~
+~
+Door 3 0 0 14685 0 0
+~
+~
+End
+
+#14049
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14051 0 0
+~
+~
+Door 1 0 0 14050 0 0
+~
+~
+Door 2 0 0 14048 0 0
+~
+~
+Door 3 0 0 14684 0 0
+~
+~
+End
+
+#14050
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14052 0 0
+~
+~
+Door 3 0 0 14049 0 0
+~
+~
+End
+
+#14051
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14054 0 0
+~
+~
+Door 1 0 0 14052 0 0
+~
+~
+Door 2 0 0 14049 0 0
+~
+~
+Door 3 0 0 14683 0 0
+~
+~
+End
+
+#14052
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 1 0 0 14053 0 0
+~
+~
+Door 2 0 0 14050 0 0
+~
+~
+Door 3 0 0 14051 0 0
+~
+~
+End
+
+#14053
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. Furter passage is blocked by a junction of sand dune and
+mountain. 
+~
+Flags 32
+Sector 47
+Door 3 0 0 14052 0 0
+~
+~
+End
+
+#14054
+Name A Beach of Black Sand~
+Descr
+The beach has ended here and given way to the mountain as they both meet
+the sea. The icy waters seem to sing with enjoyment as they slap the
+mountain side and slowly work at devouring it. 
+~
+Sector 25
+Door 2 0 0 14051 0 0
+~
+~
+Door 3 0 0 14682 0 0
+~
+~
+End
+
+#14055
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14033 0 0
+~
+~
+Door 2 0 0 14059 0 0
+~
+~
+Door 3 0 0 14056 0 0
+~
+~
+End
+
+#14056
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14039 0 0
+~
+~
+Door 1 0 0 14055 0 0
+~
+~
+Door 3 0 0 14057 0 0
+~
+~
+End
+
+#14057
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14040 0 0
+~
+~
+Door 1 0 0 14056 0 0
+~
+~
+Door 2 0 0 14058 0 0
+~
+~
+Door 3 0 0 14746 0 0
+~
+~
+End
+
+#14058
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14057 0 0
+~
+~
+Door 2 0 0 14064 0 0
+~
+~
+Door 3 0 0 14773 0 0
+~
+~
+End
+
+#14059
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14055 0 0
+~
+~
+Door 1 0 0 14060 0 0
+~
+~
+Door 2 0 0 14062 0 0
+~
+~
+End
+
+#14060
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 2 0 0 14061 0 0
+~
+~
+Door 3 0 0 14059 0 0
+~
+~
+End
+
+#14061
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14060 0 0
+~
+~
+Door 1 0 0 14065 0 0
+~
+~
+Door 3 0 0 14062 0 0
+~
+~
+End
+
+#14062
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Reset M 14004 1 100
+Door 0 0 0 14059 0 0
+~
+~
+Door 1 0 0 14061 0 0
+~
+~
+Door 2 0 0 14072 0 0
+~
+~
+Door 3 0 0 14063 0 0
+~
+~
+End
+
+#14063
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 1 0 0 14062 0 0
+~
+~
+Door 2 0 0 14073 0 0
+~
+~
+Door 3 0 0 14064 0 0
+~
+~
+End
+
+#14064
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14058 0 0
+~
+~
+Door 1 0 0 14063 0 0
+~
+~
+Door 2 0 0 14799 0 0
+~
+~
+Door 3 0 0 14774 0 0
+~
+~
+End
+
+#14065
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14066 0 0
+~
+~
+Door 2 0 0 14071 0 0
+~
+~
+Door 3 0 0 14061 0 0
+~
+~
+End
+
+#14066
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14067 0 0
+~
+~
+Door 2 0 0 14070 0 0
+~
+~
+Door 3 0 0 14065 0 0
+~
+~
+End
+
+#14067
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 1 0 0 14068 0 0
+~
+~
+Door 2 0 0 14066 0 0
+~
+~
+End
+
+#14068
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14069 0 0
+~
+~
+Door 3 0 0 14067 0 0
+~
+~
+End
+
+#14069
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. Further passage north is impared by a meeting of the
+sand dune and the mountain. 
+~
+Sector 25
+Reset M 14005 1 100
+Reset M 14003 1 100
+Reset M 14003 1 100
+Reset M 14003 1 100
+Reset M 14003 1 100
+Reset M 14003 1 100
+Door 2 0 0 14068 0 0
+~
+~
+End
+
+#14070
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14066 0 0
+~
+~
+Door 2 0 0 14076 0 0
+~
+~
+Door 3 0 0 14071 0 0
+~
+~
+End
+
+#14071
+Name A Beach of Black Sand~
+Descr
+To the east the mountains seem to climb to the blue-grey sky. The west
+has only a cold, wet wind and sand dunes to great you. The black sand seems
+to suck the sun from the sky leaving only clouds and an intolerably hot
+surface to walk on. 
+~
+Sector 25
+Door 0 0 0 14065 0 0
+~
+~
+Door 1 0 0 14070 0 0
+~
+~
+End
+
+#14072
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14062 0 0
+~
+~
+Door 2 0 0 14075 0 0
+~
+~
+Door 3 0 0 14073 0 0
+~
+~
+End
+
+#14073
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14063 0 0
+~
+~
+Door 1 0 0 14072 0 0
+~
+~
+Door 2 0 0 14074 0 0
+~
+~
+Door 3 0 0 14799 0 0
+~
+~
+End
+
+#14074
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14073 0 0
+~
+~
+Door 1 0 0 14075 0 0
+~
+~
+Door 2 0 0 14085 0 0
+~
+~
+Door 3 0 0 14800 0 0
+~
+~
+End
+
+#14075
+Name A Beach of Black Sand~
+Descr
+To the east the sand dunes partially block the view of the grand
+mountains ascending to the sky. The waves of the Sea of Solitude crash
+against the beach dragging anything on it out away from land. The water
+looks inviting at first, but the spray from the waves signals that the water
+is icy cold. 
+~
+Sector 25
+Door 0 0 0 14072 0 0
+~
+~
+Door 2 0 0 14084 0 0
+~
+~
+Door 3 0 0 14074 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

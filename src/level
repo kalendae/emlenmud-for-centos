@@ -1,0 +1,3065 @@
+alien.c:    if (!IS_SET(ch->pcdata->augments, oldnum))
+alien.c:    if (IS_SET(race_info[ch->pcdata->race].nat_augments, oldnum))
+alien.c:    if (IS_SET(align_info[ch->pcdata->alignment].nat_augments, oldnum))
+alien.c:    if (ch->pcdata->bank < 5000)
+alien.c:    ch->pcdata->bank -= 5000;
+alien.c:    REMOVE_BIT(ch->pcdata->augments, oldnum);
+alien.c:    SET_BIT(ch->pcdata->augments, newnum);
+alien.c:if (ch->pcdata->remort_times < pow.augment_cost[num][0])
+alien.c:    sprintf(buf, "You need %d remorts to get this augment and you only have %d.\n\r", pow.augment_cost[num][0], ch->pcdata->remort_times);
+alien.c:if (ch->pcdata->warpoints < pow.augment_cost[num][3])
+alien.c:    sprintf(buf, "You need %d warpoints to get this augment and you only have %ld.\n\r", pow.augment_cost[num][3], ch->pcdata->warpoints);
+alien.c:if (ch->pcdata->killpoints < pow.augment_cost[num][4])
+alien.c:    sprintf(buf, "You need %d killpoints to get this augment and you only have %d.\n\r", pow.augment_cost[num][4], ch->pcdata->killpoints);
+alien.c:ch->pcdata->warpoints -= pow.augment_cost[num][3];
+alien.c:ch->pcdata->killpoints -= pow.augment_cost[num][4];
+alien.c:ch->pcdata->augments ^= augment_flagss[num_wanted].flagname;
+alien.c:  augment = ch->pcdata->augments;
+alien.c:    int augment = ch->pcdata->augments;
+alien.c:	    !IS_SET(race_info[ch->pcdata->race].nat_augments,augment_flagss[i].flagname) &&
+alien.c:	    !IS_SET(align_info[ch->pcdata->alignment].nat_augments,augment_flagss[i].flagname))
+alien.c:	  sprintf(buf, "-->You are level %d, with %d remorts, %ld warpoints, and %d killpoints.\n\r", LEVEL(ch), ch->pcdata->remort_times, ch->pcdata->warpoints, ch->pcdata->killpoints);
+alien.c:  if (pow.max_remorts == 1 && ch->pcdata->remort_times > 0)
+alien.c:  if (ch->pcdata->remort_times >= pow.max_remorts)
+alien.c:      ch->pcdata->race < 11) ||
+alien.c:      ch->pcdata->race > 10))
+alien.c:		if (ch->pcdata->remort_times > 1)
+alien.c:			if(ch->pcdata->stat[k] > race_info[ch->pcdata->race].limits[k])
+alien.c:			   i += ch->pcdata->stat[k] - race_info[ch->pcdata->race].limits[k];  
+alien.c:	                   ch->pcdata->stat[k] = race_info[ch->pcdata->race].limits[k];
+alien.c:			   l = race_info[ch->pcdata->race].limits[k] - ch->pcdata->stat[k];
+alien.c:			     ch->pcdata->stat[k] += l;
+alien.c:			     ch->pcdata->stat[k] += i;
+alien.c:	  if (ch->pcdata->stat[i] + tmp_stat[i] > 36)
+alien.c:	    ch->pcdata->stat[guild_data[i].stat_modified]--;
+alien.c:	  if ((ch->pcdata->stat[i] + tmp_stat[i]) > 
+alien.c:	      (race_info[ch->pcdata->race].limits[i]+
+alien.c:         align_info[ch->pcdata->alignment].limits[i]))
+alien.c:	            ch->pcdata->stat[guild_data[i].stat_modified]++;
+alien.c:	    ch->pcdata->stat[guild_data[i].stat_modified]++;
+alien.c:	ch->pcdata->stat[i] += tmp_stat[i];
+alien.c:    SET_BIT (ch->pcdata->augments, augment_flagss[augmented].flagname);
+alien.c:  ch->pcdata->level = 1;
+alien.c:  ch->pcdata->voting_on = 0;
+alien.c:  ch->pcdata->deaths =0;
+alien.c:  ch->pcdata->practice = 10;
+alien.c:  ch->pcdata->learn = 2;
+alien.c:  ch->pcdata->remort_times++; 
+alien.c:      ch->pcdata->learned[k] = -100;
+alien.c:      sprintf (workstr, "This is remort number \x1B[1;37m%d\x1B[37;0m for your character!\n\r", ch->pcdata->remort_times);
+alien.c:      if (ch->pcdata->remort_times == 2)
+alien.c:      if (ch->pcdata->remort_times == 5)
+alien.c:  max_remort_times[ch->pcdata->alignment] = 
+alien.c:   UMAX(max_remort_times[ch->pcdata->alignment], ch->pcdata->remort_times);
+alien.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_warcry] < 50)
+alien.c:  if (IS_PLAYER(ch) && (number_percent() > ch->pcdata->learned[gsn_warcry]))
+ansi_out.c:      if (!IS_SET (ch->pcdata->act2, PLR_ANSI) && !IS_SET (ch->pcdata->act2, PLR_VT100))
+ansi_out.c:      else if (IS_SET (ch->pcdata->act2, PLR_VT100) && !IS_SET (ch->pcdata->act2, PLR_ANSI))
+ansi_out.c:      if (type > 3 && to->pcdata->no_spam == 1) 
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI)
+ansi_out.c:		      || IS_SET (to->pcdata->act2, PLR_VT100))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI)
+ansi_out.c:		      || IS_SET (to->pcdata->act2, PLR_VT100))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI)
+ansi_out.c:		      || IS_SET (to->pcdata->act2, PLR_VT100))
+ansi_out.c:		  if (IS_SET (to->pcdata->act2, PLR_ANSI)
+ansi_out.c:		      || IS_SET (to->pcdata->act2, PLR_VT100))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI)
+ansi_out.c:		  || IS_SET (to->pcdata->act2, PLR_VT100))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI)
+ansi_out.c:		  || IS_SET (to->pcdata->act2, PLR_VT100))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI)
+ansi_out.c:		  || IS_SET (to->pcdata->act2, PLR_VT100))
+ansi_out.c:	      if (IS_SET (to->pcdata->act2, PLR_ANSI)
+ansi_out.c:		  || IS_SET (to->pcdata->act2, PLR_VT100))
+ar.c:    if (ch->pcdata->voting_on == 998 || PHUNTING(ch) != NULL)
+ar.c:  if (IS_PLAYER (ch) && ch->pcdata->learned[gsn_track] < 3 && !is_member (ch, GUILD_RANGER))
+ar.c:	  ch->pcdata->voting_on = 0;
+ar.c:	  ch->pcdata->voting_on = 0;
+ar.c:		  ch->pcdata->voting_on = 0;
+ar.c:		  ch->pcdata->voting_on = 0;
+ar.c:	      ch->pcdata->tickcounts = 9;
+ar.c:	      ch->pcdata->voting_on = 999;
+ar.c:	      ch->pcdata->voting_on = 0;
+ar.c:	      ch->pcdata->voting_on = 0;
+ar.c:	      ch->pcdata->voting_on = 0;
+ar.c:   ch->pcdata->voting_on=0;
+ar.c:      ch->pcdata->tickcounts = 9;
+ar.c:      ch->pcdata->voting_on = 999;
+ar.c:  if (IS_PLAYER (ch) && ch->pcdata->learned[gsn_track] < 3 && !is_member (ch, GUILD_RANGER))
+ar.c:      (ch->pcdata->learned[gsn_track] < number_range (0, 50) && !is_member (ch, GUILD_RANGER)))
+ar.c:   ch->pcdata->voting_on=0;
+ar.c:		  ch->pcdata->voting_on = 0;
+ar.c:   ch->pcdata->voting_on=0;
+ar.c:   ch->pcdata->voting_on=0;
+ar.c:   (ch->pcdata->learned[gsn_track]<number_range(0,90) && !is_member(ch,GUILD_RANGER)))
+ar.c:	  if (IS_MOB (ch) && IS_MOB (vict) && !IS_SET (ch->pcdata->act3, ACT3_MUTE) &&
+arena.c:  if (ch->pcdata->bgf)
+arena.c:      ch->pcdata->bgf = FALSE;
+arena.c:  ch->pcdata->bgf = TRUE;
+arena.c:      victim->pcdata->bank += biddata.bids[k];
+arena.c:    winner->pcdata->no_quit_pk = 0;
+arena.c:    loser->pcdata->no_quit_pk = 0;
+arena.c:    winner->pcdata->challenge_time = 12;
+arena.c:    loser->pcdata->challenge_time = 12;
+arena.c:      /*temp->pcdata->bank-=biddata.bids[k]; */
+arena.c:	  temp->pcdata->bank += share;
+arena.c:      ch->pcdata->arena_msg = TRUE;
+arena.c:      ch->pcdata->arena_msg = FALSE;
+arena.c:      ch->pcdata->bank += biddata.bids[kkkk];
+arena.c:  if (bet < 1 || bet > ch->pcdata->bank)
+arena.c:      ch->pcdata->bank += biddata.bids[kkkk];
+arena.c:  ch->pcdata->bank -= bet;
+arena.c:  if (!ch->pcdata->challenged_by)
+arena.c:  strcpy (tempstr, ch->pcdata->challenged_by);
+arena.c:      sprintf (buf, "\x1B[1;37mYou have been challenged by \x1B[32m%s\x1B[37m.\x1B[37;0m Type ACCEPT YES to accept the challenge.\n\r", ch->pcdata->challenged_by);
+arena.c:      if (ch->pcdata->challenged_by)
+arena.c:	free_string (ch->pcdata->challenged_by);
+arena.c:      ch->pcdata->challenged_by = NULL;
+arena.c:  if (ch->pcdata->challenged_by)
+arena.c:      free_string (ch->pcdata->challenged_by);
+arena.c:      ch->pcdata->challenged_by = NULL;
+arena.c:  victim->pcdata->challenge_time = 0;
+arena.c:  if (!ch->pcdata->challenged_by)
+arena.c:  strcpy (tempstr, ch->pcdata->challenged_by);
+arena.c:      sprintf (buf, "\x1B[1;37mYou have been challenged by \x1B[32m%s\x1B[37m.\x1B[37;0m Type DECLINE YES to decline the challenge.\n\r", ch->pcdata->challenged_by);
+arena.c:      if (ch->pcdata->challenged_by)
+arena.c:	free_string (ch->pcdata->challenged_by);
+arena.c:      ch->pcdata->challenged_by = NULL;
+arena.c:  if (ch->pcdata->challenged_by)
+arena.c:    free_string (ch->pcdata->challenged_by);
+arena.c:  ch->pcdata->challenged_by = NULL;
+arena.c:  victim->pcdata->challenge_time = 0;
+arena.c:      /* if (ch->pcdata->challenge_on) 
+arena.c:         ch->pcdata->challenge_on=FALSE; 
+arena.c:         ch->pcdata->challenge_on=TRUE;
+arena.c:      ch->pcdata->challenge_on = TRUE;
+arena.c:      ch->pcdata->challenge_on = FALSE;
+arena.c:  if (ch->pcdata->challenge_on == FALSE)
+arena.c:  if (victim->pcdata->challenge_on == FALSE)
+arena.c:  if (victim->pcdata->challenged_by && argy != "" && argy[0] != '\0' && !str_cmp (argy, "cancel") && !str_cmp (NAME (ch), victim->pcdata->challenged_by))
+arena.c:      if (victim->pcdata->challenged_by)
+arena.c:	  free_string (victim->pcdata->challenged_by);
+arena.c:	  victim->pcdata->challenged_by = NULL;
+arena.c:      ch->pcdata->challenge_time = 0;
+arena.c:  if (ch->pcdata->challenge_time > 0)
+arena.c:  if (ch->pcdata->no_quit_pk > 0)
+arena.c:  if (victim->pcdata->no_quit_pk > 0)
+arena.c:  ch->pcdata->challenge_time = 5;
+arena.c:  if (victim->pcdata->challenged_by)
+arena.c:      free_string (victim->pcdata->challenged_by);
+arena.c:      victim->pcdata->challenged_by = NULL;
+arena.c:  victim->pcdata->challenged_by = str_dup (NAME (ch));
+armor.c:  i += ch->pcdata->armor[hit_loc -1];
+auction.c:  REMOVE_BIT(ch->pcdata->deaf, CHANNEL_AUCTION);
+auction.c:	  if (bid < auct->minbid || bid < auct->bid + 100 || ch->pcdata->bank < bid + prevbids)
+auction.c:  if (IS_SET (ch->pcdata->deaf, CHANNEL_AUCTION))
+auction.c:  if (pow.auction_lag && ch->pcdata->no_quit_pk > 0) 
+auction.c:              ch->pcdata->auction_count += 50;
+auction.c:              if (ch->pcdata->auction_count > 400)
+auction.c:  if (ch->pcdata->bank < tobj->cost/7)
+auction.c:  ch->pcdata->bank -= tobj->cost/7;
+auction.c:  ch->pcdata->listen_auction = TRUE;
+auction.c:  ch->pcdata->auction_count += 50;
+auction.c:  if (ch->pcdata->auction_count > 400)
+auction.c:      if (IS_SET (dd->character->pcdata->deaf, CHANNEL_AUCTION))
+auction.c:	  auct->bychar->pcdata->bank += auct->bid;
+auction.c:	  auct->tochar->pcdata->bank -= auct->bid;
+aw.c:      if (!vict->pcdata->script_flags[i] || vict->pcdata->script_flags[i][0] == '\0')
+aw.c:      sprintf (hugebuf_o + strlen (hugebuf_o), "%-8s ", vict->pcdata->script_flags[i]);
+aw.c:  if (ch->pcdata->learned[spell->gsn] == -100)
+aw.c:      if (ch->pcdata->learned[i] < 0)
+aw.c:  ch->pcdata->learned[spell->gsn] = -100;
+aw.c:      ch->pcdata->learned[i] = -100;
+aw.c:  ch->pcdata->practice = (1 + (((LEVEL (ch) - 1) *
+aw.c:    ch->pcdata->learn = (LEVEL (ch) * 2);
+aw.c:    ch->pcdata->learn = 6 + (LEVEL (ch) - 3);
+aw.c:      victim->pcdata->learned[i] = -100;
+aw.c:  victim->pcdata->practice = (1 + (LEVEL (victim) - 1) *
+aw.c:    victim->pcdata->learn = (LEVEL (victim) * 2);
+aw.c:    victim->pcdata->learn = 6 + (LEVEL (victim) - 3);
+aw.c:      free_string (ch->pcdata->beamin);
+aw.c:      ch->pcdata->beamin = str_dup (argy);
+aw.c:      free_string (ch->pcdata->beamout);
+aw.c:      ch->pcdata->beamout = str_dup (argy);
+aw.c:      if (d->character && d->character->pcdata->arena_msg == 0)
+aw.c:      if (d->character && d->character->pcdata->arena_msg == 2 && batspam == TRUE)
+aw.c:              if (bground && d->character->pcdata->level > IMM_LEVEL)
+aw.c:                  if (!d->character->pcdata->bgf)
+aw.c:                  d->character->pcdata->bgf = FALSE;
+aw.c:  gotoxy (ch, 1, ch->pcdata->pagelen);
+aw.c:           NAME (victim), race_info[victim->pcdata->race].name,
+aw.c:           victim->pcdata->race, victim->pcdata->email);
+aw.c:           victim->pcdata->remort_times, victim->pcdata->nat_armor,
+aw.c:           victim->pcdata->deaths);
+aw.c:           victim->pcdata->warpoints, 
+aw.c:	   victim->pcdata->total_wps);
+aw.c:  send_to_char (natural_abilities (victim->pcdata->nat_abilities), ch);
+aw.c:  send_to_char (natural_abilities2 (victim->pcdata->nat_abilities2), ch);
+aw.c:  send_to_char (augmentss (victim->pcdata->augments), ch);
+aw.c:  show_guilds (ch, victim->pcdata->guilds);
+aw.c:           get_curr_str (victim), get_curr_int (victim), get_curr_wis (victim), get_curr_dex (victim), get_curr_con (victim), victim->pcdata->bank);
+aw.c:           victim->pcdata->practice, victim->pcdata->totalkills,
+aw.c:           victim->pcdata->killpoints);
+aw.c:           LEVEL (victim), victim->pcdata->alignment, GET_AC (victim), victim->exp, victim->pcdata->security);
+aw.c:           victim->position, victim->pcdata->learn);
+aw.c:           victim->pcdata->condition[COND_THIRST],
+aw.c:           victim->pcdata->condition[COND_FULL],
+aw.c:           victim->pcdata->condition[COND_DRUNK],
+aw.c:           victim->pcdata->saving_throw);
+aw.c:           victim->pcdata->carry_number, victim->pcdata->carry_weight/WGT_MULT, victim->pcdata->carry_weight % WGT_MULT);
+aw.c:           get_age (victim), (int) victim->pcdata->played,
+aw.c:      victim->pcdata->level = 1;
+aw.c:        victim->pcdata->learned[sn] = -100;
+aw.c:      victim->pcdata->practice = 0;
+aw.c:      victim->pcdata->level += 1;
+aw.c:  if (IS_SET (victim->pcdata->act2, PLR_SILENCE))
+aw.c:      REMOVE_BIT (victim->pcdata->act2, PLR_SILENCE);
+aw.c:      SET_BIT (victim->pcdata->act2, PLR_SILENCE);
+aw.c:  if (dd->character->pcdata->learned[spl->gsn] < 0)
+aw.c:    dd->character->pcdata->learned[spl->gsn] = 1;
+aw.c:  if (dd->character->pcdata->learned[spl->gsn] > 80)
+aw.c:  else if (dd->character->pcdata->learned[spl->gsn] > 65)
+aw.c:  else if (dd->character->pcdata->learned[spl->gsn] > 50)
+aw.c:  else if (dd->character->pcdata->learned[spl->gsn] > 35)
+aw.c:  dd->character->pcdata->learned[spl->gsn] = UMIN (100, (dd->character->pcdata->learned[spl->gsn] + amount));
+aw.c:            victim->pcdata->learned[sn] = (value == 0 ? -100 : value);
+aw.c:      victim->pcdata->learned[spell->gsn] = (value == 0 ? -100 : value);
+aw.c:      victim->pcdata->practice = value;
+aw.c:              if (victim->pcdata->script_flags[ik] && victim->pcdata->script_flags[ik][0] != '\0' &&
+aw.c:                  !str_cmp (victim->pcdata->script_flags[ik], arg3))
+aw.c:                  free_string (victim->pcdata->script_flags[ik]);
+aw.c:                  victim->pcdata->script_flags[ik] = NULL;
+aw.c:              if (!victim->pcdata->script_flags[ik])
+aw.c:              if (!str_cmp (victim->pcdata->script_flags[ik], arg3))
+aw.c:              if (victim->pcdata->script_flags[ik] && victim->pcdata->script_flags[ik][0] != '\0')
+aw.c:              victim->pcdata->script_flags[ik] = str_dup (arg3);
+aw.c:    if (IS_SET (victim->pcdata->act2, PLR_HARDCORE))
+aw.c:      REMOVE_BIT (victim->pcdata->act2, PLR_HARDCORE);
+aw.c:      SET_BIT (victim->pcdata->act2, PLR_HARDCORE);
+aw.c:    victim->pcdata->elemental_alignment ^= ELEMENTAL_ALIGN_FIRE;
+aw.c:    victim->pcdata->elemental_alignment ^= ELEMENTAL_ALIGN_WATER;
+aw.c:    victim->pcdata->elemental_alignment ^= ELEMENTAL_ALIGN_AIR;
+aw.c:    victim->pcdata->elemental_alignment ^= ELEMENTAL_ALIGN_EARTH;
+aw.c:    victim->pcdata->elemental_alignment ^= ELEMENTAL_ALIGN_GOOD;
+aw.c:    victim->pcdata->elemental_alignment ^= ELEMENTAL_ALIGN_EVIL;
+aw.c:	  victim->pcdata->remort_times = UMIN(200, UMAX(0, atoi(arg3)));
+aw.c:	  victim->pcdata->stat[STR] = UMIN(32, UMAX(3, atoi(arg3)));
+aw.c:	  victim->pcdata->stat[INT] = UMIN(32, UMAX(3, atoi(arg3)));
+aw.c:	  victim->pcdata->stat[WIS]= UMIN(32, UMAX(3, atoi(arg3)));
+aw.c:	  victim->pcdata->stat[DEX] = UMIN(32, UMAX(3, atoi(arg3)));
+aw.c:	  victim->pcdata->stat[CON] = UMIN(32, UMAX(3, atoi(arg3)));
+aw.c:      victim->pcdata->bank = value;
+aw.c:      victim->pcdata->nat_armor = value;
+aw.c:      if (ad) wp=victim->pcdata->warpoints+value; else
+aw.c:      if (sb) wp=victim->pcdata->warpoints+value;
+aw.c:      victim->pcdata->warpoints = wp;
+aw.c:      if (ad) twp=victim->pcdata->total_wps+value; else
+aw.c:      if (sb) twp=victim->pcdata->total_wps+value;
+aw.c:      victim->pcdata->total_wps = twp;
+aw.c:      victim->pcdata->deaths = wp;
+aw.c:	      if (IS_SET(victim->pcdata->guilds,guild_data[i].mob_guildmaster_bit))
+aw.c:	      victim->pcdata->guilds ^= guild_data[i].mob_guildmaster_bit;
+aw.c:      victim->pcdata->stat[INT] = value;
+aw.c:      victim->pcdata->killpoints = value;
+aw.c:      victim->pcdata->sex = value;
+aw.c:      victim->pcdata->practice = value;
+aw.c:      victim->pcdata->learn = value;
+aw.c:      victim->pcdata->condition[COND_THIRST] = value;
+aw.c:      victim->pcdata->condition[COND_DRUNK] = value;
+aw.c:      victim->pcdata->condition[COND_FULL] = value;
+aw.c:      if (victim->pcdata->short_descr && victim->pcdata->short_descr != NULL)
+aw.c:        free_string (victim->pcdata->short_descr);
+aw.c:      victim->pcdata->short_descr = str_dup (arg3);
+aw.c:      ch->desc->pString = &victim->pcdata->long_descr;
+aw.c:      int augment = victim->pcdata->augments;
+aw.c:	      TOGGLE_BIT(victim->pcdata->augments, augment_flagss[num].flagname);
+aw.c:      int affect = victim->pcdata->nat_abilities;
+aw.c:	      TOGGLE_BIT(victim->pcdata->nat_abilities, affect_flagss[num].flagname);
+aw.c:      int affect = victim->pcdata->nat_abilities2;
+aw.c:	      TOGGLE_BIT(victim->pcdata->nat_abilities2, affect_flags_2[num].flagname);
+aw.c:      sprintf (st, "Pedit %s", ((CHAR_DATA *) d->pEdit)->pcdata->name);
+aw.c:  if (ch->pcdata->level > MAX_LEVEL)
+aw.c:    ch->pcdata->level = MAX_LEVEL;
+aw.c:    ch->pcdata->level = MAX_LEVEL;
+aw.c:  oldinvis = ch->pcdata->wizinvis;
+aw.c:      ch->pcdata->wizinvis = ch->pcdata->wizinvis == 0 ? LEVEL (ch) : 0;
+aw.c:    ch->pcdata->wizinvis = atoi (arg);
+aw.c:  ch->pcdata->wizinvis = ch->pcdata->wizinvis <= LEVEL (ch) ? ch->pcdata->wizinvis : LEVEL (ch);
+aw.c:  if (ch->pcdata->wizinvis <= LEVEL_IMMORTAL && ch->pcdata->wizinvis != 0)
+aw.c:    ch->pcdata->wizinvis = 0;
+aw.c:  if (ch->pcdata->wizinvis == oldinvis ||
+aw.c:      (ch->pcdata->wizinvis >= LEVEL_IMMORTAL && oldinvis >= LEVEL_IMMORTAL))
+aw.c:  if (ch->pcdata->wizinvis < oldinvis && ch->pcdata->wizinvis == 0)
+aw.c:  else if (ch->pcdata->wizinvis >= LEVEL_IMMORTAL && ch->pcdata->wizinvis > oldinvis)
+aw.c:  if (IS_SET (ch->pcdata->act2, PLR_MAPPING) || IS_AFFECTED(ch,AFF_BLIND))
+aw.c:      REMOVE_BIT (ch->pcdata->act2, PLR_MAPPING);
+aw.c:      SET_BIT (ch->pcdata->act2, PLR_MAPPING);
+aw.c:  if (IS_SET (ch->pcdata->act2, PLR_NOIBM))
+aw.c:      REMOVE_BIT (ch->pcdata->act2, PLR_NOIBM);
+aw.c:      SET_BIT (ch->pcdata->act2, PLR_NOIBM);
+aw.c:  if (IS_SET (ch->pcdata->act2, PLR_MAPSPAM))
+aw.c:      REMOVE_BIT (ch->pcdata->act2, PLR_MAPSPAM);
+aw.c:      SET_BIT (ch->pcdata->act2, PLR_MAPSPAM);
+aw.c:  if (IS_SET (ch->pcdata->act2, PLR_VIEWMOBS))
+aw.c:      REMOVE_BIT (ch->pcdata->act2, PLR_VIEWMOBS);
+aw.c:      SET_BIT (ch->pcdata->act2, PLR_VIEWMOBS);
+aw.c:  if (IS_SET (ch->pcdata->act2, PLR_VIEWPLAYERS))
+aw.c:      REMOVE_BIT (ch->pcdata->act2, PLR_VIEWPLAYERS);
+aw.c:      SET_BIT (ch->pcdata->act2, PLR_VIEWPLAYERS);
+aw.c:  if (IS_SET (ch->pcdata->act2, PLR_HOLYLAG))
+aw.c:      REMOVE_BIT (ch->pcdata->act2, PLR_HOLYLAG);
+aw.c:      SET_BIT (ch->pcdata->act2, PLR_HOLYLAG);
+bank.c:  if ((type == 'G') && (ch->pcdata->bank < (amount*100)))
+bank.c:  else if ((type == 'W') && (ch->pcdata->warpoints < amount))
+bank.c:      bank_num = ch->pcdata->alignment;
+bank.c:	      ch->pcdata->warpoints -= amount;
+bank.c:	      ch->pcdata->bank -= 100*amount;
+bank.c:	      ch->pcdata->warpoints -= amount;
+bank.c:	      ch->pcdata->bank -= 100*amount;
+bank.c:  align = ch->pcdata->alignment;
+bank.c:  sprintf(buf, "You have %ld gold and %ld warpoints.\n\r", ((ch->pcdata->bank)/100), ch->pcdata->warpoints);
+bank.c:  sprintf (buf, "The banker tells you 'You have %ld coins in your account.'\n\r", ch->pcdata->bank);
+bank.c:	  if (ch->pcdata->storage[k] != NULL)
+bank.c:	      sprintf (buf, "\x1B[1;37m%-2d> \x1B[0m%-30s \x1B[1;30m[\x1B[34m%d coins get back\x1B[30m]\x1B[37;0m\n\r", k + 1, strip_ansi_codes (OOSTR (ch->pcdata->storage[k], short_descr)), ch->pcdata->storage[k]->cost / STOREDIV);
+bank.c:  if (tally_coins (ch) < store_cost && ch->pcdata->bank < store_cost)
+bank.c:    ch->pcdata->bank -= store_cost;
+bank.c:  ch->pcdata->storage[k] = obj;
+bank.c:	  if (ch->pcdata->storage[k] != NULL)
+bank.c:	      sprintf (buf, "\x1B[1;37m%-2d> \x1B[0m%-30s \x1B[1;30m[\x1B[34m%d coins get back\x1B[30m]\x1B[37;0m\n\r", k + 1, strip_ansi_codes (OOSTR (ch->pcdata->storage[k], short_descr)), ch->pcdata->storage[k]->cost / STOREDIV);
+bank.c:      if (ch->pcdata->storage[itemnum] == NULL)
+bank.c:      obj = ch->pcdata->storage[itemnum];
+bank.c:	  if (ch->pcdata->storage[k] != NULL && is_name (arg1, ch->pcdata->storage[k]->pIndexData->name))
+bank.c:	      obj = ch->pcdata->storage[k];
+bank.c:  if (tally_coins (ch) < remove_cost && ch->pcdata->bank < remove_cost)
+bank.c:    ch->pcdata->bank -= remove_cost;
+bank.c:  ch->pcdata->storage[k] = NULL;
+bank.c:      ch->pcdata->bank += amount;
+bank.c:      sprintf (buf, "Your new balance is: %ld copper.\n\r", ch->pcdata->bank);
+bank.c:  ch->pcdata->bank += amount;
+bank.c:  sprintf (buf, "Your new balance is: %ld copper.\n\r", ch->pcdata->bank);
+bank.c:      amount = ch->pcdata->bank;
+bank.c:      ch->pcdata->bank -= amount;
+bank.c:      sprintf (buf, "Your new balance is: \e[1;36m%ld\e[0m.\n\r", ch->pcdata->bank);
+bank.c:  if (amount < 1 || amount > ch->pcdata->bank)
+bank.c:  ch->pcdata->bank -= amount;
+bank.c:  sprintf (buf, "Your new balance is: \e[1;36m%ld\e[0m.\n\r", ch->pcdata->bank);
+bank.c:      ch->pcdata->bank += amount;
+bank.c:      ch->pcdata->bank -= amount;
+bank.c:      ch->pcdata->bank -= amount;
+bank.c:      ch->pcdata->bank -= amount;
+bank.c:      ch->pcdata->bank += amount;
+buysell.c:      if(number_range(1,130) < (ch->pcdata->learned[gsn_patch] +
+buysell.c:      if(number_range(1,130) < (ch->pcdata->learned[gsn_patch] +
+buysell.c:	if (ch->pcdata->number_pets > 1)
+buysell.c:	if (ch->pcdata->number_pets > 2)
+buysell.c:	if (ch->pcdata->number_pets > 3)
+buysell.c:      if (ch->pcdata->number_pets > 4)
+buysell.c:      ch->pcdata->number_pets++;
+channels.c:  if (IS_PLAYER (ch) && IS_SET (ch->pcdata->act2, PLR_SILENCE))
+channels.c:       for (i = ch->pcdata->ctell_counter + 1; i != ch->pcdata->ctell_counter; i++)
+channels.c:         if (ch->pcdata->last_ctells[i])
+channels.c:	  act (ch->pcdata->last_ctells[i], ch, NULL, ch, TO_CHAR);
+channels.c:      if (!IS_SET (ch->pcdata->chan_ignore, (1 << channel)))
+channels.c:	ch->pcdata->chan_ignore ^= (1 << channel);
+channels.c:      if (IS_SET (ch->pcdata->chan_ignore, (1 << channel)))
+channels.c:	ch->pcdata->chan_ignore ^= (1 << channel);
+channels.c:  if (IS_PLAYER(ch) && IS_SET (ch->pcdata->chan_ignore, (1 << channel)))
+channels.c:      ch->pcdata->chan_ignore ^= (1 << channel);
+channels.c:	    ch->pcdata->chan_color[channel], c->channel_name, 
+channels.c:	    argy, ch->pcdata->chan_color[channel], 
+channels.c:	sprintf (format, "%s%10s > %s%s%s\x1B[37;0m", ch->pcdata->chan_color[channel], NAME(ch),
+channels.c:	sprintf (format, "%s%10s > %s%s%s\x1B[37;0m", ch->pcdata->chan_color[channel],
+channels.c:     sprintf (format, "%s%10s > %s%s%s\x1B[37;0m", ch->pcdata->chan_color[channel],NAME(ch),
+channels.c:     if (ch->pcdata->last_ctells[ch->pcdata->ctell_counter])
+channels.c:       free (ch->pcdata->last_ctells[ch->pcdata->ctell_counter]);
+channels.c:      ch->pcdata->last_ctells[ch->pcdata->ctell_counter] = malloc (strlen (format) + 1);
+channels.c:      strcpy (ch->pcdata->last_ctells[ch->pcdata->ctell_counter], format);
+channels.c:      ch->pcdata->ctell_counter++;
+channels.c:      if (ch->pcdata->ctell_counter > 14)
+channels.c:	ch->pcdata->ctell_counter = 0;
+channels.c:	    if (to->pcdata->quiet > 0)
+channels.c:	    if (IS_SET (to->pcdata->chan_ignore, (1 << channel)))
+channels.c:		     (LEVEL (to) > IMM_LEVEL ? ind : ""), to->pcdata->chan_color[channel], TPERS (ch, to),
+channels.c:		     argy, to->pcdata->chan_color[channel], (is_al ? "'" : ""));
+channels.c:              sprintf (format, "%s%10s > %s%s%s\x1B[37;0m", ch->pcdata->chan_color[channel],NAME(ch),
+channels.c:              if (to->pcdata->last_ctells[to->pcdata->ctell_counter])
+channels.c:                free (to->pcdata->last_ctells[to->pcdata->ctell_counter]);
+channels.c:              to->pcdata->last_ctells[to->pcdata->ctell_counter] = malloc (strlen (format) + 1);
+channels.c:              strcpy (to->pcdata->last_ctells[to->pcdata->ctell_counter], format);
+channels.c:              to->pcdata->ctell_counter++;
+channels.c:              if (to->pcdata->ctell_counter > 14)
+channels.c:               to->pcdata->ctell_counter = 0;
+channels.c:	  && !d->character->pcdata->quiet)
+channels.c:	  if (ch->pcdata->ignore[k])
+channels.c:	      sprintf (general_use, "+= %s =+\n\r", ch->pcdata->ignore[k]);
+channels.c:      if (ch->pcdata->ignore[k] && !str_cmp (ch->pcdata->ignore[k], argy))
+channels.c:	  free_string (ch->pcdata->ignore[k]);
+channels.c:	  ch->pcdata->ignore[k] = NULL;
+channels.c:      if (!ch->pcdata->ignore[k])
+channels.c:	  ch->pcdata->ignore[k] = str_dup (capitalize (argy));
+channels.c:      if (!ch->pcdata->ignore[k])
+channels.c:      if (!str_prefix (ch->pcdata->ignore[k], NAME (victim)))
+channels.c:      if (IS_SET (dd->character->pcdata->deaf, CHANNEL_NOTIFY))
+channels.c:  if (IS_PLAYER(ch) && IS_SET(ch->pcdata->act2, PLR_SILENCE)) return;
+channels.c:	   (IS_MOB (ch) ? "\x1B[1;37m" : color_table[ch->pcdata->colors[COLOR_SAY]].code), verb,
+channels.c:	       (IS_MOB (mob) ? "\x1B[1;37m" : color_table[mob->pcdata->colors[COLOR_SAY]].code), 
+channels.c:    /* if not arguments, then list back the last ch->pcdata->tell_counter tells */
+channels.c:      for (i = ch->pcdata->tell_counter + 1; i != ch->pcdata->tell_counter; i++)
+channels.c:	  if (ch->pcdata->last_tells[i])
+channels.c:	    act (ch->pcdata->last_tells[i], ch, NULL, ch, TO_CHAR);
+channels.c:  if (IS_PLAYER (ch) && ch->pcdata->quiet)
+channels.c:  if (IS_PLAYER (victim) && victim->pcdata->quiet == 2)
+channels.c:	   (IS_MOB (ch) ? "$7" : color_table[ch->pcdata->colors[COLOR_TELL]].act_code),
+channels.c:	   (IS_MOB (victim) ? "$4$B" : color_table[victim->pcdata->colors[COLOR_TELL]].act_code), name, argy);
+channels.c:      if (ch->pcdata->last_tells[ch->pcdata->tell_counter])
+channels.c:	  free (ch->pcdata->last_tells[ch->pcdata->tell_counter]);
+channels.c:      ch->pcdata->last_tells[ch->pcdata->tell_counter] = malloc (strlen (buf) + 1);
+channels.c:      strcpy (ch->pcdata->last_tells[ch->pcdata->tell_counter], buf);
+channels.c:      ch->pcdata->tell_counter++;
+channels.c:      if (ch->pcdata->tell_counter > 14)
+channels.c:	ch->pcdata->tell_counter = 0;
+channels.c:  if (IS_PLAYER (victim) && victim->pcdata->quiet == 2)
+channels.c:	   (IS_MOB (ch) ? "$7" : color_table[ch->pcdata->colors[COLOR_TELL]].act_code),
+channels.c:      if (ch->pcdata->last_tells[ch->pcdata->tell_counter])
+channels.c:	  free (ch->pcdata->last_tells[ch->pcdata->tell_counter]);
+channels.c:      ch->pcdata->last_tells[ch->pcdata->tell_counter] = malloc (strlen (buf) + 1);
+channels.c:      strcpy (ch->pcdata->last_tells[ch->pcdata->tell_counter], buf);
+channels.c:      ch->pcdata->tell_counter++;
+channels.c:      if (ch->pcdata->tell_counter > 14)
+channels.c:	ch->pcdata->tell_counter = 0;
+channels.c:  if (!ch->pcdata->quiet)
+channels.c:      ch->pcdata->quiet = 1;
+channels.c:      ch->pcdata->quiet = 0;
+channels.c:    for (i = ch->pcdata->gtell_counter + 1; i != ch->pcdata->gtell_counter; i++)
+channels.c:       if (ch->pcdata->last_gtells[i])
+channels.c:	act (ch->pcdata->last_gtells[i], ch, NULL, ch, TO_CHAR);
+channels.c:	   (IS_MOB (ch) ? "\x1B[37;0m" : color_table[ch->pcdata->colors[COLOR_TELL]].code),
+channels.c:	       (IS_MOB (gch) ? "\x1B[37;0m" : color_table[gch->pcdata->colors[COLOR_TELL]].code),
+channels.c:	       (IS_MOB (gch) ? "\x1B[37;0m" : color_table[gch->pcdata->colors[COLOR_TELL]].code),
+channels.c:	    if (gch->pcdata->last_gtells[gch->pcdata->gtell_counter])
+channels.c:              free (gch->pcdata->last_gtells[gch->pcdata->gtell_counter]);
+channels.c:      	    gch->pcdata->last_gtells[gch->pcdata->gtell_counter] = malloc (strlen (buf) + 1);
+channels.c:	    strcpy (gch->pcdata->last_gtells[gch->pcdata->gtell_counter], buf);
+channels.c:      	    gch->pcdata->gtell_counter++;
+channels.c:	    if (gch->pcdata->gtell_counter > 14)
+channels.c:	      gch->pcdata->gtell_counter = 0;
+channels.c:	(IS_MOB (ch) ? "\x1B[37;0m" : color_table[ch->pcdata->colors[COLOR_TELL]].code),
+channels.c:      if (ch->pcdata->last_gtells[ch->pcdata->gtell_counter])
+channels.c:	  free (ch->pcdata->last_gtells[ch->pcdata->gtell_counter]);
+channels.c:      ch->pcdata->last_gtells[ch->pcdata->gtell_counter] = malloc (strlen (buf) + 1);
+channels.c:      strcpy (ch->pcdata->last_gtells[ch->pcdata->gtell_counter], buf);
+channels.c:      ch->pcdata->gtell_counter++;
+channels.c:      if (ch->pcdata->gtell_counter > 14)
+channels.c:	ch->pcdata->gtell_counter = 0;
+char.c:  pcdata->data_type = K_PC;
+char.c:      pcdata->cursor = 0;
+char.c:        pcdata->pet_temp[k] = 0;
+char.c:        pcdata->pet_move[k] = 0;
+char.c:        pcdata->pet_hps[k] = 0;
+char.c:      pcdata->show_lev = TRUE;
+char.c:      free_string (pcdata->name);
+char.c:      pcdata->name = NULL;
+char.c:      if (pcdata->oldgrep != NULL)
+char.c:          free_string (pcdata->oldgrep);
+char.c:          pcdata->oldgrep = NULL;
+char.c:      free_string (pcdata->short_descr);
+char.c:      pcdata->short_descr = &str_empty[0];
+char.c:      free_string (pcdata->long_descr);
+char.c:      pcdata->long_descr = &str_empty[0];
+char.c:      free_string (pcdata->description);
+char.c:      pcdata->description = &str_empty[0];
+char.c:      pcdata->chan_ignore = 0;
+char.c:          strcpy (pcdata->chan_color[k], c->color);
+char.c:      pcdata->transport_quest = 0;
+char.c:      pcdata->cool_skills = 0;
+char.c:      pcdata->security = 9;
+char.c:      pcdata->learn = 1;
+char.c:      pcdata->created = current_time;
+char.c:      pcdata->pray_points = 0;
+char.c:      pcdata->practice = 1;
+char.c:      pcdata->logon = current_time;
+char.c:      pcdata->played = 0;
+char.c:      pcdata->wizinvis = 0;
+char.c:      pcdata->colors[COLOR_CHAT] = 14;
+char.c:      pcdata->colors[COLOR_YELL] = 12;
+char.c:      pcdata->colors[COLOR_CLANTALK] = 10;
+char.c:      pcdata->colors[COLOR_IMMTALK] = 11;
+char.c:      pcdata->colors[COLOR_GODTALK] = 12;
+char.c:      pcdata->colors[COLOR_SAY] = 15;
+char.c:      pcdata->colors[COLOR_TELL] = 10;
+char.c:      pcdata->rprompt = NULL;
+char.c:      pcdata->pwd = &str_empty[0];
+char.c:      pcdata->rpwd = &str_empty[0];
+char.c:      pcdata->beamin = &str_empty[0];
+char.c:      pcdata->beamout = &str_empty[0];
+char.c:      pcdata->title = &str_empty[0];
+char.c:	  pcdata->stat[k] = 12;
+char.c:	  pcdata->stat_mod[k] = 0;
+char.c:      pcdata->temp = NULL;
+char.c:      pcdata->totalkills = 0;
+char.c:      pcdata->killpoints = 0;
+char.c:      pcdata->deaths = 0;
+char.c:      pcdata->resist_summon = 0;
+char.c:      pcdata->plus_hide = 0;
+char.c:      pcdata->plus_sneak = 0;
+char.c:      pcdata->plus_kick = 0;
+char.c:      pcdata->armor[0] = 0;
+char.c:      pcdata->armor[1] = 0;
+char.c:      pcdata->armor[2] = 0;
+char.c:      pcdata->armor[3] = 0;
+char.c:      pcdata->clan = -1;
+char.c:      pcdata->clan2 = -1;
+char.c:      pcdata->n_mana = 0;
+char.c:      pcdata->x = 5;
+char.c:      pcdata->y = 10;
+char.c:      pcdata->n_max_mana = 0;
+char.c:      pcdata->warpoints = 0;
+char.c:      pcdata->total_wps = 0;
+char.c:      pcdata->pklevels = 0;
+char.c:      pcdata->pkhelpers = 0;
+char.c:      pcdata->hard_pkills = 0;
+char.c:      pcdata->warmth = 0;
+char.c:      pcdata->pkills = 0;
+char.c:      pcdata->pkilled = 0;
+char.c:      pcdata->pkers = 0;
+char.c:      pcdata->challenge_on = TRUE;
+char.c:      pcdata->remort_times = 0;
+char.c:      pcdata->arena_msg = TRUE;
+char.c:      pcdata->challenged = FALSE;
+char.c:      pcdata->challenge_time = 0;
+char.c:      pcdata->challenged_by = NULL;
+char.c:      pcdata->tickcounts = 0;
+char.c:      pcdata->auction_count = 0;
+char.c:      pcdata->email[0] = '\0';
+char.c:      pcdata->new_exp = FALSE;
+char.c:      pcdata->no_spam = 0;
+char.c:      pcdata->bgf = FALSE;
+char.c:      pcdata->questflag = 0;
+char.c:      pcdata->nat_armor = 100;
+char.c:      pcdata->nat_abilities = 0;
+char.c:      pcdata->guilds = 0;
+char.c:      pcdata->no_quit_pk = 0; /* JRAJRA */
+char.c:      pcdata->number_pets = 0;
+char.c:      pcdata->pagelen = 24;
+char.c:      pcdata->condition[COND_THIRST] = 48;
+char.c:      pcdata->condition[COND_FULL] = 48;
+char.c:      pcdata->condition[COND_DRUNK] = 0;
+char.c:      pcdata->bank = 0;
+char.c:      pcdata->quiet = 0;
+char.c:      pcdata->online_spot = NULL;
+char.c:      pcdata->light = 0;
+char.c:      pcdata->command_objs = 0;
+char.c:      pcdata->mana_shield_strength = 0;
+char.c:      pcdata->elemental_alignment = 0;
+char.c:      pcdata->tmp_con = 0;
+char.c:      pcdata->tmp_dex = 0;
+char.c:      pcdata->tmp_str = 0;
+char.c:      pcdata->tmp_int = 0;
+char.c:      pcdata->tmp_wis = 0;
+char.c:      pcdata->perm_con = 0;
+char.c:      pcdata->perm_dex = 0;
+char.c:      pcdata->perm_str = 0;
+char.c:      pcdata->perm_int = 0;
+char.c:      pcdata->perm_wis = 0;
+char.c:	pcdata->guarded_by[k] = NULL;
+char.c:      pcdata->guarding = NULL;
+char.c:          pcdata->storage[k] = NULL;
+char.c:          pcdata->ignore[k] = NULL;
+char.c:        if (pcdata->script_flags[k])
+char.c:            free_string (pcdata->script_flags[k]);
+char.c:            pcdata->script_flags[k] = NULL;
+char.c:          pcdata->trophy_name[k][0] = '\0';
+char.c:          pcdata->trophy_times[k] = 0;
+char.c:          pcdata->trophy_level[k] = 0;
+char.c:          pcdata->alias[k] = NULL;
+char.c:          pcdata->aliasname[k] = NULL;
+char.c:        pcdata->learned[k] = -100;
+char.c:      pcdata->stance = 0;
+char.c:   this->npcdata->next = npcdata_free;
+char.c:      if (pcdata->challenged_by != NULL)
+char.c:          free_string (pcdata->challenged_by);
+char.c:          pcdata->challenged_by = NULL;
+char.c:          if (pcdata->ignore[i])
+char.c:              free_string (pcdata->ignore[i]);
+char.c:          pcdata->ignore[i] = NULL;
+char.c:      pcdata->bank = 0;
+char.c:          if (pcdata->storage[i] != NULL)
+char.c:            free_it (pcdata->storage[i]);
+char.c:	    pcdata->storage[i] = NULL;
+char.c:      if (pcdata->challenged_by != NULL)
+char.c:        free_string (pcdata->challenged_by);
+char.c:      pcdata->challenged_by = NULL;
+char.c:      if (pcdata->rprompt != NULL)
+char.c:        free_string (pcdata->rprompt);
+char.c:      pcdata->rprompt = NULL;
+char.c:      if (pcdata->rpwd != NULL)
+char.c:        free_string(pcdata->rpwd);
+char.c:      pcdata->rpwd = NULL;
+char.c:      if (pcdata->pwd != NULL)
+char.c:        free_string (pcdata->pwd);
+char.c:      pcdata->pwd = NULL;
+char.c:      if (pcdata->beamin != NULL)
+char.c:        free_string (pcdata->beamin);
+char.c:      pcdata->beamin = NULL;
+char.c:      if (pcdata->beamout != NULL)
+char.c:        free_string (pcdata->beamout);
+char.c:      pcdata->beamout = NULL;
+char.c:      if (pcdata->title != NULL)
+char.c:        free_string (pcdata->title);
+char.c:      pcdata->title = NULL;
+char.c:      pcdata->guarding = NULL;
+char.c:	pcdata->guarded_by[i] = NULL;
+char.c:	pcdata->armor[i] = NULL;
+char.c:          if (pcdata->last_tells[i])
+char.c:              free (pcdata->last_tells[i]);
+char.c:              pcdata->last_tells[i] = NULL;
+char.c:      pcdata->tell_counter = 0;
+char.c:        if(pcdata->last_gtells[i])
+char.c:          free(pcdata->last_gtells[i]);
+char.c:          pcdata->last_gtells[i] = NULL;
+char.c:      pcdata->gtell_counter = 0;
+char.c:	if(pcdata->last_ctells[i])
+char.c:	  free(pcdata->last_ctells[i]);
+char.c:	  pcdata->last_ctells[i] = NULL;
+char.c:      pcdata->ctell_counter = 0;
+char.c:          if (pcdata->alias[i] != NULL
+char.c:              && pcdata->aliasname[i] != NULL)
+char.c:              free_string (pcdata->alias[i]);
+char.c:              free_string (pcdata->aliasname[i]);
+char.c:              pcdata->alias[i] = NULL;
+char.c:              pcdata->aliasname[i] = NULL;
+char.c:      pcdata->next = pcdata_free;
+clan.c:  if (str_cmp (ch->pcdata->name, ClanData->leader))
+clan.c:	victim->pcdata->clan = cnum;
+clan.c:  if (str_cmp (ch->pcdata->name, ClanData->leader))
+clan.c:	  victim->pcdata->clan = -1;
+clan.c:	  ch->pcdata->clan = -1;
+clan.c:  if (ClanData->alignment != ch->pcdata->alignment)
+climb.c:      move -= ch->pcdata->carry_number - get_curr_str (ch);
+comm.c:        ch->pcdata->storage[i] = NULL;
+comm.c:        ch->pcdata->learned[i] = -100;
+comm.c:          !(d->character->pcdata->stat[STR] == 12 &&
+comm.c:          d->character->pcdata->stat[INT] == 12 &&
+comm.c:          d->character->pcdata->stat[WIS] == 12 &&
+comm.c:          d->character->pcdata->stat[CON] == 12 &&
+comm.c:          d->character->pcdata->stat[DEX] == 12))
+comm.c:          if (LEVEL(d->character) > 99 && !IS_SET(d->character->pcdata->act2, PLR_HOLYLAG)) {
+comm.c:            ch->pcdata->tickcounts = 0;
+comm.c:            ch->pcdata->speedwalk = 0;
+comm.c:            ch->pcdata->auction_count = 0;
+comm.c:            if (--ch->pcdata->tickcounts <= 0)
+comm.c:              ch->pcdata->tickcounts = 0;
+comm.c:            if (--ch->pcdata->auction_count <= 0)
+comm.c:              ch->pcdata->auction_count = 0;
+comm.c:            if (--ch->pcdata->speedwalk <= 0)
+comm.c:              ch->pcdata->speedwalk = 0;
+comm.c:          if (ch->in_room && ch->pcdata->tickcounts < 1)
+comm.c:            if (ch->position == POSITION_CASTING && ch->pcdata->temp)
+comm.c:              do_actual_cast (ch, ch->pcdata->temp->temp_string);
+comm.c:            else if (ch->position == POSITION_CHARGING && ch->pcdata->temp)
+comm.c:              do_actual_charge (ch, ch->pcdata->temp->temp_string);
+comm.c:            else if (ch->position == POSITION_INVEST && ch->pcdata->temp)
+comm.c:              do_actual_investigate (ch, ch->pcdata->temp->temp_string);
+comm.c:            else if (ch->position == POSITION_BACKSTAB && ch->pcdata->temp)
+comm.c:              do_actual_backstab (ch, ch->pcdata->temp->temp_string);
+comm.c:            else if (ch->position == POSITION_SEARCHING && ch->pcdata->temp)
+comm.c:              do_actual_search (ch, ch->pcdata->temp->temp_string);
+comm.c:            else if (ch->position == POSITION_SHOOTING && ch->pcdata->temp)
+comm.c:              do_actual_shoot (ch, ch->pcdata->temp->temp_string);
+comm.c:            if (ch->pcdata->voting_on == 999)
+comm.c:              ch->pcdata->voting_on = 10;
+comm.c:            if (ch->pcdata->voting_on == 998)
+comm.c:              ch->pcdata->voting_on = 11;
+comm.c:            !(d->character->pcdata->stat[STR] == 12 &&
+comm.c:            d->character->pcdata->stat[INT] == 12 &&
+comm.c:            d->character->pcdata->stat[WIS] == 12 &&
+comm.c:            d->character->pcdata->stat[CON] == 12 &&
+comm.c:            d->character->pcdata->stat[DEX] == 12))
+comm.c:        if (ch && ch->pcdata && ch->pcdata->tickcounts > 0)
+comm.c:            ch->pcdata->tickcounts = 0;
+comm.c:            ch->pcdata->tickcounts = 0;
+comm.c:            ch->pcdata->tickcounts = 0;
+comm.c:            ch->pcdata->tickcounts = 0;
+comm.c:            ch->pcdata->tickcounts = 0;
+comm.c:            ch->pcdata->tickcounts = 0;
+comm.c:          !(d->character->pcdata->stat[STR] == 12 &&
+comm.c:          d->character->pcdata->stat[INT] == 12 &&
+comm.c:          d->character->pcdata->stat[WIS] == 12 &&
+comm.c:          d->character->pcdata->stat[CON] == 12 &&
+comm.c:          d->character->pcdata->stat[DEX] == 12))
+comm.c:      sprintf (log_buf, "Closing link to %s.", ch->pcdata->name);
+comm.c:      if (d->character->pcdata->aliasname[k] &&
+comm.c:        d->character->pcdata->aliasname[k][0] != '\0' &&
+comm.c:        d->character->pcdata->alias[k] &&
+comm.c:        d->character->pcdata->alias[k][0] != '\0')
+comm.c:        if (cmd && !str_cmp (cmd, d->character->pcdata->aliasname[k]))
+comm.c:          strsub (d->inbuf, cmd, d->character->pcdata->alias[k]);
+comm.c:        if (IS_SET (ch->pcdata->act2, PLR_BLANK) || !ch)
+comm.c:        if (ch && IS_SET (ch->pcdata->act2, PLR_PROMPT) &&
+comm.c:        if (d->character && IS_SET (d->character->pcdata->act2, PLR_TELNET_GA) && d->host[29] != 1)
+comm.c:        sprintf (minbuf, "\x1B[%d;1f\x1B[K", d->character->pcdata->pagelen);
+comm.c:            SET_BIT (d->snoop_by->character->pcdata->act2, PLR_ANSI);
+comm.c:  if (d->character && !IS_SET (d->character->pcdata->act2, PLR_ANSI))
+comm.c:        ch->pcdata->nat_armor = 100;
+comm.c:        ch->pcdata->nat_abilities = 0;
+comm.c:        ch->pcdata->nat_abilities2 = 0;
+comm.c:        ch->pcdata->augments = 0;
+comm.c:            ch->pcdata->stat[i] = 0;
+comm.c:            ch->pcdata->stat_mod[i] = 0;
+comm.c:        ch->pcdata->alignment = 0;
+comm.c:        ch->pcdata->race = 0;
+comm.c:            ch->pcdata->stat[i] = 0;
+comm.c:            ch->pcdata->stat_mod[i] = 0;
+comm.c:		        ch->pcdata->stat[j] = 0;
+comm.c:            ch->pcdata->stat_mod[j] = 0;
+comm.c:            ch->pcdata->stat_mod[k] +=  
+comm.c:        ch->pcdata->nat_armor = race_info[ch->pcdata->race].natarmor;
+comm.c:        ch->pcdata->nat_abilities = race_info[ch->pcdata->race].affect_bits;
+comm.c:        ch->pcdata->nat_abilities2 = race_info[ch->pcdata->race].affect_bits2;
+comm.c:        ch->pcdata->augments = race_info[ch->pcdata->race].nat_augments;
+comm.c:        ch->pcdata->alignment = race_info[ch->pcdata->race].start_room -100;
+comm.c:		          ch->pcdata->stat[i] = ch->pcdata->stat_mod[i] + race_info[ch->pcdata->race].bonus[i] + align_info[ch->pcdata->alignment].bonus[i];
+comm.c:              ch->pcdata->stat_mod[i] = 0;
+comm.c:                if (ch->pcdata->stat[i] > 23) {
+comm.c:                  ch->pcdata->stat[i] = 23;
+comm.c:                  if (i+1 < NUM_STATS) ch->pcdata->stat[i+1]++;
+comm.c:                if (ch->pcdata->stat[i] > 24) {
+comm.c:                  ch->pcdata->stat[i] = 24;
+comm.c:                  if (i+1 < NUM_STATS) ch->pcdata->stat[i+1]++;
+comm.c:              ch->pcdata->start_stat[i] = ch->pcdata->stat[i];
+comm.c:        if (!IS_SET (ch->pcdata->act2, PLR_ANSI))
+comm.c:          ch->pcdata->act2 = PLR_AUTOGOLD | PLR_AUTOLOOT | PLR_AUTOEXIT | PLR_ASSIST | PLR_AUTOSPLIT | PLR_BLANK | PLR_COMBINE | PLR_PROMPT | PLR_AUTOSCAN;
+comm.c:          ch->pcdata->act2 = PLR_AUTOGOLD | PLR_AUTOLOOT | PLR_AUTOEXIT | PLR_ASSIST | PLR_AUTOSPLIT | PLR_BLANK | PLR_COMBINE | PLR_PROMPT | PLR_AUTOSCAN | PLR_ANSI;
+comm.c:        ch->pcdata->temp_room = get_room_index (race_info[ch->pcdata->race].start_room);
+comm.c:        ch->pcdata->level = 0;
+comm.c:        sprintf (buf, "the %s Adventurer", race_info[ch->pcdata->race].name);
+comm.c:        ch->pcdata->n_mana = ch->pcdata->n_max_mana;
+comm.c:        if (!fOld && d->character->pcdata->new_exp) {
+comm.c:          d->character->pcdata->new_exp = FALSE;
+comm.c:      if (!ch->pcdata->pwd || ch->pcdata->pwd[0] == '\0' || ch->pcdata->pwd == "") {
+comm.c:  /*    if (strcmp (argy, ch->pcdata->pwd) && */ 
+comm.c:	if (strcmp(argy,ch->pcdata->rpwd)) { /* JRAJRA */
+comm.c:      if (ch->pcdata->rpwd != NULL) free_string(ch->pcdata->rpwd);
+comm.c:      ch->pcdata->rpwd = str_dup(argy);
+comm.c:      if (check_reconnect (d, ch->pcdata->name, TRUE)) { /*Player entered NM & PW */	  
+comm.c:        kks = ch->pcdata->pagelen;
+comm.c:        ch->pcdata->pagelen = 99;
+comm.c:        ch->pcdata->pagelen = kks;
+comm.c:          ch->pcdata->stat_mod[i] = 0;
+comm.c:          ch->pcdata->name, echo_off_str);
+comm.c:        d->character->pcdata->pagelen = i;
+comm.c:        if (ch->pcdata->pwd)
+comm.c:          free_string (ch->pcdata->pwd);
+comm.c:        ch->pcdata->pwd = str_dup (pwdnew);
+comm.c:        if (ch->pcdata->rpwd)
+comm.c:          free_string(ch->pcdata->rpwd);
+comm.c:        ch->pcdata->rpwd = str_dup (argy);
+comm.c:        if (strcmp (argy, ch->pcdata->pwd) &&
+comm.c:          strcmp(argy, ch->pcdata->rpwd))
+comm.c:        if (ch->pcdata->rpwd)
+comm.c:          free_string(ch->pcdata->rpwd);
+comm.c:        ch->pcdata->rpwd = str_dup(argy);
+comm.c:        sprintf (buf2, "New player %s@%s.", ch->pcdata->name, d->host);
+comm.c:        SET_BIT (d->character->pcdata->act2, PLR_TELNET_GA);
+comm.c:          ch->pcdata->sex = SEX_MALE;
+comm.c:          ch->pcdata->sex = SEX_FEMALE;
+comm.c:          ch->pcdata->sex = SEX_NEUTRAL;
+comm.c:          SET_BIT (ch->pcdata->act2, PLR_TELNET_GA);
+comm.c:            SET_BIT (ch->pcdata->act2, PLR_ANSI);
+comm.c:            SET_BIT (ch->pcdata->act2, PLR_ANSI);
+comm.c:            strcpy (ch->pcdata->email, argy);
+comm.c:            if (d->character->pcdata->voting_on == 9999)
+comm.c:            ch->pcdata->race = iRace;
+comm.c:            ch->pcdata->alignment = race_info[iRace].start_room -100;
+comm.c:            ch->pcdata->pray_points = BASE_ROLLING_POINTS;
+comm.c:            ch->pcdata->tmp_str = 12;
+comm.c:            ch->pcdata->tmp_con = 12;
+comm.c:            ch->pcdata->tmp_dex = 12;
+comm.c:            ch->pcdata->tmp_int = 12;
+comm.c:            ch->pcdata->tmp_wis = 12;
+comm.c:              if (ch->pcdata->pray_points>0 && ch->pcdata->tmp_str < 22 && ch->pcdata->tmp_str < race_info[ch->pcdata->race].limits[0])
+comm.c:                ch->pcdata->tmp_str++;
+comm.c:                ch->pcdata->pray_points--;
+comm.c:              if (ch->pcdata->pray_points>0 && ch->pcdata->tmp_con < 22 && ch->pcdata->tmp_con < race_info[ch->pcdata->race].limits[4])
+comm.c:                ch->pcdata->tmp_con++;
+comm.c:                ch->pcdata->pray_points--;
+comm.c:              if (ch->pcdata->pray_points>0 && ch->pcdata->tmp_dex < 22 && ch->pcdata->tmp_dex < race_info[ch->pcdata->race].limits[3])
+comm.c:                ch->pcdata->tmp_dex++;
+comm.c:                ch->pcdata->pray_points--;
+comm.c:              if (ch->pcdata->pray_points>0 && ch->pcdata->tmp_int < 22 && ch->pcdata->tmp_int < race_info[ch->pcdata->race].limits[1])
+comm.c:                ch->pcdata->tmp_int++;
+comm.c:                ch->pcdata->pray_points--;
+comm.c:              if (ch->pcdata->pray_points>0 && ch->pcdata->tmp_wis < 22 && ch->pcdata->tmp_wis < race_info[ch->pcdata->race].limits[2]) 
+comm.c:                ch->pcdata->tmp_wis++;
+comm.c:                ch->pcdata->pray_points--;
+comm.c:                  if (ch->pcdata->tmp_str>3) 
+comm.c:                    ch->pcdata->tmp_str--;
+comm.c:                    ch->pcdata->pray_points++;
+comm.c:                  if (ch->pcdata->tmp_con>3) 
+comm.c:                    ch->pcdata->tmp_con--;
+comm.c:                    ch->pcdata->pray_points++;
+comm.c:                  if(ch->pcdata->tmp_dex>3) 
+comm.c:                    ch->pcdata->tmp_dex--;
+comm.c:                    ch->pcdata->pray_points++;
+comm.c:                  if(ch->pcdata->tmp_int>3) 
+comm.c:                    ch->pcdata->tmp_int--;
+comm.c:                    ch->pcdata->pray_points++;
+comm.c:                  if(ch->pcdata->tmp_wis>3) 
+comm.c:                    ch->pcdata->tmp_wis--;
+comm.c:                    ch->pcdata->pray_points++;
+comm.c:              tmp_stats[0] = ch->pcdata->tmp_str;
+comm.c:              tmp_stats[4] = ch->pcdata->tmp_con;
+comm.c:              tmp_stats[3] = ch->pcdata->tmp_dex;
+comm.c:              tmp_stats[1] = ch->pcdata->tmp_int;
+comm.c:              tmp_stats[2] = ch->pcdata->tmp_wis;
+comm.c:              ch->pcdata->nat_armor = race_info[ch->pcdata->race].natarmor;
+comm.c:              ch->pcdata->nat_abilities = race_info[ch->pcdata->race].affect_bits;
+comm.c:              ch->pcdata->nat_abilities2 = race_info[ch->pcdata->race].affect_bits2;
+comm.c:              ch->pcdata->augments = race_info[ch->pcdata->race].nat_augments;
+comm.c:              ch->pcdata->alignment = race_info[ch->pcdata->race].start_room -100;
+comm.c:              /* ch->pcdata->stat[i] = ch->pcdata->stat_mod[i] 
+comm.c:              + race_info[ch->pcdata->race].bonus[i] 
+comm.c:              + align_info[ch->pcdata->alignment].bonus[i]
+comm.c:                ch->pcdata->stat[i] = tmp_stats[i];
+comm.c:                ch->pcdata->stat_mod[i] = 0;
+comm.c:                ch->pcdata->start_stat[i] = ch->pcdata->stat[i];
+comm.c:              if (!IS_SET (ch->pcdata->act2, PLR_ANSI))
+comm.c:                ch->pcdata->act2 = PLR_AUTOGOLD | PLR_AUTOLOOT | PLR_AUTOEXIT | PLR_ASSIST | PLR_AUTOSPLIT | PLR_BLANK | PLR_COMBINE | PLR_PROMPT | PLR_AUTOSCAN;
+comm.c:                ch->pcdata->act2 = PLR_AUTOGOLD | PLR_AUTOLOOT | PLR_AUTOEXIT | PLR_ASSIST | PLR_AUTOSPLIT | PLR_BLANK | PLR_COMBINE | PLR_PROMPT | PLR_AUTOSCAN | PLR_ANSI;
+comm.c:              ch->pcdata->temp_room = get_room_index (race_info[ch->pcdata->race].start_room);
+comm.c:              ch->pcdata->level = 0;
+comm.c:              sprintf (buf, "the %s Adventurer", race_info[ch->pcdata->race].name);
+comm.c:              ch->pcdata->n_mana = ch->pcdata->n_max_mana;
+comm.c:            ch->pcdata->pray_points = BASE_ROLLING_POINTS + (4 * ch->pcdata->ascend_times);
+comm.c:            ch->pcdata->tmp_str = 15;
+comm.c:            ch->pcdata->tmp_con = 15;
+comm.c:            ch->pcdata->tmp_dex = 15;
+comm.c:            ch->pcdata->tmp_int = 15;
+comm.c:            ch->pcdata->tmp_wis = 15;
+comm.c:              if (ch->pcdata->pray_points>0 && ch->pcdata->tmp_str < 26 && ch->pcdata->tmp_str < race_info[ch->pcdata->race].limits[0])
+comm.c:                ch->pcdata->tmp_str++;
+comm.c:                ch->pcdata->pray_points--;
+comm.c:              if (ch->pcdata->pray_points>0 && ch->pcdata->tmp_con < 26 && ch->pcdata->tmp_con < race_info[ch->pcdata->race].limits[4])
+comm.c:                ch->pcdata->tmp_con++;
+comm.c:                ch->pcdata->pray_points--;
+comm.c:              if (ch->pcdata->pray_points>0 && ch->pcdata->tmp_dex < 26 && ch->pcdata->tmp_dex < race_info[ch->pcdata->race].limits[3])
+comm.c:                ch->pcdata->tmp_dex++;
+comm.c:                ch->pcdata->pray_points--;
+comm.c:              if (ch->pcdata->pray_points>0 && ch->pcdata->tmp_int < 26 && ch->pcdata->tmp_int < race_info[ch->pcdata->race].limits[1])
+comm.c:                ch->pcdata->tmp_int++;
+comm.c:                ch->pcdata->pray_points--;
+comm.c:              if (ch->pcdata->pray_points>0 && ch->pcdata->tmp_wis < 26 && ch->pcdata->tmp_wis < race_info[ch->pcdata->race].limits[2]) 
+comm.c:                ch->pcdata->tmp_wis++;
+comm.c:                ch->pcdata->pray_points--;
+comm.c:                  if (ch->pcdata->tmp_str>3) 
+comm.c:                    ch->pcdata->tmp_str--;
+comm.c:                    ch->pcdata->pray_points++;
+comm.c:                  if (ch->pcdata->tmp_con>3) 
+comm.c:                    ch->pcdata->tmp_con--;
+comm.c:                    ch->pcdata->pray_points++;
+comm.c:                  if(ch->pcdata->tmp_dex>3) 
+comm.c:                    ch->pcdata->tmp_dex--;
+comm.c:                    ch->pcdata->pray_points++;
+comm.c:                  if(ch->pcdata->tmp_int>3) 
+comm.c:                    ch->pcdata->tmp_int--;
+comm.c:                    ch->pcdata->pray_points++;
+comm.c:                  if(ch->pcdata->tmp_wis>3) 
+comm.c:                    ch->pcdata->tmp_wis--;
+comm.c:                    ch->pcdata->pray_points++;
+comm.c:              if(ch->pcdata->pray_points == 0) {
+comm.c:                tmp_stats[0] = ch->pcdata->tmp_str;
+comm.c:                tmp_stats[4] = ch->pcdata->tmp_con;
+comm.c:                tmp_stats[3] = ch->pcdata->tmp_dex;
+comm.c:                tmp_stats[1] = ch->pcdata->tmp_int;
+comm.c:                tmp_stats[2] = ch->pcdata->tmp_wis;
+comm.c:                ch->pcdata->nat_armor = race_info[ch->pcdata->race].natarmor;
+comm.c:                ch->pcdata->nat_abilities = race_info[ch->pcdata->race].affect_bits;
+comm.c:                ch->pcdata->nat_abilities2 = race_info[ch->pcdata->race].affect_bits2;
+comm.c:                ch->pcdata->augments = race_info[ch->pcdata->race].nat_augments;
+comm.c:                //ch->pcdata->alignment = race_info[ch->pcdata->race].start_room -100;
+comm.c:                /* ch->pcdata->stat[i] = ch->pcdata->stat_mod[i] 
+comm.c:                + race_info[ch->pcdata->race].bonus[i] 
+comm.c:                + align_info[ch->pcdata->alignment].bonus[i]
+comm.c:                  ch->pcdata->stat[i] = tmp_stats[i];
+comm.c:                  ch->pcdata->stat_mod[i] = 0;
+comm.c:                  ch->pcdata->start_stat[i] = ch->pcdata->stat[i];
+comm.c:                //if (!IS_SET (ch->pcdata->act2, PLR_ANSI))
+comm.c:                //  ch->pcdata->act2 = PLR_AUTOGOLD | PLR_AUTOLOOT | PLR_AUTOEXIT | PLR_ASSIST | PLR_AUTOSPLIT | PLR_BLANK | PLR_COMBINE | PLR_PROMPT | PLR_AUTOSCAN;
+comm.c:                //  ch->pcdata->act2 = PLR_AUTOGOLD | PLR_AUTOLOOT | PLR_AUTOEXIT | PLR_ASSIST | PLR_AUTOSPLIT | PLR_BLANK | PLR_COMBINE | PLR_PROMPT | PLR_AUTOSCAN | PLR_ANSI;
+comm.c:                ch->pcdata->temp_room = get_room_index (race_info[ch->pcdata->race].start_room);
+comm.c:                ch->pcdata->level = 0;
+comm.c:                sprintf (buf, "the Ascended %s", race_info[ch->pcdata->race].name);
+comm.c:                ch->pcdata->n_mana = ch->pcdata->n_max_mana;
+comm.c:          if (ch->pcdata->stat[WIS] == 0)
+comm.c:          ch->pcdata->nat_armor = 100;
+comm.c:          ch->pcdata->nat_abilities = 0;
+comm.c:          ch->pcdata->nat_abilities2 = 0;
+comm.c:          ch->pcdata->augments = 0;
+comm.c:              ch->pcdata->stat[i] = 0;
+comm.c:              ch->pcdata->stat_mod[i] = 0;
+comm.c:              ch->pcdata->stat[i] = 0;
+comm.c:              ch->pcdata->stat_mod[i] = 0;
+comm.c:            SET_BIT (ch->pcdata->act2, PLR_HARDCORE);
+comm.c:        sprintf (log_buf, "%s@%s new player.", ch->pcdata->name, d->host);
+comm.c:        ch->pcdata->pray_points = -1;
+comm.c:        ch->pcdata->bank = 50;
+comm.c:          fprintf (fpp, "Email Address....... '%s'\n", ch->pcdata->email);
+comm.c:            if (!str_cmp (playerbase->player_name, ch->pcdata->name))
+comm.c:            if (!str_cmp (playerbase->email_address, ch->pcdata->email) && playerbase->player_level != -1)
+comm.c:          ch->pcdata->temp_room = get_room_index (race_info[ch->pcdata->race].start_room);
+comm.c:          sprintf (buffr2, "mail %s < newbie.tmp &", d->character->pcdata->email);
+comm.c:          int i=ch->pcdata->pagelen;
+comm.c:          ch->pcdata->pagelen=100;
+comm.c:          ch->pcdata->pagelen=i;
+comm.c:        sprintf (log_buf, "%s@%s ascended.", ch->pcdata->name, d->host);
+comm.c:        ch->pcdata->pray_points = -1;        
+comm.c:        ch->pcdata->temp_room = get_room_index(100+ch->pcdata->alignment);
+comm.c:        char_to_room (ch, ch->pcdata->temp_room);
+comm.c:            d->character->pcdata->level = 111;
+comm.c:            d->character->pcdata->wizinvis = 111;
+comm.c:          if (d->character->pcdata->email[0] == '\0' || d->character->pcdata->email[0] == '.')
+comm.c:            d->character->pcdata->voting_on = 9999;
+comm.c:            if (!str_cmp (ch->pcdata->name, online->name))
+comm.c:              ch->pcdata->online_spot = online;
+comm.c:              online_new->name = str_dup(ch->pcdata->name);
+comm.c:              ch->pcdata->online_spot = online_new;
+comm.c:            d->character->affected_by = d->character->pcdata->nat_abilities;
+comm.c:            d->character->more_affected_by = d->character->pcdata->nat_abilities2;  
+comm.c:            sprintf (buf2, "%s@%s has entered the game.", ch->pcdata->name, d->host);
+comm.c:          if (d->character != NULL && d->character->pcdata->level >= 0)
+comm.c:          ch->pcdata->voting_on = 0;
+comm.c:          ch->pcdata->tickcounts = 0;
+comm.c:          ch->affected_by |= ch->pcdata->nat_abilities;
+comm.c:          ch->more_affected_by |= ch->pcdata->nat_abilities2;
+comm.c:            if (ch->pcdata->ignore[k])
+comm.c:                if (!str_cmp (playerbase->player_name, ch->pcdata->ignore[k]))
+comm.c:                sprintf (bufnot, "Ignore -= %s =- not found in playerbase; removing.\n\r", ch->pcdata->ignore[k]);
+comm.c:                free_string (ch->pcdata->ignore[k]);
+comm.c:                ch->pcdata->ignore[k] = NULL;
+comm.c:                playerbase->player_last_login = (int) ch->pcdata->logon;
+comm.c:                playerbase->player_align = ch->pcdata->alignment;
+comm.c:                playerbase->player_level = (ch->pcdata->level);
+comm.c:                strcpy (playerbase->email_address, ch->pcdata->email);
+comm.c:                playerbase->player_remort_times = ch->pcdata->remort_times;
+comm.c:                playerbase->player_created = ch->pcdata->created;
+comm.c:              strcpy (playerbase->email_address, ch->pcdata->email);
+comm.c:              playerbase->player_last_login = (int) ch->pcdata->logon;
+comm.c:              playerbase->player_align = ch->pcdata->alignment;
+comm.c:              playerbase->player_level = ch->pcdata->level;
+comm.c:              playerbase->player_remort_times = ch->pcdata->remort_times;
+comm.c:          if (ch->pcdata->temp_room == NULL)
+comm.c:            ch->pcdata->temp_room = get_room_index(100+ch->pcdata->alignment);
+comm.c:          if(ch->pcdata->temp_room->vnum > 500 && ch->pcdata->temp_room->vnum < 510)
+comm.c:            ch->pcdata->temp_room = get_room_index (100+ch->pcdata->alignment);
+comm.c:          char_to_room (ch, ch->pcdata->temp_room);
+comm.c:            ch->pcdata->level = 1;
+comm.c:            ch->pcdata->created = current_time;
+comm.c:              char_to_room(ch, ch->pcdata->temp_room);
+comm.c:            ch->pcdata->clan = clan_number(ch);
+comm.c:            ch->pcdata->clan2 = clan_number_2(ch);
+comm.c:                ch->pcdata->pet_temp[uui] = 0;
+comm.c:              if (is_note_to (ch, pnote) && str_cmp (ch->pcdata->name, pnote->sender)  && pnote->date_stamp > ch->pcdata->last_note)
+comm.c:              if (is_note_to (ch, pnote) && str_cmp (ch->pcdata->name, pnote->sender)  && pnote->date_stamp > ch->pcdata->last_note && pnote->board_num == 1)
+comm.c:              if ((cch->pcdata->alignment == ch->pcdata->alignment && str_cmp(ch->pcdata->name,cch->pcdata->name)) || IS_IMMORTAL(cch))
+comm.c:                if(ch->pcdata->alignment == 1)
+comm.c:                  sprintf(buf,"\n\r\x1b[0;31mThe forces of evil strengthen as \x1B[32;0m%s\x1B[0;37m\x1b[0;31m steps from the shadows.\x1b[0;37m\n\r",ch->pcdata->name);
+comm.c:                else if(ch->pcdata->alignment == 2)
+comm.c:                  sprintf(buf,"\n\r\x1b[1;37mThe forces of good strengthen as \x1B[32;0m%s\x1B[0;37m\x1b[1;37m emerges from a beam of light.\x1b[0;37m\n\r",ch->pcdata->name);
+comm.c:                else if(ch->pcdata->alignment == 0)
+comm.c:                  sprintf(buf, "\n\r\x1b[1;37mThe \x1b[0;34mp\x1b[1;34mr\x1b[0;36mo\x1b[1;36mt\x1b[1;37me\x1b[1;36mc\x1b[0;36mt\x1b[1;34me\x1b[0;34md\x1b[1;37m forces become stronger as \x1b[1;36m%s\x1b[1;37m emerges from a beam of light.\x1b[0;37m\n\r",ch->pcdata->name);
+comm.c:             else if(!str_cmp(ch->pcdata->name,"Bern") && str_cmp(cch->pcdata->name,ch->pcdata->name))
+comm.c:  if (d->character && IS_PLAYER (d->character) && d->character->pcdata->oldgrep != NULL)
+comm.c:    strcpy (grep, d->character->pcdata->oldgrep);
+comm.c:    tmpline = IS_SET (d->character->pcdata->act2, PLR_MAPPING) ? d->character->pcdata->pagelen - MAP_HEIGHT : d->character->pcdata->pagelen - 1;
+comm.c:    if (d->character && IS_PLAYER (d->character) && d->character->pcdata->oldgrep != NULL)
+comm.c:      strcpy (grep, d->character->pcdata->oldgrep);
+comm.c:      tmpline = IS_SET (d->character->pcdata->act2, PLR_MAPPING) ? d->character->pcdata->pagelen - MAP_HEIGHT : d->character->pcdata->pagelen - 1;
+comm.c:      race_info[ch->pcdata->race].name);
+comm.c:      race_info[ch->pcdata->race].limits[STR],ch->pcdata->tmp_str);
+comm.c:      race_info[ch->pcdata->race].limits[CON],ch->pcdata->tmp_con);
+comm.c:      race_info[ch->pcdata->race].limits[DEX],ch->pcdata->tmp_dex);
+comm.c:      race_info[ch->pcdata->race].limits[INT],ch->pcdata->tmp_int);
+comm.c:      race_info[ch->pcdata->race].limits[WIS],ch->pcdata->tmp_wis);
+comm.c:      ch->pcdata->pray_points);
+config.c:  if (IS_SET (ch->pcdata->act2, PLR_BLANK))
+config.c:      send_to_char (!IS_SET (ch->pcdata->deaf, CHANNEL_AUCTION)
+config.c:      send_to_char (!IS_SET (ch->pcdata->deaf, CHANNEL_YELL)
+config.c:          REMOVE_BIT (ch->pcdata->deaf, bit);
+config.c:          SET_BIT (ch->pcdata->deaf, bit);
+config.c:  if (ch->pcdata->learned[gsn_stance1] < 68)
+config.c:    if (ch->pcdata->stance == 0)
+config.c:    if (ch->pcdata->stance == 1)
+config.c:    if (ch->pcdata->stance == 2)
+config.c:    if (ch->pcdata->stance == 3)
+config.c:    if (ch->pcdata->stance == 4)
+config.c:    if (ch->pcdata->stance == 5)
+config.c:    if (ch->pcdata->stance == 6)
+config.c:    if (ch->pcdata->stance == 7)
+config.c:    if (ch->pcdata->stance == 8)
+config.c:      ch->pcdata->stance = 0; 
+config.c:      ch->pcdata->stance = 1; 
+config.c:      ch->pcdata->stance = 2; 
+config.c:      ch->pcdata->stance = 3; 
+config.c:    else if (!strcmp(argy, "tiger") && ch->pcdata->race > 11)
+config.c:      ch->pcdata->stance = 4;
+config.c:    else if (!strcmp(argy, "mongoose") && ch->pcdata->race > 11)
+config.c:      ch->pcdata->stance = 5;
+config.c:    else if (!strcmp(argy, "bear") && ch->pcdata->race > 11)
+config.c:      ch->pcdata->stance = 6;
+config.c:    else if (!strcmp(argy, "dragon") && ch->pcdata->level > 79
+config.c:             && ch->pcdata->race > 11)
+config.c:      ch->pcdata->stance = 7;
+config.c:    else if (!strcmp(argy, "crane") && ch->pcdata->level > 79
+config.c:             && ch->pcdata->race > 11)
+config.c:      ch->pcdata->stance = 8;
+config.c:  if (IS_SET (ch->pcdata->act2, PLR_BRIEF))
+config.c:  ch->pcdata->pagelen = lines;
+config.c:      if (ch->pcdata->rprompt)
+config.c:        free_string (ch->pcdata->rprompt);
+config.c:      ch->pcdata->rprompt = str_dup (argy);
+config.c:  if (!IS_SET (ch->pcdata->act2, PLR_PROMPT))
+config.c:      SET_BIT (ch->pcdata->act2, PLR_PROMPT);
+config.c:      REMOVE_BIT (ch->pcdata->act2, PLR_PROMPT);
+config.c:      if (IS_SET (ch->pcdata->act2, PLR_ANSI))
+config.c:              sprintf (buf, "$R%s", ch->pcdata->chan_color[i]);
+config.c:                       ch->pcdata->chan_color[i]);
+config.c:  strcpy (ch->pcdata->chan_color[i], argy);
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_PROMPT_UP)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_AUTOEXIT)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_AUTOLOOT)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_AUTOSAC)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_AUTOGOLD)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_AUTOSPLIT)
+config.c:        send_to_char (IS_SET (ch->pcdata->act2, PLR_AUTOSCAN)
+config.c: send_to_char (IS_SET (ch->pcdata->act2, PLR_AUTOBLINK)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_ASSIST)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_BLANK)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_BRIEF)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_COMBINE)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_PROMPT)
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_ANSI)
+config.c:      /* send_to_char( IS_SET(ch->pcdata->act2, PLR_TELNET_GA)
+config.c:          send_to_char (ch->pcdata->challenge_on
+config.c:          send_to_char (ch->pcdata->arena_msg == 1
+config.c:                        : (ch->pcdata->arena_msg == 2
+config.c:      send_to_char (IS_SET (ch->pcdata->act2, PLR_SILENCE)
+config.c:          send_to_char (IS_SET (ch->pcdata->act2, PLR_HOLYLAG) && IS_IMMORTAL (ch)
+config.c:              if (ch->pcdata->challenge_on)
+config.c:                  ch->pcdata->challenge_on = FALSE;
+config.c:                  ch->pcdata->challenge_on = TRUE;
+config.c:	       if (ch->pcdata->arena_msg == 2)
+config.c:		   ch->pcdata->arena_msg = 0;
+config.c:	       else if (ch->pcdata->arena_msg == 1)
+config.c:		   ch->pcdata->arena_msg = 2;
+config.c:		   ch->pcdata->arena_msg = 1;
+config.c:	   SET_BIT (ch->pcdata->act2, bit);
+config.c:	   REMOVE_BIT (ch->pcdata->act2, bit);
+config.c:	   if (IS_SET (ch->pcdata->act2, bit))
+config.c:              REMOVE_BIT (ch->pcdata->act2, bit);
+config.c:	       SET_BIT (ch->pcdata->act2, bit);
+config.c:  free_string (ch->pcdata->title);
+config.c:  ch->pcdata->title = str_dup (buf);
+config.c:  if (strlen(ch->pcdata->title) > 80)
+config.c:  free_string (ch->pcdata->title);
+config.c:  ch->pcdata->title = str_dup ("my title was too long");
+config.c:  string_append (ch, &ch->pcdata->description);
+consid.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_resilience] > 7)
+consid.c:    ch_absorb +=(ch->pcdata->learned[gsn_resilience]/4);
+consid.c:      if (ch->pcdata->learned[571] > 0)
+consid.c:	ch_attacks += ch->pcdata->learned[571]*3/50 + 1;
+consid.c:      if (ch->pcdata->learned[gsn_second_attack] > 0)
+consid.c:	ch_attacks += ch->pcdata->learned[gsn_second_attack]*3/50 + 1;
+consid.c:      if (ch->pcdata->learned[gsn_third_attack] > 0)
+consid.c:	ch_attacks += ch->pcdata->learned[gsn_third_attack]/20 + 1;
+consid.c:  if (IS_PLAYER(victim) && victim->pcdata->learned[gsn_resilience] > 7)
+consid.c:      victim_absorb +=(victim->pcdata->learned[gsn_resilience]/4);
+consid.c:      if (victim->pcdata->learned[571] > 0)
+consid.c:	victim_attacks += victim->pcdata->learned[571]*3/50 + 1;
+consid.c:      if (victim->pcdata->learned[gsn_second_attack] > 0)
+consid.c:	victim_attacks += victim->pcdata->learned[gsn_second_attack]*3/50 + 1;
+consid.c:      if (victim->pcdata->learned[gsn_third_attack] > 0)
+consid.c:	victim_attacks += victim->pcdata->learned[gsn_third_attack]/20 + 1;
+consid.c:  if (IS_PLAYER(victim) && victim->pcdata->learned[gsn_resilience] > 7)
+consid.c:      victim_absorb +=(victim->pcdata->learned[gsn_resilience]/4);
+consid.c:      if (victim->pcdata->learned[571] > 0)
+consid.c:	victim_attacks += victim->pcdata->learned[571]*3/50 + 1;
+consid.c:      if (victim->pcdata->learned[gsn_second_attack] > 0)
+consid.c:	victim_attacks += victim->pcdata->learned[gsn_second_attack]*3/50 + 1;
+consid.c:      if (victim->pcdata->learned[gsn_third_attack] > 0)
+consid.c:	victim_attacks += victim->pcdata->learned[gsn_third_attack]/20 + 1;
+consid.c:	      if (IS_PLAYER(attacker) && attacker->pcdata->learned[gsn_resilience] > 7)
+consid.c:		attacker_absorb +=(attacker->pcdata->learned[gsn_resilience]/4);
+consid.c:	      if (attacker->pcdata->learned[571] > 0)
+consid.c:		attacker_attacks += attacker->pcdata->learned[571]*3/50 + 1;
+consid.c:	      if (attacker->pcdata->learned[gsn_second_attack] > 0)
+consid.c:		attacker_attacks += attacker->pcdata->learned[gsn_second_attack]*3/50 + 1;
+consid.c:	      if (attacker->pcdata->learned[gsn_third_attack] > 0)
+consid.c:		attacker_attacks += attacker->pcdata->learned[gsn_third_attack]/20 + 1;
+create.c: if (!check_skill(ch, gsn_chop) || number_range(1,300) > ch->pcdata->learned[gsn_chop])
+create.c: if (ch->pcdata->online_spot->chopped > 200 && LEVEL(ch) < 100)
+create.c:	 ch->pcdata->online_spot->chopped++;
+create.c:	  if(ch->pcdata->learned[spell[i]->gsn] < pow.max_prac_spells)
+create.c:   ch->pcdata->tickcounts = number_range(10,45);
+create.c:      if (ch->pcdata->online_spot->mined > 200)
+create.c:	  ch->pcdata->online_spot->mined++;
+create.c:      if (ch->pcdata->learned[gsn_enchant] < pow.max_prac_skills)
+create.c:      if (ch->pcdata->bank < cost)
+create.c:	  ch->pcdata->bank -= cost/10;
+create.c:      ch->pcdata->bank -= cost;
+create.c:      if (number_range(1,220) < ch->pcdata->learned[gsn_lore] && pot_info[potion_number].ingredients[i] > 0)
+db2.c:	if (!ch->pcdata->script_flags[i]) continue;
+db2.c:	for (temp=sa_head[CALCULATE_HEAD(ch->pcdata->script_flags[i])]; temp!=NULL; temp=temp->next) {
+db2.c:		if (!str_cmp(temp->flagname,ch->pcdata->script_flags[i])) {
+db2.c:  mob->pcdata->name = pMobIndex->name;
+db2.c:  mob->pcdata->short_descr = pMobIndex->short_descr;
+db2.c:  mob->pcdata->long_descr = pMobIndex->long_descr;
+death.c:  if (ch->pcdata->learned[gsn_invest] < 1)
+death.c:  ch->pcdata->tickcounts = 21;
+death.c:  strcpy (ch->pcdata->temp->temp_string, argy);
+death.c:  if (number_range (1, 90) > ch->pcdata->learned[gsn_invest])
+death.c:	  if (victim->pcdata->learned[i] < 5)
+death.c:	  victim->pcdata->learned[i] -= pow.amount_lost_on_death;
+death.c:	  if (victim->pcdata->learned[i] < 1)
+death.c:	    victim->pcdata->learned[i] = 1;
+death.c:        || IS_SET(ch->pcdata->act2, PLR_HARDCORE))
+death.c:          victim->pcdata->died_recently++;
+death.c:	            if (victim->pcdata->died_recently > 2)
+death.c:          if (victim->pcdata->died_recently > 3)
+death.c:      victim->pcdata->carry_number > 0)
+death.c:      victim->affected_by = victim->pcdata->nat_abilities;
+death.c:      victim->more_affected_by = victim->pcdata->nat_abilities2;
+death.c:  victim->pcdata->plus_kick = 0;
+death.c:  victim->pcdata->plus_hide = 0;
+death.c:  victim->pcdata->plus_sneak = 0;
+death.c:  if (IS_SET(victim->pcdata->act2, PLR_HARDCORE))
+death.c:      sprintf(buf2, "$B$7HARDCORE NOTIFY : $B$4%s $B$7has been killed!!\n\r", victim->pcdata->name);
+death.c://      victim->pcdata->title = "used to be a hardcore player.  R.I.P.";
+death.c://      do_pdelete(sch, victim->pcdata->name);
+death.c:      victim->pcdata->temp_room = get_room_index(8);
+death.c:      char_to_room(victim, victim->pcdata->temp_room);
+death.c:    xp *= ((LEVEL(victim)/8) * (((victim->pcdata->remort_times + 1) * 2)*2));
+death.c:    if (ch->pcdata->level < 30)
+death.c:    if (ch->pcdata->remort_times > 0)
+death.c:      xp = xp * (1 - .05 * ch->pcdata->remort_times);
+death.c:	  victim->pcdata->pkilled++;
+death.c:	  victim->pcdata->pkers+=same_align;
+death.c:	      ch->pcdata->remort_times <= victim->pcdata->remort_times &&
+death.c:	    ch->pcdata->hard_pkills++;
+death.c:			  gch->pcdata->pkills++;
+death.c:			  gch->pcdata->pklevels += LEVEL(victim);
+death.c:			  gch->pcdata->pkhelpers += same_align;
+death.c:			  gch->pcdata->totalkills++;
+death.c:			    gch->pcdata->killpoints++;
+death.c:			    gch->pcdata->killpoints++;
+death.c:			    gch->pcdata->killpoints++;
+death.c:			    gch->pcdata->killpoints++;
+death.c:                          if (IS_SET(gch->pcdata->act2, PLR_HARDCORE))
+death.c:			  sprintf (g_exp, "You've gained %d experience for the kill, and %d for fighting.\n\r", xp, gch->pcdata->voting_on);
+death.c:			  gch->pcdata->voting_on = 0;
+draw.c:  if (IS_SET(ch->pcdata->act2, PLR_NOIBM))
+draw.c:  ch->pcdata->maxx = maxx;
+draw.c:  ch->pcdata->maxy = maxy;
+draw.c:  gotoxy(ch, 1, ch->pcdata->pagelen);
+draw.c:  bool ibm = !IS_SET(ch->pcdata->act2, PLR_NOIBM);
+draw.c:      for (j = 1; j < ch->pcdata->maxx+1; j++)
+draw.c:  sprintf (tt, "\x1B[%d;1f", ch->pcdata->pagelen);
+draw.c:  if (IS_SET(ch->pcdata->act2, PLR_NOIBM)) noibm = TRUE;
+draw.c:  if (IS_SET(ch->pcdata->act2, PLR_VIEWMOBS)) mb = TRUE;
+draw.c:  if (IS_SET(ch->pcdata->act2, PLR_VIEWPLAYERS)) kk = TRUE;
+draw.c:  ch->pcdata->x = (MAP_WIDTH/2);
+draw.c:  ch->pcdata->y = (MAP_HEIGHT/2);
+draw.c:  gotoxy(ch, 1, ch->pcdata->pagelen);
+draw.c:  sprintf(buf, "\x1b[%d;%dr", MAP_HEIGHT, ch->pcdata->pagelen);
+draw.c:  sprintf(buf, "\x1b[%d;1f", ch->pcdata->pagelen);
+edit.c:  if (!ch->pcdata->name)
+edit.c:      SET_BIT (ch->pcdata->act2, PLR_TELNET_GA);
+edit.c:  REMOVE_BIT (ch->pcdata->act2, PLR_TELNET_GA);
+fgt.c:      if (spl->guilds & ~(ch->pcdata->guilds))
+fgt.c:  if (ch->pcdata->learned[gsn] == -100 || number_range(1,103) > ch->pcdata->learned[gsn])
+fgt.c:  if (IS_PLAYER (ch) && ch->pcdata->no_quit_pk == 0 && IS_PLAYER(victim) && ALIGN(ch)!= 0 
+fgt.c:      ch->pcdata->no_quit_pk = 4;
+fgt.c:  if (IS_PLAYER (victim) && victim->pcdata->no_quit_pk == 0 && IS_PLAYER(ch) && ALIGN(ch)!= 0 
+fgt.c:      victim->pcdata->no_quit_pk = 4;
+fgt.c:	if ((guarder = victim->pcdata->guarded_by[i]) != NULL &&
+fgt.c:	    (guarder->pcdata->guarding == victim) &&
+fgt.c:      if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:   (str_cmp(race_info[ch->pcdata->race].name, "minotaur") &&
+fgt.c:   str_cmp(race_info[ch->pcdata->race].name, "gargoyle")))) {
+fgt.c:if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_grapple] > 0)
+fgt.c:  chan += (ch->pcdata->learned[gsn_grapple]/4);
+fgt.c:if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_tackle] > 0)
+fgt.c:  chan += (ch->pcdata->learned[gsn_tackle]/4);
+fgt.c:    chan -= (victim->pcdata->learned[gsn_steadiness]/3);
+fgt.c:if (IS_PLAYER(ch) && (!str_cmp(race_info[ch->pcdata->race].name, "minotaur")
+fgt.c:		  || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle")))
+fgt.c:if ((number_range (0, xn) > chan && IS_AWAKE (victim)) || (number_range(1,70) > ch->pcdata->learned[gsn_tackle]))
+fgt.c:		      if ((guarder = victim->pcdata->guarded_by[i]) != NULL &&
+fgt.c:			  (guarder->pcdata->guarding == victim) &&
+fgt.c:			  if(number_percent() < ch->pcdata->learned[gsn_guard])
+fgt.c:	      victim->pcdata->tickcounts = 0;
+fgt.c:	    && IS_SET (rch->pcdata->act2, PLR_ASSIST)
+fgt.c:  if (ch->pcdata->tickcounts > 3)
+fgt.c:    if (ch->pcdata->learned[!gsn_circle] < 3)
+fgt.c:  ch->pcdata->tickcounts = spl->mana;   /*13; */
+fgt.c:   if (ch->pcdata->learned[gsn_circle] < 2)
+fgt.c:       number_percent() < FIGHTING(ch)->pcdata->learned[gsn_awareness])
+fgt.c:  if (number_range (0, 104) < ch->pcdata->learned[gsn_circle])
+fgt.c:        ch->pcdata->tickcounts = spl->casting_time;
+fgt.c:    if (number_range(1,4) == 2 && ch->pcdata->learned[gsn_unarmed] > 85)
+fgt.c:    if (number_range(1,4) == 2 && ch->pcdata->stance != 2)
+fgt.c:       (ch->pcdata->stance == 1 || ch->pcdata->stance == 4 || 
+fgt.c:        ch->pcdata->stance == 7) )
+fgt.c:    if (number_range(1,4) == 2 && ch->pcdata->stance == 4)
+fgt.c:    if (number_range(1,4) == 2 && ch->pcdata->stance == 4)
+fgt.c:      IS_SET(ch->pcdata->elemental_alignment, ELEMENTAL_ALIGN_FIRE) &&
+fgt.c:      IS_SET(ch->pcdata->elemental_alignment, ELEMENTAL_ALIGN_EARTH) &&
+fgt.c:      IS_SET(ch->pcdata->elemental_alignment, ELEMENTAL_ALIGN_AIR) &&
+fgt.c:      IS_SET(ch->pcdata->elemental_alignment, ELEMENTAL_ALIGN_WATER) &&
+fgt.c:      number_percent() < ch->pcdata->learned[571]*3/5)
+fgt.c:    ((ch->pcdata->learned[gsn_second_attack]*3/5)); /* JRAJRA were 4 */
+fgt.c:    ch->pcdata->learned[gsn_third_attack]/2); /* JRAJRA was 4 */
+fgt.c:	  chance = (victim->pcdata->learned[gsn_parry]+
+fgt.c:      chance = ((victim->pcdata->learned[gsn_dodge]) +
+fgt.c:      chance -= ((victim->pcdata->carry_weight/get_curr_str(victim)));
+fgt.c:          if (ch->pcdata->stance == 1)
+fgt.c:          else if (ch->pcdata->stance == 4)
+fgt.c:          else if (ch->pcdata->stance == 5)
+fgt.c:          else if (ch->pcdata->stance == 8)
+fgt.c:      chance = ((victim->pcdata->learned[gsn_evade] - 68) +
+fgt.c:      if (ch->pcdata->stance == 1)
+fgt.c:      else if (ch->pcdata->stance == 4)
+fgt.c:      else if (ch->pcdata->stance == 5)
+fgt.c:      else if (ch->pcdata->stance == 8)
+fgt.c:      chance = (victim->pcdata->learned[gsn_shield_block] +
+fgt.c:	  if(!IS_SET(victim->pcdata->act2, PLR_AUTOBLINK) || victim->pcdata->n_mana < 5)
+fgt.c:	  chance *=  UMAX(0, victim->pcdata->learned[gsn_blink]/8);
+fgt.c:	      victim->pcdata->n_mana--;
+fgt.c:      return (ch->pcdata->learned[gsn_polearm] == -100 ? -30 : (-20+ch->pcdata->learned[gsn_polearm] / 7));
+fgt.c:      return (ch->pcdata->learned[gsn_pierce] == -100 ? 0 : ch->pcdata->learned[gsn_pierce] / 4);
+fgt.c:      return (ch->pcdata->learned[gsn_concussion] == -100 ? 0 : ch->pcdata->learned[gsn_concussion] / 5);
+fgt.c:      return (ch->pcdata->learned[gsn_whip] == -100 ? 0 : ch->pcdata->learned[gsn_whip] / 4);
+fgt.c:  else if (ch->pcdata->learned[gsn_slashing] == -100)
+fgt.c:        return (ch->pcdata->learned[gsn_slashing] / 7);
+fgt.c:        return (ch->pcdata->learned[gsn_slashing] / 6);
+fgt.c:        return (ch->pcdata->learned[gsn_slashing] / 5);
+fgt.c:        return (ch->pcdata->learned[gsn_slashing] / 4);
+fgt.c:      return ((ch->pcdata->learned[gsn_slashing] / 4) + ((get_curr_str (ch) - 5) / 2));
+fgt.c:      return (ch->pcdata->learned[gsn_slashing] / 5);
+fgt.c:    return (ch->pcdata->learned[gsn_polearm] == -100 ? -30 : (-20+ch->pcdata->learned[gsn_polearm] / 7));
+fgt.c:    return (ch->pcdata->learned[gsn_pierce] == -100 ? 0 : ch->pcdata->learned[gsn_pierce] / 4);
+fgt.c:    return (ch->pcdata->learned[gsn_concussion] == -100 ? 0 : ch->pcdata->learned[gsn_concussion] / 5);
+fgt.c:    return (ch->pcdata->learned[gsn_whip] == -100 ? 0 : ch->pcdata->learned[gsn_whip] / 4);
+fgt.c:  else if (ch->pcdata->learned[gsn_slashing] == -100)
+fgt.c:        return (ch->pcdata->learned[gsn_slashing] / 7);
+fgt.c:        return (ch->pcdata->learned[gsn_slashing] / 6);
+fgt.c:        return (ch->pcdata->learned[gsn_slashing] / 5);
+fgt.c:        return (ch->pcdata->learned[gsn_slashing] / 4);
+fgt.c:    return ((ch->pcdata->learned[gsn_slashing] / 4) + ((get_curr_str (ch) - 5) / 2));
+fgt.c:    return (ch->pcdata->learned[gsn_slashing] / 5);
+fgt.c:    (IS_MOB(ch) ? ch->pIndexData->hitroll : (ch->pcdata->learned[gsn_accuracy] > 0 ? ch->pcdata->learned[gsn_accuracy]/8 : 0));
+fgt.c:      if (is_member(ch, GUILD_MONK) && ch->pcdata->stance == 7
+fgt.c:        int monkbonus = ch->pcdata->learned[gsn_unarmed] - 68;
+fgt.c:        if (ch->pcdata->stance == 3)
+fgt.c:        else if (ch->pcdata->stance == 6)
+fgt.c:        else if (ch->pcdata->stance == 7)
+fgt.c:        else if (ch->pcdata->stance == 2)
+fgt.c:        else if (ch->pcdata->stance == 5)
+fgt.c:        if (ch->pcdata->alignment == fch->pcdata->alignment)
+fgt.c:        else if (fch->pcdata->alignment > 0)
+fgt.c:      if (ch->pcdata->learned[gsn_enhanced_damage] > 0)
+fgt.c:	  roll = number_range(0, ch->pcdata->learned[gsn_enhanced_damage]);
+fgt.c:      if (IS_PLAYER (ch) && dif > 4 && number_range (1, 100) < ch->pcdata->learned[gsn_penetration])
+fgt.c:	  if (IS_PLAYER(victim) && !strcmp(race_info[victim->pcdata->race].name, "gargoyle"))
+fgt.c:              if (victim->pcdata->stance == 1)
+fgt.c:              else if (victim->pcdata->stance == 2)
+fgt.c:              else if (victim->pcdata->stance == 3)
+fgt.c:              else if (victim->pcdata->stance == 4)
+fgt.c:              else if (victim->pcdata->stance == 5)
+fgt.c:              else if (victim->pcdata->stance == 6)
+fgt.c:              else if (victim->pcdata->stance == 8)
+fgt.c:	  if (IS_PLAYER(victim) && victim->pcdata->learned[gsn_resilience] > 7 && !is_member(victim, GUILD_WIZARD))
+fgt.c:	      absorbed +=(victim->pcdata->learned[gsn_resilience]*3/4);
+fgt.c:	        absorbed -= number_range((victim->pcdata->learned[gsn_resilience]*1/4), (victim->pcdata->learned[gsn_resilience]*1/2));
+fgt.c:           dam = dam * (race_info[ch->pcdata->race].backstab_percent +
+fgt.c:              align_info[ch->pcdata->alignment].backstab_percent)/100;
+fgt.c:        dam = (dam*(race_info[ch->pcdata->race].backstab_percent +
+fgt.c:	  align_info[ch->pcdata->alignment].backstab_percent))/100;
+fgt.c:	      if(ch->pcdata->no_quit_pk < MOB_QUIT_TIMER)
+fgt.c:		ch->pcdata->no_quit_pk = MOB_QUIT_TIMER;
+fgt.c:	      ch->pcdata->no_quit_pk = PK_QUIT_TIMER;
+fgt.c:	      victim->pcdata->no_quit_pk = PK_QUIT_TIMER;
+fgt.c:	  if (IS_PLAYER(victim) && victim->pcdata->no_quit_pk < MOB_QUIT_TIMER)
+fgt.c:	    victim->pcdata->no_quit_pk = MOB_QUIT_TIMER;
+fgt.c:	ch->pcdata->voting_on += gn;
+fgt.c:      if(victim->pcdata->mana_shield_strength >= dam)
+fgt.c:        victim->pcdata->mana_shield_strength -= dam;
+fgt.c:        dam = dam - victim->pcdata->mana_shield_strength;
+fgt.c:        victim->pcdata->mana_shield_strength = 0;
+fgt.c:	      victim->pcdata->tickcounts = 0;
+fgt.c:	      if (dam > (4+LEVEL(victim)/4 + victim->pcdata->remort_times))
+fgt.c:		  victim->pcdata->tickcounts = 0;
+fgt.c:	      if (dam > 5+LEVEL(victim)/12 + victim->pcdata->remort_times)
+fgt.c:		  victim->pcdata->tickcounts = 0;
+fgt.c:	  victim->pcdata->no_quit_pk = 0;
+fgt.c:	  victim->pcdata->no_quit = 0;
+fgt.c:	  victim->pcdata->no_quit_pk = 0;
+fgt.c:	  victim->pcdata->no_quit = 0;
+fgt.c:        if(victim->pcdata->no_quit_pk >= 5 && IS_MOB(ch) && !victim->in_room->area->homeland && !IS_SET(ch->act, ACT_AGGRESSIVE)
+fgt.c:                    victim->pcdata->total_wps -= 100;
+fgt.c:                    victim->pcdata->warpoints -= 100;
+fgt.c:                    if (victim->pcdata->warpoints < 0)
+fgt.c:                      victim->pcdata->warpoints = 0;
+fgt.c:                    if (victim->pcdata->total_wps < 0)
+fgt.c:                      victim->pcdata->total_wps = 0;
+fgt.c:	victim->pcdata->deaths++;
+fgt.c:	victim->pcdata->no_quit_pk = 0;
+fgt.c:	    if (victim->pcdata->warpoints > (1+LEVEL(victim)/10))
+fgt.c:	      victim->pcdata->warpoints -= (1 + (LEVEL (victim) / 10));
+fgt.c:	    if (victim->pcdata->warpoints < 0)
+fgt.c:	      victim->pcdata->warpoints = 0;
+fgt.c:	if (IS_SET (ch->pcdata->act2, PLR_AUTOLOOT))
+fgt.c:	else if (IS_SET (ch->pcdata->act2, PLR_AUTOGOLD))
+fgt.c:	if (IS_SET (ch->pcdata->act2, PLR_AUTOSAC))
+fgt.c:	if (IS_SET (ch->pcdata->act2, PLR_AUTOSPLIT)
+fgt.c:if (ch->pcdata->learned[gsn_bash] < 10)
+fgt.c:        if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:    tmpi = (15 + get_curr_dex (victim) +(victim->pcdata->learned[gsn_dodge] / 5));
+fgt.c:    chan = ((ch->pcdata->learned[gsn_bash]) + (get_curr_str (ch) * 3)) -tmpi;
+fgt.c:  if (IS_PLAYER (ch) && ch->pcdata->learned[gsn_bash] < 5)
+fgt.c:  if (IS_PLAYER(victim) && victim->pcdata->learned[gsn_steadiness]
+fgt.c:      chan -= (victim->pcdata->learned[gsn_steadiness]/3);
+fgt.c:    if ((number_percent() < ch->pcdata->learned[gsn_smash]) &&
+fgt.c:    ( ch->pcdata->learned[gsn_smash] > 20))
+fgt.c:    if((IS_MOB(ch) && number_range(1,10) == 4) ||(IS_PLAYER(ch) && is_member(ch, GUILD_BATTLEMASTER) && is_member(ch, GUILD_WARRIOR) && ch->pcdata->learned[gsn_smash] > 9 && number_percent() < ch->pcdata->learned[gsn_smash]))
+fgt.c:    if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:    ||(ch->pcdata->learned[gsn_flurry] > 0 && number_range(1,170) <
+fgt.c:     ch->pcdata->learned[gsn_flurry])))
+fgt.c:      if (number_percent() > ch->pcdata->learned[gsn_flash])
+fgt.c:    if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:    ch->pcdata->tickcounts = spl->mana;
+fgt.c:  strcpy (ch->pcdata->temp->temp_string, argy);
+fgt.c:       number_percent() < victim->pcdata->learned[gsn_awareness])
+fgt.c:    ch->pcdata->tickcounts = spl->casting_time;
+fgt.c:      || (IS_PLAYER (ch) && number_percent () < ch->pcdata->learned[gsn_backstab]))
+fgt.c:  if (IS_PLAYER (ch) && ch->pcdata->tickcounts > 1)
+fgt.c:if (ch->pcdata->learned[gsn_guard] < 50)
+fgt.c:if (victim->pcdata->guarding != NULL)
+fgt.c:    if (ch->pcdata->guarded_by[i] != NULL)
+fgt.c:if(ch->pcdata->guarding != NULL)
+fgt.c:    if (victim->pcdata->guarded_by[i] == NULL)
+fgt.c:	ch->pcdata->guarding = victim;
+fgt.c:	victim->pcdata->guarded_by[i] = ch;
+fgt.c:  if(ch->pcdata->guarding == NULL)
+fgt.c:  victim = (CHAR_DATA *) ch->pcdata->guarding;
+fgt.c:  ch->pcdata->guarding = NULL;
+fgt.c:      if (victim->pcdata->guarded_by[i] == ch)
+fgt.c:	  victim->pcdata->guarded_by[i] = NULL;
+fgt.c:  if (IS_PLAYER (ch) && number_percent () > ch->pcdata->learned[gsn_rescue])
+fgt.c:      if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:    if (fch->pcdata->alignment > 0 && fch->pcdata->alignment != ch->pcdata->alignment)
+fgt.c:      chance += (ch->pcdata->learned[gsn_tornado] + ch->pcdata->learned[gsn_kick])/2;
+fgt.c:      if (IS_PLAYER(victim) && (victim->pcdata->learned[gsn_steadiness] > 10))
+fgt.c:	  chance -= (victim->pcdata->learned[gsn_steadiness]/6);
+fgt.c:      if (IS_PLAYER(victim) && (victim->pcdata->learned[gsn_block] > 10))
+fgt.c:	  if (number_percent() < (victim->pcdata->learned[gsn_block]/3))
+fgt.c:      if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:  chance += ch->pcdata->learned[gsn_buddha] - 10;
+fgt.c:      if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:      chance += ch->pcdata->learned[gsn_nerve]/2;
+fgt.c:	      victim->pcdata->tickcounts = 0;
+fgt.c:      if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:number_percent()<(ch->pcdata->learned[gsn_double_kick]/5)) ||
+fgt.c:      chance += ch->pcdata->learned[gsn_kick];
+fgt.c:(victim->pcdata->learned[gsn_steadiness] > 10))
+fgt.c:	  chance -= (victim->pcdata->learned[gsn_steadiness]/4);
+fgt.c:      if (IS_PLAYER(victim) && (victim->pcdata->learned[gsn_block] > 10))
+fgt.c:	  if (number_percent() < (victim->pcdata->learned[gsn_block]/3))
+fgt.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[580] < 0)
+fgt.c:      int learned = ch->pcdata->learned[580];
+fgt.c:    if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:  if (number_percent() >= ch->pcdata->learned[gsn_impale])
+fgt.c:  if (IS_PLAYER (ch) && ch->pcdata->tickcounts > 3)
+fgt.c:  if (IS_MOB (ch) || (IS_PLAYER (ch) && percent < ch->pcdata->learned[gsn_disarm] * 2 / 3))
+fgt.c:  if (ch->pcdata->no_quit > 0)
+fgt.c:  if (ch->pcdata->no_quit_pk < 5 && number_range(1,15) != 10)
+fgt.c:  if (ch->pcdata->learned[gsn] < 40)
+fgt.c:  if (ch->pcdata->learned[gsn] < 50 && number_range (1, vall[0]) == 5)
+fgt.c:  else if (ch->pcdata->learned[gsn] < 60 && number_range (1, vall[1]) ==5)
+fgt.c:  else if (ch->pcdata->learned[gsn] < 70 && number_range (1, vall[2]) ==5)
+fgt.c:  else if (ch->pcdata->learned[gsn] < 80 && number_range (1, vall[3]) ==5)
+fgt.c:  else if (ch->pcdata->learned[gsn] < 90 && number_range (1, vall[4]) ==5)
+fgt.c:  else if (ch->pcdata->learned[gsn] < 92 && number_range (1, vall[5]) ==5)
+fgt.c:  else if (ch->pcdata->learned[gsn] < 94 && number_range (1, vall[6]) ==5)
+fgt.c:  else if (ch->pcdata->learned[gsn] < 96 && number_range (1, vall[7]) ==5)
+fgt.c:  else if (ch->pcdata->learned[gsn] < 98 && number_range (1, vall[8]) ==5)
+fgt.c:  if (learnyes && ch->pcdata->learned[gsn] < 100)
+fgt.c:      ch->pcdata->learned[gsn]++;
+fgt.c:    if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:  strcpy(ch->pcdata->temp->temp_string, argy);
+fgt.c:  ch->pcdata->tickcounts = 10+(((I_WEAPON *)bow->more)->ammo_type)*4;
+fgt.c:    if(!(victim->pcdata->no_quit_pk > 0)) {
+fgt.c:  if (number_range(1,110) >  ch->pcdata->learned[gsn_shoot])
+fgt.c:  if (number_range(1,110) > ch->pcdata->learned[gsn_throw])
+give.c:               if (ch->pcdata->no_quit_pk < 4);
+give.c:		ch->pcdata->no_quit_pk = 4;/*JRAJRA*/
+give.c:  if (IS_PLAYER(ch) && ch->pcdata->no_quit_pk >= 6)
+give.c:	  if (number_percent () > ch->pcdata->learned[gsn_hide] + ch->pcdata->plus_hide)
+give.c:/*     if ( IS_MOB(victim) && victim->npcdata->hire == ch )
+give.c:   victim->npcdata->paid += (amount*100);
+give.c:   if ( victim->npcdata->wage > victim->npcdata->paid )
+give.c:   name_amount(victim->npcdata->wage - victim->npcdata->paid ));
+give.c:/*     if ( IS_MOB(victim) && victim->npcdata->hire == ch )
+give.c:   victim->npcdata->paid += (amount);
+give.c:   if ( victim->npcdata->wage > victim->npcdata->paid )
+give.c:   name_amount(victim->npcdata->wage - victim->npcdata->paid ));
+give.c:  if (IS_PLAYER (ch) && ch->pcdata->condition[COND_DRUNK] > 10)
+give.c:  if (IS_PLAYER (ch) && ch->pcdata->condition[COND_THIRST] < 7)
+give.c:  if (IS_PLAYER (ch) && ch->pcdata->condition[COND_THIRST] > 40)
+give.c:	  ch->pcdata->condition[COND_THIRST] = 48;
+give.c:	    if (IS_PLAYER (ch) && ch->pcdata->condition[COND_DRUNK] > 10)
+give.c:	    if (IS_PLAYER (ch) && ch->pcdata->condition[COND_FULL] > 40)
+give.c:	    if (IS_PLAYER (ch) && ch->pcdata->condition[COND_THIRST] > 40)
+give.c:      if (IS_PLAYER (ch) &&  ch->pcdata->condition[COND_FULL] > 40)
+give.c:	    conditiona = ch->pcdata->condition[COND_FULL];
+give.c:	    if (conditiona < 4 && ch->pcdata->condition[COND_FULL] > 4)
+give.c:	    else if (ch->pcdata->condition[COND_FULL] > 40)
+give.c:	   if (IS_SET(pObj->value[10], guild_data[i].mob_guildmaster_bit) && !IS_SET(ch->pcdata->guilds, guild_data[i].mob_guildmaster_bit))
+give.c:  if (ch->pcdata->no_quit_pk < 5 && get_curr_int(ch) > 21 && get_curr_wis(ch) > 21
+give.c:  if (ch->pcdata->learned[(bk->teaches)] > 25)
+give.c:      ch->pcdata->learned[(bk->teaches)] = 26;
+give.c:  if (ch->pcdata->alignment == 0)
+give.c:  if (victim->pcdata->alignment == 0)
+give.c:  if (ch->pcdata->alignment == victim->pcdata->alignment)
+give.c:  if (victim->pcdata->alignment == 0 && ch->pcdata->alignment != 0)
+give.c:  if (ch->pcdata->alignment == 0 && victim->pcdata->alignment != 0)
+give.c:	  || (IS_PLAYER (ch) && ch->pcdata->learned[gsn_steal] < 60)
+give.c:	    ch->pcdata->light++;
+give.c:	  ch->pcdata->light--;
+give.c:	  if (ch->pcdata->light < 0) ch->pcdata->light = 0;
+give.c:  if (number_range (0, 100) > ch->pcdata->learned[gsn_butcher])
+grnd.c:  if (IS_PLAYER(ch) &&  (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam += 3;
+grnd.c:  if (IS_PLAYER(victim) && (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam /= 1;
+grnd.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_grapple] != -100)
+grnd.c:    dam += (ch->pcdata->learned[gsn_grapple]/7);
+grnd.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_grapple] != -100)
+grnd.c:    dam += (ch->pcdata->learned[gsn_grapple]/7);
+grnd.c:  if (IS_PLAYER(ch) &&  (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam += 3;
+grnd.c:  if (IS_PLAYER(victim) && (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam /= 1;
+grnd.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_grapple] != -100)
+grnd.c:    dam += (ch->pcdata->learned[gsn_grapple]/7);
+grnd.c:  if (IS_PLAYER(ch) &&  (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam += 3;
+grnd.c:  if (IS_PLAYER(victim) && (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam /= 1;
+grnd.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_grapple] != -100)
+grnd.c:    dam += (ch->pcdata->learned[gsn_grapple]/7);
+grnd.c:  if (IS_PLAYER(ch) &&  (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam += 3;
+grnd.c:  if (IS_PLAYER(victim) && (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam /= 1;
+grnd.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_grapple] != -100)
+grnd.c:    dam += (ch->pcdata->learned[gsn_grapple]/7);
+grnd.c:  if (IS_PLAYER(ch) &&  (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam += 3;
+grnd.c:  if (IS_PLAYER(victim) && (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam /= 1;
+grnd.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_grapple] != -100)
+grnd.c:    dam += (ch->pcdata->learned[gsn_grapple]/7);
+grnd.c:  if (IS_PLAYER(ch) &&  (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam += 3;
+grnd.c:  if (IS_PLAYER(victim) && (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam /= 1;
+grnd.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_grapple] != -100)
+grnd.c:    dam += (ch->pcdata->learned[gsn_grapple]/7);
+grnd.c:  if (IS_PLAYER(ch) &&  (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam += 3;
+grnd.c:  if (IS_PLAYER(victim) && (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam /= 1;
+grnd.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_grapple] != -100)
+grnd.c:    dam += (ch->pcdata->learned[gsn_grapple]/7);
+grnd.c:  if (IS_PLAYER(ch) &&  (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam += 3;
+grnd.c:  if (IS_PLAYER(victim) && (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle"))) dam /= 1;
+grnd.c:      victim->hit -= (get_curr_str(ch) + (IS_AUGMENTED(ch, AUG_FACE_SPIKE) ? 20 : 0) + ((IS_PLAYER(ch) && ch->pcdata->learned[gsn_grapple] > 0)  ?   ch->pcdata->learned[gsn_grapple]/8 : 0));
+grnd.c:	  if ((num_used == hit_type) && (number_range(1,6) == 2 || (IS_PLAYER(ch) && (!str_cmp(race_info[ch->pcdata->race].name, "minotaur") || !str_cmp(race_info[ch->pcdata->race].name, "gargoyle")) && number_range(1,2) == 2)))
+grnd.c:	  victim->pcdata->condition[COND_FULL] = 48;	  
+grnd.c:	  victim->pcdata->condition[COND_THIRST] = 48;	  
+grnd.c:	  victim->pcdata->no_quit_pk = 0;	  
+grnd.c:	      if (victim->pcdata->warpoints - (1 + (LEVEL (victim) / 10))
+grnd.c:		victim->pcdata->warpoints -= (1 + (LEVEL (victim) / 10));    
+grnd.c:	   if (IS_SET (ch->pcdata->act2, PLR_AUTOLOOT))
+grnd.c:	   else if (IS_SET (ch->pcdata->act2, PLR_AUTOGOLD))
+grnd.c:	   if (IS_SET (ch->pcdata->act2, PLR_AUTOSAC))	    
+grnd.c:	   if (IS_SET (ch->pcdata->act2, PLR_AUTOSPLIT) 
+guild.c:  if (IS_SET (ch->pcdata->guilds, guildflag))
+guild.c:      if (!IS_SET (ch->pcdata->guilds, (mob->pIndexData->act3)))
+guild.c:	      ch->pcdata->stat[guild_data[i].stat_modified]--;
+guild.c:	      REMOVE_BIT(ch->pcdata->guilds, guild_data[i].player_guild_bit);
+guild.c:      if (!IS_SET(ch->pcdata->guilds, oldnum))
+guild.c:      if (ch->pcdata->bank < 60000)
+guild.c:      if(ch->pcdata->warpoints < 100)
+guild.c:      ch->pcdata->bank -= 60000;
+guild.c:      ch->pcdata->warpoints -= 100;
+guild.c:	      ch->pcdata->stat[guild_data[i].stat_modified]--;
+guild.c:	      REMOVE_BIT(ch->pcdata->guilds, guild_data[i].player_guild_bit);
+guild.c:	      ch->pcdata->stat[guild_data[i].stat_modified]++;
+guild.c:	      SET_BIT(ch->pcdata->guilds, guild_data[i].player_guild_bit);
+guild.c:      if (IS_SET (ch->pcdata->guilds, mob->pIndexData->act3 ))
+guild.c:      if (ch->pcdata->remort_times < remorts)
+guild.c:      if (ch->pcdata->warpoints < wps)
+guild.c:      if (ch->pcdata->killpoints < kps)
+guild.c:      ch->pcdata->warpoints -= wps;
+guild.c:      ch->pcdata->killpoints -= kps;
+guild.c:	      ch->pcdata->stat[guild_data[i].stat_modified]++;
+guild.c:	      SET_BIT(ch->pcdata->guilds, guild_data[i].player_guild_bit);
+guild.c:	  sprintf(buf, "-->You are level %d, with %d remorts, %ld warpoints, and %d killpoints.\n\r", LEVEL(ch), ch->pcdata->remort_times, ch->pcdata->warpoints, ch->pcdata->killpoints);
+hnd.c:      ch->pcdata->no_spam = 1;
+hnd.c:  if (ch->pcdata->no_spam == 0)
+hnd.c:      ch->pcdata->no_spam = 2;
+hnd.c:  else if (ch->pcdata->no_spam == 1)
+hnd.c:      ch->pcdata->no_spam = 0;
+hnd.c:  ch->pcdata->no_spam = 1;
+hnd.c:  return 18 + (((ch->pcdata->played / 2) + (((int) (current_time - ch->pcdata->logon)) / 2)) / 7200) / 4;
+hnd.c:  return URANGE (3, (ch->pcdata->stat[num] + UMIN(2, ch->pcdata->stat_mod[num])), 36);
+hnd.c:  return get_stat (ch, STR) + align_info[ch->pcdata->alignment].bonus[0];
+hnd.c:  return get_stat (ch, INT) + align_info[ch->pcdata->alignment].bonus[1];
+hnd.c:  return get_stat (ch, DEX) + align_info[ch->pcdata->alignment].bonus[3];
+hnd.c:  return get_stat (ch, WIS) + align_info[ch->pcdata->alignment].bonus[2];
+hnd.c:  return get_stat (ch, CON) + align_info[ch->pcdata->alignment].bonus[4];
+hnd.c:	    ch->pcdata->stat_mod[STR] += mod;
+hnd.c:	    ch->pcdata->stat_mod[DEX] += mod;
+hnd.c:	    ch->pcdata->stat_mod[INT] += mod;
+hnd.c:	    ch->pcdata->stat_mod[WIS] += mod;
+hnd.c:	    ch->pcdata->stat_mod[CON] += mod;
+hnd.c:	  ch->pcdata->saving_throw += mod;
+hnd.c:	  ch->pcdata->resist_summon += mod;
+hnd.c:	  ch->pcdata->plus_kick += mod;
+hnd.c:	  ch->pcdata->plus_sneak += mod;
+hnd.c:	  ch->pcdata->warmth += mod;
+hnd.c:	  ch->pcdata->plus_hide += mod;
+hnd.c:      ch->affected_by |= ch->pcdata->nat_abilities;
+hnd.c:      ch->affected_by |= race_info[ch->pcdata->race].affect_bits;
+hnd.c:      ch->more_affected_by |= ch->pcdata->nat_abilities2;
+hnd.c:      ch->more_affected_by |= race_info[ch->pcdata->race].affect_bits2;
+hnd.c:      ch->affected_by |= align_info[ch->pcdata->alignment].affect_bits;
+hnd.c:      ch->more_affected_by |= align_info[ch->pcdata->alignment].affect_bits2;
+hnd.c:      ch->affected_by |= ch->pcdata->nat_abilities;
+hnd.c:      ch->affected_by |= race_info[ch->pcdata->race].affect_bits;
+hnd.c:      ch->more_affected_by |= ch->pcdata->nat_abilities2;
+hnd.c:      ch->more_affected_by |= race_info[ch->pcdata->race].affect_bits2;
+hnd.c:      ch->affected_by |= align_info[ch->pcdata->alignment].affect_bits;
+hnd.c:      ch->more_affected_by |= align_info[ch->pcdata->alignment].affect_bits2; 
+hnd.c:      ch->affected_by |= ch->pcdata->nat_abilities;
+hnd.c:      ch->affected_by |= race_info[ch->pcdata->race].affect_bits;
+hnd.c:      ch->more_affected_by |= ch->pcdata->nat_abilities2;
+hnd.c:      ch->more_affected_by |= race_info[ch->pcdata->race].affect_bits2;
+hnd.c:       ch->affected_by |= align_info[ch->pcdata->alignment].affect_bits;
+hnd.c:      ch->more_affected_by |= align_info[ch->pcdata->alignment].affect_bits2;
+hnd.c:      ch->affected_by |= ch->pcdata->nat_abilities;
+hnd.c:      ch->affected_by |= race_info[ch->pcdata->race].affect_bits;
+hnd.c:      ch->more_affected_by |= ch->pcdata->nat_abilities2;
+hnd.c:      ch->more_affected_by |= race_info[ch->pcdata->race].affect_bits2;
+hnd.c:       ch->affected_by |= align_info[ch->pcdata->alignment].affect_bits;
+hnd.c:      ch->more_affected_by |= align_info[ch->pcdata->alignment].affect_bits2;
+hnd.c:      ch->affected_by |= ch->pcdata->nat_abilities;
+hnd.c:      ch->affected_by |= race_info[ch->pcdata->race].affect_bits;
+hnd.c:      ch->more_affected_by |= ch->pcdata->nat_abilities2;
+hnd.c:      ch->more_affected_by |= race_info[ch->pcdata->race].affect_bits2;
+hnd.c:       ch->affected_by |= align_info[ch->pcdata->alignment].affect_bits;
+hnd.c:      ch->more_affected_by |= align_info[ch->pcdata->alignment].affect_bits2;
+hnd.c:      ch->in_room->light -= ch->pcdata->light;
+hnd.c:	      while (ch->pcdata->pet_temp[kk] != 0)
+hnd.c:	      ch->pcdata->pet_temp[kk] = pir->pIndexData->vnum;
+hnd.c:	      ch->pcdata->pet_hps[kk] = pir->hit;
+hnd.c:	      ch->pcdata->pet_move[kk] = pir->move;
+hnd.c:      if (ch->pcdata->stat[i] >  race_info[ch->pcdata->race].limits[i])
+hnd.c:	ch->pcdata->stat[i] = race_info[ch->pcdata->race].limits[i];
+hnd.c:  if (oneroom->area && oneroom->area->open != 0 && IS_PLAYER (ch) && ch->pcdata->level > 100 && ch->pcdata->level < 105)
+hnd.c:    if (oneroom->area && oneroom->area->open == 0 && IS_PLAYER (ch) && ch->pcdata->level < 101)
+hnd.c:	  ch->affected_by |= ch->pcdata->nat_abilities;
+hnd.c:	  ch->affected_by |= race_info[ch->pcdata->race].affect_bits;
+hnd.c:	  ch->more_affected_by |= ch->pcdata->nat_abilities2;
+hnd.c:	  ch->more_affected_by |= race_info[ch->pcdata->race].affect_bits2;
+hnd.c:	   ch->affected_by |= align_info[ch->pcdata->alignment].affect_bits;
+hnd.c:      ch->more_affected_by |= align_info[ch->pcdata->alignment].affect_bits2;
+hnd.c:		      racenum == ch->pcdata->race && (nr = get_room_index (roomvn)) != NULL && (nr->vnum < 100 && nr->vnum > (100+NUM_ALIGN-1)))
+hnd.c:	  ch->pcdata->pet_temp[kk] = 0;
+hnd.c: if (IS_PLAYER(ch) && ch->pcdata->light >= 0)
+hnd.c:   oneroom->light +=ch->pcdata->light;
+hnd.c:  if (IS_PLAYER(ch) && IS_SET(ch->pcdata->act2, PLR_MAPPING))
+hnd.c:	      ch->pcdata->armor[0] += (r->protects_body);
+hnd.c:	      ch->pcdata->armor[1] += (r->protects_head);
+hnd.c:	      ch->pcdata->armor[2] += (r->protects_legs);
+hnd.c:	      ch->pcdata->armor[3] += (r->protects_arms);
+hnd.c:	      ch->pcdata->armor[2] += (r->protects_legs * r->condition_now) / (r->max_condition);
+hnd.c:	      ch->pcdata->armor[0] += (r->protects_body * r->condition_now) / (r->max_condition);
+hnd.c:	      ch->pcdata->armor[1] += (r->protects_head * r->condition_now) / (r->max_condition);
+hnd.c:	      ch->pcdata->armor[3] += (r->protects_arms * r->condition_now) / (r->max_condition);
+hnd.c:	  ch->pcdata->warmth += r->warmth;
+hnd.c:	  if (ch->pcdata->warmth < 0) 
+hnd.c:	    ch->pcdata->warmth = 0;
+hnd.c:	  /*      if (ch->pcdata->n_mana<0) ch->pcdata->n_mana += ((I_GEM *) obj->more)->mana_now;
+hnd.c:		  ((I_GEM *) obj->more)->mana_now+=ch->pcdata->n_mana;
+hnd.c:	  ch->pcdata->n_mana = 0;
+hnd.c:      ++ch->pcdata->light;
+hnd.c:	      ch->pcdata->armor[0] -= (r->protects_body);
+hnd.c:	      ch->pcdata->armor[1] -= (r->protects_head);
+hnd.c:	      ch->pcdata->armor[2] -= (r->protects_legs);
+hnd.c:	      ch->pcdata->armor[3] -= (r->protects_arms);
+hnd.c:	      ch->pcdata->armor[2] -= (r->protects_legs * r->condition_now) / (r->max_condition);
+hnd.c:	      ch->pcdata->armor[0] -= (r->protects_body * r->condition_now) / (r->max_condition);
+hnd.c:	      ch->pcdata->armor[1] -= (r->protects_head * r->condition_now) / (r->max_condition);
+hnd.c:	      ch->pcdata->armor[3] -= (r->protects_arms * r->condition_now) / (r->max_condition);
+hnd.c:	  ch->pcdata->warmth -= r->warmth;
+hnd.c:	  if (ch->pcdata->warmth < 0) 
+hnd.c:	    ch->pcdata->warmth = 0;
+hnd.c:	  amt=UMIN((0-((I_GEM *) obj->more)->mana_now),ch->pcdata->n_mana);
+hnd.c:	  ch->pcdata->n_mana-=amt;
+hnd.c:	if(--ch->pcdata->light < 0)
+hnd.c:	  ch->pcdata->light = 0;
+hnd.c:      if(ch->pcdata->guarding != NULL)
+hnd.c:	      if(IS_PLAYER(ch->pcdata->guarding))
+hnd.c:		if (ch->pcdata->guarding->pcdata->guarded_by[i] == ch)
+hnd.c:		  ch->pcdata->guarding->pcdata->guarded_by[i] = NULL;
+hnd.c:	  ch->pcdata->guarding = NULL;
+hnd.c:	  if(ch->pcdata->guarded_by[i] != NULL)
+hnd.c:	      if (IS_PLAYER(ch->pcdata->guarded_by[i]))
+hnd.c:		ch->pcdata->guarded_by[i]->pcdata->guarding = NULL;
+hnd.c:	      ch->pcdata->guarded_by[i] = NULL;
+hnd.c:      ch->pcdata->condition[COND_FULL] = 55;
+hnd.c:      ch->pcdata->condition[COND_THIRST] = 55;
+hnd.c:      ch->pcdata->condition[COND_DRUNK] = 0;
+hnd.c:      char_to_room(ch, get_room_index(ch->pcdata->alignment+100));
+hnd.c:				  if (rch->pcdata->race != RCLOOK)
+hnd.c:		  if (rch->pcdata->race != RCLOOK)
+hnd.c:      && victim->pcdata->wizinvis >= LEVEL (ch)
+hnd.c:      && victim->pcdata->wizinvis >= ch->pcdata->level
+hnd.c:  if (IS_PLAYER (ch) && ch->pcdata->level >= LEVEL_IMMORTAL)
+info.c:    if (ch->pcdata->show_lev)
+info.c:      ch->pcdata->show_lev = FALSE;
+info.c:  ch->pcdata->show_lev = TRUE;
+info.c:              if (LEVEL(ch) == MAX_LEVEL && align!=wch->pcdata->alignment
+info.c:              if (wch->pcdata->wizinvis == 0)
+info.c:              if (wch->pcdata->quiet == 1)
+info.c:              if (wch->pcdata->quiet == 2)
+info.c:                if (IS_SET(wch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_GOOD)
+info.c:                  || IS_SET(wch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_EVIL))
+info.c:			 wch->pcdata->remort_times,
+info.c:  (IS_SET(wch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_FIRE) ? "\x1b[1;31m-" : " "),
+info.c:  (IS_SET(wch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_AIR) ? "\x1b[1;36m-" : " "),
+info.c:  (IS_SET(wch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_WATER) ? "\x1b[1;34m-" : " "),
+info.c:  (IS_SET(wch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_EARTH) ? "\x1b[1;32m-" : " "),
+info.c:			 (IS_SET (wch->pcdata->act2, PLR_SILENCE) ? " s" : " "),
+info.c:                         (wch->pcdata->bgf ? "-" : " "), (IN_BATTLE (wch) ? "+" : " "),
+info.c:			 (IS_SET(wch->pcdata->act2, PLR_HARDCORE) ? "\x1b[1;31mH" : " "),
+info.c:			 wch->pcdata->title,
+info.c:                         (wch->pcdata->wizinvis != 0 ? " \x1b[1;30m(\x1b[1;37mInvis\x1b[1;30m)" : ""));
+info.c:                    if (!wch->pcdata->show_lev)
+info.c:			 (IS_SET(wch->pcdata->act2, PLR_HARDCORE) ? "\x1b[1;31mH" : " "),
+info.c:			 wch->pcdata->title, 
+info.c:			 (wch->pcdata->wizinvis != 0 ? " (Invis)" : ""));
+info.c:  if(IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_FIRE)) buf = "\x1B[1;31mF\x1B[0;37m-";
+info.c:  else if (IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_WATER)) buf = "\x1B[1;34mW\x1B[0;37m-";
+info.c:  else if (IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_AIR)) buf = "\x1B[1;36mA\x1B[0;37m-";
+info.c:  else if (IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_EARTH)) buf = "\x1B[1;32mE\x1B[0;37m-";
+info.c:  else if (IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_GOOD)) buf = "\x1B[1;29mG\x1B[0;37m-";
+info.c:  else if (IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_EVIL)) buf = "\x1B[1;30mE\x1B[0;37m-";
+int.c:      ch->pcdata->oldgrep = mem_alloc (strlen (grep) + 1);
+int.c:      strcpy (ch->pcdata->oldgrep, grep);
+int.c:      if (ch->pcdata->oldgrep)
+int.c:	  free_string (ch->pcdata->oldgrep);
+int.c:	  ch->pcdata->oldgrep = NULL;
+int.c:      if (!found && IS_PLAYER(ch) && ch->pcdata->command_objs > 0)
+int.c:			   d->character->pcdata->email, NAME (dd->character), dd->character->pcdata->email,
+int.c:			   d->character->pcdata->email, NAME (dd->character), dd->character->pcdata->email,
+look.c:    if (ch->pcdata->alignment == fch->pcdata->alignment)
+look.c:		  if (viewer->pcdata->no_quit_pk < 2)
+look.c:		    viewer->pcdata->no_quit_pk = 2;
+look.c:		  if (ch->pcdata->no_quit_pk < 2)
+look.c:		    ch->pcdata->no_quit_pk = 2;
+look.c:		  if (!IS_SET(viewer->pcdata->act2, PLR_AUTOSCAN))
+look.c:		  if(viewer->pcdata->learned[gsn_sixth_sense] < 50)
+look.c:		  if ((ch->pcdata->wizinvis > LEVEL(viewer))
+look.c:          if (IS_MOB (ch) || IS_SET (ch->pcdata->act2, PLR_COMBINE))
+look.c:      if (IS_MOB (ch) || IS_SET (ch->pcdata->act2, PLR_COMBINE))
+look.c:      if (IS_MOB (ch) || IS_SET (ch->pcdata->act2, PLR_COMBINE))
+look.c:  if (IS_PLAYER (ch) && (ch->pcdata->no_spam == 2 || ch->pcdata->no_spam == 1) && !tflag)
+look.c:	  if ((IS_MOB(victim) && (victim->pIndexData->mobtype == MOB_BIRD || victim->pIndexData->mobtype == MOB_DRAGON)) || (IS_PLAYER(victim) && IS_SET(race_info[victim->pcdata->race].affect_bits, AFF_FLYING)))
+look.c:      if (IS_PLAYER (victim) && !IS_SET (ch->pcdata->act2, PLR_BRIEF)
+look.c:          strlen (victim->pcdata->title) < 39)
+look.c:          strcat (buf, victim->pcdata->title);
+look.c:      if (IS_PLAYER (ch) && (ch->pcdata->no_spam == 2 || ch->pcdata->no_spam == 1))
+look.c:	      if ((IS_MOB(victim) && (victim->pIndexData->mobtype == MOB_BIRD || victim->pIndexData->mobtype == MOB_DRAGON)) || (IS_PLAYER(victim) && IS_SET(race_info[victim->pcdata->race].affect_bits, AFF_FLYING)))
+look.c:  if (IS_PLAYER (ch) && ch->pcdata->no_spam == 0)
+look.c:	      if (IS_SET(race_info[victim->pcdata->race].affect_bits, AFF_FLYING))
+look.c:      send_to_char (victim->pcdata->name, ch);
+look.c:      send_to_char (race_info[victim->pcdata->race].name, ch);
+look.c:      && ((IS_PLAYER (ch) && number_percent () < ch->pcdata->learned[gsn_peek]) || IS_IMMORTAL (ch)))
+look.c:AFF_BLIND) && IS_AFFECTED(ch, AFF_INFRARED) && IS_SET(ch->pcdata->act2,
+look.c:      sprintf(buf, "\x1b[%d;%dr", MAP_HEIGHT, ch->pcdata->pagelen);
+look.c:      ch->pcdata->x = MAP_WIDTH/2;
+look.c:      ch->pcdata->y = MAP_HEIGHT/2;
+look.c:      sprintf(buf, "\x1B[%d;1f", ch->pcdata->pagelen);
+look.c:				!IS_SET (ch->pcdata->act2, PLR_BRIEF)))
+look.c:	if (IS_PLAYER (ch) && IS_SET (ch->pcdata->act2, PLR_AUTOEXIT))
+look.c:               number_range(1,140) <ch->pcdata->learned[gsn_locate_trap])
+look.c:               number_range(1,140) <ch->pcdata->learned[gsn_locate_trap])
+look.c:    sprintf (buffy, "You have \x1B[1;37m%ld\x1B[0m coins in the bank.\n\r", ch->pcdata->bank);
+look.c:ch->pcdata->level, ch->pcdata->warpoints, ch->pcdata->remort_times);
+look.c:(ch), ch->pcdata->level, ch->pcdata->warpoints, ch->pcdata->remort_times);
+look.c:  if (strcmp  (arg1, ch->pcdata->pwd) &&
+look.c:      strcmp(arg1, ch->pcdata->rpwd))
+look.c:  pwdnew = (arg2, ch->pcdata->name);
+look.c:  if (ch->pcdata->pwd != NULL)
+look.c:      free_string (ch->pcdata->pwd);
+look.c:  ch->pcdata->pwd = str_dup (pwdnew);
+look.c:  if (ch->pcdata->rpwd)
+look.c:    free_string(ch->pcdata->rpwd);
+look.c:  ch->pcdata->rpwd = str_dup(arg2);
+look.c:   send_to_char( !IS_SET(ch->pcdata->deaf, CHANNEL_AUCTION)
+look.c:   send_to_char( !IS_SET(ch->pcdata->deaf, CHANNEL_NOTIFY)
+look.c:   send_to_char( !IS_SET(ch->pcdata->deaf, CHANNEL_CHAT)
+look.c:   send_to_char( !IS_SET(ch->pcdata->deaf, CHANNEL_IMMTALK)
+look.c:   send_to_char( !IS_SET(ch->pcdata->deaf, CHANNEL_CLANTALK)
+look.c:   send_to_char( !IS_SET(ch->pcdata->deaf, CHANNEL_YELL)
+look.c:   REMOVE_BIT (ch->pcdata->deaf, bit);
+look.c:   SET_BIT (ch->pcdata->deaf, bit);
+look.c:      if(ch->in_room->exit[door]->d_info && IS_SET(ch->in_room->exit[door]->d_info->exit_info, EX_HASTRAP) && number_range(1,150) < ch->pcdata->learned[gsn_locate_trap])
+look.c:        if (number_range (0, 120) < UMAX (8, ch->pcdata->learned[gsn_search])
+look.c:      if (number_range (0, 120) < UMAX (8, ch->pcdata->learned[gsn_search])
+look.c:      if (number_range (0, 120) > UMAX (15, ch->pcdata->learned[gsn_search] + 10))
+look.c:    if (number_range (0, 120) < UMAX (8, ch->pcdata->learned[gsn_search]))
+look.c:  ch->pcdata->tickcounts = 9;
+look.c:    strcpy (ch->pcdata->temp->temp_string, argy);
+look.c:    ch->pcdata->temp->temp_string[0] = '\0';
+medit.c:	sprintf (minibuf, "\x1B[1;%dr\x1B[2JDone.\n\r", ch->pcdata->pagelen);
+medit.c:      sprintf (minibuf, "\x1B[1;%dr\x1B[2JDone.\n\r", ch->pcdata->pagelen);
+mgc.c: nat_level = (get_curr_int (ch) + get_curr_wis (ch)) / 2 + bonus + (ch->pcdata->remort_times+1)/2;
+mgc.c: if (ch->pcdata->n_mana < 0) ch->pcdata->n_mana = 0;
+mgc.c: mana_fire = ch->pcdata->n_mana;
+mgc.c: mana_air = ch->pcdata->n_mana;
+mgc.c: mana_water = ch->pcdata->n_mana;
+mgc.c: mana_earth = ch->pcdata->n_mana;
+mgc.c: mana_spirit = ch->pcdata->n_mana;
+mgc.c:  level += ((get_curr_int (ch) + get_curr_wis (ch)) / 2) +(ch->pcdata->remort_times+1);
+mgc.c:   if (ch->pcdata->n_mana < 0) ch->pcdata->n_mana = 0;
+mgc.c:  mana = ch->pcdata->n_mana;
+mgc.c:	  else if (rch->pcdata->learned[sn] > 30)
+mgc.c:(victim->pcdata->saving_throw)));
+mgc.c:  if (ch->pcdata->n_mana < 0) ch->pcdata->n_mana = 0;
+mgc.c:  mana = ch->pcdata->n_mana;
+mgc.c:  if (ch->pcdata->n_mana < 0) ch->pcdata->n_mana = 0;
+mgc.c:    if (ch->pcdata->n_mana >= mana)
+mgc.c:	ch->pcdata->n_mana -= mana;
+mgc.c:	mana -= ch->pcdata->n_mana;
+mgc.c:	ch->pcdata->n_mana = 0;
+mgc.c:  if (ch->pcdata->tickcounts > 11 && (FIGHTING (ch) != NULL))
+mgc.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_ranged] > pow.max_prac_spells)
+mgc.c:      if (ch->pcdata->remort_times > 3) range++;
+mgc.c:      if (ch->pcdata->remort_times > 6) range++;
+mgc.c:      || (IS_PLAYER (ch) && LEVEL (ch) < spell->spell_level) || (IS_PLAYER(ch) && (ch->pcdata->learned[spell->gsn] <= 0))) 
+mgc.c:	if(!(victim->pcdata->no_quit_pk > 0)) {
+mgc.c:  strcpy (ch->pcdata->temp->temp_string, argy);
+mgc.c:    if ((LEVEL (ch) < 100) || (LEVEL (ch) > 99 && IS_SET (ch->pcdata->act2, PLR_HOLYLAG)))
+mgc.c:	  ch->pcdata->remort_times*0;
+mgc.c:	ch->pcdata->tickcounts = ((spell->casting_time) * (100-bonus))/100;
+mgc.c:	if (ranged && (ch->pcdata->learned[gsn_ranged] > pow.max_prac_spells))
+mgc.c:		ch->pcdata->tickcounts +=5;
+mgc.c:  if (IS_PLAYER(ch) && ch->pcdata->learned[gsn_ranged] >= pow.max_prac_spells)
+mgc.c:      if (ch->pcdata->remort_times > 3) range++;
+mgc.c:      if (ch->pcdata->remort_times > 5) range++;
+mgc.c:	ch->pcdata->tickcounts = spell->casting_time/2+3;
+mgc.c:	ch->pcdata->tickcounts /= 2;
+mgc.c:      (ch->pcdata->learned[spell->gsn]
+mgc.c:	  if (spell->spell_lag > 0 && ch->pcdata->no_quit > 0)
+mgc.c:	      sprintf(buf, "You must wait %d hours before casting %s!\n\r", ch->pcdata->no_quit, spell->spell_name);
+mgc.c:	  if (ch->pcdata->no_quit_pk > 0 && number_percent() < spell->pk_fail_chance)
+mgc.c:		  if(IS_SET(spell->guilds, guild_data[i].mob_guildmaster_bit) && !IS_SET(ch->pcdata->guilds, guild_data[i].mob_guildmaster_bit))
+mgc.c:	  if (ch->pcdata->tickcounts > 2)
+mgc.c:    ch->pcdata->tickcounts = spell->casting_time + 10;
+move.c:  ptrk->online = ch->pcdata->online_spot;
+move.c:  sprintf (ddd, "\x1B[2J\x1B[0m\x1B[1;%dr", ch->pcdata->pagelen);
+move.c:	if (ch->in_room->sector_type == SECT_CAPTURE && ch->in_room->calign != ch->pcdata->alignment) {
+move.c:		sprintf (buf, "\x1b[1;37m%s\x1b[0;37m has captured \x1b[0;37m'\x1b[1;37m%s\x1b[0;37m' for the forces of %s!", ch->pcdata->name, ch->in_room->name, align_info[ch->pcdata->alignment].name);
+move.c:		pRoom->calign = ch->pcdata->alignment;
+move.c:				pMob->alignment = ch->pcdata->alignment;
+move.c:                            align_info[ch->pcdata->alignment].bonus[0] = 1;
+move.c:                            align_info[ch->pcdata->alignment].bonus[1] = 1;
+move.c:                            align_info[ch->pcdata->alignment].bonus[2] = 1;
+move.c:                            align_info[ch->pcdata->alignment].bonus[3] = 1;
+move.c:                            align_info[ch->pcdata->alignment].bonus[4] = 1;
+move.c:  	sprintf (ddd, "\x1B[2J\x1B[0m\x1B[1;%dr", ch->pcdata->pagelen);
+move.c:  ch->pcdata->resist_summon = 0;
+move.c:  if (IS_PLAYER (ch) && (ch->pcdata->condition[COND_DRUNK] > 15 || IS_AFFECTED(ch, AFF_CONFUSE)) && number_range(1,7) == 2)
+move.c:      if (ch->pcdata->speedwalk > 700  && ch->position != POSITION_RUNNING)
+move.c:	  ch->pcdata->speedwalk = 2*PULSE_VIOLENCE +1;
+move.c:	      if (ob->pIndexData->value[7] != ch->pcdata->race)
+move.c:	      if ((ch->pcdata->donated == 0 || ob->pIndexData->value[7] > ch->pcdata->donated))
+move.c:		  sprintf (t, "%ss may not pass!", align_info[ch->pcdata->alignment].name);
+move.c:	      if ((IS_SET(to_room->room_flags, ROOM_INDOORS) || IS_SET(to_room->room_flags, ROOM_UNDERGROUND)) && ch->pcdata->learned[gsn_swim] < 50)
+move.c:	      if (!IS_AFFECTED(ch, AFF_FLYING) && number_range (0, 105) > ch->pcdata->learned[gsn_swim])
+move.c:	move += (ch->pcdata->carry_weight /(weightmult * WGT_MULT))-1;
+move.c:	if (ch->pcdata->carry_weight / WGT_MULT > 119)
+move.c:	if (ch->pcdata->carry_weight / WGT_MULT > 199)
+move.c:	      && number_percent() > ch->pcdata->learned[gsn_swim])
+move.c:	  if (IS_SET (fch->act, PLR_HOLYLIGHT) || (IS_PLAYER (ch) && number_range (1, 75) > ch->pcdata->learned[gsn_sneak]))
+move.c:      in_room->light -= ch->pcdata->light;
+move.c:	      if (ptrk->online== ch->pcdata->online_spot)
+move.c:      to_room->light += ch->pcdata->light;
+move.c:	      if (ptrk->online== ch->pcdata->online_spot)
+move.c:      (ch->pcdata->act2, PLR_BRIEF))
+move.c:      SET_BIT (ch->pcdata->act2, PLR_BRIEF);
+move.c:      REMOVE_BIT (ch->pcdata->act2, PLR_BRIEF);
+move.c:	  if (IS_SET (fch->act, PLR_HOLYLIGHT) || (IS_PLAYER (ch) && number_range (1, 90) > ch->pcdata->learned[gsn_sneak]))
+move.c:	  if (fch->pcdata->no_quit_pk < 4)
+move.c:	    fch->pcdata->no_quit_pk = 4; /* JRAJRA */
+move.c:	  if (ch->pcdata->no_quit_pk < 4)
+move.c:	    ch->pcdata->no_quit_pk = 4; /* JRAJRA */
+move.c:      if (ch->pcdata->learned[gsn_search] > 40)
+move.c:			viewer->pcdata->no_quit_pk = 5;
+move.c:			ch->pcdata->no_quit_pk = 5;
+move.c:		  if (!IS_SET(viewer->pcdata->act2, PLR_AUTOSCAN)
+move.c:		      || viewer->pcdata->learned[gsn_sixth_sense] < 50
+move.c:			  if (!is_first_letter_vowel(align_info[ch->pcdata->alignment].name))
+move.c:				sprintf(buf, "You see +* A %s %s *+ arrive", align_info[ch->pcdata->alignment].name, race_info[ch->pcdata->race].name);
+move.c:				sprintf(buf, "You see +* An %s %s *+ arrive", align_info[ch->pcdata->alignment].name, race_info[ch->pcdata->race].name);
+move.c:			if (!is_first_letter_vowel(race_info[ch->pcdata->race].name))
+move.c:				sprintf(buf, "You see a %s arrive", (race_info[ch->pcdata->race].name));
+move.c:				sprintf(buf, "You see an %s arrive", (race_info[ch->pcdata->race].name));
+move.c:	  REMOVE_BIT(ch->pcdata->act2, PLR_MAPPING);
+move.c:      else if (ch->desc && IS_SET(ch->pcdata->act2, PLR_MAPPING))
+move.c:	  int newx = ch->pcdata->x;
+move.c:	  int newy = ch->pcdata->y;
+move.c:	      MAP_WIDTH-2 || door == 4 || door == 5 || IS_SET(ch->pcdata->act2,
+move.c:	      sprintf(buf, "\x1b[%d;%dr",MAP_HEIGHT,ch->pcdata->pagelen);
+move.c:	      gotoxy(ch, ch->pcdata->x,ch->pcdata->y);
+move.c:		  IS_SET(ch->pcdata->act2, PLR_VIEWPLAYERS))
+move.c:	      if (!found && in_room->more && in_room->more->people != NULL && IS_SET(ch->pcdata->act2, PLR_VIEWMOBS))
+move.c:		  if (IS_SET(ch->pcdata->act2, PLR_NOIBM))
+move.c:		ch->pcdata->y += (door-1);
+move.c:		ch->pcdata->x += (2-door);
+move.c:	      sprintf(buf, "\x1B[%d;1f", ch->pcdata->pagelen);
+move.c:	  if (number_range(1,130) < ch->pcdata->learned[gsn_locate_trap])
+move.c:      ch->pcdata->speedwalk += 2;
+move.c:  ch->pcdata->carry_weight = 0;
+move.c:  ch->pcdata->carry_number = 0;
+move.c:  ch->pcdata->command_objs = 0;
+move.c:      ch->pcdata->carry_weight += get_obj_weight (obj);
+move.c:      ch->pcdata->carry_number += get_obj_number (obj);
+move.c:	ch->pcdata->command_objs++;
+move.c:  if (!is_member(ch, GUILD_THIEFG) && number_range(1,110) > ch->pcdata->learned[gsn_pick_lock])
+move.c:	    ((FIGHTING(ch)->pcdata->learned[gsn_grapple] == -100 ? FALSE :
+move.c:	       ch->fgt->fighting->pcdata->learned[gsn_grapple]))))))
+move.c:	  if (ch->in_room && ((!IS_SET(ch->in_room->room_flags,ROOM_INDOORS) && !IS_SET(ch->in_room->room_flags, ROOM_UNDERGROUND)) || ch->height<= INDOOR_FLY_HEIGHT) && IS_SET (ch->pcdata->nat_abilities, AFF_FLYING))
+move.c:	  (cur_temp(ch) + ch->pcdata->warmth < 40)) || 
+move.c:	(cur_temp(ch) + ch->pcdata->warmth < 30)))
+move.c:  if (IS_MOB (ch) || number_percent () < ch->pcdata->learned[gsn_sneak] + ch->pcdata->plus_sneak)
+move.c:			      number_range (1, 104) <= ch->pcdata->learned[gsn_hide] + ch->pcdata->plus_hide))
+move.c:  if (IS_PLAYER (ch) && (IS_SET (ch->pcdata->nat_abilities, AFF_FLYING)))
+note.c:		       (pnote->date_stamp > ch->pcdata->last_note
+note.c:		  && ch->pcdata->last_note < pnote->date_stamp)
+note.c:		  ch->pcdata->last_note = UMAX (ch->pcdata->last_note, pnote->date_stamp);
+note.c:      ch->pcdata->online_spot->notes_this_reboot++;
+note.c:      if(ch->pcdata->online_spot->notes_this_reboot > 8)
+object.c:	      obj_t->carried_by->pcdata->carry_number += get_obj_number (obj);
+object.c:	      obj_t->carried_by->pcdata->carry_weight += get_obj_weight (obj);
+object.c:	  ch->pcdata->carry_number += get_obj_number (obj);
+object.c:	  ch->pcdata->carry_weight += get_obj_weight (obj);
+object.c:	    ch->pcdata->command_objs++;
+object.c:	  ch->pcdata->carry_number -= get_obj_number (obj);
+object.c:	  ch->pcdata->carry_weight -= get_obj_weight (obj);
+object.c:	    ch->pcdata->command_objs--;
+object.c:	    obj_frm->carried_by->pcdata->carry_number -= get_obj_number (obj);
+object.c:	    obj_frm->carried_by->pcdata->carry_weight -= get_obj_weight (obj);
+oc.c:  if (!ch->pcdata || !ch->pcdata->temp)
+oc.c:  ch->pcdata->temp->next = temp_free;
+oc.c:  temp_free = ch->pcdata->temp;
+oc.c:  ch->pcdata->temp = NULL;
+oc.c:  if (ch->pcdata->temp == NULL)
+oc.c:    ch->pcdata->temp = new_temp ();
+oc.c:      sprintf (buf, "\x1B[1;1f\x1B[K\x1B[2;1f\x1B[K\x1B[3;1f\x1B[K\x1B[4;1f\x1B[K\x1B[5;1f\x1B[K\x1B[6;1f\x1B[K\x1B[7;1f\x1B[K\x1B[8;1f\x1B[K\x1B[9;1f\x1B[K\x1B[10;%dr", ch->pcdata->pagelen);
+oc.c:	  sprintf (buf, "\x1B[%d;1f\x1B[K", ch->pcdata->pagelen);
+oc.c:	  sprintf (buf, "\x1B[%d;1f\x1B[K", ch->pcdata->pagelen);
+oc.c:	  sprintf (buf, "\x1B[%d;1f\x1B[K", ch->pcdata->pagelen);
+oc.c:	  sprintf (buf, "\x1B[%d;1f\x1B[K", ch->pcdata->pagelen);
+oc.c:	  sprintf (buf, "\x1B[%d;1f\x1B[K", ch->pcdata->pagelen);
+oc.c:	  sprintf (buf, "\x1B[%d;1f\x1B[K", ch->pcdata->pagelen);
+oc.c:	  sprintf (buf, "\x1B[%d;1f\x1B[K", ch->pcdata->pagelen);
+oc.c:  sprintf (buf, "\x1B[%d;1f\x1B[K", ch->pcdata->pagelen);
+pb.c:	  if (ch->pcdata->level != (player->player_level))
+pb.c:	      player->player_last_login = (int) ch->pcdata->logon;
+pb.c:		strcpy (player->email_address, ch->pcdata->email);
+pb.c:	      player->player_level = ch->pcdata->level;
+pb.c:	      player->player_remort_times = ch->pcdata->remort_times;
+pb.c:	      player->player_created = ch->pcdata->created;
+pb.c:      player->player_last_login = (int) ch->pcdata->logon;
+pb.c:      strcpy (player->email_address, ch->pcdata->email);
+pb.c:      player->player_level = ch->pcdata->level;
+pb.c:      player->player_remort_times = ch->pcdata->remort_times;
+pb.c:      player->player_created = ch->pcdata->created;
+pedit.c:	   LEVEL (victim), NAME (victim), race_info[victim->pcdata->race].name, victim->pcdata->race,
+pedit.c:	   (victim->pcdata->sex == SEX_MALE ? "M" : victim->pcdata->sex == SEX_FEMALE ? "F" : "N"),
+pedit.c:	   victim->pcdata->email);
+pedit.c:	   victim->pcdata->alignment, victim->pcdata->remort_times,
+pedit.c:	   victim->pcdata->nat_armor, victim->pcdata->deaths,
+pedit.c:	   victim->pcdata->warpoints, victim->height);
+pedit.c:     victim->pcdata->bank, victim->pcdata->practice, victim->pcdata->learn);
+pedit.c:	   victim->pcdata->totalkills, victim->pcdata->killpoints,
+pedit.c:	   victim->pcdata->condition[COND_THIRST], victim->pcdata->condition[COND_FULL],
+pedit.c:	   victim->pcdata->condition[COND_DRUNK]);
+pedit.c:	   victim->pcdata->saving_throw, victim->pcdata->carry_number,
+pedit.c:   (victim->pcdata->carry_weight/WGT_MULT),(victim->pcdata->carry_weight % WGT_MULT), get_age (victim), victim->pcdata->donated);
+pedit.c:	   get_curr_str (victim), victim->pcdata->stat[0],
+pedit.c:	   get_curr_con (victim), victim->pcdata->stat[4],
+pedit.c:	   get_curr_dex (victim), victim->pcdata->stat[3],
+pedit.c:	   get_curr_int (victim), victim->pcdata->stat[1],
+pedit.c:	   get_curr_wis (victim), victim->pcdata->stat[2]);
+pedit.c:  if (victim->pcdata->cool_skills != 0)
+pedit.c:  if (victim->pcdata->nat_abilities != 0)
+pedit.c:      send_to_char (natural_abilities (victim->pcdata->nat_abilities), god);
+pedit.c:      send_to_char (natural_abilities2 (victim->pcdata->nat_abilities2), god);
+pedit.c:      send_to_char (augmentss (victim->pcdata->augments), god);
+pedit.c:  show_guilds (god, victim->pcdata->guilds);
+pedit.c:  if (IS_SET (victim->pcdata->act2, PLR_SILENCE))
+pedit.c:      if (victim->pcdata->learned[tt] > 0)
+pedit.c:	      sprintf (hugebuf_o + strlen (hugebuf_o), " [%17s #%3d %3d%%]   ", s->spell_name, tt, victim->pcdata->learned[tt]);
+pedit.c:      if (victim->pcdata->storage[tt] == NULL)
+pedit.c:      sprintf (hugebuf_o + strlen (hugebuf_o), "%6d ", victim->pcdata->storage[tt]->pIndexData->vnum);
+pedit.c:      if(victim->pcdata->level == 0)
+pedit.c:	victim->pcdata->level = 1;
+pedit.c:      free_string (victim->pcdata->name);
+pedit.c:      victim->pcdata->name = str_dup (capitalize (arg2));
+pedit.c:      victim->pcdata->sex = value;
+pedit.c:      victim->pcdata->remort_times = value;
+pedit.c:      free_string(victim->pcdata->pwd);
+pedit.c:      victim->pcdata->pwd = str_dup(pwdnew);
+pedit.c:      if (victim->pcdata->rpwd)
+pedit.c:        free_string(victim->pcdata->rpwd);
+pedit.c:      victim->pcdata->rpwd = str_dup(arg2);
+pedit.c:      strcpy (victim->pcdata->email, arg2);
+pedit.c:      victim->pcdata->nat_armor = value;
+pedit.c:      victim->pcdata->deaths = value;
+pedit.c:      victim->pcdata->warpoints = value;
+pedit.c:      victim->pcdata->bank = value;
+pedit.c:      victim->pcdata->practice = value;
+pedit.c:      victim->pcdata->learn = value;
+pedit.c:      victim->pcdata->totalkills = value;
+pedit.c:      victim->pcdata->killpoints = value;
+pedit.c:      victim->pcdata->stat[2] = value;
+pedit.c:      victim->pcdata->stat[3] = value;
+pedit.c:      victim->pcdata->stat[4] = value;
+pedit.c:      victim->pcdata->stat[1] = value;
+pedit.c:      victim->pcdata->stat[0] = value;
+pedit.c:      victim->pcdata->stat_mod[2] = value;
+pedit.c:      victim->pcdata->stat_mod[3] = value;
+pedit.c:      victim->pcdata->stat_mod[1] = value;
+pedit.c:      victim->pcdata->stat_mod[4] = value;
+pedit.c:      victim->pcdata->stat_mod[0] = value;
+pedit.c:      victim->pcdata->security = value;
+pedit.c:      victim->pcdata->condition[COND_THIRST] = value;
+pedit.c:      victim->pcdata->condition[COND_FULL] = value;
+pedit.c:      victim->pcdata->condition[COND_DRUNK] = value;
+pedit.c:      victim->pcdata->saving_throw = value;
+pedit.c:	      if (IS_SET(victim->pcdata->guilds, guild_data[i].mob_guildmaster_bit))
+pedit.c:	      victim->pcdata->guilds ^= guild_data[i].mob_guildmaster_bit;
+pedit.c:      int affect = victim->pcdata->nat_abilities;
+pedit.c:	      TOGGLE_BIT(victim->pcdata->nat_abilities, affect_flagss[num].flagname);
+pedit.c:      int affect = victim->pcdata->nat_abilities2;
+pedit.c:	      TOGGLE_BIT(victim->pcdata->nat_abilities2, affect_flags_2[num].flagname);
+pedit.c:      victim->pcdata->learned[value] = set_to;
+pedit.c:	      if (victim->pcdata->storage[otr] == NULL)
+pedit.c:	      if (victim->pcdata->storage[otr]->pIndexData->vnum == value)
+pedit.c:		  ofnd = victim->pcdata->storage[otr];
+pedit.c:	  free_it (victim->pcdata->storage[otr]);
+pedit.c:	  victim->pcdata->storage[otr] = NULL;
+pedit.c:      victim->pcdata->act2 ^= PLR_SILENCE;
+pedit.c:  int oldrace = ch->pcdata->race;
+pedit.c:  if (ch->pcdata->race >=0 && ch->pcdata->race < RACE_COUNT && str_cmp(race_info[ch->pcdata->race].name, "blank"))
+pedit.c:      REMOVE_BIT(ch->pcdata->nat_abilities,race_info[ch->pcdata->race].affect_bits);
+pedit.c:      REMOVE_BIT(ch->pcdata->nat_abilities2, race_info[ch->pcdata->race].affect_bits2);
+pedit.c:      REMOVE_BIT( ch->affected_by,race_info[ch->pcdata->race].affect_bits);
+pedit.c:      REMOVE_BIT(ch->more_affected_by, race_info[ch->pcdata->race].affect_bits2);
+pedit.c:      REMOVE_BIT(ch->pcdata->augments, race_info[ch->pcdata->race].nat_augments);
+pedit.c:	  ch->pcdata->stat[i] -= race_info[ch->pcdata->race].limits[i];
+pedit.c:      ch->max_hit -= (LEVEL(ch) * race_info[ch->pcdata->race].hps_bonus);
+pedit.c:      ch->damroll -= race_info[ch->pcdata->race].combat_damage_bonus;
+pedit.c:    ch->pcdata->learned[i] = -100;
+pedit.c:  ch->pcdata->learn = LEVEL(ch) +2;
+pedit.c:  ch->pcdata->practice =
+pedit.c:  ch->pcdata->race = newrace;
+pedit.c:	ch->pcdata->stat[i] += race_info[ch->pcdata->race].limits[i];
+pedit.c:  ch->pcdata->nat_abilities |= race_info[ch->pcdata->race].affect_bits;
+pedit.c:  ch->pcdata->nat_abilities |= align_info[ch->pcdata->alignment].affect_bits;
+pedit.c:  ch->affected_by |= ch->pcdata->nat_abilities;
+pedit.c:  ch->pcdata->nat_abilities2 |= race_info[ch->pcdata->race].affect_bits2;
+pedit.c:  ch->pcdata->nat_abilities2 |= align_info[ch->pcdata->alignment].affect_bits2;
+pedit.c:  ch->more_affected_by |= ch->pcdata->nat_abilities2;
+pedit.c:  ch->pcdata->augments |= race_info[ch->pcdata->race].nat_augments;
+pedit.c:  ch->pcdata->augments |= align_info[ch->pcdata->alignment].nat_augments;
+pedit.c:  ch->max_hit += (LEVEL(ch) * race_info[ch->pcdata->race].hps_bonus);
+pedit.c:  ch->damroll += race_info[ch->pcdata->race].combat_damage_bonus;
+pedit.c:  ch->height = number_range (race_info[ch->pcdata->race].height_min, race_info[ch->pcdata->race].height_max);
+pedit.c:  sprintf(buf, "You went from being a %s to being a %s.\n\r", ((oldrace >= 0 && oldrace < RACE_COUNT && str_cmp(race_info[oldrace].name, "blank")) ? race_info[oldrace].name : "Something"), ((ch->pcdata->race >= 0 && ch->pcdata->race < RACE_COUNT && str_cmp(race_info[ch->pcdata->race].name, "blank")) ? race_info[ch->pcdata->race].name : "Something"));
+pedit.c:  int oldalign = ch->pcdata->alignment;
+pedit.c:  if (ch->pcdata->alignment >=0 && ch->pcdata->alignment < NUM_ALIGN && str_cmp(align_info[ch->pcdata->alignment].name, "blank"))
+pedit.c:      REMOVE_BIT(ch->pcdata->nat_abilities,race_info[ch->pcdata->race].affect_bits);
+pedit.c:      REMOVE_BIT(ch->pcdata->nat_abilities2, race_info[ch->pcdata->race].affect_bits2);
+pedit.c:      REMOVE_BIT(ch->affected_by,race_info[ch->pcdata->race].affect_bits);
+pedit.c:      REMOVE_BIT(ch->more_affected_by, race_info[ch->pcdata->race].affect_bits2);
+pedit.c:      REMOVE_BIT(ch->pcdata->augments, race_info[ch->pcdata->race].nat_augments);
+pedit.c:	  ch->pcdata->stat[i] -= align_info[ch->pcdata->alignment].limits[i];
+pedit.c:      ch->max_hit -= (LEVEL(ch) * align_info[ch->pcdata->alignment].hps_bonus);
+pedit.c:      ch->damroll -= align_info[ch->pcdata->alignment].combat_damage_bonus;
+pedit.c:  if( LEVEL(ch) != pow.level_to_choose || ch->pcdata->remort_times > 0)
+pedit.c:      ch->pcdata->learned[i] = -100;
+pedit.c:  ch->pcdata->learn = LEVEL(ch) +2;
+pedit.c:  ch->pcdata->practice =
+pedit.c:  ch->height = number_range (race_info[ch->pcdata->race].height_min, race_info[ch->pcdata->race].height_max);
+pedit.c:  ch->pcdata->alignment = newalign;
+pedit.c:      ch->pcdata->stat[i] += align_info[ch->pcdata->alignment].limits[i];
+pedit.c:  ch->pcdata->nat_abilities |= race_info[ch->pcdata->race].affect_bits;
+pedit.c:  ch->pcdata->nat_abilities |= align_info[ch->pcdata->alignment].affect_bits;
+pedit.c:  ch->affected_by |= ch->pcdata->nat_abilities;
+pedit.c:  ch->pcdata->nat_abilities2 |= race_info[ch->pcdata->race].affect_bits2;
+pedit.c:  ch->pcdata->nat_abilities2 |= align_info[ch->pcdata->alignment].affect_bits2;
+pedit.c:  ch->more_affected_by |= ch->pcdata->nat_abilities2;
+pedit.c:  ch->pcdata->augments |= align_info[ch->pcdata->alignment].nat_augments;
+pedit.c:  ch->pcdata->augments |= race_info[ch->pcdata->race].nat_augments;
+pedit.c:  ch->max_hit += (LEVEL(ch) * align_info[ch->pcdata->alignment].hps_bonus);
+pedit.c:  ch->damroll += align_info[ch->pcdata->alignment].combat_damage_bonus;
+pets.c:      if (ch->pcdata->pet_temp[k] != 0)
+pets.c:	  if ((mid = get_mob_index (ch->pcdata->pet_temp[k])) == NULL)
+pets.c:	      ch->pcdata->pet_temp[k] = 0;
+pets.c:	  ch->pcdata->number_pets++;
+pets.c:	  mob->hit = ch->pcdata->pet_hps[k];
+pets.c:	  mob->move = ch->pcdata->pet_move[k];
+pinfo.c:	   race_info[victim->pcdata->race].name);
+pinfo.c:  if (LEVEL (ch) > (MAX_LEVEL -3)&& victim->pcdata->email[0] != '\0')
+pinfo.c:      sprintf (buf, "God Info: Email: %s.\n\r", victim->pcdata->email);
+power.c:		if (ch->pcdata->remort_times == 0)
+power.c:	      remort_mult = ch->pcdata->remort_times;
+power.c:	    up_hitgain = pow.hitgain[jh][4] + (ch->pcdata->remort_times) * pow.rem_hitgain[jhr][4];
+power.c:	    low_hitgain = pow.hitgain[jh][3] + (ch->pcdata->remort_times) * pow.rem_hitgain[jhr][3];
+power.c:	    hitgain += race_info[ch->pcdata->race].hps_bonus;
+power.c:	    hitgain += align_info[ch->pcdata->alignment].hps_bonus;
+power.c:      if (ch->pcdata->remort_times > 0)
+prompt.c:  if (ch->pcdata->tickcounts > 11)
+prompt.c:  ch->pcdata->cursor = 0;
+prompt.c:  strcpy (rest, interpret_line (ch->pcdata->rprompt, ch));
+prompt.c:      if (*t == '\n' || ch->pcdata->cursor > 79)
+prompt.c:	  ch->pcdata->cursor = 0;
+prompt.c:      ch->pcdata->cursor++;
+prompt.c:  ch->pcdata->cursor++;
+prompt.c:    gotoxy (ch, ch->pcdata->cursor, ch->pcdata->pagelen);
+prompt.c:      ch->pcdata->cursor += strlen (ch->desc->inbuf);
+prompt.c:  if (ch->pcdata->rprompt)
+prompt.c:    free_string (ch->pcdata->rprompt);
+prompt.c:  ch->pcdata->rprompt = str_dup (prompts[(option - 'A')]);
+prse.c:	  if (ch->pcdata->condition[COND_DRUNK] > 10)
+prse.c:	  if (ch->pcdata->condition[COND_FULL] < 10 &&
+prse.c:	      ch->pcdata->condition[COND_FULL] > 5)
+prse.c:	  if (ch->pcdata->condition[COND_THIRST] < 10 &&
+prse.c:	      ch->pcdata->condition[COND_THIRST] > 5)
+prse.c:	  if (ch->pcdata->condition[COND_FULL] < 5 &&
+prse.c:	      ch->pcdata->condition[COND_FULL] > 0)
+prse.c:	  if (ch->pcdata->condition[COND_THIRST] < 5 &&
+prse.c:	      ch->pcdata->condition[COND_THIRST] > 0)
+prse.c:	  if (ch->pcdata->condition[COND_THIRST] < 1)
+prse.c:	  if (ch->pcdata->condition[COND_FULL] < 1)
+prse.c:  	  sprintf(bf, "%d", (race_info[ch->pcdata->race].max_skills +
+prse.c:align_info[ch->pcdata->alignment].max_skills+
+prse.c:(ch->pcdata->remort_times+1)/2) - tally_spsk(ch, 0));
+prse.c: 	  sprintf(bf, "%d", (race_info[ch->pcdata->race].max_spells +
+prse.c:align_info[ch->pcdata->alignment].max_spells+ (ch->pcdata->remort_times)- tally_spsk(ch, 1)));
+prse.c:       sprintf(bf, "%d", (race_info[ch->pcdata->race].max_profs +
+prse.c:align_info[ch->pcdata->alignment].max_profs+ (ch->pcdata->remort_times+1)/2) - tally_spsk(ch, 2));
+prse.c:	  sprintf (bf, "%d", ch->pcdata->carry_number);
+prse.c:	  sprintf (bf, "%ld", ch->pcdata->bank);
+prse.c:	  sprintf(bf, "%d", ch->pcdata->deaths);
+prse.c:		(ch->pcdata->learned[gsn_parry] == -100 ? 0 : ch->pcdata->learned[gsn_parry] / 7) +
+prse.c:		(ch->pcdata->learned[gsn_dodge] == -100 ? 0 : ch->pcdata->learned[gsn_dodge] / 6) +
+prse.c:		(ch->pcdata->learned[gsn_evade] == -100 ? 0 : ch->pcdata->learned[gsn_evade] / 6) +
+prse.c:		(ch->pcdata->learned[gsn_shield_block] == -100 ? 0 : ch->pcdata->learned[gsn_shield_block] / 9) +
+prse.c:      if (!str_infix ("guil", code) && ch->pcdata->guilds != 0 && IS_PLAYER (ch))
+prse.c:	  sprintf (bf, "%d Stn., %d Peb.", ch->pcdata->carry_weight/WGT_MULT, ch->pcdata->carry_weight % WGT_MULT);
+prse.c:	  sprintf (bf, "%d", ch->pcdata->killpoints);
+prse.c:	  sprintf (bf, "%d", (IS_MOB (ch) ? 0 : ch->pcdata->learn));
+prse.c:	  sprintf (bf, "%ld", ch->pcdata->pklevels);
+prse.c:	  sprintf (bf, "%ld", ch->pcdata->pkhelpers);
+prse.c:	  sprintf (bf, "%d", ch->pcdata->pkills);
+prse.c:	  sprintf (bf, "%d", ch->pcdata->pkilled);
+prse.c:	  sprintf (bf, "%ld", ch->pcdata->pkers);
+prse.c:	  sprintf (bf, "%d", (IS_MOB (ch) ? 0 : ch->pcdata->practice));
+prse.c:	  int hours = ((ch->pcdata->played) + (((int) (current_time - ch->pcdata->logon)))) / 3600;
+prse.c:	    sprintf (bf, "%d", ch->pcdata->stat[0]);
+prse.c:	    sprintf (bf, "%d", ch->pcdata->stat[1] );
+prse.c:	    sprintf (bf, "%d", ch->pcdata->stat[2]);
+prse.c:	    sprintf (bf, "%d", ch->pcdata->stat[3]);
+prse.c:	    sprintf (bf, "%d", ch->pcdata->stat[4]);
+prse.c:	  sprintf (bf, "%d", ch->pcdata->remort_times);
+prse.c:	  sprintf (bf, "%s", race_info[ch->pcdata->race].name);
+prse.c:	  if (ch->pcdata->sex == SEX_MALE) sprintf (bf, "Male   ");
+prse.c:	  else if (ch->pcdata->sex == SEX_FEMALE) sprintf (bf, "Female ");
+prse.c:	      ch->pcdata->sex = SEX_NEUTRAL;
+prse.c:	  sprintf(bf, "%d", (race_info[ch->pcdata->race].max_skills + align_info[ch->pcdata->alignment].max_skills + (ch->pcdata->remort_times+1)/2));
+prse.c: 	  sprintf(bf, "%d", (race_info[ch->pcdata->race].max_spells +
+prse.c:align_info[ch->pcdata->alignment].max_spells+
+prse.c:(ch->pcdata->remort_times)));
+prse.c:	  sprintf(bf, "%d", (race_info[ch->pcdata->race].max_profs + align_info[ch->pcdata->alignment].max_profs+ (ch->pcdata->remort_times+1)/2));
+prse.c:	  sprintf (bf, "%ld", ch->pcdata->total_wps);
+prse.c:	  sprintf (bf, "%d", ch->pcdata->totalkills);
+prse.c:        sprintf (bf, "%sd", ch->pcdata->elemental_alignment);
+prse.c:	      if (ch->pcdata->warmth > 0)
+prse.c:		  switch (ch->pcdata->warmth / 10)
+prse.c:	  if (ch->pcdata->carry_weight < weightmult *1)
+prse.c:	  else if (ch->pcdata->carry_weight < (weightmult * 2))
+prse.c:	  else if (ch->pcdata->carry_weight < (weightmult * 3))
+prse.c:	  else if (ch->pcdata->carry_weight < (weightmult * 4))
+prse.c:	  else if (ch->pcdata->carry_weight < (weightmult * 5))
+prse.c:	  sprintf (bf, "%ld", ch->pcdata->warpoints);
+ptrack.c:if (ch->pcdata->voting_on == 999 || HUNTING(ch) != NULL)
+ptrack.c:if (IS_PLAYER (ch) && ch->pcdata->learned[gsn_track] < 3 && !is_member (ch, GUILD_RANGER))
+ptrack.c:    ch->pcdata->voting_on = 0;
+ptrack.c:      ch->pcdata->voting_on = 0;
+ptrack.c:	      ch->pcdata->voting_on = 0;
+ptrack.c:	  ch->pcdata->voting_on = 0;
+ptrack.c:	  ch->pcdata->tickcounts = 9;
+ptrack.c:	  ch->pcdata->voting_on = 998;
+ptrack.c:	  ch->pcdata->voting_on = 0;
+ptrack.c:      ch->pcdata->tickcounts = 9;
+ptrack.c:      ch->pcdata->voting_on = 998;
+ptrack.c:  if (IS_PLAYER (ch) && ch->pcdata->learned[gsn_track] < 3 && !is_member (ch, GUILD_RANGER))
+ptrack.c:	ch->pcdata->voting_on = 0;
+ptrack.c:      (ch->pcdata->learned[gsn_track] < number_range (0, 50) && !is_member (ch, GUILD_RANGER)))
+ptrack.c:      ch->pcdata->voting_on=0;
+ptrack.c:	      ch->pcdata->voting_on = 0;
+quit.c:  if (ch->pcdata->quiet != 2)
+quit.c:    ch->pcdata->quiet = 2;
+quit.c:    ch->pcdata->quiet = 0;
+quit.c:  if (ch->pcdata->quiet == 0)
+quit.c:  if (ch->pcdata->quiet == 2)
+quit.c:    if (!ch->pcdata->alias[k] || ch->pcdata->alias[k][0] == '\0'
+quit.c:        || !ch->pcdata->aliasname[k] || ch->pcdata->aliasname[k][0] == '\0')
+quit.c:          if (ch->pcdata->alias[k] && ch->pcdata->alias[k][0] != '\0'
+quit.c:          && ch->pcdata->aliasname[k] && ch->pcdata->aliasname[k][0] != '\0')
+quit.c:              for (t = ch->pcdata->alias[k]; *t != '\0'; t++)
+quit.c:              for (t = ch->pcdata->aliasname[k]; *t != '\0'; t++)
+quit.c:              for (iio = ch->pcdata->alias[k]; *iio != '\0'; iio++)
+quit.c:                     k + 1, ch->pcdata->aliasname[k], ch->pcdata->alias[k]);
+quit.c:              for (iio = ch->pcdata->alias[k]; *iio != '\0'; iio++)
+quit.c:          if (ch->pcdata->aliasname[k] && !str_cmp (arg1, ch->pcdata->aliasname[k]))
+quit.c:              free_string (ch->pcdata->aliasname[k]);
+quit.c:              free_string (ch->pcdata->alias[k]);
+quit.c:              ch->pcdata->aliasname[k] = NULL;
+quit.c:              ch->pcdata->alias[k] = NULL;
+quit.c:                  if (!ch->pcdata->aliasname[k])
+quit.c:                  free_string (ch->pcdata->aliasname[k]);
+quit.c:                  free_string (ch->pcdata->alias[k]);
+quit.c:                  ch->pcdata->aliasname[k] = NULL;
+quit.c:                  ch->pcdata->alias[k] = NULL;
+quit.c:      if (ch->pcdata->aliasname[k] &&
+quit.c:          !aliasok (ch->pcdata->aliasname[k], argy))
+quit.c:      if (ch->pcdata->aliasname[k] && !str_cmp (arg1, ch->pcdata->aliasname[k]))
+quit.c:          free_string (ch->pcdata->alias[k]);
+quit.c:          free_string (ch->pcdata->aliasname[k]);
+quit.c:          ch->pcdata->aliasname[k] = str_dup (arg1);
+quit.c:          ch->pcdata->alias[k] = str_dup (argy);
+quit.c:          for (t = ch->pcdata->alias[k]; *t != '\0'; t++)
+quit.c:          for (t = ch->pcdata->aliasname[k]; *t != '\0'; t++)
+quit.c:          for (msk = ch->pcdata->alias[k]; *msk != '\0'; msk++)
+quit.c:        if (ch->pcdata->aliasname[k] == '\0' || !ch->pcdata->aliasname[k]
+quit.c:            || !ch->pcdata->alias[k] || ch->pcdata->alias[k] == '\0')
+quit.c:            ch->pcdata->aliasname[k] = str_dup (arg1);
+quit.c:            ch->pcdata->alias[k] = str_dup (argy);
+quit.c:            for (t = ch->pcdata->alias[k]; *t != '\0'; t++)
+quit.c:            for (t = ch->pcdata->aliasname[k]; *t != '\0'; t++)
+quit.c:            for (msk = ch->pcdata->alias[k]; *msk != '\0'; msk++)
+quit.c:  if ((ch->pcdata->no_quit_pk > 0 || ch->pcdata->no_quit > 0) && LEVEL(ch) < MAX_LEVEL)
+quit.c:	       UMAX(ch->pcdata->no_quit,  ch->pcdata->no_quit_pk));
+quit.c:      char_to_room(ch, get_room_index(ch->pcdata->alignment+100));
+quit.c:  ch->pcdata->number_pets = 0;
+quit.c:  if ((ch->pcdata->no_quit_pk > 0 || ch->pcdata->no_quit > 0) && LEVEL(ch) < MAX_LEVEL)
+quit.c:	       UMAX(ch->pcdata->no_quit,  ch->pcdata->no_quit_pk));
+quit.c:       if (victim->pcdata->remort_times > 0) victim_followers++;
+quit.c:       if (victim->pcdata->remort_times > 4) victim_followers++;
+quit.c:       if (ch->pcdata->remort_times > 0) victim_followers++;
+quit.c:       if (ch->pcdata->remort_times > 4) victim_followers++;
+quit.c:			(gch->pcdata->remort_times ? "R" : " "));
+quit.c:	      if ((gppt < 12 &&  gch->pcdata->remort_times == 0)
+quit.c:		  || (gppt < 11 && gch->pcdata->remort_times > 0 && gch->pcdata->remort_times < 4)
+quit.c:		  if(gch->pcdata->remort_times > 0) gppt++;
+quit.c:		  if(gch->pcdata->remort_times > 4) gppt++;
+quit.c:    if ((gppt > 6  &&  victim->pcdata->remort_times > 4)
+quit.c:        || (gppt > 7 && victim->pcdata->remort_times > 0 && victim->pcdata->remort_times < 4)
+quit.c:	  if (mch->pcdata->remort_times > 0)
+quit.c:	  if (mch->pcdata->remort_times > 3)
+quit.c:	  if (mch->pcdata->remort_times > 0) follow_number++;
+quit.c:	  if (mch->pcdata->remort_times > 4) follow_number++;
+quit.c:  ch->pcdata->voting_on = 0;
+quit.c:          gch->pcdata->voting_on = 0;
+quit.c:          ch->pcdata->voting_on += share;
+quit.c:                  gch->pcdata->voting_on += share;
+quit.c:  if (ch->pcdata->voting_on != 0)
+quit.c:               "You split %s coins.  You keep your share of %s coins.\n\r", str1, name_amount (ch->pcdata->voting_on));
+quit.c:      ch->pcdata->voting_on = 0;
+quit.c:          if (gch->pcdata->voting_on == 0)
+quit.c:          sprintf (str2, "%s", name_amount (gch->pcdata->voting_on));
+quit.c:          gch->pcdata->voting_on = 0;
+remort.c:      if((remort == ch->pcdata->remort_times))
+remort.c:      if (ch->pcdata->race < 17)
+remort.c:      if (ch->pcdata->race > 16)
+remort.c:      if ((remort == ch->pcdata->remort_times))
+remort.c:	  sprintf(buf, "-->You are level %d, you have %ld warpoints, and have %d killpoints.\n\r", LEVEL(ch), ch->pcdata->warpoints, ch->pcdata->killpoints);
+remort.c:   if (ch->pcdata->remort_times >= pow.max_remorts)
+remort.c:    if (pow.show_race_select_info || ch->pcdata->level > 0)
+remort.c:  if (ch->pcdata->race == 0)
+remort.c:  if (ch->pcdata->remort_times < pow.ascension_req[1])
+remort.c:  if (ch->pcdata->warpoints < pow.ascension_req[2])
+remort.c:  if (ch->pcdata->total_wps < pow.ascension_req[3])
+remort.c:  if (ch->pcdata->race > 16)
+remort.c:  ch->pcdata->level = 1;
+remort.c:  ch->pcdata->voting_on = 0;
+remort.c:  ch->pcdata->deaths =0;
+remort.c:  ch->pcdata->practice = 10;
+remort.c:  ch->pcdata->learn = 2;
+remort.c:		  ch->pcdata->stat[k] = ch->pcdata->start_stat[k];
+remort.c:          ch->pcdata->remort_times = 0;
+remort.c:	  ch->pcdata->total_wps = 0;
+remort.c:	  ch->pcdata->warpoints = 0;
+remort.c:	  ch->pcdata->guilds = 0;
+remort.c:	  ch->pcdata->augments = 0;
+remort.c:	  ch->pcdata->totalkills = 0;
+remort.c:	  ch->pcdata->killpoints = 0;
+remort.c:	  ch->pcdata->pklevels = 0;
+remort.c:	  ch->pcdata->pkhelpers = 0;
+remort.c:	  ch->pcdata->hard_pkills = 0;
+remort.c:	  ch->pcdata->pkills = 0;
+remort.c:	  ch->pcdata->pkilled = 0;
+remort.c:	  ch->pcdata->pkers = 0;
+remort.c:	  ch->pcdata->ascend_times++;
+remort.c:		  ch->pcdata->trophy_name[k][0] = '\0';
+remort.c:                  ch->pcdata->trophy_times[k] = 0;
+remort.c:                  ch->pcdata->trophy_level[k] = 0;
+remort.c:		  raceswitch(ch, ch->pcdata->race + 8);
+remort.c:		  sprintf(buf4, "A pulse of power surges throughout the lands as a new %s rises!", race_info[ch->pcdata->race].name);
+remort.c:      ch->pcdata->learned[k] = -100;
+remort.c:  max_remort_times[ch->pcdata->alignment] = 
+remort.c:   UMAX(max_remort_times[ch->pcdata->alignment], ch->pcdata->remort_times);
+remort.c:  if (ch->pcdata->remort_times < pow.forsake_req[1])
+remort.c:  if (ch->pcdata->warpoints < pow.forsake_req[2])
+remort.c:  ch->pcdata->warpoints = ch->pcdata->warpoints - 100;
+remort.c:      if ((ch->pcdata->race > 10 &&
+remort.c:	  (ch->pcdata->race < 11 &&
+remort.c:   if (ch->pcdata->race < 11 && pow.remort_in_room[ch->pcdata->remort_times] > 0 &&
+remort.c:       get_room_index(pow.remort_in_room[ch->pcdata->remort_times]) != NULL && 
+remort.c:       ch->in_room->vnum != pow.remort_in_room[ch->pcdata->remort_times] )
+remort.c:  if (ch->pcdata->race > 10 && pow.ascend_remort_in_room[ch->pcdata->remort_times] > 0 && get_room_index(pow.ascend_remort_in_room[ch->pcdata->remort_times]) != NULL && ch->in_room->vnum != pow.ascend_remort_in_room[ch->pcdata->remort_times] )
+remort.c:  remort = ch->pcdata->remort_times;
+remort.c:  if ((ch->pcdata->race < 11 && (LEVEL(ch) < pow.remort_req[remort][0])) 
+remort.c:	|| (ch->pcdata->race > 10 && (LEVEL(ch) < pow.ascended_remort_req[remort][0]))) 
+remort.c:  if ((ch->pcdata->race < 11 && (ch->pcdata->warpoints < pow.remort_req[remort][1])) || (ch->pcdata->race > 10 && (ch->pcdata->warpoints < pow.ascended_remort_req[remort][1])))
+remort.c:  if ((ch->pcdata->race < 11 && (ch->pcdata->killpoints < pow.remort_req[remort][3])) || (ch->pcdata->race > 10 && (ch->pcdata->killpoints < pow.ascended_remort_req[remort][3]))) 
+remort.c:	ch->pcdata->race < 11) ||
+remort.c:	ch->pcdata->race > 10))
+remort.c:  if (ch->pcdata->race < 11)
+remort.c:  	ch->pcdata->warpoints -= pow.remort_req[remort][2];
+remort.c:  	ch->pcdata->killpoints -= pow.remort_req[remort][4];
+remort.c:	ch->pcdata->warpoints -= pow.ascended_remort_req[remort][2];
+remort.c:	ch->pcdata->killpoints -= pow.ascended_remort_req[remort][4];
+remort.c:  if(LEVEL(ch) < 0 && ch->pcdata->remort_times == 0) {
+remort.c:  if (!str_cmp (argy, "file") && ch->pcdata->level == MAX_LEVEL)
+rfd.c:		      if (d->character && d->character->pcdata->cursor > 0)
+rfd.c:			  d->character->pcdata->cursor--;
+rfd.c:				   d->character->pcdata->pagelen,
+rfd.c:				   d->character->pcdata->cursor,
+rfd.c:				   d->character->pcdata->pagelen,
+rfd.c:				   d->character->pcdata->cursor);
+rfd.c:		      d->character->pcdata->cursor++;
+rfd.c:	  if (d->character && (!IS_SET (d->character->pcdata->act2, PLR_TELNET_GA)))
+rfd.c:	      if (d->character && !IS_SET (d->character->pcdata->act2, PLR_TELNET_GA) &&
+rfd.c:		   ? d->character->pcdata->name : "New_char");
+score.c:	     ch->pcdata->carry_number, (ch->pcdata->carry_weight/WGT_MULT), (ch->pcdata->carry_weight % WGT_MULT));
+score.c:    if (ch->pcdata->carry_weight < weightmult)
+score.c:    else if (ch->pcdata->carry_weight < (weightmult * 2))
+score.c:    else if (ch->pcdata->carry_weight < (weightmult * 3))
+score.c:    else if (ch->pcdata->carry_weight < (weightmult * 4))
+score.c:    else if (ch->pcdata->carry_weight < (weightmult * 5))
+score.c:(ch->pcdata->learned[gsn_parry] == -100 ? 0 : ch->pcdata->learned[gsn_parry] / 18) +
+score.c:(ch->pcdata->learned[gsn_dodge] == -100 ? 0 : ch->pcdata->learned[gsn_dodge] / 18) + 
+score.c:+bonushit + GET_HITROLL(ch) + (GET_DAMROLL (ch)) - (ch->pcdata->deaths/2);
+score.c:	   LEVEL (tvict), align_info[tvict->pcdata->alignment].name,
+score.c:   race_info[tvict->pcdata->race].name, NAME (tvict), tvict->pcdata->title);
+score.c:	   tvict->pcdata->totalkills, tvict->pcdata->killpoints, tvict->pcdata->warpoints);
+score.c:	   tvict->pcdata->bank, tally_coins (tvict), get_age (tvict));
+score.c:	   tvict->ced->wimpy, tvict->pcdata->remort_times,
+score.c:	   tvict->pcdata->pagelen);
+score.c:	   tvict->pcdata->learn, tvict->pcdata->practice, tmpbuf);
+score.c:	   (tvict->pcdata->condition[COND_FULL] < 7 ? "\x1B[1;37m\x1B[5mHungry\x1B[0m" : " "),
+score.c:	   (tvict->pcdata->condition[COND_THIRST] < 7 ? "\x1B[1;37m\x1B[5mThirsty\x1B[0m" : " "),
+score.c:	   (tvict->pcdata->condition[COND_DRUNK] > 10 ? "\x1B[1;37m\x1B[5mDrunk\x1B[0m" : " "));
+score.c:	   (tvict->pcdata->carry_weight/WGT_MULT), (tvict->pcdata->carry_weight % WGT_MULT));
+score.c:    if (tvict->pcdata->carry_weight < weightmult)
+score.c:    else if (tvict->pcdata->carry_weight < (weightmult * 2))
+score.c:    else if (tvict->pcdata->carry_weight < (weightmult * 3))
+score.c:    else if (tvict->pcdata->carry_weight < (weightmult * 4))
+score.c:    else if (tvict->pcdata->carry_weight < (weightmult * 5))
+score.c:  sprintf(buf,"Elemental Shards: %s\n\r",elemental_alignment_bit_name(tvict->pcdata->elemental_alignment));
+score.c:  if (tvict->pcdata->guilds != 0)
+score.c:      show_guilds(ch, tvict->pcdata->guilds);
+script3.c:                sprintf(toad,"%d",scr->current->pcdata->remort_times);
+script3.c:                sprintf(toad,"%d",scr->current->pcdata->totalkills);
+script3.c:                sprintf(toad,"%d",scr->current->pcdata->killpoints);
+script3.c:                sprintf(toad,"%d",(IS_PLAYER(scr->current)?scr->current->pcdata->warpoints:0));
+script3.c:	        if (scr->current->pcdata->warpoints >= number)
+script3.c:              if (IS_SET(scr->current->pcdata->act2, PLR_HARDCORE))
+script3.c:              if (!scr->current->pcdata->script_flags[st] || scr->current->pcdata->script_flags[st][0] == '\0')
+script3.c:              if (!str_cmp (scr->current->pcdata->script_flags[st], leftnum))
+script3.c:  if (!ch->pcdata->name)
+sedit.c:      ch->pcdata->learned[race_info[ch->pcdata->race].nat_skills[j]] = -100;
+sedit.c:      ch->pcdata->learned[align_info[ch->pcdata->alignment].nat_skills[j]] = -100;
+sedit.c:      if (ch->pcdata->learned[i] > 0)
+sedit.c:      ch->pcdata->learned[race_info[ch->pcdata->race].nat_skills[j]] = 100;
+sedit.c:      ch->pcdata->learned[align_info[ch->pcdata->alignment].nat_skills[j]] = 100;
+sedit.c://  sprintf (buf, "\x1B[1;1f\x1B[K\x1B[2;1f\x1B[K\x1B[3;1f;%dr", ch->pcdata->pagelen);
+sedit.c:  sprintf (buf, "\x1B[%d;1f", ch->pcdata->pagelen);
+sedit.c:      sprintf (buf, "\x1B[1;1f\x1B[K\x1B[2;1f\x1B[K\x1B[3;1f\x1B[K\x1B[4;1f\x1B[K\x1B[5;1f\x1B[K\x1B[6;1f\x1B[K\x1B[7;1f\x1B[K\x1B[8;1f\x1B[K\x1B[9;1f\x1B[K\x1B[10;1f\x1B[K\x1B[11;1f\x1B[K\x1B[12;1f\x1B[K\x1B[13;1f\x1B[K\x1B[14;1f\x1B[K\x1B[15;1f\x1B[K\x1B[16;1f\x1B[17;%dr", ch->pcdata->pagelen);
+sedit.c:  sprintf (buf, "\x1B[%d;1f", ch->pcdata->pagelen);
+sedit.c:      sprintf (arg1, "\x1B[1;%dr\x1B[2J\x1B[%d;1f", ch->pcdata->pagelen, ch->pcdata->pagelen);
+sedit.c:	  if (ch->pcdata->race > 10)
+sedit.c:	cur_num = ch->pcdata->plus_kick;
+skill.c:	learned = ch->pcdata->learned[gsn];
+skill.c:	  ch->pcdata->learned[mob->pIndexData->opt->skltaught[sn]] == -100 &&
+skill.c:	       ch->pcdata->learn, 
+skill.c:	       (race_info[ch->pcdata->race].max_skills + align_info[ch->pcdata->alignment].max_skills +(ch->pcdata->remort_times +1)/2 - skl),
+skill.c:	       ( race_info[ch->pcdata->race].max_profs + align_info[ch->pcdata->alignment].max_profs + (ch->pcdata->remort_times +1)/2 - prf), 
+skill.c:	       (race_info[ch->pcdata->race].max_spells + align_info[ch->pcdata->alignment].max_spells +(ch->pcdata->remort_times)-spl));
+skill.c:  if (ch->pcdata->learn <= 0)
+skill.c:  if (spell->slot == 0 && skl >= (race_info[ch->pcdata->race].max_skills + align_info[ch->pcdata->alignment].max_skills +
+skill.c:(ch->pcdata->remort_times +1)/2))
+skill.c:  if (spell->slot == 2 && prf >= (race_info[ch->pcdata->race].max_profs + align_info[ch->pcdata->alignment].max_profs +
+skill.c:(ch->pcdata->remort_times +1)/2))
+skill.c:  if (spell->slot == 1 && spl >= (race_info[ch->pcdata->race].max_spells + align_info[ch->pcdata->alignment].max_spells + (ch->pcdata->remort_times)))
+skill.c:      if (spell->prereq_1 != NULL && (spl = skill_lookup(spell->prereq_1, -1)) != NULL && ch->pcdata->learned[spl->gsn] < pow.prereq)
+skill.c:      if (spell->prereq_2 != NULL && (spl = skill_lookup(spell->prereq_2, -1)) != NULL && ch->pcdata->learned[spl->gsn] < pow.prereq)
+skill.c:  if (ch->pcdata->learned[spell->gsn] != -100)
+skill.c:	  if(IS_SET(spell->guilds, guild_data[i].mob_guildmaster_bit) && !IS_SET(ch->pcdata->guilds, guild_data[i].mob_guildmaster_bit))
+skill.c:      ch->pcdata->learn--;
+skill.c:      ch->pcdata->learned[spell->gsn] = 1;
+skill.c:  oldtrack = ch->pcdata->learned[gsn_track];
+skill.c:  oldtrap = ch->pcdata->learned[gsn_trapset];
+skill.c:  oldpick = ch->pcdata->learned[gsn_pick_lock];
+skill.c:    ch->pcdata->learned[gsn_pick_lock] = 100;
+skill.c:    ch->pcdata->learned[gsn_trapset] = 100;
+skill.c:    ch->pcdata->learned[gsn_track] = 100; 
+skill.c:  ch->pcdata->learned[gsn_sneak] += ch->pcdata->plus_sneak;
+skill.c:  ch->pcdata->learned[gsn_hide] += ch->pcdata->plus_hide;
+skill.c:	  || (ch->pcdata->learned[sn] == -100) || spell->slot == 1)
+skill.c:	sprintf (buf, "%s%22s %3d%%\x1b[0;37m ",(spell->slot == 2 ? "\x1b[1;36m" : ""), spell->spell_funky_name, ch->pcdata->learned[sn]);
+skill.c:  ch->pcdata->learned[gsn_track] = oldtrack; 
+skill.c:  ch->pcdata->learned[gsn_trapset] = oldtrap;
+skill.c:  ch->pcdata->learned[gsn_pick_lock] = oldpick;
+skill.c:  ch->pcdata->learned[gsn_sneak] -= ch->pcdata->plus_sneak;
+skill.c:  ch->pcdata->learned[gsn_hide] -= ch->pcdata->plus_hide;
+skill.c:	   ch->pcdata->practice);
+skill.c:      oldtrack = ch->pcdata->learned[gsn_track]; 
+skill.c:	ch->pcdata->learned[gsn_track] = 100;
+skill.c:      oldtrap = ch->pcdata->learned[gsn_trapset]; 
+skill.c:	ch->pcdata->learned[gsn_trapset] = 100;
+skill.c:      oldpick = ch->pcdata->learned[gsn_pick_lock];
+skill.c:	ch->pcdata->learned[gsn_pick_lock] = 100;
+skill.c:      ch->pcdata->learned[gsn_sneak] += ch->pcdata->plus_sneak;
+skill.c:      ch->pcdata->learned[gsn_hide] += ch->pcdata->plus_hide;
+skill.c:	      || (ch->pcdata->learned[sn] < -1))
+skill.c:		     ch->pcdata->learned[sn]);
+skill.c:      ch->pcdata->learned[gsn_track] = oldtrack;
+skill.c:      ch->pcdata->learned[gsn_trapset] = oldtrap;
+skill.c:      ch->pcdata->learned[gsn_pick_lock] = oldpick;
+skill.c:      ch->pcdata->learned[gsn_sneak] -= ch->pcdata->plus_sneak;
+skill.c:      ch->pcdata->learned[gsn_hide] -= ch->pcdata->plus_hide;
+skill.c:	       ch->pcdata->practice, ch->pcdata->learn);
+skill.c:      oldpick = ch->pcdata->learned[gsn_pick_lock];
+skill.c:	ch->pcdata->learned[gsn_pick_lock] = 100;
+skill.c:      oldtrack = ch->pcdata->learned[gsn_track];
+skill.c:	ch->pcdata->learned[gsn_trapset] = 100;
+skill.c:      oldtrap = ch->pcdata->learned[gsn_trapset]; 
+skill.c:	ch->pcdata->learned[gsn_track] = 100;
+skill.c:      ch->pcdata->learned[gsn_sneak] += ch->pcdata->plus_sneak;
+skill.c:      ch->pcdata->learned[gsn_hide] += ch->pcdata->plus_hide;
+skill.c:      ch->pcdata->learned[gsn_trapset] = oldtrap;
+skill.c:      ch->pcdata->learned[gsn_track] = oldtrack;
+skill.c:      ch->pcdata->learned[gsn_pick_lock] = oldpick;
+skill.c:      ch->pcdata->learned[gsn_sneak] -= ch->pcdata->plus_sneak;
+skill.c:      ch->pcdata->learned[gsn_hide] -= ch->pcdata->plus_hide;
+skill.c:	       ch->pcdata->practice);
+skill.c:	      ch->pcdata->learned[spell->gsn] == -100)))
+skill.c:      if (spell->gsn > 0 && spell->gsn < SKILL_COUNT && ch->pcdata->learned[spell->gsn] == -100)
+skill.c:	  if (ch->pcdata->learned[spell->gsn] == -100)
+skill.c:  if (ch->pcdata->practice < 1)
+skill.c:      if (spell->prereq_1 != NULL && (spl = skill_lookup(spell->prereq_1, -1)) != NULL && ch->pcdata->learned[spl->gsn] < pow.prereq)
+skill.c:      if (spell->prereq_2 != NULL && (spl = skill_lookup(spell->prereq_2, -1)) != NULL && ch->pcdata->learned[spl->gsn] < pow.prereq)
+skill.c:  if (ch->pcdata->learned[spell->gsn] >= adept)
+skill.c:	  if(IS_SET(spell->guilds, guild_data[i].mob_guildmaster_bit) && !IS_SET(ch->pcdata->guilds, guild_data[i].mob_guildmaster_bit))
+skill.c:      ch->pcdata->practice--;
+skill.c:	ch->pcdata->learned[spell->gsn] += int_app[get_curr_int (ch) - 1].learn;
+skill.c:	ch->pcdata->learned[spell->gsn] += int_app[get_curr_int (ch) - 1].learn - 1;
+skill.c:      if (ch->pcdata->learned[spell->gsn] < adept)
+skill.c:	  ch->pcdata->learned[spell->gsn] = adept;
+skill.c:	  if (spell->gsn > 549 && IS_PLAYER(ch) && !str_cmp(race_info[ch->pcdata->race].name, "orc") && adept == pow.max_prac_skills)
+skill.c:	    ch->pcdata->learned[spell->gsn]+= 15;
+skill.c:      if (ch->pcdata->learned[sn] == -100)
+skill.c:		 ch->pcdata->learned[sn], spell->spell_funky_name);
+skilltemplate.c:      if(!(victim->pcdata->no_quit_pk > 0)) {
+skilltemplate.c:number_percent()<(ch->pcdata->learned[gsn_double_kick]/5)) ||
+skilltemplate.c:      chance += ch->pcdata->learned[gsn_kick];
+skilltemplate.c:(victim->pcdata->learned[gsn_steadiness] > 10))
+skilltemplate.c:	  chance -= (victim->pcdata->learned[gsn_steadiness]/4);
+skilltemplate.c:      if (IS_PLAYER(victim) && (victim->pcdata->learned[gsn_block] > 10))
+skilltemplate.c:	  if (number_percent() < (victim->pcdata->learned[gsn_block]/3))
+spec.c:	  if (victim->pcdata->carry_number == 0)
+spec.c:	  chance = 100 / victim->pcdata->carry_number;
+spl.c:  if(IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_WATER) && spell->mana_type == 8)
+spl.c:  else if(IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_FIRE) && spell->mana_type == 4)
+spl.c:  else if(IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_EARTH) && spell->mana_type == 1)
+spl.c:  else if(IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_AIR) && spell->mana_type == 2)
+spl.c:  else if(IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_GOOD) && spell->mana_type == 16)
+spl.c:  else if(IS_SET(ch->pcdata->elemental_alignment,ELEMENTAL_ALIGN_EVIL) && spell->mana_type == 16)
+spl.c:  if (vict->pcdata->no_quit_pk > 0 || ch->pcdata->no_quit_pk > 0)
+spl.c:  if (vict->pcdata->no_quit > 0)
+spl.c:  char_to_room (victim, get_room_index (ch->pcdata->alignment+100));
+spl.c:  victim->pcdata->no_quit_pk = 0; /* JRAJRA */
+spl.c:  victim->pcdata->no_quit = 0;
+spl.c:      victim->affected_by = victim->pcdata->nat_abilities;
+spl.c:      victim->more_affected_by = victim->pcdata->nat_abilities2;
+spl.c:    if(IS_SET(victim->pcdata->elemental_alignment,ELEMENTAL_ALIGN_GOOD) && ch->pcdata->alignment != 2)
+spl.c:    if(IS_SET(victim->pcdata->elemental_alignment,ELEMENTAL_ALIGN_EVIL) && ch->pcdata->alignment != 1)
+spl.c:		  bonus += (ch->pcdata->remort_times) * 8;
+spl.c:                 addmove = ((race_info[ch->pcdata->race].heal_percent + align_info[ch->pcdata->alignment].heal_percent)*addmove)/100;
+spl.c:		  bonus += (ch->pcdata->remort_times) * 8;
+spl.c:                 addhit = ((race_info[ch->pcdata->race].heal_percent + align_info[ch->pcdata->alignment].heal_percent)*addhit)/100;
+spl.c:	int shieldStr = ch->pcdata->level;
+spl.c:	shieldStr += (ch->pcdata->remort_times) * 5;
+spl.c:        ch->pcdata->mana_shield_strength = shieldStr;
+spl.c:			 (IS_MOB(ch) || str_cmp(race_info[ch->pcdata->race].name, "flayer") || number_range(1,5) == 2))
+spl.c:	  bonus += (ch->pcdata->remort_times) * 6;
+spl.c:	  if(!str_cmp(ch->pcdata->name,"Liberation") && !str_cmp(spell->spell_name,"Cantrip"))
+spl.c:	      dam = ((race_info[ch->pcdata->race].attack_spell_percent + align_info[ch->pcdata->alignment].attack_spell_percent)*dam)/100;
+spl.c:  if (spell->spell_lag > 0 && IS_PLAYER(ch) && ch->pcdata->no_quit < spell->spell_lag)
+spl.c:    ch->pcdata->no_quit = spell->spell_lag;
+spl.c:  if (ch->pcdata->no_quit_pk < spell->spell_lag)
+spl.c:    ch->pcdata->no_quit_pk = spell->spell_lag;
+spl.c:  if (ch->pcdata->no_quit > 0)/* JRAJRA spell lag */
+spl.c:	life = vampire->pcdata->level + 30 + number_range(1, vampire->pcdata->level);
+spl.c:	undead_creature->pcdata->alignment = ch->pcdata->alignment;
+spl.c:	undead_creature->pIndexData->alignment = ch->pcdata->alignment;
+spl.c://	sprintf(buf,"Setting undead creature alignement to %d\n\r",undead_creature->pcdata->alignment);
+spl.c:	undead_creature->pcdata->act2 = PLR_AUTOGOLD | PLR_AUTOSPLIT | PLR_ASSIST;
+spl.c:	do_group(ch, undead_creature->pcdata->name);
+spl.c:  if (ch->pcdata->online_spot->located == TRUE && ch->pcdata->online_spot->pk_since_locate < 3)
+spl.c:      ch->pcdata->online_spot->located = TRUE;
+spl.c:      ch->pcdata->online_spot->pk_since_locate = 0;
+spl.c:      ch->pcdata->online_spot->located = TRUE;
+spl.c:      ch->pcdata->online_spot->pk_since_locate = 0;
+spl.c:   if(number_range(1,120) > ch->pcdata->learned[gsn_trapset])
+spl.c:       || !is_member(ch, GUILD_TINKER)) && number_range (1,120) >= ch->pcdata->learned[gsn_trapset]))
+spl.c:	  if (number_percent () < ch->pcdata->learned[gsn_detrap])
+spl.c:      if(number_percent() < ch->pcdata->learned[gsn_detrap])
+spl.c:	      if (number_percent() < ch->pcdata->learned[gsn_detrap])
+sv.c:  base = (base * (race_info[ch->pcdata->race].mana_percent + align_info[ch->pcdata->alignment].mana_percent))/100;
+sv.c:  ch->pcdata->n_max_mana = base; 
+sv.c:      ch->height = number_range (race_info[ch->pcdata->race].height_min, race_info[ch->pcdata->race].height_max);
+sv.c:	   capitalize (real_ch->pcdata->name));
+sv.c:	       capitalize (real_ch->pcdata->name));
+sv.c:      free_string (ch->pcdata->name);
+sv.c:      ch->pcdata->name = str_dup (NAME (real_ch));
+sv.c:  if (ch->pcdata->temp_room == NULL)
+sv.c:    ch->pcdata->temp_room = get_room_index(ch->pcdata->alignment +100);
+sv.c:  char_to_room (ch, ch->pcdata->temp_room);
+sv.c:	   capitalize (ch->pcdata->name));
+sv.c:    sprintf(szBuf,"%s%s.bak", PLAYER_DIR, capitalize(ch->pcdata->name));
+sv.c:  sprintf (strsave, "%s%s.u", PLAYER_DIR, capitalize (ch->pcdata->name));
+sv.c:  sprintf (strsave, "%s%s", PLAYER_DIR, capitalize (ch->pcdata->name));
+sv.c:  fprintf(stderr,"FUCK!  Caught corruption of pfile %s!  Restored from .bak\n", ch->pcdata->name);
+sv.c:  sprintf (strsave, "%s%s.u", PLAYER_DIR, capitalize (ch->pcdata->name));
+sv.c:  sprintf (strsave, "%s%s", PLAYER_DIR, capitalize (ch->pcdata->name));
+sv.c:    sprintf(szBuf,"%s%s.bak", PLAYER_DIR, capitalize(ch->pcdata->name));
+sv.c:  ch->pcdata->played+=(int)(current_time - ch->pcdata->logon);
+sv.c:  ch->pcdata->logon=current_time;
+sv.c:  ch->pcdata->new_exp = TRUE;
+sv.c:  if (ch->pcdata->email[0] != '\0')
+sv.c:    fprintf (fp, "NEmail %s~\n", fix_string (ch->pcdata->email));
+sv.c:  if (ch->pcdata->short_descr && ch->pcdata->short_descr[0] != '\0' &&
+sv.c:strlen(ch->pcdata->short_descr) > 2)
+sv.c:    fprintf (fp, "ShDesc %s~\n", ch->pcdata->short_descr);
+sv.c:  if (ch->pcdata->long_descr && ch->pcdata->long_descr[0] != '\0' &&
+sv.c:strlen(ch->pcdata->long_descr) > 2)
+sv.c:    fprintf (fp, "LoDesc %s~\n", fix_string (ch->pcdata->long_descr));
+sv.c:  fprintf (fp, "Descr %s~\n", fix_string (ch->pcdata->description));
+sv.c:      fprintf (fp, "LCcol %d %s\n", i, ch->pcdata->chan_color[i]);
+sv.c:  fprintf (fp, "LCign %d\n", ch->pcdata->chan_ignore);
+sv.c:  fprintf (fp, "TtlKils .%o\n", ch->pcdata->totalkills);
+sv.c:  fprintf (fp, "NAn %d\n", ch->pcdata->show_lev);
+sv.c:  fprintf (fp, "Killpt .%o\n", ch->pcdata->killpoints);
+sv.c:  fprintf (fp, "Deaths %d\n", ch->pcdata->deaths);
+sv.c:  fprintf (fp, "DPray %d\n", ch->pcdata->pray_points);
+sv.c:      if (ch->pcdata->script_flags[k] && ch->pcdata->script_flags[k][0] != '\0')
+sv.c:	  fprintf (fp, "Sf %s~\n", ch->pcdata->script_flags[k]);
+sv.c:  fprintf (fp, "Nexp %d\n", ch->pcdata->new_exp);
+sv.c:  fprintf (fp, "Nospam %d\n", ch->pcdata->no_spam);
+sv.c:  fprintf (fp, "NDon %d\n", ch->pcdata->donated);
+sv.c:  fprintf (fp, "NQuest %d\n", ch->pcdata->questflag);
+sv.c:  fprintf (fp, "NatArm .%o\n", ch->pcdata->nat_armor);
+sv.c:  fprintf (fp, "NatAbil %d\n", ch->pcdata->nat_abilities);
+sv.c:  fprintf (fp, "NatAbilT %d\n", ch->pcdata->nat_abilities2);
+sv.c:  if (ch->pcdata->challenge_on)
+sv.c:    fprintf (fp, "NChon %d\n", ch->pcdata->challenge_on);
+sv.c:  if (ch->pcdata->remort_times)
+sv.c:    fprintf (fp, "NRemort %d\n", ch->pcdata->remort_times);
+sv.c:  fprintf (fp, "NAMsg %d\n", ch->pcdata->arena_msg);
+sv.c:  if (ch->pcdata->guilds)
+sv.c:    fprintf (fp, "NGldBt %d\n", ch->pcdata->guilds);
+sv.c:  fprintf (fp, "NWPS %ld\n", ch->pcdata->warpoints);
+sv.c:  fprintf (fp, "NMana .%o\n", ch->pcdata->n_mana);
+sv.c:  fprintf (fp, "Race %d\n", ch->pcdata->race);
+sv.c:  fprintf (fp, "Level .%o\n", ch->pcdata->level);
+sv.c:  fprintf (fp, "SCool %d\n", ch->pcdata->cool_skills);
+sv.c:  if (ch->pcdata->level > 100)
+sv.c:      fprintf (fp, "Winv %d\n", ch->pcdata->wizinvis);
+sv.c:      fprintf (fp, "Secrty %d\n", ch->pcdata->security);
+sv.c:  fprintf (fp, "Clan %d\n", ch->pcdata->clan);
+sv.c:  fprintf (fp, "Clan2 %d\n", ch->pcdata->clan2);
+sv.c:  fprintf (fp, "Played %ld\n", ch->pcdata->played);
+sv.c:  fprintf (fp, "Note %ld\n", ch->pcdata->last_note);
+sv.c:  fprintf (fp, "Room %d\n", (ch->in_room ? ch->in_room->vnum :100+ch->pcdata->alignment));
+sv.c:  fprintf (fp, "Act2 %d\n", ch->pcdata->act2);
+sv.c:  if (ch->pcdata->act3 != 0)
+sv.c:    fprintf (fp, "Act3 %d\n", ch->pcdata->act3);
+sv.c:  fprintf (fp, "Learn .%o\n", ch->pcdata->learn);
+sv.c:  fprintf (fp, "Practc .%o\n", ch->pcdata->practice);
+sv.c:  if (ch->pcdata->saving_throw)
+sv.c:    fprintf (fp, "SvngTh %d\n", ch->pcdata->saving_throw);
+sv.c:  fprintf (fp, "Alignmt %d\n", ch->pcdata->alignment);
+sv.c:  if (ch->pcdata->deaf)
+sv.c:    fprintf (fp, "Deaf %d\n", ch->pcdata->deaf);
+sv.c:  fprintf (fp, "TotWps %ld\n", ch->pcdata->total_wps);
+sv.c:  fprintf (fp, "PkLevs %ld\n", ch->pcdata->pklevels);
+sv.c:  fprintf (fp, "Pkhelp %ld\n", ch->pcdata->pkhelpers);
+sv.c:  fprintf (fp, "Pkills %d\n", ch->pcdata->pkills);
+sv.c:  fprintf (fp, "Pkilled %d\n", ch->pcdata->pkilled);
+sv.c:  fprintf (fp, "Pkers %ld\n", ch->pcdata->pkers);
+sv.c:  fprintf (fp, "Warmth %ld\n", ch->pcdata->warmth);
+sv.c:  fprintf (fp, "Hardpk %d\n", ch->pcdata->hard_pkills);
+sv.c:  fprintf (fp, "Created %ld\n", ch->pcdata->created);
+sv.c:  fprintf (fp, "ManaShield %d\n", ch->pcdata->mana_shield_strength);
+sv.c:  fprintf (fp, "Elemental %d\n", ch->pcdata->elemental_alignment);
+sv.c:      fprintf (fp, "Password %s~\n", ch->pcdata->pwd);
+sv.c:      fprintf (fp, "RealPassword %s~\n", ch->pcdata->rpwd);
+sv.c:      if (ch->pcdata->rprompt)
+sv.c:	fprintf (fp, "Promptr %s~\n", fix_string (ch->pcdata->rprompt));
+sv.c:      fprintf (fp, "Pagelen %d\n", ch->pcdata->pagelen);
+sv.c:      fprintf (fp, "PImplO %d\n", ch->pcdata->augments);
+sv.c:	  fprintf (fp, "Bamfin %s~\n", ch->pcdata->beamin);
+sv.c:	  fprintf (fp, "Bamfout %s~\n", ch->pcdata->beamout);
+sv.c:      if (ch->pcdata->bank > 0)
+sv.c:	fprintf (fp, "Bank %ld\n", ch->pcdata->bank);
+sv.c:      fprintf (fp, "Title %s~\n", ch->pcdata->title);
+sv.c:	  fprintf(fp, ".%o ", ch->pcdata->stat[i]);
+sv.c:	  fprintf(fp, "%d ", ch->pcdata->stat_mod[i]);
+sv.c:	  fprintf(fp, "%d ", ch->pcdata->start_stat[i]);
+sv.c:	       ch->pcdata->condition[0],
+sv.c:	       ch->pcdata->condition[1],
+sv.c:	       ch->pcdata->condition[2]);
+sv.c:	       ch->pcdata->colors[0],
+sv.c:	       ch->pcdata->colors[1],
+sv.c:	       ch->pcdata->colors[2],
+sv.c:	       ch->pcdata->colors[3],
+sv.c:	       ch->pcdata->colors[4],
+sv.c:	       ch->pcdata->colors[5],
+sv.c:	       ch->pcdata->colors[6],
+sv.c:	       ch->pcdata->colors[7],
+sv.c:	       ch->pcdata->colors[8],
+sv.c:	       ch->pcdata->colors[9]);
+sv.c:    fprintf (fp, "Stance %d\n", ch->pcdata->stance);
+sv.c:	  if (ch->pcdata->trophy_name[k][0] != '\0')
+sv.c:	      fprintf (fp, "NTro %s \n", ch->pcdata->trophy_name[k]);
+sv.c:	      fprintf (fp, "TTro %d\n", ch->pcdata->trophy_times[k]);
+sv.c:	      fprintf (fp, "LTro %d\n", ch->pcdata->trophy_level[k]);
+sv.c:	fprintf(fp, "%d ", ch->pcdata->faction[k]);
+sv.c:	  if (ch->pcdata->ignore[k])
+sv.c:	    fprintf (fp, "Ignore %s\n", ch->pcdata->ignore[k]);
+sv.c:	  if (ch->pcdata->aliasname[k] &&
+sv.c:	      ch->pcdata->aliasname[k][0] != '\0' &&
+sv.c:	      ch->pcdata->alias[k] &&
+sv.c:	      ch->pcdata->alias[k][0] != '\0')
+sv.c:	      for (msk = ch->pcdata->alias[k]; *msk != '\0'; msk++)
+sv.c:	      fprintf (fp, "Alias %s\n", ch->pcdata->aliasname[k]);
+sv.c:		       fix_string (ch->pcdata->alias[k]));
+sv.c:	      for (msk = ch->pcdata->alias[k]; *msk != '\0'; msk++)
+sv.c:	  if (ch->pcdata->learned[sn] > 0)
+sv.c:		       ch->pcdata->learned[sn], spell->spell_funky_name);
+sv.c:      if (ch->pcdata->storage[k] == NULL || IS_SET (ch->pcdata->storage[k]->extra_flags, ITEM_NOSAVE))
+sv.c:	obj = ch->pcdata->storage[k];
+sv.c:	  if (IS_PLAYER (tch) && tch->desc != NULL && !str_cmp (tch->pcdata->name, arg2))
+sv.c:	      if (!str_cmp(arg1,tch->pcdata->rpwd))
+sv.c:	      tch->pcdata->new_exp = TRUE;
+sv.c:	  if (IS_PLAYER (tch) && tch->desc == NULL && !strcmp(tch->pcdata->name, arg2))
+sv.c:  free_string (ch->pcdata->name);
+sv.c:  ch->pcdata->name = str_dup (name);
+sv.c:  ch->pcdata->temp = NULL;
+sv.c:	  KEY ("Act2", ch->pcdata->act2, fread_number (fpt));
+sv.c:	  KEY ("Act3", ch->pcdata->act3, fread_number (fpt));
+sv.c:	      ch->pcdata->alignment = fread_number(fpt);
+sv.c:	      if (ch->pcdata->alignment < 0) ch->pcdata->alignment = 1;
+sv.c:	      if (ch->pcdata->alignment >= NUM_ALIGN) ch->pcdata->alignment = 2;
+sv.c:		  if (!ch->pcdata->aliasname[k] ||
+sv.c:		      ch->pcdata->aliasname[k][0] == '\0' ||
+sv.c:		      !ch->pcdata->alias[k] ||
+sv.c:		      ch->pcdata->alias[k][0] == '\0')
+sv.c:	      ch->pcdata->aliasname[k] = str_dup (fread_word (fpt));
+sv.c:	      ch->pcdata->alias[k] = str_dup (fread_string2 (fpt, NULL));
+sv.c:	      for (msk = ch->pcdata->alias[k]; *msk != '\0'; msk++)
+sv.c:		ch->pcdata->stat_mod[i] = fread_number(fpt);
+sv.c:		ch->pcdata->stat[i] = fread_number(fpt);
+sv.c:	      ch->pcdata->bank = fread_number (fpt);
+sv.c:	  SKEY ("Bamfin", ch->pcdata->beamin, fread_string2 (fpt, NULL));
+sv.c:	  SKEY ("Bamfout", ch->pcdata->beamout, fread_string2 (fpt, NULL));
+sv.c:	  KEY ("Clan", ch->pcdata->clan, fread_number(fpt));
+sv.c:	   KEY ("Clan2", ch->pcdata->clan2, fread_number(fpt));
+sv.c:	  KEY ("Created", ch->pcdata->created, fread_number(fpt));
+sv.c:	      ch->pcdata->condition[0] = fread_number (fpt);
+sv.c:	      ch->pcdata->condition[1] = fread_number (fpt);
+sv.c:	      ch->pcdata->condition[2] = fread_number (fpt);
+sv.c:	      ch->pcdata->colors[0] = fread_number (fpt);
+sv.c:	      ch->pcdata->colors[1] = fread_number (fpt);
+sv.c:	      ch->pcdata->colors[2] = fread_number (fpt);
+sv.c:	      ch->pcdata->colors[3] = fread_number (fpt);
+sv.c:	      ch->pcdata->colors[4] = fread_number (fpt);
+sv.c:	      ch->pcdata->colors[5] = fread_number (fpt);
+sv.c:	      ch->pcdata->colors[6] = fread_number (fpt);
+sv.c:	      ch->pcdata->colors[7] = fread_number (fpt);
+sv.c:	      ch->pcdata->colors[8] = fread_number (fpt);
+sv.c:	      ch->pcdata->colors[9] = fread_number (fpt);
+sv.c:	  KEY ("Deaths", ch->pcdata->deaths, fread_number (fpt));
+sv.c:	  KEY ("DPray", ch->pcdata->pray_points, fread_number (fpt));
+sv.c:	  KEY ("Deaf", ch->pcdata->deaf, fread_number (fpt));
+sv.c:	  SKEY ("Descr", ch->pcdata->description, fread_string2 (fpt, NULL));
+sv.c:	  KEY ("Elemental", ch->pcdata->elemental_alignment, fread_number (fpt));
+sv.c:	      if (ch->pcdata->level > MAX_LEVEL)
+sv.c:		ch->pcdata->level = MAX_LEVEL;
+sv.c:		ch->pcdata->faction[i] = fread_number(fpt);
+sv.c:	  KEY ("Hardpk", ch->pcdata->hard_pkills, fread_number (fpt));
+sv.c:		  if (!ch->pcdata->ignore[i])
+sv.c:	      ch->pcdata->ignore[i] = str_dup (fread_word (fpt));
+sv.c:	  KEY ("Killpt", ch->pcdata->killpoints, fread_number (fpt));
+sv.c:	  KEY ("Level", ch->pcdata->level, fread_number (fpt));
+sv.c:	  KEY ("Learn", ch->pcdata->learn, fread_number (fpt));
+sv.c:	  SKEY ("LoDesc", ch->pcdata->long_descr, fread_string2 (fpt, NULL));
+sv.c:	      strcpy (ch->pcdata->chan_color[tt], fread_word (fpt));
+sv.c:	  KEY ("LCign", ch->pcdata->chan_ignore, fread_number (fpt));
+sv.c:		  if (ch->pcdata->trophy_level[i] == 0)
+sv.c:	      ch->pcdata->trophy_level[i] = fread_number (fpt);
+sv.c:	  KEY ("ManaShield", ch->pcdata->mana_shield_strength, fread_number (fpt));
+sv.c:	  KEY ("NAn", ch->pcdata->show_lev, fread_number (fpt));
+sv.c:	  KEY ("Nospam", ch->pcdata->no_spam, fread_number (fpt));
+sv.c:	  KEY ("NDon", ch->pcdata->donated, fread_number (fpt));
+sv.c:	  KEY ("Nexp", ch->pcdata->new_exp, fread_number (fpt));
+sv.c:	  KEY ("NQuest", ch->pcdata->questflag, fread_number (fpt));
+sv.c:	  KEY ("NatArm", ch->pcdata->nat_armor, fread_number (fpt));
+sv.c:	  KEY ("NatAbil", ch->pcdata->nat_abilities, fread_number (fpt));
+sv.c:	  KEY ("NatAbilT", ch->pcdata->nat_abilities2, fread_number (fpt));
+sv.c:	  KEY ("NChon", ch->pcdata->challenge_on, fread_number (fpt));
+sv.c:	  KEY ("NRemort", ch->pcdata->remort_times, fread_number (fpt));
+sv.c:	  KEY ("NAMsg", ch->pcdata->arena_msg, fread_number (fpt));
+sv.c:	  KEY ("NWPS", ch->pcdata->warpoints, fread_number (fpt));
+sv.c:	  KEY ("NMana", ch->pcdata->n_mana, fread_number (fpt));
+sv.c:	  KEY ("NGldBt", ch->pcdata->guilds, fread_number (fpt));
+sv.c:		  if (ch->pcdata->trophy_name[i][0] == '\0')
+sv.c:	      strcpy (ch->pcdata->trophy_name[i], fread_word (fpt));
+sv.c:	      strcpy (ch->pcdata->email, fread_string2 (fpt, NULL));
+sv.c:	  KEY ("Note", ch->pcdata->last_note, fread_number (fpt));
+sv.c:	  SKEY ("Promptr", ch->pcdata->rprompt, fread_string2 (fpt, NULL));
+sv.c:	  SKEY ("Password", ch->pcdata->pwd, fread_string2 (fpt, NULL));
+sv.c:	  KEY ("Played", ch->pcdata->played, fread_number (fpt));
+sv.c:	  KEY ("Pagelen", ch->pcdata->pagelen, fread_number (fpt));
+sv.c:	  KEY ("PImplO", ch->pcdata->augments, fread_number (fpt));
+sv.c:	  KEY ("Practc", ch->pcdata->practice, fread_number (fpt));
+sv.c:	  KEY ("Pklevs", ch->pcdata->pklevels, fread_number (fpt));
+sv.c:	  KEY ("Pkhelp", ch->pcdata->pkhelpers, fread_number (fpt));
+sv.c:	  KEY ("Pkills", ch->pcdata->pkills, fread_number (fpt));
+sv.c:	  KEY ("Pkilled", ch->pcdata->pkilled, fread_number (fpt));
+sv.c:	  KEY ("Pkers", ch->pcdata->pkers, fread_number (fpt));
+sv.c:	      ch->pcdata->race = fread_number (fpt);
+sv.c:	  SKEY ("RealPassword", ch->pcdata->rpwd, fread_string2 (fpt,NULL));
+sv.c:	      ch->pcdata->temp_room = get_room_index (fread_number (fpt));
+sv.c:	  KEY ("SvngTh", ch->pcdata->saving_throw, fread_number (fpt));
+sv.c:	  KEY ("Sex", ch->pcdata->sex, fread_number (fpt));
+sv.c:	  SKEY ("ShDesc", ch->pcdata->short_descr, fread_string2 (fpt, NULL));
+sv.c:	  KEY ("SCool", ch->pcdata->cool_skills, fread_number (fpt));
+sv.c:	  KEY ("Secrty", ch->pcdata->security, fread_number (fpt));
+sv.c:	  KEY ("Stance", ch->pcdata->stance, fread_number (fpt));
+sv.c:		ch->pcdata->learned[sn] = value;
+sv.c:		  if (ch->pcdata->trophy_times[i] == 0)
+sv.c:	      ch->pcdata->trophy_times[i] = fread_number (fpt);
+sv.c:	  KEY ("TtlKils", ch->pcdata->totalkills, fread_number (fpt));
+sv.c:	      ch->pcdata->title = str_dup (fread_string2 (fpt, NULL));
+sv.c:	  KEY ("TotWps", ch->pcdata->total_wps, fread_number(fpt));
+sv.c:	  KEY ("Winv", ch->pcdata->wizinvis, fread_number (fpt));
+sv.c:	  KEY ("Warmth", ch->pcdata->warmth, fread_number (fpt));
+sv.c:  if (ch->pcdata->temp_room == NULL)
+sv.c:    ch->pcdata->temp_room = get_room_index(ch->pcdata->alignment +100);
+sv.c:		  if (ch->pcdata->pet_temp[kl] == 0)
+sv.c:		      ch->pcdata->pet_temp[kl] = fread_number (fp);
+sv.c:		      ch->pcdata->pet_hps[kl] = fread_number (fp);
+sv.c:		      ch->pcdata->pet_move[kl] = fread_number (fp);
+sv.c:	  KEY ("Act2", ch->pcdata->act2, fread_number (fp));
+sv.c:	  KEY ("Act3", ch->pcdata->act3, fread_number (fp));
+sv.c:	      ch->pcdata->alignment = fread_number(fp);
+sv.c:	      if (ch->pcdata->alignment < 0) ch->pcdata->alignment = 1;
+sv.c:	      if (ch->pcdata->alignment >= NUM_ALIGN) ch->pcdata->alignment = 2;
+sv.c:		  if (!ch->pcdata->aliasname[k] ||
+sv.c:		      ch->pcdata->aliasname[k][0] == '\0' ||
+sv.c:		      !ch->pcdata->alias[k] ||
+sv.c:		      ch->pcdata->alias[k][0] == '\0')
+sv.c:	      ch->pcdata->aliasname[k] = str_dup (fread_word (fp));
+sv.c:	      ch->pcdata->alias[k] = str_dup (fread_string2 (fp, NULL));
+sv.c:	      for (msk = ch->pcdata->alias[k]; *msk != '\0'; msk++)
+sv.c:		ch->pcdata->stat_mod[i] = fread_number(fp);
+sv.c:		ch->pcdata->stat[i] = fread_number(fp);
+sv.c:	      ch->pcdata->bank = fread_number (fp);
+sv.c:	  SKEY ("Bamfin", ch->pcdata->beamin, fread_string2 (fp, NULL));
+sv.c:	  SKEY ("Bamfout", ch->pcdata->beamout, fread_string2 (fp, NULL));
+sv.c:	  KEY ("Created", ch->pcdata->created, fread_number(fp));
+sv.c:	  KEY ("Clan", ch->pcdata->clan, fread_number(fp));
+sv.c:	   KEY ("Clan2", ch->pcdata->clan2, fread_number(fp));
+sv.c:	      ch->pcdata->condition[0] = fread_number (fp);
+sv.c:	      ch->pcdata->condition[1] = fread_number (fp);
+sv.c:	      ch->pcdata->condition[2] = fread_number (fp);
+sv.c:	      ch->pcdata->colors[0] = fread_number (fp);
+sv.c:	      ch->pcdata->colors[1] = fread_number (fp);
+sv.c:	      ch->pcdata->colors[2] = fread_number (fp);
+sv.c:	      ch->pcdata->colors[3] = fread_number (fp);
+sv.c:	      ch->pcdata->colors[4] = fread_number (fp);
+sv.c:	      ch->pcdata->colors[5] = fread_number (fp);
+sv.c:	      ch->pcdata->colors[6] = fread_number (fp);
+sv.c:	      ch->pcdata->colors[7] = fread_number (fp);
+sv.c:	      ch->pcdata->colors[8] = fread_number (fp);
+sv.c:	      ch->pcdata->colors[9] = fread_number (fp);
+sv.c:	  KEY ("Deaths", ch->pcdata->deaths, fread_number (fp));
+sv.c:	  KEY ("DPray", ch->pcdata->pray_points, fread_number (fp));
+sv.c:	  KEY ("Deaf", ch->pcdata->deaf, fread_number (fp));
+sv.c:	  SKEY ("Descr", ch->pcdata->description, fread_string2 (fp, NULL));
+sv.c:	  KEY ("Elemental", ch->pcdata->elemental_alignment, fread_number (fp));
+sv.c:		 ch->pcdata->faction[i] = fread_number(fp);
+sv.c:	  KEY ("Hardpk", ch->pcdata->hard_pkills, fread_number (fp));
+sv.c:		  if (!ch->pcdata->ignore[i])
+sv.c:	      ch->pcdata->ignore[i] = str_dup (fread_word (fp));
+sv.c:	  KEY ("Killpt", ch->pcdata->killpoints, fread_number (fp));
+sv.c:	  KEY ("Level", ch->pcdata->level, fread_number (fp));
+sv.c:	  KEY ("Learn", ch->pcdata->learn, fread_number (fp));
+sv.c:	  SKEY ("LoDesc", ch->pcdata->long_descr, fread_string2 (fp, NULL));
+sv.c:	      strcpy (ch->pcdata->chan_color[tt], fread_word (fp));
+sv.c:	  KEY ("LCign", ch->pcdata->chan_ignore, fread_number (fp));
+sv.c:		  if (ch->pcdata->trophy_level[i] == 0)
+sv.c:	      ch->pcdata->trophy_level[i] = fread_number (fp);
+sv.c:	  KEY ("ManaShield", ch->pcdata->mana_shield_strength, fread_number (fp));
+sv.c:	  KEY ("NAn", ch->pcdata->show_lev, fread_number (fp));
+sv.c:	  KEY ("Nospam", ch->pcdata->no_spam, fread_number (fp));
+sv.c:	  KEY ("NDon", ch->pcdata->donated, fread_number (fp));
+sv.c:	  KEY ("Nexp", ch->pcdata->new_exp, fread_number (fp));
+sv.c:	  KEY ("NQuest", ch->pcdata->questflag, fread_number (fp));
+sv.c:	  KEY ("NatArm", ch->pcdata->nat_armor, fread_number (fp));
+sv.c:	  KEY ("NatAbil", ch->pcdata->nat_abilities, fread_number (fp));
+sv.c:	  KEY ("NatAbilT", ch->pcdata->nat_abilities2, fread_number (fp));
+sv.c:	  KEY ("NChon", ch->pcdata->challenge_on, fread_number (fp));
+sv.c:	  KEY ("NRemort", ch->pcdata->remort_times, fread_number (fp));
+sv.c:	  KEY ("NAMsg", ch->pcdata->arena_msg, fread_number (fp));
+sv.c:	  KEY ("NWPS", ch->pcdata->warpoints, fread_number (fp));
+sv.c:	  KEY ("NMana", ch->pcdata->n_mana, fread_number (fp));
+sv.c:	  KEY ("NGldBt", ch->pcdata->guilds, fread_number (fp));
+sv.c:		  if (ch->pcdata->trophy_name[i][0] == '\0')
+sv.c:	      strcpy (ch->pcdata->trophy_name[i], fread_word (fp));
+sv.c:	      strcpy (ch->pcdata->email, fread_string2 (fp, NULL));
+sv.c:	  KEY ("Note", ch->pcdata->last_note, fread_number (fp));
+sv.c:	  SKEY ("Promptr", ch->pcdata->rprompt, fread_string2 (fp, NULL));
+sv.c:	  SKEY ("Password", ch->pcdata->pwd, fread_string2 (fp, NULL));
+sv.c:	  KEY ("Played", ch->pcdata->played, fread_number (fp));
+sv.c:	  KEY ("Pagelen", ch->pcdata->pagelen, fread_number (fp));
+sv.c:	  KEY ("PImplO", ch->pcdata->augments, fread_number (fp));
+sv.c:	  KEY ("Practc", ch->pcdata->practice, fread_number (fp));
+sv.c:	  KEY ("Pklevs", ch->pcdata->pklevels, fread_number (fp));
+sv.c:	  KEY ("Pkhelp", ch->pcdata->pkhelpers, fread_number (fp));
+sv.c:	  KEY ("Pkills", ch->pcdata->pkills, fread_number (fp));
+sv.c:	  KEY ("Pkilled", ch->pcdata->pkilled, fread_number (fp));
+sv.c:	  KEY ("Pkers", ch->pcdata->pkers, fread_number (fp));
+sv.c:	      ch->pcdata->race = fread_number (fp);
+sv.c:	  SKEY ("RealPassword", ch->pcdata->rpwd, fread_string2 (fp,NULL));
+sv.c:	      ch->pcdata->temp_room = get_room_index (fread_number (fp));
+sv.c:	  KEY ("SvngTh", ch->pcdata->saving_throw, fread_number (fp));
+sv.c:	  KEY ("Sex", ch->pcdata->sex, fread_number (fp));
+sv.c:	  SKEY ("ShDesc", ch->pcdata->short_descr, fread_string2 (fp, NULL));
+sv.c:	  KEY ("SCool", ch->pcdata->cool_skills, fread_number (fp));
+sv.c:	  KEY ("Secrty", ch->pcdata->security, fread_number (fp));
+sv.c:	  KEY ("Stance", ch->pcdata->stance, fread_number (fp));
+sv.c:	      ch->pcdata->script_flags[csf] = str_dup (fread_string2 (fp, NULL));
+sv.c:		ch->pcdata->learned[sn] = value;
+sv.c:		ch->pcdata->start_stat[i] = fread_number(fp);
+sv.c:		  if (ch->pcdata->trophy_times[i] == 0)
+sv.c:	      ch->pcdata->trophy_times[i] = fread_number (fp);
+sv.c:	  KEY ("TtlKils", ch->pcdata->totalkills, fread_number (fp));
+sv.c:	      ch->pcdata->title = str_dup (fread_string2 (fp, NULL));
+sv.c:	  KEY ("TotWps", ch->pcdata->total_wps, fread_number (fp));
+sv.c:	  KEY ("Winv", ch->pcdata->wizinvis, fread_number (fp));
+sv.c:	  KEY ("Warmth", ch->pcdata->warmth, fread_number (fp));  
+sv.c:      if (ch->pcdata->storage[k] == NULL)
+sv.c:		    ch->pcdata->light++;
+sv.c:		    ch->pcdata->command_objs++;
+sv.c:		      ch->pcdata->storage[free_storage (ch)] = obj;
+toptr.c:  if (ch->pcdata->warpoints <0) ch->pcdata->warpoints = 0;
+toptr.c:  if (current_time - ch->pcdata->created > 0 &&  current_time - startup_time > 0) 
+toptr.c:       charinfo[10] = (float)((float) (ch->pcdata->played + (current_time
+toptr.c:- ch->pcdata->logon)))*100.0/((float)(current_time-ch->pcdata->created));
+toptr.c:(ch->pcdata->played)*100.0)/((float)(current_time-startup_time));
+toptr.c:  if (ch->pcdata->pkills > 20)
+toptr.c:      charinfo[0] = (float) ch->pcdata->pkills;
+toptr.c:      charinfo[1] = (float) ((float) ch->pcdata->pklevels /
+toptr.c:			       (float) ch->pcdata->pkills);
+toptr.c:      charinfo[2] = (float) ((float) ch->pcdata->pkills /
+toptr.c:			     (float) ch->pcdata->pkhelpers);
+toptr.c:      charinfo[5] = (float)   ch->pcdata->total_wps;
+toptr.c:      charinfo[6] =  (float) ((float) ch->pcdata->pkills /
+toptr.c:			       (float) ch->pcdata->pklevels);
+toptr.c:      charinfo[7] = (float) ((float) ch->pcdata->pkhelpers/
+toptr.c:			     (float) ch->pcdata->pkills); 
+toptr.c:      charinfo[8] = (float) ch->pcdata->warpoints;
+toptr.c:      charinfo[9] = (float) ch->pcdata->hard_pkills;
+toptr.c:  if (ch->pcdata->pkilled >=1)
+toptr.c:      charinfo[3] = (float) ((float) ch->pcdata->pkilled);
+toptr.c:      charinfo[4] = (float) ((float) ch->pcdata->pkers /
+toptr.c:				    (float) ch->pcdata->pkilled);
+toptr.c:	  pkdata[newslot[i]][i].alignment = ch->pcdata->alignment;
+toptr.c:  if (ch->pcdata->warpoints  < 0) ch->pcdata->warpoints = 0;
+toptr.c:          if (ch->pcdata->warpoints > topten.topten_warpoints[k])
+toptr.c:     topten.topten_warpoints[newslot] = ch->pcdata->warpoints;
+toptr.c:     topten.topten_alignment[newslot] = ch->pcdata->alignment;
+toptr.c:      ratingd.rating_alignment[newslot] = ch->pcdata->alignment;
+toptr.c:    if ((ch->pcdata->trophy_name[i] != '\0') && (ch->pcdata->trophy_level[i] >=1) && (ch->pcdata->trophy_times[i] >=1))
+toptr.c:		 ch->pcdata->trophy_level[i],
+toptr.c:		 ch->pcdata->trophy_name[i], ch->pcdata->trophy_times[i]);
+toptr.c:  sprintf(buffy, "\n\rYou have \x1b[1;31m%ld\x1b[0;37m warpoints.\n\r", ch->pcdata->warpoints);
+toptr.c:      sprintf(buffy, "\n\rYour total number of pkills is: \x1b[1;32m%d\x1b[0;37m.\n\r", ch->pcdata->pkills);
+toptr.c:      sprintf(buffy, "\n\rYour average level of pkill victims is \x1b[1;34m%2.4f\x1b[0;37m.\n\r", (float) ((float)ch->pcdata->pklevels)/((float) (UMAX(ch->pcdata->pkills, 1))));
+toptr.c:      sprintf(buffy, "\n\rYour average groupsize when you pkill someone is \x1b[1;34m%2.4f\x1b[0;37m.\n\r", (float) ((float)ch->pcdata->pkhelpers)/((float) (UMAX(ch->pcdata->pkills, 1))));
+toptr.c:         sprintf(buffy, "\n\rYour total number of times you have been pkilled is: \x1b[1;32m%d\x1b[0;37m.\n\r", ch->pcdata->pkilled);
+toptr.c:      sprintf(buffy, "\n\rYou require \x1b[1;34m%2.4f\x1b[0;37m people to kill you on average.\n\r", (float) ((float)ch->pcdata->pkers)/((float) (UMAX(ch->pcdata->pkilled, 1))));
+toptr.c:         sprintf(buffy, "\n\rYour total number of warpoints is: \x1b[1;32m%ld\x1b[0;37m.\n\r", ch->pcdata->total_wps);
+toptr.c:         sprintf(buffy, "\n\rYour total number of hard pkills is: \x1b[1;32m%ld\x1b[0;37m.\n\r", ch->pcdata->hard_pkills);
+toptr.c:	   sprintf(buffy, "\n\rYour number of warpoints is: \x1b[1;32m%d\x1b[0;37m.\n\r", ch->pcdata->warpoints);
+toptr.c:         sprintf(buffy, "\n\rYour average level of pkill victims is \x1b[1;34m%2.4f\x1b[0;37m.\n\r", (float) ((float)ch->pcdata->pklevels)/((float) (UMAX(ch->pcdata->pkills, 1))));
+toptr.c:          sprintf(buffy, "\n\rYour average groupsize when you pkill someone is \x1b[1;34m%2.4f\x1b[0;37m.\n\r", (float) ((float)ch->pcdata->pkhelpers)/((float) (UMAX(ch->pcdata->pkills, 1))));
+toptr.c:      sprintf(buffy, "\n\rYour percentage of playing time since your creation is:\x1b[1;34m%2.4f\x1b[0;37m.\n\r", (float) ((float)(ch->pcdata->played + current_time - ch->pcdata->logon)*100.0/((float) (current_time - ch->pcdata->created))));
+toptr.c:      sprintf(buffy, "\n\rYour percentage of playing time since the game originally started is:\x1b[1;34m%2.4f\x1b[0;37m.\n\r", (float) ((float)(ch->pcdata->played + current_time - ch->pcdata->logon)*100.0/((float) (current_time - startup_time))));
+toptr.c:      if (ch->pcdata->trophy_name[i][0] == '\0')
+toptr.c:      if (ch->pcdata->trophy_level[i] < templev)
+toptr.c:	  templev = ch->pcdata->trophy_level[i];
+toptr.c:  if (ch->pcdata->trophy_level[tempnum] <= LEVEL (victim))
+toptr.c:  ch->pcdata->online_spot->pk_since_locate++;
+toptr.c:=(float)((float)(5+victim->pcdata->remort_times))/((float)(5+ch->pcdata->remort_times));
+toptr.c:  if (IS_SET(ch->pcdata->act2, PLR_HARDCORE))
+toptr.c:   ch->pcdata->warpoints +=wpstogive;
+toptr.c:   ch->pcdata->total_wps +=wpstogive;
+toptr.c:    ch->pcdata->total_wps += 1;
+toptr.c:    ch->pcdata->warpoints += 1;
+toptr.c:  if (LEVEL (victim) > 59 && victim->pcdata->remort_times > 7)
+toptr.c:      ch->pcdata->total_wps += 1;
+toptr.c:      ch->pcdata->warpoints += 1;
+toptr.c:      if (ch->pcdata->trophy_name[i][0] == '\0')
+toptr.c:      if (!str_cmp (RNAME (victim), ch->pcdata->trophy_name[i]))
+toptr.c:	  ch->pcdata->trophy_times[i]++;
+toptr.c:	  ch->pcdata->trophy_level[i] = LEVEL (victim);
+toptr.c:  strcpy (ch->pcdata->trophy_name[nummy], RNAME (victim));
+toptr.c:  ch->pcdata->trophy_times[nummy] = 1;
+toptr.c:  ch->pcdata->trophy_level[nummy] = LEVEL (victim);
+toptr.c:      if ((ch->pcdata->trophy_level[k] > 0) &&
+toptr.c:(ch->pcdata->trophy_times[k] > 0) && (ch->pcdata->trophy_name[k][0] !=
+toptr.c:          if ((ch->pcdata->trophy_level[k]) <
+toptr.c:(ch->pcdata->trophy_level[i]))
+toptr.c:	      templev = ch->pcdata->trophy_level[i];
+toptr.c:	      ch->pcdata->trophy_level[i] = ch->pcdata->trophy_level[k];
+toptr.c:	      ch->pcdata->trophy_level[k] = templev;
+toptr.c:	      tempnum = ch->pcdata->trophy_times[i];
+toptr.c:	      ch->pcdata->trophy_times[i] = ch->pcdata->trophy_times[k];
+toptr.c:	      ch->pcdata->trophy_times[k] = tempnum;
+toptr.c:	      strcpy(tempname, ch->pcdata->trophy_name[i]);
+toptr.c:	      strcpy(ch->pcdata->trophy_name[i],
+toptr.c:ch->pcdata->trophy_name[k]);
+toptr.c:	      strcpy(ch->pcdata->trophy_name[k], tempname);
+upd.c:  ch->armor = ch->pcdata->nat_armor;
+upd.c:  ch->pcdata->plus_hide = 0;
+upd.c:  ch->pcdata->plus_sneak = 0;
+upd.c:  ch->pcdata->plus_kick = 0;
+upd.c:  ch->pcdata->armor[0] = 0;
+upd.c:  ch->pcdata->armor[1] = 0;
+upd.c:  ch->pcdata->armor[2] = 0;
+upd.c:  ch->pcdata->armor[3] = 0;
+upd.c:  ch->pcdata->carry_weight = 0;
+upd.c:  ch->pcdata->carry_number = 0;
+upd.c:  ch->pcdata->command_objs = 0;
+upd.c:      ch->pcdata->stat_mod[i] = 0;
+upd.c:      ch->pcdata->learned[race_info[ch->pcdata->race].nat_skills[i]] = 100;
+upd.c:      ch->pcdata->learned[align_info[ch->pcdata->alignment].nat_skills[i]] = 100;
+upd.c:  if (ch->pcdata->warpoints < 0) ch->pcdata->warpoints = 0;
+upd.c:  if (ch->pcdata->total_wps < 0) ch->pcdata->total_wps = 0;
+upd.c:	  ch->pcdata->plus_kick += mod;
+upd.c:	  ch->pcdata->plus_sneak += mod;
+upd.c:	  ch->pcdata->warmth += mod;
+upd.c:	  ch->pcdata->plus_hide += mod;
+upd.c:          ch->pcdata->stat_mod[STR] += mod;
+upd.c:          ch->pcdata->stat_mod[INT] += mod;
+upd.c:          ch->pcdata->stat_mod[WIS] += mod;
+upd.c:          ch->pcdata->stat_mod[DEX] += mod;
+upd.c:          ch->pcdata->stat_mod[CON] += mod;
+upd.c:      ch->pcdata->carry_weight += get_obj_weight (obj);
+upd.c:      ch->pcdata->carry_number += get_obj_number (obj);
+upd.c:	ch->pcdata->command_objs++;
+upd.c:	      ch->pcdata->armor[0] += (r->protects_body);
+upd.c:	      ch->pcdata->armor[1] += (r->protects_head);
+upd.c:	      ch->pcdata->armor[2] += (r->protects_legs);
+upd.c:	      ch->pcdata->armor[3] += (r->protects_arms);
+upd.c:	      ch->pcdata->armor[2] += (r->protects_legs * r->condition_now) / (r->max_condition);
+upd.c:	      ch->pcdata->armor[0] += (r->protects_body * r->condition_now) / (r->max_condition);
+upd.c:	      ch->pcdata->armor[1] += (r->protects_head * r->condition_now) / (r->max_condition);
+upd.c:	      ch->pcdata->armor[3] += (r->protects_arms * r->condition_now) / (r->max_condition);
+upd.c:	      ch->pcdata->plus_kick += mod;
+upd.c:	      ch->pcdata->plus_sneak += mod;
+upd.c:	      ch->pcdata->warmth +=mod;
+upd.c:	      ch->pcdata->plus_hide += mod;
+upd.c:	      ch->pcdata->stat_mod[STR] += mod;
+upd.c:	      ch->pcdata->stat_mod[INT] += mod;
+upd.c:	      ch->pcdata->stat_mod[WIS] += mod;
+upd.c:	      ch->pcdata->stat_mod[DEX] += mod;
+upd.c:	      ch->pcdata->stat_mod[CON] += mod;
+upd.c:	      ch->pcdata->plus_kick += mod;
+upd.c:	      ch->pcdata->plus_sneak += mod;
+upd.c:	      ch->pcdata->warmth += mod;
+upd.c:	      ch->pcdata->plus_hide += mod;
+upd.c:	      ch->pcdata->stat_mod[STR] += mod;
+upd.c:	      ch->pcdata->stat_mod[INT] += mod;
+upd.c:	      ch->pcdata->stat_mod[WIS] += mod;
+upd.c:	      ch->pcdata->stat_mod[DEX] += mod;
+upd.c:	      ch->pcdata->stat_mod[CON] += mod;
+upd.c:     ((ch->pcdata->remort_times))+
+upd.c:      race_info[ch->pcdata->race].combat_damage_bonus+
+upd.c:     align_info[ch->pcdata->alignment].combat_damage_bonus);
+upd.c:  ch->affected_by |= ch->pcdata->nat_abilities;
+upd.c:  ch->affected_by |= race_info[ch->pcdata->race].affect_bits;
+upd.c:  ch->more_affected_by |= ch->pcdata->nat_abilities2;
+upd.c:  ch->more_affected_by |= race_info[ch->pcdata->race].affect_bits2;
+upd.c:  ch->affected_by |= align_info[ch->pcdata->alignment].affect_bits;
+upd.c:  ch->more_affected_by |= align_info[ch->pcdata->alignment].affect_bits2;
+upd.c:  ch->pcdata->practice += add_prac;
+upd.c:  ch->pcdata->learn += add_learn;
+upd.c:  while (LEVEL (ch) < pow.max_level && ch->exp >= FIND_EXP (LEVEL (ch), ch->pcdata->race))
+upd.c:      ch->pcdata->level++;
+upd.c:      if (ch->pcdata->remort_times == 0 && ch->pcdata->level == pow.level_to_choose -1)
+upd.c:      if (LEVEL(ch) == pow.level_to_choose && ch->pcdata->remort_times == 0 && pow.choose_in_room != 0 && get_room_index(pow.choose_in_room) != NULL)
+upd.c:  base = (base * (race_info[ch->pcdata->race].mana_percent + align_info[ch->pcdata->alignment].mana_percent))/100;
+upd.c:  if (ch->pcdata->n_mana < ch->pcdata->n_max_mana && hehe != 2)
+upd.c:      ch->pcdata->n_mana = UMIN (ch->pcdata->n_max_mana, ch->pcdata->n_mana + tt); 
+upd.c:      ch->pcdata->n_mana -= 3;
+upd.c:      if (ch->pcdata->n_mana <= 0)
+upd.c:	ch->pcdata->n_mana = 0;
+upd.c:      if (ch->pcdata->condition[COND_FULL] <= 5)
+upd.c:      if (ch->pcdata->condition[COND_FULL] <= 0)
+upd.c:      if (ch->pcdata->condition[COND_THIRST] <= 5)
+upd.c:      if (ch->pcdata->condition[COND_THIRST] <= 0)
+upd.c:      gain = (gain * (race_info[ch->pcdata->race].regen_hit_percent + align_info[ch->pcdata->alignment].regen_hit_percent)) / 100;
+upd.c:  if (IS_PLAYER(ch) && is_member(ch, GUILD_MONK) && ch->pcdata->learned[gsn_spiritregen] > 60)
+upd.c:      if (ch->pcdata->condition[COND_FULL] <= 0)
+upd.c:      if (ch->pcdata->condition[COND_THIRST] <= 0)
+upd.c:      gain = (gain * (race_info[ch->pcdata->race].regen_move_percent + align_info[ch->pcdata->alignment].regen_move_percent)) / 100;
+upd.c:  if (IS_PLAYER(ch) && is_member(ch, GUILD_MONK) && ch->pcdata->learned[gsn_spiritregen] > 60)
+upd.c:  ch->pcdata->condition[iCond] += value;
+upd.c:  if (ch->pcdata->condition[COND_DRUNK] < 0)
+upd.c:    ch->pcdata->condition[COND_DRUNK] = 0;
+upd.c:  if (ch->pcdata->condition[iCond] > 48)
+upd.c:    ch->pcdata->condition[iCond] = 48;
+upd.c:  condition = ch->pcdata->condition[iCond];
+upd.c:  if (ch->pcdata->condition[iCond] < -2)
+upd.c:              ch->pcdata->condition[COND_THIRST] = 48;
+upd.c:              ch->pcdata->condition[COND_FULL] = 48;
+upd.c:  if (ch->pcdata->condition[iCond] == 9)
+upd.c:  if (ch->pcdata->condition[iCond] <= 1)
+upd.c:  if (ch->pcdata->condition[iCond] == 3)
+upd.c:			    if (to_attack == ch || (IS_PLAYER (to_attack) && to_attack->pcdata->level > IMM_LEVEL))
+upd.c:			    if (tcr->pcdata->clan == -1) continue;
+upd.c:			    if ((clandata = get_clan_index(tcr->pcdata->clan)) == NULL) continue;
+upd.c:			if (to_attack == ch || (IS_PLAYER (to_attack) && to_attack->pcdata->level > IMM_LEVEL))
+upd.c:			if (to_attack == ch || (IS_PLAYER (to_attack) && to_attack->pcdata->level > IMM_LEVEL))
+upd.c:              char_to_room(found_winner,get_room_index(found_winner->pcdata->alignment+100));
+upd.c:	  if(wch->pcdata->no_quit > 0)
+upd.c:	    wch->pcdata->no_quit--; 
+upd.c:	  if ((wch->pcdata->no_quit_pk > 0) && (FIGHTING (wch) == NULL || wch->position != POSITION_FIGHTING))
+upd.c:	    wch->pcdata->no_quit_pk--;
+upd.c:        if (ch->pcdata->challenge_time > 0)
+upd.c:          ch->pcdata->challenge_time--;
+upd.c:        if (ch->pcdata->died_recently> 0 && number_range(1,4) == 2)
+upd.c:          ch->pcdata->died_recently--;
+upd.c:                if (ch->pcdata->remort_times < 2)
+upd.c:                if (ch->pcdata->remort_times < 5 )
+upd.c:	      ch->affected_by |= ch->pcdata->nat_abilities;
+upd.c:	      ch->more_affected_by |= ch->pcdata->nat_abilities2;
+upd.c:      if (IS_PLAYER (ch) && ch->timer > 93 && ch->pcdata->no_quit_pk < 1)
+upd.c:		  if (IS_PLAYER(ch) && !strcmp(race_info[ch->pcdata->race].name, "troll"))
+upd.c:		  if (IS_PLAYER(ch) && !strcmp(race_info[ch->pcdata->race].name, "behemoth"))
+upd.c:		ch->pcdata->n_mana--;
+upd.c:	      if (ch->pcdata->n_mana < 0) ch->pcdata->n_mana = 0;
+upd.c:		  obj->carried_by->pcdata->light > 0)
+upd.c:		obj->carried_by->pcdata->light--;
+upd.c:                  if (IS_PLAYER (vch) && can_see (ch, vch) && (IS_SET (ch->pIndexData->race_hate, (1 << ch->pcdata->race))) &&
+view.c:                    if (to->pcdata->remort_times == 0)			
+view.c:                      sprintf(tmprace, "%s", race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times < 3)
+view.c:	  	      sprintf(tmprace, "%s %s", PLAYERSIZE2, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times < 7)
+view.c:      	              sprintf(tmprace, "%s %s", PLAYERSIZE3, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times < 10 && to->pcdata->sex == SEX_FEMALE)
+view.c:                      sprintf(tmprace, "%s %s", PLAYERSIZE4F, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times < 10)
+view.c:                      sprintf(tmprace, "%s %s", PLAYERSIZE4, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times == 10 && to->pcdata->sex == SEX_FEMALE)
+view.c:	              sprintf(tmprace, "%s %s", PLAYERSIZE5F, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times == 10)
+view.c:	              sprintf(tmprace, "%s %s", PLAYERSIZE5, race_info[to->pcdata->race].name);
+view.c:/*			if (!is_first_letter_vowel(race_info[to->pcdata->race].name))
+view.c:	  			sprintf(tmprace, "A %s", race_info[to->pcdata->race].name);
+view.c:	  			sprintf(tmprace, "An %s", race_info[to->pcdata->race].name);
+view.c:                    if (to->pcdata->remort_times == 0)			
+view.c:				sprintf(tmprace, "+* %s %s *+", PLAYERSIZE1, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times < 3)
+view.c:				sprintf(tmprace, "+* %s %s *+", PLAYERSIZE2, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times < 7)
+view.c:				sprintf(tmprace, "+* %s %s *+", PLAYERSIZE3, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times < 10 && to->pcdata->sex == SEX_FEMALE)
+view.c:				sprintf(tmprace, "+* %s %s *+", PLAYERSIZE4F, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times < 10)
+view.c:				sprintf(tmprace, "+* %s %s *+", PLAYERSIZE4, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times == 10 && to->pcdata->sex == SEX_FEMALE)
+view.c:				sprintf(tmprace, "+* %s %s *+", PLAYERSIZE5F, race_info[to->pcdata->race].name);
+view.c:                    else if (to->pcdata->remort_times == 10)
+view.c:				sprintf(tmprace, "+* %s %s *+", PLAYERSIZE5, race_info[to->pcdata->race].name);
+view.c:/*			if (!is_first_letter_vowel(race_info[to->pcdata->race].name))
+view.c:				sprintf(tmprace, "+* A %s *+", race_info[to->pcdata->race].name);
+view.c:				sprintf(tmprace, "+* An %s *+", race_info[to->pcdata->race].name);
+view.c:      if (ch->pcdata->learn < 1)
+view.c:      ch->pcdata->learn--;
+view.c:      ch->pcdata->practice += 10;
+view.c:      if (ch->pcdata->practice < 10)
+view.c:      ch->pcdata->learn++;
+view.c:      ch->pcdata->practice -= 10;
+warmth.c:  warmth = ch->pcdata->warmth;
+yell.c:      if (IS_SET (fch->pcdata->deaf, CHANNEL_YELL))

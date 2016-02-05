@@ -1,0 +1,572 @@
+#AREADATA 
+Name The Dragon's Lair~
+Repop Your bones shiver as you hear a puff of a mighty dragon. 
+~
+SCZone 0
+Builders Structure~
+VNUMs 34071 34100
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#34090
+Name a gigantic dragon~
+Short A gigantic dragon~
+Long 
+A G I G A N T I C  +++ D R A G O N +++ stands here blocking any passage!!!!!!!!
+~
+AMax 1
+NHeight 0
+ActBits 10
+ActBits3 2
+Affect_By 648
+AffectTWO 34078728
+Money 3000
+Level 450
+Sex 1
+MobType 5
+Guard 5
+End
+
+#34095
+Name guardian dragon~
+Short a guardian dragon~
+Long 
+A guardian dragon stands here breathing red smoke.
+~
+AMax 1
+NHeight 0
+ActBits 10
+ActBits3 2
+Affect_By 648
+AffectTWO 524296
+Money 300
+Level 450
+Sex 1
+MobType 5
+Guard 0
+End
+
+#34100
+Name goson~
+Short Goson the evil~
+Long 
+Goson stands here fiddling with different dimension's.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits4 1
+Affect_By 2097800
+AffectTWO 8
+Money 300
+Level 400
+Sex 1
+Guard 0
+BCasts ice comet~
+BCasts dazzle~
+BCast_P 30
+End
+
+#0
+
+
+
+#OBJDATA
+#34075
+Name torch~
+Short a [34mb[1ml[0m[34mu[1me[0m [31mf[1ml[33ma[30mm[31me [0m[35milluminates the room with light~
+Descr
+A [34mb[1ml[0m[34mu[1me[0m [31mf[1ml[33ma[30mm[31me [0m[35milluminates the room with light
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#34090
+Name huge water bong~
+Short a [32mH[1mU[0m[32mG[1mE [34mW[0m[34mA[1mT[0m[34mE[1mR [0m[36mB[1mO[0m[36mN[1mG[0m~
+Descr
+A huge water bong lies on the ground.
+[0;36m~
+Type 13
+Extra 1
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#34093
+Name dimenstional shift aura~
+Short a aura of [34mdi[1mme[0m[36mn[1msi[34mon[0m[34mal [36ms[1mh[0m[34mi[1m[34mf[0m[36mt[0m~
+Descr
+A aura is on the ground phasing out of time.
+[0;36m~
+Type 9
+Extra 33554435
+Wear 131073
+Values 0 5 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 30000
+Affect 20 5 1 0 0
+Affect 13 25 1 0 0
+Affect 14 10 1 0 0
+End
+
+#34095
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 21
+Extra 33554432
+Wear 1
+Weight 0
+Cost 0
+End
+
+#34096
+Name key~
+Short the key of [1m[30mDIMENSIONS~
+Descr
+A key lies on the ground.
+[0;36m~
+Type 13
+Extra 3
+Wear 1
+Weight 300
+Cost 30000
+End
+
+#34097
+Name jade dagger~
+Short [1m[32ma j[0m[32ma[1md[0m[32me[1m da[0m[32mgg[1mer~
+Descr
+[1m[32ma j[0m[32ma[1md[0m[32me[1m da[0m[32mgg[1mer lies on the ground
+[0;36m~
+Type 5
+Extra 33685507
+Wear 16385
+Values 0 60 0 11 0 0 0 1 1 0 64
+Weight 30
+Cost 0
+End
+
+#34098
+Name helm displacement 25hp 25mv 3sv 3ac~
+Short a helm of [36md[1mI[32ms[0m[35mP[36ml[1ma[34mc[30me[0m[33mm[1m[35me[30mn[36mt~
+Descr
+A helm of [36md[1mI[32ms[0m[35mP[36ml[1ma[34mc[30me[0m[33mm[1m[35me[30mn[36mt lies on the ground
+[0;36m~
+Type 9
+Extra 33554433
+Wear 17
+Values 0 0 10 0 0 0 9 9 0 0 0
+Weight 9
+Cost 300000
+Affect 13 25 1 0 0
+Affect 17 3 1 0 0
+Affect 20 3 1 0 0
+End
+
+#34100
+Name ring blue flame apb~
+Short a ring of [34mb[1ml[0m[34mu[1me [0m[31mf[1ml[33ma[30mm[31me~
+Descr
+A shimmering ring lies in the dust.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 3
+Values 0 5 0 0 0 0 7 7 0 0 0
+Weight 9
+Cost 0
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#34071
+Name The Dragon's Lair~
+Descr
+~
+Door 4 259 0 8739 30 30
+~
+hiddenlair~
+Door 5 0 0 34072 0 0
+~
+~
+End
+
+#34072
+Name The Dragon's Lair~
+Descr
+~
+Door 4 0 0 34071 0 0
+~
+~
+Door 5 0 0 34073 0 0
+~
+~
+End
+
+#34073
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34074 0 0
+~
+~
+Door 4 0 0 34072 0 0
+~
+~
+End
+
+#34074
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34075 0 0
+~
+~
+Door 2 0 0 34073 0 0
+~
+~
+End
+
+#34075
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 1 0 0 34086 0 0
+~
+~
+Door 2 0 0 34074 0 0
+~
+~
+Door 3 0 0 34076 0 0
+~
+~
+End
+
+#34076
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34077 0 0
+~
+~
+Door 1 0 0 34075 0 0
+~
+~
+End
+
+#34077
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34078 0 0
+~
+~
+Door 2 0 0 34076 0 0
+~
+~
+End
+
+#34078
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34079 0 0
+~
+~
+Door 2 0 0 34077 0 0
+~
+~
+End
+
+#34079
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 1 0 0 34080 0 0
+~
+~
+Door 2 0 0 34078 0 0
+~
+~
+End
+
+#34080
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34081 0 0
+~
+~
+Door 1 0 0 34082 0 0
+~
+~
+Door 3 0 0 34079 0 0
+~
+~
+End
+
+#34081
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34089 0 0
+~
+~
+Door 2 0 0 34080 0 0
+~
+~
+End
+
+#34082
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 2 0 0 34083 0 0
+~
+~
+Door 3 0 0 34080 0 0
+~
+~
+End
+
+#34083
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34082 0 0
+~
+~
+Door 2 0 0 34084 0 0
+~
+~
+End
+
+#34084
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34083 0 0
+~
+~
+Door 2 0 0 34086 0 0
+~
+~
+End
+
+#34085
+Name ~
+Descr
+~
+End
+
+#34086
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34084 0 0
+~
+~
+Door 3 0 0 34075 0 0
+~
+~
+End
+
+#34087
+Name ~
+Descr
+~
+End
+
+#34088
+Name ~
+Descr
+~
+End
+
+#34089
+Name The Dragon's Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34090 0 0
+~
+~
+Door 2 0 0 34081 0 0
+~
+~
+End
+
+#34090
+Name The Dragon's Lair~
+Descr
+~
+Reset M 34090 1 100
+Reset O 34075 -5 100
+Door 2 0 0 34089 0 0
+~
+~
+Door 5 259 0 34091 30 30
+~
+lair~
+End
+
+#34091
+Name The Hidden Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 4 259 0 34090 30 30
+~
+lair~
+Door 5 0 0 34092 0 0
+~
+~
+End
+
+#34092
+Name The Hidden Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34093 0 0
+~
+~
+Door 4 0 0 34091 0 0
+~
+~
+End
+
+#34093
+Name The Hidden Lair~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34094 0 0
+~
+~
+Door 2 0 0 34092 0 0
+~
+~
+End
+
+#34094
+Name The Hidden Lair~
+Descr
+~
+Flags2 6
+Reset O 34075 -5 100
+Door 0 257 0 34095 30 30
+~
+hell~
+Door 2 0 0 34093 0 0
+~
+~
+End
+
+#34095
+Name Goson's Chamber~
+Descr
+~
+Reset M 34095 1 100
+Reset O 34075 -5 100
+Door 0 0 0 34098 0 0
+~
+~
+Door 1 0 0 34097 0 0
+~
+~
+Door 2 0 0 34094 0 0
+~
+~
+Door 3 0 0 34096 0 0
+~
+~
+End
+
+#34096
+Name Goson's Chamber~
+Descr
+~
+Flags2 6
+Reset O 34075 -5 100
+Door 1 0 0 34095 0 0
+~
+~
+End
+
+#34097
+Name Goson's Chamber~
+Descr
+~
+Reset O 34075 -5 100
+Door 3 0 0 34095 0 0
+~
+~
+End
+
+#34098
+Name Goson's Throne~
+Descr
+~
+Reset O 34075 -5 100
+Door 0 0 0 34100 0 0
+~
+~
+Door 2 0 0 34095 0 0
+~
+~
+End
+
+#34099
+Name ~
+Descr
+~
+End
+
+#34100
+Name Goson's Vast Chamber of Evil~
+Descr
+Once this mob dies, send me a tell and give me this key, i will reward
+the entire group. *Structure* 
+~
+Reset O 34075 -5 100
+Door 2 0 0 34098 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

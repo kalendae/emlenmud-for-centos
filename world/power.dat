@@ -1,0 +1,400 @@
+#LOC1 MOB_EXP
+#MOB_EXP (l/8m17+2*l/6+10*t+10*l/44+10*l*3+10)m400000
+MOB_EXP (l/8m17+2*l/6m149+4*l/44+t+10*l*5+10/2)+(t*5*10)
+#LOC1 MOB XP
+#MOB_EXP (l/8m17+2*l/6m140+4*l/44+10*l*2+3/3m39753)
+
+# Equation for experience to level.  Uses the same format as in
+#spell editor.
+
+
+#LOC1 XPTOLEVEL
+EXP_TO_LEVEL
+l*4+l/6+2*l/2+1*l/2+2*l+15*l+((l-4z0)*1000)+((l-9z0)*10000)+((l-14z0)*100000)+((l-19z0)*1000000)+((l-29z0)*2000000)+((l-39z0)*2500000)+((l-49z0)*3000000)+((l-59z0)*4000000)+((l-15z0)*100000)+((l-17z0m2)*150000)+((l-18z0m1)*200000)
+
+# This adds lag to auction so one can't auction after or during a pk
+# fight.
+AUCTION_LAG YES
+
+# This sets wether a player can fight himself/herself or not.
+FIGHT_SELF YES
+
+# Sets mortals maximum attainable level.
+MAX_LEVEL 90
+
+# Sets minimum level a player has to be to be able to other players corpses.
+# Note: They can still loot mobs or their own corpse.
+LOOT_LEVEL 5
+
+# This is the allocation space for the world.  If it says you need more on
+# boot-up, increase this value.  If you set it really high, the mud will
+# take up more memory.
+SPACE_NEEDED               3000000
+
+# Percent chance that a person will _fail_ a flee.  Applies to mobs also.
+# FLEE_CHANCE 10 means a person will fail to flee 10 percent of the time.
+FLEE_CHANCE 35
+
+# Specifies whether or not bashes will cause a slip into the groundfight
+# position, simulating a tackle. If set to NO, you can't slip from a bash
+# into groundfighting.
+BASH_SLIP_TO_TACKLE YES
+
+
+# Old remort style yes or no
+
+
+ADDS_TO_STATS YES
+
+
+
+# Specifies whether of not evil will suffer sunlight penalties.
+PENALIZE_EVIL_IN_SUN NO
+
+# Specifies whether or not people can loot corpses while fighting.
+GET_FROM_CORPSE_WHILE_IN_COMBAT NO
+
+# Percent chance that each tick standing in a room with someone with plague
+# that you will catch plague too.  Note: Players under level 10 can't catch
+# plague from other players/mobs.
+PLAGUE_CHANCE 20
+
+
+# Can players summon mobs
+CAN_SUMMON_MOBS  NO 
+
+
+# Initial hit points, and remort initial hit points
+INITIAL_HP 30 45
+REMORT_HP  35 50
+
+# Initial move points, and remort initial move points
+INITIAL_MV 50 55 
+REMORT_MV  50 55 
+
+# format is LEVEL <range being> <range end> <percent of con application the
+# char gets> + <extra_min> <extra_max>
+
+# for instance, LEVEL 1 5 120 50 150 would be:
+# for levels 1-5, character gets 120% his natural con bonus, plus a random
+# number in the range of .5 to 1.5
+REG_HITGAIN 0  10  150 300  400
+REG_HITGAIN 11 20  150 200  350
+REG_HITGAIN 21 40  150 100  300
+REG_HITGAIN 41 45  150  50  200
+REG_HITGAIN 46 50   95  50  200
+REG_HITGAIN 51 65   95  50  200
+REG_HITGAIN 66 75   90  50  150
+REG_HITGAIN 76 80   85  50  150
+REG_HITGAIN 81 999  80  50  150
+
+# REM_HITGAIN is hitpoint gain for 'remorts'.
+# This is different the first and 2nd nums are levels 3rd is pct bonus over
+# The pct above... 4th 5th nums are + pcts hps like 0 70 meeans + 0-.7 per mort
+REM_HITGAIN 0  20  10   5  10
+REM_HITGAIN 21 40  5    5  10
+REM_HITGAIN 41 50  0    5  10
+REM_HITGAIN 51 65  0    5   8
+REM_HITGAIN 66 75  0    5   4
+REM_HITGAIN 76 80  0    0   1
+REM_HITGAIN 81 999 0    0   0
+
+# same system for movement point gainage, except no percentage.
+
+REG_MOVEGAIN 1  20  300 800
+REG_MOVEGAIN 21 40  50  200
+REG_MOVEGAIN 41 60  50  100
+REG_MOVEGAIN 61 999 50  100
+
+# Remort movegain
+REM_MOVEGAIN 1  20  10  30
+REM_MOVEGAIN 21 40  5   30
+REM_MOVEGAIN 41 60  5   20
+REM_MOVEGAIN 61 999 9  10
+
+# These are the requirements for people to remort. The structure
+# is such that the first list read is for 0 remort->1 remort, and
+# 2nd number read is for 1 remort->2 remort...etc. There must
+# be 10 of these listed even if you will not use 10 remorts.
+# The numbers are as follows:
+# <lvl> <wps_nd> <wps_lz> <kps_nd> <kps_lz> <gold> <item1> <item2>
+
+
+REMORT_REQ      50    0     0	0	0	0 	0 0
+REMORT_REQ 	55    0     0	0	0	0 	0 0
+REMORT_REQ 	56    0     0	0	0	0	0 0
+REMORT_REQ 	56    0     0   0	0	0 	0 0
+REMORT_REQ 	60    0     0   0	0	0 	0 0
+REMORT_REQ 	65    0     0	0	0	0 	0 0 
+REMORT_REQ 	70    0     0	0	0	0	0 0
+REMORT_REQ      75    0     0	0	0	0	0 0
+REMORT_REQ 	90    0     0	0	0	0	0 0
+REMORT_REQ 	91    0     0	0	0	0	0 0
+
+# Ascended characters get their own requirements table
+ASCENDED_REMORT_REQ     50     25      25	0	0 	0	0 0
+ASCENDED_REMORT_REQ 	53     50      50 	0	0	0 	0 0
+ASCENDED_REMORT_REQ 	55    100     100	0	0	0	0 0
+ASCENDED_REMORT_REQ 	55    150     150       0	0	0 	0 0
+ASCENDED_REMORT_REQ 	56    225     225	0	0	0 	0 0
+ASCENDED_REMORT_REQ 	60    300     300       0	0	0 	0 0 
+ASCENDED_REMORT_REQ 	65    400     400	0	0	0	0 0
+ASCENDED_REMORT_REQ     75    500     500       0	0	0	0 0
+ASCENDED_REMORT_REQ 	91 	9000  9000	2000	2000	1000	0 0
+ASCENDED_REMORT_REQ 	75 	1000  1000	2500	2500	1000	0 0
+
+# Requirements for Ascension and Forsaking (Forsake has one less argument)
+# as in remorting if room is set to 0 then there is no need to be in a
+# room to forsake or ascend.
+#               Level  Remorts  CurrentWps  TotalWps  Room
+ASCENSION_REQ     56      8         200     1000        109
+FORSAKE_REQ       50      1        1000     1000      94661
+
+# Guilds have been redone to allow people to choose any of a set number...
+# then as they increase in remorts...they may choose more guilds....
+# The setup is as follows: 
+# <num remorts> <level> <gold> <warpoints> <killpoints> <item1?> <item2>
+
+
+GUILD_COST 	0 	0	20	0	0	0	0
+GUILD_COST 	0 	10	30	0	0	0	0
+GUILD_COST 	0 	15	40	0	0	0	0
+GUILD_COST 	0 	20	50      0	0	0	0
+GUILD_COST 	15 	0	0	0	0	0	0
+GUILD_COST 	15 	0	0	0	0	0	0
+GUILD_COST 	15 	0	0	0	0	0	0
+GUILD_COST 	15 	0	0	0	0	0	0
+	
+
+#This list is for getting augments (improvements)...just something 
+#to make characters more different again.
+#Format is same as guilds:
+# <num remorts> <level> <gold> <warpoints> <killpoints> <item1?> <item2>
+
+#Can players only augment when they remort
+AUGMENT_REMORT_ONLY NO
+
+AUGMENT_COST      1        56        0    150        0    0       0  
+AUGMENT_COST      2        56        0    300        0    0       0
+AUGMENT_COST      3        56        0    500        0    0       0
+AUGMENT_COST      4        56        0    750        0    0       0
+AUGMENT_COST      8        70      150   1000      500    0       0
+AUGMENT_COST      12       60      200    850      500    0       0   
+AUGMENT_COST      12       60      400    950      500    0       0
+AUGMENT_COST      12       65      500    1150     500    0       0
+AUGMENT_COST      12       65      500    1450     500    0       0
+AUGMENT_COST      12       65      500    1550     500    0       0
+AUGMENT_COST      12       65      500    2050     500    0       0
+AUGMENT_COST      12       75      500    3050     500    0       0
+
+
+
+
+
+# Tweak the below higher if you want people to get more practices per level.
+# Put it lower if you feel they are getting too many... please check out
+# how many it takes to practice up a skill/spell first...
+
+PERCENT_PRACTICES  100
+
+# remort info follows
+
+# If either of these are set to 0 then the only requirement to remort is
+# the level of the transform command for either ascended or non ascended
+# characters.
+# does the character have to be in a room to transform? 0 = any room.
+# if it is set to 0 then the remort costs command is suspended.
+TRANSFORM_IN_ROOM 112
+ASCTRANSFORM_IN_ROOM 112
+
+# does the character have to be in a specific room to remort..checks
+# warpoints and all that at this point....
+# Room Character has to be in to Remort 0 sets it to no Specific Room
+#Remort Number          1     2     3     4     5     6     7     8     9    10    11
+REMORT_IN_ROOM        110   110   110   110   110   110   110   110   110   110   110
+ASCEND_REMORT_IN_ROOM 110   110   110   110   110   110   110   110   109   109   109
+
+# Can a player remort multiple times?  0 = no remorting.
+# MAX_REMORT
+MAXIMUM_REMORTS         8
+
+# Level to Execute Transform Command
+REMORT_LEVEL            50
+
+#Nasty stuff we can do to people when they remort
+VAPORIZE_INVENTORY      NO
+VAPORIZE_ENTIRE_EQU     NO
+
+
+# Remort beams to this room.  0 = stays in 1 place.  1 = 99/evil 100/good
+BEAMS_TO_ROOM           1
+
+# All newbies start out as good alignment.
+ALL_NEWBIES_GOOD     YES 
+
+# All newbies choose which side they want at this level.
+# Set to 0 to not allow people to choose sides.
+LEVEL_TO_CHOOSE       10
+
+
+# The character must choose sides in this room! NO EXCEPTIONS
+# This must be nonzero to allow people to choose sides.
+CHOOSE_IN_ROOM 113
+
+
+
+
+# Never set weather effects or recall to on!!!  Don't set this.. newworld only!
+WEATHER_EFFECTS    YES
+
+
+
+# Cost to repair 1 damage point... Bad weapon, Medium weapon, Good weapon
+REPAIR_WEAPONS 50 40 30
+
+# Cost to repair 1 damage point... Only 1 cost...
+REPAIR_ARMORS  40
+
+# How much % off does Tinker guild get?
+TINKER_DISCOUNT  75
+
+# Resize... The cost of the item is divided by this number, and that amount
+# is charged when resizing an item.
+RESIZE_DIVISOR   5
+
+# Equip/unequip during combat
+EQUIP_IN_COMBAT         NO
+REMOVE_WHILE_FIGHTING   YES
+
+# Chance of 1 in <this number> to stand in a groundfight each time you try.
+GROUNDFIGHT_STAND  20
+
+# Gods' names in sacrifice.. limited to FIVE!  If you set any more, the mud
+# will crash.  If you want less than 5, use repeats.. like:
+# SACNAMES Joe Joe Joe Fred Fred
+SACNAMES Njal Kilith Sabelis Kilith Sabelis
+
+
+# Allow auto-auction?
+AUTO_AUCTION  YES
+
+# At what level can you see your actual stat numbers?
+LEVEL_TO_SEE_NUMERIC_STATS  1
+
+# Basic Game options below... please don't change these without Orin's
+# permission...
+
+PLAYER_PROMPT               YES
+EASIER_MOVE_STYLE           YES
+EVIL_CAN_CAST_SPELLS        YES
+ALLOW_WHERE                 YES
+
+
+# The below commands are general toggles and settings
+
+SCORE_WHILE_FIGHTING        YES
+SKILL_LOSS_ON_MOB_DEATH     NO
+SKILL_LOSS_ON_PK_DEATH      YES 
+SKILL_LOSS_AMOUNT           1
+ARENA_ON                    YES
+ARENA_GOOD_EVIL             NO
+REQUIRED_VALIDATION         NO
+MUD_EMAIL_ADDRESS          skate24_teen@yahoo.com
+
+# How high can you practice skills and spells from a practitioner?
+MAX_PRACTICE_SKILLS         65
+MAX_PRACTICE_SPELLS         65
+
+# 10 Objects newbies get... if not used, set to object 0.
+NEWBIE_OBJECT_1             39
+NEWBIE_OBJECT_2             37
+NEWBIE_OBJECT_3             36
+NEWBIE_OBJECT_4             30
+NEWBIE_OBJECT_5             207
+NEWBIE_OBJECT_6             260
+NEWBIE_OBJECT_7             37
+NEWBIE_OBJECT_8             202
+NEWBIE_OBJECT_9             90121
+NEWBIE_OBJECT_10            90127
+
+# Regen_hp <min>  <+ for resting>  <+ for sleeping>  -- Some extra is added,
+# depending on the char's constitution..
+REGEN_HP  5  10 15
+REGEN_MP  5  6  12
+
+# Regen_mana <base regen> <+ for meditation>
+REGEN_MANA  3  9
+
+TACKLE_WITH_WEAPON          YES
+TACKLE_PERSON_WITH_WEAPON   YES
+
+ALLOW_REROLLS   YES
+FLURRY_MPS      15
+
+PRAC_LEVEL -1000 -1  (unlearned)
+PRAC_LEVEL 0      0  (barely-learned)
+PRAC_LEVEL 1      4  (beginner)
+PRAC_LEVEL 5      9  (very-poor)
+PRAC_LEVEL 10    14  (novice)
+PRAC_LEVEL 15    24  (moderate)
+PRAC_LEVEL 25    33  (decent)
+PRAC_LEVEL 34    47  (skilled)
+PRAC_LEVEL 48    58  (adept)
+PRAC_LEVEL 59    70  (gifted)
+PRAC_LEVEL 71    82  (superb)
+PRAC_LEVEL 83    90  (mastered)
+PRAC_LEVEL 91    99  (perfect)
+PRAC_LEVEL 100 1000  (GODLY)
+
+
+# How high do you need to have a skill to count it as a prerequisite?
+PREREQ_LEVEL   55
+
+
+# 30 values... for 1-30 intelligence.  Prac percent increase depending on
+# your int.  For skills, it's this value-1.
+#                              1 2 3 4 5  6 7 8 9 10  11 12 13 14 15  16 17 18 19 20  21 22 23 24 25  26 27 28 29 30  31 32 33 34 35 36
+PRAC_INCREASE_FOR_INTELLIGENCE 1 1 2 2 3  3 3 4 5  5   6  6  7  7  8   9 10 10 11 11  12 12 12 13 13  13 14 14 14 15  15 16 17 17 18 19 
+
+
+# Practices you get depending on your wisdom.  Must be 30 values below.
+#	      1 2 3 4 5  6 7 8 9 10 11 12 13 14 15  16 17 18 19 20  21 22 23 24 25  26 27 28 29 30  31 32 33 34 35 36
+PRACS_FOR_WIS 1 2 2 3 3  4 4 4 5  5  5  6  6  6  7   7  7  8  8  9  10 10 11 11 11  12 13 13 14 14  15 16 17 17 18 19
+
+
+# Hit point bonus you get depending on your constitution.
+#             1 2 3 4 5   6 7 8 9 10  11 12 13 14 15  16 17 18 19 20  21 22 23 24 25  26 27 28 29 30  31 32 33 34 35 36
+HPS_FOR_CON   4 4 5 5 5   6 6 6 7  7   7  8  8  8  9   9  9 10 10 10  11 11 12 12 13  13 14 14 15 15  16 17 18 19 20 20
+
+# You can magnify practices per level or shrink them with this percent.
+PERCENT_PRACTICES  80
+
+# The amount of experience a mob has... tune with care.
+#MOB_EXP (((((l+2)*(l+2)*1000)-(l*l*1000))/39)+(((l-5)z0m1)*p*5)+(l*l*2))
+
+
+# Armor levels for the 'armor' command...
+ARMOR_LEV -50  5  Your completely naked!
+ARMOR_LEV 6 11    Your wearing a small cloth.
+ARMOR_LEV 12 16   Barely-Protected
+ARMOR_LEV 17 22   Thinly-Protected
+ARMOR_LEV 23 28   Moderately-Protected
+ARMOR_LEV 29 35   Well-Protected
+ARMOR_LEV 36 43   Extremely Well Protected
+ARMOR_LEV 44 49   Incredibly Protected
+ARMOR_LEV 50 59   Unbelievably Protected
+ARMOR_LEV 60 64   Completely Protected
+ARMOR_LEV 65 69   Impenetrably Protected
+ARMOR_LEV 70 74   God-Like Armor
+ARMOR_LEV 75 9999 What keeb did you kill for this stuff!?
+
+# Does a player get restored when they level?
+RESTORE_WHEN_LEVEL YES
+
+SHOW_RACE_SELECT_INFO YES 
+
+MORTS_USE_COLOR_CHAT NO
+
+
+END
+

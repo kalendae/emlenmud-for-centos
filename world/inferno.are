@@ -1,0 +1,508 @@
+#AREADATA 
+Name Nuke this Area~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Flatline~
+VNUMs 32000 32999
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#32000
+Name charon~
+Short Charon~
+Long 
+Charon, the driver of the boat of the dead stands here.
+~
+AMax 8
+ActBits 2
+ActBits4 1
+Level 500
+MobType 11
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#32000
+Name ship dead~
+Short the ship of the dead~
+Descr
+The ship of the dead floats in the water here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 32022 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#32001
+Name ship dead~
+Short the ship of the dead~
+Descr
+The ship of the dead floats in the water here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 32026 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#32000
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 0 0 0 32001 0 0
+~
+~
+Door 1 0 0 32016 0 0
+~
+~
+Door 3 0 0 32006 0 0
+~
+~
+End
+
+#32001
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 0 0 0 32003 0 0
+~
+~
+Door 1 0 0 32017 0 0
+~
+~
+Door 2 0 0 32000 0 0
+~
+~
+Door 3 0 0 32007 0 0
+~
+~
+End
+
+#32003
+Name Gates of Hell~
+Descr
+~
+Sector 27
+Door 0 0 0 32004 0 0
+~
+~
+Door 2 0 0 32001 0 0
+~
+~
+Door 3 0 0 32008 0 0
+~
+~
+End
+
+#32004
+Name Bank of the River Acheron~
+Descr
+~
+Sector 10
+Reset O 32000 -5 100
+Door 0 0 0 32005 0 0
+~
+~
+Door 1 0 0 32021 0 0
+~
+~
+Door 2 0 0 32003 0 0
+~
+~
+Door 3 0 0 32009 0 0
+~
+~
+End
+
+#32005
+Name River Acheron~
+Descr
+~
+Sector 11
+Door 0 0 0 32019 0 0
+~
+~
+Door 2 0 0 32004 0 0
+~
+~
+Door 3 0 0 32011 0 0
+~
+~
+End
+
+#32006
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 0 0 0 32007 0 0
+~
+~
+Door 1 0 0 32000 0 0
+~
+~
+Door 3 0 0 32012 0 0
+~
+~
+End
+
+#32007
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 0 0 0 32008 0 0
+~
+~
+Door 1 0 0 32001 0 0
+~
+~
+Door 2 0 0 32006 0 0
+~
+~
+Door 3 0 0 32018 0 0
+~
+~
+End
+
+#32008
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 0 0 0 32009 0 0
+~
+~
+Door 1 0 0 32003 0 0
+~
+~
+Door 2 0 0 32007 0 0
+~
+~
+End
+
+#32009
+Name Bank of the River Acheron~
+Descr
+~
+Sector 10
+Door 0 0 0 32011 0 0
+~
+~
+Door 1 0 0 32004 0 0
+~
+~
+Door 2 0 0 32008 0 0
+~
+~
+Door 3 0 0 32010 0 0
+~
+~
+End
+
+#32010
+Name River Acheron~
+Descr
+~
+Sector 11
+Door 1 0 0 32009 0 0
+~
+~
+End
+
+#32011
+Name River Acheron~
+Descr
+~
+Sector 11
+Door 1 0 0 32005 0 0
+~
+~
+Door 2 0 0 32009 0 0
+~
+~
+End
+
+#32012
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 0 0 0 32018 0 0
+~
+~
+Door 1 0 0 32006 0 0
+~
+~
+Door 3 0 0 32013 0 0
+~
+~
+End
+
+#32013
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 0 0 0 32014 0 0
+~
+~
+Door 1 0 0 32012 0 0
+~
+~
+Door 3 0 0 32015 0 0
+~
+~
+End
+
+#32014
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 1 0 0 32018 0 0
+~
+~
+Door 2 0 0 32013 0 0
+~
+~
+End
+
+#32015
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 1 0 0 32013 0 0
+~
+~
+End
+
+#32016
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 0 0 0 32017 0 0
+~
+~
+Door 3 0 0 32000 0 0
+~
+~
+End
+
+#32017
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 2 0 0 32016 0 0
+~
+~
+Door 3 0 0 32001 0 0
+~
+~
+End
+
+#32018
+Name Some Dark Woods~
+Descr
+~
+Sector 27
+Door 1 0 0 32007 0 0
+~
+~
+Door 2 0 0 32012 0 0
+~
+~
+Door 3 0 0 32014 0 0
+~
+~
+End
+
+#32019
+Name River Acheron~
+Descr
+~
+Sector 11
+Door 0 0 0 32020 0 0
+~
+~
+Door 2 0 0 32005 0 0
+~
+~
+End
+
+#32020
+Name Far Bank of the River Acheron~
+Descr
+~
+Sector 10
+Reset O 32001 -5 100
+Door 0 0 0 32030 0 0
+~
+~
+Door 2 0 0 32019 0 0
+~
+~
+End
+
+#32021
+Name River Acheron~
+Descr
+~
+Sector 11
+Door 3 0 0 32004 0 0
+~
+~
+End
+
+#32022
+Name The Ship of the Dead~
+Descr
+~
+Flags2 8
+Flags 4
+Sector 0
+Reset M 32000 1 100
+Door 0 259 0 32023 30 30
+~
+~
+Door 2 0 0 32004 0 0
+~
+~
+End
+
+#32023
+Name The Ship of the Dead~
+Descr
+~
+Flags2 8
+Flags 4
+Sector 0
+Reset M 32000 1 100
+Door 0 259 0 32024 30 30
+~
+~
+End
+
+#32024
+Name The Ship of the Dead~
+Descr
+~
+Flags2 8
+Flags 4
+Sector 0
+Reset M 32000 1 100
+Door 0 259 0 32025 30 30
+~
+~
+End
+
+#32025
+Name The Ship of the Dead~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 32000 1 100
+Door 0 0 0 32020 0 0
+~
+~
+End
+
+#32026
+Name The Ship of the Dead~
+Descr
+~
+Flags2 8
+Flags 4
+Sector 0
+Reset M 32000 1 100
+Move_dir 2
+Movemess
+The ship rocks gently as it traverses the River Acheron.
+~
+Door 0 0 0 32020 0 0
+~
+~
+Door 2 259 0 32027 30 30
+~
+~
+End
+
+#32027
+Name The Ship of the Dead~
+Descr
+~
+Flags2 8
+Flags 4
+Sector 0
+Reset M 32000 1 100
+Move_dir 2
+Door 2 259 0 32028 30 30
+~
+~
+End
+
+#32028
+Name The Ship of the Dead~
+Descr
+~
+Flags2 8
+Flags 4
+Sector 0
+Reset M 32000 1 100
+Move_dir 2
+Door 2 259 0 32029 30 30
+~
+~
+End
+
+#32029
+Name The Ship of the Dead~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 32000 1 100
+Door 2 0 0 32004 0 0
+~
+~
+End
+
+#32030
+Name Limbo~
+Descr
+~
+Sector 7
+Door 2 0 0 32020 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

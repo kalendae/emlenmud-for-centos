@@ -1,0 +1,8609 @@
+#AREADATA 
+Name Forged Equipment~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Flatline~
+VNUMs 90000 90999
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#90715
+Name firestone gauntlet hand 2apb apb~
+Short a thin [31mf[1mi[0m[31mr[1me[0m[31ms[1mt[0m[31mo[1mn[0m[31me[1m [0m[36me[1mngrave[0m[36md[0m gauntlets~
+Descr
+(none)~
+Type 9
+Extra 33554432
+Wear 129
+Values 0 0 0 5 0 0 0 0 0 0 0
+Weight 9
+Cost 9000
+Affect 18 10 1 0 0
+Affect 13 10 1 0 0
+Affect 19 2 1 0 0
+End
+
+#90000
+Name copper breastplate sturdy ~
+Short a sturdy [31mc[33mo[31m[1mpp[0m[33me[31mr[0m breastplate~
+DMat 1
+Descr
+A sturdy copper breastplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 1 0 0 0 0 17 17 0 1 0
+Weight 6
+Cost 16
+End
+
+#90001
+Name copper helmet heavy ~
+Short a heavy [31mc[33mo[31m[1mpp[0m[33me[31mr[0m helmet~
+DMat 1
+Descr
+A heavy copper helmet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 1 0 0 0 17 17 0 1 0
+Weight 4
+Cost 10
+End
+
+#90002
+Name copper greaves dirty ~
+Short a dirty [31mc[33mo[31m[1mpp[0m[33me[31mr[0m greaves~
+DMat 1
+Descr
+A dirty copper greaves lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 2 0 0 0 0 0 17 17 0 1 0
+Weight 4
+Cost 10
+End
+
+#90003
+Name copper boots dusty ~
+Short a dusty [31mc[33mo[31m[1mpp[0m[33me[31mr[0m boots~
+DMat 1
+Descr
+A dusty copper boots lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 1 0 0 0 0 0 17 17 0 1 0
+Weight 4
+Cost 10
+End
+
+#90004
+Name copper gauntlets thin ~
+Short a thin [31mc[33mo[31m[1mpp[0m[33me[31mr[0m gauntlets~
+DMat 1
+Descr
+A thin copper gauntlets is here.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 1 0 0 17 17 0 1 0
+Weight 3
+Cost 8
+End
+
+#90005
+Name copper armplates thick ~
+Short a thick [31mc[33mo[31m[1mpp[0m[33me[31mr[0m armplates~
+DMat 1
+Descr
+A thick copper armplates has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 1 0 0 17 17 0 1 0
+Weight 4
+Cost 10
+End
+
+#90006
+Name copper belt flimsy ~
+Short a flimsy [31mc[33mo[31m[1mpp[0m[33me[31mr[0m belt~
+DMat 1
+Descr
+A flimsy copper belt has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 1 0 0 0 0 17 17 0 1 0
+Weight 2
+Cost 7
+End
+
+#90007
+Name copper shield solid ~
+Short a solid [31mc[33mo[31m[1mpp[0m[33me[31mr[0m shield~
+DMat 1
+Descr
+A solid copper shield has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 0 1 1 1 0 0 17 17 0 1 0
+Weight 5
+Cost 12
+End
+
+#90008
+Name copper mask slitted ~
+Short a slitted [31mc[33mo[31m[1mpp[0m[33me[31mr[0m mask~
+DMat 1
+Descr
+A slitted copper mask has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 1 0 0 0 17 17 0 1 0
+Weight 2
+Cost 7
+End
+
+#90009
+Name copper earring dangling ~
+Short a dangling [31mc[33mo[31m[1mpp[0m[33me[31mr[0m earring~
+DMat 1
+Descr
+A dangling copper earring has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 1 0 0 0 17 17 0 1 0
+Weight 2
+Cost 5
+End
+
+#90010
+Name copper bracelet sparkling ~
+Short a sparkling [31mc[33mo[31m[1mpp[0m[33me[31mr[0m bracelet~
+DMat 1
+Descr
+A sparkling copper bracelet is here.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 1 0 0 17 17 0 1 0
+Weight 2
+Cost 5
+End
+
+#90011
+Name copper anklet spiked ~
+Short a spiked [31mc[33mo[31m[1mpp[0m[33me[31mr[0m anklet~
+DMat 1
+Descr
+A spiked copper anklet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 1 0 0 0 0 0 17 17 0 1 0
+Weight 2
+Cost 5
+End
+
+#90012
+Name copper ring carved ~
+Short a carved [31mc[33mo[31m[1mpp[0m[33me[31mr[0m ring~
+DMat 1
+Descr
+A carved copper ring has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 1 0 0 17 17 0 1 0
+Weight 2
+Cost 5
+End
+
+#90013
+Name copper necklace flowing ~
+Short a flowing [31mc[33mo[31m[1mpp[0m[33me[31mr[0m necklace~
+DMat 1
+Descr
+A flowing copper necklace is here.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 1 0 0 0 0 17 17 0 1 0
+Weight 2
+Cost 5
+End
+
+#90014
+Name copper shoulderplate layered ~
+Short a layered [31mc[33mo[31m[1mpp[0m[33me[31mr[0m shoulderplate~
+DMat 1
+Descr
+A layered copper shoulderplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 1 0 0 0 0 17 17 0 1 0
+Weight 2
+Cost 5
+End
+
+#90015
+Name copper kneepad reinforced ~
+Short a reinforced [31mc[33mo[31m[1mpp[0m[33me[31mr[0m kneepad~
+DMat 1
+Descr
+A reinforced copper kneepad is here.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 1 0 0 0 0 0 17 17 0 1 0
+Weight 2
+Cost 5
+End
+
+#90016
+Name copper elbowpad protective ~
+Short a protective [31mc[33mo[31m[1mpp[0m[33me[31mr[0m elbowpad~
+DMat 1
+Descr
+A protective copper elbowpad has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 1 0 0 17 17 0 1 0
+Weight 2
+Cost 5
+End
+
+#90017
+Name copper hammer weighty ~
+Short a weighty [31mc[33mo[31m[1mpp[0m[33me[31mr[0m hammer~
+DMat 1
+Descr
+A weighty copper hammer is here.
+~
+Type 27
+Maxinroom 10
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 50000
+End
+
+#90018
+Name copper anvil huge ~
+Short a huge [31mc[33mo[31m[1mpp[0m[33me[31mr[0m anvil~
+DMat 1
+Descr
+A huge copper anvil lies here gathering dust.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 20
+Cost 50000
+End
+
+#90019
+Name copper chunk rough ~
+Short a rough [31mc[33mo[31m[1mpp[0m[33me[31mr[0m chunk~
+DMat 1
+Descr
+A rough copper chunk lies here gathering dust.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 1000
+End
+
+#90020
+Name copper needle sharp ~
+Short a sharp [31mc[33mo[31m[1mpp[0m[33me[31mr[0m needle~
+DMat 1
+Descr
+A sharp copper needle has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 5
+End
+
+#90021
+Name copper mortar small ~
+Short a small [31mc[33mo[31m[1mpp[0m[33me[31mr[0m mortar~
+DMat 1
+Descr
+A small copper mortar has been left here.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 5
+End
+
+#90022
+Name copper pestle knobbed ~
+Short a knobbed [31mc[33mo[31m[1mpp[0m[33me[31mr[0m pestle~
+DMat 1
+Descr
+A knobbed copper pestle has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 6
+End
+
+#90023
+Name copper flail razor-edged ~
+Short a razor-edged [31mc[33mo[31m[1mpp[0m[33me[31mr[0m flail~
+DMat 1
+Descr
+A razor-edged copper flail lies here gathering dust.
+~
+Type 5
+Extra 1048576
+Maxinroom 0
+Wear 16385
+Values 0 17 0 4 0 0 0 1 5 0 0
+Weight 5
+Cost 12
+Affect 18 3 1 0 0
+End
+
+#90024
+Name copper dagger wicked ~
+Short a wicked [31mc[33mo[31m[1mpp[0m[33me[31mr[0m dagger~
+DMat 1
+Descr
+A wicked copper dagger has been left here.
+~
+Type 5
+Extra 131072
+Maxinroom 0
+Wear 24577
+Values 0 17 0 11 0 0 0 1 3 0 0
+Weight 4
+Cost 10
+Affect 18 2 1 0 0
+End
+
+#90025
+Name copper sword serrated ~
+Short a serrated [31mc[33mo[31m[1mpp[0m[33me[31mr[0m sword~
+DMat 1
+Descr
+A serrated copper sword has been left here.
+~
+Type 5
+Extra 262144
+Maxinroom 0
+Wear 16385
+Values 0 17 0 3 0 0 0 3 1 0 0
+Weight 6
+Cost 16
+Affect 18 1 1 0 0
+End
+
+#90026
+Name copper axe gigantic ~
+Short a gigantic [31mc[33mo[31m[1mpp[0m[33me[31mr[0m axe~
+DMat 1
+Descr
+A gigantic copper axe lies here gathering dust.
+~
+Type 5
+Extra 2097152
+Maxinroom 0
+Wear 16385
+Values 0 17 0 12 0 0 0 1 3 0 0
+Weight 10
+Cost 25
+End
+
+#90027
+Name copper halberd spiked ~
+Short a spiked [31mc[33mo[31m[1mpp[0m[33me[31mr[0m halberd~
+DMat 1
+Descr
+A spiked copper halberd has been left here.
+~
+Type 5
+Extra 67108864
+Maxinroom 0
+Wear 16385
+Values 0 17 0 15 0 0 0 1 3 0 0
+Weight 10
+Cost 25
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#90028
+Name copper club lead-shod ~
+Short a lead-shod [31mc[33mo[31m[1mpp[0m[33me[31mr[0m club~
+DMat 1
+Descr
+A lead-shod copper club lies here gathering dust.
+~
+Type 5
+Extra 524288
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 0 0 0 2 2 0 0
+Weight 6
+Cost 16
+Affect 19 2 1 0 0
+Affect 18 -2 1 0 0
+End
+
+#90029
+Name copper shortbow light ~
+Short a light [31mc[33mo[31m[1mpp[0m[33me[31mr[0m shortbow~
+DMat 1
+Descr
+A light copper shortbow is here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 1 0 0 1 3 0 0
+Weight 2
+Cost 7
+End
+
+#90030
+Name copper crossbow heavy ~
+Short a heavy [31mc[33mo[31m[1mpp[0m[33me[31mr[0m crossbow~
+DMat 1
+Descr
+A heavy copper crossbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 2 0 0 1 3 0 0
+Weight 4
+Cost 10
+End
+
+#90031
+Name copper longbow huge ~
+Short a huge [31mc[33mo[31m[1mpp[0m[33me[31mr[0m longbow~
+DMat 1
+Descr
+A huge copper longbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 3 0 0 1 3 0 0
+Weight 5
+Cost 12
+End
+
+#90032
+Name copper arrow short ~
+Short a short [31mc[33mo[31m[1mpp[0m[33me[31mr[0m arrow~
+DMat 1
+Descr
+A short copper arrow is here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 3 0 0 1 0 0 0 0 0 0
+Weight 0
+Cost 1
+End
+
+#90033
+Name copper bolt crossbow ~
+Short a crossbow [31mc[33mo[31m[1mpp[0m[33me[31mr[0m bolt~
+DMat 1
+Descr
+A crossbow copper bolt is here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 3 0 0 2 0 0 0 0 0 0
+Weight 0
+Cost 1
+End
+
+#90034
+Name copper shaft clothyard ~
+Short a clothyard [31mc[33mo[31m[1mpp[0m[33me[31mr[0m shaft~
+DMat 1
+Descr
+A clothyard copper shaft lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 3 0 0 3 0 0 0 0 0 0
+Weight 0
+Cost 1
+End
+
+#90040
+Name tin breastplate sturdy ~
+Short a sturdy tin breastplate~
+DMat 2
+Descr
+A sturdy tin breastplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 1 0 0 0 0 15 15 0 1 0
+Weight 3
+Cost 16
+End
+
+#90041
+Name tin helmet heavy ~
+Short a heavy tin helmet~
+DMat 2
+Descr
+A heavy tin helmet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 1 0 0 0 15 15 0 1 0
+Weight 2
+Cost 10
+End
+
+#90042
+Name tin greaves dirty ~
+Short a dirty tin greaves~
+DMat 2
+Descr
+A dirty tin greaves is here.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 1 0 0 0 0 0 15 15 0 1 0
+Weight 2
+Cost 10
+End
+
+#90043
+Name tin boots dusty ~
+Short a dusty tin boots~
+DMat 2
+Descr
+A dusty tin boots lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 1 0 0 0 0 0 15 15 0 1 0
+Weight 2
+Cost 10
+End
+
+#90044
+Name tin gauntlets thin ~
+Short a thin tin gauntlets~
+DMat 2
+Descr
+A thin tin gauntlets lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 1 0 0 15 15 0 1 0
+Weight 1
+Cost 8
+End
+
+#90045
+Name tin armplates thick ~
+Short a thick tin armplates~
+DMat 2
+Descr
+A thick tin armplates has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 1 0 0 15 15 0 1 0
+Weight 2
+Cost 10
+End
+
+#90046
+Name tin belt flimsy ~
+Short a flimsy tin belt~
+DMat 2
+Descr
+A flimsy tin belt has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 1 0 0 0 0 15 15 0 1 0
+Weight 1
+Cost 7
+End
+
+#90047
+Name tin shield solid ~
+Short a solid tin shield~
+DMat 2
+Descr
+A solid tin shield is here.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 1 1 1 1 0 0 15 15 0 1 0
+Weight 2
+Cost 12
+End
+
+#90048
+Name tin mask slitted ~
+Short a slitted tin mask~
+DMat 2
+Descr
+A slitted tin mask is here.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 1 0 0 0 15 15 0 1 0
+Weight 1
+Cost 7
+End
+
+#90049
+Name tin earring dangling ~
+Short a dangling tin earring~
+DMat 2
+Descr
+A dangling tin earring is here.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 1 0 0 0 15 15 0 1 0
+Weight 1
+Cost 5
+End
+
+#90050
+Name tin bracelet sparkling ~
+Short a sparkling tin bracelet~
+DMat 2
+Descr
+A sparkling tin bracelet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 1 0 0 15 15 0 1 0
+Weight 1
+Cost 5
+End
+
+#90051
+Name tin anklet spiked ~
+Short a spiked tin anklet~
+DMat 2
+Descr
+A spiked tin anklet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 1 0 0 0 0 0 15 15 0 1 0
+Weight 1
+Cost 5
+End
+
+#90052
+Name tin ring carved ~
+Short a carved tin ring~
+DMat 2
+Descr
+A carved tin ring lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 1 0 0 15 15 0 1 0
+Weight 1
+Cost 5
+End
+
+#90053
+Name tin necklace flowing ~
+Short a flowing tin necklace~
+DMat 2
+Descr
+A flowing tin necklace is here.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 1 0 0 0 0 15 15 0 1 0
+Weight 1
+Cost 5
+End
+
+#90054
+Name tin shoulderplate layered ~
+Short a layered tin shoulderplate~
+DMat 2
+Descr
+A layered tin shoulderplate has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 1 0 0 0 0 15 15 0 1 0
+Weight 1
+Cost 5
+End
+
+#90055
+Name tin kneepad reinforced ~
+Short a reinforced tin kneepad~
+DMat 2
+Descr
+A reinforced tin kneepad is here.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 1 0 0 0 0 0 15 15 0 1 0
+Weight 1
+Cost 5
+End
+
+#90056
+Name tin elbowpad protective ~
+Short a protective tin elbowpad~
+DMat 2
+Descr
+A protective tin elbowpad lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 1 0 0 15 15 0 1 0
+Weight 1
+Cost 5
+End
+
+#90057
+Name tin hammer weighty ~
+Short a weighty tin hammer~
+DMat 2
+Descr
+A weighty tin hammer is here.
+~
+Type 27
+Maxinroom 10
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 5
+Cost 100
+End
+
+#90058
+Name tin anvil huge ~
+Short a huge tin anvil~
+DMat 2
+Descr
+A huge tin anvil is here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 50
+End
+
+#90059
+Name tin chunk rough ~
+Short a rough [1m[37mt[0m[37min [0mchunk[0m~
+DMat 2
+Descr
+A rough tin chunk has been left here.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 2 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 1100
+End
+
+#90060
+Name tin needle sharp ~
+Short a sharp tin needle~
+DMat 2
+Descr
+A sharp tin needle lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 5
+End
+
+#90061
+Name tin mortar small ~
+Short a small tin mortar~
+DMat 2
+Descr
+A small tin mortar lies here gathering dust.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 5
+End
+
+#90062
+Name tin pestle knobbed ~
+Short a knobbed tin pestle~
+DMat 2
+Descr
+A knobbed tin pestle is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 6
+End
+
+#90063
+Name tin flail razor-edged ~
+Short a razor-edged tin flail~
+DMat 2
+Descr
+A razor-edged tin flail lies here gathering dust.
+~
+Type 5
+Extra 1048576
+Maxinroom 0
+Wear 16385
+Values 0 15 0 4 0 0 0 2 3 0 0
+Weight 2
+Cost 12
+Affect 18 3 1 0 0
+End
+
+#90064
+Name tin dagger wicked ~
+Short a wicked tin dagger~
+DMat 2
+Descr
+A wicked tin dagger is here.
+~
+Type 5
+Extra 131072
+Maxinroom 0
+Wear 24577
+Values 0 15 0 11 0 0 0 1 4 0 0
+Weight 2
+Cost 10
+Affect 18 2 1 0 0
+End
+
+#90065
+Name tin sword serrated ~
+Short a serrated tin sword~
+DMat 2
+Descr
+A serrated tin sword is here.
+~
+Type 5
+Extra 262144
+Maxinroom 0
+Wear 16385
+Values 0 15 0 3 0 0 0 1 6 0 0
+Weight 3
+Cost 16
+Affect 18 1 1 0 0
+End
+
+#90066
+Name tin axe gigantic ~
+Short a gigantic tin axe~
+DMat 2
+Descr
+A gigantic tin axe has been left here.
+~
+Type 5
+Extra 2097152
+Maxinroom 0
+Wear 16385
+Values 0 15 0 12 0 0 0 2 2 0 0
+Weight 5
+Cost 25
+End
+
+#90067
+Name tin halberd spiked ~
+Short a spiked tin halberd~
+DMat 2
+Descr
+A spiked tin halberd is here.
+~
+Type 5
+Extra 67108864
+Maxinroom 0
+Wear 16385
+Values 0 15 0 15 0 0 0 2 2 0 0
+Weight 5
+Cost 25
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#90068
+Name tin club lead-shod ~
+Short a lead-shod tin club~
+DMat 2
+Descr
+A lead-shod tin club is here.
+~
+Type 5
+Extra 524288
+Maxinroom 0
+Wear 16385
+Values 0 15 0 7 0 0 0 4 1 0 0
+Weight 3
+Cost 16
+Affect 19 2 1 0 0
+Affect 18 -2 1 0 0
+End
+
+#90069
+Name tin shortbow light ~
+Short a light tin shortbow~
+DMat 2
+Descr
+A light tin shortbow lies here gathering dust.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 15 0 7 1 0 0 1 3 0 0
+Weight 1
+Cost 7
+End
+
+#90070
+Name tin crossbow heavy ~
+Short a heavy tin crossbow~
+DMat 2
+Descr
+A heavy tin crossbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 15 0 7 2 0 0 1 3 0 0
+Weight 2
+Cost 10
+End
+
+#90071
+Name tin longbow huge ~
+Short a huge tin longbow~
+DMat 2
+Descr
+A huge tin longbow lies here gathering dust.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 15 0 7 3 0 0 1 3 0 0
+Weight 2
+Cost 12
+End
+
+#90072
+Name tin arrow short ~
+Short a short tin arrow~
+DMat 2
+Descr
+A short tin arrow lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 3 0 0 1 0 0 0 0 0 0
+Weight 0
+Cost 1
+End
+
+#90073
+Name tin bolt crossbow ~
+Short a crossbow tin bolt~
+DMat 2
+Descr
+A crossbow tin bolt has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 3 0 0 2 0 0 0 0 0 0
+Weight 0
+Cost 1
+End
+
+#90074
+Name tin shaft clothyard ~
+Short a clothyard tin shaft~
+DMat 2
+Descr
+A clothyard tin shaft has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 3 0 0 3 0 0 0 0 0 0
+Weight 0
+Cost 1
+End
+
+#90080
+Name aluminum breastplate sturdy ~
+Short a sturdy a[1ml[0mumin[1mu[0mm breastplate~
+DMat 3
+Descr
+A sturdy aluminum breastplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 2 0 0 0 0 17 17 0 1 0
+Weight 3
+Cost 20
+End
+
+#90081
+Name aluminum helmet heavy ~
+Short a heavy a[1ml[0mumin[1mu[0mm helmet~
+DMat 3
+Descr
+A heavy aluminum helmet is here.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 1 0 0 0 17 17 0 1 0
+Weight 20
+Cost 12
+End
+
+#90082
+Name aluminum greaves dirty ~
+Short a dirty a[1ml[0mumin[1mu[0mm greaves~
+DMat 3
+Descr
+A dirty aluminum greaves lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 1 0 0 0 0 0 17 17 0 1 0
+Weight 2
+Cost 12
+End
+
+#90083
+Name aluminum boots dusty ~
+Short a dusty a[1ml[0mumin[1mu[0mm boots~
+DMat 3
+Descr
+A dusty aluminum boots is here.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 1 0 0 0 0 0 17 17 0 1 0
+Weight 2
+Cost 12
+End
+
+#90084
+Name aluminum gauntlets thin ~
+Short a thin a[1ml[0mumin[1mu[0mm gauntlets~
+DMat 3
+Descr
+A thin aluminum gauntlets is here.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 1 0 0 17 17 0 1 0
+Weight 1
+Cost 10
+End
+
+#90085
+Name aluminum armplates thick ~
+Short a thick a[1ml[0mumin[1mu[0mm armplates~
+DMat 3
+Descr
+A thick aluminum armplates is here.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 2 0 0 17 17 0 1 0
+Weight 2
+Cost 12
+End
+
+#90086
+Name aluminum belt flimsy ~
+Short a flimsy a[1ml[0mumin[1mu[0mm belt~
+DMat 3
+Descr
+A flimsy aluminum belt is here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 1 0 0 0 0 17 17 0 1 0
+Weight 1
+Cost 8
+End
+
+#90087
+Name aluminum shield solid ~
+Short a solid a[1ml[0mumin[1mu[0mm shield~
+DMat 3
+Descr
+A solid aluminum shield lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 1 1 1 1 0 0 17 17 0 1 0
+Weight 2
+Cost 15
+End
+
+#90088
+Name aluminum mask slitted ~
+Short a slitted a[1ml[0mumin[1mu[0mm mask~
+DMat 3
+Descr
+A slitted aluminum mask lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 1 0 0 0 17 17 0 1 0
+Weight 1
+Cost 8
+End
+
+#90089
+Name aluminum earring dangling ~
+Short a dangling a[1ml[0mumin[1mu[0mm earring~
+DMat 3
+Descr
+A dangling aluminum earring is here.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 1 0 0 0 17 17 0 1 0
+Weight 1
+Cost 6
+End
+
+#90090
+Name aluminum bracelet sparkling ~
+Short a sparkling a[1ml[0mumin[1mu[0mm bracelet~
+DMat 3
+Descr
+A sparkling aluminum bracelet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 1 0 0 17 17 0 1 0
+Weight 1
+Cost 6
+End
+
+#90091
+Name aluminum anklet spiked ~
+Short a spiked a[1ml[0mumin[1mu[0mm anklet~
+DMat 3
+Descr
+A spiked aluminum anklet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 1 0 0 0 0 0 17 17 0 1 0
+Weight 1
+Cost 6
+End
+
+#90092
+Name aluminum ring carved ~
+Short a carved a[1ml[0mumin[1mu[0mm ring~
+DMat 3
+Descr
+A carved aluminum ring lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 1 0 0 17 17 0 1 0
+Weight 1
+Cost 6
+End
+
+#90093
+Name aluminum necklace flowing ~
+Short a flowing a[1ml[0mumin[1mu[0mm necklace~
+DMat 3
+Descr
+A flowing aluminum necklace lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 1 0 0 0 0 17 17 0 1 0
+Weight 1
+Cost 6
+End
+
+#90094
+Name aluminum shoulderplate layered ~
+Short a layered a[1ml[0mumin[1mu[0mm shoulderplate~
+DMat 3
+Descr
+A layered aluminum shoulderplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 1 0 0 0 0 17 17 0 1 0
+Weight 1
+Cost 6
+End
+
+#90095
+Name aluminum kneepad reinforced ~
+Short a reinforced a[1ml[0mumin[1mu[0mm kneepad~
+DMat 3
+Descr
+A reinforced aluminum kneepad is here.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 1 0 0 0 0 0 17 17 0 1 0
+Weight 1
+Cost 6
+End
+
+#90096
+Name aluminum elbowpad protective ~
+Short a protective a[1ml[0mumin[1mu[0mm elbowpad~
+DMat 3
+Descr
+A protective aluminum elbowpad lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 1 0 0 17 17 0 1 0
+Weight 1
+Cost 6
+End
+
+#90097
+Name aluminum hammer weighty ~
+Short a weighty a[1ml[0mumin[1mu[0mm hammer~
+DMat 3
+Descr
+A weighty aluminum hammer is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 5
+Cost 100
+End
+
+#90098
+Name aluminum anvil huge ~
+Short a huge a[1ml[0mumin[1mu[0mm anvil~
+DMat 3
+Descr
+A huge aluminum anvil lies here gathering dust.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 60
+End
+
+#90099
+Name aluminum chunk rough ~
+Short a rough a[1ml[0mumin[1mu[0mm chunk~
+DMat 3
+Descr
+A rough aluminum chunk lies here gathering dust.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 1200
+End
+
+#90100
+Name aluminum needle sharp ~
+Short a sharp a[1ml[0mumin[1mu[0mm needle~
+DMat 3
+Descr
+A sharp aluminum needle is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 6
+End
+
+#90101
+Name aluminum mortar small ~
+Short a small a[1ml[0mumin[1mu[0mm mortar~
+DMat 3
+Descr
+A small aluminum mortar is here.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 6
+End
+
+#90102
+Name aluminum pestle knobbed ~
+Short a knobbed a[1ml[0mumin[1mu[0mm pestle~
+DMat 3
+Descr
+A knobbed aluminum pestle lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 7
+End
+
+#90103
+Name aluminum flail razor-edged ~
+Short a razor-edged a[1ml[0mumin[1mu[0mm flail~
+DMat 3
+Descr
+A razor-edged aluminum flail has been left here.
+~
+Type 5
+Extra 1048576
+Maxinroom 0
+Wear 16385
+Values 0 17 0 4 0 0 0 1 8 0 0
+Weight 2
+Cost 15
+Affect 18 3 1 0 0
+End
+
+#90104
+Name aluminum dagger wicked ~
+Short a wicked a[1ml[0mumin[1mu[0mm dagger~
+DMat 3
+Descr
+A wicked aluminum dagger is here.
+~
+Type 5
+Extra 131072
+Maxinroom 0
+Wear 24577
+Values 0 17 0 11 0 0 0 1 5 0 0
+Weight 2
+Cost 12
+Affect 18 2 1 0 0
+End
+
+#90105
+Name aluminum sword serrated ~
+Short a serrated a[1ml[0mumin[1mu[0mm sword~
+DMat 3
+Descr
+A serrated aluminum sword lies here gathering dust.
+~
+Type 5
+Extra 262144
+Maxinroom 0
+Wear 16385
+Values 0 17 0 3 0 0 0 1 7 0 0
+Weight 3
+Cost 20
+Affect 18 1 1 0 0
+End
+
+#90106
+Name aluminum axe gigantic ~
+Short a gigantic a[1ml[0mumin[1mu[0mm axe~
+DMat 3
+Descr
+A gigantic aluminum axe is here.
+~
+Type 5
+Extra 2097152
+Maxinroom 0
+Wear 16385
+Values 0 17 0 12 0 0 0 4 1 0 0
+Weight 5
+Cost 30
+End
+
+#90107
+Name aluminum halberd spiked ~
+Short a spiked a[1ml[0mumin[1mu[0mm halberd~
+DMat 3
+Descr
+A spiked aluminum halberd has been left here.
+~
+Type 5
+Extra 67108864
+Maxinroom 0
+Wear 16385
+Values 0 17 0 15 0 0 0 4 1 0 0
+Weight 5
+Cost 30
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#90108
+Name aluminum club lead-shod ~
+Short a lead-shod a[1ml[0mumin[1mu[0mm club~
+DMat 3
+Descr
+A lead-shod aluminum club lies here gathering dust.
+~
+Type 5
+Extra 524288
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 0 0 0 3 2 0 0
+Weight 3
+Cost 20
+Affect 19 2 1 0 0
+Affect 18 -2 1 0 0
+End
+
+#90109
+Name aluminum shortbow light ~
+Short a light a[1ml[0mumin[1mu[0mm shortbow~
+DMat 3
+Descr
+A light aluminum shortbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 1 0 0 1 3 0 0
+Weight 1
+Cost 8
+End
+
+#90110
+Name aluminum crossbow heavy ~
+Short a heavy a[1ml[0mumin[1mu[0mm crossbow~
+DMat 3
+Descr
+A heavy aluminum crossbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 2 0 0 1 3 0 0
+Weight 2
+Cost 12
+End
+
+#90111
+Name aluminum longbow huge ~
+Short a huge a[1ml[0mumin[1mu[0mm longbow~
+DMat 3
+Descr
+A huge aluminum longbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 3 0 0 1 3 0 0
+Weight 2
+Cost 15
+End
+
+#90112
+Name aluminum arrow short ~
+Short a short a[1ml[0mumin[1mu[0mm arrow~
+DMat 3
+Descr
+A short aluminum arrow has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 3 0 0 1 0 0 0 0 0 0
+Weight 0
+Cost 1
+End
+
+#90113
+Name aluminum bolt crossbow ~
+Short a crossbow a[1ml[0mumin[1mu[0mm bolt~
+DMat 3
+Descr
+A crossbow aluminum bolt lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 3 0 0 2 0 0 0 0 0 0
+Weight 0
+Cost 1
+End
+
+#90114
+Name aluminum shaft clothyard ~
+Short a clothyard a[1ml[0mumin[1mu[0mm shaft~
+DMat 3
+Descr
+A clothyard aluminum shaft has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 3 0 0 3 0 0 0 0 0 0
+Weight 0
+Cost 2
+End
+
+#90120
+Name iron breastplate sturdy ~
+Short a sturdy [1m[30miron[0m breastplate~
+DMat 4
+Descr
+A sturdy iron breastplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 2 0 0 0 0 20 20 0 1 0
+Weight 66
+Cost 400
+End
+
+#90121
+Name iron helmet heavy ~
+Short a heavy [1m[30miron[0m helmet~
+DMat 4
+Descr
+A heavy iron helmet is here.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 2 0 0 0 20 20 0 1 0
+Weight 40
+Cost 240
+End
+
+#90122
+Name iron greaves dirty ~
+Short a dirty [1m[30miron[0m greaves~
+DMat 4
+Descr
+A dirty iron greaves lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 2 0 0 0 0 0 20 20 0 1 0
+Weight 40
+Cost 240
+Affect 22 1 1 0 0
+End
+
+#90123
+Name iron boots dusty ~
+Short a dusty [1m[30miron[0m boots~
+DMat 4
+Descr
+A dusty iron boots has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 2 0 0 0 0 0 20 20 0 1 0
+Weight 40
+Cost 240
+Affect 22 1 1 0 0
+End
+
+#90124
+Name iron gauntlets thin ~
+Short a thin [1m[30miron[0m gauntlets~
+DMat 4
+Descr
+A thin iron gauntlets is here.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 2 0 0 20 20 0 1 0
+Weight 33
+Cost 200
+End
+
+#90125
+Name iron armplates thick ~
+Short a thick [1m[30miron[0m armplates~
+DMat 4
+Descr
+A thick iron armplates has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 2 0 0 20 20 0 1 0
+Weight 40
+Cost 240
+End
+
+#90126
+Name iron belt flimsy ~
+Short a flimsy [1m[30miron[0m belt~
+DMat 4
+Descr
+A flimsy iron belt lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 2 0 0 0 0 20 20 0 1 0
+Weight 28
+Cost 171
+End
+
+#90127
+Name iron shield solid ~
+Short a solid [1m[30miron[0m shield~
+DMat 4
+Descr
+A solid iron shield has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 1 1 1 1 0 0 20 20 0 1 0
+Weight 50
+Cost 300
+End
+
+#90128
+Name iron mask slitted ~
+Short a slitted [1m[30miron[0m mask~
+DMat 4
+Descr
+A slitted iron mask has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 2 0 0 0 20 20 0 1 0
+Weight 28
+Cost 171
+End
+
+#90129
+Name iron earring dangling ~
+Short a dangling [1m[30miron[0m earring~
+DMat 4
+Descr
+A dangling iron earring lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 2 0 0 0 20 20 0 1 0
+Weight 22
+Cost 133
+End
+
+#90130
+Name iron bracelet sparkling ~
+Short a sparkling [1m[30miron[0m bracelet~
+DMat 4
+Descr
+A sparkling iron bracelet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 2 0 0 20 20 0 1 0
+Weight 22
+Cost 133
+End
+
+#90131
+Name iron anklet spiked ~
+Short a spiked [1m[30miron[0m anklet~
+DMat 4
+Descr
+A spiked iron anklet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 2 0 0 0 0 0 20 20 0 1 0
+Weight 22
+Cost 133
+End
+
+#90132
+Name iron ring carved ~
+Short a carved [1m[30miron[0m ring~
+DMat 4
+Descr
+A carved iron ring is here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 2 0 0 20 20 0 1 0
+Weight 22
+Cost 133
+End
+
+#90133
+Name iron necklace flowing ~
+Short a flowing [1m[30miron[0m necklace~
+DMat 4
+Descr
+A flowing iron necklace is here.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 2 0 0 0 0 20 20 0 1 0
+Weight 22
+Cost 133
+End
+
+#90134
+Name iron shoulderplate layered ~
+Short a layered [1m[30miron[0m shoulderplate~
+DMat 4
+Descr
+A layered iron shoulderplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 2 0 0 0 0 20 20 0 1 0
+Weight 22
+Cost 133
+End
+
+#90135
+Name iron kneepad reinforced ~
+Short a reinforced [1m[30miron[0m kneepad~
+DMat 4
+Descr
+A reinforced iron kneepad is here.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 2 0 0 0 0 0 20 20 0 1 0
+Weight 22
+Cost 133
+End
+
+#90136
+Name iron elbowpad protective ~
+Short a protective [1m[30miron[0m elbowpad~
+DMat 4
+Descr
+A protective iron elbowpad is here.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 2 0 0 20 20 0 1 0
+Weight 22
+Cost 133
+End
+
+#90137
+Name iron hammer weighty ~
+Short a weighty [1m[30miron[0m hammer~
+DMat 4
+Descr
+A weighty iron hammer is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 75
+Cost 600
+End
+
+#90138
+Name iron anvil huge ~
+Short a huge [1m[30miron[0m anvil~
+DMat 4
+Descr
+A huge iron anvil has been left here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 200
+Cost 1200
+End
+
+#90139
+Name iron chunk rough ~
+Short a rough [1m[30miron[0m chunk~
+DMat 4
+Descr
+A rough iron chunk is here.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 4 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 1400
+End
+
+#90140
+Name iron needle sharp ~
+Short a sharp [1m[30miron[0m needle~
+DMat 4
+Descr
+A sharp iron needle is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 22
+Cost 133
+End
+
+#90141
+Name iron mortar small ~
+Short a small [1m[30miron[0m mortar~
+DMat 4
+Descr
+A small iron mortar is here.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 20
+Cost 120
+End
+
+#90142
+Name iron pestle knobbed ~
+Short a knobbed [1m[30miron[0m pestle~
+DMat 4
+Descr
+A knobbed iron pestle is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 25
+Cost 150
+End
+
+#90143
+Name iron flail razor-edged ~
+Short a razor-edged [1m[30miron[0m flail~
+DMat 4
+Descr
+A razor-edged iron flail is here.
+~
+Type 5
+Extra 1048576
+Maxinroom 0
+Wear 16385
+Values 0 20 0 4 0 0 0 1 9 0 0
+Weight 50
+Cost 300
+Affect 18 3 1 0 0
+End
+
+#90144
+Name iron dagger wicked ~
+Short a wicked [1m[30miron[0m dagger~
+DMat 4
+Descr
+A wicked iron dagger is here.
+~
+Type 5
+Extra 131072
+Maxinroom 0
+Wear 24577
+Values 0 20 0 11 0 0 0 2 3 0 0
+Weight 40
+Cost 240
+Affect 18 2 1 0 0
+End
+
+#90145
+Name iron sword serrated ~
+Short a serrated [1m[30miron[0m sword~
+DMat 4
+Descr
+A serrated iron sword lies here gathering dust.
+~
+Type 5
+Extra 262144
+Maxinroom 0
+Wear 16385
+Values 0 20 0 3 0 0 0 5 1 0 0
+Weight 66
+Cost 400
+Affect 18 1 1 0 0
+End
+
+#90146
+Name iron axe gigantic ~
+Short a gigantic [1m[30miron[0m axe~
+DMat 4
+Descr
+A gigantic iron axe has been left here.
+~
+Type 5
+Extra 2097152
+Maxinroom 0
+Wear 16385
+Values 0 20 0 12 0 0 0 3 2 0 0
+Weight 100
+Cost 600
+End
+
+#90147
+Name iron halberd spiked ~
+Short a spiked [1m[30miron[0m halberd~
+DMat 4
+Descr
+A spiked iron halberd has been left here.
+~
+Type 5
+Extra 67108864
+Maxinroom 0
+Wear 16385
+Values 0 20 0 15 0 0 0 3 2 0 0
+Weight 100
+Cost 600
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#90148
+Name iron club lead-shod ~
+Short a lead-shod [1m[30miron[0m club~
+DMat 4
+Descr
+A lead-shod iron club is here.
+~
+Type 5
+Extra 524288
+Maxinroom 0
+Wear 16385
+Values 0 20 0 7 0 0 0 2 4 0 0
+Weight 66
+Cost 400
+Affect 19 2 1 0 0
+Affect 18 -2 1 0 0
+End
+
+#90149
+Name iron shortbow light ~
+Short a light [1m[30miron[0m shortbow~
+DMat 4
+Descr
+A light iron shortbow lies here gathering dust.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 20 0 7 1 0 0 1 3 0 0
+Weight 28
+Cost 171
+End
+
+#90150
+Name iron crossbow heavy ~
+Short a heavy [1m[30miron[0m crossbow~
+DMat 4
+Descr
+A heavy iron crossbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 20 0 7 2 0 0 1 4 0 0
+Weight 40
+Cost 240
+End
+
+#90151
+Name iron longbow huge ~
+Short a huge [1m[30miron[0m longbow~
+DMat 4
+Descr
+A huge iron longbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 20 0 7 3 0 0 3 1 0 0
+Weight 50
+Cost 300
+End
+
+#90152
+Name iron arrow short ~
+Short a short [1m[30miron[0m arrow~
+DMat 4
+Descr
+A short iron arrow is here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 3 0 0 1 0 0 0 0 0 0
+Weight 5
+Cost 30
+End
+
+#90153
+Name iron bolt crossbow ~
+Short a crossbow [1m[30miron[0m bolt~
+DMat 4
+Descr
+A crossbow iron bolt is here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 4 0 0 2 0 0 0 0 0 0
+Weight 5
+Cost 34
+End
+
+#90154
+Name iron shaft clothyard ~
+Short a clothyard [1m[30miron[0m shaft~
+DMat 4
+Descr
+A clothyard iron shaft has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 2 2 0 0 3 0 0 0 0 0 0
+Weight 6
+Cost 40
+End
+
+#90160
+Name steel breastplate sturdy ~
+Short a sturdy [1ms[0mt[1me[0me[1ml[0m breastplate~
+DMat 5
+Descr
+A sturdy steel breastplate has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 3 0 0 0 0 27 27 0 2 0
+Weight 50
+Cost 666
+End
+
+#90161
+Name steel helmet heavy ~
+Short a heavy [1ms[0mt[1me[0me[1ml[0m helmet~
+DMat 5
+Descr
+A heavy steel helmet is here.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 3 0 0 0 27 27 0 2 0
+Weight 30
+Cost 400
+End
+
+#90162
+Name steel greaves dirty ~
+Short a dirty [1ms[0mt[1me[0me[1ml[0m greaves~
+DMat 5
+Descr
+A dirty steel greaves lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 3 0 0 0 0 0 27 27 0 2 0
+Weight 30
+Cost 400
+Affect 22 1 1 0 0
+End
+
+#90163
+Name steel boots dusty ~
+Short a dusty [1ms[0mt[1me[0me[1ml[0m boots~
+DMat 5
+Descr
+A dusty steel boots lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 3 0 0 0 0 0 27 27 0 2 0
+Weight 30
+Cost 400
+End
+
+#90164
+Name steel gauntlets thin ~
+Short a thin [1ms[0mt[1me[0me[1ml[0m gauntlets~
+DMat 5
+Descr
+A thin steel gauntlets is here.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 3 0 0 27 27 0 2 0
+Weight 25
+Cost 333
+End
+
+#90165
+Name steel armplates thick ~
+Short a thick [1ms[0mt[1me[0me[1ml[0m armplates~
+DMat 5
+Descr
+A thick steel armplates has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 3 0 0 27 27 0 2 0
+Weight 30
+Cost 400
+End
+
+#90166
+Name steel belt flimsy ~
+Short a flimsy [1ms[0mt[1me[0me[1ml[0m belt~
+DMat 5
+Descr
+A flimsy steel belt has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 3 0 0 0 0 27 27 0 2 0
+Weight 21
+Cost 285
+End
+
+#90167
+Name steel shield solid ~
+Short a solid [1ms[0mt[1me[0me[1ml[0m shield~
+DMat 5
+Descr
+A solid steel shield lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 1 2 2 1 0 0 27 27 0 2 0
+Weight 37
+Cost 500
+End
+
+#90168
+Name steel mask slitted ~
+Short a slitted [1ms[0mt[1me[0me[1ml[0m mask~
+DMat 5
+Descr
+A slitted steel mask lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 3 0 0 0 27 27 0 2 0
+Weight 21
+Cost 285
+End
+
+#90169
+Name steel earring dangling ~
+Short a dangling [1ms[0mt[1me[0me[1ml[0m earring~
+DMat 5
+Descr
+A dangling steel earring lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 3 0 0 0 27 27 0 2 0
+Weight 16
+Cost 222
+End
+
+#90170
+Name steel bracelet sparkling ~
+Short a sparkling [1ms[0mt[1me[0me[1ml[0m bracelet~
+DMat 5
+Descr
+A sparkling steel bracelet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 3 0 0 27 27 0 2 0
+Weight 16
+Cost 222
+End
+
+#90171
+Name steel anklet spiked ~
+Short a spiked [1ms[0mt[1me[0me[1ml[0m anklet~
+DMat 5
+Descr
+A spiked steel anklet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 3 0 0 0 0 0 27 27 0 2 0
+Weight 16
+Cost 222
+End
+
+#90172
+Name steel ring carved ~
+Short a carved [1ms[0mt[1me[0me[1ml[0m ring~
+DMat 5
+Descr
+A carved steel ring is here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 3 0 0 27 27 0 2 0
+Weight 16
+Cost 222
+End
+
+#90173
+Name steel necklace flowing ~
+Short a flowing [1ms[0mt[1me[0me[1ml[0m necklace~
+DMat 5
+Descr
+A flowing steel necklace is here.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 3 0 0 0 0 27 27 0 2 0
+Weight 16
+Cost 222
+End
+
+#90174
+Name steel shoulderplate layered ~
+Short a layered [1ms[0mt[1me[0me[1ml[0m shoulderplate~
+DMat 5
+Descr
+A layered steel shoulderplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 3 0 0 0 0 27 27 0 2 0
+Weight 16
+Cost 222
+End
+
+#90175
+Name steel kneepad reinforced ~
+Short a reinforced [1ms[0mt[1me[0me[1ml[0m kneepad~
+DMat 5
+Descr
+A reinforced steel kneepad is here.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 3 0 0 0 0 0 27 27 0 2 0
+Weight 16
+Cost 222
+End
+
+#90176
+Name steel elbowpad protective ~
+Short a protective [1ms[0mt[1me[0me[1ml[0m elbowpad~
+DMat 5
+Descr
+A protective steel elbowpad has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 3 0 0 27 27 0 2 0
+Weight 16
+Cost 222
+End
+
+#90177
+Name steel hammer weighty ~
+Short a weighty [1ms[0mt[1me[0me[1ml[0m hammer~
+DMat 5
+Descr
+A weighty steel hammer has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 75
+Cost 1000
+End
+
+#90178
+Name steel anvil huge ~
+Short a huge [1ms[0mt[1me[0me[1ml[0m anvil~
+DMat 5
+Descr
+A huge steel anvil lies here gathering dust.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 150
+Cost 2000
+End
+
+#90179
+Name steel chunk rough ~
+Short a rough [1ms[0mt[1me[0me[1ml[0m chunk~
+DMat 5
+Descr
+A rough steel chunk has been left here.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 1500
+End
+
+#90180
+Name steel needle sharp ~
+Short a sharp [1ms[0mt[1me[0me[1ml[0m needle~
+DMat 5
+Descr
+A sharp steel needle lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 16
+Cost 222
+End
+
+#90181
+Name steel mortar small ~
+Short a small [1ms[0mt[1me[0me[1ml[0m mortar~
+DMat 5
+Descr
+A small steel mortar is here.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 200
+End
+
+#90182
+Name steel pestle knobbed ~
+Short a knobbed [1ms[0mt[1me[0me[1ml[0m pestle~
+DMat 5
+Descr
+A knobbed steel pestle is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 18
+Cost 250
+End
+
+#90183
+Name steel flail razor-edged ~
+Short a razor-edged [1ms[0mt[1me[0me[1ml[0m flail~
+DMat 5
+Descr
+A razor-edged steel flail has been left here.
+~
+Type 5
+Extra 1048576
+Maxinroom 0
+Wear 16385
+Values 0 27 0 4 0 0 0 3 3 0 0
+Weight 37
+Cost 500
+Affect 18 3 1 0 0
+End
+
+#90184
+Name steel dagger wicked ~
+Short a wicked [1ms[0mt[1me[0me[1ml[0m dagger~
+DMat 5
+Descr
+A wicked steel dagger is here.
+~
+Type 5
+Extra 131072
+Maxinroom 0
+Wear 24577
+Values 0 27 0 11 0 0 0 1 8 0 0
+Weight 30
+Cost 400
+Affect 18 2 1 0 0
+End
+
+#90185
+Name steel sword serrated ~
+Short a serrated [1ms[0mt[1me[0me[1ml[0m sword~
+DMat 5
+Descr
+A serrated steel sword is here.
+~
+Type 5
+Extra 262144
+Maxinroom 0
+Wear 16385
+Values 0 27 0 3 0 0 0 1 10 0 0
+Weight 50
+Cost 666
+Affect 18 1 1 0 0
+End
+
+#90186
+Name steel axe gigantic ~
+Short a gigantic [1ms[0mt[1me[0me[1ml[0m axe~
+DMat 5
+Descr
+A gigantic steel axe is here.
+~
+Type 5
+Extra 2097152
+Maxinroom 0
+Wear 16385
+Values 0 27 0 12 0 0 0 2 4 0 0
+Weight 75
+Cost 1000
+End
+
+#90187
+Name steel halberd spiked ~
+Short a spiked [1ms[0mt[1me[0me[1ml[0m halberd~
+DMat 5
+Descr
+A spiked steel halberd has been left here.
+~
+Type 5
+Extra 67108864
+Maxinroom 0
+Wear 16385
+Values 0 27 0 15 0 0 0 2 4 0 0
+Weight 75
+Cost 1000
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#90188
+Name steel club lead-shod ~
+Short a lead-shod [1ms[0mt[1me[0me[1ml[0m club~
+DMat 5
+Descr
+A lead-shod steel club lies here gathering dust.
+~
+Type 5
+Extra 524288
+Maxinroom 0
+Wear 16385
+Values 0 27 0 7 0 0 0 6 1 0 0
+Weight 50
+Cost 666
+Affect 19 2 1 0 0
+Affect 18 -2 1 0 0
+End
+
+#90189
+Name steel shortbow light ~
+Short a light [1ms[0mt[1me[0me[1ml[0m shortbow~
+DMat 5
+Descr
+A light steel shortbow is here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 27 0 7 1 0 0 3 1 0 0
+Weight 21
+Cost 285
+End
+
+#90190
+Name steel crossbow heavy ~
+Short a heavy [1ms[0mt[1me[0me[1ml[0m crossbow~
+DMat 5
+Descr
+A heavy steel crossbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 27 0 7 2 0 0 1 5 0 0
+Weight 30
+Cost 400
+End
+
+#90191
+Name steel longbow huge ~
+Short a huge [1ms[0mt[1me[0me[1ml[0m longbow~
+DMat 5
+Descr
+A huge steel longbow is here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 27 0 7 3 0 0 1 6 0 0
+Weight 37
+Cost 500
+End
+
+#90192
+Name steel arrow short ~
+Short a short [1ms[0mt[1me[0me[1ml[0m arrow~
+DMat 5
+Descr
+A short steel arrow lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 3 1 0 0 1 0 0 0 0 0 0
+Weight 3
+Cost 50
+End
+
+#90193
+Name steel bolt crossbow ~
+Short a crossbow [1ms[0mt[1me[0me[1ml[0m bolt~
+DMat 5
+Descr
+A crossbow steel bolt has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 5 0 0 2 0 0 0 0 0 0
+Weight 4
+Cost 57
+End
+
+#90194
+Name steel shaft clothyard ~
+Short a clothyard [1ms[0mt[1me[0me[1ml[0m shaft~
+DMat 5
+Descr
+A clothyard steel shaft lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 4 1 0 0 3 0 0 0 0 0 0
+Weight 5
+Cost 66
+End
+
+#90200
+Name electrum breastplate sturdy ~
+Short a sturdy [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m breastplate~
+DMat 6
+Descr
+A sturdy electrum breastplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 3 0 0 0 0 17 17 0 2 0
+Weight 30
+Cost 1666
+End
+
+#90201
+Name electrum helmet heavy ~
+Short a heavy [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m helmet~
+DMat 6
+Descr
+A heavy electrum helmet is here.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 1 0 0 0 17 17 0 2 0
+Weight 20
+Cost 1000
+End
+
+#90202
+Name electrum greaves dirty ~
+Short a dirty [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m greaves~
+DMat 6
+Descr
+A dirty electrum greaves lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 2 0 0 0 0 0 17 17 0 2 0
+Weight 25
+Cost 1000
+End
+
+#90203
+Name electrum boots dusty ~
+Short a dusty [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m boots~
+DMat 6
+Descr
+A dusty electrum boots lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 1 0 0 0 0 0 17 17 0 2 0
+Weight 25
+Cost 1000
+End
+
+#90204
+Name electrum gauntlets thin ~
+Short a thin [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m gauntlets~
+DMat 6
+Descr
+A thin electrum gauntlets lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 1 0 0 17 17 0 2 0
+Weight 20
+Cost 833
+End
+
+#90205
+Name electrum armplates thick ~
+Short a thick [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m armplates~
+DMat 6
+Descr
+A thick electrum armplates has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 2 0 0 17 17 0 2 0
+Weight 22
+Cost 1000
+End
+
+#90206
+Name electrum belt flimsy ~
+Short a flimsy [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m belt~
+DMat 6
+Descr
+A flimsy electrum belt is here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 1 0 0 0 0 17 17 0 2 0
+Weight 19
+Cost 714
+End
+
+#90207
+Name electrum shield solid ~
+Short a solid [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m shield~
+DMat 6
+Descr
+A solid electrum shield is here.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 2 1 1 2 0 0 17 17 0 2 0
+Weight 32
+Cost 1250
+End
+
+#90208
+Name electrum mask slitted ~
+Short a slitted [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m mask~
+DMat 6
+Descr
+A slitted electrum mask has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 1 0 0 0 17 17 0 2 0
+Weight 18
+Cost 714
+End
+
+#90209
+Name electrum earring dangling ~
+Short a dangling [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m earring~
+DMat 6
+Descr
+A dangling electrum earring lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 1 0 0 0 17 17 0 2 0
+Weight 13
+Cost 555
+End
+
+#90210
+Name electrum bracelet sparkling ~
+Short a sparkling [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m bracelet~
+DMat 6
+Descr
+A sparkling electrum bracelet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 1 0 0 17 17 0 2 0
+Weight 13
+Cost 555
+End
+
+#90211
+Name electrum anklet spiked ~
+Short a spiked [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m anklet~
+DMat 6
+Descr
+A spiked electrum anklet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 1 0 0 0 0 0 17 17 0 2 0
+Weight 14
+Cost 555
+End
+
+#90212
+Name electrum ring carved ~
+Short a carved [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m ring~
+DMat 6
+Descr
+A carved electrum ring is here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 1 0 0 17 17 0 2 0
+Weight 14
+Cost 555
+End
+
+#90213
+Name electrum necklace flowing ~
+Short a flowing [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m necklace~
+DMat 6
+Descr
+A flowing electrum necklace is here.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 1 0 0 0 0 17 17 0 2 0
+Weight 14
+Cost 555
+End
+
+#90214
+Name electrum shoulderplate layered ~
+Short a layered [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m shoulderplate~
+DMat 6
+Descr
+A layered electrum shoulderplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 1 0 0 0 0 17 17 0 2 0
+Weight 15
+Cost 555
+End
+
+#90215
+Name electrum kneepad reinforced ~
+Short a reinforced [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m kneepad~
+DMat 6
+Descr
+A reinforced electrum kneepad has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 1 0 0 0 0 0 17 17 0 2 0
+Weight 13
+Cost 555
+End
+
+#90216
+Name electrum elbowpad protective ~
+Short a protective [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m elbowpad~
+DMat 6
+Descr
+A protective electrum elbowpad has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 1 0 0 17 17 0 2 0
+Weight 12
+Cost 555
+End
+
+#90217
+Name electrum hammer weighty ~
+Short a weighty [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m hammer~
+DMat 6
+Descr
+A weighty electrum hammer lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 95
+Cost 2500
+End
+
+#90218
+Name electrum anvil huge ~
+Short a huge [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m anvil~
+DMat 6
+Descr
+A huge electrum anvil is here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 150
+Cost 5000
+End
+
+#90219
+Name electrum chunk rough ~
+Short a rough [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m chunk~
+DMat 6
+Descr
+A rough electrum chunk has been left here.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 6 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 1600
+End
+
+#90220
+Name electrum needle sharp ~
+Short a sharp [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m needle~
+DMat 6
+Descr
+A sharp electrum needle has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 16
+Cost 555
+End
+
+#90221
+Name electrum mortar small ~
+Short a small [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m mortar~
+DMat 6
+Descr
+A small electrum mortar lies here gathering dust.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 500
+End
+
+#90222
+Name electrum pestle knobbed ~
+Short a knobbed [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m pestle~
+DMat 6
+Descr
+A knobbed electrum pestle is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 18
+Cost 625
+End
+
+#90223
+Name electrum flail razor-edged ~
+Short a razor-edged [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m flail~
+DMat 6
+Descr
+A razor-edged electrum flail lies here gathering dust.
+~
+Type 5
+Extra 1048576
+Maxinroom 0
+Wear 16385
+Values 0 17 0 4 0 0 0 1 12 0 0
+Weight 37
+Cost 1250
+Affect 18 3 1 0 0
+End
+
+#90224
+Name electrum dagger wicked ~
+Short a wicked [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m dagger~
+DMat 6
+Descr
+A wicked electrum dagger has been left here.
+~
+Type 5
+Extra 131072
+Maxinroom 0
+Wear 24577
+Values 0 17 0 11 0 0 0 1 9 0 0
+Weight 30
+Cost 1000
+Affect 18 2 1 0 0
+End
+
+#90225
+Name electrum sword serrated ~
+Short a serrated [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m sword~
+DMat 6
+Descr
+A serrated electrum sword is here.
+~
+Type 5
+Extra 262144
+Maxinroom 0
+Wear 16385
+Values 0 17 0 3 0 0 0 2 5 0 0
+Weight 50
+Cost 1666
+Affect 18 1 1 0 0
+End
+
+#90226
+Name electrum axe gigantic ~
+Short a gigantic [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m axe~
+DMat 6
+Descr
+A gigantic electrum axe lies here gathering dust.
+~
+Type 5
+Extra 2097152
+Maxinroom 0
+Wear 16385
+Values 0 17 0 12 0 0 0 6 1 0 0
+Weight 75
+Cost 2500
+End
+
+#90227
+Name electrum halberd spiked ~
+Short a spiked [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m halberd~
+DMat 6
+Descr
+A spiked electrum halberd is here.
+~
+Type 5
+Extra 67108864
+Maxinroom 0
+Wear 16385
+Values 0 17 0 15 0 0 0 6 1 0 0
+Weight 75
+Cost 2500
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#90228
+Name electrum club lead-shod ~
+Short a lead-shod [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m club~
+DMat 6
+Descr
+A lead-shod electrum club is here.
+~
+Type 5
+Extra 524288
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 0 0 0 1 11 0 0
+Weight 50
+Cost 1666
+Affect 19 2 1 0 0
+Affect 18 -2 1 0 0
+End
+
+#90229
+Name electrum shortbow light ~
+Short a light [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m shortbow~
+DMat 6
+Descr
+A light electrum shortbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 1 0 0 1 6 0 0
+Weight 21
+Cost 714
+End
+
+#90230
+Name electrum crossbow heavy ~
+Short a heavy [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m crossbow~
+DMat 6
+Descr
+A heavy electrum crossbow lies here gathering dust.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 2 0 0 2 3 0 0
+Weight 30
+Cost 1000
+End
+
+#90231
+Name electrum longbow huge ~
+Short a huge [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m longbow~
+DMat 6
+Descr
+A huge electrum longbow lies here gathering dust.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 3 0 0 1 7 0 0
+Weight 37
+Cost 1250
+End
+
+#90232
+Name electrum arrow short ~
+Short a short [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m arrow~
+DMat 6
+Descr
+A short electrum arrow has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 6 0 0 1 0 0 0 0 0 0
+Weight 3
+Cost 125
+End
+
+#90233
+Name electrum bolt crossbow ~
+Short a crossbow [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m bolt~
+DMat 6
+Descr
+A crossbow electrum bolt lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 2 3 0 0 2 0 0 0 0 0 0
+Weight 4
+Cost 142
+End
+
+#90234
+Name electrum shaft clothyard ~
+Short a clothyard [34me[1ml[37me[0mct[1mr[34mu[0m[34mm[0m shaft~
+DMat 6
+Descr
+A clothyard electrum shaft has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 3 2 0 0 3 0 0 0 0 0 0
+Weight 5
+Cost 166
+End
+
+#90240
+Name silver breastplate sturdy ~
+Short a sturdy [1msilver[0m breastplate~
+DMat 7
+Descr
+A sturdy silver breastplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 3 0 0 0 0 15 15 0 2 0
+Weight 25
+Cost 2000
+End
+
+#90241
+Name silver helmet heavy ~
+Short a heavy [1msilver[0m helmet~
+DMat 7
+Descr
+A heavy silver helmet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 1 0 0 0 15 15 0 2 0
+Weight 15
+Cost 1200
+End
+
+#90242
+Name silver greaves dirty ~
+Short a dirty [1msilver[0m greaves~
+DMat 7
+Descr
+A dirty silver greaves lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 2 0 0 0 0 0 15 15 0 2 0
+Weight 15
+Cost 1200
+End
+
+#90243
+Name silver boots dusty ~
+Short a dusty [1msilver[0m boots~
+DMat 7
+Descr
+A dusty silver boots is here.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 1 0 0 0 0 0 15 15 0 2 0
+Weight 15
+Cost 1200
+End
+
+#90244
+Name silver gauntlets thin ~
+Short a thin [1msilver[0m gauntlets~
+DMat 7
+Descr
+A thin silver gauntlets has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 1 0 0 15 15 0 2 0
+Weight 12
+Cost 1000
+End
+
+#90245
+Name silver armplates thick ~
+Short a thick [1msilver[0m armplates~
+DMat 7
+Descr
+A thick silver armplates lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 2 0 0 15 15 0 2 0
+Weight 15
+Cost 1200
+End
+
+#90246
+Name silver belt flimsy ~
+Short a flimsy [1msilver[0m belt~
+DMat 7
+Descr
+A flimsy silver belt lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 1 0 0 0 0 15 15 0 2 0
+Weight 10
+Cost 857
+End
+
+#90247
+Name silver shield solid ~
+Short a solid [1msilver[0m shield~
+DMat 7
+Descr
+A solid silver shield is here.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 1 1 1 1 0 0 15 15 0 2 0
+Weight 18
+Cost 1500
+End
+
+#90248
+Name silver mask slitted ~
+Short a slitted [1msilver[0m mask~
+DMat 7
+Descr
+A slitted silver mask lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 1 0 0 0 15 15 0 2 0
+Weight 10
+Cost 857
+End
+
+#90249
+Name silver earring dangling ~
+Short a dangling [1msilver[0m earring~
+DMat 7
+Descr
+A dangling silver earring lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 1 0 0 0 15 15 0 2 0
+Weight 8
+Cost 666
+End
+
+#90250
+Name silver bracelet sparkling ~
+Short a sparkling [1msilver[0m bracelet~
+DMat 7
+Descr
+A sparkling silver bracelet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 1 0 0 15 15 0 2 0
+Weight 8
+Cost 666
+End
+
+#90251
+Name silver anklet spiked ~
+Short a spiked [1msilver[0m anklet~
+DMat 7
+Descr
+A spiked silver anklet is here.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 1 0 0 0 0 0 15 15 0 2 0
+Weight 8
+Cost 666
+End
+
+#90252
+Name silver ring carved ~
+Short a carved [1msilver[0m ring~
+DMat 7
+Descr
+A carved silver ring is here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 1 0 0 15 15 0 2 0
+Weight 8
+Cost 666
+End
+
+#90253
+Name silver necklace flowing ~
+Short a flowing [1msilver[0m necklace~
+DMat 7
+Descr
+A flowing silver necklace lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 1 0 0 0 0 15 15 0 2 0
+Weight 8
+Cost 666
+End
+
+#90254
+Name silver shoulderplate layered ~
+Short a layered [1msilver[0m shoulderplate~
+DMat 7
+Descr
+A layered silver shoulderplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 1 0 0 0 0 15 15 0 2 0
+Weight 8
+Cost 666
+End
+
+#90255
+Name silver kneepad reinforced ~
+Short a reinforced [1msilver[0m kneepad~
+DMat 7
+Descr
+A reinforced silver kneepad lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 1 0 0 0 0 0 15 15 0 2 0
+Weight 8
+Cost 666
+End
+
+#90256
+Name silver elbowpad protective ~
+Short a protective [1msilver[0m elbowpad~
+DMat 7
+Descr
+A protective silver elbowpad is here.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 1 0 0 15 15 0 2 0
+Weight 8
+Cost 666
+End
+
+#90257
+Name silver hammer weighty ~
+Short a weighty [1msilver[0m hammer~
+DMat 7
+Descr
+A weighty silver hammer lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 75
+Cost 3000
+End
+
+#90258
+Name silver anvil huge ~
+Short a huge [1msilver[0m anvil~
+DMat 7
+Descr
+A huge silver anvil has been left here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 75
+Cost 6000
+End
+
+#90259
+Name silver chunk rough ~
+Short a rough [1msilver[0m chunk~
+DMat 7
+Descr
+A rough silver chunk is here.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 7 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 1700
+End
+
+#90260
+Name silver needle sharp ~
+Short a sharp [1msilver[0m needle~
+DMat 7
+Descr
+A sharp silver needle lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 8
+Cost 666
+End
+
+#90261
+Name silver mortar small ~
+Short a small [1msilver[0m mortar~
+DMat 7
+Descr
+A small silver mortar has been left here.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 7
+Cost 600
+End
+
+#90262
+Name silver pestle knobbed ~
+Short a knobbed [1msilver[0m pestle~
+DMat 7
+Descr
+A knobbed silver pestle lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 9
+Cost 750
+End
+
+#90263
+Name silver flail razor-edged ~
+Short a razor-edged [1msilver[0m flail~
+DMat 7
+Descr
+A razor-edged silver flail has been left here.
+~
+Type 5
+Extra 1048576
+Maxinroom 0
+Wear 16385
+Values 0 15 0 4 0 0 0 1 13 0 0
+Weight 18
+Cost 1500
+Affect 18 3 1 0 0
+End
+
+#90264
+Name silver dagger wicked ~
+Short a wicked [1msilver[0m dagger~
+DMat 7
+Descr
+A wicked silver dagger lies here gathering dust.
+~
+Type 5
+Extra 131072
+Maxinroom 0
+Wear 24577
+Values 0 15 0 11 0 0 0 3 3 0 0
+Weight 15
+Cost 1200
+Affect 18 2 1 0 0
+End
+
+#90265
+Name silver sword serrated ~
+Short a serrated [1msilver[0m sword~
+DMat 7
+Descr
+A serrated silver sword has been left here.
+~
+Type 5
+Extra 262144
+Maxinroom 0
+Wear 16385
+Values 0 15 0 3 0 0 0 7 1 0 0
+Weight 25
+Cost 2000
+Affect 18 1 1 0 0
+End
+
+#90266
+Name silver axe gigantic ~
+Short a gigantic [1msilver[0m axe~
+DMat 7
+Descr
+A gigantic silver axe has been left here.
+~
+Type 5
+Extra 2097152
+Maxinroom 0
+Wear 16385
+Values 0 15 0 12 0 0 0 1 11 0 0
+Weight 37
+Cost 3000
+End
+
+#90267
+Name silver halberd spiked ~
+Short a spiked [1msilver[0m halberd~
+DMat 7
+Descr
+A spiked silver halberd has been left here.
+~
+Type 5
+Extra 67108864
+Maxinroom 0
+Wear 16385
+Values 0 15 0 15 0 0 0 1 11 0 0
+Weight 37
+Cost 3000
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#90268
+Name silver club lead-shod ~
+Short a lead-shod [1msilver[0m club~
+DMat 7
+Descr
+A lead-shod silver club has been left here.
+~
+Type 5
+Extra 524288
+Maxinroom 0
+Wear 16385
+Values 0 15 0 7 0 0 0 2 6 0 0
+Weight 25
+Cost 2000
+Affect 19 2 1 0 0
+Affect 18 -2 1 0 0
+End
+
+#90269
+Name silver shortbow light ~
+Short a light [1msilver[0m shortbow~
+DMat 7
+Descr
+A light silver shortbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 15 0 7 1 0 0 1 7 0 0
+Weight 10
+Cost 857
+End
+
+#90270
+Name silver crossbow heavy ~
+Short a heavy [1msilver[0m crossbow~
+DMat 7
+Descr
+A heavy silver crossbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 15 0 7 2 0 0 1 8 0 0
+Weight 15
+Cost 1200
+End
+
+#90271
+Name silver longbow huge ~
+Short a huge [1msilver[0m longbow~
+DMat 7
+Descr
+A huge silver longbow lies here gathering dust.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 15 0 7 3 0 0 5 1 0 0
+Weight 18
+Cost 1500
+End
+
+#90272
+Name silver arrow short ~
+Short a short [1msilver[0m arrow~
+DMat 7
+Descr
+A short silver arrow has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 7 0 0 1 0 0 0 0 0 0
+Weight 1
+Cost 150
+End
+
+#90273
+Name silver bolt crossbow ~
+Short a crossbow [1msilver[0m bolt~
+DMat 7
+Descr
+A crossbow silver bolt has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 8 0 0 2 0 0 0 0 0 0
+Weight 2
+Cost 171
+End
+
+#90274
+Name silver shaft clothyard ~
+Short a clothyard [1msilver[0m shaft~
+DMat 7
+Descr
+A clothyard silver shaft lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 2 4 0 0 3 0 0 0 0 0 0
+Weight 2
+Cost 200
+End
+
+#90280
+Name gold breastplate sturdy ~
+Short a sturdy [1m[33mgold[0m breastplate~
+DMat 8
+Descr
+A sturdy gold breastplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 3 0 0 0 0 17 17 0 2 0
+Weight 66
+Cost 6666
+End
+
+#90281
+Name gold helmet heavy ~
+Short a heavy [1m[33mgold[0m helmet~
+DMat 8
+Descr
+A heavy gold helmet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 2 0 0 0 17 17 0 2 0
+Weight 40
+Cost 4000
+End
+
+#90282
+Name gold greaves dirty ~
+Short a dirty [1m[33mgold[0m greaves~
+DMat 8
+Descr
+A dirty gold greaves has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 2 0 0 0 0 0 17 17 0 2 0
+Weight 40
+Cost 4000
+End
+
+#90283
+Name gold boots dusty ~
+Short a dusty [1m[33mgold[0m boots~
+DMat 8
+Descr
+A dusty gold boots is here.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 1 0 0 0 0 0 17 17 0 2 0
+Weight 40
+Cost 4000
+End
+
+#90284
+Name gold gauntlets thin ~
+Short a thin [1m[33mgold[0m gauntlets~
+DMat 8
+Descr
+A thin gold gauntlets is here.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 1 0 0 17 17 0 2 0
+Weight 33
+Cost 3333
+End
+
+#90285
+Name gold armplates thick ~
+Short a thick [1m[33mgold[0m armplates~
+DMat 8
+Descr
+A thick gold armplates lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 2 0 0 17 17 0 2 0
+Weight 40
+Cost 4000
+End
+
+#90286
+Name gold belt flimsy ~
+Short a flimsy [1m[33mgold[0m belt~
+DMat 8
+Descr
+A flimsy gold belt has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 1 0 0 0 0 17 17 0 2 0
+Weight 28
+Cost 2857
+End
+
+#90287
+Name gold shield solid ~
+Short a solid [1m[33mgold[0m shield~
+DMat 8
+Descr
+A solid gold shield has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 1 2 1 2 0 0 17 17 0 2 0
+Weight 50
+Cost 5000
+End
+
+#90288
+Name gold mask slitted ~
+Short a slitted [1m[33mgold[0m mask~
+DMat 8
+Descr
+A slitted gold mask lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 1 0 0 0 17 17 0 2 0
+Weight 28
+Cost 2857
+End
+
+#90289
+Name gold earring dangling ~
+Short a dangling [1m[33mgold[0m earring~
+DMat 8
+Descr
+A dangling gold earring lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 1 0 0 0 17 17 0 2 0
+Weight 22
+Cost 2222
+End
+
+#90290
+Name gold bracelet sparkling ~
+Short a sparkling [1m[33mgold[0m bracelet~
+DMat 8
+Descr
+A sparkling gold bracelet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 1 0 0 17 17 0 2 0
+Weight 22
+Cost 2222
+End
+
+#90291
+Name gold anklet spiked ~
+Short a spiked [1m[33mgold[0m anklet~
+DMat 8
+Descr
+A spiked gold anklet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 1 0 0 0 0 0 17 17 0 2 0
+Weight 22
+Cost 2222
+End
+
+#90292
+Name gold ring carved ~
+Short a carved [1m[33mgold[0m ring~
+DMat 8
+Descr
+A carved gold ring has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 1 0 0 17 17 0 2 0
+Weight 22
+Cost 2222
+End
+
+#90293
+Name gold necklace flowing ~
+Short a flowing [1m[33mgold[0m necklace~
+DMat 8
+Descr
+A flowing gold necklace is here.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 1 0 0 0 0 17 17 0 2 0
+Weight 22
+Cost 2222
+End
+
+#90294
+Name gold shoulderplate layered ~
+Short a layered [1m[33mgold[0m shoulderplate~
+DMat 8
+Descr
+A layered gold shoulderplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 1 0 0 0 0 17 17 0 2 0
+Weight 22
+Cost 2222
+End
+
+#90295
+Name gold kneepad reinforced ~
+Short a reinforced [1m[33mgold[0m kneepad~
+DMat 8
+Descr
+A reinforced gold kneepad lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 1 0 0 0 0 0 17 17 0 2 0
+Weight 22
+Cost 2222
+End
+
+#90296
+Name gold elbowpad protective ~
+Short a protective [1m[33mgold[0m elbowpad~
+DMat 8
+Descr
+A protective gold elbowpad lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 1 0 0 17 17 0 2 0
+Weight 22
+Cost 2222
+End
+
+#90297
+Name gold hammer weighty ~
+Short a weighty [1m[33mgold[0m hammer~
+DMat 8
+Descr
+A weighty gold hammer has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 95
+Cost 10000
+End
+
+#90298
+Name gold anvil huge ~
+Short a huge [1m[33mgold[0m anvil~
+DMat 8
+Descr
+A huge gold anvil is here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 200
+Cost 20000
+End
+
+#90299
+Name gold chunk rough ~
+Short a rough [1m[33mgold[0m chunk~
+DMat 8
+Descr
+A rough gold chunk is here.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 1800
+End
+
+#90300
+Name gold needle sharp ~
+Short a sharp [1m[33mgold[0m needle~
+DMat 8
+Descr
+A sharp gold needle has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 22
+Cost 2222
+End
+
+#90301
+Name gold mortar small ~
+Short a small [1m[33mgold[0m mortar~
+DMat 8
+Descr
+A small gold mortar is here.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 20
+Cost 2000
+End
+
+#90302
+Name gold pestle knobbed ~
+Short a knobbed [1m[33mgold[0m pestle~
+DMat 8
+Descr
+A knobbed gold pestle has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 25
+Cost 2500
+End
+
+#90303
+Name gold flail razor-edged ~
+Short a razor-edged [1m[33mgold[0m flail~
+DMat 8
+Descr
+A razor-edged gold flail is here.
+~
+Type 5
+Extra 1048576
+Maxinroom 0
+Wear 16385
+Values 0 17 0 4 0 0 0 1 14 0 0
+Weight 50
+Cost 5000
+Affect 18 4 1 0 0
+End
+
+#90304
+Name gold dagger wicked ~
+Short a wicked [1m[33mgold[0m dagger~
+DMat 8
+Descr
+A wicked gold dagger lies here gathering dust.
+~
+Type 5
+Extra 131072
+Maxinroom 0
+Wear 24577
+Values 0 17 0 11 0 0 0 1 12 0 0
+Weight 40
+Cost 4000
+Affect 18 3 1 0 0
+End
+
+#90305
+Name gold sword serrated ~
+Short a serrated [1m[33mgold[0m sword~
+DMat 8
+Descr
+A serrated gold sword lies here gathering dust.
+~
+Type 5
+Extra 262144
+Maxinroom 0
+Wear 16385
+Values 0 17 0 3 0 0 0 5 2 0 0
+Weight 66
+Cost 6666
+Affect 18 2 1 0 0
+End
+
+#90306
+Name gold axe gigantic ~
+Short a gigantic [1m[33mgold[0m axe~
+DMat 8
+Descr
+A gigantic gold axe lies here gathering dust.
+~
+Type 5
+Extra 2097152
+Maxinroom 0
+Wear 16385
+Values 0 17 0 12 0 0 0 2 6 0 0
+Weight 100
+Cost 10000
+Affect 18 1 1 0 0
+End
+
+#90307
+Name gold halberd spiked ~
+Short a spiked [1m[33mgold[0m halberd~
+DMat 8
+Descr
+A spiked gold halberd is here.
+~
+Type 5
+Extra 67108864
+Maxinroom 0
+Wear 16385
+Values 0 17 0 15 0 0 0 2 6 0 0
+Weight 100
+Cost 10000
+Affect 19 2 1 0 0
+End
+
+#90308
+Name gold club lead-shod ~
+Short a lead-shod [1m[33mgold[0m club~
+DMat 8
+Descr
+A lead-shod gold club is here.
+~
+Type 5
+Extra 524288
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 0 0 0 3 4 0 0
+Weight 66
+Cost 6666
+Affect 19 3 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#90309
+Name gold shortbow light ~
+Short a light [1m[33mgold[0m shortbow~
+DMat 8
+Descr
+A light gold shortbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 1 0 0 5 1 0 0
+Weight 28
+Cost 2857
+End
+
+#90310
+Name gold crossbow heavy ~
+Short a heavy [1m[33mgold[0m crossbow~
+DMat 8
+Descr
+A heavy gold crossbow lies here gathering dust.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 2 0 0 1 9 0 0
+Weight 40
+Cost 4000
+End
+
+#90311
+Name gold longbow huge ~
+Short a huge [1m[33mgold[0m longbow~
+DMat 8
+Descr
+A huge gold longbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 3 0 0 1 10 0 0
+Weight 50
+Cost 5000
+End
+
+#90312
+Name gold arrow short ~
+Short a short [1m[33mgold[0m arrow~
+DMat 8
+Descr
+A short gold arrow is here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 5 1 0 0 1 0 0 0 0 0 0
+Weight 5
+Cost 500
+End
+
+#90313
+Name gold bolt crossbow ~
+Short a crossbow [1m[33mgold[0m bolt~
+DMat 8
+Descr
+A crossbow gold bolt has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 9 0 0 2 0 0 0 0 0 0
+Weight 5
+Cost 571
+End
+
+#90314
+Name gold shaft clothyard ~
+Short a clothyard [1m[33mgold[0m shaft~
+DMat 8
+Descr
+A clothyard gold shaft lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 6 1 0 0 3 0 0 0 0 0 0
+Weight 6
+Cost 666
+End
+
+#90320
+Name platinum breastplate sturdy ~
+Short a sturdy [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m breastplate~
+DMat 9
+Descr
+A sturdy platinum breastplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 3 0 0 0 0 17 17 0 3 0
+Weight 50
+Cost 10000
+Affect 18 1 1 0 0
+End
+
+#90321
+Name platinum helmet heavy ~
+Short a heavy [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m helmet~
+DMat 9
+Descr
+A heavy platinum helmet is here.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 1 0 0 0 17 17 0 3 0
+Weight 30
+Cost 6000
+Affect 18 1 1 0 0
+End
+
+#90322
+Name platinum greaves dirty ~
+Short a dirty [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m greaves~
+DMat 9
+Descr
+A dirty platinum greaves lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 2 0 0 0 0 0 17 17 0 3 0
+Weight 30
+Cost 6000
+Affect 18 1 1 0 0
+End
+
+#90323
+Name platinum boots dusty ~
+Short a dusty [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m boots~
+DMat 9
+Descr
+A dusty platinum boots is here.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 1 0 0 0 0 0 17 17 0 3 0
+Weight 30
+Cost 6000
+Affect 18 1 1 0 0
+End
+
+#90324
+Name platinum gauntlets thin ~
+Short a thin [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m gauntlets~
+DMat 9
+Descr
+A thin platinum gauntlets lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 1 0 0 17 17 0 3 0
+Weight 25
+Cost 5000
+Affect 18 1 1 0 0
+End
+
+#90325
+Name platinum armplates thick ~
+Short a thick [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m armplates~
+DMat 9
+Descr
+A thick platinum armplates has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 2 0 0 17 17 0 3 0
+Weight 30
+Cost 6000
+Affect 18 1 1 0 0
+End
+
+#90326
+Name platinum belt flimsy ~
+Short a flimsy [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m belt~
+DMat 9
+Descr
+A flimsy platinum belt is here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 1 0 0 0 0 17 17 0 3 0
+Weight 21
+Cost 4285
+Affect 18 1 1 0 0
+End
+
+#90327
+Name platinum shield solid ~
+Short a solid [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m shield~
+DMat 9
+Descr
+A solid platinum shield is here.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 2 2 2 1 0 0 17 17 0 3 0
+Weight 37
+Cost 7500
+Affect 18 1 1 0 0
+End
+
+#90328
+Name platinum mask slitted ~
+Short a slitted [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m mask~
+DMat 9
+Descr
+A slitted platinum mask is here.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 1 0 0 0 17 17 0 3 0
+Weight 21
+Cost 4285
+Affect 18 1 1 0 0
+End
+
+#90329
+Name platinum earring dangling ~
+Short a dangling [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m earring~
+DMat 9
+Descr
+A dangling platinum earring is here.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 1 0 0 0 17 17 0 3 0
+Weight 16
+Cost 3333
+Affect 18 1 1 0 0
+End
+
+#90330
+Name platinum bracelet sparkling ~
+Short a sparkling [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m bracelet~
+DMat 9
+Descr
+A sparkling platinum bracelet is here.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 1 0 0 17 17 0 3 0
+Weight 16
+Cost 3333
+Affect 18 1 1 0 0
+End
+
+#90331
+Name platinum anklet spiked ~
+Short a spiked [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m anklet~
+DMat 9
+Descr
+A spiked platinum anklet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 1 0 0 0 0 0 17 17 0 3 0
+Weight 16
+Cost 3333
+Affect 18 1 1 0 0
+End
+
+#90332
+Name platinum ring carved ~
+Short a carved [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m ring~
+DMat 9
+Descr
+A carved platinum ring has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 1 0 0 17 17 0 3 0
+Weight 16
+Cost 3333
+Affect 18 1 1 0 0
+End
+
+#90333
+Name platinum necklace flowing ~
+Short a flowing [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m necklace~
+DMat 9
+Descr
+A flowing platinum necklace has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 1 0 0 0 0 17 17 0 3 0
+Weight 16
+Cost 3333
+Affect 18 1 1 0 0
+End
+
+#90334
+Name platinum shoulderplate layered ~
+Short a layered [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m shoulderplate~
+DMat 9
+Descr
+A layered platinum shoulderplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 1 0 0 0 0 17 17 0 3 0
+Weight 16
+Cost 3333
+Affect 18 1 1 0 0
+End
+
+#90335
+Name platinum kneepad reinforced ~
+Short a reinforced [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m kneepad~
+DMat 9
+Descr
+A reinforced platinum kneepad has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 1 0 0 0 0 0 17 17 0 3 0
+Weight 16
+Cost 3333
+Affect 18 1 1 0 0
+End
+
+#90336
+Name platinum elbowpad protective ~
+Short a protective [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m elbowpad~
+DMat 9
+Descr
+A protective platinum elbowpad is here.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 1 0 0 17 17 0 3 0
+Weight 16
+Cost 3333
+Affect 18 1 1 0 0
+End
+
+#90337
+Name platinum hammer weighty ~
+Short a weighty [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m hammer~
+DMat 9
+Descr
+A weighty platinum hammer is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 75
+Cost 15000
+End
+
+#90338
+Name platinum anvil huge ~
+Short a huge [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m anvil~
+DMat 9
+Descr
+A huge platinum anvil lies here gathering dust.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 150
+Cost 30000
+End
+
+#90339
+Name platinum chunk rough ~
+Short a rough [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m chunk~
+DMat 9
+Descr
+A rough platinum chunk lies here gathering dust.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 9 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 1900
+End
+
+#90340
+Name platinum needle sharp ~
+Short a sharp [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m needle~
+DMat 9
+Descr
+A sharp platinum needle is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 16
+Cost 3333
+End
+
+#90341
+Name platinum mortar small ~
+Short a small [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m mortar~
+DMat 9
+Descr
+A small platinum mortar has been left here.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 3000
+End
+
+#90342
+Name platinum pestle knobbed ~
+Short a knobbed [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m pestle~
+DMat 9
+Descr
+A knobbed platinum pestle lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 18
+Cost 3750
+End
+
+#90343
+Name platinum flail razor-edged ~
+Short a razor-edged [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m flail~
+DMat 9
+Descr
+A razor-edged platinum flail lies here gathering dust.
+~
+Type 5
+Extra 1048576
+Maxinroom 0
+Wear 16385
+Values 0 17 0 4 0 0 0 2 7 0 0
+Weight 37
+Cost 7500
+Affect 18 4 1 0 0
+End
+
+#90344
+Name platinum dagger wicked ~
+Short a wicked [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m dagger~
+DMat 9
+Descr
+A wicked platinum dagger lies here gathering dust.
+~
+Type 5
+Extra 131072
+Maxinroom 0
+Wear 24577
+Values 0 17 0 11 0 0 0 1 13 0 0
+Weight 30
+Cost 6000
+Affect 18 3 1 0 0
+End
+
+#90345
+Name platinum sword serrated ~
+Short a serrated [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m sword~
+DMat 9
+Descr
+A serrated platinum sword has been left here.
+~
+Type 5
+Extra 262144
+Maxinroom 0
+Wear 16385
+Values 0 17 0 3 0 0 0 8 1 0 0
+Weight 50
+Cost 10000
+Affect 18 2 1 0 0
+End
+
+#90346
+Name platinum axe gigantic ~
+Short a gigantic [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m axe~
+DMat 9
+Descr
+A gigantic platinum axe lies here gathering dust.
+~
+Type 5
+Extra 2097152
+Maxinroom 0
+Wear 16385
+Values 0 17 0 12 0 0 0 3 4 0 0
+Weight 75
+Cost 15000
+Affect 18 1 1 0 0
+End
+
+#90347
+Name platinum halberd spiked ~
+Short a spiked [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m halberd~
+DMat 9
+Descr
+A spiked platinum halberd lies here gathering dust.
+~
+Type 5
+Extra 67108864
+Maxinroom 0
+Wear 16385
+Values 0 17 0 15 0 0 0 3 4 0 0
+Weight 75
+Cost 15000
+Affect 19 2 1 0 0
+End
+
+#90348
+Name platinum club lead-shod ~
+Short a lead-shod [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m club~
+DMat 9
+Descr
+A lead-shod platinum club has been left here.
+~
+Type 5
+Extra 524288
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 0 0 0 4 3 0 0
+Weight 50
+Cost 10000
+Affect 19 3 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#90349
+Name platinum shortbow light ~
+Short a light [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m shortbow~
+DMat 9
+Descr
+A light platinum shortbow has been left here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 1 0 0 1 10 0 0
+Weight 21
+Cost 4285
+End
+
+#90350
+Name platinum crossbow heavy ~
+Short a heavy [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m crossbow~
+DMat 9
+Descr
+A heavy platinum crossbow is here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 2 0 0 3 3 0 0
+Weight 30
+Cost 6000
+End
+
+#90351
+Name platinum longbow huge ~
+Short a huge [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m longbow~
+DMat 9
+Descr
+A huge platinum longbow is here.
+~
+Type 5
+Extra 512
+Maxinroom 0
+Wear 16385
+Values 0 17 0 7 3 0 0 2 5 0 0
+Weight 37
+Cost 7500
+End
+
+#90352
+Name platinum arrow short ~
+Short a short [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m arrow~
+DMat 9
+Descr
+A short platinum arrow is here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 10 0 0 1 0 0 0 0 0 0
+Weight 3
+Cost 750
+End
+
+#90353
+Name platinum bolt crossbow ~
+Short a crossbow [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m bolt~
+DMat 9
+Descr
+A crossbow platinum bolt lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 3 3 0 0 2 0 0 0 0 0 0
+Weight 4
+Cost 857
+End
+
+#90354
+Name platinum shaft clothyard ~
+Short a clothyard [36mp[1ml[37ma[0mti[1mn[36mu[0m[36mm[0m shaft~
+DMat 9
+Descr
+A clothyard platinum shaft has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 11 0 0 3 0 0 0 0 0 0
+Weight 5
+Cost 1000
+End
+
+#90360
+Name molybdenum breastplate sturdy ~
+Short a sturdy [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m breastplate~
+DMat 10
+Descr
+A sturdy molybdenum breastplate has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 5 0 0 0 0 25 25 0 3 0
+Weight 43
+Cost 1000
+Affect 14 3 1 0 0
+End
+
+#90361
+Name molybdenum helmet heavy ~
+Short a heavy [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m helmet~
+DMat 10
+Descr
+A heavy molybdenum helmet is here.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 3 0 0 0 25 25 0 3 0
+Weight 26
+Cost 600
+Affect 14 3 1 0 0
+End
+
+#90362
+Name molybdenum greaves dirty ~
+Short a dirty [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m greaves~
+DMat 10
+Descr
+A dirty molybdenum greaves lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 4 0 0 0 0 0 25 25 0 3 0
+Weight 26
+Cost 600
+Affect 22 1 1 0 0
+Affect 14 3 1 0 0
+End
+
+#90363
+Name molybdenum boots dusty ~
+Short a dusty [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m boots~
+DMat 10
+Descr
+A dusty molybdenum boots is here.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 3 0 0 0 0 0 25 25 0 3 0
+Weight 26
+Cost 600
+Affect 22 1 1 0 0
+Affect 14 3 1 0 0
+End
+
+#90364
+Name molybdenum gauntlets thin ~
+Short a thin [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m gauntlets~
+DMat 10
+Descr
+A thin molybdenum gauntlets has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 3 0 0 25 25 0 3 0
+Weight 21
+Cost 500
+End
+
+#90365
+Name molybdenum armplates thick ~
+Short a thick [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m armplates~
+DMat 10
+Descr
+A thick molybdenum armplates lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 4 0 0 25 25 0 3 0
+Weight 26
+Cost 600
+Affect 14 3 1 0 0
+End
+
+#90366
+Name molybdenum belt flimsy ~
+Short a flimsy [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m belt~
+DMat 10
+Descr
+A flimsy molybdenum belt has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 3 0 0 0 0 25 25 0 3 0
+Weight 18
+Cost 428
+Affect 14 3 1 0 0
+End
+
+#90367
+Name molybdenum shield solid ~
+Short a solid [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m shield~
+DMat 10
+Descr
+A solid molybdenum shield is here.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 2 2 2 2 0 0 25 25 0 3 0
+Weight 32
+Cost 750
+Affect 14 3 1 0 0
+End
+
+#90368
+Name molybdenum mask slitted ~
+Short a slitted [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m mask~
+DMat 10
+Descr
+A slitted molybdenum mask has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 3 0 0 0 25 25 0 3 0
+Weight 18
+Cost 428
+Affect 14 3 1 0 0
+End
+
+#90369
+Name molybdenum earring dangling ~
+Short a dangling [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m earring~
+DMat 10
+Descr
+A dangling molybdenum earring lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 3 0 0 0 25 25 0 3 0
+Weight 14
+Cost 333
+Affect 14 3 1 0 0
+End
+
+#90370
+Name molybdenum bracelet sparkling ~
+Short a sparkling [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m bracelet~
+DMat 10
+Descr
+A sparkling molybdenum bracelet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 3 0 0 25 25 0 3 0
+Weight 14
+Cost 333
+End
+
+#90371
+Name molybdenum anklet spiked ~
+Short a spiked [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m anklet~
+DMat 10
+Descr
+A spiked molybdenum anklet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 3 0 0 0 0 0 25 25 0 3 0
+Weight 14
+Cost 333
+Affect 14 3 1 0 0
+End
+
+#90372
+Name molybdenum ring carved ~
+Short a carved [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m ring~
+DMat 10
+Descr
+A carved molybdenum ring is here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 3 0 0 25 25 0 3 0
+Weight 14
+Cost 333
+Affect 14 3 1 0 0
+End
+
+#90373
+Name molybdenum necklace flowing ~
+Short a flowing [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m necklace~
+DMat 10
+Descr
+A flowing molybdenum necklace is here.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 3 0 0 0 0 25 25 0 3 0
+Weight 14
+Cost 333
+Affect 14 3 1 0 0
+End
+
+#90374
+Name molybdenum shoulderplate layered ~
+Short a layered [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m shoulderplate~
+DMat 10
+Descr
+A layered molybdenum shoulderplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 3 0 0 0 0 25 25 0 3 0
+Weight 14
+Cost 333
+Affect 14 3 1 0 0
+End
+
+#90375
+Name molybdenum kneepad reinforced ~
+Short a reinforced [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m kneepad~
+DMat 10
+Descr
+A reinforced molybdenum kneepad lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 3 0 0 0 0 0 25 25 0 3 0
+Weight 14
+Cost 333
+Affect 14 3 1 0 0
+End
+
+#90376
+Name molybdenum elbowpad protective ~
+Short a protective [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m elbowpad~
+DMat 10
+Descr
+A protective molybdenum elbowpad has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 3 0 0 25 25 0 3 0
+Weight 14
+Cost 333
+Affect 14 3 1 0 0
+End
+
+#90377
+Name molybdenum hammer weighty ~
+Short a weighty [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m hammer~
+DMat 10
+Descr
+A weighty molybdenum hammer lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 75
+Cost 1500
+End
+
+#90378
+Name molybdenum anvil huge ~
+Short a huge [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m anvil~
+DMat 10
+Descr
+A huge molybdenum anvil has been left here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 130
+Cost 3000
+End
+
+#90379
+Name molybdenum chunk rough ~
+Short a rough [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m chunk~
+DMat 10
+Descr
+A rough molybdenum chunk is here.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 10 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 2000
+End
+
+#90380
+Name molybdenum needle sharp ~
+Short a sharp [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m needle~
+DMat 10
+Descr
+A sharp molybdenum needle lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 14
+Cost 333
+End
+
+#90381
+Name molybdenum mortar small ~
+Short a small [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m mortar~
+DMat 10
+Descr
+A small molybdenum mortar lies here gathering dust.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 13
+Cost 300
+End
+
+#90382
+Name molybdenum pestle knobbed ~
+Short a knobbed [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m pestle~
+DMat 10
+Descr
+A knobbed molybdenum pestle has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 16
+Cost 375
+End
+
+#90383
+Name molybdenum flail razor-edged ~
+Short a razor-edged [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m flail~
+DMat 10
+Descr
+A razor-edged molybdenum flail lies here gathering dust.
+~
+Type 5
+Extra 135266304
+Maxinroom 0
+Wear 16385
+Values 0 25 0 4 0 0 0 3 5 0 0
+Weight 32
+Cost 750
+Affect 18 4 1 0 0
+End
+
+#90384
+Name molybdenum dagger wicked ~
+Short a wicked [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m dagger~
+DMat 10
+Descr
+A wicked molybdenum dagger has been left here.
+~
+Type 5
+Extra 134348800
+Maxinroom 0
+Wear 24577
+Values 0 25 0 11 0 0 0 1 14 0 0
+Weight 26
+Cost 600
+Affect 18 3 1 0 0
+End
+
+#90385
+Name molybdenum sword serrated ~
+Short a serrated [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m sword~
+DMat 10
+Descr
+A serrated molybdenum sword is here.
+~
+Type 5
+Extra 134479872
+Maxinroom 0
+Wear 16385
+Values 0 25 0 3 0 0 0 9 1 0 0
+Weight 43
+Cost 1000
+Affect 18 2 1 0 0
+End
+
+#90386
+Name molybdenum axe gigantic ~
+Short a gigantic [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m axe~
+DMat 10
+Descr
+A gigantic molybdenum axe has been left here.
+~
+Type 5
+Extra 136314880
+Maxinroom 0
+Wear 16385
+Values 0 25 0 12 0 0 0 4 3 0 0
+Weight 65
+Cost 1500
+Affect 18 1 1 0 0
+End
+
+#90387
+Name molybdenum halberd spiked ~
+Short a spiked [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m halberd~
+DMat 10
+Descr
+A spiked molybdenum halberd lies here gathering dust.
+~
+Type 5
+Extra 201326592
+Maxinroom 0
+Wear 16385
+Values 0 25 0 15 0 0 0 4 3 0 0
+Weight 65
+Cost 1500
+Affect 19 2 1 0 0
+End
+
+#90388
+Name molybdenum club lead-shod ~
+Short a lead-shod [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m club~
+DMat 10
+Descr
+A lead-shod molybdenum club is here.
+~
+Type 5
+Extra 134742016
+Maxinroom 0
+Wear 16385
+Values 0 25 0 7 0 0 0 6 2 0 0
+Weight 43
+Cost 1000
+Affect 18 -1 1 0 0
+End
+
+#90389
+Name molybdenum shortbow light ~
+Short a light [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m shortbow~
+DMat 10
+Descr
+A light molybdenum shortbow is here.
+~
+Type 5
+Extra 134218240
+Maxinroom 0
+Wear 16385
+Values 0 25 0 7 1 0 0 2 5 0 0
+Weight 18
+Cost 428
+End
+
+#90390
+Name molybdenum crossbow heavy ~
+Short a heavy [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m crossbow~
+DMat 10
+Descr
+A heavy molybdenum crossbow lies here gathering dust.
+~
+Type 5
+Extra 134218240
+Maxinroom 0
+Wear 16385
+Values 0 25 0 7 2 0 0 1 12 0 0
+Weight 26
+Cost 600
+End
+
+#90391
+Name molybdenum longbow huge ~
+Short a huge [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m longbow~
+DMat 10
+Descr
+A huge molybdenum longbow lies here gathering dust.
+~
+Type 5
+Extra 134218240
+Maxinroom 0
+Wear 16385
+Values 0 25 0 7 3 0 0 7 1 0 0
+Weight 32
+Cost 750
+End
+
+#90392
+Name molybdenum arrow short ~
+Short a short [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m arrow~
+DMat 10
+Descr
+A short molybdenum arrow has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 2 5 0 0 1 0 0 0 0 0 0
+Weight 3
+Cost 75
+End
+
+#90393
+Name molybdenum bolt crossbow ~
+Short a crossbow [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m bolt~
+DMat 10
+Descr
+A crossbow molybdenum bolt lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 12 0 0 2 0 0 0 0 0 0
+Weight 3
+Cost 85
+End
+
+#90394
+Name molybdenum shaft clothyard ~
+Short a clothyard [1m[34mmo[0mly[1mbde[0mnu[34m[1mm[0m shaft~
+DMat 10
+Descr
+A clothyard molybdenum shaft lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 2 6 0 0 3 0 0 0 0 0 0
+Weight 4
+Cost 100
+End
+
+#90400
+Name nickel breastplate sturdy ~
+Short a sturdy [1m[30mni[0mck[1m[30mel[0m breastplate~
+DMat 11
+Descr
+A sturdy nickel breastplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 3 0 0 0 0 35 35 0 3 0
+Weight 66
+Cost 1166
+End
+
+#90401
+Name nickel helmet heavy ~
+Short a heavy [1m[30mni[0mck[1m[30mel[0m helmet~
+DMat 11
+Descr
+A heavy nickel helmet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 1 0 0 0 35 35 0 3 0
+Weight 40
+Cost 700
+Affect 13 3 1 0 0
+End
+
+#90402
+Name nickel greaves dirty ~
+Short a dirty [1m[30mni[0mck[1m[30mel[0m greaves~
+DMat 11
+Descr
+A dirty nickel greaves has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 2 0 0 0 0 0 35 35 0 3 0
+Weight 40
+Cost 700
+Affect 22 2 1 0 0
+Affect 13 3 1 0 0
+End
+
+#90403
+Name nickel boots dusty ~
+Short a dusty [1m[30mni[0mck[1m[30mel[0m boots~
+DMat 11
+Descr
+A dusty nickel boots lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 1 0 0 0 0 0 35 35 0 3 0
+Weight 40
+Cost 700
+Affect 22 2 1 0 0
+Affect 13 3 1 0 0
+End
+
+#90404
+Name nickel gauntlets thin ~
+Short a thin [1m[30mni[0mck[1m[30mel[0m gauntlets~
+DMat 11
+Descr
+A thin nickel gauntlets is here.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 1 0 0 35 35 0 3 0
+Weight 33
+Cost 583
+Affect 13 3 1 0 0
+End
+
+#90405
+Name nickel armplates thick ~
+Short a thick [1m[30mni[0mck[1m[30mel[0m armplates~
+DMat 11
+Descr
+A thick nickel armplates is here.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 2 0 0 35 35 0 3 0
+Weight 40
+Cost 700
+Affect 13 3 1 0 0
+End
+
+#90406
+Name nickel belt flimsy ~
+Short a flimsy [1m[30mni[0mck[1m[30mel[0m belt~
+DMat 11
+Descr
+A flimsy nickel belt is here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 1 0 0 0 0 35 35 0 3 0
+Weight 28
+Cost 500
+Affect 13 3 1 0 0
+End
+
+#90407
+Name nickel shield solid ~
+Short a solid [1m[30mni[0mck[1m[30mel[0m shield~
+DMat 11
+Descr
+A solid nickel shield lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 1 1 1 1 0 0 35 35 0 3 0
+Weight 50
+Cost 875
+Affect 13 3 1 0 0
+End
+
+#90408
+Name nickel mask slitted ~
+Short a slitted [1m[30mni[0mck[1m[30mel[0m mask~
+DMat 11
+Descr
+A slitted nickel mask lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 1 0 0 0 35 35 0 3 0
+Weight 28
+Cost 500
+Affect 13 3 1 0 0
+End
+
+#90409
+Name nickel earring dangling ~
+Short a dangling [1m[30mni[0mck[1m[30mel[0m earring~
+DMat 11
+Descr
+A dangling nickel earring lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 1 0 0 0 35 35 0 3 0
+Weight 22
+Cost 388
+Affect 13 3 1 0 0
+End
+
+#90410
+Name nickel bracelet sparkling ~
+Short a sparkling [1m[30mni[0mck[1m[30mel[0m bracelet~
+DMat 11
+Descr
+A sparkling nickel bracelet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 1 0 0 35 35 0 3 0
+Weight 22
+Cost 388
+Affect 13 3 1 0 0
+End
+
+#90411
+Name nickel anklet spiked ~
+Short a spiked [1m[30mni[0mck[1m[30mel[0m anklet~
+DMat 11
+Descr
+A spiked nickel anklet has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 1 0 0 0 0 0 35 35 0 3 0
+Weight 22
+Cost 388
+Affect 22 1 1 0 0
+Affect 13 3 1 0 0
+End
+
+#90412
+Name nickel ring carved ~
+Short a carved [1m[30mni[0mck[1m[30mel[0m ring~
+DMat 11
+Descr
+A carved nickel ring has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 1 0 0 35 35 0 3 0
+Weight 22
+Cost 388
+Affect 13 3 1 0 0
+End
+
+#90413
+Name nickel necklace flowing ~
+Short a flowing [1m[30mni[0mck[1m[30mel[0m necklace~
+DMat 11
+Descr
+A flowing nickel necklace lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 1 0 0 0 0 35 35 0 3 0
+Weight 22
+Cost 388
+Affect 13 3 1 0 0
+End
+
+#90414
+Name nickel shoulderplate layered ~
+Short a layered [1m[30mni[0mck[1m[30mel[0m shoulderplate~
+DMat 11
+Descr
+A layered nickel shoulderplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 1 0 0 0 0 35 35 0 3 0
+Weight 22
+Cost 388
+Affect 13 3 1 0 0
+End
+
+#90415
+Name nickel kneepad reinforced ~
+Short a reinforced [1m[30mni[0mck[1m[30mel[0m kneepad~
+DMat 11
+Descr
+A reinforced nickel kneepad is here.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 1 0 0 0 0 0 35 35 0 3 0
+Weight 22
+Cost 388
+Affect 22 1 1 0 0
+Affect 13 3 1 0 0
+End
+
+#90416
+Name nickel elbowpad protective ~
+Short a protective [1m[30mni[0mck[1m[30mel[0m elbowpad~
+DMat 11
+Descr
+A protective nickel elbowpad has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 1 0 0 35 35 0 3 0
+Weight 22
+Cost 388
+Affect 13 3 1 0 0
+End
+
+#90417
+Name nickel hammer weighty ~
+Short a weighty [1m[30mni[0mck[1m[30mel[0m hammer~
+DMat 11
+Descr
+A weighty nickel hammer is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 100
+Cost 1750
+End
+
+#90418
+Name nickel anvil huge ~
+Short a huge [1m[30mni[0mck[1m[30mel[0m anvil~
+DMat 11
+Descr
+A huge nickel anvil is here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 200
+Cost 3500
+End
+
+#90419
+Name nickel chunk rough ~
+Short a rough [1m[30mni[0mck[1m[30mel[0m chunk~
+DMat 11
+Descr
+A rough nickel chunk has been left here.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 11 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 2500
+End
+
+#90420
+Name nickel needle sharp ~
+Short a sharp [1m[30mni[0mck[1m[30mel[0m needle~
+DMat 11
+Descr
+A sharp nickel needle is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 22
+Cost 388
+End
+
+#90421
+Name nickel mortar small ~
+Short a small [1m[30mni[0mck[1m[30mel[0m mortar~
+DMat 11
+Descr
+A small nickel mortar is here.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 20
+Cost 350
+End
+
+#90422
+Name nickel pestle knobbed ~
+Short a knobbed [1m[30mni[0mck[1m[30mel[0m pestle~
+DMat 11
+Descr
+A knobbed nickel pestle has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 25
+Cost 437
+End
+
+#90423
+Name nickel flail razor-edged ~
+Short a razor-edged [1m[30mni[0mck[1m[30mel[0m flail~
+DMat 11
+Descr
+A razor-edged nickel flail has been left here.
+~
+Type 5
+Extra 135266304
+Maxinroom 0
+Wear 16385
+Values 0 35 0 4 0 0 0 5 3 0 0
+Weight 50
+Cost 875
+Affect 18 4 1 0 0
+End
+
+#90424
+Name nickel dagger wicked ~
+Short a wicked [1m[30mni[0mck[1m[30mel[0m dagger~
+DMat 11
+Descr
+A wicked nickel dagger is here.
+~
+Type 5
+Extra 134348800
+Maxinroom 0
+Wear 24577
+Values 0 35 0 11 0 0 0 2 7 0 0
+Weight 40
+Cost 700
+Affect 18 3 1 0 0
+End
+
+#90425
+Name nickel sword serrated ~
+Short a serrated [1m[30mni[0mck[1m[30mel[0m sword~
+DMat 11
+Descr
+A serrated nickel sword is here.
+~
+Type 5
+Extra 134479872
+Maxinroom 0
+Wear 16385
+Values 0 35 0 3 0 0 0 2 8 0 0
+Weight 66
+Cost 1166
+Affect 18 2 1 0 0
+End
+
+#90426
+Name nickel axe apb~
+Short a gigantic [1m[30mni[0mck[1m[30mel[0m axe~
+DMat 11
+Descr
+A gigantic nickel axe lies here gathering dust.
+~
+Type 5
+Extra 136314880
+Maxinroom 0
+Wear 16385
+Values 0 35 0 12 0 0 0 6 2 0 0
+Weight 100
+Cost 1750
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90427
+Name nickel halberd spiked ~
+Short a spiked [1m[30mni[0mck[1m[30mel[0m halberd~
+DMat 11
+Descr
+A spiked nickel halberd is here.
+~
+Type 5
+Extra 201326592
+Maxinroom 0
+Wear 16385
+Values 0 35 0 15 0 0 0 6 2 0 0
+Weight 100
+Cost 1750
+Affect 19 2 1 0 0
+End
+
+#90428
+Name nickel club apb~
+Short a lead-shod [1m[30mni[0mck[1m[30mel[0m club~
+DMat 11
+Descr
+A lead-shod nickel club lies here gathering dust.
+~
+Type 5
+Extra 134742016
+Maxinroom 0
+Wear 16385
+Values 0 35 0 7 0 0 0 10 1 0 0
+Weight 66
+Cost 1166
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#90429
+Name nickel shortbow light ~
+Short a light [1m[30mni[0mck[1m[30mel[0m shortbow~
+DMat 11
+Descr
+A light nickel shortbow is here.
+~
+Type 5
+Extra 134218240
+Maxinroom 0
+Wear 16385
+Values 0 35 0 7 1 0 0 7 1 0 0
+Weight 28
+Cost 500
+End
+
+#90430
+Name nickel crossbow heavy ~
+Short a heavy [1m[30mni[0mck[1m[30mel[0m crossbow~
+DMat 11
+Descr
+A heavy nickel crossbow lies here gathering dust.
+~
+Type 5
+Extra 134218240
+Maxinroom 0
+Wear 16385
+Values 0 35 0 7 2 0 0 1 13 0 0
+Weight 40
+Cost 700
+End
+
+#90431
+Name nickel longbow huge ~
+Short a huge [1m[30mni[0mck[1m[30mel[0m longbow~
+DMat 11
+Descr
+A huge nickel longbow is here.
+~
+Type 5
+Extra 134218240
+Maxinroom 0
+Wear 16385
+Values 0 35 0 7 3 0 0 5 2 0 0
+Weight 50
+Cost 875
+End
+
+#90432
+Name nickel arrow short ~
+Short a short [1m[30mni[0mck[1m[30mel[0m arrow~
+DMat 11
+Descr
+A short nickel arrow lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 7 1 0 0 1 0 0 0 0 0 0
+Weight 5
+Cost 87
+End
+
+#90433
+Name nickel bolt crossbow ~
+Short a crossbow [1m[30mni[0mck[1m[30mel[0m bolt~
+DMat 11
+Descr
+A crossbow nickel bolt lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 13 0 0 2 0 0 0 0 0 0
+Weight 5
+Cost 100
+End
+
+#90434
+Name nickel shaft clothyard ~
+Short a clothyard [1m[30mni[0mck[1m[30mel[0m shaft~
+DMat 11
+Descr
+A clothyard nickel shaft lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 3 4 0 0 3 0 0 0 0 0 0
+Weight 6
+Cost 116
+End
+
+#90440
+Name titanium breastplate body apb~
+Short a sturdy [36mtitanium[0m breastplate~
+DMat 12
+Descr
+A sturdy titanium breastplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 5 0 0 0 0 45 45 0 3 0
+Weight 73
+Cost 1333
+Affect 19 1 1 0 0
+End
+
+#90441
+Name titanium helmet heavy ~
+Short a heavy [36mtitanium[0m helmet~
+DMat 12
+Descr
+A heavy titanium helmet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 4 0 0 0 45 45 0 3 0
+Weight 44
+Cost 800
+Affect 18 1 1 0 0
+End
+
+#90442
+Name titanium greaves dirty ~
+Short a dirty [36mtitanium[0m greaves~
+DMat 12
+Descr
+A dirty titanium greaves is here.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 5 0 0 0 0 0 45 45 0 3 0
+Weight 44
+Cost 800
+Affect 22 3 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90443
+Name titanium boots dusty ~
+Short a dusty [36mtitanium[0m boots~
+DMat 12
+Descr
+A dusty titanium boots has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 4 0 0 0 0 0 45 45 0 3 0
+Weight 44
+Cost 800
+Affect 22 3 1 0 0
+Affect 14 5 1 0 0
+End
+
+#90444
+Name titanium gauntlets apb~
+Short a thin [36mtitanium[0m gauntlets~
+DMat 12
+Descr
+A thin titanium gauntlets has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 4 0 0 45 45 0 3 0
+Weight 36
+Cost 666
+Affect 19 1 1 0 0
+End
+
+#90445
+Name titanium armplates arm apb~
+Short a thick [36mtitanium[0m armplates~
+DMat 12
+Descr
+A thick titanium armplates has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 5 0 0 45 45 0 3 0
+Weight 44
+Cost 800
+Affect 19 1 1 0 0
+End
+
+#90446
+Name titanium belt apb~
+Short a flimsy [36mtitanium[0m belt~
+DMat 12
+Descr
+A flimsy titanium belt has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 4 0 0 0 0 45 45 0 3 0
+Weight 31
+Cost 571
+Affect 19 1 1 0 0
+End
+
+#90447
+Name titanium shield apb~
+Short a solid [36mtitanium[0m shield~
+DMat 12
+Descr
+A solid titanium shield has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 2 2 2 2 0 0 45 45 0 3 0
+Weight 55
+Cost 1000
+Affect 19 1 1 0 0
+End
+
+#90448
+Name titanium mask slitted ~
+Short a slitted [36mtitanium[0m mask~
+DMat 12
+Descr
+A slitted titanium mask lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 4 0 0 0 45 45 0 3 0
+Weight 31
+Cost 571
+Affect 13 5 1 0 0
+End
+
+#90449
+Name titanium earring dangling ~
+Short a dangling [36mtitanium[0m earring~
+DMat 12
+Descr
+A dangling titanium earring lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 4 0 0 0 45 45 0 3 0
+Weight 24
+Cost 444
+Affect 13 5 1 0 0
+End
+
+#90450
+Name titanium bracelet apb~
+Short a sparkling [36mtitanium[0m bracelet~
+DMat 12
+Descr
+A sparkling titanium bracelet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 4 0 0 45 45 0 3 0
+Weight 24
+Cost 444
+Affect 19 1 1 0 0
+End
+
+#90451
+Name titanium anklet spiked ~
+Short a spiked [36mtitanium[0m anklet~
+DMat 12
+Descr
+A spiked titanium anklet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 4 0 0 0 0 0 45 45 0 3 0
+Weight 24
+Cost 444
+Affect 22 1 1 0 0
+Affect 14 3 1 0 0
+End
+
+#90452
+Name titanium ring apb~
+Short a carved [36mtitanium[0m ring~
+DMat 12
+Descr
+A carved titanium ring is here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 4 0 0 45 45 0 3 0
+Weight 24
+Cost 444
+Affect 19 1 1 0 0
+End
+
+#90453
+Name titanium necklace apb~
+Short a flowing [36mtitanium[0m necklace~
+DMat 12
+Descr
+A flowing titanium necklace has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 4 0 0 0 0 45 45 0 3 0
+Weight 24
+Cost 444
+Affect 19 1 1 0 0
+End
+
+#90454
+Name titanium shoulderplate layered ~
+Short a layered [36mtitanium[0m shoulderplate~
+DMat 12
+Descr
+A layered titanium shoulderplate is here.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 4 0 0 0 0 45 45 0 3 0
+Weight 24
+Cost 444
+Affect 13 5 1 0 0
+End
+
+#90455
+Name titanium kneepad reinforced ~
+Short a reinforced [36mtitanium[0m kneepad~
+DMat 12
+Descr
+A reinforced titanium kneepad has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 4 0 0 0 0 0 45 45 0 3 0
+Weight 24
+Cost 444
+Affect 22 3 1 0 0
+Affect 14 2 1 0 0
+End
+
+#90456
+Name titanium elbowpad protective ~
+Short a protective [36mtitanium[0m elbowpad~
+DMat 12
+Descr
+A protective titanium elbowpad has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 4 0 0 45 45 0 3 0
+Weight 24
+Cost 444
+Affect 13 5 1 0 0
+End
+
+#90457
+Name titanium hammer weighty ~
+Short a weighty [36mtitanium[0m hammer~
+DMat 12
+Descr
+A weighty titanium hammer is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 100
+Cost 2000
+End
+
+#90458
+Name titanium anvil huge ~
+Short a huge [36mtitanium[0m anvil~
+DMat 12
+Descr
+A huge titanium anvil is here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 220
+Cost 4000
+End
+
+#90459
+Name titanium chunk rough ~
+Short a rough [36mtitanium[0m chunk~
+DMat 12
+Descr
+A rough titanium chunk lies here gathering dust.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 12 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 3000
+End
+
+#90460
+Name titanium needle sharp ~
+Short a sharp [36mtitanium[0m needle~
+DMat 12
+Descr
+A sharp titanium needle has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 24
+Cost 444
+End
+
+#90461
+Name titanium mortar small ~
+Short a small [36mtitanium[0m mortar~
+DMat 12
+Descr
+A small titanium mortar lies here gathering dust.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 22
+Cost 400
+End
+
+#90462
+Name titanium pestle knobbed ~
+Short a knobbed [36mtitanium[0m pestle~
+DMat 12
+Descr
+A knobbed titanium pestle lies here gathering dust.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 27
+Cost 500
+End
+
+#90463
+Name titanium flail razor-edged ~
+Short a razor-edged [36mtitanium[0m flail~
+DMat 12
+Descr
+A razor-edged titanium flail lies here gathering dust.
+~
+Type 5
+Extra 269484032
+Maxinroom 0
+Wear 16385
+Values 0 45 0 4 0 0 0 7 2 0 0
+Weight 55
+Cost 1000
+Affect 18 4 1 0 0
+End
+
+#90464
+Name titanium dagger wicked ~
+Short a wicked [36mtitanium[0m dagger~
+DMat 12
+Descr
+A wicked titanium dagger has been left here.
+~
+Type 5
+Extra 268566528
+Maxinroom 0
+Wear 24577
+Values 0 45 0 11 0 0 0 3 5 0 0
+Weight 44
+Cost 800
+Affect 18 3 1 0 0
+End
+
+#90465
+Name titanium sword serrated ~
+Short a serrated [36mtitanium[0m sword~
+DMat 12
+Descr
+A serrated titanium sword is here.
+~
+Type 5
+Extra 268697600
+Maxinroom 0
+Wear 16385
+Values 0 45 0 3 0 0 0 4 4 0 0
+Weight 73
+Cost 1333
+Affect 18 2 1 0 0
+End
+
+#90466
+Name titanium axe apb~
+Short a gigantic [36mtitanium[0m axe~
+DMat 12
+Descr
+A gigantic titanium axe is here.
+~
+Type 5
+Extra 270532608
+Maxinroom 0
+Wear 16385
+Values 0 45 0 12 0 0 0 10 1 0 0
+Weight 110
+Cost 2000
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90467
+Name titanium halberd spiked ~
+Short a spiked [36mtitanium[0m halberd~
+DMat 12
+Descr
+A spiked titanium halberd is here.
+~
+Type 5
+Extra 335544320
+Maxinroom 0
+Wear 16385
+Values 0 45 0 15 0 0 0 10 1 0 0
+Weight 110
+Cost 2000
+Affect 19 2 1 0 0
+End
+
+#90468
+Name titanium club apb~
+Short a lead-shod [36mtitanium[0m club~
+DMat 12
+Descr
+A lead-shod titanium club lies here gathering dust.
+~
+Type 5
+Extra 268959744
+Maxinroom 0
+Wear 16385
+Values 0 45 0 7 0 0 0 2 9 0 0
+Weight 73
+Cost 1333
+Affect 18 -1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#90469
+Name titanium shortbow light ~
+Short a light [36mtitanium[0m shortbow~
+DMat 12
+Descr
+A light titanium shortbow is here.
+~
+Type 5
+Extra 268435968
+Maxinroom 0
+Wear 16385
+Values 0 45 0 7 1 0 0 5 2 0 0
+Weight 31
+Cost 571
+End
+
+#90470
+Name titanium crossbow heavy ~
+Short a heavy [36mtitanium[0m crossbow~
+DMat 12
+Descr
+A heavy titanium crossbow lies here gathering dust.
+~
+Type 5
+Extra 268435968
+Maxinroom 0
+Wear 16385
+Values 0 45 0 7 2 0 0 1 14 0 0
+Weight 44
+Cost 800
+End
+
+#90471
+Name titanium longbow huge ~
+Short a huge [36mtitanium[0m longbow~
+DMat 12
+Descr
+A huge titanium longbow is here.
+~
+Type 5
+Extra 268435968
+Maxinroom 0
+Wear 16385
+Values 0 45 0 7 3 0 0 8 1 0 0
+Weight 55
+Cost 1000
+End
+
+#90472
+Name titanium arrow short ~
+Short a short [36mtitanium[0m arrow~
+DMat 12
+Descr
+A short titanium arrow has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 5 2 0 0 1 0 0 0 0 0 0
+Weight 5
+Cost 100
+End
+
+#90473
+Name titanium bolt crossbow ~
+Short a crossbow [36mtitanium[0m bolt~
+DMat 12
+Descr
+A crossbow titanium bolt has been left here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 1 14 0 0 2 0 0 0 0 0 0
+Weight 6
+Cost 114
+End
+
+#90474
+Name titanium shaft clothyard ~
+Short a clothyard [36mtitanium[0m shaft~
+DMat 12
+Descr
+A clothyard titanium shaft lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 4 3 0 0 3 0 0 0 0 0 0
+Weight 7
+Cost 133
+End
+
+#90480
+Name mithril breastplate body apb~
+Short a sturdy [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m breastplate~
+DMat 13
+Descr
+A sturdy mithril breastplate lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 9
+Values 0 5 0 0 0 0 27 27 0 4 0
+Weight 50
+Cost 15000
+Affect 14 5 1 0 0
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90481
+Name mithril helmet heavy ~
+Short a heavy [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m helmet~
+DMat 13
+Descr
+A heavy mithril helmet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 17
+Values 0 0 3 0 0 0 27 27 0 4 0
+Weight 30
+Cost 9000
+Affect 14 5 1 0 0
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90482
+Name mithril greaves dirty ~
+Short a dirty [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m greaves~
+DMat 13
+Descr
+A dirty mithril greaves lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 33
+Values 4 0 0 0 0 0 27 27 0 4 0
+Weight 30
+Cost 9000
+Affect 14 5 1 0 0
+Affect 18 2 1 0 0
+Affect 22 2 1 0 0
+End
+
+#90483
+Name mithril boots dusty ~
+Short a dusty [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m boots~
+DMat 13
+Descr
+A dusty mithril boots lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65
+Values 3 0 0 0 0 0 27 27 0 4 0
+Weight 30
+Cost 9000
+Affect 14 5 1 0 0
+Affect 18 2 1 0 0
+Affect 22 3 1 0 0
+End
+
+#90484
+Name mithril gauntlet hands apb~
+Short a thin [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m gauntlets~
+DMat 13
+Descr
+A thin mithril gauntlets lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 129
+Values 0 0 0 3 0 0 27 27 0 4 0
+Weight 25
+Cost 7500
+Affect 14 5 1 0 0
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90485
+Name mithril armplates arm apb~
+Short a thick [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m armplates~
+DMat 13
+Descr
+A thick mithril armplates is here.
+~
+Type 9
+Maxinroom 0
+Wear 257
+Values 0 0 0 4 0 0 27 27 0 4 0
+Weight 30
+Cost 9000
+Affect 14 5 1 0 0
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90486
+Name mithril belt apb~
+Short a flimsy [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m belt~
+DMat 13
+Descr
+A flimsy mithril belt has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 2049
+Values 0 3 0 0 0 0 27 27 0 4 0
+Weight 21
+Cost 6428
+Affect 14 5 1 0 0
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#90487
+Name mithril shield apb~
+Short a solid [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m shield~
+DMat 13
+Descr
+A solid mithril shield lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 513
+Values 2 2 2 2 0 0 27 27 0 4 0
+Weight 37
+Cost 11250
+Affect 14 5 1 0 0
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#90488
+Name mithril mask slitted apb~
+Short a slitted [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m mask~
+DMat 13
+Descr
+A slitted mithril mask lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 65537
+Values 0 0 3 0 0 0 27 27 0 4 0
+Weight 21
+Cost 6428
+Affect 19 1 1 0 0
+Affect 14 5 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90489
+Name mithril earring dangling apb~
+Short a dangling [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m earring~
+DMat 13
+Descr
+A dangling mithril earring is here.
+~
+Type 9
+Maxinroom 0
+Wear 262145
+Values 0 0 3 0 0 0 27 27 0 4 0
+Weight 16
+Cost 5000
+Affect 14 5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#90490
+Name mithril bracelet apb~
+Short a sparkling [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m bracelet~
+DMat 13
+Descr
+A sparkling mithril bracelet is here.
+~
+Type 9
+Maxinroom 0
+Wear 4097
+Values 0 0 0 3 0 0 27 27 0 4 0
+Weight 16
+Cost 5000
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
+Affect 14 1 1 0 0
+End
+
+#90491
+Name mithril anklet spiked ~
+Short a spiked [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m anklet~
+DMat 13
+Descr
+A spiked mithril anklet lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 524289
+Values 3 0 0 0 0 0 27 27 0 4 0
+Weight 16
+Cost 5000
+Affect 22 2 1 0 0
+Affect 14 3 1 0 0
+End
+
+#90492
+Name mithril ring apb~
+Short a carved [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m ring~
+DMat 13
+Descr
+A carved mithril ring has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 3
+Values 0 0 0 3 0 0 27 27 0 4 0
+Weight 16
+Cost 5000
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#90493
+Name mithril necklace apb~
+Short a flowing [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m necklace~
+DMat 13
+Descr
+A flowing mithril necklace lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 5
+Values 0 3 0 0 0 0 27 27 0 4 0
+Weight 16
+Cost 5000
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#90494
+Name mithril shoulderplate shoulder apb~
+Short a layered [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m shoulderplate~
+DMat 13
+Descr
+A layered mithril shoulderplate has been left here.
+~
+Type 9
+Maxinroom 0
+Wear 32769
+Values 0 3 0 0 0 0 27 27 0 4 0
+Weight 16
+Cost 5000
+Affect 19 1 1 0 0
+End
+
+#90495
+Name mithril kneepad reinforced ~
+Short a reinforced [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m kneepad~
+DMat 13
+Descr
+A reinforced mithril kneepad is here.
+~
+Type 9
+Maxinroom 0
+Wear 2097153
+Values 3 0 0 0 0 0 27 27 0 4 0
+Weight 16
+Cost 5000
+Affect 22 2 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90496
+Name mithril elbowpad protective ~
+Short a protective [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m elbowpad~
+DMat 13
+Descr
+A protective mithril elbowpad lies here gathering dust.
+~
+Type 9
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 3 0 0 27 27 0 4 0
+Weight 16
+Cost 5000
+Affect 19 1 1 0 0
+End
+
+#90497
+Name mithril hammer weighty ~
+Short a weighty [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m hammer~
+DMat 13
+Descr
+A weighty mithril hammer has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 100
+Cost 22500
+End
+
+#90498
+Name mithril anvil huge ~
+Short a huge [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m anvil~
+DMat 13
+Descr
+A huge mithril anvil is here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 150
+Cost 45000
+End
+
+#90499
+Name mithril chunk rough ~
+Short a rough [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m chunk~
+DMat 13
+Descr
+A rough mithril chunk lies here gathering dust.
+~
+Type 38
+Maxinroom 0
+Wear 16385
+Values 13 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 5000
+End
+
+#90500
+Name mithril needle sharp ~
+Short a sharp [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m needle~
+DMat 13
+Descr
+A sharp mithril needle is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 16
+Cost 5000
+End
+
+#90501
+Name mithril mortar small ~
+Short a small [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m mortar~
+DMat 13
+Descr
+A small mithril mortar lies here gathering dust.
+~
+Type 15
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 4500
+End
+
+#90502
+Name mithril pestle knobbed ~
+Short a knobbed [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m pestle~
+DMat 13
+Descr
+A knobbed mithril pestle is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 18
+Cost 5625
+End
+
+#90503
+Name mithril flail razor-edged ~
+Short a razor-edged [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m flail~
+DMat 13
+Descr
+A razor-edged mithril flail has been left here.
+~
+Type 5
+Extra 269484032
+Maxinroom 0
+Wear 16385
+Values 0 27 0 4 0 0 0 8 2 0 0
+Weight 37
+Cost 11250
+Affect 18 4 1 0 0
+End
+
+#90504
+Name mithril dagger wicked ~
+Short a wicked [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m dagger~
+DMat 13
+Descr
+A wicked mithril dagger lies here gathering dust.
+~
+Type 5
+Extra 131073
+Maxinroom 0
+Wear 24577
+Values 0 27 0 11 0 0 0 5 3 0 0
+Weight 30
+Cost 9000
+End
+
+#90505
+Name mithril sword serrated ~
+Short a serrated [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m sword~
+DMat 13
+Descr
+A serrated mithril sword lies here gathering dust.
+~
+Type 5
+Extra 268697600
+Maxinroom 0
+Wear 16385
+Values 0 27 0 3 0 0 0 3 6 0 0
+Weight 50
+Cost 15000
+Affect 18 2 1 0 0
+End
+
+#90506
+Name mithril axe apb~
+Short a gigantic [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m axe~
+DMat 13
+Descr
+A gigantic mithril axe is here.
+~
+Type 5
+Extra 270532608
+Maxinroom 0
+Wear 16385
+Values 0 27 0 12 0 0 0 2 9 0 0
+Weight 75
+Cost 22500
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90507
+Name mithril halberd spiked ~
+Short a spiked [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m halberd~
+DMat 13
+Descr
+A spiked mithril halberd lies here gathering dust.
+~
+Type 5
+Extra 335544320
+Maxinroom 0
+Wear 16385
+Values 0 27 0 15 0 0 0 2 9 0 0
+Weight 75
+Cost 22500
+Affect 19 2 1 0 0
+End
+
+#90508
+Name mithril club 2apb apb~
+Short a lead-shod [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m club~
+DMat 13
+Descr
+A lead-shod mithril club is here.
+~
+Type 5
+Extra 268959744
+Maxinroom 0
+Wear 16385
+Values 0 27 0 7 0 0 0 2 8 0 0
+Weight 50
+Cost 15000
+Affect 19 2 1 0 0
+Affect 18 2 1 0 0
+End
+
+#90509
+Name mithril shortbow light ~
+Short a light [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m shortbow~
+DMat 13
+Descr
+A light mithril shortbow has been left here.
+~
+Type 5
+Extra 268435968
+Maxinroom 0
+Wear 16385
+Values 0 27 0 7 1 0 0 8 1 0 0
+Weight 21
+Cost 6428
+End
+
+#90510
+Name mithril crossbow heavy ~
+Short a heavy [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m crossbow~
+DMat 13
+Descr
+A heavy mithril crossbow has been left here.
+~
+Type 5
+Extra 268435968
+Maxinroom 0
+Wear 16385
+Values 0 27 0 7 2 0 0 2 7 0 0
+Weight 30
+Cost 9000
+End
+
+#90511
+Name mithril longbow huge ~
+Short a huge [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m longbow~
+DMat 13
+Descr
+A huge mithril longbow has been left here.
+~
+Type 5
+Extra 268435968
+Maxinroom 0
+Wear 16385
+Values 0 27 0 7 3 0 0 9 1 0 0
+Weight 37
+Cost 11250
+End
+
+#90512
+Name mithril arrow short ~
+Short a short [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m arrow~
+DMat 13
+Descr
+A short mithril arrow lies here gathering dust.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 8 1 0 0 1 0 0 0 0 0 0
+Weight 3
+Cost 1125
+End
+
+#90513
+Name mithril bolt crossbow ~
+Short a crossbow [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m bolt~
+DMat 13
+Descr
+A crossbow mithril bolt is here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 2 7 0 0 2 0 0 0 0 0 0
+Weight 4
+Cost 1285
+End
+
+#90514
+Name mithril shaft clothyard ~
+Short a clothyard [1m[30mm[36mi[1mt[37mh[36mr[0m[36mi[1m[30ml[0m shaft~
+DMat 13
+Descr
+A clothyard mithril shaft is here.
+~
+Type 7
+Maxinroom 0
+Wear 16385
+Values 6 2 0 0 3 0 0 0 0 0 0
+Weight 5
+Cost 1500
+End
+
+#90520
+Name orichalicum breastplate sturdy ~
+Short a sturdy [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m breastplate~
+DMat 14
+Descr
+A sturdy orichalicum breastplate is here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 9
+Values 0 6 0 0 0 0 45 45 0 4 0
+Weight 12
+Cost 20000
+Affect 13 10 1 0 0
+Affect 14 5 1 0 0
+Affect 20 3 1 0 0
+Affect 17 5 1 0 0
+End
+
+#90521
+Name orichalicum helmet heavy ~
+Short a heavy [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m helmet~
+DMat 14
+Descr
+A heavy orichalicum helmet is here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 17
+Values 0 0 4 0 0 0 45 45 0 4 0
+Weight 20
+Cost 12000
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+Affect 20 3 1 0 0
+Affect 18 3 1 0 0
+Affect 17 3 1 0 0
+End
+
+#90522
+Name orichalicum greaves dirty ~
+Short a dirty [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m greaves~
+DMat 14
+Descr
+A dirty orichalicum greaves has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 33
+Values 5 0 0 0 0 0 45 45 0 4 0
+Weight 9
+Cost 12000
+Affect 17 3 1 0 0
+Affect 13 25 1 0 0
+Affect 14 25 1 0 0
+End
+
+#90523
+Name orichalicum boots dusty ~
+Short a dusty [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m boots~
+DMat 14
+Descr
+A dusty orichalicum boots lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 65
+Values 4 0 0 0 0 0 45 45 0 4 0
+Weight 18
+Cost 12000
+Affect 13 10 1 0 0
+Affect 18 2 1 0 0
+Affect 14 50 1 0 0
+Affect 17 2 1 0 0
+End
+
+#90524
+Name orichalicum gauntlets thin ~
+Short a thin [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m gauntlets~
+DMat 14
+Descr
+A thin orichalicum gauntlets has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 129
+Values 0 0 0 6 0 0 45 45 0 4 0
+Weight 20
+Cost 10000
+Affect 13 20 1 0 0
+Affect 14 10 1 0 0
+Affect 20 3 1 0 0
+End
+
+#90525
+Name orichalicum armplates thick ~
+Short a thick [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m armplates~
+DMat 14
+Descr
+A thick orichalicum armplates has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 257
+Values 0 0 0 5 0 0 45 45 0 4 0
+Weight 18
+Cost 12000
+Affect 14 10 1 0 0
+Affect 13 10 1 0 0
+Affect 18 10 1 0 0
+Affect 17 2 1 0 0
+End
+
+#90526
+Name orichalicum belt flimsy ~
+Short a flimsy [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m belt~
+DMat 14
+Descr
+A flimsy orichalicum belt is here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 2049
+Values 0 4 0 0 0 0 45 45 0 4 0
+Weight 18
+Cost 8571
+Affect 13 25 1 0 0
+Affect 20 3 1 0 0
+Affect 17 4 1 0 0
+End
+
+#90527
+Name orichalicum shield solid ~
+Short a solid [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m shield~
+DMat 14
+Descr
+A solid orichalicum shield has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 513
+Values 2 2 2 2 2 0 45 45 0 4 0
+Weight 25
+Cost 15000
+Affect 13 10 1 0 0
+Affect 20 5 1 0 0
+Affect 14 5 1 0 0
+Affect 17 5 1 0 0
+End
+
+#90528
+Name orichalicum mask slitted ~
+Short a slitted [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m mask~
+DMat 14
+Descr
+A slitted orichalicum mask has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 65537
+Values 0 0 7 0 0 0 45 45 0 4 0
+Weight 18
+Cost 8571
+Affect 13 20 1 0 0
+Affect 14 5 1 0 0
+Affect 20 3 1 0 0
+Affect 17 2 1 0 0
+End
+
+#90529
+Name orichalicum earring dangling ~
+Short a dangling [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m earring~
+DMat 14
+Descr
+A dangling orichalicum earring lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 262145
+Values 0 0 4 0 0 0 45 45 0 4 0
+Weight 32
+Cost 6666
+Affect 13 20 1 0 0
+Affect 20 3 1 0 0
+Affect 17 1 1 0 0
+End
+
+#90530
+Name orichalicum bracelet sparkling ~
+Short a sparkling [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m bracelet~
+DMat 14
+Descr
+A sparkling orichalicum bracelet has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 4097
+Values 0 0 0 4 0 0 45 45 0 4 0
+Weight 32
+Cost 6666
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+Affect 20 3 1 0 0
+Affect 18 2 1 0 0
+End
+
+#90531
+Name orichalicum anklet spiked ~
+Short a spiked [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m anklet~
+DMat 14
+Descr
+A spiked orichalicum anklet has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 524289
+Values 4 0 0 0 0 0 45 45 0 4 0
+Weight 24
+Cost 6666
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+Affect 18 5 1 0 0
+Affect 20 3 1 0 0
+End
+
+#90532
+Name orichalicum ring carved ~
+Short a carved [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m ring~
+DMat 14
+Descr
+A carved orichalicum ring lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 3
+Values 0 0 0 4 0 0 45 45 0 4 0
+Weight 22
+Cost 6666
+Affect 14 5 1 0 0
+Affect 13 10 1 0 0
+Affect 20 3 1 0 0
+Affect 17 3 1 0 0
+End
+
+#90533
+Name orichalicum necklace flowing ~
+Short a flowing [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m necklace~
+DMat 14
+Descr
+A flowing orichalicum necklace has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 5
+Values 0 4 0 0 0 0 45 45 0 4 0
+Weight 22
+Cost 6666
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+Affect 20 3 1 0 0
+End
+
+#90534
+Name orichalicum shoulderplate layered ~
+Short a layered [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m shoulderplate~
+DMat 14
+Descr
+A layered orichalicum shoulderplate lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 32769
+Values 0 4 0 0 0 0 45 45 0 4 0
+Weight 28
+Cost 6666
+Affect 14 5 1 0 0
+Affect 13 20 1 0 0
+Affect 17 4 1 0 0
+End
+
+#90535
+Name orichalicum kneepad reinforced ~
+Short a reinforced [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m kneepad~
+DMat 14
+Descr
+A reinforced orichalicum kneepad has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 2097153
+Values 4 0 0 0 0 0 45 45 0 4 0
+Weight 32
+Cost 6666
+Affect 14 5 1 0 0
+Affect 17 3 1 0 0
+Affect 13 15 1 0 0
+End
+
+#90536
+Name orichalicum elbowpad protective ~
+Short a protective [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m elbowpad~
+DMat 14
+Descr
+A protective orichalicum elbowpad has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 10 0 0 45 45 0 4 0
+Weight 32
+Cost 6666
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+Affect 18 5 1 0 0
+Affect 20 3 1 0 0
+End
+
+#90537
+Name orichalicum hammer weighty ~
+Short a weighty [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m hammer~
+DMat 14
+Descr
+A weighty orichalicum hammer is here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 75
+Cost 10000
+End
+
+#90538
+Name orichalicum anvil huge ~
+Short a huge [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m anvil~
+DMat 14
+Descr
+A huge orichalicum anvil has been left here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 290
+Cost 15000
+End
+
+#90539
+Name orichalicum chunk rough ~
+Short a rough [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m chunk~
+DMat 14
+Descr
+A rough orichalicum chunk is here.
+~
+Type 38
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 14 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 7500
+End
+
+#90540
+Name orichalicum needle sharp ~
+Short a sharp [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m needle~
+DMat 14
+Descr
+A sharp orichalicum needle is here.
+~
+Type 27
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 32
+Cost 6666
+End
+
+#90541
+Name orichalicum mortar small ~
+Short a small [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m mortar~
+DMat 14
+Descr
+A small orichalicum mortar has been left here.
+~
+Type 15
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 29
+Cost 6000
+End
+
+#90542
+Name orichalicum pestle knobbed ~
+Short a knobbed [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m pestle~
+DMat 14
+Descr
+A knobbed orichalicum pestle has been left here.
+~
+Type 27
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 36
+Cost 7500
+End
+
+#90543
+Name orichalicum flail razor-edged ~
+Short a razor-edged [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m flail~
+DMat 14
+Descr
+A razor-edged orichalicum flail is here.
+~
+Type 5
+Extra 303038464
+Maxinroom 0
+Wear 16385
+Values 0 45 0 4 0 0 0 3 7 0 0
+Weight 72
+Cost 15000
+Affect 18 4 1 0 0
+End
+
+#90544
+Name orichalicum dagger wicked ~
+Short a wicked [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m dagger~
+DMat 14
+Descr
+A wicked orichalicum dagger lies here gathering dust.
+~
+Type 5
+Extra 302120960
+Maxinroom 0
+Wear 24577
+Values 0 45 0 11 0 0 0 7 2 0 0
+Weight 58
+Cost 12000
+Affect 18 3 1 0 0
+End
+
+#90545
+Name orichalicum sword serrated ~
+Short a serrated [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m sword~
+DMat 14
+Descr
+A serrated orichalicum sword lies here gathering dust.
+~
+Type 5
+Extra 302252032
+Maxinroom 0
+Wear 24577
+Values 0 45 0 3 0 0 0 6 3 0 0
+Weight 96
+Cost 20000
+Affect 18 2 1 0 0
+End
+
+#90546
+Name orichalicum axe apb~
+Short a gigantic [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m axe~
+DMat 14
+Descr
+A gigantic orichalicum axe lies here gathering dust.
+~
+Type 5
+Extra 304119808
+Maxinroom 0
+Wear 16385
+Values 0 45 0 12 0 0 0 2 10 0 0
+Weight 145
+Cost 30000
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90547
+Name orichalicum halberd spiked ~
+Short a spiked [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m halberd~
+DMat 14
+Descr
+A spiked orichalicum halberd lies here gathering dust.
+~
+Type 5
+Extra 369131520
+Maxinroom 0
+Wear 16385
+Values 0 45 0 15 0 0 0 2 10 0 0
+Weight 145
+Cost 30000
+Affect 19 2 1 0 0
+End
+
+#90548
+Name orichalicum club 2apb apb~
+Short a lead-shod [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m club~
+DMat 14
+Descr
+A lead-shod orichalicum club is here.
+~
+Type 5
+Extra 302514176
+Maxinroom 0
+Wear 16385
+Values 0 45 0 7 0 0 0 8 2 0 0
+Weight 96
+Cost 20000
+Affect 19 2 1 0 0
+Affect 18 -3 1 0 0
+End
+
+#90549
+Name orichalicum shortbow light ~
+Short a light [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m shortbow~
+DMat 14
+Descr
+A light orichalicum shortbow lies here gathering dust.
+~
+Type 5
+Extra 302023168
+Maxinroom 0
+Wear 16385
+Values 0 45 0 7 1 0 0 9 1 0 0
+Weight 41
+Cost 8571
+End
+
+#90550
+Name orichalicum crossbow heavy ~
+Short a heavy [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m crossbow~
+DMat 14
+Descr
+A heavy orichalicum crossbow lies here gathering dust.
+~
+Type 5
+Extra 302023168
+Maxinroom 0
+Wear 16385
+Values 0 45 0 7 2 0 0 3 5 0 0
+Weight 58
+Cost 12000
+End
+
+#90551
+Name orichalicum longbow huge ~
+Short a huge [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m longbow~
+DMat 14
+Descr
+A huge orichalicum longbow lies here gathering dust.
+~
+Type 5
+Extra 302023168
+Maxinroom 0
+Wear 16385
+Values 0 45 0 7 3 0 0 2 8 0 0
+Weight 72
+Cost 15000
+End
+
+#90552
+Name orichalicum arrow short ~
+Short a short [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m arrow~
+DMat 14
+Descr
+A short orichalicum arrow has been left here.
+~
+Type 7
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 9 1 0 0 1 0 0 0 0 0 0
+Weight 7
+Cost 1500
+End
+
+#90553
+Name orichalicum bolt crossbow ~
+Short a crossbow [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m bolt~
+DMat 14
+Descr
+A crossbow orichalicum bolt lies here gathering dust.
+~
+Type 7
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 3 5 0 0 2 0 0 0 0 0 0
+Weight 8
+Cost 1714
+End
+
+#90554
+Name orichalicum shaft clothyard ~
+Short a clothyard [33mo[31mr[1mic[0m[31mh[33ma[31ml[1mic[0m[31mu[33mm[0m shaft~
+DMat 14
+Descr
+A clothyard orichalicum shaft has been left here.
+~
+Type 7
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 10 1 0 0 3 0 0 0 0 0 0
+Weight 9
+Cost 2000
+End
+
+#90560
+Name adamantium breastplate body apb~
+Short a sturdy [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m breastplate~
+DMat 15
+Descr
+A sturdy adamantium breastplate lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 9
+Values 0 6 0 0 0 0 60 60 0 4 0
+Weight 13
+Cost 26666
+Affect 19 1 1 0 0
+End
+
+#90561
+Name adamantium helmet heavy apb~
+Short a heavy [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m helmet~
+DMat 15
+Descr
+A heavy adamantium helmet is here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 17
+Values 0 0 8 0 0 0 60 60 0 4 0
+Weight 9
+Cost 16000
+Affect 19 1 1 0 0
+End
+
+#90562
+Name adamantium greaves apb~
+Short a dirty [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m greaves~
+DMat 15
+Descr
+A dirty adamantium greaves lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 33
+Values 8 0 0 0 0 0 60 60 0 4 0
+Weight 14
+Cost 16000
+Affect 19 1 1 0 0
+End
+
+#90563
+Name adamantium boots dusty ~
+Short a dusty [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m boots~
+DMat 15
+Descr
+A dusty adamantium boots lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 65
+Values 10 0 0 0 0 0 60 60 0 4 0
+Weight 18
+Cost 16000
+Affect 22 5 1 0 0
+Affect 17 3 1 0 0
+Affect 18 2 1 0 0
+End
+
+#90564
+Name adamantium gauntlets apb hand~
+Short a thin [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m gauntlets~
+DMat 15
+Descr
+A thin adamantium gauntlets lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 129
+Values 0 0 0 8 0 0 60 60 0 4 0
+Weight 15
+Cost 13333
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+Affect 17 3 1 0 0
+End
+
+#90565
+Name adamantium armplates arm apb~
+Short a thick [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m armplates~
+DMat 15
+Descr
+A thick adamantium armplates has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 257
+Values 0 0 0 8 0 0 60 60 0 4 0
+Weight 30
+Cost 16000
+Affect 19 1 1 0 0
+End
+
+#90566
+Name adamantium belt flimsy ~
+Short a flimsy [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m belt~
+DMat 15
+Descr
+A flimsy adamantium belt lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 2049
+Values 0 6 0 0 0 0 60 60 0 4 0
+Weight 9
+Cost 11428
+Affect 18 3 1 0 0
+Affect 17 3 1 0 0
+Affect 14 10 1 0 0
+Affect 13 5 1 0 0
+End
+
+#90567
+Name adamantium shield apb~
+Short a solid [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m shield~
+DMat 15
+Descr
+A solid adamantium shield has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 513
+Values 4 4 4 4 0 0 60 60 0 4 0
+Weight 9
+Cost 20000
+Affect 19 1 1 0 0
+Affect 17 5 1 0 0
+Affect 14 5 1 0 0
+End
+
+#90568
+Name adamantium mask slitted apb~
+Short a slitted [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m mask~
+DMat 15
+Descr
+A slitted adamantium mask has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 65537
+Values 0 0 10 0 0 0 60 60 0 4 0
+Weight 30
+Cost 11428
+Affect 19 1 1 0 0
+End
+
+#90569
+Name adamantium earring dangling ~
+Short a dangling [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m earring~
+DMat 15
+Descr
+A dangling adamantium earring lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 262145
+Values 0 0 6 0 0 0 60 60 0 4 0
+Weight 30
+Cost 8888
+Affect 14 5 1 0 0
+Affect 20 3 1 0 0
+End
+
+#90570
+Name adamantium bracelet sparkling ~
+Short a sparkling [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m bracelet~
+DMat 15
+Descr
+A sparkling adamantium bracelet is here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 4097
+Values 0 0 0 5 0 0 60 60 0 4 0
+Weight 20
+Cost 8888
+Affect 17 3 1 0 0
+Affect 13 5 1 0 0
+End
+
+#90571
+Name adamantium anklet spiked ~
+Short a spiked [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m anklet~
+DMat 15
+Descr
+A spiked adamantium anklet has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 524289
+Values 6 0 0 0 0 0 60 60 0 4 0
+Weight 21
+Cost 8888
+Affect 14 5 1 0 0
+Affect 17 1 1 0 0
+Affect 20 3 1 0 0
+End
+
+#90572
+Name adamantium ring apb~
+Short a carved [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m ring~
+DMat 15
+Descr
+A carved adamantium ring has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 3
+Values 0 0 0 5 0 0 60 60 0 4 0
+Weight 30
+Cost 8888
+Affect 19 1 1 0 0
+Affect 14 3 1 0 0
+Affect 17 2 1 0 0
+End
+
+#90573
+Name adamantium necklace apb~
+Short a flowing [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m necklace~
+DMat 15
+Descr
+A flowing adamantium necklace has been left here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 5
+Values 0 6 0 0 0 0 60 60 0 4 0
+Weight 9
+Cost 8888
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+Affect 17 3 1 0 0
+End
+
+#90574
+Name adamantium shoulderplate shoulder apb~
+Short a layered [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m shoulderplate~
+DMat 15
+Descr
+A layered adamantium shoulderplate lies here gathering dust.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 32769
+Values 0 5 0 0 0 0 60 60 0 4 0
+Weight 21
+Cost 8888
+Affect 17 3 1 0 0
+Affect 14 5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#90575
+Name adamantium kneepad apb~
+Short a reinforced [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m kneepad~
+DMat 15
+Descr
+A reinforced adamantium kneepad is here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 2097153
+Values 5 0 0 0 0 0 60 60 0 4 0
+Weight 9
+Cost 8888
+Affect 22 2 1 0 0
+Affect 14 5 1 0 0
+Affect 17 3 1 0 0
+Affect 19 1 1 0 0
+End
+
+#90576
+Name adamantium elbowpad protective ~
+Short a protective [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m elbowpad~
+DMat 15
+Descr
+A protective adamantium elbowpad is here.
+~
+Type 9
+Extra 33554432
+Maxinroom 0
+Wear 1048577
+Values 0 0 0 6 0 0 60 60 0 4 0
+Weight 14
+Cost 8888
+Affect 13 5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#90577
+Name adamantium hammer weighty ~
+Short a weighty [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m hammer~
+DMat 15
+Descr
+A weighty adamantium hammer has been left here.
+~
+Type 27
+Maxinroom 0
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 100
+Cost 40000
+End
+
+#90578
+Name adamantium anvil huge ~
+Short a huge [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m anvil~
+DMat 15
+Descr
+A huge adamantium anvil is here.
+~
+Type 12
+Maxinroom 0
+Wear 1
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 30
+Cost 80000
+End
+
+#90579
+Name adamantium chunk rough ~
+Short a rough [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m chunk~
+DMat 15
+Descr
+A rough adamantium chunk has been left here.
+~
+Type 38
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 15 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 7500
+End
+
+#90580
+Name adamantium needle sharp ~
+Short a sharp [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m needle~
+DMat 15
+Descr
+A sharp adamantium needle is here.
+~
+Type 27
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 32 0 0 0 0 0 0 0 0 0 0
+Weight 30
+Cost 8888
+End
+
+#90581
+Name adamantium mortar small ~
+Short a small [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m mortar~
+DMat 15
+Descr
+A small adamantium mortar lies here gathering dust.
+~
+Type 15
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 100 64 0 0 0 0 0 0 0 0 0
+Weight 32
+Cost 8000
+End
+
+#90582
+Name adamantium pestle knobbed ~
+Short a knobbed [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m pestle~
+DMat 15
+Descr
+A knobbed adamantium pestle has been left here.
+~
+Type 27
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 64 0 0 0 0 0 0 0 0 0 0
+Weight 32
+Cost 10000
+End
+
+#90583
+Name adamantium flail razor-edged ~
+Short a razor-edged [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m flail~
+DMat 15
+Descr
+A razor-edged adamantium flail has been left here.
+~
+Type 5
+Extra 303038464
+Maxinroom 0
+Wear 16385
+Values 0 60 0 4 0 0 0 9 2 0 0
+Weight 15
+Cost 20000
+Affect 18 5 1 0 0
+End
+
+#90584
+Name adamantium dagger wicked apb 2apb~
+Short a wicked [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m dagger~
+DMat 15
+Descr
+A wicked adamantium dagger lies here gathering dust.
+~
+Type 5
+Extra 302120960
+Maxinroom 0
+Wear 24577
+Values 0 60 0 11 0 0 0 8 2 0 0
+Weight 32
+Cost 16000
+Affect 18 4 1 0 0
+Affect 19 2 1 0 0
+End
+
+#90585
+Name adamantium sword apb~
+Short a serrated [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m sword~
+DMat 15
+Descr
+A serrated adamantium sword has been left here.
+~
+Type 5
+Extra 306184192
+Maxinroom 0
+Wear 24577
+Values 0 60 0 3 0 0 0 9 2 0 0
+Weight 9
+Cost 26666
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+End
+
+#90586
+Name adamantium axe 2apb apb~
+Short a gigantic [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m axe~
+DMat 15
+Descr
+A gigantic adamantium axe is here.
+~
+Type 5
+Extra 304119808
+Maxinroom 0
+Wear 16385
+Values 0 60 0 12 0 0 0 8 2 0 0
+Weight 23
+Cost 40000
+Affect 19 2 1 0 0
+Affect 18 2 1 0 0
+End
+
+#90587
+Name adamantium halberd spiked ~
+Short a spiked [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m halberd~
+DMat 15
+Descr
+A spiked adamantium halberd lies here gathering dust.
+~
+Type 5
+Extra 369098752
+Maxinroom 0
+Wear 16385
+Values 0 60 0 15 0 0 0 4 5 0 0
+Weight 35
+Cost 40000
+Affect 19 3 1 0 0
+Affect 18 1 1 0 0
+End
+
+#90588
+Name adamantium club 2apb apb~
+Short a lead-shod [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m club~
+DMat 15
+Descr
+A lead-shod adamantium club lies here gathering dust.
+~
+Type 5
+Extra 302514176
+Maxinroom 0
+Wear 16385
+Values 0 60 0 7 0 0 0 8 2 0 0
+Weight 83
+Cost 26666
+Affect 19 2 1 0 0
+End
+
+#90589
+Name adamantium shortbow light ~
+Short a light [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m shortbow~
+DMat 15
+Descr
+A light adamantium shortbow is here.
+~
+Type 5
+Extra 302023168
+Maxinroom 0
+Wear 16385
+Values 0 60 0 7 1 0 0 2 8 0 0
+Weight 50
+Cost 11428
+End
+
+#90590
+Name adamantium crossbow heavy ~
+Short a heavy [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m crossbow~
+DMat 15
+Descr
+A heavy adamantium crossbow lies here gathering dust.
+~
+Type 5
+Extra 302023168
+Maxinroom 0
+Wear 16385
+Values 0 60 0 7 2 0 0 5 3 0 0
+Weight 70
+Cost 16000
+End
+
+#90591
+Name adamantium longbow huge ~
+Short a huge [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m longbow~
+DMat 15
+Descr
+A huge adamantium longbow is here.
+~
+Type 5
+Extra 302023168
+Maxinroom 0
+Wear 16385
+Values 0 60 0 7 3 0 0 4 4 0 0
+Weight 87
+Cost 20000
+End
+
+#90592
+Name adamantium arrow short ~
+Short a short [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m arrow~
+DMat 15
+Descr
+A short adamantium arrow lies here gathering dust.
+~
+Type 7
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 2 8 0 0 1 0 0 0 0 0 0
+Weight 8
+Cost 2000
+End
+
+#90593
+Name adamantium bolt crossbow ~
+Short a crossbow [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m bolt~
+DMat 15
+Descr
+A crossbow adamantium bolt is here.
+~
+Type 7
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 5 3 0 0 2 0 0 0 0 0 0
+Weight 10
+Cost 2285
+End
+
+#90594
+Name adamantium shaft clothyard ~
+Short a clothyard [35ma[1m[35md[0mam[1m[37man[0mti[1m[35mu[0m[35mm[0m shaft~
+DMat 15
+Descr
+A clothyard adamantium shaft has been left here.
+~
+Type 7
+Extra 33554432
+Maxinroom 0
+Wear 16385
+Values 2 9 0 0 3 0 0 0 0 0 0
+Weight 11
+Cost 2666
+End
+
+#90700
+Name belt blackened leather apb~
+Short a flimsy [30m[1mblackened [0m[33mleather [0mbelt~
+Descr
+A flimsy looking belt lies here on the ground.
+[0;36m~
+Type 9
+Extra 16777216
+Wear 2049
+Values 0 2 0 0 0 0 6 6 0 0 0
+Weight 40
+Cost 22
+Affect 19 1 1 0 0
+End
+
+#90701
+Name plate~
+Short a flimsy [30m[1mblackened [0m[33mleather [0mplatemail~
+Descr
+Some sort of platemail is laying on the ground.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 9
+Values 0 2 0 0 0 0 7 7 0 0 0
+Weight 67
+Cost 0
+Affect 19 1 1 0 0
+End
+
+#90702
+Name shoulder spiked leather apb~
+Short a flimsy [1m[30mspiked[0m [33mleather [0mshoulderguard~
+Descr
+A spiked type of armor lies here on the ground.
+[0;36m~
+Type 9
+Extra 16777216
+Wear 32769
+Values 0 2 0 0 0 0 7 7 0 0 0
+Weight 44
+Cost 63
+Affect 19 1 1 0 0
+End
+
+#90703
+Name sleeves~
+Short a pair of flimsy [1m[30mblackened [0m[33mleather [0msleeves~
+Descr
+A set of sleeves made of a flimsy material lay here on the ground.
+[0;36m~
+Type 9
+Extra 16777216
+Wear 257
+Values 0 0 0 1 0 0 7 7 0 0 0
+Weight 39
+Cost 68
+Affect 19 1 1 0 0
+End
+
+#90704
+Name gauntlets blackened leather apb~
+Short a set of flimsy [1m[30mblackened [0m[33mleather [0mgauntlets~
+Descr
+A flimsy pair of gauntlets lay here on the ground.
+[0;36m~
+Type 9
+Extra 16777216
+Wear 129
+Values 0 0 0 2 0 0 7 7 0 0 0
+Weight 27
+Cost 88
+Affect 19 1 1 0 0
+End
+
+#90705
+Name ring braided blackened leather apb~
+Short a [30m[1mb[0m[33mr[0m[30m[1ma[0m[33mi[0m[30m[1md[0m[33me[0m[30m[1md blackened [0m[33mleather [0mring~
+Descr
+A flimsy looking ring lays here on the ground.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 3
+Values 0 0 0 1 0 0 7 7 0 0 0
+Weight 19
+Cost 42
+Affect 19 1 1 0 0
+End
+
+#90706
+Name shield leather blackened apb~
+Short a reinforced [1m[30mblackened [0m[33mleather [0mshield~
+Descr
+A strudy looking leather shield has been left on the ground.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 513
+Values 0 1 1 1 0 0 7 7 0 0 0
+Weight 123
+Cost 49
+Affect 19 1 1 0 0
+End
+
+#90707
+Name wristguard wrist blackened leather apb~
+Short a flimsy [1m[30mblackened [0m[33mleather [0mwristguard~
+Descr
+A poorly made wristguard has been left on the ground.
+[0;36m~
+Type 9
+Wear 4097
+Values 0 0 0 1 0 0 7 7 0 0 0
+Weight 63
+Cost 44
+Affect 19 1 1 0 0
+End
+
+#90708
+Name blackened leather elbowguard elbow apb~
+Short a flimsy [1m[30mblackened [0m[33mleather [0melbowguard~
+Descr
+A flimsy looking elbowguard lies here being disregarded.
+[0;36m~
+Type 9
+Wear 1048577
+Values 0 0 0 1 0 0 7 7 0 0 0
+Weight 61
+Cost 57
+Affect 19 1 1 0 0
+End
+
+#90709
+Name test~
+Short a [30m[1mb[0m[33mr[0m[30m[1ma[0m[33mi[0m[30m[1md[0m[33me[0m[30m[1md blackened [0m[33mleather [0mring~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#90000
+Name ~
+Descr
+~
+End
+
+#90179
+Name ~
+Descr
+~
+End
+
+#90185
+Name ~
+Descr
+~
+Door 0 0 0 91084 0 0
+~
+~
+End
+
+#90560
+Name ~
+Descr
+~
+Flags 4
+Sector 0
+End
+
+#0
+
+
+
+#$

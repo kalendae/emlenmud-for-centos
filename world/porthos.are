@@ -1,0 +1,2771 @@
+#AREADATA 
+Name Tunnels of Eaidan~
+Repop [1;30m[1;30m[1;30m[1;30m[1;30m[1;30m[1;30m[1;30m[1;30m[1;30m[1;30m[1;30mA bug crawls up your leg.  You pick it off and squish it.
+~
+SRepop 40
+SCZone 0
+Builders Porthos~
+VNUMs 9400 9550
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#9400
+Name assassin~
+Short an assassin of eaidan~
+Long 
+An assassin of Eaidan hides in the darkness.
+~
+AMax 4
+NHeight 80
+ActBits 10
+Affect_By 66088
+Money 90
+Level 50
+Sex 1
+MobType 26
+Hp 13
+Guard 0
+End
+
+#9401
+Name no name~
+Short (no short description)~
+Long 
+(no long description)
+~
+AMax 5
+NHeight 0
+Level 0
+Guard 0
+End
+
+#9402
+Name old hermit~
+Short an old hermit~
+Long 
+An old hermit has made this place his home.
+~
+AMax 1
+NHeight 80
+ActBits 2
+Affect_By 65706
+Money 325
+Level 200
+Sex 1
+MobType 1
+Hp 15
+Guard 0
+Spec spec_warrior
+End
+
+#9403
+Name eaidan PRAC~
+Short eaidan~
+Long 
+The legendary human wizard, Eaidan, meditates here.
+~
+AMax 1
+NHeight 140
+ActBits 258
+Affect_By 128
+Money 300
+Level 300
+Sex 1
+MobType 0
+Hp 15
+Guard 0
+End
+
+#9404
+Name beast garou~
+Short the garou~
+Long 
+A fifteen-foot tall beast is sharpening his claws here.
+~
+AMax 1
+NHeight 180
+ActBits 10
+Affect_By 554
+Money 165
+Level 170
+MobType 5
+Hp 17
+Guard 0
+End
+
+#9405
+Name zifnab~
+Short zifnab~
+Long 
+Zifnab, one of Eaidan's students is meditating here.
+~
+AMax 1
+NHeight 77
+ActBits 2
+Affect_By 680
+Money 250
+Level 200
+Sex 1
+MobType 1
+Hp 15
+Guard 0
+End
+
+#9406
+Name angry centaur~
+Short an angry centaur~
+Long 
+A huge centaur stands here, poised to attack.
+~
+AMax 1
+NHeight 193
+ActBits 10
+Affect_By 552
+Money 175
+Level 170
+Sex 1
+MobType 6
+Hp 15
+Guard 0
+End
+
+#9407
+Name lefkin thief~
+Short lefkin the thief~
+Long 
+Lefkin the sneaky thief hides in the mist, eying your equipment.
+~
+AMax 1
+NHeight 72
+ActBits 10
+Affect_By 66088
+Money 150
+Level 170
+Sex 1
+MobType 26
+Hp 13
+Guard 0
+Spec spec_thief
+End
+
+#9408
+Name three headed dog~
+Short a three-headed dog~
+Long 
+A three-headed dog looks at you intently.
+~
+AMax 1
+NHeight 40
+ActBits 10
+Affect_By 552
+Money 125
+Level 170
+MobType 6
+Hp 12
+Guard 0
+End
+
+#9409
+Name red beast~
+Short the red beast~
+Long 
+The infamous red beast stands here, gnawing on a bone.
+~
+AMax 1
+NHeight 200
+ActBits 10
+Affect_By 680
+Money 275
+Level 200
+MobType 5
+Hp 15
+Guard 0
+End
+
+#9410
+Name lion~
+Short the lion~
+Long 
+The lion crouches in a corner, watching your every move.
+~
+AMax 1
+NHeight 60
+ActBits 2
+Affect_By 552
+Money 200
+Level 200
+Sex 1
+MobType 6
+Hp 13
+Guard 0
+End
+
+#9411
+Name saa'kz priestess~
+Short saa'kz the priestess~
+Long 
+Saa'kz the Priestess smiles at you as you enter her chamber.
+~
+AMax 1
+NHeight 70
+ActBits 2
+Affect_By 680
+Money 300
+Level 200
+Sex 2
+MobType 1
+Hp 15
+Guard 0
+End
+
+#9412
+Name small bat~
+Short a small bat~
+Long 
+A small bat is flying above your head.
+~
+AMax 5
+NHeight 15
+ActBits 8
+Affect_By 552
+Money 10
+Level 10
+MobType 7
+Guard 0
+End
+
+#9413
+Name wolf ferocious~
+Short a ferocious wolf~
+Long 
+A ferocious wolf is here, chained to the cage.
+~
+AMax 3
+NHeight 40
+ActBits 2
+Affect_By 552
+Money 101
+Level 101
+MobType 6
+Hp 15
+Guard 0
+End
+
+#9414
+Name tame lion~
+Short a tame lion~
+Long 
+A tamed lion rests here, cleaning himself.
+~
+AMax 3
+NHeight 60
+ActBits 2
+Money 101
+Level 101
+Sex 1
+MobType 6
+Hp 15
+Guard 0
+End
+
+#9415
+Name a small boy~
+Short a small boy~
+Long 
+A small boy is here
+~
+AMax 5
+NHeight 0
+ActBits 2
+Alignment 1
+Money 300
+Level 300
+Sex 1
+Hp 50
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#9400
+Name cloak shadows~
+Short a [34mcloak [0mof [1m[30mshadows[0m~
+Descr
+A long, black cloak rests here.
+[0;36m~
+Type 9
+Wear 1025
+Values 1 3 1 1 0 0 40 40 0 0 0
+Weight 15
+Cost 4500
+Affect 18 2 1 0 0
+Affect 14 5 1 0 0
+End
+
+#9401
+Name pulsating blue stone gem~
+Short a [1m[31mpu[0m[31mls[34ma[1m[34mti[1m[32mn[1m[34mg s[0m[34mt[31mo[1m[31mne~
+Descr
+A pulsating blue stone hovers several feet off the ground.
+[0;36m~
+Type 21
+Extra 33554433
+Wear 16385
+Values 13 60 60 40 0 0 0 0 0 0 0
+Weight 2
+Cost 6239
+End
+
+#9402
+Name orb protection floater~
+Short [0man [1m[32morb[0m of [1m[34mprotection[0m~
+Descr
+An orb floats a few feet above the ground.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 131073
+Values 1 1 1 1 0 0 0 0 0 0 0
+Weight 0
+Cost 18278
+Affect 17 4 1 0 0
+Affect 15 15 1 0 0
+End
+
+#9403
+Name trash~
+Short trash~
+Descr
+An annoying doll sits here, kick it somewhere!
+[0;36m~
+Type 13
+Extra 131074
+Wear 24577
+Values 0 50 0 11 0 0 0 40 50 0 0
+Weight 0
+Cost 999999
+End
+
+#9404
+Name small metal box~
+Short a small metal box~
+Descr
+A small metal box sits in the corner of the chamber.
+[0;36m~
+Type 15
+Wear 0
+Values 100 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9405
+Name sapphire golden belt~
+Short [0ma [1m[33mgolden[0m belt studded with [1m[34ms[37map[34mph[37mir[34mes[0m~
+Descr
+A beautiful golden belt dripping with sapphires rests here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 2049
+Values 0 3 0 0 0 0 40 40 0 0 0
+Weight 20
+Cost 27733
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#9406
+Name small sapphire earstud stud earring~
+Short [0ma small, [1m[34ms[37map[34mph[37mir[34me[0m earstud~
+Descr
+A small earring enlaid with a sapphire lies here.
+[0;36m~
+Type 9
+Extra 1
+Wear 262145
+Values 0 0 3 0 0 0 20 20 0 0 0
+Weight 5
+Cost 26363
+Affect 14 10 1 0 0
+Affect 13 10 1 0 0
+Affect 15 10 1 0 0
+End
+
+#9407
+Name large granite key~
+Short a large, granite key~
+Descr
+A heavy key made of granite rests here.
+[0;36m~
+Type 18
+Extra 16384
+Wear 1
+Weight 50
+Cost 0
+End
+
+#9408
+Name portal~
+Short a mystical portal~
+Descr
+A mystical portal has been opened here.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 9470 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9409
+Name hole~
+Short a small hole~
+Descr
+A small hole.
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 9479 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9410
+Name crack~
+Short a crack in the wall~
+Descr
+A crack in the wall.
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 9400 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9411
+Name mirror~
+Short a mirror~
+Descr
+A mirror rests against the wall, shining your reflection.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 9462 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9412
+Name no name~
+Short (no short description)~
+Descr
+(no description)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#9413
+Name strange portal~
+Short a strange portal~
+Descr
+A strange portal is here, leading to an unknown place.
+[0;36m~
+Type 12
+Wear 0
+Values 4 9482 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9414
+Name no name~
+Short (no short description)~
+Descr
+(no description)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#9415
+Name red portal~
+Short a [1m[31mred[0m portal~
+Descr
+A [1m[31mred[0m[36m portal is here, making strange noises.
+[0;36m~
+Type 12
+Wear 0
+Values 4 9483 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9416
+Name no name~
+Short (no short description)~
+Descr
+(no description)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#9417
+Name crystal clear portal~
+Short a clear portal~
+Descr
+A crystal clear portal is here, shining brightly.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 9485 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9418
+Name no name~
+Short (no short description)~
+Descr
+(no description)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#9419
+Name mask garou~
+Short [0mthe [37mm[1m[30mas[0m[37mk [0mof the [37mg[1m[30maro[0m[37mu[0m~
+Descr
+A spiked mask sits here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 65537
+Values 0 0 4 0 0 0 0 0 0 0 0
+Weight 15
+Cost 2737
+Affect 19 1 1 0 0
+Affect 18 -2 1 0 0
+End
+
+#9420
+Name aura zifnab floater~
+Short [0mThe [1m[36mAura[0m of [1m[31mZifnab[0m~
+Descr
+The spirit of Zifnab is hovering a few inches off the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 131073
+Values 1 2 2 1 0 0 50 50 0 0 0
+Weight 0
+Cost 23663
+Affect 14 15 1 0 0
+Affect 13 10 1 0 0
+Affect 15 15 1 0 0
+End
+
+#9421
+Name claws centaur~
+Short [0mthe [1m[30mc[0m[31ml[1m[30ma[0m[31mw[1m[30ms[0m of the centaur~
+Descr
+A pair of claws sit here, twitching.
+[0;36m~
+Type 9
+Wear 129
+Values 0 0 0 4 20 10 30 30 10 10 0
+Weight 10
+Cost 2633
+Affect 13 12 1 0 0
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#9422
+Name boots stealth~
+Short [1m[30mb[0m[37moot[1m[30ms [0mof [1m[30ms[0m[37mtealt[1m[30mh[0m~
+Descr
+A pair of black boots lean against the wall.
+[0;36m~
+Type 9
+Wear 65
+Values 3 0 0 0 0 0 50 50 0 0 0
+Weight 5
+Cost 26331
+Affect 22 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#9423
+Name strange collar~
+Short a strange collar~
+Descr
+A strange looking collar sits here.
+[0;36m~
+Type 9
+Extra 2
+Wear 5
+Values 0 0 2 0 0 0 50 50 0 0 0
+Weight 5
+Cost 2633
+Affect 13 15 1 0 0
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#9424
+Name manacle beast anklet~
+Short [0mthe [0m[34mm[1ma[37mn[36ma[37mc[34ml[0m[34me[0m of the [1m[31mRed Beast[0m~
+Descr
+A rusted manacle lies here.
+[0;36m~
+Type 9
+Extra 1
+Wear 524289
+Values 2 0 0 0 0 0 40 40 0 0 0
+Weight 10
+Cost 9172
+Affect 19 1 1 0 0
+Affect 15 -20 1 0 0
+Affect 22 2 1 0 0
+Affect 13 5 1 0 0
+End
+
+#9425
+Name lion's mane~
+Short a [1m[33ml[0m[33mi[1m[33mo[0m[33mn[1m[33m'[0m[33ms mane[0m~
+Descr
+A lion's mane rests here.
+[0;36m~
+Type 9
+Wear 5
+Values 0 0 0 0 0 0 50 50 0 0 0
+Weight 10
+Cost 0
+Affect 18 2 1 0 0
+Affect 13 10 1 0 0
+Affect 15 5 1 0 0
+End
+
+#9426
+Name holy robes saa'kz~
+Short [0mthe [1m[37mHoly [1m[34mRobes [0mof [1m[36mSaa'kz[0m~
+Descr
+Some white robes lie on the ground.
+[0;36m~
+Type 9
+Extra 2
+Wear 1025
+Values 0 3 0 0 0 0 50 50 0 0 0
+Weight 20
+Cost 10002
+Affect 20 2 1 0 0
+Affect 17 2 1 0 0
+Affect 13 -5 1 0 0
+Affect 15 15 1 0 0
+End
+
+#9427
+Name rastan mystical aura floater~
+Short [1m[34mMys[36mti[34mcal [31ma[33mur[31ma[0m of [1m[37mR[32ma[0m[32mst[1m[32ma[37mN[0m~
+Descr
+A ruling aura is here.
+[0;36m~
+Type 9
+Extra 2
+Wear 131073
+Values 1 1 1 1 0 0 0 0 0 0 0
+Weight 0
+Cost 2000
+Affect 15 20 1 0 0
+Affect 13 5 1 0 0
+Affect 17 -3 1 0 0
+End
+
+#9428
+Name lion's claw~
+Short lion's claw~
+Descr
+A rather large lion's claw rests here.
+[0;36m~
+Type 5
+Extra 537133058
+Wear 16385
+Values 0 25 0 5 0 0 0 5 4 0 0
+Weight 20
+Cost 2733
+Affect 19 1 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#9400
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 3541 0 0
+~
+~
+Door 1 0 0 9401 0 0
+~
+~
+Door 4 0 0 0 0 0
+~
+~
+End
+
+#9401
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9402 0 0
+~
+~
+Door 3 0 0 9400 0 0
+~
+~
+End
+
+#9402
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 2 0 0 9403 0 0
+~
+~
+Door 3 0 0 9401 0 0
+~
+~
+End
+
+#9403
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9402 0 0
+~
+~
+Door 3 0 0 9404 0 0
+~
+~
+End
+
+#9404
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9403 0 0
+~
+~
+Door 4 0 0 9405 0 0
+~
+~
+End
+
+#9405
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 2 0 0 9406 0 0
+~
+~
+Door 5 0 0 9404 0 0
+~
+~
+End
+
+#9406
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9405 0 0
+~
+~
+Door 1 0 0 9407 0 0
+~
+~
+End
+
+#9407
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 2 0 0 9408 0 0
+~
+~
+Door 3 0 0 9406 0 0
+~
+~
+End
+
+#9408
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9407 0 0
+~
+~
+Door 4 0 0 9409 0 0
+~
+~
+End
+
+#9409
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9410 0 0
+~
+~
+Door 5 0 0 9408 0 0
+~
+~
+End
+
+#9410
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 2 0 0 9409 0 0
+~
+~
+Door 3 0 0 9411 0 0
+~
+~
+End
+
+#9411
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9412 0 0
+~
+~
+Door 1 0 0 9410 0 0
+~
+~
+End
+
+#9412
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9413 0 0
+~
+~
+Door 2 0 0 9411 0 0
+~
+~
+End
+
+#9413
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 3 0 0 9412 0 0
+~
+~
+Door 5 0 0 9414 0 0
+~
+~
+End
+
+#9414
+Name A Twisty, Jagged Tunnel~
+Descr
+This tunnel is extremely narrow and has sharp, jagged rocks along the
+ceiling and walls which are ready to pierce you. Moving through this tunnel
+is very tough, and in some areas you have to crawl just to squeeze by. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9415 0 0
+~
+~
+Door 4 0 0 9413 0 0
+~
+~
+End
+
+#9415
+Name A Twisty, Jagged Tunnel~
+Descr
+You have reached the end of this horrid tunnel, and are relieved. Several
+cuts and scrapes line your arms from the jagged rocks. There is a steel
+grate blocking further movement to the east. 
+~
+Flags 4
+Sector 0
+Door 1 3 0 9416 30 30
+~
+grate~
+Door 3 0 0 9414 0 0
+~
+~
+End
+
+#9416
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. There is a steel grate to the west. 
+~
+Flags 5
+Sector 0
+Door 1 0 0 9417 0 0
+~
+~
+Door 3 3 0 9415 30 30
+~
+grate~
+End
+
+#9417
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Reset M 9400 6 100
+Reset O 9400 11 20
+Door 1 0 0 9418 0 0
+~
+~
+Door 3 0 0 9416 0 0
+~
+~
+End
+
+#9418
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Door 1 0 0 9419 0 0
+~
+~
+Door 3 0 0 9417 0 0
+~
+~
+End
+
+#9419
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Reset M 9400 6 100
+Reset O 9400 11 20
+Door 1 0 0 9420 0 0
+~
+~
+Door 3 0 0 9418 0 0
+~
+~
+End
+
+#9420
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Door 1 0 0 9422 0 0
+~
+~
+Door 3 0 0 9419 0 0
+~
+~
+End
+
+#9421
+Name ~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+End
+
+#9422
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Reset M 9400 6 100
+Reset O 9400 11 20
+Door 1 0 0 9423 0 0
+~
+~
+Door 3 0 0 9420 0 0
+~
+~
+End
+
+#9423
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Door 1 0 0 9424 0 0
+~
+~
+Door 3 0 0 9422 0 0
+~
+~
+End
+
+#9424
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Reset M 9400 6 100
+Reset O 9400 11 20
+Door 0 0 0 9425 0 0
+~
+~
+Door 3 0 0 9423 0 0
+~
+~
+End
+
+#9425
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Door 1 0 0 9426 0 0
+~
+~
+Door 2 0 0 9424 0 0
+~
+~
+End
+
+#9426
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Reset M 9400 6 100
+Reset O 9400 11 20
+Door 1 0 0 9427 0 0
+~
+~
+Door 3 0 0 9425 0 0
+~
+~
+End
+
+#9427
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Door 1 0 0 9428 0 0
+~
+~
+Door 3 0 0 9426 0 0
+~
+~
+End
+
+#9428
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. 
+~
+Flags 5
+Sector 0
+Reset M 9400 6 100
+Reset O 9400 11 20
+Door 1 0 0 9429 0 0
+~
+~
+Door 3 0 0 9427 0 0
+~
+~
+End
+
+#9429
+Name A Long, Dark Tunnel~
+Descr
+This long tunnel is so dark, you can only see about 3 feet in front of
+you. Every few moments you can hear something moving about in the darkness,
+but can't make out what is causing it. A sloping passage continues just
+below you. 
+~
+Flags 5
+Sector 0
+Door 3 0 0 9428 0 0
+~
+~
+Door 5 0 0 9430 0 0
+~
+~
+End
+
+#9430
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 4 0 0 9429 0 0
+~
+~
+Door 5 0 0 9431 0 0
+~
+~
+End
+
+#9431
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 4 0 0 9430 0 0
+~
+~
+Door 5 0 0 9433 0 0
+~
+~
+End
+
+#9432
+Name ~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+End
+
+#9433
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9434 0 0
+~
+~
+Door 4 0 0 9431 0 0
+~
+~
+End
+
+#9434
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 3 0 0 9433 0 0
+~
+~
+Door 5 0 0 9435 0 0
+~
+~
+End
+
+#9435
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 4 0 0 9434 0 0
+~
+~
+Door 5 0 0 9436 0 0
+~
+~
+End
+
+#9436
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 2 0 0 9437 0 0
+~
+~
+Door 4 0 0 9435 0 0
+~
+~
+End
+
+#9437
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9436 0 0
+~
+~
+Door 5 0 0 9438 0 0
+~
+~
+End
+
+#9438
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 4 0 0 9437 0 0
+~
+~
+Door 5 0 0 9439 0 0
+~
+~
+End
+
+#9439
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9440 0 0
+~
+~
+Door 4 0 0 9438 0 0
+~
+~
+End
+
+#9440
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9441 0 0
+~
+~
+Door 3 0 0 9439 0 0
+~
+~
+End
+
+#9441
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 3 0 0 9440 0 0
+~
+~
+Door 5 0 0 9442 0 0
+~
+~
+End
+
+#9442
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 4 0 0 9441 0 0
+~
+~
+Door 5 0 0 9443 0 0
+~
+~
+End
+
+#9443
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 4 0 0 9442 0 0
+~
+~
+Door 5 0 0 9444 0 0
+~
+~
+End
+
+#9444
+Name A Decending Passage~
+Descr
+This passage descends deep into the ground. The floor of this passage
+looks worn in, so obviously you are not the first to travel along it. Some
+areas of the floor are slippery.. watch your step. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9445 0 0
+~
+~
+Door 4 0 0 9443 0 0
+~
+~
+End
+
+#9445
+Name A Dead End~
+Descr
+The passage has led to a dead end. Nothing left to do but to turn back
+around and head home. Although you have a strange feeling about this room..
+as if there were another exit.. 
+~
+Flags 4
+Sector 0
+Reset M 9402 1 100
+Reset O 9402 21 2
+Door 2 0 0 9444 0 0
+~
+~
+Door 5 259 0 9446 30 30
+~
+rocks~
+End
+
+#9446
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9447 0 0
+~
+~
+Door 4 259 0 9445 30 30
+~
+rocks~
+End
+
+#9447
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 2 0 0 9448 0 0
+~
+~
+Door 3 0 0 9446 0 0
+~
+~
+End
+
+#9448
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9447 0 0
+~
+~
+Door 1 0 0 9449 0 0
+~
+~
+Door 2 259 0 9486 30 30
+~
+slab~
+End
+
+#9449
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9450 0 0
+~
+~
+Door 3 0 0 9448 0 0
+~
+~
+End
+
+#9450
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9451 0 0
+~
+~
+Door 3 0 0 9449 0 0
+~
+~
+End
+
+#9451
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9452 0 0
+~
+~
+Door 3 0 0 9450 0 0
+~
+~
+End
+
+#9452
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9453 0 0
+~
+~
+Door 3 0 0 9451 0 0
+~
+~
+End
+
+#9453
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9454 0 0
+~
+~
+Door 2 0 0 9452 0 0
+~
+~
+End
+
+#9454
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 2 0 0 9453 0 0
+~
+~
+Door 3 0 0 9455 0 0
+~
+~
+End
+
+#9455
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9456 0 0
+~
+~
+Door 1 0 0 9454 0 0
+~
+~
+End
+
+#9456
+Name A Musty Passage~
+Descr
+This passage has a strange, musty smell permeating throughout it. Maggots
+and other creatures crawl about the floor, and cobwebs line the walls. This
+is not a very good place to be. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9457 0 0
+~
+~
+Door 2 0 0 9455 0 0
+~
+~
+End
+
+#9457
+Name A Large, Musty Chamber~
+Descr
+This large chamber has the same musty smell that the passage did, only a
+lot worse. Looking around, you notice that the walls are made of rough
+granite. There is a large granite door to the north with ancient
+inscriptions upon it. 
+~
+Flags 4
+Sector 0
+Reset O 9407 -5 100
+Door 0 23 9407 9458 100 100
+~
+large, granite door~
+Door 2 0 0 9456 0 0
+~
+~
+End
+
+#9458
+Name Falling Towards a Pit~
+Descr
+You're FALLLLIIINNNGGGG!!!  
+~
+Flags 25604
+Sector 0
+Move_dir 5
+Movemess
+falling towards a pit.
+~
+Door 5 0 0 9459 0 0
+~
+~
+End
+
+#9459
+Name Falling Towards a Pit~
+Descr
+You're FALLLLIIINNNGGGG!!!  
+~
+Flags 25604
+Sector 0
+Move_dir 5
+Movemess
+falling towards a pit.
+~
+Door 5 0 0 9460 0 0
+~
+~
+End
+
+#9460
+Name Falling Towards a Pit~
+Descr
+You're FALLLLIIINNNGGGG!!!  
+~
+Flags 25604
+Sector 0
+Move_dir 5
+Movemess
+falling through time.
+~
+Door 5 0 0 9461 0 0
+~
+~
+End
+
+#9461
+Name A Cold, Dark Pit~
+Descr
+You've landed in a cold, dark pit and it seems there's no way out. Some
+supernatural force pins you to the ground. You pray quietly for a moment
+hoping that you'll find a way out. 
+~
+Flags 50353156
+Sector 0
+Door 2 259 0 9469 30 30
+~
+crumblingwall~
+End
+
+#9462
+Name A Mystical Chamber~
+Descr
+This chamber is surrounded by a mystical aura. You feel very relaxed
+here, and you feel beckoned to take a seat. Your wounds begin to close
+quicker as you sit down. 
+~
+Flags 3145732
+Sector 0
+Reset O 9408 -5 100
+Door 0 0 0 9463 0 0
+~
+~
+End
+
+#9463
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9464 0 0
+~
+~
+Door 2 0 0 9462 0 0
+~
+~
+Door 3 259 0 9481 30 30
+~
+wall~
+End
+
+#9464
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9465 0 0
+~
+~
+Door 2 0 0 9463 0 0
+~
+~
+End
+
+#9465
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9466 0 0
+~
+~
+Door 2 0 0 9464 0 0
+~
+~
+End
+
+#9466
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9467 0 0
+~
+~
+Door 2 259 0 9480 30 30
+~
+loose board~
+Door 3 0 0 9465 0 0
+~
+~
+End
+
+#9467
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Reset O 9409 -5 100
+Door 0 0 0 9468 0 0
+~
+~
+Door 2 0 0 9466 0 0
+~
+~
+End
+
+#9468
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Door 1 259 0 9478 30 30
+~
+panel~
+Door 2 0 0 9467 0 0
+~
+~
+Door 3 0 0 9469 0 0
+~
+~
+End
+
+#9469
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+further along. You notice a crack on the northern wall. 
+~
+Flags 4
+Sector 0
+Reset O 9410 -5 100
+Door 1 0 0 9468 0 0
+~
+~
+End
+
+#9470
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Reset O 9411 -5 100
+Door 0 0 0 9471 0 0
+~
+~
+End
+
+#9471
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Door 2 0 0 9470 0 0
+~
+~
+Door 3 0 0 9472 0 0
+~
+~
+End
+
+#9472
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Reset O 9413 -5 100
+Door 1 0 0 9471 0 0
+~
+~
+Door 3 0 0 9473 0 0
+~
+~
+End
+
+#9473
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9472 0 0
+~
+~
+Door 3 0 0 9474 0 0
+~
+~
+End
+
+#9474
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Reset O 9415 -5 100
+Door 1 0 0 9473 0 0
+~
+~
+Door 2 0 0 9475 0 0
+~
+~
+End
+
+#9475
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9474 0 0
+~
+~
+Door 2 259 0 9484 30 30
+~
+sliding wall~
+Door 3 0 0 9476 0 0
+~
+~
+End
+
+#9476
+Name The Hallway of Legends~
+Descr
+This hallway has a strange feeling to it. A strange blue mist rises from
+the floor, and the walls emit a bluish hue. You feel relaxed as you continue
+walking further along the hallway. 
+~
+Flags 4
+Sector 0
+Reset O 9417 -5 100
+Door 1 0 0 9475 0 0
+~
+~
+Door 3 0 0 9477 0 0
+~
+~
+End
+
+#9477
+Name A Sapphire-Lined Chamber~
+Descr
+This chamber is extremely large and spacious. Its walls are lined with
+good-sized sapphire gems which reflect the light beautifly to create a
+stunning image on the ceiling. 
+~
+Flags 4
+Sector 0
+Reset M 9403 1 100
+Reset O 9401 -1 1
+Reset O 9405 -1 5
+Reset O 9406 -1 5
+Door 1 0 0 9476 0 0
+~
+~
+End
+
+#9478
+Name A Dark Chamber~
+Descr
+This chamber is very dark, the only thing you can see are two red eyes
+staring at you. The eyes seem to be growing.. and you realize this is not a
+good place to be right now. 
+~
+Flags 5
+Sector 0
+Reset M 9404 1 100
+Reset O 9419 -1 5
+Door 5 259 0 9469 30 30
+~
+latch~
+End
+
+#9479
+Name A Bright Chamber~
+Descr
+This chamber is so bright that you must cover your eyes to prevent
+becoming blind. Through the light, you notice a small figure meditating
+peacefully in the center of the chamber. 
+~
+Flags 4
+Sector 0
+Reset M 9405 1 100
+Reset O 9420 -1 5
+Door 5 259 0 9469 30 30
+~
+latch~
+End
+
+#9480
+Name A Jet-Black Chamber~
+Descr
+This chamber's walls, floor and ceiling look as if they were burned. The
+smell of sulphur permeates the room. A large beast resembling both a horse
+and a muscled man is ready to attack you. 
+~
+Flags 4
+Sector 0
+Reset M 9406 1 100
+Reset O 9421 -1 8
+Door 5 259 0 9469 30 30
+~
+latch~
+End
+
+#9481
+Name A Mist-Filled Chamber~
+Descr
+This chamber is filled with a cloudy mist. You cannot see anything, it is
+like standing in absolute darkness. The sound of someone drawing a dagger
+causes your heart to skip a beat. 
+~
+Flags 4
+Sector 0
+Reset M 9407 1 100
+Reset O 9422 -1 8
+Reset O 24 -1 3
+Reset O 208 21 100
+Door 5 259 0 9469 30 30
+~
+latch~
+End
+
+#9482
+Name A Strange Looking Room~
+Descr
+This is a very strange room. Each wall is a different color, and odd
+shapes seem to be floating about the room. You see a three-headed dog
+staring at you, and almost faint. 
+~
+Flags 4
+Sector 0
+Reset M 9408 1 100
+Reset O 9423 2 15
+Reset O 9423 2 15
+Door 5 259 0 9469 30 30
+~
+latch~
+End
+
+#9483
+Name The Chamber of the Red Beast~
+Descr
+This chamber is a very dirty one. As you glance around, you see bones
+strewn about the room, and bloody corpses of unlucky victims. Before you
+know it, an enormous red beast is on top of you, clawing at your face. 
+~
+Flags 4
+Sector 0
+Reset M 9409 1 100
+Reset O 9424 -1 2
+Door 5 259 0 9469 30 30
+~
+latch~
+End
+
+#9484
+Name A Large Chamber~
+Descr
+This chamber is very large.. and smelly. Its walls are concrete, along
+with its floor. Just as you are about to sit and take a rest, you spot a
+lion staring you down. 
+~
+Flags 4
+Sector 0
+Reset M 9410 1 100
+Reset O 9428 21 1
+Reset O 9425 2 10
+Reset O 9425 3 10
+Door 5 259 0 9469 30 30
+~
+latch~
+End
+
+#9485
+Name A Chamber of Ivory~
+Descr
+This chamber is very beautiful. Its walls and ceiling are constructed of
+white ivory. Scenic paintings line the walls, you feel at peace. 
+~
+Flags 4
+Sector 0
+Reset M 9411 1 100
+Reset O 9426 -1 5
+Door 5 259 0 9469 30 30
+~
+latch~
+End
+
+#9486
+Name A Blackened Corridor~
+Descr
+This corridor is blackened, perhaps it caught fire at one time.. it sure
+smells like it. Piles of ash can be seen on the floor, and ocassionally you
+hear a bat flap its wings overhead. 
+~
+Flags 4
+Sector 0
+Reset M 9412 5 100
+Door 0 259 0 9448 30 30
+~
+slab~
+Door 2 0 0 9487 0 0
+~
+~
+End
+
+#9487
+Name A Blackened Corridor~
+Descr
+This corridor is blackened, perhaps it caught fire at one time.. it sure
+smells like it. Piles of ash can be seen on the floor, and ocassionally you
+hear a bat flap its wings overhead. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9486 0 0
+~
+~
+Door 2 0 0 9488 0 0
+~
+~
+End
+
+#9488
+Name A Blackened Corridor~
+Descr
+This corridor is blackened, perhaps it caught fire at one time.. it sure
+smells like it. Piles of ash can be seen on the floor, and ocassionally you
+hear a bat flap its wings overhead. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9487 0 0
+~
+~
+Door 3 0 0 9489 0 0
+~
+~
+End
+
+#9489
+Name A Blackened Corridor~
+Descr
+This corridor is blackened, perhaps it caught fire at one time.. it sure
+smells like it. Piles of ash can be seen on the floor, and ocassionally you
+hear a bat flap its wings overhead. 
+~
+Flags 4
+Sector 0
+Reset M 9412 5 100
+Door 1 0 0 9488 0 0
+~
+~
+Door 2 0 0 9490 0 0
+~
+~
+End
+
+#9490
+Name A Blackened Corridor~
+Descr
+This corridor is blackened, perhaps it caught fire at one time.. it sure
+smells like it. Piles of ash can be seen on the floor, and ocassionally you
+hear a bat flap its wings overhead. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9489 0 0
+~
+~
+Door 2 0 0 9491 0 0
+~
+~
+End
+
+#9491
+Name Above a Dark Shaft~
+Descr
+You are standing just above an almost vertical shaft. As you peer down
+into the darkness, loose rocks fall and make a pinging sound at the bottom. 
+~
+Flags 4
+Sector 0
+Reset M 9412 5 100
+Door 0 0 0 9490 0 0
+~
+~
+Door 5 0 0 9492 0 0
+~
+~
+End
+
+#9492
+Name A Dark Shaft~
+Descr
+You are travelling inside a pitch-black shaft. It is hard to see what is
+going on, and you slip several times on loose rocks and debris. Watch your
+step down here, because a fall may be fatal. 
+~
+Flags 4
+Sector 0
+Door 4 0 0 9491 0 0
+~
+~
+Door 5 0 0 9493 0 0
+~
+~
+End
+
+#9493
+Name A Dark Shaft~
+Descr
+You are travelling inside a pitch-black shaft. It is hard to see what is
+going on, and you slip several times on loose rocks and debris. Watch your
+step down here, because a fall may be fatal. 
+~
+Flags 4
+Sector 0
+Door 4 0 0 9492 0 0
+~
+~
+Door 5 0 0 9494 0 0
+~
+~
+End
+
+#9494
+Name A Dark Shaft~
+Descr
+You are travelling inside a pitch-black shaft. It is hard to see what is
+going on, and you slip several times on loose rocks and debris. Watch your
+step down here, because a fall may be fatal. 
+~
+Flags 4
+Sector 0
+Door 4 0 0 9493 0 0
+~
+~
+Door 5 0 0 9495 0 0
+~
+~
+End
+
+#9495
+Name Bottom of the Dark Shaft~
+Descr
+You've reached the bottom of the dangerous shaft safely. Whew, what a
+relief. You notice several remains of unlucky victims scattered about the
+ground here. Good thing you watched your step. 
+~
+Flags 4
+Sector 0
+Reset M 9412 5 100
+Door 0 0 0 9496 0 0
+~
+~
+Door 4 0 0 9494 0 0
+~
+~
+End
+
+#9496
+Name A Blackened Corridor~
+Descr
+This corridor is blackened, perhaps it caught fire at one time.. it sure
+smells like it. Piles of ash can be seen on the floor, and ocassionally you
+hear a bat flap its wings overhead. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9497 0 0
+~
+~
+Door 2 0 0 9495 0 0
+~
+~
+End
+
+#9497
+Name A Blackened Corridor~
+Descr
+This corridor is blackened, perhaps it caught fire at one time.. it sure
+smells like it. Piles of ash can be seen on the floor, and ocassionally you
+hear a bat flap its wings overhead. 
+~
+Flags 4
+Sector 0
+Reset M 9412 5 100
+Door 1 0 0 9498 0 0
+~
+~
+Door 2 0 0 9496 0 0
+~
+~
+End
+
+#9498
+Name A Blackened Corridor~
+Descr
+This corridor is blackened, perhaps it caught fire at one time.. it sure
+smells like it. Piles of ash can be seen on the floor, and ocassionally you
+hear a bat flap its wings overhead. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9499 0 0
+~
+~
+Door 3 0 0 9497 0 0
+~
+~
+End
+
+#9499
+Name Before the Cages~
+Descr
+You are standing before the door to the cages. Growling and hissing can
+be heard to the east, along with the lashing of whips and chains. Doesn't
+sound like a safe place to be wandering. 
+~
+Flags 4
+Sector 0
+Reset M 9412 5 100
+Door 1 3 0 9500 30 30
+~
+door~
+Door 3 0 0 9498 0 0
+~
+~
+End
+
+#9500
+Name A Hallway~
+Descr
+This narrow hallway has cement walls and floors. Growling and hissing can
+be heard from all directions, along with the lashing of whips. This place
+seems like some sort of.. animal prison. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9508 0 0
+~
+~
+Door 1 0 0 9501 0 0
+~
+~
+Door 2 0 0 9509 0 0
+~
+~
+Door 3 3 0 9499 30 30
+~
+door~
+End
+
+#9501
+Name A Hallway~
+Descr
+This narrow hallway has cement walls and floors. Growling and hissing can
+be heard from all directions, along with the lashing of whips. This place
+seems like some sort of.. animal prison. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9510 0 0
+~
+~
+Door 1 0 0 9502 0 0
+~
+~
+Door 2 0 0 9511 0 0
+~
+~
+Door 3 0 0 9500 0 0
+~
+~
+End
+
+#9502
+Name A Hallway~
+Descr
+This narrow hallway has cement walls and floors. Growling and hissing can
+be heard from all directions, along with the lashing of whips. This place
+seems like some sort of.. animal prison. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9512 0 0
+~
+~
+Door 1 0 0 9503 0 0
+~
+~
+Door 2 0 0 9513 0 0
+~
+~
+Door 3 0 0 9501 0 0
+~
+~
+End
+
+#9503
+Name A Turn in the Hallway~
+Descr
+This narrow hallway has cement walls and floors. Growling and hissing can
+be heard from all directions, along with the lashing of whips. This place
+seems like some sort of.. animal prison. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 9514 0 0
+~
+~
+Door 2 0 0 9504 0 0
+~
+~
+Door 3 0 0 9502 0 0
+~
+~
+End
+
+#9504
+Name A Hallway~
+Descr
+This narrow hallway has cement walls and floors. Growling and hissing can
+be heard from all directions, along with the lashing of whips. This place
+seems like some sort of.. animal prison. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9503 0 0
+~
+~
+Door 1 0 0 9515 0 0
+~
+~
+Door 2 0 0 9505 0 0
+~
+~
+End
+
+#9505
+Name A Hallway~
+Descr
+This narrow hallway has cement walls and floors. Growling and hissing can
+be heard from all directions, along with the lashing of whips. This place
+seems like some sort of.. animal prison. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9504 0 0
+~
+~
+Door 1 0 0 9516 0 0
+~
+~
+Door 2 0 0 9506 0 0
+~
+~
+Door 3 0 0 9517 0 0
+~
+~
+End
+
+#9506
+Name A Hallway~
+Descr
+This narrow hallway has cement walls and floors. Growling and hissing can
+be heard from all directions, along with the lashing of whips. This place
+seems like some sort of.. animal prison. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 9505 0 0
+~
+~
+Door 1 0 0 9518 0 0
+~
+~
+Door 3 0 0 9519 0 0
+~
+~
+End
+
+#9507
+Name A Hallway~
+Descr
+~
+Flags 4
+Sector 0
+End
+
+#9508
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9413 6 100
+Door 2 0 0 9500 0 0
+~
+~
+End
+
+#9509
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9414 6 100
+Door 0 0 0 9500 0 0
+~
+~
+End
+
+#9510
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9413 6 100
+Door 2 0 0 9501 0 0
+~
+~
+End
+
+#9511
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9414 6 100
+Door 0 0 0 9501 0 0
+~
+~
+End
+
+#9512
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9413 6 100
+Door 2 0 0 9502 0 0
+~
+~
+End
+
+#9513
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9414 6 100
+Door 0 0 0 9502 0 0
+~
+~
+End
+
+#9514
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9413 6 100
+Door 3 0 0 9503 0 0
+~
+~
+End
+
+#9515
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9413 6 100
+Door 3 0 0 9504 0 0
+~
+~
+End
+
+#9516
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9413 6 100
+Door 3 0 0 9505 0 0
+~
+~
+End
+
+#9517
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9414 6 100
+Door 1 0 0 9505 0 0
+~
+~
+End
+
+#9518
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9414 6 100
+Door 3 0 0 9506 0 0
+~
+~
+End
+
+#9519
+Name Inside a Cage~
+Descr
+This small cage is the home of an angry looking animal. Its bars are
+rusted and it looks like it hasn't been cleaned in a while. 
+~
+Flags 4
+Sector 0
+Reset M 9414 6 100
+Door 1 0 0 9506 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,359 @@
+#AREADATA 
+Name Limbo Extended~
+Repop A cold wind passes by...
+~
+SCZone 0
+Builders Flatline~
+VNUMs 1000 1900
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#1801
+Name veronica woman very attractive barmaid~
+Short veronica~
+Long 
+Veronica is here, ready to serve you.
+~
+Descr
+You shy away as this womans stunning gaze meets yours.
+~
+AMax 5
+NHeight 0
+ActBits 2
+Level 900
+MobType 0
+Guard 0
+End
+
+#1802
+Name drake small~
+Short a small drake~
+Long 
+A small drake is flying around here.
+~
+AMax 3
+NHeight 0
+ActBits3 8388608
+Affect_By 524800
+Level 60
+Sex 1
+MobType 20
+Guard 0
+BCasts aura of flame~
+BCast_P 60
+End
+
+#1000
+Name ticket1 signum seller warrior~
+Short a warrior's guild signum seller~
+Long 
+A member of the warrior's guild wanders around selling signums here.
+~
+AMax 1
+Affect_By 8832
+Money 100
+Level 100
+MobType 0
+Hp 2
+Guard 0
+Spec spec_warrior
+Shop    0  13   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+ShopCr 5184
+ShopCS A warrior's guild signum seller makes a gesture and plucks a new signum out of thing air.~
+End
+
+#1001
+Name ticket10 signum seller battlemaster's guild~
+Short a battlemaster's signum seller~
+Long 
+A member of the battlemaster's guild wanders around selling tickets here.
+~
+AMax 1
+Affect_By 512
+Money 100
+Level 100
+MobType 0
+Hp 2
+Guard 0
+Shop    0   0   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+ShopCr 5212
+ShopCS A battlemaster's guild signum seller makes a gesture and plucks a new signum out of thing air.~
+End
+
+#1002
+Name ticket2 token signum ranger~
+Short a ranger's guild signum seller~
+Long 
+A member of the ranger's guild wanders around selling signums here.
+~
+AMax 1
+Affect_By 8832
+Money 100
+Level 100
+MobType 0
+Hp 2
+Guard 0
+Shop    0   0   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+ShopCr 5188
+ShopCS A ranger's guild signum seller makes a gesture and plucks a signum out of thin air.~
+End
+
+#1003
+Name ticket3 token signum wizard~
+Short a wizard's guild signum seller~
+Long 
+A member of the wizard's guild wanders around selling signums here.
+~
+AMax 1
+Affect_By 8832
+Money 100
+Level 100
+MobType 0
+Hp 2
+Guard 0
+Shop    0   0   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+ShopCr 5200
+ShopCS A wizard's guild signum seller makes a gesture and plucks a signum out of thin air.~
+End
+
+#1004
+Name ticket4 token signum sorcerer~
+Short a conjurer's guild signum seller~
+Long 
+A member of the conjurer's guild wanders around selling signums here.
+~
+AMax 1
+Affect_By 8832
+Money 100
+Level 100
+MobType 0
+Hp 2
+Guard 0
+Shop    0   0   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+ShopCr 5208
+ShopCS A conjurer's guild signum seller makes a gesture and plucks a signum out of thin air.~
+End
+
+#1005
+Name ticket5 signum seller tinker~
+Short a tinker's guild signum seller~
+Long 
+A member of the tinker's guild wanders around selling signums here.
+~
+AMax 1
+Affect_By 8832
+Money 100
+Level 100
+MobType 0
+Hp 30
+Guard 0
+Shop    0   0   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+ShopCr 5192
+ShopCS A tinker's guild signum seller makes a gesture and plucks a signum out of thin air.~
+End
+
+#1006
+Name ticket6 signum seller thief~
+Short a thieves guild signum seller~
+Long 
+A member of the thieves guild wanders around selling signums here.
+~
+AMax 1
+Affect_By 8832
+Money 100
+Level 100
+MobType 0
+Hp 2
+Guard 0
+Shop    0   0   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+ShopCr 5174
+ShopCS A thieves guild signum seller makes a gesture and plucks a signum out of thin air.~
+End
+
+#1007
+Name ticket7 token signum assassin~
+Short an assassin's guild signum seller~
+Long 
+A member of the assassin's guild wanders around selling signums here.
+~
+AMax 1
+Affect_By 8832
+Money 100
+Level 100
+MobType 0
+Hp 2
+Guard 0
+Shop    0   0   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+ShopCr 5180
+ShopCS An assassin's guild signum seller makes a gesture and plucks a signum out of thin air.~
+End
+
+#1008
+Name ticket8 signum seller healer~
+Short a healer's guild signum seller~
+Long 
+A member of the healer's guild wanders around selling signum here.
+~
+AMax 1
+Affect_By 8832
+Money 100
+Level 100
+MobType 0
+Hp 2
+Guard 0
+Shop    0   0   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+ShopCr 5194
+ShopCS A healer's guild signum seller makes a gesture and plucks a signum out of thin air.~
+End
+
+#1009
+Name ticket9 token signum mystic~
+Short a mystic's guild signum seller~
+Long 
+A member of the mystic's guild wanders around selling signums here.
+~
+AMax 1
+Affect_By 512
+Money 100
+Level 100
+MobType 0
+Hp 2
+Guard 0
+Shop    0   0   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+ShopCr 5204
+ShopCS A mystic's guild signum seller makes a gesture and plucks a signum out of thin air.~
+End
+
+#1500
+Name advance Mob~
+Short Advance Mob~
+Long 
+Advance Mob
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits4 4
+Level 500
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#1802
+Name morbid clown mask~
+Short a [31mm[36morbi[31md [31mc[36mlow[31mn [0m[35mmask~
+Descr
+A weeping mask seems to have lost its owner.
+[0;36m~
+Type 9
+Extra 2
+Wear 65537
+Values 0 0 0 0 0 0 0 60 0 0 0
+Weight 0
+Cost 0
+End
+
+#1403
+Name silvery anklet apb~
+Short a [1m[37msilvery[0m anklet~
+Descr
+A silvery anklet is discarded on the ground here.
+[0;36m~
+Type 9
+Wear 524289
+Values 0 0 0 0 0 0 0 8 0 0 0
+Weight 0
+Cost 0
+Affect 18 -2 1 0 0
+Affect 14 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#1449
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#1500
+Name chieftain face paint battle face~
+Short [1m[36mChi[1m[30meft[0m[36ma[1m[36min's [1m[30mfac[1m[31mep[1m[30mai[1m[31mn[1m[30mt [0mof [1m[31mbat[1m[30mtl[1m[31me's[0m~
+Descr
+Some chieftain's facepaint of battle's lay at your feet.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 65537
+Values 0 0 2 0 10 10 10 10 10 2 0
+Weight 5
+Cost 1
+Affect 18 2 1 0 0
+Affect 13 5 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#1800
+Name The Arc Bar~
+Descr
+A glamorous array of expensive liquor rests on skillfully carved dragon
+bone shelves. Tall stools reach up to a shiny bar table laden with rare
+eatables from all over the world. Mirrors on the ceiling multiply the space
+and clientele enhancing the ambience. Soft elvish melodies can be felt and
+heard in the air. The sound of civilized laughter helps you relax. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 2 0 0
+~
+~
+End
+
+#1000
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,417 @@
+# Format is: BODY_LOCATION <min_damage> <max_damage>  <ignore_this> <ignore_this>
+# %s is "slash" "pound" etc.. whatever weapon the person is using.
+# $n is the attacker.  $N is the person being attacked (or mob)
+# GENERIC is for mobs... (don't want us hitting legs of fish/etc)
+
+    
+GENERIC 1 2  1 2
+You %s $N.
+$7$n %ss $N.
+$n %ss you.
+GENERIC 3 4  3 4
+You %s $N hard.
+$7$n %ss $N hard.
+$n %ss you $6hard$3.
+GENERIC 5 7  5 6
+You %s $N very hard.
+$7$n %ss $N very hard.
+$n %ss you $6very hard$3.
+GENERIC 8 10  7 8
+You %s $N extremely hard.
+$7$n %ss $N extremely hard.
+$n %ss you $6extremely hard$3.
+GENERIC 11 14  9 10
+$N's face twists in pain from your %s.
+$7$n watches $N's face twist in pain caused by $s %s.
+Your face $6contorts in agony from$3 $n's %s.
+GENERIC 15 17 11 11
+Your %s connects accurately and with great force.
+$7$n's %s hits $N with skill and great force.
+$n %ss you with $6skill and great force$6.
+GENERIC 18 21 12 12
+Your %s connects accurately and with incredible force.
+$7$n's %s hits $N with amazing skill and incredible power.
+$n %ss you with $6incredible skill and power$3.
+GENERIC 22 24 13 14
+$N's body spasms with pain from your %s!
+$7$N's body spasms in pain from $n's powerful %s!
+$n's %s causes $6spasms$3 to your body!
+GENERIC 25 35 15 15
+You destroy $N with your captivating %s!
+$7$n destroys $N with $s captivating %s!
+$n $6destroys$3 you with $s captivating %s!
+GENERIC 36 45 16 17
+You mangle $N with your fearsome %s!
+$7$n mangles $N with $s fearsome %s!
+$n $6mangle's$3 you with $s fearsome %s!
+GENERIC 46 54 18 18
+You MUTILATE $N with your devastating %s!
+$7$n MUTILATES $N with $s devastating %s!
+$n $6MUTILATES$3 you with $s devastating %s!
+GENERIC 55 62 19 19
+You DECIMATE $N with your amazing %s!
+$7$n DECIMATE $N with $s amazing %s!
+$n $6DECIMATES$3 you with $s amazing %s!
+GENERIC 63 74 20 21
+You << ObliteratE >>  $N with your unbelievable %s!
+$7$n << ObliterateS >> $N with $s unbelievable %s!
+$n $6<< ObliterateS >>$3 you with $s unbelievable %s!
+GENERIC 75 88 22 23
+You <-< AnnihilatE >-> $N with your masterful %s!
+$7$n <-< AnnihilateS >-> $N with $s masterful %s!
+$n $6<-< AnnihilateS >->$3 you with $s masterful %s!
+GENERIC 89 110 24 25
+You <--< Pulverizes >--> $N with your unsurpassed %s!
+$7$n <--< Pulverizes >--> $N with $s unsurpassed %s!
+$n $6<--< Pulverizes >-->$3 you with $s unsurpassed %s!
+GENERIC 111 130 26 27
+You <<< EVISCERATE >>> $N with your unsurpassed %s!
+$7$n <<< EVISCERATES >>> $N with $s unsurpassed %s!
+$n $6<<< EVISCERATES >>>$3 you with $s unsurpassed %s!
+GENERIC 131 155 28 29
+You >>> LiQuIfY <<< $N with your mighty %s!
+$7$n >>> LiQuIfIeS <<< $N with $s mighty %s!
+$n $6>>> LiQuIfIeS <<<$3 you with $s mighty %s!
+GENERIC 156 253 30 31
+You [[[ ERADICATE ]]] $N with your hyper %s!
+$3$n [[[ ERADICATES ]]] $N with $s hyper %s!
+$n $6[[[ ERADICATES ]]]$3 you with $s hyper %s!
+GENERIC 254 399 32 33
+You ... .. .V a P o R i Z e. .. ...$N with your powerful %s!!
+$7$n ... .. .V a P o R i Z e S. .. ...$N with $s powerful %s!!
+$n $6... .. .V a P o R i Z e S. .. ...$7 you with $s powerful %s!!
+GENERIC 400 32000 34 100
+You $4. ._ ..__a T o M i Z e__.. _. .$5 $N with your %s!!
+$7$n $4. ._ ..__a T o M i Z e S__.. _. .$7 $N with $s %s!!
+$n $4. ._ ..__a T o M i Z e S__.. _. .$5$3 you with $s %s!!
+
+
+
+BODY 1 4  1 2
+You %s $N.
+$7$n %ss $N.
+$n %ss you.
+BODY 5 8  3 4
+You %s $N hard.
+$7$n %ss $N hard.
+$n %ss you $6hard$3.
+BODY 9 12  5 6
+You %s $N very hard.
+$7$n %ss $N very hard.
+$n %ss you $6very hard$3.
+BODY 13 15  7 8
+You %s $N extremely hard.
+$7$n %ss $N extremely hard.
+$n %ss you $6extremely hard$3.
+BODY 16 18  9 10
+$N's face twists in pain from your %s.
+$3$n watches $N's face twist in pain caused by $s %s.
+Your face $6contorts in agony$3 from $n's %s.
+BODY 19 22 11 11
+Your %s connects accurately and with great force.
+$7$n's %s hits $N with skill and great force.
+$n %ss you with $6skill and great force$3.
+BODY 23 26 12 12
+Your %s connects accurately and with incredible force.
+$7$n's %s hits $N with amazing skill and incredible power.
+$n %ss you with $6incredible skill and power$3.
+BODY 27 30 13 14
+$N's body spasms with pain from your %s!
+$7$N's body spasms in pain from $n's powerful %s!
+$n's %s causes $6spasms$3 to your body!
+BODY 31 37 15 15
+You destroy $N with your captivating %s!
+$7$n destroys $N with $s captivating %s!
+$n $6destroys$3 you with $s captivating %s!
+BODY 38 45 16 17
+You mangle $N with your fearsome %s!
+$7$n mangle's $N with $s fearsome %s!
+$n $6mangle's$3 you with $s fearsome %s!
+BODY 46 54 18 18
+You MUTILATE $N with your devastating %s!
+$7$n MUTILATES $N with $s devastating %s!
+$n $6MUTILATES$3 you with $s devastating %s!
+BODY 55 62 19 19
+You DECIMATE $N with your amazing %s!
+$7$n DECIMATES $N with $s amazing %s!
+$n $6DECIMATES$3 you with $s amazing %s!
+BODY 63 74 20 21
+You << ObliteratE >> $N with your unbelievable %s!
+$7$n << ObliterateS >> $N with $s unbelievable %s!
+$n $6<< ObliterateS >>$3 you with $s unbelievable %s!
+BODY 75 88 22 23
+You <-< AnnihilatE >-> $N with your masterful %s!
+$7$n <-< AnnihilateS >-> $N with $s masterful %s!
+$n $6<-< AnnihilateS >->$3 you with $s masterful %s!
+BODY 89 110 24 25
+You <--< Pulverizes >--> $N with your unsurpassed %s!
+$7$n <--< Pulverizes >--> $N with $s unsurpassed %s!
+$n $6<--< Pulverizes >-->$3 you with $s unsurpassed %s!
+BODY 111 130 26 27
+You <<< EVISCERATE >>> $N with your unsurpassed %s!
+$7$n <<< EVISCERATES >>> $N with $s unsurpassed %s!
+$n $6<<< EVISCERATES >>>$3 you with $s unsurpassed %s!
+BODY 131 155 28 29
+You >>> LiQuIfY <<< $N with your mighty %s!
+$7$n >>> LiQuIfIeS <<< $N with $s mighty %s!
+$n $6>>> LiQuIfIeS <<<$3 you with $s mighty %s!
+BODY 156 253 30 31
+You [[[ ERADICATE ]]] $N with your hyper %s!
+$3$n [[[ ERADICATES ]]] $N with $s hyper %s!
+$n $6[[[ ERADICATES ]]]$3 you with $s hyper %s!
+BODY 254 399 32 33
+You ... .. .V a P o R i Z e. .. ...$N with your powerful %s!!
+$7$n ... .. .V a P o R i Z e S. .. ...$N with $s powerful %s!!
+$n $6... .. .V a P o R i Z e S. .. ...$7 you with $s powerful %s!!
+BODY 400 32000 34 100
+You $4. ._ ..__a T o M i Z e__.. _. .$5 $N with your %s!!
+$7$n $4. ._ ..__a T o M i Z e S__.. _. .$7 $N with $s %s!!
+$n $4. ._ ..__a T o M i Z e S__.. _. .$5$3 you with $s %s!!
+
+LEGS 1 4  1 2
+You %s $N.
+$7$n %ss $N.
+$n %ss you.
+LEGS 5 8  3 4
+You %s $N hard.
+$7$n %ss $N hard.
+$n %ss you $6hard$3.
+LEGS 9 12  5 6
+You %s $N very hard.
+$7$n %ss $N very hard.
+$n %ss you $6very hard$3.
+LEGS 13 15  7 8
+You %s $N extremely hard.
+$7$n %ss $N extremely hard.
+$n %ss you $6extremely hard$3.
+LEGS 16 18  9 10
+$N's face twists in pain from your %s.
+$7$n watches $N's face twist in pain caused by $s %s.
+Your face $6contorts in agony$3 from $n's %s.
+LEGS 19 22 11 11
+Your %s connects accurately and with great force.
+$7$n's %s hits $N with skill and great force.
+$n %ss you with $6skill and great force$3.
+LEGS 23 26 12 12
+Your %s connects accurately and with incredible force.
+$7$n's %s hits $N with amazing skill and incredible power.
+$n %ss you with $6incredible skill and power$3.
+LEGS 27 30 13 14
+$N's body spasms with pain from your %s!
+$7$N's body spasms in pain from $n's powerful %s!
+$n's %s causes $6spasms$3 to your body!
+LEGS 31 37 15 15
+You destroy $N with your captivating %s!
+$7$n destroys $N with $s captivating %s!
+$n $6destroys$3 you with $s captivating %s!
+LEGS 38 45 16 17
+You mangle $N with your fearsome %s!
+$7$n mangles $N with $s fearsome %s!
+$n $6mangles$3 you with $s fearsome %s!
+LEGS 46 54 18 18
+You MUTILATE $N with your devastating %s!
+$7$n MUTILATES $N with $s devastating %s!
+$n $6MUTILATES$3 you with $s devastating %s!
+LEGS 55 62 19 19
+You DECIMATE $N with your amazing %s!
+$7$n DECIMATE $N with $s amazing %s!
+$n $6DECIMATE$3 you with $s amazing %s!
+LEGS 63 74 20 21
+You << ObliteratE >> $N with your unbelievable %s!
+$7$n << ObliterateS >> $N with $s unbelievable %s!
+$n $6<< ObliterateS >>$3 you with $s unbelievable %s!
+LEGS 75 88 22 23
+You <-< AnnihilatE >-> $N with your masterful %s!
+$7$n <-< AnnihilateS >-> $N with $s masterful %s!
+$n $6<-< AnnihilateS >->$3 you with $s masterful %s!
+LEGS 89 110 24 25
+You <--< Pulverizes >--> $N with your unsurpassed %s!
+$7$n <--< Pulverizes >--> $N with $s unsurpassed %s!
+$n $6<--< Pulverizes >-->$3 you with $s unsurpassed %s!
+LEGS 111 130 26 27
+You <<< EVISCERATE >>> $N with your unsurpassed %s!
+$7$n <<< EVISCERATES >>> $N with $s unsurpassed %s!
+$n $6<<< EVISCERATES >>>$3 you with $s unsurpassed %s!
+LEGS 131 155 28 29
+You >>> LiQuIfY <<< $N with your mighty %s!
+$7$n >>> LiQuIfIeS <<< $N with $s mighty %s!
+$n $6>>> LiQuIfIeS <<<$3 you with $s mighty %s!
+LEGS 156 253 30 31
+You [[[ ERADICATE ]]] $N with your hyper %s!
+$3$n [[[ ERADICATES ]]] $N with $s hyper %s!
+$n $6[[[ ERADICATES ]]]$3 you with $s hyper %s!
+LEGS 254 399 32 33
+You ... .. .V a P o R i Z e. .. ...$N with your powerful %s!!
+$7$n ... .. .V a P o R i Z e S. .. ...$N with $s powerful %s!!
+$n $6... .. .V a P o R i Z e S. .. ...$7 you with $s powerful %s!!
+LEGS 400 32000 34 100
+You $4. ._ ..__a T o M i Z e__.. _. .$5 $N with your %s!!
+$7$n $4. ._ ..__a T o M i Z e S__.. _. .$7 $N with $s %s!!
+$n $4. ._ ..__a T o M i Z e S__.. _. .$5$3 you with $s %s!!
+
+ARMS 1 4  1 2
+You %s $N.
+$7$n %ss $N.
+$n %ss you.
+ARMS 5 8  3 4
+You %s $N hard.
+$7$n %ss $N hard.
+$n %ss you $6hard$3.
+ARMS 9 12  5 6
+You %s $N very hard.
+$7$n %ss $N very hard.
+$n %ss you $6very hard$3.
+ARMS 13 15  7 8
+You %s $N extremely hard.
+$7$n %ss $N extremely hard.
+$n %ss you $6extremely hard$3.
+ARMS 16 18  9 10
+$N's face twists in pain from your %s.
+$7$n watches $N's face twist in pain caused by $s %s.
+Your face $6contorts in agony$3 from $n's %s.
+ARMS 19 22 11 11
+Your %s connects accurately and with great force.
+$7$n's %s hits $N with skill and great force.
+$n %ss you with $6skill and great force$3.
+ARMS 23 26 12 12
+Your %s connects accurately and with incredible force.
+$7$n's %s hits $N with amazing skill and incredible power.
+$n %ss you with $6incredible skill and power$3.
+ARMS 27 30 13 14
+$N's body spasms with pain from your %s!
+$7$N's body spasms in pain from $n's powerful %s!
+$n's %s causes $6spasms$3 to your body!
+ARMS 31 37 15 15
+You destroy $N with your captivating %s!
+$7$n destroys $N with $s captivating %s!
+$n $6destroys$3 you with $s captivating %s!
+ARMS 38 45 16 17
+You mangle $N with your fearsome %s!
+$7$n mangles $N with $s fearsome %s!
+$n $6mangles$3 you with $s fearsome %s!
+ARMS 46 54 18 18
+You MUTILATE $N with your devastating %s!
+$7$n MUTILATES $N with $s devastating %s!
+$n $6MUTILATES$3 you with $s devastating %s!
+ARMS 55 62 19 19
+You DECIMATE $N with your amazing %s!
+$7$n DECIMATES $N with $s amazing %s!
+$n $6DECIMATES$3 you with $s amazing %s!
+ARMS 63 74 20 21
+You << ObliteratE >> $N with your unbelievable %s!
+$7$n << ObliterateS >> $N with $s unbelievable %s!
+$n $6<< ObliterateS >>3 you with $s unbelievable %s!
+ARMS 75 88 22 23
+You <-< AnnihilatE >-> $N with your masterful %s!
+$7$n <-< AnnihilateS >-> $N with $s masterful %s!
+$n $6<-< AnnihilateS >->$3 you with $s masterful %s!
+ARMS 89 110 24 25
+You <--< Pulverizes >--> $N with your unsurpassed %s!
+$7$n <--< Pulverizes >--> $N with $s unsurpassed %s!
+$n $6<--< Pulverizes >-->$3 you with $s unsurpassed %s!
+ARMS 111 130 26 27
+You <<< EVISCERATE >>> $N with your unsurpassed %s!
+$7$n <<< EVISCERATES >>> $N with $s unsurpassed %s!
+$n $6<<< EVISCERATES >>>$3 you with $s unsurpassed %s!
+ARMS 131 155 28 29
+You >>> LiQuIfY <<< $N with your mighty %s!
+$7$n >>> LiQuIfIeS <<< $N with $s mighty %s!
+$n $6>>> LiQuIfIeS <<<$3 you with $s mighty %s!
+ARMS 156 253 30 31
+You [[[ ERADICATE ]]] $N with your hyper %s!
+$3$n [[[ ERADICATES ]]] $N with $s hyper %s!
+$n $6[[[ ERADICATES ]]]$3 you with $s hyper %s!
+ARMS 254 399 32 33
+You ... .. .V a P o R i Z e. .. ...$N with your powerful %s!!
+$7$n ... .. .V a P o R i Z e S. .. ...$N with $s powerful %s!!
+$n $6... .. .V a P o R i Z e S. .. ...$7 you with $s powerful %s!!
+ARMS 400 32000 34 100
+You $4. ._ ..__a T o M i Z e__.. _. .$5 $N with your %s!!
+$7$n $4. ._ ..__a T o M i Z e S__.. _. .$7 $N with $s %s!!
+$n $4. ._ ..__a T o M i Z e S__.. _. .$5$3 you with $s %s!!
+
+HEAD 1 4  1 2
+You %s $N.
+$7$n %ss $N.
+$n %ss you.
+HEAD 5 8  3 4
+You %s $N hard.
+$7$n %ss $N hard.
+$n %ss you $6hard$3.
+HEAD 9 12  5 6
+You %s $N very hard.
+$7$n %ss $N very hard.
+$n %ss you $6very hard$3.
+HEAD 13 15  7 8
+You %s $N extremely hard.
+$7$n %ss $N extremely hard.
+$n %ss you $6extremely hard$3.
+HEAD 16 18  9 10
+$N's face twists in pain from your %s.
+$7$n watches $N's face twist in pain caused by $s %s.
+Your face $6contorts in agony$3 from $n's %s.
+HEAD 19 22 11 11
+Your %s connects accurately and with great force.
+$7$n's %s hits $N with skill and great force.
+$n %ss you with $6skill and great force$3.
+HEAD 23 26 12 12
+Your %s connects accurately and with incredible force.
+$7$n's %s hits $N with amazing skill and incredible power.
+$n %ss you with $6incredible skill and power$3.
+HEAD 27 30 13 14
+$N's body spasms with pain from your %s!
+$7$N's body spasms in pain from $n's powerful %s!
+$n's %s causes $6spasms$3 to your body!
+HEAD 31 37 15 15
+You destroy $N with your captivating %s!
+$7$n destroys $N with $s captivating %s!
+$n $6destroys$3 you with $s captivating %s!
+HEAD 38 45 16 17
+You mangle $N with your fearsome %s!
+$7$n mangles $N with $s fearsome %s!
+$n $6mangles$3 you with $s fearsome %s!
+HEAD 46 54 18 18
+You MUTILATE $N with your devastating %s!
+$7$n MUTILATE $N with $s devastating %s!
+$n $6MUTILATE$3 you with $s devastating %s!
+HEAD 55 62 19 19
+You DECIMATE $N with your amazing %s!
+$7$n DECIMATES $N with $s amazing %s!
+$n $6DECIMATES$3 you with $s amazing %s!
+HEAD 63 74 20 21
+You << ObliteratE >> $N with your unbelievable %s!
+$7$n << ObliterateS >> $N with $s unbelievable %s!
+$n $6<< ObliterateS >>$3 you with $s unbelievable %s!
+HEAD 75 88 22 23
+You <-< AnnihilatE >-> $N with your masterful %s!
+$7$n <-< AnnihilateS >-> $N with $s masterful %s!
+$n $6<-< AnnihilateS >-> $3 you with $s masterful %s!
+HEAD 89 110 24 25
+You <--< Pulverizes >--> $N with your unsurpassed %s!
+$7$n <--< Pulverizes >--> $N with $s unsurpassed %s!
+$n $6<--< Pulverizes >-->$3 you with $s unsurpassed %s!
+HEAD 111 130 26 27
+You <<< EVISCERATE >>> $N with your unsurpassed %s!
+$7$n <<< EVISCERATES >>> $N with $s unsurpassed %s!
+$n $6<<< EVISCERATES >>>$3 you with $s unsurpassed %s!
+HEAD 131 155 28 29
+You >>> LiQuIfY <<< $N with your mighty %s!
+$7$n >>> LiQuIfIeS <<< $N with $s mighty %s!
+$n $6>>> LiQuIfIeS <<<$3 you with $s mighty %s!
+HEAD 156 253 30 31
+You [[[ ERADICATE ]]] $N with your hyper %s!
+$3$n [[[ ERADICATES ]]] $N with $s hyper %s!
+$n $6[[[ ERADICATES ]]]$3 you with $s hyper %s!
+HEAD 254 399 32 33
+You ... .. .V a P o R i Z e. .. ...$N with your powerful %s!!
+$7$n ... .. .V a P o R i Z e S. .. ...$N with $s powerful %s!!
+$n $6... .. .V a P o R i Z e S. .. ...$7 you with $s powerful %s!!
+HEAD 400 32000 34 100
+You $4. ._ ..__a T o M i Z e__.. _. .$5 $N with your %s!!
+$7$n $4. ._ ..__a T o M i Z e S__.. _. .$7 $N with $s %s!!
+$n $4. ._ ..__a T o M i Z e S__.. _. .$5$3 you with $s %s!!
+
+
+Kickd l*o/2+d*2/5m40+k
+END
+

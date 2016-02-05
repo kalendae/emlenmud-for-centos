@@ -1,0 +1,7332 @@
+#AREADATA 
+Name The Lake of Tears~
+Repop A rainbow colored fish swims lazily into view. 
+~
+SCZone 0
+Builders None~
+VNUMs 42001 42399
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#42228
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42227 0 0
+~
+~
+Door 1 0 0 42238 0 0
+~
+~
+Door 2 0 0 42229 0 0
+~
+~
+Door 3 0 0 42216 0 0
+~
+~
+Door 5 0 0 42102 0 0
+~
+~
+End
+
+#42229
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42228 0 0
+~
+~
+Door 1 0 0 42239 0 0
+~
+~
+Door 2 0 0 42230 0 0
+~
+~
+Door 3 0 0 42217 0 0
+~
+~
+Door 5 0 0 42103 0 0
+~
+~
+End
+
+#42230
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42229 0 0
+~
+~
+Door 1 0 0 42240 0 0
+~
+~
+Door 2 0 0 42231 0 0
+~
+~
+Door 3 0 0 42218 0 0
+~
+~
+End
+
+#42231
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42230 0 0
+~
+~
+Door 1 0 0 42241 0 0
+~
+~
+End
+
+#42232
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42219 0 0
+~
+~
+Door 1 0 0 42357 0 0
+~
+~
+Door 2 0 0 42359 0 0
+~
+~
+Door 3 0 0 42371 0 0
+~
+~
+End
+
+#42233
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42243 0 0
+~
+~
+Door 2 0 0 42234 0 0
+~
+~
+End
+
+#42234
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42233 0 0
+~
+~
+Door 1 0 0 42244 0 0
+~
+~
+Door 2 0 0 42235 0 0
+~
+~
+Door 3 0 0 42220 0 0
+~
+~
+End
+
+#42235
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42234 0 0
+~
+~
+Door 1 0 0 42245 0 0
+~
+~
+Door 2 0 0 42236 0 0
+~
+~
+Door 3 0 0 42221 0 0
+~
+~
+Door 5 0 0 42104 0 0
+~
+~
+End
+
+#42236
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42235 0 0
+~
+~
+Door 1 0 0 42246 0 0
+~
+~
+Door 2 0 0 42237 0 0
+~
+~
+Door 3 0 0 42222 0 0
+~
+~
+Door 5 0 0 42105 0 0
+~
+~
+End
+
+#42237
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42236 0 0
+~
+~
+Door 3 0 0 42223 0 0
+~
+~
+Door 5 0 0 42106 0 0
+~
+~
+End
+
+#42238
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42239 0 0
+~
+~
+Door 3 0 0 42228 0 0
+~
+~
+Door 5 0 0 42107 0 0
+~
+~
+End
+
+#42239
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42238 0 0
+~
+~
+Door 1 0 0 42247 0 0
+~
+~
+Door 2 0 0 42240 0 0
+~
+~
+Door 3 0 0 42229 0 0
+~
+~
+Door 5 0 0 42108 0 0
+~
+~
+End
+
+#42240
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42239 0 0
+~
+~
+Door 1 0 0 42248 0 0
+~
+~
+Door 2 0 0 42241 0 0
+~
+~
+Door 3 0 0 42230 0 0
+~
+~
+Door 5 0 0 42109 0 0
+~
+~
+End
+
+#42241
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42240 0 0
+~
+~
+Door 1 0 0 42249 0 0
+~
+~
+Door 2 0 0 42242 0 0
+~
+~
+Door 3 0 0 42231 0 0
+~
+~
+End
+
+#42242
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42241 0 0
+~
+~
+Door 1 0 0 42250 0 0
+~
+~
+End
+
+#42243
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42251 0 0
+~
+~
+Door 2 0 0 42244 0 0
+~
+~
+Door 3 0 0 42233 0 0
+~
+~
+End
+
+#42244
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42243 0 0
+~
+~
+Door 1 0 0 42252 0 0
+~
+~
+Door 2 0 0 42245 0 0
+~
+~
+Door 3 0 0 42234 0 0
+~
+~
+Door 5 0 0 42110 0 0
+~
+~
+End
+
+#42245
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42244 0 0
+~
+~
+Door 1 0 0 42253 0 0
+~
+~
+Door 2 0 0 42246 0 0
+~
+~
+Door 3 0 0 42235 0 0
+~
+~
+Door 5 0 0 42111 0 0
+~
+~
+End
+
+#42246
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42245 0 0
+~
+~
+Door 1 0 0 42254 0 0
+~
+~
+Door 3 0 0 42236 0 0
+~
+~
+Door 5 0 0 42112 0 0
+~
+~
+End
+
+#42247
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42255 0 0
+~
+~
+Door 2 0 0 42248 0 0
+~
+~
+Door 3 0 0 42239 0 0
+~
+~
+Door 5 0 0 42113 0 0
+~
+~
+End
+
+#42248
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42247 0 0
+~
+~
+Door 1 0 0 42256 0 0
+~
+~
+Door 2 0 0 42249 0 0
+~
+~
+Door 3 0 0 42240 0 0
+~
+~
+Door 5 0 0 42114 0 0
+~
+~
+End
+
+#42249
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42248 0 0
+~
+~
+Door 1 0 0 42257 0 0
+~
+~
+Door 2 0 0 42250 0 0
+~
+~
+Door 3 0 0 42241 0 0
+~
+~
+Door 5 0 0 42115 0 0
+~
+~
+End
+
+#42250
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42249 0 0
+~
+~
+Door 1 0 0 42258 0 0
+~
+~
+Door 3 0 0 42242 0 0
+~
+~
+End
+
+#42251
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42260 0 0
+~
+~
+Door 2 0 0 42252 0 0
+~
+~
+Door 3 0 0 42243 0 0
+~
+~
+End
+
+#42252
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42251 0 0
+~
+~
+Door 1 0 0 42261 0 0
+~
+~
+Door 2 0 0 42253 0 0
+~
+~
+Door 3 0 0 42244 0 0
+~
+~
+Door 5 0 0 42116 0 0
+~
+~
+End
+
+#42253
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42252 0 0
+~
+~
+Door 1 0 0 42262 0 0
+~
+~
+Door 2 0 0 42254 0 0
+~
+~
+Door 3 0 0 42245 0 0
+~
+~
+Door 5 0 0 42117 0 0
+~
+~
+End
+
+#42254
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42253 0 0
+~
+~
+Door 3 0 0 42246 0 0
+~
+~
+Door 5 0 0 42118 0 0
+~
+~
+End
+
+#42255
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42256 0 0
+~
+~
+Door 3 0 0 42247 0 0
+~
+~
+Door 5 0 0 42119 0 0
+~
+~
+End
+
+#42256
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42255 0 0
+~
+~
+Door 1 0 0 42263 0 0
+~
+~
+Door 2 0 0 42257 0 0
+~
+~
+Door 3 0 0 42248 0 0
+~
+~
+Door 5 0 0 42120 0 0
+~
+~
+End
+
+#42257
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42256 0 0
+~
+~
+Door 1 0 0 42264 0 0
+~
+~
+Door 2 0 0 42258 0 0
+~
+~
+Door 3 0 0 42249 0 0
+~
+~
+Door 5 0 0 42121 0 0
+~
+~
+End
+
+#42258
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42257 0 0
+~
+~
+Door 1 0 0 42265 0 0
+~
+~
+Door 2 0 0 42259 0 0
+~
+~
+Door 3 0 0 42250 0 0
+~
+~
+End
+
+#42259
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42258 0 0
+~
+~
+Door 1 0 0 42266 0 0
+~
+~
+End
+
+#42260
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42261 0 0
+~
+~
+Door 3 0 0 42251 0 0
+~
+~
+End
+
+#42261
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42260 0 0
+~
+~
+Door 1 0 0 42267 0 0
+~
+~
+Door 2 0 0 42262 0 0
+~
+~
+Door 3 0 0 42252 0 0
+~
+~
+End
+
+#42262
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42261 0 0
+~
+~
+Door 1 0 0 42268 0 0
+~
+~
+Door 3 0 0 42253 0 0
+~
+~
+Door 5 0 0 42122 0 0
+~
+~
+End
+
+#42263
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42269 0 0
+~
+~
+Door 2 0 0 42264 0 0
+~
+~
+Door 3 0 0 42256 0 0
+~
+~
+Door 5 0 0 42123 0 0
+~
+~
+End
+
+#42264
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42263 0 0
+~
+~
+Door 1 0 0 42270 0 0
+~
+~
+Door 2 0 0 42265 0 0
+~
+~
+Door 3 0 0 42257 0 0
+~
+~
+Door 5 0 0 42124 0 0
+~
+~
+End
+
+#42265
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42264 0 0
+~
+~
+Door 1 0 0 42271 0 0
+~
+~
+Door 2 0 0 42266 0 0
+~
+~
+Door 3 0 0 42258 0 0
+~
+~
+Door 5 0 0 42125 0 0
+~
+~
+End
+
+#42266
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42265 0 0
+~
+~
+Door 1 0 0 42272 0 0
+~
+~
+Door 3 0 0 42259 0 0
+~
+~
+End
+
+#42267
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42273 0 0
+~
+~
+Door 2 0 0 42268 0 0
+~
+~
+Door 3 0 0 42261 0 0
+~
+~
+End
+
+#42268
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42267 0 0
+~
+~
+Door 1 0 0 42274 0 0
+~
+~
+Door 3 0 0 42262 0 0
+~
+~
+Door 5 0 0 42126 0 0
+~
+~
+End
+
+#42269
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42275 0 0
+~
+~
+Door 2 0 0 42270 0 0
+~
+~
+Door 3 0 0 42263 0 0
+~
+~
+Door 5 0 0 42127 0 0
+~
+~
+End
+
+#42270
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42269 0 0
+~
+~
+Door 1 0 0 42276 0 0
+~
+~
+Door 2 0 0 42271 0 0
+~
+~
+Door 3 0 0 42264 0 0
+~
+~
+Door 5 0 0 42128 0 0
+~
+~
+End
+
+#42271
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42270 0 0
+~
+~
+Door 1 0 0 42277 0 0
+~
+~
+Door 2 0 0 42272 0 0
+~
+~
+Door 3 0 0 42265 0 0
+~
+~
+End
+
+#42272
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42271 0 0
+~
+~
+Door 3 0 0 42266 0 0
+~
+~
+End
+
+#42273
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42278 0 0
+~
+~
+Door 2 0 0 42274 0 0
+~
+~
+Door 3 0 0 42267 0 0
+~
+~
+End
+
+#42274
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42273 0 0
+~
+~
+Door 1 0 0 42279 0 0
+~
+~
+Door 3 0 0 42268 0 0
+~
+~
+Door 5 0 0 42129 0 0
+~
+~
+End
+
+#42275
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42280 0 0
+~
+~
+Door 2 0 0 42276 0 0
+~
+~
+Door 3 0 0 42269 0 0
+~
+~
+Door 5 0 0 42130 0 0
+~
+~
+End
+
+#42276
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42275 0 0
+~
+~
+Door 1 0 0 42281 0 0
+~
+~
+Door 2 0 0 42277 0 0
+~
+~
+Door 3 0 0 42270 0 0
+~
+~
+End
+
+#42277
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42276 0 0
+~
+~
+Door 3 0 0 42271 0 0
+~
+~
+End
+
+#42278
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42284 0 0
+~
+~
+Door 2 0 0 42279 0 0
+~
+~
+Door 3 0 0 42273 0 0
+~
+~
+End
+
+#42279
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42278 0 0
+~
+~
+Door 1 0 0 42285 0 0
+~
+~
+Door 3 0 0 42274 0 0
+~
+~
+Door 5 0 0 42131 0 0
+~
+~
+End
+
+#42280
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42288 0 0
+~
+~
+Door 2 0 0 42281 0 0
+~
+~
+Door 3 0 0 42275 0 0
+~
+~
+Door 5 0 0 42132 0 0
+~
+~
+End
+
+#42281
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42280 0 0
+~
+~
+Door 1 0 0 42289 0 0
+~
+~
+Door 3 0 0 42276 0 0
+~
+~
+End
+
+#42282
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42290 0 0
+~
+~
+Door 2 0 0 42283 0 0
+~
+~
+End
+
+#42283
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42282 0 0
+~
+~
+Door 1 0 0 42291 0 0
+~
+~
+Door 2 0 0 42284 0 0
+~
+~
+End
+
+#42284
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42283 0 0
+~
+~
+Door 1 0 0 42292 0 0
+~
+~
+Door 2 0 0 42285 0 0
+~
+~
+Door 3 0 0 42278 0 0
+~
+~
+End
+
+#42285
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42284 0 0
+~
+~
+Door 1 0 0 42293 0 0
+~
+~
+Door 2 0 0 42286 0 0
+~
+~
+Door 3 0 0 42279 0 0
+~
+~
+Door 5 0 0 42133 0 0
+~
+~
+End
+
+#42286
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42285 0 0
+~
+~
+Door 1 0 0 42294 0 0
+~
+~
+Door 5 0 0 42134 0 0
+~
+~
+End
+
+#42287
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42295 0 0
+~
+~
+Door 2 0 0 42288 0 0
+~
+~
+Door 5 0 0 42135 0 0
+~
+~
+End
+
+#42288
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42287 0 0
+~
+~
+Door 1 0 0 42296 0 0
+~
+~
+Door 2 0 0 42289 0 0
+~
+~
+Door 3 0 0 42280 0 0
+~
+~
+Door 5 0 0 42136 0 0
+~
+~
+End
+
+#42289
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42288 0 0
+~
+~
+Door 3 0 0 42281 0 0
+~
+~
+End
+
+#42290
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42297 0 0
+~
+~
+Door 2 0 0 42291 0 0
+~
+~
+Door 3 0 0 42282 0 0
+~
+~
+End
+
+#42291
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42290 0 0
+~
+~
+Door 1 0 0 42298 0 0
+~
+~
+Door 2 0 0 42292 0 0
+~
+~
+Door 3 0 0 42283 0 0
+~
+~
+Door 5 0 0 42137 0 0
+~
+~
+End
+
+#42292
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42291 0 0
+~
+~
+Door 1 0 0 42299 0 0
+~
+~
+Door 2 0 0 42293 0 0
+~
+~
+Door 3 0 0 42284 0 0
+~
+~
+Door 5 0 0 42138 0 0
+~
+~
+End
+
+#42293
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42292 0 0
+~
+~
+Door 1 0 0 42300 0 0
+~
+~
+Door 2 0 0 42294 0 0
+~
+~
+Door 3 0 0 42285 0 0
+~
+~
+Door 5 0 0 42139 0 0
+~
+~
+End
+
+#42294
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42293 0 0
+~
+~
+Door 1 0 0 42301 0 0
+~
+~
+Door 3 0 0 42286 0 0
+~
+~
+Door 5 0 0 42140 0 0
+~
+~
+End
+
+#42295
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42304 0 0
+~
+~
+Door 2 0 0 42296 0 0
+~
+~
+Door 3 0 0 42287 0 0
+~
+~
+Door 5 0 0 42141 0 0
+~
+~
+End
+
+#42296
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42295 0 0
+~
+~
+Door 1 0 0 42305 0 0
+~
+~
+Door 3 0 0 42288 0 0
+~
+~
+End
+
+#42297
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42306 0 0
+~
+~
+Door 2 0 0 42298 0 0
+~
+~
+Door 3 0 0 42290 0 0
+~
+~
+End
+
+#42298
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42297 0 0
+~
+~
+Door 1 0 0 42307 0 0
+~
+~
+Door 2 0 0 42299 0 0
+~
+~
+Door 3 0 0 42291 0 0
+~
+~
+Door 5 0 0 42142 0 0
+~
+~
+End
+
+#42299
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42298 0 0
+~
+~
+Door 1 0 0 42308 0 0
+~
+~
+Door 2 0 0 42300 0 0
+~
+~
+Door 3 0 0 42292 0 0
+~
+~
+Door 5 0 0 42143 0 0
+~
+~
+End
+
+#42300
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42299 0 0
+~
+~
+Door 1 0 0 42309 0 0
+~
+~
+Door 2 0 0 42301 0 0
+~
+~
+Door 3 0 0 42293 0 0
+~
+~
+Door 5 0 0 42144 0 0
+~
+~
+End
+
+#42301
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42300 0 0
+~
+~
+Door 1 0 0 42310 0 0
+~
+~
+Door 2 0 0 42302 0 0
+~
+~
+Door 3 0 0 42294 0 0
+~
+~
+Door 5 0 0 42145 0 0
+~
+~
+End
+
+#42302
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42301 0 0
+~
+~
+Door 1 0 0 42311 0 0
+~
+~
+Door 5 0 0 42146 0 0
+~
+~
+End
+
+#42303
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42316 0 0
+~
+~
+Door 2 0 0 42304 0 0
+~
+~
+Door 5 0 0 42147 0 0
+~
+~
+End
+
+#42304
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42303 0 0
+~
+~
+Door 1 0 0 42317 0 0
+~
+~
+Door 2 0 0 42305 0 0
+~
+~
+Door 3 0 0 42295 0 0
+~
+~
+Door 5 0 0 42148 0 0
+~
+~
+End
+
+#42305
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42304 0 0
+~
+~
+Door 1 0 0 42318 0 0
+~
+~
+Door 3 0 0 42296 0 0
+~
+~
+End
+
+#42306
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42307 0 0
+~
+~
+Door 3 0 0 42297 0 0
+~
+~
+End
+
+#42307
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42306 0 0
+~
+~
+Door 1 0 0 42319 0 0
+~
+~
+Door 2 0 0 42308 0 0
+~
+~
+Door 3 0 0 42298 0 0
+~
+~
+End
+
+#42308
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42307 0 0
+~
+~
+Door 1 0 0 42320 0 0
+~
+~
+Door 2 0 0 42309 0 0
+~
+~
+Door 3 0 0 42299 0 0
+~
+~
+Door 5 0 0 42149 0 0
+~
+~
+End
+
+#42309
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42308 0 0
+~
+~
+Door 1 0 0 42321 0 0
+~
+~
+Door 2 0 0 42310 0 0
+~
+~
+Door 3 0 0 42300 0 0
+~
+~
+Door 5 0 0 42150 0 0
+~
+~
+End
+
+#42310
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42309 0 0
+~
+~
+Door 1 0 0 42322 0 0
+~
+~
+Door 2 0 0 42311 0 0
+~
+~
+Door 3 0 0 42301 0 0
+~
+~
+Door 5 0 0 42151 0 0
+~
+~
+End
+
+#42311
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42310 0 0
+~
+~
+Door 1 0 0 42323 0 0
+~
+~
+Door 2 0 0 42312 0 0
+~
+~
+Door 3 0 0 42302 0 0
+~
+~
+Door 5 0 0 42152 0 0
+~
+~
+End
+
+#42312
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42311 0 0
+~
+~
+Door 1 0 0 42324 0 0
+~
+~
+Door 2 0 0 42313 0 0
+~
+~
+Door 5 0 0 42153 0 0
+~
+~
+End
+
+#42313
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42312 0 0
+~
+~
+Door 1 0 0 42325 0 0
+~
+~
+Door 2 0 0 42314 0 0
+~
+~
+Door 5 0 0 42154 0 0
+~
+~
+End
+
+#42314
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42313 0 0
+~
+~
+Door 1 0 0 42326 0 0
+~
+~
+Door 2 0 0 42315 0 0
+~
+~
+Door 5 0 0 42155 0 0
+~
+~
+End
+
+#42315
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42314 0 0
+~
+~
+Door 1 0 0 42327 0 0
+~
+~
+Door 2 0 0 42316 0 0
+~
+~
+Door 5 0 0 42156 0 0
+~
+~
+End
+
+#42316
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42315 0 0
+~
+~
+Door 1 0 0 42328 0 0
+~
+~
+Door 2 0 0 42317 0 0
+~
+~
+Door 3 0 0 42303 0 0
+~
+~
+Door 5 0 0 42157 0 0
+~
+~
+End
+
+#42317
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42316 0 0
+~
+~
+Door 1 0 0 42329 0 0
+~
+~
+Door 2 0 0 42318 0 0
+~
+~
+Door 3 0 0 42304 0 0
+~
+~
+Door 5 0 0 42158 0 0
+~
+~
+End
+
+#42318
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42317 0 0
+~
+~
+Door 1 0 0 42330 0 0
+~
+~
+Door 3 0 0 42305 0 0
+~
+~
+End
+
+#42319
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42320 0 0
+~
+~
+Door 3 0 0 42307 0 0
+~
+~
+End
+
+#42320
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42319 0 0
+~
+~
+Door 2 0 0 42321 0 0
+~
+~
+Door 3 0 0 42308 0 0
+~
+~
+End
+
+#42321
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42320 0 0
+~
+~
+Door 1 0 0 42332 0 0
+~
+~
+Door 2 0 0 42322 0 0
+~
+~
+Door 3 0 0 42309 0 0
+~
+~
+End
+
+#42322
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42321 0 0
+~
+~
+Door 1 0 0 42333 0 0
+~
+~
+Door 2 0 0 42323 0 0
+~
+~
+Door 3 0 0 42310 0 0
+~
+~
+Door 5 0 0 42159 0 0
+~
+~
+End
+
+#42323
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42322 0 0
+~
+~
+Door 1 0 0 42334 0 0
+~
+~
+Door 2 0 0 42324 0 0
+~
+~
+Door 3 0 0 42311 0 0
+~
+~
+Door 5 0 0 42160 0 0
+~
+~
+End
+
+#42324
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42323 0 0
+~
+~
+Door 1 0 0 42335 0 0
+~
+~
+Door 2 0 0 42325 0 0
+~
+~
+Door 3 0 0 42312 0 0
+~
+~
+Door 5 0 0 42161 0 0
+~
+~
+End
+
+#42325
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42324 0 0
+~
+~
+Door 1 0 0 42336 0 0
+~
+~
+Door 2 0 0 42326 0 0
+~
+~
+Door 3 0 0 42313 0 0
+~
+~
+Door 5 0 0 42162 0 0
+~
+~
+End
+
+#42326
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42325 0 0
+~
+~
+Door 1 0 0 42337 0 0
+~
+~
+Door 2 0 0 42327 0 0
+~
+~
+Door 3 0 0 42314 0 0
+~
+~
+Door 5 0 0 42163 0 0
+~
+~
+End
+
+#42327
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42326 0 0
+~
+~
+Door 1 0 0 42338 0 0
+~
+~
+Door 2 0 0 42328 0 0
+~
+~
+Door 3 0 0 42315 0 0
+~
+~
+Door 5 0 0 42164 0 0
+~
+~
+End
+
+#42328
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42327 0 0
+~
+~
+Door 1 0 0 42339 0 0
+~
+~
+Door 2 0 0 42329 0 0
+~
+~
+Door 3 0 0 42316 0 0
+~
+~
+Door 5 0 0 42165 0 0
+~
+~
+End
+
+#42329
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42328 0 0
+~
+~
+Door 1 0 0 42340 0 0
+~
+~
+Door 2 0 0 42330 0 0
+~
+~
+Door 3 0 0 42317 0 0
+~
+~
+Door 5 0 0 42166 0 0
+~
+~
+End
+
+#42330
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42329 0 0
+~
+~
+Door 1 0 0 42341 0 0
+~
+~
+Door 2 0 0 42331 0 0
+~
+~
+Door 3 0 0 42318 0 0
+~
+~
+Door 5 0 0 42188 0 0
+~
+~
+End
+
+#42331
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42330 0 0
+~
+~
+Door 1 0 0 42342 0 0
+~
+~
+End
+
+#42332
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42333 0 0
+~
+~
+Door 3 0 0 42321 0 0
+~
+~
+End
+
+#42333
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42332 0 0
+~
+~
+Door 1 0 0 42343 0 0
+~
+~
+Door 2 0 0 42334 0 0
+~
+~
+Door 3 0 0 42322 0 0
+~
+~
+End
+
+#42334
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42333 0 0
+~
+~
+Door 1 0 0 42344 0 0
+~
+~
+Door 2 0 0 42335 0 0
+~
+~
+Door 3 0 0 42323 0 0
+~
+~
+Door 5 0 0 42167 0 0
+~
+~
+End
+
+#42335
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42334 0 0
+~
+~
+Door 1 0 0 42345 0 0
+~
+~
+Door 2 0 0 42336 0 0
+~
+~
+Door 3 0 0 42324 0 0
+~
+~
+Door 5 0 0 42168 0 0
+~
+~
+End
+
+#42336
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42335 0 0
+~
+~
+Door 1 0 0 42346 0 0
+~
+~
+Door 2 0 0 42337 0 0
+~
+~
+Door 3 0 0 42325 0 0
+~
+~
+Door 5 0 0 42169 0 0
+~
+~
+End
+
+#42337
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42336 0 0
+~
+~
+Door 1 0 0 42347 0 0
+~
+~
+Door 2 0 0 42338 0 0
+~
+~
+Door 3 0 0 42326 0 0
+~
+~
+Door 5 0 0 42170 0 0
+~
+~
+End
+
+#42338
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42337 0 0
+~
+~
+Door 1 0 0 42348 0 0
+~
+~
+Door 2 0 0 42339 0 0
+~
+~
+Door 3 0 0 42327 0 0
+~
+~
+Door 5 0 0 42171 0 0
+~
+~
+End
+
+#42339
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42338 0 0
+~
+~
+Door 1 0 0 42349 0 0
+~
+~
+Door 2 0 0 42340 0 0
+~
+~
+Door 3 0 0 42328 0 0
+~
+~
+Door 5 0 0 42172 0 0
+~
+~
+End
+
+#42340
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42339 0 0
+~
+~
+Door 1 0 0 42350 0 0
+~
+~
+Door 2 0 0 42341 0 0
+~
+~
+Door 3 0 0 42329 0 0
+~
+~
+Door 5 0 0 42173 0 0
+~
+~
+End
+
+#42341
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42340 0 0
+~
+~
+Door 1 0 0 42351 0 0
+~
+~
+Door 2 0 0 42342 0 0
+~
+~
+Door 3 0 0 42330 0 0
+~
+~
+Door 5 0 0 42174 0 0
+~
+~
+End
+
+#42342
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42341 0 0
+~
+~
+Door 1 0 0 42352 0 0
+~
+~
+Door 3 0 0 42331 0 0
+~
+~
+End
+
+#42343
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42360 0 0
+~
+~
+Door 2 0 0 42344 0 0
+~
+~
+Door 3 0 0 42333 0 0
+~
+~
+End
+
+#42344
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42343 0 0
+~
+~
+Door 1 0 0 42361 0 0
+~
+~
+Door 2 0 0 42345 0 0
+~
+~
+Door 3 0 0 42334 0 0
+~
+~
+Door 5 0 0 42175 0 0
+~
+~
+End
+
+#42345
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42344 0 0
+~
+~
+Door 1 0 0 42362 0 0
+~
+~
+Door 2 0 0 42346 0 0
+~
+~
+Door 3 0 0 42335 0 0
+~
+~
+Door 5 0 0 42176 0 0
+~
+~
+End
+
+#42346
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42345 0 0
+~
+~
+Door 1 0 0 42363 0 0
+~
+~
+Door 2 0 0 42347 0 0
+~
+~
+Door 3 0 0 42336 0 0
+~
+~
+Door 5 0 0 42177 0 0
+~
+~
+End
+
+#42347
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42346 0 0
+~
+~
+Door 1 0 0 42364 0 0
+~
+~
+Door 2 0 0 42348 0 0
+~
+~
+Door 3 0 0 42337 0 0
+~
+~
+Door 5 0 0 42178 0 0
+~
+~
+End
+
+#42348
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42347 0 0
+~
+~
+Door 1 0 0 42365 0 0
+~
+~
+Door 2 0 0 42349 0 0
+~
+~
+Door 3 0 0 42338 0 0
+~
+~
+Door 5 0 0 42179 0 0
+~
+~
+End
+
+#42349
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42348 0 0
+~
+~
+Door 1 0 0 42366 0 0
+~
+~
+Door 2 0 0 42350 0 0
+~
+~
+Door 3 0 0 42339 0 0
+~
+~
+Door 5 0 0 42180 0 0
+~
+~
+End
+
+#42350
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42349 0 0
+~
+~
+Door 1 0 0 42367 0 0
+~
+~
+Door 2 0 0 42351 0 0
+~
+~
+Door 3 0 0 42340 0 0
+~
+~
+End
+
+#42351
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42350 0 0
+~
+~
+Door 2 0 0 42352 0 0
+~
+~
+Door 3 0 0 42341 0 0
+~
+~
+End
+
+#42352
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42351 0 0
+~
+~
+Door 3 0 0 42342 0 0
+~
+~
+End
+
+#42357
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 3 0 0 42232 0 0
+~
+~
+End
+
+#42358
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42359 0 0
+~
+~
+Door 3 0 0 42373 0 0
+~
+~
+End
+
+#42359
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42232 0 0
+~
+~
+Door 2 0 0 42358 0 0
+~
+~
+Door 3 0 0 42372 0 0
+~
+~
+End
+
+#42360
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42361 0 0
+~
+~
+Door 3 0 0 42343 0 0
+~
+~
+End
+
+#42361
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42360 0 0
+~
+~
+Door 1 0 0 42368 0 0
+~
+~
+Door 2 0 0 42362 0 0
+~
+~
+Door 3 0 0 42344 0 0
+~
+~
+End
+
+#42362
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42361 0 0
+~
+~
+Door 1 0 0 42369 0 0
+~
+~
+Door 2 0 0 42363 0 0
+~
+~
+Door 3 0 0 42345 0 0
+~
+~
+Door 5 0 0 42181 0 0
+~
+~
+End
+
+#42363
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42362 0 0
+~
+~
+Door 1 0 0 42370 0 0
+~
+~
+Door 2 0 0 42364 0 0
+~
+~
+Door 3 0 0 42346 0 0
+~
+~
+Door 5 0 0 42182 0 0
+~
+~
+End
+
+#42364
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42363 0 0
+~
+~
+Door 1 0 0 42371 0 0
+~
+~
+Door 2 0 0 42365 0 0
+~
+~
+Door 3 0 0 42347 0 0
+~
+~
+Door 5 0 0 42183 0 0
+~
+~
+End
+
+#42365
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42364 0 0
+~
+~
+Door 1 0 0 42372 0 0
+~
+~
+Door 2 0 0 42366 0 0
+~
+~
+Door 3 0 0 42348 0 0
+~
+~
+Door 5 0 0 42184 0 0
+~
+~
+End
+
+#42366
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42365 0 0
+~
+~
+Door 1 0 0 42373 0 0
+~
+~
+Door 2 0 0 42367 0 0
+~
+~
+Door 3 0 0 42349 0 0
+~
+~
+Door 5 0 0 42185 0 0
+~
+~
+End
+
+#42367
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42366 0 0
+~
+~
+Door 1 0 0 42374 0 0
+~
+~
+Door 3 0 0 42350 0 0
+~
+~
+End
+
+#42368
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42369 0 0
+~
+~
+Door 3 0 0 42361 0 0
+~
+~
+End
+
+#42369
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42368 0 0
+~
+~
+Door 2 0 0 42370 0 0
+~
+~
+Door 3 0 0 42362 0 0
+~
+~
+End
+
+#42370
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42369 0 0
+~
+~
+Door 1 0 0 42219 0 0
+~
+~
+Door 2 0 0 42371 0 0
+~
+~
+Door 3 0 0 42363 0 0
+~
+~
+End
+
+#42371
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42370 0 0
+~
+~
+Door 1 0 0 42232 0 0
+~
+~
+Door 2 0 0 42372 0 0
+~
+~
+Door 3 0 0 42364 0 0
+~
+~
+Door 5 0 0 42186 0 0
+~
+~
+End
+
+#42372
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42371 0 0
+~
+~
+Door 1 0 0 42359 0 0
+~
+~
+Door 2 0 0 42373 0 0
+~
+~
+Door 3 0 0 42365 0 0
+~
+~
+Door 5 0 0 42187 0 0
+~
+~
+End
+
+#42373
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42372 0 0
+~
+~
+Door 1 0 0 42358 0 0
+~
+~
+Door 2 0 0 42374 0 0
+~
+~
+Door 3 0 0 42366 0 0
+~
+~
+End
+
+#42374
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42373 0 0
+~
+~
+Door 3 0 0 42367 0 0
+~
+~
+End
+
+#42001
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42002 0 0
+~
+~
+Door 4 0 0 42024 0 0
+~
+~
+End
+
+#42002
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42001 0 0
+~
+~
+Door 2 0 0 42003 0 0
+~
+~
+Door 4 0 0 42025 0 0
+~
+~
+End
+
+#42003
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42002 0 0
+~
+~
+Door 4 0 0 42026 0 0
+~
+~
+End
+
+#42004
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42009 0 0
+~
+~
+Door 2 0 0 42005 0 0
+~
+~
+Door 4 0 0 42054 0 0
+~
+~
+End
+
+#42005
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42004 0 0
+~
+~
+Door 1 0 0 42010 0 0
+~
+~
+Door 2 0 0 42006 0 0
+~
+~
+Door 4 0 0 42055 0 0
+~
+~
+End
+
+#42006
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42005 0 0
+~
+~
+Door 1 0 0 42011 0 0
+~
+~
+Door 2 0 0 42007 0 0
+~
+~
+Door 3 259 0 42400 30 30
+~
+barrier~
+Door 4 0 0 42056 0 0
+~
+~
+End
+
+#42007
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42006 0 0
+~
+~
+Door 1 0 0 42012 0 0
+~
+~
+Door 2 0 0 42008 0 0
+~
+~
+Door 4 0 0 42057 0 0
+~
+~
+End
+
+#42008
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42007 0 0
+~
+~
+Door 4 0 0 42058 0 0
+~
+~
+End
+
+#42009
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42010 0 0
+~
+~
+Door 3 0 0 42004 0 0
+~
+~
+Door 4 0 0 42062 0 0
+~
+~
+End
+
+#42010
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42009 0 0
+~
+~
+Door 1 0 0 42013 0 0
+~
+~
+Door 2 0 0 42011 0 0
+~
+~
+Door 3 0 0 42005 0 0
+~
+~
+Door 4 0 0 42063 0 0
+~
+~
+End
+
+#42011
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42010 0 0
+~
+~
+Door 1 0 0 42014 0 0
+~
+~
+Door 2 0 0 42012 0 0
+~
+~
+Door 3 0 0 42006 0 0
+~
+~
+Door 4 0 0 42064 0 0
+~
+~
+End
+
+#42012
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42011 0 0
+~
+~
+Door 1 0 0 42015 0 0
+~
+~
+Door 3 0 0 42007 0 0
+~
+~
+Door 4 0 0 42065 0 0
+~
+~
+End
+
+#42013
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42014 0 0
+~
+~
+Door 3 0 0 42010 0 0
+~
+~
+Door 4 0 0 42072 0 0
+~
+~
+End
+
+#42014
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42013 0 0
+~
+~
+Door 2 0 0 42015 0 0
+~
+~
+Door 3 0 0 42011 0 0
+~
+~
+Door 4 0 0 42073 0 0
+~
+~
+End
+
+#42015
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42014 0 0
+~
+~
+Door 3 0 0 42012 0 0
+~
+~
+Door 4 0 0 42074 0 0
+~
+~
+End
+
+#42016
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 4 0 0 42048 0 0
+~
+~
+End
+
+#42017
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42020 0 0
+~
+~
+Door 2 0 0 42018 0 0
+~
+~
+Door 4 0 0 42083 0 0
+~
+~
+End
+
+#42018
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42017 0 0
+~
+~
+Door 1 0 0 42021 0 0
+~
+~
+Door 4 0 0 42084 0 0
+~
+~
+End
+
+#42019
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42024 0 0
+~
+~
+Door 2 0 0 42020 0 0
+~
+~
+Door 4 0 0 42085 0 0
+~
+~
+End
+
+#42020
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42019 0 0
+~
+~
+Door 1 0 0 42025 0 0
+~
+~
+Door 2 0 0 42021 0 0
+~
+~
+Door 3 0 0 42017 0 0
+~
+~
+Door 4 0 0 42086 0 0
+~
+~
+End
+
+#42021
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42020 0 0
+~
+~
+Door 1 0 0 42026 0 0
+~
+~
+Door 2 0 0 42022 0 0
+~
+~
+Door 3 0 0 42018 0 0
+~
+~
+Door 4 0 0 42087 0 0
+~
+~
+End
+
+#42022
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42021 0 0
+~
+~
+Door 1 0 0 42027 0 0
+~
+~
+Door 2 0 0 42023 0 0
+~
+~
+Door 4 0 0 42088 0 0
+~
+~
+End
+
+#42023
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42022 0 0
+~
+~
+Door 1 0 0 42028 0 0
+~
+~
+Door 4 0 0 42089 0 0
+~
+~
+End
+
+#42024
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42025 0 0
+~
+~
+Door 3 0 0 42019 0 0
+~
+~
+Door 4 0 0 42090 0 0
+~
+~
+Door 5 0 0 42001 0 0
+~
+~
+End
+
+#42025
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42024 0 0
+~
+~
+Door 2 0 0 42026 0 0
+~
+~
+Door 3 0 0 42020 0 0
+~
+~
+Door 4 0 0 42091 0 0
+~
+~
+Door 5 0 0 42002 0 0
+~
+~
+End
+
+#42026
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42025 0 0
+~
+~
+Door 2 0 0 42027 0 0
+~
+~
+Door 3 0 0 42021 0 0
+~
+~
+Door 4 0 0 42092 0 0
+~
+~
+Door 5 0 0 42003 0 0
+~
+~
+End
+
+#42027
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42026 0 0
+~
+~
+Door 2 0 0 42028 0 0
+~
+~
+Door 3 0 0 42022 0 0
+~
+~
+Door 4 0 0 42093 0 0
+~
+~
+End
+
+#42028
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42027 0 0
+~
+~
+Door 2 0 0 42029 0 0
+~
+~
+Door 3 0 0 42023 0 0
+~
+~
+Door 4 0 0 42094 0 0
+~
+~
+End
+
+#42029
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42028 0 0
+~
+~
+Door 1 0 0 42030 0 0
+~
+~
+Door 4 0 0 42095 0 0
+~
+~
+End
+
+#42030
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 3 0 0 42029 0 0
+~
+~
+Door 4 0 0 42103 0 0
+~
+~
+End
+
+#42031
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 4 0 0 42096 0 0
+~
+~
+End
+
+#42032
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42033 0 0
+~
+~
+Door 4 0 0 42104 0 0
+~
+~
+End
+
+#42033
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42034 0 0
+~
+~
+Door 3 0 0 42032 0 0
+~
+~
+Door 4 0 0 42111 0 0
+~
+~
+End
+
+#42034
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42035 0 0
+~
+~
+Door 2 0 0 42033 0 0
+~
+~
+Door 4 0 0 42110 0 0
+~
+~
+End
+
+#42035
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 3 0 0 42034 0 0
+~
+~
+Door 4 0 0 42116 0 0
+~
+~
+End
+
+#42036
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42037 0 0
+~
+~
+Door 4 0 0 42109 0 0
+~
+~
+End
+
+#42037
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42038 0 0
+~
+~
+Door 3 0 0 42036 0 0
+~
+~
+Door 4 0 0 42114 0 0
+~
+~
+End
+
+#42038
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42037 0 0
+~
+~
+Door 1 0 0 42039 0 0
+~
+~
+Door 4 0 0 42115 0 0
+~
+~
+End
+
+#42039
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42040 0 0
+~
+~
+Door 3 0 0 42038 0 0
+~
+~
+Door 4 0 0 42121 0 0
+~
+~
+End
+
+#42040
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42042 0 0
+~
+~
+Door 2 0 0 42041 0 0
+~
+~
+Door 3 0 0 42039 0 0
+~
+~
+Door 4 0 0 42124 0 0
+~
+~
+End
+
+#42041
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42040 0 0
+~
+~
+Door 4 0 0 42125 0 0
+~
+~
+End
+
+#42042
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 3 0 0 42040 0 0
+~
+~
+Door 4 0 0 42128 0 0
+~
+~
+End
+
+#42043
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42046 0 0
+~
+~
+Door 2 0 0 42044 0 0
+~
+~
+Door 4 0 0 42137 0 0
+~
+~
+End
+
+#42044
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42043 0 0
+~
+~
+Door 1 0 0 42047 0 0
+~
+~
+Door 2 0 0 42045 0 0
+~
+~
+Door 4 0 0 42138 0 0
+~
+~
+End
+
+#42045
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42044 0 0
+~
+~
+Door 1 0 0 42048 0 0
+~
+~
+Door 4 0 0 42139 0 0
+~
+~
+End
+
+#42046
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42047 0 0
+~
+~
+Door 3 0 0 42043 0 0
+~
+~
+Door 4 0 0 42142 0 0
+~
+~
+End
+
+#42047
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42046 0 0
+~
+~
+Door 1 0 0 42049 0 0
+~
+~
+Door 2 0 0 42048 0 0
+~
+~
+Door 3 0 0 42044 0 0
+~
+~
+Door 4 0 0 42143 0 0
+~
+~
+End
+
+#42048
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42047 0 0
+~
+~
+Door 1 0 0 42050 0 0
+~
+~
+Door 3 0 0 42045 0 0
+~
+~
+Door 4 0 0 42144 0 0
+~
+~
+Door 5 0 0 42016 0 0
+~
+~
+End
+
+#42049
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42050 0 0
+~
+~
+Door 3 0 0 42047 0 0
+~
+~
+Door 4 0 0 42149 0 0
+~
+~
+End
+
+#42050
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42049 0 0
+~
+~
+Door 2 0 0 42051 0 0
+~
+~
+Door 3 0 0 42048 0 0
+~
+~
+Door 4 0 0 42150 0 0
+~
+~
+End
+
+#42051
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42050 0 0
+~
+~
+Door 1 0 0 42052 0 0
+~
+~
+Door 4 0 0 42151 0 0
+~
+~
+End
+
+#42052
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42053 0 0
+~
+~
+Door 3 0 0 42051 0 0
+~
+~
+Door 4 0 0 42159 0 0
+~
+~
+End
+
+#42053
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42052 0 0
+~
+~
+Door 1 0 0 42061 0 0
+~
+~
+Door 2 0 0 42054 0 0
+~
+~
+Door 4 0 0 42160 0 0
+~
+~
+End
+
+#42054
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42053 0 0
+~
+~
+Door 1 0 0 42062 0 0
+~
+~
+Door 2 0 0 42055 0 0
+~
+~
+Door 4 0 0 42161 0 0
+~
+~
+Door 5 0 0 42004 0 0
+~
+~
+End
+
+#42055
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42054 0 0
+~
+~
+Door 1 0 0 42063 0 0
+~
+~
+Door 2 0 0 42056 0 0
+~
+~
+Door 4 0 0 42162 0 0
+~
+~
+Door 5 0 0 42005 0 0
+~
+~
+End
+
+#42056
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42055 0 0
+~
+~
+Door 1 0 0 42064 0 0
+~
+~
+Door 2 0 0 42057 0 0
+~
+~
+Door 4 0 0 42163 0 0
+~
+~
+Door 5 0 0 42006 0 0
+~
+~
+End
+
+#42057
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42056 0 0
+~
+~
+Door 1 0 0 42065 0 0
+~
+~
+Door 2 0 0 42058 0 0
+~
+~
+Door 4 0 0 42164 0 0
+~
+~
+Door 5 0 0 42007 0 0
+~
+~
+End
+
+#42058
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42057 0 0
+~
+~
+Door 1 0 0 42066 0 0
+~
+~
+Door 2 0 0 42059 0 0
+~
+~
+Door 4 0 0 42165 0 0
+~
+~
+Door 5 0 0 42008 0 0
+~
+~
+End
+
+#42059
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42058 0 0
+~
+~
+Door 1 0 0 42067 0 0
+~
+~
+Door 2 0 0 42069 0 0
+~
+~
+Door 3 0 0 42060 0 0
+~
+~
+Door 4 0 0 42166 0 0
+~
+~
+End
+
+#42060
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42059 0 0
+~
+~
+Door 4 0 0 42158 0 0
+~
+~
+End
+
+#42061
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42070 0 0
+~
+~
+Door 2 0 0 42062 0 0
+~
+~
+Door 3 0 0 42053 0 0
+~
+~
+Door 4 0 0 42167 0 0
+~
+~
+End
+
+#42062
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42061 0 0
+~
+~
+Door 1 0 0 42071 0 0
+~
+~
+Door 2 0 0 42063 0 0
+~
+~
+Door 3 0 0 42054 0 0
+~
+~
+Door 4 0 0 42168 0 0
+~
+~
+Door 5 0 0 42009 0 0
+~
+~
+End
+
+#42063
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42062 0 0
+~
+~
+Door 1 0 0 42072 0 0
+~
+~
+Door 2 0 0 42064 0 0
+~
+~
+Door 3 0 0 42055 0 0
+~
+~
+Door 4 0 0 42169 0 0
+~
+~
+Door 5 0 0 42010 0 0
+~
+~
+End
+
+#42064
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42063 0 0
+~
+~
+Door 1 0 0 42073 0 0
+~
+~
+Door 2 0 0 42065 0 0
+~
+~
+Door 3 0 0 42056 0 0
+~
+~
+Door 4 0 0 42170 0 0
+~
+~
+Door 5 0 0 42011 0 0
+~
+~
+End
+
+#42065
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42064 0 0
+~
+~
+Door 1 0 0 42074 0 0
+~
+~
+Door 2 0 0 42066 0 0
+~
+~
+Door 3 0 0 42057 0 0
+~
+~
+Door 4 0 0 42171 0 0
+~
+~
+Door 5 0 0 42012 0 0
+~
+~
+End
+
+#42066
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42065 0 0
+~
+~
+Door 1 0 0 42075 0 0
+~
+~
+Door 2 0 0 42067 0 0
+~
+~
+Door 3 0 0 42058 0 0
+~
+~
+Door 4 0 0 42172 0 0
+~
+~
+End
+
+#42067
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42066 0 0
+~
+~
+Door 2 0 0 42068 0 0
+~
+~
+Door 3 0 0 42059 0 0
+~
+~
+Door 4 0 0 42173 0 0
+~
+~
+End
+
+#42068
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42067 0 0
+~
+~
+Door 3 0 0 42069 0 0
+~
+~
+Door 4 0 0 42174 0 0
+~
+~
+End
+
+#42069
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42059 0 0
+~
+~
+Door 1 0 0 42068 0 0
+~
+~
+Door 4 0 0 42188 0 0
+~
+~
+End
+
+#42070
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42071 0 0
+~
+~
+Door 3 0 0 42061 0 0
+~
+~
+Door 4 0 0 42175 0 0
+~
+~
+End
+
+#42071
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42070 0 0
+~
+~
+Door 1 0 0 42076 0 0
+~
+~
+Door 2 0 0 42072 0 0
+~
+~
+Door 3 0 0 42062 0 0
+~
+~
+Door 4 0 0 42176 0 0
+~
+~
+End
+
+#42072
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42071 0 0
+~
+~
+Door 1 0 0 42077 0 0
+~
+~
+Door 2 0 0 42073 0 0
+~
+~
+Door 3 0 0 42063 0 0
+~
+~
+Door 4 0 0 42177 0 0
+~
+~
+Door 5 0 0 42013 0 0
+~
+~
+End
+
+#42073
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42072 0 0
+~
+~
+Door 1 0 0 42078 0 0
+~
+~
+Door 2 0 0 42074 0 0
+~
+~
+Door 3 0 0 42064 0 0
+~
+~
+Door 4 0 0 42178 0 0
+~
+~
+Door 5 0 0 42014 0 0
+~
+~
+End
+
+#42074
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42073 0 0
+~
+~
+Door 1 0 0 42079 0 0
+~
+~
+Door 2 0 0 42075 0 0
+~
+~
+Door 3 0 0 42065 0 0
+~
+~
+Door 4 0 0 42179 0 0
+~
+~
+Door 5 0 0 42015 0 0
+~
+~
+End
+
+#42075
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42074 0 0
+~
+~
+Door 1 0 0 42080 0 0
+~
+~
+Door 3 0 0 42066 0 0
+~
+~
+Door 4 0 0 42180 0 0
+~
+~
+End
+
+#42076
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42077 0 0
+~
+~
+Door 3 0 0 42071 0 0
+~
+~
+Door 4 0 0 42181 0 0
+~
+~
+End
+
+#42077
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42076 0 0
+~
+~
+Door 2 0 0 42078 0 0
+~
+~
+Door 3 0 0 42072 0 0
+~
+~
+Door 4 0 0 42182 0 0
+~
+~
+End
+
+#42078
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42077 0 0
+~
+~
+Door 1 0 0 42081 0 0
+~
+~
+Door 2 0 0 42079 0 0
+~
+~
+Door 3 0 0 42073 0 0
+~
+~
+Door 4 0 0 42183 0 0
+~
+~
+End
+
+#42079
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42078 0 0
+~
+~
+Door 1 0 0 42082 0 0
+~
+~
+Door 2 0 0 42080 0 0
+~
+~
+Door 3 0 0 42074 0 0
+~
+~
+Door 4 0 0 42184 0 0
+~
+~
+End
+
+#42080
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42079 0 0
+~
+~
+Door 3 0 0 42075 0 0
+~
+~
+Door 4 0 0 42185 0 0
+~
+~
+End
+
+#42081
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42082 0 0
+~
+~
+Door 3 0 0 42078 0 0
+~
+~
+Door 4 0 0 42186 0 0
+~
+~
+End
+
+#42082
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42081 0 0
+~
+~
+Door 3 0 0 42079 0 0
+~
+~
+Door 4 0 0 42187 0 0
+~
+~
+End
+
+#42083
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42086 0 0
+~
+~
+Door 2 0 0 42084 0 0
+~
+~
+Door 4 0 0 42196 0 0
+~
+~
+Door 5 0 0 42017 0 0
+~
+~
+End
+
+#42084
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42083 0 0
+~
+~
+Door 1 0 0 42087 0 0
+~
+~
+Door 4 0 0 42197 0 0
+~
+~
+Door 5 0 0 42018 0 0
+~
+~
+End
+
+#42085
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42090 0 0
+~
+~
+Door 2 0 0 42086 0 0
+~
+~
+Door 4 0 0 42202 0 0
+~
+~
+Door 5 0 0 42019 0 0
+~
+~
+End
+
+#42086
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42085 0 0
+~
+~
+Door 1 0 0 42091 0 0
+~
+~
+Door 2 0 0 42087 0 0
+~
+~
+Door 3 0 0 42083 0 0
+~
+~
+Door 4 0 0 42203 0 0
+~
+~
+Door 5 0 0 42020 0 0
+~
+~
+End
+
+#42087
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42086 0 0
+~
+~
+Door 1 0 0 42092 0 0
+~
+~
+Door 2 0 0 42088 0 0
+~
+~
+Door 3 0 0 42084 0 0
+~
+~
+Door 4 0 0 42204 0 0
+~
+~
+Door 5 0 0 42021 0 0
+~
+~
+End
+
+#42088
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42087 0 0
+~
+~
+Door 1 0 0 42093 0 0
+~
+~
+Door 2 0 0 42089 0 0
+~
+~
+Door 4 0 0 42205 0 0
+~
+~
+Door 5 0 0 42022 0 0
+~
+~
+End
+
+#42089
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42088 0 0
+~
+~
+Door 1 0 0 42094 0 0
+~
+~
+Door 4 0 0 42206 0 0
+~
+~
+Door 5 0 0 42023 0 0
+~
+~
+End
+
+#42090
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42098 0 0
+~
+~
+Door 2 0 0 42091 0 0
+~
+~
+Door 3 0 0 42085 0 0
+~
+~
+Door 4 0 0 42212 0 0
+~
+~
+Door 5 0 0 42024 0 0
+~
+~
+End
+
+#42091
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42090 0 0
+~
+~
+Door 1 0 0 42099 0 0
+~
+~
+Door 2 0 0 42092 0 0
+~
+~
+Door 3 0 0 42086 0 0
+~
+~
+Door 4 0 0 42213 0 0
+~
+~
+Door 5 0 0 42025 0 0
+~
+~
+End
+
+#42092
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42091 0 0
+~
+~
+Door 1 0 0 42100 0 0
+~
+~
+Door 2 0 0 42093 0 0
+~
+~
+Door 3 0 0 42087 0 0
+~
+~
+Door 4 0 0 42214 0 0
+~
+~
+Door 5 0 0 42026 0 0
+~
+~
+End
+
+#42093
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42092 0 0
+~
+~
+Door 1 0 0 42101 0 0
+~
+~
+Door 2 0 0 42094 0 0
+~
+~
+Door 3 0 0 42088 0 0
+~
+~
+Door 4 0 0 42215 0 0
+~
+~
+Door 5 0 0 42027 0 0
+~
+~
+End
+
+#42094
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42093 0 0
+~
+~
+Door 1 0 0 42102 0 0
+~
+~
+Door 2 0 0 42095 0 0
+~
+~
+Door 3 0 0 42089 0 0
+~
+~
+Door 4 0 0 42216 0 0
+~
+~
+Door 5 0 0 42028 0 0
+~
+~
+End
+
+#42095
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42094 0 0
+~
+~
+Door 1 0 0 42103 0 0
+~
+~
+Door 4 0 0 42217 0 0
+~
+~
+Door 5 0 0 42029 0 0
+~
+~
+End
+
+#42096
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42105 0 0
+~
+~
+Door 2 0 0 42097 0 0
+~
+~
+Door 4 0 0 42222 0 0
+~
+~
+Door 5 0 0 42031 0 0
+~
+~
+End
+
+#42097
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42096 0 0
+~
+~
+Door 1 0 0 42106 0 0
+~
+~
+Door 2 0 0 42098 0 0
+~
+~
+Door 4 0 0 42223 0 0
+~
+~
+End
+
+#42098
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42097 0 0
+~
+~
+Door 2 0 0 42099 0 0
+~
+~
+Door 3 0 0 42090 0 0
+~
+~
+Door 4 0 0 42224 0 0
+~
+~
+End
+
+#42099
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42098 0 0
+~
+~
+Door 2 0 0 42100 0 0
+~
+~
+Door 3 0 0 42091 0 0
+~
+~
+Door 4 0 0 42225 0 0
+~
+~
+End
+
+#42100
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42099 0 0
+~
+~
+Door 2 0 0 42101 0 0
+~
+~
+Door 3 0 0 42092 0 0
+~
+~
+Door 4 0 0 42226 0 0
+~
+~
+End
+
+#42101
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42100 0 0
+~
+~
+Door 2 0 0 42102 0 0
+~
+~
+Door 3 0 0 42093 0 0
+~
+~
+Door 4 0 0 42227 0 0
+~
+~
+End
+
+#42102
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42101 0 0
+~
+~
+Door 1 0 0 42107 0 0
+~
+~
+Door 2 0 0 42103 0 0
+~
+~
+Door 3 0 0 42094 0 0
+~
+~
+Door 4 0 0 42228 0 0
+~
+~
+End
+
+#42103
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42102 0 0
+~
+~
+Door 1 0 0 42108 0 0
+~
+~
+Door 3 0 0 42095 0 0
+~
+~
+Door 4 0 0 42229 0 0
+~
+~
+Door 5 0 0 42030 0 0
+~
+~
+End
+
+#42104
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42111 0 0
+~
+~
+Door 2 0 0 42105 0 0
+~
+~
+Door 4 0 0 42235 0 0
+~
+~
+Door 5 0 0 42032 0 0
+~
+~
+End
+
+#42105
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42104 0 0
+~
+~
+Door 1 0 0 42112 0 0
+~
+~
+Door 2 0 0 42106 0 0
+~
+~
+Door 3 0 0 42096 0 0
+~
+~
+Door 4 0 0 42236 0 0
+~
+~
+End
+
+#42106
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42105 0 0
+~
+~
+Door 3 0 0 42097 0 0
+~
+~
+Door 4 0 0 42237 0 0
+~
+~
+End
+
+#42107
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42108 0 0
+~
+~
+Door 3 0 0 42102 0 0
+~
+~
+Door 4 0 0 42238 0 0
+~
+~
+End
+
+#42108
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42107 0 0
+~
+~
+Door 1 0 0 42113 0 0
+~
+~
+Door 2 0 0 42109 0 0
+~
+~
+Door 3 0 0 42103 0 0
+~
+~
+Door 4 0 0 42239 0 0
+~
+~
+End
+
+#42109
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42108 0 0
+~
+~
+Door 1 0 0 42114 0 0
+~
+~
+Door 4 0 0 42240 0 0
+~
+~
+Door 5 0 0 42036 0 0
+~
+~
+End
+
+#42110
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42116 0 0
+~
+~
+Door 2 0 0 42111 0 0
+~
+~
+Door 4 0 0 42244 0 0
+~
+~
+Door 5 0 0 42034 0 0
+~
+~
+End
+
+#42111
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42110 0 0
+~
+~
+Door 1 0 0 42117 0 0
+~
+~
+Door 2 0 0 42112 0 0
+~
+~
+Door 3 0 0 42104 0 0
+~
+~
+Door 4 0 0 42245 0 0
+~
+~
+Door 5 0 0 42033 0 0
+~
+~
+End
+
+#42112
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42111 0 0
+~
+~
+Door 1 0 0 42118 0 0
+~
+~
+Door 3 0 0 42105 0 0
+~
+~
+Door 4 0 0 42246 0 0
+~
+~
+End
+
+#42113
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42119 0 0
+~
+~
+Door 2 0 0 42114 0 0
+~
+~
+Door 3 0 0 42108 0 0
+~
+~
+Door 4 0 0 42247 0 0
+~
+~
+End
+
+#42114
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42113 0 0
+~
+~
+Door 1 0 0 42120 0 0
+~
+~
+Door 2 0 0 42115 0 0
+~
+~
+Door 3 0 0 42109 0 0
+~
+~
+Door 4 0 0 42248 0 0
+~
+~
+Door 5 0 0 42037 0 0
+~
+~
+End
+
+#42115
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42114 0 0
+~
+~
+Door 1 0 0 42121 0 0
+~
+~
+Door 4 0 0 42249 0 0
+~
+~
+Door 5 0 0 42038 0 0
+~
+~
+End
+
+#42116
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42117 0 0
+~
+~
+Door 3 0 0 42110 0 0
+~
+~
+Door 4 0 0 42252 0 0
+~
+~
+Door 5 0 0 42035 0 0
+~
+~
+End
+
+#42117
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42116 0 0
+~
+~
+Door 1 0 0 42122 0 0
+~
+~
+Door 2 0 0 42118 0 0
+~
+~
+Door 3 0 0 42111 0 0
+~
+~
+Door 4 0 0 42253 0 0
+~
+~
+End
+
+#42118
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42117 0 0
+~
+~
+Door 3 0 0 42112 0 0
+~
+~
+Door 4 0 0 42254 0 0
+~
+~
+End
+
+#42119
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42120 0 0
+~
+~
+Door 3 0 0 42113 0 0
+~
+~
+Door 4 0 0 42255 0 0
+~
+~
+End
+
+#42120
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42119 0 0
+~
+~
+Door 1 0 0 42123 0 0
+~
+~
+Door 2 0 0 42121 0 0
+~
+~
+Door 3 0 0 42114 0 0
+~
+~
+Door 4 0 0 42256 0 0
+~
+~
+End
+
+#42121
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42120 0 0
+~
+~
+Door 1 0 0 42124 0 0
+~
+~
+Door 3 0 0 42115 0 0
+~
+~
+Door 4 0 0 42257 0 0
+~
+~
+Door 5 0 0 42039 0 0
+~
+~
+End
+
+#42122
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42126 0 0
+~
+~
+Door 3 0 0 42117 0 0
+~
+~
+Door 4 0 0 42262 0 0
+~
+~
+End
+
+#42123
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42127 0 0
+~
+~
+Door 2 0 0 42124 0 0
+~
+~
+Door 3 0 0 42120 0 0
+~
+~
+Door 4 0 0 42263 0 0
+~
+~
+End
+
+#42124
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42123 0 0
+~
+~
+Door 1 0 0 42128 0 0
+~
+~
+Door 2 0 0 42125 0 0
+~
+~
+Door 3 0 0 42121 0 0
+~
+~
+Door 4 0 0 42264 0 0
+~
+~
+Door 5 0 0 42040 0 0
+~
+~
+End
+
+#42125
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42124 0 0
+~
+~
+Door 4 0 0 42265 0 0
+~
+~
+Door 5 0 0 42041 0 0
+~
+~
+End
+
+#42126
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42129 0 0
+~
+~
+Door 3 0 0 42122 0 0
+~
+~
+Door 4 0 0 42268 0 0
+~
+~
+End
+
+#42127
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42130 0 0
+~
+~
+Door 2 0 0 42128 0 0
+~
+~
+Door 3 0 0 42123 0 0
+~
+~
+Door 4 0 0 42269 0 0
+~
+~
+End
+
+#42128
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42127 0 0
+~
+~
+Door 3 0 0 42124 0 0
+~
+~
+Door 4 0 0 42270 0 0
+~
+~
+Door 5 0 0 42042 0 0
+~
+~
+End
+
+#42129
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42131 0 0
+~
+~
+Door 3 0 0 42126 0 0
+~
+~
+Door 4 0 0 42274 0 0
+~
+~
+End
+
+#42130
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42132 0 0
+~
+~
+Door 3 0 0 42127 0 0
+~
+~
+Door 4 0 0 42275 0 0
+~
+~
+End
+
+#42131
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42133 0 0
+~
+~
+Door 3 0 0 42129 0 0
+~
+~
+Door 4 0 0 42279 0 0
+~
+~
+End
+
+#42132
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42136 0 0
+~
+~
+Door 3 0 0 42130 0 0
+~
+~
+Door 4 0 0 42280 0 0
+~
+~
+End
+
+#42133
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42139 0 0
+~
+~
+Door 2 0 0 42134 0 0
+~
+~
+Door 3 0 0 42131 0 0
+~
+~
+Door 4 0 0 42285 0 0
+~
+~
+End
+
+#42134
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42133 0 0
+~
+~
+Door 1 0 0 42140 0 0
+~
+~
+Door 4 0 0 42286 0 0
+~
+~
+End
+
+#42135
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42141 0 0
+~
+~
+Door 2 0 0 42136 0 0
+~
+~
+Door 4 0 0 42287 0 0
+~
+~
+End
+
+#42136
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42135 0 0
+~
+~
+Door 3 0 0 42132 0 0
+~
+~
+Door 4 0 0 42288 0 0
+~
+~
+End
+
+#42137
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42142 0 0
+~
+~
+Door 2 0 0 42138 0 0
+~
+~
+Door 4 0 0 42291 0 0
+~
+~
+Door 5 0 0 42043 0 0
+~
+~
+End
+
+#42138
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42137 0 0
+~
+~
+Door 1 0 0 42143 0 0
+~
+~
+Door 2 0 0 42139 0 0
+~
+~
+Door 4 0 0 42292 0 0
+~
+~
+Door 5 0 0 42044 0 0
+~
+~
+End
+
+#42139
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42138 0 0
+~
+~
+Door 1 0 0 42144 0 0
+~
+~
+Door 2 0 0 42140 0 0
+~
+~
+Door 3 0 0 42133 0 0
+~
+~
+Door 4 0 0 42293 0 0
+~
+~
+Door 5 0 0 42045 0 0
+~
+~
+End
+
+#42140
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42139 0 0
+~
+~
+Door 1 0 0 42145 0 0
+~
+~
+Door 3 0 0 42134 0 0
+~
+~
+Door 4 0 0 42294 0 0
+~
+~
+End
+
+#42141
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42148 0 0
+~
+~
+Door 3 0 0 42135 0 0
+~
+~
+Door 4 0 0 42295 0 0
+~
+~
+End
+
+#42142
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42143 0 0
+~
+~
+Door 3 0 0 42137 0 0
+~
+~
+Door 4 0 0 42298 0 0
+~
+~
+Door 5 0 0 42046 0 0
+~
+~
+End
+
+#42143
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42142 0 0
+~
+~
+Door 1 0 0 42149 0 0
+~
+~
+Door 2 0 0 42144 0 0
+~
+~
+Door 3 0 0 42138 0 0
+~
+~
+Door 4 0 0 42299 0 0
+~
+~
+Door 5 0 0 42047 0 0
+~
+~
+End
+
+#42144
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42143 0 0
+~
+~
+Door 1 0 0 42150 0 0
+~
+~
+Door 2 0 0 42145 0 0
+~
+~
+Door 3 0 0 42139 0 0
+~
+~
+Door 4 0 0 42300 0 0
+~
+~
+Door 5 0 0 42048 0 0
+~
+~
+End
+
+#42145
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42144 0 0
+~
+~
+Door 1 0 0 42151 0 0
+~
+~
+Door 2 0 0 42146 0 0
+~
+~
+Door 3 0 0 42140 0 0
+~
+~
+Door 4 0 0 42301 0 0
+~
+~
+End
+
+#42146
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42145 0 0
+~
+~
+Door 1 0 0 42152 0 0
+~
+~
+Door 4 0 0 42302 0 0
+~
+~
+End
+
+#42147
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42157 0 0
+~
+~
+Door 2 0 0 42148 0 0
+~
+~
+Door 4 0 0 42303 0 0
+~
+~
+End
+
+#42148
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42147 0 0
+~
+~
+Door 1 0 0 42158 0 0
+~
+~
+Door 3 0 0 42141 0 0
+~
+~
+Door 4 0 0 42304 0 0
+~
+~
+End
+
+#42149
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42150 0 0
+~
+~
+Door 3 0 0 42143 0 0
+~
+~
+Door 4 0 0 42308 0 0
+~
+~
+Door 5 0 0 42049 0 0
+~
+~
+End
+
+#42150
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42149 0 0
+~
+~
+Door 2 0 0 42151 0 0
+~
+~
+Door 3 0 0 42144 0 0
+~
+~
+Door 4 0 0 42309 0 0
+~
+~
+Door 5 0 0 42050 0 0
+~
+~
+End
+
+#42151
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42150 0 0
+~
+~
+Door 1 0 0 42159 0 0
+~
+~
+Door 2 0 0 42152 0 0
+~
+~
+Door 3 0 0 42145 0 0
+~
+~
+Door 4 0 0 42310 0 0
+~
+~
+Door 5 0 0 42051 0 0
+~
+~
+End
+
+#42152
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42151 0 0
+~
+~
+Door 1 0 0 42160 0 0
+~
+~
+Door 2 0 0 42153 0 0
+~
+~
+Door 3 0 0 42146 0 0
+~
+~
+Door 4 0 0 42311 0 0
+~
+~
+End
+
+#42153
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42152 0 0
+~
+~
+Door 1 0 0 42161 0 0
+~
+~
+Door 2 0 0 42154 0 0
+~
+~
+Door 4 0 0 42312 0 0
+~
+~
+End
+
+#42154
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42153 0 0
+~
+~
+Door 1 0 0 42162 0 0
+~
+~
+Door 2 0 0 42155 0 0
+~
+~
+Door 4 0 0 42313 0 0
+~
+~
+End
+
+#42155
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42154 0 0
+~
+~
+Door 1 0 0 42163 0 0
+~
+~
+Door 2 0 0 42156 0 0
+~
+~
+Door 4 0 0 42314 0 0
+~
+~
+End
+
+#42156
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42155 0 0
+~
+~
+Door 1 0 0 42164 0 0
+~
+~
+Door 2 0 0 42157 0 0
+~
+~
+Door 4 0 0 42315 0 0
+~
+~
+End
+
+#42157
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42156 0 0
+~
+~
+Door 1 0 0 42165 0 0
+~
+~
+Door 2 0 0 42158 0 0
+~
+~
+Door 3 0 0 42147 0 0
+~
+~
+Door 4 0 0 42316 0 0
+~
+~
+End
+
+#42158
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42157 0 0
+~
+~
+Door 1 0 0 42166 0 0
+~
+~
+Door 3 0 0 42148 0 0
+~
+~
+Door 4 0 0 42317 0 0
+~
+~
+Door 5 0 0 42060 0 0
+~
+~
+End
+
+#42159
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42160 0 0
+~
+~
+Door 3 0 0 42151 0 0
+~
+~
+Door 4 0 0 42322 0 0
+~
+~
+Door 5 0 0 42052 0 0
+~
+~
+End
+
+#42160
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42159 0 0
+~
+~
+Door 1 0 0 42167 0 0
+~
+~
+Door 2 0 0 42161 0 0
+~
+~
+Door 3 0 0 42152 0 0
+~
+~
+Door 4 0 0 42323 0 0
+~
+~
+Door 5 0 0 42053 0 0
+~
+~
+End
+
+#42161
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42160 0 0
+~
+~
+Door 1 0 0 42168 0 0
+~
+~
+Door 2 0 0 42162 0 0
+~
+~
+Door 3 0 0 42153 0 0
+~
+~
+Door 4 0 0 42324 0 0
+~
+~
+Door 5 0 0 42054 0 0
+~
+~
+End
+
+#42162
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42161 0 0
+~
+~
+Door 1 0 0 42169 0 0
+~
+~
+Door 2 0 0 42163 0 0
+~
+~
+Door 3 0 0 42154 0 0
+~
+~
+Door 4 0 0 42325 0 0
+~
+~
+Door 5 0 0 42055 0 0
+~
+~
+End
+
+#42163
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42162 0 0
+~
+~
+Door 1 0 0 42170 0 0
+~
+~
+Door 2 0 0 42164 0 0
+~
+~
+Door 3 0 0 42155 0 0
+~
+~
+Door 4 0 0 42326 0 0
+~
+~
+Door 5 0 0 42056 0 0
+~
+~
+End
+
+#42164
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42163 0 0
+~
+~
+Door 1 0 0 42171 0 0
+~
+~
+Door 2 0 0 42165 0 0
+~
+~
+Door 3 0 0 42156 0 0
+~
+~
+Door 4 0 0 42327 0 0
+~
+~
+Door 5 0 0 42057 0 0
+~
+~
+End
+
+#42165
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42164 0 0
+~
+~
+Door 1 0 0 42172 0 0
+~
+~
+Door 2 0 0 42166 0 0
+~
+~
+Door 3 0 0 42157 0 0
+~
+~
+Door 4 0 0 42328 0 0
+~
+~
+Door 5 0 0 42058 0 0
+~
+~
+End
+
+#42166
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42165 0 0
+~
+~
+Door 1 0 0 42173 0 0
+~
+~
+Door 2 0 0 42188 0 0
+~
+~
+Door 3 0 0 42158 0 0
+~
+~
+Door 4 0 0 42329 0 0
+~
+~
+Door 5 0 0 42059 0 0
+~
+~
+End
+
+#42167
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 1 0 0 42175 0 0
+~
+~
+Door 2 0 0 42168 0 0
+~
+~
+Door 3 0 0 42160 0 0
+~
+~
+Door 4 0 0 42334 0 0
+~
+~
+Door 5 0 0 42061 0 0
+~
+~
+End
+
+#42168
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42167 0 0
+~
+~
+Door 1 0 0 42176 0 0
+~
+~
+Door 2 0 0 42169 0 0
+~
+~
+Door 3 0 0 42161 0 0
+~
+~
+Door 4 0 0 42335 0 0
+~
+~
+Door 5 0 0 42062 0 0
+~
+~
+End
+
+#42169
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42168 0 0
+~
+~
+Door 1 0 0 42177 0 0
+~
+~
+Door 2 0 0 42170 0 0
+~
+~
+Door 3 0 0 42162 0 0
+~
+~
+Door 4 0 0 42336 0 0
+~
+~
+Door 5 0 0 42063 0 0
+~
+~
+End
+
+#42170
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42169 0 0
+~
+~
+Door 1 0 0 42178 0 0
+~
+~
+Door 2 0 0 42171 0 0
+~
+~
+Door 3 0 0 42163 0 0
+~
+~
+Door 4 0 0 42337 0 0
+~
+~
+Door 5 0 0 42064 0 0
+~
+~
+End
+
+#42171
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42170 0 0
+~
+~
+Door 1 0 0 42179 0 0
+~
+~
+Door 2 0 0 42172 0 0
+~
+~
+Door 3 0 0 42164 0 0
+~
+~
+Door 4 0 0 42338 0 0
+~
+~
+Door 5 0 0 42065 0 0
+~
+~
+End
+
+#42172
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42171 0 0
+~
+~
+Door 1 0 0 42180 0 0
+~
+~
+Door 2 0 0 42173 0 0
+~
+~
+Door 3 0 0 42165 0 0
+~
+~
+Door 4 0 0 42339 0 0
+~
+~
+Door 5 0 0 42066 0 0
+~
+~
+End
+
+#42173
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42172 0 0
+~
+~
+Door 2 0 0 42174 0 0
+~
+~
+Door 3 0 0 42166 0 0
+~
+~
+Door 4 0 0 42340 0 0
+~
+~
+Door 5 0 0 42067 0 0
+~
+~
+End
+
+#42174
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42173 0 0
+~
+~
+Door 3 0 0 42188 0 0
+~
+~
+Door 4 0 0 42341 0 0
+~
+~
+Door 5 0 0 42068 0 0
+~
+~
+End
+
+#42175
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42176 0 0
+~
+~
+Door 3 0 0 42167 0 0
+~
+~
+Door 4 0 0 42344 0 0
+~
+~
+Door 5 0 0 42070 0 0
+~
+~
+End
+
+#42176
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42175 0 0
+~
+~
+Door 1 0 0 42181 0 0
+~
+~
+Door 2 0 0 42177 0 0
+~
+~
+Door 3 0 0 42168 0 0
+~
+~
+Door 4 0 0 42345 0 0
+~
+~
+Door 5 0 0 42071 0 0
+~
+~
+End
+
+#42177
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42176 0 0
+~
+~
+Door 1 0 0 42182 0 0
+~
+~
+Door 2 0 0 42178 0 0
+~
+~
+Door 3 0 0 42169 0 0
+~
+~
+Door 4 0 0 42346 0 0
+~
+~
+Door 5 0 0 42072 0 0
+~
+~
+End
+
+#42178
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42177 0 0
+~
+~
+Door 1 0 0 42183 0 0
+~
+~
+Door 2 0 0 42179 0 0
+~
+~
+Door 3 0 0 42170 0 0
+~
+~
+Door 4 0 0 42347 0 0
+~
+~
+Door 5 0 0 42073 0 0
+~
+~
+End
+
+#42179
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42178 0 0
+~
+~
+Door 1 0 0 42184 0 0
+~
+~
+Door 2 0 0 42180 0 0
+~
+~
+Door 3 0 0 42171 0 0
+~
+~
+Door 4 0 0 42348 0 0
+~
+~
+Door 5 0 0 42074 0 0
+~
+~
+End
+
+#42180
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42179 0 0
+~
+~
+Door 1 0 0 42185 0 0
+~
+~
+Door 3 0 0 42172 0 0
+~
+~
+Door 4 0 0 42349 0 0
+~
+~
+Door 5 0 0 42075 0 0
+~
+~
+End
+
+#42181
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42182 0 0
+~
+~
+Door 3 0 0 42176 0 0
+~
+~
+Door 4 0 0 42362 0 0
+~
+~
+Door 5 0 0 42076 0 0
+~
+~
+End
+
+#42182
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42181 0 0
+~
+~
+Door 2 0 0 42183 0 0
+~
+~
+Door 3 0 0 42177 0 0
+~
+~
+Door 4 0 0 42363 0 0
+~
+~
+Door 5 0 0 42077 0 0
+~
+~
+End
+
+#42183
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42182 0 0
+~
+~
+Door 1 0 0 42186 0 0
+~
+~
+Door 2 0 0 42184 0 0
+~
+~
+Door 3 0 0 42178 0 0
+~
+~
+Door 4 0 0 42364 0 0
+~
+~
+Door 5 0 0 42078 0 0
+~
+~
+End
+
+#42184
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42183 0 0
+~
+~
+Door 1 0 0 42187 0 0
+~
+~
+Door 2 0 0 42185 0 0
+~
+~
+Door 3 0 0 42179 0 0
+~
+~
+Door 4 0 0 42365 0 0
+~
+~
+Door 5 0 0 42079 0 0
+~
+~
+End
+
+#42185
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42184 0 0
+~
+~
+Door 3 0 0 42180 0 0
+~
+~
+Door 4 0 0 42366 0 0
+~
+~
+Door 5 0 0 42080 0 0
+~
+~
+End
+
+#42186
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 2 0 0 42187 0 0
+~
+~
+Door 3 0 0 42183 0 0
+~
+~
+Door 4 0 0 42371 0 0
+~
+~
+Door 5 0 0 42081 0 0
+~
+~
+End
+
+#42187
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42186 0 0
+~
+~
+Door 3 0 0 42184 0 0
+~
+~
+Door 4 0 0 42372 0 0
+~
+~
+Door 5 0 0 42082 0 0
+~
+~
+End
+
+#42188
+Name Within the Lake of Tears~
+Descr
+~
+Flags 1
+Sector 12
+Door 0 0 0 42166 0 0
+~
+~
+Door 1 0 0 42174 0 0
+~
+~
+Door 4 0 0 42330 0 0
+~
+~
+Door 5 0 0 42069 0 0
+~
+~
+End
+
+#42189
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42192 0 0
+~
+~
+End
+
+#42190
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42195 0 0
+~
+~
+Door 2 0 0 42191 0 0
+~
+~
+End
+
+#42191
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42190 0 0
+~
+~
+Door 1 0 0 42196 0 0
+~
+~
+Door 2 0 0 42192 0 0
+~
+~
+End
+
+#42192
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42191 0 0
+~
+~
+Door 1 0 0 42197 0 0
+~
+~
+Door 2 0 0 42193 0 0
+~
+~
+Door 3 0 0 42189 0 0
+~
+~
+End
+
+#42193
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42192 0 0
+~
+~
+Door 1 0 0 42198 0 0
+~
+~
+End
+
+#42194
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42201 0 0
+~
+~
+Door 2 0 0 42195 0 0
+~
+~
+End
+
+#42195
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42194 0 0
+~
+~
+Door 1 0 0 42202 0 0
+~
+~
+Door 2 0 0 42196 0 0
+~
+~
+Door 3 0 0 42190 0 0
+~
+~
+End
+
+#42196
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42195 0 0
+~
+~
+Door 1 0 0 42203 0 0
+~
+~
+Door 2 0 0 42197 0 0
+~
+~
+Door 3 0 0 42191 0 0
+~
+~
+Door 5 0 0 42083 0 0
+~
+~
+End
+
+#42197
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42196 0 0
+~
+~
+Door 1 0 0 42204 0 0
+~
+~
+Door 2 0 0 42198 0 0
+~
+~
+Door 3 0 0 42192 0 0
+~
+~
+Door 5 0 0 42084 0 0
+~
+~
+End
+
+#42198
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42197 0 0
+~
+~
+Door 1 0 0 42205 0 0
+~
+~
+Door 2 0 0 42199 0 0
+~
+~
+Door 3 0 0 42193 0 0
+~
+~
+End
+
+#42199
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42198 0 0
+~
+~
+Door 1 0 0 42206 0 0
+~
+~
+Door 2 0 0 42200 0 0
+~
+~
+End
+
+#42200
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42199 0 0
+~
+~
+Door 1 0 0 42207 0 0
+~
+~
+End
+
+#42201
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42211 0 0
+~
+~
+Door 2 0 0 42202 0 0
+~
+~
+Door 3 0 0 42194 0 0
+~
+~
+End
+
+#42202
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42201 0 0
+~
+~
+Door 1 0 0 42212 0 0
+~
+~
+Door 2 0 0 42203 0 0
+~
+~
+Door 3 0 0 42195 0 0
+~
+~
+Door 5 0 0 42085 0 0
+~
+~
+End
+
+#42203
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42202 0 0
+~
+~
+Door 1 0 0 42213 0 0
+~
+~
+Door 2 0 0 42204 0 0
+~
+~
+Door 3 0 0 42196 0 0
+~
+~
+Door 5 0 0 42086 0 0
+~
+~
+End
+
+#42204
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42203 0 0
+~
+~
+Door 1 0 0 42214 0 0
+~
+~
+Door 2 0 0 42205 0 0
+~
+~
+Door 3 0 0 42197 0 0
+~
+~
+Door 5 0 0 42087 0 0
+~
+~
+End
+
+#42205
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42204 0 0
+~
+~
+Door 1 0 0 42215 0 0
+~
+~
+Door 2 0 0 42206 0 0
+~
+~
+Door 3 0 0 42198 0 0
+~
+~
+Door 5 0 0 42088 0 0
+~
+~
+End
+
+#42206
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42205 0 0
+~
+~
+Door 1 0 0 42216 0 0
+~
+~
+Door 2 0 0 42207 0 0
+~
+~
+Door 3 0 0 42199 0 0
+~
+~
+Door 5 0 0 42089 0 0
+~
+~
+End
+
+#42207
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42206 0 0
+~
+~
+Door 1 0 0 42217 0 0
+~
+~
+Door 2 0 0 42208 0 0
+~
+~
+Door 3 0 0 42200 0 0
+~
+~
+End
+
+#42208
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42207 0 0
+~
+~
+Door 1 0 0 42218 0 0
+~
+~
+End
+
+#42209
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42221 0 0
+~
+~
+Door 2 0 0 42210 0 0
+~
+~
+End
+
+#42210
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42209 0 0
+~
+~
+Door 1 0 0 42222 0 0
+~
+~
+Door 2 0 0 42211 0 0
+~
+~
+End
+
+#42211
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42210 0 0
+~
+~
+Door 1 0 0 42223 0 0
+~
+~
+Door 2 0 0 42212 0 0
+~
+~
+Door 3 0 0 42201 0 0
+~
+~
+End
+
+#42212
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42211 0 0
+~
+~
+Door 1 0 0 42224 0 0
+~
+~
+Door 2 0 0 42213 0 0
+~
+~
+Door 3 0 0 42202 0 0
+~
+~
+Door 5 0 0 42090 0 0
+~
+~
+End
+
+#42213
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42212 0 0
+~
+~
+Door 1 0 0 42225 0 0
+~
+~
+Door 2 0 0 42214 0 0
+~
+~
+Door 3 0 0 42203 0 0
+~
+~
+Door 5 0 0 42091 0 0
+~
+~
+End
+
+#42214
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42213 0 0
+~
+~
+Door 1 0 0 42226 0 0
+~
+~
+Door 2 0 0 42215 0 0
+~
+~
+Door 3 0 0 42204 0 0
+~
+~
+Door 5 0 0 42092 0 0
+~
+~
+End
+
+#42215
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42214 0 0
+~
+~
+Door 1 0 0 42227 0 0
+~
+~
+Door 2 0 0 42216 0 0
+~
+~
+Door 3 0 0 42205 0 0
+~
+~
+Door 5 0 0 42093 0 0
+~
+~
+End
+
+#42216
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42215 0 0
+~
+~
+Door 1 0 0 42228 0 0
+~
+~
+Door 2 0 0 42217 0 0
+~
+~
+Door 3 0 0 42206 0 0
+~
+~
+Door 5 0 0 42094 0 0
+~
+~
+End
+
+#42217
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42216 0 0
+~
+~
+Door 1 0 0 42229 0 0
+~
+~
+Door 2 0 0 42218 0 0
+~
+~
+Door 3 0 0 42207 0 0
+~
+~
+Door 5 0 0 42095 0 0
+~
+~
+End
+
+#42218
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42217 0 0
+~
+~
+Door 1 0 0 42230 0 0
+~
+~
+Door 3 0 0 42208 0 0
+~
+~
+End
+
+#42219
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 2 0 0 42232 0 0
+~
+~
+Door 3 0 0 42370 0 0
+~
+~
+End
+
+#42220
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 1 0 0 42234 0 0
+~
+~
+Door 2 0 0 42221 0 0
+~
+~
+End
+
+#42221
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42220 0 0
+~
+~
+Door 1 0 0 42235 0 0
+~
+~
+Door 2 0 0 42222 0 0
+~
+~
+Door 3 0 0 42209 0 0
+~
+~
+End
+
+#42222
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42221 0 0
+~
+~
+Door 1 0 0 42236 0 0
+~
+~
+Door 2 0 0 42223 0 0
+~
+~
+Door 3 0 0 42210 0 0
+~
+~
+Door 5 0 0 42096 0 0
+~
+~
+End
+
+#42223
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42222 0 0
+~
+~
+Door 1 0 0 42237 0 0
+~
+~
+Door 2 0 0 42224 0 0
+~
+~
+Door 3 0 0 42211 0 0
+~
+~
+Door 5 0 0 42097 0 0
+~
+~
+End
+
+#42224
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42223 0 0
+~
+~
+Door 2 0 0 42225 0 0
+~
+~
+Door 3 0 0 42212 0 0
+~
+~
+Door 5 0 0 42098 0 0
+~
+~
+End
+
+#42225
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42224 0 0
+~
+~
+Door 2 0 0 42226 0 0
+~
+~
+Door 3 0 0 42213 0 0
+~
+~
+Door 5 0 0 42099 0 0
+~
+~
+End
+
+#42226
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42225 0 0
+~
+~
+Door 2 0 0 42227 0 0
+~
+~
+Door 3 0 0 42214 0 0
+~
+~
+Door 5 0 0 42100 0 0
+~
+~
+End
+
+#42227
+Name Within the Lake of Tears~
+Descr
+~
+Sector 12
+Door 0 0 0 42226 0 0
+~
+~
+Door 2 0 0 42228 0 0
+~
+~
+Door 3 0 0 42215 0 0
+~
+~
+Door 5 0 0 42101 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

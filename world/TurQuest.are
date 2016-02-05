@@ -1,0 +1,1613 @@
+#AREADATA 
+Name Turkey Quest~
+Repop The clanging of pots and pans are heard from afar.
+~
+SRepop 30
+SCZone 0
+Builders  Darkside~
+VNUMs 91701 91799
+NQuit 2
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#91701
+Name rogi knight~
+Short rogi the knight~
+Long 
+Rogi the knight has fallen into a trap.
+~
+AMax 1
+ActBits 2
+Affect_By 168
+Money 1000
+Level 225
+Sex 1
+MobType 0
+Guard 0
+End
+
+#91702
+Name guard trapdoor~
+Short a guard~
+Long 
+A guard is here keeping people away from the person that is trapped.
+~
+AMax 2
+NHeight 0
+ActBits 2
+ActBits3 2
+Affect_By 552
+Level 80
+Guard 5
+End
+
+#91703
+Name little boy~
+Short a little boy~
+Long 
+A little boy is waiting for his mom to call him for dinner.
+~
+AMax 1
+ActBits3 4194304
+Affect_By 512
+Money 200
+Level 90
+Sex 1
+MobType 0
+Hp 30004
+Guard 0
+Spec spec_warrior
+End
+
+#91704
+Name mother~
+Short a mother~
+Long 
+A mother is here cooking Thanksgiving dinner.
+~
+AMax 1
+ActBits 2
+ActBits3 4194304
+Affect_By 552
+Money 4000
+Level 130
+Sex 2
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#91705
+Name father~
+Short a father~
+Long 
+A father is here watching out the window for hunters.
+~
+AMax 1
+ActBits3 4194304
+Affect_By 552
+Money 9000
+Level 150
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#91706
+Name female indian~
+Short a female indian~
+Long 
+A female indian is looking for food around the forest.
+~
+AMax 10
+Affect_By 544
+Level 80
+Sex 2
+MobType 0
+Hp 30004
+Guard 0
+Spec spec_warrior
+End
+
+#91707
+Name male indian~
+Short a male indian~
+Long 
+A male indian is ready to fight whoever walks by him.
+~
+AMax 10
+ActBits 32768
+Affect_By 544
+Alignment 2
+Level 80
+Sex 1
+MobType 0
+Hp 30010
+Guard 0
+Spec spec_warrior
+End
+
+#0
+
+
+
+#OBJDATA
+#91701
+Name pillar key~
+Short a [1m[33mp[0m[33mi[1ml[0m[33ml[1ma[0m[33mr [0mlike shaped key~
+Descr
+A key shaped like a pillar is lying on the ground.
+[0;36m~
+Type 18
+Wear 16385
+Weight 0
+Cost 0
+End
+
+#91702
+Name enterence key~
+Short a [1m[36menterence [0mdoor key~
+Descr
+A key that looks like it can get you in somewhere lies here.
+[0;36m~
+Type 18
+Wear 16385
+Weight 0
+Cost 0
+End
+
+#91703
+Name cabin key~
+Short a [33mc[32ma[33mb[32mi[33mn [0mkey~
+Descr
+A long lost cabin key lies here in the dust.
+[0;36m~
+Type 18
+Wear 16385
+Weight 0
+Cost 0
+End
+
+#91704
+Name hidden quest key~
+Short a [1m[30mhidden [33mq[37mu[33me[37ms[33mt [0mkey~
+Descr
+A [1m[30mhidden [0m[36mkey lies on the ground collecting dust.
+[0;36m~
+Type 18
+Wear 16385
+Weight 0
+Cost 0
+End
+
+#91705
+Name table~
+Short a table~
+Descr
+[0mA [33mo[1ma[0m[33mk [0mtable is set for dinner.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#91706
+Name token prize grand~
+Short a [1m[33mg[37ml[33mo[37mw[33mi[37mn[33mg [0mtoken of [1m[31mEXTREME [0mvalue~
+Descr
+A strange glowing token is lying here.
+[0;36m~
+Type 13
+Extra 16777216
+Wear 1
+Weight 0
+Cost 0
+End
+
+#91707
+Name altar~
+Short an altar~
+Descr
+[36mA [1m[31mbloody [0m[36maltar is here... it [1m[33mg[37ml[33mo[37mw[33ms [0m[36mwith power.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#91701
+Name Path Through a Forest~
+Descr
+~
+Sector 5
+Door 2 0 0 91730 0 0
+~
+~
+Door 3 0 0 91702 0 0
+~
+~
+End
+
+#91702
+Name Path Though a Forest~
+Descr
+~
+Sector 5
+Door 1 0 0 91701 0 0
+~
+~
+Door 2 0 0 91703 0 0
+~
+~
+End
+
+#91703
+Name Path Through a Forest~
+Descr
+~
+Sector 5
+Door 0 0 0 91702 0 0
+~
+~
+Door 1 0 0 91730 0 0
+~
+~
+Door 2 0 0 91728 0 0
+~
+~
+Door 3 0 0 91704 0 0
+~
+~
+End
+
+#91704
+Name Path Through a Forest~
+Descr
+~
+Sector 5
+Door 1 0 0 91703 0 0
+~
+~
+Door 2 0 0 91727 0 0
+~
+~
+Door 3 35 0 91705 30 30
+~
+strange door~
+End
+
+#91705
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91706 0 0
+~
+~
+Door 1 35 0 91704 30 30
+~
+strange door~
+Door 2 0 0 91707 0 0
+~
+~
+Door 3 0 0 91760 0 0
+~
+~
+End
+
+#91706
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91712 0 0
+~
+~
+Door 2 0 0 91705 0 0
+~
+~
+Door 3 0 0 91758 0 0
+~
+~
+End
+
+#91707
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Reset M 91706 1 100
+Door 0 0 0 91705 0 0
+~
+~
+Door 1 0 0 91727 0 0
+~
+~
+Door 2 0 0 91708 0 0
+~
+~
+Door 3 0 0 91762 0 0
+~
+~
+End
+
+#91708
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91707 0 0
+~
+~
+Door 2 0 0 91709 0 0
+~
+~
+Door 3 0 0 91764 0 0
+~
+~
+End
+
+#91709
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Reset M 91707 1 100
+Door 0 0 0 91708 0 0
+~
+~
+Door 3 0 0 91710 0 0
+~
+~
+End
+
+#91710
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Reset M 91706 1 100
+Reset O 91703 -1 25
+Door 0 0 0 91764 0 0
+~
+~
+Door 1 0 0 91709 0 0
+~
+~
+Door 3 0 0 91711 0 0
+~
+~
+End
+
+#91711
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91763 0 0
+~
+~
+Door 1 0 0 91710 0 0
+~
+~
+Door 3 0 0 91716 0 0
+~
+~
+End
+
+#91712
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Reset M 91706 1 100
+Reset O 91703 -1 25
+Door 2 0 0 91706 0 0
+~
+~
+Door 3 0 0 91713 0 0
+~
+~
+End
+
+#91713
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 1 0 0 91712 0 0
+~
+~
+Door 2 0 0 91758 0 0
+~
+~
+Door 3 0 0 91714 0 0
+~
+~
+End
+
+#91714
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 1 0 0 91713 0 0
+~
+~
+Door 2 0 0 91757 0 0
+~
+~
+Door 3 0 0 91715 0 0
+~
+~
+End
+
+#91715
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Reset M 91707 1 100
+Door 1 0 0 91714 0 0
+~
+~
+Door 2 0 0 91720 0 0
+~
+~
+Door 3 0 0 91740 0 0
+~
+~
+End
+
+#91716
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91717 0 0
+~
+~
+Door 1 0 0 91711 0 0
+~
+~
+Door 2 0 0 91765 0 0
+~
+~
+End
+
+#91717
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Reset M 91706 1 100
+Reset O 91702 -1 20
+Door 0 0 0 91718 0 0
+~
+~
+Door 1 0 0 91763 0 0
+~
+~
+Door 2 0 0 91716 0 0
+~
+~
+End
+
+#91718
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91719 0 0
+~
+~
+Door 1 0 0 91761 0 0
+~
+~
+Door 2 0 0 91717 0 0
+~
+~
+End
+
+#91719
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Reset M 91707 1 100
+Door 0 0 0 91720 0 0
+~
+~
+Door 1 0 0 91759 0 0
+~
+~
+Door 2 0 0 91718 0 0
+~
+~
+Door 3 0 0 91721 0 0
+~
+~
+End
+
+#91720
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91715 0 0
+~
+~
+Door 1 0 0 91757 0 0
+~
+~
+Door 2 0 0 91719 0 0
+~
+~
+End
+
+#91721
+Name Path Toward a House~
+Descr
+~
+Sector 5
+Door 1 0 0 91719 0 0
+~
+~
+Door 3 0 0 91722 0 0
+~
+~
+End
+
+#91722
+Name Path Toward a House~
+Descr
+~
+Sector 5
+Door 1 0 0 91721 0 0
+~
+~
+Door 3 0 0 91723 0 0
+~
+~
+End
+
+#91723
+Name Path Toward a House~
+Descr
+~
+Sector 5
+Reset M 91706 1 100
+Reset O 91702 -1 20
+Door 1 0 0 91722 0 0
+~
+~
+Door 2 0 0 91724 0 0
+~
+~
+End
+
+#91724
+Name Path Toward a House~
+Descr
+~
+Sector 5
+Door 0 0 0 91723 0 0
+~
+~
+Door 3 0 0 91725 0 0
+~
+~
+End
+
+#91725
+Name Path Toward a House~
+Descr
+~
+Sector 5
+Door 1 0 0 91724 0 0
+~
+~
+Door 3 39 91703 91726 30 30
+~
+cabin door~
+End
+
+#91726
+Name Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 39 91703 91725 30 30
+~
+cabin door~
+Door 3 0 0 91731 0 0
+~
+~
+End
+
+#91727
+Name ~
+Descr
+~
+Sector 5
+Door 0 0 0 91704 0 0
+~
+~
+Door 1 0 0 91728 0 0
+~
+~
+Door 3 0 0 91707 0 0
+~
+~
+End
+
+#91728
+Name ~
+Descr
+~
+Sector 5
+Door 0 0 0 91703 0 0
+~
+~
+Door 1 0 0 91729 0 0
+~
+~
+Door 3 0 0 91727 0 0
+~
+~
+End
+
+#91729
+Name ~
+Descr
+~
+Sector 5
+Reset M 91707 1 100
+Door 0 0 0 91730 0 0
+~
+~
+Door 3 0 0 91728 0 0
+~
+~
+End
+
+#91730
+Name ~
+Descr
+~
+Sector 5
+Door 0 0 0 91701 0 0
+~
+~
+Door 2 0 0 91729 0 0
+~
+~
+Door 3 0 0 91703 0 0
+~
+~
+End
+
+#91731
+Name Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91732 0 0
+~
+~
+Door 1 0 0 91726 0 0
+~
+~
+Door 2 0 0 91733 0 0
+~
+~
+Door 3 0 0 91734 0 0
+~
+~
+End
+
+#91732
+Name Kitchen~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 91705 -5 100
+Reset M 91704 1 100
+Reset O 51 -1 10
+Reset O 91702 -1 75
+Door 2 0 0 91731 0 0
+~
+~
+End
+
+#91733
+Name Dining Room~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91731 0 0
+~
+~
+End
+
+#91734
+Name Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91736 0 0
+~
+~
+Door 1 0 0 91731 0 0
+~
+~
+Door 2 0 0 91735 0 0
+~
+~
+Door 3 0 0 91737 0 0
+~
+~
+End
+
+#91735
+Name Living Room~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 91705 1 100
+Reset O 59 -1 10
+Reset O 135 -1 13
+Door 0 0 0 91734 0 0
+~
+~
+End
+
+#91736
+Name Bathroom~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 91734 0 0
+~
+~
+End
+
+#91737
+Name Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91738 0 0
+~
+~
+Door 1 0 0 91734 0 0
+~
+~
+Door 2 0 0 91739 0 0
+~
+~
+End
+
+#91738
+Name Bedroom~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 91703 1 100
+Door 2 0 0 91737 0 0
+~
+~
+End
+
+#91739
+Name Bedroom~
+Descr
+~
+Flags2 6
+Flags 4
+Sector 0
+Reset O 91707 -5 100
+Door 0 0 0 91737 0 0
+~
+~
+End
+
+#91740
+Name ~
+Descr
+~
+Sector 5
+Door 1 32 91702 91715 30 30
+~
+door~
+Door 3 0 0 91741 0 0
+~
+~
+End
+
+#91741
+Name ~
+Descr
+~
+Sector 5
+Door 1 0 0 91740 0 0
+~
+~
+Door 3 0 0 91742 0 0
+~
+~
+End
+
+#91742
+Name ~
+Descr
+~
+Sector 5
+Reset M 91707 1 100
+Reset O 91701 -1 30
+Door 1 0 0 91741 0 0
+~
+~
+Door 3 0 0 91743 0 0
+~
+~
+End
+
+#91743
+Name ~
+Descr
+~
+Sector 5
+Door 1 0 0 91742 0 0
+~
+~
+Door 3 0 0 91744 0 0
+~
+~
+End
+
+#91744
+Name ~
+Descr
+~
+Sector 5
+Door 1 0 0 91743 0 0
+~
+~
+Door 3 0 0 91745 0 0
+~
+~
+End
+
+#91745
+Name ~
+Descr
+~
+Sector 5
+Door 1 0 0 91744 0 0
+~
+~
+Door 3 0 0 91746 0 0
+~
+~
+End
+
+#91746
+Name ~
+Descr
+~
+Sector 5
+Door 1 0 0 91745 0 0
+~
+~
+Door 3 0 0 91747 0 0
+~
+~
+End
+
+#91747
+Name ~
+Descr
+~
+Sector 5
+Door 1 0 0 91746 0 0
+~
+~
+Door 3 0 0 91748 0 0
+~
+~
+End
+
+#91748
+Name ~
+Descr
+~
+Sector 5
+Reset M 91707 1 100
+Reset O 91701 -1 30
+Door 1 0 0 91747 0 0
+~
+~
+Door 3 0 0 91749 0 0
+~
+~
+End
+
+#91749
+Name ~
+Cvnuml 142487592
+Descr
+~
+Sector 5
+Door 1 0 0 91748 0 0
+~
+~
+Door 5 39 91701 91750 30 30
+~
+sliding pillar~
+End
+
+#91750
+Name ~
+Cvnumh 142697976
+Cvnuml 142759968
+Descr
+~
+Sector 5
+Reset M 99 1 100
+Reset O 2322 -1 12
+Reset O 137 -1 15
+Door 4 39 91701 91749 30 30
+~
+pillar~
+Door 5 0 0 91751 0 0
+~
+~
+End
+
+#91751
+Name ~
+Cvnumh 142487592
+Descr
+~
+Sector 5
+Door 2 0 0 91752 0 0
+~
+~
+Door 4 0 0 91750 0 0
+~
+~
+End
+
+#91752
+Name ~
+Descr
+~
+Sector 5
+Door 0 0 0 91751 0 0
+~
+~
+Door 2 0 0 91753 0 0
+~
+~
+End
+
+#91753
+Name ~
+Cvnumh 142710720
+Descr
+~
+Sector 5
+Door 0 0 0 91752 0 0
+~
+~
+Door 4 0 0 91754 0 0
+~
+~
+End
+
+#91754
+Name ~
+Cvnuml 142774144
+Descr
+~
+Sector 5
+Door 3 0 0 91755 0 0
+~
+~
+Door 5 0 0 91753 0 0
+~
+~
+End
+
+#91755
+Name ~
+Descr
+~
+Sector 5
+Door 1 0 0 91754 0 0
+~
+~
+Door 3 0 0 91756 0 0
+~
+~
+End
+
+#91756
+Name ~
+Descr
+~
+Sector 5
+Reset M 98 1 100
+Reset O 140 -1 14
+Reset O 136 -1 12
+Door 1 0 0 91755 0 0
+~
+~
+End
+
+#91757
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Reset M 91706 1 100
+Door 0 0 0 91714 0 0
+~
+~
+Door 1 0 0 91758 0 0
+~
+~
+Door 2 0 0 91759 0 0
+~
+~
+Door 3 0 0 91720 0 0
+~
+~
+End
+
+#91758
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91713 0 0
+~
+~
+Door 1 0 0 91706 0 0
+~
+~
+Door 2 0 0 91760 0 0
+~
+~
+Door 3 0 0 91757 0 0
+~
+~
+End
+
+#91759
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91757 0 0
+~
+~
+Door 1 0 0 91760 0 0
+~
+~
+Door 2 0 0 91761 0 0
+~
+~
+Door 3 0 0 91719 0 0
+~
+~
+End
+
+#91760
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91758 0 0
+~
+~
+Door 1 0 0 91705 0 0
+~
+~
+Door 2 0 0 91762 0 0
+~
+~
+Door 3 0 0 91759 0 0
+~
+~
+End
+
+#91761
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91759 0 0
+~
+~
+Door 1 0 0 91762 0 0
+~
+~
+Door 2 0 0 91763 0 0
+~
+~
+Door 3 0 0 91718 0 0
+~
+~
+End
+
+#91762
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Reset M 91707 1 100
+Door 0 0 0 91760 0 0
+~
+~
+Door 1 0 0 91707 0 0
+~
+~
+Door 2 0 0 91764 0 0
+~
+~
+Door 3 0 0 91761 0 0
+~
+~
+End
+
+#91763
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Reset M 91707 1 100
+Door 0 0 0 91761 0 0
+~
+~
+Door 1 0 0 91764 0 0
+~
+~
+Door 2 0 0 91711 0 0
+~
+~
+Door 3 0 0 91717 0 0
+~
+~
+End
+
+#91764
+Name Inside a Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 91762 0 0
+~
+~
+Door 1 0 0 91708 0 0
+~
+~
+Door 2 0 0 91710 0 0
+~
+~
+Door 3 0 0 91763 0 0
+~
+~
+End
+
+#91765
+Name ~
+Descr
+~
+Sector 5
+Door 0 0 0 91716 0 0
+~
+~
+Door 2 0 0 91766 0 0
+~
+~
+End
+
+#91766
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91765 0 0
+~
+~
+Door 1 0 0 91768 0 0
+~
+~
+Door 2 0 0 91776 0 0
+~
+~
+Door 3 0 0 91767 0 0
+~
+~
+End
+
+#91767
+Name ~
+Descr
+~
+Sector 30
+Door 1 0 0 91766 0 0
+~
+~
+Door 2 0 0 91775 0 0
+~
+~
+Door 3 0 0 91771 0 0
+~
+~
+End
+
+#91768
+Name ~
+Descr
+~
+Sector 30
+Reset M 91707 1 100
+Door 1 0 0 91769 0 0
+~
+~
+Door 2 0 0 91777 0 0
+~
+~
+Door 3 0 0 91766 0 0
+~
+~
+End
+
+#91769
+Name ~
+Descr
+~
+Sector 30
+Door 1 0 0 91770 0 0
+~
+~
+Door 2 0 0 91778 0 0
+~
+~
+Door 3 0 0 91768 0 0
+~
+~
+End
+
+#91770
+Name ~
+Descr
+~
+Sector 30
+Reset M 91706 1 100
+Door 2 0 0 91779 0 0
+~
+~
+Door 3 0 0 91769 0 0
+~
+~
+End
+
+#91771
+Name ~
+Descr
+~
+Sector 30
+Reset M 91706 1 100
+Door 1 0 0 91767 0 0
+~
+~
+Door 2 0 0 91774 0 0
+~
+~
+Door 3 0 0 91772 0 0
+~
+~
+End
+
+#91772
+Name ~
+Descr
+~
+Sector 30
+Reset M 91707 1 100
+Door 1 0 0 91771 0 0
+~
+~
+Door 2 0 0 91773 0 0
+~
+~
+End
+
+#91773
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91772 0 0
+~
+~
+Door 1 0 0 91774 0 0
+~
+~
+Door 2 0 0 91786 0 0
+~
+~
+End
+
+#91774
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91771 0 0
+~
+~
+Door 1 0 0 91775 0 0
+~
+~
+Door 2 0 0 91785 0 0
+~
+~
+Door 3 0 0 91773 0 0
+~
+~
+End
+
+#91775
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91767 0 0
+~
+~
+Door 1 0 0 91776 0 0
+~
+~
+Door 2 0 0 91784 0 0
+~
+~
+Door 3 0 0 91774 0 0
+~
+~
+End
+
+#91776
+Name ~
+Cvnuml 142153192
+Descr
+~
+Sector 30
+Reset M 91702 1 100
+Reset O 120 -1 100
+Reset M 91702 1 100
+Reset O 120 -1 100
+Door 0 0 0 91766 0 0
+~
+~
+Door 1 0 0 91777 0 0
+~
+~
+Door 2 0 0 91783 0 0
+~
+~
+Door 3 0 0 91775 0 0
+~
+~
+Door 5 519 0 91787 20 20
+~
+trapdoor~
+End
+
+#91777
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91768 0 0
+~
+~
+Door 1 0 0 91778 0 0
+~
+~
+Door 2 0 0 91782 0 0
+~
+~
+Door 3 0 0 91776 0 0
+~
+~
+End
+
+#91778
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91769 0 0
+~
+~
+Door 1 0 0 91779 0 0
+~
+~
+Door 2 0 0 91781 0 0
+~
+~
+Door 3 0 0 91777 0 0
+~
+~
+End
+
+#91779
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91770 0 0
+~
+~
+Door 2 0 0 91780 0 0
+~
+~
+Door 3 0 0 91778 0 0
+~
+~
+End
+
+#91780
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91779 0 0
+~
+~
+Door 3 0 0 91781 0 0
+~
+~
+End
+
+#91781
+Name ~
+Descr
+~
+Sector 30
+Reset M 91706 1 100
+Door 0 0 0 91778 0 0
+~
+~
+Door 1 0 0 91780 0 0
+~
+~
+Door 3 0 0 91782 0 0
+~
+~
+End
+
+#91782
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91777 0 0
+~
+~
+Door 1 0 0 91781 0 0
+~
+~
+Door 3 0 0 91783 0 0
+~
+~
+End
+
+#91783
+Name ~
+Descr
+~
+Sector 30
+Reset M 91706 1 100
+Door 0 0 0 91776 0 0
+~
+~
+Door 1 0 0 91782 0 0
+~
+~
+Door 3 0 0 91784 0 0
+~
+~
+End
+
+#91784
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91775 0 0
+~
+~
+Door 1 0 0 91783 0 0
+~
+~
+Door 3 0 0 91785 0 0
+~
+~
+End
+
+#91785
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91774 0 0
+~
+~
+Door 1 0 0 91784 0 0
+~
+~
+Door 3 0 0 91786 0 0
+~
+~
+End
+
+#91786
+Name ~
+Descr
+~
+Sector 30
+Door 0 0 0 91773 0 0
+~
+~
+Door 1 0 0 91785 0 0
+~
+~
+End
+
+#91787
+Name ~
+Cvnumh 142131504
+Descr
+~
+Flags 32
+Sector 46
+Reset M 91701 1 100
+Reset O 134 -1 15
+Reset O 139 -1 11
+Door 4 519 0 91776 20 20
+~
+trapdoor~
+End
+
+#0
+
+
+
+#$

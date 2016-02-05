@@ -1,0 +1,3175 @@
+#SPELL
+Slot 1
+Gsn 96
+SType 1
+SBitT 256
+Sname Burning Hands~
+SFname Burning Hands~
+SLev 6
+Pr1 Magic Missile~
+Noun flame~
+A2C1 You ignite your hands with magic $B$4fire$R$7 and touch $N.~
+A2V1 $n's hands are engulfed in $B$4fire$R$7 as he reaches for you.~
+A2NV1 $n reaches out for $N with $B$4burning$R$7 hands.~
+Durat 3~
+Locat0 25
+Modif0  10~
+Dam (l/8)+(i/10)+1~
+Mana 13
+ManaT 4
+Pos 7
+CastT 11
+WearO You feel better.~
+Minint 5
+#SPELL
+Slot 0
+Gsn 552
+Sname Block~
+SFname Block~
+SLev 48
+Pr1 Kick~
+Pr2 Steadiness~
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 15
+Minwis 15
+Guilds 2097152
+#SPELL
+Slot 2
+Gsn 360
+Sname Steal~
+SFname Steal~
+SLev 91
+Noun ~
+Durat 0~
+Pos 12
+CastT 50
+WearO ~
+Guilds 3182560
+SplLag 5
+FailChan 20
+PKChan 20
+#SPELL
+Slot 0
+Gsn 576
+Sname Shoot~
+SFname Shoot~
+SLev 45
+Pr2 Dual Wield~
+Noun shot~
+Durat 0~
+CastT 10
+WearO ~
+Minint 27
+Minwis 28
+Guilds 2097696
+#SPELL
+Slot 1
+Gsn 48
+SType 2
+SBits 16777216
+Sname Rejuvenate~
+SFname Rejuvenate~
+SLev 37
+Pr1 Refresh~
+Pr2 Heal Critical~
+Noun –iËi‡)	n~
+A2C1 You send forth a beam of $B$3energy$R$7 to boost $N.~
+A2V1 $n zaps you with a boost of $B$3energy$R$7, giving you a boost of stamina!~
+A2NV1 $n gives $N an $B$3energy$R$7 boost!~
+Durat 0~
+Dam 120~
+Mana 40
+ManaT 1
+Pos 7
+CastT 25
+WearO ~
+Minint 12
+Minwis 23
+Guilds 128
+#SPELL
+Slot 1
+Gsn 216
+SType 1
+Sname Mystic Wind~
+SFname Mystic Wind~
+SLev 65
+Pr1 Void~
+Noun $B$1W$3i$1n$2D~
+A2C1 $B$4You unleash the wind of the mystics!~
+A2V1 $B$1The $3Mystic $1Wind strikes you, causing you severe pain!~
+A2NV1 $B$1 $N is hit by the Mystic Winds!~
+Durat 2~
+Locat0 4
+Modif0  -10~
+BitVe 2049
+Dam w+w+120~
+Mana 125
+ManaT 1
+CastT 85
+WearO The mystic's release the grasp on your body.~
+Minint 22
+Minwis 27
+Guilds 1048704
+#SPELL
+Slot 0
+Gsn 553
+Sname Guard~
+SFname Guard~
+SLev 21
+Pr1 Rescue~
+Pr2 Block~
+Noun guard~
+Durat 0~
+Pos 9
+CastT 0
+WearO ~
+Minint 17
+Minwis 17
+Guilds 160
+#SPELL
+Slot 2
+Gsn 361
+Sname Forge~
+SFname Forge~
+SLev 110
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 23
+Minwis 23
+Guilds 2048
+#SPELL
+Slot 1
+Gsn 25
+SType 0
+Sname Ball of Light~
+SFname Ball of Light~
+SLev 5
+Noun ~
+A2C1 You whirl your finger around your head and create a small ball of $6$Blight$R.~
+A2NV1 $n whirls $s finger around $s head and creates a small ball of $6$Blight$R.~
+Durat 0~
+Mana 50
+ManaT 4
+Pos 12
+CastT 23
+WearO ~
+CrObj 21
+Minint 19
+Minwis 19
+#SPELL
+Slot 0
+Gsn 577
+Sname Throw~
+SFname Throw~
+SLev 40
+Pr1 Circle~
+Noun throw~
+Durat 0~
+CastT 10
+WearO ~
+Minint 26
+Minwis 27
+Guilds 2098272
+#SPELL
+Slot 1
+Gsn 121
+SType 0
+Sname Ranged Spells~
+SFname Ranged Spells~
+SLev 50
+Noun ~
+Durat 0~
+Mana 1000
+CastT 10
+WearO ~
+Minint 31
+Minwis 31
+Guilds 1081728
+#SPELL
+Slot 1
+Gsn 49
+SType 2
+SBits 33793
+Sname Mass Healing~
+SFname Mass Healing~
+SLev 50
+Pr1 Healing~
+Pr2 Mass Refresh~
+Noun ~
+A2C1 You cast a spell over all of your allies.~
+A2V1 $n sends a warm feeling through your body.~
+A2NV1 $N looks better!~
+Durat 0~
+Dam 100~
+Mana 80
+ManaT 1
+Pos 7
+CastT 40
+WearO ~
+Minint 18
+Minwis 24
+Guilds 128
+#SPELL
+Slot 1
+Gsn 98
+SType 1
+SBits 536872961
+SBitT 256
+Sname Fireball ~
+SFname Fireball~
+SLev 22
+Pr1 Rock~
+Pr2 Burning Hands~
+Noun fireball~
+A2C1 You encase a rock in a shroud of flame and send it forth!~
+A2V1 $n encases a large rock in a shroud of $4flame$R$7 and sends it forth!~
+A2NV1 $n sends a $4flame$R$7-shrouded rock hurtling toward $N!~
+Durat 3~
+Locat0 25
+Modif0  20~
+Dam i/2+a+10~
+Mana 30
+ManaT 4
+Pos 7
+CastT 30
+WearO ~
+Minint 20
+#SPELL
+Slot 1
+Gsn 26
+SType 0
+SBits 67108864
+Sname Create Spring~
+SFname Create Spring~
+SLev 28
+Noun ~
+A2C1 You create a magical spring!~
+A2NV1 $n creates a magical spring!~
+Durat 0~
+Mana 25
+ManaT 8
+CastT 25
+WearO ~
+CrObj 22
+Minint 15
+Minwis 15
+#SPELL
+Slot 0
+Gsn 554
+Sname Backstab~
+SFname Backstab~
+SLev 24
+Pr1 Sneaking~
+Pr2 Armor Penetration~
+Noun backstab~
+Durat 0~
+Mana 20
+Pos 9
+CastT 30
+WearO ~
+Minint 18
+Minwis 25
+Guilds 64
+#SPELL
+Slot 2
+Gsn 362
+Sname Tracking~
+SFname Tracking~
+SLev 18
+Pr1 Search~
+Noun Xœ|pœ|pe	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 1
+Gsn 2
+SType 4
+SBits 8194
+Sname Teleport~
+SFname Teleport~
+SLev 75
+Pr1 Fly~
+Pr2 Summon~
+Noun –iËi‡)	n~
+A2C1 You feel tug of space and time, and when you recover your senses, you are in a different place.~
+A2NV1 $n slips out of space and into the $B$0Void$R$7.~
+Durat 0~
+Mana 120
+ManaT 16
+Pos 12
+CastT 20
+WearO ~
+Minint 25
+Minwis 25
+Guilds 1087488
+SplLag 8
+FailChan 20
+PKChan 70
+#SPELL
+Slot 1
+Gsn 50
+SType 2
+SBits 1124107265
+Sname Shower of Life~
+SFname Shower of Life~
+SLev 60
+Pr1 Purification~
+Pr2 Divine Healing~
+Noun heal~
+A2C1 You bathe your allies in a shower of $B$2life$R!~
+A2V1 You are bathed in $n's shower of $B$2life$R!~
+A2NV1 $N is bathed in $n's shower of $B$2life$R!~
+Durat 0~
+BitVe 4215873
+Dam 145+a+a~
+Mana 120
+ManaT 1
+Pos 7
+CastT 65
+WearO ~
+Minint 10
+Minwis 27
+Guilds 1048704
+#SPELL
+Slot 1
+Gsn 218
+SType 2
+SBits 33793
+Sname Health Surge~
+SFname Health Surge~
+SLev 75
+Pr1 shower of life~
+Noun Surge~
+A2C1 You feel a surge of health flow through you.~
+A2V1 You feel a surge of health flow through you.~
+Durat 10~
+Locat0 13
+Modif0  125~
+Mana 200
+ManaT 1
+CastT 50
+WearO You feel less healthy.~
+Minint 20
+Minwis 27
+Guilds 1048704
+#SPELL
+Slot 1
+Gsn 27
+SType 4
+Sname Enlarge~
+SFname Enlarge~
+SLev 18
+Noun –iËi‡)	n~
+A2C1 Your spell was a success...~
+A2V1 You feel a little bit stronger!~
+A2NV1 $N's muscles tighten as they are surrounded by a $6$Byellow$R$7 light.~
+Durat l/2+a~
+Locat0 1
+Modif0  1~
+Modif1  none~
+Modif2  none~
+Mana 50
+ManaT 1
+Pos 12
+CastT 25
+WearO You feel your strength return to normal.~
+Minint 14
+Minwis 14
+#SPELL
+Slot 0
+Gsn 555
+Sname Dodge~
+SFname Dodge~
+SLev 13
+Pr1 Parry~
+Noun ~
+Durat 0~
+CastT 0
+WearO ~
+Minint 15
+Minwis 20
+#SPELL
+Slot 2
+Gsn 363
+Sname Brew~
+SFname Brew~
+SLev 27
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 30
+Minwis 20
+Guilds 3182560
+#SPELL
+Slot 1
+Gsn 75
+SType 1
+SBitT 4
+Sname Windblast~
+SFname Windblast~
+SLev 36
+Pr1 Cone of Cold~
+Noun wind~
+A2C1 You blast $N with a burst of $B$3wind$R$7.~
+A2V1 $n blasts you with a burst of $B$3wind$R$7!~
+A2NV1 $n blasts $N with a burst of $B$3wind$R$&.~
+Durat 0~
+Dam i+20~
+Mana 35
+ManaT 2
+Pos 7
+CastT 30
+WearO ~
+Minint 22
+#SPELL
+Slot 0
+Gsn 579
+Sname Warcry~
+SFname Warcry~
+SLev 35
+Pr1 Enhanced Damage~
+Pr2 Accuracy~
+Noun Warcry~
+Durat 0~
+CastT 10
+WearO You calm down.~
+Minint 10
+Guilds 32
+#SPELL
+Slot 1
+Gsn 3
+SType 4
+Sname Total Protection~
+SFname Total Protection~
+SLev 91
+Pr1 Steel Plating~
+Pr2 Sanctuary~
+Noun prot~
+A2C1 A $B$7SHIMMERING$R$7 aura surrounds you.~
+A2NV1 $n is surrounded by a $B$7SHIMMMERING$R$7 aura.~
+Durat 4~
+Locat0 19
+Modif0  -10~
+Locat1 1
+Modif1  3~
+BitVe 8192
+Mana 200
+ManaT 8
+CastT 50
+WearO the SHIMMERING  Aura dissipates~
+Minint 25
+Minwis 25
+Guilds 1081344
+SplLag 10
+#SPELL
+Slot 1
+Gsn 51
+SType 2
+SBits 33554432
+Sname Remove Poison~
+SFname Remove Poison~
+SLev 13
+Noun ~
+A2C1 You draw poison from the afflicted into the air.~
+A2V1 You feel the poison disappearing from your bloodstream.~
+A2NV1 $N looks a lot less sick.~
+Durat 0~
+BitVe 4096
+Mana 12
+ManaT 8
+Pos 7
+CastT 16
+WearO ~
+Minint 14
+Minwis 14
+#SPELL
+Slot 0
+Gsn 580
+Sname Flail~
+SFname Flail~
+SLev 75
+Pr1 Dual Wield~
+Noun Berserk~
+Durat 0~
+CastT 0
+WearO You settle down.~
+Minint 30
+Minwis 24
+Guilds 2099744
+#SPELL
+Slot 1
+Gsn 100
+SType 1
+SBits -1610610687
+SBitT 256
+Sname Firestorm~
+SFname Firestorm~
+SLev 46
+Pr1 Firebreath~
+Noun Storm~
+A2C1 You send forth a mighty $B$4Firestorm$R$7!~
+A2V1 $n incinerates you with $s mighty $B$4Firestorm$R$7!~
+A2NV1 $n incinerates $N with $s mighty $B$4Firestorm$R$7.~
+Durat 3~
+Locat0 25
+Modif0  20~
+Dam 90~
+Mana 146
+ManaT 4
+Pos 7
+CastT 80
+WearO ~
+Minint 24
+#SPELL
+Slot 1
+Gsn 28
+SType 4
+Sname Earthen Strength~
+SFname Earthen Strength~
+SLev 24
+Noun ~
+A2C1 Your muscles tighten as energy flows into them!~
+A2NV1 $n looks like $s muscles have grown.~
+Durat l/2+b~
+Locat0 1
+Modif0  1~
+Mana 55
+ManaT 1
+Pos 7
+CastT 35
+WearO Your muscles feel a bit weaker as your spell wears off.~
+Minint 13
+Minwis 17
+#SPELL
+Slot 1
+Gsn 52
+SType 2
+SBits 33554432
+Sname Cure Blindness~
+SFname Cure Blindness~
+SLev 14
+Noun –iËi‡)	n~
+A2C1 You attempt to remove the blindness...~
+A2V1 $n attempts to remove your blindness...~
+A2NV1 $n mumbles some words at $N's eyes.~
+Durat 0~
+BitVe 1
+Mana 20
+ManaT 4
+Pos 7
+CastT 15
+WearO ~
+Minint 12
+Minwis 13
+#SPELL
+Slot 2
+Gsn 364
+Sname Mine~
+SFname Mine~
+SLev 110
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 19
+Minwis 14
+#SPELL
+Slot 1
+Gsn 4
+SType 4
+BitT 4
+Sname Mindshield~
+SFname Mindshield~
+SLev 45
+Pr1 Bless~
+Noun prot~
+A2C1 You concentrate your power into a shield of magical power.~
+A2C2 It floats about your head.~
+A2V1 You feel better protected.~
+A2NV1 $n protects $N from magical powers.~
+Durat 30~
+Mana 80
+ManaT 16
+Pos 12
+CastT 25
+WearO ~
+Minint 20
+Minwis 20
+Guilds 1048832
+#SPELL
+Slot 1
+Gsn 76
+SType 1
+SBits -2147481599
+SBitT 4
+Sname Hurricane~
+SFname Hurricane~
+SLev 44
+Pr1 Cold Ray~
+Noun wind~
+A2C1 You conjure a hurricane that hits $N!~
+A2V1 $n conjures a hurricane that slams into you!~
+A2NV1 $N conjures a hurricane that slams into $N!~
+Durat 0~
+BitVe 65536
+Dam (i+i)+7~
+Mana 134
+ManaT 2
+Pos 7
+CastT 64
+WearO ~
+Minint 23
+#SPELL
+Slot 1
+Gsn 101
+SType 1
+SBits 536870912
+SBitT 256
+Sname Firebreath~
+SFname Firebreath~
+SLev 43
+Pr1 Chain Lightning~
+Noun breath~
+A2C1 You breathe fire on $N!~
+A2V1 $n $4$Bunleashes a HUGE breath of F I R E on you!~
+A2NV1 $n $4$Btakes a deep breath and engulfs $N in $s $4fiery breath.~
+Durat 3~
+Locat0 25
+Modif0  30~
+Dam (i+i)+12~
+Mana 43
+ManaT 4
+Pos 7
+CastT 40
+WearO You feel a little less blessed.~
+Minint 25
+#SPELL
+Slot 1
+Gsn 29
+SType 4
+Sname Bless~
+SFname Bless~
+SLev 36
+Pr1 Battle Prayer~
+Noun ~
+A2C1 Spell successful.~
+A2V1 You feel righteous!~
+A2NV1 $N is briefly surrounded in a glowing aura.~
+Durat l+a~
+Locat0 18
+Modif0  l/10+o+o~
+Locat1 20
+Modif1  -l/6-g-g~
+Mana 15
+ManaT 8
+Pos 7
+CastT 27
+WearO You feel a little less accurate.~
+Minint 15
+Minwis 17
+#SPELL
+Slot 1
+Gsn 77
+SType 1
+SBitT 4
+Sname Tornado~
+SFname Tornado~
+SLev 48
+Pr1 Hurricane~
+Noun Wind~
+A2C1 You clap your hands together, stunning $N with wind!~
+A2V1 $n claps $s hands together, rocking you with $s wind.~
+A2NV1 smash into $N!~
+Durat 0~
+Dam i+30~
+Mana 45
+ManaT 2
+CastT 55
+WearO ~
+Minint 25
+#SPELL
+Slot 2
+Gsn 365
+Sname Skin~
+SFname Skin~
+SLev 34
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 19
+Minwis 14
+Guilds 2560
+#SPELL
+Slot 1
+Gsn 54
+SType 2
+SBits 33554432
+Sname Bodycure~
+SFname Bodycure~
+SLev 32
+Pr1 Remove Plague~
+Pr2 Remove Poison~
+Noun ~
+A2C1 You cleanse $N's body.~
+A2V1 $n cleanses your body.~
+A2NV1 $n cleanses $N's body.~
+Durat n/a~
+BitVe 4198400
+Mana 35
+ManaT 8
+CastT 22
+WearO none~
+Minint 14
+Minwis 17
+#SPELL
+Slot 1
+Gsn 78
+SType 1
+SBits 256
+Sname Acid Arrow~
+SFname Acid Arrow~
+SLev 9
+Pr1 Poison~
+Noun arrow~
+A2C1 You send a small acid arrow at $N.~
+A2V1 $n sends a small acid arrow slamming into you.~
+A2NV1 $n sends a small acid arrow toward $N.~
+Durat 0~
+Dam (i/9)+30~
+Mana 13
+ManaT 8
+Pos 7
+CastT 19
+WearO ~
+Minint 5
+#SPELL
+Slot 1
+Gsn 126
+SType 1
+SBits -1879046143
+Sname Acid Spray~
+SFname Acid Spray~
+SLev 26
+Pr1 Acid Bolt~
+Noun acid~
+A2C1 You spray $N with acid.~
+A2V1 $n sprays you with a cloud of acid.~
+A2NV1 $N is sprayed by a cloud of acid conjured up by $n.~
+Durat 0~
+Dam a+45~
+Mana 80
+ManaT 8
+CastT 60
+WearO ~
+Minint 20
+#SPELL
+Slot 1
+Gsn 30
+SType 4
+Sname War Blessing~
+SFname War Blessing~
+SLev 26
+Pr1 Battle Prayer~
+Pr2 Enhanced Damage~
+Noun ~
+A2C1 Your blessing was successful; you are ready for battle!~
+A2NV1 $n invokes an ancient blessing of the war god.~
+Durat l~
+Locat0 19
+Modif0  l/30+o+o~
+Locat1 17
+Modif1  20~
+Dam 0~
+Mana 30
+ManaT 1
+Pos 12
+CastT 17
+WearO You feel a bit less ready for battle.~
+Minint 15
+Minwis 15
+#SPELL
+Slot 1
+Gsn 55
+SType 2
+SBits 33554432
+SBitT 16
+Sname Cureall~
+SFname Cureall~
+SLev 40
+Pr1 Cure Blindness~
+Pr2 Bodycure~
+Noun ~
+A2C1 You cure $N.~
+A2V1 $n cures you...AAHHHH!~
+A2NV1 $n cures $N.~
+Durat 0~
+Modif0  none~
+Modif1  none~
+Modif2  none~
+BitVe 4215873
+Mana 35
+ManaT 1
+Pos 7
+CastT 35
+WearO ~
+Minint 12
+Minwis 20
+PKChan 20
+#SPELL
+Slot 1
+Gsn 79
+SType 1
+SBits 268435456
+Sname Acid Bolt~
+SFname Acid Bolt~
+SLev 14
+Pr1 Acid Arrow~
+Noun bolt~
+A2C1 You send a bolt of acid out, striking $N.~
+A2V1 $n sends a large bolt of acid at YOU!~
+A2NV1 $n sends a large bolt of acid to strike $N!~
+Durat 0~
+Dam a+13~
+Mana 23
+ManaT 8
+Pos 7
+CastT 11
+WearO ~
+Minint 11
+#SPELL
+Slot 1
+Gsn 199
+SType 1
+SBits 2049
+Sname Wrath of God~
+SFname Wrath of God~
+SLev 70
+Pr1 Lethargy~
+Pr2 Mystic Wind~
+Noun Spell~
+A2C1 You summon the Wrath of God to smite your foes!~
+A2V1 $n calls upon the powers of God himself to smite you!~
+A2NV1 $n calls forth the powers above to smite $s enemies.~
+Durat 1~
+Modif0  none~
+Modif1  none~
+Modif2  none~
+Modif3  none~
+Locat4 3
+Modif4  -c~
+BitVe 67109889
+Dam w+120~
+Mana 100
+ManaT 2
+CastT 120
+WearO The spell has worn off.~
+Minint 25
+Minwis 28
+Guilds 1049216
+#SPELL
+Slot 1
+Gsn 7
+SType 4
+Sname Sanctuary~
+SFname Sanctuary~
+SLev 38
+Pr1 Stoneskin~
+Noun prot~
+A2C1 You ask the $B$7gods $Rto grant you $B$1protection$R.~
+A2NV1 $n is surrounded with a $B$7shimmering $1blue $Raura.~
+Durat l/10+3~
+BitVe 128
+Mana 88
+ManaT 8
+CastT 30
+WearO You feel less protected~
+Minint 17
+Minwis 19
+#SPELL
+Slot 1
+Gsn 31
+SType 2
+SBits 33554432
+Sname Remove Curse~
+SFname Remove Curse~
+SLev 15
+Noun none~
+A2C1 You attempt to purify $N.~
+A2C2 .~
+A2V1 You are purified by $n.~
+A2NV1 $n attempts to purify $N.~
+Durat N/A~
+BitVe 1024
+Dam 0~
+Mana 75
+ManaT 1
+Pos 12
+CastT 22
+WearO You calm down.~
+Minint 15
+#SPELL
+Slot 0
+Gsn 583
+Sname Polearm Weapons~
+SFname Polearm Weapons~
+SLev 27
+Pr1 Whipping Weapons~
+Pr2 Concussion Weapons~
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 20
+Guilds 2097184
+#SPELL
+Slot 1
+Gsn 104
+SType 1
+SBits -2147481599
+SBitT 2
+Sname Chain Lightning~
+SFname Chain Lightning~
+SLev 23
+Pr2 Fireball~
+Noun lightning~
+A2C1 You create an arcing chain of $6lighting bolts$R!~
+A2V1 $n creates an arcing chain of $6lightning bolts$R$7 which hits you!~
+A2NV1 $n creates an arcing chain of $6lightning bolts$R$7which hits $N!~
+Durat 0~
+Dam (i/4)+35~
+Mana 72
+ManaT 4
+Pos 7
+CastT 45
+WearO ~
+Minint 20
+#SPELL
+Slot 0
+Gsn 584
+Sname Critical Hit~
+SFname Critical Hit~
+SLev 55
+Pr1 Accuracy~
+Pr2 Circle~
+Noun critical~
+Durat 2~
+Mana 20
+Pos 9
+CastT 30
+WearO ~
+Minint 20
+Minwis 30
+Guilds 1088
+#SPELL
+Slot 1
+Gsn 200
+SType 1
+Sname Cause Light~
+SFname Cause Light~
+SLev 15
+Pr1 curse~
+Pr2 poison~
+Noun Spell~
+A2C1 You call to the powers above to deliver light damage to $N~
+A2V1 Light wounds have been cast upon you by $n~
+A2NV1 $n has caused minor wounds to $N~
+Durat l/10~
+Modif0  none~
+Locat1 2
+Modif1  -2~
+Dam (w/8)+20~
+Mana 15
+ManaT 4
+CastT 20
+WearO The spell has worn off.~
+Minint 5
+Minwis 15
+Guilds 128
+#SPELL
+Slot 1
+Gsn 8
+SType 1
+Sname balefire~
+SFname balefire~
+SLev 91
+Pr1 Fireshield~
+Pr2 Creeping Death~
+Noun POWER~
+A2C1 $B$7YOU CAUSE UNSPEAKABLE PAIN TO $N WITH YOUR SHIMMERING$R~
+A2C2 $B$7B$6A$7R $6O$7F $6L$7I$6Q$7U$6I$7D $4F$7I$4R$7E$4!$7!$4!$7!$R~
+A2V1 $B$7YOUR SENSES ARE $4*****ROCKED*****$7 AS $n BLASTS YOU WITH A $R~
+A2V2 $B$7S$6H$7I$6M$7M$6E$7R$6I$7N$6G $7BAR OF $1L$7I$1Q$7U$1I$7D $4F$7I$4R$7E$7!!!!$R~
+A2NV1 $B$7$n CREATES A $7S$6H$7I$6M$7M$6E$7R$6I$7N$6G $7BAR OF $1L$7I$1Q$7U$1I$7D $4F$7I$4R$7E$R~
+A2NV2 $B$7THAT SLAMS INTO $N WITH UNSPEAKABLE FORCE!!!!$R~
+Durat 1~
+Locat0 1
+Modif0  -30~
+Dam 200+b+b~
+Pos 7
+CastT 2
+WearO ~
+Minint 40
+Minwis 40
+#SPELL
+Slot 1
+Gsn 56
+SType 2
+SBits 33554432
+Sname Remove Plague~
+SFname Remove Plague~
+SLev 15
+Noun –iËi‡)	n~
+A2C1 You call to the gods to cure $N.~
+A2V1 $n seeks $s gods to cure you.~
+A2V2 You feel better.~
+A2NV1 $N looks much healthier.~
+Durat 0~
+BitVe 4194304
+Mana 30
+ManaT 8
+Pos 12
+CastT 35
+WearO ~
+Minint 12
+Minwis 14
+#SPELL
+Slot 1
+Gsn 32
+SType 4
+BitT 8
+Sname Haste~
+SFname Haste~
+SLev 40
+Pr1 Third Attack~
+Pr2 Second Attack~
+Noun ~
+A2C1 Everything around you slows down...~
+A2NV1 $n's movements begin to blur together faster...~
+Durat l/10+o+o~
+Mana 30
+ManaT 1
+CastT 20
+WearO You slow down.~
+Minint 13
+Minwis 15
+#SPELL
+Slot 1
+Gsn 201
+SType 1
+SBits 256
+Sname Cause Serious~
+SFname Cause Serious~
+SLev 25
+Pr1 cause light~
+Noun Spell~
+A2C1 You call to the powers above to deliver serious damage to $N~
+A2V1 Serious wounds have been cast upon you by $n~
+A2NV1 $n has caused serious wounds to $N~
+Durat a/2~
+Locat0 5
+Modif0  -2~
+Locat1 2
+Modif1  -5~
+BitVe 4194304
+Dam (w/3)+23~
+Mana 20
+ManaT 4
+CastT 25
+WearO The spell has worn off.~
+Minint 16
+Minwis 20
+Guilds 128
+#SPELL
+Slot 1
+Gsn 33
+SType 4
+Sname Battle Prayer~
+SFname Battle Prayer~
+SLev 24
+Noun ~
+A2C1 You incant a prayer of battle.~
+A2V1 $n prepares you for battle.~
+A2NV1 $n prepares $N for battle.~
+Durat l/2~
+Locat0 18
+Modif0  l/7+o+o~
+Locat1 17
+Modif1  -l/10~
+Mana 40
+ManaT 1
+Pos 7
+CastT 24
+WearO ~
+Minint 15
+Minwis 15
+#SPELL
+Slot 0
+Gsn 561
+Sname Bash~
+SFname Bash~
+SLev 9
+Noun bash~
+Durat 0~
+Dam 0~
+CastT 3
+WearO ~
+Minint 20
+#SPELL
+Slot 1
+Gsn 81
+SType 1
+SBits 268435456
+SBitT 128
+Sname Acid Blast~
+SFname Acid Blast~
+SLev 33
+Pr1 Acid Spray~
+Noun acid~
+A2C1 You sent a blast of acid out, striking $N!~
+A2V1 $n blasts you with a stream of acid!~
+A2NV1 $N is covered in acid from $N's mighty acid blast.~
+Durat 0~
+Dam (i/2)+50~
+Mana 40
+ManaT 8
+Pos 7
+CastT 38
+WearO ~
+Minint 22
+#SPELL
+Slot 0
+Gsn 585
+Sname Alertness~
+SFname Alertness~
+SLev 41
+Pr2 Circle~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+Minint 15
+Minwis 15
+#SPELL
+Slot 1
+Gsn 9
+SType 1
+SBits 268435456
+Sname TB~
+SFname TB~
+SLev 120
+Pr1 Creeping death~
+Pr2 divine healing~
+Noun Teleport~
+A2C1 You disappear and then reappear behind $N!~
+A2C2 .~
+A2V1 $N disappears and then reappearts behind you!~
+A2NV1 $n disappears and then reappears behind $N!~
+Durat 2~
+BitVe 1
+Dam 0~
+Mana 100
+ManaT 4
+Pos 7
+CastT 30
+WearO ~
+Minint 30
+Minwis 30
+#SPELL
+Slot 1
+Gsn 57
+SType 2
+SBits 50364416
+BitT 16
+Sname Purification~
+SFname Purification~
+SLev 50
+Pr1 Mass Healing~
+Pr2 Cureall~
+Noun ~
+A2C1 You purify $N.~
+A2V1 $n purifies you.~
+A2NV1 $n purifies $N.~
+Durat 0~
+BitVe 71326785
+Dam b+b+b~
+Mana 80
+ManaT 1
+Pos 7
+CastT 22
+WearO ~
+Minint 13
+Minwis 24
+Guilds 128
+#SPELL
+Slot 1
+Gsn 10
+SType 4
+Sname Detect Invisible~
+SFname Detect Invisible~
+SLev 30
+Noun –iËi‡)	n~
+A2C1 Your eyes flash $2green$R$7 for a second, then fade.~
+A2C2 .~
+A2NV1 $n's eyes glow $2green$R$7 for a second, then fade.~
+Durat l/2+a~
+BitVe 8
+Mana 25
+ManaT 4
+Pos 12
+CastT 22
+WearO The green glow fades from your eyes.~
+Minint 13
+Minwis 13
+#SPELL
+Slot 1
+Gsn 202
+SType 1
+SBits 256
+Sname Cause Critical~
+SFname Cause Critical~
+SLev 35
+Pr1 cause serious~
+Noun Spell~
+A2C1 You call to the powers above to deliver critical damage to $N~
+A2V1 Critical wounds have been cast upon you by $n~
+A2NV1 $n has caused critical wounds to $N~
+Durat a/2~
+Modif0  none~
+Locat1 3
+Modif1  -2~
+BitVe 1024
+Dam (w/2)+40~
+Mana 25
+ManaT 4
+CastT 30
+WearO The spell has worn off.~
+Minint 18
+Minwis 21
+Guilds 128
+#SPELL
+Slot 1
+Gsn 58
+SType 1
+Sname Cantrip~
+SFname Cantrip~
+SLev 2
+Noun missile~
+A2C1 You create a small $B$1magic$R$7 missile.~
+A2C2 It slams into $N!~
+A2V1 $n creates a small $B$1magic$R$7 missile.~
+A2V2 it smashes into YOU!~
+A2NV1 $n creates a small $B$1magic$R$7 missile.~
+A2NV2 it smashes into $N!~
+Durat 0~
+Dam (a+2)m12~
+Mana 11
+ManaT 4
+Pos 7
+CastT 10
+WearO ~
+Minint 4
+#SPELL
+Slot 1
+Gsn 82
+SType 1
+SBits -1879045887
+SBitT 128
+Sname Acidstorm~
+SFname Acidstorm~
+SLev 52
+Pr1 Acid Breath~
+Noun acid~
+A2C1 You draw forth the $2earth$7 and brutalize your enemies with its $2corrosive$7 power!~
+A2V1 $n draws forth the earth to brutalize you with its $2corrosive$7 power!~
+A2NV1 $n draws upon the earth's $2corrosive$7 elements to brutalize $N!~
+Durat 0~
+Dam i+90~
+Mana 180
+ManaT 8
+Pos 7
+CastT 85
+WearO ~
+Minint 26
+#SPELL
+Slot 1
+Gsn 154
+SType 1
+BitT 16
+Sname Paralyze~
+SFname Paralyze~
+SLev 55
+Pr2 Deathstorm~
+Noun ~
+A2C1 You reach out and attempt to paralyze $N.~
+A2V1 $n reaches out and attempts to paralyze you!~
+A2NV1 $n moves in close to $N, and then lashes out with a ~
+A2NV2 hand shrouded in black energy.....~
+Durat 1~
+Mana 150
+ManaT 16
+Pos 7
+CastT 46
+WearO YOU CAN MOVE AGAIN!!!~
+Minint 25
+Guilds 1085696
+SplLag 10
+FailChan 60
+PKChan 60
+#SPELL
+Slot 2
+Gsn 371
+Sname Enchant~
+SFname Enchant~
+SLev 70
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 29
+Minwis 27
+Guilds 1083648
+#SPELL
+Slot 0
+Gsn 563
+Sname Disarm~
+SFname Disarm~
+SLev 14
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 18
+Guilds 2097152
+#SPELL
+Slot 1
+Gsn 59
+SType 1
+SBits 16
+Sname Dispel undead~
+SFname Dispel Undead~
+SLev 17
+Noun ~
+A2C1 A blast of natural energy hits $N, sending $M flying backwards!~
+A2NV1 A blast of natural energy hits $N, sending $M flying backwards!~
+Durat 0~
+Dam (az5)+a+a+a+8~
+Mana 24
+ManaT 1
+Pos 7
+CastT 34
+WearO ~
+Minint 14
+#SPELL
+Slot 1
+Gsn 83
+SType 1
+SBits 268435456
+SBitT 128
+Sname Acid Breath~
+SFname Acid Breath~
+SLev 48
+Pr1 Acid Blast~
+Noun acid breath~
+A2C1 You $B$2poison$R$7 $N with your stream of $2a$B$2c$R$2i$B$2d$R$7.~
+A2V1 $n sends $2a$B$2c$R$2i$B$2d$R$7 flying toward your face!~
+A2NV1 $N screams as $2a$B$2c$2i$B$2d$R$7 strikes their exposed skin!~
+Durat 5~
+BitVe 4096
+Dam (l/4)+(i/2)+10~
+Mana 75
+ManaT 8
+Pos 7
+CastT 45
+WearO ~
+Minint 22
+#SPELL
+Slot 1
+Gsn 155
+SType 2
+SBits 8
+BitT 16
+Sname Remove Paralysis~
+SFname Remove Paralysis~
+SLev 35
+Noun –iËi‡)	n~
+A2C1 You reach out to $N and let them move again!~
+A2V1 $n reaches out to you, and you can move again!~
+A2NV1 $n reaches out to $N, and then $N can move again!~
+Durat 0~
+Mana 30
+ManaT 16
+Pos 7
+CastT 20
+WearO ~
+Minint 19
+#SPELL
+Slot 1
+Gsn 107
+SType 1
+SBitT 2
+Sname Lightning Breath~
+SFname Lightning Breath~
+SLev 50
+Pr1 Shards~
+Pr2 Firestorm~
+Noun lightning~
+A2C1 You breath a lightning bolt onto $N!~
+A2V1 $n breathes lightning, shocking YOU!~
+A2NV1 $n breathes a massive lightning bolt onto $N!~
+Durat none~
+Dam i+50~
+Mana 50
+ManaT 4
+Pos 7
+CastT 45
+WearO none~
+Minint 24
+#SPELL
+Slot 1
+Gsn 11
+SType 4
+Sname Infravision~
+SFname Infravision~
+SLev 15
+Noun ~
+A2C1 Your eyes glow $B$4red$R$7.~
+A2NV1 $n's eyes glow $B$4red$R$7.~
+Durat l/2~
+BitVe 512
+Mana 10
+ManaT 4
+Pos 12
+CastT 23
+WearO You no longer see as well in the dark.~
+Minint 12
+Minwis 12
+#SPELL
+Slot 1
+Gsn 155
+SType 2
+Sname Health Ascent~
+SFname Health Ascent~
+SLev 50
+Pr1 Healing~
+Pr2 Mass Refresh~
+Noun Ascent~
+A2C1 Your Health Ascent was successful!~
+A2V1 You feel your health increase.~
+Durat 8~
+Locat0 13
+Modif0  100~
+Mana 100
+ManaT 1
+CastT 30
+WearO The ascent has left your body.~
+Minint 20
+Minwis 25
+Guilds 1048704
+#SPELL
+Slot 0
+Gsn 564
+Sname Enhanced Damage~
+SFname Enhanced Damage~
+SLev 29
+Pr1 Second Attack~
+Pr2 Concussion Weapons~
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 20
+#SPELL
+Slot 0
+Gsn 564
+Sname Enhanced Damage~
+SFname Enhanced Damage~
+SLev 21
+Pr1 Second Attack~
+Pr2 Concussion Weapons~
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 20
+#SPELL
+Slot 1
+Gsn 12
+SType 4
+Sname Detect Hidden~
+SFname Detect Hidden~
+SLev 34
+Noun ~
+A2C1 Your eyes glow $B$1blue$R$7.~
+A2NV1 $n's eyes glow $B$1blue$R$7 for a moment before fading.~
+Durat l/4+a~
+BitVe 32
+Mana 50
+ManaT 4
+Pos 12
+CastT 25
+WearO Your vision returns to normal.~
+Minint 14
+Minwis 14
+#SPELL
+Slot 1
+Gsn 84
+SType 1
+Sname Chill Touch~
+SFname Chill Touch~
+SLev 13
+Pr2 Magic Missile~
+Noun touch~
+A2C1 You touch $N with your $B$1c$3h$1i$3l$1l$3y$R$7 hands.~
+A2V1 $n reaches out and touches you with $B$1c$3h$1i$3l$1l$3y$R$7 hands.~
+A2NV1 $n touches $N with $s $B$1c$3h$1i$3l$1l$3y$R$7 hands.~
+Durat 3~
+Modif0  none~
+Locat1 25
+Modif1  -5~
+Dam a+15~
+Mana 10
+ManaT 8
+Pos 7
+CastT 12
+WearO ~
+Minint 11
+#SPELL
+Slot 1
+Gsn 60
+SType 2
+SBits 16777216
+Sname Refresh~
+SFname Refresh~
+SLev 12
+Noun –iËi‡)	n~
+A2C1 Your spell was successful.~
+A2V1 You feel a little bit less tired.~
+Durat 0~
+Dam 40~
+Mana 10
+ManaT 1
+Pos 7
+CastT 9
+WearO ~
+Minint 10
+Minwis 11
+#SPELL
+Slot 1
+Gsn 156
+SType 2
+SBits 1
+Sname Mass Invisibility~
+SFname Mass Invisibility~
+SLev 65
+Pr1 invisibility~
+Pr2 detect invis~
+Noun Invisibility~
+A2C1 Your spell was successful!~
+A2V1 You vanish into thin air.~
+Durat 5~
+BitVe 2
+Mana 150
+ManaT 2
+CastT 40
+WearO You fade back into existance.~
+Minint 27
+Minwis 25
+Guilds 1081600
+#SPELL
+Slot 1
+Gsn 36
+SType 2
+Sname Minor Shielding~
+SFname Minor Shielding~
+SLev 2
+Noun –iËi‡)	n~
+A2C1 You form a thin shield of magic that settles about your body.~
+A2V1 A thin shield forms around you.~
+A2NV1 A thin shield forms around $N.~
+Durat l/2+a~
+Locat0 17
+Modif0  l+a+a/7~
+Mana 18
+ManaT 8
+Pos 12
+CastT 13
+WearO The thin shield around your body disappears.~
+Minint 10
+Minwis 10
+#SPELL
+Slot 0
+Gsn 588
+Sname Impale~
+SFname Impale~
+SLev 32
+Pr1 Polearm Weapons~
+Pr2 Steadiness~
+Noun impale~
+Durat 0~
+CastT 20
+WearO ~
+Minint 27
+Minwis 22
+Guilds 2097184
+#SPELL
+Slot 0
+Gsn 589
+Sname Flash~
+SFname Flash~
+SLev 75
+Pr1 Critical Hit~
+Noun flash~
+Durat 0~
+Mana 10
+CastT 30
+WearO ~
+Minint 18
+Minwis 29
+Guilds 46144
+#SPELL
+Slot 1
+Gsn 133
+SType 4
+BitT 524288
+Sname Detect Chameleon~
+SFname Detect Chameleon~
+SLev 91
+Pr1 Detect Hidden~
+Pr2 Detect Invisible~
+Noun moo~
+A2C1 You sense the unseen...~
+A2V1 You feel as if you can sense the unseen...~
+A2NV1 $n's eyes turn $B$0Black$R$7 and then return to normal.~
+Durat 10~
+Dam 0~
+Mana 100
+ManaT 4
+Pos 12
+CastT 50
+WearO You cannot see into the $B$0Void$R$7 anymore.~
+Minint 20
+Minwis 20
+Guilds 33280
+SplLag 9
+#SPELL
+Slot 1
+Gsn 157
+SType 1
+Sname Disintegration~
+SFname Distintegration~
+SLev 70
+Pr1 Arkane Spirit~
+Noun $4D i S i n T e G r a T i O n~
+A2C1 You direct your magic to channel a fireball towards your enemy!~
+A2V1 $B$4O H  SHIT *****YOUR SKIN STARTS PEELING OF*****~
+Durat 3~
+Locat0 13
+Modif0  -100~
+Locat1 1
+Modif1  -5~
+BitVe 64
+Dam l+i+i+100~
+Mana 125
+ManaT 4
+CastT 90
+WearO Your skin stops boiling.~
+Minint 28
+Minwis 20
+Guilds 1081600
+#SPELL
+Slot 1
+Gsn 61
+SType 1
+Sname Curse~
+SFname Curse~
+SLev 19
+Pr1 Remove Curse~
+Noun moo~
+A2C1 You put a curse on $N.~
+A2V1 $n puts a curse on you.~
+A2NV1 $n puts a curse on $N.~
+Durat l/3~
+BitVe 1024
+Mana 32
+ManaT 4
+Pos 7
+CastT 19
+WearO ~
+Minint 14
+#SPELL
+Slot 1
+Gsn 157
+SType 1
+Sname Confusion~
+SFname Confusion~
+SLev 36
+Pr1 Doom~
+Pr2 Cureall~
+Noun –iËi‡)	n~
+A2C1 You confuse $N.~
+A2V1 $n confuses you.~
+A2NV1 $n confuses $N.~
+Durat 3~
+BitVe 2048
+Mana 42
+ManaT 16
+Pos 7
+CastT 30
+WearO ~
+Minint 20
+Guilds 1048576
+#SPELL
+Slot 1
+Gsn 37
+SType 2
+Sname Skin of Wood~
+SFname Skin of Wood~
+SLev 8
+Pr1 Minor Shielding~
+Noun –iËi‡)	n~
+A2C1 A dim $B$6glow$R$7 surrounds your body.~
+A2V1 You feel your skin turn hard as $2wood$R$7.~
+A2NV1 $n surrounds $N with a dim glow of protection.~
+Durat l*2/3~
+Locat0 17
+Modif0  l+b/6~
+Mana 22
+ManaT 8
+Pos 12
+CastT 15
+WearO The aura of magic around your body disappears.~
+Minint 12
+Minwis 12
+#SPELL
+Slot 2
+Gsn 397
+Sname Sixth Sense~
+SFname Sixth Sense~
+SLev 110
+Pr1 Sneak~
+Pr2 Search~
+Noun iron~
+Durat 0~
+CastT 0
+WearO ~
+Minint 15
+Minwis 15
+#SPELL
+Slot 0
+Gsn 565
+Sname Kick~
+SFname Kick~
+SLev 18
+Noun kick~
+Durat 0~
+CastT 0
+WearO ~
+Minint 20
+#SPELL
+Slot 1
+Gsn 13
+SType 4
+Sname Invisibility~
+SFname Invisibility~
+SLev 40
+Noun –iËi‡)	n~
+A2C1 You slowly fade into thin $B$3air$R$7...~
+A2NV1 $n slowly fades into thin $B$3air$R$7...~
+Durat l/2~
+BitVe 2
+Mana 70
+ManaT 2
+CastT 12
+WearO You pop back into existence!~
+Minint 12
+Guilds 1081600
+#SPELL
+Slot 1
+Gsn 14
+SType 4
+Sname Fly~
+SFname Fly~
+SLev 20
+Noun –iËi‡)	n~
+A2C1 You channel your mental energies and lift off the ground.~
+A2NV1 $n concentrates and then lifts off the ground.~
+Durat l/2+a~
+BitVe 524288
+Dam N/A~
+Mana 35
+ManaT 2
+Pos 12
+CastT 18
+WearO You land on the ground.~
+Minint 10
+#SPELL
+Slot 1
+Gsn 86
+SType 1
+Sname Cone of Cold~
+SFname Cone of Cold~
+SLev 23
+Pr1 chill touch~
+Noun cold~
+A2C1 You freeze $N with a blast of $B$3icy air$R$7!~
+A2V1 $n hits you with a blast of $B$3icy air$R$7!~
+A2NV1 $n hits $N with a blast of $B$3icy air$R$7~
+Durat 5~
+Locat0 1
+Modif0  -8~
+Locat1 25
+Modif1  -20~
+Dam a+a+40~
+Mana 25
+ManaT 8
+Pos 7
+CastT 35
+WearO You feel warmer.~
+Minint 20
+#SPELL
+Slot 1
+Gsn 62
+SType 1
+SBits 64
+Sname Blindness~
+SFname Blindness~
+SLev 30
+Pr2 Cure Blindness~
+Noun –iËi‡)	n~
+A2C1 You cast blindness upon $N...~
+A2V1 $B$6Your eyes begin to burn... you are blind!$R$7~
+A2NV1 $N gropes at $S eyes!~
+Durat 2~
+BitVe 1
+Mana 25
+ManaT 4
+Pos 7
+CastT 30
+WearO You can see again!~
+Minint 18
+#SPELL
+Slot 1
+Gsn 158
+SType 1
+Sname Void~
+SFname Void~
+SLev 55
+Pr1 Cause Critical~
+Pr2 Wounding~
+Noun Void~
+A2C1 You unleash a void on your enemy!~
+A2V1 $n unleashes a void upon your soul.~
+Durat 5~
+BitVe 64
+Dam w+55~
+Mana 60
+ManaT 2
+CastT 65
+WearO The void has left your body.~
+Minint 20
+Minwis 27
+Guilds 128
+#SPELL
+Slot 0
+Gsn 590
+Sname Tackle~
+SFname Tackle~
+SLev 10
+Noun tackle~
+Durat 0~
+CastT 0
+WearO ~
+Minint 16
+#SPELL
+Slot 1
+Gsn 158
+SType 4
+BitT 32768
+Sname Spell Reflect~
+SFname Spell Reflect~
+SLev 50
+Pr1 Mindshield~
+Pr2 Warding~
+Noun Reflect~
+A2C1 You set up an aura of magic around you.~
+A2V1 You feel as if you can weather even the toughest storms.~
+A2NV1 $n sets an aura of magic about $s body.~
+Durat 3~
+Mana 100
+ManaT 16
+Pos 12
+CastT 20
+WearO The spell reflect wears off.~
+Minint 20
+Guilds 1048832
+#SPELL
+Slot 0
+Gsn 566
+Sname Parry~
+SFname Parry~
+SLev 7
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 1
+Gsn 38
+SType 2
+Sname Major Shielding~
+SFname Major Shielding~
+SLev 12
+Pr1 Minor Shielding~
+Pr2 Skin of Wood~
+Noun –iËi‡)	n~
+A2C1 You draw upon the gods to protect yourself.~
+A2C2 A $B$7light$R$7 decends from the heavens and falls upon you.~
+A2V1 A sense of protection settles about you.~
+A2NV1 A beam of light from the sky briefly strikes $n.~
+Durat l*2/3+a+a~
+Locat0 17
+Modif0  l+b/5~
+Dam N/A~
+Mana 26
+ManaT 8
+Pos 12
+CastT 12
+WearO You feel somehow more vulnerable...~
+Minint 13
+Minwis 13
+#SPELL
+Slot 1
+Gsn 134
+SType 1
+Sname Lethargy~
+SFname Lethargy~
+SLev 50
+Pr2 Cureall~
+Noun –iËi‡)	n~
+A2C1 You make $N feel rather slow...~
+A2V1 $n makes you feel very, very slow...~
+A2NV1 $n makes $N feel very very slow...~
+Durat a/2~
+BitVe 16384
+Mana 35
+ManaT 1
+Pos 7
+CastT 50
+WearO ~
+Minint 20
+Minwis 24
+Guilds 1048704
+#SPELL
+Slot 0
+Gsn 591
+Sname Flurry~
+SFname Flurry~
+SLev 17
+Pr1 Second Attack~
+Pr2 Slashing~
+Noun flurry~
+Durat 0~
+CastT 0
+WearO ~
+Minint 20
+#SPELL
+Slot 1
+Gsn 87
+SType 1
+Sname Cold Ray~
+SFname Cold Ray~
+SLev 38
+Pr1 Cone of Cold~
+Pr2 Windblast~
+Noun cold~
+A2C1 A Ray of Cold emanates from your outstretched hand.~
+A2V1 A Ray of Cold from $n's hand chills you to the core.~
+A2NV1 $n's Ray of Cold causes $N to turn blue and shiver uncontrollably.~
+Durat 4~
+Locat0 1
+Modif0  -7~
+Locat1 25
+Modif1  -15~
+Dam i+25~
+Mana 45
+ManaT 8
+CastT 60
+WearO ~
+Minint 22
+#SPELL
+Slot 1
+Gsn 111
+SType 1
+SBits 268435456
+SBitT 3
+Sname Arkane Spirit~
+SFname Arkane Spirit~
+SLev 64
+Pr1 Paralyze~
+Pr2 Tsunami~
+Noun $B$1S $4p $1i$4 R $1i $4T~
+A2C1 You summon the spirit of arkane and smash $N with the spirit of the realm.~
+A2V1 $n summons the spirit's of arkane, you feel your body begin to disassemble.~
+A2NV1 $n summons his Arkane Spirit to crush $N's body.~
+Durat 1~
+Locat0 4
+Modif0  -3~
+Modif1  none~
+Modif2  none~
+Dam i+120~
+Mana 120
+ManaT 10
+Pos 7
+CastT 60
+WearO You almost feel yourself again.~
+Minint 26
+Minwis 20
+#SPELL
+Slot 1
+Gsn 135
+SType 1
+Sname Wounding~
+SFname Wounding~
+SLev 40
+Noun –iËi‡)	n~
+A2C1 You wound $N.~
+A2V1 $n wounds you.~
+A2NV1 $n wounds $N.~
+Durat (h-gz0m1)*10~
+BitVe 64
+Mana 50
+ManaT 1
+Pos 7
+CastT 60
+WearO ~
+Minint 15
+Minwis 20
+Guilds 1048704
+#SPELL
+Slot 1
+Gsn 15
+SType 4
+Sname Underwater Breath~
+SFname Underwater Breath~
+SLev 30
+Noun –iËi‡)	n~
+A2V1 A bubble of $B$3air$R$7 surrounds your head!~
+A2NV1 A bubble of $B$3air$R$7 surrounds $N's head!~
+Durat l/3~
+BitVe 8388608
+Mana 30
+ManaT 8
+Pos 12
+CastT 22
+WearO The bubble of air that surrounded you floats away.~
+Minint 15
+Minwis 15
+#SPELL
+Slot 1
+Gsn 159
+SType 1
+Sname Tsunami~
+SFname Tsunami~
+SLev 55
+Pr1 Lightning Breath~
+Noun $1T$BS$R$1U$BN$R$1A$BM$R$1I~
+A2C1 Your spell was successful!!!~
+A2V1 $B$1You are hit by a huge TsUnAmI!!!$R~
+Durat 1~
+Locat0 13
+Modif0  -20~
+BitVe 1
+Dam i+80~
+Mana 80
+ManaT 12
+CastT 55
+WearO The tsunami has left your body.~
+Minint 25
+Minwis 15
+Guilds 256
+#SPELL
+Slot 0
+Gsn 567
+Sname Shield Block~
+SFname Shield Block~
+SLev 27
+Pr1 Parry~
+Pr2 Dodge~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+Minint 20
+Guilds 2097152
+#SPELL
+Slot 1
+Gsn 39
+SType 2
+Sname Scales of Iron~
+SFname Scales of Iron~
+SLev 21
+Pr1 Major Shielding~
+Pr2 Armor Plating~
+Noun –iËi‡)	n~
+A2C1 Your skin grow's with scales as hard as $R$7Iron.~
+A2V1 $n surrounds you with scales of $1Iron$R$7.~
+A2NV1 $nsurrounds $N with scales of $1Iron$R$7~
+Durat l*2/3+b~
+Locat0 17
+Modif0  l+b/4~
+Mana 30
+ManaT 1
+CastT 23
+WearO Your scales become soft.~
+Minint 14
+Minwis 14
+#SPELL
+Slot 1
+Gsn 40
+SType 2
+Sname Stoneskin~
+SFname Stoneskin~
+SLev 33
+Pr1 Scales of Iron~
+Noun –iËi‡)	n~
+A2C1 You make your skin rock $2hard$R.~
+A2NV1 $n makes $N's skin turn to $2stone$R$7.~
+Durat l*2/3+b+a~
+Locat0 17
+Modif0  l+b+a/3~
+Dam N/A~
+Mana 45
+ManaT 1
+Pos 12
+CastT 24
+WearO The stone in your skin crumbles to dust.~
+Minint 15
+Minwis 15
+#SPELL
+Slot 2
+Gsn 352
+Sname Swim~
+SFname Swim~
+SLev 5
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 2
+Gsn 352
+Sname Swim~
+SFname Swim~
+SLev 5
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 592
+Sname Steadiness~
+SFname Steadiness~
+SLev 30
+Pr1 Sneaking~
+Pr2 Dodge~
+Noun balance~
+Durat 0~
+CastT 0
+WearO ~
+Minint 19
+Minwis 21
+#SPELL
+Slot 2
+Gsn 376
+Sname Searching~
+SFname Searching~
+SLev 9
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 568
+Sname Rescue~
+SFname Rescue~
+SLev 16
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 1
+Gsn 64
+SType 1
+Sname Poison~
+SFname Poison~
+SLev 12
+Pr1 Remove Poison~
+Noun poison~
+A2C1 $N turns $B$2green$R$7 as sickness overcomes $M.~
+A2V1 You suddenly feel very sick!!!!!~
+A2NV1 $N clutches his stomach as sickness overcomes $M...~
+Durat 1+a~
+BitVe 4096
+Dam i-18z0m1*10+A~
+Mana 12
+ManaT 8
+Pos 7
+CastT 13
+WearO You feel a lot less sick.~
+Minint 5
+#SPELL
+Slot 1
+Gsn 160
+SType 2
+SBits 1025
+Sname Mist of Iron~
+SFname Mist of Iron~
+SLev 50
+Pr1 Steel Plating~
+Noun Armor~
+A2C1 Your spell has been successful!~
+A2V1 You feel your skin become as hard as $B$0iron$R$7.~
+Durat 8~
+Locat0 17
+Modif0  l+b/4~
+Mana 100
+ManaT 1
+CastT 40
+WearO The mist of iron rusts off your body.~
+Minint 10
+Minwis 20
+Guilds 1048704
+#SPELL
+Slot 1
+Gsn 16
+SType 8
+SBits 262144
+Sname Identify~
+SFname Identify~
+SLev 19
+Noun –iËi‡)	n~
+A2C1 You gain some knowledge about your item.~
+Durat 0~
+Mana 80
+ManaT 2
+Pos 12
+CastT 20
+WearO ~
+Minint 15
+#SPELL
+Slot 1
+Gsn 161
+SType 4
+Sname Globe of Intellect~
+SFname Globe of Intellect~
+SLev 75
+Noun Spell~
+A2C1 Your spell was sucessful.~
+Durat 8~
+Locat0 3
+Modif0  1~
+Mana 150
+ManaT 2
+CastT 40
+WearO You feel less smart.~
+Minint 25
+Minwis 20
+Guilds 33024
+#SPELL
+Slot 0
+Gsn 593
+Sname Double Kick~
+SFname Double Kick~
+SLev 63
+Pr1 Block~
+Noun kick~
+Durat 0~
+CastT 0
+WearO ~
+Minint 23
+Guilds 2097184
+#SPELL
+Slot 2
+Gsn 353
+Sname Butcher~
+SFname Butcher~
+SLev 91
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 569
+Sname Second Attack~
+SFname Second Attack~
+SLev 15
+Pr1 Parry~
+Pr2 Slashing~
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 1
+Gsn 41
+SType 4
+Sname Steel Plating~
+SFname Steel Plating~
+SLev 44
+Pr1 Sanctuary~
+Noun frost~
+A2C1 You cast a spell of major protection.~
+A2V1 $n protects you with skin of steel.~
+A2NV1 $n protects $N with skin of steel.~
+Durat l/2+a~
+Locat0 17
+Modif0  l+b+a/2~
+Dam N/A~
+Mana 75
+ManaT 8
+Pos 12
+CastT 28
+WearO Your skin becomes soft.~
+Minint 16
+Minwis 16
+#SPELL
+Slot 1
+Gsn 17
+SType 0
+SBits 4096
+Sname Summon ~
+SFname Summon ~
+SLev 66
+Pr1 locate person~
+Noun –iËi‡)	n~
+A2C1 You reach out into the $B$0void$R and try to get ahold of your victim!~
+A2NV1 $N appears in a flash of bright light!~
+Durat 0~
+Mana 120
+ManaT 16
+Pos 12
+CastT 90
+WearO ~
+Minint 30
+Minwis 15
+Guilds 1085824
+FailChan 25
+PKChan 60
+#SPELL
+Slot 1
+Gsn 162
+SType 4
+Sname Globe of Wisdom~
+SFname Globe of Wisdom~
+SLev 75
+Noun Spell~
+A2C1 Your spell was sucessful.~
+Durat 8~
+Locat0 4
+Modif0  1~
+Mana 150
+ManaT 1
+CastT 40
+WearO You loose your wisdom.~
+Minint 15
+Minwis 25
+Guilds 1048704
+#SPELL
+Slot 1
+Gsn 114
+SType 1
+SBits -2147481599
+SBitT 5
+Sname Death Fog~
+SFname Death Fog~
+SLev 75
+Pr1 Disintegration~
+Pr2 Sphere of Destruction~
+Noun $B$0d e a T H  f  o G~
+A2C1 You unleash death upon your enemies!~
+A2C2 You realease death~
+A2V1 $n has released $B$0DEATH$R$7 to smite you!~
+A2NV1 $n has unleashed $B$0DEATH$R$7 into the ranks of the enemies!~
+Durat a/2~
+Modif0  none~
+Modif1  none~
+Modif2  none~
+Modif3  none~
+Locat4 4
+Modif4  -3~
+BitVe 64
+Dam i+i+100~
+Mana 300
+ManaT 10
+Pos 7
+CastT 140
+WearO You feel alive again...~
+Minint 30
+SplLag 1
+#SPELL
+Slot 1
+Gsn 138
+SType 4
+BitT 262144
+Sname chameleon~
+SFname Chameleon~
+SLev 91
+Pr1 Sneak~
+Pr2 Hide~
+Noun –iËi‡)	n~
+A2C1 Your skin starts changing colors as you blend into the environment...~
+A2NV1 $n's skin changes colors in strange fashion and you cannot distinguish him from the surroundings.~
+Durat 2~
+Mana 50
+ManaT 1
+Pos 7
+CastT 30
+WearO You become visible again.~
+Minint 20
+Guilds 46656
+SplLag 8
+#SPELL
+Slot 1
+Gsn 18
+SType 4
+SBits 4194304
+Sname Word of Recall~
+SFname Word of Recall~
+SLev 14
+Noun –iËi‡)	n~
+A2C1 You call to the gods for safe passage and suddenly feel transported.~
+A2NV1 $n pleads with the gods for sanctuary.~
+Durat 0~
+Mana 70
+ManaT 16
+Pos 12
+CastT 90
+WearO ~
+Minint 10
+Minwis 10
+SplLag 1
+PKChan 80
+#SPELL
+Slot 0
+Gsn 570
+Sname Third Attack~
+SFname Third Attack~
+SLev 30
+Pr1 Flurry~
+Pr2 Enhanced Damage~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+Minint 20
+Guilds 32
+#SPELL
+Slot 0
+Gsn 594
+Sname Smash~
+SFname Smash~
+SLev 45
+Pr1 Bash~
+Pr2 Steadiness~
+Noun bash~
+Durat 0~
+CastT 0
+WearO ~
+Minint 20
+Guilds 2097184
+#SPELL
+Slot 1
+Gsn 210
+SType 1
+SBits 131072
+Sname Spell Purge~
+SFname Spell Purge~
+SLev 68
+Pr1 shower of life~
+Noun Spell~
+Durat 0~
+Dam 1~
+Mana 100
+ManaT 16
+CastT 60
+WearO The spell has worn off.~
+Minint 25
+Minwis 30
+Guilds 1048704
+#SPELL
+Slot 1
+Gsn 42
+SType 2
+SBits 32768
+Sname Heal Light~
+SFname Heal Light~
+SLev 7
+Noun heal~
+A2C1 A warm glow pours forth from your fingers...~
+A2V1 You feel a little bit better!~
+A2NV1 $N's body $B$7glows$R briefly with a $4$Bred$R$7, healing energy.~
+Durat 0~
+Dam 12~
+Mana 10
+ManaT 1
+Pos 7
+CastT 13
+WearO ~
+Minint 10
+Minwis 12
+#SPELL
+Slot 0
+Gsn 571
+Sname Dual Wield~
+SFname Dual Wield~
+SLev 50
+Pr1 Third Attack~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+Minint 26
+Minwis 21
+#SPELL
+Slot 1
+Gsn 115
+SType 0
+Sname Blink~
+SFname Blink~
+SLev 40
+Noun –iËi‡)	n~
+Durat 0~
+Mana 1000
+ManaT 1
+CastT 10
+WearO ~
+Minint 24
+Minwis 24
+Guilds 256
+#SPELL
+Slot 0
+Gsn 595
+Sname Accuracy~
+SFname Accuracy~
+SLev 35
+Pr1 Armor Penetration~
+Pr2 Second Attack~
+Noun hit~
+Durat 0~
+CastT 3
+WearO ~
+Minint 20
+#SPELL
+Slot 1
+Gsn 163
+SType 1
+SBits 2049
+Sname Sphere of Destruction~
+SFname Sphere of Destruction~
+SLev 65
+Pr1 Arkane Spirit~
+Noun $B$4S P H E R E$R$7~
+A2C1 You focus a sphere towards your enemy causing him $B$4PAIN$R$7!~
+A2V1 You feel your body begin to boil as your enemy casts a destructive sphere!~
+Durat 3~
+Locat0 13
+Modif0  -100~
+Locat1 14
+Modif1  -50~
+Dam i+125~
+Mana 135
+ManaT 6
+CastT 80
+WearO The sphere looses its glow.~
+Minint 25
+Minwis 20
+Guilds 33024
+#SPELL
+Slot 1
+Gsn 19
+SType 0
+SBits 1048576
+Sname Scry~
+SFname Scry~
+SLev 110
+Pr1 Locate Person~
+Noun –iËi‡)	n~
+A2C1 You briefly peek through the $B$0Void$R$7 to catch a glimpse of $N.~
+A2V1 $n peeks through the void to view you from afar.~
+A2NV1 $n opens a small hole in the $B$0Void$R$7 and peeks through it at $N.~
+Durat 0~
+Mana 140
+ManaT 16
+Pos 12
+CastT 50
+WearO ~
+Minint 25
+Minwis 25
+Guilds 1087744
+SplLag 18
+FailChan 50
+PKChan 50
+#SPELL
+Slot 1
+Gsn 91
+SType 1
+Sname Rock~
+SFname Rock~
+SLev 16
+Pr1 Chill Touch~
+Noun rock~
+A2C1 You cast a rock at $N!~
+A2V1 $n sends a rock hurtling toward your head.~
+A2NV1 $n sends a rock hurtling toward $N's head!~
+Durat 0~
+Dam a+30~
+Mana 28
+ManaT 1
+Pos 7
+CastT 5
+WearO ~
+Minint 15
+#SPELL
+Slot 1
+Gsn 211
+SType 4
+Sname Quickness~
+SFname Quickness~
+SLev 38
+Pr1 circle~
+Pr2 backstab~
+Noun Spell~
+A2C1 $B$3T$1h$3e $1w$3i$1n$3d $1p$3a$1s$3s$1e$3s $1t$3h$1r$3o$1u$3g$1h $3y$1o$3u$1!~
+A2NV1 $n blends in with the wind making him faster.~
+Durat 15~
+Locat1 2
+Modif1  1~
+BitVe 524288
+Mana 40
+ManaT 8
+Pos 12
+CastT 17
+WearO You feel your body slow down to normal.~
+Minint 15
+Minwis 15
+Guilds 1088
+#SPELL
+Slot 1
+Gsn 43
+SType 2
+SBits 32768
+Sname Heal Serious~
+SFname Heal Serious~
+SLev 16
+Pr1 Refresh~
+Pr2 Heal Light~
+Noun heal~
+A2C1 A warm glow surrounds your hands.~
+A2V1 $n lays hands on you, and you feel somewhat better.~
+A2NV1 $n lays hands on $N, who then looks somewhat better.~
+Durat 0~
+Dam 32~
+Mana 15
+ManaT 1
+Pos 7
+CastT 18
+WearO ~
+Minint 13
+Minwis 14
+#SPELL
+Slot 1
+Gsn 164
+SType 1
+Sname Dagger of Poison~
+SFname Dagger of Poison~
+SLev 45
+Pr1 Circle~
+Pr2 Critical Hit~
+Noun $B$2P$R$2O$BI$R$2S$BO$R$2N~
+A2C1 You send a dagger full of poison towards your enemy!~
+A2NV1 Your enemy sends a dagger full of poison causing your body to spasm.~
+Durat 3~
+Dam 80~
+Mana 90
+ManaT 8
+CastT 35
+WearO The poison has left your body.~
+Minint 10
+Minwis 10
+Guilds 1088
+#SPELL
+Slot 0
+Gsn 596
+Sname Resilience~
+SFname Resilience~
+SLev 75
+Pr1 Warcry~
+Pr2 Steadiness~
+Noun iron~
+Durat 0~
+CastT 0
+WearO ~
+Minint 20
+Guilds 2099760
+#SPELL
+Slot 0
+Gsn 572
+Sname Piercing Weapons~
+SFname Piercing Weapons~
+SLev 1
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 1
+Gsn 20
+SType 0
+SBits 2097152
+Sname Locate Person~
+SFname Locate Person~
+SLev 50
+Pr1 Word of Recall~
+Noun –iËi‡)	n~
+A2C1 You destabilize the $B$0Void$R$7.~
+A2V1 You search out your victim...~
+A2NV1 $n destabilizes the $B$0Void$R$7 for a moment.~
+Durat 0~
+Mana 80
+ManaT 18
+Pos 12
+CastT 20
+WearO ~
+Minint 20
+Minwis 20
+Guilds 1085696
+SplLag 15
+#SPELL
+Slot 2
+Gsn 356
+Sname Hide~
+SFname Hide~
+SLev 13
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 1
+Gsn 44
+SType 2
+SBits 32768
+Sname Heal Critical~
+SFname Heal Critical~
+SLev 26
+Pr1 Heal Serious~
+Noun heal~
+A2C1 You invoke a spell of healing on $N.~
+A2V1 $n invokes a spell of healing on you, and you feel better.~
+A2NV1 $n invokes a spell of healing upon $N.~
+Durat 0~
+Dam 63~
+Mana 25
+ManaT 1
+Pos 7
+CastT 23
+WearO ~
+Minint 14
+Minwis 17
+#SPELL
+Slot 1
+Gsn 189
+SType 4
+BitT 33554432
+Sname Fireshield~
+SFname Fireshield~
+SLev 65
+Pr1 Sanctuary~
+Pr2 Steel Plating~
+Noun $B$4fireshield$5~
+A2C1 $B$4You are surrounded by a torrent of fire!$R$7~
+A2V1 $B$4$n surrounds you with a torrent of fire!$R$7~
+A2NV1 $n surrounds $N with a torrent of fire!$R$7~
+Durat l/10+3~
+Mana 100
+ManaT 4
+Pos 12
+CastT 30
+WearO The spell has worn off.~
+Minint 20
+Minwis 20
+Guilds 1081728
+SplLag 8
+#SPELL
+Slot 1
+Gsn 69
+SType 1
+SBits -1879045887
+Sname Deathstorm~
+SFname Deathstorm~
+SLev 55
+Pr1 Acidstorm~
+Noun death~
+A2C1 You send forth a deathstorm to smite your enemies!~
+A2V1 $n hits you with a storm of death, sapping your strength.~
+A2NV1 $n smashes $N with a storm of death!~
+Durat n/a~
+Modif0  none~
+Modif1  none~
+Modif2  none~
+Modif3  none~
+Dam 90~
+Mana 160
+ManaT 8
+Pos 7
+CastT 75
+WearO ~
+Minint 25
+Minwis 27
+#SPELL
+Slot 1
+Gsn 21
+SType 4
+Sname Create Bread~
+SFname Create Bread~
+SLev 20
+Noun –iËi‡)	n~
+A2C1 A loaf of delicious bread suddenly appears in your inventory!~
+A2NV1 $n creates a yummy-looking loaf of bread.~
+Durat 0~
+Mana 15
+ManaT 1
+Pos 7
+CastT 40
+WearO ~
+CrObj 37
+Minint 20
+Minwis 20
+FailChan 50
+#SPELL
+Slot 0
+Gsn 573
+Sname Slashing Weapons~
+SFname Slashing Weapons~
+SLev 1
+Noun –iËi‡)	n~
+Durat 0~
+CastT 0
+WearO ~
+Minint 15
+#SPELL
+Slot 1
+Gsn 213
+SType 1
+Sname Spear of Doom~
+SFname Spear of Doom~
+SLev 80
+Pr1 distintegration~
+Pr2 Sphere of Destruction~
+Noun $B$4Spear of DOOM$R$7~
+A2C1 You unleash a mighty spear of $B$4DOOM$R$7 upon $N~
+A2V1 $B$0Oh Shit$7!$R$7 That did $B$4*****NOT*****$R$7 feel good.~
+A2NV1 $n unleashes a spear of $B$4DOOM$R$7 upon $N~
+A2NV2 unlike anything you have ever dreamed!~
+Durat 4~
+Modif0  none~
+Modif1  none~
+Locat2 13
+Modif2  -100~
+Modif3  none~
+BitVe 16384
+Dam l+i+i+110~
+Mana 150
+ManaT 4
+Pos 8
+CastT 140
+WearO You feel the doom leave your body.~
+Minint 34
+Guilds 1081600
+#SPELL
+Slot 2
+Gsn 357
+Sname Peek~
+SFname Peek~
+SLev 5
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 1
+Gsn 165
+SType 0
+Sname Newspell~
+SFname NewSpell~
+SLev 0
+Noun Spell~
+Durat 0~
+CastT 0
+WearO The spell has worn off.~
+#SPELL
+Slot 1
+Gsn 45
+SType 2
+SBits 32768
+Sname Healing~
+SFname Healing~
+SLev 45
+Pr1 Heal Critical~
+Pr2 Rejuvenate~
+Noun heal~
+A2C1 Your spell was successful!~
+A2V1 You feel $B$6healed$R$7!!~
+A2NV1 $N is surrounded by a $B$6yellow$R$7 healing aura!~
+Durat 0~
+Dam (110*h+(l/2)+a)-(g*20)-(o*50)~
+Mana 50
+ManaT 1
+Pos 7
+CastT 38
+WearO ~
+Minint 13
+Minwis 24
+Guilds 128
+#SPELL
+Slot 1
+Gsn 46
+SType 2
+SBits 16809984
+Sname Divine Healing~
+SFname Divine Healing~
+SLev 60
+Pr1 Purification~
+Pr2 Mass Healing~
+Noun moo~
+A2C1 You open a direct channel to the healing power of the gods!~
+A2V1 $n opens a channel of power from the gods and $B$7HEALS$R$7 your wounds!~
+A2NV1 $n opens a channel of power to the gods to $B$7HEAL$R$7 $N!~
+Durat 0~
+BitVe 4215873
+Dam (180*h+(l/2)+b)-(g*100)~
+Mana 75
+ManaT 1
+Pos 7
+CastT 55
+WearO ~
+Minint 13
+Minwis 28
+Guilds 1048704
+#SPELL
+Slot 0
+Gsn 550
+Sname Circle~
+SFname Circle~
+SLev 38
+Pr1 Backstab~
+Pr2 Enhanced Damage~
+Noun circle~
+Durat 0~
+Mana 20
+CastT 30
+WearO ~
+Minint 20
+Minwis 27
+Guilds 1088
+#SPELL
+Slot 0
+Gsn 574
+Sname Concussion Weapons~
+SFname Concussion Weapons~
+SLev 1
+Noun –iËi‡)	n~
+Durat 0~
+CastT 0
+WearO ~
+#SPELL
+Slot 1
+Gsn 22
+SType 4
+Sname Pass door~
+SFname Pass door~
+SLev 110
+Noun –iËi‡)	n~
+A2C1 You place yourself partway into the $B$0Void$R$7.~
+A2V1 You feel less solid.~
+A2NV1 $n partially disappears into the $B$0Void$R$7.~
+Durat 2~
+BitVe 1048576
+Mana 100
+ManaT 16
+Pos 12
+CastT 50
+WearO You feel solid once again.~
+Minint 20
+Minwis 20
+Guilds 1049088
+FailChan 50
+#SPELL
+Slot 1
+Gsn 214
+SType 1
+SBits 2049
+Sname Prismatic Spray~
+SFname Prismatic Spray~
+SLev 91
+Pr1 Creeping Death~
+Noun prismatic spray~
+A2C1 You unleash a $B$1r$2a$3i$4n$5b$6o$7w$R$7 of lethal colors upon your enemies!~
+A2C2 You release a $B$1r$2a$3i$4n$5b$6o$7w$R$7!~
+A2V1 $n has unleashed a $B$1r$2a$3i$4n$5b$6o$7w$R$7 of lethal colors to SMITE you!~
+A2NV1 $n has unleashed a $B$1r$2a$3i$4n$5b$6o$7w$R$7 of lethal colors into the enemies!~
+Durat 1~
+Modif0  none~
+Modif1  none~
+Locat2 1
+Modif2  -3~
+Modif3  none~
+Modif4  none~
+BitVe 64
+Dam l+i+c~
+Mana 380
+ManaT 8
+Pos 8
+CastT 125
+WearO The bright lights have left your soul!~
+Minint 35
+Guilds 1081600
+#SPELL
+Slot 2
+Gsn 358
+Sname Locksmithy~
+SFname Locksmithy~
+SLev 14
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+Guilds 8192
+#SPELL
+Slot 0
+Gsn 599
+Sname Grapple~
+SFname Grapple~
+SLev 10
+Pr1 Tackle~
+Pr2 Bash~
+Noun Grapple~
+Durat 0~
+CastT 10
+WearO ~
+Minint 23
+Minwis 22
+Guilds 32
+#SPELL
+Slot 0
+Gsn 551
+Sname Armor Penetration~
+SFname Armor Penetration~
+SLev 22
+Pr1 Slashing~
+Pr2 Piercing~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 575
+Sname Whipping Weapons~
+SFname Whipping Weapons~
+SLev 25
+Pr1 Concussion ~
+Pr2 Disarm~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 1
+Gsn 95
+SType 1
+SBits 256
+SBitT 32
+Sname Shards~
+SFname Shards~
+SLev 48
+Pr2 Tornado~
+Noun shards~
+A2C1 You send a $B$6storm of $0s$6h$0a$6r$0d$6s$R$7 out, ripping giant gashes into $N.~
+A2V1 $n sends a $B$6storm of $0s$6h$0a$6r$0d$6s$R$7 out, ripping the flesh from your body.~
+A2NV1 $n sends a $B$6storm of $0s$6h$0a$6r$0d$6s$R$7 out, shredding $N's flesh.~
+Durat 0~
+Dam i+40~
+Mana 48
+ManaT 1
+Pos 7
+CastT 55
+WearO ~
+Minint 25
+#SPELL
+Slot 2
+Gsn 359
+Sname Sneaking~
+SFname Sneaking~
+SLev 8
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO You stop sneaking...~
+#SPELL
+Slot 1
+Gsn 215
+SType 2
+SBits 16809984
+Sname Restoration~
+SFname Restoration~
+SLev 91
+Pr1 divine healing~
+Noun Spell~
+A2C1 $B$2Your spell was successful!~
+A2V1 $B$2Your body feels restored.~
+A2NV1 The gods grant $N with the ability of restoration.~
+Durat 0~
+Dam (180*h+(l/2)+b)-(g*50)~
+Mana 100
+ManaT 1
+CastT 60
+WearO The spell has worn off.~
+Minint 20
+Minwis 25
+#SPELL
+Slot 1
+Gsn 47
+SType 2
+SBits 1090520065
+Sname Mass Refresh~
+SFname Mass Refresh~
+SLev 37
+Pr1 Rejuvenate~
+Pr2 Refresh~
+Noun –iËi‡)	n~
+A2C1 You cast a refresh spell.~
+A2V1 You feel a little bit less tired!~
+Durat 0~
+Dam w+20~
+Mana 60
+ManaT 1
+Pos 7
+CastT 22
+WearO ~
+Minint 15
+Minwis 20
+Guilds 128
+#END

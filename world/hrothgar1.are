@@ -1,0 +1,2609 @@
+#AREADATA 
+Name New area~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Hrothgar~
+VNUMs 33301 33600
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#33301
+Name undead king wizard~
+Short an undead wizard king~
+Long 
+A ghostly king sits upon his throne, fingering an orb.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+Money 100
+Level 50
+Sex 1
+MobType 9
+Guard 0
+End
+
+#33302
+Name stone gargoyle~
+Short a stone gargoyle~
+Long 
+A stone gargoyle sits perched upon a ledge.
+~
+AMax 2
+NHeight 0
+ActBits 2
+Affect_By 520
+Money 100
+Level 35
+MobType 15
+Guard 0
+End
+
+#33303
+Name referee grandmaster mage~
+Short the grandmaster mage~
+Long 
+The Grandmaster Mage sits here keeping order amongst the trainees.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 680
+Money 200
+Level 150
+Sex 1
+MobType 0
+Hp 15
+Guard 0
+End
+
+#33304
+Name fire mage apprentice~
+Short a fire mage apprentice~
+Long 
+An apprentice fire mage sits here preparing for his duel.
+~
+AMax 1
+NHeight 0
+ActBits 1
+Money 300
+Level 50
+Sex 1
+MobType 0
+Guard 0
+End
+
+#33305
+Name earth apprentice mage~
+Short an earth apprentice mage~
+Long 
+An earth apprentice mage is here casting a cantrip.
+~
+AMax 1
+NHeight 0
+ActBits 1
+Money 300
+Level 50
+Sex 2
+MobType 0
+Guard 0
+End
+
+#33306
+Name water mage apprentice~
+Short a water mage apprentice~
+Long 
+A water mage apprentice glares icily at you.
+~
+AMax 1
+NHeight 0
+ActBits 1
+Money 300
+Level 50
+Sex 2
+MobType 0
+Guard 0
+End
+
+#33307
+Name air apprentice mage~
+Short an air apprentice mage~
+Long 
+An air apprentice mage levitates above you.
+~
+AMax 1
+NHeight 0
+ActBits 1
+Money 300
+Level 50
+Sex 1
+MobType 0
+Guard 0
+End
+
+#33308
+Name prism light ray~
+Short a prism of light~
+Long 
+A prism of light swirls around you and lights up the whole room.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 128
+Money 200
+Level 70
+MobType 24
+Guard 0
+End
+
+#33309
+Name huge fire elemental~
+Short a huge fire elemental~
+Long 
+A HUGE fire elemental sends out wisps of smoke throughout the cavern.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 65
+MobType 24
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#33301
+Name ring fire~
+Short a shimmering gateway of fire~
+Descr
+A ring of fire engulfs the far wall of this chamber.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 33372 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#33302
+Name gnarled branch branches tree wood ring~
+Short a ring of tree branches~
+Descr
+A gnarled ring of tree branches covers the floor
+[0;36m~
+Type 12
+Wear 0
+Values 4 33373 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#33303
+Name ring ice water~
+Short a ring of ice water~
+Descr
+A ring of ice water forms throughout the whole room.
+[0;36m~
+Type 12
+Wear 0
+Values 4 33375 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#33304
+Name ring wisp air~
+Short a wisp of air~
+Descr
+A wisp of air swirls about the room.
+[0;36m~
+Type 12
+Wear 0
+Values 4 33376 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#33305
+Name shimmering orb~
+Short a shammering orb~
+Descr
+A shimmering orb illuminates the room.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Weight 0
+Cost 0
+End
+
+#33306
+Name tower replica portal~
+Short a miniature replica of a tower~
+Descr
+A miniature version of a glowing tower rests in the clearing.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 33318 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#33307
+Name shining orb~
+Short a shining orb~
+Descr
+(none)~
+Type 9
+Extra 1
+Wear 131073
+Values 1 0 2 1 10 10 50 50 10 0 0
+Weight 0
+Cost 0
+Affect 17 -2 1 0 0
+End
+
+#33308
+Name stone gargoyle claw claws~
+Short a stone claw~
+Descr
+A stone claw sits on the floor underneath some garbage.
+[0;36m~
+Type 5
+Extra 1
+Wear 16385
+Values 0 20 0 5 0 0 0 3 3 0 0
+Weight 0
+Cost 0
+End
+
+#33309
+Name scintillating robe~
+Short a [1m[34ms[32mc[36mi[31mn[35mt[33mi[34ml[32ml[36ma[31mt[35mi[33mn[34mg[37m robe~
+Descr
+A scintillating robe lays crumbled in the corner, emitting light of every color.
+[0;36m~
+Type 9
+Extra 3
+Wear 9
+Values 1 30 4 1 10 10 40 40 10 0 512
+Weight 40
+Cost 3000
+End
+
+#33310
+Name prism light ray~
+Short a [1m[31mp[33mr[32mi[34ms[35mm[37m of light~
+Descr
+A shining prism of light reflects throughout the whole room.
+[0;36m~
+Type 9
+Extra 1
+Wear 262145
+Values 0 0 3 0 10 10 50 50 10 0 0
+Weight 0
+Cost 0
+Affect 13 10 1 0 0
+End
+
+#33311
+Name crimson baldric~
+Short a [31mcrimson[37m baldric~
+Descr
+A blood red baldric is neatly folded on the floor.
+[0;36m~
+Type 9
+Wear 32769
+Values 0 2 0 0 10 10 30 30 10 0 0
+Weight 20
+Cost 0
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#33301
+Name Path to the Tower~
+Descr
+No birds chirp, and other sounds of the forest are strangely hushed as
+you approach the tower. From this close, you notice the walls of the tower
+are strangely smooth - no natural force has brought this tower into being. 
+~
+Sector 3
+Door 1 0 0 33302 0 0
+~
+~
+End
+
+#33302
+Name Further Along the Path~
+Descr
+No birds chirp, and other sounds of the forest are strangely hushed as
+you approach the tower. From this close, you notice the walls of the tower
+are strangely smooth - no natural force has brought this tower into being. 
+~
+Sector 3
+Door 0 0 0 33303 0 0
+~
+~
+Door 3 0 0 33301 0 0
+~
+~
+End
+
+#33303
+Name Tower Entrance~
+Descr
+A large set of bronze-plated doors blocks the way to the north. Although
+you can see no guardian, you get the feeling that this tower is not open for
+visitors. 
+~
+Sector 3
+Door 0 3 0 33304 30 30
+~
+tower gates~
+Door 2 0 0 33302 0 0
+~
+~
+End
+
+#33304
+Name Inside the Magical Tower~
+Descr
+The ceiling of this tower is almost lost to you in the dizzling heights
+it reaches. The floor, ceiling and walls are all apparently made of the same
+material - greying-green in color. Whispered voices and hushed footsteps can
+be heard from all about you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33307 0 0
+~
+~
+Door 1 0 0 33306 0 0
+~
+~
+Door 2 3 0 33303 30 30
+~
+tower gates~
+Door 3 0 0 33305 0 0
+~
+~
+Door 5 259 0 33308 30 30
+~
+trapdoor~
+End
+
+#33305
+Name A Dank, Secluded Alcove~
+Descr
+Shadows are cast from torches set at even intervals in the walls. A
+strong, musty smell is present here, although you can see no cause for it.
+Elegant pillars also line the walls, their thin shape deceptive of the great
+strength required to hold up this tower. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33304 0 0
+~
+~
+End
+
+#33306
+Name A Dank, Secluded Alcove~
+Descr
+Shadows are cast from torches set at even intervals in the walls. A
+strong, musty smell is present here, although you can see no cause for it.
+Elegant pillars also line the walls, their thin shape deceptive of the great
+strength required to hold up this tower. 
+~
+Flags 4
+Sector 0
+Door 3 0 0 33304 0 0
+~
+~
+End
+
+#33307
+Name A Dusty Passage~
+Descr
+The ceiling of this tower is almost lost to you in the dizzling heights
+it reaches. The floor, ceiling and walls are all apparently made of the same
+material - greying-green in color. Whispered voices and hushed footsteps can
+be heard from all about you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33309 0 0
+~
+~
+Door 1 0 0 33313 0 0
+~
+~
+Door 2 0 0 33304 0 0
+~
+~
+Door 3 0 0 33312 0 0
+~
+~
+End
+
+#33308
+Name An Underground Passage~
+Descr
+~
+Sector 37
+Door 0 0 0 33319 0 0
+~
+~
+Door 4 259 0 33304 30 30
+~
+trapdoor~
+End
+
+#33309
+Name A Dusty Passage~
+Descr
+The ceiling of this tower is almost lost to you in the dizzling heights
+it reaches. The floor, ceiling and walls are all apparently made of the same
+material - greying-green in color. Whispered voices and hushed footsteps can
+be heard from all about you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33310 0 0
+~
+~
+Door 1 0 0 33315 0 0
+~
+~
+Door 2 0 0 33307 0 0
+~
+~
+Door 3 0 0 33314 0 0
+~
+~
+End
+
+#33310
+Name A Dusty Passage~
+Descr
+The ceiling of this tower is almost lost to you in the dizzling heights
+it reaches. The floor, ceiling and walls are all apparently made of the same
+material - greying-green in color. Whispered voices and hushed footsteps can
+be heard from all about you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33311 0 0
+~
+~
+Door 1 0 0 33317 0 0
+~
+~
+Door 2 0 0 33309 0 0
+~
+~
+Door 3 0 0 33316 0 0
+~
+~
+End
+
+#33311
+Name Base of a Spiral Staircase~
+Descr
+A staircase seems to grow from the floor here, gracefully rising up high.
+Although it looks quite fragile, it bears your weight well - more signs of
+magic. 
+~
+Flags 4
+Sector 0
+Reset M 33302 1 100
+Reset O 33308 23 50
+Reset M 33302 1 100
+Reset O 33308 23 50
+Door 2 0 0 33310 0 0
+~
+~
+Door 4 0 0 33318 0 0
+~
+~
+End
+
+#33312
+Name A Dank, Secluded Alcove~
+Descr
+Shadows are cast from torches set at even intervals in the walls. A
+strong, musty smell is present here, although you can see no cause for it.
+Elegant pillars also line the walls, their thin shape deceptive of the great
+strength required to hold up this tower. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33307 0 0
+~
+~
+End
+
+#33313
+Name A Dank, Secluded Alcove~
+Descr
+Shadows are cast from torches set at even intervals in the walls. A
+strong, musty smell is present here, although you can see no cause for it.
+Elegant pillars also line the walls, their thin shape deceptive of the great
+strength required to hold up this tower. 
+~
+Flags 4
+Sector 0
+Door 3 0 0 33307 0 0
+~
+~
+End
+
+#33314
+Name A Dank, Secluded Alcove~
+Descr
+Shadows are cast from torches set at even intervals in the walls. A
+strong, musty smell is present here, although you can see no cause for it.
+Elegant pillars also line the walls, their thin shape deceptive of the great
+strength required to hold up this tower. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33309 0 0
+~
+~
+End
+
+#33315
+Name A Dank, Secluded Alcove~
+Descr
+Shadows are cast from torches set at even intervals in the walls. A
+strong, musty smell is present here, although you can see no cause for it.
+Elegant pillars also line the walls, their thin shape deceptive of the great
+strength required to hold up this tower. 
+~
+Flags 4
+Sector 0
+Door 3 0 0 33309 0 0
+~
+~
+End
+
+#33316
+Name A Dank, Secluded Alcove~
+Descr
+Shadows are cast from torches set at even intervals in the walls. A
+strong, musty smell is present here, although you can see no cause for it.
+Elegant pillars also line the walls, their thin shape deceptive of the great
+strength required to hold up this tower. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33310 0 0
+~
+~
+End
+
+#33317
+Name A Dank, Secluded Alcove~
+Descr
+Shadows are cast from torches set at even intervals in the walls. A
+strong, musty smell is present here, although you can see no cause for it.
+Elegant pillars also line the walls, their thin shape deceptive of the great
+strength required to hold up this tower. 
+~
+Flags 4
+Sector 0
+Door 3 0 0 33310 0 0
+~
+~
+End
+
+#33318
+Name Level 2 Stairway~
+Descr
+Four corridors lead away from the stairs which continue their spiral
+upward. To the west, flames can be seen, while a soothing blue light
+eminates from the east. The corridor to the north is dusty brown in color
+and from the south a strong wind can be felt. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33326 0 0
+~
+~
+Door 1 0 0 33325 0 0
+~
+~
+Door 2 0 0 33327 0 0
+~
+~
+Door 3 0 0 33324 0 0
+~
+~
+Door 4 0 0 33322 0 0
+~
+~
+Door 5 0 0 33311 0 0
+~
+~
+End
+
+#33319
+Name An Underground Passage~
+Descr
+~
+Sector 37
+Door 0 0 0 33320 0 0
+~
+~
+Door 2 0 0 33308 0 0
+~
+~
+End
+
+#33320
+Name An Underground Passage~
+Descr
+~
+Sector 37
+Door 0 0 0 33321 0 0
+~
+~
+Door 2 0 0 33319 0 0
+~
+~
+End
+
+#33321
+Name A Caved-In Chasm~
+Descr
+~
+Sector 37
+Reset M 33301 1 100
+Reset O 33307 -1 4
+Door 2 0 0 33320 0 0
+~
+~
+End
+
+#33322
+Name Level 3 Stairway~
+Descr
+Treading on these stairs you are again struck by how fragile they look. A
+testament to the power of their creators, they take your weight without
+showing any signs of strain. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33342 0 0
+~
+~
+Door 4 0 0 33323 0 0
+~
+~
+Door 5 0 0 33318 0 0
+~
+~
+End
+
+#33323
+Name Level 4 Stairway~
+Descr
+Treading on these stairs you are again struck by how fragile they look. A
+testament to the power of their creators, they take your weight without
+showing any signs of strain. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33346 0 0
+~
+~
+Door 4 0 0 33371 0 0
+~
+~
+Door 5 0 0 33322 0 0
+~
+~
+End
+
+#33324
+Name Trial of Fire~
+Descr
+Sweat beads from your face in this corridor. The walls are hot to the
+touch, and you can feel the soles of your feet starting to warm up. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33318 0 0
+~
+~
+Door 3 0 0 33328 0 0
+~
+~
+End
+
+#33325
+Name Trial of Water~
+Descr
+The corridor appears to be formed of waves. Reaching out to a wall to
+verify this, you find your hand's momentum stopped at the last minute by an
+invisible barrier - more magic. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33332 0 0
+~
+~
+Door 3 0 0 33318 0 0
+~
+~
+End
+
+#33326
+Name Trial of Earth~
+Descr
+Dirt. The walls, floor and ceiling are all made of it. As you walk down
+the corridor, your feet kick up small clouds of dust, and soon you have a
+fine brown coating. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33330 0 0
+~
+~
+Door 2 0 0 33318 0 0
+~
+~
+End
+
+#33327
+Name Trial of Air~
+Descr
+A strong wind almost picks you off your feet, tossing you northward. Eyes
+squinted shut to keep out the wind, you continue onwards. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33318 0 0
+~
+~
+Door 2 0 0 33334 0 0
+~
+~
+End
+
+#33328
+Name Trial of Fire~
+Descr
+Sweat beads from your face in this corridor. The walls are hot to the
+touch, and you can feel the soles of your feet starting to warm up. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33324 0 0
+~
+~
+Door 3 3 0 33329 30 30
+~
+red door~
+End
+
+#33329
+Name Chamber of Fire~
+Descr
+~
+Flags 4
+Sector 35
+Reset O 33301 -5 100
+Door 1 3 0 33328 30 30
+~
+red door~
+End
+
+#33330
+Name Trial of Earth~
+Descr
+Dirt. The walls, floor and ceiling are all made of it. As you walk down
+the corridor, your feet kick up small clouds of dust, and soon you have a
+fine brown coating. 
+~
+Flags 4
+Sector 0
+Door 0 3 0 33331 30 30
+~
+green door~
+Door 2 0 0 33326 0 0
+~
+~
+End
+
+#33331
+Name Chamber of Earth~
+Descr
+~
+Sector 28
+Reset O 33302 -5 100
+Door 2 3 0 33330 30 30
+~
+green door~
+End
+
+#33332
+Name Trial of Water~
+Descr
+The corridor appears to be formed of waves. Reaching out to a wall to
+verify this, you find your hand's momentum stopped at the last minute by an
+invisible barrier - more magic. 
+~
+Flags 4
+Sector 0
+Door 1 3 0 33333 30 30
+~
+blue door~
+Door 3 0 0 33325 0 0
+~
+~
+End
+
+#33333
+Name Chamber of Water~
+Descr
+~
+Sector 17
+Reset O 33303 -5 100
+Door 3 3 0 33332 30 30
+~
+blue door~
+End
+
+#33334
+Name Trial of Air~
+Descr
+A strong wind almost picks you off your feet, tossing you northward. Eyes
+squinted shut to keep out the wind, you continue onwards. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33327 0 0
+~
+~
+Door 2 3 0 33335 30 30
+~
+white door~
+End
+
+#33335
+Name Chamber of Air~
+Descr
+~
+Sector 36
+Reset O 33304 -5 100
+Door 0 3 0 33334 30 30
+~
+white door~
+End
+
+#33336
+Name Battle Ground Arena~
+Descr
+You stand along the south wall of a large room. Banners depicting the four
+elements hang from the ceiling. The floor and walls of this room are scarred
+with countless burn and acid marks, and the air literally hums with magic. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33349 0 0
+~
+~
+Door 3 0 0 33337 0 0
+~
+~
+End
+
+#33337
+Name Battle Ground Arena~
+Descr
+You stand along the south wall of a large room. Banners depicting the four
+elements hang from the ceiling. The floor and walls of this room are scarred
+with countless burn and acid marks, and the air literally hums with magic. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33354 0 0
+~
+~
+Door 1 0 0 33336 0 0
+~
+~
+Door 3 0 0 33338 0 0
+~
+~
+End
+
+#33338
+Name Battle Ground Arena~
+Descr
+You stand along the south wall of a large room. Banners depicting the four
+elements hang from the ceiling. The floor and walls of this room are scarred
+with countless burn and acid marks, and the air literally hums with magic. 
+~
+Flags 4
+Sector 0
+Reset M 33304 1 100
+Door 0 0 0 33357 0 0
+~
+~
+Door 1 0 0 33337 0 0
+~
+~
+End
+
+#33339
+Name Battle Ground Arena~
+Descr
+You stand along the south wall of a large room. Banners depicting the four
+elements hang from the ceiling. The floor and walls of this room are scarred
+with countless burn and acid marks, and the air literally hums with magic. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33364 0 0
+~
+~
+Door 1 0 0 33340 0 0
+~
+~
+End
+
+#33340
+Name Battle Ground Arena~
+Descr
+You stand along the south wall of a large room. Banners depicting the four
+elements hang from the ceiling. The floor and walls of this room are scarred
+with countless burn and acid marks, and the air literally hums with magic. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33365 0 0
+~
+~
+Door 1 0 0 33341 0 0
+~
+~
+Door 3 0 0 33339 0 0
+~
+~
+End
+
+#33341
+Name Battle Ground Arena~
+Descr
+You stand along the south wall of a large room. Banners depicting the four
+elements hang from the ceiling. The floor and walls of this room are scarred
+with countless burn and acid marks, and the air literally hums with magic. 
+~
+Flags 4
+Sector 0
+Reset M 33306 1 100
+Door 0 0 0 33366 0 0
+~
+~
+Door 3 0 0 33340 0 0
+~
+~
+End
+
+#33342
+Name Battle Ground Arena~
+Descr
+You stand along the south wall of a large room. Banners depicting the four
+elements hang from the ceiling. The floor and walls of this room are scarred
+with countless burn and acid marks, and the air literally hums with magic. 
+~
+Flags 4
+Sector 0
+Reset M 33303 1 100
+Reset O 33309 9 3
+Door 0 0 0 33344 0 0
+~
+~
+Door 1 0 0 33364 0 0
+~
+~
+Door 2 0 0 33322 0 0
+~
+~
+Door 3 0 0 33349 0 0
+~
+~
+End
+
+#33343
+Name ~
+Descr
+~
+Door 2 0 0 33342 0 0
+~
+~
+End
+
+#33344
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33345 0 0
+~
+~
+Door 1 0 0 33361 0 0
+~
+~
+Door 2 0 0 33342 0 0
+~
+~
+Door 3 0 0 33350 0 0
+~
+~
+End
+
+#33345
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33358 0 0
+~
+~
+Door 2 0 0 33344 0 0
+~
+~
+Door 3 0 0 33351 0 0
+~
+~
+End
+
+#33346
+Name A Charred Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 33347 0 0
+~
+~
+Door 2 0 0 33323 0 0
+~
+~
+End
+
+#33347
+Name A Charred Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 33348 0 0
+~
+~
+Door 2 0 0 33346 0 0
+~
+~
+End
+
+#33348
+Name A Charred Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 3 0 33367 30 30
+~
+rainbow door~
+Door 2 0 0 33347 0 0
+~
+~
+End
+
+#33349
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33350 0 0
+~
+~
+Door 1 0 0 33342 0 0
+~
+~
+Door 2 0 0 33336 0 0
+~
+~
+Door 3 0 0 33354 0 0
+~
+~
+End
+
+#33350
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33351 0 0
+~
+~
+Door 1 0 0 33344 0 0
+~
+~
+Door 2 0 0 33349 0 0
+~
+~
+Door 3 0 0 33353 0 0
+~
+~
+End
+
+#33351
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33345 0 0
+~
+~
+Door 2 0 0 33350 0 0
+~
+~
+Door 3 0 0 33352 0 0
+~
+~
+End
+
+#33352
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33351 0 0
+~
+~
+Door 2 0 0 33353 0 0
+~
+~
+Door 3 0 0 33355 0 0
+~
+~
+End
+
+#33353
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33352 0 0
+~
+~
+Door 1 0 0 33350 0 0
+~
+~
+Door 2 0 0 33354 0 0
+~
+~
+Door 3 0 0 33356 0 0
+~
+~
+End
+
+#33354
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33353 0 0
+~
+~
+Door 1 0 0 33349 0 0
+~
+~
+Door 2 0 0 33337 0 0
+~
+~
+Door 3 0 0 33357 0 0
+~
+~
+End
+
+#33355
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Reset M 33305 1 100
+Door 1 0 0 33352 0 0
+~
+~
+Door 2 0 0 33356 0 0
+~
+~
+End
+
+#33356
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33355 0 0
+~
+~
+Door 1 0 0 33353 0 0
+~
+~
+Door 2 0 0 33357 0 0
+~
+~
+End
+
+#33357
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33356 0 0
+~
+~
+Door 1 0 0 33354 0 0
+~
+~
+Door 2 0 0 33338 0 0
+~
+~
+End
+
+#33358
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33359 0 0
+~
+~
+Door 2 0 0 33361 0 0
+~
+~
+Door 3 0 0 33345 0 0
+~
+~
+End
+
+#33359
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 33360 0 0
+~
+~
+Door 2 0 0 33362 0 0
+~
+~
+Door 3 0 0 33358 0 0
+~
+~
+End
+
+#33360
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Reset M 33307 1 100
+Door 2 0 0 33363 0 0
+~
+~
+Door 3 0 0 33359 0 0
+~
+~
+End
+
+#33361
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33358 0 0
+~
+~
+Door 1 0 0 33362 0 0
+~
+~
+Door 2 0 0 33364 0 0
+~
+~
+Door 3 0 0 33344 0 0
+~
+~
+End
+
+#33362
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33359 0 0
+~
+~
+Door 1 0 0 33363 0 0
+~
+~
+Door 2 0 0 33365 0 0
+~
+~
+Door 3 0 0 33361 0 0
+~
+~
+End
+
+#33363
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33360 0 0
+~
+~
+Door 2 0 0 33366 0 0
+~
+~
+Door 3 0 0 33362 0 0
+~
+~
+End
+
+#33364
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33361 0 0
+~
+~
+Door 1 0 0 33365 0 0
+~
+~
+Door 2 0 0 33339 0 0
+~
+~
+Door 3 0 0 33342 0 0
+~
+~
+End
+
+#33365
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33362 0 0
+~
+~
+Door 1 0 0 33366 0 0
+~
+~
+Door 2 0 0 33340 0 0
+~
+~
+Door 3 0 0 33364 0 0
+~
+~
+End
+
+#33366
+Name Battle Ground Arena~
+Descr
+Here and there the ground is stained red with blood. You assume that the
+contests that go on here are often to the death. Lightning crackles above
+you and the smell of ozone is strong. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 33363 0 0
+~
+~
+Door 2 0 0 33341 0 0
+~
+~
+Door 3 0 0 33365 0 0
+~
+~
+End
+
+#33367
+Name A Collapsed Chamber~
+Descr
+~
+Sector 34
+Door 0 0 0 33368 0 0
+~
+~
+Door 2 3 0 33348 30 30
+~
+rainbow door~
+Door 3 0 0 33370 0 0
+~
+~
+End
+
+#33368
+Name A Collapsed Chamber~
+Descr
+~
+Sector 34
+Door 2 0 0 33367 0 0
+~
+~
+Door 3 0 0 33369 0 0
+~
+~
+End
+
+#33369
+Name A Collapsed Chamber~
+Descr
+~
+Sector 34
+Reset M 33308 1 100
+Reset O 33310 -1 5
+Door 1 0 0 33368 0 0
+~
+~
+Door 2 0 0 33370 0 0
+~
+~
+End
+
+#33370
+Name A Collapsed Chamber~
+Descr
+~
+Sector 34
+Door 0 0 0 33369 0 0
+~
+~
+Door 1 0 0 33367 0 0
+~
+~
+End
+
+#33371
+Name Top of the Tower~
+Descr
+~
+Flags2 6
+Flags 4
+Sector 0
+Reset O 33305 -5 100
+Door 5 0 0 33323 0 0
+~
+~
+End
+
+#33372
+Name Rickity Bridge~
+Descr
+~
+Sector 3
+Reset O 33306 -5 100
+Door 3 0 0 33377 0 0
+~
+~
+End
+
+#33373
+Name ~
+Descr
+~
+Reset O 33306 -5 100
+Door 0 0 0 33450 0 0
+~
+~
+End
+
+#33375
+Name ~
+Descr
+~
+Reset O 33306 -5 100
+End
+
+#33376
+Name ~
+Descr
+~
+Reset O 33306 -5 100
+End
+
+#33377
+Name Rickity Bridge~
+Descr
+~
+Sector 3
+Door 1 0 0 33372 0 0
+~
+~
+Door 3 0 0 33378 0 0
+~
+~
+End
+
+#33378
+Name End of a Rickity Bridge~
+Descr
+~
+Sector 3
+Door 0 0 0 33379 0 0
+~
+~
+Door 1 0 0 33377 0 0
+~
+~
+End
+
+#33379
+Name Path to the Fortress of Fire~
+Descr
+~
+Sector 3
+Door 0 0 0 33380 0 0
+~
+~
+Door 2 0 0 33378 0 0
+~
+~
+End
+
+#33380
+Name Fiery Gateway~
+Descr
+~
+Sector 3
+Door 0 3 0 33381 30 30
+~
+fire gate~
+Door 2 0 0 33379 0 0
+~
+~
+End
+
+#33381
+Name Main Path of the Fort~
+Descr
+~
+Door 0 0 0 33382 0 0
+~
+~
+Door 1 0 0 33395 0 0
+~
+~
+Door 2 3 0 33380 30 30
+~
+fire gate~
+Door 3 0 0 33390 0 0
+~
+~
+End
+
+#33382
+Name Main Path of the Fort~
+Descr
+~
+Door 0 0 0 33383 0 0
+~
+~
+Door 2 0 0 33381 0 0
+~
+~
+End
+
+#33383
+Name Main Path of the Fort~
+Descr
+~
+Door 0 0 0 33384 0 0
+~
+~
+Door 1 0 0 33405 0 0
+~
+~
+Door 2 0 0 33382 0 0
+~
+~
+Door 3 0 0 33400 0 0
+~
+~
+End
+
+#33384
+Name Main Path of the Fort~
+Descr
+~
+Door 0 0 0 33385 0 0
+~
+~
+Door 2 0 0 33383 0 0
+~
+~
+Door 5 259 0 33449 30 30
+~
+flaming grass~
+End
+
+#33385
+Name Main Path of the Fort~
+Descr
+~
+Door 0 0 0 33386 0 0
+~
+~
+Door 1 0 0 33418 0 0
+~
+~
+Door 2 0 0 33384 0 0
+~
+~
+Door 3 0 0 33413 0 0
+~
+~
+End
+
+#33386
+Name Main Path of the Fort~
+Descr
+~
+Door 0 0 0 33387 0 0
+~
+~
+Door 2 0 0 33385 0 0
+~
+~
+End
+
+#33387
+Name Main Path of the Fort~
+Descr
+~
+Door 0 0 0 33388 0 0
+~
+~
+Door 1 0 0 33430 0 0
+~
+~
+Door 2 0 0 33386 0 0
+~
+~
+Door 3 0 0 33425 0 0
+~
+~
+End
+
+#33388
+Name Main Path of the Fort~
+Descr
+~
+Door 0 0 0 33389 0 0
+~
+~
+Door 2 0 0 33387 0 0
+~
+~
+End
+
+#33389
+Name Main Path of the Fort~
+Descr
+~
+Door 1 0 0 33442 0 0
+~
+~
+Door 2 0 0 33388 0 0
+~
+~
+Door 3 0 0 33437 0 0
+~
+~
+End
+
+#33390
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33381 0 0
+~
+~
+Door 3 0 0 33391 0 0
+~
+~
+End
+
+#33391
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33390 0 0
+~
+~
+Door 3 0 0 33392 0 0
+~
+~
+End
+
+#33392
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33391 0 0
+~
+~
+Door 3 0 0 33393 0 0
+~
+~
+End
+
+#33393
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33392 0 0
+~
+~
+Door 3 0 0 33394 0 0
+~
+~
+End
+
+#33394
+Name Southwest Corner~
+Descr
+~
+Door 0 0 0 33411 0 0
+~
+~
+Door 1 0 0 33393 0 0
+~
+~
+End
+
+#33395
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33396 0 0
+~
+~
+Door 3 0 0 33381 0 0
+~
+~
+End
+
+#33396
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33397 0 0
+~
+~
+Door 3 0 0 33395 0 0
+~
+~
+End
+
+#33397
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33398 0 0
+~
+~
+Door 3 0 0 33396 0 0
+~
+~
+End
+
+#33398
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33399 0 0
+~
+~
+Door 3 0 0 33397 0 0
+~
+~
+End
+
+#33399
+Name Southeast Corner~
+Descr
+~
+Door 0 0 0 33412 0 0
+~
+~
+Door 3 0 0 33398 0 0
+~
+~
+End
+
+#33400
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33383 0 0
+~
+~
+Door 3 0 0 33401 0 0
+~
+~
+End
+
+#33401
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33400 0 0
+~
+~
+Door 3 0 0 33402 0 0
+~
+~
+End
+
+#33402
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33401 0 0
+~
+~
+Door 3 0 0 33403 0 0
+~
+~
+End
+
+#33403
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33402 0 0
+~
+~
+Door 3 0 0 33404 0 0
+~
+~
+End
+
+#33404
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33424 0 0
+~
+~
+Door 1 0 0 33403 0 0
+~
+~
+Door 2 0 0 33411 0 0
+~
+~
+End
+
+#33405
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33407 0 0
+~
+~
+Door 3 0 0 33383 0 0
+~
+~
+End
+
+#33406
+Name ~
+Descr
+~
+Door 3 0 0 33405 0 0
+~
+~
+End
+
+#33407
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33408 0 0
+~
+~
+Door 3 0 0 33405 0 0
+~
+~
+End
+
+#33408
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33409 0 0
+~
+~
+Door 3 0 0 33407 0 0
+~
+~
+End
+
+#33409
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33410 0 0
+~
+~
+Door 3 0 0 33408 0 0
+~
+~
+End
+
+#33410
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33423 0 0
+~
+~
+Door 2 0 0 33412 0 0
+~
+~
+Door 3 0 0 33409 0 0
+~
+~
+End
+
+#33411
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33404 0 0
+~
+~
+Door 2 0 0 33394 0 0
+~
+~
+End
+
+#33412
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33410 0 0
+~
+~
+Door 2 0 0 33399 0 0
+~
+~
+End
+
+#33413
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33385 0 0
+~
+~
+Door 3 0 0 33414 0 0
+~
+~
+End
+
+#33414
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33413 0 0
+~
+~
+Door 3 0 0 33415 0 0
+~
+~
+End
+
+#33415
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33414 0 0
+~
+~
+Door 3 0 0 33416 0 0
+~
+~
+End
+
+#33416
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33415 0 0
+~
+~
+Door 3 0 0 33417 0 0
+~
+~
+End
+
+#33417
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33436 0 0
+~
+~
+Door 1 0 0 33416 0 0
+~
+~
+Door 2 0 0 33424 0 0
+~
+~
+End
+
+#33418
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33419 0 0
+~
+~
+Door 3 0 0 33385 0 0
+~
+~
+End
+
+#33419
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33420 0 0
+~
+~
+Door 3 0 0 33418 0 0
+~
+~
+End
+
+#33420
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33421 0 0
+~
+~
+Door 3 0 0 33419 0 0
+~
+~
+End
+
+#33421
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33422 0 0
+~
+~
+Door 3 0 0 33420 0 0
+~
+~
+End
+
+#33422
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33435 0 0
+~
+~
+Door 2 0 0 33423 0 0
+~
+~
+Door 3 0 0 33421 0 0
+~
+~
+End
+
+#33423
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33422 0 0
+~
+~
+Door 2 0 0 33410 0 0
+~
+~
+End
+
+#33424
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33417 0 0
+~
+~
+Door 2 0 0 33404 0 0
+~
+~
+End
+
+#33425
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33387 0 0
+~
+~
+Door 3 0 0 33426 0 0
+~
+~
+End
+
+#33426
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33425 0 0
+~
+~
+Door 3 0 0 33427 0 0
+~
+~
+End
+
+#33427
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33426 0 0
+~
+~
+Door 3 0 0 33428 0 0
+~
+~
+End
+
+#33428
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33427 0 0
+~
+~
+Door 3 0 0 33429 0 0
+~
+~
+End
+
+#33429
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33448 0 0
+~
+~
+Door 1 0 0 33428 0 0
+~
+~
+Door 2 0 0 33436 0 0
+~
+~
+End
+
+#33430
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33431 0 0
+~
+~
+Door 3 0 0 33387 0 0
+~
+~
+End
+
+#33431
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33432 0 0
+~
+~
+Door 3 0 0 33430 0 0
+~
+~
+End
+
+#33432
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33433 0 0
+~
+~
+Door 3 0 0 33431 0 0
+~
+~
+End
+
+#33433
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33434 0 0
+~
+~
+Door 3 0 0 33432 0 0
+~
+~
+End
+
+#33434
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33447 0 0
+~
+~
+Door 2 0 0 33435 0 0
+~
+~
+Door 3 0 0 33433 0 0
+~
+~
+End
+
+#33435
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33434 0 0
+~
+~
+Door 2 0 0 33422 0 0
+~
+~
+End
+
+#33436
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33429 0 0
+~
+~
+Door 2 0 0 33417 0 0
+~
+~
+End
+
+#33437
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33389 0 0
+~
+~
+Door 3 0 0 33438 0 0
+~
+~
+End
+
+#33438
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33437 0 0
+~
+~
+Door 3 0 0 33439 0 0
+~
+~
+End
+
+#33439
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33438 0 0
+~
+~
+Door 3 0 0 33440 0 0
+~
+~
+End
+
+#33440
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33439 0 0
+~
+~
+Door 3 0 0 33441 0 0
+~
+~
+End
+
+#33441
+Name Northwest Corner~
+Descr
+~
+Door 1 0 0 33440 0 0
+~
+~
+Door 2 0 0 33448 0 0
+~
+~
+End
+
+#33442
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33443 0 0
+~
+~
+Door 3 0 0 33389 0 0
+~
+~
+End
+
+#33443
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33444 0 0
+~
+~
+Door 3 0 0 33442 0 0
+~
+~
+End
+
+#33444
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33445 0 0
+~
+~
+Door 3 0 0 33443 0 0
+~
+~
+End
+
+#33445
+Name Alley of Fire~
+Descr
+~
+Door 1 0 0 33446 0 0
+~
+~
+Door 3 0 0 33444 0 0
+~
+~
+End
+
+#33446
+Name Northeast Corner~
+Descr
+~
+Door 2 0 0 33447 0 0
+~
+~
+Door 3 0 0 33445 0 0
+~
+~
+End
+
+#33447
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33446 0 0
+~
+~
+Door 2 0 0 33434 0 0
+~
+~
+End
+
+#33448
+Name Along a Flaming Wall~
+Descr
+~
+Door 0 0 0 33441 0 0
+~
+~
+Door 2 0 0 33429 0 0
+~
+~
+End
+
+#33449
+Name Smoke Filled Cavern~
+Descr
+~
+Flags2 4
+Flags 4
+Sector 39
+Reset M 33309 1 100
+Reset O 33311 -1 3
+Door 4 259 0 33384 30 30
+~
+flaming grass~
+End
+
+#33450
+Name ~
+Descr
+~
+Door 0 0 0 33451 0 0
+~
+~
+Door 2 0 0 33373 0 0
+~
+~
+End
+
+#33451
+Name ~
+Descr
+~
+Door 0 0 0 33452 0 0
+~
+~
+Door 2 0 0 33450 0 0
+~
+~
+End
+
+#33452
+Name ~
+Descr
+~
+Door 0 0 0 33453 0 0
+~
+~
+Door 2 0 0 33451 0 0
+~
+~
+End
+
+#33453
+Name ~
+Descr
+~
+Door 0 3 0 33454 30 30
+~
+earth door gate~
+Door 2 0 0 33452 0 0
+~
+~
+End
+
+#33454
+Name ~
+Descr
+~
+Door 2 0 0 33453 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

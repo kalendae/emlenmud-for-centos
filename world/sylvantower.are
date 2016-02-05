@@ -1,0 +1,1302 @@
+#AREADATA 
+Name Sylvan Watch Tower~
+Repop The bells ring as the changing of the watch commences.
+~
+SRepop 25
+SCZone 0
+Builders Larick~
+VNUMs 52901 53000
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#52901
+Name sylvan ranger~
+Short a sylvan ranger~
+Long 
+A sylvan ranger studies a map of the surrounding area.
+~
+AMax 14
+ActBits 2
+Affect_By 1
+Money 50
+Level 110
+Sex 1
+MobType 1
+Hp 2
+Guard 0
+End
+
+#52902
+Name elite sylvan guard ~
+Short an elite sylvan guard~
+Long 
+An elite sylvan guard studies combat techniques.
+~
+AMax 8
+ActBits 2
+Money 110
+Level 110
+Sex 1
+MobType 1
+Hp 4
+Guard 0
+End
+
+#52903
+Name sylvan sergeant~
+Short a sylvan sergeant~
+Long 
+A sylvan sergeant studies an old parchment.
+~
+AMax 8
+ActBits 2
+Money 200
+Level 115
+Sex 1
+MobType 1
+Hp 4
+Guard 0
+End
+
+#52904
+Name sylvan force commander~
+Short the sylvan force commander~
+Long 
+The sylvan force commander stands here imposingly.
+~
+AMax 1
+ActBits 2
+ActBits4 16384
+Affect_By 8
+Alignment 2
+Money 200
+Level 300
+Sex 1
+MobType 1
+Hp 7
+Guard 0
+Spec spec_warrior
+End
+
+#52905
+Name sylvan lieutenant~
+Short a sylvan lieutenant~
+Long 
+A sylvan lieutenant stands here proudly awaiting orders from the commander.
+~
+AMax 1
+ActBits 2
+Money 67
+Level 120
+Sex 1
+MobType 1
+Guard 0
+End
+
+#52906
+Name wizened elf~
+Short a wizened elf~
+Long 
+A wizened elf sits here with a strange glow of genious in his eyes.
+~
+AMax 1
+ActBits 2
+Affect_By 8
+Money 200
+Level 115
+Sex 1
+MobType 1
+Hp 11
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#52901
+Name anklet griveous destruction apb~
+Short an [1m[32ma[0m[32mn[1m[32mk[0m[32ml[1m[31me[0m[31mt[0m of [1m[30mg[1m[37mr[0m[31mi[1m[30mve[1m[37mo[0m[31mu[1m[30ms[0m [1m[31md[0m[31mes[1m[30mt[1m[31mru[0m[31mnc[1m[30mti[1m[31mon[0m~
+Descr
+A strange anklet glows on the ground.
+[0;36m~
+Type 9
+Extra 33554497
+Wear 524289
+Values 3 0 0 0 0 0 18 18 0 0 0
+Weight 2
+Cost 0
+Affect 19 1 1 0 0
+Affect 22 1 1 0 0
+End
+
+#52902
+Name spectacles of ethereal insight apb~
+Short [1m[36ms[0m[36mpectacle[1ms[0m of [1m[30met[0m[37mh[1mr[0m[37me[1m[30mal[0m [1m[32ms[0m[32migh[1mt[0m~
+Descr
+A strange pair of glasses lies on the ground.
+[0;36m~
+Type 9
+Extra 33554497
+Wear 8388609
+Values 0 0 3 0 0 0 20 20 0 0 0
+Weight 3
+Cost 0
+Affect 19 1 1 0 0
+Affect 18 -2 1 0 0
+Affect 13 -10 1 0 0
+End
+
+#52903
+Name breastplate of elvish power~
+Short breastplate of [1m[32me[0m[32ml[1m[32mv[0m[32mi[1m[32ms[0m[32mh[0m power~
+Descr
+An old looking breastplate lies here.
+[0;36m~
+Type 9
+Wear 9
+Values 0 6 0 0 0 0 50 50 0 0 0
+Weight 0
+Cost 0
+Affect 18 1 1 0 0
+Affect 13 10 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#52901
+Name A Tall Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52902 0 0
+~
+~
+Door 1 0 0 52933 0 0
+~
+~
+Door 2 3 0 52945 30 30
+~
+Sturdy Oak Door~
+Door 3 0 0 52932 0 0
+~
+~
+End
+
+#52902
+Name A Tall Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Sector 0
+Door 0 0 0 52904 0 0
+~
+~
+Door 1 0 0 52919 0 0
+~
+~
+Door 2 0 0 52901 0 0
+~
+~
+Door 3 0 0 52903 0 0
+~
+~
+End
+
+#52903
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 1 0 0 52902 0 0
+~
+~
+End
+
+#52904
+Name A Tall Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52907 0 0
+~
+~
+Door 1 0 0 52906 0 0
+~
+~
+Door 2 0 0 52902 0 0
+~
+~
+Door 3 0 0 52905 0 0
+~
+~
+End
+
+#52905
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 1 0 0 52904 0 0
+~
+~
+End
+
+#52906
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 3 0 0 52904 0 0
+~
+~
+End
+
+#52907
+Name A Spiral Staircase~
+Descr
+An ornate spiral staircase winds its way up to the more experienced
+soldier's barracks. Despite the military purpose of this outpost, the
+sylvans still manage to combine exquisite architecture with combat
+practicality. On the walls are paintings of glorious battles past. 
+~
+Flags 4
+Sector 0
+Door 2 0 0 52904 0 0
+~
+~
+Door 4 0 0 52908 0 0
+~
+~
+End
+
+#52908
+Name A Spiral Staircase~
+Descr
+An ornate spiral staircase winds its way up to the more experienced
+soldier's barracks. Despite the military purpose of this outpost, the
+sylvans still manage to combine exquisite architecture with combat
+practicality. On the walls are paintings of glorious battles past. 
+~
+Flags 4
+Sector 0
+Door 2 0 0 52909 0 0
+~
+~
+Door 5 0 0 52907 0 0
+~
+~
+End
+
+#52909
+Name A Tall Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52908 0 0
+~
+~
+Door 1 0 0 52911 0 0
+~
+~
+Door 2 0 0 52912 0 0
+~
+~
+Door 3 0 0 52910 0 0
+~
+~
+End
+
+#52910
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 1 0 0 52909 0 0
+~
+~
+End
+
+#52911
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 3 0 0 52909 0 0
+~
+~
+End
+
+#52912
+Name A Tall Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52909 0 0
+~
+~
+Door 1 0 0 52913 0 0
+~
+~
+Door 2 0 0 52915 0 0
+~
+~
+Door 3 0 0 52914 0 0
+~
+~
+End
+
+#52913
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 3 0 0 52912 0 0
+~
+~
+End
+
+#52914
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 1 0 0 52912 0 0
+~
+~
+End
+
+#52915
+Name A Spiral Staircase~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52912 0 0
+~
+~
+Door 1 0 0 52917 0 0
+~
+~
+Door 3 0 0 52916 0 0
+~
+~
+Door 4 0 0 52918 0 0
+~
+~
+End
+
+#52916
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 1 0 0 52915 0 0
+~
+~
+End
+
+#52917
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 3 0 0 52915 0 0
+~
+~
+End
+
+#52918
+Name A Spiral Staircase~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52922 0 0
+~
+~
+Door 1 0 0 52921 0 0
+~
+~
+Door 3 0 0 52920 0 0
+~
+~
+Door 5 0 0 52915 0 0
+~
+~
+End
+
+#52919
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 3 0 0 52902 0 0
+~
+~
+End
+
+#52920
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52902 1 100
+Door 1 0 0 52918 0 0
+~
+~
+End
+
+#52921
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52902 1 100
+Door 3 0 0 52918 0 0
+~
+~
+End
+
+#52922
+Name A Tall Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52925 0 0
+~
+~
+Door 1 0 0 52924 0 0
+~
+~
+Door 2 0 0 52918 0 0
+~
+~
+Door 3 0 0 52923 0 0
+~
+~
+End
+
+#52923
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52902 1 100
+Door 1 0 0 52922 0 0
+~
+~
+End
+
+#52924
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52902 1 100
+Door 3 0 0 52922 0 0
+~
+~
+End
+
+#52925
+Name A Tall Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52928 0 0
+~
+~
+Door 1 0 0 52927 0 0
+~
+~
+Door 2 0 0 52922 0 0
+~
+~
+Door 3 0 0 52926 0 0
+~
+~
+End
+
+#52926
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52902 1 100
+Door 1 0 0 52925 0 0
+~
+~
+End
+
+#52927
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52902 1 100
+Door 3 0 0 52925 0 0
+~
+~
+End
+
+#52928
+Name A Spiral Staircase~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 52930 0 0
+~
+~
+Door 2 0 0 52925 0 0
+~
+~
+Door 3 0 0 52929 0 0
+~
+~
+Door 4 0 0 52931 0 0
+~
+~
+End
+
+#52929
+Name A Small Barracks Room~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 52902 1 100
+Door 1 0 0 52928 0 0
+~
+~
+End
+
+#52930
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52902 1 100
+Door 3 0 0 52928 0 0
+~
+~
+End
+
+#52931
+Name A Spiral Staircase~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 52935 0 0
+~
+~
+Door 2 0 0 52936 0 0
+~
+~
+Door 3 0 0 52934 0 0
+~
+~
+Door 5 0 0 52928 0 0
+~
+~
+End
+
+#52932
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 1 0 0 52901 0 0
+~
+~
+End
+
+#52933
+Name A Small Barracks Room~
+Descr
+This small utilitarian barracks is home to a well trained soldier.
+Despite the sparse decoration it still lends comfort in the form of a sturdy
+desk of draws and a large bed. The sylvan rangers believe in the art of
+effortless effort, therefore a space is set aside from them to practice
+basic indoor fighting manuevers. It might seem strange to not have any form
+of recreation or amusement, however the well informed are aware that
+fighting is their entertainment. 
+~
+Flags 4
+Sector 0
+Reset M 52901 1 100
+Door 3 0 0 52901 0 0
+~
+~
+End
+
+#52934
+Name A Small Barracks Room~
+Descr
+The sylvan believe in exercise of the mind as well as the body. Sergeants
+can easily outfight their elite soldiers, however they are also able to out
+think them. Hours are spent studying old battles and new troop manuevers,
+unfortunately because of lamer darkie tactics they are often forced to use
+gorilla tactics to defeat the enemy. 
+~
+Flags 4
+Sector 0
+Reset M 52903 1 100
+Door 1 0 0 52931 0 0
+~
+~
+End
+
+#52935
+Name A Small Barracks Room~
+Descr
+The sylvan believe in exercise of the mind as well as the body. Sergeants
+can easily outfight their elite soldiers, however they are also able to out
+think them. Hours are spent studying old battles and new troop manuevers,
+unfortunately because of lamer darkie tactics they are often forced to use
+gorilla tactics to defeat the enemy. 
+~
+Flags 4
+Sector 0
+Reset M 52903 1 100
+Door 3 0 0 52931 0 0
+~
+~
+End
+
+#52936
+Name A Tall Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52931 0 0
+~
+~
+Door 1 0 0 52938 0 0
+~
+~
+Door 2 0 0 52939 0 0
+~
+~
+Door 3 0 0 52937 0 0
+~
+~
+End
+
+#52937
+Name A Small Barracks Room~
+Descr
+The sylvan believe in exercise of the mind as well as the body. Sergeants
+can easily outfight their elite soldiers, however they are also able to out
+think them. Hours are spent studying old battles and new troop manuevers,
+unfortunately because of lamer darkie tactics they are often forced to use
+gorilla tactics to defeat the enemy. 
+~
+Flags 4
+Sector 0
+Reset M 52903 1 100
+Door 1 0 0 52936 0 0
+~
+~
+End
+
+#52938
+Name A Small Barracks Room~
+Descr
+The sylvan believe in exercise of the mind as well as the body. Sergeants
+can easily outfight their elite soldiers, however they are also able to out
+think them. Hours are spent studying old battles and new troop manuevers,
+unfortunately because of lamer darkie tactics they are often forced to use
+gorilla tactics to defeat the enemy. 
+~
+Flags 4
+Sector 0
+Reset M 52903 1 100
+Door 3 0 0 52936 0 0
+~
+~
+End
+
+#52939
+Name A Tall Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52936 0 0
+~
+~
+Door 1 0 0 52941 0 0
+~
+~
+Door 2 0 0 52942 0 0
+~
+~
+Door 3 0 0 52940 0 0
+~
+~
+End
+
+#52940
+Name A Small Barracks Room~
+Descr
+The sylvan believe in exercise of the mind as well as the body. Sergeants
+can easily outfight their elite soldiers, however they are also able to out
+think them. Hours are spent studying old battles and new troop manuevers,
+unfortunately because of lamer darkie tactics they are often forced to use
+gorilla tactics to defeat the enemy. 
+~
+Flags 4
+Sector 0
+Reset M 52903 1 100
+Door 1 0 0 52939 0 0
+~
+~
+End
+
+#52941
+Name A Small Barracks Room~
+Descr
+The sylvan believe in exercise of the mind as well as the body. Sergeants
+can easily outfight their elite soldiers, however they are also able to out
+think them. Hours are spent studying old battles and new troop manuevers,
+unfortunately because of lamer darkie tactics they are often forced to use
+gorilla tactics to defeat the enemy. 
+~
+Flags 4
+Sector 0
+Reset M 52903 1 100
+Door 3 0 0 52939 0 0
+~
+~
+End
+
+#52942
+Name A Tall Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52939 0 0
+~
+~
+Door 1 0 0 52943 0 0
+~
+~
+Door 3 0 0 52944 0 0
+~
+~
+Door 4 0 0 52952 0 0
+~
+~
+End
+
+#52943
+Name A Small Barracks Room~
+Descr
+The sylvan believe in exercise of the mind as well as the body. Sergeants
+can easily outfight their elite soldiers, however they are also able to out
+think them. Hours are spent studying old battles and new troop manuevers,
+unfortunately because of lamer darkie tactics they are often forced to use
+gorilla tactics to defeat the enemy. 
+~
+Flags 4
+Sector 0
+Reset M 52903 1 100
+Door 3 0 0 52942 0 0
+~
+~
+End
+
+#52944
+Name A Small Barracks Room~
+Descr
+The sylvan believe in exercise of the mind as well as the body. Sergeants
+can easily outfight their elite soldiers, however they are also able to out
+think them. Hours are spent studying old battles and new troop manuevers,
+unfortunately because of lamer darkie tactics they are often forced to use
+gorilla tactics to defeat the enemy. 
+~
+Flags 4
+Sector 0
+Reset M 52903 1 100
+Door 1 0 0 52942 0 0
+~
+~
+End
+
+#52945
+Name Before A Secure Gate~
+Descr
+A large opening has been left between the doors entering and leaving the
+outpost. These are undoubtedly intended to trap newer soldiers for an easy
+kill by evil darkie hordes. To the north lies a solid looking door. It
+appears as if it could take a battering ram and not fall over, or perhaps it
+is only strong enough to deter a newbie Sidhai from knocking it over. 
+~
+Flags 4
+Sector 0
+Door 0 3 0 52901 30 30
+~
+Sturdy Oak Door~
+Door 1 3 0 52946 30 30
+~
+A Reinforced Iron Door~
+End
+
+#52946
+Name A Worn Trail~
+Descr
+A well worn trail winds its way to an intimidating multi-floored building
+with imposing sloped windows that would give archers an easy shot. Perhaps
+within it lies a nest of friends, or enemies depending on your disposition. 
+~
+Sector 4
+Door 1 0 0 52947 0 0
+~
+~
+Door 3 3 0 52945 30 30
+~
+A Reinforced Iron Door~
+End
+
+#52947
+Name A Worn Trail~
+Descr
+A well worn trail winds its way to an intimidating multi-floored building
+with imposing sloped windows that would give archers an easy shot. Perhaps
+within it lies a nest of friends, or enemies depending on your disposition. 
+~
+Sector 4
+Door 1 0 0 52948 0 0
+~
+~
+Door 3 0 0 52946 0 0
+~
+~
+End
+
+#52948
+Name A Worn Trail~
+Descr
+A well worn trail winds its way to an intimidating multi-floored building
+with imposing sloped windows that would give archers an easy shot. Perhaps
+within it lies a nest of friends, or enemies depending on your disposition. 
+~
+Sector 4
+Door 1 0 0 52949 0 0
+~
+~
+Door 3 0 0 52947 0 0
+~
+~
+End
+
+#52949
+Name A Worn Trail~
+Descr
+A well worn trail winds its way to an intimidating multi-floored building
+with imposing sloped windows that would give archers an easy shot. Perhaps
+within it lies a nest of friends, or enemies depending on your disposition. 
+~
+Sector 4
+Door 2 0 0 52950 0 0
+~
+~
+Door 3 0 0 52948 0 0
+~
+~
+End
+
+#52950
+Name A Worn Trail~
+Descr
+A well worn trail winds its way to an intimidating multi-floored building
+with imposing sloped windows that would give archers an easy shot. Perhaps
+within it lies a nest of friends, or enemies depending on your disposition. 
+~
+Sector 4
+Door 0 0 0 52949 0 0
+~
+~
+Door 1 0 0 52951 0 0
+~
+~
+End
+
+#52951
+Name A Worn Trail~
+Descr
+A well worn trail winds its way to an intimidating multi-floored building
+with imposing sloped windows that would give archers an easy shot. Perhaps
+within it lies a nest of friends, or enemies depending on your disposition. 
+~
+Sector 4
+Door 2 0 0 4813 0 0
+~
+~
+Door 3 0 0 52950 0 0
+~
+~
+End
+
+#52952
+Name An Imposing Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 52953 0 0
+~
+~
+Door 5 0 0 52942 0 0
+~
+~
+End
+
+#52953
+Name An Imposing Hallway~
+Descr
+The high ceilinged hallway lends the outpost a surprising look of
+spasciousness. Over each entrance a banner of pride and achievement hangs
+marked with the symbols of individual battalions. The floor is worn from
+years of use, however it is still properly maintained with the vigilence
+that sylvan rangers are known for. 
+~
+Flags 4
+Sector 0
+Door 0 3 0 52954 30 30
+~
+Solid Oak Door~
+Door 2 0 0 52952 0 0
+~
+~
+End
+
+#52954
+Name A Peaceful Anterooom~
+Descr
+A tranquil feeling pervades your mind from the very walls of this room.
+To the east lies the room of the commanders majordomo, to the west lies the
+room of his lieutenant, and to the north lies the room of the commander
+himself. 
+~
+Flags2 4
+Flags 4
+Sector 0
+Door 0 0 0 52957 0 0
+~
+~
+Door 1 0 0 52955 0 0
+~
+~
+Door 2 3 0 52953 30 30
+~
+Solid Oak Door~
+Door 3 0 0 52956 0 0
+~
+~
+End
+
+#52955
+Name A Dark Study~
+Descr
+This dark study houses a great many books on various topics ranging from
+sword fighting and ambushes to dwarven baking and gardening. These sylvans
+understand the need for a well rounded knowledge of the world. It is said
+that the majordomo of the commander has been alive for hundreds of years and
+even took part in the last great war. 
+~
+Flags 4
+Sector 0
+Reset M 52906 1 100
+Door 3 0 0 52954 0 0
+~
+~
+End
+
+#52956
+Name A Comfortable Office~
+Descr
+The room of the commander's lieutenant lies a bit disheveled. On the
+walls ancient swords are displayed along with passages from elvish common
+law. Not to seem too civilized, the lieutenant also has the skulls of past
+victims including several darkie lamers such as Zar. 
+~
+Flags 4
+Sector 0
+Reset M 52905 1 100
+Door 1 0 0 52954 0 0
+~
+~
+End
+
+#52957
+Name The Force Commander's Chambers~
+Descr
+The force commander's chambers lies in a neat modicrum of perfection. A
+reinforced window lies slightly ajar so as to allow fresh air in. On the
+walls lies one simple decoration, a painting of a forest glade. On the
+dresser lies a picture of the force commander embracing the preimer of
+China. 
+~
+Flags 4
+Sector 0
+Reset M 52904 1 100
+Door 2 0 0 52954 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

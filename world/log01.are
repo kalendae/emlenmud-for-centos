@@ -1,0 +1,642 @@
+#AREADATA 
+Name League of the Ordinary Gentlemen Clanhouse~
+Repop The area seems alive again!
+~
+SCZone 1
+Builders Samson~
+VNUMs 91901 91918
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#91901
+Name banker~
+Short a banker~
+Long 
+A nicely dressed banker stands here wanting your money.
+~
+AMax 1
+NHeight 69
+ActBits 262146
+Affect_By 520
+Alignment 2
+Money 1000
+Level 300
+Sex 1
+MobType 0
+Guard 0
+End
+
+#91902
+Name burly weaponsmith~
+Short a burly weaponsmith~
+Long 
+A burly weaponsmith sits here working on a blade.
+~
+AMax 1
+NHeight 69
+ActBits 1048578
+Affect_By 520
+Alignment 2
+Money 1000
+Level 300
+Sex 1
+MobType 0
+Guard 0
+End
+
+#91903
+Name tall armorer~
+Short a tall armorer~
+Long 
+A tall armorer stands here pounding on some armor.
+~
+AMax 1
+NHeight 69
+ActBits 2097154
+Affect_By 520
+Alignment 2
+Money 1000
+Level 300
+Sex 1
+MobType 0
+Guard 0
+Shop    0   0   0   0   0 100 150 1 24
+Shopd2 5
+Shopd3 4
+End
+
+#91904
+Name baker~
+Short a fat baker~
+Long 
+A fat baker stands here pulling a bun out of the oven.
+~
+AMax 1
+NHeight 69
+ActBits 2
+Affect_By 552
+Alignment 2
+Money 1000
+Level 300
+Sex 1
+MobType 0
+Guard 0
+Shop    0   0   0   0   0 100 150 6 19
+Shopd2 5
+Shopd3 4
+End
+
+#91905
+Name sexy barkeeper~
+Short a sexy barkeeper~
+Long 
+A sexy barkeeper stands here half naked mixing drinks.
+~
+AMax 1
+NHeight 69
+ActBits 2
+Affect_By 520
+Alignment 2
+Money 2000
+Level 300
+Sex 2
+MobType 0
+Guard 0
+Shop    0   0   0   0   0 100 150 6 19
+Shopd2 5
+Shopd3 4
+End
+
+#91906
+Name burly guard bouncer~
+Short a BURLY guard~
+Long 
+A BURLY bouncer stands here, ready to whoop some ASS!
+~
+AMax 8
+NHeight 99
+AClan 2
+ActBits 2
+ActBits3 1
+Affect_By 552
+Alignment 2
+Money 500
+Level 150
+Sex 1
+MobType 0
+Guard 1
+End
+
+#91907
+Name burly guard bouncer~
+Short a BURLY guard~
+Long 
+A BURLY bouncer stands here, ready to whoop some ASS!
+~
+AMax 5
+NHeight 99
+AClan 2
+ActBits 2
+ActBits3 1
+Affect_By 552
+Alignment 2
+Money 500
+Level 150
+Sex 1
+MobType 0
+Guard 1
+End
+
+#0
+
+
+
+#OBJDATA
+#91901
+Name fountain~
+Short large intricately flowing fountain~
+Descr
+A large intricately flowing fountain is here.
+[0;36m~
+Type 25
+Wear 0
+Values 0 118 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#91902
+Name vip stamp gentleman club~
+Short [1m[30mA [0m[34mV[1m[34mI[36mP [37mS[0m[36mt[1m[36ma[34mm[0m[34mp[1m[30m for the '[35mGentleman's Club[1m[30m'[0m~
+Descr
+A stamp is on the ground here.
+[0;36m~
+Type 11
+Extra 8589938816
+Wear 16777217
+Values 0 0 0 1 0 0 0 0 0 0 0
+Weight 1
+Cost 1000
+Affect 17 2 1 0 0
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#91903
+Name statue greater gods~
+Short a statue of the greater gods~
+Descr
+A [1m[30ms[0m[37mt[1m[37ma[1m[30mt[0m[37mu[1m[37me[0m of the [1m[35mG[0m[35mreate[1m[35mr[0m [1m[36mG[0m[36mod[1m[36ms[0m stands here for worship.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#91904
+Name statue~
+Short statue owner~
+Descr
+A statue of the founder is here in his honor
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#91905
+Name beer~
+Short a bottle of [33mbeer[0m~
+Descr
+A bottle has been dropped on the floor here.
+[0;36m~
+Type 17
+Wear 1
+Values 10 10 1 0 0 0 0 0 0 0 0
+Weight 2
+Cost 500
+End
+
+#91906
+Name cheap wine~
+Short a bottle of [33mche[1m[33ma[0m[33mp [1m[30mwi[0m[37mn[1m[30me[0m~
+Descr
+A bottle has been discarded here.
+[0;36m~
+Type 17
+Wear 1
+Values 10 10 2 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#91907
+Name screwdriver~
+Short a [31msc[33mr[1m[33mewd[0m[33mri[31mver~
+Descr
+A glass smelling like orange juices lies here.
+[0;36m~
+Type 17
+Wear 0
+Values 10 10 1 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#91908
+Name sex beach drink~
+Short [37mA glass of [1m[31ms[0m[31me[1m[31mx[0m [37mon the [1m[33mb[0m[33me[1m[33ma[0m[33mc[1m[33mh[0m~
+Descr
+A glass containing some sort of alcohol is discarded here.
+[0;36m~
+Type 17
+Wear 1
+Values 10 10 1 0 0 0 0 0 0 0 0
+Weight 2
+Cost 700
+End
+
+#91909
+Name pretzel food~
+Short a [33mp[1m[33mr[0m[33me[1m[33mt[0m[33mz[1m[33me[0m[33ml[0m~
+Descr
+A small brown piece of food lays here.
+[0;36m~
+Type 19
+Wear 1
+Values 20 0 0 0 0 0 0 0 0 0 0
+Weight 3
+Cost 3
+End
+
+#0
+
+
+
+#ROOMDATA
+#91901
+Name Guard Room~
+Cvnuml 139426960
+Descr
+Standing in a dimly lit back alley stand a few big and burly bouncers.
+They seem to be guarding entrance into some elite club of some sort. It
+would be interesting to see what's inside, but how to get past the guards?  
+~
+Flags 32
+Reset M 91906 1 100
+Reset M 91906 1 100
+Reset M 91906 1 100
+Reset M 91906 1 100
+Reset M 91906 1 100
+Reset M 91906 1 100
+Reset M 91906 1 100
+Reset M 91906 1 100
+Door 1 0 0 91902 30 30
+~
+vipdoor~
+Door 5 259 0 41104 30 30
+~
+backdoor~
+End
+
+#91902
+Name A Winding Path~
+Descr
+Walking along a winding path a slight breeze comes from behind. The line
+seems to go on for hours on end with no luck of getting inside. Around the
+corner the party starts to become visible, almost there!  
+~
+Flags 32
+Door 0 0 0 91904 0 0
+~
+~
+Door 2 0 0 91905 0 0
+~
+~
+Door 3 256 0 91901 30 30
+~
+vipdoor~
+End
+
+#91903
+Name A Winding Path~
+Cvnumh 142011624
+Descr
+Walking along a winding path a slight breeze comes from behind. The line
+seems to go on for hours on end with no luck of getting inside. Around the
+corner the party starts to become visible, almost there!  
+~
+Flags2 6
+Flags 32
+Reset O 91901 -5 100
+Door 0 0 0 91906 0 0
+~
+~
+Door 2 0 0 91907 0 0
+~
+~
+Door 3 0 0 91902 0 0
+~
+~
+Door 4 0 0 91908 0 0
+~
+~
+End
+
+#91904
+Name A Winding Path~
+Descr
+Walking along a winding path a slight breeze comes from behind. The line
+seems to go on for hours on end with no luck of getting inside. Around the
+corner the party starts to become visible, almost there!  
+~
+Flags 32
+Door 1 0 0 91906 0 0
+~
+~
+Door 2 0 0 91902 0 0
+~
+~
+End
+
+#91905
+Name A Winding Path~
+Descr
+Walking along a winding path a slight breeze comes from behind. The line
+seems to go on for hours on end with no luck of getting inside. Around the
+corner the party starts to become visible, almost there!  
+~
+Flags 32
+Door 0 0 0 91902 0 0
+~
+~
+Door 1 0 0 91907 0 0
+~
+~
+End
+
+#91906
+Name A Winding Path~
+Descr
+Walking along a winding path a slight breeze comes from behind. The line
+seems to go on for hours on end with no luck of getting inside. Around the
+corner the party starts to become visible, almost there!  
+~
+Flags 32
+Door 2 0 0 91903 0 0
+~
+~
+Door 3 0 0 91904 0 0
+~
+~
+End
+
+#91907
+Name A Winding Path~
+Descr
+Walking along a winding path a slight breeze comes from behind. The line
+seems to go on for hours on end with no luck of getting inside. Around the
+corner the party starts to become visible, almost there!  
+~
+Flags 32
+Door 0 0 0 91903 0 0
+~
+~
+Door 3 0 0 91905 0 0
+~
+~
+End
+
+#91908
+Name A Long Hall~
+Cvnumh 142015144
+Cvnuml 142008504
+Descr
+Walking down a long hall there seems to be little rooms on either side.
+The sound of loud music can still be heard in the background. Peeking
+outside of a window there seems to be a long line forming of people who want
+to get in, hopefully the bouncers do their job. 
+~
+Flags 32
+Door 0 0 0 91911 0 0
+~
+~
+Door 1 0 0 91912 0 0
+~
+~
+Door 2 0 0 91913 0 0
+~
+~
+Door 3 0 0 91909 0 0
+~
+~
+Door 4 0 0 91917 0 0
+~
+~
+Door 5 0 0 91903 0 0
+~
+~
+End
+
+#91909
+Name A Long Hall~
+Descr
+Walking down a long hall there seems to be little rooms on either side.
+The sound of loud music can still be heard in the background. Peeking
+outside of a window there seems to be a long line forming of people who want
+to get in, hopefully the bouncers do their job. 
+~
+Flags 32
+Door 0 0 0 91914 0 0
+~
+~
+Door 1 0 0 91908 0 0
+~
+~
+Door 2 0 0 91915 0 0
+~
+~
+Door 3 259 0 91910 30 30
+~
+vipdoor~
+End
+
+#91910
+Name VIP Room~
+Descr
+|             ---,_,----
+|            /    .     \
+|           /     |      \
+|          (      @@      )
+|          /   _/----\_   \
+|         /   '/      \`   \
+|        /    /   .    \    \     
+|       /    /|        |\    \
+|       /   / |        | \   \
+|      /   /`_/_      _\_'\   \
+|     /  '/  (  . )( .  )  \  `\
+|     <_ ' `--`___'`___'--' ` _>
+|    /  '     @ @/ =\@ @     `  \
+|   /  /      @@(  , )@@      \  \
+|  /  /       @@| o o|@@       \  \
+| ' /          @@@@@@@@          \ ` 
+|____________________________________
+This photo was taken to proudly display the events the founders intended for this room.
+~
+Flags 32
+Door 1 259 0 91909 30 30
+~
+vipdoor~
+Door 5 259 0 91901 30 30
+~
+escapehatch~
+End
+
+#91911
+Name A Small Room~
+Descr
+Blades line the walls and the floor, some seem very dull and well used,
+while others seem brand new and deadly. The burly guy behind the desk seems
+almost as though he can't be bothered, he is deeply focused on his work,
+almost as if he is on a deadline. 
+~
+Flags 32
+Reset M 91902 1 100
+Door 2 0 0 91908 0 0
+~
+~
+End
+
+#91912
+Name A Long Hall~
+Descr
+Walking down a long hall there seems to be little rooms on either side.
+The sound of loud music can still be heard in the background. Peeking
+outside of a window there seems to be a long line forming of people who want
+to get in, hopefully the bouncers do their job. 
+~
+Flags 32
+Door 1 0 0 91916 0 0
+~
+~
+Door 3 0 0 91908 0 0
+~
+~
+End
+
+#91913
+Name A Small Room~
+Descr
+Pieces of armor are flung everywhere, most of it with holes and dents in
+it from the hardships of battle. The armorer seems hard at work trying to
+straighten out every piece of armor. In the background a small gleam can be
+seen, almost looks like it could be some new armor he is working on. 
+~
+Flags 32
+Reset M 91903 1 100
+Reset O 91902 15 100
+Door 0 0 0 91908 0 0
+~
+~
+End
+
+#91914
+Name A Small Room~
+Descr
+Upon entering the room a strong stench fills the air. The sign reads
+baker, but this place smells more like a slaughter house. The smell of death
+and blood fill the air. In the back the baker can be seen bent over trying
+to get a bun out of the oven. 
+~
+Flags 32
+Reset M 91904 1 100
+Reset O 91909 50 100
+Reset O 4343 50 100
+Reset O 37 50 100
+Door 2 0 0 91909 0 0
+~
+~
+End
+
+#91915
+Name Barkeep~
+Descr
+A huge crowd has gathered in this room, seemingly wanting a drink from
+the barkeep. Upon taking a closer look, there seems to be more to it, a
+super sexy barkeeper is up dancing on the bar!  Break out the singles!  
+~
+Flags 32
+Reset M 91905 1 100
+Reset O 91908 25 100
+Reset O 91907 25 100
+Reset O 38 5 100
+Reset O 39 25 100
+Reset O 91905 25 100
+Reset O 91906 25 100
+Door 0 0 0 91909 0 0
+~
+~
+End
+
+#91916
+Name A Long Hall~
+Cvnuml 142015472
+Descr
+Walking down a long hall there seems to be little rooms on either side.
+The sound of loud music can still be heard in the background. Peeking
+outside of a window there seems to be a long line forming of people who want
+to get in, hopefully the bouncers do their job. 
+~
+Flags 32
+Reset O 6 -5 100
+Door 3 0 0 91912 0 0
+~
+~
+Door 5 0 0 91918 0 0
+~
+~
+End
+
+#91917
+Name A Place of Worship~
+Cvnuml 142011624
+Descr
+Pads line the floors, as if for people to kneel upon as they worship the
+greater gods of the world. There are small statues lining the walls for all
+those of lesser known denominations, with a massive statue erected in the
+center. 
+~
+Reset O 91903 -5 100
+Door 5 0 0 91908 0 0
+~
+~
+End
+
+#91918
+Name A Small Room~
+Cvnumh 142015008
+Descr
+Looking around the room, everything looks professional here. Tellers
+stand around every corner waiting to take people's money. Everyone in the
+room is nicely dressed, almost trying to say they are better than everyone
+because they have money. 
+~
+Flags 32
+Reset M 91901 1 100
+Door 4 0 0 91916 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

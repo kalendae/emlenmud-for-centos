@@ -1,0 +1,4176 @@
+#AREADATA 
+Name The Citadel~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Zoro Structure~
+VNUMs 7501 7700
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#7501
+Name draconian guardian~
+Short A draconian guardian~
+Long 
+A draconian guardian is flying here.
+~
+AMax 2
+ActBits 65546
+ActBits3 18
+Affect_By 524968
+Money 400
+Level 105
+MobType 9
+Hp 2
+Guard 0
+Spec spec_warrior
+End
+
+#7502
+Name beholder~
+Short a beholder~
+Long 
+A strange being is flying here.
+~
+AMax 1
+ActBits 1033
+ActBits3 524288
+Affect_By 524458
+AffectTWO 262144
+Money 800
+Level 300
+MobType 11
+Hp 2
+Guard 0
+End
+
+#7503
+Name flying skull~
+Short A flying skull~
+Long 
+A strange skull is flying here.
+~
+AMax 4
+ActBits 1
+ActBits3 524288
+Affect_By 524842
+Money 300
+Level 5
+MobType 9
+Hp 2
+Guard 0
+End
+
+#7544
+Name dragoon sentinel~
+Short dragoon sentinel~
+Long 
+A Dragoon sentinel is flying here.
+~
+AMax 2
+ActBits 67108875
+ActBits3 2
+Affect_By 532650
+Money 200
+Level 105
+MobType 5
+Hp 2
+Guard 0
+Spec spec_warrior
+End
+
+#7554
+Name draconian skeleton~
+Short A draconian skeleton~
+Long 
+A strange skeleton stands here.
+~
+AMax 18
+ActBits 65547
+ActBits3 2
+Affect_By 40
+AffectTWO 262144
+Money 500
+Level 120
+MobType 9
+Hp 2
+Guard 0
+Spec spec_warrior
+End
+
+#7555
+Name draconian zombie~
+Short A draconian zombie~
+Long 
+A strange zombie is standing here.
+~
+AMax 12
+ActBits 65547
+ActBits3 2
+Affect_By 40
+AffectTWO 262144
+Alignment 2
+Money 800
+Level 70
+MobType 9
+Hp 4
+Guard 0
+End
+
+#7639
+Name dark minion~
+Short A dark minion~
+Long 
+A dark minion stand here.
+~
+AMax 5
+ActBits 10
+ActBits3 18
+Affect_By 524968
+AffectTWO 262144
+Money 200
+Level 50
+MobType 9
+Hp 2
+Guard 0
+Spec spec_warrior
+End
+
+#7640
+Name zarcon~
+Short zarcon the terrible~
+Long 
+Zarcon the terrible stands here.
+~
+AMax 1
+ActBits 67174411
+ActBits3 4194304
+Affect_By 680
+AffectTWO 33554432
+Money 3000
+Level 200
+MobType 5
+Hp 20
+Guard 0
+Spec spec_warrior
+BCasts spear of doom~
+BCast_P 4
+End
+
+#7698
+Name wraith~
+Short A demon wraith~
+Long 
+A demon wraith is flying here.
+~
+AMax 5
+ActBits 66569
+Affect_By 524458
+Money 2000
+Level 85
+MobType 21
+Hp 2
+Guard 0
+Spec spec_warrior
+End
+
+#7700
+Name zaraphen~
+Short Zaraphen the dragon king~
+Long 
+Zaraphen the dragon king is  flying here.
+~
+AMax 1
+ActBits 65537
+Affect_By 532650
+AffectTWO 33554436
+Money 5000
+Level 400
+MobType 9
+Hp 40
+Guard 0
+Spec spec_warrior
+BCasts ice comet~
+BCast_P 1
+End
+
+#0
+
+
+
+#OBJDATA
+#7501
+Name spliff~
+Short big spliff~
+Descr
+A big phat spliff
+[0;36m~
+Type 9
+Extra 1
+Wear 65537
+Weight 0
+Cost 0
+End
+
+#7502
+Name eye beholder~
+Short [0mthe[0m [0m[1m[31mbeholder[0m [0m[1m[31me[30my[31me[0m~
+Descr
+A strange eye is on the ground.
+[0;36m~
+Type 9
+Extra 33554561
+Wear 65537
+Values 1 1 2 1 10 10 50 50 10 10 0
+Weight 50
+Cost 0
+Affect 19 1 1 0 0
+Affect 14 10 1 0 0
+Affect 13 10 1 0 0
+End
+
+#7510
+Name gatekey key~
+Short draconia gatekey~
+Descr
+A strange key is glowing on the floor.
+[0;36m~
+Type 18
+Extra 1
+Wear 1
+Values 4 7510 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#7640
+Name mask zarcon~
+Short [1m[30mthe m[37ma[30ms[37mk [30mof [37mZ[30ma[37mr[30mc[37mo[30mn[0m~
+Descr
+A strange mask is lying on the ground.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 65537
+Values 0 5 5 0 15 15 50 50 15 15 0
+Weight 5
+Cost 2000
+Affect 17 2 1 0 0
+Affect 13 15 1 0 0
+Affect 20 4 1 0 0
+Affect 19 -1 1 0 0
+End
+
+#7680
+Name bloody altar~
+Short [0mA[0m [0m[1m[31mBloody[0m [0mAltar[0m~
+Descr
+A strange altar is here.
+[0;36m~
+Type 12
+Extra 2
+Wear 0
+Values 4 7681 0 0 0 0 0 0 0 0 0
+Weight 1000
+Cost 0
+End
+
+#7690
+Name golden coffin~
+Short [0mA[0m [0m[1m[33mgolden[0m [0mcoffin[0m~
+Descr
+A golden coffin laids here.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Weight 1000
+Cost 0
+End
+
+#7699
+Name blue ark sword apb~
+Short [0mThe[0m [0m[1m[34mblue[0m [0mark[0m~
+Descr
+A strange sword is lying here.
+[0;36m~
+Type 5
+Extra 38047971
+Wear 16385
+Values 0 50 0 12 0 0 0 5 5 0 0
+Weight 77
+Cost 100
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#7700
+Name misty portal~
+Short [0mA[0m [1m[37mMisty[0m [0mportal[0m~
+Descr
+A strange portal is here.
+[0;36m~
+Type 12
+Extra 2
+Wear 0
+Values 4 7680 0 0 0 0 0 0 0 0 0
+Weight 1000
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#7501
+Name Grand Forest Pathway~
+Descr
+Leading northward from the Northwest Pass this trail is covered with deep
+snow. It seems that the ground underneath has never seen the light of day.
+You can not help but be curious what may lay at the end of this trail. 
+~
+Flags 1
+Sector 27
+Door 1 0 0 7502 0 0
+~
+~
+Door 5 0 0 2739 0 0
+~
+~
+End
+
+#7502
+Name Grand Forest Pathway~
+Descr
+Leading northward from the Northwest Pass this trail is covered with deep
+snow. It seems that the ground underneath has never seen the light of day.
+You can not help but be curious what may lay at the end of this trail. 
+~
+Flags 1
+Sector 27
+Door 1 0 0 7503 0 0
+~
+~
+Door 3 0 0 7501 0 0
+~
+~
+End
+
+#7503
+Name Grand Forest Pathway~
+Descr
+Leading northward from the Northwest Pass this trail is covered with deep
+snow. It seems that the ground underneath has never seen the light of day.
+You can not help but be curious what may lay at the end of this trail. 
+~
+Flags 1
+Sector 27
+Door 1 0 0 7504 0 0
+~
+~
+Door 3 0 0 7502 0 0
+~
+~
+End
+
+#7504
+Name Grand Forest Pathway~
+Descr
+Leading northward from the Northwest Pass this trail is covered with deep
+snow. It seems that the ground underneath has never seen the light of day.
+You can not help but be curious what may lay at the end of this trail. 
+~
+Flags 1
+Sector 27
+Door 1 0 0 7505 0 0
+~
+~
+Door 3 0 0 7503 0 0
+~
+~
+End
+
+#7505
+Name Grand Forest Pathway~
+Descr
+Leading northward from the Northwest Pass this trail is covered with deep
+snow. It seems that the ground underneath has never seen the light of day.
+You can not help but be curious what may lay at the end of this trail. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 7506 0 0
+~
+~
+Door 3 0 0 7504 0 0
+~
+~
+End
+
+#7506
+Name Grand Forest Pathway~
+Descr
+Leading northward from the Northwest Pass this trail is covered with deep
+snow. It seems that the ground underneath has never seen the light of day.
+You can not help but be curious what may lay at the end of this trail. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 7507 0 0
+~
+~
+Door 2 0 0 7505 0 0
+~
+~
+End
+
+#7507
+Name Grand Forest Pathway~
+Descr
+Leading northward from the Northwest Pass this trail is covered with deep
+snow. It seems that the ground underneath has never seen the light of day.
+You can not help but be curious what may lay at the end of this trail. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 7508 0 0
+~
+~
+Door 2 0 0 7506 0 0
+~
+~
+End
+
+#7508
+Name Grand Forest Pathway~
+Descr
+Leading northward from the Northwest Pass this trail is covered with deep
+snow. It seems that the ground underneath has never seen the light of day.
+You can not help but be curious what may lay at the end of this trail. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 7509 0 0
+~
+~
+Door 2 0 0 7507 0 0
+~
+~
+End
+
+#7509
+Name Entrance to Draconia Tower~
+Descr
+You arrived at the entrance to the Draconia Tower. In front of the
+massive steel gate are two draconian guard, blocking the entrance to the
+vast tower. They are very unsettle for they do not welcome outsider to their
+tower. It will be wise of you to leave this area at once to avoid a
+confrontation with the draconian elite guardians. Legend state that these
+guardians are ruthless defenders who has never lost a confrontation with an
+enemy. They was swore in to protect the Draconian civilian with their lives.
+~
+Flags 28801
+Reset M 7501 1 100
+Reset M 7501 1 100
+Door 0 3 0 7510 17 17
+~
+gate~
+Door 2 0 0 7508 0 0
+~
+~
+End
+
+#7510
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7541 20 20
+~
+door~
+Door 1 7 0 7516 20 20
+~
+door~
+Door 2 3 0 7509 17 17
+~
+gate~
+Door 3 7 0 7511 20 20
+~
+door~
+End
+
+#7511
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7510 0 0
+~
+~
+Door 3 0 0 7512 0 0
+~
+~
+End
+
+#7512
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7511 0 0
+~
+~
+Door 3 0 0 7513 0 0
+~
+~
+End
+
+#7513
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7512 0 0
+~
+~
+Door 3 0 0 7514 0 0
+~
+~
+End
+
+#7514
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7513 0 0
+~
+~
+Door 3 0 0 7515 0 0
+~
+~
+End
+
+#7515
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7521 0 0
+~
+~
+Door 1 0 0 7514 0 0
+~
+~
+Door 3 7 0 7526 20 20
+~
+door~
+End
+
+#7516
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7517 0 0
+~
+~
+Door 3 0 0 7510 0 0
+~
+~
+End
+
+#7517
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7518 0 0
+~
+~
+Door 3 0 0 7516 0 0
+~
+~
+End
+
+#7518
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7519 0 0
+~
+~
+Door 3 0 0 7517 0 0
+~
+~
+End
+
+#7519
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7520 0 0
+~
+~
+Door 3 0 0 7518 0 0
+~
+~
+End
+
+#7520
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7532 0 0
+~
+~
+Door 1 7 0 7531 20 20
+~
+door~
+Door 3 0 0 7519 0 0
+~
+~
+End
+
+#7521
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7522 0 0
+~
+~
+Door 2 0 0 7515 0 0
+~
+~
+Door 3 7 0 7527 20 20
+~
+door~
+End
+
+#7522
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7523 0 0
+~
+~
+Door 2 0 0 7521 0 0
+~
+~
+Door 3 7 0 7528 20 20
+~
+door~
+End
+
+#7523
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7524 0 0
+~
+~
+Door 2 0 0 7522 0 0
+~
+~
+Door 3 7 0 7529 20 20
+~
+door~
+End
+
+#7524
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7525 20 20
+~
+door~
+Door 2 0 0 7523 0 0
+~
+~
+Door 3 7 0 7530 20 20
+~
+door~
+End
+
+#7525
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 2 7 0 7524 20 20
+~
+door~
+End
+
+#7526
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 1 3 0 7515 30 30
+~
+door~
+End
+
+#7527
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 1 7 0 7521 20 20
+~
+door~
+End
+
+#7528
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 1 7 0 7522 20 20
+~
+door~
+End
+
+#7529
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 1 7 0 7523 20 20
+~
+door~
+End
+
+#7530
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 1 7 0 7524 20 20
+~
+door~
+End
+
+#7531
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 3 7 0 7520 20 20
+~
+door~
+End
+
+#7532
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7534 0 0
+~
+~
+Door 1 7 0 7533 20 20
+~
+door~
+Door 2 0 0 7520 0 0
+~
+~
+End
+
+#7533
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 3 7 0 7532 20 20
+~
+door~
+End
+
+#7534
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7536 0 0
+~
+~
+Door 1 7 0 7535 20 20
+~
+door~
+Door 2 0 0 7532 0 0
+~
+~
+End
+
+#7535
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 3 7 0 7534 20 20
+~
+door~
+End
+
+#7536
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7538 0 0
+~
+~
+Door 1 7 0 7537 20 20
+~
+door~
+Door 2 0 0 7534 0 0
+~
+~
+End
+
+#7537
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 3 7 0 7536 20 20
+~
+door~
+End
+
+#7538
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7540 20 20
+~
+door~
+Door 1 7 0 7539 20 20
+~
+door~
+Door 2 0 0 7536 0 0
+~
+~
+End
+
+#7539
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 3 7 0 7538 20 20
+~
+door~
+End
+
+#7540
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7555 1 100
+Door 2 7 0 7538 20 20
+~
+door~
+End
+
+#7541
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7542 0 0
+~
+~
+Door 2 0 0 7510 0 0
+~
+~
+End
+
+#7542
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7543 0 0
+~
+~
+Door 2 0 0 7541 0 0
+~
+~
+End
+
+#7543
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Door 0 0 0 7544 0 0
+~
+~
+Door 1 7 0 7551 20 20
+~
+door~
+Door 2 0 0 7542 0 0
+~
+~
+Door 3 7 0 7546 20 20
+~
+door~
+End
+
+#7544
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Reset M 7544 1 100
+Reset M 7544 1 100
+Door 0 7 0 7545 20 20
+~
+door~
+Door 2 0 0 7543 0 0
+~
+~
+End
+
+#7545
+Name Entrance to A Spiral Stairwell~
+Descr
+You entered into A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 2 7 0 7544 20 20
+~
+door~
+Door 4 0 0 7572 0 0
+~
+~
+End
+
+#7546
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7562 20 20
+~
+door~
+Door 1 7 0 7543 20 20
+~
+door~
+Door 2 7 0 7563 20 20
+~
+door~
+Door 3 0 0 7547 0 0
+~
+~
+End
+
+#7547
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7560 20 20
+~
+door~
+Door 1 0 0 7546 0 0
+~
+~
+Door 2 7 0 7561 20 20
+~
+door~
+Door 3 0 0 7548 0 0
+~
+~
+End
+
+#7548
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7558 20 20
+~
+door~
+Door 1 0 0 7547 0 0
+~
+~
+Door 2 7 0 7559 20 20
+~
+door~
+Door 3 0 0 7549 0 0
+~
+~
+End
+
+#7549
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7556 20 20
+~
+door~
+Door 1 0 0 7548 0 0
+~
+~
+Door 2 7 0 7557 20 20
+~
+door~
+Door 3 7 0 7550 20 20
+~
+door~
+End
+
+#7550
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 1 7 0 7549 20 20
+~
+door~
+End
+
+#7551
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7564 20 20
+~
+door~
+Door 1 0 0 7552 0 0
+~
+~
+Door 2 7 0 7565 20 20
+~
+door~
+Door 3 7 0 7543 20 20
+~
+door~
+End
+
+#7552
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7566 20 20
+~
+door~
+Door 1 0 0 7553 0 0
+~
+~
+Door 2 7 0 7567 20 20
+~
+door~
+Door 3 0 0 7551 0 0
+~
+~
+End
+
+#7553
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7568 20 20
+~
+door~
+Door 1 0 0 7554 0 0
+~
+~
+Door 2 7 0 7569 20 20
+~
+door~
+Door 3 0 0 7552 0 0
+~
+~
+End
+
+#7554
+Name Draconia Tower~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7570 20 20
+~
+door~
+Door 1 7 0 7555 20 20
+~
+door~
+Door 2 7 0 7571 20 20
+~
+door~
+Door 3 0 0 7553 0 0
+~
+~
+End
+
+#7555
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 3 7 0 7554 20 20
+~
+door~
+End
+
+#7556
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 2 7 0 7549 20 20
+~
+door~
+End
+
+#7557
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 0 7 0 7549 20 20
+~
+door~
+End
+
+#7558
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 2 7 0 7548 20 20
+~
+door~
+End
+
+#7559
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 0 7 0 7548 20 20
+~
+door~
+End
+
+#7560
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 2 7 0 7547 20 20
+~
+door~
+End
+
+#7561
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 0 7 0 7547 20 20
+~
+door~
+End
+
+#7562
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 2 7 0 7546 20 20
+~
+door~
+End
+
+#7563
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 0 7 0 7546 20 20
+~
+door~
+End
+
+#7564
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 2 7 0 7551 20 20
+~
+door~
+End
+
+#7565
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 0 7 0 7551 20 20
+~
+door~
+End
+
+#7566
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 2 7 0 7552 20 20
+~
+door~
+End
+
+#7567
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 0 7 0 7552 20 20
+~
+door~
+End
+
+#7568
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 2 7 0 7553 20 20
+~
+door~
+End
+
+#7569
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 0 7 0 7553 20 20
+~
+door~
+End
+
+#7570
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 2 7 0 7554 20 20
+~
+door~
+End
+
+#7571
+Name Draconian Home~
+Descr
+You entered into A draconian home within this vast tower. The area is
+desolated and is covered with a dense fog, that swallow up the sound within
+the air. There is only a reminant of what was a triving civilation. 
+~
+Flags 24705
+Reset M 7554 1 100
+Door 0 7 0 7554 20 20
+~
+door~
+End
+
+#7572
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 2 0 0 7573 0 0
+~
+~
+Door 5 0 0 7545 0 0
+~
+~
+End
+
+#7573
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7572 0 0
+~
+~
+Door 1 0 0 7575 0 0
+~
+~
+End
+
+#7575
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7576 0 0
+~
+~
+Door 3 0 0 7573 0 0
+~
+~
+End
+
+#7576
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 2 0 0 7575 0 0
+~
+~
+Door 3 0 0 7577 0 0
+~
+~
+End
+
+#7577
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7576 0 0
+~
+~
+Door 4 0 0 7578 0 0
+~
+~
+End
+
+#7578
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 2 0 0 7579 0 0
+~
+~
+Door 5 0 0 7577 0 0
+~
+~
+End
+
+#7579
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7578 0 0
+~
+~
+Door 1 0 0 7580 0 0
+~
+~
+End
+
+#7580
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7581 0 0
+~
+~
+Door 3 0 0 7579 0 0
+~
+~
+End
+
+#7581
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 2 0 0 7580 0 0
+~
+~
+Door 3 0 0 7582 0 0
+~
+~
+End
+
+#7582
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7581 0 0
+~
+~
+Door 4 0 0 7583 0 0
+~
+~
+End
+
+#7583
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 2 0 0 7584 0 0
+~
+~
+Door 5 0 0 7582 0 0
+~
+~
+End
+
+#7584
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7583 0 0
+~
+~
+Door 1 0 0 7585 0 0
+~
+~
+End
+
+#7585
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7586 0 0
+~
+~
+Door 3 0 0 7584 0 0
+~
+~
+End
+
+#7586
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 2 0 0 7585 0 0
+~
+~
+Door 3 0 0 7587 0 0
+~
+~
+End
+
+#7587
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 1 0 0 7586 0 0
+~
+~
+Door 4 0 0 7588 0 0
+~
+~
+End
+
+#7588
+Name A Spiral Stairwell~
+Descr
+You exit A spiral staircase that lead into a unknown part within the
+Draconia Tower. The walls are cover with the ancient text of the draconians,
+describing everyday life within this civilization. The area is cover with a
+dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 0 0 7589 0 0
+~
+~
+Door 5 0 0 7587 0 0
+~
+~
+End
+
+#7589
+Name Draconia Tower~
+Descr
+You entered into A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Door 0 7 0 7590 20 20
+~
+door~
+Door 2 0 0 7588 0 0
+~
+~
+End
+
+#7590
+Name Draconia Tower Courtyard~
+Descr
+You entered into the courtyard of Draconia Tower. What once was a
+triving civilization is now fill with famine and death. The scream of death
+is echo around the whole tower. Many has fled the area due to the harsh
+condition. Only being that are left are the outcast of The Draconia society.
+~
+Flags 24705
+Reset M 7503 1 100
+Door 0 0 0 7591 0 0
+~
+~
+Door 2 7 0 7589 20 20
+~
+door~
+Door 3 0 0 7601 0 0
+~
+~
+End
+
+#7591
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7592 0 0
+~
+~
+Door 2 0 0 7590 0 0
+~
+~
+Door 3 0 0 7602 0 0
+~
+~
+End
+
+#7592
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Reset M 7503 1 100
+Door 0 0 0 7593 0 0
+~
+~
+Door 2 0 0 7591 0 0
+~
+~
+Door 3 0 0 7603 0 0
+~
+~
+End
+
+#7593
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Reset M 7502 1 100
+Reset O 7502 -1 3
+Door 0 0 0 7594 0 0
+~
+~
+Door 2 0 0 7592 0 0
+~
+~
+Door 3 0 0 7604 0 0
+~
+~
+End
+
+#7594
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Reset M 7503 1 100
+Door 0 0 0 7595 0 0
+~
+~
+Door 2 0 0 7593 0 0
+~
+~
+Door 3 0 0 7605 0 0
+~
+~
+End
+
+#7595
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7596 0 0
+~
+~
+Door 2 0 0 7594 0 0
+~
+~
+Door 3 0 0 7606 0 0
+~
+~
+End
+
+#7596
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Reset M 7503 1 100
+Door 0 0 0 7597 0 0
+~
+~
+Door 2 0 0 7595 0 0
+~
+~
+Door 3 0 0 7607 0 0
+~
+~
+End
+
+#7597
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7598 0 0
+~
+~
+Door 2 0 0 7596 0 0
+~
+~
+Door 3 0 0 7608 0 0
+~
+~
+End
+
+#7598
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Reset M 7503 1 100
+Door 0 0 0 7599 0 0
+~
+~
+Door 2 0 0 7597 0 0
+~
+~
+Door 3 0 0 7609 0 0
+~
+~
+End
+
+#7599
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7600 0 0
+~
+~
+Door 2 0 0 7598 0 0
+~
+~
+Door 3 0 0 7610 0 0
+~
+~
+End
+
+#7600
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 1 259 0 7634 34 34
+~
+crack~
+Door 2 0 0 7599 0 0
+~
+~
+Door 3 0 0 7611 0 0
+~
+~
+End
+
+#7601
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7602 0 0
+~
+~
+Door 1 0 0 7590 0 0
+~
+~
+Door 3 0 0 7612 0 0
+~
+~
+End
+
+#7602
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7603 0 0
+~
+~
+Door 1 0 0 7591 0 0
+~
+~
+Door 2 0 0 7601 0 0
+~
+~
+Door 3 0 0 7613 0 0
+~
+~
+End
+
+#7603
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7604 0 0
+~
+~
+Door 1 0 0 7592 0 0
+~
+~
+Door 2 0 0 7602 0 0
+~
+~
+Door 3 0 0 7614 0 0
+~
+~
+End
+
+#7604
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7605 0 0
+~
+~
+Door 1 0 0 7593 0 0
+~
+~
+Door 2 0 0 7603 0 0
+~
+~
+Door 3 0 0 7615 0 0
+~
+~
+End
+
+#7605
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7606 0 0
+~
+~
+Door 1 0 0 7594 0 0
+~
+~
+Door 2 0 0 7604 0 0
+~
+~
+Door 3 0 0 7616 0 0
+~
+~
+End
+
+#7606
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7607 0 0
+~
+~
+Door 1 0 0 7595 0 0
+~
+~
+Door 2 0 0 7605 0 0
+~
+~
+Door 3 0 0 7617 0 0
+~
+~
+End
+
+#7607
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7608 0 0
+~
+~
+Door 1 0 0 7596 0 0
+~
+~
+Door 2 0 0 7606 0 0
+~
+~
+Door 3 0 0 7618 0 0
+~
+~
+End
+
+#7608
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7609 0 0
+~
+~
+Door 1 0 0 7597 0 0
+~
+~
+Door 2 0 0 7607 0 0
+~
+~
+Door 3 0 0 7619 0 0
+~
+~
+End
+
+#7609
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7610 0 0
+~
+~
+Door 1 0 0 7598 0 0
+~
+~
+Door 2 0 0 7608 0 0
+~
+~
+Door 3 0 0 7620 0 0
+~
+~
+End
+
+#7610
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7611 0 0
+~
+~
+Door 1 0 0 7599 0 0
+~
+~
+Door 2 0 0 7609 0 0
+~
+~
+Door 3 0 0 7621 0 0
+~
+~
+End
+
+#7611
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 1 0 0 7600 0 0
+~
+~
+Door 2 0 0 7610 0 0
+~
+~
+Door 3 0 0 7622 0 0
+~
+~
+End
+
+#7612
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7613 0 0
+~
+~
+Door 1 0 0 7601 0 0
+~
+~
+Door 3 0 0 7623 0 0
+~
+~
+End
+
+#7613
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7614 0 0
+~
+~
+Door 1 0 0 7602 0 0
+~
+~
+Door 2 0 0 7612 0 0
+~
+~
+Door 3 0 0 7624 0 0
+~
+~
+End
+
+#7614
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7615 0 0
+~
+~
+Door 1 0 0 7603 0 0
+~
+~
+Door 2 0 0 7613 0 0
+~
+~
+Door 3 0 0 7625 0 0
+~
+~
+End
+
+#7615
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7616 0 0
+~
+~
+Door 1 0 0 7604 0 0
+~
+~
+Door 2 0 0 7614 0 0
+~
+~
+Door 3 0 0 7626 0 0
+~
+~
+End
+
+#7616
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7617 0 0
+~
+~
+Door 1 0 0 7605 0 0
+~
+~
+Door 2 0 0 7615 0 0
+~
+~
+Door 3 0 0 7627 0 0
+~
+~
+End
+
+#7617
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7618 0 0
+~
+~
+Door 1 0 0 7606 0 0
+~
+~
+Door 2 0 0 7616 0 0
+~
+~
+Door 3 0 0 7628 0 0
+~
+~
+Door 4 263 0 7663 20 20
+~
+sky~
+End
+
+#7618
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7619 0 0
+~
+~
+Door 1 0 0 7607 0 0
+~
+~
+Door 2 0 0 7617 0 0
+~
+~
+Door 3 0 0 7629 0 0
+~
+~
+End
+
+#7619
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7620 0 0
+~
+~
+Door 1 0 0 7608 0 0
+~
+~
+Door 2 0 0 7618 0 0
+~
+~
+Door 3 0 0 7630 0 0
+~
+~
+End
+
+#7620
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7621 0 0
+~
+~
+Door 1 0 0 7609 0 0
+~
+~
+Door 2 0 0 7619 0 0
+~
+~
+Door 3 0 0 7631 0 0
+~
+~
+End
+
+#7621
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7622 0 0
+~
+~
+Door 1 0 0 7610 0 0
+~
+~
+Door 2 0 0 7620 0 0
+~
+~
+Door 3 0 0 7632 0 0
+~
+~
+End
+
+#7622
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 1 0 0 7611 0 0
+~
+~
+Door 2 0 0 7621 0 0
+~
+~
+Door 3 0 0 7633 0 0
+~
+~
+End
+
+#7623
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7624 0 0
+~
+~
+Door 1 0 0 7612 0 0
+~
+~
+Door 3 0 0 7641 0 0
+~
+~
+End
+
+#7624
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7625 0 0
+~
+~
+Door 1 0 0 7613 0 0
+~
+~
+Door 2 0 0 7623 0 0
+~
+~
+Door 3 0 0 7642 0 0
+~
+~
+End
+
+#7625
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7626 0 0
+~
+~
+Door 1 0 0 7614 0 0
+~
+~
+Door 2 0 0 7624 0 0
+~
+~
+Door 3 0 0 7643 0 0
+~
+~
+End
+
+#7626
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7627 0 0
+~
+~
+Door 1 0 0 7615 0 0
+~
+~
+Door 2 0 0 7625 0 0
+~
+~
+Door 3 0 0 7644 0 0
+~
+~
+End
+
+#7627
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7628 0 0
+~
+~
+Door 1 0 0 7616 0 0
+~
+~
+Door 2 0 0 7626 0 0
+~
+~
+Door 3 0 0 7645 0 0
+~
+~
+End
+
+#7628
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7629 0 0
+~
+~
+Door 1 0 0 7617 0 0
+~
+~
+Door 2 0 0 7627 0 0
+~
+~
+Door 3 0 0 7646 0 0
+~
+~
+End
+
+#7629
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7630 0 0
+~
+~
+Door 1 0 0 7618 0 0
+~
+~
+Door 2 0 0 7628 0 0
+~
+~
+Door 3 0 0 7647 0 0
+~
+~
+End
+
+#7630
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7631 0 0
+~
+~
+Door 1 0 0 7619 0 0
+~
+~
+Door 2 0 0 7629 0 0
+~
+~
+Door 3 0 0 7648 0 0
+~
+~
+End
+
+#7631
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7632 0 0
+~
+~
+Door 1 0 0 7620 0 0
+~
+~
+Door 2 0 0 7630 0 0
+~
+~
+Door 3 0 0 7649 0 0
+~
+~
+End
+
+#7632
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7633 0 0
+~
+~
+Door 1 0 0 7621 0 0
+~
+~
+Door 2 0 0 7631 0 0
+~
+~
+Door 3 0 0 7650 0 0
+~
+~
+End
+
+#7633
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 1 0 0 7622 0 0
+~
+~
+Door 2 0 0 7632 0 0
+~
+~
+Door 3 0 0 7651 0 0
+~
+~
+End
+
+#7634
+Name Hidden Pathway~
+Descr
+You entered into a hidden pathway. The pathway is surrounded by total
+darkness, and the air is fill with numerous creatures of the night. 
+You can hear in a distance the scream of a torture soul.
+~
+Flags 24705
+Door 1 0 0 7635 0 0
+~
+~
+Door 3 259 0 7600 34 34
+~
+crack~
+End
+
+#7635
+Name Hidden Pathway~
+Descr
+You entered into a hidden pathway. The pathway is surrounded by total
+darkness, and the air is fill with numerous creatures of the night. 
+You can hear in a distance the scream of a torture soul.
+~
+Flags 24705
+Door 1 0 0 7636 0 0
+~
+~
+Door 3 0 0 7634 0 0
+~
+~
+End
+
+#7636
+Name Hidden Pathway~
+Descr
+You entered into a hidden pathway. The pathway is surrounded by total
+darkness, and the air is fill with numerous creatures of the night. 
+You can hear in a distance the scream of a torture soul.
+~
+Flags 24705
+Door 1 0 0 7637 0 0
+~
+~
+Door 3 0 0 7635 0 0
+~
+~
+End
+
+#7637
+Name Hidden Pathway~
+Descr
+You entered into a hidden pathway. The pathway is surrounded by total
+darkness, and the air is fill with numerous creatures of the night. 
+You can hear in a distance the scream of a torture soul.
+~
+Flags 24705
+Door 3 0 0 7636 0 0
+~
+~
+Door 5 259 0 7638 34 34
+~
+burial~
+End
+
+#7638
+Name Hidden Pathway~
+Descr
+You entered into a hidden pathway. The pathway is surrounded by total
+darkness, and the air is fill with numerous creatures of the night. 
+You can hear in a distance the scream of a torture soul.
+~
+Flags 24705
+Door 1 0 0 7639 0 0
+~
+~
+Door 4 259 0 7637 34 34
+~
+burial~
+End
+
+#7639
+Name Hidden Pathway~
+Descr
+You entered into a hidden pathway. The pathway is surrounded by total
+darkness, and the air is fill with numerous creatures of the night. 
+You can hear in a distance the scream of a torture soul.
+~
+Flags 24705
+Door 1 259 0 7640 34 34
+~
+slidingwall~
+Door 3 0 0 7638 0 0
+~
+~
+End
+
+#7640
+Name Zarcon Lair~
+Descr
+You entered into the hidden lair of Zarcon. His lair is surrounded by
+countless numbers of skeletons and is fill with the blood of the damned.
+Legend stated that Zarcon took part of the slaying of the dragon king
+Zaraphen, because of his love for Neria the king wife. Zarcon was so enrage
+with Zaraphen, when the king took Neria to be his wife. Ever since that
+fateful day Zarcon plotted to kill the king, which took place at the feast
+of the heroes. Shortly after, Zarcon was arrested and condemn to death by
+the gallo's. In fear of dying, Zarcon fled into a hidden area that was
+unknown to many of the people of Draconia. The same hidden area is this room
+that you are standing in. 
+~
+Flags 20480
+Reset M 7639 1 100
+Reset M 7639 1 100
+Reset M 7639 1 100
+Reset M 7639 1 100
+Reset M 7639 1 100
+Reset M 7640 1 100
+Reset O 5172 -1 1
+Reset O 7640 -1 1
+Door 3 259 0 7639 34 34
+~
+slidingwall~
+End
+
+#7641
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7642 0 0
+~
+~
+Door 1 0 0 7623 0 0
+~
+~
+Door 3 0 0 7652 0 0
+~
+~
+End
+
+#7642
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7643 0 0
+~
+~
+Door 1 0 0 7624 0 0
+~
+~
+Door 2 0 0 7641 0 0
+~
+~
+Door 3 0 0 7653 0 0
+~
+~
+End
+
+#7643
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7644 0 0
+~
+~
+Door 1 0 0 7625 0 0
+~
+~
+Door 2 0 0 7642 0 0
+~
+~
+Door 3 0 0 7654 0 0
+~
+~
+End
+
+#7644
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7645 0 0
+~
+~
+Door 1 0 0 7626 0 0
+~
+~
+Door 2 0 0 7643 0 0
+~
+~
+Door 3 0 0 7655 0 0
+~
+~
+End
+
+#7645
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7646 0 0
+~
+~
+Door 1 0 0 7627 0 0
+~
+~
+Door 2 0 0 7644 0 0
+~
+~
+Door 3 0 0 7656 0 0
+~
+~
+End
+
+#7646
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7647 0 0
+~
+~
+Door 1 0 0 7628 0 0
+~
+~
+Door 2 0 0 7645 0 0
+~
+~
+Door 3 0 0 7657 0 0
+~
+~
+End
+
+#7647
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7648 0 0
+~
+~
+Door 1 0 0 7629 0 0
+~
+~
+Door 2 0 0 7646 0 0
+~
+~
+Door 3 0 0 7658 0 0
+~
+~
+End
+
+#7648
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7649 0 0
+~
+~
+Door 1 0 0 7630 0 0
+~
+~
+Door 2 0 0 7647 0 0
+~
+~
+Door 3 0 0 7659 0 0
+~
+~
+End
+
+#7649
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7650 0 0
+~
+~
+Door 1 0 0 7631 0 0
+~
+~
+Door 2 0 0 7648 0 0
+~
+~
+Door 3 0 0 7660 0 0
+~
+~
+End
+
+#7650
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7651 0 0
+~
+~
+Door 1 0 0 7632 0 0
+~
+~
+Door 2 0 0 7649 0 0
+~
+~
+Door 3 0 0 7661 0 0
+~
+~
+End
+
+#7651
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 1 0 0 7633 0 0
+~
+~
+Door 2 0 0 7650 0 0
+~
+~
+Door 3 0 0 7662 0 0
+~
+~
+End
+
+#7652
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Reset M 7503 1 100
+Door 0 0 0 7653 0 0
+~
+~
+Door 1 0 0 7641 0 0
+~
+~
+End
+
+#7653
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7654 0 0
+~
+~
+Door 1 0 0 7642 0 0
+~
+~
+Door 2 0 0 7652 0 0
+~
+~
+End
+
+#7654
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Reset M 7503 1 100
+Door 0 0 0 7655 0 0
+~
+~
+Door 1 0 0 7643 0 0
+~
+~
+Door 2 0 0 7653 0 0
+~
+~
+End
+
+#7655
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7656 0 0
+~
+~
+Door 1 0 0 7644 0 0
+~
+~
+Door 2 0 0 7654 0 0
+~
+~
+End
+
+#7656
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Reset M 7503 1 100
+Door 0 0 0 7657 0 0
+~
+~
+Door 1 0 0 7645 0 0
+~
+~
+Door 2 0 0 7655 0 0
+~
+~
+End
+
+#7657
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7658 0 0
+~
+~
+Door 1 0 0 7646 0 0
+~
+~
+Door 2 0 0 7656 0 0
+~
+~
+End
+
+#7658
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Reset M 7503 1 100
+Door 0 0 0 7659 0 0
+~
+~
+Door 1 0 0 7647 0 0
+~
+~
+Door 2 0 0 7657 0 0
+~
+~
+End
+
+#7659
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 0 0 0 7660 0 0
+~
+~
+Door 1 0 0 7648 0 0
+~
+~
+Door 2 0 0 7658 0 0
+~
+~
+End
+
+#7660
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Reset M 7503 1 100
+Door 0 0 0 7661 0 0
+~
+~
+Door 1 0 0 7649 0 0
+~
+~
+Door 2 0 0 7659 0 0
+~
+~
+End
+
+#7661
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Door 0 0 0 7662 0 0
+~
+~
+Door 1 0 0 7650 0 0
+~
+~
+Door 2 0 0 7660 0 0
+~
+~
+End
+
+#7662
+Name Draconia Tower Courtyard~
+Descr
+You travel into the courtyard of Draconia Tower. What once was a triving
+civilization is now fill with famine and death. The scream of death is echo
+around the whole tower. Many has fled the area due to the harsh condition.
+Only being that are left are the outcast of The Draconia society.  
+~
+Flags 24705
+Door 1 0 0 7651 0 0
+~
+~
+Door 2 0 0 7661 0 0
+~
+~
+End
+
+#7663
+Name A Spiral Stairwell~
+Descr
+You entered into A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 1 0 0 7664 0 0
+~
+~
+Door 5 263 0 7617 20 20
+~
+sky~
+End
+
+#7664
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 2 0 0 7665 0 0
+~
+~
+Door 3 0 0 7663 0 0
+~
+~
+End
+
+#7665
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7664 0 0
+~
+~
+Door 3 0 0 7666 0 0
+~
+~
+End
+
+#7666
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 1 0 0 7665 0 0
+~
+~
+Door 4 0 0 7667 0 0
+~
+~
+End
+
+#7667
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 1 0 0 7668 0 0
+~
+~
+Door 5 0 0 7666 0 0
+~
+~
+End
+
+#7668
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 2 0 0 7669 0 0
+~
+~
+Door 3 0 0 7667 0 0
+~
+~
+End
+
+#7669
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7668 0 0
+~
+~
+Door 3 0 0 7670 0 0
+~
+~
+End
+
+#7670
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 1 0 0 7669 0 0
+~
+~
+Door 4 0 0 7671 0 0
+~
+~
+End
+
+#7671
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 1 0 0 7672 0 0
+~
+~
+Door 5 0 0 7670 0 0
+~
+~
+End
+
+#7672
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 2 0 0 7673 0 0
+~
+~
+Door 3 0 0 7671 0 0
+~
+~
+End
+
+#7673
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7672 0 0
+~
+~
+Door 3 0 0 7674 0 0
+~
+~
+End
+
+#7674
+Name A Spiral Stairwell~
+Descr
+You travel within A spiral staircase that lead up into a unknown part
+within the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 24705
+Sector 14
+Door 1 0 0 7673 0 0
+~
+~
+Door 4 0 0 7675 0 0
+~
+~
+End
+
+#7675
+Name A Spiral Stairwell~
+Descr
+You exit A spiral staircase that lead into a unknown part within the
+Draconia Tower. The walls are cover with the ancient text of the draconians,
+describing everyday life within this civilization. The area is cover with a
+dense fog, that swallow up the sound within the air. 
+~
+Flags 8321
+Sector 14
+Door 0 0 0 7676 0 0
+~
+~
+Door 5 0 0 7674 0 0
+~
+~
+End
+
+#7676
+Name A Hidden Hallway~
+Descr
+You entered into A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 8321
+Sector 14
+Door 0 0 0 7677 0 0
+~
+~
+Door 2 0 0 7675 0 0
+~
+~
+End
+
+#7677
+Name A Hidden Hallway~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 8321
+Sector 14
+Door 0 0 0 7678 0 0
+~
+~
+Door 2 0 0 7676 0 0
+~
+~
+End
+
+#7678
+Name A Hidden Hallway~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 8321
+Sector 14
+Door 0 0 0 7679 0 0
+~
+~
+Door 2 0 0 7677 0 0
+~
+~
+End
+
+#7679
+Name A Hidden Hallway~
+Descr
+You travel within A hidden hallway that lead into a unknown part within
+the Draconia Tower. The walls are cover with the ancient text of the
+draconians, describing everyday life within this civilization. The area is
+cover with a dense fog, that swallow up the sound within the air. 
+~
+Flags 8321
+Sector 14
+Door 0 263 0 7680 34 34
+~
+crumblingwall~
+Door 2 0 0 7678 0 0
+~
+~
+End
+
+#7680
+Name Hidden Draconia Foyer~
+Descr
+You entered the hidden draconian foyer. Legend stated that Zaraphen the
+dragon king was slain, by his chief advisor Zarcon. The altar that stands
+before you still have the evidance of this crued injustice done by the king
+closest allie. You can see for yourself the massive amount of blood that
+stain the altar and the foyer. 
+~
+Flags2 6
+Flags 8321
+Sector 14
+Reset O 7680 -5 100
+Door 2 263 0 7679 34 34
+~
+crumblingwall~
+End
+
+#7681
+Name The Spirit Void~
+Descr
+You entered into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7682 0 0
+~
+~
+Door 1 0 0 7691 0 0
+~
+~
+Door 3 0 0 7690 0 0
+~
+~
+End
+
+#7682
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7683 0 0
+~
+~
+Door 1 0 0 7692 0 0
+~
+~
+Door 2 0 0 7681 0 0
+~
+~
+Door 3 0 0 7689 0 0
+~
+~
+End
+
+#7683
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Reset M 7698 1 100
+Door 0 0 0 7684 0 0
+~
+~
+Door 1 0 0 7693 0 0
+~
+~
+Door 2 0 0 7682 0 0
+~
+~
+Door 3 0 0 7688 0 0
+~
+~
+End
+
+#7684
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7685 0 0
+~
+~
+Door 1 0 0 7694 0 0
+~
+~
+Door 2 0 0 7683 0 0
+~
+~
+Door 3 0 0 7687 0 0
+~
+~
+End
+
+#7685
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7696 0 0
+~
+~
+Door 1 0 0 7695 0 0
+~
+~
+Door 2 0 0 7684 0 0
+~
+~
+Door 3 0 0 7686 0 0
+~
+~
+End
+
+#7686
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Reset M 7698 1 100
+Door 1 0 0 7685 0 0
+~
+~
+Door 2 0 0 7687 0 0
+~
+~
+End
+
+#7687
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7686 0 0
+~
+~
+Door 1 0 0 7684 0 0
+~
+~
+Door 2 0 0 7688 0 0
+~
+~
+End
+
+#7688
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7687 0 0
+~
+~
+Door 1 0 0 7683 0 0
+~
+~
+Door 2 0 0 7689 0 0
+~
+~
+End
+
+#7689
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7688 0 0
+~
+~
+Door 1 0 0 7682 0 0
+~
+~
+Door 2 0 0 7690 0 0
+~
+~
+End
+
+#7690
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Reset M 7698 1 100
+Door 0 0 0 7689 0 0
+~
+~
+Door 1 0 0 7681 0 0
+~
+~
+End
+
+#7691
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Reset M 7698 1 100
+Door 0 0 0 7692 0 0
+~
+~
+Door 3 0 0 7681 0 0
+~
+~
+End
+
+#7692
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7693 0 0
+~
+~
+Door 2 0 0 7691 0 0
+~
+~
+Door 3 0 0 7682 0 0
+~
+~
+End
+
+#7693
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7694 0 0
+~
+~
+Door 2 0 0 7692 0 0
+~
+~
+Door 3 0 0 7683 0 0
+~
+~
+End
+
+#7694
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7695 0 0
+~
+~
+Door 2 0 0 7693 0 0
+~
+~
+Door 3 0 0 7684 0 0
+~
+~
+End
+
+#7695
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Reset M 7698 1 100
+Door 2 0 0 7694 0 0
+~
+~
+Door 3 0 0 7685 0 0
+~
+~
+End
+
+#7696
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 1 0 0 7697 0 0
+~
+~
+Door 2 0 0 7685 0 0
+~
+~
+End
+
+#7697
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 0 0 7698 0 0
+~
+~
+Door 3 0 0 7696 0 0
+~
+~
+End
+
+#7698
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 2 0 0 7697 0 0
+~
+~
+Door 4 0 0 7699 0 0
+~
+~
+End
+
+#7699
+Name The Spirit Void~
+Descr
+You travel into another realm, quite opposite to the one you are use to.
+This realm house the spirits of the dead, and the torture souls of the
+afterlife. The screams of the torture souls can be heard while it echos in
+this realm. Legend stated that the lord of the dead Marlok places the souls
+that die a untimely death. Their souls roam this realm for an eternity
+looking for death but can never find it. d 
+~
+Flags 24705
+Sector 14
+Door 0 259 0 7700 34 34
+~
+void~
+Door 5 0 0 7698 0 0
+~
+~
+End
+
+#7700
+Name Zaraphen Burial Chamber~
+Descr
+You entered into the burial chamber of the dragon king name Zaraphen. The
+chamber is made out of fine gold and linen with silk. You can see the coffin
+that holds the body of the dragon king laid in the middle of the chamber.
+There are many statue of the draconian gods. Legend stated that the king
+will be judge by these gods to determine his fate in the afterlife. But the
+dragon king plead a deal with the evil god Azozer for a reincarnated body to
+inact his revenge on Zarcon his closes allie. Not knowing, when he made that
+deal with Azozer, he was going to live an eternity roaming his burial
+chamber. 
+~
+Flags2 6
+Flags 16385
+Sector 14
+Reset M 7700 1 100
+Reset O 24 -1 1
+Reset O 1403 -1 5
+Reset O 7690 -5 100
+Reset O 7700 -5 100
+Door 2 263 0 7699 34 34
+~
+void~
+End
+
+#0
+
+
+
+#$

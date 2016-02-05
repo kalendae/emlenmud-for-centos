@@ -1,0 +1,1206 @@
+#AREADATA 
+Name The Lands of Lorelei~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Structure Aragorn~
+VNUMs 20701 20900
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#20701
+Name a trapped sailor~
+Short a trapped sailor~
+Long 
+A trapped sailor is here listening to the music of lorelei.
+~
+AMax 25
+NHeight 72
+ActBits 1
+Affect_By 520
+Money 300
+Level 100
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#20702
+Name lorlei prac~
+Short lorlei~
+Long 
+Lorlei sits here playing her tunes.
+~
+AMax 1
+NHeight 80
+ActBits 258
+Affect_By 520
+Money 1000
+Level 120
+Sex 2
+MobType 0
+Hp 3
+Guard 0
+ASklTaught 0 101
+ASklTaught 1 94
+ASklTaught 2 172
+End
+
+#20703
+Name ancient sailor~
+Short an ancient sailor~
+Long 
+An ancient sailor bemoans his entrapment here.
+~
+AMax 2
+ActBits 2
+Money 400
+Level 10
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#20704
+Name weak sailor~
+Short a weakened sailor~
+Long 
+A weakened sailor dozes comfortably here.
+~
+AMax 1
+ActBits 2
+Affect_By 131072
+Money 500
+Level 120
+Sex 1
+MobType 0
+Hp 3
+Guard 0
+End
+
+#20705
+Name experienced sailor~
+Short an experienced sailor~
+Long 
+An experienced sailor wanders trapped by the music of lorlei.
+~
+AMax 5
+ActBits 1
+Money 300
+Level 80
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#20706
+Name fountain~
+Short a small fountain~
+Descr
+A small fountain sits here pouring water.
+[0;36m~
+Type 25
+Wear 0
+Weight 100
+Cost 0
+End
+
+#20737
+Name earring of hope~
+Short an [1m[34me[1m[30ma[0m[37mr[1mr[0m[37mi[1m[30mn[34mg[0m of [1m[30mh[0m[37mo[1mp[30me[0m~
+Descr
+An earring lies here in the dust.
+[0;36m~
+Type 9
+Extra 1
+Wear 262145
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 14 3 1 0 0
+Affect 13 3 1 0 0
+End
+
+#20738
+Name cutlass sword pirate slashing~
+Short a pirate cutlass~
+Descr
+A pirate's cutlass is here on the ground
+[0;36m~
+Type 5
+Extra 4194304
+Wear 16385
+Values 0 100 0 1 0 0 0 2 6 0 0
+Weight 30
+Cost 4000
+End
+
+#20739
+Name newbie blocker~
+Short a newbie blocker~
+Descr
+A newbie blocker is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Values 1 0 0 0 0 0 1 35 0 0 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#20701
+Name A Hilly Path~
+Descr
+You are in a hilly path, it seems very steep but isn't very hard to climb
+up. 
+~
+Sector 30
+Reset O 128 -5 100
+Door 2 0 0 20702 0 0
+~
+~
+Door 5 0 0 65008 0 0
+~
+~
+End
+
+#20702
+Name A Hilly Path~
+Descr
+You are in a hilly path, it seems very steep but isn't very hard to climb
+up. 
+~
+Sector 30
+Door 0 0 0 20701 0 0
+~
+~
+Door 2 0 0 20703 0 0
+~
+~
+End
+
+#20703
+Name A Hilly Path~
+Descr
+You are in a hilly path, it seems very steep but isn't very hard to climb
+up. 
+~
+Sector 30
+Door 0 0 0 20702 0 0
+~
+~
+Door 3 0 0 20704 0 0
+~
+~
+End
+
+#20704
+Name A Hilly Path~
+Descr
+You are in a hilly path, it seems very steep but isn't very hard to climb
+up. 
+~
+Sector 30
+Door 1 0 0 20703 0 0
+~
+~
+Door 2 0 0 20705 0 0
+~
+~
+End
+
+#20705
+Name A Hilly Path~
+Descr
+You are in a hilly path, it seems very steep but isn't very hard to climb
+up. 
+~
+Sector 30
+Door 0 0 0 20704 0 0
+~
+~
+Door 4 0 0 20706 0 0
+~
+~
+End
+
+#20706
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Flags2 6
+Sector 8
+Reset O 20739 -5 100
+Reset O 20706 -5 100
+Reset M 20701 1 100
+Door 0 0 0 20708 0 0
+~
+~
+Door 1 0 0 20707 0 0
+~
+~
+Door 3 0 0 20711 0 0
+~
+~
+Door 5 0 0 20705 0 0
+~
+~
+End
+
+#20707
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Door 0 0 0 20709 0 0
+~
+~
+Door 1 0 0 20720 0 0
+~
+~
+Door 3 0 0 20706 0 0
+~
+~
+End
+
+#20708
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset M 20701 1 100
+Door 0 0 0 20713 0 0
+~
+~
+Door 1 0 0 20709 0 0
+~
+~
+Door 2 0 0 20706 0 0
+~
+~
+Door 3 0 0 20710 0 0
+~
+~
+End
+
+#20709
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Door 0 0 0 20714 0 0
+~
+~
+Door 1 0 0 20716 0 0
+~
+~
+Door 2 0 0 20707 0 0
+~
+~
+Door 3 0 0 20708 0 0
+~
+~
+End
+
+#20710
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Door 0 0 0 20712 0 0
+~
+~
+Door 1 0 0 20708 0 0
+~
+~
+Door 2 0 0 20711 0 0
+~
+~
+End
+
+#20711
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Reset M 20701 1 100
+Door 0 0 0 20710 0 0
+~
+~
+Door 1 0 0 20706 0 0
+~
+~
+End
+
+#20712
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Door 0 0 0 20724 0 0
+~
+~
+Door 1 0 0 20713 0 0
+~
+~
+Door 2 0 0 20710 0 0
+~
+~
+End
+
+#20713
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Reset M 20701 1 100
+Door 0 0 0 20723 0 0
+~
+~
+Door 1 0 0 20714 0 0
+~
+~
+Door 2 0 0 20708 0 0
+~
+~
+Door 3 0 0 20712 0 0
+~
+~
+End
+
+#20714
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Reset M 20701 1 100
+Reset O 20738 1 10
+Door 0 0 0 20722 0 0
+~
+~
+Door 1 0 0 20715 0 0
+~
+~
+Door 2 0 0 20709 0 0
+~
+~
+Door 3 0 0 20713 0 0
+~
+~
+End
+
+#20715
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Reset M 20701 1 100
+Door 0 0 0 20721 0 0
+~
+~
+Door 1 0 0 20731 0 0
+~
+~
+Door 2 0 0 20716 0 0
+~
+~
+Door 3 0 0 20714 0 0
+~
+~
+End
+
+#20716
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset M 20701 1 100
+Door 0 0 0 20715 0 0
+~
+~
+Door 1 0 0 20732 0 0
+~
+~
+Door 2 0 0 20720 0 0
+~
+~
+Door 3 0 0 20709 0 0
+~
+~
+End
+
+#20717
+Name A Hidden Section of The Cove~
+Descr
+~
+Sector 8
+Door 2 0 0 20734 0 0
+~
+~
+Door 3 0 0 20719 0 0
+~
+~
+End
+
+#20718
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Door 0 0 0 20719 0 0
+~
+~
+Door 1 0 0 20734 0 0
+~
+~
+Door 2 0 0 20741 0 0
+~
+~
+Door 3 0 0 20739 0 0
+~
+~
+Door 5 0 0 20743 0 0
+~
+~
+End
+
+#20719
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Reset M 20705 1 100
+Door 1 0 0 20717 0 0
+~
+~
+Door 2 0 0 20718 0 0
+~
+~
+Door 3 0 0 20738 0 0
+~
+~
+End
+
+#20720
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Reset M 20701 1 100
+Door 0 0 0 20716 0 0
+~
+~
+Door 1 0 0 20733 0 0
+~
+~
+Door 3 0 0 20707 0 0
+~
+~
+End
+
+#20721
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Door 0 0 0 20728 0 0
+~
+~
+Door 1 0 0 20730 0 0
+~
+~
+Door 2 0 0 20715 0 0
+~
+~
+Door 3 0 0 20722 0 0
+~
+~
+End
+
+#20722
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Door 0 0 0 20727 0 0
+~
+~
+Door 1 0 0 20721 0 0
+~
+~
+Door 2 0 0 20714 0 0
+~
+~
+Door 3 0 0 20723 0 0
+~
+~
+End
+
+#20723
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset M 20701 1 100
+Door 0 0 0 20726 0 0
+~
+~
+Door 1 0 0 20722 0 0
+~
+~
+Door 2 0 0 20713 0 0
+~
+~
+Door 3 0 0 20724 0 0
+~
+~
+End
+
+#20724
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Door 0 0 0 20725 0 0
+~
+~
+Door 1 0 0 20723 0 0
+~
+~
+Door 2 0 0 20712 0 0
+~
+~
+Door 3 259 0 20734 30 30
+~
+grassdoor~
+End
+
+#20725
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Door 1 0 0 20726 0 0
+~
+~
+Door 2 0 0 20724 0 0
+~
+~
+End
+
+#20726
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Reset M 20701 1 100
+Door 1 0 0 20727 0 0
+~
+~
+Door 2 0 0 20723 0 0
+~
+~
+Door 3 0 0 20725 0 0
+~
+~
+End
+
+#20727
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Door 0 0 0 20735 0 0
+~
+~
+Door 1 0 0 20728 0 0
+~
+~
+Door 2 0 0 20722 0 0
+~
+~
+Door 3 0 0 20726 0 0
+~
+~
+End
+
+#20728
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Reset M 20701 1 100
+Reset O 20738 1 10
+Door 0 0 0 20736 0 0
+~
+~
+Door 1 0 0 20729 0 0
+~
+~
+Door 2 0 0 20721 0 0
+~
+~
+Door 3 0 0 20727 0 0
+~
+~
+End
+
+#20729
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Reset M 20701 1 100
+Door 2 0 0 20730 0 0
+~
+~
+Door 3 0 0 20728 0 0
+~
+~
+End
+
+#20730
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Door 0 0 0 20729 0 0
+~
+~
+Door 2 0 0 20731 0 0
+~
+~
+Door 3 0 0 20721 0 0
+~
+~
+End
+
+#20731
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Reset M 20701 1 100
+Door 0 0 0 20730 0 0
+~
+~
+Door 2 0 0 20732 0 0
+~
+~
+Door 3 0 0 20715 0 0
+~
+~
+End
+
+#20732
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Door 0 0 0 20731 0 0
+~
+~
+Door 2 0 0 20733 0 0
+~
+~
+Door 3 0 0 20716 0 0
+~
+~
+End
+
+#20733
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Reset O 20739 -5 100
+Door 0 0 0 20732 0 0
+~
+~
+Door 3 0 0 20720 0 0
+~
+~
+End
+
+#20734
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Door 0 0 0 20717 0 0
+~
+~
+Door 1 259 0 20724 30 30
+~
+grassdoor~
+Door 2 0 0 20742 0 0
+~
+~
+Door 3 0 0 20718 0 0
+~
+~
+End
+
+#20735
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Door 1 0 0 20736 0 0
+~
+~
+Door 2 0 0 20727 0 0
+~
+~
+End
+
+#20736
+Name A Small Camp~
+Descr
+Your inside a small camp, you hear a melody being played that is so at
+soothing, it puts you into a hypnotic state of mind. You are at peace with
+yourself, you never want to leave this place. 
+~
+Sector 8
+Door 0 0 0 20737 0 0
+~
+~
+Door 2 0 0 20728 0 0
+~
+~
+Door 3 0 0 20735 0 0
+~
+~
+End
+
+#20737
+Name Lorelei's Cove~
+Descr
+Here stands the goddess Lorelei. An evil god, she uses her songs to lure
+sailors and passing travellers. They are put into a hypnotic state, drawing
+them to her. Once they are here, there is no escape. 
+~
+Sector 8
+Reset M 20702 1 100
+Reset O 51 -1 40
+Reset O 20737 -1 5
+Door 2 0 0 20736 0 0
+~
+~
+End
+
+#20738
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Door 1 0 0 20719 0 0
+~
+~
+Door 2 0 0 20739 0 0
+~
+~
+End
+
+#20739
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Reset M 20705 1 100
+Door 0 0 0 20738 0 0
+~
+~
+Door 1 0 0 20718 0 0
+~
+~
+Door 2 0 0 20740 0 0
+~
+~
+End
+
+#20740
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Reset M 20705 1 100
+Door 0 0 0 20739 0 0
+~
+~
+Door 1 0 0 20741 0 0
+~
+~
+End
+
+#20741
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Door 0 0 0 20718 0 0
+~
+~
+Door 1 0 0 20742 0 0
+~
+~
+Door 3 0 0 20740 0 0
+~
+~
+End
+
+#20742
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Reset M 20705 1 100
+Door 0 0 0 20734 0 0
+~
+~
+Door 3 0 0 20741 0 0
+~
+~
+End
+
+#20743
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Door 0 0 0 20745 0 0
+~
+~
+Door 4 0 0 20718 0 0
+~
+~
+End
+
+#20744
+Name ~
+Descr
+~
+End
+
+#20745
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Door 1 0 0 20746 0 0
+~
+~
+Door 2 0 0 20743 0 0
+~
+~
+End
+
+#20746
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Reset M 20705 1 100
+Door 0 0 0 20747 0 0
+~
+~
+Door 3 0 0 20745 0 0
+~
+~
+End
+
+#20747
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Door 0 0 0 20748 0 0
+~
+~
+Door 2 0 0 20746 0 0
+~
+~
+End
+
+#20748
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Door 0 0 0 20750 0 0
+~
+~
+Door 1 0 0 20751 0 0
+~
+~
+Door 2 0 0 20747 0 0
+~
+~
+Door 3 0 0 20749 0 0
+~
+~
+End
+
+#20749
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Reset M 20703 1 100
+Door 1 0 0 20748 0 0
+~
+~
+End
+
+#20750
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Reset M 20704 1 100
+Door 2 0 0 20748 0 0
+~
+~
+End
+
+#20751
+Name A Hidden Section of the Cove~
+Descr
+~
+Sector 8
+Reset M 20703 1 100
+Reset M 20703 5 75
+Door 3 0 0 20748 0 0
+~
+~
+End
+
+#20752
+Name ~
+Descr
+~
+End
+
+#20753
+Name ~
+Descr
+~
+End
+
+#20754
+Name ~
+Descr
+~
+End
+
+#20755
+Name ~
+Descr
+~
+End
+
+#20756
+Name ~
+Descr
+~
+End
+
+#20757
+Name ~
+Descr
+~
+End
+
+#20758
+Name ~
+Descr
+~
+End
+
+#20759
+Name ~
+Descr
+~
+End
+
+#20760
+Name ~
+Descr
+~
+End
+
+#20761
+Name ~
+Descr
+~
+End
+
+#20762
+Name ~
+Descr
+~
+End
+
+#20763
+Name ~
+Descr
+~
+End
+
+#20764
+Name ~
+Descr
+~
+End
+
+#20765
+Name ~
+Descr
+~
+End
+
+#20766
+Name ~
+Descr
+~
+End
+
+#20767
+Name ~
+Descr
+~
+End
+
+#20768
+Name ~
+Descr
+~
+End
+
+#20769
+Name ~
+Descr
+~
+End
+
+#20770
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,1050 @@
+#AREADATA 
+Name Clan Inglehood~
+Repop The area seems alive again!~
+SCZone 0
+Builders Kizmet~
+VNUMs 73674 73705
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#73674
+Name inglehood guard gateguard clan clanguard~
+Short a guard of Inglehood~
+Long 
+A guard is here, blocking all entrance into the Inglehood clanhouse.~
+AMax 5
+ActBits 3
+ActBits3 2
+Affect_By 680
+AffectTWO 524296
+Level 150
+Sex 1
+Hp 20
+Guard 3
+End
+
+#73675
+Name inglehood clan thief member~
+Short a tall thief~
+Long 
+One of the Inglehood brotheren is here, chatting with himself.~
+AMax 5
+Affect_By 640
+Level 150
+End
+
+#73676
+Name torture torturer thief inglehood~
+Short the Inglehood torturer~
+Long 
+The clan torturer is here, eagerly awaiting his next victim.~
+AMax 1
+Affect_By 66178
+Level 250
+Hp 20
+End
+
+#73677
+Name ashwani inglehood leader~
+Short ashwani~
+Long 
+Ashwani, the leader of the Inglehood clan is here.~
+AMax 1
+ActBits 2
+ActBits3 589824
+Affect_By 524968
+Money 10000
+Level 550
+Sex 1
+Hp 60
+Spec spec_warrior
+End
+
+#73678
+Name trainer pract thief inglehood ~
+Short the Inglehood trainer~
+Long 
+The Inglehood trainer is here, showing is trainees the art of theivery.~
+AMax 1
+ActBits 2
+Affect_By 640
+AffectTWO 8
+Level 250
+Sex 1
+Hp 20
+End
+
+#73679
+Name thief trainee inglehood aone~
+Short a thief trainee~
+Long 
+A thief trainee is here practicing his skills.~
+AMax 8
+Affect_By 640
+Level 150
+Sex 2
+Hp 8
+End
+
+#73680
+Name inglehood clan guard~
+Short an Inglehood clanguard~
+Long 
+A clanguard is here stopping all intruders from escaping.~
+AMax 3
+ActBits 2
+ActBits3 2
+Affect_By 680
+AffectTWO 524296
+Level 100
+Hp 15
+Guard 1
+End
+
+#73681
+Name secret area guard~
+Short a round table guard~
+Long 
+A tiny guard is here, protecting the meeting room.~
+AMax 4
+ActBits 2
+ActBits3 2
+Affect_By 640
+Level 175
+Hp 20
+Guard 2
+End
+
+#73682
+Name round table guard~
+Short a round table guard~
+Long 
+A guard is here, allowing the incoming Inglehood to crush you.~
+AMax 2
+ActBits 2
+ActBits3 2
+Affect_By 640
+Level 150
+Guard 1
+End
+
+#73683
+Name jirquina zuenas~
+Short jirquina Zuenas~
+Long 
+The ghost of Jirquina Zuenas, the Founder of Inglehood is floating here.~
+AMax 1
+ActBits 2
+ActBits3 524288
+Affect_By 8872
+AffectTWO 524296
+Level 350
+Sex 2
+Hp 30
+End
+
+#73684
+Name avenger super~
+Short an Inglehood avenger~
+Long 
+An Inglehood avenger is here looking for whoever killed Ashwani.~
+AMax 5
+Level 0
+End
+
+#0
+
+
+
+#OBJDATA
+#73674
+Name cloak night~
+Short [31mCloak of the [1m[30mNight[0m~
+Descr
+A cloak of the night is here
+[0;36m~
+Type 9
+Extra 570425345
+Wear 1025
+Values 2 3 3 3 15 10 50 50 10 10 0
+Weight 108
+Cost 500
+Affect 24 10 1 0 0
+Affect 23 10 1 0 0
+Affect 13 30 1 0 0
+Affect 14 50 1 0 0
+End
+
+#73675
+Name thief bracer bracers wrist bracelet apb~
+Short [1m[34mThief's bracers[0m~
+Descr
+A pair of bracers are here
+[0;36m~
+Type 9
+Extra 33554434
+Wear 4097
+Values 0 0 0 9 10 10 50 50 20 10 0
+Weight 10
+Cost 1000
+Affect 19 1 1 0 0
+Affect 14 25 1 0 0
+End
+
+#73676
+Name shoulder shouldpad guard gleaming inglehood apb~
+Short [1m[33ma [37mGleaming [33mshoulderguard~
+Descr
+A shoulderpad of inglehood is here
+[0;36m~
+Type 9
+Extra 33554433
+Wear 32769
+Values 0 5 5 0 10 10 50 50 10 10 0
+Weight 34
+Cost 2033
+Affect 19 1 1 0 0
+Affect 17 2 1 0 0
+Affect 18 1 1 0 0
+Affect 13 10 1 0 0
+End
+
+#73677
+Name thiefs mask face guard~
+Short [32mT[0mh[1m[30mi[0m[32mef[0m's [1m[30mMa[0m[32ms[0mk~
+Descr
+The mask of a thief is on the ground here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 65537
+Values 0 0 5 0 10 10 40 40 10 10 0
+Weight 46
+Cost 3333
+End
+
+#73678
+Name aura floating inglehood apb~
+Short [1m[30mT h e  d a r k  A U R A  o f [1m[35mInglehood[0m~
+Descr
+An Aura of Inglehood is floating here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 131073
+Values 6 5 5 5 0 0 0 0 0 0 0
+Weight 1
+Cost 5000
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+Affect 13 20 1 0 0
+Affect 14 20 1 0 0
+End
+
+#73679
+Name table inglehood~
+Short a table~
+Descr
+The grand meeting table of Inglehood is in the center of the room here.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#73680
+Name inglehood shoulder plate shoulderplate spiked~
+Short [1m[30mA spiked shoulderplate of '[1m[35mInglehood[0m[1m[30m'[0m~
+Descr
+A Spiked shoulder plate of Inglehood is here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 32769
+Values 0 5 2 5 10 10 60 60 10 5 0
+Weight 33
+Cost 500
+Affect 17 1 1 0 0
+Affect 14 20 1 0 0
+Affect 13 10 1 0 0
+Affect 18 1 1 0 0
+End
+
+#73681
+Name neck necklace war pendant inglehood apb~
+Short [1m[30man [1m[35mInglehood[1m[30m war pendant~
+Descr
+A pendant of war is here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 5
+Values 0 4 5 3 0 0 0 0 0 0 0
+Weight 16
+Cost 500
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#73689
+Name ashwani poiniard dagger apb 2apb~
+Short [1m[37mAshwani's [34mPoiniard[0m~
+Descr
+Ashwanis poiniard is here.
+[0;36m~
+Type 5
+Extra 302121026
+Wear 24577
+Values 0 15 0 2 0 0 0 9 2 0 0
+Weight 90
+Cost 44432
+Affect 18 3 2 0 0
+Affect 19 2 1 0 0
+End
+
+#73690
+Name belt girdle inglehood apb~
+Short [1m[30mThe dark girdle of '[35mInglehood[30m'[0m~
+Descr
+A girdle is here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 2049
+Values 5 5 0 0 10 10 60 60 10 5 0
+Weight 25
+Cost 400
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#73692
+Name anklet inglehood dark~
+Short [1m[30mA dark anklet of [1m[35mInglehood[0m~
+Descr
+An anklet is here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 524289
+Values 9 0 0 0 10 10 60 60 10 5 0
+Weight 7
+Cost 5000
+Affect 14 20 3 0 0
+Affect 13 10 2 0 0
+Affect 22 3 1 0 0
+End
+
+#73694
+Name pants inglehood dark~
+Short [1m[30mThe dark pants of [1m[35mInglehood[0m~
+Descr
+Some pants are balled up on the floor here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 33
+Values 8 0 0 0 10 10 60 60 10 5 0
+Weight 76
+Cost 500
+Affect 13 20 1 0 0
+Affect 14 20 2 0 0
+End
+
+#73695
+Name dark ingelhood breastplate body apb 2apb~
+Short [1m[30mThe dark breastplate of [35mInglehood[0m~
+Descr
+A breastplate is here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 9
+Values 0 11 0 0 10 10 60 60 10 5 0
+Weight 99
+Cost 5000
+Affect 19 2 1 0 0
+Affect 17 4 1 0 0
+Affect 13 -30 3 0 0
+Affect 18 -5 4 0 0
+End
+
+#73696
+Name inglehood dark vambraces~
+Short [1m[30mThe dark vambraces of [1m[35mInglehood[0m~
+Descr
+A pair of vambraces are here
+[0;36m~
+Type 9
+Extra 33554433
+Wear 257
+Values 0 0 0 10 10 10 60 60 10 5 0
+Weight 118
+Cost 5000
+Affect 13 10 1 0 0
+Affect 14 10 2 0 0
+Affect 19 1 3 0 0
+End
+
+#73697
+Name robe cloak inglehood apb~
+Short [1m[30mThe dark cloak of [1m[35mInglehood[0m~
+Descr
+An Inglehood cloak is here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 1025
+Values 3 6 2 4 10 10 60 60 10 5 0
+Weight 108
+Cost 5000
+Affect 19 1 1 0 0
+Affect 13 -20 2 0 0
+Affect 14 20 3 0 0
+End
+
+#73698
+Name dark mask inglehood~
+Short [1m[30mThe dark mask of [1m[35mInglehood[0m~
+Descr
+A dark mask is collecting dust here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 65537
+Values 0 2 5 2 10 10 60 60 10 5 0
+Weight 49
+Cost 5000
+Affect 13 30 3 0 0
+Affect 20 3 4 0 0
+End
+
+#73699
+Name dark helm inglehood head apb helmet~
+Short [1m[35mThe dark helm of [1m[30mInglehood[0m~
+Descr
+A helm is here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 17
+Values 0 2 6 0 10 10 60 60 10 5 0
+Weight 31
+Cost 5000
+Affect 19 1 1 0 0
+Affect 18 3 2 0 0
+Affect 13 15 3 0 0
+Affect 14 -15 4 0 0
+End
+
+#73700
+Name flaming shield inglehood~
+Short [1m[30mThe[0m [0m[31m<<< F l a m i n g >>>[0m [1m[30mshield of '[35mInglehood[30m'[0m~
+Descr
+A Flaming shield is here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 513
+Values 8 8 8 8 0 0 0 0 0 2 0
+Weight 75
+Cost 1000
+Affect 13 20 1 0 0
+Affect 14 20 1 0 0
+Affect 20 5 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#73674
+Name A Hidden Path~
+Descr
+You stand in the middle of a small hidden path. To the east, lies the
+Southern Road, to the west a small building, perhaps you should see whats
+inside. 
+~
+Flags 262144
+Door 1 257 0 10151 30 30
+~
+thornbush~
+Door 3 0 0 73675 0 0
+~
+~
+End
+
+#73675
+Name The Entrance to a Large Clanhouse~
+Descr
+This is the entrance to a small clanhouse. The words Inglehood are
+inscribed above the door. The building is small, but looks very opulent,
+this clan must be extremely wealthy. As you peer passed several burly guards
+you notice it is a very secluded encamptment. You think this may be of much
+danger as you could very well be trapped. 
+~
+Flags 262150
+Reset M 73674 5 100
+Reset M 73674 5 100
+Reset M 73674 5 100
+Reset M 73674 5 100
+Reset M 73674 5 100
+Door 1 0 0 73674 0 0
+~
+~
+Door 3 3 0 73676 30 30
+~
+clandoor~
+End
+
+#73676
+Name The Clan Courtyard~
+Descr
+You have arrived at the great entry hall of Clan Inglehood. As you glance
+around you, you notice a great number of thief apprentices and trainers.
+Although you feel intimated you feel the urge to move foward and explore the
+vast region of which you have no knowledge. 
+~
+Flags 263174
+Reset M 73675 1 100
+Reset M 73680 3 100
+Reset M 73680 3 100
+Reset M 73680 3 100
+Door 0 0 0 73677 0 0
+~
+~
+Door 1 3 0 73675 30 30
+~
+clandoor~
+Door 2 0 0 73678 0 0
+~
+~
+Door 3 0 0 73680 0 0
+~
+~
+End
+
+#73677
+Name The Clan Courtyard~
+Descr
+As you look around the room you notice a fairly suttle atmosphere. To
+your dismay your quickly notice a small thiefs hand in your pocket. As you
+glance around you notice numerous teachers, and young apprentices training.
+You become anxious, and feel the urge to keep moving.
+~
+Flags 263172
+Door 2 0 0 73676 0 0
+~
+~
+Door 3 0 0 73681 0 0
+~
+~
+End
+
+#73678
+Name The Clan Courtyard~
+Descr
+As you look around the room you notice a fairly suttle atmosphere. To
+your dismay your quickly notice a small thiefs hand in your pocket. As you
+glance around you notice numerous teachers, and young apprentices training.
+You become anxious, and feel the urge to keep moving.
+~
+Flags 263300
+Door 0 0 0 73676 0 0
+~
+~
+Door 3 0 0 73679 0 0
+~
+~
+End
+
+#73679
+Name The Clan Courtyard~
+Descr
+As you look around the room you notice a fairly suttle atmosphere. To
+your dismay your quickly notice a small thiefs hand in your pocket. As you
+glance around you notice numerous teachers, and young apprentices training.
+You become anxious, and feel the urge to keep moving.
+~
+Flags 263300
+Door 0 0 0 73680 0 0
+~
+~
+Door 1 0 0 73678 0 0
+~
+~
+Door 3 0 0 73684 0 0
+~
+~
+End
+
+#73680
+Name The Clan Courtyard~
+Descr
+As you look around the room you notice a fairly suttle atmosphere. To
+your dismay your quickly notice a small thiefs hand in your pocket. As you
+glance around you notice numerous teachers, and young apprentices training.
+You become anxious, and feel the urge to keep moving. 
+~
+Flags 263300
+Door 0 0 0 73681 0 0
+~
+~
+Door 1 0 0 73676 0 0
+~
+~
+Door 2 0 0 73679 0 0
+~
+~
+Door 3 0 0 73683 0 0
+~
+~
+Door 5 0 0 73691 0 0
+~
+~
+End
+
+#73681
+Name The Clan Courtyard~
+Descr
+As you look around the room you notice a fairly suttle atmosphere. To
+your dismay your quickly notice a small thiefs hand in your pocket. As you
+glance around you notice numerous teachers, and young apprentices training.
+You become anxious, and feel the urge to keep moving.
+~
+Flags 263300
+Reset M 73675 3 100
+Door 1 0 0 73677 0 0
+~
+~
+Door 2 0 0 73680 0 0
+~
+~
+Door 3 0 0 73682 0 0
+~
+~
+End
+
+#73682
+Name The Clan Courtyard~
+Descr
+As you look around the room you notice a fairly subtle atmosphere. To
+your dismay your quickly notice a small thiefs hand in your pocket. As you
+glance around you notice numerous teachers, and young apprentices training.
+You become anxious, and feel the urge to keep moving.
+~
+Flags 263300
+Door 0 0 0 73688 0 0
+~
+~
+Door 1 0 0 73681 0 0
+~
+~
+Door 2 0 0 73683 0 0
+~
+~
+Door 4 0 0 73690 0 0
+~
+~
+End
+
+#73683
+Name The Clan Coutyard~
+Descr
+As you look around the room you notice a fairly suttle atmosphere. To
+your dismay your quickly notice a small thiefs hand in your pocket. As you
+glance around you notice numerous teachers, and young apprentices training.
+You become anxious, and feel the urge to keep moving.
+~
+Flags 263300
+Door 0 0 0 73682 0 0
+~
+~
+Door 1 0 0 73680 0 0
+~
+~
+Door 2 0 0 73684 0 0
+~
+~
+End
+
+#73684
+Name The Clan Courtyard~
+Descr
+As you look around the room you notice a fairly suttle atmosphere. To
+your dismay your quickly notice a small thiefs hand in your pocket. As you
+glance around you notice numerous teachers, and young apprentices training.
+You become anxious, and feel the urge to keep moving.
+~
+Flags 263300
+Door 0 0 0 73683 0 0
+~
+~
+Door 1 0 0 73679 0 0
+~
+~
+Door 3 0 0 73685 0 0
+~
+~
+End
+
+#73685
+Name A Hallway~
+Descr
+You have reached a damp, dark hallway. Nearby you notice a large room,
+seeminly awaiting your arrival. You feel a sense of exploration and
+curiously peer toward the large room. You notice trails of blood about the
+hallway, then think perhaps to leave from where you came.
+~
+Flags 263300
+Door 1 0 0 73684 0 0
+~
+~
+Door 2 0 0 73686 0 0
+~
+~
+End
+
+#73686
+Name The Interrigation Room~
+Descr
+You have reached a damp, dark hallway. Nearby you notice a large room,
+seeminly awaiting your arrival. You feel a sense of exploration and
+curiously peer toward the large room. You notice trails of blood about the
+hallway, then think perhaps to leave from where you came. 
+~
+Flags 263300
+Door 0 0 0 73685 0 0
+~
+~
+Door 3 3 0 73687 30 30
+~
+door~
+End
+
+#73687
+Name The Torture Chamber~
+Descr
+You have reached a large room. The walls are formed from heavy stone, and
+odd weapons lie in racks upon the tables and floors. You notice trails of
+blood upon the tables and floors of the room, and quickly decide that it
+would not be wise to stick around for your turn. 
+~
+Flags 263300
+Reset M 73676 3 100
+Reset O 73676 1 1
+Reset O 73676 1 1
+Reset O 73675 2 2
+Reset O 73678 0 1
+Door 1 3 0 73686 30 30
+~
+door~
+End
+
+#73688
+Name A Hallway~
+Descr
+You have reached a dark, damp hallway. You notice a large room nearby.
+Trails of blood, and markings of small bones line the floor. You are no
+longer eager to explore, and feel urged to procede with great caution. 
+~
+Flags 263300
+Door 2 0 0 73682 0 0
+~
+~
+Door 3 0 0 73689 0 0
+~
+~
+End
+
+#73689
+Name Ashwani's Office~
+Descr
+You have reached a large chamber which is dark, and quite dank. As you
+glance around you notice traces of blood, and entrails which line the room
+and corners. You shudder to think what cruel acts may take place in such a
+room. You notice some engravings in the wall, which are quite old, and dim.
+As you take a moment to let it all sink in you quickly decide you should not
+spend very long here.
+~
+Flags2 4
+Flags 2360452
+Reset M 73677 1 100
+Reset O 73689 1 1
+Reset O 73690 10 10
+Door 1 0 0 73688 0 0
+~
+~
+End
+
+#73690
+Name The Clanstorage~
+Descr
+You have entered a small dark hallway. You glance around yourself but
+notice nothing other than some guards in the distance. You are curious as to
+what they may be protecting and feel the urge to move on and explore.
+~
+Flags 263300
+Door 2 259 0 73700 30 30
+~
+clandoor~
+Door 5 0 0 73682 0 0
+~
+~
+End
+
+#73691
+Name Stairway to the Training Pit~
+Descr
+~
+Flags 262278
+Door 4 0 0 73680 0 0
+~
+~
+Door 5 0 0 73692 0 0
+~
+~
+End
+
+#73692
+Name The Training Pit~
+Descr
+~
+Flags 262276
+Door 0 0 0 73693 0 0
+~
+~
+Door 4 0 0 73691 0 0
+~
+~
+End
+
+#73693
+Name The Training Pit~
+Descr
+~
+Flags 262276
+Reset M 73679 3 75
+Reset M 73679 3 75
+Reset M 73679 3 75
+Reset M 73675 1 100
+Door 0 0 0 73699 0 0
+~
+~
+Door 1 0 0 73694 0 0
+~
+~
+Door 2 0 0 73692 0 0
+~
+~
+Door 3 0 0 73697 0 0
+~
+~
+End
+
+#73694
+Name The Training Pit~
+Descr
+~
+Flags 262276
+Reset M 73679 1 75
+Door 0 0 0 73695 0 0
+~
+~
+Door 3 0 0 73693 0 0
+~
+~
+End
+
+#73695
+Name The Training Pit~
+Descr
+~
+Flags 262276
+Reset M 73679 1 100
+Door 2 0 0 73694 0 0
+~
+~
+Door 3 0 0 73699 0 0
+~
+~
+End
+
+#73696
+Name The Training Pit~
+Descr
+~
+Flags 262276
+Reset M 73679 1 75
+Door 1 0 0 73699 0 0
+~
+~
+Door 2 0 0 73697 0 0
+~
+~
+End
+
+#73697
+Name The Training Pit~
+Descr
+~
+Flags 262276
+Reset M 73679 1 100
+Door 0 0 0 73696 0 0
+~
+~
+Door 1 0 0 73693 0 0
+~
+~
+Door 2 0 0 73698 0 0
+~
+~
+End
+
+#73698
+Name The Thieves Trainer~
+Descr
+~
+Flags 262276
+Reset M 73679 2 75
+Reset M 73679 2 75
+Reset M 73678 1 100
+Reset O 73677 15 10
+Door 0 0 0 73697 0 0
+~
+~
+End
+
+#73699
+Name The Training Pit~
+Descr
+~
+Flags 262276
+Door 1 0 0 73695 0 0
+~
+~
+Door 2 0 0 73693 0 0
+~
+~
+Door 3 0 0 73696 0 0
+~
+~
+End
+
+#73700
+Name A Small Hallway~
+Descr
+You have entered a small dark hallway. You glance around yourself but
+notice nothing other than some guards in the distance. You are curious as to
+what they may be protecting and feel the urge to move on and explore.
+~
+Flags 263172
+Door 0 259 0 73690 30 30
+~
+clandoor~
+Door 1 0 0 73701 0 0
+~
+~
+End
+
+#73701
+Name A Small Hallway~
+Descr
+You have entered a small dark hallway. You glance around yourself but
+notice nothing other than some guards in the distance. You are curious as to
+what they may be protecting and feel the urge to move on and explore.
+~
+Flags 263172
+Door 2 0 0 73702 0 0
+~
+~
+Door 3 0 0 73700 0 0
+~
+~
+End
+
+#73702
+Name A Small Hallway~
+Descr
+You have entered a small dark hallway. You glance around yourself but
+notice nothing other than some guards in the distance. You are curious as to
+what they may be protecting and feel the urge to move on and explore.
+~
+Flags 263172
+Door 0 0 0 73701 0 0
+~
+~
+Door 3 0 0 73703 0 0
+~
+~
+End
+
+#73703
+Name A Small Hallway~
+Descr
+You have entered a small hallway which bears several small guards. They
+seem to be guarding the south exit in some form of protection. You eagerly
+peer around the guards to see what they might be keeping you from. 
+~
+Flags 263172
+Reset M 73681 4 100
+Reset M 73681 4 100
+Reset M 73681 4 100
+Reset M 73681 4 100
+Door 1 0 0 73702 0 0
+~
+~
+Door 2 0 0 73704 0 0
+~
+~
+End
+
+#73704
+Name A Small Hallway~
+Descr
+You have entered a small hallway which bears two burly guards. To the
+east you notice a translucent figure which hovers about the room. You feel
+almost trapped as the guards peer at your angrily. 
+~
+Flags 263172
+Reset M 73682 2 100
+Reset M 73682 2 100
+Door 0 0 0 73703 0 0
+~
+~
+Door 1 0 0 73705 0 0
+~
+~
+End
+
+#73705
+Name The Round Table~
+Descr
+You have entered the chambers of Jirquina Zuenas, the founder of
+Inglehood. You feel intimidated by her presence and feel as if you should
+stay here for a short period of time. You notice that she has a transparent
+look about her, and an imiting glow which illuminates the room. 
+~
+Flags 263172
+Reset O 73679 -5 100
+Reset M 73683 1 75
+Reset O 73700 10 10
+Reset O 73681 10 10
+Reset O 73680 10 10
+Door 3 0 0 73704 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,2898 @@
+#AREADATA 
+Name The Hidden Evlen City of Lythlorden~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Bern~
+VNUMs 42400 42599
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#42400
+Name citizen elf lythlorden aone codeone~
+Short a citizen of Lythlorden~
+Long 
+A citizen of Lythlorden is here at peace with his surroundings.
+~
+AMax 8
+NHeight 0
+ActBits 4
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 100
+Level 165
+Sex 1
+MobType 1
+Hp 3
+Guard 0
+BCasts cantrip~
+BCasts greater healing touch~
+BCasts curse~
+BCast_P 40
+End
+
+#42401
+Name elvish elf banker lythlorden aone codeone~
+Short an elvish banker~
+Long 
+An elvish banker of Lythlorden is here awaiting your request.
+~
+AMax 1
+NHeight 0
+ActBits 132114
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 1000
+Level 165
+Sex 1
+MobType 1
+Guard 0
+BCasts greater healing touch~
+BCasts curse~
+BCast_P 40
+End
+
+#42402
+Name elf elvish bank guard aone~
+Short an elvish bank guard~
+Long 
+A bank guard stands here ensuring that nothing untoward happens.
+~
+AMax 1
+NHeight 0
+ActBits 1024
+ActBits4 -1979711488
+Affect_By 1049096
+Alignment 2
+Money 200
+Level 165
+Sex 1
+MobType 1
+Hp 5
+Guard 0
+Spec spec_warrior
+BCasts greater healing touch~
+BCasts curse~
+BCasts steel spike~
+BCast_P 25
+End
+
+#42403
+Name kyree elf codeone aone~
+Short Kyree the merchant~
+Long 
+Kyree is here peddling assorted foods available to those of Lythlorden.
+~
+AMax 1
+NHeight 0
+ActBits 18
+Affect_By 520
+Alignment 2
+Money 500
+Level 165
+Sex 2
+MobType 1
+Hp 5
+Guard 0
+Shop    0  19   0   0   0 150 50 0 23
+Shopd2 10
+Shopd3 3
+ShopCr 42400
+ShopCS Kyree pulls another one of her specialty dishes from the oven!~
+ShCrh 4
+BCasts greater healing touch~
+BCasts curse~
+BCasts cantrip~
+BCast_P 40
+End
+
+#42404
+Name juriam elf provisioner aone codeone~
+Short Juriam the Provisioner~
+Long 
+Juriam the Provisioner is here awaiting your order.
+~
+AMax 1
+NHeight 0
+ActBits 18
+Affect_By 520
+Money 500
+Level 165
+Sex 2
+MobType 1
+Hp 8
+Guard 0
+Spec spec_warrior
+Shop    0   0   5   0   0 100 50 0 23
+Shopd2 10
+Shopd3 3
+BCasts greater healing touch~
+BCasts curse~
+BCasts cantrip~
+BCast_P 25
+End
+
+#42405
+Name mysik smithy elven aone codeone elf~
+Short Mysik the Smithy~
+Long 
+Mysik the Smithy is here repairing metal trinkets over a hot forge.
+~
+AMax 1
+NHeight 0
+ActBits 3145730
+ActBits4 134217728
+Affect_By 520
+Money 500
+Level 165
+Sex 1
+MobType 1
+Hp 8
+Guard 0
+Spec spec_warrior
+BCasts greater healing touch~
+BCasts curse~
+BCasts charged bolt~
+BCast_P 25
+End
+
+#42406
+Name taemor innkeeper inn keep elf elvish aone codeone~
+Short Taemor the Innkeep~
+Long 
+Taemor the Inn-Keep is here watching over her staff.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 2
+ActBits4 134217728
+Affect_By 520
+Money 600
+Level 165
+Sex 2
+MobType 1
+Hp 8
+Guard 4
+Spec spec_warrior
+BCasts greater healing touch~
+BCasts curse~
+BCasts dazzle~
+BCast_P 30
+End
+
+#42407
+Name elven maiden waitress elf aone codeone~
+Short an elven maiden~
+Long 
+An elven maiden is here serving the customers their drinks.
+~
+AMax 1
+NHeight 0
+ActBits 17
+ActBits4 134217728
+Affect_By 552
+Alignment 2
+Money 200
+Level 165
+Sex 2
+MobType 1
+Hp 3
+Guard 0
+Shop    0   0   0  17   0 100 50 0 23
+Shopd2 100
+Shopd3 1
+ShopCr 42405
+ShopCS Another glass of elven ale is poured.~
+ShCrh 3
+BCasts healing touch~
+BCasts cantrip~
+BCasts curse~
+BCast_P 25
+End
+
+#42408
+Name citizen elf lythlorden aone codeone male~
+Short a citizen of Lythlorden~
+Long 
+A male elf is here relaxing in his home.
+~
+AMax 7
+NHeight 0
+ActBits 4
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 100
+Level 165
+Sex 1
+MobType 1
+Hp 3
+Guard 0
+End
+
+#42409
+Name noble elf lythlorden aone codeone~
+Short a noble of Lythlorden~
+Long 
+A noble of tthe court of Lythlorden is here contemplating his wealth.
+~
+AMax 3
+NHeight 0
+ActBits 4
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 1000
+Level 165
+Sex 1
+MobType 1
+Hp 3
+Guard 0
+End
+
+#42410
+Name lady court elf lythlorden codeone aone~
+Short a lady of the court of Lythlorden~
+Long 
+A lady of the court of Lythlorden is here speaking her mind.
+~
+AMax 2
+NHeight 0
+ActBits 4
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 300
+Level 165
+Sex 2
+MobType 1
+Hp 3
+Guard 0
+End
+
+#42411
+Name maid elf codeone aone~
+Short an elven maid~
+Long 
+A maid is here keeping the Lord's home clean.
+~
+AMax 4
+NHeight 0
+ActBits 4
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 100
+Level 165
+Sex 2
+MobType 1
+Hp 3
+Guard 0
+End
+
+#42412
+Name lady home elf aone codeone~
+Short the Lady of the House~
+Long 
+The Lady of the House is here overlooking the servants work.
+~
+AMax 3
+NHeight 0
+ActBits 1028
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 400
+Level 165
+Sex 2
+MobType 1
+Hp 3
+Guard 0
+End
+
+#42413
+Name nanny elf elven aone codeone~
+Short an elven nanny~
+Long 
+A nanny is here overseeing the education of the young prince of Lythlorden.
+~
+AMax 1
+NHeight 0
+ActBits 4
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 100
+Level 165
+Sex 2
+MobType 1
+Hp 3
+Guard 0
+End
+
+#42414
+Name taslil queen elf elven lythlorden aone codeone~
+Short Taslil, Queen of Lythlorden~
+Long 
+Taslil, Queen of all Lythlorden, is here overseeing the home of her lord.
+~
+AMax 1
+NHeight 0
+ActBits 1028
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 500
+Level 200
+Sex 2
+MobType 1
+Guard 0
+BCasts hands of wind~
+BCast_P 50
+End
+
+#42415
+Name malconious elf elven prince lythlorden aone codeone~
+Short Malconious, Prince of Lythlorden~
+Long 
+The young prince Malconious is here learning the basics of his heritage.
+~
+AMax 1
+NHeight 0
+ActBits 4
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 100
+Level 118
+Sex 1
+MobType 1
+Hp 6
+Guard 0
+BCasts dazzle~
+BCast_P 40
+End
+
+#42416
+Name guard court elven lythlorden aone codeone~
+Short a guard of the Lythlorden Court~
+Long 
+A Lythlordian Court Guard is here blocking all passage into the upper homes.
+~
+AMax 1
+NHeight 0
+ActBits 1030
+ActBits3 2
+ActBits4 -1979711488
+Affect_By 520
+Alignment 2
+Money 200
+Level 165
+Sex 1
+MobType 1
+Hp 8
+Guard 4
+Spec spec_warrior
+End
+
+#42417
+Name poor elf citizen lythlorden aone codeone~
+Short a poor citizen of Lythlorden~
+Long 
+A poor citizen of Lythlorden is here wishing for something more.
+~
+AMax 2
+NHeight 0
+ActBits 4
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 50
+Level 165
+Sex 1
+MobType 1
+Hp 3
+Guard 0
+End
+
+#42418
+Name odec elf mountaineer aone codeone~
+Short Odec the Mountaineer~
+Long 
+Odec, a once great mountaineer, is here dreaming of the old days.
+~
+AMax 1
+NHeight 0
+ActBits 1044
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 40
+Level 200
+Sex 1
+MobType 1
+Hp 8
+Guard 0
+Spec spec_warrior
+BCast_P 30
+End
+
+#42419
+Name vanor elf lythlorden captain guard aone codeone~
+Short Vanor the Guard Captain~
+Long 
+Vanor, captain of the guard, is here reviewing the kings orders.
+~
+AMax 1
+NHeight 0
+ActBits 1044
+ActBits4 -1979711488
+Affect_By 520
+Alignment 2
+Money 100
+Level 200
+Sex 1
+MobType 1
+Hp 8
+Guard 0
+Spec spec_warrior
+BCast_P 30
+End
+
+#42420
+Name guard lythlorden elf aone codeone~
+Short a guard of Lythlorden~
+Long 
+A guard of the elven city of Lythlorden is here keeping people in?
+~
+AMax 2
+NHeight 0
+ActBits 6
+ActBits3 2
+ActBits4 134217728
+Affect_By 648
+AffectTWO 524288
+Alignment 2
+Money 100
+Level 200
+Sex 1
+MobType 1
+Hp 20
+Guard 1
+Spec spec_warrior
+BCast_P 30
+End
+
+#42421
+Name guard lythlorden elf~
+Short a guard of Lythlorden~
+Long 
+A guard of the elven city of Lythlorden is here relaxing from a hard days work.
+~
+AMax 4
+NHeight 0
+ActBits 1028
+ActBits4 -1979711488
+Affect_By 520
+AffectTWO 524288
+Alignment 2
+Money 100
+Level 200
+Sex 1
+MobType 1
+Hp 20
+Guard 1
+End
+
+#42422
+Name guard lythlorden elf~
+Short a guard of Lythlorden~
+Long 
+A guard of Lythlorden is here walking the tunnels to ensure the safety of the city.
+~
+AMax 4
+NHeight 0
+ActBits 1028
+ActBits4 -1979711488
+Affect_By 520
+AffectTWO 524288
+Alignment 2
+Money 100
+Level 165
+Sex 1
+MobType 1
+Hp 8
+Guard 1
+BCast_P 20
+End
+
+#42423
+Name guard lythlorden elf aone codeone~
+Short a guard of Lythlorden~
+Long 
+A guard of the court of Lythlorden is here blocking passage to the king.
+~
+AMax 1
+NHeight 0
+ActBits 6
+ActBits3 2
+ActBits4 -1979711488
+Affect_By 648
+AffectTWO 524288
+Alignment 2
+Money 100
+Level 200
+Sex 1
+MobType 1
+Hp 20
+Guard 1
+End
+
+#42424
+Name keeper hall damned elf lythlorden aone codeone~
+Short the keeper of the hall~
+Long 
+The keeper to the Hall of the Damned is here standing guard.
+~
+AMax 1
+NHeight 0
+ActBits 6
+ActBits3 2
+ActBits4 -1979711488
+Affect_By 520
+Alignment 2
+Money 200
+Level 165
+Sex 1
+MobType 1
+Hp 6
+Guard 3
+Spec spec_warrior
+End
+
+#42425
+Name lythlorden elf king aone codeone~
+Short Lythlorden, King of the Hidden City~
+Long 
+Lythlorden, king of the hidden city, is here pondering the fate of his kingdom.
+~
+AMax 1
+NHeight 0
+ActBits 1028
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 5000
+Level 200
+Sex 1
+MobType 1
+Hp 20
+Guard 0
+Spec spec_warrior
+BCasts hands of wind~
+BCast_P 25
+End
+
+#42426
+Name fedar elf mage~
+Short Fedar the Mage~
+Long 
+Fedar the Mage is here upset that he can not leave the city.
+~
+AMax 1
+NHeight 0
+ActBits 1042
+ActBits4 134217728
+Affect_By 520
+Level 165
+Sex 1
+MobType 1
+Hp 7
+Guard 0
+BCasts greater healing touch~
+BCasts lightning strike~
+BCasts hands of wind~
+BCast_P 40
+End
+
+#42427
+Name sorka thief kender~
+Short Sorka the Scourge of Athenae~
+Long 
+Sorka the Scourge of Athenae has been hiding here for a very long time.
+~
+AMax 1
+NHeight 0
+ActBits 1044
+ActBits3 65536
+ActBits4 134217728
+Affect_By 1147432
+Alignment 1
+Level 165
+Sex 2
+MobType 34
+Hp 15
+Guard 0
+Spec spec_thief
+End
+
+#42428
+Name groznish ogre mercenary~
+Short Groznish the Ogre Mercenary~
+Long 
+Groznish, an ogre mercenary, is here resting from a war long ago.
+~
+AMax 1
+NHeight 0
+ActBits 67109892
+ActBits4 134217728
+Affect_By 520
+Alignment 2
+Money 200
+Level 165
+Sex 1
+MobType 23
+Hp 15
+Guard 0
+Spec spec_warrior
+End
+
+#42429
+Name inn guest human~
+Short a guest of the inn~
+Long 
+A guest of the inn is here bothered by his being awakened.
+~
+AMax 2
+NHeight 0
+ActBits 1026
+Affect_By 134349352
+Money 200
+Level 165
+Sex 1
+MobType 0
+Hp 4
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#42400
+Name bread food elven waybread~
+Short [0ma [33mloaf[0m of [32mE[1ml[0m[32mv[1me[0m[32mn[0m [33mWaybread[0m~
+Descr
+A loaf of tasty Elven Waybread is here covered in dust!
+[0;36m~
+Type 19
+Wear 1
+Timer 800
+Values 40 0 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 20
+End
+
+#42401
+Name kelp seaweed stalk food~
+Short [0ma stalk of [32mkelp[0m~
+Descr
+A stalk of seaweed is here drying out in the air.
+[0;36m~
+Type 19
+Wear 1
+Timer 250
+Values 20 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 20
+End
+
+#42402
+Name fish blue salted food filet~
+Short [0ma filet of salted [1m[34mblue fish[0m~
+Descr
+A filet of salted fish lies here covered in flies.
+[0;36m~
+Type 19
+Wear 1
+Timer 600
+Values 40 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 100
+End
+
+#42403
+Name fountain elven intricate lythlorden~
+Short a fountain~
+Descr
+The intricate fountain of Lythlorden is here spraying colorful water.
+[0;36m~
+Type 25
+Wear 0
+Values 100 0 0 125 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#42404
+Name elven wineskin skin wine~
+Short [0man [32mE[1ml[0m[32mv[1me[0m[32mn[0m [35mwineskin[0m~
+Descr
+A colorful wineskin is here on the ground being trampled underfoot.
+[0;36m~
+Type 17
+Wear 24577
+Values 50 50 2 0 0 0 0 0 0 0 0
+Weight 5
+Cost 400
+End
+
+#42405
+Name glass elven ale~
+Short [0ma glass of [32mE[1ml[0m[32mv[1me[0m[32mn[0m [33m[1mAle[0m~
+Descr
+A glass of Elven Ale is here on the ground waiting to be drank.
+[0;36m~
+Type 17
+Wear 1
+Values 10 10 3 0 0 0 0 0 0 0 0
+Weight 2
+Cost 50
+End
+
+#42406
+Name table~
+Short a table~
+Descr
+A small round table is here for the customers to sit at.
+[0;36m~
+Type 12
+Wear 0
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#42407
+Name counter merchants~
+Short a counter~
+Descr
+A wooden counter is here displaying various bits of merchandise.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#42408
+Name no name~
+Short a wooden bar~
+Descr
+A wooden bar is here displaying the few liquors available.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#42400
+Name The Gates of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42420 1 100
+Reset M 42420 1 100
+Door 0 259 0 42401 30 30
+~
+door~
+Door 1 259 0 42006 30 30
+~
+barrier~
+Door 3 2 0 42405 30 30
+~
+gate~
+End
+
+#42401
+Name The Guards' Quarters~
+Descr
+~
+Flags 20
+Sector 41
+Reset O 22029 -5 100
+Reset M 42421 1 100
+Door 0 0 0 42402 0 0
+~
+~
+Door 2 259 0 42400 30 30
+~
+door~
+Door 3 0 0 42403 0 0
+~
+~
+End
+
+#42402
+Name The Guards' Quarters~
+Descr
+~
+Flags 20
+Sector 41
+Reset O 22029 -5 100
+Reset M 42421 1 100
+Door 2 0 0 42401 0 0
+~
+~
+Door 3 0 0 42404 0 0
+~
+~
+End
+
+#42403
+Name The Guards' Quarters~
+Descr
+~
+Flags 20
+Sector 41
+Reset O 22029 -5 100
+Reset M 42421 1 100
+Door 0 0 0 42404 0 0
+~
+~
+Door 1 0 0 42401 0 0
+~
+~
+End
+
+#42404
+Name The Guards' Quarters~
+Descr
+~
+Flags 20
+Sector 41
+Reset O 22029 -5 100
+Reset M 42421 1 100
+Door 1 0 0 42402 0 0
+~
+~
+Door 2 0 0 42403 0 0
+~
+~
+End
+
+#42405
+Name The Tunnel Into Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 1 2 0 42400 30 30
+~
+gate~
+Door 2 0 0 42406 0 0
+~
+~
+End
+
+#42406
+Name The Tunnel Into Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42405 0 0
+~
+~
+Door 2 0 0 42407 0 0
+~
+~
+End
+
+#42407
+Name The Tunnel Into Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42406 0 0
+~
+~
+Door 2 0 0 42408 0 0
+~
+~
+End
+
+#42408
+Name The Tunnel Into Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42422 1 100
+Door 0 0 0 42407 0 0
+~
+~
+Door 3 0 0 42409 0 0
+~
+~
+End
+
+#42409
+Name The Tunnel Into Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 1 0 0 42408 0 0
+~
+~
+Door 3 0 0 42410 0 0
+~
+~
+End
+
+#42410
+Name The Town Square of Lythlorden~
+Descr
+~
+Flags 20
+Sector 43
+Door 0 0 0 42425 0 0
+~
+~
+Door 1 0 0 42409 0 0
+~
+~
+Door 2 0 0 42428 0 0
+~
+~
+Door 3 0 0 42411 0 0
+~
+~
+End
+
+#42411
+Name The Town Square of Lythlorden~
+Descr
+~
+Flags 20
+Sector 43
+Reset O 42403 -5 100
+Door 0 0 0 42424 0 0
+~
+~
+Door 1 0 0 42410 0 0
+~
+~
+Door 2 0 0 42427 0 0
+~
+~
+Door 3 0 0 42412 0 0
+~
+~
+End
+
+#42412
+Name The Town Square of Lythlorden~
+Descr
+~
+Flags 20
+Sector 43
+Door 0 0 0 42423 0 0
+~
+~
+Door 1 0 0 42411 0 0
+~
+~
+Door 2 0 0 42426 0 0
+~
+~
+Door 3 0 0 42413 0 0
+~
+~
+End
+
+#42413
+Name The Tunnel of Vanor~
+Descr
+~
+Flags 20
+Sector 47
+Door 1 0 0 42412 0 0
+~
+~
+Door 3 0 0 42414 0 0
+~
+~
+End
+
+#42414
+Name The Tunnel of Vanor~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42400 1 100
+Door 1 0 0 42413 0 0
+~
+~
+Door 3 0 0 42415 0 0
+~
+~
+End
+
+#42415
+Name The Tunnel of Vanor~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42485 0 0
+~
+~
+Door 1 0 0 42414 0 0
+~
+~
+Door 2 3 0 42420 30 30
+~
+door~
+Door 3 0 0 42416 0 0
+~
+~
+End
+
+#42416
+Name The Tunnel of Vanor~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42422 1 100
+Door 1 0 0 42415 0 0
+~
+~
+Door 3 0 0 42417 0 0
+~
+~
+End
+
+#42417
+Name The Tunnel of Vanor~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 3 0 42418 30 30
+~
+door~
+Door 1 0 0 42416 0 0
+~
+~
+End
+
+#42418
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Door 1 0 0 42419 0 0
+~
+~
+Door 2 3 0 42417 30 30
+~
+door~
+End
+
+#42419
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42408 1 100
+Door 3 0 0 42418 0 0
+~
+~
+End
+
+#42420
+Name The House of Vanor~
+Descr
+~
+Flags 20
+Sector 41
+Door 0 3 0 42415 30 30
+~
+door~
+Door 1 0 0 42421 0 0
+~
+~
+End
+
+#42421
+Name The House of Vanor~
+Descr
+~
+Flags 20
+Sector 41
+Door 1 0 0 42422 0 0
+~
+~
+Door 3 0 0 42420 0 0
+~
+~
+End
+
+#42422
+Name The House of Vanor~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42419 1 100
+Door 3 0 0 42421 0 0
+~
+~
+End
+
+#42423
+Name The Town Square of Lythlorden~
+Descr
+~
+Flags 20
+Sector 43
+Reset M 42422 1 100
+Door 1 0 0 42424 0 0
+~
+~
+Door 2 0 0 42412 0 0
+~
+~
+End
+
+#42424
+Name The Town Square of Lythlorden~
+Descr
+~
+Flags 20
+Sector 43
+Door 0 0 0 42429 0 0
+~
+~
+Door 1 0 0 42425 0 0
+~
+~
+Door 2 0 0 42411 0 0
+~
+~
+Door 3 0 0 42423 0 0
+~
+~
+End
+
+#42425
+Name The Town Square of Lythlorden~
+Descr
+~
+Flags 20
+Sector 43
+Reset M 42400 1 100
+Door 2 0 0 42410 0 0
+~
+~
+Door 3 0 0 42424 0 0
+~
+~
+End
+
+#42426
+Name The Town Square of Lythlorden~
+Descr
+~
+Flags 20
+Sector 43
+Reset M 42400 1 100
+Door 0 0 0 42412 0 0
+~
+~
+Door 1 0 0 42427 0 0
+~
+~
+End
+
+#42427
+Name The Town Square of Lythlorden~
+Descr
+~
+Flags 20
+Sector 43
+Door 0 0 0 42411 0 0
+~
+~
+Door 1 0 0 42428 0 0
+~
+~
+Door 3 0 0 42426 0 0
+~
+~
+End
+
+#42428
+Name The Town Square of Lythlorden~
+Descr
+~
+Flags 20
+Sector 43
+Door 0 0 0 42410 0 0
+~
+~
+Door 3 0 0 42427 0 0
+~
+~
+End
+
+#42429
+Name The Market Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 1 0 0 42430 0 0
+~
+~
+Door 2 0 0 42424 0 0
+~
+~
+End
+
+#42430
+Name The Market Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42433 0 0
+~
+~
+Door 1 3 0 42431 30 30
+~
+door~
+Door 3 0 0 42429 0 0
+~
+~
+End
+
+#42431
+Name The Bank of Lythlorden~
+Descr
+~
+Flags 20
+Sector 41
+Door 2 0 0 42432 0 0
+~
+~
+Door 3 3 0 42430 30 30
+~
+door~
+End
+
+#42432
+Name The Bank of Lythlorden~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42401 1 100
+Reset M 42402 1 100
+Door 0 0 0 42431 0 0
+~
+~
+End
+
+#42433
+Name The Market Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42436 0 0
+~
+~
+Door 1 3 0 42434 30 30
+~
+door~
+Door 2 0 0 42430 0 0
+~
+~
+End
+
+#42434
+Name Mysik's Metalworks~
+Descr
+~
+Flags 20
+Sector 41
+Door 0 0 0 42435 0 0
+~
+~
+Door 3 3 0 42433 30 30
+~
+door~
+End
+
+#42435
+Name Mysik's Metalworks~
+Descr
+~
+Flags 20
+Sector 41
+Reset O 66660 -5 100
+Reset M 42405 1 100
+Door 2 0 0 42434 0 0
+~
+~
+End
+
+#42436
+Name The Market Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42442 0 0
+~
+~
+Door 2 0 0 42433 0 0
+~
+~
+Door 3 3 0 42437 30 30
+~
+door~
+End
+
+#42437
+Name The Hidden City Inn~
+Descr
+~
+Flags 20
+Sector 42
+Reset O 42406 -5 100
+Door 1 3 0 42436 30 30
+~
+door~
+Door 2 0 0 42439 0 0
+~
+~
+Door 3 0 0 42438 0 0
+~
+~
+End
+
+#42438
+Name The Hidden City Inn~
+Descr
+~
+Flags 20
+Sector 42
+Reset M 42400 1 100
+Reset O 42406 -5 100
+Door 1 0 0 42437 0 0
+~
+~
+Door 2 0 0 42440 0 0
+~
+~
+Door 3 3 0 42468 30 30
+~
+door~
+End
+
+#42439
+Name The Hidden City Inn~
+Descr
+~
+Flags 20
+Sector 42
+Reset O 42406 -5 100
+Reset M 42407 1 100
+Reset O 42405 -4 100
+Reset O 42405 -4 100
+Reset O 42405 -4 100
+Reset O 42405 -4 100
+Door 0 0 0 42437 0 0
+~
+~
+Door 3 0 0 42440 0 0
+~
+~
+End
+
+#42440
+Name The Hidden City Inn~
+Descr
+~
+Flags 20
+Sector 42
+Reset O 42406 -5 100
+Door 0 0 0 42438 0 0
+~
+~
+Door 1 0 0 42439 0 0
+~
+~
+Door 2 0 0 42441 0 0
+~
+~
+End
+
+#42441
+Name The Hidden City Inn~
+Descr
+~
+Flags 20
+Sector 42
+Reset O 42408 -5 100
+Reset M 42406 1 100
+Door 0 0 0 42440 0 0
+~
+~
+Door 4 0 0 42507 0 0
+~
+~
+End
+
+#42442
+Name The Market Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42400 1 100
+Door 0 0 0 42444 0 0
+~
+~
+Door 1 3 0 42443 30 30
+~
+door~
+Door 2 0 0 42436 0 0
+~
+~
+End
+
+#42443
+Name Kyree's Foods~
+Descr
+~
+Flags 20
+Sector 41
+Reset O 42407 -5 100
+Reset M 42403 1 100
+Reset O 42400 -4 100
+Reset O 42400 -4 100
+Reset O 42400 -4 100
+Reset O 42400 -4 100
+Reset O 42400 -4 100
+Reset O 42401 -4 100
+Reset O 42401 -4 100
+Reset O 42401 -4 100
+Reset O 42401 -4 100
+Reset O 42402 -4 100
+Reset O 42402 -4 100
+Reset O 42402 -4 100
+Reset O 42402 -4 100
+Reset O 42402 -4 100
+Door 3 3 0 42442 30 30
+~
+door~
+End
+
+#42444
+Name The Main Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42410 1 100
+Door 0 3 0 42450 30 30
+~
+door~
+Door 1 3 0 42445 30 30
+~
+door~
+Door 2 0 0 42442 0 0
+~
+~
+Door 3 0 0 42462 0 0
+~
+~
+End
+
+#42445
+Name The Court of Lythlorden~
+Descr
+~
+Flags 20
+Sector 42
+Reset M 42409 1 100
+Door 0 0 0 42448 0 0
+~
+~
+Door 1 0 0 42446 0 0
+~
+~
+Door 3 3 0 42444 30 30
+~
+door~
+End
+
+#42446
+Name The Court of Lythlorden~
+Descr
+~
+Flags 20
+Sector 42
+Reset M 42423 1 100
+Reset M 42410 1 100
+Door 0 0 0 42449 0 0
+~
+~
+Door 1 3 0 42447 30 30
+~
+door~
+Door 3 0 0 42445 0 0
+~
+~
+End
+
+#42447
+Name The Throne Room of Lythlorden~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42425 1 100
+Door 3 3 0 42446 30 30
+~
+door~
+End
+
+#42448
+Name The Court of Lythlorden~
+Descr
+~
+Flags 20
+Sector 42
+Reset M 42410 1 100
+Door 1 0 0 42449 0 0
+~
+~
+Door 2 0 0 42445 0 0
+~
+~
+End
+
+#42449
+Name The Court of Lythlorden~
+Descr
+~
+Flags 20
+Sector 42
+Reset M 42409 1 100
+Door 2 0 0 42446 0 0
+~
+~
+Door 3 0 0 42448 0 0
+~
+~
+End
+
+#42450
+Name A Side Tunnel~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42451 0 0
+~
+~
+Door 2 3 0 42444 30 30
+~
+door~
+End
+
+#42451
+Name Before the Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42424 1 100
+Door 2 0 0 42450 0 0
+~
+~
+Door 3 3 0 42452 30 30
+~
+door~
+End
+
+#42452
+Name The Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 43
+Door 1 3 0 42451 30 30
+~
+door~
+Door 2 0 0 42457 0 0
+~
+~
+Door 3 0 0 42453 0 0
+~
+~
+End
+
+#42453
+Name The Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 43
+Door 1 0 0 42452 0 0
+~
+~
+Door 2 0 0 42458 0 0
+~
+~
+Door 3 0 0 42454 0 0
+~
+~
+End
+
+#42454
+Name The Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 43
+Door 1 0 0 42453 0 0
+~
+~
+Door 2 0 0 42459 0 0
+~
+~
+Door 3 0 0 42455 0 0
+~
+~
+End
+
+#42455
+Name The Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 43
+Door 1 0 0 42454 0 0
+~
+~
+Door 2 0 0 42460 0 0
+~
+~
+Door 3 0 0 42456 0 0
+~
+~
+End
+
+#42456
+Name The Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 43
+Door 1 0 0 42455 0 0
+~
+~
+Door 2 0 0 42461 0 0
+~
+~
+End
+
+#42457
+Name The Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 43
+Door 0 0 0 42452 0 0
+~
+~
+Door 3 0 0 42458 0 0
+~
+~
+End
+
+#42458
+Name The Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 43
+Door 0 0 0 42453 0 0
+~
+~
+Door 1 0 0 42457 0 0
+~
+~
+Door 3 0 0 42459 0 0
+~
+~
+End
+
+#42459
+Name The Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 43
+Door 0 0 0 42454 0 0
+~
+~
+Door 1 0 0 42458 0 0
+~
+~
+Door 3 0 0 42460 0 0
+~
+~
+End
+
+#42460
+Name The Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 43
+Door 0 0 0 42455 0 0
+~
+~
+Door 1 0 0 42459 0 0
+~
+~
+Door 3 0 0 42461 0 0
+~
+~
+End
+
+#42461
+Name The Hall of the Damned~
+Descr
+~
+Flags 20
+Sector 43
+Door 0 0 0 42456 0 0
+~
+~
+Door 1 0 0 42460 0 0
+~
+~
+End
+
+#42462
+Name The Main Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 1 0 0 42444 0 0
+~
+~
+Door 3 0 0 42463 0 0
+~
+~
+End
+
+#42463
+Name The Main Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42400 1 100
+Door 1 0 0 42462 0 0
+~
+~
+Door 3 0 0 42464 0 0
+~
+~
+End
+
+#42464
+Name The Main Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 1 0 0 42463 0 0
+~
+~
+Door 2 0 0 42465 0 0
+~
+~
+Door 3 0 0 42472 0 0
+~
+~
+End
+
+#42465
+Name A Side Tunnel~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42464 0 0
+~
+~
+Door 1 3 0 42466 30 30
+~
+door~
+Door 2 0 0 42468 0 0
+~
+~
+End
+
+#42466
+Name Juriam's Adventure Wares~
+Descr
+~
+Flags 20
+Sector 41
+Door 1 0 0 42467 0 0
+~
+~
+Door 3 3 0 42465 30 30
+~
+door~
+End
+
+#42467
+Name Juriam's Adventure Wares~
+Descr
+~
+Flags 20
+Sector 41
+Reset O 42407 -5 100
+Reset M 42404 1 100
+Reset O 42404 -4 100
+Reset O 42404 -4 100
+Reset O 42404 -4 100
+Door 3 0 0 42466 0 0
+~
+~
+End
+
+#42468
+Name A Side Tunnel~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42465 0 0
+~
+~
+Door 1 3 0 42438 30 30
+~
+door~
+Door 2 0 0 42469 0 0
+~
+~
+End
+
+#42469
+Name A Side Tunnel~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42468 0 0
+~
+~
+Door 2 3 0 42470 30 30
+~
+door~
+End
+
+#42470
+Name The Garbage Pit~
+Descr
+~
+Flags2 1024
+Flags 20
+Sector 47
+Door 0 3 0 42469 30 30
+~
+door~
+Door 2 0 0 42471 0 0
+~
+~
+End
+
+#42471
+Name The Garbage Pit~
+Descr
+~
+Flags2 1024
+Flags 20
+Sector 46
+Door 0 0 0 42470 0 0
+~
+~
+Door 4 0 0 42502 0 0
+~
+~
+Door 5 0 0 42535 0 0
+~
+~
+End
+
+#42472
+Name The Main Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 1 0 0 42464 0 0
+~
+~
+Door 3 0 0 42473 0 0
+~
+~
+End
+
+#42473
+Name The Main Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 1 0 0 42472 0 0
+~
+~
+Door 2 0 0 42474 0 0
+~
+~
+Door 3 0 0 42488 0 0
+~
+~
+End
+
+#42474
+Name The Tunnel of Taslil~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42400 1 100
+Door 0 0 0 42473 0 0
+~
+~
+Door 1 3 0 42475 30 30
+~
+door~
+Door 2 0 0 42476 0 0
+~
+~
+End
+
+#42475
+Name At the Foot of A Staircase~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42416 1 100
+Door 3 3 0 42474 30 30
+~
+door~
+Door 4 0 0 42520 0 0
+~
+~
+End
+
+#42476
+Name The Tunnel of Taslil~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42474 0 0
+~
+~
+Door 2 0 0 42479 0 0
+~
+~
+Door 3 3 0 42477 30 30
+~
+door~
+End
+
+#42477
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Door 0 0 0 42478 0 0
+~
+~
+Door 1 3 0 42476 30 30
+~
+door~
+End
+
+#42478
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42408 1 100
+Door 2 0 0 42477 0 0
+~
+~
+End
+
+#42479
+Name The Tunnel of Taslil~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42476 0 0
+~
+~
+Door 1 3 0 42480 30 30
+~
+door~
+Door 2 0 0 42482 0 0
+~
+~
+End
+
+#42480
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Door 0 0 0 42481 0 0
+~
+~
+Door 3 3 0 42479 30 30
+~
+door~
+End
+
+#42481
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42408 1 100
+Door 2 0 0 42480 0 0
+~
+~
+End
+
+#42482
+Name The Tunnel of Taslil~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42479 0 0
+~
+~
+Door 2 0 0 42485 0 0
+~
+~
+Door 3 3 0 42483 30 30
+~
+door~
+End
+
+#42483
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Door 0 0 0 42484 0 0
+~
+~
+Door 1 3 0 42482 30 30
+~
+door~
+End
+
+#42484
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42408 1 100
+Door 2 0 0 42483 0 0
+~
+~
+End
+
+#42485
+Name The Tunnel of Taslil~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42482 0 0
+~
+~
+Door 1 3 0 42486 30 30
+~
+door~
+Door 2 0 0 42415 0 0
+~
+~
+End
+
+#42486
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Door 0 0 0 42487 0 0
+~
+~
+Door 3 3 0 42485 30 30
+~
+door~
+End
+
+#42487
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42408 1 100
+Door 2 0 0 42486 0 0
+~
+~
+End
+
+#42488
+Name The Main Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 3 0 42489 30 30
+~
+door~
+Door 1 0 0 42473 0 0
+~
+~
+Door 3 0 0 42491 0 0
+~
+~
+End
+
+#42489
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42408 1 100
+Door 2 3 0 42488 30 30
+~
+door~
+Door 3 0 0 42490 0 0
+~
+~
+End
+
+#42490
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Door 1 0 0 42489 0 0
+~
+~
+End
+
+#42491
+Name The Main Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Door 1 0 0 42488 0 0
+~
+~
+Door 3 0 0 42492 0 0
+~
+~
+End
+
+#42492
+Name The Main Tunnel of Lythlorden~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42422 1 100
+Door 1 0 0 42491 0 0
+~
+~
+Door 2 0 0 42493 0 0
+~
+~
+End
+
+#42493
+Name The Tunnel of Odec~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42492 0 0
+~
+~
+Door 1 3 0 42494 30 30
+~
+door~
+Door 2 0 0 42496 0 0
+~
+~
+End
+
+#42494
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Door 2 0 0 42495 0 0
+~
+~
+Door 3 3 0 42493 30 30
+~
+door~
+End
+
+#42495
+Name A Nice Home~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42408 1 100
+Door 0 0 0 42494 0 0
+~
+~
+End
+
+#42496
+Name The Tunnel of Odec~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42493 0 0
+~
+~
+Door 2 0 0 42497 0 0
+~
+~
+End
+
+#42497
+Name The Tunnel of Odec~
+Descr
+~
+Flags 20
+Sector 47
+Reset M 42400 1 100
+Door 0 0 0 42496 0 0
+~
+~
+Door 1 3 0 42498 30 30
+~
+door~
+Door 2 0 0 42499 0 0
+~
+~
+End
+
+#42498
+Name A Small Home~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42417 1 100
+Door 3 3 0 42497 30 30
+~
+door~
+End
+
+#42499
+Name The Tunnel of Odec~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42497 0 0
+~
+~
+Door 1 3 0 42500 30 30
+~
+door~
+Door 2 3 0 42501 30 30
+~
+door~
+End
+
+#42500
+Name A Small Home~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42417 1 100
+Door 3 3 0 42499 30 30
+~
+door~
+End
+
+#42501
+Name The Home of Odec~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42418 1 100
+Door 0 3 0 42499 30 30
+~
+door~
+End
+
+#42502
+Name A Ventilation Shaft~
+Descr
+~
+Flags2 1024
+Flags 20
+Sector 45
+Door 0 0 0 42503 0 0
+~
+~
+Door 5 0 0 42471 0 0
+~
+~
+End
+
+#42503
+Name A Ventilation Shaft~
+Descr
+~
+Flags2 1024
+Flags 20
+Sector 45
+Door 0 0 0 42504 0 0
+~
+~
+Door 2 0 0 42502 0 0
+~
+~
+End
+
+#42504
+Name A Ventilation Shaft~
+Descr
+~
+Flags2 1024
+Flags 20
+Sector 45
+Door 0 0 0 42505 0 0
+~
+~
+Door 2 0 0 42503 0 0
+~
+~
+End
+
+#42505
+Name A Ventilation Shaft~
+Descr
+~
+Flags 20
+Sector 45
+Door 0 0 0 42506 0 0
+~
+~
+Door 2 0 0 42504 0 0
+~
+~
+End
+
+#42506
+Name A Ventilation Shaft~
+Descr
+~
+Flags 20
+Sector 45
+Door 2 0 0 42505 0 0
+~
+~
+End
+
+#42507
+Name A Hallway in the Inn~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42510 0 0
+~
+~
+Door 1 3 0 42509 30 30
+~
+door~
+Door 2 3 0 42508 30 30
+~
+door~
+Door 5 0 0 42441 0 0
+~
+~
+End
+
+#42508
+Name A Shabby Room~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42429 1 100
+Door 0 3 0 42507 30 30
+~
+door~
+End
+
+#42509
+Name A Shabby Room~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42429 1 100
+Door 3 3 0 42507 30 30
+~
+door~
+End
+
+#42510
+Name A Hallway in the Inn~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42511 0 0
+~
+~
+Door 2 0 0 42507 0 0
+~
+~
+End
+
+#42511
+Name A Hallway in the Inn~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 3 0 42512 30 30
+~
+door~
+Door 1 0 0 42513 0 0
+~
+~
+Door 2 0 0 42510 0 0
+~
+~
+End
+
+#42512
+Name A Shabby Room~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42428 1 100
+Door 2 3 0 42511 30 30
+~
+door~
+End
+
+#42513
+Name A Hallway in the Inn~
+Descr
+~
+Flags 20
+Sector 47
+Door 1 0 0 42514 0 0
+~
+~
+Door 2 3 0 42517 30 30
+~
+door~
+Door 3 0 0 42511 0 0
+~
+~
+End
+
+#42514
+Name A Hallway in the Inn~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 3 0 42515 30 30
+~
+door~
+Door 3 0 0 42513 0 0
+~
+~
+End
+
+#42515
+Name A Nice Room~
+Descr
+~
+Flags 20
+Sector 41
+Door 2 3 0 42514 30 30
+~
+door~
+Door 3 0 0 42516 0 0
+~
+~
+End
+
+#42516
+Name A Nice Room~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42427 1 100
+Door 1 0 0 42515 0 0
+~
+~
+End
+
+#42517
+Name A Suite of Rooms~
+Descr
+~
+Flags 20
+Sector 41
+Door 0 3 0 42513 30 30
+~
+door~
+Door 1 0 0 42518 0 0
+~
+~
+End
+
+#42518
+Name A Suite of Rooms~
+Descr
+~
+Flags 20
+Sector 41
+Door 2 0 0 42519 0 0
+~
+~
+Door 3 0 0 42517 0 0
+~
+~
+End
+
+#42519
+Name A Suite of Rooms~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42426 1 100
+Door 0 0 0 42518 0 0
+~
+~
+End
+
+#42520
+Name The Tunnel of the Noble~
+Descr
+~
+Flags 20
+Sector 47
+Door 2 0 0 42523 0 0
+~
+~
+Door 3 3 0 42521 30 30
+~
+door~
+Door 5 0 0 42475 0 0
+~
+~
+End
+
+#42521
+Name The Home of a Nobleman~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42412 1 100
+Door 1 3 0 42520 30 30
+~
+door~
+Door 3 0 0 42522 0 0
+~
+~
+End
+
+#42522
+Name The Home of a Nobleman~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42411 1 100
+Door 1 0 0 42521 0 0
+~
+~
+End
+
+#42523
+Name The Tunnel of the Noble~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42520 0 0
+~
+~
+Door 2 0 0 42526 0 0
+~
+~
+Door 3 3 0 42524 30 30
+~
+door~
+End
+
+#42524
+Name The Home of a Nobleman~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42412 1 100
+Reset M 42411 1 100
+Door 1 3 0 42523 30 30
+~
+door~
+Door 3 0 0 42525 0 0
+~
+~
+End
+
+#42525
+Name The Home of a Nobleman~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42409 1 100
+Door 1 0 0 42524 0 0
+~
+~
+End
+
+#42526
+Name The Tunnel of the Noble~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42523 0 0
+~
+~
+Door 2 0 0 42529 0 0
+~
+~
+Door 3 3 0 42527 30 30
+~
+door~
+End
+
+#42527
+Name The Home of a Nobleman~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42412 1 100
+Door 1 3 0 42526 30 30
+~
+door~
+Door 3 0 0 42528 0 0
+~
+~
+End
+
+#42528
+Name The Home of a Nobleman~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42411 1 100
+Door 1 0 0 42527 0 0
+~
+~
+End
+
+#42529
+Name The Tunnel of the Noble~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42526 0 0
+~
+~
+Door 2 0 0 42530 0 0
+~
+~
+End
+
+#42530
+Name The Tunnel of the Noble~
+Descr
+~
+Flags 20
+Sector 47
+Door 0 0 0 42529 0 0
+~
+~
+Door 3 3 0 42531 30 30
+~
+door~
+End
+
+#42531
+Name The Home of the King~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42411 1 100
+Door 1 3 0 42530 30 30
+~
+door~
+Door 3 0 0 42532 0 0
+~
+~
+End
+
+#42532
+Name The Home of the King~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42414 1 100
+Door 0 0 0 42533 0 0
+~
+~
+Door 1 0 0 42531 0 0
+~
+~
+End
+
+#42533
+Name The Home of the King~
+Descr
+~
+Flags 20
+Sector 41
+Door 1 3 0 42534 30 30
+~
+door~
+Door 2 0 0 42532 0 0
+~
+~
+End
+
+#42534
+Name The Home of the King~
+Descr
+~
+Flags 20
+Sector 41
+Reset M 42413 1 100
+Reset M 42415 1 100
+Door 3 3 0 42533 30 30
+~
+door~
+End
+
+#42535
+Name The Garbage Pit~
+Descr
+~
+Flags2 1024
+Flags 20
+Sector 46
+Door 4 0 0 42471 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

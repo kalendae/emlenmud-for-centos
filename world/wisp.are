@@ -1,0 +1,909 @@
+#AREADATA 
+Name The Castle Courtyard~
+Repop The air gets thicker, making it hard to breath. 
+~
+SCZone 0
+Builders Structure~
+VNUMs 11801 11950
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#11819
+Name citizen colhm~
+Short A castle colhm citizen~
+Long 
+A Castle Colhm citizen is wandering around the courtyard marveling in the beauty.
+~
+AMax 20
+NHeight 0
+ActBits 1
+Affect_By 520
+Money 250
+Level 100
+MobType 18
+Hp 2
+Guard 0
+End
+
+#11833
+Name queen Colhm~
+Short Queen Colhm~
+Long 
+Queen Cohlm is sitting here peering at you slightly.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 520
+Money 2000
+Level 150
+Sex 2
+MobType 18
+Hp 5
+Guard 0
+End
+
+#11846
+Name kilt~
+Short Kilt~
+Long 
+Kilt, the gardener stands here tending to Queen Cohlms garden.
+~
+AMax 1
+NHeight 1
+ActBits 258
+Affect_By 524936
+Level 300
+Sex 1
+MobType 18
+Hp 20
+Guard 0
+Spec spec_warrior
+BCasts disintegrate~
+BCast_P 4
+End
+
+#0
+
+
+
+#OBJDATA
+#11808
+Name fire~
+Short campfire~
+Descr
+A small [31mfire[36m burns here slowly.[0m
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#11846
+Name necklace glowing~
+Short a [1m[33mg[37ml[33mo[37mw[33mi[37mn[33mg[0m necklace~
+Descr
+A glowing necklace
+[0;36m~
+Type 9
+Extra 1
+Wear 5
+Weight 1
+Cost 200
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#11801
+Name A Small Trail~
+Descr
+~
+Sector 5
+Door 3 0 0 11802 0 0
+~
+~
+End
+
+#11802
+Name A Small Trail~
+Descr
+~
+Sector 5
+Door 1 0 0 11801 0 0
+~
+~
+Door 3 0 0 11803 0 0
+~
+~
+End
+
+#11803
+Name A Small Trail~
+Descr
+~
+Sector 5
+Door 1 0 0 11802 0 0
+~
+~
+Door 3 0 0 11804 0 0
+~
+~
+End
+
+#11804
+Name A Small Trail~
+Descr
+~
+Sector 5
+Door 1 0 0 11803 0 0
+~
+~
+Door 2 0 0 11805 0 0
+~
+~
+End
+
+#11805
+Name A Small Trail~
+Descr
+~
+Sector 5
+Door 0 0 0 11804 0 0
+~
+~
+Door 3 0 0 11806 0 0
+~
+~
+End
+
+#11806
+Name A Small Trail~
+Descr
+~
+Sector 5
+Door 1 0 0 11805 0 0
+~
+~
+Door 3 0 0 11807 0 0
+~
+~
+End
+
+#11807
+Name A Small Trail~
+Descr
+~
+Sector 5
+Door 1 0 0 11806 0 0
+~
+~
+End
+
+#11808
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset O 11808 -5 100
+Door 0 0 0 11810 0 0
+~
+~
+Door 1 0 0 11813 0 0
+~
+~
+Door 3 0 0 11809 0 0
+~
+~
+Door 5 0 0 19055 0 0
+~
+~
+End
+
+#11809
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 0 0 0 11811 0 0
+~
+~
+Door 1 0 0 11808 0 0
+~
+~
+End
+
+#11810
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11818 0 0
+~
+~
+Door 1 0 0 11812 0 0
+~
+~
+Door 2 0 0 11808 0 0
+~
+~
+Door 3 0 0 11811 0 0
+~
+~
+End
+
+#11811
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11819 0 0
+~
+~
+Door 1 0 0 11810 0 0
+~
+~
+Door 2 0 0 11809 0 0
+~
+~
+End
+
+#11812
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11817 0 0
+~
+~
+Door 1 0 0 11815 0 0
+~
+~
+Door 2 0 0 11813 0 0
+~
+~
+Door 3 0 0 11810 0 0
+~
+~
+End
+
+#11813
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 0 0 0 11812 0 0
+~
+~
+Door 1 0 0 11814 0 0
+~
+~
+Door 3 0 0 11808 0 0
+~
+~
+End
+
+#11814
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 0 0 0 11815 0 0
+~
+~
+Door 1 0 0 11827 0 0
+~
+~
+Door 3 0 0 11813 0 0
+~
+~
+End
+
+#11815
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11816 0 0
+~
+~
+Door 1 0 0 11826 0 0
+~
+~
+Door 2 0 0 11814 0 0
+~
+~
+Door 3 0 0 11812 0 0
+~
+~
+End
+
+#11816
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 0 0 0 11823 0 0
+~
+~
+Door 1 0 0 11825 0 0
+~
+~
+Door 2 0 0 11815 0 0
+~
+~
+Door 3 0 0 11817 0 0
+~
+~
+End
+
+#11817
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11822 0 0
+~
+~
+Door 1 0 0 11816 0 0
+~
+~
+Door 2 0 0 11812 0 0
+~
+~
+Door 3 0 0 11818 0 0
+~
+~
+End
+
+#11818
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 0 0 0 11821 0 0
+~
+~
+Door 1 0 0 11817 0 0
+~
+~
+Door 2 0 0 11810 0 0
+~
+~
+Door 3 0 0 11819 0 0
+~
+~
+End
+
+#11819
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 0 0 0 11820 0 0
+~
+~
+Door 1 0 0 11818 0 0
+~
+~
+Door 2 0 0 11811 0 0
+~
+~
+End
+
+#11820
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 0 0 0 11837 0 0
+~
+~
+Door 1 0 0 11821 0 0
+~
+~
+Door 2 0 0 11819 0 0
+~
+~
+End
+
+#11821
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 1 0 0 11822 0 0
+~
+~
+Door 2 0 0 11818 0 0
+~
+~
+Door 3 0 0 11820 0 0
+~
+~
+End
+
+#11822
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 1 0 0 11823 0 0
+~
+~
+Door 2 0 0 11817 0 0
+~
+~
+Door 3 0 0 11821 0 0
+~
+~
+End
+
+#11823
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 1 0 0 11824 0 0
+~
+~
+Door 2 0 0 11816 0 0
+~
+~
+Door 3 0 0 11822 0 0
+~
+~
+End
+
+#11824
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Reset M 11819 1 100
+Door 0 0 0 11828 0 0
+~
+~
+Door 2 0 0 11825 0 0
+~
+~
+Door 3 0 0 11823 0 0
+~
+~
+End
+
+#11825
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11824 0 0
+~
+~
+Door 2 0 0 11826 0 0
+~
+~
+Door 3 0 0 11816 0 0
+~
+~
+End
+
+#11826
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11825 0 0
+~
+~
+Door 2 0 0 11827 0 0
+~
+~
+Door 3 0 0 11815 0 0
+~
+~
+End
+
+#11827
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 0 0 0 11826 0 0
+~
+~
+Door 3 0 0 11814 0 0
+~
+~
+End
+
+#11828
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 0 0 0 11829 0 0
+~
+~
+Door 2 0 0 11824 0 0
+~
+~
+End
+
+#11829
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 0 0 0 11830 0 0
+~
+~
+Door 2 0 0 11828 0 0
+~
+~
+End
+
+#11830
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Reset M 11819 1 100
+Door 2 0 0 11829 0 0
+~
+~
+Door 3 0 0 11831 0 0
+~
+~
+End
+
+#11831
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 1 0 0 11830 0 0
+~
+~
+Door 3 0 0 11832 0 0
+~
+~
+End
+
+#11832
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Reset M 11819 1 100
+Door 0 0 0 11833 0 0
+~
+~
+Door 1 0 0 11831 0 0
+~
+~
+Door 2 0 0 11838 0 0
+~
+~
+Door 3 0 0 11834 0 0
+~
+~
+End
+
+#11833
+Name The Queens Chambers~
+Descr
+~
+Flags 4
+Sector 41
+Reset M 11833 1 100
+Door 2 0 0 11832 0 0
+~
+~
+End
+
+#11834
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Door 1 0 0 11832 0 0
+~
+~
+Door 3 0 0 11835 0 0
+~
+~
+End
+
+#11835
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 1 0 0 11834 0 0
+~
+~
+Door 2 0 0 11836 0 0
+~
+~
+End
+
+#11836
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11835 0 0
+~
+~
+Door 2 0 0 11837 0 0
+~
+~
+End
+
+#11837
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11836 0 0
+~
+~
+Door 2 0 0 11820 0 0
+~
+~
+End
+
+#11838
+Name Inside A Castle Courtyard~
+Descr
+~
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11832 0 0
+~
+~
+Door 2 0 0 11839 0 0
+~
+~
+End
+
+#11839
+Name Inside A Castle Courtyard~
+Descr
+~
+Flags 69632
+Sector 20
+Reset M 11819 1 100
+Door 0 0 0 11838 0 0
+~
+~
+Door 4 0 0 11840 0 0
+~
+~
+End
+
+#11840
+Name A Stairwell Passage~
+Descr
+~
+Sector 15
+Reset M 11819 1 100
+Door 4 0 0 11841 0 0
+~
+~
+Door 5 0 0 11839 0 0
+~
+~
+End
+
+#11841
+Name A Stairwell Passage~
+Descr
+~
+Sector 15
+Door 4 0 0 11842 0 0
+~
+~
+Door 5 0 0 11840 0 0
+~
+~
+End
+
+#11842
+Name A Stairwell Passage~
+Descr
+~
+Sector 15
+Door 4 0 0 11843 0 0
+~
+~
+Door 5 0 0 11841 0 0
+~
+~
+End
+
+#11843
+Name Above the Stairwell Passage~
+Descr
+~
+Sector 15
+Door 0 0 0 11845 0 0
+~
+~
+Door 5 0 0 11842 0 0
+~
+~
+End
+
+#11844
+Name ~
+Descr
+~
+End
+
+#11845
+Name A Thick Garden~
+Descr
+~
+Sector 21
+Door 0 0 0 11846 0 0
+~
+~
+Door 2 0 0 11843 0 0
+~
+~
+End
+
+#11846
+Name Kilt's Haven~
+Descr
+~
+Sector 21
+Reset M 11846 1 100
+Reset O 89 -1 10
+Reset O 19903 -1 2
+Reset O 11846 -1 2
+Door 2 0 0 11845 0 0
+~
+~
+End
+
+#11847
+Name ~
+Descr
+~
+End
+
+#11848
+Name ~
+Descr
+~
+End
+
+#11849
+Name ~
+Descr
+~
+End
+
+#11850
+Name ~
+Descr
+~
+End
+
+#11851
+Name ~
+Descr
+~
+End
+
+#11852
+Name ~
+Descr
+~
+End
+
+#11853
+Name ~
+Descr
+~
+End
+
+#11854
+Name ~
+Descr
+~
+End
+
+#11855
+Name ~
+Descr
+~
+End
+
+#11856
+Name ~
+Descr
+~
+End
+
+#11857
+Name ~
+Descr
+~
+End
+
+#11858
+Name ~
+Descr
+~
+End
+
+#11859
+Name ~
+Descr
+~
+End
+
+#11860
+Name ~
+Descr
+~
+End
+
+#11861
+Name ~
+Descr
+~
+End
+
+#11862
+Name ~
+Descr
+~
+End
+
+#11863
+Name ~
+Descr
+~
+End
+
+#11864
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

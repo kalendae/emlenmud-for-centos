@@ -1,0 +1,3792 @@
+#AREADATA 
+Name Jungle of Dreams~
+Repop The jungle rumbles with life!  
+~
+SCZone 0
+Builders Luck~
+VNUMs 3500 3999
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#3500
+Name tribesman guard short~
+Short A tribesman guard~
+Long 
+A short tribesman guard stands here.
+~
+Descr
+He's really short and waiting for you to make a move.
+~
+AMax 2
+NHeight 39
+ActBits 2
+ActBits3 2
+Affect_By 552
+Alignment 2
+Level 90
+Sex 1
+MobType 0
+Hp 2
+Guard 3
+Spec spec_warrior
+End
+
+#3501
+Name gorilla jungle~
+Short a jungle gorilla~
+Long 
+A large jungle gorilla is here climbing a tree.
+~
+Descr
+He's a big furry gorilla waiting to rip your arms off. He will protect
+his family at any cost.
+~
+AMax 16
+NHeight 52
+Affect_By 33288
+Level 135
+MobType 18
+Hp 2
+Guard 0
+End
+
+#3502
+Name tribesman wanderering tribe~
+Short A wanderering tribesman~
+Long 
+A wanderering tribesman is here looking for intruders.
+~
+Descr
+This tribesman is staring at you intensely, studying your every move.
+~
+AMax 6
+NHeight 46
+Affect_By 520
+Money 80
+Level 120
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+Spec spec_warrior
+End
+
+#3503
+Name mosquito huge bug~
+Short A huge mosquito~
+Long 
+A huge mosquito is here sucking your life away.
+~
+Descr
+It's a big bug, a REALLY REALLY big bug.
+~
+AMax 8
+NHeight 0
+ActBits 8
+Affect_By 552
+Level 100
+MobType 8
+Hp 2
+Guard 0
+End
+
+#3504
+Name guard tribesman~
+Short a huge fat tribesman guard~
+Long 
+A very portly guard is here yawning.
+~
+Descr
+This huge disgusting guard is so obese you wonder how he can move.
+~
+AMax 2
+NHeight 65
+ActBits 19
+ActBits3 65536
+Affect_By 131592
+AffectTWO 8
+Level 180
+MobType 0
+Hp 5
+Guard 0
+End
+
+#3505
+Name dancing tribe ~
+Short A dancing tribesman~
+Long 
+A dancing tribesman is here shouting and chanting.
+~
+AMax 4
+NHeight 58
+ActBits 2
+Affect_By 552
+AffectTWO 33554441
+Money 35
+Level 100
+MobType 0
+Hp 3
+Guard 0
+End
+
+#3506
+Name trainee young tribes~
+Short a young tribesman~
+Long 
+A young tribesman trainee is here practicing.
+~
+AMax 5
+NHeight 42
+ActBits 2
+Affect_By 512
+Money 2
+Level 60
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#3507
+Name trainer leader rigastac~
+Short Rigastac~
+Long 
+The head trainer and raid leader Rigastac is standing here.
+~
+Descr
+This tribesman is the largest you have ever seen in your life.
+~
+AMax 1
+NHeight 68
+ActBits 2
+ActBits3 524288
+Affect_By 680
+Level 250
+Sex 1
+MobType 0
+Hp 9
+Guard 0
+Spec spec_warrior
+End
+
+#3508
+Name gogbooka tribes~
+Short Gogbooka~
+Long 
+The great headshrinker Gogbooka is meditating here.
+~
+Descr
+She's a very powerful women and is loved dearly by her fellow tribespeople.
+~
+AMax 1
+NHeight 36
+ActBits 2
+Affect_By 680
+Level 300
+Sex 2
+MobType 0
+Hp 6
+Guard 0
+BCasts curse~
+BCasts withering death~
+BCasts spear of agony~
+BCast_P 15
+End
+
+#3509
+Name chief ordanoo tribesman~
+Short Chief Ordanoo~
+Long 
+Chief Ordanoo is here glaring at you for the intrusion.
+~
+Descr
+Although he is a chief, he's quite strong and in shape. He is also very
+agile and quick for his age. 
+~
+AMax 1
+NHeight 55
+ActBits 2
+Affect_By 98856
+Money 7500
+Level 250
+Sex 1
+MobType 0
+Hp 12
+Guard 0
+Spec spec_thief
+End
+
+#3510
+Name tribesman wanderering tribe~
+Short A tribesman~
+Long 
+A tribesman is here going about its daily chores.
+~
+AMax 8
+NHeight 46
+Affect_By 520
+Money 80
+Level 120
+MobType 0
+Hp 2
+Guard 0
+End
+
+#3511
+Name rat lord~
+Short the rat lord~
+Long 
+A HUMONGOUS rat is here gnawing at your flesh.
+~
+AMax 1
+NHeight 45
+ActBits 1034
+Affect_By 542147244
+AffectTWO 2184
+Money 5000
+Level 350
+MobType 7
+Hp 15
+Guard 0
+Spec spec_warrior
+End
+
+#3600
+Name enemy ogre~
+Short +* An Ogre *+~
+Long 
++* An Ogre *+ is here.
+~
+AMax 2
+NHeight 0
+Affect_By 524416
+Level 50
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+Spec spec_warrior
+End
+
+#3601
+Name duck talking~
+Short A talking duck~
+Long 
+A small white duck is here.
+~
+AMax 1
+NHeight 10
+ActBits 2
+ActBits4 1
+Affect_By 552
+Level 7000
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#3500
+Name spear wooden ~
+Short [0ma short [33mwooden [0mspear[0m~
+Descr
+A short wooden spear has been discarded here.
+[0;36m~
+Type 5
+Wear 16385
+Values 0 14 0 9 0 0 0 3 2 0 0
+Weight 9
+Cost 20
+End
+
+#3501
+Name banana~
+Short [0ma small [1m[33mbanana[0m~
+Descr
+A small banana is here on the ground waiting to be eaten.
+[0;36m~
+Type 19
+Wear 1
+Values 0 4 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 0
+End
+
+#3502
+Name mirror~
+Short a rectangular mirror~
+Descr
+A tiny little mirror with swirling mist in it is here.
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 5082 0 0 0 0 0 0 0 0 0
+Weight 5000
+Cost 0
+End
+
+#3503
+Name orc roast fire~
+Short a roasting orc~
+Descr
+[0mAn [1m[30morc [0mis here [0m[31mro[1m[31mas[33mti[37mng[0m rotisserie style.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#3504
+Name sword practice wooden~
+Short [0ma small [33mwooden [0mpractice sword~
+Descr
+A small crappy sword is lying on the ground here.
+[0;36m~
+Type 5
+Wear 16385
+Values 0 18 0 3 0 0 0 1 10 0 0
+Weight 5
+Cost 75
+End
+
+#3505
+Name anklet wooden~
+Short [0ma worthless [33mwooden [0manklet~
+Descr
+A worthless wooden anklet is lying on the ground here.
+[0;36m~
+Type 9
+Wear 524289
+Values 2 0 0 0 0 0 20 20 0 1 0
+Weight 0
+Cost 0
+End
+
+#3506
+Name elbow wooden~
+Short [0ma worthless [33mwooden [0melbowpad~
+Descr
+A worthless wooden elbowpad is rotting here.
+[0;36m~
+Type 9
+Wear 1048577
+Values 0 0 0 2 0 0 20 20 0 1 0
+Weight 0
+Cost 0
+End
+
+#3507
+Name knee wooden~
+Short [0ma worthless [33mwooden [0mkneepad~
+Descr
+A worthless wooden kneepad is here decaying.
+[0;36m~
+Type 9
+Wear 2097153
+Values 2 0 0 0 0 0 20 20 0 1 0
+Weight 0
+Cost 0
+Affect 22 1 1 0 0
+End
+
+#3508
+Name rigstac whip obediance 3apb apb~
+Short [1m[34mRigastac[37m'[34ms [1m[30mwhip of [37mob[36med[0m[36mia[1m[30mnce[0m~
+Descr
+A very long whip is lying on the ground here branded with the name Rigstac.
+[0;36m~
+Type 5
+Extra 1
+Wear 24577
+Values 0 16 0 4 0 0 0 3 6 0 0
+Weight 10
+Cost 3500
+Affect 19 3 1 0 0
+End
+
+#3509
+Name earring gogbooka~
+Short [1m[34mGogbooka[37m'[34ms [30mearring of [37mtra[36mnqu[0m[36mili[1m[30mty[0m~
+Descr
+Gogbooka's earring is lying here unused.
+[0;36m~
+Type 9
+Extra 1
+Wear 262145
+Values 0 0 2 0 10 10 20 20 0 1 0
+Weight 1
+Cost 5000
+Affect 14 5 1 0 0
+Affect 13 20 1 0 0
+End
+
+#3510
+Name mask tribal ordanoo apb~
+Short [1m[34mOrdanoo[37m'[34ms [30mtribal mask of [31magg[0m[31mres[1m[31msion[0m~
+Descr
+A small tribal mask has been discarded here.
+[0;36m~
+Type 9
+Extra 1
+Wear 65537
+Values 0 0 4 0 0 0 18 18 0 1 0
+Weight 4
+Cost 3000
+Affect 14 -10 1 0 0
+Affect 13 5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#3511
+Name well muddy~
+Short a muddy well~
+Descr
+A muddy well is here gurgling noisely.
+[0;36m~
+Type 25
+Wear 0
+Weight 0
+Cost 0
+End
+
+#3512
+Name rat fur warmth~
+Short [0ma [0m[33mrat [1m[30mlord[0m'[1m[30ms [0mfur of [1m[37mwa[36mrm[0m[36mth[0m~
+Descr
+A huge fuzzy rat fur is lying on the ground here unused!
+[0;36m~
+Type 9
+Extra 2
+Wear 1025
+Values 0 4 0 0 15 15 15 15 15 5 0
+Weight 4
+Cost 500
+Affect 19 1 1 0 0
+Affect 13 -10 1 0 0
+Affect 17 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#3513
+Name belt rat lord~
+Short [0ma [0m[33mrat [1m[30mlord[0m'[1m[30ms [0mbelt of [1m[37mwa[36mrm[0m[36mth[0m~
+Descr
+A fuzzy rat belt is lying here unused!
+[0;36m~
+Type 9
+Extra 2
+Wear 2049
+Values 3 0 0 0 0 10 20 20 10 5 0
+Weight 4
+Cost 500
+Affect 13 -10 1 0 0
+Affect 17 1 1 0 0
+Affect 14 15 1 0 0
+Affect 18 2 1 0 0
+End
+
+#3549
+Name jerky deer~
+Short [0m[32ma piece of [0m[33mdeer [32mjerky[0m~
+Descr
+A piece of jerky is here on the ground rotting.
+[0;36m~
+Type 19
+Wear 24577
+Values 9 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 600
+End
+
+#3550
+Name rainbow gem ~
+Short [0ma rough [0m[31mr[1m[31ma[1m[33mi[1m[32mn[34mb[1m[35mo[0m[35mw[0m gemstone~
+Descr
+A multifaceted gem is here on the ground sparkling the colors of the rainbow.
+[0;36m~
+Type 21
+Wear 24577
+Values 31 30 30 8 0 0 0 0 0 0 0
+Weight 10
+Cost 22000
+End
+
+#3551
+Name luck gem crystal ~
+Short [1m[34mL[36muc[1m[34mk[37m'[34ms [30mmultifaceted[37m [0m[31mr[1m[31ma[33mi[32mn[34mb[35mo[0m[35mw [1m[30mcrystal of [1m[37mpo[0m[37mw[1m[30mer[0m~
+Descr
+You can't have this, it's lucks.
+[0;36m~
+Type 21
+Extra 65
+Wear 24577
+Values 31 200 200 60 0 0 0 0 0 0 0
+Weight 5
+Cost 2000000
+End
+
+#3552
+Name luck blade misfortune str 5apb apb~
+Short [1m[34mL[36muc[34mk[37m'[34ms [1m[30mgigantic serrated [1m[37mbl[0m[37mad[1m[30me called [1m[37m"[1m[33mMisfortune[37m"~
+Descr
+You can't have this, it's lucks.
+[0;36m~
+Type 5
+Extra 268599361
+Wear 24577
+Values 0 60 0 9 0 0 0 18 2 0 0
+Weight 50
+Cost 500000
+Affect 18 15 1 0 0
+Affect 19 5 1 0 0
+Affect 1 1 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#3500
+Name The Dark Forest~
+Descr
+This area is composed of huge tall trees. These trees are so tall and
+big, that they block all sunlight from shining through. The forest is wet
+and muddy because of no sunlight to dry it. Due to the year round wetness in
+the area, these trees never have to worry about not getting enough water. 
+~
+Sector 27
+Door 0 0 0 3501 0 0
+~
+~
+Door 3 0 0 58849 0 0
+~
+~
+End
+
+#3501
+Name The Dark Forest~
+Descr
+This area is composed of huge tall trees. These trees are so tall and
+big, that they block all sunlight from shining through. The forest is wet
+and muddy because of no sunlight to dry it. Due to the year round wetness in
+the area, these trees never have to worry about not getting enough water. 
+~
+Sector 27
+Door 0 0 0 58187 0 0
+~
+~
+Door 1 0 0 3502 30 30
+~
+bramble~
+Door 2 0 0 3500 0 0
+~
+~
+Door 3 0 0 58848 0 0
+~
+~
+End
+
+#3502
+Name A Hidden Path~
+Descr
+~
+Sector 27
+Door 1 0 0 3503 0 0
+~
+~
+Door 3 0 0 3501 30 30
+~
+bramble~
+End
+
+#3503
+Name A Hidden Path~
+Descr
+~
+Sector 27
+Door 1 0 0 3504 0 0
+~
+~
+Door 3 0 0 3502 0 0
+~
+~
+End
+
+#3504
+Name A Hidden Path~
+Descr
+~
+Sector 27
+Door 0 0 0 3505 0 0
+~
+~
+Door 3 0 0 3503 0 0
+~
+~
+End
+
+#3505
+Name A Hidden Path~
+Descr
+~
+Sector 27
+Door 1 0 0 3506 0 0
+~
+~
+Door 2 0 0 3504 0 0
+~
+~
+End
+
+#3506
+Name Approaching the Jungle~
+Descr
+To the east you can see a magnificent lush jungle. You can already feel
+your skin crawling with bugs. The high pitched buzzing in the air makes you
+nervous.
+~
+Sector 27
+Door 1 0 0 3507 0 0
+~
+~
+Door 3 0 0 3505 0 0
+~
+~
+End
+
+#3507
+Name Approaching the Jungle~
+Descr
+To the east you can see a magnificent lush jungle. You can already feel
+your skin crawling with bugs. The high pitched buzzing in the air makes you
+nervous.
+~
+Sector 27
+Door 1 0 0 3508 0 0
+~
+~
+Door 3 0 0 3506 0 0
+~
+~
+End
+
+#3508
+Name Approaching the Jungle~
+Descr
+To the east you can see a magnificent lush jungle. You can already feel
+your skin crawling with bugs. The high pitched buzzing in the air makes you
+nervous.
+~
+Sector 27
+Door 1 0 0 3509 0 0
+~
+~
+Door 3 0 0 3507 0 0
+~
+~
+End
+
+#3509
+Name Approaching the Jungle~
+Descr
+To the east you can see a magnificent lush jungle. You can already feel
+your skin crawling with bugs. The high pitched buzzing in the air makes you
+nervous.
+~
+Sector 20
+Reset M 3500 1 100
+Reset O 3500 -1 25
+Reset M 3500 1 100
+Reset O 3500 -1 25
+Door 1 0 0 3510 0 0
+~
+~
+Door 3 0 0 3508 0 0
+~
+~
+End
+
+#3510
+Name Outskirts of the Jungle~
+Descr
+You are standing on the outskirts of a huge jungle. You can feel the
+humidity dripping off your face. You are more preoccupied with the huge
+gigantic bugs eating you alive though. The jungle looks so thick it's almost
+impassible without a huge machete. 
+~
+Sector 20
+Door 0 0 0 3511 0 0
+~
+~
+Door 1 0 0 3517 0 0
+~
+~
+Door 2 0 0 3521 0 0
+~
+~
+Door 3 0 0 3509 0 0
+~
+~
+End
+
+#3511
+Name Outskirts of the Jungle~
+Descr
+You are standing on the outskirts of a huge jungle. You can feel the
+humidity dripping off your face. You are more preoccupied with the huge
+gigantic bugs eating you alive though. The jungle looks so thick it's almost
+impassible without a huge machete.
+~
+Sector 20
+Door 0 0 0 3512 0 0
+~
+~
+Door 1 0 0 3516 0 0
+~
+~
+Door 2 0 0 3510 0 0
+~
+~
+End
+
+#3512
+Name Outskirts of the Jungle~
+Descr
+You are standing on the outskirts of a huge jungle. You can feel the
+humidity dripping off your face. You are more preoccupied with the huge
+gigantic bugs eating you alive though. The jungle looks so thick it's almost
+impassible without a huge machete.
+~
+Sector 20
+Door 0 0 0 3513 0 0
+~
+~
+Door 1 0 0 3515 0 0
+~
+~
+Door 2 0 0 3511 0 0
+~
+~
+End
+
+#3513
+Name Outskirts of the Jungle~
+Descr
+You are standing on the outskirts of a huge jungle. You can feel the
+humidity dripping off your face. You are more preoccupied with the huge
+gigantic bugs eating you alive though. The jungle looks so thick it's almost
+impassible without a huge machete.
+~
+Sector 20
+Door 1 0 0 3514 0 0
+~
+~
+Door 2 0 0 3512 0 0
+~
+~
+End
+
+#3514
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3503 1 100
+Door 2 0 0 3515 0 0
+~
+~
+Door 3 0 0 3513 0 0
+~
+~
+End
+
+#3515
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3514 0 0
+~
+~
+Door 1 0 0 3531 0 0
+~
+~
+Door 2 0 0 3516 0 0
+~
+~
+Door 3 0 0 3512 0 0
+~
+~
+End
+
+#3516
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3515 0 0
+~
+~
+Door 1 0 0 3530 0 0
+~
+~
+Door 2 0 0 3517 0 0
+~
+~
+Door 3 0 0 3511 0 0
+~
+~
+End
+
+#3517
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3516 0 0
+~
+~
+Door 1 0 0 3529 0 0
+~
+~
+Door 2 0 0 3518 0 0
+~
+~
+Door 3 0 0 3510 0 0
+~
+~
+End
+
+#3518
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3517 0 0
+~
+~
+Door 1 0 0 3528 0 0
+~
+~
+Door 2 0 0 3519 0 0
+~
+~
+Door 3 0 0 3521 0 0
+~
+~
+End
+
+#3519
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3518 0 0
+~
+~
+Door 1 0 0 3527 0 0
+~
+~
+Door 2 0 0 3520 0 0
+~
+~
+Door 3 0 0 3522 0 0
+~
+~
+End
+
+#3520
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3519 0 0
+~
+~
+Door 1 0 0 3526 0 0
+~
+~
+Door 2 0 0 3524 0 0
+~
+~
+Door 3 0 0 3523 0 0
+~
+~
+End
+
+#3521
+Name Outskirts of the Jungle~
+Descr
+You are standing on the outskirts of a huge jungle. You can feel the
+humidity dripping off your face. You are more preoccupied with the huge
+gigantic bugs eating you alive though. The jungle looks so thick it's almost
+impassible without a huge machete.
+~
+Sector 20
+Door 0 0 0 3510 0 0
+~
+~
+Door 1 0 0 3518 0 0
+~
+~
+Door 2 0 0 3522 0 0
+~
+~
+End
+
+#3522
+Name Outskirts of the Jungle~
+Descr
+You are standing on the outskirts of a huge jungle. You can feel the
+humidity dripping off your face. You are more preoccupied with the huge
+gigantic bugs eating you alive though. The jungle looks so thick it's almost
+impassible without a huge machete.
+~
+Sector 20
+Door 0 0 0 3521 0 0
+~
+~
+Door 1 0 0 3519 0 0
+~
+~
+Door 2 0 0 3523 0 0
+~
+~
+End
+
+#3523
+Name Outskirts of the Jungle~
+Descr
+You are standing on the outskirts of a huge jungle. You can feel the
+humidity dripping off your face. You are more preoccupied with the huge
+gigantic bugs eating you alive though. The jungle looks so thick it's almost
+impassible without a huge machete.
+~
+Sector 20
+Reset M 3503 1 100
+Door 0 0 0 3522 0 0
+~
+~
+Door 1 0 0 3520 0 0
+~
+~
+End
+
+#3524
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3520 0 0
+~
+~
+Door 1 0 0 3525 0 0
+~
+~
+End
+
+#3525
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3526 0 0
+~
+~
+Door 1 0 0 3538 0 0
+~
+~
+Door 3 0 0 3524 0 0
+~
+~
+End
+
+#3526
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Reset O 3501 -1 50
+Door 0 0 0 3527 0 0
+~
+~
+Door 1 0 0 3537 0 0
+~
+~
+Door 2 0 0 3525 0 0
+~
+~
+Door 3 0 0 3520 0 0
+~
+~
+End
+
+#3527
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3528 0 0
+~
+~
+Door 1 0 0 3536 0 0
+~
+~
+Door 2 0 0 3526 0 0
+~
+~
+Door 3 0 0 3519 0 0
+~
+~
+End
+
+#3528
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3529 0 0
+~
+~
+Door 1 0 0 3535 0 0
+~
+~
+Door 2 0 0 3527 0 0
+~
+~
+Door 3 0 0 3518 0 0
+~
+~
+End
+
+#3529
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3530 0 0
+~
+~
+Door 1 0 0 3534 0 0
+~
+~
+Door 2 0 0 3528 0 0
+~
+~
+Door 3 0 0 3517 0 0
+~
+~
+End
+
+#3530
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3503 1 100
+Door 0 0 0 3531 0 0
+~
+~
+Door 1 0 0 3533 0 0
+~
+~
+Door 2 0 0 3529 0 0
+~
+~
+Door 3 0 0 3516 0 0
+~
+~
+End
+
+#3531
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 1 0 0 3532 0 0
+~
+~
+Door 2 0 0 3530 0 0
+~
+~
+Door 3 0 0 3515 0 0
+~
+~
+End
+
+#3532
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 2 0 0 3533 0 0
+~
+~
+Door 3 0 0 3531 0 0
+~
+~
+End
+
+#3533
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3532 0 0
+~
+~
+Door 1 0 0 3548 0 0
+~
+~
+Door 2 0 0 3534 0 0
+~
+~
+Door 3 0 0 3530 0 0
+~
+~
+End
+
+#3534
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3533 0 0
+~
+~
+Door 1 0 0 3547 0 0
+~
+~
+Door 2 0 0 3535 0 0
+~
+~
+Door 3 0 0 3529 0 0
+~
+~
+End
+
+#3535
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3534 0 0
+~
+~
+Door 1 0 0 3546 0 0
+~
+~
+Door 2 0 0 3536 0 0
+~
+~
+Door 3 0 0 3528 0 0
+~
+~
+End
+
+#3536
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3535 0 0
+~
+~
+Door 1 0 0 3545 0 0
+~
+~
+Door 2 0 0 3537 0 0
+~
+~
+Door 3 0 0 3527 0 0
+~
+~
+End
+
+#3537
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3503 1 100
+Door 0 0 0 3536 0 0
+~
+~
+Door 1 0 0 3544 0 0
+~
+~
+Door 2 0 0 3538 0 0
+~
+~
+Door 3 0 0 3526 0 0
+~
+~
+End
+
+#3538
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3537 0 0
+~
+~
+Door 1 0 0 3543 0 0
+~
+~
+Door 2 0 0 3539 0 0
+~
+~
+Door 3 0 0 3525 0 0
+~
+~
+End
+
+#3539
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3538 0 0
+~
+~
+Door 1 0 0 3542 0 0
+~
+~
+Door 2 0 0 3540 0 0
+~
+~
+End
+
+#3540
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3539 0 0
+~
+~
+Door 1 0 0 3541 0 0
+~
+~
+End
+
+#3541
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3542 0 0
+~
+~
+Door 2 0 0 9400 0 0
+~
+~
+Door 3 0 0 3540 0 0
+~
+~
+End
+
+#3542
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3543 0 0
+~
+~
+Door 1 0 0 3557 0 0
+~
+~
+Door 2 0 0 3541 0 0
+~
+~
+Door 3 0 0 3539 0 0
+~
+~
+End
+
+#3543
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3544 0 0
+~
+~
+Door 1 0 0 3556 0 0
+~
+~
+Door 2 0 0 3542 0 0
+~
+~
+Door 3 0 0 3538 0 0
+~
+~
+End
+
+#3544
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3545 0 0
+~
+~
+Door 1 0 0 3555 0 0
+~
+~
+Door 2 0 0 3543 0 0
+~
+~
+Door 3 0 0 3537 0 0
+~
+~
+End
+
+#3545
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3546 0 0
+~
+~
+Door 1 0 0 3554 0 0
+~
+~
+Door 2 0 0 3544 0 0
+~
+~
+Door 3 0 0 3536 0 0
+~
+~
+End
+
+#3546
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3547 0 0
+~
+~
+Door 1 0 0 3553 0 0
+~
+~
+Door 2 0 0 3545 0 0
+~
+~
+Door 3 0 0 3535 0 0
+~
+~
+End
+
+#3547
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3548 0 0
+~
+~
+Door 1 0 0 3552 0 0
+~
+~
+Door 2 0 0 3546 0 0
+~
+~
+Door 3 0 0 3534 0 0
+~
+~
+End
+
+#3548
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Reset O 3501 -1 50
+Door 1 0 0 3549 0 0
+~
+~
+Door 2 0 0 3547 0 0
+~
+~
+Door 3 0 0 3533 0 0
+~
+~
+End
+
+#3549
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3550 0 0
+~
+~
+Door 1 0 0 3558 0 0
+~
+~
+Door 2 0 0 3552 0 0
+~
+~
+Door 3 0 0 3548 0 0
+~
+~
+End
+
+#3550
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 1 0 0 3551 0 0
+~
+~
+Door 2 0 0 3549 0 0
+~
+~
+End
+
+#3551
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 2 0 0 3558 0 0
+~
+~
+Door 3 0 0 3550 0 0
+~
+~
+End
+
+#3552
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3549 0 0
+~
+~
+Door 1 0 0 3559 0 0
+~
+~
+Door 2 0 0 3553 0 0
+~
+~
+Door 3 0 0 3547 0 0
+~
+~
+End
+
+#3553
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3552 0 0
+~
+~
+Door 1 0 0 3560 0 0
+~
+~
+Door 2 0 0 3554 0 0
+~
+~
+Door 3 0 0 3546 0 0
+~
+~
+End
+
+#3554
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3553 0 0
+~
+~
+Door 1 0 0 3561 0 0
+~
+~
+Door 2 0 0 3555 0 0
+~
+~
+Door 3 0 0 3545 0 0
+~
+~
+End
+
+#3555
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3554 0 0
+~
+~
+Door 1 0 0 3562 0 0
+~
+~
+Door 2 0 0 3556 0 0
+~
+~
+Door 3 0 0 3544 0 0
+~
+~
+End
+
+#3556
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3555 0 0
+~
+~
+Door 1 0 0 3563 0 0
+~
+~
+Door 2 0 0 3557 0 0
+~
+~
+Door 3 0 0 3543 0 0
+~
+~
+End
+
+#3557
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3556 0 0
+~
+~
+Door 1 0 0 3564 0 0
+~
+~
+Door 3 0 0 3542 0 0
+~
+~
+End
+
+#3558
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3551 0 0
+~
+~
+Door 2 0 0 3559 0 0
+~
+~
+Door 3 0 0 3549 0 0
+~
+~
+End
+
+#3559
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3558 0 0
+~
+~
+Door 1 0 0 3568 0 0
+~
+~
+Door 2 0 0 3560 0 0
+~
+~
+Door 3 0 0 3552 0 0
+~
+~
+End
+
+#3560
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Reset O 3501 -1 50
+Door 0 0 0 3559 0 0
+~
+~
+Door 1 0 0 3567 0 0
+~
+~
+Door 2 0 0 3561 0 0
+~
+~
+Door 3 0 0 3553 0 0
+~
+~
+End
+
+#3561
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3503 1 100
+Door 0 0 0 3560 0 0
+~
+~
+Door 1 0 0 3566 0 0
+~
+~
+Door 2 0 0 3562 0 0
+~
+~
+Door 3 0 0 3554 0 0
+~
+~
+End
+
+#3562
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3561 0 0
+~
+~
+Door 1 0 0 3565 0 0
+~
+~
+Door 2 0 0 3563 0 0
+~
+~
+Door 3 0 0 3555 0 0
+~
+~
+End
+
+#3563
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Reset O 3501 -1 50
+Door 0 0 0 3562 0 0
+~
+~
+Door 1 0 0 3569 0 0
+~
+~
+Door 2 0 0 3564 0 0
+~
+~
+Door 3 0 0 3556 0 0
+~
+~
+End
+
+#3564
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3563 0 0
+~
+~
+Door 3 0 0 3557 0 0
+~
+~
+End
+
+#3565
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3566 0 0
+~
+~
+Door 1 0 0 3570 0 0
+~
+~
+Door 2 0 0 3569 0 0
+~
+~
+Door 3 0 0 3562 0 0
+~
+~
+End
+
+#3566
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3567 0 0
+~
+~
+Door 1 0 0 3571 0 0
+~
+~
+Door 2 0 0 3565 0 0
+~
+~
+Door 3 0 0 3561 0 0
+~
+~
+End
+
+#3567
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3503 1 100
+Door 0 0 0 3568 0 0
+~
+~
+Door 1 0 0 3572 0 0
+~
+~
+Door 2 0 0 3566 0 0
+~
+~
+Door 3 0 0 3560 0 0
+~
+~
+End
+
+#3568
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 1 0 0 3573 0 0
+~
+~
+Door 2 0 0 3567 0 0
+~
+~
+Door 3 0 0 3559 0 0
+~
+~
+End
+
+#3569
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3565 0 0
+~
+~
+Door 3 0 0 3563 0 0
+~
+~
+End
+
+#3570
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3571 0 0
+~
+~
+Door 1 0 0 3605 0 0
+~
+~
+Door 3 0 0 3565 0 0
+~
+~
+End
+
+#3571
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 0 0 0 3572 0 0
+~
+~
+Door 2 0 0 3570 0 0
+~
+~
+Door 3 0 0 3566 0 0
+~
+~
+End
+
+#3572
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3504 1 100
+Reset O 3500 -1 25
+Reset M 3504 1 100
+Reset O 3500 -1 25
+Door 0 0 0 3573 0 0
+~
+~
+Door 1 0 0 3606 0 0
+~
+~
+Door 2 0 0 3571 0 0
+~
+~
+Door 3 0 0 3567 0 0
+~
+~
+End
+
+#3573
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Reset M 3501 1 100
+Door 0 0 0 3574 0 0
+~
+~
+Door 2 0 0 3572 0 0
+~
+~
+Door 3 0 0 3568 0 0
+~
+~
+End
+
+#3574
+Name In the Jungle~
+Descr
+You are deep within the jungle, there is no turning back now. I hope you
+find what you are looking for before the bugs devour all of your flesh. You
+see traces of a trail here and there. There is also a pungent odor of
+smoking flesh in the air. Hopefully it's not somebody you know.
+~
+Sector 20
+Door 1 0 0 3575 0 0
+~
+~
+Door 2 0 0 3573 0 0
+~
+~
+End
+
+#3575
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 1 0 0 3576 0 0
+~
+~
+Door 3 0 0 3574 0 0
+~
+~
+End
+
+#3576
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3577 0 0
+~
+~
+Door 3 0 0 3575 0 0
+~
+~
+End
+
+#3577
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3578 0 0
+~
+~
+Door 2 0 0 3576 0 0
+~
+~
+End
+
+#3578
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Reset M 3502 1 100
+Door 1 0 0 3579 0 0
+~
+~
+Door 2 0 0 3577 0 0
+~
+~
+End
+
+#3579
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 1 0 0 3580 0 0
+~
+~
+Door 3 0 0 3578 0 0
+~
+~
+End
+
+#3580
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 1 0 0 3581 0 0
+~
+~
+Door 3 0 0 3579 0 0
+~
+~
+End
+
+#3581
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 1 0 0 3582 0 0
+~
+~
+Door 3 0 0 3580 0 0
+~
+~
+End
+
+#3582
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Reset M 3502 1 100
+Door 2 0 0 3583 0 0
+~
+~
+Door 3 0 0 3581 0 0
+~
+~
+End
+
+#3583
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3582 0 0
+~
+~
+Door 1 0 0 3584 0 0
+~
+~
+End
+
+#3584
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 2 0 0 3585 0 0
+~
+~
+Door 3 0 0 3583 0 0
+~
+~
+End
+
+#3585
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3584 0 0
+~
+~
+Door 2 0 0 3586 0 0
+~
+~
+End
+
+#3586
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3585 0 0
+~
+~
+Door 2 0 0 3587 0 0
+~
+~
+End
+
+#3587
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3586 0 0
+~
+~
+Door 2 0 0 3588 0 0
+~
+~
+End
+
+#3588
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3587 0 0
+~
+~
+Door 1 0 0 3589 0 0
+~
+~
+End
+
+#3589
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Reset M 3502 1 100
+Door 2 0 0 3590 0 0
+~
+~
+Door 3 0 0 3588 0 0
+~
+~
+End
+
+#3590
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3589 0 0
+~
+~
+Door 2 0 0 3591 0 0
+~
+~
+End
+
+#3591
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3590 0 0
+~
+~
+Door 1 0 0 3592 0 0
+~
+~
+End
+
+#3592
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 2 0 0 3593 0 0
+~
+~
+Door 3 0 0 3591 0 0
+~
+~
+End
+
+#3593
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3592 0 0
+~
+~
+Door 2 0 0 3594 0 0
+~
+~
+End
+
+#3594
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesman use to spot
+intruders. You notice in this room there is the remains of a cut down tree. 
+~
+Sector 5
+Door 0 0 0 3593 0 0
+~
+~
+Door 3 0 0 3595 0 0
+~
+~
+Door 5 259 0 3651 30 30
+~
+stump~
+End
+
+#3595
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 1 0 0 3594 0 0
+~
+~
+Door 3 0 0 3596 0 0
+~
+~
+End
+
+#3596
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Reset M 3502 1 100
+Door 1 0 0 3595 0 0
+~
+~
+Door 3 0 0 3597 0 0
+~
+~
+End
+
+#3597
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 1 0 0 3596 0 0
+~
+~
+Door 3 0 0 3598 0 0
+~
+~
+End
+
+#3598
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 1 0 0 3597 0 0
+~
+~
+Door 3 0 0 3599 0 0
+~
+~
+End
+
+#3599
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3600 0 0
+~
+~
+Door 1 0 0 3598 0 0
+~
+~
+End
+
+#3600
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 2 0 0 3599 0 0
+~
+~
+Door 3 0 0 3601 0 0
+~
+~
+End
+
+#3601
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Reset M 3502 1 100
+Door 0 0 0 3603 0 0
+~
+~
+Door 1 0 0 3600 0 0
+~
+~
+End
+
+#3602
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 1 0 0 3603 0 0
+~
+~
+Door 3 0 0 3604 0 0
+~
+~
+End
+
+#3603
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 2 0 0 3601 0 0
+~
+~
+Door 3 0 0 3602 0 0
+~
+~
+End
+
+#3604
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 0 0 0 3605 0 0
+~
+~
+Door 1 0 0 3602 0 0
+~
+~
+End
+
+#3605
+Name Around the Village~
+Descr
+You're walking along the path that the lookout tribesmen use to spot
+intruders. 
+~
+Sector 5
+Door 2 0 0 3604 0 0
+~
+~
+Door 3 0 0 3570 0 0
+~
+~
+End
+
+#3606
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3607 0 0
+~
+~
+Door 1 0 0 3633 0 0
+~
+~
+Door 2 0 0 3632 0 0
+~
+~
+Door 3 0 0 3572 0 0
+~
+~
+End
+
+#3607
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 1 0 0 3608 0 0
+~
+~
+Door 2 0 0 3606 0 0
+~
+~
+End
+
+#3608
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Reset M 3510 1 100
+Door 1 0 0 3609 0 0
+~
+~
+Door 2 0 0 3633 0 0
+~
+~
+Door 3 0 0 3607 0 0
+~
+~
+End
+
+#3609
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3610 0 0
+~
+~
+Door 1 0 0 3636 0 0
+~
+~
+Door 2 0 0 3634 0 0
+~
+~
+Door 3 0 0 3608 0 0
+~
+~
+End
+
+#3610
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3611 0 0
+~
+~
+Door 1 0 0 3637 0 0
+~
+~
+Door 2 0 0 3609 0 0
+~
+~
+End
+
+#3611
+Name Hunter Training Hut~
+Descr
+This little hut is crammed with eager young tribesman. The ground is
+scattered with bits and pieces of wooden armor and weapons. It looks like a
+practice room. 
+~
+Sector 0
+Reset M 3506 1 100
+Reset O 51 -1 1
+Reset O 3504 -1 5
+Reset M 3506 1 100
+Reset O 3505 -1 5
+Reset M 3506 1 100
+Reset O 51 -1 1
+Reset O 3506 -1 5
+Reset O 3504 -1 5
+Reset M 3506 1 100
+Reset O 3507 -1 5
+Reset M 3506 1 100
+Reset O 3506 -1 5
+Door 1 0 0 3612 0 0
+~
+~
+Door 2 0 0 3610 0 0
+~
+~
+End
+
+#3612
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 1 0 0 3613 0 0
+~
+~
+Door 2 0 0 3637 0 0
+~
+~
+Door 3 0 0 3611 0 0
+~
+~
+End
+
+#3613
+Name Raid Leader Rigastac's Hut~
+Descr
+This hut is full of stuffed dead animal heads and trophies.
+~
+Sector 0
+Reset M 3507 1 100
+Reset O 3508 -1 1
+Door 2 0 0 3614 0 0
+~
+~
+Door 3 0 0 3612 0 0
+~
+~
+End
+
+#3614
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3613 0 0
+~
+~
+Door 1 0 0 3615 0 0
+~
+~
+Door 2 0 0 3638 0 0
+~
+~
+Door 3 0 0 3637 0 0
+~
+~
+End
+
+#3615
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 2 0 0 3616 0 0
+~
+~
+Door 3 0 0 3614 0 0
+~
+~
+End
+
+#3616
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around.
+~
+Sector 2
+Door 0 0 0 3615 0 0
+~
+~
+Door 2 0 0 3617 0 0
+~
+~
+Door 3 0 0 3638 0 0
+~
+~
+End
+
+#3617
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3616 0 0
+~
+~
+Door 2 0 0 3618 0 0
+~
+~
+Door 3 0 0 3639 0 0
+~
+~
+End
+
+#3618
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3617 0 0
+~
+~
+Door 2 0 0 3619 0 0
+~
+~
+Door 3 0 0 3640 0 0
+~
+~
+End
+
+#3619
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Reset M 3510 1 100
+Door 0 0 0 3618 0 0
+~
+~
+Door 1 0 0 3620 0 0
+~
+~
+Door 2 0 0 3644 0 0
+~
+~
+Door 3 0 0 3641 0 0
+~
+~
+End
+
+#3620
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around.
+~
+Sector 2
+Door 2 0 0 3621 0 0
+~
+~
+Door 3 0 0 3619 0 0
+~
+~
+End
+
+#3621
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Reset M 3510 1 100
+Door 0 0 0 3620 0 0
+~
+~
+Door 2 0 0 3622 0 0
+~
+~
+Door 3 0 0 3644 0 0
+~
+~
+End
+
+#3622
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3621 0 0
+~
+~
+Door 1 0 0 3623 0 0
+~
+~
+Door 3 0 0 3624 0 0
+~
+~
+End
+
+#3623
+Name Chief Ordanoo's Hut~
+Descr
+This huge luxurious hut is decorated with rugs and tapestries. There is a
+magnificent bed in the corner with silk blankets. In the corner you see
+piles and piles of gold and gems that the guards were screaming about. 
+~
+Sector 0
+Reset M 3509 1 100
+Reset O 3510 -1 1
+Door 3 0 0 3622 0 0
+~
+~
+End
+
+#3624
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3644 0 0
+~
+~
+Door 1 0 0 3622 0 0
+~
+~
+Door 3 0 0 3625 0 0
+~
+~
+End
+
+#3625
+Name Headshrinker Gogbooka's Hut~
+Descr
+As you look around the room, you can see dozens of shrunken orc heads.
+The floor is covered with loose straw, most likely to absorb the excess
+blood. There's an intricately carved oak table sitting in the middle of the
+room with candles on it. Gogbooka doesn't seem to be much into cleaning or
+keeping the room tidy. Behind one of the blood splatterings on the wall you
+notice a familiar face. The head of Mog the orc is hanging on the wall here,
+shrunken down much smaller than when Mog was alive. 
+~
+Flags2 4
+Sector 0
+Reset M 3508 1 100
+Reset O 3509 -1 1
+Reset O 65 -1 10
+Door 0 0 0 3626 0 0
+~
+~
+Door 1 0 0 3624 0 0
+~
+~
+Door 5 259 0 3645 30 30
+~
+straw~
+End
+
+#3626
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3641 0 0
+~
+~
+Door 1 0 0 3644 0 0
+~
+~
+Door 2 0 0 3625 0 0
+~
+~
+Door 3 0 0 3627 0 0
+~
+~
+End
+
+#3627
+Name In the Village~
+Descr
+~
+Sector 2
+Door 0 0 0 3628 0 0
+~
+~
+Door 1 0 0 3626 0 0
+~
+~
+End
+
+#3628
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3642 0 0
+~
+~
+Door 1 0 0 3641 0 0
+~
+~
+Door 2 0 0 3627 0 0
+~
+~
+Door 3 0 0 3629 0 0
+~
+~
+End
+
+#3629
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3643 0 0
+~
+~
+Door 1 0 0 3628 0 0
+~
+~
+Door 3 0 0 3630 0 0
+~
+~
+End
+
+#3630
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3631 0 0
+~
+~
+Door 1 0 0 3629 0 0
+~
+~
+End
+
+#3631
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3633 0 0
+~
+~
+Door 1 0 0 3643 0 0
+~
+~
+Door 2 0 0 3630 0 0
+~
+~
+Door 3 0 0 3632 0 0
+~
+~
+End
+
+#3632
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around.
+~
+Sector 2
+Door 0 0 0 3606 0 0
+~
+~
+Door 1 0 0 3631 0 0
+~
+~
+End
+
+#3633
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3608 0 0
+~
+~
+Door 1 0 0 3634 0 0
+~
+~
+Door 2 0 0 3631 0 0
+~
+~
+Door 3 0 0 3606 0 0
+~
+~
+End
+
+#3634
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Reset O 3511 -5 100
+Door 0 0 0 3609 0 0
+~
+~
+Door 1 0 0 3635 0 0
+~
+~
+Door 2 0 0 3643 0 0
+~
+~
+Door 3 0 0 3633 0 0
+~
+~
+End
+
+#3635
+Name A HUGE Bonfire~
+Descr
+This whole area is taken up by a humongous blazing bonfire. The smell of
+burning flesh is making your nostrils go crazy. There is a lot of chanting
+and hollering going on, which makes it very hard to concentrate on anything.
+~
+Sector 2
+Reset M 3505 1 100
+Reset M 3505 1 100
+Reset M 3505 1 100
+Reset M 3505 1 100
+Reset O 3503 -5 100
+Door 0 0 0 3636 0 0
+~
+~
+Door 1 0 0 3639 0 0
+~
+~
+Door 2 0 0 3642 0 0
+~
+~
+Door 3 0 0 3634 0 0
+~
+~
+End
+
+#3636
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around.
+~
+Sector 2
+Door 0 0 0 3637 0 0
+~
+~
+Door 1 0 0 3638 0 0
+~
+~
+Door 2 0 0 3635 0 0
+~
+~
+Door 3 0 0 3609 0 0
+~
+~
+End
+
+#3637
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3612 0 0
+~
+~
+Door 1 0 0 3614 0 0
+~
+~
+Door 2 0 0 3636 0 0
+~
+~
+Door 3 0 0 3610 0 0
+~
+~
+End
+
+#3638
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Reset M 3510 1 100
+Door 0 0 0 3614 0 0
+~
+~
+Door 1 0 0 3616 0 0
+~
+~
+Door 2 0 0 3639 0 0
+~
+~
+Door 3 0 0 3636 0 0
+~
+~
+End
+
+#3639
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3638 0 0
+~
+~
+Door 1 0 0 3617 0 0
+~
+~
+Door 2 0 0 3640 0 0
+~
+~
+Door 3 0 0 3635 0 0
+~
+~
+End
+
+#3640
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around.
+~
+Sector 2
+Door 0 0 0 3639 0 0
+~
+~
+Door 1 0 0 3618 0 0
+~
+~
+Door 2 0 0 3641 0 0
+~
+~
+Door 3 0 0 3642 0 0
+~
+~
+End
+
+#3641
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Reset M 3510 1 100
+Door 0 0 0 3640 0 0
+~
+~
+Door 1 0 0 3619 0 0
+~
+~
+Door 2 0 0 3626 0 0
+~
+~
+Door 3 0 0 3628 0 0
+~
+~
+End
+
+#3642
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3635 0 0
+~
+~
+Door 1 0 0 3640 0 0
+~
+~
+Door 2 0 0 3628 0 0
+~
+~
+Door 3 0 0 3643 0 0
+~
+~
+End
+
+#3643
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Reset M 3510 1 100
+Door 0 0 0 3634 0 0
+~
+~
+Door 1 0 0 3642 0 0
+~
+~
+Door 2 0 0 3629 0 0
+~
+~
+Door 3 0 0 3631 0 0
+~
+~
+End
+
+#3644
+Name In the Village~
+Descr
+You're in a filthy dirt village. The ground is scattered with bones of
+who knows what. You're trying your best not to step on the tribesman refuge
+lying around. 
+~
+Sector 2
+Door 0 0 0 3619 0 0
+~
+~
+Door 1 0 0 3621 0 0
+~
+~
+Door 2 0 0 3624 0 0
+~
+~
+Door 3 0 0 3626 0 0
+~
+~
+End
+
+#3645
+Name A Stinky Damp Pit~
+Descr
+This room stinks like decaying orc corpses. You try to plug up your nose,
+but it doesn't seem to matter. You're going to have to get some new leather
+boots after this trip. Up above you can see a large pile of straw.
+~
+Sector 47
+Door 1 0 0 3646 0 0
+~
+~
+Door 4 259 0 3625 30 30
+~
+straw~
+End
+
+#3646
+Name A Stinky Damp Tunnel~
+Descr
+This room stinks like decaying orc corpses. You try to plug up your nose,
+but it doesn't seem to matter. You're going to have to get some new leather
+boots after this trip. 
+~
+Sector 47
+Door 1 0 0 3647 0 0
+~
+~
+Door 3 0 0 3645 0 0
+~
+~
+End
+
+#3647
+Name A Stinky Damp Tunnel~
+Descr
+This room stinks like decaying orc corpses. You try to plug up your nose,
+but it doesn't seem to matter. You're going to have to get some new leather
+boots after this trip. 
+~
+Sector 47
+Door 1 0 0 3648 0 0
+~
+~
+Door 3 0 0 3646 0 0
+~
+~
+End
+
+#3648
+Name A Stinky Damp Tunnel~
+Descr
+This room stinks like decaying orc corpses. You try to plug up your nose,
+but it doesn't seem to matter. You're going to have to get some new leather
+boots after this trip. 
+~
+Sector 47
+Door 2 0 0 3649 0 0
+~
+~
+Door 3 0 0 3647 0 0
+~
+~
+End
+
+#3649
+Name A Stinky Damp Tunnel~
+Descr
+This room stinks like decaying orc corpses. You try to plug up your nose,
+but it doesn't seem to matter. You're going to have to get some new leather
+boots after this trip. 
+~
+Sector 47
+Door 0 0 0 3648 0 0
+~
+~
+Door 1 0 0 3650 0 0
+~
+~
+End
+
+#3650
+Name A Dead End~
+Descr
+You've hit a dead end.
+You should probably just go back.
+~
+Sector 47
+Door 3 0 0 3649 0 0
+~
+~
+End
+
+#3651
+Name A Secret Tribal Tunnel~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Sector 47
+Door 3 0 0 3652 0 0
+~
+~
+Door 4 259 0 3594 30 30
+~
+stump~
+End
+
+#3652
+Name A Secret Tribal Tunnel~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Sector 47
+Door 1 0 0 3651 0 0
+~
+~
+Door 3 0 0 3653 0 0
+~
+~
+End
+
+#3653
+Name A Secret Tribal Tunnel~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Door 1 0 0 3652 0 0
+~
+~
+Door 3 0 0 3654 0 0
+~
+~
+End
+
+#3654
+Name A Secret Tribal Tunnel~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 3655 0 0
+~
+~
+Door 1 0 0 3653 0 0
+~
+~
+End
+
+#3655
+Name A Secret Tribal Tunnel~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 3656 0 0
+~
+~
+Door 2 0 0 3654 0 0
+~
+~
+End
+
+#3656
+Name The Tribal Dump~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Reset M 51226 1 100
+Door 0 0 0 3664 0 0
+~
+~
+Door 1 0 0 3663 0 0
+~
+~
+Door 2 0 0 3655 0 0
+~
+~
+Door 3 0 0 3657 0 0
+~
+~
+End
+
+#3657
+Name The Tribal Dump~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 3658 0 0
+~
+~
+Door 1 0 0 3656 0 0
+~
+~
+End
+
+#3658
+Name The Tribal Dump~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Reset M 51226 1 100
+Door 0 0 0 3659 0 0
+~
+~
+Door 1 0 0 3664 0 0
+~
+~
+Door 2 0 0 3657 0 0
+~
+~
+End
+
+#3659
+Name The Tribal Dump~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Reset M 51226 1 100
+Door 1 0 0 3660 0 0
+~
+~
+Door 2 0 0 3658 0 0
+~
+~
+End
+
+#3660
+Name The Tribal Dump~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Reset M 51226 1 100
+Door 1 0 0 3661 0 0
+~
+~
+Door 2 0 0 3664 0 0
+~
+~
+Door 3 0 0 3659 0 0
+~
+~
+End
+
+#3661
+Name The Tribal Dump~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Reset M 51226 1 100
+Door 2 0 0 3662 0 0
+~
+~
+Door 3 0 0 3660 0 0
+~
+~
+End
+
+#3662
+Name The Tribal Dump~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 3661 0 0
+~
+~
+Door 2 0 0 3663 0 0
+~
+~
+Door 3 0 0 3664 0 0
+~
+~
+End
+
+#3663
+Name The Tribal Dump~
+Descr
+This passage seems to be very brightly lit for a tunnel. There is an
+awful stench though, you start puking up the remains of your daily rations
+all over the floor. You wish you had never come down here. 
+~
+Flags 32
+Sector 47
+Reset M 51226 1 100
+Door 0 0 0 3662 0 0
+~
+~
+Door 3 0 0 3656 0 0
+~
+~
+End
+
+#3664
+Name Center of the Dump~
+Descr
+This room is filled with rotting carcasses of various origins. Bits and
+pieces of flesh and body parts are strewn around the room. This looks like
+the main place where the tribal people put their leftover garbage. There is
+a huge sign in the middle of the room that reads BEWARE OF THE RAT LORD!  
+~
+Flags 32
+Sector 47
+Reset M 51226 1 100
+Door 0 0 0 3660 0 0
+~
+~
+Door 1 0 0 3662 0 0
+~
+~
+Door 2 0 0 3656 0 0
+~
+~
+Door 3 0 0 3658 0 0
+~
+~
+Door 5 259 0 3665 30 30
+~
+garbage~
+End
+
+#3665
+Name Underneath the Garbage~
+Descr
+The stench in this room is to unbearable to even describe. You better
+leave as soon as possible!  
+~
+Flags 32
+Sector 47
+Reset M 3511 1 100
+Reset O 3512 -1 2
+Reset O 3513 -1 2
+Door 4 259 0 3664 30 30
+~
+garbage~
+End
+
+#0
+
+
+
+#$

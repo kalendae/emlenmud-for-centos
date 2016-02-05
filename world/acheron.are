@@ -1,0 +1,2134 @@
+#AREADATA 
+Name The Crypt of Acheron~
+Repop The walls tremble as the underworld beneath shifts restlessly.
+~
+SCZone 0
+Builders Arc~
+VNUMs 91200 91400
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#91231
+Name shadowy dark~
+Short A dark shadowy figure~
+Long 
+A dark shadowy figure stands here bending in and out of light.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+AffectTWO 101187584
+Level 100
+Hp 4
+Guard 0
+End
+
+#91304
+Name armored skeleton~
+Short an armored skeleton~
+Long 
+An armored skeleton stands its ground firmly.
+~
+AMax 3
+NHeight 0
+ActBits 2
+ActBits3 65538
+Affect_By 520
+Level 40
+MobType 0
+Guard 2
+End
+
+#91305
+Name lost soul~
+Short a lost soul~
+Long 
+A lost soul roams these corridors.
+~
+AMax 5
+NHeight 0
+ActBits 1032
+Affect_By 8
+Level 90
+MobType 21
+Guard 0
+End
+
+#91306
+Name cloaked worshipper~
+Short a cloaked worshipper~
+Long 
+A cloaked worshipper screams at your intrusion.
+~
+AMax 8
+NHeight 0
+ActBits 1032
+Affect_By 8
+Level 140
+Sex 1
+MobType 0
+Guard 0
+End
+
+#91309
+Name demon guard guardian~
+Short a guardian demon~
+Long 
+A salivating demon has been chained to the floor here.
+~
+AMax 1
+NHeight 0
+ActBits 266
+ActBits3 65537
+Affect_By 136
+Level 310
+MobType 11
+Guard 0
+ASklTaught 0 200
+ASklTaught 1 207
+End
+
+#91310
+Name crazy old man~
+Short a crazy old man~
+Long 
+A crazy old man walks back and forth mumbling some jibberish.
+~
+AMax 1
+NHeight 5
+ActBits 256
+ActBits4 1
+Affect_By 40
+Level 800
+Sex 1
+MobType 0
+Hp 30
+Guard 0
+ASklTaught 0 197
+ASklTaught 1 206
+End
+
+#91311
+Name necromancer guardian~
+Short a necromancer's guardian~
+Long 
+A necromancer's guardian waits here to grant you passage.
+~
+AMax 1
+ActBits 6
+ActBits4 5
+Affect_By 512
+Money 200
+Level 300
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#91240
+Name club ascension~
+Short [1m[30ma blackened club of [1m[37ma[1m[32msc[0m[32me[1m[30mn[0m[32ms[1m[32mio[37mn[0m~
+Descr
+You shouldnt be seeing this
+[0;36m~
+Type 5
+Extra 50864258
+Wear 16385
+Values 0 60 0 7 0 0 0 9 2 0 0
+Weight 32
+Cost 0
+Affect 19 4 1 0 0
+End
+
+#91241
+Name blackened dagger ascension~
+Short [1m[30ma blackened dagger of [1m[37ma[1m[32msc[0m[32me[1m[30mn[0m[32ms[1m[32mio[37mn[0m~
+Descr
+You should never see this.
+[0;36m~
+Type 5
+Extra 50471042
+Wear 24577
+Values 0 60 0 11 0 0 0 6 3 0 0
+Weight 9
+Cost 0
+Affect 19 2 1 0 0
+Affect 1 1 1 0 0
+Affect 18 3 1 0 0
+End
+
+#91242
+Name gem ascension scorched~
+Short [1m[30ma [1m[31ms[0m[31mc[1mo[0m[31mr[1mc[0m[31mh[1me[0m[31md [1m[30mgem of [1m[37ma[1m[32msc[0m[32me[1m[30mn[0m[32ms[1m[32mio[37mn[0m~
+Descr
+You shouldnt be seeing ths
+[0;36m~
+Type 21
+Extra 50339969
+Wear 24577
+Values 14 100 100 45 0 0 0 0 0 0 0
+Weight 9
+Cost 3000
+End
+
+#91243
+Name gem ascension sparkling~
+Short [1m[30ma [1m[37ms[0m[37mp[1ma[0m[37mr[1mk[0m[37ml[1mi[0m[37mn[1mg [1m[30mgem of [1m[37ma[1m[32msc[0m[32me[1m[30mn[0m[32ms[1m[32mio[37mn[0m~
+Descr
+You should never see this.
+[0;36m~
+Type 21
+Extra 50339969
+Wear 24577
+Values 25 100 100 45 0 0 0 0 0 0 0
+Weight 9
+Cost 3000
+End
+
+#91307
+Name large engraved chest~
+Short a large engraved chest~
+Descr
+A large engraved chest rests in the center of the room.
+[0;36m~
+Type 15
+Wear 0
+Values 500 15 91310 0 0 0 0 0 0 0 0
+Weight 500
+Cost 0
+End
+
+#91308
+Name bloodstone rock blood stone~
+Short a [31mblood[1mstone[0m~
+Descr
+A crimson colored rock rests on the ground.
+[0;36m~
+Type 8
+Extra 258
+Wear 1
+Weight 0
+Cost 0
+End
+
+#91310
+Name bone key~
+Short a bone key~
+Descr
+A strange bone chunk has been dropped by someone.
+[0;36m~
+Type 18
+Wear 16389
+Timer 3
+Weight 0
+Cost 0
+End
+
+#91311
+Name blurry shifting portal~
+Short a [37m[1ms[0m[37mhi[1mf[0m[37mtin[1mg [0mportal~
+Descr
+A [37m[1ms[0m[37mhi[1mf[0m[37mtin[1mg [0mportal blinks in and out of reality.
+[0;36m~
+Type 12
+Wear 0
+Values 4 10114 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#91320
+Name no name~
+Short the [1m[36mring [36mof the [0m[31mfirst [1mnecromancer~
+Descr
+(none)~
+Type 9
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#91200
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Reset M 91305 5 100
+Door 0 0 0 91235 0 0
+~
+~
+Door 1 0 0 91201 0 0
+~
+~
+Door 3 3 0 91236 30 30
+~
+Iron Bars~
+End
+
+#91201
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91202 0 0
+~
+~
+Door 3 0 0 91200 0 0
+~
+~
+End
+
+#91202
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91203 0 0
+~
+~
+Door 3 0 0 91201 0 0
+~
+~
+End
+
+#91203
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91204 0 0
+~
+~
+Door 3 0 0 91202 0 0
+~
+~
+End
+
+#91204
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91205 0 0
+~
+~
+Door 3 0 0 91203 0 0
+~
+~
+End
+
+#91205
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91206 0 0
+~
+~
+Door 3 0 0 91204 0 0
+~
+~
+End
+
+#91206
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91207 0 0
+~
+~
+Door 3 0 0 91205 0 0
+~
+~
+End
+
+#91207
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91209 0 0
+~
+~
+Door 3 0 0 91206 0 0
+~
+~
+End
+
+#91208
+Name Balcony Hall of the Dead~
+Descr
+~
+Flags 4
+Sector 39
+End
+
+#91209
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Reset M 91305 5 100
+Door 0 0 0 91210 0 0
+~
+~
+Door 1 3 0 91291 30 30
+~
+Iron Bars~
+Door 3 0 0 91207 0 0
+~
+~
+End
+
+#91210
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91211 0 0
+~
+~
+Door 2 0 0 91209 0 0
+~
+~
+End
+
+#91211
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91212 0 0
+~
+~
+Door 2 0 0 91210 0 0
+~
+~
+End
+
+#91212
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91213 0 0
+~
+~
+Door 2 0 0 91211 0 0
+~
+~
+End
+
+#91213
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91214 0 0
+~
+~
+Door 2 0 0 91212 0 0
+~
+~
+End
+
+#91214
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91215 0 0
+~
+~
+Door 2 0 0 91213 0 0
+~
+~
+End
+
+#91215
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91216 0 0
+~
+~
+Door 2 0 0 91214 0 0
+~
+~
+End
+
+#91216
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91218 0 0
+~
+~
+Door 2 0 0 91215 0 0
+~
+~
+End
+
+#91217
+Name Balcony Hall of the Dead~
+Descr
+~
+Flags 4
+Sector 39
+End
+
+#91218
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Reset M 91305 5 100
+Door 2 0 0 91216 0 0
+~
+~
+Door 3 0 0 91220 0 0
+~
+~
+End
+
+#91219
+Name Balcony Hall of the Dead~
+Descr
+~
+Flags 4
+Sector 39
+End
+
+#91220
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91218 0 0
+~
+~
+Door 3 0 0 91221 0 0
+~
+~
+End
+
+#91221
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91220 0 0
+~
+~
+Door 3 0 0 91222 0 0
+~
+~
+End
+
+#91222
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91221 0 0
+~
+~
+Door 3 0 0 91223 0 0
+~
+~
+End
+
+#91223
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Reset M 91305 5 100
+Door 0 0 0 91303 0 0
+~
+~
+Door 1 0 0 91222 0 0
+~
+~
+Door 3 0 0 91224 0 0
+~
+~
+End
+
+#91224
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91223 0 0
+~
+~
+Door 3 0 0 91225 0 0
+~
+~
+End
+
+#91225
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91224 0 0
+~
+~
+Door 3 0 0 91226 0 0
+~
+~
+End
+
+#91226
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 91225 0 0
+~
+~
+Door 3 0 0 91227 0 0
+~
+~
+End
+
+#91227
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Reset M 91305 5 100
+Door 1 0 0 91226 0 0
+~
+~
+Door 2 0 0 91229 0 0
+~
+~
+End
+
+#91228
+Name Balcony Hall of the Dead~
+Descr
+~
+Flags 4
+Sector 39
+End
+
+#91229
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91227 0 0
+~
+~
+Door 2 0 0 91230 0 0
+~
+~
+End
+
+#91230
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91229 0 0
+~
+~
+Door 2 0 0 91231 0 0
+~
+~
+End
+
+#91231
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91230 0 0
+~
+~
+Door 2 0 0 91232 0 0
+~
+~
+End
+
+#91232
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91231 0 0
+~
+~
+Door 2 0 0 91233 0 0
+~
+~
+End
+
+#91233
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91232 0 0
+~
+~
+Door 2 0 0 91234 0 0
+~
+~
+End
+
+#91234
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91233 0 0
+~
+~
+Door 2 0 0 91235 0 0
+~
+~
+End
+
+#91235
+Name A Dusty Corridor~
+Descr
+Dusty air particles rise up along this stale and humid passage. The
+cracks and stains on the wall reveal age and skirmishes of all sorts. The
+dim light ends ankle high where a faint mist swirls sneakily. Whispering and
+chants can be heard from places far and close. Death is in the air. 
+~
+Flags 4
+Sector 39
+Door 0 0 0 91234 0 0
+~
+~
+Door 2 0 0 91200 0 0
+~
+~
+End
+
+#91236
+Name A Dimly Lit Stairwell~
+Descr
+A dull light reveals stone steps running in either direction. Scattered
+metal chips and scratches reveal the violence that this place has seen. 
+~
+Flags 2
+Sector 39
+Door 1 3 0 91200 30 30
+~
+Iron Bars~
+Door 5 0 0 91237 0 0
+~
+~
+End
+
+#91237
+Name A Dimly Lit Stairwell~
+Descr
+A dull light reveals stone steps running in either direction. Scattered
+metal chips and scratches reveal the violence that this place has seen. 
+~
+Flags 2
+Sector 39
+Door 2 0 0 91238 0 0
+~
+~
+Door 4 0 0 91236 0 0
+~
+~
+End
+
+#91238
+Name A Dimly Lit Stairwell~
+Descr
+A dull light reveals stone steps running in either direction. Scattered
+metal chips and scratches reveal the violence that this place has seen. 
+~
+Flags 2
+Sector 39
+Door 0 0 0 91237 0 0
+~
+~
+Door 1 0 0 91239 0 0
+~
+~
+End
+
+#91239
+Name A Dimly Lit Stairwell~
+Descr
+A dull light reveals stone steps running in either direction. Scattered
+metal chips and scratches reveal the violence that this place has seen. 
+~
+Flags 2
+Sector 39
+Door 0 3 0 91240 30 30
+~
+Sliding Door~
+Door 3 0 0 91238 0 0
+~
+~
+End
+
+#91240
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Reset M 91306 8 100
+Reset O 217 -1 100
+Door 0 0 0 91273 0 0
+~
+~
+Door 1 0 0 91241 0 0
+~
+~
+Door 2 3 0 91239 30 30
+~
+Sliding Door~
+End
+
+#91241
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91242 0 0
+~
+~
+Door 3 0 0 91240 0 0
+~
+~
+End
+
+#91242
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91243 0 0
+~
+~
+Door 3 0 0 91241 0 0
+~
+~
+End
+
+#91243
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91244 0 0
+~
+~
+Door 3 0 0 91242 0 0
+~
+~
+End
+
+#91244
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Reset M 91306 8 100
+Reset O 217 -1 100
+Door 0 0 0 91277 0 0
+~
+~
+Door 1 0 0 91245 0 0
+~
+~
+Door 3 0 0 91243 0 0
+~
+~
+End
+
+#91245
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91246 0 0
+~
+~
+Door 3 0 0 91244 0 0
+~
+~
+End
+
+#91246
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91247 0 0
+~
+~
+Door 3 0 0 91245 0 0
+~
+~
+End
+
+#91247
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91248 0 0
+~
+~
+Door 3 0 0 91246 0 0
+~
+~
+End
+
+#91248
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Reset M 91306 8 100
+Reset O 217 -1 100
+Door 0 0 0 91250 0 0
+~
+~
+Door 2 3 0 91294 30 30
+~
+Sliding Door~
+Door 3 0 0 91247 0 0
+~
+~
+End
+
+#91249
+Name Hall of the Dead~
+Descr
+~
+Sector 39
+Door 0 0 0 91250 0 0
+~
+~
+Door 2 0 0 91248 0 0
+~
+~
+End
+
+#91250
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91251 0 0
+~
+~
+Door 2 0 0 91248 0 0
+~
+~
+End
+
+#91251
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91252 0 0
+~
+~
+Door 2 0 0 91250 0 0
+~
+~
+End
+
+#91252
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91253 0 0
+~
+~
+Door 2 0 0 91251 0 0
+~
+~
+End
+
+#91253
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Reset M 91306 8 100
+Reset O 217 -1 100
+Door 0 0 0 91254 0 0
+~
+~
+Door 2 0 0 91252 0 0
+~
+~
+Door 3 0 0 91281 0 0
+~
+~
+End
+
+#91254
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91255 0 0
+~
+~
+Door 2 0 0 91253 0 0
+~
+~
+End
+
+#91255
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91256 0 0
+~
+~
+Door 2 0 0 91254 0 0
+~
+~
+End
+
+#91256
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91258 0 0
+~
+~
+Door 2 0 0 91255 0 0
+~
+~
+End
+
+#91258
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Reset O 91311 -5 100
+Reset M 91306 8 100
+Reset O 217 -1 100
+Door 2 0 0 91256 0 0
+~
+~
+Door 3 0 0 91259 0 0
+~
+~
+End
+
+#91259
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91258 0 0
+~
+~
+Door 3 0 0 91260 0 0
+~
+~
+End
+
+#91260
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91259 0 0
+~
+~
+Door 3 0 0 91261 0 0
+~
+~
+End
+
+#91261
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91260 0 0
+~
+~
+Door 3 0 0 91262 0 0
+~
+~
+End
+
+#91262
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Reset M 91306 8 100
+Reset O 217 -1 100
+Door 1 0 0 91261 0 0
+~
+~
+Door 2 0 0 91278 0 0
+~
+~
+Door 3 0 0 91263 0 0
+~
+~
+End
+
+#91263
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91262 0 0
+~
+~
+Door 3 0 0 91264 0 0
+~
+~
+End
+
+#91264
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91263 0 0
+~
+~
+Door 3 0 0 91265 0 0
+~
+~
+End
+
+#91265
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 1 0 0 91264 0 0
+~
+~
+Door 3 0 0 91266 0 0
+~
+~
+End
+
+#91266
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Reset M 91306 8 100
+Reset O 217 -1 100
+Door 1 0 0 91265 0 0
+~
+~
+Door 2 0 0 91267 0 0
+~
+~
+End
+
+#91267
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91266 0 0
+~
+~
+Door 2 0 0 91268 0 0
+~
+~
+End
+
+#91268
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91267 0 0
+~
+~
+Door 2 0 0 91269 0 0
+~
+~
+End
+
+#91269
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91268 0 0
+~
+~
+Door 2 0 0 91270 0 0
+~
+~
+End
+
+#91270
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Reset M 91306 8 100
+Reset O 217 -1 100
+Door 0 0 0 91269 0 0
+~
+~
+Door 1 0 0 91274 0 0
+~
+~
+Door 2 0 0 91271 0 0
+~
+~
+End
+
+#91271
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91270 0 0
+~
+~
+Door 2 0 0 91272 0 0
+~
+~
+End
+
+#91272
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91271 0 0
+~
+~
+Door 2 0 0 91273 0 0
+~
+~
+End
+
+#91273
+Name An Ancient Corridor~
+Descr
+The walls here are adrorned with symbols of death and destruction.
+Ancient script relates tales of the bloodiest wars of all. A faint mist
+twists near your ankles. Whispering and chanting can be heard coming from
+all directions. The air is stale and discomforting. The light is dreary. 
+~
+Sector 39
+Door 0 0 0 91272 0 0
+~
+~
+Door 2 0 0 91240 0 0
+~
+~
+End
+
+#91274
+Name A Dimly Lit Corridor~
+Descr
+Torches flicker along the walls of this narrow passage. A faint mist
+twists around at your ankles. Whispering can be heard at times. 
+~
+Sector 39
+Door 1 0 0 91275 0 0
+~
+~
+Door 3 0 0 91270 0 0
+~
+~
+End
+
+#91275
+Name A Dimly Lit Corridor~
+Descr
+Torches flicker along the walls of this narrow passage. A faint mist
+twists around at your ankles. Whispering can be heard at times. 
+~
+Sector 39
+Door 1 0 0 91285 0 0
+~
+~
+Door 3 0 0 91274 0 0
+~
+~
+End
+
+#91276
+Name A Dimly Lit Corridor~
+Descr
+Torches flicker along the walls of this narrow passage. A faint mist
+twists around at your ankles. Whispering can be heard at times. 
+~
+Sector 39
+Door 0 0 0 91289 0 0
+~
+~
+Door 2 0 0 91277 0 0
+~
+~
+End
+
+#91277
+Name A Dimly Lit Corridor~
+Descr
+Torches flicker along the walls of this narrow passage. A faint mist
+twists around at your ankles. Whispering can be heard at times. 
+~
+Sector 39
+Door 0 0 0 91276 0 0
+~
+~
+Door 2 0 0 91244 0 0
+~
+~
+End
+
+#91278
+Name A Dimly Lit Corridor~
+Descr
+Torches flicker along the walls of this narrow passage. A faint mist
+twists around at your ankles. Whispering can be heard at times. 
+~
+Sector 39
+Door 0 0 0 91262 0 0
+~
+~
+Door 2 0 0 91279 0 0
+~
+~
+End
+
+#91279
+Name A Dimly Lit Corridor~
+Descr
+Torches flicker along the walls of this narrow passage. A faint mist
+twists around at your ankles. Whispering can be heard at times. 
+~
+Sector 39
+Door 0 0 0 91278 0 0
+~
+~
+Door 2 0 0 91283 0 0
+~
+~
+End
+
+#91280
+Name A Dimly Lit Corridor~
+Descr
+Torches flicker along the walls of this narrow passage. A faint mist
+twists around at your ankles. Whispering can be heard at times. 
+~
+Sector 39
+Door 1 0 0 91281 0 0
+~
+~
+Door 3 0 0 91287 0 0
+~
+~
+End
+
+#91281
+Name A Dimly Lit Corridor~
+Descr
+Torches flicker along the walls of this narrow passage. A faint mist
+twists around at your ankles. Whispering can be heard at times. 
+~
+Sector 39
+Door 1 0 0 91253 0 0
+~
+~
+Door 3 0 0 91280 0 0
+~
+~
+End
+
+#91282
+Name The Hall of the Dead~
+Descr
+Every pillar has been engraved with ancient scripts in a language
+unknown to any mortal. Cracks and dust in the structure reveal age and war.
+Whispering sounds of chanting and breathing snake through the air. A faint
+mist layers the floor around you. A stream of light from the ceiling seems to be
+directed towards the middle of the hall. 
+~
+Sector 39
+Door 1 0 0 91283 0 0
+~
+~
+Door 2 0 0 91285 0 0
+~
+~
+End
+
+#91283
+Name The Hall of the Dead~
+Descr
+Every pillar has been engraved with ancient scripts in a language
+unknown to any mortal. Cracks and dust in the structure reveal age and war.
+Whispering sounds of chanting and breathing snake through the air. A faint
+mist layers the floor around you. A stream of light from the ceiling seems to be
+directed towards the middle of the hall. 
+~
+Sector 39
+Door 0 0 0 91279 0 0
+~
+~
+Door 1 0 0 91284 0 0
+~
+~
+Door 2 0 0 91286 0 0
+~
+~
+Door 3 0 0 91282 0 0
+~
+~
+End
+
+#91284
+Name The Hall of the Dead~
+Descr
+Every pillar has been engraved with ancient scripts in a language
+unknown to any mortal. Cracks and dust in the structure reveal age and war.
+Whispering sounds of chanting and breathing snake through the air. A faint
+mist layers the floor around you. A stream of light from the ceiling seems to be
+directed towards the middle of the hall. 
+~
+Sector 39
+Door 2 0 0 91287 0 0
+~
+~
+Door 3 0 0 91283 0 0
+~
+~
+End
+
+#91285
+Name The Hall of the Dead~
+Descr
+Every pillar has been engraved with ancient scripts in a language
+unknown to any mortal. Cracks and dust in the structure reveal age and war.
+Whispering sounds of chanting and breathing snake through the air. A faint
+mist layers the floor around you. A stream of light from the ceiling seems to be
+directed towards the middle of the hall. 
+~
+Sector 39
+Door 0 0 0 91282 0 0
+~
+~
+Door 1 0 0 91286 0 0
+~
+~
+Door 2 0 0 91288 0 0
+~
+~
+Door 3 0 0 91275 0 0
+~
+~
+End
+
+#91286
+Name The Center of the Hall~
+Descr
+Every pillar has been engraved with ancient scripts in a language
+unknown to any mortal. Cracks and dust in the structure reveal age and war.
+Whispering sounds of chanting and breathing snake through the air. A faint
+mist layers the floor around you. A stream of light from the ceiling seems
+to be directed towards the middle of the hall. 
+~
+Sector 39
+Reset O 91307 -5 100
+Reset O 91308 -3 100
+Reset M 91309 1 100
+Reset O 91310 -3 100
+Door 0 0 0 91283 0 0
+~
+~
+Door 1 0 0 91287 0 0
+~
+~
+Door 2 0 0 91289 0 0
+~
+~
+Door 3 0 0 91285 0 0
+~
+~
+End
+
+#91287
+Name The Hall of the Dead~
+Descr
+Every pillar has been engraved with ancient scripts in a language
+unknown to any mortal. Cracks and dust in the structure reveal age and war.
+Whispering sounds of chanting and breathing snake through the air. A faint
+mist layers the floor around you. A stream of light from the ceiling seems to be
+directed towards the middle of the hall. 
+~
+Sector 39
+Door 0 0 0 91284 0 0
+~
+~
+Door 1 0 0 91280 0 0
+~
+~
+Door 2 0 0 91290 0 0
+~
+~
+Door 3 0 0 91286 0 0
+~
+~
+End
+
+#91288
+Name The Hall of the Dead~
+Descr
+Every pillar has been engraved with ancient scripts in a language
+unknown to any mortal. Cracks and dust in the structure reveal age and war.
+Whispering sounds of chanting and breathing snake through the air. A faint
+mist layers the floor around you. A stream of light from the ceiling seems to be
+directed towards the middle of the hall. 
+~
+Sector 39
+Door 0 0 0 91285 0 0
+~
+~
+Door 1 0 0 91289 0 0
+~
+~
+End
+
+#91289
+Name The Hall of the Dead~
+Descr
+Every pillar has been engraved with ancient scripts in a language
+unknown to any mortal. Cracks and dust in the structure reveal age and war.
+Whispering sounds of chanting and breathing snake through the air. A faint
+mist layers the floor around you. A stream of light from the ceiling seems to be
+directed towards the middle of the hall. 
+~
+Sector 39
+Door 0 0 0 91286 0 0
+~
+~
+Door 1 0 0 91290 0 0
+~
+~
+Door 2 0 0 91276 0 0
+~
+~
+Door 3 0 0 91288 0 0
+~
+~
+End
+
+#91290
+Name The Hall of the Dead~
+Descr
+Every pillar has been engraved with ancient scripts in a language
+unknown to any mortal. Cracks and dust in the structure reveal age and war.
+Whispering sounds of chanting and breathing snake through the air. A faint
+mist layers the floor around you. A stream of light from the ceiling seems to be
+directed towards the middle of the hall. 
+~
+Sector 39
+Door 0 0 0 91287 0 0
+~
+~
+Door 3 0 0 91289 0 0
+~
+~
+End
+
+#91291
+Name A Dimly Lit Stairwell~
+Descr
+A dull light reveals stone steps running in either direction. Scattered
+metal chips and scratches reveal the violence that this place has seen. 
+~
+Flags 2
+Sector 39
+Door 3 3 0 91209 30 30
+~
+Iron Bars~
+Door 5 0 0 91292 0 0
+~
+~
+End
+
+#91292
+Name A Dimly Lit Stairwell~
+Descr
+A dull light reveals stone steps running in either direction. Scattered
+metal chips and scratches reveal the violence that this place has seen. 
+~
+Flags 2
+Sector 39
+Door 2 0 0 91293 0 0
+~
+~
+Door 4 0 0 91291 0 0
+~
+~
+End
+
+#91293
+Name A Dimly Lit Stairwell~
+Descr
+A dull light reveals stone steps running in either direction. Scattered
+metal chips and scratches reveal the violence that this place has seen. 
+~
+Flags 2
+Sector 39
+Door 0 0 0 91292 0 0
+~
+~
+Door 3 0 0 91294 0 0
+~
+~
+End
+
+#91294
+Name A Dimly Lit Stairwell~
+Descr
+A dull light reveals stone steps running in either direction. Scattered
+metal chips and scratches reveal the violence that this place has seen. 
+~
+Flags 2
+Sector 39
+Door 0 3 0 91248 30 30
+~
+Sliding Door~
+Door 1 0 0 91293 0 0
+~
+~
+End
+
+#91295
+Name A Dimly Lit Corridor~
+Descr
+Torches flicker along the walls of this narrow passage. A faint mist
+twists around at your ankles. Whispering can be heard at times. 
+~
+Flags 2
+Sector 39
+Door 0 0 0 91297 0 0
+~
+~
+Door 2 0 0 91303 0 0
+~
+~
+End
+
+#91296
+Name An Old Entrance Hall~
+Descr
+Stale moist air fills your lungs as you step into this setting. Whispers
+and other strange sounds can be heard coming from within. Ancient scripts
+and drawings have been etched into the walls and ceilings. There is little
+light and the cold air results in a rather eerie feeling. 
+~
+Sector 39
+Door 0 0 0 91299 0 0
+~
+~
+Door 1 0 0 91297 0 0
+~
+~
+End
+
+#91297
+Name An Old Entrance Hall~
+Descr
+Stale moist air fills your lungs as you step into this setting. Whispers
+and other strange sounds can be heard coming from within. Ancient scripts
+and drawings have been etched into the walls and ceilings. There is little
+light and the cold air results in a rather eerie feeling. 
+~
+Sector 39
+Reset M 91304 3 100
+Reset O 262 -1 100
+Reset O 224 -1 100
+Reset M 91304 3 100
+Reset O 262 -1 100
+Reset O 224 -1 100
+Reset M 91304 3 100
+Reset O 262 -1 100
+Reset O 224 -1 100
+Door 0 0 0 91300 0 0
+~
+~
+Door 1 0 0 91298 0 0
+~
+~
+Door 2 0 0 91295 0 0
+~
+~
+Door 3 0 0 91296 0 0
+~
+~
+End
+
+#91298
+Name An Old Entrance Hall~
+Descr
+Stale moist air fills your lungs as you step into this setting. Whispers
+and other strange sounds can be heard coming from within. Ancient scripts
+and drawings have been etched into the walls and ceilings. There is little
+light and the cold air results in a rather eerie feeling. 
+~
+Sector 39
+Door 0 0 0 91301 0 0
+~
+~
+Door 3 0 0 91297 0 0
+~
+~
+End
+
+#91299
+Name An Old Entrance Hall~
+Descr
+Stale moist air fills your lungs as you step into this setting. Whispers
+and other strange sounds can be heard coming from within. Ancient scripts
+and drawings have been etched into the walls and ceilings. There is little
+light and the cold air results in a rather eerie feeling. 
+~
+Sector 39
+Door 1 0 0 91300 0 0
+~
+~
+Door 2 0 0 91296 0 0
+~
+~
+End
+
+#91300
+Name An Old Entrance Hall~
+Descr
+Stale moist air fills your lungs as you step into this setting. Whispers
+and other strange sounds can be heard coming from within. Ancient scripts
+and drawings have been etched into the walls and ceilings. There is little
+light and the cold air results in a rather eerie feeling. 
+~
+Sector 39
+Door 0 3 0 91302 30 30
+~
+Engraved Door~
+Door 1 0 0 91301 0 0
+~
+~
+Door 2 0 0 91297 0 0
+~
+~
+Door 3 0 0 91299 0 0
+~
+~
+End
+
+#91301
+Name An Old Entrance Hall~
+Descr
+Stale moist air fills your lungs as you step into this setting. Whispers
+and other strange sounds can be heard coming from within. Ancient scripts
+and drawings have been etched into the walls and ceilings. There is little
+light and the cold air results in a rather eerie feeling. 
+~
+Sector 39
+Door 2 0 0 91298 0 0
+~
+~
+Door 3 0 0 91300 0 0
+~
+~
+End
+
+#91302
+Name Before An Engraved Door~
+Descr
+A sturdy wooden door with etchings of ancient script and symbols stands
+here. A pair of rusted iron loops have been attached to the center. Faint
+wisps of mist creep out of the thin gap at the base of the door. An
+occasional deep clang can be heard from within. 
+~
+Sector 39
+Door 2 3 0 91300 30 30
+~
+Engraved Door~
+End
+
+#91303
+Name A Dimly Lit Corridor~
+Descr
+Torches flicker along the walls of this narrow passage. A faint mist
+twists around at your ankles. Whispering can be heard at times.
+~
+Sector 39
+Door 0 0 0 91295 0 0
+~
+~
+Door 2 0 0 91223 0 0
+~
+~
+End
+
+#91304
+Name An Ancient Crypt~
+Descr
+~
+Sector 37
+Door 1 0 0 91305 0 0
+~
+~
+Door 4 259 0 58639 30 30
+~
+crypt~
+End
+
+#91305
+Name An Ancient Cyrpt~
+Descr
+~
+Sector 37
+Door 3 0 0 91304 0 0
+~
+~
+Door 5 0 0 91306 0 0
+~
+~
+End
+
+#91306
+Name An Ancient Crypt~
+Descr
+~
+Sector 37
+Door 4 0 0 91305 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

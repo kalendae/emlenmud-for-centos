@@ -1,0 +1,104 @@
+#            bonus stats     max stats     100/99                 Abil flags
+#            S  I  W  D  C   S  I  W  D  C   Rm  MSk  MSp MPf  HMN/MX	Abils		Abils2   Aug   NatAC  RHT/MV  Sw?  Att Apb Bs 0 Heal Hps  Mana  Nat Skills RM?
+Human        0  0  0  0  0   25 25 25 25 25  100  23   32  5   63  75     512      16384      0     100  100 100   0  100  0  100  100  0   100     0   0 0   0
+Dragonkin   -1  3  2  0 -1   16 24 26 21 20  100   6   45  5   67  80  524288          0      0      60  100 100   0  100  0  100  100  0   115     0   0 0   0
+Dark-Elf    -1  3  2  0 -1   15 26 24 22 19  100   6   45  5   55  63       8          0      0      60  100 100   0  100  0  100  100  0   115     0   0 0   0
+Centaur      1  0  1  1  2   22 18 22 26 23  100  16   19  5   74  85     512          0      0     100  100 100   0  100  0  100  100  0   100     0   0 0   0
+Atomie       3 -1 -1  4  0   21 20 20 26 24  100  17   18  5   55  59      32          0      0      90  100 100   0  100  0  100  100  0   100     0   0 0   0
+Stone-Giant  3  0  0  1  1   26 17 17 21 25  100  25   12  5   80  92    8192          0      0     125  100 100   0  100  1  100  100  0    75     0   0 0   0
+Troll        1  1  1  1  1   26 19 19 24 25  100  25   15  5   55  65 2097152          0      0     100  100 100   0  100  1  100  100  0    75     0   0 0   0
+Gnome        0  2  3  0  0   22 24 22 21 24  100  20   26  5   49  56     512          0      0      90  100 100   0  100  0  100  100  0   100     0   0 0   0
+Dwarf        2  0  3  0  0   24 21 24 19 24  100  19   27  5   49  56     512          0      0      90  100 100   0  100  0  100  100  0   100     0   0 0   0 
+Great-Dragon 0  2  0  3  0   18 26 28 22 22  100   8   47  6   90 100  524288          1      0      80  100 100   0  100  0  100  110  1   115     0   0 0   2
+Lich        -1  3  2  0 -1   17 28 26 24 21  100   8   47  6   61  75       8          0    256      70  100 100   0  110  0  100  100  0   115     0   0 0   2
+Kender       1  0  1  1  2   23 19 22 28 24  100  18   21  6   59  68     512          8      0     110  100 100   0  100  0  110  100  0   100     0   0 0   2
+Buckawn      3 -1 -1  4  0   24 19 21 28 24  100  19   20  6   56  62      32	  131072      0     100  100 100   0  100  0  110  100  0   100     0   0 0   2
+Colossus     2  0  0  3  0   27 18 20 23 28  100  26   14  6   79  90    8192	  131072      0     130  100 100   0  100  1  100  100  2    75     0   0 0   2
+Titan        1  1  1  1  1   28 19 19 23 27  100  26   17  6  100 110 2097152          0      0     120  100 100   0  100  1  100  100  2    75     0   0 0   2
+Hobbit       1  1  1  1  1   23 26 22 21 24  100  22   28  6   44  57	    0          0  65536      90  100 100   0  107  0  100  100  0   100     0   0 0   2
+Minotaur     2  0  3  0  0   25 21 26 19 25  100  21   29  6   69  75  524288          0     64      90  100 100   0  100  0  100  107  0   100     0   0 0   2
+Blank        2  0  3  0  0   17 25 27 21 21  100   7   46  5   52  64  524288          0      0      70  100 100   0  100  0  100  105  0   115     0   0 0   1
+Blank       -1  3  2  0 -1   16 27 25 22 20  100   7   46  5   61  75       8          0      0      60  100 100   0  105  0  100  100  0   115     0   0 0   1
+Blank        1  0  1  1  2   24 19 20 27 23  100  17   20  5   72  92       0          8      0     100  100 100   0  100  0  105  100  0   100     0   0 0   1
+Blank        3 -1 -1  4  0   22 20 20 27 24  100  18   19  5   49  59 134217728        0      0      90  100 100   0  100  0  105  100  0   100     0   0 0   1
+Blank        2  0  0  3  0   26 17 19 21 27  100  26   13  5   49  59    8192          0      0     125  100 100   0  100  1  100  100  1    75     0   0 0   1
+Blank        1  1  1  1  1   27 19 19 25 27  100  26   16  5   64  80  2097152         0      0     110  100 100   0  100  1  100  100  1    75     0   0 0   1
+Blank        1  1  1  1  1   23 25 22 21 24  100  21   27  5   64  80    0             0  65536      90  100 100   0  105  0  100  100  0   100     0   0 0   1
+Blank        2  0  3  0  0   25 21 25 20 25  100  20   28  5   52  64  524288          0      0      90  100 100   0  100  0  100  105  0   100     0   0 0   1
+#
+
+#AFFECTS - NATURAL ABILITIES
+#             blind:            1   This toggles blindness.
+#         invisible:            2   This toggles invisibility.
+#       detect-good:    536870912   Tells if you can detect good.
+#       detect-evil:            4   Tells if you can detect evil.
+#      detect-invis:            8   This toggles detect-invisible.
+#      detect-magic:           16   This shows magic auras on items.
+#     detect-hidden:           32   This toggles if the mob can see hidden.
+#             wound:           64   This makes the mob lose hps rapidly..
+#         sanctuary:          128   This affect flag toggles sanctuary.
+#       faerie-fire:          256   This makes the mob's armor much much worse.
+#          infrared:          512   See in the dark.
+#             curse:         1024   This means the mob cannot recall.
+#           confuse:         2048   Toggles if the mob is confused.
+#           apoison:         4096   This toggles if the mob is poisoned.
+#            plague:      4194304   Toggles if the mob has the plague or not.
+#           protect:         8192   Toggles total protection.
+#          lethargy:        16384   This affect drains when the target moves.
+#             sleep:       131072   Toggles if someone isasleep. 
+#             sneak:        32768   Toggles silent movement.
+#              hide:        65536   Toggles if the mob will hide when possible.
+#             charm:       262144   Toggles if the mob can be ordered.
+#            flying:       524288   Is the mob flying or not.
+#         pass-door:      1048576   This allows passage through closed doors.
+#      regeneration:      2097152   This makes the mob regain hps fast.
+#           nocharm:   1073741824   Is it charmable?
+#      protect-evil:     16777216   This reduces damage from evil mobs.
+#      protect-good:     33554432   This reduces damage from good targets.
+#           mindsap:     67108864   This affect drains mana from the target.
+#         awareness:    134217728   Allows people to avoid backstabs sometimes
+#      water-breath:      8388608   This allows the mob to breath underwater.
+#            safety:  -2147483648   Lower level aggros don't attack.
+
+#AFFECT_TWO - NATURAL_ABILITES 2
+#         prot_fire:            1  Resistant to fire.
+#          prot_gas:            2  Resistant to gas.
+#        mindshield:            4  This protects you from some amagic.
+#             speed:            8  This can give you an extra attack.
+#          paralyze:           16  This paralyzes someone.
+#        prot_shock:           32  resistant to shock.
+#         prot_wind:           64  resistant to wind.
+#        prot_wound:          128  resistant to wounding.
+#     prot_paralyze:          256  resistant to paralyze.
+#       prot_locate:          512  resistant to locate.
+#          prot_ice:         1024  resistant to ice.
+#         prot_acid:         2048  resistant to acid.
+#       prot_astral:         4096  This wards off the effects of astral travel.
+#         prot_lava:         8192  This wards off the effects of lava.
+#        prot_shard:        16384  This wards off the effects of shards.
+#     spell_reflect:        32768  This reflects a spell back to its caster.
+#          notracks:        65536  This mob leaves no tracks.(Inactive)
+#           noblood:       131072  This mob leaves no blood trails.
+
+#IMPLANTS - BODY ENHANCEMENTS THAT ARE NATURAL FOR THESE RACES
+#         Leg Armor:            1  This implant toughens your legs.
+#        Body Armor:            2  This implant makes your ribcage stronger.
+#        Head Armor:            4  This implant makes your skull thicker.
+#         Arm Armor:            8  This implant toughens the skin on your arms.
+#     Body Strength:           16  This pumps you up.
+#     Hand Strength:           32  This makes you able to keep a strong grip.
+#      Leg Strength:           64  This makes your legs more durable.
+#      Arm Strength:          128  This improves the power of your arms.
+#          Head Int:          256  This improves your ability to think.
+#          Head Wis:          512  This helps you to ponder things.
+#        Face Spike:         1024  This makes nasty spikes on your head.
+#        Hand Speed:         2048  This improves the quickness of your hands.
+#        Foot Speed:         4096  This makes you more fleet of foot.
+#         Leg Speed:         8192  This improves how fast you can run and move.
+#     Foot Strength:        16384  This makes your feet and calves stronger.
+#        Foot Armor:        32768  This toughens your feet.
+#        Mana Boost:        65536  This gives a larger reserve of mana.
+#        Channeling:       131072  This increases your natural ability to cast.
+
+
+

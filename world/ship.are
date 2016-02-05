@@ -1,0 +1,1481 @@
+#AREADATA 
+Name The Shipyards~
+Repop The wind blows through the sails, making a sad moaning sound.
+~
+SCZone 0
+Builders Tonik~
+VNUMs 33000 33100
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#33021
+Name deckhand ghost~
+Short a deckhand ghost~
+Long 
+A deckhand ghost floats by, looking lost and alone.
+~
+AMax 6
+Affect_By 524808
+Money 200
+Level 65
+Sex 1
+MobType 21
+Guard 0
+End
+
+#33048
+Name skeletal lookout~
+Short skeletal lookout~
+Long 
+A skeletal lookout peers through the fog, perhaps looking for times gone by.
+~
+AMax 1
+ActBits 258
+Affect_By 520
+Money 300
+Level 90
+MobType 9
+Guard 0
+ASklTaught 0 553
+End
+
+#33054
+Name cook cook's ghost~
+Short cook's ghost~
+Long 
+A cook's ghost floats behind the grill.
+~
+AMax 1
+NHeight 0
+Affect_By 524808
+Money 265
+Level 90
+Sex 1
+MobType 21
+Guard 0
+End
+
+#33055
+Name crewman's ghost~
+Short a crewman's ghost~
+Long 
+The ghost of a crewman long forgotten is here.
+~
+AMax 1
+Affect_By 524808
+Money 234
+Level 90
+Sex 1
+MobType 21
+Guard 0
+End
+
+#33056
+Name crewman's ghost~
+Short a crewman's ghost~
+Long 
+The ghost of a crewman long forgotten is here.
+~
+AMax 1
+Affect_By 524808
+Money 234
+Level 90
+Sex 1
+MobType 21
+Guard 0
+End
+
+#33057
+Name crewman's ghost~
+Short a crewman's ghost~
+Long 
+The ghost of a crewman long forgotten is here.
+~
+AMax 1
+Affect_By 524808
+Money 234
+Level 90
+Sex 1
+MobType 21
+Guard 0
+End
+
+#33058
+Name ghost famous captian Xalelulus prac~
+Short the ghost of captian Xalelulus~
+Long 
+The Captain's ghost floats across the room.
+~
+AMax 1
+ActBits 258
+Affect_By 524808
+Money 300
+Level 100
+Sex 1
+MobType 21
+Guard 0
+ASklTaught 0 258
+ASklTaught 1 248
+End
+
+#33061
+Name eel prac~
+Short an eel~
+Long 
+A long slimey eel lies here in the sewage.
+~
+AMax 1
+NHeight 0
+ActBits 258
+Affect_By 128
+Money 346
+Level 275
+Sex 1
+MobType 14
+Hp 20
+Guard 0
+ASklTaught 0 575
+ASklTaught 1 89
+ASklTaught 2 85
+ASklTaught 3 241
+ASklTaught 4 264
+ASklTaught 5 129
+End
+
+#0
+
+
+
+#OBJDATA
+#33030
+Name jade dagger~
+Short [1m[32ma j[0m[32ma[1md[0m[32me [1mda[0m[32mgg[1mer[0m~
+Descr
+A fake jade dagger lies on the ground.
+[0;36m~
+Type 13
+Extra 35
+Wear 24577
+Values 0 0 0 0 0 0 0 0 0 0 64
+Weight 9
+Cost 9000
+End
+
+#33031
+Name piece wooden deck plank~
+Short [1m[30mpiece[0m of a [1m[37ms[0m[37mh[1m[37mi[0m[37mp [0m[33mdeck[0m~
+Descr
+Quest item
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#33050
+Name blue titanium greaves~
+Short a pair of [34mb[1mlu[0m[34me t[1mitaniu[0m[34mm[0m greaves~
+Descr
+A pair of blue greaves lie on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 33
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 31
+Cost 302
+Affect 22 2 1 0 0
+Affect 14 5 1 0 0
+End
+
+#33058
+Name breastplate howling wind apb body~
+Short a breastplate of [1m[36mho[0m[36mw[1m[37ml[36min[0m[36mg [34mw[1m[34mi[1m[37mn[36md[0m~
+Descr
+A screaming breastplate lies on the ground untouched.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 9
+Values 1 4 0 1 0 0 15 15 0 0 0
+Weight 30
+Cost 4000
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#33059
+Name toilet~
+Short a toilet~
+Descr
+A toilet is here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 33060 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#33060
+Name pipe~
+Short a pipe~
+Descr
+A pipe leading up is here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 33059 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#33061
+Name eelskin boots feet~
+Short a pair of [32me[1melski[0m[32mn b[1moot[0m[32ms[0m~
+Descr
+A pair of [1m[32meelskin boots[0m lie here.
+[0;36m~
+Type 9
+Extra 1
+Wear 65
+Values 10 0 0 0 0 0 0 100 100 0 0
+Weight 25
+Cost 1000
+Affect 22 2 1 0 0
+End
+
+#33062
+Name ethereal shoulder plate~
+Short an [36met[1mhe[37mr[36mea[0m[36ml [34msh[1mou[0m[36mld[1mer[37mp[36mla[0m[36mte[0m~
+Descr
+An ethereal shoulderplate is here on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 32769
+Values 0 0 1 3 10 10 20 20 10 10 0
+Weight 10
+Cost 4000
+Affect 20 -2 1 0 0
+Affect 17 -1 1 0 0
+Affect 13 10 1 0 0
+End
+
+#33063
+Name bracer skin eel wrist~
+Short an [32me[1me[0m[32ml[1m-[0m[32ms[1mk[0m[32mi[1mn b[0m[32mr[1ma[0m[32mc[1me[0m[32mr[0m~
+Descr
+An eel-skin bracer lies on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 4097
+Values 0 0 0 4 0 0 30 30 0 5 0
+Weight 20
+Cost 500
+Affect 19 -1 1 0 0
+Affect 17 2 1 0 0
+Affect 13 15 1 0 0
+End
+
+#33064
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#33065
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#33090
+Name purple greaves~
+Short a pair of strange [1m[35mp[0m[35murpl[1me[0m greaves~
+Descr
+A pair of strange looking greaves are on the ground.
+[0;36m~
+Type 9
+Wear 33
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 25
+Cost 3000
+Affect 14 5 1 0 0
+Affect 22 3 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#33000
+Name A GangPlank~
+Descr
+You are traveling atop a rotted gangplank leading to a ship. The plank
+seems pointless though as the ship is burried so far into the earth that the
+plank is virtually laying on top of the ground. This ship has not seen water
+in many many years. 
+~
+Door 1 0 0 33001 0 0
+~
+~
+Door 3 0 0 33019 0 0
+~
+~
+End
+
+#33001
+Name A Gangplank~
+Descr
+You are traveling atop a rotted gangplank leading to a ship. The plank
+seems pointless though as the ship is burried so far into the earth that the
+plank is virtually laying on top of the ground. This ship has not seen water
+in many many years. 
+~
+Door 1 0 0 33002 0 0
+~
+~
+Door 3 0 0 33000 0 0
+~
+~
+End
+
+#33002
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33003 0 0
+~
+~
+Door 1 0 0 33008 0 0
+~
+~
+Door 2 0 0 33004 0 0
+~
+~
+Door 3 0 0 33001 0 0
+~
+~
+End
+
+#33003
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 1 0 0 33009 0 0
+~
+~
+Door 2 0 0 33002 0 0
+~
+~
+End
+
+#33004
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33002 0 0
+~
+~
+Door 1 0 0 33005 0 0
+~
+~
+End
+
+#33005
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33008 0 0
+~
+~
+Door 1 0 0 33016 0 0
+~
+~
+Door 2 0 0 33006 0 0
+~
+~
+Door 3 0 0 33004 0 0
+~
+~
+End
+
+#33006
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33005 0 0
+~
+~
+Door 1 0 0 33017 0 0
+~
+~
+Door 2 0 0 33007 0 0
+~
+~
+End
+
+#33007
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33006 0 0
+~
+~
+Door 1 0 0 33018 0 0
+~
+~
+End
+
+#33008
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33009 0 0
+~
+~
+Door 1 0 0 33015 0 0
+~
+~
+Door 2 0 0 33005 0 0
+~
+~
+Door 3 0 0 33002 0 0
+~
+~
+End
+
+#33009
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33010 0 0
+~
+~
+Door 1 0 0 33014 0 0
+~
+~
+Door 2 0 0 33008 0 0
+~
+~
+Door 3 0 0 33003 0 0
+~
+~
+End
+
+#33010
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33011 0 0
+~
+~
+Door 1 0 0 33013 0 0
+~
+~
+Door 2 0 0 33009 0 0
+~
+~
+End
+
+#33011
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 1 0 0 33012 0 0
+~
+~
+Door 2 0 0 33010 0 0
+~
+~
+End
+
+#33012
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 1 0 0 33020 0 0
+~
+~
+Door 2 0 0 33013 0 0
+~
+~
+Door 3 0 0 33011 0 0
+~
+~
+End
+
+#33013
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33012 0 0
+~
+~
+Door 1 0 0 33022 0 0
+~
+~
+Door 2 0 0 33014 0 0
+~
+~
+Door 3 0 0 33010 0 0
+~
+~
+End
+
+#33014
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Reset M 33021 1 100
+Reset O 33062 -1 35
+Door 0 0 0 33013 0 0
+~
+~
+Door 1 0 0 33023 0 0
+~
+~
+Door 2 0 0 33015 0 0
+~
+~
+Door 3 0 0 33009 0 0
+~
+~
+End
+
+#33015
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33014 0 0
+~
+~
+Door 1 0 0 33024 0 0
+~
+~
+Door 2 0 0 33016 0 0
+~
+~
+Door 3 0 0 33008 0 0
+~
+~
+End
+
+#33016
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Reset M 33021 1 100
+Reset O 33062 -1 35
+Door 0 0 0 33015 0 0
+~
+~
+Door 1 0 0 33025 0 0
+~
+~
+Door 2 0 0 33017 0 0
+~
+~
+Door 3 0 0 33005 0 0
+~
+~
+End
+
+#33017
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33016 0 0
+~
+~
+Door 1 0 0 33026 0 0
+~
+~
+Door 2 0 0 33018 0 0
+~
+~
+Door 3 0 0 33006 0 0
+~
+~
+End
+
+#33018
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33017 0 0
+~
+~
+Door 1 0 0 33027 0 0
+~
+~
+Door 3 0 0 33007 0 0
+~
+~
+End
+
+#33019
+Name A Path to a Gangplank~
+Descr
+The path here leads eastward from the water to a gangplank. Though there
+is not much left there are indications of a once great shipyard here. This
+appears to be the only remains of a ship in the general area though. 
+~
+Door 1 0 0 33000 0 0
+~
+~
+Door 3 0 0 10112 0 0
+~
+~
+End
+
+#33020
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33021 0 0
+~
+~
+Door 1 0 0 33029 0 0
+~
+~
+Door 2 0 0 33022 0 0
+~
+~
+Door 3 0 0 33012 0 0
+~
+~
+End
+
+#33021
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Reset M 33021 1 100
+Door 2 0 0 33020 0 0
+~
+~
+End
+
+#33022
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33020 0 0
+~
+~
+Door 1 0 0 33030 0 0
+~
+~
+Door 2 0 0 33023 0 0
+~
+~
+Door 3 0 0 33013 0 0
+~
+~
+Door 5 0 0 33049 0 0
+~
+~
+End
+
+#33023
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33022 0 0
+~
+~
+Door 1 0 0 33031 0 0
+~
+~
+Door 2 0 0 33024 0 0
+~
+~
+Door 3 0 0 33014 0 0
+~
+~
+End
+
+#33024
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33023 0 0
+~
+~
+Door 1 0 0 33032 0 0
+~
+~
+Door 2 0 0 33025 0 0
+~
+~
+Door 3 0 0 33015 0 0
+~
+~
+Door 4 0 0 33046 0 0
+~
+~
+End
+
+#33025
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33024 0 0
+~
+~
+Door 1 0 0 33033 0 0
+~
+~
+Door 2 0 0 33026 0 0
+~
+~
+Door 3 0 0 33016 0 0
+~
+~
+End
+
+#33026
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33025 0 0
+~
+~
+Door 1 0 0 33034 0 0
+~
+~
+Door 2 0 0 33027 0 0
+~
+~
+Door 3 0 0 33017 0 0
+~
+~
+Door 5 0 0 33053 0 0
+~
+~
+End
+
+#33027
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33026 0 0
+~
+~
+Door 1 0 0 33035 0 0
+~
+~
+Door 2 0 0 33028 0 0
+~
+~
+Door 3 0 0 33018 0 0
+~
+~
+End
+
+#33028
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Reset M 33021 1 100
+Door 0 0 0 33027 0 0
+~
+~
+End
+
+#33029
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 1 0 0 33036 0 0
+~
+~
+Door 2 0 0 33030 0 0
+~
+~
+Door 3 0 0 33020 0 0
+~
+~
+End
+
+#33030
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33029 0 0
+~
+~
+Door 1 0 0 33037 0 0
+~
+~
+Door 2 0 0 33031 0 0
+~
+~
+Door 3 0 0 33022 0 0
+~
+~
+End
+
+#33031
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Reset M 33021 1 100
+Reset O 33062 -1 35
+Door 0 0 0 33030 0 0
+~
+~
+Door 1 0 0 33038 0 0
+~
+~
+Door 2 0 0 33032 0 0
+~
+~
+Door 3 0 0 33023 0 0
+~
+~
+End
+
+#33032
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33031 0 0
+~
+~
+Door 1 0 0 33039 0 0
+~
+~
+Door 2 0 0 33033 0 0
+~
+~
+Door 3 0 0 33024 0 0
+~
+~
+End
+
+#33033
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Reset M 33021 1 100
+Reset O 33062 -1 35
+Door 0 0 0 33032 0 0
+~
+~
+Door 1 0 0 33040 0 0
+~
+~
+Door 2 0 0 33034 0 0
+~
+~
+Door 3 0 0 33025 0 0
+~
+~
+End
+
+#33034
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33033 0 0
+~
+~
+Door 1 0 0 33041 0 0
+~
+~
+Door 2 0 0 33035 0 0
+~
+~
+Door 3 0 0 33026 0 0
+~
+~
+End
+
+#33035
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33034 0 0
+~
+~
+Door 1 0 0 33042 0 0
+~
+~
+Door 3 0 0 33027 0 0
+~
+~
+End
+
+#33036
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 2 0 0 33037 0 0
+~
+~
+Door 3 0 0 33029 0 0
+~
+~
+End
+
+#33037
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33036 0 0
+~
+~
+Door 2 0 0 33038 0 0
+~
+~
+Door 3 0 0 33030 0 0
+~
+~
+End
+
+#33038
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33037 0 0
+~
+~
+Door 1 0 0 33044 0 0
+~
+~
+Door 2 0 0 33039 0 0
+~
+~
+Door 3 0 0 33031 0 0
+~
+~
+End
+
+#33039
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33038 0 0
+~
+~
+Door 1 0 0 33043 0 0
+~
+~
+Door 2 0 0 33040 0 0
+~
+~
+Door 3 0 0 33032 0 0
+~
+~
+End
+
+#33040
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33039 0 0
+~
+~
+Door 1 0 0 33045 0 0
+~
+~
+Door 2 0 0 33041 0 0
+~
+~
+Door 3 0 0 33033 0 0
+~
+~
+End
+
+#33041
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33040 0 0
+~
+~
+Door 2 0 0 33042 0 0
+~
+~
+Door 3 0 0 33034 0 0
+~
+~
+End
+
+#33042
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33041 0 0
+~
+~
+Door 3 0 0 33035 0 0
+~
+~
+End
+
+#33043
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33044 0 0
+~
+~
+Door 2 0 0 33045 0 0
+~
+~
+Door 3 0 0 33039 0 0
+~
+~
+End
+
+#33044
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 2 0 0 33043 0 0
+~
+~
+Door 3 0 0 33038 0 0
+~
+~
+End
+
+#33045
+Name Deck of an Abandoned Ship~
+Descr
+On the deck of the ship it is obvious that this was once a great ship and
+a member of a large fleet of trading vessels. It is just one more example of
+the destruction and loss that the great war has caused. 
+~
+Door 0 0 0 33043 0 0
+~
+~
+Door 3 0 0 33040 0 0
+~
+~
+End
+
+#33046
+Name A Mast~
+Descr
+Climbing this mast is not a simple task. It is broken in many places and
+is on the brink of falling over. 
+~
+Door 4 0 0 33047 0 0
+~
+~
+Door 5 0 0 33024 0 0
+~
+~
+End
+
+#33047
+Name A Mast~
+Descr
+Climbing this mast is not a simple task. It is broken in many places and
+is on the brink of falling over. 
+~
+Door 4 0 0 33048 0 0
+~
+~
+Door 5 0 0 33046 0 0
+~
+~
+End
+
+#33048
+Name Crows Nest~
+Descr
+High above the ship below this nest provides a stunning view. To the
+northwest you can see the towers of Athenae and to the southeast off in the
+distance appears another civilized area. 
+~
+Reset M 33048 1 100
+Reset O 104 -1 100
+Reset O 102 -1 100
+Reset O 101 -1 100
+Reset O 121 -1 100
+Door 5 0 0 33047 0 0
+~
+~
+End
+
+#33049
+Name A Hallway Below Decks~
+Descr
+You realize that you are actually below the surface of the surrounding
+land now that you have traveled below the main deck. 
+~
+Sector 0
+Door 2 0 0 33050 0 0
+~
+~
+Door 4 0 0 33022 0 0
+~
+~
+End
+
+#33050
+Name A Hallway Below Decks~
+Descr
+You realize that you are actually below the surface of the surrounding
+land now that you have traveled below the main deck. 
+~
+Sector 0
+Door 0 0 0 33049 0 0
+~
+~
+Door 1 3 0 33057 30 30
+~
+door~
+Door 2 0 0 33051 0 0
+~
+~
+Door 3 3 0 33058 30 30
+~
+door~
+End
+
+#33051
+Name A Hallway Below Decks~
+Descr
+You realize that you are actually below the surface of the surrounding
+land now that you have traveled below the main deck. 
+~
+Sector 0
+Door 0 0 0 33050 0 0
+~
+~
+Door 1 3 0 33056 30 30
+~
+door~
+Door 2 0 0 33052 0 0
+~
+~
+Door 3 3 0 33059 30 30
+~
+door~
+End
+
+#33052
+Name A Hallway Below Decks~
+Descr
+You realize that you are actually below the surface of the surrounding
+land now that you have traveled below the main deck. 
+~
+Sector 0
+Door 0 0 0 33051 0 0
+~
+~
+Door 1 3 0 33055 30 30
+~
+door~
+Door 2 0 0 33053 0 0
+~
+~
+Door 3 3 0 33054 30 30
+~
+door~
+End
+
+#33053
+Name A Hallway Below Decks~
+Descr
+You realize that you are actually below the surface of the surrounding
+land now that you have traveled below the main deck. 
+~
+Sector 0
+Door 0 0 0 33052 0 0
+~
+~
+Door 4 0 0 33026 0 0
+~
+~
+End
+
+#33054
+Name The Galley~
+Descr
+There is a long table in the center of the room with chairs along both
+sides. Tossed about are the remains of meals, long since turned to dust.
+Cooking and eating utensils also litter the floor. 
+~
+Sector 0
+Reset M 33054 1 100
+Reset O 104 -1 100
+Reset O 121 -1 100
+Door 1 3 0 33052 30 30
+~
+door~
+End
+
+#33055
+Name Crew's Quarters~
+Descr
+A plain and simple room, furnished with two sets of bunk beds. It is hard
+to imagine that any of the occupants of this closet sized room every got any
+sleep or privacy. 
+~
+Sector 0
+Reset M 33055 1 100
+Reset O 104 -1 100
+Reset O 102 -1 100
+Door 3 3 0 33052 30 30
+~
+door~
+End
+
+#33056
+Name Crew's Quarters~
+Descr
+A plain and simple room, furnished with two sets of bunk beds. It is hard
+to imagine that any of the occupants of this closet sized room every got any
+sleep or privacy. 
+~
+Sector 0
+Reset M 33056 1 100
+Reset O 104 -1 100
+Reset O 102 -1 100
+Reset O 101 -1 100
+Reset O 121 -1 100
+Door 3 3 0 33051 30 30
+~
+door~
+End
+
+#33057
+Name Crew's Quarters~
+Descr
+A plain and simple room, furnished with two sets of bunk beds. It is hard
+to imagine that any of the occupants of this closet sized room every got any
+sleep or privacy. 
+~
+Sector 0
+Reset M 33057 1 100
+Reset O 101 -1 100
+Reset O 121 -1 100
+Door 3 3 0 33050 30 30
+~
+door~
+End
+
+#33058
+Name Captain's Quarters~
+Descr
+Though in complete disrepair this room shows signs of being much more
+elaborate than any of the others. There is a large overstuffed bed in one
+corner and a writing table and chair in the corner. 
+~
+Sector 0
+Reset M 33058 1 100
+Reset O 33062 -1 35
+Reset O 33058 -1 15
+Reset O 33090 -1 15
+Reset O 104 -1 100
+Reset O 102 -1 100
+Reset O 101 -1 100
+Reset O 121 -1 100
+Door 1 3 0 33050 30 30
+~
+door~
+End
+
+#33059
+Name The Head~
+Descr
+The smell here makes it obvious what this room was used for on the ship.
+It almost smells as if there is a large source of sewage below you feeding
+up through the toilet. 
+~
+Sector 0
+Reset O 33059 -5 100
+Door 1 3 0 33051 30 30
+~
+door~
+End
+
+#33060
+Name The Bilge~
+Descr
+You are inside a holding tank for the ship. The floor is knee deep in
+sewage, oil and the discarded trash of the ship. The stench is overwhelming.
+~
+Flags2 6
+Sector 0
+Reset O 33060 -5 100
+Door 0 0 0 33061 0 0
+~
+~
+End
+
+#33061
+Name The Bilge~
+Descr
+You are inside a holding tank for the ship. The floor is knee deep in
+sewage, oil and the discarded trash of the ship. The stench is overwhelming.
+~
+Flags 65536
+Sector 0
+Reset M 33061 1 100
+Reset O 33061 -1 1
+Reset O 85 -1 10
+Reset O 33063 -1 10
+Reset O 33050 -1 15
+Door 2 0 0 33060 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,9298 @@
+#AREADATA 
+Name a N a R aC Hy~
+Repop A cold wind passes by...
+~
+SCZone 0
+Builders  Locstaff Xavian Valor Demonstench~
+VNUMs 91730 91760
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#1
+Name guild Armorer~
+Short Guild Armorer~
+Long 
+The Guild Armorer is here.
+~
+AMax 1
+NHeight 0
+Affect_By 552
+Money 1000
+Level 1000
+Sex 2
+MobType 26
+Hp 2
+Guard 0
+End
+
+#2
+Name trapmob trap~
+Short The Trap~
+Long 
+The trapmob is here. Enjoy
+~
+AMax 5
+NHeight 0
+Affect_By 552
+Money 200
+Level 200
+MobType 11
+Hp 20
+Guard 0
+End
+
+#3
+Name test Mob Scripts~
+Short Test Mob Scripts~
+Long 
+Test Mob Scripts
+~
+AMax 5
+NHeight 0
+ActBits 2
+ActBits4 5
+Alignment 1
+Level 100
+Sex 1
+Guard 0
+End
+
+#5
+Name test mob testmob~
+Short testmob~
+Long 
+Testmob
+~
+AMax 1
+NHeight 0
+ActBits 2
+Level 100
+Guard 0
+End
+
+#6
+Name dummy~
+Short dummy~
+Long 
+Dummy
+~
+AMax 5
+NHeight 0
+Level 101
+MobType 36
+Hp 2
+Guard 0
+End
+
+#100
+Name azathoth mad god~
+Short Azathoth~
+Long 
+Azathoth, mad god of chaos and history, stands here.
+~
+AMax 1
+ActBits 2
+ActBits3 2
+ActBits4 1
+Affect_By 524936
+Level 900
+MobType 21
+Hp 60
+Guard 5
+End
+
+#101
+Name guardian life death practitioner~
+Short The guardian of life and death~
+Long 
+The guardian of life and death stands here, waiting to give you access to the physical realm.
+~
+AMax 3
+ActBits 258
+Level 900
+Sex 1
+MobType 21
+Guard 0
+ASklTaught 0 573
+ASklTaught 1 572
+ASklTaught 2 574
+ASklTaught 3 566
+ASklTaught 4 561
+ASklTaught 5 58
+ASklTaught 6 36
+ASklTaught 7 83
+End
+
+#215
+Name guildmaster warrior~
+Short the warrior guildmaster~
+Long 
+The warrior guildmaster stands here, silently contemplating.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 32
+ActBits4 5
+Affect_By 8744
+Level 200
+MobType 0
+Hp 30
+Guard 0
+ASklTaught 0 583
+ASklTaught 1 570
+ASklTaught 2 588
+ASklTaught 3 579
+End
+
+#216
+Name ranger guildmaster~
+Short the ranger guildmaster~
+Long 
+The ranger guildmaster is trekking through the wilderness.
+~
+AMax 1
+NHeight 0
+ActBits 1073742082
+ActBits3 512
+ActBits4 268435461
+Affect_By 552
+AffectTWO 33554432
+Alignment 2
+Money 200
+Level 200
+Sex 1
+MobType 0
+Hp 200
+Guard 0
+Spec spec_warrior
+ASklTaught 0 362
+ASklTaught 1 398
+ASklTaught 2 354
+ASklTaught 3 576
+ASklTaught 4 580
+End
+
+#217
+Name tinker practitioner guildmaster~
+Short the tinker guildmaster~
+Long 
+The tinker guildmaster is working with some small invention.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 2048
+ActBits4 5
+Affect_By 8744
+Money 200
+Level 200
+Sex 1
+MobType 0
+Hp 30
+Guard 0
+Spec spec_warrior
+ASklTaught 0 350
+End
+
+#218
+Name thief guildmaster~
+Short the thief guildmaster~
+Long 
+The thief guildmaster blends silently into the shadows.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 64
+ActBits4 5
+Affect_By 74280
+Money 200
+Level 200
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+ASklTaught 0 357
+ASklTaught 1 554
+ASklTaught 2 550
+ASklTaught 3 397
+ASklTaught 4 360
+ASklTaught 5 358
+End
+
+#219
+Name assassin guildmaster~
+Short the assassin guildmaster~
+Long 
+The leader of the guild of assassins prepares a poison.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 1024
+ActBits4 5
+Affect_By 8744
+Alignment 1
+Money 200
+Level 200
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+ASklTaught 0 550
+ASklTaught 1 584
+ASklTaught 2 589
+End
+
+#220
+Name healer guildmaster practitioner~
+Short the cleric guildmaster~
+Long 
+The head of the cleric's guild smiles as she prays.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 128
+ActBits4 5
+Affect_By 8744
+Money 200
+Level 200
+Sex 2
+MobType 0
+Hp 50
+Guard 0
+BCasts 'divine healing'~
+BCast_P 10
+ASklTaught 0 46
+ASklTaught 1 50
+ASklTaught 2 129
+ASklTaught 3 142
+ASklTaught 4 133
+ASklTaught 5 145
+ASklTaught 6 157
+ASklTaught 7 156
+ASklTaught 8 220
+End
+
+#221
+Name wizard guildmaster~
+Short the sorcerer guildmaster~
+Long 
+The master of all sorcery for the realm casts a minor cantrip.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 256
+ActBits4 5
+Affect_By 8746
+Money 200
+Level 200
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+BCasts 'meteor shower'~
+BCast_P 10
+ASklTaught 0 106
+ASklTaught 1 127
+ASklTaught 2 161
+End
+
+#222
+Name mystic guildmaster~
+Short the mystic guildmaster~
+Long 
+The mystic guildmaster is here contemplating the universe.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 1048576
+ActBits4 5
+Affect_By 552
+Money 1000
+Level 200
+MobType 0
+Hp 50
+Guard 0
+ASklTaught 0 152
+ASklTaught 1 147
+ASklTaught 2 138
+ASklTaught 3 184
+ASklTaught 4 183
+ASklTaught 5 224
+End
+
+#223
+Name conjurer guildmaster~
+Short the conjurer guildmaster~
+Long 
+The conjurer guildmaster stands inside a glowing aura of power.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 32768
+ActBits4 5
+Affect_By 552
+Money 1000
+Level 200
+Sex 1
+MobType 0
+Hp 50
+Guard 0
+ASklTaught 0 159
+ASklTaught 1 121
+ASklTaught 2 160
+End
+
+#224
+Name battlemaster guildmaster~
+Short the battlemaster guildmaster~
+Long 
+The battlemaster guildmaster stands proud over his collection of trophies.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 2097152
+ActBits4 5
+Affect_By 552
+Level 200
+MobType 0
+Hp 50
+Guard 0
+ASklTaught 0 563
+ASklTaught 1 567
+ASklTaught 2 552
+End
+
+#225
+Name guildmaster necromancer~
+Short the necromancer guildmaster~
+Long 
+The necromancer guildmaster is here looking disgruntled.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 8388608
+ActBits4 5
+Affect_By 8744
+Level 200
+MobType 0
+Hp 30
+Guard 0
+ASklTaught 0 196
+ASklTaught 1 203
+ASklTaught 2 198
+ASklTaught 3 199
+ASklTaught 4 216
+ASklTaught 5 217
+ASklTaught 6 218
+ASklTaught 7 201
+ASklTaught 8 223
+ASklTaught 9 208
+End
+
+#280
+Name dummy~
+Short a dummy~
+Long 
+A dummy sits here waiting to be beaten up.
+~
+AMax 5
+Money 9999
+Level 1
+Sex 1
+MobType 26
+Hp 2
+Guard 0
+End
+
+#300
+Name geek geeky troll~
+Short a geeky troll~
+Long 
+A rather buff geeky looking troll with a code in his hand stands here proud.
+~
+AMax 1
+ActBits 2
+ActBits3 524288
+Affect_By 520
+Level 300
+Sex 1
+Hp 8
+Guard 0
+End
+
+#725
+Name ogre guard~
+Short An ogre guard~
+Long 
+A ogre guard stands here protecting his battleground alignment.
+~
+AMax 3
+NHeight 0
+ActBits 65538
+ActBits3 8
+ActBits4 16384
+Affect_By 680
+Level 40
+MobType 23
+Hp 4
+Guard 3
+End
+
+#735
+Name dwarven guard~
+Short A dwarven guard~
+Long 
+An dwarven guard stands here protecting his battleground alignment.
+~
+AMax 3
+NHeight 0
+ActBits 65538
+ActBits3 8
+ActBits4 16384
+Affect_By 680
+Alignment 2
+Level 40
+MobType 2
+Hp 4
+Guard 1
+End
+
+#777
+Name gil assistant~
+Short gil's assistant~
+Long 
+Gil's assistant is here looking for chunks.
+~
+AMax 1
+NHeight 0
+Level 300
+MobType 0
+Hp 20
+Guard 0
+Shop    0  21   0   0   0 999 10 0 24
+Shopd2 100
+Shopd3 4
+ShopCr 111
+ShopCS A new load of chunks arrive.~
+End
+
+#800
+Name turkey bird dumb~
+Short a turkey~
+Long 
+A dumb turkey bird struts around begging to be eaten.
+~
+AMax 27
+ActBits 1048
+Affect_By 524296
+Level 100
+Sex 1
+MobType 13
+Guard 0
+End
+
+#91732
+Name buckawn~
+Short +* a forsaken buckawn *+ ~
+Long 
+An anarachy clan guard stands here smirking at you!
+~
+AMax 8
+NHeight 80
+ActBits 2
+ActBits3 2
+Affect_By 524968
+Level 150
+Sex 1
+MobType 1
+Guard 0
+Spec spec_warrior
+End
+
+#91737
+Name khisanth the provisioner ~
+Short Khisanth the provisioner~
+Long 
+Khisanth the provisioner stands here arranging items around.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 680
+Level 200
+MobType 0
+Guard 0
+Shop    0   0   0   0   0 100 100 6 24
+Shopd2 5
+Shopd3 4
+End
+
+#91738
+Name nathan the cookieman~
+Short Nathan the cookieman~
+Long 
+Nathan the cookieman stands here eating all his favorite cookies!
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 680
+Level 235
+Guard 0
+Spec spec_warrior
+Shop    0   0   0   0   0 100 100 5 24
+Shopd2 5
+Shopd3 4
+End
+
+#91739
+Name guan the armorer~
+Short Guan the armorer~
+Long 
+Guan the armorer stands here repairing and selling equipment.
+~
+AMax 1
+NHeight 0
+ActBits 2097154
+Affect_By 680
+Level 150
+Sex 1
+Hp 30
+Guard 0
+Spec spec_warrior
+Shop    0   0   0   0   0 100 75 5 24
+Shopd2 5
+Shopd3 4
+End
+
+#91740
+Name nogrut the weaponsmith ~
+Short Nogrut the weaponsmith ~
+Long 
+Nogrut the weaponsmith stands here sharpening and repairing weapons.
+~
+AMax 1
+NHeight 0
+ActBits 1048578
+Affect_By 168
+Level 200
+Sex 1
+Guard 0
+Spec spec_warrior
+End
+
+#91755
+Name bitch~
+Short bitch~
+Long 
+A bloody bitch stands here bleeding like a bitch!
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 2105472
+Level 50
+MobType 12
+Hp 350
+Guard 0
+GDamR 25
+Spec spec_warrior
+End
+
+#0
+
+
+
+#OBJDATA
+#3
+Name unusued~
+Short [1m[34mA note board[0m~
+Descr
+A Note Board is here, waiting for YOUR messages.
+[0;36m~
+Type 13
+Wear 0
+Values 0 0 0 0 0 0 0 0 0 50 0
+Weight 1000
+Cost 0
+End
+
+#4
+Name evil note board~
+Short an evil note board~
+Descr
+A note board sits here with messages.
+[0;36m~
+Type 13
+Wear 0
+Values 0 0 0 0 0 0 0 0 0 66 0
+Weight 0
+Cost 0
+End
+
+#5
+Name good note board~
+Short a good note board~
+Descr
+[1m[34mA note board designed for [37mGOOD [34muse only is here.[0m
+[0;36m~
+Type 13
+Wear 0
+Values 0 0 0 0 0 0 0 0 0 65 0
+Weight 0
+Cost 0
+End
+
+#6
+Name socials Board~
+Short a bulletin board~
+Descr
+A board is posted here in the ground.
+[0;36m~
+Type 13
+Wear 0
+Values 0 0 0 0 0 0 0 0 0 70 0
+Weight 0
+Cost 0
+End
+
+#7
+Name pickaxe~
+Short a pickaxe~
+Descr
+A pickaxe is here on the ground glittering with chunk fragments.
+[0;36m~
+Type 27
+Extra 33554432
+Wear 16385
+Values 16 0 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 60000
+End
+
+#8
+Name ticket~
+Short a ticket for 1 spell or skill location~
+Descr
+A ticket is here.
+[0;36m~
+Type 13
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#9
+Name spirit gem~
+Short a spirit gem~
+Descr
+Spirit gem
+[0;36m~
+Type 21
+Wear 24577
+Values 16 200 200 40 0 0 0 0 0 0 0
+Weight 0
+Cost 1000
+End
+
+#10
+Name corpse~
+Short [31mthe corpse of %s~
+Descr
+[31mThe corpse of %s is lying here.[37m
+[0;36m~
+Type 23
+Extra 16384
+Wear 1
+Values 0 0 0 1 0 0 0 0 0 0 0
+Weight 100
+Cost 0
+End
+
+#11
+Name corpse~
+Short [31mthe corpse of %s~
+Descr
+[1m[33m<-> [0m[31mThe corpse of [1m[31m%s[0m[31m is lying here.[0m[36m
+[0;36m~
+Type 24
+Extra 16384
+Wear 0
+Values 0 0 0 1 0 0 0 0 0 0 0
+Weight 500
+Cost 0
+End
+
+#12
+Name head~
+Short [31mthe head of %s[37m~
+Descr
+[31mThe severed head of %s is lying here.[0m
+[0;36m~
+Type 19
+Extra 16384
+Wear 1
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 5
+Cost 0
+End
+
+#13
+Name heart~
+Short [31m%s's heart[37m~
+Descr
+[31mThe torn-out heart of %s is lying here.[0m
+[0;36m~
+Type 19
+Extra 16384
+Wear 1
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 0
+End
+
+#14
+Name arm~
+Short [31m%s's arm[37m~
+Descr
+[31mThe sliced-off arm of %s is lying here.[0m[37m
+[0;36m~
+Type 19
+Extra 16384
+Wear 1
+Values 6 0 0 0 0 0 0 0 0 0 0
+Weight 4
+Cost 0
+End
+
+#15
+Name leg~
+Short [31m%s's leg[37m~
+Descr
+[31mThe sliced-off leg of %s is lying here.
+[0;36m~
+Type 19
+Extra 16384
+Wear 1
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 4
+Cost 0
+End
+
+#16
+Name bloody intestines intestine~
+Short [31msome bloody intestines[0m~
+Descr
+[31mA mess of %s's bloody intestines is slathered on the ground.
+[0;36m~
+Type 13
+Extra 16384
+Wear 1
+Values 5 0 0 1 0 0 0 0 0 0 0
+Weight 1
+Cost 0
+End
+
+#17
+Name newbie blocker~
+Short a newbie blocker~
+Descr
+A newbie blocker is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Values 0 0 0 1 0 0 1 30 0 0 0
+Weight 0
+Cost 0
+End
+
+#21
+Name ball light~
+Short a ball of [31mf[1mi[0m[31mre[0m~
+Descr
+A ball of fire lies on the ground sputtering here.
+[0;36m~
+Type 1
+Wear 131073
+Timer 65
+Values 40 40 0 1 0 0 0 0 0 0 0
+Weight 1
+Cost 100
+End
+
+#22
+Name spring water~
+Short a magical [1m[34mspring[0m~
+Descr
+A magical spring flows from the ground here.
+~
+Type 25
+Extra 64
+Wear 0
+Values 0 65535 65535 65535 0 0 0 0 0 0 0
+Weight 5000
+Cost 10
+End
+
+#24
+Name flash powder~
+Short some flash powder~
+Descr
+Some flash powder has carelessly been left here.
+[0;36m~
+Type 27
+Extra 33554432
+Wear 16385
+Values 4 7 7 0 0 0 0 0 0 0 0
+Weight 4
+Cost 50000
+End
+
+#25
+Name milk jug~
+Short a jug of [1m[37mmilk[0m~
+Descr
+A small jug of milk is here.
+[0;36m~
+Type 17
+Wear 24577
+Values 40 0 9 0 0 0 0 0 0 0 0
+Weight 5
+Cost 30
+End
+
+#26
+Name tickle doll hodgia~
+Short [1m[31mA "Tickle Me Hodgia is Gae" doll~
+Descr
+A gay doll is on the ground
+[0;36m~
+Type 1
+Extra 33554433
+Wear 24577
+Values 100 -1 1 0 0 0 0 0 0 0 0
+Weight 5
+Cost 500
+End
+
+#28
+Name flatline is 1337 h4X0R doll~
+Short a "[1m[30mFlatline is a 1337 H4X0R[0m" doll~
+Descr
+A flatline doll lies on the ground here.
+[0;36m~
+Type 13
+Extra 3
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#29
+Name chocolate chip cookie~
+Short a cookie~
+Descr
+A cookie is here.
+[0;36m~
+Type 19
+Extra 1
+Wear 24577
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 100
+End
+
+#30
+Name torch ~
+Short a [33mtorch[0m~
+Descr
+A [33mtorch[0m is here.
+[0;36m~
+Type 1
+Wear 16385
+Values 20 20 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 2
+End
+
+#31
+Name lockpicks picks~
+Short some [1m[30mlockpicks[0m~
+Descr
+Some lockpicks have been left behind on the ground.
+[0;36m~
+Type 27
+Extra 536870912
+Wear 16385
+Values 2 4 4 0 0 0 0 0 0 0 0
+Weight 1
+Cost 5000
+End
+
+#32
+Name pack backpack back~
+Short a backpack~
+Descr
+A small backpack has been left here.
+~
+Type 15
+Wear 32769
+Values 20 5 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 8
+End
+
+#33
+Name old lantern~
+Short an old [33mlantern[0m~
+Descr
+An old rusty, dented lantern has been discarded here.
+~
+Type 1
+Wear 16385
+Values 70 70 2 2 0 0 0 0 0 0 0
+Weight 2
+Cost 12
+End
+
+#34
+Name flask oil lamp container~
+Short a [1m[30mlamp-oil[0m[33m flask[0m~
+Descr
+A flask made for lamp oil lies here on the ground.
+[0;36m~
+Type 17
+Wear 16385
+Values 7 7 -1 0 0 0 0 0 0 0 0
+Weight 1
+Cost 3
+End
+
+#35
+Name dried beef dry food~
+Short some dried [31mbeef[0m~
+Descr
+Some dried beef lies here on the ground.
+[0;36m~
+Type 19
+Wear 1
+Timer 955
+Values 13 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 35
+End
+
+#36
+Name tinder box tinderbox~
+Short a small [1m[30mtinder[0mbox~
+Descr
+A small tinderbox is here.
+[0;36m~
+Type 27
+Wear 16385
+Values 1 24 24 0 0 0 0 0 0 0 0
+Weight 1
+Cost 3
+ExtraDescr tinderbox box tinder~
+You see a box with some tinder and flint in it, used to light lanterns
+
+
+and torches with.  
+
+
+~
+End
+
+#37
+Name loaf bread food~
+Short some bread~
+Descr
+A loaf of bread lies on the ground here, getting dirty.
+[0;36m~
+Type 19
+Wear 8193
+Timer 555
+Values 20 0 0 0 0 0 0 0 0 0 0
+Weight 3
+Cost 3
+End
+
+#38
+Name water waterskin skin large drink~
+Short a large [33mwaterskin[0m~
+Descr
+You see a large waterskin here.
+[0;36m~
+Type 17
+Wear 1
+Values 20 20 0 0 0 0 0 0 0 0 0
+Weight 4
+Cost 150
+End
+
+#39
+Name water waterskin skin drink~
+Short a [33mwaterskin[0m~
+Descr
+A waterskin is here.
+[0;36m~
+Type 17
+Wear 1
+Values 10 10 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 50
+End
+
+#40
+Name blood trail trails pile ~
+Short [31ma blood trail[0m~
+Descr
+[31mThere is a trail of blood here.[0m
+[0;36m~
+Type 13
+Wear 0
+Weight 1
+Cost 1
+ExtraDescr pile blood bloody trail trails~
+The bloody trail can be seen on the ground here.
+
+
+~
+End
+
+#41
+Name small sack~
+Short a [33msmall[0m sack~
+Descr
+You notice a small sack lying on the ground.
+[0;36m~
+Type 15
+Wear 16385
+Values 15 0 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 20
+End
+
+#42
+Name large sack~
+Short a [36mlarge[0m sack~
+Descr
+This large sack could contain many treasures.
+[0;36m~
+Type 15
+Wear 16385
+Values 70 0 0 0 0 0 0 0 0 42 0
+Weight 3
+Cost 40
+End
+
+#43
+Name robber bag~
+Short [1m[30ma robber bag[0m~
+Descr
+A dark-colored bag which blends into the shadows is here.
+[0;36m~
+Type 15
+Wear 16385
+Values 25 0 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 100
+End
+
+#44
+Name fountain water~
+Short a large fountain of water~
+Descr
+A large water fountain sits here glittering in the sun.
+[0;36m~
+Type 25
+Extra 268435456
+Wear 0
+Values 0 164 0 0 0 0 0 0 0 0 0
+Weight 100
+Cost 0
+ExtraDescr fountain~
+A beautiful marble fountain has been built here to cool and refresh. 
+
+
+~
+End
+
+#45
+Name a boat~
+Short a boat~
+Descr
+A boat
+[0;36m~
+Type 35
+Wear 16384
+Weight 10
+Cost 10
+End
+
+#48
+Name forge ~
+Short a huge forge~
+Descr
+A huge forge takes up the roadway. Try using it for forging.
+[0;36m~
+Type 12
+Wear 0
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 1000
+Cost 0
+End
+
+#49
+Name heads amnesia saliva severed traitor cheater~
+Short [31mThe severed heads of Amnesia, Saliva, Vdov and Icusofakingme rest side by side on pikes here.[0m~
+Descr
+[31mThe severed heads of Amnesia, Saliva, Vdov and Icusofakingme rest side by side on pikes here.[0m
+[0;36m~
+Type 9
+Wear 0
+Weight 0
+Cost 0
+ExtraDescr Saliva~
+This is what happens to those caught cheating, their heads are put on
+
+display. Do not cheat do not be caught, for you will suffer the same fate.
+
+Saliva was decapitated and placed here for being two people along with
+
+several other minor offenses. Be Warned. 
+
+~
+ExtraDescr Amnesia~
+This is what happens to those caught cheating, their heads are put on
+
+display. Do not cheat do not be caught, for you will suffer the same fate.
+
+Amnesia was decapitated and placed here for being two people along with
+
+several other minor offenses. Be Warned. 
+
+~
+ExtraDescr cheater~
+If you cheat you will find your head beside these two. Be Warned. 
+
+~
+ExtraDescr heads~
+The two were placed here for cheating. If you cheat you will join them.
+
+Be Warned. 
+
+~
+End
+
+#50
+Name lamb leg food~
+Short a leg of lamb~
+Descr
+A leg of lamb was discarded here.
+[0;36m~
+Type 19
+Wear 1
+Timer 290
+Values 10 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 13
+End
+
+#51
+Name earth gem rough emerald low_level~
+Short a rough [32memerald[0m gemstone~
+Descr
+A rough emerald gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 1 40 40 12 0 0 0 0 0 0 0
+Weight 10
+Cost 8000
+End
+
+#52
+Name earth gem faceted emerald mid_level~
+Short a faceted [32memerald[0m gemstone~
+Descr
+A faceted emerald gemstone lies glittering in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 1 55 55 30 0 0 0 0 0 0 0
+Weight 10
+Cost 25500
+End
+
+#53
+Name earth gem sparkling faceted emerald high_level~
+Short a sparkling, faceted [32memerald[0m gemstone~
+Descr
+A faceted emerald gemstone lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 1 75 75 45 0 0 0 0 0 0 0
+Weight 10
+Cost 16000
+End
+
+#54
+Name perfectly faceted gem emerald crystal~
+Short a perfectly, faceted [32memerald[0m[37m crystal~
+Descr
+A faceted emerald crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 1 90 90 55 0 0 0 0 0 0 0
+Weight 10
+Cost 20000
+End
+
+#55
+Name fire gem rough ruby low_level~
+Short a rough [1m[31mruby[0m gemstone~
+Descr
+A rough ruby gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 4 40 40 12 0 0 0 0 0 0 0
+Weight 10
+Cost 8000
+End
+
+#56
+Name fire gem faceted ruby mid_level~
+Short a faceted [1m[31mruby[0m gemstone~
+Descr
+A faceted ruby gemstone lies glittering in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 4 55 55 30 0 0 0 0 0 0 0
+Weight 10
+Cost 25500
+End
+
+#57
+Name fire gem sparkling faceted ruby high_level~
+Short a sparkling, faceted [1m[31mruby[0m gemstone~
+Descr
+A faceted ruby gemstone lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 4 75 75 45 0 0 0 0 0 0 0
+Weight 10
+Cost 16000
+End
+
+#58
+Name fire gem perfectly faceted ruby crystal max_level limited~
+Short a perfectly, faceted [1m[31mruby[0m crystal~
+Descr
+A faceted ruby crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 4 90 90 55 0 0 0 0 0 0 0
+Weight 10
+Cost 20000
+End
+
+#59
+Name water gem rough sapphire low_level~
+Short a rough [1m[34msapphire[0m gemstone~
+Descr
+A rough sapphire gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 8 40 40 12 0 0 0 0 0 0 0
+Weight 10
+Cost 8000
+End
+
+#60
+Name water gem faceted sapphire mid_level~
+Short a faceted [1m[34msapphire[0m gemstone~
+Descr
+A faceted sapphire gemstone lies glittering in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 8 55 55 30 0 0 0 0 0 0 0
+Weight 10
+Cost 25500
+End
+
+#61
+Name water gem sparkling faceted sapphire high_level~
+Short a sparkling, faceted [1m[34msapphire[0m gemstone~
+Descr
+A faceted sapphire gemstone lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 8 75 75 45 0 0 0 0 0 0 0
+Weight 10
+Cost 16000
+End
+
+#62
+Name water gem perfectly faceted sapphire crystal max_level limited~
+Short a perfectly, faceted [1m[34msapphire[0m crystal~
+Descr
+A faceted sapphire crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 8 90 90 55 0 0 0 0 0 0 0
+Weight 10
+Cost 20000
+End
+
+#63
+Name air gem rough diamond low_level~
+Short a rough [1m[30mdiamond[0m gemstone~
+Descr
+A rough diamond gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 2 40 40 12 0 0 0 0 0 0 0
+Weight 10
+Cost 8000
+End
+
+#64
+Name air gem faceted diamond mid_level~
+Short a faceted [1m[30mdiamond[0m gemstone~
+Descr
+A faceted diamond gemstone lies glittering in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 2 55 55 30 0 0 0 0 0 0 0
+Weight 10
+Cost 25500
+End
+
+#65
+Name air gem sparkling faceted diamond high_level~
+Short a sparkling, faceted [1m[30mdiamond[0m gemstone~
+Descr
+A faceted diamond gemstone lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 2 75 75 45 0 0 0 0 0 0 0
+Weight 10
+Cost 16000
+End
+
+#66
+Name air gem perfectly faceted diamond crystal max_level limited~
+Short a perfectly, faceted [1m[30mdiamond[0m crystal~
+Descr
+A faceted diamond crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 2 90 90 55 0 0 0 0 0 0 0
+Weight 10
+Cost 20000
+End
+
+#67
+Name earth water gem rough aquamarine~
+Short a rough [36maquamarine[0m gemstone~
+Descr
+A rough aquamarine gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 9 30 30 8 0 0 0 0 0 0 0
+Weight 10
+Cost 10000
+End
+
+#68
+Name earth water gem faceted aquamarine mid_level~
+Short a faceted [36maquamarine[0m gemstone~
+Descr
+A faceted aquamarine gemstone lies glittering in the dust.
+[0;36m~
+Type 28
+Wear 24577
+Values 9 45 45 16 0 0 0 0 0 0 0
+Weight 10
+Cost 25500
+End
+
+#69
+Name earth water gem sparkling faceted aquamarine high_level~
+Short a sparkling, faceted [36maquamarine[0m gemstone~
+Descr
+A faceted aquamarine gemstone lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 9 60 60 40 0 0 0 0 0 0 0
+Weight 10
+Cost 18000
+End
+
+#70
+Name water earth gem perfectly faceted aquamarine crystal max_level limited~
+Short a perfectly, faceted [36maquamarine[0m crystal~
+Descr
+A faceted aquamarine crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 9 75 75 50 0 0 0 0 0 0 0
+Weight 10
+Cost 22000
+End
+
+#71
+Name fire earth gem rough smokey quartz low_level~
+Short a rough [1m[30msmokey[0m[31m quartz[0m gemstone~
+Descr
+A rough smokey quartz gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 5 30 30 8 0 0 0 0 0 0 0
+Weight 10
+Cost 10000
+End
+
+#72
+Name earth fire gem faceted smokey quartz mid_level~
+Short a faceted [1m[30msmokey[0m[31m quartz[0m gemstone~
+Descr
+A faceted smokey quartz gemstone lies glittering in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 5 45 45 16 0 0 0 0 0 0 0
+Weight 10
+Cost 500
+End
+
+#73
+Name earth fire gem sparkling faceted smokey quartz high_level~
+Short a sparkling, faceted [1m[30msmokey[0m[31m quartz[0m gemstone~
+Descr
+A faceted smokey quartz gemstone lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 5 60 60 40 0 0 0 0 0 0 0
+Weight 10
+Cost 18000
+End
+
+#74
+Name earth fire gem perfectly faceted smokey quartz crystal max_level limited~
+Short a perfectly, faceted [1m[30msmokey [0m[31mquartz[0m crystal~
+Descr
+A faceted smokey quartz crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 5 75 75 50 0 0 0 0 0 0 0
+Weight 10
+Cost 22000
+End
+
+#75
+Name fire air gem rough jacinth low_level~
+Short a rough [1m[31mja[30mcin[31mth[0m gemstone~
+Descr
+A rough jacinth gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 6 30 30 8 0 0 0 0 0 0 0
+Weight 10
+Cost 10000
+End
+
+#76
+Name fire air gem faceted jacinth mid_level~
+Short a faceted [1m[31mja[30mcin[31mth[0m gemstone~
+Descr
+A faceted jacinth gemstone lies glittering in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 6 45 45 16 0 0 0 0 0 0 0
+Weight 10
+Cost 500
+End
+
+#77
+Name fire air gem sparkling faceted jacinth high_level~
+Short a sparkling, faceted [1m[31mja[30mcin[31mth[0m gemstone~
+Descr
+A faceted jacinth gemstone lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 6 60 60 40 0 0 0 0 0 0 0
+Weight 10
+Cost 16000
+End
+
+#78
+Name fire air gem perfectly faceted jacinth crystal max_level limited~
+Short a perfectly, faceted [1m[31mja[30mcin[31mth[0m crystal~
+Descr
+A faceted jacinth crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 6 75 75 50 0 0 0 0 0 0 0
+Weight 10
+Cost 22000
+End
+
+#79
+Name air water gem rough moonstone low_level~
+Short a rough [1m[34mm[0m[34moo[1m[30mns[0m[34mton[1m[34me[0m gemstone~
+Descr
+A rough moonstone gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 10 30 30 8 0 0 0 0 0 0 0
+Weight 10
+Cost 10000
+End
+
+#80
+Name air water gem faceted moonstone mid_level~
+Short a faceted [1m[34mm[0m[34moo[1m[30mns[0m[34mton[1m[34me[0m gemstone~
+Descr
+A faceted moonstone gemstone lies glittering in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 10 45 45 16 0 0 0 0 0 0 0
+Weight 10
+Cost 25500
+End
+
+#81
+Name air water gem sparkling faceted moonstone high_level~
+Short a sparkling, faceted [1m[34mm[0m[34moo[1m[30mns[0m[34mton[1m[34me[0m gemstone~
+Descr
+A faceted moonstone gemstone lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 10 60 60 40 0 0 0 0 0 0 0
+Weight 10
+Cost 18000
+End
+
+#82
+Name air water gem perfectly faceted moonstone crystal max_level limited~
+Short a perfectly, faceted [1m[34mm[0m[34moo[1m[30mns[0m[34mton[1m[34me[0m crystal~
+Descr
+A faceted moonstone crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 10 60 60 50 0 0 0 0 0 0 0
+Weight 10
+Cost 22000
+End
+
+#83
+Name spirit gem rough soulstone low_level~
+Short a rough [1m[33msoulstone[0m gemstone~
+Descr
+A rough soulstone gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 16 40 40 12 0 0 0 0 0 0 0
+Weight 10
+Cost 8000
+End
+
+#84
+Name spirit gem faceted soulstone mid_level~
+Short a faceted [1m[33msoulstone[0m gemstone~
+Descr
+A faceted soulstone gemstone lies glittering in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 16 55 55 24 0 0 0 0 0 0 0
+Weight 10
+Cost 500
+End
+
+#85
+Name spirit gem sparkling faceted soulstone high_level~
+Short a sparkling, faceted [1m[33msoulstone[0m gemstone~
+Descr
+A faceted soulstone gemstone lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 16 75 75 32 0 0 0 0 0 0 0
+Weight 10
+Cost 16000
+End
+
+#86
+Name spirit gem perfectly faceted soulstone crystal max_level limited~
+Short a perfectly, faceted [1m[33msoulstone[0m crystal~
+Descr
+A faceted soulstone crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 16 90 90 50 0 0 0 0 0 0 0
+Weight 10
+Cost 22000
+End
+
+#87
+Name fire air spirit gem rough topaz low_level~
+Short a rough [1m[31mt[0m[33mo[1m[30mp[0m[33ma[1m[31mz[0m gemstone~
+Descr
+A rough topaz gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 22 25 25 6 0 0 0 0 0 0 0
+Weight 10
+Cost 12000
+End
+
+#88
+Name fire air spirit gem faceted topaz mid_level~
+Short a faceted [1m[31mt[0m[33mo[1m[30mp[0m[33ma[1m[31mz[0m gemstone~
+Descr
+A faceted topaz gemstone lies glittering in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 22 35 35 14 0 0 0 0 0 0 0
+Weight 10
+Cost 25500
+End
+
+#89
+Name fire air spirit gem sparkling faceted topaz high_level~
+Short a sparkling, faceted [1m[31mt[0m[33mo[1m[30mp[0m[33ma[1m[31mz[0m gemstone~
+Descr
+A sparkling topaz lies on the ground collecting dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 22 50 50 40 0 0 0 0 0 0 0
+Weight 10
+Cost 20000
+End
+
+#90
+Name fire air spirit gem perfectly faceted topaz crystal max_level limited~
+Short a perfectly, faceted [1m[31mt[0m[33mo[1m[30mp[0m[33ma[1m[31mz[0m crystal~
+Descr
+A faceted topaz crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 22 50 50 50 0 0 0 0 0 0 0
+Weight 10
+Cost 24000
+End
+
+#91
+Name water earth spirit gem rough turquoise low_level~
+Short a rough [1m[34mtu[0m[34mr[36mq[33mu[36mo[34mi[1m[34mse[0m gemstone~
+Descr
+A rough turquoise gemstone lies in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 25 25 25 6 0 0 0 0 0 0 0
+Weight 10
+Cost 12000
+End
+
+#92
+Name water earth spirit gem faceted turquoise mid_level~
+Short a faceted [1m[34mtu[0m[34mr[36mq[33mu[36mo[34mi[1m[34mse[0m gemstone~
+Descr
+A faceted turquoise gemstone lies glittering in the dust.
+[0;36m~
+Type 21
+Wear 24577
+Values 25 35 35 14 0 0 0 0 0 0 0
+Weight 10
+Cost 16000
+End
+
+#93
+Name water earth spirit gem sparkling faceted turquoise high_level~
+Short a sparkling, faceted [1m[34mtu[0m[34mr[36mq[33mu[36mo[34mi[1m[34mse[0m gemstone~
+Descr
+A faceted turquoise gemstone lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 25 50 50 40 0 0 0 0 0 0 0
+Weight 10
+Cost 20000
+End
+
+#94
+Name water earth spirit gem perfectly faceted turquoise crystal max_level limited~
+Short a perfectly, faceted [1m[34mtu[0m[34mr[36mq[33mu[36mo[34mi[1m[34mse[0m crystal~
+Descr
+A faceted turquoise crystal lies sparkling in the dust.
+[0;36m~
+Type 21
+Extra 33554432
+Wear 24577
+Values 25 50 50 50 0 0 0 0 0 0 0
+Weight 10
+Cost 24000
+End
+
+#95
+Name a steak of %s.~
+Short [31m~
+Descr
+[31m
+[0;36m~
+Type 13
+Wear 0
+Values 0 50 0 10 0 0 0 7 7 0 0
+Weight 100
+Cost 0
+End
+
+#96
+Name portal choosing~
+Short a portal to the room of choosing~
+Descr
+A portal in to the room of choosing floats in mid-air here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 113 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#97
+Name portal whitie~
+Short the Whitie Portal~
+Descr
+The Whitie portal is here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 4515 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#98
+Name portal to newbie land~
+Short a portal to newbie land~
+Descr
+A portal to newbie land is here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 1000 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#99
+Name portal Forsaken~
+Short the forsaken portal~
+Descr
+The Forsaken Portal is here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 51200 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#100
+Name pop clothpop~
+Short clothpop~
+Descr
+Clothpop is here
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Timer 2
+Weight 0
+Cost 0
+End
+
+#101
+Name pop leatherpop~
+Short leatherpop~
+Descr
+Leatherpop is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Timer 2
+Weight 0
+Cost 0
+End
+
+#102
+Name chainpop pop~
+Short chainpop~
+Descr
+Chainpop is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Timer 2
+Weight 0
+Cost 0
+End
+
+#103
+Name metalpop pop~
+Short metalpop~
+Descr
+Metalpop is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Timer 2
+Weight 0
+Cost 0
+End
+
+#104
+Name steelpop pop~
+Short steelpop~
+Descr
+Steelpop is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Timer 2
+Weight 0
+Cost 0
+End
+
+#105
+Name leather less pop~
+Short leather less pop~
+Descr
+Leather less pop is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Timer 2
+Weight 0
+Cost 0
+End
+
+#106
+Name chain less pop~
+Short chain less pop~
+Descr
+Chain less pop is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Timer 2
+Weight 0
+Cost 0
+End
+
+#107
+Name metal less pop~
+Short metal less pop~
+Descr
+Metal less pop is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Timer 2
+Weight 0
+Cost 0
+End
+
+#108
+Name steel less pop~
+Short steel less pop~
+Descr
+232 233 234 235
+[0;36m~
+Type 28
+Extra 65536
+Wear 0
+Timer 2
+Weight 0
+Cost 0
+End
+
+#109
+Name chain more pop~
+Short chain more pop~
+Descr
+Chain more pop is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Timer 2
+Weight 0
+Cost 0
+End
+
+#110
+Name bloody steak~
+Short a [31mb[1mlood[0m[31my[0m steak~
+Descr
+A bloody steak lies here on the ground.
+[0;36m~
+Type 19
+Wear 1
+Timer 8
+Values 20 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 0
+End
+
+#111
+Name low mineral pop~
+Short low mineral pop~
+Descr
+Low mineral pop.
+[0;36m~
+Type 13
+Wear 0
+Timer 1
+Weight 0
+Cost 0
+End
+
+#112
+Name mid mineral pop~
+Short mid mineral pop~
+Descr
+Mid mineral pop.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#113
+Name high mineral pop~
+Short high mineral pop~
+Descr
+High mineral pop.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#114
+Name apple~
+Short [0man [1m[31mapple[0m~
+Descr
+An apple is here.
+[0;36m~
+Type 19
+Wear 1
+Values 6 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#115
+Name wood pop~
+Short the wood pop~
+Descr
+The wood pop is here.
+[0;36m~
+Type 13
+Wear 0
+Timer 1
+Weight 0
+Cost 0
+End
+
+#116
+Name herb pop~
+Short the herb pop~
+Descr
+The herb pop is here.
+[0;36m~
+Type 13
+Wear 0
+Timer 1
+Weight 0
+Cost 0
+End
+
+#117
+Name dagger pop~
+Short the dagger pop~
+Descr
+The dagger pop is here.
+[0;36m~
+Type 13
+Wear 0
+Timer 1
+Weight 0
+Cost 0
+End
+
+#118
+Name sword pop~
+Short the sword pop~
+Descr
+The sword pop is here.
+[0;36m~
+Type 13
+Wear 0
+Timer 1
+Weight 0
+Cost 0
+End
+
+#119
+Name club pop~
+Short the club pop~
+Descr
+The club pop is here.
+[0;36m~
+Type 5
+Extra 557123
+Wear 16385
+Timer 1
+Values 0 0 0 8 0 0 0 9 7 0 0
+Weight 1
+Cost 0
+Affect 18 50 1 0 0
+Affect 19 100 1 0 0
+Affect 13 500 1 0 0
+End
+
+#120
+Name low weapon pop~
+Short the low weapon pop~
+Descr
+The low weapon pop is here.
+[0;36m~
+Type 13
+Wear 0
+Timer 1
+Weight 0
+Cost 0
+End
+
+#121
+Name high weapon pop~
+Short the high weapon pop~
+Descr
+The high weapon pop is here.
+[0;36m~
+Type 13
+Wear 0
+Timer 1
+Weight 0
+Cost 0
+End
+
+#122
+Name livre secret bhaj book~
+Short unused~
+Descr
+A small book written in French lies here.
+[0;36m~
+Type 11
+Extra 1
+Wear 24577
+Values 356 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 5000
+End
+
+#124
+Name chair rocking~
+Short an easy chair~
+Descr
+Gausser's black leather la-z-boy easy chair rests in the middle of the room.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#126
+Name lothar hill people aura~
+Short "I am lothar, of the hill people!"~
+Descr
+A wierd aura floats here.
+[0;36m~
+Type 9
+Extra 1
+Wear 131073
+Weight 0
+Cost 1000
+End
+
+#127
+Name highlevel work~
+Short a famous blocker~
+Descr
+A famous blocker is here
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Values 1 0 0 0 0 0 1 55 0 0 0
+Weight 0
+Cost 0
+End
+
+#128
+Name newbie blocker~
+Short a newbie blocker~
+Descr
+A newbie blocker is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Values 0 0 1 0 0 0 1 30 0 0 0
+Weight 0
+Cost 0
+End
+
+#129
+Name disk power~
+Short a small disk of power~
+Descr
+A small disk says [1m[5m[31mSAC ME im cheater[0m
+[0;36m~
+Type 9
+Wear 17
+Values 100 100 100 100 50 50 50 50 50 100 0
+Weight 0
+Cost 0
+End
+
+#130
+Name tiny dagger power~
+Short a tiny dagger of power~
+Descr
+DELETE THIS DAGGER
+[0;36m~
+Type 5
+Extra 131072
+Wear 16385
+Values 0 10 0 9 0 0 0 4 9 0 0
+Weight 0
+Cost 0
+End
+
+#131
+Name mephistos blank expression~
+Short mephistos's blank expression~
+Descr
+The mask of someone's face lies here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 65537
+Values 0 0 5 0 0 0 0 0 0 100 0
+Weight 0
+Cost 10000
+Affect 4 1 1 0 0
+Affect 3 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#132
+Name arc suicide scar~
+Short arc's suicide scar~
+Descr
+A quivering emotion gathers dust.
+[0;36m~
+Type 9
+Extra 33554435
+Wear 4097
+Values 0 0 0 2 0 0 0 0 0 0 0
+Weight 10
+Cost 0
+Affect 13 10 1 0 0
+Affect 19 1 1 0 0
+End
+
+#133
+Name head~
+Short high quality head~
+Descr
+HEAD!
+[0;36m~
+Type 8
+Wear 1
+Weight 0
+Cost 100000
+End
+
+#199
+Name sword dancing flame~
+Short the sword of dancing [1m[31mf[1m[33ml[1m[31ma[1m[33mm[1m[31me[1m[33ms[0m~
+Descr
+Someone has left a fiery sword lying on the ground here.
+[0;36m~
+Type 5
+Extra 33816578
+Wear 16385
+Timer 5
+Values 0 0 0 1 0 0 0 4 4 0 0
+Weight 1
+Cost 0
+Affect 19 1 1 0 0
+End
+
+#200
+Name light woolen cloak~
+Short a woolen cloak~
+Descr
+A light, woolen cloak sits rumpled on the ground.
+[0;36m~
+Type 9
+Wear 1025
+Values 1 1 0 0 0 0 0 0 0 0 0
+Weight 20
+Cost 200
+End
+
+#201
+Name pants cloth basic_armor~
+Short a pair of cloth pants~
+Descr
+[0m[36mA nice pair of cloth pants have been discarded here.[0m[37m
+[0;36m~
+Type 9
+Wear 33
+Values 1 0 0 0 0 0 15 15 0 1 0
+Weight 20
+Cost 10
+End
+
+#202
+Name shirt cloth basic_armor~
+Short a cloth shirt~
+Descr
+[0m[36mA nice cloth shirt has been discarded here.[0m[37m
+[0;36m~
+Type 9
+Wear 9
+Values 0 1 0 0 0 0 15 15 0 1 0
+Weight 20
+Cost 10
+End
+
+#203
+Name hat feathered nice basic_armor~
+Short [36m[1ma fea[33mthe[36mred hat[0m~
+Descr
+[0m[36mA nice, feathered hat has been left here.[0m[37m
+[0;36m~
+Type 9
+Wear 17
+Values 0 0 3 0 0 0 30 30 0 5 0
+Weight 20
+Cost 10
+End
+
+#204
+Name sleeves cloth basic_armor~
+Short some cloth sleeves~
+Descr
+[0m[36mA pair of plain, cloth sleeves have been left here.[0m[37m
+[0;36m~
+Type 9
+Wear 257
+Values 0 0 0 1 0 0 15 15 0 1 0
+Weight 20
+Cost 10
+End
+
+#205
+Name shirt leather soft basic_armor~
+Short a soft, [33mleather[0m shirt~
+Descr
+[0m[36mA soft-looking shirt made of leather lies on the ground.[0m[37m
+[0;36m~
+Type 9
+Wear 9
+Values 0 1 0 0 0 0 18 18 0 1 0
+Weight 24
+Cost 25
+Affect 14 3 1 0 0
+End
+
+#206
+Name pants soft leather basic_armor~
+Short a pair of soft [33mleather[0m pants~
+Descr
+[0m[36mA nice pair of soft leather pants lie on the ground.[0m[37m
+[0;36m~
+Type 9
+Wear 33
+Values 1 0 0 0 0 0 18 18 0 1 0
+Weight 17
+Cost 25
+Affect 14 3 1 0 0
+End
+
+#207
+Name shoes soft leather basic_armor~
+Short some soft [33mleather[0m shoes~
+Descr
+[0m[36mA pair of soft leather shoes sit on the ground.[0m[37m
+[0;36m~
+Type 9
+Wear 65
+Values 1 0 0 0 0 0 18 18 0 1 0
+Weight 17
+Cost 25
+Affect 14 5 1 0 0
+End
+
+#208
+Name gloves soft leather basic_armor~
+Short some soft [33mleather[0m gloves~
+Descr
+[0m[36mA pair of soft leather gloves lie here, waiting to be picked up.[0m[37m
+[0;36m~
+Type 9
+Wear 129
+Values 0 0 0 1 0 0 18 18 0 1 0
+Weight 17
+Cost 25
+End
+
+#209
+Name sleeves soft leather basic_armor~
+Short some soft [33mleather[0m sleeves~
+Descr
+[0m[36mA nice pair of soft leather sleeves are here.[0m[37m
+[0;36m~
+Type 9
+Wear 257
+Values 0 0 0 1 0 0 18 18 0 1 0
+Weight 17
+Cost 25
+Affect 14 3 1 0 0
+End
+
+#210
+Name belt leather basic_armor~
+Short a [33mleather[0m belt~
+Descr
+[0m[36mA leather belt lies here, apparently unclaimed.[0m[37m
+[0;36m~
+Type 9
+Wear 2049
+Values 0 1 0 0 0 0 18 18 0 1 0
+Weight 17
+Cost 25
+Affect 14 3 1 0 0
+End
+
+#211
+Name rigid leather breastplate basic_armor~
+Short a rigid [33mleather[0m breastplate~
+Descr
+[0m[36mA sturdy-looking leather breastplate lies on the ground.[0m[37m
+[0;36m~
+Type 9
+Wear 9
+Values 0 2 0 0 0 0 20 20 0 1 0
+Weight 17
+Cost 50
+Affect 14 4 1 0 0
+End
+
+#212
+Name boots hard leather basic_armor~
+Short a pair of hard [33mleather [0mboots~
+Descr
+[0m[36mA nice pair of leather boots stand here, waiting to be claimed.[0m[37m
+[0;36m~
+Type 9
+Wear 65
+Values 1 0 0 0 0 0 20 20 0 1 0
+Weight 17
+Cost 50
+Affect 14 6 1 0 0
+End
+
+#213
+Name shin guard leather basic_armor~
+Short a [33mleather[0m shin guard~
+Descr
+[0m[36mA fine leather shin guard sits on the ground.[0m[37m
+[0;36m~
+Type 9
+Wear 524289
+Values 1 0 0 0 0 0 18 18 0 0 0
+Weight 17
+Cost 35
+Affect 14 2 1 0 0
+End
+
+#214
+Name leather shoulder pad basic_armor~
+Short a [33mleather [0mshoulder pad~
+Descr
+[0m[36mA sturdy leather shoulder pad lies on the ground.[0m[37m
+[0;36m~
+Type 9
+Wear 32769
+Values 0 0 0 1 0 0 18 18 0 0 0
+Weight 14
+Cost 35
+Affect 14 2 1 0 0
+End
+
+#215
+Name wristband wrist leather basic_armor~
+Short a [33mleather[0m wristband~
+Descr
+[0m[36mA leather wristband had been discarded here.[0m[37m
+[0;36m~
+Type 9
+Wear 4097
+Values 0 0 0 1 0 0 15 15 0 0 0
+Weight 9
+Cost 30
+End
+
+#216
+Name hard leather helmet basic_armor~
+Short a hard [33mleather[0m helmet~
+Descr
+[0m[36mA hard leather helmet lies on the ground here.[0m[37m
+[0;36m~
+Type 9
+Wear 17
+Values 0 0 1 0 0 0 20 20 0 0 0
+Weight 17
+Cost 50
+End
+
+#217
+Name cloak leather basic_armor~
+Short a [33mleather[0m cloak~
+Descr
+[0m[36mA fine leather cloak has been discarded here.[0m[37m
+[0;36m~
+Type 9
+Wear 1025
+Values 0 1 0 0 0 0 20 20 0 2 0
+Weight 17
+Cost 45
+Affect 14 8 1 0 0
+End
+
+#218
+Name shield circular wooden basic_armor~
+Short a circular, [33mwooden[0m shield~
+Descr
+[0m[36mA simple, circular, wooden shield lies on the ground getting dirty.[0m[37m
+[0;36m~
+Type 9
+Wear 513
+Values 0 1 0 2 0 0 20 20 0 0 0
+Weight 40
+Cost 45
+End
+
+#219
+Name shirt chain basic_armor~
+Short a [1mchain[0m shirt~
+Descr
+A fine chain shirt sits here unclaimed.
+[0;36m~
+Type 9
+Wear 9
+Values 0 2 0 0 0 0 23 23 0 0 0
+Weight 50
+Cost 90
+Affect 14 2 1 0 0
+End
+
+#220
+Name chain sleeves basic_armor~
+Short some [1mchain[0m sleeves~
+Descr
+Some chain sleeves are here, waiting for a new owner.
+[0;36m~
+Type 9
+Wear 257
+Values 0 0 0 2 0 0 23 23 0 0 0
+Weight 30
+Cost 85
+Affect 14 1 1 0 0
+End
+
+#221
+Name leggings chain basic_armor~
+Short some [1mchain[0m leggings~
+Descr
+Some chain leggings are lying here in the dirt.
+[0;36m~
+Type 9
+Wear 33
+Values 2 0 0 0 0 0 23 23 0 0 0
+Weight 35
+Cost 90
+Affect 14 2 1 0 0
+End
+
+#222
+Name belt chain basic_armor~
+Short a [1mchain[0m belt~
+Descr
+A chain belt has been discarded here.
+[0;36m~
+Type 28
+Wear 2049
+Values 0 2 0 0 0 0 23 23 0 0 0
+Weight 15
+Cost 90
+End
+
+#223
+Name gloves chain basic_armor~
+Short some [1mchain[0m gloves~
+Descr
+A fine pair of chain gloves sit here, obviously lost.
+[0;36m~
+Type 9
+Wear 129
+Values 0 0 0 2 0 0 23 23 0 0 0
+Weight 15
+Cost 90
+End
+
+#224
+Name iron helmet basic_armor~
+Short an [1m[30miron[0m helmet~
+Descr
+A sturdy-looking iron helmet has been discarded here.
+[0;36m~
+Type 9
+Wear 17
+Values 0 0 3 0 0 0 25 25 0 0 0
+Weight 32
+Cost 120
+End
+
+#225
+Name iron breastplate breast plate basic_armor~
+Short an [1m[30miron[0m breastplate~
+Descr
+A strong iron breastplate is lying on the ground here.
+[0;36m~
+Type 9
+Wear 9
+Values 0 3 0 0 0 0 25 25 0 0 0
+Weight 45
+Cost 150
+End
+
+#226
+Name iron shoulder plate shoulderplate basic_armor~
+Short an [1m[30miron[0m shoulderplate~
+Descr
+An iron shoulderplate is lying on the ground here.
+[0;36m~
+Type 9
+Wear 32769
+Values 0 0 0 2 0 0 25 25 0 0 0
+Weight 22
+Cost 100
+End
+
+#227
+Name metal greaves basic_armor~
+Short some [1m[30mmetal[0m greaves~
+Descr
+A pair of large, metal greaves are on the ground here.
+[0;36m~
+Type 9
+Wear 33
+Values 3 0 0 0 0 0 25 25 0 0 0
+Weight 29
+Cost 100
+End
+
+#228
+Name metal vambraces basic_armor~
+Short some [1m[30mmetal[0m vambraces~
+Descr
+A pair of fine, metal vambraces are here, obviously misplaced.
+[0;36m~
+Type 9
+Wear 257
+Values 0 0 0 3 0 0 25 25 0 0 0
+Weight 27
+Cost 105
+End
+
+#229
+Name shield metal small basic_armor~
+Short a small, [1m[30mmetal[0m shield~
+Descr
+A small, metal shield sits here on the ground, getting dirty.
+[0;36m~
+Type 9
+Wear 513
+Values 0 2 0 3 0 0 25 25 0 0 0
+Weight 55
+Cost 175
+End
+
+#230
+Name metal breastplate basic_armor plate breast~
+Short a [1m[30mmetal[0m breastplate~
+Descr
+A metal breastplate lies rusting on the ground.
+[0;36m~
+Type 9
+Wear 9
+Values 0 4 0 0 0 0 40 40 0 0 0
+Weight 65
+Cost 250
+End
+
+#231
+Name metal mask basic_armor~
+Short a [1m[30mmetal[0m mask~
+Descr
+A metal mask lies abandoned in a crack.
+[0;36m~
+Type 9
+Wear 65537
+Values 0 0 3 0 0 0 35 35 0 0 0
+Weight 24
+Cost 550
+End
+
+#232
+Name steel breastplate plate breast basic_armor~
+Short a [1m[37msteel[0m breastplate~
+Descr
+A steel breastplate glimmers in the light.
+[0;36m~
+Type 9
+Wear 9
+Values 0 5 0 0 0 0 35 35 0 0 0
+Weight 75
+Cost 550
+Affect 14 -2 1 0 0
+End
+
+#233
+Name steel greaves leggings basic_armor~
+Short some [1m[37msteel[0m greaves~
+Descr
+Shiny greaves made of polished steel catch your eye.
+[0;36m~
+Type 9
+Wear 33
+Values 4 0 0 0 0 0 35 35 0 0 0
+Weight 42
+Cost 490
+Affect 14 -1 1 0 0
+End
+
+#234
+Name steel vambraces sleeves basic_armor~
+Short some [1m[37msteel[0m vambraces~
+Descr
+Cleverly designed vambraces of steel are here.
+[0;36m~
+Type 9
+Wear 257
+Values 0 0 0 4 0 0 30 30 0 0 0
+Weight 37
+Cost 580
+Affect 14 -1 1 0 0
+End
+
+#235
+Name steel-toed steel boots basic_armor~
+Short a pair of [1m[37msteel[0m-toed boots~
+Descr
+These wicked-looking boots with steel spikes at the ends would make formidable footwear.
+[0;36m~
+Type 9
+Wear 65
+Values 4 0 0 0 0 0 30 30 0 0 0
+Weight 33
+Cost 550
+Affect 14 -3 1 0 0
+Affect 22 2 1 0 0
+End
+
+#236
+Name steel helm basic_armor~
+Short a [1m[37msteel[0m helm~
+Descr
+A steel helm has been left discarded here.
+[0;36m~
+Type 9
+Wear 17
+Values 0 0 4 0 0 0 30 30 0 0 0
+Weight 33
+Cost 500
+End
+
+#237
+Name steel shoulderplate~
+Short a [1m[37msteel[0m shoulderplate~
+Descr
+A steel shoulderplate has been left to rust here.
+[0;36m~
+Type 9
+Wear 32769
+Values 0 0 0 3 0 0 30 30 0 0 0
+Weight 33
+Cost 500
+End
+
+#246
+Name long sword longsword~
+Short a longsword~
+Descr
+A metal longsword is here.
+[0;36m~
+Type 5
+Wear 16385
+Values 0 20 0 3 0 0 0 3 4 0 0
+Weight 0
+Cost 0
+End
+
+#250
+Name tiny dagger~
+Short a dull dagger~
+Descr
+A dull dagger is lying on the ground.
+[0;36m~
+Type 5
+Extra 131072
+Wear 16385
+Values 0 10 0 11 0 0 0 4 1 0 0
+Weight 15
+Cost 150
+End
+
+#251
+Name short dagger~
+Short a short dagger~
+Descr
+A short dagger is sticking out of the ground.
+[0;36m~
+Type 5
+Extra 131072
+Wear 16385
+Values 0 16 0 11 0 0 0 3 2 0 0
+Weight 25
+Cost 400
+End
+
+#252
+Name wavy bladed knife~
+Short a wavy-bladed knife~
+Descr
+A wavy-bladed knife glimmers in the light.
+[0;36m~
+Type 5
+Extra 131072
+Wear 16385
+Values 0 20 0 11 0 0 0 4 2 0 0
+Weight 33
+Cost 543
+End
+
+#253
+Name double pronged dagger~
+Short [0ma [1m[30md[0mouble-[1m[30mp[0mronged dagger~
+Descr
+A double-pronged dagger has its tines stuck into the ground.
+[0;36m~
+Type 5
+Extra 131072
+Wear 16385
+Values 0 35 0 11 0 0 0 5 2 0 0
+Weight 34
+Cost 654
+End
+
+#260
+Name short sword shortsword~
+Short a shortsword~
+Descr
+A shortsword has been carelessly discarded here.
+[0;36m~
+Type 5
+Extra 262144
+Wear 16385
+Values 0 10 0 3 0 0 0 2 3 0 0
+Weight 23
+Cost 300
+End
+
+#261
+Name sword steel small~
+Short a small, steel sword~
+Descr
+A rather small sword made of steel has been tossed aside here.
+[0;36m~
+Type 5
+Extra 262144
+Wear 16385
+Values 0 15 0 3 0 0 0 4 2 0 0
+Weight 32
+Cost 342
+End
+
+#262
+Name long sword~
+Short a long sword~
+Descr
+A long sword lies about without a scabbard to protect it.
+[0;36m~
+Type 5
+Extra 262144
+Wear 16385
+Values 0 25 0 3 0 0 0 2 5 0 0
+Weight 41
+Cost 523
+End
+
+#263
+Name bastard sword~
+Short a bastard sword~
+Descr
+There is a bastard sword just sitting on the ground.
+[0;36m~
+Type 5
+Extra 2097152
+Wear 16385
+Values 0 30 0 3 0 0 0 2 7 0 0
+Weight 54
+Cost 316
+Affect 18 -1 1 0 0
+End
+
+#270
+Name stick small~
+Short a small sap~
+Descr
+A small sap is lying here.
+[0;36m~
+Type 5
+Extra 524288
+Wear 16385
+Values 0 15 0 7 0 0 0 3 2 0 0
+Weight 21
+Cost 100
+End
+
+#271
+Name small club~
+Short a small club~
+Descr
+A small club has been left behind by someone.
+[0;36m~
+Type 5
+Extra 524288
+Wear 16385
+Values 0 19 0 8 0 0 0 3 3 0 0
+Weight 34
+Cost 225
+End
+
+#272
+Name hammer~
+Short a hammer~
+Descr
+A hammer lies forgotten among the flotsam left here.
+[0;36m~
+Type 5
+Extra 524288
+Wear 16385
+Values 0 23 0 8 0 0 0 3 4 0 0
+Weight 43
+Cost 234
+Affect 18 -1 1 0 0
+End
+
+#273
+Name sledgehammer hammer~
+Short a sledgehammer~
+Descr
+A blood-splattered sledgehammer lies almost hidden by debris.
+[0;36m~
+Type 5
+Extra 524288
+Wear 16385
+Values 0 27 0 8 0 0 0 3 5 0 0
+Weight 81
+Cost 763
+Affect 18 -3 1 0 0
+End
+
+#274
+Name a bastard sword~
+Short a bastard sword~
+Descr
+A bastard sword lies on the ground.
+[0;36m~
+Type 5
+Extra 64
+Wear 16385
+Values 0 0 0 1 0 0 0 5 2 0 0
+Weight 5
+Cost 1000
+End
+
+#275
+Name a large metal dagger~
+Short a large metal dagger~
+Descr
+A large metal dagger lies on the ground.
+[0;36m~
+Type 5
+Extra 131136
+Wear 16385
+Values 0 0 0 2 0 0 0 6 2 0 0
+Weight 5
+Cost 100
+End
+
+#276
+Name kizmets Guide~
+Short [1m[31mKizmets's Guide[0m~
+Descr
+A book with the title 'Kizmets Guide' lies here.
+[0;36m~
+Type 11
+Extra 1
+Wear 16385
+Weight 1
+Cost 500
+Affect 19 -1 1 0 0
+Affect 14 10 1 0 0
+Affect 13 10 1 0 0
+End
+
+#277
+Name kizmet ferret head~
+Short [1m[32mThe severed head of [31mKizmet's [32mpet Ferret[0m~
+Descr
+The head of a ferret is floating here.
+[0;36m~
+Type 9
+Extra 1
+Wear 131073
+Weight 0
+Cost 0
+Affect 13 10 1 0 0
+Affect 14 -10 1 0 0
+End
+
+#278
+Name sword legendary inglehood~
+Short [1m[30mThe legendary sword of '[35mInglehood[30m'[0m~
+Descr
+A legendary sword lies on the ground here.
+[0;36m~
+Type 5
+Extra 171966465
+Wear 24577
+Values 0 15 0 3 0 0 0 6 3 0 0
+Weight 80
+Cost 200
+Affect 19 3 1 0 0
+Affect 18 3 1 0 0
+Affect 13 20 3 0 0
+End
+
+#279
+Name kick ass~
+Short a kick in the head~
+Descr
+A certificate for a free kick in the head is here.
+[0;36m~
+Type 13
+Wear 16385
+Weight 0
+Cost 0
+End
+
+#280
+Name shirt cloth basic~
+Short a cloth shirt~
+Descr
+[32mA nice cloth shirt has been discarded here.[0m
+[0;36m~
+Type 9
+Wear 9
+Weight 0
+Cost 0
+End
+
+#300
+Name doll my birthday~
+Short [1m[37mA "[31mHey it's my BIRTHDAY[37m" Doll[0m~
+Descr
+A birthday doll lies on the ground
+[0;36m~
+Type 13
+Extra 1
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#301
+Name doll azraen ass~
+Short an "Azraen, Collector of Dolls" doll~
+Descr
+A pimp ass doll is on the ground looking pimp.
+[0;36m~
+Type 13
+Extra 3
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#302
+Name doll warped~
+Short a "'Warped's stfu.go.delete.net.au Doll"~
+Descr
+A "'Warped's stfu.go.delete.net.au" doll is laying here getting dirty!
+[0;36m~
+Type 13
+Extra 2
+Wear 8193
+Weight 0
+Cost 0
+End
+
+#303
+Name doll azzy~
+Short [36ma "[0m[31mBeWaRe![0m [35mAzzy is Back!![0m[36m" doll~
+Descr
+[0mA "[31mBeWaRe![0m [35mAzzy is Back!![0m" doll is laying in a heap on the ground.
+[0;36m~
+Type 13
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#304
+Name rukkus doll kung fu grip~
+Short a "'Warped's stfu.go.delete.net.au Doll"~
+Descr
+A "'Warped's stfu.go.delete.net.au" doll is laying here getting dirty!
+[0;36m~
+Type 13
+Extra 2
+Wear 8193
+Weight 0
+Cost 0
+End
+
+#305
+Name floating cloud stupid~
+Short [0ma floating cloud of [31m[1mSTUPID[0m~
+Descr
+[0mA floating cloud of [31m[1mSTUPID[0m is here making you dumb!
+[0;36m~
+Type 17
+Wear 131089
+Values 20 20 6 0 0 0 0 0 0 0 0
+Weight 20
+Cost 10
+End
+
+#306
+Name gold bar~
+Short a [1m[33mGOLD[0m bar~
+Descr
+A [1m[33mGOLD[0m bar is here hidden in the brush.
+[0;36m~
+Type 13
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#307
+Name basket heart~
+Short a basket containing a dragon's [31mheart[0m~
+Descr
+A basket is here containing a dragon's [1m[31mheart[0m.
+[0;36m~
+Type 13
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#308
+Name troll bile~
+Short a flask of troll [1m[30mB[37mI[30mL[37mE[0m~
+Descr
+A flask of troll [1m[30mB[37mI[30mL[37mE[0m is here on the ground.
+[0;36m~
+Type 13
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#309
+Name map~
+Short a map~
+Descr
+A map showing the enemy locations is here.
+[0;36m~
+Type 13
+Wear 16385
+Weight 0
+Cost 0
+End
+
+#310
+Name loin cloth~
+Short a fuzzy loin cloth~
+Descr
+A fuzzy loin cloth is here to cover certain things.
+[0;36m~
+Type 9
+Wear 2049
+Weight 0
+Cost 0
+End
+
+#400
+Name void portal~
+Short a large [1m[30mvoid[0m appears in the room here~
+Descr
+[37mA large [1m[30mv[0m[37mo[1mi[30md[0m appears in the room here.
+[0;36m~
+Type 12
+Wear 0
+Timer 1
+Values 4 5065 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#401
+Name portal hate plane~
+Short a [36ms[1mhimmerin[0m[36mg[0m portal to the [31mp[1mlan[0m[31me[0m of [1m[30mh[0m[37ma[1mt[30me[0m is here~
+Descr
+A [36ms[1mhimmerin[0m[36mg[0m portal to the [31mp[1mlan[0m[31me[0m of [1m[30mh[0m[37ma[1mt[30me[0m is here on the ground.
+[0;36m~
+Type 12
+Wear 0
+Timer 1
+Values 4 54224 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#402
+Name blood red portal plane fear~
+Short a [31mblood-red[0m portal to the [31mp[1mlan[0m[31me[0m of [1m[32mf[37mea[32mr[0m is here on the ground~
+Descr
+A little clover is poking up through the ground.
+[0;36m~
+Type 12
+Wear 0
+Timer 1
+Values 4 54919 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#403
+Name doll zyania~
+Short [1m[31mA "Zyania is the most annoying person" doll~
+Descr
+Wow a doll is on the gorund!
+[0;36m~
+Type 13
+Extra 33554432
+Wear 24577
+Weight 4
+Cost 2000
+End
+
+#410
+Name portal death plane~
+Short a [1m[30mjet-black[0m portal to the [1m[31mp[0m[31mlan[1me[0m of [1m[30md[0m[37me[1ma[30mt[0m[37mh[0m is here on the ground~
+Descr
+A [1m[30mjet-black[0m portal to the [1m[31mp[0m[31mlan[1me[0m of [1m[30md[0m[37me[1ma[30mt[0m[37mh[0m is here on the ground.
+[0;36m~
+Type 12
+Wear 0
+Timer 1
+Values 4 54546 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#411
+Name portal~
+Short a [1m[30mcharred-black p[0m[37mo[1mr[0m[37mt[1m[30mal[0m~
+Descr
+A [1m[30mcharred-black p[0m[37mo[1mr[0m[37mt[1m[30mal[0m is here leading to an unknown path.
+[0;36m~
+Type 12
+Wear 0
+Timer 1
+Values 4 91306 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#412
+Name strange battle potion~
+Short [0m[1m[30mA strange battle potion[0m~
+Descr
+A strange battle potion.
+[0;36m~
+Type 10
+Extra 33554432
+Wear 1
+Values 60 158 6 189 0 0 0 0 0 0 0
+Weight 30
+Cost 0
+End
+
+#413
+Name temp solution potion~
+Short temp potion~
+Descr
+Temp potion
+[0;36m~
+Type 10
+Extra 33554432
+Wear 1
+Values 100 12 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 10
+End
+
+#414
+Name harry potter armband~
+Short an I hate harry potter armband~
+Descr
+An I hate harry potter armband lies on the ground  here.
+[0;36m~
+Type 9
+Wear 1048577
+Weight 10
+Cost 10
+ExtraDescr map~
+ 
+
+
+Look to the north of Wycliff.  A secret door near an ancient village will show you the way.
+
+
+~
+End
+
+#415
+Name pizza pie~
+Short [0m[1m[31ma pizza pie[0m~
+Descr
+Some dominos.
+[0;36m~
+Type 19
+Extra 33570816
+Wear 1
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 10
+End
+
+#416
+Name soulblighter whip valheru barbed limited~
+Short a [1m[30mbarbed[0m [1m[31mvalheru[0m whip called [1m[30m"[31mSoulblighter[30m"[0m~
+Descr
+A barbed valheru whip lies on the ground here.
+[0;36m~
+Type 5
+Extra 1048578
+Wear 24577
+Values 0 300 0 4 0 0 0 9 2 0 0
+Weight 20
+Cost 10000
+Affect 18 4 0 0 0
+Affect 19 2 0 0 0
+End
+
+#417
+Name puissance starmetal radiating club~
+Short a [1m[30mr[0m[36ma[34md[1m[36mi[34ma[36mt[0m[34mi[36mn[1m[30mg[0m [1m[30mstarmetal[0m club called [1m[30m"[35mPuissance[30m"[0m~
+Descr
+A starmetal club lies here glowing strangely.
+[0;36m~
+Type 5
+Extra 570949632
+Wear 16385
+Values 0 200 0 8 0 0 0 4 5 0 0
+Weight 30
+Cost 10000
+Affect 19 2 0 0 0
+End
+
+#425
+Name aura bg battle~
+Short [1m[37mThe "[36mI won the [31mBG[36m and all I won was this stupid Aura[37m" Aura[0m~
+Descr
+An aura of pride is here.
+[0;36m~
+Type 9
+Wear 131073
+Values 2 2 2 2 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+End
+
+#450
+Name trap~
+Short a trap~
+Descr
+A trap is here.
+[0;36m~
+Type 37
+Wear 16385
+Values 20 20 20 0 0 0 0 0 0 0 0
+Weight 2
+Cost 2000
+End
+
+#500
+Name blackened steel dagger~
+Short [1m[30ma blackened [37msteel [30mdagger[0m~
+Descr
+A sharp dagger made of blackened steel is resting here.
+[0;36m~
+Type 5
+Extra 131074
+Wear 16385
+Values 0 30 0 11 0 0 0 5 2 0 0
+Weight 2
+Cost 2000
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#501
+Name ice ring~
+Short a [1mring[0m of [1m[36mice[0m~
+Descr
+A ring made of melting ice catches your notice.
+[0;36m~
+Type 9
+Extra 1
+Wear 3
+Values 0 0 0 6 0 0 2 2 0 0 0
+Weight 2
+Cost 40000
+Affect 13 50 1 0 0
+End
+
+#503
+Name nothing~
+Short nothing~
+Descr
+This is nothing.
+[0;36m~
+Type 13
+Wear 131073
+Weight 0
+Cost 0
+End
+
+#510
+Name turkey Drumstick~
+Short [33mA Turkey Drumstick[0m~
+Descr
+The bone of a turkey drumstick is here.
+[0;36m~
+Type 5
+Extra 524290
+Wear 16385
+Values 0 100 0 7 0 0 0 9 2 0 0
+Weight 15
+Cost 0
+End
+
+#551
+Name log fine basswood~
+Short a log of fine basswood~
+Descr
+A log of fine basswood is here.
+[0;36m~
+Type 42
+Wear 16385
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 400
+End
+
+#552
+Name log fine cypress~
+Short a log of fine cypress~
+Descr
+A log of fine cypress is here.
+[0;36m~
+Type 42
+Wear 16385
+Values 2 0 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 500
+End
+
+#553
+Name log fine hickory~
+Short a log of fine hickory~
+Descr
+A log of fine hickory is here.
+[0;36m~
+Type 42
+Wear 16385
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 600
+End
+
+#554
+Name log fine elm~
+Short a log of fine elm~
+Descr
+A log of fine elm is here.
+[0;36m~
+Type 42
+Wear 0
+Values 4 0 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 700
+End
+
+#555
+Name log fine ash~
+Short a log of fine ash~
+Descr
+A log of fine ash is here.
+[0;36m~
+Type 42
+Wear 16385
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 800
+End
+
+#556
+Name log fine birch~
+Short a log of fine birch~
+Descr
+A log of fine birch is here.
+[0;36m~
+Type 42
+Wear 16385
+Values 6 0 0 0 0 0 0 0 0 0 0
+Weight 16
+Cost 900
+End
+
+#557
+Name log fine maple~
+Short a log of fine maple~
+Descr
+A log of fine maple is here.
+[0;36m~
+Type 42
+Wear 16385
+Values 7 0 0 0 0 0 0 0 0 0 0
+Weight 17
+Cost 1000
+End
+
+#558
+Name log fine cherry~
+Short a log of fine cherry~
+Descr
+A log of fine cherry is here.
+[0;36m~
+Type 42
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 18
+Cost 1100
+End
+
+#559
+Name log fine poplar~
+Short a log of fine poplar~
+Descr
+A log of fine poplar is here.
+[0;36m~
+Type 42
+Wear 16385
+Values 9 0 0 0 0 0 0 0 0 0 0
+Weight 19
+Cost 1200
+End
+
+#560
+Name log fine oak~
+Short a log of fine oak~
+Descr
+A log of fine oak is here.
+[0;36m~
+Type 42
+Wear 16385
+Values 10 0 0 0 0 0 0 0 0 0 0
+Weight 20
+Cost 1300
+End
+
+#561
+Name sprig herb clover~
+Short a sprig of clover~
+Descr
+A sprig of clover is here.
+[0;36m~
+Type 29
+Wear 16385
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#562
+Name sprig herb garlic~
+Short a sprig of garlic~
+Descr
+A sprig of garlic is here.
+[0;36m~
+Type 29
+Wear 16385
+Values 2 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#563
+Name sprig herb nightshade~
+Short a sprig of nightshade~
+Descr
+A sprig of nightshade is here.
+[0;36m~
+Type 29
+Wear 16385
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#564
+Name sprig herb belladonna~
+Short a sprig of belladonna~
+Descr
+A sprig of belladonna is here.
+[0;36m~
+Type 29
+Wear 16385
+Values 4 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#565
+Name sprig herb sage~
+Short a sprig of sage~
+Descr
+A sprig of sage is here.
+[0;36m~
+Type 29
+Wear 16385
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#566
+Name sprig herb violet~
+Short a sprig of violet~
+Descr
+A sprig of violet is here.
+[0;36m~
+Type 29
+Wear 16385
+Values 6 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#567
+Name sprig herb anise~
+Short a sprig of anise~
+Descr
+A sprig of anise is here.
+[0;36m~
+Type 29
+Wear 16385
+Values 7 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#568
+Name sprig herb astralagus~
+Short a sprig of astralagus~
+Descr
+A sprig of astralagus is here.
+[0;36m~
+Type 29
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#569
+Name sprig herb bayberry~
+Short a sprig of bayberry~
+Descr
+A sprig of bayberry is here.
+[0;36m~
+Type 29
+Wear 16385
+Values 9 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#570
+Name sprig herb borage~
+Short a sprig of borage~
+Descr
+A sprig of borage is here.
+[0;36m~
+Type 29
+Wear 16385
+Values 10 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 500
+End
+
+#571
+Name sprig herb comfrey~
+Short a sprig of comfrey~
+Descr
+A sprig of comfrey is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#572
+Name sprig herb dragon's blood~
+Short a sprig of dragon's blood~
+Descr
+A sprig of dragon's blood is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#573
+Name sprig herb elecampane~
+Short a sprig of elecampane~
+Descr
+A sprig of elecampane is here.
+[0;36m~
+Type 29
+Wear 1
+Weight 1
+Cost 500
+End
+
+#574
+Name sprig herb elder~
+Short a sprig of elder~
+Descr
+A sprig of elder is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#575
+Name sprig herb fenugreek~
+Short a sprig of fenugreek~
+Descr
+A sprig of fenugreek is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#576
+Name sprig herb feverfew~
+Short a sprig of feverfew~
+Descr
+A sprig of feverfew is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#577
+Name sprig herb goldenseal~
+Short a sprig of goldenseal~
+Descr
+A sprig of goldenseal is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#578
+Name sprig herb hawthorn~
+Short a sprig of hawthorn~
+Descr
+A sprig of hawthorn is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#579
+Name sprig herb hyssop~
+Short a sprig of hyssop~
+Descr
+A sprig of hyssop is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#580
+Name sprig herb ivy~
+Short a sprig of ivy~
+Descr
+A sprig of ivy is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#581
+Name sprig herb jojoba~
+Short a sprig of jojoba~
+Descr
+A sprig of jojoba is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#582
+Name sprig herb juniper~
+Short a sprig of juniper~
+Descr
+A sprig of juniper is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#583
+Name sprig herb kelp~
+Short a sprig of kelp~
+Descr
+A sprig of kelp is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#584
+Name sprig herb lemon balm~
+Short a sprig of lemon balm~
+Descr
+A sprig of lemon balm is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#585
+Name sprig herb mandrake~
+Short a sprig of mandrake~
+Descr
+A sprig of mandrake is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#586
+Name sprig herb marjoram~
+Short a sprig of marjoram~
+Descr
+A sprig of marjoram is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#587
+Name sprig herb neem~
+Short a sprig of neem~
+Descr
+A sprig of neem is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#588
+Name sprig herb nettle~
+Short a sprig of nettle~
+Descr
+A sprig of nettle is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#589
+Name sprig herb peony~
+Short a sprig of peony~
+Descr
+A sprig of peony is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#590
+Name sprig herb patchouli~
+Short a sprig of patchouli~
+Descr
+A sprig of patchouli is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#591
+Name sprig herb rue~
+Short a sprig of rue~
+Descr
+A sprig of rue is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#592
+Name sprig herb scullcap~
+Short a sprig of scullcap~
+Descr
+A sprig of scullcap is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#593
+Name sprig herb sandalwood~
+Short a sprig of sandalwood~
+Descr
+A sprig of sandalwood is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#594
+Name sprig herb thyme~
+Short a sprig of thyme~
+Descr
+A sprig of thyme is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#595
+Name sprig herb taheebo~
+Short a sprig of taheebo~
+Descr
+A sprig of taheebo is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#596
+Name sprig herb uva ursi~
+Short a sprig of uva ursi~
+Descr
+A sprig of uva ursi is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#597
+Name sprig herb valerian~
+Short a sprig of valerian~
+Descr
+A sprig of valerian is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#598
+Name sprig herb vervain~
+Short a sprig of vervain~
+Descr
+A sprig of vervain is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#599
+Name sprig herb wormwood~
+Short a sprig of wormwood~
+Descr
+A sprig of wormwood is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#600
+Name sprig herb witch hazel~
+Short a sprig of witch hazel~
+Descr
+A sprig of witch hazel is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#601
+Name sprig herb yarrow~
+Short a sprig of yarrow~
+Descr
+A sprig of yarrow is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#602
+Name sprig herb yellow dock~
+Short a sprig of yellow dock~
+Descr
+A sprig of yellow dock is here.
+[0;36m~
+Type 29
+Wear 16385
+Weight 1
+Cost 500
+End
+
+#603
+Name skin hide  squirrel~
+Short the hide of a squirrel~
+Descr
+The hide of a squirrel is just sitting here.
+[0;36m~
+Type 39
+Wear 16385
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 100
+End
+
+#604
+Name skin hide  rabbit~
+Short the hide of a rabbit~
+Descr
+The hide of a rabbit is just sitting here.
+[0;36m~
+Type 39
+Wear 16385
+Values 2 0 0 0 0 0 0 0 0 0 0
+Weight 15
+Cost 600
+End
+
+#605
+Name skin hide  raccoon~
+Short the hide of a raccoon~
+Descr
+The hide of a raccoon is just sitting here.
+[0;36m~
+Type 39
+Wear 16385
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 20
+Cost 1200
+End
+
+#606
+Name skin hide  cow~
+Short the hide of a cow~
+Descr
+The hide of a cow is just sitting here.
+[0;36m~
+Type 9
+Wear 9
+Values 4 0 0 0 0 0 0 0 0 0 0
+Weight 75
+Cost 300
+End
+
+#607
+Name skin hide  fox~
+Short the hide of a fox~
+Descr
+The hide of a fox is just sitting here.
+[0;36m~
+Type 39
+Wear 16385
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 30
+Cost 700
+End
+
+#608
+Name skin hide  deer~
+Short the hide of a deer~
+Descr
+The hide of a deer is just sitting here.
+[0;36m~
+Type 39
+Wear 16385
+Values 6 0 0 0 0 0 0 0 0 0 0
+Weight 80
+Cost 4200
+End
+
+#609
+Name skin hide  wolf~
+Short the hide of a wolf~
+Descr
+The hide of a wolf is just sitting here.
+[0;36m~
+Type 39
+Wear 0
+Values 7 0 0 0 0 0 0 0 0 0 0
+Weight 50
+Cost 1200
+End
+
+#610
+Name skin hide  bear~
+Short the hide of a bear~
+Descr
+The hide of a bear is just sitting here.
+[0;36m~
+Type 39
+Wear 16385
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 120
+Cost 7000
+End
+
+#611
+Name skin hide  bear~
+Short the hide of a bear~
+Descr
+The hide of a bear is just sitting here.
+[0;36m~
+Type 39
+Wear 16385
+Values 9 0 0 0 0 0 0 0 0 0 0
+Weight 130
+Cost 10000
+End
+
+#612
+Name skin hide  lion~
+Short the hide of a lion~
+Descr
+The hide of a lion is just sitting here.
+[0;36m~
+Type 39
+Wear 16385
+Values 10 0 0 0 0 0 0 0 0 0 0
+Weight 110
+Cost 20000
+End
+
+#613
+Name skin hide  dragon~
+Short the hide of a dragon~
+Descr
+The hide of a dragon is just sitting here.
+[0;36m~
+Type 39
+Wear 16385
+Values 11 0 0 0 0 0 0 0 0 0 0
+Weight 150
+Cost 50000
+End
+
+#620
+Name cotton bale~
+Short a bale of cotton~
+Descr
+A bale of cotton is here.
+[0;36m~
+Type 40
+Wear 16385
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 200
+End
+
+#621
+Name bolt cotton cloth~
+Short a bolt of cotton~
+Descr
+A bolt of cotton is here, ready to be sewn into clothing.
+[0;36m~
+Type 41
+Wear 16385
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 50
+Cost 1000
+End
+
+#622
+Name wool clump~
+Short a clump of wool~
+Descr
+A large clump of wool is here.
+[0;36m~
+Type 40
+Wear 16385
+Values 2 0 0 0 0 0 0 0 0 0 0
+Weight 20
+Cost 400
+End
+
+#623
+Name cloth wool fabric~
+Short some wool fabric~
+Descr
+Some woolen fabric has been left here in a big lump.
+[0;36m~
+Type 41
+Wear 16385
+Values 2 0 0 0 0 0 0 0 0 0 0
+Weight 120
+Cost 1500
+End
+
+#624
+Name silk silken threads~
+Short some silken threads~
+Descr
+Some silken threads are in a big pile here.
+[0;36m~
+Type 40
+Wear 16385
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 50
+Cost 10000
+End
+
+#625
+Name silk cloth bolt~
+Short some silk cloth~
+Descr
+A bolt of silk has been left here.
+[0;36m~
+Type 41
+Wear 16385
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 50
+Cost 80000
+End
+
+#650
+Name loom creaky~
+Short a creaky loom~
+Descr
+A creaky loom is here.
+[0;36m~
+Type 12
+Extra 33554432
+Wear 1
+Values 32 0 0 0 0 1 0 0 0 0 0
+Weight 500
+Cost 25000
+End
+
+#651
+Name loom decent~
+Short a decent loom~
+Descr
+A decent loom is here.
+[0;36m~
+Type 12
+Extra 33554432
+Wear 1
+Values 32 0 0 0 0 2 0 0 0 0 0
+Weight 700
+Cost 50000
+End
+
+#652
+Name excellent loom~
+Short an excellent loom~
+Descr
+An excellent loom is here.
+[0;36m~
+Type 12
+Wear 1
+Values 32 0 0 0 0 3 0 0 0 0 0
+Weight 1000
+Cost 100000
+End
+
+#666
+Name website address bg item~
+Short [1m[33mhttp://www.pjloughran.com/music/music.html~
+Descr
+A website address for Kizmet's fraternity brothers band is here.
+[0;36m~
+Type 13
+Extra 2
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#667
+Name hums~
+Short ..it Hums with [34mp[0mow[1me[0mr[1m![0m~
+Descr
+(none)~
+Type 13
+Extra 2
+Wear 16385
+Weight 0
+Cost 0
+End
+
+#668
+Name hobo knife atog~
+Short [1m[32mA[0m[32mtog[1m[37m'[0m[32ms [1m[35m>[0m[35m> [1m[37mH [1m[30mO B O  [1m[37mK [1m[30mN I F E [1m[35m>[0m[35m>[0m~
+Descr
+The knife Atog won for compiling spell lists is here
+[0;36m~
+Type 5
+Extra 131138
+Wear 24577
+Values 0 100 0 11 0 0 0 9 2 0 0
+Weight 1
+Cost 5000
+Affect 18 2 1 0 0
+Affect 19 2 1 0 0
+End
+
+#685
+Name sleeves vigilance~
+Short a pair of [34mv[1mi[36mg[0m[36mi[1ml[0m[34ma[1mn[36mc[0m[36me [36ms[1mleeve[0m[36ms[0m~
+Descr
+A pair of vigilant greaves lie on the ground here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 257
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 9
+Cost 3000
+Affect 19 2 1 0 0
+Affect 18 3 1 0 0
+Affect 13 10 1 0 0
+Affect 22 2 1 0 0
+End
+
+#700
+Name goat luck doll~
+Short [1m[30ma small st[37mu[0m[37mf[1m[37mf[30med [1m[31mg[0m[31moat [1m[30mdoll[0m~
+Descr
+You see a small goat doll discarded here carelessly.
+[0;36m~
+Type 13
+Extra 1
+Wear 24577
+Weight 0
+Cost 0
+Affect 13 20 1 0 0
+End
+
+#701
+Name luck belt goat~
+Short [1m[30ma [37mg[0m[37moa[1m[30mt [1m[37mf[0m[37mu[1m[30mr [1m[37mli[0m[37mn[1m[30med belt[0m~
+Descr
+A furry belt has been discarded here on the ground.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 2049
+Values 3 0 0 0 10 10 80 80 10 6 0
+Weight 6
+Cost 1500
+Affect 18 1 1 0 0
+Affect 14 6 1 0 0
+Affect 13 6 1 0 0
+End
+
+#702
+Name doll whiner wraithe~
+Short [1m[30mA [37m"[34mWraithe is a [37mBIG [34mwhiner about thieves[37m" [30mdoll[0m~
+Descr
+There is a whiney wraithe doll sitting here.
+[0;36m~
+Type 13
+Extra 33554433
+Wear 24577
+Weight 2
+Cost 3000
+End
+
+#703
+Name banana food ~
+Short [0m[37ma [33mlong [1m[33mbanana[0m~
+Descr
+A long banana sits here on the ground.
+[0;36m~
+Type 5
+Extra 33554432
+Wear 24577
+Values 0 0 0 7 0 0 0 1 5 0 0
+Weight 2
+Cost 450
+End
+
+#704
+Name carrot food~
+Short [0m[32ma stubby [0m[33mcarrot[0m~
+Descr
+A carrot is here not being eaten.
+[0;36m~
+Type 19
+Wear 1
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 45
+End
+
+#705
+Name doll morgoth freak inbred perverted~
+Short [1m[34mMo[36mrg[34moth [35mis a [37mp[35merverted [37mi[35mnbred [37mf[35mreak [1m[30md[0m[37mo[1m[37mll[0m~
+Descr
+A freaky perverted doll is lying here on the floor.
+[0;36m~
+Type 13
+Extra 2
+Wear 24577
+Weight 5
+Cost 1500
+Affect 13 -50 1 0 0
+Affect 19 -2 1 0 0
+End
+
+#706
+Name doll life~
+Short [0mA[1m[30m "[1m[37mI have [1m[30m<[37m-[0m[37m=[1m[30mNO[0m[37m=[1m[37m-[1m[30m> [34mL[0m[34mI[1m[34mF[0m[34mE[1m[30m" [0mdoll~
+Descr
+A doll is lying here on the ground useless.
+[0;36m~
+Type 13
+Extra 2
+Wear 24577
+Weight 5
+Cost 5000
+Affect 19 2 1 0 0
+Affect 20 5 1 0 0
+End
+
+#707
+Name bag~
+Short this bag was a joke, and no mortal should have it~
+Descr
+This bag is super duper!!
+[0;36m~
+Type 15
+Extra 1
+Wear 4194305
+Values 10 16 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 40000
+End
+
+#708
+Name tissue ~
+Short [0m[33msome used [1m[32mti[0m[32mss[1mue[0m[32ms[0m~
+Descr
+Some tissues are here being unused.
+[0;36m~
+Type 19
+Wear 16385
+Values 10 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 4000
+End
+
+#710
+Name blood fury~
+Short [1m[31mB[0m[31mlood [1mF[0m[31mury[0m~
+Descr
+[1m[31mB[0m[31mlood [1mF[0m[31mury[0m.
+[0;36m~
+Type 19
+Extra 1
+Wear 1
+Values 15 0 0 0 0 0 0 0 0 0 0
+Weight 3
+Cost 50000
+End
+
+#725
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#750
+Name small blue vial potion~
+Short a [34mblue[0m[37m potion~
+Descr
+[0m[36mA small blue vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Values 80 5 5 60 0 0 0 0 0 0 0
+Weight 4
+Cost 0
+End
+
+#751
+Name small green vial potion~
+Short a [32mgreen[0m[37m potion~
+Descr
+[0m[36mA small green vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#752
+Name small cyan vial potion~
+Short a [36mcyan[0m[37m potion~
+Descr
+[0m[36mA small cyan vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#753
+Name small red vial potion~
+Short a [31mred[0m[37m potion~
+Descr
+[0m[36mA small red vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#754
+Name small purple vial potion~
+Short a [35mpurple[0m[37m potion~
+Descr
+[0m[36mA small purple vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#755
+Name small brown vial potion~
+Short a [33mbrown[0m[37m potion~
+Descr
+[0m[36mA small brown vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#756
+Name small grey vial potion~
+Short a grey potion~
+Descr
+[0m[36mA small grey vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#757
+Name small black vial potion~
+Short a [1m[30mblack [0mpotion~
+Descr
+[0m[36mA small black vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#758
+Name small white vial potion~
+Short a [1m[37mwhite[0m potion~
+Descr
+[0m[36mA small white vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#759
+Name small gold vial potion~
+Short a [33m[1mgold[0m[37m potion~
+Descr
+[0m[36mA small gold vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#760
+Name small bright blue vial potion~
+Short a [1m[37mbright [34mblue[0m potion~
+Descr
+[0m[36mA small bright green vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Values 80 5 5 129 0 0 0 0 0 0 0
+Weight 0
+Cost 35000
+End
+
+#761
+Name small bright green vial potion~
+Short a [1m[37mbright [32mgreen[0m potion~
+Descr
+A bright green potion lies on the floor.
+[0;36m~
+Type 10
+Wear 16385
+Values 80 5 5 80 0 0 0 0 0 0 0
+Weight 4
+Cost 35000
+End
+
+#762
+Name small bright cyan vial potion~
+Short a [1m[37mbright [36mcyan[0m potion~
+Descr
+[0m[36mA small bright red vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Values 80 5 5 126 0 0 0 0 0 0 0
+Weight 4
+Cost 30000
+End
+
+#763
+Name small bright red vial potion~
+Short a [1m[37mbright [31mred[0m potion~
+Descr
+[0m[36mA small bright purple vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#764
+Name small bright purple vial potion~
+Short a [1m[37mbright[35m purple[0m potion~
+Descr
+[0m[36mA small bright purple vial lies on the floor.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#765
+Name small vial bubbline blue liquid potion~
+Short a [1m[37mbubbling [0m[34mblue [0m[37mpotion~
+Descr
+[0m[36mA small vial with a bubbling blue liquid in it lies here.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#766
+Name small vial bubbline green liquid potion~
+Short a [1m[37mbubbling [0m[32mgreen[0m[37m potion~
+Descr
+[0m[36mA small vial with a bubbling green liquid in it lies here.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#767
+Name small vial bubbline cyan liquid potion~
+Short a [1m[37mbubbling [0m[36mcyan[0m[37m potion~
+Descr
+[0m[36mA small vial with a bubbling cyan liquid in it lies here.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#768
+Name small vial bubbline red liquid potion~
+Short a [1m[37mbubbling [0m[31mred [0m[37mpotion~
+Descr
+[0m[36mA small vial with a bubbling red liquid in it lies here.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#769
+Name small vial bubbline purple liquid potion~
+Short a [1m[37mbubbling [0m[35mpurple [0m[37mpotion~
+Descr
+[0m[36mA small vial with a bubbling purple liquid in it lies here.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#770
+Name portal~
+Short a strange portal~
+Descr
+A strange portal lies here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 65000 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#771
+Name small vial bubbline green liquid potion~
+Short a [1m[37mbubbling [1m[32mgreen [0m[37mpotion~
+Descr
+[0m[36mA small vial with a bright bubbling green liquid in it lies here.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#772
+Name small vial bubbline cyan liquid potion~
+Short a [1m[37mbubbling [1m[36mcyan [0m[37mpotion~
+Descr
+[0m[36mA small vial with a bright bubbling cyan liquid in it lies here.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#773
+Name small vial bubbline red liquid potion~
+Short a [1m[37mbubbling [1m[31mred [0m[37mpotion~
+Descr
+[0m[36mA small vial with a bright bubbling red liquid in it lies here.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Weight 4
+Cost 0
+End
+
+#774
+Name small vial bubbline purple liquid potion~
+Short a [1m[37mbubbling [1m[35mpurple [0m[37mpotion~
+Descr
+[0m[36mA small vial with a bright bubbling purple liquid in it lies here.[0m[37m
+[0;36m~
+Type 10
+Wear 16385
+Timer 60
+Values 11110 1 1 3 0 0 0 0 0 0 0
+Weight 4
+Cost 0
+End
+
+#800
+Name st Patricks Day T-Shirt~
+Short a Vomit-Stained [1m[32mSt. Patrick's Day[0m T-Shirt~
+Descr
+An extremely smelly t-shirt lies on the ground here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 9
+Weight 25
+Cost 0
+End
+
+#801
+Name turkey leg~
+Short a [31mT[33mu[31mr[33mk[31me[33my[0m leg~
+Descr
+[36mA[0m [31mT[33mu[31mr[33mk[31me[33my[0m [36mleg is on the ground making your mouth water.
+[0;36m~
+Type 3
+Wear 24577
+Values 100 2 2 139 0 0 0 0 0 0 0
+Weight 5
+Cost 0
+End
+
+#802
+Name turkey drumstick drum~
+Short a [31mT[33mu[31mr[33mk[31me[33my[0m drumstick~
+Descr
+[36mA [31mT[33mu[31mr[33mk[31me[33my[0m [36mdrumstick is laying on the ground covered in ants.
+[0;36m~
+Type 19
+Wear 24577
+Values 50 0 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 0
+End
+
+#803
+Name exam final~
+Short a final~
+Descr
+An exam lays here on the ground...shoudn't you be studying?
+[0;36m~
+Type 2
+Wear 16385
+Values 100 136 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#804
+Name blue pill~
+Short the blue pill~
+Descr
+A pill is here half covered in dust.
+[0;36m~
+Type 13
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#805
+Name sike statue~
+Short a statue of Sike~
+Descr
+A statue to sike's battleground prowess is here.
+[0;36m~
+Type 5
+Extra 524291
+Wear 24577
+Values 0 0 0 5 0 0 0 1 1 0 0
+Weight 10
+Cost 0
+End
+
+#806
+Name choosing portal~
+Short the portal to the room of choosing~
+Descr
+A portal floats in mid air here.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 113 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#807
+Name head~
+Short [31mthe head of [1m[31mStructure[0m~
+Descr
+[31mThe head of [1m[31mStructure[0m[31m rests here.[0m
+[0;36m~
+Type 19
+Wear 17
+Timer 20
+Values 10 0 0 1 0 0 0 0 0 0 0
+Weight 5
+Cost 100
+End
+
+#808
+Name tonik doll~
+Short [1m[31mA "Tickle me Tonik" Doll[0m~
+Descr
+[1m[31mA "Tickle me Tonik" Doll[0m
+[0;36m~
+Type 13
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#809
+Name doll bern poo little~
+Short a "Little Bernie Poo-Poo" Doll~
+Descr
+A little Bernie Poo-Poo doll lies here on the ground!
+[0;36m~
+Type 13
+Extra 3
+Wear 24577
+Weight 2
+Cost 0
+End
+
+#810
+Name valor kung fuu grip action figure ~
+Short a [1m[32mVALOR k[0m[32mun[1m[30mg-f[1m[32mu[1m[30mu gr[0m[32mip [1m[30maction figure, [1m[31mguns sold separately!!! [0m~
+Descr
+A kung-fuu grip action figure lays here!
+[0;36m~
+Type 13
+Extra 33562755
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#811
+Name doll transexual~
+Short a "I get 100 warpoints if I find out who silencer is" Doll~
+Descr
+A silencer doll lieso n teh ground being lame!
+[0;36m~
+Type 13
+Extra 2
+Wear 24577
+Weight 0
+Cost 0
+End
+
+#812
+Name l337 H4X0R~
+Short a t-shirt saying, [1m"[31mI AM A L337 H4X0R![37m"[0m~
+Descr
+A t-shirt lies here, radiating L337.
+[0;36m~
+Type 9
+Wear 16393
+Values 1 3 3 2 0 0 0 0 0 0 0
+Weight 10
+Cost 0
+End
+
+#850
+Name wand protection~
+Short [0m[1mwand [0m[35mof [0m[1m[32mpro[0m[32mtectio[1mn[0m~
+Descr
+A powerful wand lies here.
+[0;36m~
+Type 3
+Extra 33554432
+Wear 16385
+Values 100 1 1 3 0 0 0 0 0 0 0
+Weight 20
+Cost 5000
+End
+
+#900
+Name war~
+Short a chalkboard~
+Descr
+A chalkboard waiting for you to write 5000 times I WILL NOT SAMESIDE PK is here.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#901
+Name pear prickly food~
+Short [0ma [1m[32mprickly [0m[32mpear[0m~
+Descr
+A prickly pear is on the ground rotting here.
+[0;36m~
+Type 19
+Wear 1
+Values 6 0 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 650
+End
+
+#0
+
+
+
+#ROOMDATA
+#1
+Name Limited Item Room~
+Descr
+Limited items are reset here, when you put one into the game, delete the
+reset. 
+~
+Flags2 4
+Flags 16384
+Sector 0
+Reset M 1 5 100
+Movemess
+(null)~
+End
+
+#2
+Name The God Room~
+Descr
+We sit in this room thinking happy thoughts most of the time. The rest of
+the time is spent picking on moronic mortals like Silencer and Splat. 
+~
+Flags2 4
+Flags 2113536
+Sector 0
+ExtraDescr altar alter~
+The altar is a bust of smack amazingly enough its mouth is moving.  It
+
+
+seems to be talking to a MOB that is standing beside it, and really seems to
+
+
+be enjoying its conversation.  
+
+
+~
+Movemess
+(null)~
+Door 0 0 0 169 0 0
+~
+~
+Door 1 0 0 5 0 0
+~
+~
+Door 3 0 0 1800 0 0
+~
+~
+Door 4 1 0 7 30 30
+~
+magical portal~
+Door 5 3 0 14 30 30
+~
+hatch~
+End
+
+#3
+Name When I Talk With ya ill Unfreeze ya~
+Descr
+~
+Flags 16384
+Sector 0
+End
+
+#4
+Name Bern's Temple of Solace~
+Descr
+~
+Flags 4
+Sector 0
+End
+
+#5
+Name Structure's Storage Closet~
+Descr
+This is where Structure lives when he is afk for hours and hours and
+hours.... 
+~
+Door 3 0 0 2 0 0
+~
+~
+End
+
+#6
+Name Flatline's Storage Closet~
+Descr
+~
+End
+
+#7
+Name The Garden of Forbidden Fruit~
+Descr
+You find yourself standing on a hunk of earth floating high above a blue
+ocean planet.  Somehow you can breath, and even feel a warm breeze blowing.
+There is obviously some very powerful magic at work here.  The land is flat,
+and covered with green lush grass.  All around the circular top of the land
+you see mighty trees growing.  They are fruit trees bearing fruit of all 
+the known lands.  In the center of the ring of trees you see a huge, old tree.
+While old, its leaves are deep green and its branches are full of a strange
+unknown fruit.  Runes of an unknown race are carved into the tree and the
+only word you can make out is H E X.
+~
+Flags2 6
+Flags 4
+Door 5 1 0 2 30 30
+~
+Portal to Reality~
+End
+
+#8
+Name Blahraque's Office~
+Descr
+~
+End
+
+#9
+Name A Builders Room~
+Descr
+~
+End
+
+#14
+Name Kizmets Room of MUD Destruction~
+Descr
+~
+Flags2 6
+Flags 4
+Door 0 0 0 15 0 0
+~
+~
+Door 1 3 0 16 30 30
+~
+door~
+Door 2 7 0 17 30 30
+~
+~
+Door 4 3 0 2 30 30
+~
+hatch~
+End
+
+#15
+Name Valor's Room of Choosing~
+Descr
+Choose your align by typing:
+DELETE CHARACTER FOREVER
+and press ENTER button
+ 
+A
+L
+S
+O
+ 
+this is a trick DO NOT DO IT!!!!
+ 
++++++++++++
+--> Havoc tells you 'what do u do on this mud, i sure hope not coding :)'
+~
+Flags 4100
+Door 2 7 0 14 60 60
+~
+~
+End
+
+#16
+Name Kizmets Liquor Storage Room~
+Descr
+~
+Flags 4
+Door 3 3 0 14 30 30
+~
+~
+End
+
+#17
+Name The Bar Bathroom~
+Descr
+ 
+Etched in the wall are the following phrases:
+ 
+ 
+        Luck was here  11/25/02
+ 
+                                             Kizmet Rulz TDX
+ 
+  For a good time call Tonik!
+ 
+ 
+                            Structure blows!
+ 
+ 
+ 
+~
+Door 0 3 0 14 30 30
+~
+~
+End
+
+#90
+Name Warrior Guild Spawn~
+Descr
+~
+Reset M 1000 1 100
+Door 0 0 0 17011 0 0
+~
+~
+Door 1 0 0 4257 0 0
+~
+~
+Door 2 0 0 10194 0 0
+~
+~
+Door 3 0 0 2588 0 0
+~
+~
+End
+
+#91
+Name Battlemaster Guild Spawn~
+Descr
+~
+Reset M 1001 1 100
+Door 0 0 0 2660 0 0
+~
+~
+Door 1 0 0 4262 0 0
+~
+~
+Door 2 0 0 10316 0 0
+~
+~
+Door 3 0 0 2319 0 0
+~
+~
+End
+
+#92
+Name Ranger Guild Spawn~
+Descr
+~
+Reset M 1002 1 100
+Door 0 0 0 5237 0 0
+~
+~
+Door 1 0 0 4750 0 0
+~
+~
+Door 2 0 0 10217 0 0
+~
+~
+Door 3 0 0 11092 0 0
+~
+~
+End
+
+#93
+Name Wizard Guild Spawn~
+Descr
+~
+Reset M 1003 1 100
+Door 0 0 0 10050 0 0
+~
+~
+Door 1 0 0 4742 0 0
+~
+~
+Door 2 0 0 10228 0 0
+~
+~
+Door 3 0 0 2365 0 0
+~
+~
+End
+
+#94
+Name Conjurer Guild Spawn~
+Descr
+~
+Reset M 1004 1 100
+Door 0 0 0 8819 0 0
+~
+~
+Door 1 0 0 4909 0 0
+~
+~
+Door 2 0 0 10717 0 0
+~
+~
+Door 3 0 0 2580 0 0
+~
+~
+End
+
+#95
+Name Tinker Guild Spawn~
+Descr
+~
+Reset M 1005 1 100
+Door 0 0 0 9146 0 0
+~
+~
+Door 1 0 0 4921 0 0
+~
+~
+Door 2 0 0 10723 0 0
+~
+~
+Door 3 0 0 31507 0 0
+~
+~
+End
+
+#96
+Name Thief Guild Spawn~
+Descr
+~
+Reset M 1006 1 100
+Door 0 0 0 8785 0 0
+~
+~
+Door 1 0 0 10502 0 0
+~
+~
+Door 2 0 0 10730 0 0
+~
+~
+Door 3 0 0 17334 0 0
+~
+~
+End
+
+#97
+Name Assassin Guild Spawn~
+Descr
+~
+Reset M 1007 1 100
+Door 0 0 0 16624 0 0
+~
+~
+Door 1 0 0 10540 0 0
+~
+~
+Door 2 0 0 10603 0 0
+~
+~
+Door 3 0 0 17608 0 0
+~
+~
+End
+
+#98
+Name Healer Guild Spawn~
+Descr
+~
+Reset M 1008 1 100
+Door 0 0 0 30910 0 0
+~
+~
+Door 1 0 0 33046 0 0
+~
+~
+Door 2 0 0 33028 0 0
+~
+~
+Door 3 0 0 14159 0 0
+~
+~
+End
+
+#99
+Name Mystic Guild Spawn~
+Descr
+~
+Reset M 1009 1 100
+Door 0 0 0 30999 0 0
+~
+~
+Door 1 0 0 10279 0 0
+~
+~
+Door 2 0 0 33021 0 0
+~
+~
+Door 3 0 0 14463 0 0
+~
+~
+End
+
+#100
+Name Between Life and Death~
+Descr
+You are in a distant reality between life and death. Your body tingles
+with strange energy as your body regenerates from previous battles. You seem
+to feel as if nothing can hurt you in this odd place.
+ 
+New Players Information
+------------------------------------------------------------
+If you need help learning the game look at the following commands:
+-= help newbie - help newbieone - help newbietwo =-
+-= help newbiethree - help newbiefour - help newbiecommands =-
+That should help you learn how the Lands of Chaos works...
+Type the words-> enter portal <- to begin to play!
+ 
+Luck
+~
+Flags 4102
+Sector 0
+Reset O 770 -5 100
+Movemess
+(null)~
+End
+
+#101
+Name Between Life and Death~
+Descr
+You float between life and death, somewhere beyond time and space,
+guarded by one of the most powerful beings in existance. The guardian merely
+awaits you saying that you are ready, and he will return you to the physical
+realm. 
+~
+Flags 16388
+Sector 0
+Reset M 101 1 100
+Door 0 0 0 101 0 0
+~
+~
+Door 1 0 0 101 0 0
+~
+~
+Door 2 0 0 101 0 0
+~
+~
+Door 3 0 0 101 0 0
+~
+~
+Door 4 0 0 101 0 0
+~
+~
+Door 5 0 0 101 0 0
+~
+~
+End
+
+#102
+Name Between Life and Death~
+Descr
+You float between life and death, somewhere beyond time and space,
+guarded by one of the most powerful beings in existance. The guardian merely
+awaits you saying that you are ready, and he will return you to the physical
+realm. 
+~
+Flags 16388
+Sector 0
+Reset M 101 1 100
+Door 0 0 0 102 0 0
+~
+~
+Door 1 0 0 102 0 0
+~
+~
+Door 2 0 0 102 0 0
+~
+~
+Door 3 0 0 102 0 0
+~
+~
+Door 4 0 0 102 0 0
+~
+~
+Door 5 0 0 102 0 0
+~
+~
+End
+
+#103
+Name Between Life and Death~
+Descr
+You float between life and death, somewhere beyond time and space,
+guarded by one of the most powerful beings in existance. The guardian merely
+awaits you saying that you are ready, and he will return you to the physical
+realm. 
+~
+Flags 16388
+Sector 0
+Reset O 96 -5 100
+Reset O 3 -5 100
+Reset M 101 1 100
+Door 0 0 0 103 0 0
+~
+~
+Door 1 0 0 103 0 0
+~
+~
+Door 2 0 0 103 0 0
+~
+~
+Door 3 0 0 103 0 0
+~
+~
+Door 4 0 0 103 0 0
+~
+~
+Door 5 0 0 103 0 0
+~
+~
+End
+
+#109
+Name Ascension's Climax~
+Descr
+Massive energies coalesce and collide here, causing waves of disturbance
+along a broad spectrum of possibilities. Multiple universes collide at this
+point each one along a different probability chain, this point is all points
+and none, all of space and time and dimension intersecting, overlapping,
+converging at this one point. You are at the center of the universe, torn
+between all, being torn apart and fused together. 
+~
+Flags2 4
+Flags 4116
+Sector 36
+Door 1 0 0 16661 0 0
+~
+~
+End
+
+#110
+Name Remort Room~
+Descr
+You have arrived at the remort room. Type remort remort to proceed with
+the process. If you are hiding here from pk, leave. If you are attacking
+someone in here, stop and leave. 
+~
+Flags 4100
+Sector 0
+Door 4 0 0 10779 0 0
+~
+~
+End
+
+#111
+Name Room of Augmentation~
+Descr
+~
+Sector 0
+End
+
+#112
+Name The Room of Transforming~
+Descr
+Don't attack anyone in here. Just don't.
+~
+Sector 0
+End
+
+#113
+Name The Choosing Room~
+Descr
+This is the room of choosing. Right now you are a protected alignment,
+you cannot be attacked by anyone or anything except mobs and creatures of
+the world. If you decide to go whitie or darkie you will be attacked by the
+opposite sides and can die by them. To go darkie type Choose 1, to go whitie
+type Choose 2. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 65041 0 0
+~
+~
+End
+
+#114
+Name The Note Room~
+Descr
+You stand in the middle of a small office. IOn the center of the room is
+a large board awaiting your notes. If You need to post a note do it here, if
+you want it to reach a certain player please post it to that person, or if
+you want iot to the gods type to immortal. 
+Please read help note!
+~
+Flags 4
+Sector 0
+Reset O 3 -5 100
+Door 3 0 0 100 0 0
+~
+~
+End
+
+#115
+Name Please Read the Description Here~
+Descr
+Welcome to the Lands of Chaos, right now you are considered a protected
+alignment. You can roam the entire map freely without worrying about getting
+attacked. You can exp, play and explore freely like a normal alignment, the
+only exception is no other players can attack you except your own alignment.
+You are allowed up to 4 remorts, after that you may choose which alignment
+you want. You can choose which alignment you want to be on at any time, but
+the max remorts you are allowd to do before you choose is 4, you can be on
+your 4th remort ready for your 5th, then you have to choose. Enjoy the mud,
+get your rangers guild so you can have overhead mapping, learn the mud, get
+big and powerful, then join the real pkilling experiences. 
+~
+Door 2 0 0 100 0 0
+~
+~
+End
+
+#169
+Name Luck's Little Library~
+Descr
+This old and musty room makes you cough uncontrollably as you enter. It
+seems that Luck's work has made enormous piles around an old and tarnished
+oak desk. You really wonder if Luck has touched any of these ancient items
+in ages. You meander around piles of books and manuscripts trying carefully
+not to let him know you've been here. 
+ 
+Kizmet was here!
+ 
+~
+Flags2 4
+Flags 6
+Sector 0
+ExtraDescr Uh.. Luck does stuff here when he feels compelled too.~
+Uh.. Luck does stuff here when he feels compelled too.
+
+~
+Door 2 23 0 2 80 80
+~
+~
+End
+
+#504
+Name The Arena~
+Descr
+You stand in a medium-sized arena.  Blood stains cover the sandy floor
+and high walls, and you realize you can't leave until someone adds to the
+chunks of flesh on the ground.  
+~
+Flags2 4
+Flags 16388
+Sector 0
+Movemess
+(null)~
+Door 1 0 0 505 30 30
+~
+(null)~
+Door 2 0 0 507 30 30
+~
+(null)~
+End
+
+#505
+Name The Arena~
+Descr
+You stand in a medium-sized arena.  Blood stains cover the sandy floor
+and high walls, and you realize you can't leave until someone adds to the
+chunks of flesh on the ground.  
+~
+Flags2 4
+Flags 16388
+Sector 0
+Movemess
+(null)~
+Door 2 0 0 506 30 30
+~
+(null)~
+Door 3 0 0 504 30 30
+~
+(null)~
+End
+
+#506
+Name The Arena~
+Descr
+You stand in a medium-sized arena.  Blood stains cover the sandy floor
+and high walls, and you realize you can't leave until someone adds to the
+chunks of flesh on the ground.  
+~
+Flags2 4
+Flags 16388
+Sector 0
+Movemess
+(null)~
+Door 0 0 0 505 30 30
+~
+(null)~
+Door 3 0 0 507 30 30
+~
+(null)~
+End
+
+#507
+Name The Arena~
+Descr
+You stand in a medium-sized arena.  Blood stains cover the sandy floor
+and high walls, and you realize you can't leave until someone adds to the
+chunks of flesh on the ground.  
+~
+Flags2 4
+Flags 16388
+Sector 0
+Movemess
+(null)~
+Door 0 0 0 504 30 30
+~
+(null)~
+Door 1 0 0 506 30 30
+~
+(null)~
+End
+
+#508
+Name Waiting Room One~
+Descr
+NOTE: If you get spells cast on you while in the arena, you will still
+have them in effect after the battle is over.
+~
+Flags2 4
+Movemess
+(null)~
+End
+
+#509
+Name Waiting Room Two~
+Descr
+NOTE: If you get spells cast on you while in the arena, you will still
+have them in effect after the battle is over.
+~
+Flags2 4
+Movemess
+(null)~
+End
+
+#600
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Movemess
+(null)~
+Door 1 0 0 601 30 30
+~
+door~
+Door 3 0 0 607 30 30
+~
+door~
+End
+
+#601
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Movemess
+(null)~
+Door 0 0 0 602 30 30
+~
+door~
+Door 2 0 0 603 30 30
+~
+door~
+Door 3 0 0 600 30 30
+~
+(null)~
+Door 5 0 0 620 0 0
+~
+~
+End
+
+#602
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 604 30 30
+~
+door~
+Door 1 0 0 605 30 30
+~
+door~
+Door 2 0 0 601 30 30
+~
+door~
+End
+
+#603
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 601 30 30
+~
+door~
+Door 1 0 0 613 30 30
+~
+door~
+End
+
+#604
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 1 0 0 606 30 30
+~
+door~
+Door 2 0 0 602 30 30
+~
+door~
+End
+
+#605
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 606 30 30
+~
+door~
+Door 3 0 0 602 30 30
+~
+door~
+End
+
+#606
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 618 30 30
+~
+door~
+Door 2 0 0 605 30 30
+~
+door~
+Door 3 0 0 604 30 30
+~
+door~
+End
+
+#607
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 608 30 30
+~
+door~
+Door 1 0 0 600 30 30
+~
+door~
+Door 2 0 0 612 30 30
+~
+door~
+Door 3 0 0 610 30 30
+~
+door~
+End
+
+#608
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 2 0 0 607 30 30
+~
+door~
+Door 3 0 0 609 30 30
+~
+door~
+End
+
+#609
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 1 0 0 608 30 30
+~
+door~
+Door 2 0 0 610 30 30
+~
+door~
+End
+
+#610
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 609 30 30
+~
+door~
+Door 1 0 0 607 30 30
+~
+door~
+Door 2 0 0 611 30 30
+~
+door~
+Door 5 0 0 634 0 0
+~
+~
+End
+
+#611
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 610 30 30
+~
+door~
+Door 1 0 0 612 30 30
+~
+door~
+End
+
+#612
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 607 30 30
+~
+door~
+Door 3 0 0 611 30 30
+~
+door~
+End
+
+#613
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 2 0 0 614 30 30
+~
+door~
+Door 3 0 0 603 30 30
+~
+door~
+End
+
+#614
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 613 30 30
+~
+door~
+Door 1 0 0 615 30 30
+~
+door~
+Door 2 0 0 617 30 30
+~
+door~
+End
+
+#615
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 2 0 0 616 30 30
+~
+door~
+Door 3 0 0 614 30 30
+~
+door~
+End
+
+#616
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 615 30 30
+~
+door~
+Door 3 0 0 617 30 30
+~
+door~
+Door 5 0 0 631 0 0
+~
+~
+End
+
+#617
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 614 30 30
+~
+door~
+Door 1 0 0 616 30 30
+~
+door~
+End
+
+#618
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 619 30 30
+~
+door~
+Door 2 0 0 606 30 30
+~
+door~
+End
+
+#619
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 2 0 0 618 0 0
+~
+~
+Door 5 0 0 637 0 0
+~
+~
+End
+
+#620
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 621 0 0
+~
+~
+Door 1 0 0 622 0 0
+~
+~
+Door 2 0 0 627 0 0
+~
+~
+Door 3 0 0 625 0 0
+~
+~
+Door 4 0 0 601 0 0
+~
+~
+End
+
+#621
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 1 0 0 623 0 0
+~
+~
+Door 2 0 0 620 0 0
+~
+~
+Door 3 0 0 624 0 0
+~
+~
+End
+
+#622
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 623 0 0
+~
+~
+Door 2 0 0 628 0 0
+~
+~
+Door 3 0 0 620 0 0
+~
+~
+End
+
+#623
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 635 0 0
+~
+~
+Door 2 0 0 622 0 0
+~
+~
+Door 3 0 0 621 0 0
+~
+~
+End
+
+#624
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 1 0 0 621 0 0
+~
+~
+Door 2 0 0 625 0 0
+~
+~
+End
+
+#625
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 624 0 0
+~
+~
+Door 1 0 0 620 0 0
+~
+~
+Door 2 0 0 626 0 0
+~
+~
+Door 3 0 0 633 0 0
+~
+~
+End
+
+#626
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 625 0 0
+~
+~
+Door 1 0 0 627 0 0
+~
+~
+End
+
+#627
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 620 0 0
+~
+~
+Door 1 0 0 628 0 0
+~
+~
+Door 3 0 0 626 0 0
+~
+~
+End
+
+#628
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 622 0 0
+~
+~
+Door 2 0 0 629 0 0
+~
+~
+Door 3 0 0 627 0 0
+~
+~
+End
+
+#629
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 628 0 0
+~
+~
+Door 1 0 0 630 0 0
+~
+~
+Door 2 0 0 632 0 0
+~
+~
+End
+
+#630
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 2 0 0 631 0 0
+~
+~
+Door 3 0 0 629 0 0
+~
+~
+End
+
+#631
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 630 0 0
+~
+~
+Door 3 0 0 632 0 0
+~
+~
+Door 4 0 0 616 0 0
+~
+~
+End
+
+#632
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 629 0 0
+~
+~
+Door 1 0 0 631 0 0
+~
+~
+End
+
+#633
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 1 0 0 625 0 0
+~
+~
+Door 3 0 0 634 0 0
+~
+~
+End
+
+#634
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 640 0 0
+~
+~
+Door 1 0 0 633 0 0
+~
+~
+Door 3 0 0 648 0 0
+~
+~
+Door 4 0 0 610 0 0
+~
+~
+End
+
+#635
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 636 0 0
+~
+~
+Door 1 0 0 638 0 0
+~
+~
+Door 2 0 0 623 0 0
+~
+~
+End
+
+#636
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 637 0 0
+~
+~
+Door 1 0 0 639 0 0
+~
+~
+Door 2 0 0 635 0 0
+~
+~
+End
+
+#637
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 2 0 0 636 0 0
+~
+~
+Door 3 0 0 646 0 0
+~
+~
+Door 4 0 0 619 0 0
+~
+~
+End
+
+#638
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 639 0 0
+~
+~
+Door 3 0 0 635 0 0
+~
+~
+End
+
+#639
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 2 0 0 638 0 0
+~
+~
+Door 3 0 0 636 0 0
+~
+~
+End
+
+#640
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 641 0 0
+~
+~
+Door 2 0 0 634 0 0
+~
+~
+Door 3 0 0 649 0 0
+~
+~
+End
+
+#641
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 642 0 0
+~
+~
+Door 2 0 0 640 0 0
+~
+~
+End
+
+#642
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 643 0 0
+~
+~
+Door 1 0 0 647 0 0
+~
+~
+Door 2 0 0 641 0 0
+~
+~
+End
+
+#643
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 1 0 0 644 0 0
+~
+~
+Door 2 0 0 642 0 0
+~
+~
+End
+
+#644
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 1 0 0 645 0 0
+~
+~
+Door 2 0 0 647 0 0
+~
+~
+Door 3 0 0 643 0 0
+~
+~
+End
+
+#645
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 1 0 0 646 0 0
+~
+~
+Door 3 0 0 644 0 0
+~
+~
+End
+
+#646
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 1 0 0 637 0 0
+~
+~
+Door 3 0 0 645 0 0
+~
+~
+End
+
+#647
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 644 0 0
+~
+~
+Door 3 0 0 642 0 0
+~
+~
+End
+
+#648
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 0 0 0 649 0 0
+~
+~
+Door 1 0 0 634 0 0
+~
+~
+End
+
+#649
+Name The Battleground~
+Descr
+You stand in a large zone designed for free-for-all battles.  The air is
+damp, and the ground is slippery with dark red blood.  The horrible smell of
+slashed intestines and rotting flesh makes you sick, and only the thought
+that death is inconsequential here brings you any comfort.  
+~
+Flags 16
+Shd 1
+Sector 4
+Door 1 0 0 640 0 0
+~
+~
+Door 2 0 0 648 0 0
+~
+~
+End
+
+#650
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 692 0 0
+~
+~
+Door 1 0 0 651 0 0
+~
+~
+Door 2 0 0 663 0 0
+~
+~
+Door 3 0 0 656 0 0
+~
+~
+End
+
+#651
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 693 0 0
+~
+~
+Door 1 0 0 652 0 0
+~
+~
+Door 2 0 0 662 0 0
+~
+~
+Door 3 0 0 650 0 0
+~
+~
+End
+
+#652
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 694 0 0
+~
+~
+Door 1 0 0 653 0 0
+~
+~
+Door 2 0 0 661 0 0
+~
+~
+Door 3 0 0 651 0 0
+~
+~
+End
+
+#653
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 1 0 0 654 0 0
+~
+~
+Door 2 0 0 660 0 0
+~
+~
+Door 3 0 0 652 0 0
+~
+~
+End
+
+#654
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 695 0 0
+~
+~
+Door 1 0 0 655 0 0
+~
+~
+Door 2 0 0 659 0 0
+~
+~
+Door 3 0 0 653 0 0
+~
+~
+End
+
+#655
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 696 0 0
+~
+~
+Door 1 0 0 656 0 0
+~
+~
+Door 2 0 0 658 0 0
+~
+~
+Door 3 0 0 654 0 0
+~
+~
+End
+
+#656
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 697 0 0
+~
+~
+Door 1 0 0 650 0 0
+~
+~
+Door 2 0 0 657 0 0
+~
+~
+Door 3 0 0 655 0 0
+~
+~
+End
+
+#657
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 656 0 0
+~
+~
+Door 1 0 0 663 0 0
+~
+~
+Door 2 0 0 670 0 0
+~
+~
+Door 3 0 0 658 0 0
+~
+~
+End
+
+#658
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 655 0 0
+~
+~
+Door 1 0 0 657 0 0
+~
+~
+Door 2 0 0 669 0 0
+~
+~
+Door 3 0 0 659 0 0
+~
+~
+End
+
+#659
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 654 0 0
+~
+~
+Door 1 0 0 658 0 0
+~
+~
+Door 2 0 0 668 0 0
+~
+~
+Door 3 0 0 660 0 0
+~
+~
+End
+
+#660
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 653 0 0
+~
+~
+Door 1 0 0 659 0 0
+~
+~
+Door 2 0 0 667 0 0
+~
+~
+Door 3 0 0 661 0 0
+~
+~
+End
+
+#661
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 652 0 0
+~
+~
+Door 1 0 0 660 0 0
+~
+~
+Door 2 0 0 666 0 0
+~
+~
+Door 3 0 0 662 0 0
+~
+~
+End
+
+#662
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 651 0 0
+~
+~
+Door 1 0 0 661 0 0
+~
+~
+Door 2 0 0 665 0 0
+~
+~
+Door 3 0 0 663 0 0
+~
+~
+End
+
+#663
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 650 0 0
+~
+~
+Door 1 0 0 662 0 0
+~
+~
+Door 2 0 0 664 0 0
+~
+~
+Door 3 0 0 657 0 0
+~
+~
+End
+
+#664
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 663 0 0
+~
+~
+Door 1 0 0 665 0 0
+~
+~
+Door 2 0 0 671 0 0
+~
+~
+Door 3 0 0 670 0 0
+~
+~
+End
+
+#665
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 662 0 0
+~
+~
+Door 1 0 0 666 0 0
+~
+~
+Door 2 0 0 672 0 0
+~
+~
+Door 3 0 0 664 0 0
+~
+~
+End
+
+#666
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 661 0 0
+~
+~
+Door 1 0 0 667 0 0
+~
+~
+Door 2 0 0 673 0 0
+~
+~
+Door 3 0 0 665 0 0
+~
+~
+End
+
+#667
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 660 0 0
+~
+~
+Door 1 0 0 668 0 0
+~
+~
+Door 2 0 0 674 0 0
+~
+~
+Door 3 0 0 666 0 0
+~
+~
+End
+
+#668
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 659 0 0
+~
+~
+Door 1 0 0 669 0 0
+~
+~
+Door 2 0 0 675 0 0
+~
+~
+Door 3 0 0 667 0 0
+~
+~
+End
+
+#669
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 658 0 0
+~
+~
+Door 1 0 0 670 0 0
+~
+~
+Door 2 0 0 676 0 0
+~
+~
+Door 3 0 0 668 0 0
+~
+~
+End
+
+#670
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 657 0 0
+~
+~
+Door 1 0 0 664 0 0
+~
+~
+Door 2 0 0 677 0 0
+~
+~
+Door 3 0 0 669 0 0
+~
+~
+End
+
+#671
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 664 0 0
+~
+~
+Door 1 0 0 672 0 0
+~
+~
+Door 2 0 0 678 0 0
+~
+~
+Door 3 0 0 677 0 0
+~
+~
+End
+
+#672
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 665 0 0
+~
+~
+Door 1 0 0 673 0 0
+~
+~
+Door 2 0 0 679 0 0
+~
+~
+Door 3 0 0 671 0 0
+~
+~
+End
+
+#673
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 666 0 0
+~
+~
+Door 1 0 0 674 0 0
+~
+~
+Door 2 0 0 680 0 0
+~
+~
+Door 3 0 0 672 0 0
+~
+~
+End
+
+#674
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 667 0 0
+~
+~
+Door 1 0 0 675 0 0
+~
+~
+Door 2 0 0 681 0 0
+~
+~
+Door 3 0 0 673 0 0
+~
+~
+Door 4 0 0 699 0 0
+~
+~
+End
+
+#675
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 668 0 0
+~
+~
+Door 1 0 0 676 0 0
+~
+~
+Door 2 0 0 682 0 0
+~
+~
+Door 3 0 0 674 0 0
+~
+~
+End
+
+#676
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 669 0 0
+~
+~
+Door 1 0 0 677 0 0
+~
+~
+Door 2 0 0 683 0 0
+~
+~
+Door 3 0 0 675 0 0
+~
+~
+End
+
+#677
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 670 0 0
+~
+~
+Door 1 0 0 671 0 0
+~
+~
+Door 2 0 0 684 0 0
+~
+~
+Door 3 0 0 676 0 0
+~
+~
+End
+
+#678
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 671 0 0
+~
+~
+Door 1 0 0 679 0 0
+~
+~
+Door 2 0 0 691 0 0
+~
+~
+Door 3 0 0 684 0 0
+~
+~
+End
+
+#679
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 672 0 0
+~
+~
+Door 1 0 0 680 0 0
+~
+~
+Door 2 0 0 690 0 0
+~
+~
+Door 3 0 0 678 0 0
+~
+~
+End
+
+#680
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 673 0 0
+~
+~
+Door 1 0 0 681 0 0
+~
+~
+Door 2 0 0 689 0 0
+~
+~
+Door 3 0 0 679 0 0
+~
+~
+End
+
+#681
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 674 0 0
+~
+~
+Door 1 0 0 682 0 0
+~
+~
+Door 2 0 0 688 0 0
+~
+~
+Door 3 0 0 680 0 0
+~
+~
+End
+
+#682
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 675 0 0
+~
+~
+Door 1 0 0 683 0 0
+~
+~
+Door 2 0 0 687 0 0
+~
+~
+Door 3 0 0 681 0 0
+~
+~
+End
+
+#683
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 676 0 0
+~
+~
+Door 1 0 0 684 0 0
+~
+~
+Door 2 0 0 686 0 0
+~
+~
+Door 3 0 0 682 0 0
+~
+~
+End
+
+#684
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 677 0 0
+~
+~
+Door 1 0 0 678 0 0
+~
+~
+Door 2 0 0 685 0 0
+~
+~
+Door 3 0 0 683 0 0
+~
+~
+End
+
+#685
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 684 0 0
+~
+~
+Door 1 0 0 691 0 0
+~
+~
+Door 2 0 0 698 0 0
+~
+~
+Door 3 0 0 686 0 0
+~
+~
+End
+
+#686
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 683 0 0
+~
+~
+Door 1 0 0 685 0 0
+~
+~
+Door 2 0 0 697 0 0
+~
+~
+Door 3 0 0 687 0 0
+~
+~
+End
+
+#687
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 682 0 0
+~
+~
+Door 1 0 0 686 0 0
+~
+~
+Door 2 0 0 696 0 0
+~
+~
+Door 3 0 0 688 0 0
+~
+~
+End
+
+#688
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 681 0 0
+~
+~
+Door 1 0 0 687 0 0
+~
+~
+Door 2 0 0 695 0 0
+~
+~
+Door 3 0 0 689 0 0
+~
+~
+End
+
+#689
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 680 0 0
+~
+~
+Door 1 0 0 688 0 0
+~
+~
+Door 2 0 0 694 0 0
+~
+~
+Door 3 0 0 690 0 0
+~
+~
+End
+
+#690
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 679 0 0
+~
+~
+Door 1 0 0 689 0 0
+~
+~
+Door 2 0 0 693 0 0
+~
+~
+Door 3 0 0 691 0 0
+~
+~
+End
+
+#691
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 678 0 0
+~
+~
+Door 1 0 0 690 0 0
+~
+~
+Door 2 0 0 692 0 0
+~
+~
+Door 3 0 0 685 0 0
+~
+~
+End
+
+#692
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 691 0 0
+~
+~
+Door 1 0 0 693 0 0
+~
+~
+Door 2 0 0 650 0 0
+~
+~
+Door 3 0 0 698 0 0
+~
+~
+End
+
+#693
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 690 0 0
+~
+~
+Door 1 0 0 694 0 0
+~
+~
+Door 2 0 0 651 0 0
+~
+~
+Door 3 0 0 692 0 0
+~
+~
+End
+
+#694
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 689 0 0
+~
+~
+Door 1 0 0 695 0 0
+~
+~
+Door 2 0 0 652 0 0
+~
+~
+Door 3 0 0 693 0 0
+~
+~
+End
+
+#695
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 688 0 0
+~
+~
+Door 1 0 0 696 0 0
+~
+~
+Door 2 0 0 654 0 0
+~
+~
+Door 3 0 0 694 0 0
+~
+~
+End
+
+#696
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 687 0 0
+~
+~
+Door 1 0 0 697 0 0
+~
+~
+Door 2 0 0 655 0 0
+~
+~
+Door 3 0 0 695 0 0
+~
+~
+End
+
+#697
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 686 0 0
+~
+~
+Door 1 0 0 698 0 0
+~
+~
+Door 2 0 0 656 0 0
+~
+~
+Door 3 0 0 696 0 0
+~
+~
+End
+
+#698
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 0 0 0 685 0 0
+~
+~
+Door 1 0 0 692 0 0
+~
+~
+Door 3 0 0 697 0 0
+~
+~
+End
+
+#699
+Name An Endless Field of Battle~
+Descr
+An endless bloody plain stretches out before you. Your feet squish
+through blood and entrails, everywhere, in every direction there is nothing
+but carnage. Fortunately this a battleground, and death isn't quite fatal
+here, still the effects seem to appear rather realistic. 
+~
+Sector 7
+Door 5 0 0 674 0 0
+~
+~
+End
+
+#700
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 701 0 0
+~
+~
+Door 3 0 0 709 0 0
+~
+~
+End
+
+#701
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 702 0 0
+~
+~
+Door 2 0 0 700 0 0
+~
+~
+Door 3 0 0 708 0 0
+~
+~
+End
+
+#702
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 703 0 0
+~
+~
+Door 1 0 0 735 0 0
+~
+~
+Door 2 0 0 701 0 0
+~
+~
+Door 3 0 0 707 0 0
+~
+~
+End
+
+#703
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 704 0 0
+~
+~
+Door 2 0 0 702 0 0
+~
+~
+Door 3 0 0 706 0 0
+~
+~
+End
+
+#704
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 2 0 0 703 0 0
+~
+~
+Door 3 0 0 705 0 0
+~
+~
+End
+
+#705
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 1 0 0 704 0 0
+~
+~
+Door 2 0 0 706 0 0
+~
+~
+Door 3 0 0 714 0 0
+~
+~
+End
+
+#706
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 705 0 0
+~
+~
+Door 1 0 0 703 0 0
+~
+~
+Door 2 0 0 707 0 0
+~
+~
+Door 3 0 0 713 0 0
+~
+~
+End
+
+#707
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 706 0 0
+~
+~
+Door 1 0 0 702 0 0
+~
+~
+Door 2 0 0 708 0 0
+~
+~
+Door 3 0 0 712 0 0
+~
+~
+End
+
+#708
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 707 0 0
+~
+~
+Door 1 0 0 701 0 0
+~
+~
+Door 2 0 0 709 0 0
+~
+~
+Door 3 0 0 710 0 0
+~
+~
+End
+
+#709
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 708 0 0
+~
+~
+Door 1 0 0 700 0 0
+~
+~
+Door 3 0 0 711 0 0
+~
+~
+End
+
+#710
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 712 0 0
+~
+~
+Door 1 0 0 708 0 0
+~
+~
+Door 2 0 0 711 0 0
+~
+~
+Door 3 0 0 718 0 0
+~
+~
+End
+
+#711
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 710 0 0
+~
+~
+Door 1 0 0 709 0 0
+~
+~
+Door 3 0 0 719 0 0
+~
+~
+End
+
+#712
+Name The Center of the Battleground~
+Descr
+~
+Flags2 6
+Flags 16
+Sector 34
+Door 0 0 0 713 0 0
+~
+~
+Door 1 0 0 707 0 0
+~
+~
+Door 2 0 0 710 0 0
+~
+~
+Door 3 0 0 717 0 0
+~
+~
+Door 5 3 0 745 30 30
+~
+~
+End
+
+#713
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 714 0 0
+~
+~
+Door 1 0 0 706 0 0
+~
+~
+Door 2 0 0 712 0 0
+~
+~
+Door 3 0 0 716 0 0
+~
+~
+End
+
+#714
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 1 0 0 705 0 0
+~
+~
+Door 2 0 0 713 0 0
+~
+~
+Door 3 0 0 715 0 0
+~
+~
+End
+
+#715
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 1 0 0 714 0 0
+~
+~
+Door 2 0 0 716 0 0
+~
+~
+Door 3 0 0 724 0 0
+~
+~
+End
+
+#716
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 715 0 0
+~
+~
+Door 1 0 0 713 0 0
+~
+~
+Door 2 0 0 717 0 0
+~
+~
+Door 3 0 0 723 0 0
+~
+~
+End
+
+#717
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 716 0 0
+~
+~
+Door 1 0 0 712 0 0
+~
+~
+Door 2 0 0 718 0 0
+~
+~
+Door 3 0 0 722 0 0
+~
+~
+End
+
+#718
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 717 0 0
+~
+~
+Door 1 0 0 710 0 0
+~
+~
+Door 2 0 0 719 0 0
+~
+~
+Door 3 0 0 721 0 0
+~
+~
+End
+
+#719
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 718 0 0
+~
+~
+Door 1 0 0 711 0 0
+~
+~
+Door 3 0 0 720 0 0
+~
+~
+End
+
+#720
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 721 0 0
+~
+~
+Door 1 0 0 719 0 0
+~
+~
+End
+
+#721
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 722 0 0
+~
+~
+Door 1 0 0 718 0 0
+~
+~
+Door 2 0 0 720 0 0
+~
+~
+End
+
+#722
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 723 0 0
+~
+~
+Door 1 0 0 717 0 0
+~
+~
+Door 2 0 0 721 0 0
+~
+~
+Door 3 0 0 725 0 0
+~
+~
+End
+
+#723
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 0 0 0 724 0 0
+~
+~
+Door 1 0 0 716 0 0
+~
+~
+Door 2 0 0 722 0 0
+~
+~
+End
+
+#724
+Name The Battleground~
+Descr
+~
+Sector 27
+Door 1 0 0 715 0 0
+~
+~
+Door 2 0 0 723 0 0
+~
+~
+End
+
+#725
+Name The Battleground~
+Descr
+~
+Reset M 725 1 100
+Reset M 725 1 100
+Reset M 725 1 100
+Door 1 0 0 722 0 0
+~
+~
+Door 3 0 0 726 0 0
+~
+~
+End
+
+#726
+Name The Battleground~
+Descr
+~
+Door 0 0 0 727 0 0
+~
+~
+Door 1 0 0 725 0 0
+~
+~
+Door 2 0 0 728 0 0
+~
+~
+Door 3 0 0 729 0 0
+~
+~
+End
+
+#727
+Name The Battleground~
+Descr
+~
+Door 2 0 0 726 0 0
+~
+~
+Door 3 0 0 730 0 0
+~
+~
+End
+
+#728
+Name The Battleground~
+Descr
+~
+Door 0 0 0 726 0 0
+~
+~
+Door 3 0 0 731 0 0
+~
+~
+End
+
+#729
+Name The Western Center Outpost~
+Descr
+~
+Flags2 6
+Flags 16
+Sector 34
+Door 0 0 0 730 0 0
+~
+~
+Door 1 0 0 726 0 0
+~
+~
+Door 2 0 0 731 0 0
+~
+~
+Door 3 0 0 732 0 0
+~
+~
+End
+
+#730
+Name The Battleground~
+Descr
+~
+Door 1 0 0 727 0 0
+~
+~
+Door 2 0 0 729 0 0
+~
+~
+Door 3 0 0 734 0 0
+~
+~
+End
+
+#731
+Name The Battleground~
+Descr
+~
+Door 0 0 0 729 0 0
+~
+~
+Door 1 0 0 728 0 0
+~
+~
+Door 3 0 0 733 0 0
+~
+~
+End
+
+#732
+Name The Battleground~
+Descr
+~
+Door 0 0 0 734 0 0
+~
+~
+Door 1 0 0 729 0 0
+~
+~
+Door 2 0 0 733 0 0
+~
+~
+End
+
+#733
+Name The Battleground~
+Descr
+~
+Door 0 0 0 732 0 0
+~
+~
+Door 1 0 0 731 0 0
+~
+~
+End
+
+#734
+Name The Battleground~
+Descr
+~
+Door 1 0 0 730 0 0
+~
+~
+Door 2 0 0 732 0 0
+~
+~
+End
+
+#735
+Name The Battleground~
+Descr
+~
+Reset M 735 1 100
+Reset M 735 1 100
+Reset M 735 1 100
+Door 1 0 0 736 0 0
+~
+~
+Door 3 0 0 702 0 0
+~
+~
+End
+
+#736
+Name The Battleground~
+Descr
+~
+Door 0 0 0 737 0 0
+~
+~
+Door 1 0 0 739 0 0
+~
+~
+Door 2 0 0 738 0 0
+~
+~
+Door 3 0 0 735 0 0
+~
+~
+End
+
+#737
+Name The Battleground~
+Descr
+~
+Door 1 0 0 740 0 0
+~
+~
+Door 2 0 0 736 0 0
+~
+~
+End
+
+#738
+Name The Battleground~
+Descr
+~
+Door 0 0 0 736 0 0
+~
+~
+Door 1 0 0 741 0 0
+~
+~
+End
+
+#739
+Name The Eastern Center Outpost~
+Descr
+~
+Flags2 6
+Flags 16
+Sector 34
+Door 0 0 0 740 0 0
+~
+~
+Door 1 0 0 742 0 0
+~
+~
+Door 2 0 0 741 0 0
+~
+~
+Door 3 0 0 736 0 0
+~
+~
+End
+
+#740
+Name The Battleground~
+Descr
+~
+Door 1 0 0 744 0 0
+~
+~
+Door 2 0 0 739 0 0
+~
+~
+Door 3 0 0 737 0 0
+~
+~
+End
+
+#741
+Name The Battleground~
+Descr
+~
+Door 0 0 0 739 0 0
+~
+~
+Door 1 0 0 743 0 0
+~
+~
+Door 3 0 0 738 0 0
+~
+~
+End
+
+#742
+Name The Battleground~
+Descr
+~
+Door 0 0 0 744 0 0
+~
+~
+Door 2 0 0 743 0 0
+~
+~
+Door 3 0 0 739 0 0
+~
+~
+End
+
+#743
+Name The Battleground~
+Descr
+~
+Door 0 0 0 742 0 0
+~
+~
+Door 3 0 0 741 0 0
+~
+~
+End
+
+#744
+Name The Battleground~
+Descr
+~
+Door 2 0 0 742 0 0
+~
+~
+Door 3 0 0 740 0 0
+~
+~
+End
+
+#745
+Name The Battleground~
+Descr
+~
+Door 0 0 0 747 0 0
+~
+~
+Door 1 3 0 749 30 30
+~
+~
+Door 2 3 0 746 30 30
+~
+~
+Door 3 3 0 748 30 30
+~
+~
+Door 4 1 0 712 30 30
+~
+~
+End
+
+#746
+Name The Battleground~
+Descr
+~
+Door 0 3 0 745 30 30
+~
+~
+End
+
+#747
+Name The Battleground~
+Descr
+~
+Door 2 0 0 745 0 0
+~
+~
+End
+
+#748
+Name The Battleground~
+Descr
+~
+Door 1 3 0 745 30 30
+~
+~
+End
+
+#749
+Name The Battleground~
+Descr
+~
+Door 3 3 0 745 30 30
+~
+~
+End
+
+#750
+Name Start of Battlefield 4~
+Descr
+~
+End
+
+#800
+Name Start of Battlefield 5~
+Descr
+~
+End
+
+#850
+Name Start of Battlefield 6~
+Descr
+~
+End
+
+#900
+Name Start of Battlefield 7~
+Descr
+~
+End
+
+#950
+Name Start of Battlefield 8~
+Descr
+~
+End
+
+#91730
+Name ~
+Descr
+~
+Sector 12
+Door 1 0 0 91731 0 0
+~
+~
+End
+
+#91731
+Name ~
+Descr
+~
+Flags 32
+Sector 0
+Door 1 0 0 91732 0 0
+~
+~
+Door 3 0 0 91730 0 0
+~
+~
+End
+
+#91732
+Name A N a R aC Hy  Clan Gates~
+Descr
+~
+Flags 32
+Reset M 91732 1 100
+Reset M 91732 1 100
+Reset M 91732 1 100
+Reset M 91732 1 100
+Reset M 91732 1 100
+Reset M 91732 1 100
+Reset M 91732 1 100
+Reset M 91732 1 100
+Door 3 0 0 91731 0 0
+~
+~
+Door 4 0 0 91753 0 0
+~
+~
+End
+
+#91733
+Name Mana~
+Descr
+~
+Flags2 6
+Flags 4
+Sector 0
+Door 1 259 0 91755 30 30
+~
+Practice~
+Door 3 0 0 91754 0 0
+~
+~
+Door 4 0 0 91751 0 0
+~
+~
+Door 5 0 0 91734 0 0
+~
+~
+End
+
+#91734
+Name ANaRaChy Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91736 0 0
+~
+~
+Door 1 0 0 91740 0 0
+~
+~
+Door 2 0 0 91735 0 0
+~
+~
+Door 3 0 0 91739 0 0
+~
+~
+Door 4 0 0 91733 0 0
+~
+~
+End
+
+#91735
+Name ----~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 91734 0 0
+~
+~
+Door 2 259 0 91738 30 30
+~
+door~
+Door 5 0 0 91742 0 0
+~
+~
+End
+
+#91736
+Name ~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 259 0 91737 30 30
+~
+door~
+Door 2 0 0 91734 0 0
+~
+~
+Door 5 0 0 91741 0 0
+~
+~
+End
+
+#91737
+Name Provisioner~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 91737 1 100
+Door 2 259 0 91736 30 30
+~
+door~
+End
+
+#91738
+Name Bakery~
+Descr
+~
+Reset M 91738 1 100
+Door 0 259 0 91735 30 30
+~
+door~
+End
+
+#91739
+Name Armorer~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 91739 1 100
+Door 1 0 0 91734 0 0
+~
+~
+End
+
+#91740
+Name Weaponsmith~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 91740 1 100
+Door 3 0 0 91734 0 0
+~
+~
+End
+
+#91741
+Name ~
+Descr
+~
+Flags 4
+Sector 10
+Door 1 0 0 91750 0 0
+~
+~
+Door 2 0 0 91743 0 0
+~
+~
+Door 3 0 0 91749 0 0
+~
+~
+Door 4 0 0 91736 0 0
+~
+~
+End
+
+#91742
+Name ~
+Descr
+~
+Flags 4
+Sector 10
+Door 0 0 0 91743 0 0
+~
+~
+Door 1 0 0 91746 0 0
+~
+~
+Door 3 0 0 91745 0 0
+~
+~
+Door 4 0 0 91735 0 0
+~
+~
+End
+
+#91743
+Name ~
+Descr
+~
+Flags 4
+Sector 10
+Door 0 0 0 91741 0 0
+~
+~
+Door 1 0 0 91748 0 0
+~
+~
+Door 2 0 0 91742 0 0
+~
+~
+Door 3 0 0 91747 0 0
+~
+~
+End
+
+#91744
+Name ~
+Descr
+~
+End
+
+#91745
+Name ~
+Descr
+~
+Flags 4
+Sector 10
+Door 0 0 0 91747 0 0
+~
+~
+Door 1 0 0 91742 0 0
+~
+~
+End
+
+#91746
+Name ~
+Descr
+~
+Flags 4
+Sector 10
+Door 0 0 0 91748 0 0
+~
+~
+Door 3 0 0 91742 0 0
+~
+~
+End
+
+#91747
+Name ~
+Descr
+~
+Flags 4
+Sector 10
+Door 0 0 0 91749 0 0
+~
+~
+Door 1 0 0 91743 0 0
+~
+~
+Door 2 0 0 91745 0 0
+~
+~
+End
+
+#91748
+Name ~
+Descr
+~
+Flags 4
+Sector 10
+Door 0 0 0 91750 0 0
+~
+~
+Door 2 0 0 91746 0 0
+~
+~
+Door 3 0 0 91743 0 0
+~
+~
+End
+
+#91749
+Name ~
+Descr
+~
+Flags 4
+Sector 10
+Door 1 0 0 91741 0 0
+~
+~
+Door 2 0 0 91747 0 0
+~
+~
+End
+
+#91750
+Name ~
+Descr
+~
+Flags 4
+Sector 10
+Door 2 0 0 91748 0 0
+~
+~
+Door 3 0 0 91741 0 0
+~
+~
+End
+
+#91751
+Name ANaRaChy Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 3 0 0 91752 0 0
+~
+~
+Door 5 0 0 91733 0 0
+~
+~
+End
+
+#91752
+Name ANaRaChy Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 91751 0 0
+~
+~
+Door 3 0 0 91753 0 0
+~
+~
+End
+
+#91753
+Name Entrance Into ANaRaChy~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 91752 0 0
+~
+~
+Door 5 0 0 91732 0 0
+~
+~
+End
+
+#91754
+Name ~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 91733 0 0
+~
+~
+Door 3 0 0 91732 0 0
+~
+~
+End
+
+#91755
+Name A Room Of Training~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 91755 1 100
+Door 3 259 0 91733 30 30
+~
+Practice~
+End
+
+#0
+
+
+
+#$

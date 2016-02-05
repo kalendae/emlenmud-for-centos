@@ -1,0 +1,193 @@
+2   'Teleport'          NO
+3   'Total Protection'  145
+4   'Mindshield'        145
+6   'Protection'        145
+7   'Sanctuary'         34757
+8   'balefire'          NO
+10   'Detect Invisible' 45031
+11   'Infravision'      1200
+12   'Detect Hidden'    6852
+13   'Invisibility'     20401
+14   'Fly'              1200 
+15   'Underwater Breath' 58819
+16   'Identify'         21304
+17   'Summon '          26509
+18   'Word of Recall'   1200
+19   'Scry'             222
+20   'Locate Person'    NO
+21   'Create Bread'     1200 
+22   'Pass door'        NO
+23   'Detect Magic'     1200
+25   'Ball of Light'    1200
+26   'Create Spring'    1200 
+27   'Enlarge'          1200
+28   'Earthen Strength' 29617
+29   'Bless'            81015
+30   'War Blessing'     11512
+31   'Remove Curse'     1201
+32   'Haste'            53025
+33   'Battle Prayer'    21302
+36   'Minor Guarding'   1200
+37   'Shielding'        1200
+38   'Major Guarding'   1200
+39   'Shell of Might'   6755
+40   'Stoneskin'        58021
+41   'Warding'          29604
+42   'Heal Light'       1201
+43   'Heal Serious'     1201
+44   'Heal Critical'    6755
+45   'Healing'          61004
+46   'Divine Healing'   23023
+47   'Mass Refresh'      29360
+48   'Rejuvenate'        82077
+49   'Mass Healing'      19045
+50   'Shower of Life'   220
+51   'Remove Poison'    1201
+52   'Cure Blindness'   1201
+53   'Mindcure'         82077
+ 54   'Bodycure'         21305
+55   'Cureall'          61004
+56   'Remove Plague'    1201
+57   'Purification'     24113
+58   'Magic Missile'    1202
+59   'Dispel undead'    1201
+60   'Refresh'          1201
+61   'Curse'            1201
+62   'Blindness'        33036
+63   'Disease'          1201
+64   'Poison'           1201
+65   'Starfire'         19059
+66   'Dart of Poison'   1201
+67   'Death Cloud'      24116
+68   'Doom'             58024
+69   'Deathstorm'       21305
+70   'Noxious Cloud'    24124 
+71   'Plague Cloud'     58024
+72   'Buffet'           1202
+73   'Gust'             1202
+74   'Gale'             1202
+75   'Windblast'        2000
+76   'Hurricane'        23102
+77   'Hands of Wind'    58100
+78   'Acid Arrow'       1202
+79   'Acid Bolt'        1202
+81   'Acid Blast'       55006
+82   'Acidstorm'        53019
+83   'Acid Breath'      19047
+84   'Chill Touch'      1202
+85   'Icicle'           1202 
+86   'Cone of Cold'     1202
+87   'Cold Ray'         34877
+88   'Ice Storm'        84046
+89   'Frost Breath'     19062
+90   'Pebble'           1202  
+91   'Rock'             1202
+92   'Earthquake'       55007
+93   'Spike'            58008
+94   'Boulders'         2000
+95   'Shards'           84045
+96   'Burning Hands'    1202
+97   'Fire Bolt'        1202
+98   'Fireball '        1202
+99   'Liquid Lead'       45028
+ 100   'Firestorm'       33032
+ 101   'Firebreath'      24120
+ 102   'Shocking Grasp'  1202
+ 103   'Bolt'            1202
+ 104   'Chain Lightning'  33080
+ 105   'Call Lightning'   14656
+ 106   'Electric Storm'    58008
+ 107   'Lightning Breath'  59649
+ 108   'Tornado of Souls'  6754
+ 109   'Meteor Shower'    84047
+ 110   'Hammer of Hell'   45016
+ 111   'Soulsmash'        29627
+ 112   'Beam'             20401
+ 113   'Annihilate'       221
+ 114   'Creeping Death'   221
+ 115   'Blink'              45031
+ 121   'Ranged Spells'      82002
+ 126   'Acid Spray'         33036
+ 132   'Locate Object'      NO
+ 133   'Detect Chameleon'   33085
+ 134   'Lethargy'           54007
+ 135   'Wounding'           55007
+ 136   'Obscure'            222
+ 137   'Mindsap'            34877
+ 138   'chameleon'          11509
+ 150   'Drain'              84048
+ 154   'Paralyze'           81005
+ 155   'Remove Paralysis'   14668
+ 157   'Confusion'          33080
+ 158   'Spell Reflect'      29605
+ 178   'Float'              NO
+ 188   'Astral Protection'  14668
+ 189   'Fireshield'         58817
+
+
+ 350   'Patch'                  33068
+ 351   'Detrap'                 55014
+ 352   'Swim'                   1203
+ 353   'Butcher'                1203
+ 354   'Locate Traps'           1203
+ 356   'Hide'                   1203
+ 357   'Peek'                   1203
+ 358   'Locksmithy'             1203 
+ 359   'Sneaking'               1203
+ 360   'Steal'                  33028
+ 361   'Forge'                  217
+ 362   'Tracking'               1203
+ 363   'Brew'                   6851
+ 364   'Mine'                   216
+ 365   'Skin'                   NO
+ 366   'Tanning'                NO
+ 367   'Weave'                  NO
+ 368   'Stitch'                 NO
+ 369   'Chop'                   NO
+ 370   'Build'                  NO
+ 371   'Enchant'                223
+ 372   'Lore'                   55005
+ 376   'Searching'              1203 
+ 377   'Riding'                 1203
+ 378   'Investigation'          1203
+ 397   'Sixth Sense'            34885
+ 398   'Trapset'                1203
+
+ 550   'Circle' 
+ 551   'Armor Penetration'   1204
+ 552   'Block'               23107
+ 553   'Guard'               19050      
+ 554   'Backstab'            1204
+ 555   'Dodge'               1204 
+ 561   'Bash'                1204
+ 563   'Disarm'              45009
+ 564   'Enhanced Damage'     58018
+ 565   'Kick'                1204
+ 566   'Parry'               1204
+ 567   'Shield Block'        29616
+ 568   'Rescue'              1204
+ 569   'Second Attack'       1204
+ 570   'Third Attack'        22022
+ 571   'Dual Wield'          215
+ 572   'Piercing Weapons'    1204  
+ 573   'Slashing Weapons'    1204
+ 574   'Concussion Weapons'  1204
+ 575   'Whipping Weapons'    58003
+ 576   'Shoot'               6852
+ 577   'Throw'               34878
+ 579   'Warcry'              61006
+ 580   'Flail'               224
+ 583   'Polearm Weapons'     19050
+ 584   'Critical Hit'        218   
+ 585   'Alertness'           33028
+ 588   'Impale'              20412
+ 589   'Flash'               219
+ 590   'Tackle'              1204
+ 591   'Flurry'              1204
+ 592   'Steadiness'          58037
+ 593   'Double Kick'         54413
+ 594   'Smash'               23104
+ 595   'Accuracy'            45014
+ 596   'Resilience'          1525
+ 599  'Grapple'              1204
+

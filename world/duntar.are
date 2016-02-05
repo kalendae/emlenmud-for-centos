@@ -1,0 +1,7952 @@
+#AREADATA 
+Name Dungeons of Tyrsis~
+Repop The walls seem to groan as a chilled wind sweeps through. 
+~
+SCZone 0
+Builders Bern~
+VNUMs 66644 66972
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#66645
+Name shifting shadow~
+Short a shifting shadow~
+Long 
+A shadow seems to shift in the corner!
+~
+AMax 1
+NHeight 0
+ActBits 1040
+ActBits3 65536
+Affect_By 1639178
+Level 500
+Sex 1
+MobType 21
+Hp 25
+Guard 0
+BCasts life tap~
+BCasts wisk of weakening~
+BCast_P 80
+End
+
+#66646
+Name thief delusional kender~
+Short a delusional thief~
+Long 
+A kender is here skulking about in the shadows.
+~
+AMax 1
+NHeight 0
+ActBits 20
+ActBits3 65536
+Affect_By 98856
+Level 83
+Sex 1
+MobType 34
+Guard 0
+Spec spec_thief
+End
+
+#66647
+Name nemor delusional glass smith confused~
+Short Nemor the Confused~
+Long 
+Nemor the Confused is here talking to the many pieces of glass on the wall.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 65536
+ActBits4 5
+Affect_By 552
+Money 500
+Level 500
+Sex 1
+MobType 0
+Hp 40
+Guard 0
+Spec spec_warrior
+End
+
+#66648
+Name paranoid dwarf dwarven smith glossgen~
+Short Glossgen the Paranoid~
+Long 
+Glossgen the Paranoid is here sweating over a hot forge.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 65536
+ActBits4 5
+Affect_By 552
+AffectTWO 8
+Money 200
+Level 400
+Sex 1
+MobType 2
+Hp 40
+Guard 0
+End
+
+#66649
+Name miner paranoid dwarf dwarven~
+Short a paranoid miner~
+Long 
+A paranoid miner is here fearfully chipping away at the rocks.
+~
+AMax 1
+NHeight 0
+ActBits 20
+ActBits3 65536
+Affect_By 552
+Level 83
+Sex 1
+MobType 2
+Guard 0
+Spec spec_warrior
+End
+
+#66650
+Name lymir enchanter psychotic lymir01~
+Short Lymir the Enchanter~
+Long 
+Lymir the Enchanter is here dancing about.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits4 5
+Affect_By 680
+Money 200
+Level 250
+Sex 1
+MobType 1
+Hp 25
+Guard 0
+BCasts mass dispel~
+BCasts healing of earth~
+BCasts searing orb~
+BCast_P 40
+End
+
+#66651
+Name kobold shaman~
+Short the kobold shaman~
+Long 
+The kobold shaman is here overseeing her small kingdom.
+~
+AMax 1
+NHeight 0
+Affect_By 552
+Money 100
+Level 85
+Sex 2
+MobType 34
+Hp 8
+Guard 0
+BCasts dazzle~
+BCasts flamethrower~
+BCasts flesh of fiery touch~
+BCast_P 20
+End
+
+#66652
+Name kobold guard~
+Short a kobold guard~
+Long 
+A Kobold Guard is here trying to look busy.
+~
+AMax 2
+NHeight 0
+ActBits 10
+ActBits3 2
+Affect_By 552
+Level 120
+Sex 1
+MobType 34
+Guard 3
+Spec spec_warrior
+End
+
+#66653
+Name kobold elite warrior~
+Short a kobold elite warrior~
+Long 
+A Kobold Elite Warrior is here preparing for a future assault.
+~
+AMax 5
+NHeight 0
+Affect_By 544
+Money 100
+Level 175
+Sex 1
+MobType 34
+Hp 4
+Guard 0
+Spec spec_warrior
+End
+
+#66654
+Name kobold~
+Short a kobold~
+Long 
+A kobold is here searching for trouble.
+~
+AMax 5
+NHeight 0
+Affect_By 33280
+Money 50
+Level 120
+Sex 2
+MobType 34
+Hp 5
+Guard 0
+End
+
+#66655
+Name kobold weaponsmith~
+Short a kobold weaponsmith~
+Long 
+A kobold weaponsmith is here waiting for your demand.
+~
+AMax 1
+NHeight 0
+ActBits 3145730
+Affect_By 552
+Money 100
+Level 165
+Sex 1
+MobType 34
+Hp 4
+Guard 0
+Spec spec_warrior
+Shop    0   0   5   0   0 30 150 0 24
+Shopd2 10
+Shopd3 2
+End
+
+#66656
+Name kobold provisioner~
+Short a kobold merchant~
+Long 
+A kobold merchant is here fleecing anyone who walks by.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 552
+Money 100
+Level 165
+Sex 1
+MobType 34
+Hp 4
+Guard 0
+Shop    0   0  19   0   0 150 30 0 24
+Shopd2 5
+Shopd3 2
+ShopCr 66662
+ShopCS Another loaf of blood bread has finished simmering.~
+ShCrh 4
+End
+
+#66657
+Name kobold banker~
+Short a kobold banker~
+Long 
+A kobold banker is here trying to cheat you in any way possible.
+~
+AMax 1
+NHeight 0
+ActBits 131074
+Affect_By 552
+Money 100
+Level 165
+Sex 1
+MobType 34
+Hp 4
+Guard 0
+End
+
+#66658
+Name psychotic warrior~
+Short a psychotic warrior~
+Long 
+A psychotic warrior is here looking for a fight!
+~
+AMax 2
+NHeight 0
+ActBits 1053
+Affect_By 552
+Money 100
+Level 85
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#66659
+Name psychotic mage~
+Short a psychotic mage~
+Long 
+A psychotic mage is here pondering the finer points of death.
+~
+AMax 2
+NHeight 0
+ActBits 67108885
+Affect_By 680
+Money 100
+Level 85
+Sex 2
+MobType 1
+Hp 6
+Guard 0
+BCasts clap of thunder~
+BCasts hands of wind~
+BCast_P 20
+End
+
+#66660
+Name psychotic thief~
+Short a psychotic thief~
+Long 
+A psychotic thief is here hiding in the shadows.
+~
+AMax 1
+NHeight 0
+ActBits 1036
+ActBits4 1
+Affect_By 98856
+Money 100
+Level 50
+Sex 1
+MobType 34
+Hp 35
+Guard 0
+Spec spec_thief
+End
+
+#66661
+Name paranoid jester~
+Short a paranoid jester~
+Long 
+A paranoid jester is here hiding from the laughs.
+~
+AMax 1
+NHeight 0
+Affect_By 512
+Money 200
+Level 165
+MobType 0
+Hp 4
+Guard 0
+End
+
+#66662
+Name paranoid prostitute~
+Short a paranoid prostitute~
+Long 
+A prostitute is here hiding from the elusive trouser monkey.
+~
+AMax 4
+NHeight 0
+ActBits 17
+Affect_By 98816
+Money 500
+Level 118
+Sex 2
+MobType 1
+Hp 5
+Guard 0
+End
+
+#66663
+Name paranoid banker~
+Short a paranoid banker~
+Long 
+A banker is cowering in the corner in fear of money.
+~
+AMax 1
+NHeight 0
+ActBits 131073
+Affect_By 552
+Money 200
+Level 165
+Sex 1
+MobType 2
+Hp 4
+Guard 0
+End
+
+#66664
+Name paranoid smithy dwarf large~
+Short a paranoid smithy~
+Long 
+A large dwarf is in the corner sobbing loudly.
+~
+AMax 1
+NHeight 0
+ActBits 3145729
+Affect_By 552
+Money 200
+Level 165
+MobType 2
+Hp 4
+Guard 0
+Spec spec_warrior
+End
+
+#66665
+Name paranoid warrior~
+Short a paranoid warrior~
+Long 
+A paranoid warrior is here avoiding conflict at all cost.
+~
+AMax 2
+NHeight 0
+ActBits 1
+Affect_By 512
+Money 100
+Level 118
+Sex 1
+MobType 23
+Hp 6
+Guard 0
+Spec spec_warrior
+End
+
+#66666
+Name paranoid thief~
+Short a paranoid thief~
+Long 
+A thief is here trying to avoid all things sharp and pointy.
+~
+AMax 2
+NHeight 0
+ActBits 5
+Affect_By 33280
+Level 118
+Sex 1
+MobType 34
+Hp 5
+Guard 0
+Spec spec_thief
+End
+
+#66667
+Name paranoid mage~
+Short a paranoid mage~
+Long 
+A mage is here trying to hide from her dark side.
+~
+AMax 2
+NHeight 0
+ActBits 1
+Affect_By 552
+Money 100
+Level 118
+Sex 2
+MobType 1
+Hp 5
+Guard 0
+BCasts charged bolt~
+BCasts cantrip~
+BCasts lesser healing touch~
+BCast_P 15
+End
+
+#66668
+Name fear greater~
+Short a greater fear~
+Long 
+A greater fear slinks around in the shadows.
+~
+AMax 1
+NHeight 0
+ActBits 1033
+Affect_By 554
+Level 325
+MobType 21
+Hp 18
+Guard 0
+BCasts confuse~
+BCasts mind burrower~
+BCasts aurora~
+BCast_P 20
+End
+
+#66669
+Name paranoid farmer~
+Short a paranoid farmer~
+Long 
+A farmer is here worrying about the killer tomatoes.
+~
+AMax 2
+NHeight 0
+ActBits 1
+Affect_By 512
+Money 10
+Level 118
+MobType 0
+Hp 5
+Guard 0
+End
+
+#66670
+Name paranoid necromancer~
+Short a paranoid necromancer~
+Long 
+A necromancer is here trying to recover from a fear of the undead.
+~
+AMax 2
+NHeight 0
+ActBits 67108865
+Money 100
+Level 118
+Sex 1
+MobType 9
+Hp 5
+Guard 0
+BCasts life tap~
+BCast_P 20
+End
+
+#66671
+Name paranoid soldier~
+Short a paranoid soldier~
+Long 
+A soldier is here too frightened to salute.
+~
+AMax 3
+NHeight 0
+ActBits 1025
+Affect_By 512
+Money 100
+Level 165
+Sex 1
+MobType 0
+Hp 6
+Guard 0
+Spec spec_warrior
+End
+
+#66672
+Name paranoid woman~
+Short a paranoid woman~
+Long 
+A woman is standing here shivering with panic.
+~
+AMax 3
+NHeight 0
+ActBits 1
+Affect_By 512
+Money 50
+Level 118
+Sex 2
+MobType 0
+Hp 5
+Guard 0
+End
+
+#66673
+Name paranoid man~
+Short a paranoid man~
+Long 
+A man is weaping here too frightened to move.
+~
+AMax 3
+NHeight 0
+ActBits 1
+Money 50
+Level 118
+Sex 1
+MobType 0
+Hp 5
+Guard 0
+End
+
+#66674
+Name rat~
+Short a rat~
+Long 
+A rat runs along the floor searching for something to eat.
+~
+AMax 12
+NHeight 0
+ActBits 17
+Affect_By 512
+Level 10
+MobType 7
+Guard 0
+End
+
+#66675
+Name delusional warrior~
+Short a delusional warrior~
+Long 
+A warrior is here being plagued by the ghosts of his victims.
+~
+AMax 2
+NHeight 0
+Affect_By 512
+Money 100
+Level 118
+MobType 23
+Hp 6
+Guard 0
+Spec spec_warrior
+End
+
+#66676
+Name delusional priestess~
+Short a delusional priestess~
+Long 
+A priestess is here straining to listen to gods that no longer speak.
+~
+AMax 2
+NHeight 0
+Affect_By 512
+Money 100
+Level 118
+Sex 2
+MobType 0
+Hp 5
+Guard 0
+BCasts greater healing touch~
+BCasts wound~
+BCast_P 20
+End
+
+#66677
+Name delusional knight~
+Short a delusional knight~
+Long 
+A knight stands here muttering something that cannot be understood.
+~
+AMax 2
+NHeight 0
+Affect_By 512
+Money 100
+Level 118
+Sex 1
+MobType 0
+Hp 6
+Guard 0
+Spec spec_warrior
+BCasts power of wish~
+BCast_P 15
+End
+
+#66678
+Name delusional necromancer~
+Short a delusional necromancer~
+Long 
+A necromancer is here talking to his "zombie rocks".
+~
+AMax 2
+NHeight 0
+Affect_By 512
+Money 100
+Level 118
+Sex 1
+MobType 9
+Hp 6
+Guard 0
+BCasts life tap~
+BCasts spear of agony~
+BCast_P 15
+End
+
+#66679
+Name delusional sorcerer~
+Short a delusional sorcerer~
+Long 
+A sorcerer is here attempting to cast a spell to remove the voices from his head.
+~
+AMax 2
+NHeight 0
+Affect_By 552
+Money 100
+Level 118
+Sex 1
+MobType 1
+Hp 6
+Guard 0
+BCasts steel spike~
+BCasts fury of zeus~
+BCasts curse~
+BCast_P 20
+End
+
+#66680
+Name delusional adventurer~
+Short a delusional adventurer~
+Long 
+An adventurer is here trying hard to get a grip on reality.
+~
+AMax 2
+NHeight 0
+Affect_By 512
+Money 100
+Level 118
+Sex 1
+MobType 25
+Hp 6
+Guard 0
+End
+
+#66681
+Name minsk delusional warrior~
+Short Minsk the Berserker~
+Long 
+Minsk is here talking to a small furry gerbil on his shoulder.
+~
+AMax 1
+NHeight 0
+ActBits 1044
+ActBits3 65536
+Affect_By 552
+AffectTWO 8
+Money 200
+Level 325
+Sex 1
+MobType 0
+Hp 6
+Guard 0
+Spec spec_warrior
+End
+
+#66682
+Name delusional priest~
+Short a delusional priest~
+Long 
+A priest is here claiming to be the almighty one BERN!
+~
+AMax 1
+NHeight 0
+Affect_By 552
+Money 100
+Level 165
+Sex 1
+MobType 0
+Hp 14
+Guard 0
+BCasts confuse~
+BCasts lethargy~
+BCasts complete healing~
+BCast_P 20
+End
+
+#66683
+Name delusional man~
+Short a delusional man~
+Long 
+A man is here confused by his delusional mind.
+~
+AMax 4
+NHeight 0
+Affect_By 2560
+Level 118
+Sex 1
+MobType 0
+Hp 5
+Guard 0
+End
+
+#66684
+Name delusional woman~
+Short a delusional woman~
+Long 
+A woman is here debating the finer points of skin with her shadow.
+~
+AMax 4
+NHeight 0
+Affect_By 2560
+Money 100
+Level 118
+Sex 2
+MobType 0
+Hp 5
+Guard 0
+End
+
+#66685
+Name devil psychotic~
+Short lymir's devil~
+Long 
+Lymir's devil is here to put the hurt on.
+~
+AMax 1
+NHeight 0
+ActBits 67109903
+ActBits4 1
+Affect_By 2630312
+Level 200
+MobType 11
+Hp 80
+Guard 0
+Spec spec_janitor
+BCasts whistling doom~
+BCasts stream of magma~
+BCasts neverending void~
+BCast_P 99
+End
+
+#66686
+Name cyluss ancient mage~
+Short Cyluss the Ancient~
+Long 
+Cyluss the Ancient mage is here bent over studying some ruins.
+~
+AMax 1
+NHeight 0
+ActBits 7
+ActBits3 65536
+ActBits4 5
+Affect_By 680
+Money 500
+Level 500
+Sex 1
+MobType 1
+Hp 25
+Guard 0
+BCasts lava flow~
+BCasts ball lightning~
+BCasts healing of earth~
+BCast_P 30
+End
+
+#66687
+Name kobold guard~
+Short a kobold guard~
+Long 
+A Kobold Guard is here trying to look busy.
+~
+AMax 2
+NHeight 0
+ActBits 10
+ActBits3 2
+Affect_By 552
+Level 120
+Sex 1
+MobType 34
+Guard 3
+End
+
+#66688
+Name delusional soldier~
+Short a delusional soldier~
+Long 
+A soldier is here reliving a day in battle.
+~
+AMax 4
+NHeight 0
+ActBits 1025
+Affect_By 512
+Money 100
+Level 165
+Sex 1
+MobType 0
+Hp 6
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#66644
+Name oil lamp flickering~
+Short an oil lamp~
+Descr
+An oil lamp [31mf[1mli[33mck[31mer[0m[31ms[0m [37min the slight breeze.
+[0;36m~
+Type 1
+Wear 0
+Values 1 -1 1 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66645
+Name mighty altar~
+Short a mighty altar~
+Descr
+A mighty stone altar rests on the tiled floor.
+[0;36m~
+Type 13
+Extra 1
+Wear 0
+Weight 100
+Cost 0
+End
+
+#66646
+Name small basin~
+Short a small basin~
+Descr
+A small basin of water rests atop the pantry.
+[0;36m~
+Type 25
+Wear 0
+Weight 0
+Cost 0
+End
+
+#66647
+Name pantry~
+Short a pantry~
+Descr
+A stone pantry rests in the corner of the alcove.
+[0;36m~
+Type 15
+Wear 0
+Values 0 1 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66648
+Name necklace trapped soul~
+Short [0ma debilitating Necklace of the [30m[1mTr[31mapp[30med S[31mou[30ml[0m~
+Descr
+A necklace lies here on the ground with a small vial attached.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 5
+Values 0 0 5 0 0 0 35 35 0 0 0
+Weight 2
+Cost 0
+Affect 15 10 1 0 0
+Affect 13 10 1 0 0
+Affect 20 3 1 0 0
+End
+
+#66649
+Name fissure delusion small~
+Short a fissure~
+Descr
+A small fissure is here in the wall of the passage.
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 66675 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66650
+Name fissure paranoia~
+Short a fissure~
+Descr
+A small fissure is here in the wall of the passage.
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 66662 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66651
+Name gnarled vine~
+Short a gnarled vine~
+Descr
+A gnarled vine snakes its way up to the top of the pit.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 66713 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66652
+Name gnarled vine~
+Short a gnarled vine~
+Descr
+A gnarled vine snakes its way to the top of the pit.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 66720 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66653
+Name small leather pouch~
+Short [0ma small [33mleather[0m pouch~
+Descr
+A leather pouch is here on the ground.
+[0;36m~
+Type 15
+Wear 24577
+Values 2 1 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66654
+Name black beach sand~
+Short [0ma handfull of [1m[30mblack[0m beach[33m sand[0m~
+Descr
+A handfull of [1m[30mblack[0m [36mbeach [33msand[0m[36m is piled here.
+[0;36m~
+Type 3
+Extra 33554688
+Wear 16385
+Values 100 1 1 0 0 0 0 0 0 0 0
+Weight 2
+Cost 0
+End
+
+#66655
+Name kiln~
+Short a kiln~
+Descr
+A [31mf[1mi[33me[31mr[0m[31my[0m [36mkiln is here in needs of a stoaking.
+[0;36m~
+Type 15
+Wear 0
+Values 10 1 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66656
+Name crack paranoia~
+Short a crack~
+Descr
+A large crack stretches from ceiling to floor in the rock wall.
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 66793 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66657
+Name crack paranoia~
+Short a crack~
+Descr
+A large crack stretches from ceiling to floor in the rock wall.
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 66667 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66658
+Name hole psychosis~
+Short a hole~
+Descr
+A small hole occupies the corner of the passage.
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 66672 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66659
+Name hole psychosis~
+Short a hole~
+Descr
+A small hole occupies the corner of the passage.
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 66898 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66660
+Name forge~
+Short a forge~
+Descr
+[36mA [31mf[1mi[33me[31mr[0m[31my[0m [36mforge rests here for smelting metals.
+[0;36m~
+Type 15
+Wear 0
+Values 10 1 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66661
+Name chunk lead~
+Short [0ma chunk of [37mlead[0m~
+Descr
+[36mA chunk of [37mlead[0m [36mis here on the ground.[0m
+[0;36m~
+Type 38
+Extra 256
+Wear 16385
+Weight 20
+Cost 100
+End
+
+#66662
+Name blood bread lump~
+Short [0ma loaf of [1m[31mblood[0m bread~
+Descr
+A lump of what appears to be blood soaked bread is here making you retch.
+[0;36m~
+Type 19
+Wear 1
+Values 30 0 0 0 0 0 0 0 0 0 0
+Weight 2
+Cost 50
+End
+
+#66663
+Name dented metal cup~
+Short a dented metal cup~
+Descr
+A dented metal cup is laying in the dirt getting kicked around.
+[0;36m~
+Type 17
+Wear 24577
+Values 16 16 12 0 0 0 0 0 0 0 0
+Weight 8
+Cost 100
+End
+
+#66664
+Name kobold shaman staff~
+Short [0ma [1m[31mk[0m[31mo[1mb[0m[31mo[1ml[0m[31md[0m shaman's staff~
+Descr
+The staff of a kobold shaman is here on the ground.
+[0;36m~
+Type 4
+Extra 33554688
+Wear 16385
+Values 100 1 1 129 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66665
+Name ornate metal frame pewter~
+Short [0ma [37mpewter[0m frame~
+Descr
+An ornate metal frame is here on the ground.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 16385
+Weight 10
+Cost 5
+End
+
+#66666
+Name ornate mirror frame~
+Short [0man ornately framed [37mpewter[0m mirror~
+Descr
+A small mirror is here getting trampled under foot.
+[0;36m~
+Type 8
+Extra 33554688
+Wear 16385
+Weight 15
+Cost 100
+End
+
+#66667
+Name ornate mirror frame enchanted~
+Short [0man ornately framed [37mpewter[0m mirror~
+Descr
+A small mirror is here getting trampled under foot.
+[0;36m~
+Type 8
+Extra 33554699
+Wear 16385
+Weight 15
+Cost 500
+End
+
+#66668
+Name moo gerbil~
+Short [33mMoo[0m the fluffy [1m[30mG[0m[33mer[1m[30mb[0m[33mi[1m[30ml[0m~
+Descr
+[33mMoo[0m[36m the fluffy [1m[30mG[0m[33mer[1m[30mb[0m[33mi[1m[30ml[0m [36mis here running in circles.[0m
+[0;36m~
+Type 19
+Extra 256
+Wear 32769
+Values 20 0 0 0 0 0 0 0 0 0 0
+Weight 8
+Cost 200
+End
+
+#66669
+Name portal swirling energy~
+Short a portal of swirling energy~
+Descr
+[1m[30mA swir[31mling p[30morta[31ml of en[30mergy i[31ms here h[30movering o[31mver th[30me altar.[0m
+[0;36m~
+Type 12
+Wear 0
+Timer 1
+Values 4 73759 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66670
+Name staff wand ancient great 3sv spell~
+Short [0ma diminishing [33mWand[0m of the [31mGre[1mat Anci[0m[31ments[0m~
+Descr
+[36mThe [33mwand[0m [36mof the [31mGre[1mat Anci[0m[31ments[0m [36mlies here on the ground losing its power.
+[0;36m~
+Type 3
+Extra 33554442
+Wear 16385
+Values 100 2 2 183 0 0 0 0 0 0 0
+Weight 15
+Cost 2000
+Affect 20 3 1 0 0
+Affect 18 2 1 0 0
+End
+
+#66671
+Name hole portal~
+Short a hole~
+Descr
+A hole has appeared here in the north wall.
+[0;36m~
+Type 12
+Wear 0
+Timer 1
+Values 4 66782 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66672
+Name hole portal~
+Short a hole~
+Descr
+A hole has appeared here in the south wall.
+[0;36m~
+Type 12
+Wear 0
+Timer 1
+Values 4 66773 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66673
+Name statue large god diety~
+Short a large statue of a god~
+Descr
+A large statue of some strange blood-crazed diety is here.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#66674
+Name cloak shifting colors 15hp 3sv 5ac~
+Short [0ma vacillating Cloak of [31mS[1mh[33mi[35mf[32mt[30mi[0m[32mn[33mg [31mC[1m[33mo[31ml[32mo[31mr[30ms[0m~
+Descr
+A colorfull cloak lays here in a rumpled pile.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 1025
+Values 2 2 2 2 5 15 50 50 0 0 0
+Weight 8
+Cost 6000
+Affect 15 15 1 0 0
+Affect 17 5 1 0 0
+Affect 20 3 1 0 0
+Affect 13 15 1 0 0
+End
+
+#66675
+Name reducing armplate increasing strength 2apb apb~
+Short [0mArmplates of [31mEv[1mer [32mInc[0m[32mreas[1ming [31mStre[0m[31mngth[0m~
+Descr
+[36mA set of armplates are [31m[1mrusting[0m [36mhere on the ground.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 257
+Values 0 0 0 8 20 14 50 50 0 0 0
+Weight 20
+Cost 6000
+Affect 14 25 1 0 0
+Affect 19 2 1 0 0
+Affect 18 5 1 0 0
+End
+
+#66676
+Name cloud greater fortitude 3sv 5mv 25hp~
+Short [0ma sapping [1m[33mCloud[37m of [36mGr[34meat[36mer Fo[34mrtitu[36mde[0m~
+Descr
+[36mA [1m[33mgaseous cloud[0m [36mis here dissipating into the air.[0m
+[0;36m~
+Type 9
+Extra 33558528
+Wear 131073
+Values 0 0 5 0 0 0 0 0 0 0 0
+Weight 0
+Cost 6000
+Affect 13 25 1 0 0
+Affect 14 5 1 0 0
+Affect 20 3 1 0 0
+End
+
+#66677
+Name leggings kobold greaves studded leather elite~
+Short [0ma pair of [31mK[1mo[0m[31mb[1mo[0m[31ml[1md[0m [31mE[1ml[0m[31mi[1mt[0m[31me[0m studded [33mleather[0m greaves~
+Descr
+[36mA crumpled pair of studded [33mleather[36m greaves are here collecting mold.
+[0;36m~
+Type 9
+Wear 33
+Values 3 0 0 0 1 15 40 40 15 5 0
+Weight 20
+Cost 1500
+Affect 14 8 1 0 0
+Affect 22 2 1 0 0
+End
+
+#66678
+Name mask greater fear face apb 2apb~
+Short [1m[30ma [32mMa[32msk o[0m[32mf th[1m[30me Gr[32mea[0m[32mte[1m[30mr F[32me[0m[32ma[0m[1m[30mr[0m~
+Descr
+A horribly disfigured face lays here on the ground.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 65537
+Values 0 0 2 0 15 15 30 30 15 1 0
+Weight 20
+Cost 2000
+Affect 14 -20 1 0 0
+Affect 13 -40 1 0 0
+Affect 20 -4 1 0 0
+Affect 19 2 1 0 0
+Affect 18 4 1 0 0
+End
+
+#66679
+Name sash high priest delusional belt~
+Short [1m[32ma t[34man[36mgl[32med [34mSa[32msh [34mof [32mth[36me D[32mel[34mus[36mio[34mn[32mal[0m~
+Descr
+A tangled sash lies here on the ground getting trampled into the mud.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 2049
+Values 0 2 0 0 5 5 30 30 5 10 0
+Weight 2
+Cost 2000
+Affect 17 2 1 0 0
+Affect 20 3 1 0 0
+Affect 18 -4 1 0 0
+Affect 19 -2 1 0 0
+Affect 13 25 1 0 0
+End
+
+#66680
+Name minsk broadsword sword apb 2apb~
+Short [1m[30mM[32mi[30mn[32ms[30mk[32m'[30ms[0m[37m Broadsword of[35m S[1mw[0m[35mi[1mf[0m[35mt[1m J[0m[35mu[1ms[0m[35mt[1mi[0m[35mc[1me[0m~
+Descr
+An immense sword lies here getting rusty on the ground.
+[0;36m~
+Type 5
+Extra 2359296
+Wear 24577
+Values 0 80 0 15 0 0 0 5 3 0 0
+Weight 26
+Cost 1000
+Affect 19 2 1 0 0
+Affect 18 -4 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#66644
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66644 -5 100
+Door 1 0 0 66645 0 0
+~
+~
+End
+
+#66645
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Door 1 0 0 66646 0 0
+~
+~
+Door 3 0 0 66644 0 0
+~
+~
+End
+
+#66646
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66644 -5 100
+Door 0 0 0 66647 0 0
+~
+~
+Door 3 0 0 66645 0 0
+~
+~
+End
+
+#66647
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Door 0 0 0 66648 0 0
+~
+~
+Door 2 0 0 66646 0 0
+~
+~
+End
+
+#66648
+Name Before a Grand Chamber~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66644 -5 100
+Door 0 0 0 66649 0 0
+~
+~
+Door 2 0 0 66647 0 0
+~
+~
+End
+
+#66649
+Name A Grand Chamber~
+Descr
+This grand space has the same smooth look as the passage that led here,
+all along the surrounding walls are huge slabs with carvings that may be
+from a long lost language. A distant sound, almost a dull hum, seems to fill
+the air. Perhaps there is an enchantment that keeps these hollowed caves so
+very "new". 
+~
+Flags 19472
+Sector 42
+Door 0 0 0 66652 0 0
+~
+~
+Door 1 0 0 66651 0 0
+~
+~
+Door 2 0 0 66648 0 0
+~
+~
+Door 3 0 0 66650 0 0
+~
+~
+End
+
+#66650
+Name A Grand Chamber~
+Descr
+This grand space has the same smooth look as the passage that led here,
+all along the surrounding walls are huge slabs with carvings that may be
+from a long lost language. A distant sound, almost a dull hum, seems to fill
+the air. Perhaps there is an enchantment that keeps these hollowed caves so
+very "new". 
+~
+Flags 19472
+Sector 42
+Reset O 66644 -5 100
+Door 0 0 0 66653 0 0
+~
+~
+Door 1 0 0 66649 0 0
+~
+~
+End
+
+#66651
+Name A Grand Chamber~
+Descr
+This grand space has the same smooth look as the passage that led here,
+all along the surrounding walls are huge slabs with carvings that may be
+from a long lost language. A distant sound, almost a dull hum, seems to fill
+the air. Perhaps there is an enchantment that keeps these hollowed caves so
+very "new". 
+~
+Flags 19472
+Sector 42
+Reset O 66644 -5 100
+Door 0 0 0 66654 0 0
+~
+~
+Door 3 0 0 66649 0 0
+~
+~
+End
+
+#66652
+Name The Center of the Chamber~
+Descr
+In the center of this grand chamber sits a mighty stone altar surrounded
+by tiles filled with more uninterprable carvings. The ceiling to the room
+rises high overhead allowing the sound to resonate and perhaps enhance the
+hum that eminates from this very spot. 
+~
+Flags 1073744912
+Sector 42
+Reset O 66645 -5 100
+Reset M 66686 1 100
+Reset O 14174 -1 1
+Reset O 66670 -1 5
+Door 0 0 0 66655 0 0
+~
+~
+Door 1 0 0 66654 0 0
+~
+~
+Door 2 0 0 66649 0 0
+~
+~
+Door 3 0 0 66653 0 0
+~
+~
+Door 5 259 0 66673 60 60
+~
+tile~
+End
+
+#66653
+Name A Grand Chamber~
+Descr
+This grand space has the same smooth look as the passage that led here,
+all along the surrounding walls are huge slabs with carvings that may be
+from a long lost language. A distant sound, almost a dull hum, seems to fill
+the air. Perhaps there is an enchantment that keeps these hollowed caves so
+very "new". 
+~
+Flags 19472
+Sector 42
+Door 0 0 0 66656 0 0
+~
+~
+Door 1 0 0 66652 0 0
+~
+~
+Door 2 0 0 66650 0 0
+~
+~
+Door 3 259 0 66663 30 30
+~
+slab~
+End
+
+#66654
+Name A Grand Chamber~
+Descr
+This grand space has the same smooth look as the passage that led here,
+all along the surrounding walls are huge slabs with carvings that may be
+from a long lost language. A distant sound, almost a dull hum, seems to fill
+the air. Perhaps there is an enchantment that keeps these hollowed caves so
+very "new". 
+~
+Flags 19472
+Sector 42
+Door 0 0 0 66657 0 0
+~
+~
+Door 1 259 0 66668 30 30
+~
+slab~
+Door 2 0 0 66651 0 0
+~
+~
+Door 3 0 0 66652 0 0
+~
+~
+End
+
+#66655
+Name A Grand Chamber~
+Descr
+This grand space has the same smooth look as the passage that led here,
+all along the surrounding walls are huge slabs with carvings that may be
+from a long lost language. A distant sound, almost a dull hum, seems to fill
+the air. Perhaps there is an enchantment that keeps these hollowed caves so
+very "new". 
+~
+Flags 19472
+Sector 42
+Door 0 259 0 66658 30 30
+~
+slab~
+Door 1 0 0 66657 0 0
+~
+~
+Door 2 0 0 66652 0 0
+~
+~
+Door 3 0 0 66656 0 0
+~
+~
+End
+
+#66656
+Name A Grand Chamber~
+Descr
+This grand space has the same smooth look as the passage that led here,
+all along the surrounding walls are huge slabs with carvings that may be
+from a long lost language. A distant sound, almost a dull hum, seems to fill
+the air. Perhaps there is an enchantment that keeps these hollowed caves so
+very "new". 
+~
+Flags 19472
+Sector 42
+Reset O 66644 -5 100
+Reset M 66674 1 100
+Door 1 0 0 66655 0 0
+~
+~
+Door 2 0 0 66653 0 0
+~
+~
+End
+
+#66657
+Name A Grand Chamber~
+Descr
+This grand space has the same smooth look as the passage that led here,
+all along the surrounding walls are huge slabs with carvings that may be
+from a long lost language. A distant sound, almost a dull hum, seems to fill
+the air. Perhaps there is an enchantment that keeps these hollowed caves so
+very "new". 
+~
+Flags 19472
+Sector 42
+Reset O 66644 -5 100
+Reset M 66674 1 100
+Door 2 0 0 66654 0 0
+~
+~
+Door 3 0 0 66655 0 0
+~
+~
+End
+
+#66658
+Name Behind the Slab~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66644 -5 100
+Door 0 0 0 66659 0 0
+~
+~
+Door 2 259 0 66655 30 30
+~
+slab~
+End
+
+#66659
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Door 0 0 0 66660 0 0
+~
+~
+Door 2 0 0 66658 0 0
+~
+~
+End
+
+#66660
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66644 -5 100
+Door 1 0 0 66661 0 0
+~
+~
+Door 2 0 0 66659 0 0
+~
+~
+End
+
+#66661
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Door 1 0 0 66662 0 0
+~
+~
+Door 3 0 0 66660 0 0
+~
+~
+End
+
+#66662
+Name An End to the Passage~
+Descr
+The walls are smooth and clean, with the exception of a small fissure,
+suggesting that they have been freshly carved, but the thin layer of dust on
+the floor reveals the true age of this passage. A sense or feeling suggests
+that perhaps a great enchantment holds this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66649 -5 100
+Reset O 66644 -5 100
+Door 3 0 0 66661 0 0
+~
+~
+End
+
+#66663
+Name Behind the Slab~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66644 -5 100
+Door 1 259 0 66653 30 30
+~
+slab~
+Door 3 0 0 66664 0 0
+~
+~
+End
+
+#66664
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Door 1 0 0 66663 0 0
+~
+~
+Door 3 0 0 66665 0 0
+~
+~
+End
+
+#66665
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66644 -5 100
+Door 0 0 0 66666 0 0
+~
+~
+Door 1 0 0 66664 0 0
+~
+~
+End
+
+#66666
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Door 0 0 0 66667 0 0
+~
+~
+Door 2 0 0 66665 0 0
+~
+~
+End
+
+#66667
+Name An End to the Passage~
+Descr
+With the exception of a large crack running from ceiling to floor on the
+western wall, they are smooth and clean suggesting that they may have been
+freshly carved, although a thin layer of dust on the floor reveals the true
+age of this passage. A sense or feeling suggests that perhaps a great
+enchantment holds this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66656 -5 100
+Reset O 66644 -5 100
+Door 2 0 0 66666 0 0
+~
+~
+End
+
+#66668
+Name Behind the Slab~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66644 -5 100
+Door 1 0 0 66669 0 0
+~
+~
+Door 3 259 0 66654 30 30
+~
+slab~
+End
+
+#66669
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Door 1 0 0 66670 0 0
+~
+~
+Door 3 0 0 66668 0 0
+~
+~
+End
+
+#66670
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Reset O 66644 -5 100
+Door 2 0 0 66671 0 0
+~
+~
+Door 3 0 0 66669 0 0
+~
+~
+End
+
+#66671
+Name A Smoothly Hewn Passage~
+Descr
+The walls are smooth and clean suggesting they have been freshly carved,
+but the thin layer of dust on the floor reveals the true age of this
+passage. A sense or feeling suggests that perhaps a great enchantment holds
+this passage to its youth. 
+~
+Flags 19473
+Sector 40
+Door 0 0 0 66670 0 0
+~
+~
+Door 2 0 0 66672 0 0
+~
+~
+End
+
+#66672
+Name An End to the Passage~
+Descr
+The walls are smooth and clean suggesting that they have been freshly
+carved, but a thin layer of dust on the floor reveals the true age of this
+passage. A small hole occupies the corner of the passage. 
+~
+Flags 19473
+Sector 40
+Reset O 66659 -5 100
+Reset O 66644 -5 100
+Door 0 0 0 66671 0 0
+~
+~
+End
+
+#66673
+Name An Alcove Beneath the Altar~
+Descr
+Not unlike the chamber above, the walls are smooth and cool to the
+touch. A basin and small stone pantry are in the corner suggesting that
+maybe someone or something is here!  
+~
+Flags2 6
+Flags 19472
+Sector 41
+ExtraDescr basin~
+Upon closer inspection the basin looks to never run out of water.
+
+~
+Door 3 0 0 66674 0 0
+~
+~
+Door 4 259 0 66652 30 30
+~
+tile~
+End
+
+#66674
+Name An Alcove Beneath the Altar~
+Descr
+Not unlike the chamber above, the walls are smooth and cool to the
+touch. A basin and small stone pantry are in the corner suggesting that
+maybe someone or something is here!  
+~
+Flags2 6
+Flags 19504
+Sector 41
+Reset M 66645 1 100
+Reset O 66648 -1 10
+Reset O 66647 -5 100
+Reset O 37 -3 100
+Reset O 37 -3 100
+Reset O 66646 -5 100
+Door 1 0 0 66673 0 0
+~
+~
+End
+
+#66675
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the poor
+delusional souls that are held captive here. The traps, pitfalls, and other
+maze-like accompaniments would definitely confuse any sane man that would
+venture here. A fissure in the floor of the dungeon occupies the center of
+the room. 
+~
+Flags 19456
+Sector 40
+Reset O 66650 -5 100
+Door 1 0 0 66676 0 0
+~
+~
+End
+
+#66676
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Reset M 66684 1 100
+Door 2 0 0 66677 0 0
+~
+~
+Door 3 0 0 66675 0 0
+~
+~
+End
+
+#66677
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66676 0 0
+~
+~
+Door 1 0 0 66678 0 0
+~
+~
+Door 2 0 0 66679 0 0
+~
+~
+End
+
+#66678
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66710 0 0
+~
+~
+Door 3 0 0 66677 0 0
+~
+~
+End
+
+#66679
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66677 0 0
+~
+~
+Door 2 0 0 66680 0 0
+~
+~
+End
+
+#66680
+Name The Dungeon of Delusion~
+Descr
+A large pit has been dug in the center of the room. The edges around the
+pit are just enough to allow someone to carefully pass, though from the
+markings on the walls it is obvious that others have fallen. A rank smell
+eminating from the pit is at first unrecognizable...but it soon comes back.
+It is the smell of death. 
+~
+Flags 19456
+Sector 40
+Reset M 66674 1 100
+Reset M 66683 1 100
+Move_dir 5
+Door 0 0 0 66679 0 0
+~
+~
+Door 3 0 0 66681 0 0
+~
+~
+End
+
+#66681
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66680 0 0
+~
+~
+Door 2 0 0 66682 0 0
+~
+~
+End
+
+#66682
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66681 0 0
+~
+~
+Door 2 0 0 66683 0 0
+~
+~
+End
+
+#66683
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66682 0 0
+~
+~
+Door 1 0 0 66695 0 0
+~
+~
+Door 2 0 0 66684 0 0
+~
+~
+End
+
+#66684
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66683 0 0
+~
+~
+Door 1 0 0 66694 0 0
+~
+~
+Door 2 0 0 66685 0 0
+~
+~
+Door 3 0 0 66690 0 0
+~
+~
+End
+
+#66685
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66684 0 0
+~
+~
+Door 1 0 0 66693 0 0
+~
+~
+Door 2 0 0 66686 0 0
+~
+~
+Door 3 0 0 66689 0 0
+~
+~
+End
+
+#66686
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66685 0 0
+~
+~
+Door 1 0 0 66692 0 0
+~
+~
+Door 2 0 0 66687 0 0
+~
+~
+Door 3 0 0 66688 0 0
+~
+~
+End
+
+#66687
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66680 1 100
+Door 0 0 0 66686 0 0
+~
+~
+Door 1 0 0 66691 0 0
+~
+~
+End
+
+#66688
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66676 1 100
+Door 0 0 0 66689 0 0
+~
+~
+Door 1 0 0 66686 0 0
+~
+~
+End
+
+#66689
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66690 0 0
+~
+~
+Door 1 0 0 66685 0 0
+~
+~
+Door 2 0 0 66688 0 0
+~
+~
+End
+
+#66690
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66675 1 100
+Door 1 0 0 66684 0 0
+~
+~
+Door 2 0 0 66689 0 0
+~
+~
+End
+
+#66691
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66692 0 0
+~
+~
+Door 1 0 0 66700 0 0
+~
+~
+Door 3 0 0 66687 0 0
+~
+~
+End
+
+#66692
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66693 0 0
+~
+~
+Door 1 0 0 66699 0 0
+~
+~
+Door 2 0 0 66691 0 0
+~
+~
+Door 3 0 0 66686 0 0
+~
+~
+End
+
+#66693
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags2 6
+Flags 19456
+Sector 43
+Reset M 66681 1 100
+Reset O 66668 -4 100
+Reset O 66680 -1 1
+Door 0 0 0 66694 0 0
+~
+~
+Door 1 0 0 66698 0 0
+~
+~
+Door 2 0 0 66692 0 0
+~
+~
+Door 3 0 0 66685 0 0
+~
+~
+End
+
+#66694
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66695 0 0
+~
+~
+Door 1 0 0 66697 0 0
+~
+~
+Door 2 0 0 66693 0 0
+~
+~
+Door 3 0 0 66684 0 0
+~
+~
+End
+
+#66695
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66688 1 100
+Door 1 0 0 66696 0 0
+~
+~
+Door 2 0 0 66694 0 0
+~
+~
+Door 3 0 0 66683 0 0
+~
+~
+End
+
+#66696
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66704 0 0
+~
+~
+Door 2 0 0 66697 0 0
+~
+~
+Door 3 0 0 66695 0 0
+~
+~
+End
+
+#66697
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66674 1 100
+Door 0 0 0 66696 0 0
+~
+~
+Door 1 0 0 66703 0 0
+~
+~
+Door 2 0 0 66698 0 0
+~
+~
+Door 3 0 0 66694 0 0
+~
+~
+End
+
+#66698
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66697 0 0
+~
+~
+Door 1 0 0 66702 0 0
+~
+~
+Door 2 0 0 66699 0 0
+~
+~
+Door 3 0 0 66693 0 0
+~
+~
+End
+
+#66699
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66698 0 0
+~
+~
+Door 1 0 0 66701 0 0
+~
+~
+Door 2 0 0 66700 0 0
+~
+~
+Door 3 0 0 66692 0 0
+~
+~
+End
+
+#66700
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66679 1 100
+Reset O 88 -1 20
+Door 0 0 0 66699 0 0
+~
+~
+Door 3 0 0 66691 0 0
+~
+~
+End
+
+#66701
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66677 1 100
+Door 0 0 0 66702 0 0
+~
+~
+Door 3 0 0 66699 0 0
+~
+~
+End
+
+#66702
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66703 0 0
+~
+~
+Door 1 0 0 66969 0 0
+~
+~
+Door 2 0 0 66701 0 0
+~
+~
+Door 3 0 0 66698 0 0
+~
+~
+End
+
+#66703
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66678 1 100
+Reset O 92 -1 15
+Door 2 0 0 66702 0 0
+~
+~
+Door 3 0 0 66697 0 0
+~
+~
+End
+
+#66704
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 2048
+Sector 40
+Door 0 0 0 66706 0 0
+~
+~
+Door 2 0 0 66696 0 0
+~
+~
+Door 3 0 0 66705 0 0
+~
+~
+End
+
+#66705
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 2048
+Sector 40
+Door 1 0 0 66704 0 0
+~
+~
+End
+
+#66706
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 2048
+Sector 40
+Door 1 0 0 66707 0 0
+~
+~
+Door 2 0 0 66704 0 0
+~
+~
+End
+
+#66707
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 2048
+Sector 40
+Door 0 0 0 66708 0 0
+~
+~
+Door 3 0 0 66706 0 0
+~
+~
+End
+
+#66708
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 2048
+Sector 40
+Door 2 0 0 66707 0 0
+~
+~
+Door 3 0 0 66709 0 0
+~
+~
+End
+
+#66709
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 2048
+Sector 40
+Door 1 0 0 66708 0 0
+~
+~
+Door 3 0 0 66679 0 0
+~
+~
+End
+
+#66710
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Reset M 66688 1 100
+Door 0 0 0 66711 0 0
+~
+~
+Door 1 0 0 66712 0 0
+~
+~
+Door 3 0 0 66678 0 0
+~
+~
+End
+
+#66711
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 2 0 0 66710 0 0
+~
+~
+Door 3 0 0 66713 0 0
+~
+~
+End
+
+#66712
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 2 0 0 66714 0 0
+~
+~
+Door 3 0 0 66710 0 0
+~
+~
+End
+
+#66713
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags2 8
+Flags 19456
+Sector 40
+Move_dir 5
+Door 1 0 0 66711 0 0
+~
+~
+Door 5 0 0 66784 0 0
+~
+~
+End
+
+#66714
+Name The Dungeon of Delusion~
+Descr
+A large pit has been dug in the center of the room. The edges around the
+pit are just enough to allow someone to carefully pass, though from the
+markings on the walls it is obvious that others have fallen. A rank smell
+eminating from the pit is at first unrecognizable...but it soon comes back.
+It is the smell of death. 
+~
+Flags 19456
+Sector 40
+Reset M 66683 1 100
+Move_dir 5
+Door 0 0 0 66712 0 0
+~
+~
+Door 1 0 0 66715 0 0
+~
+~
+Door 2 0 0 66716 0 0
+~
+~
+End
+
+#66715
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66717 0 0
+~
+~
+Door 2 0 0 66719 0 0
+~
+~
+Door 3 0 0 66714 0 0
+~
+~
+End
+
+#66716
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66714 0 0
+~
+~
+Door 2 0 0 66721 0 0
+~
+~
+End
+
+#66717
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66718 0 0
+~
+~
+Door 3 0 0 66715 0 0
+~
+~
+End
+
+#66718
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags2 64
+Flags 19456
+Sector 40
+Door 2 0 0 66717 0 0
+~
+~
+End
+
+#66719
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66715 0 0
+~
+~
+Door 2 0 0 66720 0 0
+~
+~
+End
+
+#66720
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags2 8
+Flags 19456
+Sector 40
+Move_dir 5
+Door 0 0 0 66719 0 0
+~
+~
+Door 5 0 0 66785 0 0
+~
+~
+End
+
+#66721
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66716 0 0
+~
+~
+Door 3 0 0 66722 0 0
+~
+~
+End
+
+#66722
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Reset M 66684 1 100
+Door 1 0 0 66721 0 0
+~
+~
+Door 2 0 0 66723 0 0
+~
+~
+End
+
+#66723
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66722 0 0
+~
+~
+Door 1 0 0 66724 0 0
+~
+~
+End
+
+#66724
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66725 0 0
+~
+~
+Door 3 0 0 66723 0 0
+~
+~
+End
+
+#66725
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 1 0 0 66727 0 0
+~
+~
+Door 2 0 0 66726 0 0
+~
+~
+Door 3 0 0 66724 0 0
+~
+~
+End
+
+#66726
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 0 0 0 66725 0 0
+~
+~
+Door 1 0 0 66728 0 0
+~
+~
+Door 2 0 0 66970 0 0
+~
+~
+End
+
+#66727
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 0 0 0 66730 0 0
+~
+~
+Door 1 0 0 66729 0 0
+~
+~
+Door 2 0 0 66728 0 0
+~
+~
+Door 3 0 0 66725 0 0
+~
+~
+End
+
+#66728
+Name A Well Lit Chamber~
+Descr
+The first thing anyone would notice when entering this chamber is that
+both the south and east walls are decorated with shiny beads of glass.
+Whispers seem to be all around as well. 
+~
+Flags2 6
+Flags 19472
+Sector 42
+Reset M 66647 1 100
+Reset O 66676 -1 1
+Reset O 82 -1 1
+Reset O 66655 -5 100
+Door 0 0 0 66727 0 0
+~
+~
+Door 3 0 0 66726 0 0
+~
+~
+End
+
+#66729
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66731 0 0
+~
+~
+Door 3 0 0 66727 0 0
+~
+~
+End
+
+#66730
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 3200
+Sector 40
+Door 0 0 0 66771 0 0
+~
+~
+Door 2 0 0 66727 0 0
+~
+~
+End
+
+#66731
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66732 0 0
+~
+~
+Door 3 0 0 66729 0 0
+~
+~
+End
+
+#66732
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66737 0 0
+~
+~
+Door 2 0 0 66733 0 0
+~
+~
+Door 3 0 0 66731 0 0
+~
+~
+End
+
+#66733
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66732 0 0
+~
+~
+Door 2 0 0 66734 0 0
+~
+~
+End
+
+#66734
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Reset M 66684 1 100
+Door 0 0 0 66733 0 0
+~
+~
+Door 3 0 0 66735 0 0
+~
+~
+End
+
+#66735
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66734 0 0
+~
+~
+Door 2 0 0 66736 0 0
+~
+~
+End
+
+#66736
+Name The Dungeon of Delusion~
+Descr
+A large pit has been dug in the center of the room. The smooth walls
+offer no chance at purchase to slow the fall. All that can be done is hope
+for a soft landing. 
+~
+Flags2 8
+Flags 19456
+Sector 40
+Move_dir 5
+Door 0 0 0 66735 0 0
+~
+~
+Door 5 0 0 66789 0 0
+~
+~
+End
+
+#66737
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66747 0 0
+~
+~
+Door 1 0 0 66738 0 0
+~
+~
+Door 3 0 0 66732 0 0
+~
+~
+End
+
+#66738
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66688 1 100
+Door 0 0 0 66746 0 0
+~
+~
+Door 1 0 0 66739 0 0
+~
+~
+Door 2 0 0 66743 0 0
+~
+~
+Door 3 0 0 66737 0 0
+~
+~
+End
+
+#66739
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66745 0 0
+~
+~
+Door 1 0 0 66740 0 0
+~
+~
+Door 2 0 0 66742 0 0
+~
+~
+Door 3 0 0 66738 0 0
+~
+~
+End
+
+#66740
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66744 0 0
+~
+~
+Door 1 0 0 66966 0 0
+~
+~
+Door 2 0 0 66741 0 0
+~
+~
+Door 3 0 0 66739 0 0
+~
+~
+End
+
+#66741
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66676 1 100
+Reset O 92 -1 15
+Door 0 0 0 66740 0 0
+~
+~
+Door 3 0 0 66742 0 0
+~
+~
+End
+
+#66742
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66739 0 0
+~
+~
+Door 1 0 0 66741 0 0
+~
+~
+Door 3 0 0 66743 0 0
+~
+~
+End
+
+#66743
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66675 1 100
+Door 0 0 0 66738 0 0
+~
+~
+Door 1 0 0 66742 0 0
+~
+~
+End
+
+#66744
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66748 0 0
+~
+~
+Door 1 0 0 66967 0 0
+~
+~
+Door 2 0 0 66740 0 0
+~
+~
+Door 3 0 0 66745 0 0
+~
+~
+End
+
+#66745
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags2 6
+Flags 19456
+Sector 43
+Reset M 66682 1 100
+Reset O 66679 -4 5
+Door 0 0 0 66749 0 0
+~
+~
+Door 1 0 0 66744 0 0
+~
+~
+Door 2 0 0 66739 0 0
+~
+~
+Door 3 0 0 66746 0 0
+~
+~
+End
+
+#66746
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66750 0 0
+~
+~
+Door 1 0 0 66745 0 0
+~
+~
+Door 2 0 0 66738 0 0
+~
+~
+Door 3 0 0 66747 0 0
+~
+~
+End
+
+#66747
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66680 1 100
+Door 0 0 0 66751 0 0
+~
+~
+Door 1 0 0 66746 0 0
+~
+~
+Door 2 0 0 66737 0 0
+~
+~
+End
+
+#66748
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66753 0 0
+~
+~
+Door 1 0 0 66968 0 0
+~
+~
+Door 2 0 0 66744 0 0
+~
+~
+Door 3 0 0 66749 0 0
+~
+~
+End
+
+#66749
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66679 1 100
+Door 0 259 0 66752 30 30
+~
+rubble~
+Door 1 0 0 66748 0 0
+~
+~
+Door 2 0 0 66745 0 0
+~
+~
+Door 3 0 0 66750 0 0
+~
+~
+End
+
+#66750
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 1 0 0 66749 0 0
+~
+~
+Door 2 0 0 66746 0 0
+~
+~
+Door 3 0 0 66751 0 0
+~
+~
+End
+
+#66751
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66759 0 0
+~
+~
+Door 1 0 0 66750 0 0
+~
+~
+Door 2 0 0 66747 0 0
+~
+~
+End
+
+#66752
+Name The Dungeon of Delusion~
+Descr
+A large pit has been dug in the center of the room. The smooth walls
+offer no chance at purchase to slow the fall. All that can be done is hope
+for a soft landing. 
+~
+Flags2 8
+Flags 19456
+Sector 41
+Move_dir 5
+Door 2 259 0 66749 30 30
+~
+rubble~
+Door 5 0 0 66792 30 30
+~
+arg~
+End
+
+#66753
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66754 0 0
+~
+~
+Door 2 0 0 66748 0 0
+~
+~
+End
+
+#66754
+Name The Dungeon of Delusion~
+Descr
+A large pit has been dug in the center of the room. The edges around the
+pit are just enough to allow someone to carefully pass, though from the
+markings on the walls it is obvious that others have fallen. A rank smell
+eminating from the pit is at first unrecognizable...but it soon comes back.
+It is the smell of death. 
+~
+Flags 19456
+Sector 40
+Reset M 66674 1 100
+Move_dir 5
+Door 2 0 0 66753 0 0
+~
+~
+Door 3 0 0 66755 0 0
+~
+~
+End
+
+#66755
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66754 0 0
+~
+~
+Door 3 0 0 66756 0 0
+~
+~
+End
+
+#66756
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66755 0 0
+~
+~
+Door 2 0 0 66758 0 0
+~
+~
+Door 3 0 0 66757 0 0
+~
+~
+End
+
+#66757
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66756 0 0
+~
+~
+Door 3 0 0 66761 0 0
+~
+~
+End
+
+#66758
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Reset M 66646 1 100
+Reset O 66653 -4 100
+Reset O 66654 -3 100
+Door 0 0 0 66756 0 0
+~
+~
+End
+
+#66759
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 2 0 0 66751 0 0
+~
+~
+Door 3 0 0 66760 0 0
+~
+~
+End
+
+#66760
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Reset M 66683 1 100
+Door 0 0 0 66761 0 0
+~
+~
+Door 1 0 0 66759 0 0
+~
+~
+End
+
+#66761
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66762 0 0
+~
+~
+Door 2 0 0 66760 0 0
+~
+~
+Door 3 0 0 66764 0 0
+~
+~
+End
+
+#66762
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 2 0 0 66761 0 0
+~
+~
+Door 3 0 0 66763 0 0
+~
+~
+End
+
+#66763
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags2 64
+Flags 19456
+Sector 40
+Reset M 66674 1 100
+Door 1 0 0 66762 0 0
+~
+~
+End
+
+#66764
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 3200
+Sector 40
+Door 1 0 0 66761 0 0
+~
+~
+Door 3 0 0 66765 0 0
+~
+~
+End
+
+#66765
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 3200
+Sector 40
+Reset M 66683 1 100
+Door 1 0 0 66764 0 0
+~
+~
+Door 2 0 0 66766 0 0
+~
+~
+End
+
+#66766
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 3200
+Sector 40
+Door 0 0 0 66765 0 0
+~
+~
+Door 2 0 0 66767 0 0
+~
+~
+Door 3 0 0 66717 0 0
+~
+~
+End
+
+#66767
+Name The Dungeon of Delusion~
+Descr
+A large pit has been dug in the center of the room. The edges around the
+pit are just enough to allow someone to carefully pass, though from the
+markings on the walls it is obvious that others have fallen. A rank smell
+eminating from the pit is at first unrecognizable...but it soon comes back.
+It is the smell of death. 
+~
+Flags 3200
+Sector 40
+Move_dir 5
+Door 0 0 0 66766 0 0
+~
+~
+Door 1 0 0 66768 0 0
+~
+~
+Door 3 0 0 66771 0 0
+~
+~
+End
+
+#66768
+Name The Dungeon of Delusion~
+Descr
+~
+Flags 3200
+Sector 40
+Door 1 0 0 66769 0 0
+~
+~
+Door 3 0 0 66767 0 0
+~
+~
+End
+
+#66769
+Name The Dungeon of Delusion~
+Descr
+~
+Flags 3200
+Sector 40
+Reset M 66684 1 100
+Door 2 0 0 66770 0 0
+~
+~
+Door 3 0 0 66768 0 0
+~
+~
+End
+
+#66770
+Name The Dungeon of Delusion~
+Descr
+~
+Flags2 64
+Flags 3200
+Sector 40
+Door 0 0 0 66769 0 0
+~
+~
+End
+
+#66771
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 3200
+Sector 40
+Reset M 66688 1 100
+Door 1 0 0 66767 0 0
+~
+~
+Door 2 0 0 66730 0 0
+~
+~
+End
+
+#66772
+Name Inside an Oubliette~
+Descr
+Unfortunately this oubliette was dug long ago in the times of magic. The
+hole in the ceiling was designed magically to close behind the would be
+victim. No amount of levitation spell would get anyone out of this
+mess...perhaps it's time to start digging?  
+~
+Flags2 512
+Flags 402672641
+Sector 46
+End
+
+#66773
+Name A Roughly Hewn Tunnel~
+Descr
+This hastily dug tunnel seems to head off to nowhere. It is not at all
+like the dungeon above, there are rocks, roots, and assorted other debris
+hanging off the walls and from the ceiling. Perhaps it was dug by a captive
+of the oubliette?  Or...maybe it was dug by someone who wanted to torture
+the poor inhabitants of the oubliette. 
+~
+Flags 19456
+Sector 47
+Door 0 259 0 66772 30 30
+~
+rocks~
+Door 2 0 0 66774 0 0
+~
+~
+End
+
+#66774
+Name A Roughly Hewn Tunnel~
+Descr
+This hastily dug tunnel seems to head off to nowhere. It is not at all
+like the dungeon above, there are rocks, roots, and assorted other debris
+hanging off the walls and from the ceiling. Perhaps it was dug by a captive
+of the oubliette?  Or...maybe it was dug by someone who wanted to torture
+the poor inhabitants of the oubliette. 
+~
+Flags 268454912
+Sector 47
+Door 0 0 0 66773 0 0
+~
+~
+Door 3 0 0 66775 0 0
+~
+~
+End
+
+#66775
+Name A Roughly Hewn Tunnel~
+Descr
+This hastily dug tunnel seems to head off to nowhere. It is not at all
+like the dungeon above, there are rocks, roots, and assorted other debris
+hanging off the walls and from the ceiling. Perhaps it was dug by a captive
+of the oubliette?  Or...maybe it was dug by someone who wanted to torture
+the poor inhabitants of the oubliette. 
+~
+Flags 19456
+Sector 47
+Door 1 0 0 66774 0 0
+~
+~
+Door 3 0 0 66776 0 0
+~
+~
+End
+
+#66776
+Name A Roughly Hewn Tunnel~
+Descr
+This hastily dug tunnel seems to head off to nowhere. It is not at all
+like the dungeon above, there are rocks, roots, and assorted other debris
+hanging off the walls and from the ceiling. Perhaps it was dug by a captive
+of the oubliette?  Or...maybe it was dug by someone who wanted to torture
+the poor inhabitants of the oubliette. 
+~
+Flags 19456
+Sector 47
+Door 1 0 0 66775 0 0
+~
+~
+Door 3 0 0 66777 0 0
+~
+~
+End
+
+#66777
+Name A Roughly Hewn Tunnel~
+Descr
+This hastily dug tunnel seems to head off to nowhere. It is not at all
+like the dungeon above, there are rocks, roots, and assorted other debris
+hanging off the walls and from the ceiling. Perhaps it was dug by a captive
+of the oubliette?  Or...maybe it was dug by someone who wanted to torture
+the poor inhabitants of the oubliette. 
+~
+Flags 19456
+Sector 47
+Door 1 0 0 66776 0 0
+~
+~
+Door 3 0 0 66778 0 0
+~
+~
+End
+
+#66778
+Name A Roughly Hewn Tunnel~
+Descr
+This hastily dug tunnel seems to head off to nowhere. It is not at all
+like the dungeon above, there are rocks, roots, and assorted other debris
+hanging off the walls and from the ceiling. Perhaps it was dug by a captive
+of the oubliette?  Or...maybe it was dug by someone who wanted to torture
+the poor inhabitants of the oubliette. 
+~
+Flags 19456
+Sector 47
+Door 1 0 0 66777 0 0
+~
+~
+Door 2 0 0 66780 0 0
+~
+~
+Door 3 259 0 66779 30 30
+~
+door~
+End
+
+#66779
+Name At the Foot of a Steep Passage~
+Descr
+The large passage stretches up as far as the eye can see. The smooth
+walls are going to make getting out of here a chore...one should be careful
+else they may end up back here at the bottom hurting. 
+~
+Flags 19456
+Sector 47
+Door 1 259 0 66778 30 30
+~
+door~
+Door 4 0 0 66786 0 0
+~
+~
+End
+
+#66780
+Name A Roughly Hewn Tunnel~
+Descr
+This hastily dug tunnel seems to head off to nowhere. It is not at all
+like the dungeon above, there are rocks, roots, and assorted other debris
+hanging off the walls and from the ceiling. Perhaps it was dug by a captive
+of the oubliette?  Or...maybe it was dug by someone who wanted to torture
+the poor inhabitants of the oubliette. 
+~
+Flags 19456
+Sector 47
+Door 0 0 0 66778 0 0
+~
+~
+Door 2 0 0 66781 0 0
+~
+~
+End
+
+#66781
+Name A Roughly Hewn Tunnel~
+Descr
+This hastily dug tunnel seems to head off to nowhere. It is not at all
+like the dungeon above, there are rocks, roots, and assorted other debris
+hanging off the walls and from the ceiling. Perhaps it was dug by a captive
+of the oubliette?  Or...maybe it was dug by someone who wanted to torture
+the poor inhabitants of the oubliette. 
+~
+Flags 268454912
+Sector 47
+Door 0 0 0 66780 0 0
+~
+~
+Door 2 0 0 66782 0 0
+~
+~
+End
+
+#66782
+Name A Roughly Hewn Tunnel~
+Descr
+This hastily dug tunnel seems to head off to nowhere. It is not at all
+like the dungeon above, there are rocks, roots, and assorted other debris
+hanging off the walls and from the ceiling. Perhaps it was dug by a captive
+of the oubliette?  Or...maybe it was dug by someone who wanted to torture
+the poor inhabitants of the oubliette. 
+~
+Flags 19456
+Sector 47
+Door 0 0 0 66781 0 0
+~
+~
+Door 2 259 0 66783 30 30
+~
+rocks~
+End
+
+#66783
+Name Inside an Oubliette~
+Descr
+Unfortunately this oubliette was dug long ago in the times of magic. The
+hole in the ceiling was designed magically to close behind the would be
+victim. No amount of levitation spell would get anyone out of this
+mess...perhaps it's time to start digging?  
+~
+Flags2 512
+Flags 402672641
+Sector 46
+End
+
+#66784
+Name The Bottom of a Pit~
+Descr
+Luckily it appears as though whoever began digging this pit did not have
+time to finish, though the skeletons of those who fell in before attest that
+it was deep enough for some. The walls are fairly smooth and much too
+verticle to get a grip on, however there are just a few vines that may be
+within reach if jumped for. 
+~
+Flags2 512
+Flags 134237184
+Sector 46
+End
+
+#66785
+Name The Bottom of a Pit~
+Descr
+Luckily it appears as though whoever began digging this pit did not have
+time to finish, though the skeletons of those who fell in before attest that
+it was deep enough for some. The walls are fairly smooth and much too
+verticle to get a grip on, however there are just a few vines that may be
+within reach if jumped for. 
+~
+Flags2 512
+Flags 134237184
+Sector 46
+End
+
+#66786
+Name A Steep Passage~
+Descr
+The passage is so steep that footing can sometimes be tricky. It is best
+to be careful else someone might end up back where they started. 
+~
+Flags2 8
+Flags 19456
+Sector 40
+Move_dir 5
+Door 4 0 0 66787 0 0
+~
+~
+Door 5 0 0 66779 0 0
+~
+~
+End
+
+#66787
+Name A Steep Passage~
+Descr
+The passage is so steep that footing can sometimes be tricky. It is best
+to be careful else someone might end up back where they started. 
+~
+Flags2 8
+Flags 19456
+Sector 40
+Move_dir 5
+Door 4 0 0 66790 0 0
+~
+~
+Door 5 0 0 66786 0 0
+~
+~
+End
+
+#66788
+Name Falling Down a Pit~
+Descr
+The smooth walls offer no chance at purchase to slow the fall. All that
+can be done is to hope for a soft landing. 
+~
+Flags2 8
+Flags 19456
+Sector 46
+Move_dir 5
+Door 5 0 0 66783 0 0
+~
+~
+End
+
+#66789
+Name Falling Down a Pit~
+Descr
+The smooth walls offer no chance at purchase to slow the fall. All that
+can be done is to hope for a soft landing. 
+~
+Flags2 8
+Flags 19456
+Sector 46
+Move_dir 5
+Door 5 0 0 66788 0 0
+~
+~
+End
+
+#66790
+Name At the Top of the Passage~
+Descr
+It sure looks to be a long way down...of course, now is not the time to
+look back. It is sometimes best to keep trudging right along. 
+~
+Flags2 8
+Flags 19456
+Sector 40
+Move_dir 5
+Door 2 0 0 66729 0 0
+~
+~
+Door 5 0 0 66787 0 0
+~
+~
+End
+
+#66791
+Name Falling Down a Pit~
+Descr
+The smooth walls offer no chance at purchase to slow the fall. All that
+can be done is to hope for a soft landing. 
+~
+Flags2 8
+Flags 19456
+Sector 46
+Move_dir 5
+Door 5 0 0 66772 30 30
+thrown down a pit!
+~
+~
+End
+
+#66792
+Name Falling Down a Pit~
+Descr
+The smooth walls offer no chance at purchase to slow the fall. All that
+can be done is to hope for a soft landing. 
+~
+Flags2 8
+Flags 19456
+Sector 46
+Move_dir 5
+Door 5 0 0 66791 0 0
+~
+~
+End
+
+#66793
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. A large crack
+stretches from the cieling to the floor in the south wall of the passage. 
+~
+Flags 19456
+Sector 40
+Reset O 66657 -5 100
+Door 0 0 0 66794 0 0
+~
+~
+End
+
+#66794
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66807 0 0
+~
+~
+Door 2 0 0 66793 0 0
+~
+~
+Door 3 0 0 66795 0 0
+~
+~
+End
+
+#66795
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66794 0 0
+~
+~
+Door 3 0 0 66796 0 0
+~
+~
+End
+
+#66796
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Reset M 66674 1 100
+Door 0 0 0 66797 0 0
+~
+~
+Door 1 0 0 66795 0 0
+~
+~
+End
+
+#66797
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 268454912
+Sector 40
+Door 0 0 0 66798 0 0
+~
+~
+Door 2 0 0 66796 0 0
+~
+~
+End
+
+#66798
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66800 0 0
+~
+~
+Door 2 0 0 66797 0 0
+~
+~
+Door 3 0 0 66799 0 0
+~
+~
+End
+
+#66799
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66823 0 0
+~
+~
+Door 1 0 0 66798 0 0
+~
+~
+End
+
+#66800
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66801 0 0
+~
+~
+Door 2 0 0 66798 0 0
+~
+~
+End
+
+#66801
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66802 0 0
+~
+~
+Door 3 0 0 66800 0 0
+~
+~
+End
+
+#66802
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66803 0 0
+~
+~
+Door 2 0 0 66801 0 0
+~
+~
+End
+
+#66803
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Reset M 66674 1 100
+Door 1 0 0 66804 0 0
+~
+~
+Door 2 0 0 66802 0 0
+~
+~
+End
+
+#66804
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66805 0 0
+~
+~
+Door 1 0 0 66815 0 0
+~
+~
+Door 2 0 0 66806 0 0
+~
+~
+Door 3 0 0 66803 0 0
+~
+~
+End
+
+#66805
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66864 0 0
+~
+~
+Door 2 0 0 66804 0 0
+~
+~
+End
+
+#66806
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66804 0 0
+~
+~
+Door 2 0 0 66816 0 0
+~
+~
+End
+
+#66807
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66808 0 0
+~
+~
+Door 3 0 0 66794 0 0
+~
+~
+End
+
+#66808
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Reset M 66674 1 100
+Door 0 0 0 66809 0 0
+~
+~
+Door 3 0 0 66807 0 0
+~
+~
+End
+
+#66809
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66810 0 0
+~
+~
+Door 2 0 0 66808 0 0
+~
+~
+End
+
+#66810
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 268454912
+Sector 40
+Door 0 0 0 66812 0 0
+~
+~
+Door 1 0 0 66811 0 0
+~
+~
+Door 2 0 0 66809 0 0
+~
+~
+End
+
+#66811
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66844 0 0
+~
+~
+Door 3 0 0 66810 0 0
+~
+~
+End
+
+#66812
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 2 0 0 66810 0 0
+~
+~
+Door 3 0 0 66813 0 0
+~
+~
+End
+
+#66813
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66814 0 0
+~
+~
+Door 1 0 0 66812 0 0
+~
+~
+End
+
+#66814
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66815 0 0
+~
+~
+Door 2 0 0 66813 0 0
+~
+~
+End
+
+#66815
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 2 0 0 66814 0 0
+~
+~
+Door 3 0 0 66804 0 0
+~
+~
+End
+
+#66816
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66806 0 0
+~
+~
+Door 2 0 0 66817 0 0
+~
+~
+End
+
+#66817
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 0 0 0 66816 0 0
+~
+~
+Door 1 0 0 66819 0 0
+~
+~
+Door 2 0 0 66820 0 0
+~
+~
+Door 3 0 0 66818 0 0
+~
+~
+End
+
+#66818
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 1 0 0 66817 0 0
+~
+~
+Door 2 0 0 66821 0 0
+~
+~
+End
+
+#66819
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 2 0 0 66822 0 0
+~
+~
+Door 3 0 0 66817 0 0
+~
+~
+End
+
+#66820
+Name A Well Lit Chamber~
+Descr
+All around you pieces of lead have been worked into twisted forms, some
+even seem to be defensive fortifications. Perhaps this man was insane when
+he got here or more likely the lead fumes have given him brain damage. 
+~
+Flags2 6
+Flags 19456
+Sector 42
+Reset O 66660 -5 100
+Reset M 66648 1 100
+Reset O 66675 -1 1
+Door 0 0 0 66817 0 0
+~
+~
+Door 1 0 0 66822 0 0
+~
+~
+Door 3 0 0 66821 0 0
+~
+~
+End
+
+#66821
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 0 0 0 66818 0 0
+~
+~
+Door 1 0 0 66820 0 0
+~
+~
+End
+
+#66822
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 0 0 0 66819 0 0
+~
+~
+Door 3 0 0 66820 0 0
+~
+~
+End
+
+#66823
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66824 0 0
+~
+~
+Door 2 0 0 66799 0 0
+~
+~
+Door 3 0 0 66840 0 0
+~
+~
+End
+
+#66824
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66825 0 0
+~
+~
+Door 2 0 0 66823 0 0
+~
+~
+Door 3 0 0 66833 0 0
+~
+~
+End
+
+#66825
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66673 1 100
+Door 2 0 0 66824 0 0
+~
+~
+Door 3 0 0 66826 0 0
+~
+~
+End
+
+#66826
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66836 0 0
+~
+~
+Door 1 0 0 66825 0 0
+~
+~
+Door 2 0 0 66833 0 0
+~
+~
+Door 3 0 0 66827 0 0
+~
+~
+End
+
+#66827
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66835 0 0
+~
+~
+Door 1 0 0 66826 0 0
+~
+~
+Door 2 0 0 66832 0 0
+~
+~
+Door 3 0 0 66828 0 0
+~
+~
+End
+
+#66828
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 268454928
+Sector 43
+Door 0 0 0 66834 0 0
+~
+~
+Door 1 0 0 66827 0 0
+~
+~
+Door 2 0 0 66831 0 0
+~
+~
+Door 3 0 0 66829 0 0
+~
+~
+End
+
+#66829
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 3216
+Sector 43
+Reset M 66662 1 100
+Door 1 0 0 66828 0 0
+~
+~
+Door 2 0 0 66830 0 0
+~
+~
+End
+
+#66830
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 3216
+Sector 43
+Door 0 0 0 66829 0 0
+~
+~
+Door 1 0 0 66831 0 0
+~
+~
+Door 2 0 0 66837 0 0
+~
+~
+End
+
+#66831
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66671 1 100
+Door 0 0 0 66828 0 0
+~
+~
+Door 1 0 0 66832 0 0
+~
+~
+Door 2 0 0 66838 0 0
+~
+~
+Door 3 0 0 66830 0 0
+~
+~
+End
+
+#66832
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 6
+Flags 19472
+Sector 43
+Door 0 0 0 66827 0 0
+~
+~
+Door 1 0 0 66833 0 0
+~
+~
+Door 2 0 0 66839 0 0
+~
+~
+Door 3 0 0 66831 0 0
+~
+~
+End
+
+#66833
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66672 1 100
+Door 0 0 0 66826 0 0
+~
+~
+Door 1 0 0 66824 0 0
+~
+~
+Door 2 0 0 66840 0 0
+~
+~
+Door 3 0 0 66832 0 0
+~
+~
+End
+
+#66834
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 1 0 0 66835 0 0
+~
+~
+Door 2 0 0 66828 0 0
+~
+~
+End
+
+#66835
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66661 1 100
+Door 1 0 0 66836 0 0
+~
+~
+Door 2 0 0 66827 0 0
+~
+~
+Door 3 0 0 66834 0 0
+~
+~
+End
+
+#66836
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 2 0 0 66826 0 0
+~
+~
+Door 3 0 0 66835 0 0
+~
+~
+End
+
+#66837
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 3216
+Sector 43
+Reset M 66665 1 100
+Door 0 0 0 66830 0 0
+~
+~
+Door 1 0 0 66838 0 0
+~
+~
+End
+
+#66838
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66831 0 0
+~
+~
+Door 1 0 0 66839 0 0
+~
+~
+Door 2 0 0 66843 0 0
+~
+~
+Door 3 0 0 66837 0 0
+~
+~
+End
+
+#66839
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66832 0 0
+~
+~
+Door 1 0 0 66840 0 0
+~
+~
+Door 2 0 0 66842 0 0
+~
+~
+Door 3 0 0 66838 0 0
+~
+~
+End
+
+#66840
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66833 0 0
+~
+~
+Door 1 0 0 66823 0 0
+~
+~
+Door 2 0 0 66841 0 0
+~
+~
+Door 3 0 0 66839 0 0
+~
+~
+End
+
+#66841
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66662 1 100
+Door 0 0 0 66840 0 0
+~
+~
+Door 3 0 0 66842 0 0
+~
+~
+End
+
+#66842
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66839 0 0
+~
+~
+Door 1 0 0 66841 0 0
+~
+~
+Door 3 0 0 66843 0 0
+~
+~
+End
+
+#66843
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66670 1 100
+Door 0 0 0 66838 0 0
+~
+~
+Door 1 0 0 66842 0 0
+~
+~
+End
+
+#66844
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66849 0 0
+~
+~
+Door 1 0 0 66845 0 0
+~
+~
+Door 2 0 0 66811 0 0
+~
+~
+End
+
+#66845
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 268454928
+Sector 43
+Door 0 0 0 66850 0 0
+~
+~
+Door 1 0 0 66846 0 0
+~
+~
+Door 2 0 0 66861 0 0
+~
+~
+Door 3 0 0 66844 0 0
+~
+~
+End
+
+#66846
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66851 0 0
+~
+~
+Door 1 0 0 66847 0 0
+~
+~
+Door 2 0 0 66862 0 0
+~
+~
+Door 3 0 0 66845 0 0
+~
+~
+End
+
+#66847
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66852 0 0
+~
+~
+Door 1 0 0 66848 0 0
+~
+~
+Door 2 0 0 66863 0 0
+~
+~
+Door 3 0 0 66846 0 0
+~
+~
+End
+
+#66848
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66666 1 100
+Door 0 0 0 66853 0 0
+~
+~
+Door 3 0 0 66847 0 0
+~
+~
+End
+
+#66849
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66854 0 0
+~
+~
+Door 1 0 0 66850 0 0
+~
+~
+Door 2 0 0 66844 0 0
+~
+~
+End
+
+#66850
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66673 1 100
+Door 0 0 0 66855 0 0
+~
+~
+Door 1 0 0 66851 0 0
+~
+~
+Door 2 0 0 66845 0 0
+~
+~
+Door 3 0 0 66849 0 0
+~
+~
+End
+
+#66851
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 6
+Flags 19472
+Sector 43
+Door 0 0 0 66856 0 0
+~
+~
+Door 1 0 0 66852 0 0
+~
+~
+Door 2 0 0 66846 0 0
+~
+~
+Door 3 0 0 66850 0 0
+~
+~
+End
+
+#66852
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66672 1 100
+Door 0 0 0 66857 0 0
+~
+~
+Door 1 0 0 66853 0 0
+~
+~
+Door 2 0 0 66847 0 0
+~
+~
+Door 3 0 0 66851 0 0
+~
+~
+End
+
+#66853
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66868 0 0
+~
+~
+Door 2 0 0 66848 0 0
+~
+~
+Door 3 0 0 66852 0 0
+~
+~
+End
+
+#66854
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66669 1 100
+Door 1 0 0 66855 0 0
+~
+~
+Door 2 0 0 66849 0 0
+~
+~
+End
+
+#66855
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66860 0 0
+~
+~
+Door 1 0 0 66856 0 0
+~
+~
+Door 2 0 0 66850 0 0
+~
+~
+Door 3 0 0 66854 0 0
+~
+~
+End
+
+#66856
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66859 0 0
+~
+~
+Door 1 0 0 66857 0 0
+~
+~
+Door 2 0 0 66851 0 0
+~
+~
+Door 3 0 0 66855 0 0
+~
+~
+End
+
+#66857
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66858 0 0
+~
+~
+Door 1 0 0 66868 0 0
+~
+~
+Door 2 0 0 66852 0 0
+~
+~
+Door 3 0 0 66856 0 0
+~
+~
+End
+
+#66858
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 2 0 0 66857 0 0
+~
+~
+Door 3 0 0 66859 0 0
+~
+~
+End
+
+#66859
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66663 1 100
+Door 1 0 0 66858 0 0
+~
+~
+Door 2 0 0 66856 0 0
+~
+~
+Door 3 0 0 66860 0 0
+~
+~
+End
+
+#66860
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 1 0 0 66859 0 0
+~
+~
+Door 2 0 0 66855 0 0
+~
+~
+End
+
+#66861
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66667 1 100
+Reset O 88 -1 15
+Reset M 66662 1 100
+Door 0 0 0 66845 0 0
+~
+~
+Door 1 0 0 66862 0 0
+~
+~
+End
+
+#66862
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66846 0 0
+~
+~
+Door 1 0 0 66863 0 0
+~
+~
+Door 3 0 0 66861 0 0
+~
+~
+End
+
+#66863
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66671 1 100
+Door 0 0 0 66847 0 0
+~
+~
+Door 3 0 0 66862 0 0
+~
+~
+End
+
+#66864
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66867 0 0
+~
+~
+Door 1 0 0 66866 0 0
+~
+~
+Door 2 0 0 66805 0 0
+~
+~
+Door 3 0 0 66865 0 0
+~
+~
+End
+
+#66865
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 1 0 0 66864 0 0
+~
+~
+Door 2 0 0 66869 0 0
+~
+~
+Door 3 0 0 66870 0 0
+~
+~
+End
+
+#66866
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 1 0 0 66875 0 0
+~
+~
+Door 2 0 0 66876 0 0
+~
+~
+Door 3 0 0 66864 0 0
+~
+~
+End
+
+#66867
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 268454928
+Sector 43
+Door 0 0 0 66887 0 0
+~
+~
+Door 1 0 0 66881 0 0
+~
+~
+Door 2 0 0 66864 0 0
+~
+~
+Door 3 0 0 66883 0 0
+~
+~
+End
+
+#66868
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66662 1 100
+Door 2 0 0 66853 0 0
+~
+~
+Door 3 0 0 66857 0 0
+~
+~
+End
+
+#66869
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 0 0 0 66865 0 0
+~
+~
+Door 3 0 0 66871 0 0
+~
+~
+End
+
+#66870
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 1 0 0 66865 0 0
+~
+~
+Door 2 0 0 66871 0 0
+~
+~
+End
+
+#66871
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 0 0 0 66870 0 0
+~
+~
+Door 1 0 0 66869 0 0
+~
+~
+Door 2 0 0 66873 0 0
+~
+~
+Door 3 0 0 66872 0 0
+~
+~
+End
+
+#66872
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 1 0 0 66871 0 0
+~
+~
+End
+
+#66873
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 0 0 0 66871 0 0
+~
+~
+Door 2 0 0 66874 0 0
+~
+~
+End
+
+#66874
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Reset M 66649 1 100
+Reset O 66661 -4 100
+Door 0 0 0 66873 0 0
+~
+~
+End
+
+#66875
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 2 0 0 66877 0 0
+~
+~
+Door 3 0 0 66866 0 0
+~
+~
+End
+
+#66876
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 0 0 0 66866 0 0
+~
+~
+Door 1 0 0 66877 0 0
+~
+~
+End
+
+#66877
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 0 0 0 66875 0 0
+~
+~
+Door 1 0 0 66878 0 0
+~
+~
+Door 2 0 0 66879 0 0
+~
+~
+Door 3 0 0 66876 0 0
+~
+~
+End
+
+#66878
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 1152
+Sector 41
+Reset M 66674 1 100
+Door 3 0 0 66877 0 0
+~
+~
+End
+
+#66879
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Door 0 0 0 66877 0 0
+~
+~
+Door 2 0 0 66880 0 0
+~
+~
+End
+
+#66880
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags 19456
+Sector 41
+Reset M 66668 1 100
+Reset O 66678 -1 1
+Door 0 0 0 66879 0 0
+~
+~
+End
+
+#66881
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66888 0 0
+~
+~
+Door 1 0 0 66882 0 0
+~
+~
+Door 3 0 0 66867 0 0
+~
+~
+End
+
+#66882
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66669 1 100
+Reset M 66666 1 100
+Door 0 0 0 66889 0 0
+~
+~
+Door 3 0 0 66881 0 0
+~
+~
+End
+
+#66883
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66886 0 0
+~
+~
+Door 1 0 0 66867 0 0
+~
+~
+Door 3 0 0 66884 0 0
+~
+~
+End
+
+#66884
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66665 1 100
+Door 0 0 0 66885 0 0
+~
+~
+Door 1 0 0 66883 0 0
+~
+~
+End
+
+#66885
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66890 0 0
+~
+~
+Door 1 0 0 66886 0 0
+~
+~
+Door 2 0 0 66884 0 0
+~
+~
+End
+
+#66886
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66672 1 100
+Door 0 0 0 66891 0 0
+~
+~
+Door 1 0 0 66887 0 0
+~
+~
+Door 2 0 0 66883 0 0
+~
+~
+Door 3 0 0 66885 0 0
+~
+~
+End
+
+#66887
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 6
+Flags 19472
+Sector 43
+Door 0 0 0 66892 0 0
+~
+~
+Door 1 0 0 66888 0 0
+~
+~
+Door 2 0 0 66867 0 0
+~
+~
+Door 3 0 0 66886 0 0
+~
+~
+End
+
+#66888
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66671 1 100
+Door 0 0 0 66893 0 0
+~
+~
+Door 1 0 0 66889 0 0
+~
+~
+Door 2 0 0 66881 0 0
+~
+~
+Door 3 0 0 66887 0 0
+~
+~
+End
+
+#66889
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66894 0 0
+~
+~
+Door 2 0 0 66882 0 0
+~
+~
+Door 3 0 0 66888 0 0
+~
+~
+End
+
+#66890
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66667 1 100
+Reset O 88 -1 15
+Door 1 0 0 66891 0 0
+~
+~
+Door 2 0 0 66885 0 0
+~
+~
+End
+
+#66891
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66897 0 0
+~
+~
+Door 1 0 0 66892 0 0
+~
+~
+Door 2 0 0 66886 0 0
+~
+~
+Door 3 0 0 66890 0 0
+~
+~
+End
+
+#66892
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66896 0 0
+~
+~
+Door 1 0 0 66893 0 0
+~
+~
+Door 2 0 0 66887 0 0
+~
+~
+Door 3 0 0 66891 0 0
+~
+~
+End
+
+#66893
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 0 0 0 66895 0 0
+~
+~
+Door 1 0 0 66894 0 0
+~
+~
+Door 2 0 0 66888 0 0
+~
+~
+Door 3 0 0 66892 0 0
+~
+~
+End
+
+#66894
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66670 1 100
+Reset O 92 -1 15
+Door 2 0 0 66889 0 0
+~
+~
+Door 3 0 0 66893 0 0
+~
+~
+End
+
+#66895
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66673 1 100
+Door 2 0 0 66893 0 0
+~
+~
+Door 3 0 0 66896 0 0
+~
+~
+End
+
+#66896
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Door 1 0 0 66895 0 0
+~
+~
+Door 2 0 0 66892 0 0
+~
+~
+Door 3 0 0 66897 0 0
+~
+~
+End
+
+#66897
+Name The Dungeon of Paranoia~
+Descr
+The smooth walls of this dungeon only serve to enhance the eerie sounds
+of those condemned to reside here. The constant low pitched sound of moaning
+is enough to unnerve even the most steadfast of men. A tingle in the air
+hints that perhaps magical abilities are heightened here. 
+~
+Flags2 4
+Flags 19472
+Sector 43
+Reset M 66664 1 100
+Door 1 0 0 66896 0 0
+~
+~
+Door 2 0 0 66891 0 0
+~
+~
+End
+
+#66898
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. A hole in the
+eastern wall seems to catch the eye. 
+~
+Flags 19456
+Sector 40
+Reset O 66658 -5 100
+Door 3 0 0 66899 0 0
+~
+~
+End
+
+#66899
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66900 0 0
+~
+~
+Door 1 0 0 66898 0 0
+~
+~
+Door 2 0 0 66909 0 0
+~
+~
+Door 3 0 0 66916 0 0
+~
+~
+End
+
+#66900
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66901 0 0
+~
+~
+Door 2 0 0 66899 0 0
+~
+~
+End
+
+#66901
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66902 0 0
+~
+~
+Door 2 0 0 66900 0 0
+~
+~
+Door 3 0 0 66905 0 0
+~
+~
+End
+
+#66902
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Reset M 66674 1 100
+Door 1 0 0 66903 0 0
+~
+~
+Door 2 0 0 66901 0 0
+~
+~
+End
+
+#66903
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 2 0 0 66904 0 0
+~
+~
+Door 3 0 0 66902 0 0
+~
+~
+End
+
+#66904
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Reset M 66658 1 100
+Door 0 0 0 66903 0 0
+~
+~
+End
+
+#66905
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66906 0 0
+~
+~
+Door 1 0 0 66901 0 0
+~
+~
+End
+
+#66906
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66907 0 0
+~
+~
+Door 2 0 0 66905 0 0
+~
+~
+End
+
+#66907
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 2 0 0 66906 0 0
+~
+~
+Door 3 0 0 66908 0 0
+~
+~
+End
+
+#66908
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Reset M 66659 1 100
+Reset O 88 -1 15
+Door 1 0 0 66907 0 0
+~
+~
+End
+
+#66909
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66899 0 0
+~
+~
+Door 2 0 0 66910 0 0
+~
+~
+End
+
+#66910
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66909 0 0
+~
+~
+Door 2 0 0 66911 0 0
+~
+~
+End
+
+#66911
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66910 0 0
+~
+~
+Door 1 0 0 66912 0 0
+~
+~
+End
+
+#66912
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 0 0 0 66913 0 0
+~
+~
+Door 1 0 0 66914 0 0
+~
+~
+Door 3 0 0 66911 0 0
+~
+~
+End
+
+#66913
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 1 0 0 66915 0 0
+~
+~
+Door 2 0 0 66912 0 0
+~
+~
+End
+
+#66914
+Name A Well Lit Chamber~
+Descr
+The sudden brightness of light is at first unsettling, but soon it is
+apparent from the assorted signs of life that this light is only the result
+of someone or something civilized making this small chamber their home. 
+~
+Flags 19456
+Sector 42
+Door 0 0 0 66915 0 0
+~
+~
+Door 3 0 0 66912 0 0
+~
+~
+End
+
+#66915
+Name A Well Lit Chamber~
+Descr
+This looks to be the home of a madman. All around wild handpaintings
+line the walls. Soot is smeared on most everything. Skins of kobolds hang at
+random around the room...one thing is for sure, this psychotic can handle
+himself against kobolds. 
+~
+Flags2 6
+Flags 2048
+Sector 42
+Reset M 66650 1 100
+Reset O 66674 -1 2
+Door 2 0 0 66914 0 0
+~
+~
+Door 3 0 0 66913 0 0
+~
+~
+End
+
+#66916
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Reset M 66654 1 100
+Door 1 0 0 66899 0 0
+~
+~
+Door 3 0 0 66917 0 0
+~
+~
+End
+
+#66917
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66923 0 0
+~
+~
+Door 1 0 0 66916 0 0
+~
+~
+Door 2 0 0 66918 0 0
+~
+~
+End
+
+#66918
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66917 0 0
+~
+~
+Door 2 0 0 66919 0 0
+~
+~
+Door 3 0 0 66922 0 0
+~
+~
+End
+
+#66919
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66918 0 0
+~
+~
+Door 2 0 0 66920 0 0
+~
+~
+End
+
+#66920
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66919 0 0
+~
+~
+Door 1 0 0 66921 0 0
+~
+~
+End
+
+#66921
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Reset M 66674 1 100
+Reset M 66658 1 100
+Door 3 0 0 66920 0 0
+~
+~
+End
+
+#66922
+Name At a Large Wooden Door~
+Descr
+The massive wooden door is guarded by two rather aggressive looking
+kobolds. Maybe an alternative way around could be found?  
+~
+Flags 19456
+Sector 40
+Reset M 66652 1 100
+Reset M 66652 1 100
+Door 1 0 0 66918 0 0
+~
+~
+Door 3 3 0 66946 30 30
+~
+door~
+End
+
+#66923
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66926 0 0
+~
+~
+Door 1 0 0 66925 0 0
+~
+~
+Door 2 0 0 66917 0 0
+~
+~
+Door 3 0 0 66924 0 0
+~
+~
+End
+
+#66924
+Name At a Large Wooden Door~
+Descr
+The massive wooden door is guarded by two rather aggressive looking
+kobolds. Maybe an alternative way around could be found?  
+~
+Flags 19456
+Sector 40
+Reset M 66687 1 100
+Reset M 66687 1 100
+Door 1 0 0 66923 0 0
+~
+~
+Door 3 3 0 66938 30 30
+~
+door~
+End
+
+#66925
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Reset M 66659 1 100
+Reset O 88 -1 15
+Door 3 0 0 66923 0 0
+~
+~
+End
+
+#66926
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66927 0 0
+~
+~
+Door 2 0 0 66923 0 0
+~
+~
+End
+
+#66927
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 2 0 0 66926 0 0
+~
+~
+Door 3 0 0 66928 0 0
+~
+~
+End
+
+#66928
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66927 0 0
+~
+~
+Door 3 0 0 66929 0 0
+~
+~
+End
+
+#66929
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. A small pile of
+rubble is piled along the western side of the passage. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66928 0 0
+~
+~
+Door 2 0 0 66930 0 0
+~
+~
+Door 3 259 0 66932 30 30
+~
+rubble~
+End
+
+#66930
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66929 0 0
+~
+~
+Door 1 0 0 66931 0 0
+~
+~
+End
+
+#66931
+Name The Dungeon of Psychosis~
+Descr
+An intense odor permeates the air...could it be?  Kobolds here?  Perhaps
+the kobolds have appeared to take advantage of an unusual food source...the
+poor souls condemned to rot in this place. The occasional scream may be yet
+another psychotic falling prey to the animalistic kobolds. 
+~
+Flags 19456
+Sector 40
+Reset M 66660 1 100
+Reset O 66550 -4 100
+Door 3 0 0 66930 0 0
+~
+~
+End
+
+#66932
+Name A Small Side Tunnel~
+Descr
+The dirt tunnel reaks of excrement and other filth. Thats when it
+becomes apparent that this shortcut past the guards comes with the cost of
+wading through the kobold sewers. 
+~
+Flags 19456
+Sector 47
+Door 1 259 0 66929 30 30
+~
+rubble~
+Door 3 0 0 66933 0 0
+~
+~
+End
+
+#66933
+Name A Small Side Tunnel~
+Descr
+The dirt tunnel reaks of excrement and other filth. Thats when it
+becomes apparent that this shortcut past the guards comes with the cost of
+wading through the kobold sewers. 
+~
+Flags 19456
+Sector 47
+Door 1 0 0 66932 0 0
+~
+~
+Door 2 0 0 66934 0 0
+~
+~
+End
+
+#66934
+Name A Small Side Tunnel~
+Descr
+The dirt tunnel reaks of excrement and other filth. Thats when it
+becomes apparent that this shortcut past the guards comes with the cost of
+wading through the kobold sewers. 
+~
+Flags 19456
+Sector 47
+Reset M 66674 1 100
+Door 0 0 0 66933 0 0
+~
+~
+Door 3 0 0 66935 0 0
+~
+~
+End
+
+#66935
+Name A Small Side Tunnel~
+Descr
+The dirt tunnel reaks of excrement and other filth. Thats when it
+becomes apparent that this shortcut past the guards comes with the cost of
+wading through the kobold sewers. 
+~
+Flags 19456
+Sector 47
+Door 1 0 0 66934 0 0
+~
+~
+Door 2 0 0 66936 0 0
+~
+~
+End
+
+#66936
+Name A Small Side Tunnel~
+Descr
+The dirt tunnel reaks of excrement and other filth. Thats when it
+becomes apparent that this shortcut past the guards comes with the cost of
+wading through the kobold sewers. 
+~
+Flags 19456
+Sector 47
+Door 0 0 0 66935 0 0
+~
+~
+Door 3 0 0 66937 0 0
+~
+~
+End
+
+#66937
+Name A Small Side Tunnel~
+Descr
+The dirt tunnel reaks of excrement and other filth. Thats when it
+becomes apparent that this shortcut past the guards comes with the cost of
+wading through the kobold sewers. Another pile of rubble is here at the end
+of the tunnel. 
+~
+Flags 19456
+Sector 47
+Door 1 0 0 66936 0 0
+~
+~
+Door 2 259 0 66948 30 30
+~
+rubble~
+End
+
+#66938
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Door 1 3 0 66924 30 30
+~
+door~
+Door 2 0 0 66943 0 0
+~
+~
+Door 3 0 0 66939 0 0
+~
+~
+End
+
+#66939
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Reset M 66653 1 100
+Reset O 66677 -4 5
+Door 1 0 0 66938 0 0
+~
+~
+Door 2 0 0 66942 0 0
+~
+~
+Door 3 0 0 66940 0 0
+~
+~
+End
+
+#66940
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Reset M 66654 1 100
+Door 1 0 0 66939 0 0
+~
+~
+Door 2 0 0 66941 0 0
+~
+~
+End
+
+#66941
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66940 0 0
+~
+~
+Door 1 0 0 66942 0 0
+~
+~
+Door 2 0 0 66944 0 0
+~
+~
+Door 3 0 0 66947 0 0
+~
+~
+End
+
+#66942
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66939 0 0
+~
+~
+Door 1 0 0 66943 0 0
+~
+~
+Door 2 0 0 66945 0 0
+~
+~
+Door 3 0 0 66941 0 0
+~
+~
+End
+
+#66943
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66938 0 0
+~
+~
+Door 2 0 0 66946 0 0
+~
+~
+Door 3 0 0 66942 0 0
+~
+~
+End
+
+#66944
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Reset M 66653 1 100
+Reset O 66677 -4 5
+Door 0 0 0 66941 0 0
+~
+~
+Door 1 0 0 66945 0 0
+~
+~
+End
+
+#66945
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Reset M 66654 1 100
+Door 0 0 0 66942 0 0
+~
+~
+Door 1 0 0 66946 0 0
+~
+~
+Door 2 0 0 66953 0 0
+~
+~
+Door 3 0 0 66944 0 0
+~
+~
+End
+
+#66946
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66943 0 0
+~
+~
+Door 1 3 0 66922 30 30
+~
+door~
+Door 2 0 0 66954 0 0
+~
+~
+Door 3 0 0 66945 0 0
+~
+~
+End
+
+#66947
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66941 0 0
+~
+~
+Door 3 0 0 66948 0 0
+~
+~
+End
+
+#66948
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. It looks as though an old
+sewer has been filled in to the north. 
+~
+Flags 19456
+Sector 40
+Reset M 66653 1 100
+Reset O 66677 -4 5
+Door 0 259 0 66937 30 30
+~
+rubble~
+Door 1 0 0 66947 0 0
+~
+~
+Door 3 0 0 66949 0 0
+~
+~
+End
+
+#66949
+Name A Central Junction of Stores~
+Descr
+Along with being the market center, this seems to be a place for the
+lower kobolds to come and worship some diety. Small animals appear to be
+sacrificed often enough that the feet of the statue are stained blood red. 
+~
+Flags 19456
+Sector 41
+Reset O 66673 -5 100
+Reset M 66654 1 100
+Door 0 0 0 66950 0 0
+~
+~
+Door 1 0 0 66948 0 0
+~
+~
+Door 2 0 0 66952 0 0
+~
+~
+Door 3 0 0 66951 0 0
+~
+~
+End
+
+#66950
+Name The Kobold Armory~
+Descr
+A huge forge sits along the south wall. Rows upon rows of weaponary line
+the west and east wall. It would appear that someone is building an army. 
+~
+Flags 19456
+Sector 41
+Reset M 66655 1 100
+Door 2 0 0 66949 0 0
+~
+~
+End
+
+#66951
+Name A Small Bank~
+Descr
+Although more animal than other races, kobolds still share the love of
+money and must have a place to store it. Although, they are also known to be
+cheats... 
+~
+Flags 19456
+Sector 41
+Reset M 66657 1 100
+Door 1 0 0 66949 0 0
+~
+~
+End
+
+#66952
+Name A Merchants Alcove~
+Descr
+This small section of the cave is devoted to a merchant peddling food
+and drink. Though it seems that blood is the primary ingrediant for each. 
+~
+Flags 19456
+Sector 41
+Reset M 66656 1 100
+Reset O 66663 -4 100
+Reset O 66663 -4 100
+Reset O 66662 -4 100
+Reset O 66662 -4 100
+Reset O 66662 -4 100
+Door 0 0 0 66949 0 0
+~
+~
+End
+
+#66953
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66945 0 0
+~
+~
+Door 1 0 0 66954 0 0
+~
+~
+Door 2 0 0 66958 0 0
+~
+~
+Door 3 0 0 66959 0 0
+~
+~
+End
+
+#66954
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66946 0 0
+~
+~
+Door 1 0 0 66955 0 0
+~
+~
+Door 2 0 0 66957 0 0
+~
+~
+Door 3 0 0 66953 0 0
+~
+~
+End
+
+#66955
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Door 2 0 0 66956 0 0
+~
+~
+Door 3 0 0 66954 0 0
+~
+~
+End
+
+#66956
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Reset M 66674 1 100
+Reset M 66654 1 100
+Door 0 0 0 66955 0 0
+~
+~
+Door 3 0 0 66957 0 0
+~
+~
+End
+
+#66957
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66954 0 0
+~
+~
+Door 1 0 0 66956 0 0
+~
+~
+Door 3 0 0 66958 0 0
+~
+~
+End
+
+#66958
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66953 0 0
+~
+~
+Door 1 0 0 66957 0 0
+~
+~
+End
+
+#66959
+Name The Kobold's Lair~
+Descr
+This massive portion of the dungeon is occupied by kobolds who have made
+this their lair. All around you kobolds are greedily eating of the flesh of
+the poor psychotics, it is a pitiful site indeed. 
+~
+Flags 19456
+Sector 40
+Reset M 66653 1 100
+Reset O 66677 -4 5
+Door 1 0 0 66953 0 0
+~
+~
+Door 3 0 0 66960 0 0
+~
+~
+End
+
+#66960
+Name The Shaman's Chamber~
+Descr
+Skulls line the walls and seem to grin back at anyone who dares look.
+Skins of those who have died to feed the shaman's army form a nice rug to
+wipe feet on. It soon becomes apparant that this idea of canniblizing the
+psychotics is that of the shaman. Maybe someone will come along to slay this
+evil creature and disperse the kobolds. 
+~
+Flags 19456
+Sector 42
+Door 1 0 0 66959 0 0
+~
+~
+Door 2 0 0 66963 0 0
+~
+~
+Door 3 0 0 66961 0 0
+~
+~
+End
+
+#66961
+Name The Shaman's Chamber~
+Descr
+Skulls line the walls and seem to grin back at anyone who dares look.
+Skins of those who have died to feed the shaman's army form a nice rug to
+wipe feet on. It soon becomes apparant that this idea of canniblizing the
+psychotics is that of the shaman. Maybe someone will come along to slay this
+evil creature and disperse the kobolds 
+~
+Flags 19456
+Sector 42
+Door 1 0 0 66960 0 0
+~
+~
+Door 2 0 0 66962 0 0
+~
+~
+End
+
+#66962
+Name The Shaman's Chamber~
+Descr
+Skulls line the walls and seem to grin back at anyone who dares look.
+Skins of those who have died to feed the shaman's army form a nice rug to
+wipe feet on. It soon becomes apparant that this idea of canniblizing the
+psychotics is that of the shaman. Maybe someone will come along to slay this
+evil creature and disperse the kobolds 
+~
+Flags 19456
+Sector 42
+Reset M 66654 1 100
+Door 0 0 0 66961 0 0
+~
+~
+Door 1 0 0 66963 0 0
+~
+~
+End
+
+#66963
+Name The Shaman's Chamber~
+Descr
+Skulls line the walls and seem to grin back at anyone who dares look.
+Skins of those who have died to feed the shaman's army form a nice rug to
+wipe feet on. It soon becomes apparant that this idea of canniblizing the
+psychotics is that of the shaman. Maybe someone will come along to slay this
+evil creature and disperse the kobolds 
+~
+Flags 19456
+Sector 42
+Reset M 66653 1 100
+Reset O 66677 -4 5
+Door 0 0 0 66960 0 0
+~
+~
+Door 2 0 0 66965 0 0
+~
+~
+Door 3 0 0 66962 0 0
+~
+~
+End
+
+#66965
+Name The Shaman's Chamber~
+Descr
+Skulls line the walls and seem to grin back at anyone who dares look.
+Skins of those who have died to feed the shaman's army form a nice rug to
+wipe feet on. It soon becomes apparant that this idea of canniblizing the
+psychotics is that of the shaman. Maybe someone will come along to slay this
+evil creature and disperse the kobolds 
+~
+Flags 19456
+Sector 42
+Reset M 66651 1 100
+Reset O 92 -1 15
+Reset O 66664 -1 10
+Door 0 0 0 66963 0 0
+~
+~
+End
+
+#66966
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66677 1 100
+Reset O 52 -1 20
+Door 0 0 0 66967 0 0
+~
+~
+Door 3 0 0 66740 0 0
+~
+~
+End
+
+#66967
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Door 0 0 0 66968 0 0
+~
+~
+Door 2 0 0 66966 0 0
+~
+~
+Door 3 0 0 66744 0 0
+~
+~
+End
+
+#66968
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 43
+Reset M 66678 1 100
+Door 2 0 0 66967 0 0
+~
+~
+Door 3 0 0 66748 0 0
+~
+~
+End
+
+#66969
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 1 0 0 66970 0 0
+~
+~
+Door 3 0 0 66702 0 0
+~
+~
+End
+
+#66970
+Name The Dungeon of Delusion~
+Descr
+This dungeon seems to have been designed only to further confuse the
+poor delusional souls that are held captive here. The traps, pitfalls, and
+other maze-like accompaniments would definitely confuse any sane man that
+would venture here. 
+~
+Flags 19456
+Sector 40
+Door 0 0 0 66726 0 0
+~
+~
+Door 3 0 0 66969 0 0
+~
+~
+End
+
+#66971
+Name LYMIR's Hell~
+Descr
+~
+Flags2 4
+Flags 1173
+Sector 36
+Reset M 66685 1 100
+Move_dir 5
+End
+
+#66972
+Name LYMIR's HELL~
+Descr
+~
+Flags 5
+Sector 36
+End
+
+#0
+
+
+
+#$

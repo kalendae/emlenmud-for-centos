@@ -1,0 +1,63 @@
+#AREADATA 
+Name Nuke this area...not used~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Cael Raifiki~
+VNUMs 30053 30300
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#30053
+Name Cemetary Gates~
+Descr
+You are in front of a set of gates. The gates are old, rusty and sharp as
+any sword. There are two exits, one to the south, away from the gates and to
+the north, through the gates. 
+~
+Door 0 3 0 30054 30 30
+~
+gate~
+Door 2 0 0 30055 0 0
+~
+~
+End
+
+#30054
+Name ~
+Descr
+~
+Door 2 1 0 30053 30 30
+~
+gate~
+End
+
+#30055
+Name ~
+Descr
+~
+Door 0 0 0 30053 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,2419 @@
+#AREADATA 
+Name The Cemetary~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Zoro Structure~
+VNUMs 9851 9951
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#9851
+Name stone golem~
+Short a stone golem~
+Long 
+A stone golem stands here.
+~
+AMax 2
+ActBits 11
+ActBits3 2
+Affect_By 552
+Alignment 2
+Money 600
+Level 60
+MobType 10
+Hp 2
+Guard 0
+Spec spec_warrior
+End
+
+#9861
+Name skeleton~
+Short a skeleton~
+Long 
+A skeleton is roaming around here.
+~
+AMax 15
+ActBits 65541
+Affect_By 552
+Alignment 2
+Money 1200
+Level 120
+MobType 9
+Hp 2
+Guard 0
+End
+
+#9922
+Name evil apprentice prac~
+Short An evil apprentice~
+Long 
+An evil apprentice of Satan stands here toying with relics.
+~
+AMax 1
+NHeight 0
+ActBits 258
+Affect_By 682
+AffectTWO 33554440
+Money 3000
+Level 300
+Sex 1
+MobType 11
+Guard 0
+BCasts paralyze~
+BCasts ice comet~
+BCast_P 30
+ASklTaught 0 223
+ASklTaught 1 116
+ASklTaught 2 214
+ASklTaught 3 234
+End
+
+#9940
+Name marlok the vicious~
+Short marlok the vicious~
+Long 
+Marlok the vicious is standing here.
+~
+AMax 1
+ActBits 11
+ActBits3 2
+Affect_By 168
+Money 2500
+Level 250
+Sex 1
+MobType 12
+Hp 8
+Guard 0
+Spec spec_warrior
+End
+
+#9941
+Name mummy~
+Short a mummy~
+Long 
+A mummy is lying here.
+~
+AMax 6
+ActBits 11
+ActBits3 2
+Affect_By 40
+Money 500
+Level 750
+MobType 9
+Hp 5
+Guard 0
+End
+
+#9947
+Name ghoul~
+Short a ghoul~
+Long 
+A nasty ghoul is standing here.
+~
+AMax 4
+ActBits 7
+Affect_By 552
+Money 1500
+Level 150
+MobType 9
+Hp 5
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#9862
+Name zoro sword~
+Short zoro sword~
+Descr
+(none)~
+Type 5
+Extra 2
+Wear 16385
+Values 0 0 0 3 0 0 0 5 5 0 0
+Weight 0
+Cost 0
+End
+
+#9922
+Name flaming sword of evil apb 2apb~
+Short a [31mfl[1ma[33mm[0m[31min[1mg [37msword[0m of [1m[30mev[37mi[30ml[0m~
+Descr
+Short A [31mfl[1ma[33mm[0m[31min[1mg [37msword[0m of [30m[1mev[37mi[30ml[0m lies on the ground.
+[0;36m~
+Type 5
+Extra 38010883
+Wear 24577
+Values 0 0 0 3 0 0 0 6 3 0 0
+Weight 30
+Cost 9000
+Affect 19 2 1 0 0
+End
+
+#9930
+Name crystal dagger striking~
+Short a [1m[34mcrystal[0m dagger of [36ms[1mt[0m[36mr[1mi[0m[36mk[1mi[0m[36mn[1mg[0m~
+Descr
+A [1m[34mcrystal[0m dagger of [36ms[1mt[0m[36mr[1mi[0m[36mk[1mi[0m[36mn[1mg[0m lies on the ground.
+[0;36m~
+Type 5
+Extra 33685506
+Wear 24577
+Values 0 50 0 2 0 0 0 4 5 0 0
+Weight 3
+Cost 5400
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+End
+
+#9932
+Name coffin large~
+Short [0mA[0m [0m[1m[37mlarge[0m [0m[1m[37mcoffin[0m ~
+Descr
+A strange coffin is lying here.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 9943 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9933
+Name large coffin~
+Short [0mA[0m [0m[1m[37mlarge[0m [0m[1m[37mcoffin[0m~
+Descr
+A strange coffin is lying here.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 9942 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9935
+Name coffin large~
+Short [0mA[0m [0m[1m[37mlarge[0m [0m[1m[37mcoffin[0m~
+Descr
+A strange coffin is lying here.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 9944 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9936
+Name large coffin~
+Short [0mA[0m [0m[1m[37mlarge[0m [0m[1m[37mcoffin[0m~
+Descr
+A strange coffin is lying here.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 9945 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9938
+Name large coffin~
+Short [0mA[0m [0m[1m[37mlarge[0m [0m[1m[37mcoffin[0m~
+Descr
+A strange coffin is lying here.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 9941 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9939
+Name large coffin~
+Short [0mA[0m [0m[1m[37mlarge[0m [0m[1m[37mcoffin[0m~
+Descr
+A large coffin is lying here.
+[0;36m~
+Type 12
+Extra 1
+Wear 0
+Values 4 9946 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#9940
+Name blackened breastplate~
+Short [0mA [1m[30mblackened [0mbreastplate~
+Descr
+A strange breastplate lies on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 9
+Values 2 2 1 1 10 10 50 50 10 10 0
+Weight 18
+Cost 3000
+Affect 17 1 1 0 0
+Affect 13 10 1 0 0
+End
+
+#9941
+Name mummy bandages~
+Short [1m[30mm[0m[37mu[1mm[30mm[0my bandages~
+Descr
+A mummy bandages is lying on the ground.
+[0;36m~
+Type 9
+Wear 257
+Values 0 0 0 3 10 10 50 50 10 10 0
+Weight 20
+Cost 0
+Affect 13 10 1 0 0
+End
+
+#9947
+Name wickedly spiked anklet~
+Short a [1m[30mwi[0m[37mck[1me[0m[37mdl[1m[30my spiked[0m anklet~
+Descr
+A strange anklet lies on the ground.
+[0;36m~
+Type 9
+Wear 524289
+Values 2 0 0 0 10 10 50 50 10 10 0
+Weight 20
+Cost 100
+Affect 22 1 1 0 0
+Affect 13 5 5 0 0
+Affect 14 5 5 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#9851
+Name Entrance to the Cementary of Maruk~
+Descr
+You are standing in front of the steel gate's that lead into the
+cementary of maruk. There are two stone golems guarding the entrance into
+the cementary. A black fog looms over the entire cementary like a cloud of
+death. The screams of torture souls can be heard echoing within the
+cementary. 
+~
+Reset M 9851 1 100
+Reset M 9851 1 100
+Door 0 3 0 9857 34 34
+~
+steel gate~
+Door 5 0 0 9059 0 0
+~
+~
+End
+
+#9852
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9853 0 0
+~
+~
+Door 1 0 0 9897 0 0
+~
+~
+Door 3 0 0 9857 0 0
+~
+~
+End
+
+#9853
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9854 0 0
+~
+~
+Door 1 0 0 9898 0 0
+~
+~
+Door 2 0 0 9852 0 0
+~
+~
+Door 3 0 0 9858 0 0
+~
+~
+End
+
+#9854
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9855 0 0
+~
+~
+Door 1 0 0 9899 0 0
+~
+~
+Door 2 0 0 9853 0 0
+~
+~
+Door 3 0 0 9859 0 0
+~
+~
+End
+
+#9855
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9856 0 0
+~
+~
+Door 1 0 0 9900 0 0
+~
+~
+Door 2 0 0 9854 0 0
+~
+~
+Door 3 0 0 9860 0 0
+~
+~
+End
+
+#9856
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 1 0 0 9901 0 0
+~
+~
+Door 2 0 0 9855 0 0
+~
+~
+Door 3 0 0 9861 0 0
+~
+~
+End
+
+#9857
+Name Maruk Cementary~
+Descr
+You entered into a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Door 0 0 0 9858 0 0
+~
+~
+Door 1 0 0 9852 0 0
+~
+~
+Door 2 7 0 9851 34 34
+~
+Steel gate~
+Door 3 0 0 9862 0 0
+~
+~
+End
+
+#9858
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Door 0 0 0 9859 0 0
+~
+~
+Door 1 0 0 9853 0 0
+~
+~
+Door 2 0 0 9857 0 0
+~
+~
+Door 3 0 0 9863 0 0
+~
+~
+End
+
+#9859
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Door 0 0 0 9860 0 0
+~
+~
+Door 1 0 0 9854 0 0
+~
+~
+Door 2 0 0 9858 0 0
+~
+~
+Door 3 0 0 9864 0 0
+~
+~
+End
+
+#9860
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Door 0 0 0 9861 0 0
+~
+~
+Door 1 0 0 9855 0 0
+~
+~
+Door 2 0 0 9859 0 0
+~
+~
+Door 3 0 0 9865 0 0
+~
+~
+End
+
+#9861
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Door 0 263 0 9927 24 24
+~
+irondoor~
+Door 1 0 0 9856 0 0
+~
+~
+Door 2 0 0 9860 0 0
+~
+~
+Door 3 0 0 9866 0 0
+~
+~
+End
+
+#9862
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9863 0 0
+~
+~
+Door 1 0 0 9857 0 0
+~
+~
+Door 3 0 0 9867 0 0
+~
+~
+End
+
+#9863
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9864 0 0
+~
+~
+Door 1 0 0 9858 0 0
+~
+~
+Door 2 0 0 9862 0 0
+~
+~
+Door 3 0 0 9868 0 0
+~
+~
+End
+
+#9864
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9865 0 0
+~
+~
+Door 1 0 0 9859 0 0
+~
+~
+Door 2 0 0 9863 0 0
+~
+~
+Door 3 0 0 9869 0 0
+~
+~
+End
+
+#9865
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9866 0 0
+~
+~
+Door 1 0 0 9860 0 0
+~
+~
+Door 2 0 0 9864 0 0
+~
+~
+Door 3 0 0 9870 0 0
+~
+~
+End
+
+#9866
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 1 0 0 9861 0 0
+~
+~
+Door 2 0 0 9865 0 0
+~
+~
+Door 3 0 0 9871 0 0
+~
+~
+End
+
+#9867
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9868 0 0
+~
+~
+Door 1 0 0 9862 0 0
+~
+~
+Door 3 0 0 9872 0 0
+~
+~
+End
+
+#9868
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9869 0 0
+~
+~
+Door 1 0 0 9863 0 0
+~
+~
+Door 2 0 0 9867 0 0
+~
+~
+Door 3 0 0 9873 0 0
+~
+~
+End
+
+#9869
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9870 0 0
+~
+~
+Door 1 0 0 9864 0 0
+~
+~
+Door 2 0 0 9868 0 0
+~
+~
+Door 3 0 0 9874 0 0
+~
+~
+End
+
+#9870
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9871 0 0
+~
+~
+Door 1 0 0 9865 0 0
+~
+~
+Door 2 0 0 9869 0 0
+~
+~
+Door 3 0 0 9875 0 0
+~
+~
+End
+
+#9871
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 1 0 0 9866 0 0
+~
+~
+Door 2 0 0 9870 0 0
+~
+~
+Door 3 0 0 9876 0 0
+~
+~
+End
+
+#9872
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9873 0 0
+~
+~
+Door 1 0 0 9867 0 0
+~
+~
+Door 3 0 0 9877 0 0
+~
+~
+End
+
+#9873
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9874 0 0
+~
+~
+Door 1 0 0 9868 0 0
+~
+~
+Door 2 0 0 9872 0 0
+~
+~
+Door 3 0 0 9878 0 0
+~
+~
+End
+
+#9874
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9875 0 0
+~
+~
+Door 1 0 0 9869 0 0
+~
+~
+Door 2 0 0 9873 0 0
+~
+~
+Door 3 0 0 9879 0 0
+~
+~
+End
+
+#9875
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9876 0 0
+~
+~
+Door 1 0 0 9870 0 0
+~
+~
+Door 2 0 0 9874 0 0
+~
+~
+Door 3 0 0 9880 0 0
+~
+~
+End
+
+#9876
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 1 0 0 9871 0 0
+~
+~
+Door 2 0 0 9875 0 0
+~
+~
+Door 3 0 0 9881 0 0
+~
+~
+End
+
+#9877
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9878 0 0
+~
+~
+Door 1 0 0 9872 0 0
+~
+~
+Door 3 0 0 9882 0 0
+~
+~
+End
+
+#9878
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9879 0 0
+~
+~
+Door 1 0 0 9873 0 0
+~
+~
+Door 2 0 0 9877 0 0
+~
+~
+Door 3 0 0 9883 0 0
+~
+~
+End
+
+#9879
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9880 0 0
+~
+~
+Door 1 0 0 9874 0 0
+~
+~
+Door 2 0 0 9878 0 0
+~
+~
+Door 3 0 0 9884 0 0
+~
+~
+End
+
+#9880
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9881 0 0
+~
+~
+Door 1 0 0 9875 0 0
+~
+~
+Door 2 0 0 9879 0 0
+~
+~
+Door 3 0 0 9885 0 0
+~
+~
+End
+
+#9881
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 1 0 0 9876 0 0
+~
+~
+Door 2 0 0 9880 0 0
+~
+~
+Door 3 0 0 9886 0 0
+~
+~
+End
+
+#9882
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9883 0 0
+~
+~
+Door 1 0 0 9877 0 0
+~
+~
+Door 3 0 0 9891 0 0
+~
+~
+End
+
+#9883
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9884 0 0
+~
+~
+Door 1 0 0 9878 0 0
+~
+~
+Door 2 0 0 9882 0 0
+~
+~
+Door 3 0 0 9890 0 0
+~
+~
+End
+
+#9884
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9885 0 0
+~
+~
+Door 1 0 0 9879 0 0
+~
+~
+Door 2 0 0 9883 0 0
+~
+~
+Door 3 0 0 9889 0 0
+~
+~
+End
+
+#9885
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9886 0 0
+~
+~
+Door 1 0 0 9880 0 0
+~
+~
+Door 2 0 0 9884 0 0
+~
+~
+Door 3 0 0 9888 0 0
+~
+~
+End
+
+#9886
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 1 0 0 9881 0 0
+~
+~
+Door 2 0 0 9885 0 0
+~
+~
+Door 3 0 0 9887 0 0
+~
+~
+End
+
+#9887
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 1 0 0 9886 0 0
+~
+~
+Door 2 0 0 9888 0 0
+~
+~
+Door 3 0 0 9892 0 0
+~
+~
+End
+
+#9888
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9887 0 0
+~
+~
+Door 1 0 0 9885 0 0
+~
+~
+Door 2 0 0 9889 0 0
+~
+~
+Door 3 0 0 9893 0 0
+~
+~
+End
+
+#9889
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9888 0 0
+~
+~
+Door 1 0 0 9884 0 0
+~
+~
+Door 2 0 0 9890 0 0
+~
+~
+Door 3 0 0 9894 0 0
+~
+~
+End
+
+#9890
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9889 0 0
+~
+~
+Door 1 0 0 9883 0 0
+~
+~
+Door 2 0 0 9891 0 0
+~
+~
+Door 3 0 0 9895 0 0
+~
+~
+End
+
+#9891
+Name A Dark Mausoleum~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9890 0 0
+~
+~
+Door 1 0 0 9882 0 0
+~
+~
+Door 3 0 0 9896 0 0
+~
+~
+End
+
+#9892
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 1 0 0 9887 0 0
+~
+~
+Door 2 0 0 9893 0 0
+~
+~
+End
+
+#9893
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9892 0 0
+~
+~
+Door 1 0 0 9888 0 0
+~
+~
+Door 2 0 0 9894 0 0
+~
+~
+End
+
+#9894
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9893 0 0
+~
+~
+Door 1 0 0 9889 0 0
+~
+~
+Door 2 0 0 9895 0 0
+~
+~
+End
+
+#9895
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9894 0 0
+~
+~
+Door 1 0 0 9890 0 0
+~
+~
+Door 2 0 0 9896 0 0
+~
+~
+End
+
+#9896
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9895 0 0
+~
+~
+Door 1 0 0 9891 0 0
+~
+~
+End
+
+#9897
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9898 0 0
+~
+~
+Door 1 0 0 9906 0 0
+~
+~
+Door 3 0 0 9852 0 0
+~
+~
+End
+
+#9898
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9899 0 0
+~
+~
+Door 1 0 0 9905 0 0
+~
+~
+Door 2 0 0 9897 0 0
+~
+~
+Door 3 0 0 9853 0 0
+~
+~
+End
+
+#9899
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9900 0 0
+~
+~
+Door 1 0 0 9904 0 0
+~
+~
+Door 2 0 0 9898 0 0
+~
+~
+Door 3 0 0 9854 0 0
+~
+~
+End
+
+#9900
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9901 0 0
+~
+~
+Door 1 0 0 9903 0 0
+~
+~
+Door 2 0 0 9899 0 0
+~
+~
+Door 3 0 0 9855 0 0
+~
+~
+End
+
+#9901
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 1 0 0 9902 0 0
+~
+~
+Door 2 0 0 9900 0 0
+~
+~
+Door 3 0 0 9856 0 0
+~
+~
+End
+
+#9902
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 1 0 0 9907 0 0
+~
+~
+Door 2 0 0 9903 0 0
+~
+~
+Door 3 0 0 9901 0 0
+~
+~
+End
+
+#9903
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9902 0 0
+~
+~
+Door 1 0 0 9908 0 0
+~
+~
+Door 2 0 0 9904 0 0
+~
+~
+Door 3 0 0 9900 0 0
+~
+~
+End
+
+#9904
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9903 0 0
+~
+~
+Door 1 0 0 9909 0 0
+~
+~
+Door 2 0 0 9905 0 0
+~
+~
+Door 3 0 0 9899 0 0
+~
+~
+End
+
+#9905
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9904 0 0
+~
+~
+Door 1 0 0 9910 0 0
+~
+~
+Door 2 0 0 9906 0 0
+~
+~
+Door 3 0 0 9898 0 0
+~
+~
+End
+
+#9906
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9905 0 0
+~
+~
+Door 1 0 0 9911 0 0
+~
+~
+Door 3 0 0 9897 0 0
+~
+~
+End
+
+#9907
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 1 0 0 9916 0 0
+~
+~
+Door 2 0 0 9908 0 0
+~
+~
+Door 3 0 0 9902 0 0
+~
+~
+End
+
+#9908
+Name Maruk Cementary~
+Descr
+~
+Flags 1
+Sector 27
+Door 0 0 0 9907 0 0
+~
+~
+Door 1 0 0 9915 0 0
+~
+~
+Door 2 0 0 9909 0 0
+~
+~
+Door 3 0 0 9903 0 0
+~
+~
+End
+
+#9909
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9908 0 0
+~
+~
+Door 1 0 0 9914 0 0
+~
+~
+Door 2 0 0 9910 0 0
+~
+~
+Door 3 0 0 9904 0 0
+~
+~
+Door 5 0 0 34014 0 0
+~
+~
+End
+
+#9910
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9909 0 0
+~
+~
+Door 1 0 0 9913 0 0
+~
+~
+Door 2 0 0 9911 0 0
+~
+~
+Door 3 0 0 9905 0 0
+~
+~
+End
+
+#9911
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9910 0 0
+~
+~
+Door 1 0 0 9912 0 0
+~
+~
+Door 3 0 0 9906 0 0
+~
+~
+End
+
+#9912
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9913 0 0
+~
+~
+Door 1 0 0 9917 0 0
+~
+~
+Door 3 0 0 9911 0 0
+~
+~
+End
+
+#9913
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9914 0 0
+~
+~
+Door 1 0 0 9918 0 0
+~
+~
+Door 2 0 0 9912 0 0
+~
+~
+Door 3 0 0 9910 0 0
+~
+~
+End
+
+#9914
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9915 0 0
+~
+~
+Door 1 0 0 9919 0 0
+~
+~
+Door 2 0 0 9913 0 0
+~
+~
+Door 3 0 0 9909 0 0
+~
+~
+End
+
+#9915
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9916 0 0
+~
+~
+Door 1 0 0 9920 0 0
+~
+~
+Door 2 0 0 9914 0 0
+~
+~
+Door 3 0 0 9908 0 0
+~
+~
+End
+
+#9916
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 1 0 0 9921 0 0
+~
+~
+Door 2 0 0 9915 0 0
+~
+~
+Door 3 0 0 9907 0 0
+~
+~
+End
+
+#9917
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9918 0 0
+~
+~
+Door 1 0 0 9926 0 0
+~
+~
+Door 3 0 0 9912 0 0
+~
+~
+End
+
+#9918
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9919 0 0
+~
+~
+Door 1 0 0 9925 0 0
+~
+~
+Door 2 0 0 9917 0 0
+~
+~
+Door 3 0 0 9913 0 0
+~
+~
+End
+
+#9919
+Name Maruk Cementary~
+Descr
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9920 0 0
+~
+~
+Door 1 0 0 9924 0 0
+~
+~
+Door 2 0 0 9918 0 0
+~
+~
+Door 3 0 0 9914 0 0
+~
+~
+End
+
+#9920
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9921 0 0
+~
+~
+Door 1 0 0 9923 0 0
+~
+~
+Door 2 0 0 9919 0 0
+~
+~
+Door 3 0 0 9915 0 0
+~
+~
+End
+
+#9921
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 1 0 0 9922 0 0
+~
+~
+Door 2 0 0 9920 0 0
+~
+~
+Door 3 0 0 9916 0 0
+~
+~
+End
+
+#9922
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9922 1 100
+Door 2 0 0 9923 0 0
+~
+~
+Door 3 0 0 9921 0 0
+~
+~
+End
+
+#9923
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9922 0 0
+~
+~
+Door 2 0 0 9924 0 0
+~
+~
+Door 3 0 0 9920 0 0
+~
+~
+End
+
+#9924
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9923 0 0
+~
+~
+Door 2 0 0 9925 0 0
+~
+~
+Door 3 0 0 9919 0 0
+~
+~
+End
+
+#9925
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Reset M 9861 1 100
+Door 0 0 0 9924 0 0
+~
+~
+Door 2 0 0 9926 0 0
+~
+~
+Door 3 0 0 9918 0 0
+~
+~
+End
+
+#9926
+Name Maruk Cementary~
+Descr
+You travel within a old decreptic cementary. The area is fill with a
+dence black fog. The smell of disembowel corpses fill the air, while screams
+of terror can be heard echoing around the cementary. 
+~
+Flags 1
+Sector 27
+Door 0 0 0 9925 0 0
+~
+~
+Door 3 0 0 9917 0 0
+~
+~
+End
+
+#9927
+Name A Dark Hallway~
+Descr
+You entered into a hidden corridor that lead into a dark hallway. The
+area is fill with a dense fog that prevent noises from being heard from the
+outside. The only sound that resonate throughout the hallway is the echos of
+screaming tortured souls. 
+~
+Flags 5
+Door 0 0 0 9928 0 0
+~
+~
+Door 2 263 0 9861 24 24
+~
+irondoor~
+End
+
+#9928
+Name A Dark Hallway~
+Descr
+You travel within a dark hallway. The area is fill with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate throughout the hallway is the echos of screaming tortured souls. 
+~
+Flags 5
+Door 0 0 0 9929 0 0
+~
+~
+Door 2 0 0 9927 0 0
+~
+~
+End
+
+#9929
+Name A Dark Hallway~
+Descr
+You travel within a dark hallway. The area is fill with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate throughout the hallway is the echos of screaming tortured souls. 
+~
+Flags 5
+Door 2 0 0 9928 0 0
+~
+~
+Door 4 0 0 9930 0 0
+~
+~
+End
+
+#9930
+Name Entrance to a Dark Mausoleum~
+Descr
+You stand in the front of A steel door, that lead into a dark Mausoleum.
+The area is fill with a dense fog that prevent noises from being heard from
+the outside. The only sound that resonate throughout the hallway is a echos
+of screaming tortured souls. 
+~
+Flags 5
+Door 0 7 0 9931 24 24
+~
+stonedoor~
+Door 5 0 0 9929 0 0
+~
+~
+End
+
+#9931
+Name A Dark Mausoleum~
+Descr
+You entered into a dark mausoleum. The color of the walls are grayish
+green, worn from ages of corrosion. The area is filled with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate the mausoleum is the screams of a tortured souls. 
+~
+Flags 5
+Door 0 0 0 9934 0 0
+~
+~
+Door 1 0 0 9935 0 0
+~
+~
+Door 2 7 0 9930 24 24
+~
+stonedoor~
+Door 3 0 0 9932 0 0
+~
+~
+End
+
+#9932
+Name A Dark Mausoleum~
+Descr
+You traveled within a dark mausoleum. The color of the walls are grayish
+green, worn from ages of corrosion. The area is filled with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate the mausoleum is the screams of a tortured souls. 
+~
+Flags 5
+Reset O 9932 -5 100
+Door 0 0 0 9933 0 0
+~
+~
+Door 1 0 0 9931 0 0
+~
+~
+End
+
+#9933
+Name A Dark Mausoleum~
+Descr
+You traveled within a dark mausoleum. The color of the walls are grayish
+green, worn from ages of corrosion. The area is filled with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate the mausoleum is the screams of a tortured souls. 
+~
+Flags 5
+Reset O 9933 -5 100
+Door 0 0 0 9938 0 0
+~
+~
+Door 1 0 0 9934 0 0
+~
+~
+Door 2 0 0 9932 0 0
+~
+~
+End
+
+#9934
+Name A Dark Mausoleum~
+Descr
+You traveled within a dark mausoleum. The color of the walls are grayish
+green, worn from ages of corrosion. The area is filled with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate the mausoleum is the screams of a tortured souls. 
+~
+Flags 5
+Door 0 0 0 9937 0 0
+~
+~
+Door 1 0 0 9936 0 0
+~
+~
+Door 2 0 0 9931 0 0
+~
+~
+Door 3 0 0 9933 0 0
+~
+~
+Door 4 0 0 9947 0 0
+~
+~
+End
+
+#9935
+Name A Dark Mausoleum~
+Descr
+You traveled within a dark mausoleum. The color of the walls are grayish
+green, worn from ages of corrosion. The area is filled with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate the mausoleum is the screams of a tortured souls. 
+~
+Flags 5
+Reset O 9935 -5 100
+Door 0 0 0 9936 0 0
+~
+~
+Door 3 0 0 9931 0 0
+~
+~
+End
+
+#9936
+Name A Dark Mausoleum~
+Descr
+You traveled within a dark mausoleum. The color of the walls are grayish
+green, worn from ages of corrosion. The area is filled with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate the mausoleum is the screams of a tortured souls. 
+~
+Flags 5
+Reset O 9936 -5 100
+Door 0 0 0 9939 0 0
+~
+~
+Door 2 0 0 9935 0 0
+~
+~
+Door 3 0 0 9934 0 0
+~
+~
+End
+
+#9937
+Name A Dark Mausoleum~
+Descr
+You traveled within a dark mausoleum. The color of the walls are grayish
+green, worn from ages of corrosion. The area is filled with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate the mausoleum is the screams of a tortured souls. 
+~
+Flags 5
+Door 0 3 0 9940 34 34
+~
+stonewall~
+Door 1 0 0 9939 0 0
+~
+~
+Door 2 0 0 9934 0 0
+~
+~
+Door 3 0 0 9938 0 0
+~
+~
+End
+
+#9938
+Name A Dark Mausoleum~
+Descr
+You traveled within a dark mausoleum. The color of the walls are grayish
+green, worn from ages of corrosion. The area is filled with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate the mausoleum is the screams of a tortured souls. 
+~
+Flags 5
+Reset O 9938 -5 100
+Door 1 0 0 9937 0 0
+~
+~
+Door 2 0 0 9933 0 0
+~
+~
+End
+
+#9939
+Name A Dark Mausoleum~
+Descr
+You traveled within a dark mausoleum. The color of the walls are grayish
+green, worn from ages of corrosion. The area is filled with a dense fog that
+prevent noises from being heard from the outside. The only sound that
+resonate the mausoleum is the screams of a tortured souls. 
+~
+Flags 5
+Reset O 9939 -5 100
+Door 2 0 0 9936 0 0
+~
+~
+Door 3 0 0 9937 0 0
+~
+~
+End
+
+#9940
+Name Marlok Lair's~
+Descr
+You entered into the lair of marlok. There is a dense fog that cover the
+room in total darkness. Only thing you can see is two beady red eye looking
+at every move that you make. The dust is fowl by the stench of disembowel
+corpses. The echo of screams fill the empty void, while marlok grin wish a
+malious smile directed toward you. it will be best if you was to vacate the
+area, if you value your life. 
+~
+Flags 24705
+Reset M 9940 1 100
+Reset O 9930 -1 1
+Reset O 9940 9 15
+Door 2 259 0 9937 34 34
+~
+stonewall~
+End
+
+#9941
+Name A Decreptic Coffin~
+Descr
+ You entered into a old decreptic coffin. The coffin is fill with a
+mossy green color, worn from ages of corrosion. There is a severe stench of
+death that fill the coffin. 
+~
+Reset M 9941 1 100
+Reset O 9941 15 10
+Door 4 0 0 9938 0 0
+~
+~
+End
+
+#9942
+Name A Decreptic Coffin~
+Descr
+ You entered into a old decreptic coffin. The coffin is fill with a
+mossy green color, worn from ages of corrosion. There is a severe stench of
+death that fill the coffin. 
+~
+Reset M 9941 1 100
+Reset O 9941 15 10
+Door 4 0 0 9933 0 0
+~
+~
+End
+
+#9943
+Name A Decreptic Coffin~
+Descr
+ You entered into a old decreptic coffin. The coffin is fill with a
+mossy green color, worn from ages of corrosion. There is a severe stench of
+death that fill the coffin. 
+~
+Reset M 9941 1 100
+Reset O 9941 15 10
+Door 4 0 0 9932 0 0
+~
+~
+End
+
+#9944
+Name A Decreptic Coffin~
+Descr
+ You entered into a old decreptic coffin. The coffin is fill with a
+mossy green color, worn from ages of corrosion. There is a severe stench of
+death that fill the coffin. 
+~
+Reset M 9941 1 100
+Reset O 9941 15 10
+Door 4 0 0 9935 0 0
+~
+~
+End
+
+#9945
+Name A Decreptic Coffin~
+Descr
+ You entered into a old decreptic coffin. The coffin is fill with a
+mossy green color, worn from ages of corrosion. There is a severe stench of
+death that fill the coffin. 
+~
+Reset M 9941 1 100
+Reset O 9941 15 10
+Door 4 0 0 9936 0 0
+~
+~
+End
+
+#9946
+Name A Decreptic Coffin~
+Descr
+ You entered into a old decreptic coffin. The coffin is fill with a
+mossy green color, worn from ages of corrosion. There is a severe stench of
+death that fill the coffin. 
+~
+Reset M 9941 1 100
+Reset O 9941 15 10
+Door 4 0 0 9939 0 0
+~
+~
+End
+
+#9947
+Name Center of the Mausoleum~
+Descr
+You stand at the center of the mausoleum. The mausoleum is made out of
+stone, worn from ages of corrosion, greyish green in color and cold to
+touch. The area is fill with a dense fog that prevents noises from the
+outside from being heard. The only sound that can be heard echoing in the
+mausoleum is a screaming tortured souls. 
+~
+Flags2 6
+Flags 5
+Reset O 44 -5 100
+Door 0 7 0 9948 24 24
+~
+door~
+Door 1 7 0 9950 24 24
+~
+door~
+Door 2 7 0 9951 24 24
+~
+door~
+Door 3 7 0 9949 24 24
+~
+door~
+Door 5 0 0 9934 0 0
+~
+~
+End
+
+#9948
+Name A Dark Vault~
+Descr
+You entered into a dark vault within the mausoleum. The area is cover
+with a dense fog and blood stains fill the walls. The only sound that can be
+heard is a echo of a screaming torture souls. 
+~
+Flags 5
+Reset M 9947 1 100
+Reset O 5085 -1 10
+Door 2 0 0 9947 0 0
+~
+~
+End
+
+#9949
+Name A Dark Vault~
+Descr
+You entered into a dark vault within the mausoleum. The area is cover
+with a dense fog and blood stains fill the walls. The only sound that can be
+heard is a echo of a screaming torture souls. 
+~
+Flags 5
+Reset M 9947 1 100
+Reset O 5068 -1 15
+Door 1 0 0 9947 0 0
+~
+~
+End
+
+#9950
+Name A Dark Vault~
+Descr
+You entered into a dark vault within the mausoleum. The area is cover
+with a dense fog and blood stains fill the walls. The only sound that can be
+heard is a echo of a screaming torture souls. 
+~
+Flags 5
+Reset M 9947 1 100
+Reset O 5066 -1 30
+Reset O 5066 -1 1
+Door 3 0 0 9947 0 0
+~
+~
+End
+
+#9951
+Name A Dark Vault~
+Descr
+You entered into a dark vault within the mausoleum. The area is cover
+with a dense fog and blood stains fill the walls. The only sound that can be
+heard is a echo of a screaming torture souls. 
+~
+Flags 5
+Reset M 9947 1 100
+Reset O 5074 -1 30
+Door 0 0 0 9947 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

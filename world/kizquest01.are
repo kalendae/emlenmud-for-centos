@@ -1,0 +1,124 @@
+#AREADATA 
+Name Quest Cave~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Kizmet~
+VNUMs 91701 91725
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#91701
+Name The Center of a Large Cave~
+Descr
+~
+Flags 4
+Door 0 0 0 91702 0 0
+~
+~
+Door 1 0 0 91703 0 0
+~
+~
+Door 2 0 0 91704 0 0
+~
+~
+Door 3 0 0 91705 0 0
+~
+~
+Door 5 0 0 91706 0 0
+~
+~
+End
+
+#91702
+Name A Large Cave~
+Descr
+~
+Door 2 0 0 91701 0 0
+~
+~
+End
+
+#91703
+Name A Large Cave~
+Descr
+~
+Flags 4
+Door 3 0 0 91701 0 0
+~
+~
+End
+
+#91704
+Name A Large Cave~
+Descr
+~
+Flags 4
+Door 0 0 0 91701 0 0
+~
+~
+End
+
+#91705
+Name A Large Cave~
+Descr
+~
+Flags 4
+Door 1 0 0 91701 0 0
+~
+~
+End
+
+#91706
+Name The Guards Chambers~
+Descr
+~
+Door 0 0 0 91708 0 0
+~
+~
+Door 4 0 0 91701 0 0
+~
+~
+Door 5 0 0 91707 0 0
+~
+~
+End
+
+#91707
+Name ~
+Descr
+~
+Door 4 0 0 91706 0 0
+~
+~
+End
+
+#91708
+Name The Trap~
+Descr
+~
+Door 2 0 0 91706 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

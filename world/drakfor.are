@@ -1,0 +1,9001 @@
+#AREADATA 
+Name The Drakken Forest~
+Repop A wyvern screams as a hunters killing blow lands.
+~
+SCZone 0
+Builders Bern~
+VNUMs 66081 66495
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#66100
+Name wyvern large male~
+Short a large wyvern~
+Long 
+A large male wyvern is here hunting for food.
+~
+AMax 12
+NHeight 0
+ActBits 4
+ActBits3 65536
+Affect_By 512
+Level 130
+Sex 1
+MobType 20
+Hp 2
+Guard 0
+Spec spec_janitor
+BCasts dazzle~
+BCasts blink~
+BCast_P 5
+End
+
+#66101
+Name mighty stag~
+Short a mighty stag~
+Long 
+A mighty stag is here foraging for food.
+~
+AMax 15
+NHeight 0
+Affect_By 512
+Level 60
+Sex 1
+MobType 18
+Hp 2
+Guard 0
+End
+
+#66102
+Name brown bear~
+Short a brown bear~
+Long 
+A brown bear is foraging here for berries.
+~
+AMax 10
+NHeight 0
+ActBits 1024
+Level 80
+MobType 6
+Hp 3
+Guard 0
+End
+
+#66103
+Name cockatrice~
+Short a cockatrice~
+Long 
+A cockatrice is here roaming the forest for food.
+~
+AMax 1
+NHeight 0
+ActBits 8
+Affect_By 524808
+Level 200
+Sex 1
+MobType 20
+Hp 4
+Guard 0
+BCasts paralyze~
+BCast_P 2
+End
+
+#66490
+Name hunter~
+Short A large hunter~
+Long 
+A large hunter is here wandering aimlessly.
+~
+AMax 70
+ActBits3 4194304
+Affect_By 1
+Money 50
+Level 125
+Sex 1
+MobType 0
+Hp 2
+Guard 5
+End
+
+#0
+
+
+
+#OBJDATA
+#66100
+Name wyvern wings bloody~
+Short [0ma [31mbloody[0m pair of [32mWy[36mve[0mrn [36mWi[32mngs[0m~
+Descr
+[0mA [31mbloody[0m pair of [32mWy[36mve[0mrn [36mWi[32mngs[0m are resting firmly on the ground.
+[0;36m~
+Type 9
+Wear 4194305
+Values 0 3 1 1 15 0 20 20 0 0 0
+Weight 10
+Cost 0
+Affect 14 20 1 0 0
+End
+
+#66101
+Name bloody wyvern claws~
+Short [0ma [31mbloody[0m pair of [32mWy[36mve[0mrn [36mCl[32maws[0m~
+Descr
+[0mA [31mbloody[0m pair of [32mWy[36mve[0mrn [36mCl[32maws[0m are curled up here on the ground.
+[0;36m~
+Type 9
+Wear 129
+Values 0 0 0 3 0 0 15 15 0 0 0
+Weight 15
+Cost 100
+Affect 18 1 1 0 0
+End
+
+#66102
+Name spine cockatrice apb~
+Short [0ma [1m[33mCo[0m[33mck[0m[1m[33mat[0m[33mri[0m[1m[33mce[0m [33mSp[0m[1m[33min[0m[33me[0m~
+Descr
+[0mThe [1m[33mSp[0m[33min[0m[1m[33me o[0m[33mf a[0m [1m[33mCo[0m[33mck[0m[1m[33mat[0m[33mri[0m[1m[33mce[0m is sticking in the ground.
+[0;36m~
+Type 5
+Extra 1078198272
+Wear 24577
+Values 0 50 0 1 0 0 0 4 3 0 0
+Weight 10
+Cost 500
+Affect 19 1 1 0 0
+Affect 13 -10 1 0 0
+Affect 18 2 1 0 0
+End
+
+#66103
+Name portal tyrsis~
+Short a stone marker~
+Descr
+A glowing marker stone is here illuminating the sides of the tower.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#66104
+Name neutral quest dagger runed steel ancient apb~
+Short [0ma [1m[30mr[0m[35mun[1m[30med[0m steel [1m[30mdag[0m[35mge[1m[30mr[0m~
+Descr
+[36mA dagger covered in ancient [1m[30mr[0m[35mun[1m[30mes[0m[36m is here [1m[31mrusting[0m[36m on the ground.[0m
+[0;36m~
+Type 5
+Extra 50470914
+Wear 24577
+Timer 900
+Values 0 0 0 11 0 0 0 6 2 0 0
+Weight 5
+Cost 0
+Affect 20 2 1 0 0
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#66105
+Name spiked cocatrice tail apb~
+Short a [1m[33mPe[0m[33mtr[1m[33mif[0m[33mie[1m[33md Co[0m[33mck[1m[33mat[0m[33mri[1m[33mce Ta[0m[33mil[0m~
+Descr
+A large spiked cockatrice tail sits here embedded in the ground.
+[0;36m~
+Type 5
+Extra 524288
+Wear 16385
+Values 0 50 0 7 0 0 0 4 3 0 0
+Weight 45
+Cost 500
+Affect 14 -5 1 0 0
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#66106
+Name runed steel sword neutral quest apb~
+Short [0ma [1m[30mr[0m[35mun[1m[30med[0m steel [1m[30msw[0m[35mor[1m[30md[0m~
+Descr
+[36mA sword covered in ancient [1m[30mr[0m[35mun[1m[30mes[0m [36mis here [1m[31mrusting[0m[36m on the ground.[0m
+[0;36m~
+Type 5
+Extra 50602114
+Wear 24577
+Timer 900
+Values 0 0 0 3 0 0 0 5 3 0 0
+Weight 10
+Cost 0
+Affect 19 1 1 0 0
+Affect 20 2 1 0 0
+Affect 18 2 1 0 0
+End
+
+#66107
+Name runed turquoise gem neutral quest spirit fire water~
+Short [0ma [1m[30mr[0m[35mun[1m[30med[0m [1m[34mtu[0m[34mr[0m[36m[1mq[0m[33mu[1m[36mo[0m[34mi[1mse[0m [1m[30mg[0m[35me[1m[30mmst[0m[35mon[1m[30me[0m~
+Descr
+[36mA [1m[30mr[0m[35mun[1m[30med[0m[36m covered [1m[34mg[0m[34me[1m[36mm[0m[33ms[1m[36mt[0m[34mo[1mne[0m[36m is here on the ground slowly losing its power.[0m
+[0;36m~
+Type 21
+Extra 50339970
+Wear 24577
+Timer 900
+Values 25 40 40 30 0 0 0 0 0 0 0
+Weight 4
+Cost 0
+End
+
+#66108
+Name runed topaz gem neutral quest fire air spirit~
+Short [0ma [1m[30mr[0m[35mun[1m[30med[0m [1m[31mt[0m[33mo[1m[30mp[0m[33ma[1m[31mz[0m [1m[30mg[0m[35me[1m[30mmst[0m[35mon[1m[30me[0m~
+Descr
+[36mA [1m[30mr[0m[35mun[1m[30med[0m[36m covered [1m[31mge[0m[33mm[1m[30mst[0m[33mo[1m[31mne[0m [36mis here on the ground slowly losing its power.[0m
+[0;36m~
+Type 21
+Extra 50339970
+Wear 24577
+Timer 900
+Values 22 40 40 30 0 0 0 0 0 0 0
+Weight 4
+Cost 0
+End
+
+#66109
+Name runed steel breastplate neutral quest apb~
+Short [0ma [1m[30mr[0m[35mun[1m[30med[0m steel [1m[30mbr[0m[35mea[1m[30mstpl[0m[35mat[1m[30me[0m~
+Descr
+[36mA breastplate covered in ancient [1m[30mr[0m[35mun[1m[30mes[0m[36m is here [1m[31mrusting[0m[36m on the ground.[0m
+[0;36m~
+Type 9
+Extra 50339970
+Wear 9
+Timer 900
+Values 2 5 1 2 20 20 0 0 20 2 0
+Weight 18
+Cost 0
+Affect 20 2 1 0 0
+Affect 14 10 1 0 0
+Affect 13 20 1 0 0
+Affect 19 1 1 0 0
+End
+
+#66110
+Name runed steel ring scroll "greater healing touch" neutral quest~
+Short [0ma [1m[30mr[0m[35mun[1m[30med[0m steel [1m[30mr[0m[35mi[1m[30mng[0m~
+Descr
+[36mA ring covered in ancient [1m[30mr[0m[35mun[1m[30mes[0m[36m is here [1m[31mrusting[0m[36m on the ground.[0m
+[0;36m~
+Type 2
+Extra 50339970
+Wear 3
+Timer 900
+Values 60 125 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 0
+Affect 20 2 1 0 0
+Affect 17 2 1 0 0
+Affect 13 5 1 0 0
+Affect 18 1 1 0 0
+End
+
+#66111
+Name runed steel pendant neutral quest~
+Short [0ma [1m[30mr[0m[35mun[1m[30med[0m steel [1m[30mp[0m[35me[1m[30mnd[0m[35man[0m[1m[30mt[0m~
+Descr
+[36mA pendant covered in ancient [1m[30mr[0m[35mun[1m[30mes[0m[36m is here [1m[31mrusting[0m[36m on the ground.[0m
+[0;36m~
+Type 1
+Extra 50339969
+Wear 5
+Timer 900
+Values -1 0 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 0
+Affect 20 2 1 0 0
+Affect 13 8 1 0 0
+Affect 14 5 1 0 0
+Affect 18 2 1 0 0
+Affect 17 2 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#66081
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66095 0 0
+~
+~
+Door 1 0 0 66082 0 0
+~
+~
+Door 2 0 0 66056 0 0
+~
+~
+Door 3 0 0 66092 0 0
+~
+~
+End
+
+#66082
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66096 0 0
+~
+~
+Door 1 0 0 66083 0 0
+~
+~
+Door 2 0 0 66057 0 0
+~
+~
+Door 3 0 0 66081 0 0
+~
+~
+End
+
+#66083
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66097 0 0
+~
+~
+Door 1 0 0 66084 0 0
+~
+~
+Door 2 0 0 66058 0 0
+~
+~
+Door 3 0 0 66082 0 0
+~
+~
+End
+
+#66084
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66098 0 0
+~
+~
+Door 1 0 0 66085 0 0
+~
+~
+Door 2 0 0 66059 0 0
+~
+~
+Door 3 0 0 66083 0 0
+~
+~
+End
+
+#66085
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66099 0 0
+~
+~
+Door 1 0 0 66086 0 0
+~
+~
+Door 2 0 0 66060 0 0
+~
+~
+Door 3 0 0 66084 0 0
+~
+~
+End
+
+#66086
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66100 0 0
+~
+~
+Door 1 0 0 66087 0 0
+~
+~
+Door 2 0 0 66061 0 0
+~
+~
+Door 3 0 0 66085 0 0
+~
+~
+End
+
+#66087
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66101 0 0
+~
+~
+Door 1 0 0 66088 0 0
+~
+~
+Door 2 0 0 66062 0 0
+~
+~
+Door 3 0 0 66086 0 0
+~
+~
+End
+
+#66088
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66102 0 0
+~
+~
+Door 1 0 0 66089 0 0
+~
+~
+Door 2 0 0 66063 0 0
+~
+~
+Door 3 0 0 66087 0 0
+~
+~
+End
+
+#66089
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66103 0 0
+~
+~
+Door 1 0 0 66090 0 0
+~
+~
+Door 2 0 0 66064 0 0
+~
+~
+Door 3 0 0 66088 0 0
+~
+~
+End
+
+#66090
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66104 0 0
+~
+~
+Door 1 0 0 66091 0 0
+~
+~
+Door 2 0 0 66065 0 0
+~
+~
+Door 3 0 0 66089 0 0
+~
+~
+End
+
+#66091
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66105 0 0
+~
+~
+Door 3 0 0 66090 0 0
+~
+~
+End
+
+#66092
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66094 0 0
+~
+~
+Door 1 0 0 66081 0 0
+~
+~
+End
+
+#66093
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66102 1 100
+Door 0 0 0 66109 0 0
+~
+~
+Door 1 0 0 66094 0 0
+~
+~
+End
+
+#66094
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66110 0 0
+~
+~
+Door 1 0 0 66095 0 0
+~
+~
+Door 2 0 0 66092 0 0
+~
+~
+Door 3 0 0 66093 0 0
+~
+~
+End
+
+#66095
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66111 0 0
+~
+~
+Door 1 0 0 66096 0 0
+~
+~
+Door 2 0 0 66081 0 0
+~
+~
+Door 3 0 0 66094 0 0
+~
+~
+End
+
+#66096
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66112 0 0
+~
+~
+Door 1 0 0 66097 0 0
+~
+~
+Door 2 0 0 66082 0 0
+~
+~
+Door 3 0 0 66095 0 0
+~
+~
+End
+
+#66097
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66113 0 0
+~
+~
+Door 1 0 0 66098 0 0
+~
+~
+Door 2 0 0 66083 0 0
+~
+~
+Door 3 0 0 66096 0 0
+~
+~
+End
+
+#66098
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66114 0 0
+~
+~
+Door 1 0 0 66099 0 0
+~
+~
+Door 2 0 0 66084 0 0
+~
+~
+Door 3 0 0 66097 0 0
+~
+~
+End
+
+#66099
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66115 0 0
+~
+~
+Door 1 0 0 66100 0 0
+~
+~
+Door 2 0 0 66085 0 0
+~
+~
+Door 3 0 0 66098 0 0
+~
+~
+End
+
+#66100
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66116 0 0
+~
+~
+Door 1 0 0 66101 0 0
+~
+~
+Door 2 0 0 66086 0 0
+~
+~
+Door 3 0 0 66099 0 0
+~
+~
+End
+
+#66101
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66117 0 0
+~
+~
+Door 1 0 0 66102 0 0
+~
+~
+Door 2 0 0 66087 0 0
+~
+~
+Door 3 0 0 66100 0 0
+~
+~
+End
+
+#66102
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66118 0 0
+~
+~
+Door 1 0 0 66103 0 0
+~
+~
+Door 2 0 0 66088 0 0
+~
+~
+Door 3 0 0 66101 0 0
+~
+~
+End
+
+#66103
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66119 0 0
+~
+~
+Door 1 0 0 66104 0 0
+~
+~
+Door 2 0 0 66089 0 0
+~
+~
+Door 3 0 0 66102 0 0
+~
+~
+End
+
+#66104
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66120 0 0
+~
+~
+Door 1 0 0 66105 0 0
+~
+~
+Door 2 0 0 66090 0 0
+~
+~
+Door 3 0 0 66103 0 0
+~
+~
+End
+
+#66105
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66121 0 0
+~
+~
+Door 1 0 0 66106 0 0
+~
+~
+Door 2 0 0 66091 0 0
+~
+~
+Door 3 0 0 66104 0 0
+~
+~
+End
+
+#66106
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66122 0 0
+~
+~
+Door 3 0 0 66105 0 0
+~
+~
+End
+
+#66107
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66125 0 0
+~
+~
+Door 1 0 0 66108 0 0
+~
+~
+End
+
+#66108
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66126 0 0
+~
+~
+Door 1 0 0 66109 0 0
+~
+~
+Door 3 0 0 66107 0 0
+~
+~
+End
+
+#66109
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66127 0 0
+~
+~
+Door 1 0 0 66110 0 0
+~
+~
+Door 2 0 0 66093 0 0
+~
+~
+Door 3 0 0 66108 0 0
+~
+~
+End
+
+#66110
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66128 0 0
+~
+~
+Door 1 0 0 66111 0 0
+~
+~
+Door 2 0 0 66094 0 0
+~
+~
+Door 3 0 0 66109 0 0
+~
+~
+End
+
+#66111
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66129 0 0
+~
+~
+Door 1 0 0 66112 0 0
+~
+~
+Door 2 0 0 66095 0 0
+~
+~
+Door 3 0 0 66110 0 0
+~
+~
+End
+
+#66112
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66130 0 0
+~
+~
+Door 1 0 0 66113 0 0
+~
+~
+Door 2 0 0 66096 0 0
+~
+~
+Door 3 0 0 66111 0 0
+~
+~
+End
+
+#66113
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66101 1 100
+Door 0 0 0 66131 0 0
+~
+~
+Door 1 0 0 66114 0 0
+~
+~
+Door 2 0 0 66097 0 0
+~
+~
+Door 3 0 0 66112 0 0
+~
+~
+End
+
+#66114
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66132 0 0
+~
+~
+Door 1 0 0 66115 0 0
+~
+~
+Door 2 0 0 66098 0 0
+~
+~
+Door 3 0 0 66113 0 0
+~
+~
+End
+
+#66115
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66133 0 0
+~
+~
+Door 1 0 0 66116 0 0
+~
+~
+Door 2 0 0 66099 0 0
+~
+~
+Door 3 0 0 66114 0 0
+~
+~
+End
+
+#66116
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66134 0 0
+~
+~
+Door 1 0 0 66117 0 0
+~
+~
+Door 2 0 0 66100 0 0
+~
+~
+Door 3 0 0 66115 0 0
+~
+~
+End
+
+#66117
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66135 0 0
+~
+~
+Door 1 0 0 66118 0 0
+~
+~
+Door 2 0 0 66101 0 0
+~
+~
+Door 3 0 0 66116 0 0
+~
+~
+End
+
+#66118
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66102 1 100
+Door 0 0 0 66136 0 0
+~
+~
+Door 1 0 0 66119 0 0
+~
+~
+Door 2 0 0 66102 0 0
+~
+~
+Door 3 0 0 66117 0 0
+~
+~
+End
+
+#66119
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66137 0 0
+~
+~
+Door 1 0 0 66120 0 0
+~
+~
+Door 2 0 0 66103 0 0
+~
+~
+Door 3 0 0 66118 0 0
+~
+~
+End
+
+#66120
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66138 0 0
+~
+~
+Door 1 0 0 66121 0 0
+~
+~
+Door 2 0 0 66104 0 0
+~
+~
+Door 3 0 0 66119 0 0
+~
+~
+End
+
+#66121
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66139 0 0
+~
+~
+Door 1 0 0 66122 0 0
+~
+~
+Door 2 0 0 66105 0 0
+~
+~
+Door 3 0 0 66120 0 0
+~
+~
+End
+
+#66122
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66140 0 0
+~
+~
+Door 1 0 0 66123 0 0
+~
+~
+Door 2 0 0 66106 0 0
+~
+~
+Door 3 0 0 66121 0 0
+~
+~
+End
+
+#66123
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66141 0 0
+~
+~
+Door 1 0 0 66124 0 0
+~
+~
+Door 3 0 0 66122 0 0
+~
+~
+End
+
+#66124
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66142 0 0
+~
+~
+Door 3 0 0 66123 0 0
+~
+~
+End
+
+#66125
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66145 0 0
+~
+~
+Door 1 0 0 66126 0 0
+~
+~
+Door 2 0 0 66107 0 0
+~
+~
+End
+
+#66126
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66146 0 0
+~
+~
+Door 1 0 0 66127 0 0
+~
+~
+Door 2 0 0 66108 0 0
+~
+~
+Door 3 0 0 66125 0 0
+~
+~
+End
+
+#66127
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66147 0 0
+~
+~
+Door 1 0 0 66128 0 0
+~
+~
+Door 2 0 0 66109 0 0
+~
+~
+Door 3 0 0 66126 0 0
+~
+~
+End
+
+#66128
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66148 0 0
+~
+~
+Door 1 0 0 66129 0 0
+~
+~
+Door 2 0 0 66110 0 0
+~
+~
+Door 3 0 0 66127 0 0
+~
+~
+End
+
+#66129
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66149 0 0
+~
+~
+Door 1 0 0 66130 0 0
+~
+~
+Door 2 0 0 66111 0 0
+~
+~
+Door 3 0 0 66128 0 0
+~
+~
+End
+
+#66130
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66150 0 0
+~
+~
+Door 1 0 0 66131 0 0
+~
+~
+Door 2 0 0 66112 0 0
+~
+~
+Door 3 0 0 66129 0 0
+~
+~
+End
+
+#66131
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66151 0 0
+~
+~
+Door 1 0 0 66132 0 0
+~
+~
+Door 2 0 0 66113 0 0
+~
+~
+Door 3 0 0 66130 0 0
+~
+~
+End
+
+#66132
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66152 0 0
+~
+~
+Door 1 0 0 66133 0 0
+~
+~
+Door 2 0 0 66114 0 0
+~
+~
+Door 3 0 0 66131 0 0
+~
+~
+End
+
+#66133
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66153 0 0
+~
+~
+Door 1 0 0 66134 0 0
+~
+~
+Door 2 0 0 66115 0 0
+~
+~
+Door 3 0 0 66132 0 0
+~
+~
+End
+
+#66134
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66154 0 0
+~
+~
+Door 1 0 0 66135 0 0
+~
+~
+Door 2 0 0 66116 0 0
+~
+~
+Door 3 0 0 66133 0 0
+~
+~
+End
+
+#66135
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66155 0 0
+~
+~
+Door 1 0 0 66136 0 0
+~
+~
+Door 2 0 0 66117 0 0
+~
+~
+Door 3 0 0 66134 0 0
+~
+~
+End
+
+#66136
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66156 0 0
+~
+~
+Door 1 0 0 66137 0 0
+~
+~
+Door 2 0 0 66118 0 0
+~
+~
+Door 3 0 0 66135 0 0
+~
+~
+End
+
+#66137
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66157 0 0
+~
+~
+Door 1 0 0 66138 0 0
+~
+~
+Door 2 0 0 66119 0 0
+~
+~
+Door 3 0 0 66136 0 0
+~
+~
+End
+
+#66138
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66158 0 0
+~
+~
+Door 1 0 0 66139 0 0
+~
+~
+Door 2 0 0 66120 0 0
+~
+~
+Door 3 0 0 66137 0 0
+~
+~
+End
+
+#66139
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66159 0 0
+~
+~
+Door 1 0 0 66140 0 0
+~
+~
+Door 2 0 0 66121 0 0
+~
+~
+Door 3 0 0 66138 0 0
+~
+~
+End
+
+#66140
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66160 0 0
+~
+~
+Door 1 0 0 66141 0 0
+~
+~
+Door 2 0 0 66122 0 0
+~
+~
+Door 3 0 0 66139 0 0
+~
+~
+End
+
+#66141
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66161 0 0
+~
+~
+Door 1 0 0 66142 0 0
+~
+~
+Door 2 0 0 66123 0 0
+~
+~
+Door 3 0 0 66140 0 0
+~
+~
+End
+
+#66142
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66162 0 0
+~
+~
+Door 2 0 0 66124 0 0
+~
+~
+Door 3 0 0 66141 0 0
+~
+~
+End
+
+#66143
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66165 0 0
+~
+~
+Door 1 0 0 66144 0 0
+~
+~
+End
+
+#66144
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66166 0 0
+~
+~
+Door 1 0 0 66145 0 0
+~
+~
+Door 3 0 0 66143 0 0
+~
+~
+End
+
+#66145
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66167 0 0
+~
+~
+Door 1 0 0 66146 0 0
+~
+~
+Door 2 0 0 66125 0 0
+~
+~
+Door 3 0 0 66144 0 0
+~
+~
+End
+
+#66146
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66168 0 0
+~
+~
+Door 1 0 0 66147 0 0
+~
+~
+Door 2 0 0 66126 0 0
+~
+~
+Door 3 0 0 66145 0 0
+~
+~
+End
+
+#66147
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66169 0 0
+~
+~
+Door 1 0 0 66148 0 0
+~
+~
+Door 2 0 0 66127 0 0
+~
+~
+Door 3 0 0 66146 0 0
+~
+~
+End
+
+#66148
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66101 1 100
+Door 0 0 0 66170 0 0
+~
+~
+Door 1 0 0 66149 0 0
+~
+~
+Door 2 0 0 66128 0 0
+~
+~
+Door 3 0 0 66147 0 0
+~
+~
+End
+
+#66149
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66171 0 0
+~
+~
+Door 1 0 0 66150 0 0
+~
+~
+Door 2 0 0 66129 0 0
+~
+~
+Door 3 0 0 66148 0 0
+~
+~
+End
+
+#66150
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66172 0 0
+~
+~
+Door 1 0 0 66151 0 0
+~
+~
+Door 2 0 0 66130 0 0
+~
+~
+Door 3 0 0 66149 0 0
+~
+~
+End
+
+#66151
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66173 0 0
+~
+~
+Door 1 0 0 66152 0 0
+~
+~
+Door 2 0 0 66131 0 0
+~
+~
+Door 3 0 0 66150 0 0
+~
+~
+End
+
+#66152
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66174 0 0
+~
+~
+Door 1 0 0 66153 0 0
+~
+~
+Door 2 0 0 66132 0 0
+~
+~
+Door 3 0 0 66151 0 0
+~
+~
+End
+
+#66153
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66175 0 0
+~
+~
+Door 1 0 0 66154 0 0
+~
+~
+Door 2 0 0 66133 0 0
+~
+~
+Door 3 0 0 66152 0 0
+~
+~
+End
+
+#66154
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66176 0 0
+~
+~
+Door 1 0 0 66155 0 0
+~
+~
+Door 2 0 0 66134 0 0
+~
+~
+Door 3 0 0 66153 0 0
+~
+~
+End
+
+#66155
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66177 0 0
+~
+~
+Door 1 0 0 66156 0 0
+~
+~
+Door 2 0 0 66135 0 0
+~
+~
+Door 3 0 0 66154 0 0
+~
+~
+End
+
+#66156
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66101 1 100
+Door 0 0 0 66178 0 0
+~
+~
+Door 1 0 0 66157 0 0
+~
+~
+Door 2 0 0 66136 0 0
+~
+~
+Door 3 0 0 66155 0 0
+~
+~
+End
+
+#66157
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66179 0 0
+~
+~
+Door 1 0 0 66158 0 0
+~
+~
+Door 2 0 0 66137 0 0
+~
+~
+Door 3 0 0 66156 0 0
+~
+~
+End
+
+#66158
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66180 0 0
+~
+~
+Door 1 0 0 66159 0 0
+~
+~
+Door 2 0 0 66138 0 0
+~
+~
+Door 3 0 0 66157 0 0
+~
+~
+End
+
+#66159
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66181 0 0
+~
+~
+Door 1 0 0 66160 0 0
+~
+~
+Door 2 0 0 66139 0 0
+~
+~
+Door 3 0 0 66158 0 0
+~
+~
+End
+
+#66160
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66182 0 0
+~
+~
+Door 1 0 0 66161 0 0
+~
+~
+Door 2 0 0 66140 0 0
+~
+~
+Door 3 0 0 66159 0 0
+~
+~
+End
+
+#66161
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66183 0 0
+~
+~
+Door 1 0 0 66162 0 0
+~
+~
+Door 2 0 0 66141 0 0
+~
+~
+Door 3 0 0 66160 0 0
+~
+~
+End
+
+#66162
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66184 0 0
+~
+~
+Door 1 0 0 66163 0 0
+~
+~
+Door 2 0 0 66142 0 0
+~
+~
+Door 3 0 0 66161 0 0
+~
+~
+End
+
+#66163
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66185 0 0
+~
+~
+Door 1 0 0 66164 0 0
+~
+~
+Door 3 0 0 66162 0 0
+~
+~
+End
+
+#66164
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66186 0 0
+~
+~
+Door 3 0 0 66163 0 0
+~
+~
+End
+
+#66165
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66188 0 0
+~
+~
+Door 1 0 0 66166 0 0
+~
+~
+Door 2 0 0 66143 0 0
+~
+~
+End
+
+#66166
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66189 0 0
+~
+~
+Door 1 0 0 66167 0 0
+~
+~
+Door 2 0 0 66144 0 0
+~
+~
+Door 3 0 0 66165 0 0
+~
+~
+End
+
+#66167
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66190 0 0
+~
+~
+Door 1 0 0 66168 0 0
+~
+~
+Door 2 0 0 66145 0 0
+~
+~
+Door 3 0 0 66166 0 0
+~
+~
+End
+
+#66168
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66191 0 0
+~
+~
+Door 1 0 0 66169 0 0
+~
+~
+Door 2 0 0 66146 0 0
+~
+~
+Door 3 0 0 66167 0 0
+~
+~
+End
+
+#66169
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66192 0 0
+~
+~
+Door 1 0 0 66170 0 0
+~
+~
+Door 2 0 0 66147 0 0
+~
+~
+Door 3 0 0 66168 0 0
+~
+~
+End
+
+#66170
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66193 0 0
+~
+~
+Door 1 0 0 66171 0 0
+~
+~
+Door 2 0 0 66148 0 0
+~
+~
+Door 3 0 0 66169 0 0
+~
+~
+End
+
+#66171
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66194 0 0
+~
+~
+Door 1 0 0 66172 0 0
+~
+~
+Door 2 0 0 66149 0 0
+~
+~
+Door 3 0 0 66170 0 0
+~
+~
+End
+
+#66172
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66195 0 0
+~
+~
+Door 1 0 0 66173 0 0
+~
+~
+Door 2 0 0 66150 0 0
+~
+~
+Door 3 0 0 66171 0 0
+~
+~
+End
+
+#66173
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66196 0 0
+~
+~
+Door 1 0 0 66174 0 0
+~
+~
+Door 2 0 0 66151 0 0
+~
+~
+Door 3 0 0 66172 0 0
+~
+~
+End
+
+#66174
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66197 0 0
+~
+~
+Door 1 0 0 66175 0 0
+~
+~
+Door 2 0 0 66152 0 0
+~
+~
+Door 3 0 0 66173 0 0
+~
+~
+End
+
+#66175
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66198 0 0
+~
+~
+Door 1 0 0 66176 0 0
+~
+~
+Door 2 0 0 66153 0 0
+~
+~
+Door 3 0 0 66174 0 0
+~
+~
+End
+
+#66176
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66199 0 0
+~
+~
+Door 1 0 0 66177 0 0
+~
+~
+Door 2 0 0 66154 0 0
+~
+~
+Door 3 0 0 66175 0 0
+~
+~
+End
+
+#66177
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66200 0 0
+~
+~
+Door 1 0 0 66178 0 0
+~
+~
+Door 2 0 0 66155 0 0
+~
+~
+Door 3 0 0 66176 0 0
+~
+~
+End
+
+#66178
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66201 0 0
+~
+~
+Door 1 0 0 66179 0 0
+~
+~
+Door 2 0 0 66156 0 0
+~
+~
+Door 3 0 0 66177 0 0
+~
+~
+End
+
+#66179
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66202 0 0
+~
+~
+Door 1 0 0 66180 0 0
+~
+~
+Door 2 0 0 66157 0 0
+~
+~
+Door 3 0 0 66178 0 0
+~
+~
+End
+
+#66180
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66203 0 0
+~
+~
+Door 1 0 0 66181 0 0
+~
+~
+Door 2 0 0 66158 0 0
+~
+~
+Door 3 0 0 66179 0 0
+~
+~
+End
+
+#66181
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66204 0 0
+~
+~
+Door 1 0 0 66182 0 0
+~
+~
+Door 2 0 0 66159 0 0
+~
+~
+Door 3 0 0 66180 0 0
+~
+~
+End
+
+#66182
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66205 0 0
+~
+~
+Door 1 0 0 66183 0 0
+~
+~
+Door 2 0 0 66160 0 0
+~
+~
+Door 3 0 0 66181 0 0
+~
+~
+End
+
+#66183
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66101 1 100
+Door 0 0 0 66206 0 0
+~
+~
+Door 1 0 0 66184 0 0
+~
+~
+Door 2 0 0 66161 0 0
+~
+~
+Door 3 0 0 66182 0 0
+~
+~
+End
+
+#66184
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66207 0 0
+~
+~
+Door 1 0 0 66185 0 0
+~
+~
+Door 2 0 0 66162 0 0
+~
+~
+Door 3 0 0 66183 0 0
+~
+~
+End
+
+#66185
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66208 0 0
+~
+~
+Door 1 0 0 66186 0 0
+~
+~
+Door 2 0 0 66163 0 0
+~
+~
+Door 3 0 0 66184 0 0
+~
+~
+End
+
+#66186
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66209 0 0
+~
+~
+Door 2 0 0 66164 0 0
+~
+~
+Door 3 0 0 66185 0 0
+~
+~
+End
+
+#66187
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66212 0 0
+~
+~
+Door 1 0 0 66188 0 0
+~
+~
+End
+
+#66188
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66213 0 0
+~
+~
+Door 1 0 0 66189 0 0
+~
+~
+Door 2 0 0 66165 0 0
+~
+~
+Door 3 0 0 66187 0 0
+~
+~
+End
+
+#66189
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66214 0 0
+~
+~
+Door 1 0 0 66190 0 0
+~
+~
+Door 2 0 0 66166 0 0
+~
+~
+Door 3 0 0 66188 0 0
+~
+~
+End
+
+#66190
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66101 1 100
+Door 0 0 0 66215 0 0
+~
+~
+Door 1 0 0 66191 0 0
+~
+~
+Door 2 0 0 66167 0 0
+~
+~
+Door 3 0 0 66189 0 0
+~
+~
+End
+
+#66191
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66216 0 0
+~
+~
+Door 1 0 0 66192 0 0
+~
+~
+Door 2 0 0 66168 0 0
+~
+~
+Door 3 0 0 66190 0 0
+~
+~
+End
+
+#66192
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66217 0 0
+~
+~
+Door 1 0 0 66193 0 0
+~
+~
+Door 2 0 0 66169 0 0
+~
+~
+Door 3 0 0 66191 0 0
+~
+~
+End
+
+#66193
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66218 0 0
+~
+~
+Door 1 0 0 66194 0 0
+~
+~
+Door 2 0 0 66170 0 0
+~
+~
+Door 3 0 0 66192 0 0
+~
+~
+End
+
+#66194
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66219 0 0
+~
+~
+Door 1 0 0 66195 0 0
+~
+~
+Door 2 0 0 66171 0 0
+~
+~
+Door 3 0 0 66193 0 0
+~
+~
+End
+
+#66195
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66220 0 0
+~
+~
+Door 1 0 0 66196 0 0
+~
+~
+Door 2 0 0 66172 0 0
+~
+~
+Door 3 0 0 66194 0 0
+~
+~
+End
+
+#66196
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66221 0 0
+~
+~
+Door 1 0 0 66197 0 0
+~
+~
+Door 2 0 0 66173 0 0
+~
+~
+Door 3 0 0 66195 0 0
+~
+~
+End
+
+#66197
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66222 0 0
+~
+~
+Door 1 0 0 66198 0 0
+~
+~
+Door 2 0 0 66174 0 0
+~
+~
+Door 3 0 0 66196 0 0
+~
+~
+End
+
+#66198
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66102 1 100
+Door 0 0 0 66223 0 0
+~
+~
+Door 1 0 0 66199 0 0
+~
+~
+Door 2 0 0 66175 0 0
+~
+~
+Door 3 0 0 66197 0 0
+~
+~
+End
+
+#66199
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66224 0 0
+~
+~
+Door 1 0 0 66200 0 0
+~
+~
+Door 2 0 0 66176 0 0
+~
+~
+Door 3 0 0 66198 0 0
+~
+~
+End
+
+#66200
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66225 0 0
+~
+~
+Door 1 0 0 66201 0 0
+~
+~
+Door 2 0 0 66177 0 0
+~
+~
+Door 3 0 0 66199 0 0
+~
+~
+End
+
+#66201
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66226 0 0
+~
+~
+Door 1 0 0 66202 0 0
+~
+~
+Door 2 0 0 66178 0 0
+~
+~
+Door 3 0 0 66200 0 0
+~
+~
+End
+
+#66202
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66227 0 0
+~
+~
+Door 1 0 0 66203 0 0
+~
+~
+Door 2 0 0 66179 0 0
+~
+~
+Door 3 0 0 66201 0 0
+~
+~
+End
+
+#66203
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66228 0 0
+~
+~
+Door 1 0 0 66204 0 0
+~
+~
+Door 2 0 0 66180 0 0
+~
+~
+Door 3 0 0 66202 0 0
+~
+~
+End
+
+#66204
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66229 0 0
+~
+~
+Door 1 0 0 66205 0 0
+~
+~
+Door 2 0 0 66181 0 0
+~
+~
+Door 3 0 0 66203 0 0
+~
+~
+End
+
+#66205
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66230 0 0
+~
+~
+Door 1 0 0 66206 0 0
+~
+~
+Door 2 0 0 66182 0 0
+~
+~
+Door 3 0 0 66204 0 0
+~
+~
+End
+
+#66206
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66231 0 0
+~
+~
+Door 1 0 0 66207 0 0
+~
+~
+Door 2 0 0 66183 0 0
+~
+~
+Door 3 0 0 66205 0 0
+~
+~
+End
+
+#66207
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66232 0 0
+~
+~
+Door 1 0 0 66208 0 0
+~
+~
+Door 2 0 0 66184 0 0
+~
+~
+Door 3 0 0 66206 0 0
+~
+~
+End
+
+#66208
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66233 0 0
+~
+~
+Door 1 0 0 66209 0 0
+~
+~
+Door 2 0 0 66185 0 0
+~
+~
+Door 3 0 0 66207 0 0
+~
+~
+End
+
+#66209
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66102 1 100
+Door 0 0 0 66234 0 0
+~
+~
+Door 1 0 0 66210 0 0
+~
+~
+Door 2 0 0 66186 0 0
+~
+~
+Door 3 0 0 66208 0 0
+~
+~
+End
+
+#66210
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66235 0 0
+~
+~
+Door 3 0 0 66209 0 0
+~
+~
+End
+
+#66211
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66237 0 0
+~
+~
+Door 1 0 0 66212 0 0
+~
+~
+End
+
+#66212
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66238 0 0
+~
+~
+Door 1 0 0 66213 0 0
+~
+~
+Door 2 0 0 66187 0 0
+~
+~
+Door 3 0 0 66211 0 0
+~
+~
+End
+
+#66213
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66239 0 0
+~
+~
+Door 1 0 0 66214 0 0
+~
+~
+Door 2 0 0 66188 0 0
+~
+~
+Door 3 0 0 66212 0 0
+~
+~
+End
+
+#66214
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66240 0 0
+~
+~
+Door 1 0 0 66215 0 0
+~
+~
+Door 2 0 0 66189 0 0
+~
+~
+Door 3 0 0 66213 0 0
+~
+~
+End
+
+#66215
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66241 0 0
+~
+~
+Door 1 0 0 66216 0 0
+~
+~
+Door 2 0 0 66190 0 0
+~
+~
+Door 3 0 0 66214 0 0
+~
+~
+End
+
+#66216
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66242 0 0
+~
+~
+Door 1 0 0 66217 0 0
+~
+~
+Door 2 0 0 66191 0 0
+~
+~
+Door 3 0 0 66215 0 0
+~
+~
+End
+
+#66217
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66243 0 0
+~
+~
+Door 1 0 0 66218 0 0
+~
+~
+Door 2 0 0 66192 0 0
+~
+~
+Door 3 0 0 66216 0 0
+~
+~
+End
+
+#66218
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66244 0 0
+~
+~
+Door 1 0 0 66219 0 0
+~
+~
+Door 2 0 0 66193 0 0
+~
+~
+Door 3 0 0 66217 0 0
+~
+~
+End
+
+#66219
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66245 0 0
+~
+~
+Door 1 0 0 66220 0 0
+~
+~
+Door 2 0 0 66194 0 0
+~
+~
+Door 3 0 0 66218 0 0
+~
+~
+End
+
+#66220
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66246 0 0
+~
+~
+Door 1 0 0 66221 0 0
+~
+~
+Door 2 0 0 66195 0 0
+~
+~
+Door 3 0 0 66219 0 0
+~
+~
+End
+
+#66221
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66247 0 0
+~
+~
+Door 1 0 0 66222 0 0
+~
+~
+Door 2 0 0 66196 0 0
+~
+~
+Door 3 0 0 66220 0 0
+~
+~
+End
+
+#66222
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66979 0 0
+~
+~
+Door 1 0 0 66223 0 0
+~
+~
+Door 2 0 0 66197 0 0
+~
+~
+Door 3 0 0 66221 0 0
+~
+~
+End
+
+#66223
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+ExtraDescr marker~
+To enter into the tower, one must first speak the name of the master. 
+
+~
+ExtraDescr stone~
+To enter into the tower, one must first speak the name of the master. 
+
+~
+Reset O 127 -5 100
+Door 0 0 0 66983 0 0
+~
+~
+Door 1 0 0 66224 0 0
+~
+~
+Door 2 0 0 66198 0 0
+~
+~
+Door 3 0 0 66222 0 0
+~
+~
+End
+
+#66224
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66987 0 0
+~
+~
+Door 1 0 0 66225 0 0
+~
+~
+Door 2 0 0 66199 0 0
+~
+~
+Door 3 0 0 66223 0 0
+~
+~
+End
+
+#66225
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66248 0 0
+~
+~
+Door 1 0 0 66226 0 0
+~
+~
+Door 2 0 0 66200 0 0
+~
+~
+Door 3 0 0 66224 0 0
+~
+~
+End
+
+#66226
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66249 0 0
+~
+~
+Door 1 0 0 66227 0 0
+~
+~
+Door 2 0 0 66201 0 0
+~
+~
+Door 3 0 0 66225 0 0
+~
+~
+End
+
+#66227
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66250 0 0
+~
+~
+Door 1 0 0 66228 0 0
+~
+~
+Door 2 0 0 66202 0 0
+~
+~
+Door 3 0 0 66226 0 0
+~
+~
+End
+
+#66228
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66251 0 0
+~
+~
+Door 1 0 0 66229 0 0
+~
+~
+Door 2 0 0 66203 0 0
+~
+~
+Door 3 0 0 66227 0 0
+~
+~
+End
+
+#66229
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66252 0 0
+~
+~
+Door 1 0 0 66230 0 0
+~
+~
+Door 2 0 0 66204 0 0
+~
+~
+Door 3 0 0 66228 0 0
+~
+~
+End
+
+#66230
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66253 0 0
+~
+~
+Door 1 0 0 66231 0 0
+~
+~
+Door 2 0 0 66205 0 0
+~
+~
+Door 3 0 0 66229 0 0
+~
+~
+End
+
+#66231
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66254 0 0
+~
+~
+Door 1 0 0 66232 0 0
+~
+~
+Door 2 0 0 66206 0 0
+~
+~
+Door 3 0 0 66230 0 0
+~
+~
+End
+
+#66232
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66255 0 0
+~
+~
+Door 1 0 0 66233 0 0
+~
+~
+Door 2 0 0 66207 0 0
+~
+~
+Door 3 0 0 66231 0 0
+~
+~
+End
+
+#66233
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66256 0 0
+~
+~
+Door 1 0 0 66234 0 0
+~
+~
+Door 2 0 0 66208 0 0
+~
+~
+Door 3 0 0 66232 0 0
+~
+~
+End
+
+#66234
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66257 0 0
+~
+~
+Door 1 0 0 66235 0 0
+~
+~
+Door 2 0 0 66209 0 0
+~
+~
+Door 3 0 0 66233 0 0
+~
+~
+End
+
+#66235
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66258 0 0
+~
+~
+Door 1 0 0 66236 0 0
+~
+~
+Door 2 0 0 66210 0 0
+~
+~
+Door 3 0 0 66234 0 0
+~
+~
+End
+
+#66236
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66259 0 0
+~
+~
+Door 3 0 0 66235 0 0
+~
+~
+End
+
+#66237
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66102 1 100
+Door 0 0 0 66260 0 0
+~
+~
+Door 1 0 0 66238 0 0
+~
+~
+Door 2 0 0 66211 0 0
+~
+~
+End
+
+#66238
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66261 0 0
+~
+~
+Door 1 0 0 66239 0 0
+~
+~
+Door 2 0 0 66212 0 0
+~
+~
+Door 3 0 0 66237 0 0
+~
+~
+End
+
+#66239
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66262 0 0
+~
+~
+Door 1 0 0 66240 0 0
+~
+~
+Door 2 0 0 66213 0 0
+~
+~
+Door 3 0 0 66238 0 0
+~
+~
+End
+
+#66240
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66263 0 0
+~
+~
+Door 1 0 0 66241 0 0
+~
+~
+Door 2 0 0 66214 0 0
+~
+~
+Door 3 0 0 66239 0 0
+~
+~
+End
+
+#66241
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66264 0 0
+~
+~
+Door 1 0 0 66242 0 0
+~
+~
+Door 2 0 0 66215 0 0
+~
+~
+Door 3 0 0 66240 0 0
+~
+~
+End
+
+#66242
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66265 0 0
+~
+~
+Door 1 0 0 66243 0 0
+~
+~
+Door 2 0 0 66216 0 0
+~
+~
+Door 3 0 0 66241 0 0
+~
+~
+End
+
+#66243
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66266 0 0
+~
+~
+Door 1 0 0 66244 0 0
+~
+~
+Door 2 0 0 66217 0 0
+~
+~
+Door 3 0 0 66242 0 0
+~
+~
+End
+
+#66244
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66267 0 0
+~
+~
+Door 1 0 0 66245 0 0
+~
+~
+Door 2 0 0 66218 0 0
+~
+~
+Door 3 0 0 66243 0 0
+~
+~
+End
+
+#66245
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66268 0 0
+~
+~
+Door 1 0 0 66246 0 0
+~
+~
+Door 2 0 0 66219 0 0
+~
+~
+Door 3 0 0 66244 0 0
+~
+~
+End
+
+#66246
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66269 0 0
+~
+~
+Door 1 0 0 66247 0 0
+~
+~
+Door 2 0 0 66220 0 0
+~
+~
+Door 3 0 0 66245 0 0
+~
+~
+End
+
+#66247
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66990 0 0
+~
+~
+Door 1 0 0 66979 0 0
+~
+~
+Door 2 0 0 66221 0 0
+~
+~
+Door 3 0 0 66246 0 0
+~
+~
+End
+
+#66248
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66993 0 0
+~
+~
+Door 1 0 0 66249 0 0
+~
+~
+Door 2 0 0 66225 0 0
+~
+~
+Door 3 0 0 66987 0 0
+~
+~
+End
+
+#66249
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66270 0 0
+~
+~
+Door 1 0 0 66250 0 0
+~
+~
+Door 2 0 0 66226 0 0
+~
+~
+Door 3 0 0 66248 0 0
+~
+~
+End
+
+#66250
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66490 1 100
+Door 0 0 0 66271 0 0
+~
+~
+Door 1 0 0 66251 0 0
+~
+~
+Door 2 0 0 66227 0 0
+~
+~
+Door 3 0 0 66249 0 0
+~
+~
+End
+
+#66251
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66272 0 0
+~
+~
+Door 1 0 0 66252 0 0
+~
+~
+Door 2 0 0 66228 0 0
+~
+~
+Door 3 0 0 66250 0 0
+~
+~
+End
+
+#66252
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66273 0 0
+~
+~
+Door 1 0 0 66253 0 0
+~
+~
+Door 2 0 0 66229 0 0
+~
+~
+Door 3 0 0 66251 0 0
+~
+~
+End
+
+#66253
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66274 0 0
+~
+~
+Door 1 0 0 66254 0 0
+~
+~
+Door 2 0 0 66230 0 0
+~
+~
+Door 3 0 0 66252 0 0
+~
+~
+End
+
+#66254
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66275 0 0
+~
+~
+Door 1 0 0 66255 0 0
+~
+~
+Door 2 0 0 66231 0 0
+~
+~
+Door 3 0 0 66253 0 0
+~
+~
+End
+
+#66255
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66276 0 0
+~
+~
+Door 1 0 0 66256 0 0
+~
+~
+Door 2 0 0 66232 0 0
+~
+~
+Door 3 0 0 66254 0 0
+~
+~
+End
+
+#66256
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66277 0 0
+~
+~
+Door 1 0 0 66257 0 0
+~
+~
+Door 2 0 0 66233 0 0
+~
+~
+Door 3 0 0 66255 0 0
+~
+~
+End
+
+#66257
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66278 0 0
+~
+~
+Door 1 0 0 66258 0 0
+~
+~
+Door 2 0 0 66234 0 0
+~
+~
+Door 3 0 0 66256 0 0
+~
+~
+End
+
+#66258
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66279 0 0
+~
+~
+Door 1 0 0 66259 0 0
+~
+~
+Door 2 0 0 66235 0 0
+~
+~
+Door 3 0 0 66257 0 0
+~
+~
+End
+
+#66259
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66280 0 0
+~
+~
+Door 2 0 0 66236 0 0
+~
+~
+Door 3 0 0 66258 0 0
+~
+~
+End
+
+#66260
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66281 0 0
+~
+~
+Door 1 0 0 66261 0 0
+~
+~
+Door 2 0 0 66237 0 0
+~
+~
+End
+
+#66261
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66282 0 0
+~
+~
+Door 1 0 0 66262 0 0
+~
+~
+Door 2 0 0 66238 0 0
+~
+~
+Door 3 0 0 66260 0 0
+~
+~
+End
+
+#66262
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66490 1 100
+Door 0 0 0 66283 0 0
+~
+~
+Door 1 0 0 66263 0 0
+~
+~
+Door 2 0 0 66239 0 0
+~
+~
+Door 3 0 0 66261 0 0
+~
+~
+End
+
+#66263
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66284 0 0
+~
+~
+Door 1 0 0 66264 0 0
+~
+~
+Door 2 0 0 66240 0 0
+~
+~
+Door 3 0 0 66262 0 0
+~
+~
+End
+
+#66264
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66101 1 100
+Door 0 0 0 66285 0 0
+~
+~
+Door 1 0 0 66265 0 0
+~
+~
+Door 2 0 0 66241 0 0
+~
+~
+Door 3 0 0 66263 0 0
+~
+~
+End
+
+#66265
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66286 0 0
+~
+~
+Door 1 0 0 66266 0 0
+~
+~
+Door 2 0 0 66242 0 0
+~
+~
+Door 3 0 0 66264 0 0
+~
+~
+End
+
+#66266
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66490 1 100
+Door 0 0 0 66287 0 0
+~
+~
+Door 1 0 0 66267 0 0
+~
+~
+Door 2 0 0 66243 0 0
+~
+~
+Door 3 0 0 66265 0 0
+~
+~
+End
+
+#66267
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66102 1 100
+Door 0 0 0 66288 0 0
+~
+~
+Door 1 0 0 66268 0 0
+~
+~
+Door 2 0 0 66244 0 0
+~
+~
+Door 3 0 0 66266 0 0
+~
+~
+End
+
+#66268
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66289 0 0
+~
+~
+Door 1 0 0 66269 0 0
+~
+~
+Door 2 0 0 66245 0 0
+~
+~
+Door 3 0 0 66267 0 0
+~
+~
+End
+
+#66269
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66290 0 0
+~
+~
+Door 1 0 0 66990 0 0
+~
+~
+Door 2 0 0 66246 0 0
+~
+~
+Door 3 0 0 66268 0 0
+~
+~
+End
+
+#66270
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66291 0 0
+~
+~
+Door 1 0 0 66271 0 0
+~
+~
+Door 2 0 0 66249 0 0
+~
+~
+Door 3 0 0 66993 0 0
+~
+~
+End
+
+#66271
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66292 0 0
+~
+~
+Door 1 0 0 66272 0 0
+~
+~
+Door 2 0 0 66250 0 0
+~
+~
+Door 3 0 0 66270 0 0
+~
+~
+End
+
+#66272
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66293 0 0
+~
+~
+Door 1 0 0 66273 0 0
+~
+~
+Door 2 0 0 66251 0 0
+~
+~
+Door 3 0 0 66271 0 0
+~
+~
+End
+
+#66273
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66294 0 0
+~
+~
+Door 1 0 0 66274 0 0
+~
+~
+Door 2 0 0 66252 0 0
+~
+~
+Door 3 0 0 66272 0 0
+~
+~
+End
+
+#66274
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66295 0 0
+~
+~
+Door 1 0 0 66275 0 0
+~
+~
+Door 2 0 0 66253 0 0
+~
+~
+Door 3 0 0 66273 0 0
+~
+~
+End
+
+#66275
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66296 0 0
+~
+~
+Door 1 0 0 66276 0 0
+~
+~
+Door 2 0 0 66254 0 0
+~
+~
+Door 3 0 0 66274 0 0
+~
+~
+End
+
+#66276
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66298 0 0
+~
+~
+Door 1 0 0 66277 0 0
+~
+~
+Door 2 0 0 66255 0 0
+~
+~
+Door 3 0 0 66275 0 0
+~
+~
+End
+
+#66277
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66297 0 0
+~
+~
+Door 1 0 0 66278 0 0
+~
+~
+Door 2 0 0 66256 0 0
+~
+~
+Door 3 0 0 66276 0 0
+~
+~
+End
+
+#66278
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66299 0 0
+~
+~
+Door 1 0 0 66279 0 0
+~
+~
+Door 2 0 0 66257 0 0
+~
+~
+Door 3 0 0 66277 0 0
+~
+~
+End
+
+#66279
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66300 0 0
+~
+~
+Door 1 0 0 66280 0 0
+~
+~
+Door 2 0 0 66258 0 0
+~
+~
+Door 3 0 0 66278 0 0
+~
+~
+End
+
+#66280
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66301 0 0
+~
+~
+Door 2 0 0 66259 0 0
+~
+~
+Door 3 0 0 66279 0 0
+~
+~
+End
+
+#66281
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66302 0 0
+~
+~
+Door 1 0 0 66282 0 0
+~
+~
+Door 2 0 0 66260 0 0
+~
+~
+End
+
+#66282
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66303 0 0
+~
+~
+Door 1 0 0 66283 0 0
+~
+~
+Door 2 0 0 66261 0 0
+~
+~
+Door 3 0 0 66281 0 0
+~
+~
+End
+
+#66283
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66304 0 0
+~
+~
+Door 1 0 0 66284 0 0
+~
+~
+Door 2 0 0 66262 0 0
+~
+~
+Door 3 0 0 66282 0 0
+~
+~
+End
+
+#66284
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66305 0 0
+~
+~
+Door 1 0 0 66285 0 0
+~
+~
+Door 2 0 0 66263 0 0
+~
+~
+Door 3 0 0 66283 0 0
+~
+~
+End
+
+#66285
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66306 0 0
+~
+~
+Door 1 0 0 66286 0 0
+~
+~
+Door 2 0 0 66264 0 0
+~
+~
+Door 3 0 0 66284 0 0
+~
+~
+End
+
+#66286
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66307 0 0
+~
+~
+Door 1 0 0 66287 0 0
+~
+~
+Door 2 0 0 66265 0 0
+~
+~
+Door 3 0 0 66285 0 0
+~
+~
+End
+
+#66287
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66308 0 0
+~
+~
+Door 1 0 0 66288 0 0
+~
+~
+Door 2 0 0 66266 0 0
+~
+~
+Door 3 0 0 66286 0 0
+~
+~
+End
+
+#66288
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66309 0 0
+~
+~
+Door 1 0 0 66289 0 0
+~
+~
+Door 2 0 0 66267 0 0
+~
+~
+Door 3 0 0 66287 0 0
+~
+~
+End
+
+#66289
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66310 0 0
+~
+~
+Door 1 0 0 66290 0 0
+~
+~
+Door 2 0 0 66268 0 0
+~
+~
+Door 3 0 0 66288 0 0
+~
+~
+End
+
+#66290
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66311 0 0
+~
+~
+Door 1 0 0 66989 0 0
+~
+~
+Door 2 0 0 66269 0 0
+~
+~
+Door 3 0 0 66289 0 0
+~
+~
+End
+
+#66291
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66312 0 0
+~
+~
+Door 1 0 0 66292 0 0
+~
+~
+Door 2 0 0 66270 0 0
+~
+~
+Door 3 0 0 66992 0 0
+~
+~
+End
+
+#66292
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66313 0 0
+~
+~
+Door 1 0 0 66293 0 0
+~
+~
+Door 2 0 0 66271 0 0
+~
+~
+Door 3 0 0 66291 0 0
+~
+~
+End
+
+#66293
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66314 0 0
+~
+~
+Door 1 0 0 66294 0 0
+~
+~
+Door 2 0 0 66272 0 0
+~
+~
+Door 3 0 0 66292 0 0
+~
+~
+End
+
+#66294
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66315 0 0
+~
+~
+Door 1 0 0 66295 0 0
+~
+~
+Door 2 0 0 66273 0 0
+~
+~
+Door 3 0 0 66293 0 0
+~
+~
+End
+
+#66295
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66316 0 0
+~
+~
+Door 1 0 0 66296 0 0
+~
+~
+Door 2 0 0 66274 0 0
+~
+~
+Door 3 0 0 66294 0 0
+~
+~
+End
+
+#66296
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66101 1 100
+Door 0 0 0 66317 0 0
+~
+~
+Door 1 0 0 66298 0 0
+~
+~
+Door 2 0 0 66275 0 0
+~
+~
+Door 3 0 0 66295 0 0
+~
+~
+End
+
+#66297
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66319 0 0
+~
+~
+Door 1 0 0 66299 0 0
+~
+~
+Door 2 0 0 66277 0 0
+~
+~
+Door 3 0 0 66298 0 0
+~
+~
+End
+
+#66298
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66318 0 0
+~
+~
+Door 1 0 0 66297 0 0
+~
+~
+Door 2 0 0 66276 0 0
+~
+~
+Door 3 0 0 66296 0 0
+~
+~
+End
+
+#66299
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66320 0 0
+~
+~
+Door 1 0 0 66300 0 0
+~
+~
+Door 2 0 0 66278 0 0
+~
+~
+Door 3 0 0 66297 0 0
+~
+~
+End
+
+#66300
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66321 0 0
+~
+~
+Door 1 0 0 66301 0 0
+~
+~
+Door 2 0 0 66279 0 0
+~
+~
+Door 3 0 0 66299 0 0
+~
+~
+End
+
+#66301
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66322 0 0
+~
+~
+Door 2 0 0 66280 0 0
+~
+~
+Door 3 0 0 66300 0 0
+~
+~
+End
+
+#66302
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66323 0 0
+~
+~
+Door 1 0 0 66303 0 0
+~
+~
+Door 2 0 0 66281 0 0
+~
+~
+End
+
+#66303
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66324 0 0
+~
+~
+Door 1 0 0 66304 0 0
+~
+~
+Door 2 0 0 66282 0 0
+~
+~
+Door 3 0 0 66302 0 0
+~
+~
+End
+
+#66304
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66325 0 0
+~
+~
+Door 1 0 0 66305 0 0
+~
+~
+Door 2 0 0 66283 0 0
+~
+~
+Door 3 0 0 66303 0 0
+~
+~
+End
+
+#66305
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66326 0 0
+~
+~
+Door 1 0 0 66306 0 0
+~
+~
+Door 2 0 0 66284 0 0
+~
+~
+Door 3 0 0 66304 0 0
+~
+~
+End
+
+#66306
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66327 0 0
+~
+~
+Door 1 0 0 66307 0 0
+~
+~
+Door 2 0 0 66285 0 0
+~
+~
+Door 3 0 0 66305 0 0
+~
+~
+End
+
+#66307
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66328 0 0
+~
+~
+Door 1 0 0 66308 0 0
+~
+~
+Door 2 0 0 66286 0 0
+~
+~
+Door 3 0 0 66306 0 0
+~
+~
+End
+
+#66308
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66329 0 0
+~
+~
+Door 1 0 0 66309 0 0
+~
+~
+Door 2 0 0 66287 0 0
+~
+~
+Door 3 0 0 66307 0 0
+~
+~
+End
+
+#66309
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66330 0 0
+~
+~
+Door 1 0 0 66310 0 0
+~
+~
+Door 2 0 0 66288 0 0
+~
+~
+Door 3 0 0 66308 0 0
+~
+~
+End
+
+#66310
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66331 0 0
+~
+~
+Door 1 0 0 66311 0 0
+~
+~
+Door 2 0 0 66289 0 0
+~
+~
+Door 3 0 0 66309 0 0
+~
+~
+End
+
+#66311
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66332 0 0
+~
+~
+Door 1 0 0 66988 0 0
+~
+~
+Door 2 0 0 66290 0 0
+~
+~
+Door 3 0 0 66310 0 0
+~
+~
+End
+
+#66312
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66335 0 0
+~
+~
+Door 1 0 0 66313 0 0
+~
+~
+Door 2 0 0 66291 0 0
+~
+~
+Door 3 0 0 66991 0 0
+~
+~
+End
+
+#66313
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66336 0 0
+~
+~
+Door 1 0 0 66314 0 0
+~
+~
+Door 2 0 0 66292 0 0
+~
+~
+Door 3 0 0 66312 0 0
+~
+~
+End
+
+#66314
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66337 0 0
+~
+~
+Door 1 0 0 66315 0 0
+~
+~
+Door 2 0 0 66293 0 0
+~
+~
+Door 3 0 0 66313 0 0
+~
+~
+End
+
+#66315
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66338 0 0
+~
+~
+Door 1 0 0 66316 0 0
+~
+~
+Door 2 0 0 66294 0 0
+~
+~
+Door 3 0 0 66314 0 0
+~
+~
+End
+
+#66316
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66339 0 0
+~
+~
+Door 1 0 0 66317 0 0
+~
+~
+Door 2 0 0 66295 0 0
+~
+~
+Door 3 0 0 66315 0 0
+~
+~
+End
+
+#66317
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66340 0 0
+~
+~
+Door 1 0 0 66318 0 0
+~
+~
+Door 2 0 0 66296 0 0
+~
+~
+Door 3 0 0 66316 0 0
+~
+~
+End
+
+#66318
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66341 0 0
+~
+~
+Door 1 0 0 66319 0 0
+~
+~
+Door 2 0 0 66298 0 0
+~
+~
+Door 3 0 0 66317 0 0
+~
+~
+End
+
+#66319
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66342 0 0
+~
+~
+Door 1 0 0 66320 0 0
+~
+~
+Door 2 0 0 66297 0 0
+~
+~
+Door 3 0 0 66318 0 0
+~
+~
+End
+
+#66320
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66343 0 0
+~
+~
+Door 1 0 0 66321 0 0
+~
+~
+Door 2 0 0 66299 0 0
+~
+~
+Door 3 0 0 66319 0 0
+~
+~
+End
+
+#66321
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66344 0 0
+~
+~
+Door 1 0 0 66322 0 0
+~
+~
+Door 2 0 0 66300 0 0
+~
+~
+Door 3 0 0 66320 0 0
+~
+~
+End
+
+#66322
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66345 0 0
+~
+~
+Door 2 0 0 66301 0 0
+~
+~
+Door 3 0 0 66321 0 0
+~
+~
+End
+
+#66323
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 1 0 0 66324 0 0
+~
+~
+Door 2 0 0 66302 0 0
+~
+~
+End
+
+#66324
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66346 0 0
+~
+~
+Door 1 0 0 66325 0 0
+~
+~
+Door 2 0 0 66303 0 0
+~
+~
+Door 3 0 0 66323 0 0
+~
+~
+End
+
+#66325
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66347 0 0
+~
+~
+Door 1 0 0 66326 0 0
+~
+~
+Door 2 0 0 66304 0 0
+~
+~
+Door 3 0 0 66324 0 0
+~
+~
+End
+
+#66326
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66348 0 0
+~
+~
+Door 1 0 0 66327 0 0
+~
+~
+Door 2 0 0 66305 0 0
+~
+~
+Door 3 0 0 66325 0 0
+~
+~
+End
+
+#66327
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66101 1 100
+Door 0 0 0 66349 0 0
+~
+~
+Door 1 0 0 66328 0 0
+~
+~
+Door 2 0 0 66306 0 0
+~
+~
+Door 3 0 0 66326 0 0
+~
+~
+End
+
+#66328
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66350 0 0
+~
+~
+Door 1 0 0 66329 0 0
+~
+~
+Door 2 0 0 66307 0 0
+~
+~
+Door 3 0 0 66327 0 0
+~
+~
+End
+
+#66329
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66351 0 0
+~
+~
+Door 1 0 0 66330 0 0
+~
+~
+Door 2 0 0 66308 0 0
+~
+~
+Door 3 0 0 66328 0 0
+~
+~
+End
+
+#66330
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66101 1 100
+Door 0 0 0 66352 0 0
+~
+~
+Door 1 0 0 66331 0 0
+~
+~
+Door 2 0 0 66309 0 0
+~
+~
+Door 3 0 0 66329 0 0
+~
+~
+End
+
+#66331
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66353 0 0
+~
+~
+Door 1 0 0 66332 0 0
+~
+~
+Door 2 0 0 66310 0 0
+~
+~
+Door 3 0 0 66330 0 0
+~
+~
+End
+
+#66332
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66354 0 0
+~
+~
+Door 1 0 0 66333 0 0
+~
+~
+Door 2 0 0 66311 0 0
+~
+~
+Door 3 0 0 66331 0 0
+~
+~
+End
+
+#66333
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66355 0 0
+~
+~
+Door 1 0 0 66973 0 0
+~
+~
+Door 2 0 0 66988 0 0
+~
+~
+Door 3 0 0 66332 0 0
+~
+~
+End
+
+#66334
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66359 0 0
+~
+~
+Door 1 0 0 66335 0 0
+~
+~
+Door 2 0 0 66991 0 0
+~
+~
+Door 3 0 0 66975 0 0
+~
+~
+End
+
+#66335
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66360 0 0
+~
+~
+Door 1 0 0 66336 0 0
+~
+~
+Door 2 0 0 66312 0 0
+~
+~
+Door 3 0 0 66334 0 0
+~
+~
+End
+
+#66336
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66361 0 0
+~
+~
+Door 1 0 0 66337 0 0
+~
+~
+Door 2 0 0 66313 0 0
+~
+~
+Door 3 0 0 66335 0 0
+~
+~
+End
+
+#66337
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66362 0 0
+~
+~
+Door 1 0 0 66338 0 0
+~
+~
+Door 2 0 0 66314 0 0
+~
+~
+Door 3 0 0 66336 0 0
+~
+~
+End
+
+#66338
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66363 0 0
+~
+~
+Door 1 0 0 66339 0 0
+~
+~
+Door 2 0 0 66315 0 0
+~
+~
+Door 3 0 0 66337 0 0
+~
+~
+End
+
+#66339
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66364 0 0
+~
+~
+Door 1 0 0 66340 0 0
+~
+~
+Door 2 0 0 66316 0 0
+~
+~
+Door 3 0 0 66338 0 0
+~
+~
+End
+
+#66340
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66365 0 0
+~
+~
+Door 1 0 0 66341 0 0
+~
+~
+Door 2 0 0 66317 0 0
+~
+~
+Door 3 0 0 66339 0 0
+~
+~
+End
+
+#66341
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66366 0 0
+~
+~
+Door 1 0 0 66342 0 0
+~
+~
+Door 2 0 0 66318 0 0
+~
+~
+Door 3 0 0 66340 0 0
+~
+~
+End
+
+#66342
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66367 0 0
+~
+~
+Door 1 0 0 66343 0 0
+~
+~
+Door 2 0 0 66319 0 0
+~
+~
+Door 3 0 0 66341 0 0
+~
+~
+End
+
+#66343
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66101 1 100
+Door 0 0 0 66368 0 0
+~
+~
+Door 1 0 0 66344 0 0
+~
+~
+Door 2 0 0 66320 0 0
+~
+~
+Door 3 0 0 66342 0 0
+~
+~
+End
+
+#66344
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66369 0 0
+~
+~
+Door 1 0 0 66345 0 0
+~
+~
+Door 2 0 0 66321 0 0
+~
+~
+Door 3 0 0 66343 0 0
+~
+~
+End
+
+#66345
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 2 0 0 66322 0 0
+~
+~
+Door 3 0 0 66344 0 0
+~
+~
+End
+
+#66346
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 1 0 0 66347 0 0
+~
+~
+Door 2 0 0 66324 0 0
+~
+~
+End
+
+#66347
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66370 0 0
+~
+~
+Door 1 0 0 66348 0 0
+~
+~
+Door 2 0 0 66325 0 0
+~
+~
+Door 3 0 0 66346 0 0
+~
+~
+End
+
+#66348
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66371 0 0
+~
+~
+Door 1 0 0 66349 0 0
+~
+~
+Door 2 0 0 66326 0 0
+~
+~
+Door 3 0 0 66347 0 0
+~
+~
+End
+
+#66349
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66372 0 0
+~
+~
+Door 1 0 0 66350 0 0
+~
+~
+Door 2 0 0 66327 0 0
+~
+~
+Door 3 0 0 66348 0 0
+~
+~
+End
+
+#66350
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66373 0 0
+~
+~
+Door 1 0 0 66351 0 0
+~
+~
+Door 2 0 0 66328 0 0
+~
+~
+Door 3 0 0 66349 0 0
+~
+~
+End
+
+#66351
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66374 0 0
+~
+~
+Door 1 0 0 66352 0 0
+~
+~
+Door 2 0 0 66329 0 0
+~
+~
+Door 3 0 0 66350 0 0
+~
+~
+End
+
+#66352
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66375 0 0
+~
+~
+Door 1 0 0 66353 0 0
+~
+~
+Door 2 0 0 66330 0 0
+~
+~
+Door 3 0 0 66351 0 0
+~
+~
+End
+
+#66353
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66376 0 0
+~
+~
+Door 1 0 0 66354 0 0
+~
+~
+Door 2 0 0 66331 0 0
+~
+~
+Door 3 0 0 66352 0 0
+~
+~
+End
+
+#66354
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66377 0 0
+~
+~
+Door 1 0 0 66355 0 0
+~
+~
+Door 2 0 0 66332 0 0
+~
+~
+Door 3 0 0 66353 0 0
+~
+~
+End
+
+#66355
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66378 0 0
+~
+~
+Door 1 0 0 66356 0 0
+~
+~
+Door 2 0 0 66333 0 0
+~
+~
+Door 3 0 0 66354 0 0
+~
+~
+End
+
+#66356
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66379 0 0
+~
+~
+Door 1 0 0 66357 0 0
+~
+~
+Door 2 0 0 66973 0 0
+~
+~
+Door 3 0 0 66355 0 0
+~
+~
+End
+
+#66357
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66380 0 0
+~
+~
+Door 1 0 0 66358 0 0
+~
+~
+Door 2 0 0 66974 0 0
+~
+~
+Door 3 0 0 66356 0 0
+~
+~
+End
+
+#66358
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66381 0 0
+~
+~
+Door 1 0 0 66359 0 0
+~
+~
+Door 2 0 0 66975 0 0
+~
+~
+Door 3 0 0 66357 0 0
+~
+~
+End
+
+#66359
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66490 1 100
+Door 0 0 0 66382 0 0
+~
+~
+Door 1 0 0 66360 0 0
+~
+~
+Door 2 0 0 66334 0 0
+~
+~
+Door 3 0 0 66358 0 0
+~
+~
+End
+
+#66360
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66383 0 0
+~
+~
+Door 1 0 0 66361 0 0
+~
+~
+Door 2 0 0 66335 0 0
+~
+~
+Door 3 0 0 66359 0 0
+~
+~
+End
+
+#66361
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66384 0 0
+~
+~
+Door 1 0 0 66362 0 0
+~
+~
+Door 2 0 0 66336 0 0
+~
+~
+Door 3 0 0 66360 0 0
+~
+~
+End
+
+#66362
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66385 0 0
+~
+~
+Door 1 0 0 66363 0 0
+~
+~
+Door 2 0 0 66337 0 0
+~
+~
+Door 3 0 0 66361 0 0
+~
+~
+End
+
+#66363
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66386 0 0
+~
+~
+Door 1 0 0 66364 0 0
+~
+~
+Door 2 0 0 66338 0 0
+~
+~
+Door 3 0 0 66362 0 0
+~
+~
+End
+
+#66364
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66387 0 0
+~
+~
+Door 1 0 0 66365 0 0
+~
+~
+Door 2 0 0 66339 0 0
+~
+~
+Door 3 0 0 66363 0 0
+~
+~
+End
+
+#66365
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66388 0 0
+~
+~
+Door 1 0 0 66366 0 0
+~
+~
+Door 2 0 0 66340 0 0
+~
+~
+Door 3 0 0 66364 0 0
+~
+~
+End
+
+#66366
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66389 0 0
+~
+~
+Door 1 0 0 66367 0 0
+~
+~
+Door 2 0 0 66341 0 0
+~
+~
+Door 3 0 0 66365 0 0
+~
+~
+End
+
+#66367
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66390 0 0
+~
+~
+Door 1 0 0 66368 0 0
+~
+~
+Door 2 0 0 66342 0 0
+~
+~
+Door 3 0 0 66366 0 0
+~
+~
+End
+
+#66368
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66391 0 0
+~
+~
+Door 1 0 0 66369 0 0
+~
+~
+Door 2 0 0 66343 0 0
+~
+~
+Door 3 0 0 66367 0 0
+~
+~
+End
+
+#66369
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 2 0 0 66344 0 0
+~
+~
+Door 3 0 0 66368 0 0
+~
+~
+End
+
+#66370
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66392 0 0
+~
+~
+Door 1 0 0 66371 0 0
+~
+~
+Door 2 0 0 66347 0 0
+~
+~
+End
+
+#66371
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66393 0 0
+~
+~
+Door 1 0 0 66372 0 0
+~
+~
+Door 2 0 0 66348 0 0
+~
+~
+Door 3 0 0 66370 0 0
+~
+~
+End
+
+#66372
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66394 0 0
+~
+~
+Door 1 0 0 66373 0 0
+~
+~
+Door 2 0 0 66349 0 0
+~
+~
+Door 3 0 0 66371 0 0
+~
+~
+End
+
+#66373
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66395 0 0
+~
+~
+Door 1 0 0 66374 0 0
+~
+~
+Door 2 0 0 66350 0 0
+~
+~
+Door 3 0 0 66372 0 0
+~
+~
+End
+
+#66374
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66396 0 0
+~
+~
+Door 1 0 0 66375 0 0
+~
+~
+Door 2 0 0 66351 0 0
+~
+~
+Door 3 0 0 66373 0 0
+~
+~
+End
+
+#66375
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66397 0 0
+~
+~
+Door 1 0 0 66376 0 0
+~
+~
+Door 2 0 0 66352 0 0
+~
+~
+Door 3 0 0 66374 0 0
+~
+~
+End
+
+#66376
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66399 0 0
+~
+~
+Door 1 0 0 66377 0 0
+~
+~
+Door 2 0 0 66353 0 0
+~
+~
+Door 3 0 0 66375 0 0
+~
+~
+End
+
+#66377
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66398 0 0
+~
+~
+Door 1 0 0 66378 0 0
+~
+~
+Door 2 0 0 66354 0 0
+~
+~
+Door 3 0 0 66376 0 0
+~
+~
+End
+
+#66378
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66400 0 0
+~
+~
+Door 1 0 0 66379 0 0
+~
+~
+Door 2 0 0 66355 0 0
+~
+~
+Door 3 0 0 66377 0 0
+~
+~
+End
+
+#66379
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66401 0 0
+~
+~
+Door 1 0 0 66380 0 0
+~
+~
+Door 2 0 0 66356 0 0
+~
+~
+Door 3 0 0 66378 0 0
+~
+~
+End
+
+#66380
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66101 1 100
+Door 0 0 0 66402 0 0
+~
+~
+Door 1 0 0 66381 0 0
+~
+~
+Door 2 0 0 66357 0 0
+~
+~
+Door 3 0 0 66379 0 0
+~
+~
+End
+
+#66381
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66403 0 0
+~
+~
+Door 1 0 0 66382 0 0
+~
+~
+Door 2 0 0 66358 0 0
+~
+~
+Door 3 0 0 66380 0 0
+~
+~
+End
+
+#66382
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66404 0 0
+~
+~
+Door 1 0 0 66383 0 0
+~
+~
+Door 2 0 0 66359 0 0
+~
+~
+Door 3 0 0 66381 0 0
+~
+~
+End
+
+#66383
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66405 0 0
+~
+~
+Door 1 0 0 66384 0 0
+~
+~
+Door 2 0 0 66360 0 0
+~
+~
+Door 3 0 0 66382 0 0
+~
+~
+End
+
+#66384
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66406 0 0
+~
+~
+Door 1 0 0 66385 0 0
+~
+~
+Door 2 0 0 66361 0 0
+~
+~
+Door 3 0 0 66383 0 0
+~
+~
+End
+
+#66385
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66407 0 0
+~
+~
+Door 1 0 0 66386 0 0
+~
+~
+Door 2 0 0 66362 0 0
+~
+~
+Door 3 0 0 66384 0 0
+~
+~
+End
+
+#66386
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66408 0 0
+~
+~
+Door 1 0 0 66387 0 0
+~
+~
+Door 2 0 0 66363 0 0
+~
+~
+Door 3 0 0 66385 0 0
+~
+~
+End
+
+#66387
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66409 0 0
+~
+~
+Door 1 0 0 66388 0 0
+~
+~
+Door 2 0 0 66364 0 0
+~
+~
+Door 3 0 0 66386 0 0
+~
+~
+End
+
+#66388
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66101 1 100
+Reset M 66490 1 100
+Door 0 0 0 66410 0 0
+~
+~
+Door 1 0 0 66389 0 0
+~
+~
+Door 2 0 0 66365 0 0
+~
+~
+Door 3 0 0 66387 0 0
+~
+~
+End
+
+#66389
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66411 0 0
+~
+~
+Door 1 0 0 66390 0 0
+~
+~
+Door 2 0 0 66366 0 0
+~
+~
+Door 3 0 0 66388 0 0
+~
+~
+End
+
+#66390
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66412 0 0
+~
+~
+Door 1 0 0 66391 0 0
+~
+~
+Door 2 0 0 66367 0 0
+~
+~
+Door 3 0 0 66389 0 0
+~
+~
+End
+
+#66391
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66413 0 0
+~
+~
+Door 2 0 0 66368 0 0
+~
+~
+Door 3 0 0 66390 0 0
+~
+~
+End
+
+#66392
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 1 0 0 66393 0 0
+~
+~
+Door 2 0 0 66370 0 0
+~
+~
+End
+
+#66393
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 1 0 0 66394 0 0
+~
+~
+Door 2 0 0 66371 0 0
+~
+~
+Door 3 0 0 66392 0 0
+~
+~
+End
+
+#66394
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66102 1 100
+Door 0 0 0 66414 0 0
+~
+~
+Door 1 0 0 66395 0 0
+~
+~
+Door 2 0 0 66372 0 0
+~
+~
+Door 3 0 0 66393 0 0
+~
+~
+End
+
+#66395
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66415 0 0
+~
+~
+Door 1 0 0 66396 0 0
+~
+~
+Door 2 0 0 66373 0 0
+~
+~
+Door 3 0 0 66394 0 0
+~
+~
+End
+
+#66396
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66416 0 0
+~
+~
+Door 1 0 0 66397 0 0
+~
+~
+Door 2 0 0 66374 0 0
+~
+~
+Door 3 0 0 66395 0 0
+~
+~
+End
+
+#66397
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66101 1 100
+Door 0 0 0 66417 0 0
+~
+~
+Door 1 0 0 66399 0 0
+~
+~
+Door 2 0 0 66375 0 0
+~
+~
+Door 3 0 0 66396 0 0
+~
+~
+End
+
+#66398
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66419 0 0
+~
+~
+Door 1 0 0 66400 0 0
+~
+~
+Door 2 0 0 66377 0 0
+~
+~
+Door 3 0 0 66399 0 0
+~
+~
+End
+
+#66399
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Door 0 0 0 66418 0 0
+~
+~
+Door 1 0 0 66398 0 0
+~
+~
+Door 2 0 0 66376 0 0
+~
+~
+Door 3 0 0 66397 0 0
+~
+~
+End
+
+#66400
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66420 0 0
+~
+~
+Door 1 0 0 66401 0 0
+~
+~
+Door 2 0 0 66378 0 0
+~
+~
+Door 3 0 0 66398 0 0
+~
+~
+End
+
+#66401
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66490 1 100
+Door 0 0 0 66421 0 0
+~
+~
+Door 1 0 0 66402 0 0
+~
+~
+Door 2 0 0 66379 0 0
+~
+~
+Door 3 0 0 66400 0 0
+~
+~
+End
+
+#66402
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66422 0 0
+~
+~
+Door 1 0 0 66403 0 0
+~
+~
+Door 2 0 0 66380 0 0
+~
+~
+Door 3 0 0 66401 0 0
+~
+~
+End
+
+#66403
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66423 0 0
+~
+~
+Door 1 0 0 66404 0 0
+~
+~
+Door 2 0 0 66381 0 0
+~
+~
+Door 3 0 0 66402 0 0
+~
+~
+End
+
+#66404
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66424 0 0
+~
+~
+Door 1 0 0 66405 0 0
+~
+~
+Door 2 0 0 66382 0 0
+~
+~
+Door 3 0 0 66403 0 0
+~
+~
+End
+
+#66405
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66425 0 0
+~
+~
+Door 1 0 0 66406 0 0
+~
+~
+Door 2 0 0 66383 0 0
+~
+~
+Door 3 0 0 66404 0 0
+~
+~
+End
+
+#66406
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66426 0 0
+~
+~
+Door 1 0 0 66407 0 0
+~
+~
+Door 2 0 0 66384 0 0
+~
+~
+Door 3 0 0 66405 0 0
+~
+~
+End
+
+#66407
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66427 0 0
+~
+~
+Door 1 0 0 66408 0 0
+~
+~
+Door 2 0 0 66385 0 0
+~
+~
+Door 3 0 0 66406 0 0
+~
+~
+End
+
+#66408
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset M 66490 1 100
+Reset M 66101 1 100
+Door 0 0 0 66428 0 0
+~
+~
+Door 1 0 0 66409 0 0
+~
+~
+Door 2 0 0 66386 0 0
+~
+~
+Door 3 0 0 66407 0 0
+~
+~
+End
+
+#66409
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66429 0 0
+~
+~
+Door 1 0 0 66410 0 0
+~
+~
+Door 2 0 0 66387 0 0
+~
+~
+Door 3 0 0 66408 0 0
+~
+~
+End
+
+#66410
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66430 0 0
+~
+~
+Door 1 0 0 66411 0 0
+~
+~
+Door 2 0 0 66388 0 0
+~
+~
+Door 3 0 0 66409 0 0
+~
+~
+End
+
+#66411
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66431 0 0
+~
+~
+Door 1 0 0 66412 0 0
+~
+~
+Door 2 0 0 66389 0 0
+~
+~
+Door 3 0 0 66410 0 0
+~
+~
+End
+
+#66412
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 1 0 0 66413 0 0
+~
+~
+Door 2 0 0 66390 0 0
+~
+~
+Door 3 0 0 66411 0 0
+~
+~
+End
+
+#66413
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 2 0 0 66391 0 0
+~
+~
+Door 3 0 0 66412 0 0
+~
+~
+End
+
+#66414
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66432 0 0
+~
+~
+Door 1 0 0 66415 0 0
+~
+~
+Door 2 0 0 66394 0 0
+~
+~
+End
+
+#66415
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66433 0 0
+~
+~
+Door 1 0 0 66416 0 0
+~
+~
+Door 2 0 0 66395 0 0
+~
+~
+Door 3 0 0 66414 0 0
+~
+~
+End
+
+#66416
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66434 0 0
+~
+~
+Door 1 0 0 66417 0 0
+~
+~
+Door 2 0 0 66396 0 0
+~
+~
+Door 3 0 0 66415 0 0
+~
+~
+End
+
+#66417
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66435 0 0
+~
+~
+Door 1 0 0 66418 0 0
+~
+~
+Door 2 0 0 66397 0 0
+~
+~
+Door 3 0 0 66416 0 0
+~
+~
+End
+
+#66418
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66436 0 0
+~
+~
+Door 1 0 0 66419 0 0
+~
+~
+Door 2 0 0 66399 0 0
+~
+~
+Door 3 0 0 66417 0 0
+~
+~
+End
+
+#66419
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66490 1 100
+Door 0 0 0 66437 0 0
+~
+~
+Door 1 0 0 66420 0 0
+~
+~
+Door 2 0 0 66398 0 0
+~
+~
+Door 3 0 0 66418 0 0
+~
+~
+End
+
+#66420
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66438 0 0
+~
+~
+Door 1 0 0 66421 0 0
+~
+~
+Door 2 0 0 66400 0 0
+~
+~
+Door 3 0 0 66419 0 0
+~
+~
+End
+
+#66421
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66439 0 0
+~
+~
+Door 1 0 0 66422 0 0
+~
+~
+Door 2 0 0 66401 0 0
+~
+~
+Door 3 0 0 66420 0 0
+~
+~
+End
+
+#66422
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66440 0 0
+~
+~
+Door 1 0 0 66423 0 0
+~
+~
+Door 2 0 0 66402 0 0
+~
+~
+Door 3 0 0 66421 0 0
+~
+~
+End
+
+#66423
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66441 0 0
+~
+~
+Door 1 0 0 66424 0 0
+~
+~
+Door 2 0 0 66403 0 0
+~
+~
+Door 3 0 0 66422 0 0
+~
+~
+End
+
+#66424
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66102 1 100
+Door 0 0 0 66442 0 0
+~
+~
+Door 1 0 0 66425 0 0
+~
+~
+Door 2 0 0 66404 0 0
+~
+~
+Door 3 0 0 66423 0 0
+~
+~
+End
+
+#66425
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66443 0 0
+~
+~
+Door 1 0 0 66426 0 0
+~
+~
+Door 2 0 0 66405 0 0
+~
+~
+Door 3 0 0 66424 0 0
+~
+~
+End
+
+#66426
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66444 0 0
+~
+~
+Door 1 0 0 66427 0 0
+~
+~
+Door 2 0 0 66406 0 0
+~
+~
+Door 3 0 0 66425 0 0
+~
+~
+End
+
+#66427
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66445 0 0
+~
+~
+Door 1 0 0 66428 0 0
+~
+~
+Door 2 0 0 66407 0 0
+~
+~
+Door 3 0 0 66426 0 0
+~
+~
+End
+
+#66428
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66446 0 0
+~
+~
+Door 1 0 0 66429 0 0
+~
+~
+Door 2 0 0 66408 0 0
+~
+~
+Door 3 0 0 66427 0 0
+~
+~
+End
+
+#66429
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66447 0 0
+~
+~
+Door 1 0 0 66430 0 0
+~
+~
+Door 2 0 0 66409 0 0
+~
+~
+Door 3 0 0 66428 0 0
+~
+~
+End
+
+#66430
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66448 0 0
+~
+~
+Door 1 0 0 66431 0 0
+~
+~
+Door 2 0 0 66410 0 0
+~
+~
+Door 3 0 0 66429 0 0
+~
+~
+End
+
+#66431
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66449 0 0
+~
+~
+Door 2 0 0 66411 0 0
+~
+~
+Door 3 0 0 66430 0 0
+~
+~
+End
+
+#66432
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66496 0 0
+~
+~
+Door 1 0 0 66433 0 0
+~
+~
+Door 2 0 0 66414 0 0
+~
+~
+End
+
+#66433
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66497 0 0
+~
+~
+Door 1 0 0 66434 0 0
+~
+~
+Door 2 0 0 66415 0 0
+~
+~
+Door 3 0 0 66432 0 0
+~
+~
+End
+
+#66434
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66450 0 0
+~
+~
+Door 1 0 0 66435 0 0
+~
+~
+Door 2 0 0 66416 0 0
+~
+~
+Door 3 0 0 66433 0 0
+~
+~
+End
+
+#66435
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66451 0 0
+~
+~
+Door 1 0 0 66436 0 0
+~
+~
+Door 2 0 0 66417 0 0
+~
+~
+Door 3 0 0 66434 0 0
+~
+~
+End
+
+#66436
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66452 0 0
+~
+~
+Door 1 0 0 66437 0 0
+~
+~
+Door 2 0 0 66418 0 0
+~
+~
+Door 3 0 0 66435 0 0
+~
+~
+End
+
+#66437
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66453 0 0
+~
+~
+Door 1 0 0 66438 0 0
+~
+~
+Door 2 0 0 66419 0 0
+~
+~
+Door 3 0 0 66436 0 0
+~
+~
+End
+
+#66438
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66454 0 0
+~
+~
+Door 1 0 0 66439 0 0
+~
+~
+Door 2 0 0 66420 0 0
+~
+~
+Door 3 0 0 66437 0 0
+~
+~
+End
+
+#66439
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66455 0 0
+~
+~
+Door 1 0 0 66440 0 0
+~
+~
+Door 2 0 0 66421 0 0
+~
+~
+Door 3 0 0 66438 0 0
+~
+~
+End
+
+#66440
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66456 0 0
+~
+~
+Door 1 0 0 66441 0 0
+~
+~
+Door 2 0 0 66422 0 0
+~
+~
+Door 3 0 0 66439 0 0
+~
+~
+End
+
+#66441
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66101 1 100
+Door 0 0 0 66457 0 0
+~
+~
+Door 1 0 0 66442 0 0
+~
+~
+Door 2 0 0 66423 0 0
+~
+~
+Door 3 0 0 66440 0 0
+~
+~
+End
+
+#66442
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Door 0 0 0 66458 0 0
+~
+~
+Door 1 0 0 66443 0 0
+~
+~
+Door 2 0 0 66424 0 0
+~
+~
+Door 3 0 0 66441 0 0
+~
+~
+End
+
+#66443
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66490 1 100
+Door 0 0 0 66459 0 0
+~
+~
+Door 1 0 0 66444 0 0
+~
+~
+Door 2 0 0 66425 0 0
+~
+~
+Door 3 0 0 66442 0 0
+~
+~
+End
+
+#66444
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset M 66100 1 100
+Reset O 66101 -4 1
+Reset O 66100 -4 1
+Door 0 0 0 66460 0 0
+~
+~
+Door 1 0 0 66445 0 0
+~
+~
+Door 2 0 0 66426 0 0
+~
+~
+Door 3 0 0 66443 0 0
+~
+~
+End
+
+#66445
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66461 0 0
+~
+~
+Door 1 0 0 66446 0 0
+~
+~
+Door 2 0 0 66427 0 0
+~
+~
+Door 3 0 0 66444 0 0
+~
+~
+End
+
+#66446
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset M 66100 1 100
+Door 0 0 0 66462 0 0
+~
+~
+Door 1 0 0 66447 0 0
+~
+~
+Door 2 0 0 66428 0 0
+~
+~
+Door 3 0 0 66445 0 0
+~
+~
+End
+
+#66447
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 0 0 0 66463 0 0
+~
+~
+Door 1 0 0 66448 0 0
+~
+~
+Door 2 0 0 66429 0 0
+~
+~
+Door 3 0 0 66446 0 0
+~
+~
+End
+
+#66448
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Door 1 0 0 66449 0 0
+~
+~
+Door 2 0 0 66430 0 0
+~
+~
+Door 3 0 0 66447 0 0
+~
+~
+End
+
+#66449
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset O 127 -5 100
+Reset M 66102 1 100
+Door 2 0 0 66431 0 0
+~
+~
+Door 3 0 0 66448 0 0
+~
+~
+End
+
+#66450
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 1 0 0 66451 0 0
+~
+~
+Door 2 0 0 66434 0 0
+~
+~
+End
+
+#66451
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66464 0 0
+~
+~
+Door 1 0 0 66452 0 0
+~
+~
+Door 2 0 0 66435 0 0
+~
+~
+Door 3 0 0 66450 0 0
+~
+~
+End
+
+#66452
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66465 0 0
+~
+~
+Door 1 0 0 66453 0 0
+~
+~
+Door 2 0 0 66436 0 0
+~
+~
+Door 3 0 0 66451 0 0
+~
+~
+End
+
+#66453
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66466 0 0
+~
+~
+Door 1 0 0 66454 0 0
+~
+~
+Door 2 0 0 66437 0 0
+~
+~
+Door 3 0 0 66452 0 0
+~
+~
+End
+
+#66454
+Name The Drakken Forest~
+Descr
+~
+Flags2 4
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66467 0 0
+~
+~
+Door 1 0 0 66455 0 0
+~
+~
+Door 2 0 0 66438 0 0
+~
+~
+Door 3 0 0 66453 0 0
+~
+~
+End
+
+#66455
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66468 0 0
+~
+~
+Door 1 0 0 66456 0 0
+~
+~
+Door 2 0 0 66439 0 0
+~
+~
+Door 3 0 0 66454 0 0
+~
+~
+End
+
+#66456
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66469 0 0
+~
+~
+Door 1 0 0 66457 0 0
+~
+~
+Door 2 0 0 66440 0 0
+~
+~
+Door 3 0 0 66455 0 0
+~
+~
+End
+
+#66457
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66470 0 0
+~
+~
+Door 1 0 0 66458 0 0
+~
+~
+Door 2 0 0 66441 0 0
+~
+~
+Door 3 0 0 66456 0 0
+~
+~
+End
+
+#66458
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66471 0 0
+~
+~
+Door 1 0 0 66459 0 0
+~
+~
+Door 2 0 0 66442 0 0
+~
+~
+Door 3 0 0 66457 0 0
+~
+~
+End
+
+#66459
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66472 0 0
+~
+~
+Door 1 0 0 66460 0 0
+~
+~
+Door 2 0 0 66443 0 0
+~
+~
+Door 3 0 0 66458 0 0
+~
+~
+End
+
+#66460
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66473 0 0
+~
+~
+Door 1 0 0 66461 0 0
+~
+~
+Door 2 0 0 66444 0 0
+~
+~
+Door 3 0 0 66459 0 0
+~
+~
+End
+
+#66461
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66474 0 0
+~
+~
+Door 1 0 0 66462 0 0
+~
+~
+Door 2 0 0 66445 0 0
+~
+~
+Door 3 0 0 66460 0 0
+~
+~
+End
+
+#66462
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66475 0 0
+~
+~
+Door 1 0 0 66463 0 0
+~
+~
+Door 2 0 0 66446 0 0
+~
+~
+Door 3 0 0 66461 0 0
+~
+~
+End
+
+#66463
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 2 0 0 66447 0 0
+~
+~
+Door 3 0 0 66462 0 0
+~
+~
+End
+
+#66464
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 1 0 0 66465 0 0
+~
+~
+Door 2 0 0 66451 0 0
+~
+~
+End
+
+#66465
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66476 0 0
+~
+~
+Door 1 0 0 66466 0 0
+~
+~
+Door 2 0 0 66452 0 0
+~
+~
+Door 3 0 0 66464 0 0
+~
+~
+End
+
+#66466
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66477 0 0
+~
+~
+Door 1 0 0 66467 0 0
+~
+~
+Door 2 0 0 66453 0 0
+~
+~
+Door 3 0 0 66465 0 0
+~
+~
+End
+
+#66467
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66478 0 0
+~
+~
+Door 1 0 0 66468 0 0
+~
+~
+Door 2 0 0 66454 0 0
+~
+~
+Door 3 0 0 66466 0 0
+~
+~
+End
+
+#66468
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66479 0 0
+~
+~
+Door 1 0 0 66469 0 0
+~
+~
+Door 2 0 0 66455 0 0
+~
+~
+Door 3 0 0 66467 0 0
+~
+~
+End
+
+#66469
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66480 0 0
+~
+~
+Door 1 0 0 66470 0 0
+~
+~
+Door 2 0 0 66456 0 0
+~
+~
+Door 3 0 0 66468 0 0
+~
+~
+End
+
+#66470
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66481 0 0
+~
+~
+Door 1 0 0 66471 0 0
+~
+~
+Door 2 0 0 66457 0 0
+~
+~
+Door 3 0 0 66469 0 0
+~
+~
+End
+
+#66471
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66482 0 0
+~
+~
+Door 1 0 0 66472 0 0
+~
+~
+Door 2 0 0 66458 0 0
+~
+~
+Door 3 0 0 66470 0 0
+~
+~
+End
+
+#66472
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66483 0 0
+~
+~
+Door 1 0 0 66473 0 0
+~
+~
+Door 2 0 0 66459 0 0
+~
+~
+Door 3 0 0 66471 0 0
+~
+~
+End
+
+#66473
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66484 0 0
+~
+~
+Door 1 0 0 66474 0 0
+~
+~
+Door 2 0 0 66460 0 0
+~
+~
+Door 3 0 0 66472 0 0
+~
+~
+End
+
+#66474
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66485 0 0
+~
+~
+Door 1 0 0 66475 0 0
+~
+~
+Door 2 0 0 66461 0 0
+~
+~
+Door 3 0 0 66473 0 0
+~
+~
+End
+
+#66475
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 2 0 0 66462 0 0
+~
+~
+Door 3 0 0 66474 0 0
+~
+~
+End
+
+#66476
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66486 0 0
+~
+~
+Door 1 0 0 66477 0 0
+~
+~
+Door 2 0 0 66465 0 0
+~
+~
+Door 3 0 0 66504 0 0
+~
+~
+End
+
+#66477
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66487 0 0
+~
+~
+Door 1 0 0 66478 0 0
+~
+~
+Door 2 0 0 66466 0 0
+~
+~
+Door 3 0 0 66476 0 0
+~
+~
+End
+
+#66478
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66488 0 0
+~
+~
+Door 1 0 0 66479 0 0
+~
+~
+Door 2 0 0 66467 0 0
+~
+~
+Door 3 0 0 66477 0 0
+~
+~
+End
+
+#66479
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66489 0 0
+~
+~
+Door 1 0 0 66480 0 0
+~
+~
+Door 2 0 0 66468 0 0
+~
+~
+Door 3 0 0 66478 0 0
+~
+~
+End
+
+#66480
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66490 0 0
+~
+~
+Door 1 0 0 66481 0 0
+~
+~
+Door 2 0 0 66469 0 0
+~
+~
+Door 3 0 0 66479 0 0
+~
+~
+End
+
+#66481
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66491 0 0
+~
+~
+Door 1 0 0 66482 0 0
+~
+~
+Door 2 0 0 66470 0 0
+~
+~
+Door 3 0 0 66480 0 0
+~
+~
+End
+
+#66482
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66492 0 0
+~
+~
+Door 1 0 0 66483 0 0
+~
+~
+Door 2 0 0 66471 0 0
+~
+~
+Door 3 0 0 66481 0 0
+~
+~
+End
+
+#66483
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66493 0 0
+~
+~
+Door 1 0 0 66484 0 0
+~
+~
+Door 2 0 0 66472 0 0
+~
+~
+Door 3 0 0 66482 0 0
+~
+~
+End
+
+#66484
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Door 0 0 0 66494 0 0
+~
+~
+Door 1 0 0 66485 0 0
+~
+~
+Door 2 0 0 66473 0 0
+~
+~
+Door 3 0 0 66483 0 0
+~
+~
+End
+
+#66485
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 66495 0 0
+~
+~
+Door 2 0 0 66474 0 0
+~
+~
+Door 3 0 0 66484 0 0
+~
+~
+End
+
+#66486
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 1 0 0 66487 0 0
+~
+~
+Door 2 0 0 66476 0 0
+~
+~
+Door 3 0 0 66508 0 0
+~
+~
+End
+
+#66487
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 1 0 0 66488 0 0
+~
+~
+Door 2 0 0 66477 0 0
+~
+~
+Door 3 0 0 66486 0 0
+~
+~
+End
+
+#66488
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 1 0 0 66489 0 0
+~
+~
+Door 2 0 0 66478 0 0
+~
+~
+Door 3 0 0 66487 0 0
+~
+~
+End
+
+#66489
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66490 1 100
+Reset M 66490 1 100
+Reset M 66490 1 100
+Door 1 0 0 66490 0 0
+~
+~
+Door 2 0 0 66479 0 0
+~
+~
+Door 3 0 0 66488 0 0
+~
+~
+End
+
+#66490
+Name A Small Resting Shelter~
+Descr
+~
+Flags 16
+Sector 34
+Reset M 66490 1 100
+Reset M 66490 1 100
+Reset M 66490 1 100
+Reset M 66490 1 100
+Door 1 0 0 66491 0 0
+~
+~
+Door 2 0 0 66480 0 0
+~
+~
+Door 3 0 0 66489 0 0
+~
+~
+End
+
+#66491
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 1 0 0 66492 0 0
+~
+~
+Door 2 0 0 66481 0 0
+~
+~
+Door 3 0 0 66490 0 0
+~
+~
+End
+
+#66492
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 1 0 0 66493 0 0
+~
+~
+Door 2 0 0 66482 0 0
+~
+~
+Door 3 0 0 66491 0 0
+~
+~
+End
+
+#66493
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 1 0 0 66494 0 0
+~
+~
+Door 2 0 0 66483 0 0
+~
+~
+Door 3 0 0 66492 0 0
+~
+~
+End
+
+#66494
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 1 0 0 66495 0 0
+~
+~
+Door 2 0 0 66484 0 0
+~
+~
+Door 3 0 0 66493 0 0
+~
+~
+End
+
+#66495
+Name The Drakken Forest~
+Descr
+~
+Flags 16
+Sector 27
+Reset M 66103 1 100
+Reset O 66102 0 3
+Reset O 66105 0 3
+Door 2 0 0 66485 0 0
+~
+~
+Door 3 0 0 66494 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

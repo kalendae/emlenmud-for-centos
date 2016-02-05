@@ -1,0 +1,1455 @@
+#AREADATA 
+Name tower of tyrsis~
+Repop A low-pitched groan seems to eminate from nowhere to fill the air. 
+~
+SCZone 0
+Builders None Bern~
+VNUMs 66000 66999
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#66000
+Name An Ancient Path Through a Field~
+Descr
+~
+Sector 5
+Door 0 0 0 66002 0 0
+~
+~
+Door 1 0 0 66001 0 0
+~
+~
+Door 2 0 0 66080 0 0
+~
+~
+Door 3 0 0 66003 0 0
+~
+~
+End
+
+#66001
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66012 0 0
+~
+~
+Door 1 0 0 66005 0 0
+~
+~
+Door 3 0 0 66000 0 0
+~
+~
+End
+
+#66002
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66015 0 0
+~
+~
+Door 1 0 0 66012 0 0
+~
+~
+Door 2 0 0 66000 0 0
+~
+~
+Door 3 0 0 66009 0 0
+~
+~
+End
+
+#66003
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66009 0 0
+~
+~
+Door 1 0 0 66000 0 0
+~
+~
+Door 3 0 0 66004 0 0
+~
+~
+End
+
+#66004
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66006 0 0
+~
+~
+Door 1 0 0 66003 0 0
+~
+~
+Door 3 0 0 66028 0 0
+~
+~
+End
+
+#66005
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66013 0 0
+~
+~
+Door 1 0 0 66027 0 0
+~
+~
+Door 3 0 0 66001 0 0
+~
+~
+End
+
+#66006
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66007 0 0
+~
+~
+Door 1 0 0 66009 0 0
+~
+~
+Door 2 0 0 66004 0 0
+~
+~
+Door 3 0 0 66008 0 0
+~
+~
+End
+
+#66007
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66020 0 0
+~
+~
+Door 1 0 0 66011 0 0
+~
+~
+Door 2 0 0 66006 0 0
+~
+~
+Door 3 0 0 66010 0 0
+~
+~
+End
+
+#66008
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66010 0 0
+~
+~
+Door 1 0 0 66006 0 0
+~
+~
+Door 2 0 0 66028 0 0
+~
+~
+End
+
+#66009
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66011 0 0
+~
+~
+Door 1 0 0 66002 0 0
+~
+~
+Door 2 0 0 66003 0 0
+~
+~
+Door 3 0 0 66006 0 0
+~
+~
+End
+
+#66010
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66019 0 0
+~
+~
+Door 1 0 0 66007 0 0
+~
+~
+Door 2 0 0 66008 0 0
+~
+~
+End
+
+#66011
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66021 0 0
+~
+~
+Door 1 0 0 66015 0 0
+~
+~
+Door 2 0 0 66009 0 0
+~
+~
+Door 3 0 0 66007 0 0
+~
+~
+End
+
+#66012
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66016 0 0
+~
+~
+Door 1 0 0 66013 0 0
+~
+~
+Door 2 0 0 66001 0 0
+~
+~
+Door 3 0 0 66002 0 0
+~
+~
+End
+
+#66013
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66017 0 0
+~
+~
+Door 1 0 0 66014 0 0
+~
+~
+Door 2 0 0 66005 0 0
+~
+~
+Door 3 0 0 66012 0 0
+~
+~
+End
+
+#66014
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66018 0 0
+~
+~
+Door 1 0 0 66067 0 0
+~
+~
+Door 2 0 0 66027 0 0
+~
+~
+Door 3 0 0 66013 0 0
+~
+~
+End
+
+#66015
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66022 0 0
+~
+~
+Door 1 0 0 66016 0 0
+~
+~
+Door 2 0 0 66002 0 0
+~
+~
+Door 3 0 0 66011 0 0
+~
+~
+End
+
+#66016
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66023 0 0
+~
+~
+Door 1 0 0 66017 0 0
+~
+~
+Door 2 0 0 66012 0 0
+~
+~
+Door 3 0 0 66015 0 0
+~
+~
+End
+
+#66017
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66024 0 0
+~
+~
+Door 1 0 0 66018 0 0
+~
+~
+Door 2 0 0 66013 0 0
+~
+~
+Door 3 0 0 66016 0 0
+~
+~
+End
+
+#66018
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66025 0 0
+~
+~
+Door 1 0 0 66068 0 0
+~
+~
+Door 2 0 0 66014 0 0
+~
+~
+Door 3 0 0 66017 0 0
+~
+~
+End
+
+#66019
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66032 0 0
+~
+~
+Door 1 0 0 66020 0 0
+~
+~
+Door 2 0 0 66010 0 0
+~
+~
+End
+
+#66020
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66031 0 0
+~
+~
+Door 1 0 0 66021 0 0
+~
+~
+Door 2 0 0 66007 0 0
+~
+~
+Door 3 0 0 66019 0 0
+~
+~
+End
+
+#66021
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66030 0 0
+~
+~
+Door 1 0 0 66022 0 0
+~
+~
+Door 2 0 0 66011 0 0
+~
+~
+Door 3 0 0 66020 0 0
+~
+~
+End
+
+#66022
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66040 0 0
+~
+~
+Door 1 0 0 66023 0 0
+~
+~
+Door 2 0 0 66015 0 0
+~
+~
+Door 3 0 0 66021 0 0
+~
+~
+End
+
+#66023
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66029 0 0
+~
+~
+Door 1 0 0 66024 0 0
+~
+~
+Door 2 0 0 66016 0 0
+~
+~
+Door 3 0 0 66022 0 0
+~
+~
+End
+
+#66024
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66039 0 0
+~
+~
+Door 1 0 0 66025 0 0
+~
+~
+Door 2 0 0 66017 0 0
+~
+~
+Door 3 0 0 66023 0 0
+~
+~
+End
+
+#66025
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66033 0 0
+~
+~
+Door 1 0 0 66026 0 0
+~
+~
+Door 2 0 0 66018 0 0
+~
+~
+Door 3 0 0 66024 0 0
+~
+~
+End
+
+#66026
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66034 0 0
+~
+~
+Door 1 0 0 66072 0 0
+~
+~
+Door 2 0 0 66068 0 0
+~
+~
+Door 3 0 0 66025 0 0
+~
+~
+End
+
+#66027
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66014 0 0
+~
+~
+Door 1 0 0 66066 0 0
+~
+~
+Door 3 0 0 66005 0 0
+~
+~
+End
+
+#66028
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66008 0 0
+~
+~
+Door 1 0 0 66004 0 0
+~
+~
+End
+
+#66029
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66041 0 0
+~
+~
+Door 1 0 0 66039 0 0
+~
+~
+Door 2 0 0 66023 0 0
+~
+~
+Door 3 0 0 66040 0 0
+~
+~
+End
+
+#66030
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66037 0 0
+~
+~
+Door 1 0 0 66040 0 0
+~
+~
+Door 2 0 0 66021 0 0
+~
+~
+Door 3 0 0 66031 0 0
+~
+~
+End
+
+#66031
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66036 0 0
+~
+~
+Door 1 0 0 66030 0 0
+~
+~
+Door 2 0 0 66020 0 0
+~
+~
+Door 3 0 0 66032 0 0
+~
+~
+End
+
+#66032
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66035 0 0
+~
+~
+Door 1 0 0 66031 0 0
+~
+~
+Door 2 0 0 66019 0 0
+~
+~
+End
+
+#66033
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66043 0 0
+~
+~
+Door 1 0 0 66034 0 0
+~
+~
+Door 2 0 0 66025 0 0
+~
+~
+Door 3 0 0 66039 0 0
+~
+~
+End
+
+#66034
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66044 0 0
+~
+~
+Door 1 0 0 66073 0 0
+~
+~
+Door 2 0 0 66026 0 0
+~
+~
+Door 3 0 0 66033 0 0
+~
+~
+End
+
+#66035
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66046 0 0
+~
+~
+Door 1 0 0 66036 0 0
+~
+~
+Door 2 0 0 66032 0 0
+~
+~
+End
+
+#66036
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66047 0 0
+~
+~
+Door 1 0 0 66037 0 0
+~
+~
+Door 2 0 0 66031 0 0
+~
+~
+Door 3 0 0 66035 0 0
+~
+~
+End
+
+#66037
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66048 0 0
+~
+~
+Door 1 0 0 66038 0 0
+~
+~
+Door 2 0 0 66030 0 0
+~
+~
+Door 3 0 0 66036 0 0
+~
+~
+End
+
+#66038
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66049 0 0
+~
+~
+Door 1 0 0 66041 0 0
+~
+~
+Door 2 0 0 66040 0 0
+~
+~
+Door 3 0 0 66037 0 0
+~
+~
+End
+
+#66039
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66042 0 0
+~
+~
+Door 1 0 0 66033 0 0
+~
+~
+Door 2 0 0 66024 0 0
+~
+~
+Door 3 0 0 66029 0 0
+~
+~
+End
+
+#66040
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66038 0 0
+~
+~
+Door 1 0 0 66029 0 0
+~
+~
+Door 2 0 0 66022 0 0
+~
+~
+Door 3 0 0 66030 0 0
+~
+~
+End
+
+#66041
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66050 0 0
+~
+~
+Door 1 0 0 66042 0 0
+~
+~
+Door 2 0 0 66029 0 0
+~
+~
+Door 3 0 0 66038 0 0
+~
+~
+End
+
+#66042
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66051 0 0
+~
+~
+Door 1 0 0 66043 0 0
+~
+~
+Door 2 0 0 66039 0 0
+~
+~
+Door 3 0 0 66041 0 0
+~
+~
+End
+
+#66043
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66052 0 0
+~
+~
+Door 1 0 0 66044 0 0
+~
+~
+Door 2 0 0 66033 0 0
+~
+~
+Door 3 0 0 66042 0 0
+~
+~
+End
+
+#66044
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66053 0 0
+~
+~
+Door 1 0 0 66045 0 0
+~
+~
+Door 2 0 0 66034 0 0
+~
+~
+Door 3 0 0 66043 0 0
+~
+~
+End
+
+#66045
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66054 0 0
+~
+~
+Door 1 0 0 66079 0 0
+~
+~
+Door 2 0 0 66073 0 0
+~
+~
+Door 3 0 0 66044 0 0
+~
+~
+End
+
+#66046
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66056 0 0
+~
+~
+Door 1 0 0 66047 0 0
+~
+~
+Door 2 0 0 66035 0 0
+~
+~
+End
+
+#66047
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66057 0 0
+~
+~
+Door 1 0 0 66048 0 0
+~
+~
+Door 2 0 0 66036 0 0
+~
+~
+Door 3 0 0 66046 0 0
+~
+~
+End
+
+#66048
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66058 0 0
+~
+~
+Door 1 0 0 66049 0 0
+~
+~
+Door 2 0 0 66037 0 0
+~
+~
+Door 3 0 0 66047 0 0
+~
+~
+End
+
+#66049
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66059 0 0
+~
+~
+Door 1 0 0 66050 0 0
+~
+~
+Door 2 0 0 66038 0 0
+~
+~
+Door 3 0 0 66048 0 0
+~
+~
+End
+
+#66050
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66060 0 0
+~
+~
+Door 1 0 0 66051 0 0
+~
+~
+Door 2 0 0 66041 0 0
+~
+~
+Door 3 0 0 66049 0 0
+~
+~
+End
+
+#66051
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66061 0 0
+~
+~
+Door 1 0 0 66052 0 0
+~
+~
+Door 2 0 0 66042 0 0
+~
+~
+Door 3 0 0 66050 0 0
+~
+~
+End
+
+#66052
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66062 0 0
+~
+~
+Door 1 0 0 66053 0 0
+~
+~
+Door 2 0 0 66043 0 0
+~
+~
+Door 3 0 0 66051 0 0
+~
+~
+End
+
+#66053
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66063 0 0
+~
+~
+Door 1 0 0 66054 0 0
+~
+~
+Door 2 0 0 66044 0 0
+~
+~
+Door 3 0 0 66052 0 0
+~
+~
+End
+
+#66054
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66064 0 0
+~
+~
+Door 1 0 0 66055 0 0
+~
+~
+Door 2 0 0 66045 0 0
+~
+~
+Door 3 0 0 66053 0 0
+~
+~
+End
+
+#66055
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66065 0 0
+~
+~
+Door 2 0 0 66079 0 0
+~
+~
+Door 3 0 0 66054 0 0
+~
+~
+End
+
+#66056
+Name ~
+Descr
+~
+Sector 27
+Door 1 0 0 66057 0 0
+~
+~
+Door 2 0 0 66046 0 0
+~
+~
+End
+
+#66057
+Name ~
+Descr
+~
+Sector 27
+Door 1 0 0 66058 0 0
+~
+~
+Door 2 0 0 66047 0 0
+~
+~
+Door 3 0 0 66056 0 0
+~
+~
+End
+
+#66058
+Name ~
+Descr
+~
+Sector 27
+Door 1 0 0 66059 0 0
+~
+~
+Door 2 0 0 66048 0 0
+~
+~
+Door 3 0 0 66057 0 0
+~
+~
+End
+
+#66059
+Name ~
+Descr
+~
+Sector 27
+Door 1 0 0 66060 0 0
+~
+~
+Door 2 0 0 66049 0 0
+~
+~
+Door 3 0 0 66058 0 0
+~
+~
+End
+
+#66060
+Name ~
+Descr
+~
+Sector 27
+Door 1 0 0 66061 0 0
+~
+~
+Door 2 0 0 66050 0 0
+~
+~
+Door 3 0 0 66059 0 0
+~
+~
+End
+
+#66061
+Name ~
+Descr
+~
+Sector 27
+Door 1 0 0 66062 0 0
+~
+~
+Door 2 0 0 66051 0 0
+~
+~
+Door 3 0 0 66060 0 0
+~
+~
+End
+
+#66062
+Name ~
+Descr
+~
+Sector 27
+Door 1 0 0 66063 0 0
+~
+~
+Door 2 0 0 66052 0 0
+~
+~
+Door 3 0 0 66061 0 0
+~
+~
+End
+
+#66063
+Name ~
+Descr
+~
+Sector 27
+Door 1 0 0 66064 0 0
+~
+~
+Door 2 0 0 66053 0 0
+~
+~
+Door 3 0 0 66062 0 0
+~
+~
+End
+
+#66064
+Name ~
+Descr
+~
+Sector 27
+Door 1 0 0 66065 0 0
+~
+~
+Door 2 0 0 66054 0 0
+~
+~
+Door 3 0 0 66063 0 0
+~
+~
+End
+
+#66065
+Name ~
+Descr
+~
+Sector 27
+Door 2 0 0 66055 0 0
+~
+~
+Door 3 0 0 66064 0 0
+~
+~
+End
+
+#66066
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66067 0 0
+~
+~
+Door 1 0 0 66069 0 0
+~
+~
+Door 3 0 0 66027 0 0
+~
+~
+End
+
+#66067
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66068 0 0
+~
+~
+Door 1 0 0 66070 0 0
+~
+~
+Door 2 0 0 66066 0 0
+~
+~
+Door 3 0 0 66014 0 0
+~
+~
+End
+
+#66068
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66026 0 0
+~
+~
+Door 1 0 0 66071 0 0
+~
+~
+Door 2 0 0 66067 0 0
+~
+~
+Door 3 0 0 66018 0 0
+~
+~
+End
+
+#66069
+Name ~
+Descr
+~
+Sector 7
+Door 0 0 0 66070 0 0
+~
+~
+Door 1 0 0 66074 0 0
+~
+~
+Door 3 0 0 66066 0 0
+~
+~
+End
+
+#66070
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66071 0 0
+~
+~
+Door 1 0 0 66075 0 0
+~
+~
+Door 2 0 0 66069 0 0
+~
+~
+Door 3 0 0 66067 0 0
+~
+~
+End
+
+#66071
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66072 0 0
+~
+~
+Door 1 0 0 66076 0 0
+~
+~
+Door 2 0 0 66070 0 0
+~
+~
+Door 3 0 0 66068 0 0
+~
+~
+End
+
+#66072
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66073 0 0
+~
+~
+Door 1 0 0 66077 0 0
+~
+~
+Door 2 0 0 66071 0 0
+~
+~
+Door 3 0 0 66026 0 0
+~
+~
+End
+
+#66073
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66045 0 0
+~
+~
+Door 1 0 0 66078 0 0
+~
+~
+Door 2 0 0 66072 0 0
+~
+~
+Door 3 0 0 66034 0 0
+~
+~
+End
+
+#66074
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66075 0 0
+~
+~
+Door 3 0 0 66069 0 0
+~
+~
+End
+
+#66075
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66076 0 0
+~
+~
+Door 2 0 0 66074 0 0
+~
+~
+Door 3 0 0 66070 0 0
+~
+~
+End
+
+#66076
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66077 0 0
+~
+~
+Door 2 0 0 66075 0 0
+~
+~
+Door 3 0 0 66071 0 0
+~
+~
+End
+
+#66077
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66078 0 0
+~
+~
+Door 2 0 0 66076 0 0
+~
+~
+Door 3 0 0 66072 0 0
+~
+~
+End
+
+#66078
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66079 0 0
+~
+~
+Door 2 0 0 66077 0 0
+~
+~
+Door 3 0 0 66073 0 0
+~
+~
+End
+
+#66079
+Name ~
+Descr
+~
+Sector 27
+Door 0 0 0 66055 0 0
+~
+~
+Door 2 0 0 66078 0 0
+~
+~
+Door 3 0 0 66045 0 0
+~
+~
+End
+
+#66080
+Name ~
+Descr
+~
+Sector 5
+Door 0 0 0 66000 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

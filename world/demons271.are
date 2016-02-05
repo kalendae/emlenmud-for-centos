@@ -1,0 +1,992 @@
+#AREADATA 
+Name The Lands of Blackspire ~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Demonstench~
+VNUMs 30002 30052
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#30038
+Name black spire sentry~
+Short A Buff Blackspire Sentry~
+Long 
+A buff Blackspire sentry stands here guarding the remains of the Keep.
+~
+AMax 6
+NHeight 99
+ActBits 2
+ActBits3 2
+Affect_By 168
+AffectTWO 524288
+Money 200
+Level 30
+Sex 1
+MobType 10
+Hp 99
+Guard 1
+Spec spec_warrior
+End
+
+#30045
+Name moorak demon war lord prac~
+Short Moorak the demon Warlord~
+Long 
+Moorak the demon warlord of the underworld resides here doing his evil deeds.
+~
+AMax 1
+NHeight 99
+ActBits 258
+ActBits3 524288
+Affect_By 682
+AffectTWO 33554441
+Money 1000
+Level 200
+MobType 11
+Guard 0
+Spec spec_warrior
+ASklTaught 0 552
+ASklTaught 1 251
+End
+
+#30048
+Name night mare nightmare evil~
+Short an ((N I G H T M a R E))~
+Long 
+An blackish pit of evil called ((N I G H T M a R E)) is here dwelling in everyone's dreams.
+~
+AMax 1
+ActBits 2
+ActBits3 524288
+Affect_By 682
+AffectTWO 8
+Money 600
+Level 400
+MobType 11
+Hp 15
+Guard 0
+Spec spec_warrior
+End
+
+#0
+
+
+
+#OBJDATA
+#30048
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 5
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#30002
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 1 0 0 30003 0 0
+~
+~
+Door 2 0 0 30005 0 0
+~
+~
+Door 4 0 0 21173 0 0
+~
+~
+End
+
+#30003
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Reset M 21063 1 100
+Door 1 0 0 30004 0 0
+~
+~
+Door 2 0 0 30006 0 0
+~
+~
+Door 3 0 0 30002 0 0
+~
+~
+End
+
+#30004
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 2 0 0 30007 0 0
+~
+~
+Door 3 0 0 30003 0 0
+~
+~
+End
+
+#30005
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30002 0 0
+~
+~
+Door 1 0 0 30006 0 0
+~
+~
+Door 2 0 0 30009 0 0
+~
+~
+End
+
+#30006
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30003 0 0
+~
+~
+Door 1 0 0 30007 0 0
+~
+~
+Door 2 0 0 30010 0 0
+~
+~
+Door 3 0 0 30005 0 0
+~
+~
+End
+
+#30007
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Reset M 21064 1 100
+Door 0 0 0 30004 0 0
+~
+~
+Door 1 0 0 30008 0 0
+~
+~
+Door 2 0 0 30011 0 0
+~
+~
+Door 3 0 0 30006 0 0
+~
+~
+End
+
+#30008
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 2 0 0 30012 0 0
+~
+~
+Door 3 0 0 30007 0 0
+~
+~
+End
+
+#30009
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30005 0 0
+~
+~
+Door 1 0 0 30010 0 0
+~
+~
+Door 2 0 0 30013 0 0
+~
+~
+End
+
+#30010
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30006 0 0
+~
+~
+Door 1 0 0 30011 0 0
+~
+~
+Door 2 0 0 30014 0 0
+~
+~
+Door 3 0 0 30009 0 0
+~
+~
+End
+
+#30011
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30007 0 0
+~
+~
+Door 1 0 0 30012 0 0
+~
+~
+Door 2 0 0 30015 0 0
+~
+~
+Door 3 0 0 30010 0 0
+~
+~
+End
+
+#30012
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30008 0 0
+~
+~
+Door 2 0 0 30016 0 0
+~
+~
+Door 3 0 0 30011 0 0
+~
+~
+End
+
+#30013
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30009 0 0
+~
+~
+Door 1 0 0 30014 0 0
+~
+~
+End
+
+#30014
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30010 0 0
+~
+~
+Door 1 0 0 30015 0 0
+~
+~
+Door 2 0 0 30017 0 0
+~
+~
+Door 3 0 0 30013 0 0
+~
+~
+End
+
+#30015
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30011 0 0
+~
+~
+Door 1 0 0 30016 0 0
+~
+~
+Door 2 0 0 30018 0 0
+~
+~
+Door 3 0 0 30014 0 0
+~
+~
+End
+
+#30016
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30012 0 0
+~
+~
+Door 2 0 0 30019 0 0
+~
+~
+Door 3 0 0 30015 0 0
+~
+~
+End
+
+#30017
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30014 0 0
+~
+~
+Door 1 0 0 30018 0 0
+~
+~
+Door 2 0 0 30023 0 0
+~
+~
+End
+
+#30018
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30015 0 0
+~
+~
+Door 1 0 0 30019 0 0
+~
+~
+Door 2 0 0 30024 0 0
+~
+~
+Door 3 0 0 30017 0 0
+~
+~
+End
+
+#30019
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30016 0 0
+~
+~
+Door 1 0 0 30020 0 0
+~
+~
+Door 2 0 0 30025 0 0
+~
+~
+Door 3 0 0 30018 0 0
+~
+~
+End
+
+#30020
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Reset M 21063 1 100
+Door 1 0 0 30021 0 0
+~
+~
+Door 2 0 0 30026 0 0
+~
+~
+Door 3 0 0 30019 0 0
+~
+~
+End
+
+#30021
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 1 0 0 30022 0 0
+~
+~
+Door 2 0 0 30027 0 0
+~
+~
+Door 3 0 0 30020 0 0
+~
+~
+End
+
+#30022
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 2 0 0 30028 0 0
+~
+~
+Door 3 0 0 30021 0 0
+~
+~
+End
+
+#30023
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30017 0 0
+~
+~
+Door 1 0 0 30024 0 0
+~
+~
+Door 2 0 0 30029 0 0
+~
+~
+End
+
+#30024
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30018 0 0
+~
+~
+Door 1 0 0 30025 0 0
+~
+~
+Door 2 0 0 30030 0 0
+~
+~
+Door 3 0 0 30023 0 0
+~
+~
+End
+
+#30025
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30019 0 0
+~
+~
+Door 1 0 0 30026 0 0
+~
+~
+Door 2 0 0 30031 0 0
+~
+~
+Door 3 0 0 30024 0 0
+~
+~
+End
+
+#30026
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30020 0 0
+~
+~
+Door 1 0 0 30027 0 0
+~
+~
+Door 2 0 0 30032 0 0
+~
+~
+Door 3 0 0 30025 0 0
+~
+~
+End
+
+#30027
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30021 0 0
+~
+~
+Door 1 0 0 30028 0 0
+~
+~
+Door 2 0 0 30033 0 0
+~
+~
+Door 3 0 0 30026 0 0
+~
+~
+End
+
+#30028
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30022 0 0
+~
+~
+Door 2 0 0 30034 0 0
+~
+~
+Door 3 0 0 30027 0 0
+~
+~
+End
+
+#30029
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30023 0 0
+~
+~
+Door 1 0 0 30030 0 0
+~
+~
+End
+
+#30030
+Name ~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Reset M 21064 1 100
+Door 0 0 0 30024 0 0
+~
+~
+Door 1 0 0 30031 0 0
+~
+~
+Door 3 0 0 30029 0 0
+~
+~
+End
+
+#30031
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30025 0 0
+~
+~
+Door 1 0 0 30032 0 0
+~
+~
+Door 3 0 0 30030 0 0
+~
+~
+End
+
+#30032
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30026 0 0
+~
+~
+Door 1 0 0 30033 0 0
+~
+~
+Door 3 0 0 30031 0 0
+~
+~
+End
+
+#30033
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30027 0 0
+~
+~
+Door 1 0 0 30034 0 0
+~
+~
+Door 2 0 0 30035 0 0
+~
+~
+Door 3 0 0 30032 0 0
+~
+~
+End
+
+#30034
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30028 0 0
+~
+~
+Door 2 0 0 30036 0 0
+~
+~
+Door 3 0 0 30033 0 0
+~
+~
+End
+
+#30035
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30033 0 0
+~
+~
+Door 1 0 0 30036 0 0
+~
+~
+End
+
+#30036
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 0 0 0 30034 0 0
+~
+~
+Door 1 0 0 30037 0 0
+~
+~
+Door 3 0 0 30035 0 0
+~
+~
+End
+
+#30037
+Name A Field Outside the Keep~
+Descr
+You are in some fields outside the ruined keep of Blackspire. From here
+you can see that only some parts of the ancient structure are still intact
+from the tragic earthquake that sent the castle crashing into the earth. 
+~
+Sector 7
+Door 1 0 0 30038 0 0
+~
+~
+Door 3 0 0 30036 0 0
+~
+~
+End
+
+#30038
+Name The Front Gates of Blackspire~
+Descr
+You are standing at the entrance to the Keep. You can hardly see anything
+pass the guards that protect what is left of Blackspire. If you want to
+venture forth you are going to have to ask permission 
+~
+Sector 34
+Reset M 30038 1 100
+Reset M 30038 1 100
+Reset M 30038 1 100
+Reset M 30038 1 100
+Reset M 30038 1 100
+Reset M 30038 1 100
+Door 1 3 0 30039 34 34
+~
+Castle Gates~
+Door 3 0 0 30037 0 0
+~
+~
+End
+
+#30039
+Name The Remains of Blackspire Keep~
+Descr
+You walk within the Blackspire Keep. Even after the tragic fall of the
+kingdom, you notice that it didn't stop it from prospering. The area seems
+alive with energy, maybe one day the kingdom can gain back it's full
+strength. 
+~
+Sector 34
+Door 0 0 0 30040 0 0
+~
+~
+Door 1 0 0 30042 0 0
+~
+~
+Door 2 0 0 30041 0 0
+~
+~
+Door 3 3 0 30038 34 34
+~
+Castle Gates~
+End
+
+#30040
+Name The Remains of Blackspire Keep~
+Descr
+You walk within the Blackspire Keep. Even after the tragic fall of the
+kingdom, you notice that it didn't stop it from prospering. The area seems
+alive with energy, maybe one day the kingdom can gain back it's full
+strength. 
+~
+Sector 34
+Door 2 0 0 30039 0 0
+~
+~
+End
+
+#30041
+Name The Remains of Blackspire Keep~
+Descr
+You walk within the Blackspire Keep. Even after the tragic fall of the
+kingdom, you notice that it didn't stop it from prospering. The area seems
+alive with energy, maybe one day the kingdom can gain back it's full
+strength. 
+~
+Sector 34
+Door 0 0 0 30039 0 0
+~
+~
+End
+
+#30042
+Name The Remains of Blackspire Keep~
+Descr
+You walk within the Blackspire Keep. Even after the tragic fall of the
+kingdom, you notice that it didn't stop it from prospering. The area seems
+alive with energy, maybe one day the kingdom can gain back it's full
+strength. 
+~
+Sector 34
+Door 1 0 0 9026 0 0
+~
+~
+Door 3 0 0 30039 0 0
+~
+~
+End
+
+#30043
+Name A Dank and Dirty pit~
+Descr
+You are in a dirty and smelly pit. You can't tell how far it goes down or
+not, because there is no light source, but you sense a horrible evil. 
+~
+Flags 1
+Sector 46
+Door 4 259 0 9292 34 34
+~
+PIT~
+Door 5 0 0 30044 0 0
+~
+~
+End
+
+#30044
+Name A Dank and Dirty pit~
+Descr
+You are in a dirty and smelly pit. You can't tell how far it goes down or
+not, because there is no light source, but you sense a horrible evil. 
+~
+Flags 1
+Sector 46
+Door 4 0 0 30043 0 0
+~
+~
+Door 5 0 0 30045 0 0
+~
+~
+End
+
+#30045
+Name A Dank and Dirty pit~
+Descr
+You are in a dirty and smelly pit. You can't tell how far it goes down or
+not, because there is no light source, but you sense a horrible evil. 
+~
+Flags 1
+Sector 46
+Reset M 30045 1 100
+Reset O 32904 -1 60
+Reset O 8706 -1 60
+Door 4 0 0 30044 0 0
+~
+~
+End
+
+#30046
+Name A Dank and Dirty pit~
+Descr
+You are in a dirty and smelly pit. You can't tell how far it goes down or
+not, because there is no light source, but you sense a horrible evil. 
+~
+Sector 46
+Door 4 3 0 16251 30 30
+~
+NIGHTMARE~
+Door 5 0 0 30047 0 0
+~
+~
+End
+
+#30047
+Name A Dank and Dirty pit~
+Descr
+You are in a dirty and smelly pit. You can't tell how far it goes down or
+not, because there is no light source, but you sense a horrible evil. 
+~
+Sector 46
+Door 4 0 0 30046 0 0
+~
+~
+Door 5 0 0 30048 0 0
+~
+~
+End
+
+#30048
+Name A Dank and Dirty pit~
+Descr
+You are in a dirty and smelly pit. You can't tell how far it goes down or
+not, because there is no light source, but you sense a horrible evil. 
+~
+Flags2 4
+Sector 46
+Reset M 30048 1 100
+Reset O 8705 -1 10
+Reset O 62 -1 1
+Door 4 0 0 30047 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

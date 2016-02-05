@@ -1,0 +1,4810 @@
+#AREADATA 
+Name The Prison of Magnus~
+Repop The metal clank of a cell door slamming echos throughout the prison. 
+~
+SCZone 0
+Builders Bern~
+VNUMs 22001 22499
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#22001
+Name elite guard prison tower guarda51 aone~
+Short An elite prison guard~
+Long 
+An elite prison guard is here on the lookout for anything out of the ordinary.
+~
+AMax 1
+NHeight 0
+ActBits 66570
+ActBits4 1
+Affect_By 1049128
+Money 500
+Level 165
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#22002
+Name elite guard prison tower guarda52 aone~
+Short An elite prison guard~
+Long 
+An elite prison guard is here on the lookout for anything out of the ordinary.
+~
+AMax 1
+NHeight 0
+ActBits 66570
+ActBits4 1
+Affect_By 1049096
+Money 500
+Level 165
+Sex 1
+MobType 0
+Guard 0
+End
+
+#22003
+Name elite guard prison tower guarda53 aone~
+Short An elite prison guard~
+Long 
+An elite prison guard is here on the lookout for anything out of the ordinary.
+~
+AMax 1
+NHeight 0
+ActBits 66570
+ActBits4 1
+Affect_By 1049096
+Money 500
+Level 165
+Sex 1
+MobType 0
+Guard 0
+End
+
+#22004
+Name elite guard prison tower guarda54 aone~
+Short An elite prison guard~
+Long 
+An elite prison guard is here on the lookout for anything out of the ordinary.
+~
+AMax 1
+NHeight 0
+ActBits 66570
+ActBits4 1
+Affect_By 1049096
+Money 500
+Level 165
+Sex 1
+MobType 0
+Guard 0
+End
+
+#22005
+Name drimmal massive guard prison~
+Short Drimmal the Massive~
+Long 
+Drimmal the Massive is here blocking all passage out.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 2
+ActBits4 7
+Affect_By 552
+Money 500
+Level 165
+Sex 1
+MobType 0
+Hp 30
+Guard 2
+Spec spec_warrior
+End
+
+#22006
+Name gepar sleeze~
+Short Gepar the Sleeze~
+Long 
+Gepar the Sleeze is here trying to find a way out.
+~
+AMax 1
+NHeight 0
+ActBits4 5
+Affect_By 552
+Money 100
+Level 165
+Sex 1
+MobType 0
+Hp 3
+Guard 0
+End
+
+#22007
+Name elite guard prison tower~
+Short An elite prison guard~
+Long 
+An elite prison guard is here on the lookout for anything out of the ordinary.
+~
+AMax 1
+NHeight 0
+ActBits 66570
+Affect_By 131624
+Money 500
+Level 165
+Sex 1
+MobType 0
+Hp 4
+Guard 0
+End
+
+#22008
+Name imprisoned prison thief~
+Short an imprisoned thief~
+Long 
+A thief stands here longing for the outside.
+~
+AMax 2
+NHeight 0
+Affect_By 512
+Money 10
+Level 165
+Sex 1
+MobType 34
+Hp 3
+Guard 0
+Spec spec_thief
+End
+
+#22009
+Name imprisoned warrior prison~
+Short an imprisoned warrior~
+Long 
+A warrior is here wishing he could freely kill again.
+~
+AMax 2
+NHeight 0
+Affect_By 512
+Money 10
+Level 165
+Sex 1
+MobType 25
+Hp 3
+Guard 0
+Spec spec_warrior
+End
+
+#22010
+Name imprisoned mage prison~
+Short an imprisoned mage~
+Long 
+A mage is here plotting a way to cast a spell.
+~
+AMax 2
+NHeight 0
+Money 10
+Level 165
+Sex 2
+MobType 1
+Hp 3
+Guard 0
+BCasts dazzle~
+BCasts charged bolt~
+BCasts hands of wind~
+BCast_P 20
+End
+
+#22011
+Name imprisoned prison knight~
+Short an imprisoned knight~
+Long 
+A knight is here realizing that he will never again see the pretty maidens.
+~
+AMax 2
+NHeight 0
+Affect_By 512
+Level 165
+Sex 1
+MobType 0
+Hp 3
+Guard 0
+Spec spec_warrior
+BCasts greater healing~
+BCasts infuse~
+BCast_P 10
+End
+
+#22012
+Name imprisoned prison priest~
+Short an imprisoned priest~
+Long 
+A priest is here begging for forgiveness for his many sins.
+~
+AMax 2
+NHeight 0
+Affect_By 520
+Money 200
+Level 165
+Sex 1
+MobType 3
+Hp 3
+Guard 0
+BCasts stonehand punch~
+BCasts searing orb~
+BCasts greater healing~
+BCast_P 20
+End
+
+#22013
+Name magnus warden~
+Short Magnus the Warden~
+Long 
+Magnus the Warden is here working on a new plan to rehabillitate the prisoners.
+~
+AMax 1
+NHeight 0
+ActBits 1040
+Affect_By 1049128
+Level 325
+Sex 1
+MobType 23
+Hp 30
+Guard 0
+Spec spec_warrior
+BCasts confuse~
+BCasts wound~
+BCast_P 5
+End
+
+#22014
+Name sleeping prison guard~
+Short a prison guard~
+Long 
+A prison guard is standing here red in the face.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits4 1
+Affect_By 552
+Level 165
+Sex 1
+MobType 0
+Hp 3
+Guard 0
+End
+
+#22015
+Name guard prison elite tower~
+Short An elite prison guard~
+Long 
+An elite prison guard is here on the lookout for anything out of the ordinary.
+~
+AMax 4
+NHeight 0
+ActBits 66562
+Affect_By 1180200
+Money 500
+Level 165
+Sex 1
+MobType 0
+Hp 3
+Guard 0
+Spec spec_warrior
+End
+
+#22016
+Name etter cleric prison guard clerica51~
+Short Etter the prison cleric~
+Long 
+Etter the prison cleric, is here practicing spells.
+~
+AMax 1
+NHeight 0
+ActBits 1042
+ActBits4 33554432
+Affect_By 680
+Money 200
+Level 165
+Sex 1
+MobType 0
+Hp 40
+Guard 1
+BCasts mass healing~
+BCasts wrath of god~
+BCast_P 25
+End
+
+#22017
+Name prisoner cook orcish hag~
+Short an orcish hag~
+Long 
+An orcish hag is here serving up bowls of slop to the prisoners.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Level 165
+Sex 2
+MobType 25
+Hp 3
+Guard 0
+Shop    0   0   0   0  19 100 100 0 23
+Shopd2 10
+Shopd3 1
+ShopCr 22030
+ShopCS The orcish hag serves up yet some more slop.~
+ShCrh 4
+End
+
+#22018
+Name prisoner armorer~
+Short an imprisoned armorer~
+Long 
+An imprisoned armorer is here doing hard labor.
+~
+AMax 1
+NHeight 0
+ActBits 2097152
+Affect_By 552
+Level 165
+Sex 1
+MobType 2
+Hp 4
+Guard 0
+Spec spec_warrior
+End
+
+#22019
+Name imprisoned prisoner weaponsmith~
+Short an imprisoned weaponsmith~
+Long 
+A weaponsmith is here locked down for giving other prisoners weapons.
+~
+AMax 1
+NHeight 0
+ActBits 1048576
+Affect_By 552
+Level 165
+Sex 1
+MobType 2
+Hp 4
+Guard 0
+Spec spec_warrior
+End
+
+#22020
+Name sleeping prisoner~
+Short a prisoner~
+Long 
+A prisoner is here too tired to move.
+~
+AMax 6
+NHeight 0
+ActBits 2
+Affect_By 131584
+Level 165
+Sex 1
+MobType 0
+Hp 3
+Guard 0
+Spec spec_warrior
+End
+
+#22021
+Name prisoner ogre~
+Short an immense ogre~
+Long 
+An immense ogre is here stinking up the latrine!
+~
+AMax 1
+NHeight 0
+ActBits 1032
+Affect_By 520
+Level 165
+Sex 1
+MobType 23
+Hp 4
+Guard 0
+Spec spec_warrior
+End
+
+#22022
+Name saldis necromancer undieing~
+Short Saldis the Undieing~
+Long 
+Saldis the Undieing is here looking to destroy all in his path!
+~
+AMax 1
+NHeight 0
+ActBits 1032
+Affect_By 552
+Money 200
+Level 200
+Sex 1
+MobType 9
+Hp 25
+Guard 0
+Spec spec_warrior
+BCasts spear of agony~
+BCasts morbid healing~
+BCasts withering death~
+BCast_P 20
+End
+
+#22023
+Name prisoner~
+Short a prisoner~
+Long 
+A prisoner is here wandering about the yard.
+~
+AMax 12
+NHeight 0
+ActBits 4
+Affect_By 512
+Money 100
+Level 165
+Sex 1
+MobType 0
+Hp 3
+Guard 0
+Spec spec_warrior
+End
+
+#0
+
+
+
+#OBJDATA
+#22001
+Name ladder~
+Short a ladder~
+Descr
+A ladder is here leading down to the prison yard.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 22098 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22002
+Name chute portal~
+Short a chute~
+Descr
+A chute is here to supply the prisoner's mess.
+[0;36m~
+Type 12
+Wear 0
+Values 4 22208 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22003
+Name chute portal~
+Short a chute~
+Descr
+A chute is here to supply the prisoner's mess.
+[0;36m~
+Type 12
+Wear 0
+Values 4 22210 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22004
+Name ladder~
+Short a ladder~
+Descr
+A ladder is here leading down to the prison yard.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 22068 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22005
+Name ladder~
+Short a ladder~
+Descr
+A ladder is here leading down to the prison yard.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 22104 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22006
+Name ladder~
+Short a ladder~
+Descr
+A ladder is here leading down to the prison yard.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 0 22069 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22007
+Name ladder~
+Short a ladder~
+Descr
+A ladder is here leading up to the guard towers.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 22130 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22008
+Name ladder~
+Short a ladder~
+Descr
+A ladder is here leading up to the guard towers.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 22121 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22009
+Name ladder~
+Short a ladder~
+Descr
+A ladder is here leading up to the guard towers.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 22139 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22010
+Name ladder~
+Short a ladder~
+Descr
+A ladder is here leading up to the guard towers.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 22148 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22011
+Name black boots thief leather feet imprisoned~
+Short [0mboiled [33mleather[0m boots of the [1m[30mim[0m[35mpr[1m[30mis[0m[35mon[1m[30med [0mthief~
+Descr
+A black pair of leather boots are here becoming ruined on the ground.
+[0;36m~
+Type 9
+Wear 65
+Values 3 0 0 0 10 15 50 50 15 3 0
+Weight 0
+Cost 1000
+Affect 14 10 1 0 0
+Affect 22 2 1 0 0
+End
+
+#22012
+Name rope enchanted invisible~
+Short an enchanted rope~
+Descr
+An enchanted rope is here being invisible.
+[0;36m~
+Type 30
+Extra 65536
+Wear 0
+Values 1 0 22212 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22013
+Name wand curing priest imprisoned~
+Short [0man [1m[30mim[33mpr[30mis[33mon[30med[0m priest's wand of curing~
+Descr
+A gnarled wooden wand lies here rotting on the ground.
+[0;36m~
+Type 3
+Wear 24577
+Values 90 1 1 101 0 0 0 0 0 0 0
+Weight 8
+Cost 600
+End
+
+#22014
+Name favor maiden silk ribbon wrist knight imprisoned~
+Short [0ma [1m[35mm[32ma[35mi[36md[35me[32mn[35m's [35mf[32ma[35mv[36mo[35mr[0m of the [1m[30mim[0m[31mpr[1m[30mis[0m[31mon[1m[30med [0mknight~
+Descr
+A silk ribbon is here being trampled into the dirt.
+[0;36m~
+Type 9
+Wear 4097
+Values 0 0 0 1 0 0 20 20 0 0 0
+Weight 2
+Cost 500
+Affect 13 10 1 0 0
+Affect 18 2 1 0 0
+End
+
+#22015
+Name rope invisible enchanted~
+Short an enchanted rope~
+Descr
+An enchanted rope is here being invisible.
+[0;36m~
+Type 30
+Extra 65536
+Wear 0
+Values 2 0 0 22011 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22016
+Name shackle anklet mage chain cuff broken anklet imprisoned~
+Short [0ma broken shackle of the [1m[30mim[32mpr[30mis[32mon[30med [0mmage~
+Descr
+A length of chain attached to a cuff rusts here on the ground.
+[0;36m~
+Type 9
+Wear 524289
+Values 2 0 0 0 20 20 40 40 20 0 0
+Weight 10
+Cost 500
+Affect 18 -2 1 0 0
+Affect 22 1 1 0 0
+Affect 14 -5 1 0 0
+Affect 13 10 1 0 0
+Affect 20 2 1 0 0
+End
+
+#22017
+Name key metal dull prison~
+Short a prison gate key~
+Descr
+A dull metal key is here on the ground starting to rust.
+[0;36m~
+Type 18
+Extra 16384
+Wear 5
+Weight 1
+Cost 0
+End
+
+#22018
+Name dull metal key~
+Short a prison front gate key~
+Descr
+A dull metal key is on the ground rusting away.
+[0;36m~
+Type 18
+Extra 16384
+Wear 5
+Weight 1
+Cost 0
+End
+
+#22019
+Name shiny metal key~
+Short a cell block key~
+Descr
+A shiny metal key lies here on the ground reflecting light.
+[0;36m~
+Type 18
+Extra 16384
+Wear 5
+Weight 1
+Cost 0
+End
+
+#22020
+Name glowing key enchanted cell block~
+Short an enchanted cell block key~
+Descr
+A glowing key is here on the ground.
+[0;36m~
+Type 18
+Extra 16384
+Wear 5
+Weight 1
+Cost 0
+End
+
+#22021
+Name head gepar~
+Short [0mthe [31m[1mb[0m[31ml[1mo[0m[31mo[1md[0m[31my[0m head of Gepar~
+Descr
+[36mA[1m[31m bloody head[0m[36m lies here on the ground covered in [1m[30mants[0m[36m.[0m
+[0;36m~
+Type 19
+Extra 256
+Wear 16385
+Values 10 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 0
+End
+
+#22022
+Name seat latrine~
+Short a latrine seat~
+Descr
+A latrine seat is here sitting off to the side of the hole.
+[0;36m~
+Type 12
+Wear 0
+Timer 3
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22023
+Name latrine seat~
+Short a latrine seat~
+Descr
+A latrine seat is here looking rather putrid.
+[0;36m~
+Type 12
+Wear 0
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22024
+Name pit latrine~
+Short a latrine pit~
+Descr
+A large pit has been dug here to allow people to relieve themselves.
+[0;36m~
+Type 12
+Extra 4
+Wear 0
+Timer 3
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22025
+Name pit latrine~
+Short a latrine pit~
+Descr
+A large pit has been dug here to allow people to relieve themselves.
+[0;36m~
+Type 12
+Extra 4
+Wear 0
+Timer 3
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22026
+Name hole portal prison~
+Short a hole~
+Descr
+A hole has appeared in the wall...it may not last long.
+[0;36m~
+Type 12
+Wear 0
+Timer 2
+Values 4 22219 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22027
+Name desk small wooden~
+Short a small wooden desk~
+Descr
+A small wooden desk is here.
+[0;36m~
+Type 12
+Wear 0
+Values 1 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22028
+Name drawer~
+Short a drawer~
+Descr
+A drawer is here.
+[0;36m~
+Type 15
+Extra 65536
+Wear 0
+Values 10 1 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22029
+Name bed bunk~
+Short a bunk~
+Descr
+A guard's bunk is here squared away.
+[0;36m~
+Type 12
+Wear 0
+Values 2 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22030
+Name bowl slop food~
+Short a bowl of slop~
+Descr
+A bowl of slop is overturned here on the ground.
+[0;36m~
+Type 19
+Wear 1
+Values 15 0 0 0 0 0 0 0 0 0 0
+Weight 5
+Cost 50
+End
+
+#22031
+Name bunk prison~
+Short a bunk~
+Descr
+A standard issue prison bunk is here.
+[0;36m~
+Type 12
+Wear 0
+Values 2 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#22032
+Name leather gauntlets hand warrior imprisoned apb~
+Short [0mboiled [33mleather[0m gauntlets of the [1m[30mim[0m[34mpr[1m[30mis[0m[34mon[1m[30med[0m warrior~
+Descr
+Some boiled leather gauntlets are getting soiled here on the ground.
+[0;36m~
+Type 9
+Wear 129
+Values 0 0 0 2 0 15 30 30 15 1 0
+Weight 10
+Cost 600
+Affect 20 -2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#22033
+Name robe tattered ragged saldis undieing body breastplate~
+Short the tattered robes of [35mSal[34mdis the [34mUnd[35mieing[0m~
+Descr
+A ragged robe is here being trampled into the dirt.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 9
+Values 2 3 1 2 20 30 50 50 30 3 0
+Weight 10
+Cost 5000
+Affect 19 -2 1 0 0
+Affect 18 -3 1 0 0
+Affect 17 3 1 0 0
+Affect 13 15 1 0 0
+Affect 14 15 1 0 0
+Affect 20 3 1 0 0
+End
+
+#22034
+Name magnus spear hunting polearm 2apb apb~
+Short [0mthe hunting spear of [32mM[1ma[0m[32mg[1mn[0m[32mu[1ms[0m the [32mW[1ma[0m[32mr[1md[0m[32me[1mn[0m~
+Descr
+A massive spear lies here on the ground unclaimed.
+[0;36m~
+Type 5
+Extra 100663297
+Wear 16385
+Values 0 70 0 13 0 0 0 5 3 0 0
+Weight 10
+Cost 3000
+Affect 19 2 1 0 0
+End
+
+#22035
+Name etter ring greater negation~
+Short [34mE[1mt[0m[34mt[1me[0m[34mr[1m's[0m ring of [34mGr[1meat[32mer Pu[34mrgi[0m[34mng[0m~
+Descr
+A small ring lies here on the ground waiting to be found.
+[0;36m~
+Type 9
+Wear 3
+Values 0 0 0 3 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 13 10 1 0 0
+Affect 17 2 1 0 0
+Affect 20 2 1 0 0
+Affect 19 -1 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#22001
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22674 0 0
+~
+~
+Door 1 0 0 22002 0 0
+~
+~
+Door 2 0 0 22017 0 0
+~
+~
+Door 3 0 0 22655 0 0
+~
+~
+End
+
+#22002
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22675 0 0
+~
+~
+Door 1 0 0 22003 0 0
+~
+~
+Door 3 0 0 22001 0 0
+~
+~
+End
+
+#22003
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22676 0 0
+~
+~
+Door 1 0 0 22004 0 0
+~
+~
+Door 3 0 0 22002 0 0
+~
+~
+End
+
+#22004
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22677 0 0
+~
+~
+Door 1 0 0 22005 0 0
+~
+~
+Door 2 0 0 22012 0 0
+~
+~
+Door 3 0 0 22003 0 0
+~
+~
+End
+
+#22005
+Name The Forgotten Wood~
+Descr
+~
+Sector 28
+Door 0 0 0 22678 0 0
+~
+~
+Door 1 0 0 22006 0 0
+~
+~
+Door 2 0 0 22013 0 0
+~
+~
+Door 3 0 0 22004 0 0
+~
+~
+End
+
+#22006
+Name The Forgotten Wood~
+Descr
+~
+Sector 28
+Door 0 0 0 22679 0 0
+~
+~
+Door 1 0 0 22007 0 0
+~
+~
+Door 2 0 0 22014 0 0
+~
+~
+Door 3 0 0 22005 0 0
+~
+~
+End
+
+#22007
+Name The Forgotten Wood~
+Descr
+~
+Sector 28
+Door 0 0 0 22680 0 0
+~
+~
+Door 1 0 0 22008 0 0
+~
+~
+Door 2 0 0 22015 0 0
+~
+~
+Door 3 0 0 22006 0 0
+~
+~
+End
+
+#22008
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22681 0 0
+~
+~
+Door 1 0 0 22009 0 0
+~
+~
+Door 2 0 0 22016 0 0
+~
+~
+Door 3 0 0 22007 0 0
+~
+~
+End
+
+#22009
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22682 0 0
+~
+~
+Door 1 0 0 22010 0 0
+~
+~
+Door 3 0 0 22008 0 0
+~
+~
+End
+
+#22010
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22683 0 0
+~
+~
+Door 3 0 0 22009 0 0
+~
+~
+End
+
+#22011
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Reset O 22012 -5 100
+Door 1 0 0 22896 0 0
+~
+~
+Door 2 0 0 22052 0 0
+~
+~
+End
+
+#22012
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22004 0 0
+~
+~
+Door 1 0 0 22013 0 0
+~
+~
+End
+
+#22013
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22005 0 0
+~
+~
+Door 1 0 0 22014 0 0
+~
+~
+Door 3 0 0 22012 0 0
+~
+~
+End
+
+#22014
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22006 0 0
+~
+~
+Door 1 0 0 22015 0 0
+~
+~
+Door 3 0 0 22013 0 0
+~
+~
+End
+
+#22015
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22007 0 0
+~
+~
+Door 1 0 0 22016 0 0
+~
+~
+Door 3 0 0 22014 0 0
+~
+~
+End
+
+#22016
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22008 0 0
+~
+~
+Door 3 0 0 22015 0 0
+~
+~
+End
+
+#22017
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22001 0 0
+~
+~
+Door 2 0 0 22018 0 0
+~
+~
+Door 3 0 0 22656 0 0
+~
+~
+End
+
+#22018
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22017 0 0
+~
+~
+Door 2 0 0 22019 0 0
+~
+~
+Door 3 0 0 22657 0 0
+~
+~
+End
+
+#22019
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22018 0 0
+~
+~
+Door 1 0 0 22027 0 0
+~
+~
+Door 2 0 0 22020 0 0
+~
+~
+Door 3 0 0 22658 0 0
+~
+~
+End
+
+#22020
+Name The Forgotten Wood~
+Descr
+~
+Sector 28
+Door 0 0 0 22019 0 0
+~
+~
+Door 1 0 0 22028 0 0
+~
+~
+Door 2 0 0 22021 0 0
+~
+~
+Door 3 0 0 22659 0 0
+~
+~
+End
+
+#22021
+Name The Forgotten Wood~
+Descr
+~
+Sector 28
+Door 0 0 0 22020 0 0
+~
+~
+Door 1 0 0 22029 0 0
+~
+~
+Door 2 0 0 22022 0 0
+~
+~
+Door 3 0 0 22660 0 0
+~
+~
+End
+
+#22022
+Name The Forgotten Wood~
+Descr
+~
+Sector 28
+Door 0 0 0 22021 0 0
+~
+~
+Door 1 0 0 22030 0 0
+~
+~
+Door 2 0 0 22023 0 0
+~
+~
+Door 3 0 0 22661 0 0
+~
+~
+End
+
+#22023
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22022 0 0
+~
+~
+Door 1 0 0 22031 0 0
+~
+~
+Door 2 0 0 22024 0 0
+~
+~
+Door 3 0 0 22662 0 0
+~
+~
+End
+
+#22024
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22023 0 0
+~
+~
+Door 2 0 0 22025 0 0
+~
+~
+Door 3 0 0 22663 0 0
+~
+~
+End
+
+#22025
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22024 0 0
+~
+~
+Door 3 0 0 22664 0 0
+~
+~
+End
+
+#22026
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Reset M 22503 1 100
+Door 1 0 0 22032 0 0
+~
+~
+Door 2 0 0 22806 0 0
+~
+~
+End
+
+#22027
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 2 0 0 22028 0 0
+~
+~
+Door 3 0 0 22019 0 0
+~
+~
+End
+
+#22028
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22027 0 0
+~
+~
+Door 2 0 0 22029 0 0
+~
+~
+Door 3 0 0 22020 0 0
+~
+~
+End
+
+#22029
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22028 0 0
+~
+~
+Door 2 0 0 22030 0 0
+~
+~
+Door 3 0 0 22021 0 0
+~
+~
+End
+
+#22030
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22029 0 0
+~
+~
+Door 2 0 0 22031 0 0
+~
+~
+Door 3 0 0 22022 0 0
+~
+~
+End
+
+#22031
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 28
+Door 0 0 0 22030 0 0
+~
+~
+Door 3 0 0 22023 0 0
+~
+~
+End
+
+#22032
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Door 1 0 0 22033 0 0
+~
+~
+Door 2 0 0 22807 0 0
+~
+~
+Door 3 0 0 22026 0 0
+~
+~
+End
+
+#22033
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Door 1 0 0 22034 0 0
+~
+~
+Door 2 0 0 22808 0 0
+~
+~
+Door 3 0 0 22032 0 0
+~
+~
+End
+
+#22034
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Door 0 0 0 22042 0 0
+~
+~
+Door 1 0 0 22035 0 0
+~
+~
+Door 2 0 0 22809 0 0
+~
+~
+Door 3 0 0 22033 0 0
+~
+~
+End
+
+#22035
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Door 1 0 0 22036 0 0
+~
+~
+Door 2 0 0 22810 0 0
+~
+~
+Door 3 0 0 22034 0 0
+~
+~
+End
+
+#22036
+Name At the Main Gates~
+Descr
+~
+Sector 5
+Door 0 519 22018 22058 80 80
+~
+front gate~
+Door 1 0 0 22037 0 0
+~
+~
+Door 2 0 0 22811 0 0
+~
+~
+Door 3 0 0 22035 0 0
+~
+~
+End
+
+#22037
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Door 1 0 0 22038 0 0
+~
+~
+Door 2 0 0 22812 0 0
+~
+~
+Door 3 0 0 22036 0 0
+~
+~
+End
+
+#22038
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Door 0 0 0 22043 0 0
+~
+~
+Door 1 0 0 22039 0 0
+~
+~
+Door 2 0 0 22813 0 0
+~
+~
+Door 3 0 0 22037 0 0
+~
+~
+End
+
+#22039
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Door 1 0 0 22040 0 0
+~
+~
+Door 2 0 0 22814 0 0
+~
+~
+Door 3 0 0 22038 0 0
+~
+~
+End
+
+#22040
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Door 1 0 0 22041 0 0
+~
+~
+Door 2 0 0 22815 0 0
+~
+~
+Door 3 0 0 22039 0 0
+~
+~
+End
+
+#22041
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Door 2 0 0 22816 0 0
+~
+~
+Door 3 0 0 22040 0 0
+~
+~
+End
+
+#22042
+Name Before The Prison of Magnus~
+Descr
+~
+Sector 7
+Door 2 0 0 22034 0 0
+~
+~
+End
+
+#22043
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 7
+Door 2 0 0 22038 0 0
+~
+~
+End
+
+#22044
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 0 0 0 22045 0 0
+~
+~
+Door 1 0 0 22887 0 0
+~
+~
+End
+
+#22045
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 0 0 0 22046 0 0
+~
+~
+Door 1 0 0 22888 0 0
+~
+~
+Door 2 0 0 22044 0 0
+~
+~
+End
+
+#22046
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 0 0 0 22047 0 0
+~
+~
+Door 1 0 0 22889 0 0
+~
+~
+Door 2 0 0 22045 0 0
+~
+~
+Door 3 0 0 22053 0 0
+~
+~
+End
+
+#22047
+Name A Field Nearing the Prison~
+Descr
+~
+Sector 8
+Door 0 0 0 22048 0 0
+~
+~
+Door 1 0 0 22890 0 0
+~
+~
+Door 2 0 0 22046 0 0
+~
+~
+Door 3 0 0 22054 0 0
+~
+~
+End
+
+#22048
+Name A Field Nearing the Prison~
+Descr
+~
+Sector 8
+Door 0 0 0 22049 0 0
+~
+~
+Door 1 0 0 22891 0 0
+~
+~
+Door 2 0 0 22047 0 0
+~
+~
+Door 3 0 0 22055 0 0
+~
+~
+End
+
+#22049
+Name A Field Nearing the Prison~
+Descr
+~
+Sector 8
+Door 0 0 0 22050 0 0
+~
+~
+Door 1 0 0 22892 0 0
+~
+~
+Door 2 0 0 22048 0 0
+~
+~
+Door 3 0 0 22056 0 0
+~
+~
+End
+
+#22050
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 0 0 0 22051 0 0
+~
+~
+Door 1 0 0 22893 0 0
+~
+~
+Door 2 0 0 22049 0 0
+~
+~
+Door 3 0 0 22057 0 0
+~
+~
+End
+
+#22051
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 0 0 0 22052 0 0
+~
+~
+Door 1 0 0 22894 0 0
+~
+~
+Door 2 0 0 22050 0 0
+~
+~
+End
+
+#22052
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 0 0 0 22011 0 0
+~
+~
+Door 1 0 0 22895 0 0
+~
+~
+Door 2 0 0 22051 0 0
+~
+~
+End
+
+#22053
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 0 0 0 22054 0 0
+~
+~
+Door 1 0 0 22046 0 0
+~
+~
+End
+
+#22054
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 0 0 0 22055 0 0
+~
+~
+Door 1 0 0 22047 0 0
+~
+~
+Door 2 0 0 22053 0 0
+~
+~
+End
+
+#22055
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 0 0 0 22056 0 0
+~
+~
+Door 1 0 0 22048 0 0
+~
+~
+Door 2 0 0 22054 0 0
+~
+~
+End
+
+#22056
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 0 0 0 22057 0 0
+~
+~
+Door 1 0 0 22049 0 0
+~
+~
+Door 2 0 0 22055 0 0
+~
+~
+End
+
+#22057
+Name Before the Prison of Magnus~
+Descr
+~
+Sector 8
+Door 1 0 0 22050 0 0
+~
+~
+Door 2 0 0 22056 0 0
+~
+~
+End
+
+#22058
+Name Between the Prison Gates~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 263 22017 22105 80 80
+~
+prison gate~
+Door 1 0 0 22059 0 0
+~
+~
+Door 2 519 22018 22036 80 80
+~
+front gate~
+End
+
+#22059
+Name Between the Prison Gates~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 1 22018 22060 80 80
+~
+prison gate~
+Door 3 0 0 22058 0 0
+~
+~
+End
+
+#22060
+Name Before the Entrance to the Prison Yards~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 22005 1 100
+Reset O 22018 -4 100
+Reset O 22017 -4 100
+Door 0 7 22017 22065 80 80
+~
+prison gate~
+Door 2 1 22018 22059 80 80
+~
+prison gate~
+End
+
+#22061
+Name Below the Prison Walls~
+Descr
+~
+Sector 0
+Door 1 0 0 22062 0 0
+~
+~
+Door 2 7 22017 22068 80 80
+~
+prison gate~
+End
+
+#22062
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. 
+~
+Sector 7
+Reset M 22023 1 100
+Door 0 0 0 22071 0 0
+~
+~
+Door 1 0 0 22063 0 0
+~
+~
+Door 3 0 0 22061 0 0
+~
+~
+End
+
+#22063
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. 
+~
+Sector 7
+Door 0 0 0 22072 0 0
+~
+~
+Door 1 0 0 22064 0 0
+~
+~
+Door 3 0 0 22062 0 0
+~
+~
+End
+
+#22064
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. 
+~
+Sector 7
+Reset M 22023 1 100
+Door 0 0 0 22073 0 0
+~
+~
+Door 1 0 0 22065 0 0
+~
+~
+Door 3 0 0 22063 0 0
+~
+~
+End
+
+#22065
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. 
+~
+Sector 7
+Door 0 0 0 22074 0 0
+~
+~
+Door 1 0 0 22066 0 0
+~
+~
+Door 2 7 22017 22060 80 80
+~
+prison gate~
+Door 3 0 0 22064 0 0
+~
+~
+End
+
+#22066
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. 
+~
+Sector 7
+Reset M 22023 1 100
+Door 0 0 0 22075 0 0
+~
+~
+Door 1 0 0 22067 0 0
+~
+~
+Door 3 0 0 22065 0 0
+~
+~
+End
+
+#22067
+Name Below the Prison Walls~
+Descr
+~
+Sector 0
+Door 2 7 22017 22069 80 80
+~
+prison gate~
+Door 3 0 0 22066 0 0
+~
+~
+End
+
+#22068
+Name Within a Protective Metal Cage~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22008 -5 100
+Door 0 7 22017 22061 80 80
+~
+prison gate~
+End
+
+#22069
+Name Within a Protective Metal Cage~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22010 -5 100
+Door 0 7 22017 22067 80 80
+~
+prison gate~
+End
+
+#22070
+Name The Prison Mess~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22003 -5 100
+Reset M 22017 1 100
+Reset O 22030 -3 100
+Reset O 22030 -3 100
+Reset O 22030 -3 100
+Reset O 22030 -3 100
+Door 0 0 0 22077 30 30
+~
+half door~
+End
+
+#22071
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. From the west the smell of
+freshly prepared food floats on the air. 
+~
+Sector 7
+Door 0 0 0 22078 0 0
+~
+~
+Door 1 0 0 22072 0 0
+~
+~
+Door 2 0 0 22062 0 0
+~
+~
+End
+
+#22072
+Name The Prison Yards~
+Descr
+~
+Sector 7
+Reset M 22023 1 100
+Door 0 0 0 22079 0 0
+~
+~
+Door 1 0 0 22073 0 0
+~
+~
+Door 2 0 0 22063 0 0
+~
+~
+Door 3 0 0 22071 0 0
+~
+~
+End
+
+#22073
+Name The Prison Yards~
+Descr
+~
+Sector 7
+Door 0 0 0 22080 0 0
+~
+~
+Door 1 0 0 22074 0 0
+~
+~
+Door 2 4 22017 22064 30 30
+~
+~
+Door 3 0 0 22072 0 0
+~
+~
+End
+
+#22074
+Name The Prison Yards~
+Descr
+~
+Sector 7
+Reset M 22023 1 100
+Door 0 0 0 22081 0 0
+~
+~
+Door 1 0 0 22075 0 0
+~
+~
+Door 2 0 0 22065 0 0
+~
+~
+Door 3 0 0 22073 0 0
+~
+~
+End
+
+#22075
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. To the east stands a latrine
+building. 
+~
+Sector 7
+Reset M 22023 1 100
+Door 0 0 0 22082 0 0
+~
+~
+Door 1 3 0 22076 30 30
+~
+door~
+Door 2 0 0 22066 0 0
+~
+~
+Door 3 0 0 22074 0 0
+~
+~
+End
+
+#22076
+Name A Poorly Dug Latrine~
+Descr
+Upon entering the latrine housing the first thing one realizes is that
+the prison guards did not take the proper care in ventilating the facility.
+An over powering desire of lunch to free itself from the confines of ones
+stomach attests to this fact. The wooden seat upon which one must sit looks
+to be the most unsanitary thing in existance, and that is ignoring that fact
+that a splinter in the bum would definately not feel good. 
+~
+Flags2 1028
+Flags 134217732
+Sector 0
+Reset O 22023 -5 100
+Reset M 22021 1 100
+Door 3 3 0 22075 30 30
+~
+door~
+End
+
+#22077
+Name The Prison Mess~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 3 0 22084 30 30
+~
+door~
+Door 1 3 0 22078 30 30
+~
+door~
+Door 2 0 0 22070 0 0
+~
+~
+End
+
+#22078
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. From the west the smell of
+freshly prepared food floats on the air. 
+~
+Sector 7
+Door 0 0 0 22085 0 0
+~
+~
+Door 1 0 0 22079 0 0
+~
+~
+Door 2 0 0 22071 0 0
+~
+~
+Door 3 3 0 22077 30 30
+~
+door~
+End
+
+#22079
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. 
+~
+Sector 7
+Door 0 0 0 22086 0 0
+~
+~
+Door 1 0 0 22080 0 0
+~
+~
+Door 2 0 0 22072 0 0
+~
+~
+Door 3 0 0 22078 0 0
+~
+~
+End
+
+#22080
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. 
+~
+Sector 7
+Reset M 22023 1 100
+Door 0 0 0 22087 0 0
+~
+~
+Door 1 0 0 22081 0 0
+~
+~
+Door 2 0 0 22073 0 0
+~
+~
+Door 3 0 0 22079 0 0
+~
+~
+End
+
+#22081
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. 
+~
+Sector 7
+Door 0 0 0 22088 0 0
+~
+~
+Door 1 0 0 22082 0 0
+~
+~
+Door 2 0 0 22074 0 0
+~
+~
+Door 3 0 0 22080 0 0
+~
+~
+End
+
+#22082
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. To the east stands a latrine
+building. 
+~
+Sector 7
+Door 0 0 0 22089 0 0
+~
+~
+Door 1 3 0 22083 30 30
+~
+door~
+Door 2 0 0 22075 0 0
+~
+~
+Door 3 0 0 22081 0 0
+~
+~
+End
+
+#22083
+Name A Poorly Dug Latrine~
+Descr
+Upon entering the latrine housing the first thing one realizes is that
+the prison guards did not take the proper care in ventilating the facility.
+An over powering desire of lunch to free itself from the confines of ones
+stomach attests to this fact. The wooden seat upon which one must sit looks
+to be the most unsanitary thing in existance, and that is ignoring that fact
+that a splinter in the bum would definately not feel good. 
+~
+Flags 134217732
+Sector 0
+Reset O 22023 -5 100
+Door 3 3 0 22082 30 30
+~
+door~
+End
+
+#22084
+Name Below the Prison Walls~
+Descr
+~
+Sector 0
+Reset M 22023 1 100
+Door 0 0 0 22091 0 0
+~
+~
+Door 1 0 0 22085 0 0
+~
+~
+Door 2 3 0 22077 30 30
+~
+door~
+End
+
+#22085
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. 
+~
+Sector 7
+Door 0 0 0 22092 0 0
+~
+~
+Door 1 0 0 22086 0 0
+~
+~
+Door 2 0 0 22078 0 0
+~
+~
+Door 3 0 0 22084 0 0
+~
+~
+End
+
+#22086
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. To the north, along the
+interior prison wall, sits a long building marked Bunk House. 
+~
+Sector 7
+Reset M 22018 1 100
+Door 0 3 0 22093 30 30
+~
+door~
+Door 1 0 0 22087 0 0
+~
+~
+Door 2 0 0 22079 0 0
+~
+~
+Door 3 0 0 22085 0 0
+~
+~
+End
+
+#22087
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. To the north, along the
+interior prison wall, sits a long building marked Bunk House. 
+~
+Sector 7
+Door 1 0 0 22088 0 0
+~
+~
+Door 2 0 0 22080 0 0
+~
+~
+Door 3 0 0 22086 0 0
+~
+~
+End
+
+#22088
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. To the north, along the
+interior prison wall, sits a long building marked Bunk House. 
+~
+Sector 7
+Reset M 22023 1 100
+Door 0 3 0 22095 30 30
+~
+door~
+Door 1 0 0 22089 0 0
+~
+~
+Door 2 0 0 22081 0 0
+~
+~
+Door 3 0 0 22087 0 0
+~
+~
+End
+
+#22089
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. 
+~
+Sector 7
+Door 0 0 0 22096 0 0
+~
+~
+Door 1 0 0 22090 0 0
+~
+~
+Door 2 0 0 22082 0 0
+~
+~
+Door 3 0 0 22088 0 0
+~
+~
+End
+
+#22090
+Name Below the Prison Walls~
+Descr
+~
+Sector 0
+Door 0 0 0 22097 0 0
+~
+~
+Door 3 0 0 22089 0 0
+~
+~
+End
+
+#22091
+Name Below the Prison Walls~
+Descr
+~
+Sector 0
+Door 0 7 22017 22098 80 80
+~
+prison gate~
+Door 1 0 0 22092 0 0
+~
+~
+Door 2 0 0 22084 0 0
+~
+~
+End
+
+#22092
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. To the east is the wall of a
+wooden building. 
+~
+Sector 7
+Door 0 0 0 22099 0 0
+~
+~
+Door 2 0 0 22085 0 0
+~
+~
+Door 3 0 0 22091 0 0
+~
+~
+End
+
+#22093
+Name The Prison Bunkhouse~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22031 -5 100
+Reset M 22020 1 100
+Door 0 0 0 22100 0 0
+~
+~
+Door 1 0 0 22094 0 0
+~
+~
+Door 2 3 0 22086 30 30
+~
+door~
+End
+
+#22094
+Name The Prison Bunkhouse~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22031 -5 100
+Reset M 22020 1 100
+Door 0 0 0 22101 0 0
+~
+~
+Door 1 0 0 22095 0 0
+~
+~
+Door 3 0 0 22093 0 0
+~
+~
+End
+
+#22095
+Name The Prison Bunkhouse~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22031 -5 100
+Reset M 22020 1 100
+Door 0 0 0 22102 0 0
+~
+~
+Door 2 3 0 22088 30 30
+~
+door~
+Door 3 0 0 22094 0 0
+~
+~
+End
+
+#22096
+Name The Prison Yards~
+Descr
+The prison yards are a relatively nice place to be, the air is sweet
+with the smell of fruit on the vine and the prisoners seem to be allowed to
+occupy time in any manner in which they choose. It would seem that the yards
+are for the prioners who may not be dangerous. To the west is the wall of a
+wooden building. 
+~
+Sector 7
+Door 0 0 0 22103 0 0
+~
+~
+Door 1 0 0 22097 0 0
+~
+~
+Door 2 0 0 22089 0 0
+~
+~
+End
+
+#22097
+Name Below the Prison Walls~
+Descr
+~
+Sector 0
+Reset M 22023 1 100
+Door 0 7 22017 22104 80 80
+~
+prison gate~
+Door 2 0 0 22090 0 0
+~
+~
+Door 3 0 0 22096 0 0
+~
+~
+End
+
+#22098
+Name Within a Protective Metal Cage~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22007 -5 100
+Door 2 7 22017 22091 80 80
+~
+prison gate~
+Door 5 7 22017 22159 80 80
+~
+trapdoor~
+End
+
+#22099
+Name Below the Prison Walls~
+Descr
+~
+Sector 0
+Reset M 22023 1 100
+Door 2 0 0 22092 0 0
+~
+~
+End
+
+#22100
+Name The Prison Bunkhouse~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22031 -5 100
+Reset M 22020 1 100
+Door 1 0 0 22101 0 0
+~
+~
+Door 2 0 0 22093 0 0
+~
+~
+End
+
+#22101
+Name The Prison Bunkhouse~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22031 -5 100
+Reset M 22020 1 100
+Door 1 0 0 22102 0 0
+~
+~
+Door 2 0 0 22094 0 0
+~
+~
+Door 3 0 0 22100 0 0
+~
+~
+End
+
+#22102
+Name The Prison Bunkhouse~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22031 -5 100
+Reset M 22020 1 100
+Door 2 0 0 22095 0 0
+~
+~
+Door 3 0 0 22101 0 0
+~
+~
+End
+
+#22103
+Name Below the Prison Walls~
+Descr
+~
+Sector 0
+Reset M 22023 1 100
+Door 2 0 0 22096 0 0
+~
+~
+End
+
+#22104
+Name Within a Protective Metal Cage~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22009 -5 100
+Door 2 7 22017 22097 80 80
+~
+prison gate~
+End
+
+#22105
+Name A Short Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 263 22017 22058 80 80
+~
+prison gate~
+Door 3 0 0 22106 0 0
+~
+~
+End
+
+#22106
+Name A Short Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 22105 0 0
+~
+~
+Door 2 0 0 22107 0 0
+~
+~
+End
+
+#22107
+Name At the Bottom of a Staircase~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 22106 0 0
+~
+~
+Door 4 0 0 22108 0 0
+~
+~
+End
+
+#22108
+Name A Landing on the Staircase~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 3 0 22109 30 30
+~
+door~
+Door 4 0 0 22114 0 0
+~
+~
+Door 5 0 0 22107 0 0
+~
+~
+End
+
+#22109
+Name The Guards Quarters~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 22110 0 0
+~
+~
+Door 2 3 0 22108 30 30
+~
+door~
+End
+
+#22110
+Name The Guards Quarters~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22029 -5 100
+Reset M 22015 1 100
+Door 1 0 0 22111 0 0
+~
+~
+Door 2 0 0 22112 0 0
+~
+~
+Door 3 0 0 22109 0 0
+~
+~
+End
+
+#22111
+Name The Guards Quarters~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22029 -5 100
+Reset M 22015 1 100
+Door 2 0 0 22113 0 0
+~
+~
+Door 3 0 0 22110 0 0
+~
+~
+End
+
+#22112
+Name The Guards Quarters~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22029 -5 100
+Reset M 22015 1 100
+Door 0 0 0 22110 0 0
+~
+~
+Door 1 0 0 22113 0 0
+~
+~
+End
+
+#22113
+Name The Guards Quarters~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22029 -5 100
+Reset M 22015 1 100
+Door 0 0 0 22111 0 0
+~
+~
+Door 3 0 0 22112 0 0
+~
+~
+End
+
+#22114
+Name At the Top of a Staircase~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 22115 0 0
+~
+~
+Door 1 3 0 22116 60 60
+~
+door~
+Door 5 0 0 22108 0 0
+~
+~
+End
+
+#22115
+Name A Short Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 22114 0 0
+~
+~
+Door 3 7 22017 22120 60 60
+~
+prison gate~
+Door 4 0 0 22221 0 0
+~
+~
+End
+
+#22116
+Name The Quarters of Magnus the Warden~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 22118 0 0
+~
+~
+Door 1 0 0 22117 0 0
+~
+~
+Door 3 3 0 22114 60 60
+~
+door~
+End
+
+#22117
+Name The Quarters of Magnus the Warden~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 22119 0 0
+~
+~
+Door 3 0 0 22116 0 0
+~
+~
+End
+
+#22118
+Name The Quarters of Magnus the Warden~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 22119 0 0
+~
+~
+Door 2 0 0 22116 0 0
+~
+~
+End
+
+#22119
+Name The Quarters of Magnus the Warden~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 22013 1 100
+Reset O 22034 -4 1
+Door 2 0 0 22117 0 0
+~
+~
+Door 3 0 0 22118 0 0
+~
+~
+End
+
+#22120
+Name Atop the Prison Walls~
+Descr
+~
+Door 1 7 22017 22115 60 60
+~
+prison gate~
+Door 3 0 0 22121 0 0
+~
+~
+End
+
+#22121
+Name Atop the Prison Walls~
+Descr
+~
+Reset O 22004 -5 100
+Door 0 0 0 22125 0 0
+~
+~
+Door 1 0 0 22120 0 0
+~
+~
+Door 2 0 0 22123 0 0
+~
+~
+Door 3 0 0 22122 0 0
+~
+~
+End
+
+#22122
+Name The Southwest Guard Tower~
+Descr
+~
+Sector 0
+Door 1 0 0 22121 0 0
+~
+~
+Door 2 0 0 22124 0 0
+~
+~
+End
+
+#22123
+Name The Southwest Guard Tower~
+Descr
+~
+Sector 0
+Door 0 0 0 22121 0 0
+~
+~
+Door 3 0 0 22124 0 0
+~
+~
+End
+
+#22124
+Name The Southwest Guard Tower~
+Descr
+~
+Sector 0
+Reset M 22001 1 100
+Reset O 22017 -4 100
+Door 0 0 0 22122 0 0
+~
+~
+Door 1 0 0 22123 0 0
+~
+~
+End
+
+#22125
+Name Atop the Prison Walls~
+Descr
+~
+Door 0 0 0 22126 0 0
+~
+~
+Door 2 0 0 22121 0 0
+~
+~
+End
+
+#22126
+Name Atop the Prison Walls~
+Descr
+~
+Reset O 22002 -5 100
+Door 0 0 0 22127 0 0
+~
+~
+Door 2 0 0 22125 0 0
+~
+~
+End
+
+#22127
+Name Atop the Prison Walls~
+Descr
+~
+Door 0 0 0 22128 0 0
+~
+~
+Door 2 0 0 22126 0 0
+~
+~
+End
+
+#22128
+Name Atop the Prison Walls~
+Descr
+~
+Door 0 0 0 22129 0 0
+~
+~
+Door 2 0 0 22127 0 0
+~
+~
+End
+
+#22129
+Name Atop the Prison Walls~
+Descr
+~
+Door 0 0 0 22130 0 0
+~
+~
+Door 2 0 0 22128 0 0
+~
+~
+End
+
+#22130
+Name Atop the Prison Walls~
+Descr
+~
+Reset O 22001 -5 100
+Door 0 0 0 22132 0 0
+~
+~
+Door 1 0 0 22134 0 0
+~
+~
+Door 2 0 0 22129 0 0
+~
+~
+Door 3 0 0 22131 0 0
+~
+~
+End
+
+#22131
+Name The Northwest Guard Tower~
+Descr
+~
+Sector 0
+Door 0 0 0 22133 0 0
+~
+~
+Door 1 0 0 22130 0 0
+~
+~
+End
+
+#22132
+Name The Northwest Guard Tower~
+Descr
+~
+Sector 0
+Door 2 0 0 22130 0 0
+~
+~
+Door 3 0 0 22133 0 0
+~
+~
+End
+
+#22133
+Name The Northwest Guard Tower~
+Descr
+~
+Sector 0
+Reset M 22002 1 100
+Reset O 22017 -4 100
+Door 1 0 0 22132 0 0
+~
+~
+Door 2 0 0 22131 0 0
+~
+~
+End
+
+#22134
+Name Atop the Prison Walls~
+Descr
+~
+Door 1 0 0 22135 0 0
+~
+~
+Door 3 0 0 22130 0 0
+~
+~
+End
+
+#22135
+Name Atop the Prison Walls~
+Descr
+~
+Door 1 0 0 22136 0 0
+~
+~
+Door 3 0 0 22134 0 0
+~
+~
+End
+
+#22136
+Name Atop the Prison Walls~
+Descr
+~
+Door 1 0 0 22137 0 0
+~
+~
+Door 3 0 0 22135 0 0
+~
+~
+End
+
+#22137
+Name Atop the Prison Walls~
+Descr
+~
+Door 1 0 0 22138 0 0
+~
+~
+Door 3 0 0 22136 0 0
+~
+~
+Door 5 0 0 22153 0 0
+~
+~
+End
+
+#22138
+Name Atop the Prison Walls~
+Descr
+~
+Door 1 0 0 22139 0 0
+~
+~
+Door 3 0 0 22137 0 0
+~
+~
+End
+
+#22139
+Name Atop the Prison Walls~
+Descr
+~
+Reset O 22005 -5 100
+Door 0 0 0 22140 0 0
+~
+~
+Door 1 0 0 22141 0 0
+~
+~
+Door 2 0 0 22143 0 0
+~
+~
+Door 3 0 0 22138 0 0
+~
+~
+End
+
+#22140
+Name The Northeast Guard Tower~
+Descr
+~
+Sector 0
+Door 1 0 0 22142 0 0
+~
+~
+Door 2 0 0 22139 0 0
+~
+~
+End
+
+#22141
+Name The Northeast Guard Tower~
+Descr
+~
+Sector 0
+Door 0 0 0 22142 0 0
+~
+~
+Door 3 0 0 22139 0 0
+~
+~
+End
+
+#22142
+Name The Northeast Guard Tower~
+Descr
+~
+Sector 0
+Reset M 22003 1 100
+Reset O 22017 -4 100
+Door 2 0 0 22141 0 0
+~
+~
+Door 3 0 0 22140 0 0
+~
+~
+End
+
+#22143
+Name Atop the Prison Walls~
+Descr
+~
+Door 0 0 0 22139 0 0
+~
+~
+Door 2 0 0 22144 0 0
+~
+~
+End
+
+#22144
+Name Atop the Prison Walls~
+Descr
+~
+Door 0 0 0 22143 0 0
+~
+~
+Door 2 0 0 22145 0 0
+~
+~
+End
+
+#22145
+Name Atop the Prison Walls~
+Descr
+~
+Door 0 0 0 22144 0 0
+~
+~
+Door 2 0 0 22146 0 0
+~
+~
+End
+
+#22146
+Name Atop the Prison Walls~
+Descr
+~
+Door 0 0 0 22145 0 0
+~
+~
+Door 2 0 0 22147 0 0
+~
+~
+End
+
+#22147
+Name Atop the Prison Walls~
+Descr
+~
+Door 0 0 0 22146 0 0
+~
+~
+Door 2 0 0 22148 0 0
+~
+~
+End
+
+#22148
+Name Atop the Prison Walls~
+Descr
+~
+Reset O 22006 -5 100
+Door 0 0 0 22147 0 0
+~
+~
+Door 1 0 0 22149 0 0
+~
+~
+Door 2 0 0 22150 0 0
+~
+~
+Door 3 0 0 22152 0 0
+~
+~
+End
+
+#22149
+Name The Southeast Guard Tower~
+Descr
+~
+Sector 0
+Door 2 0 0 22151 0 0
+~
+~
+Door 3 0 0 22148 0 0
+~
+~
+End
+
+#22150
+Name The Southeast Guard Tower~
+Descr
+~
+Sector 0
+Door 0 0 0 22148 0 0
+~
+~
+Door 1 0 0 22151 0 0
+~
+~
+End
+
+#22151
+Name The Southeast Guard Tower~
+Descr
+~
+Sector 0
+Reset M 22004 1 100
+Reset O 22017 -4 100
+Door 0 0 0 22149 0 0
+~
+~
+Door 3 0 0 22150 0 0
+~
+~
+End
+
+#22152
+Name Atop the Prison Walls~
+Descr
+~
+Door 1 0 0 22148 0 0
+~
+~
+End
+
+#22153
+Name The Guards' Mess Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 22156 0 0
+~
+~
+Door 3 0 0 22154 0 0
+~
+~
+Door 4 0 0 22137 0 0
+~
+~
+End
+
+#22154
+Name The Guards' Mess Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 22153 0 0
+~
+~
+Door 2 0 0 22157 0 0
+~
+~
+Door 3 0 0 22155 0 0
+~
+~
+End
+
+#22155
+Name The Guards' Mess Hall~
+Descr
+~
+Flags 4
+Sector 0
+Reset O 22028 -5 100
+Reset O 22017 -3 100
+Reset O 22027 -5 100
+Reset M 22014 1 100
+Door 1 0 0 22154 0 0
+~
+~
+Door 2 0 0 22158 0 0
+~
+~
+End
+
+#22156
+Name The Guards' Mess Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 22153 0 0
+~
+~
+Door 3 0 0 22157 0 0
+~
+~
+End
+
+#22157
+Name The Guards' Mess Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 22154 0 0
+~
+~
+Door 1 0 0 22156 0 0
+~
+~
+Door 3 0 0 22158 0 0
+~
+~
+End
+
+#22158
+Name The Guards' Mess Hall~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 22155 0 0
+~
+~
+Door 1 0 0 22157 0 0
+~
+~
+End
+
+#22159
+Name A Long Corridor~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Reset M 22007 1 100
+Reset O 22019 -4 100
+Door 2 0 0 22160 0 0
+~
+~
+Door 4 7 22017 22098 80 80
+~
+trapdoor~
+End
+
+#22160
+Name A Long Corridor~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 22159 0 0
+~
+~
+Door 1 7 22019 22166 65 65
+~
+cell block~
+Door 2 0 0 22161 0 0
+~
+~
+End
+
+#22161
+Name A Long Corridor~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 22160 0 0
+~
+~
+Door 2 0 0 22162 0 0
+~
+~
+End
+
+#22162
+Name A Long Corridor~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 22161 0 0
+~
+~
+Door 2 0 0 22163 0 0
+~
+~
+End
+
+#22163
+Name A Long Corridor~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 22162 0 0
+~
+~
+Door 1 7 22019 22172 65 65
+~
+cell block~
+Door 2 0 0 22164 0 0
+~
+~
+End
+
+#22164
+Name A Long Corridor~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 22163 0 0
+~
+~
+Door 2 0 0 22165 0 0
+~
+~
+End
+
+#22165
+Name A Long Corridor~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 22164 0 0
+~
+~
+Door 1 7 22019 22178 80 80
+~
+cell block~
+End
+
+#22166
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 22167 0 0
+~
+~
+Door 3 7 22019 22160 65 65
+~
+cell block~
+End
+
+#22167
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22204 65 65
+~
+cell door~
+Door 1 0 0 22168 0 0
+~
+~
+Door 2 7 22019 22206 65 65
+~
+cell door~
+Door 3 0 0 22166 0 0
+~
+~
+End
+
+#22168
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 22169 0 0
+~
+~
+Door 3 0 0 22167 0 0
+~
+~
+End
+
+#22169
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22200 30 30
+~
+cell door~
+Door 1 0 0 22170 0 0
+~
+~
+Door 2 7 22019 22202 30 30
+~
+cell door~
+Door 3 0 0 22168 0 0
+~
+~
+End
+
+#22170
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 22171 0 0
+~
+~
+Door 3 0 0 22169 0 0
+~
+~
+End
+
+#22171
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22196 30 30
+~
+cell door~
+Door 2 7 22019 22198 60 60
+~
+cell door~
+Door 3 0 0 22170 0 0
+~
+~
+End
+
+#22172
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 22173 0 0
+~
+~
+Door 3 7 22019 22163 65 65
+~
+cell block~
+End
+
+#22173
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22192 60 60
+~
+cell door~
+Door 1 0 0 22174 0 0
+~
+~
+Door 2 7 22019 22194 30 30
+~
+cell door~
+Door 3 0 0 22172 0 0
+~
+~
+End
+
+#22174
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 22175 0 0
+~
+~
+Door 3 0 0 22173 0 0
+~
+~
+End
+
+#22175
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22188 55 55
+~
+cell door~
+Door 1 0 0 22176 0 0
+~
+~
+Door 2 7 22019 22190 30 30
+~
+cell door~
+Door 3 4 22019 22174 30 30
+~
+~
+End
+
+#22176
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 22177 0 0
+~
+~
+Door 3 0 0 22175 0 0
+~
+~
+End
+
+#22177
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22186 60 60
+~
+cell door~
+Door 2 7 22019 22184 30 30
+~
+cell door~
+Door 3 0 0 22176 0 0
+~
+~
+End
+
+#22178
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 22179 0 0
+~
+~
+Door 3 7 22019 22165 80 80
+~
+cell block~
+End
+
+#22179
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 268435460
+Sector 0
+Door 1 0 0 22180 0 0
+~
+~
+Door 3 0 0 22178 0 0
+~
+~
+End
+
+#22180
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 22181 0 0
+~
+~
+Door 3 0 0 22179 0 0
+~
+~
+End
+
+#22181
+Name A Dark Hallway~
+Descr
+This long dark hallway has the last little bit of light many of those
+sent here will ever see. To be sent here, is to be sent away from memory...a
+place to be forgotten. The wails of those confined within the cells however
+attest to their efforts to remain in the world of the living. 
+~
+Flags 4
+Sector 0
+Door 1 7 22019 22182 60 60
+~
+enchanted cell door~
+Door 3 0 0 22180 0 0
+~
+~
+End
+
+#22182
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on the
+walls. The only place for the prisoner to relieve himself is a hole in the
+corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. A strange force seems to be at work here, a force that
+prevents the use of any magical influence. 
+~
+Flags 4100
+Sector 0
+Door 1 4 22020 22183 30 30
+~
+~
+Door 3 7 22019 22181 60 60
+~
+enchanted cell door~
+End
+
+#22183
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. A strange force seems to be at work here, a force that
+prevents the use of any magical influence. 
+~
+Flags 4100
+Sector 0
+Reset M 22022 1 100
+Reset O 22033 -4 1
+Door 3 0 22020 22182 30 30
+~
+enchanted cell door~
+End
+
+#22184
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22177 30 30
+~
+cell door~
+Door 3 0 0 22185 0 0
+~
+~
+End
+
+#22185
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Reset M 22010 1 100
+Reset O 22016 -1 30
+Door 1 0 0 22184 0 0
+~
+~
+End
+
+#22186
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 2 7 22019 22177 60 60
+~
+cell door~
+Door 3 0 0 22187 0 0
+~
+~
+End
+
+#22187
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Reset M 22011 1 100
+Reset O 22014 -1 40
+Door 1 0 0 22186 0 0
+~
+~
+End
+
+#22188
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 2 7 22019 22175 55 55
+~
+cell door~
+Door 3 0 0 22189 0 0
+~
+~
+End
+
+#22189
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Reset M 22006 1 100
+Reset O 22021 -4 100
+Door 1 0 0 22188 0 0
+~
+~
+End
+
+#22190
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22175 30 30
+~
+cell door~
+Door 3 0 0 22191 0 0
+~
+~
+End
+
+#22191
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Reset M 22008 1 100
+Reset O 22011 -1 50
+Door 1 0 0 22190 0 0
+~
+~
+End
+
+#22192
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 2 7 22019 22173 60 60
+~
+cell door~
+Door 3 0 0 22193 0 0
+~
+~
+End
+
+#22193
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. A penticle on the ground eminates energy, it would seem
+our priest has had some time to build an altar. 
+~
+Flags2 4
+Flags 4
+Sector 0
+Reset M 22012 1 100
+Reset O 22013 -4 5
+Door 1 0 0 22192 0 0
+~
+~
+End
+
+#22194
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22173 30 30
+~
+cell door~
+Door 3 0 0 22195 0 0
+~
+~
+End
+
+#22195
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Reset M 22009 1 100
+Reset O 22032 -1 40
+Door 1 0 0 22194 0 0
+~
+~
+End
+
+#22196
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 2 7 22019 22171 30 30
+~
+cell door~
+Door 3 0 0 22197 0 0
+~
+~
+End
+
+#22197
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Reset M 22011 1 100
+Reset O 22015 -4 5
+Door 1 0 0 22196 0 0
+~
+~
+End
+
+#22198
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22171 60 60
+~
+cell door~
+Door 3 0 0 22199 0 0
+~
+~
+End
+
+#22199
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Reset M 22009 1 100
+Reset O 22032 -1 40
+Door 1 0 0 22198 0 0
+~
+~
+End
+
+#22200
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on the
+walls. The only place for the prisoner to relieve himself is a hole in the
+corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 2 7 22019 22169 30 30
+~
+cell door~
+Door 3 0 0 22201 0 0
+~
+~
+End
+
+#22201
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. It would seem our priest has been busy, a penticle drawn
+on the floor eminates with energy. 
+~
+Flags2 4
+Flags 4
+Sector 0
+Reset M 22012 1 100
+Reset O 22013 -4 5
+Door 1 0 0 22200 0 0
+~
+~
+End
+
+#22202
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22169 30 30
+~
+cell door~
+Door 3 0 0 22203 0 0
+~
+~
+End
+
+#22203
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Reset M 22019 1 100
+Door 1 0 0 22202 0 0
+~
+~
+End
+
+#22204
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 2 7 22019 22167 65 65
+~
+cell door~
+Door 3 0 0 22205 0 0
+~
+~
+End
+
+#22205
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Reset M 22008 1 100
+Reset O 22011 -1 50
+Door 1 0 0 22204 0 0
+~
+~
+End
+
+#22206
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Door 0 7 22019 22167 65 65
+~
+cell door~
+Door 3 0 0 22207 0 0
+~
+~
+End
+
+#22207
+Name Within a Prison Cell~
+Descr
+The prison cell is dark and dank with a thin layer of moss growing on
+the walls. The only place for the prisoner to relieve himself is a hole in
+the corner of the room that has to be covered and redug every so
+often...unfortunately the bedrock on which this dungeon was built prevents
+any form of escape. 
+~
+Flags 4
+Sector 0
+Reset M 22010 1 100
+Reset O 22016 -1 30
+Door 1 0 0 22206 0 0
+~
+~
+End
+
+#22208
+Name Inside a Chute~
+Descr
+~
+Flags2 8
+Flags 4
+Sector 0
+Move_dir 5
+Door 1 0 0 22126 0 0
+~
+~
+Door 5 0 0 22209 0 0
+~
+~
+End
+
+#22209
+Name Inside a Chute~
+Descr
+~
+Flags2 8
+Flags 4
+Sector 0
+Move_dir 5
+Door 4 0 0 22208 0 0
+~
+~
+Door 5 0 0 22210 0 0
+~
+~
+End
+
+#22210
+Name Inside a Chute~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 22070 0 0
+~
+~
+Door 4 0 0 22209 0 0
+~
+~
+End
+
+#22211
+Name An Underground River~
+Descr
+~
+Flags2 8
+Flags 32
+Sector 12
+Move_dir 1
+Door 1 0 0 22226 0 0
+~
+~
+Door 3 0 0 22213 0 0
+~
+~
+End
+
+#22212
+Name At the Top of the Rope~
+Descr
+~
+Sector 14
+Reset O 22015 -5 100
+Door 3 0 0 22142 0 0
+~
+~
+End
+
+#22213
+Name An Underground River~
+Descr
+~
+Flags2 8
+Flags 32
+Sector 12
+Move_dir 1
+Door 1 0 0 22211 0 0
+~
+~
+Door 3 0 0 22219 0 0
+~
+~
+End
+
+#22214
+Name Within the Latrine~
+Descr
+Ugh...the smell is so foul that the contents of even the strongest
+stomach would leap for freedom from the gullet. The sewage is at least waist
+deep, though parts are deeper. Unfortunately the edge of the pit is almost
+out of reach, however maybe a good jump could reach it. Unfortunately if
+there is an escape route from the prison here...it would require a dive to
+search, a most disgusting thought. 
+~
+Flags2 1024
+Flags 134217728
+Sector 46
+End
+
+#22215
+Name Within the Latrine~
+Descr
+Ugh...the smell is so foul that the contents of even the strongest
+stomach would leap for freedom from the gullet. The sewage is at least waist
+deep, though parts are deeper. Unfortunately the edge of the pit is almost
+out of reach, however maybe a good jump could reach it. Unfortunately if
+there is an escape route from the prison here...it would require a dive to
+search, a most disgusting thought. 
+~
+Flags2 1024
+Flags 402653216
+Sector 10
+End
+
+#22216
+Name An Escape Tunnel~
+Descr
+~
+Flags2 1032
+Flags 32
+Sector 12
+Move_dir 1
+Door 1 0 0 22217 0 0
+~
+~
+Door 3 0 0 22220 0 0
+~
+~
+End
+
+#22217
+Name An Escape Tunnel~
+Descr
+~
+Flags2 1032
+Flags 32
+Sector 12
+Move_dir 1
+Door 1 0 0 22218 0 0
+~
+~
+Door 3 0 0 22216 0 0
+~
+~
+End
+
+#22218
+Name A Premature End of the Tunnel~
+Descr
+~
+Flags2 1024
+Flags 134217760
+Sector 12
+Door 3 0 0 22217 0 0
+~
+~
+End
+
+#22219
+Name An Underground River~
+Descr
+~
+Flags2 8
+Flags 32
+Sector 12
+Move_dir 1
+Door 1 0 0 22213 0 0
+~
+~
+End
+
+#22220
+Name The Depths of the Latrine~
+Descr
+~
+Flags2 1032
+Flags 32
+Sector 12
+Move_dir 4
+Door 1 0 0 22216 0 0
+~
+~
+Door 4 0 0 22215 0 0
+~
+~
+End
+
+#22221
+Name A Small Study~
+Descr
+~
+Flags 4
+Sector 0
+Move_dir 5
+Door 2 3 0 22222 30 30
+~
+door~
+Door 5 0 0 22115 0 0
+~
+~
+End
+
+#22222
+Name Etter's Private Room~
+Descr
+~
+Flags2 4
+Flags 4
+Sector 0
+Reset M 22016 1 100
+Reset O 22035 -1 25
+Door 0 3 0 22221 30 30
+~
+door~
+End
+
+#22223
+Name An Underground River~
+Descr
+~
+Flags2 8
+Sector 12
+Move_dir 4
+Door 3 0 0 22229 0 0
+~
+~
+Door 4 0 0 22224 0 0
+~
+~
+End
+
+#22224
+Name Nearing the Surface~
+Descr
+~
+Flags2 8
+Flags 32
+Sector 12
+Move_dir 4
+Door 4 0 0 22225 0 0
+~
+~
+Door 5 0 0 22223 0 0
+~
+~
+End
+
+#22225
+Name At the Mouth of a Spring~
+Descr
+~
+Flags2 8
+Flags 4
+Sector 10
+Move_dir 3
+Door 3 0 0 23043 0 0
+~
+~
+Door 5 0 0 22224 0 0
+~
+~
+End
+
+#22226
+Name An Underground River~
+Descr
+~
+Flags2 8
+Flags 32
+Sector 12
+Move_dir 1
+Door 1 0 0 22227 0 0
+~
+~
+Door 3 0 0 22211 0 0
+~
+~
+End
+
+#22227
+Name An Underground River~
+Descr
+~
+Flags2 8
+Flags 32
+Sector 12
+Move_dir 1
+Door 1 0 0 22228 0 0
+~
+~
+Door 3 0 0 22226 0 0
+~
+~
+End
+
+#22228
+Name An Underground River~
+Descr
+~
+Flags2 8
+Flags 32
+Sector 12
+Move_dir 1
+Door 1 0 0 22229 0 0
+~
+~
+Door 3 0 0 22227 0 0
+~
+~
+End
+
+#22229
+Name An Underground River~
+Descr
+~
+Flags2 8
+Flags 32
+Sector 12
+Move_dir 1
+Door 1 0 0 22223 0 0
+~
+~
+Door 3 0 0 22228 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

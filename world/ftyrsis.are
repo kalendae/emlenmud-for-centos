@@ -1,0 +1,1518 @@
+#AREADATA 
+Name a small field~
+Repop A odd silence settles in, as not even a bird is singing. 
+~
+SCZone 0
+Builders None Bern~
+VNUMs 66000 66080
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#66000
+Name small rabbit~
+Short a small rabbit~
+Long 
+A small rabbit is hopping around looking for something to eat.
+~
+AMax 6
+NHeight 0
+ActBits 17
+ActBits3 65536
+Level 20
+Hp 2
+Guard 0
+End
+
+#66001
+Name fox red~
+Short a red fox~
+Long 
+A red fox is slinking around looking for a rabbit to eat.
+~
+AMax 3
+NHeight 0
+ActBits 1
+ActBits3 65536
+Level 20
+MobType 6
+Guard 0
+End
+
+#66002
+Name gate guard~
+Short a gate-guard~
+Long 
+A gate-guard stands here protecting the city of Nolan.
+~
+AMax 4
+NHeight 0
+ActBits 65538
+ActBits3 8
+Affect_By 648
+AffectTWO 524288
+Money 5000
+Level 500
+Sex 1
+Hp 50
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#66000
+Name An Ancient Path Through a Field~
+Descr
+~
+Sector 5
+Door 0 0 0 66002 0 0
+~
+~
+Door 1 0 0 66001 0 0
+~
+~
+Door 2 0 0 66080 0 0
+~
+~
+Door 3 0 0 66003 0 0
+~
+~
+End
+
+#66001
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66012 0 0
+~
+~
+Door 1 0 0 66005 0 0
+~
+~
+Door 3 0 0 66000 0 0
+~
+~
+End
+
+#66002
+Name An Ancient Path Through a Field~
+Descr
+~
+Sector 5
+Door 0 0 0 66015 0 0
+~
+~
+Door 1 0 0 66012 0 0
+~
+~
+Door 2 0 0 66000 0 0
+~
+~
+Door 3 0 0 66009 0 0
+~
+~
+End
+
+#66003
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66009 0 0
+~
+~
+Door 1 0 0 66000 0 0
+~
+~
+Door 3 0 0 66004 0 0
+~
+~
+End
+
+#66004
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66006 0 0
+~
+~
+Door 1 0 0 66003 0 0
+~
+~
+Door 3 0 0 66028 0 0
+~
+~
+End
+
+#66005
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66013 0 0
+~
+~
+Door 1 0 0 66027 0 0
+~
+~
+Door 3 0 0 66001 0 0
+~
+~
+End
+
+#66006
+Name A Small Field~
+Descr
+~
+Sector 7
+Reset M 66000 1 100
+Door 0 0 0 66007 0 0
+~
+~
+Door 1 0 0 66009 0 0
+~
+~
+Door 2 0 0 66004 0 0
+~
+~
+Door 3 0 0 66008 0 0
+~
+~
+End
+
+#66007
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66020 0 0
+~
+~
+Door 1 0 0 66011 0 0
+~
+~
+Door 2 0 0 66006 0 0
+~
+~
+Door 3 0 0 66010 0 0
+~
+~
+End
+
+#66008
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66010 0 0
+~
+~
+Door 1 0 0 66006 0 0
+~
+~
+Door 2 0 0 66028 0 0
+~
+~
+End
+
+#66009
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66011 0 0
+~
+~
+Door 1 0 0 66002 0 0
+~
+~
+Door 2 0 0 66003 0 0
+~
+~
+Door 3 0 0 66006 0 0
+~
+~
+End
+
+#66010
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66019 0 0
+~
+~
+Door 1 0 0 66007 0 0
+~
+~
+Door 2 0 0 66008 0 0
+~
+~
+End
+
+#66011
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66021 0 0
+~
+~
+Door 1 0 0 66015 0 0
+~
+~
+Door 2 0 0 66009 0 0
+~
+~
+Door 3 0 0 66007 0 0
+~
+~
+End
+
+#66012
+Name An Ancient Path Through a Field~
+Descr
+~
+Sector 5
+Door 0 0 0 66016 0 0
+~
+~
+Door 1 0 0 66013 0 0
+~
+~
+Door 2 0 0 66001 0 0
+~
+~
+Door 3 0 0 66002 0 0
+~
+~
+End
+
+#66013
+Name A Small Field~
+Descr
+~
+Sector 7
+Reset M 66000 1 100
+Door 0 0 0 66017 0 0
+~
+~
+Door 1 0 0 66014 0 0
+~
+~
+Door 2 0 0 66005 0 0
+~
+~
+Door 3 0 0 66012 0 0
+~
+~
+End
+
+#66014
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66018 0 0
+~
+~
+Door 1 0 0 66067 0 0
+~
+~
+Door 2 0 0 66027 0 0
+~
+~
+Door 3 0 0 66013 0 0
+~
+~
+End
+
+#66015
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66022 0 0
+~
+~
+Door 1 0 0 66016 0 0
+~
+~
+Door 2 0 0 66002 0 0
+~
+~
+Door 3 0 0 66011 0 0
+~
+~
+End
+
+#66016
+Name An Ancient Path Through a Field~
+Descr
+~
+Sector 5
+Door 0 0 0 66023 0 0
+~
+~
+Door 1 0 0 66017 0 0
+~
+~
+Door 2 0 0 66012 0 0
+~
+~
+Door 3 0 0 66015 0 0
+~
+~
+End
+
+#66017
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66024 0 0
+~
+~
+Door 1 0 0 66018 0 0
+~
+~
+Door 2 0 0 66013 0 0
+~
+~
+Door 3 0 0 66016 0 0
+~
+~
+End
+
+#66018
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66025 0 0
+~
+~
+Door 1 0 0 66068 0 0
+~
+~
+Door 2 0 0 66014 0 0
+~
+~
+Door 3 0 0 66017 0 0
+~
+~
+End
+
+#66019
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66032 0 0
+~
+~
+Door 1 0 0 66020 0 0
+~
+~
+Door 2 0 0 66010 0 0
+~
+~
+End
+
+#66020
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66031 0 0
+~
+~
+Door 1 0 0 66021 0 0
+~
+~
+Door 2 0 0 66007 0 0
+~
+~
+Door 3 0 0 66019 0 0
+~
+~
+End
+
+#66021
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66030 0 0
+~
+~
+Door 1 0 0 66022 0 0
+~
+~
+Door 2 0 0 66011 0 0
+~
+~
+Door 3 0 0 66020 0 0
+~
+~
+End
+
+#66022
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66040 0 0
+~
+~
+Door 1 0 0 66023 0 0
+~
+~
+Door 2 0 0 66015 0 0
+~
+~
+Door 3 0 0 66021 0 0
+~
+~
+End
+
+#66023
+Name An Ancient Path Through a Field~
+Descr
+~
+Sector 5
+Door 0 0 0 66029 0 0
+~
+~
+Door 1 0 0 66024 0 0
+~
+~
+Door 2 0 0 66016 0 0
+~
+~
+Door 3 0 0 66022 0 0
+~
+~
+End
+
+#66024
+Name An Ancient Path Through a Field~
+Descr
+~
+Sector 5
+Door 0 0 0 66039 0 0
+~
+~
+Door 1 0 0 66025 0 0
+~
+~
+Door 2 0 0 66017 0 0
+~
+~
+Door 3 0 0 66023 0 0
+~
+~
+End
+
+#66025
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66033 0 0
+~
+~
+Door 1 0 0 66026 0 0
+~
+~
+Door 2 0 0 66018 0 0
+~
+~
+Door 3 0 0 66024 0 0
+~
+~
+End
+
+#66026
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66034 0 0
+~
+~
+Door 1 0 0 66072 0 0
+~
+~
+Door 2 0 0 66068 0 0
+~
+~
+Door 3 0 0 66025 0 0
+~
+~
+End
+
+#66027
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66014 0 0
+~
+~
+Door 1 0 0 66066 0 0
+~
+~
+Door 3 0 0 66005 0 0
+~
+~
+End
+
+#66028
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66008 0 0
+~
+~
+Door 1 0 0 66004 0 0
+~
+~
+End
+
+#66029
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66041 0 0
+~
+~
+Door 1 0 0 66039 0 0
+~
+~
+Door 2 0 0 66023 0 0
+~
+~
+Door 3 0 0 66040 0 0
+~
+~
+End
+
+#66030
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66037 0 0
+~
+~
+Door 1 0 0 66040 0 0
+~
+~
+Door 2 0 0 66021 0 0
+~
+~
+Door 3 0 0 66031 0 0
+~
+~
+End
+
+#66031
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66036 0 0
+~
+~
+Door 1 0 0 66030 0 0
+~
+~
+Door 2 0 0 66020 0 0
+~
+~
+Door 3 0 0 66032 0 0
+~
+~
+End
+
+#66032
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66035 0 0
+~
+~
+Door 1 0 0 66031 0 0
+~
+~
+Door 2 0 0 66019 0 0
+~
+~
+End
+
+#66033
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66043 0 0
+~
+~
+Door 1 0 0 66034 0 0
+~
+~
+Door 2 0 0 66025 0 0
+~
+~
+Door 3 0 0 66039 0 0
+~
+~
+End
+
+#66034
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66044 0 0
+~
+~
+Door 1 0 0 66073 0 0
+~
+~
+Door 2 0 0 66026 0 0
+~
+~
+Door 3 0 0 66033 0 0
+~
+~
+End
+
+#66035
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66046 0 0
+~
+~
+Door 1 0 0 66036 0 0
+~
+~
+Door 2 0 0 66032 0 0
+~
+~
+End
+
+#66036
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66047 0 0
+~
+~
+Door 1 0 0 66037 0 0
+~
+~
+Door 2 0 0 66031 0 0
+~
+~
+Door 3 0 0 66035 0 0
+~
+~
+End
+
+#66037
+Name A Small Field~
+Descr
+~
+Sector 7
+Reset M 66000 1 100
+Door 0 0 0 66048 0 0
+~
+~
+Door 1 0 0 66038 0 0
+~
+~
+Door 2 0 0 66030 0 0
+~
+~
+Door 3 0 0 66036 0 0
+~
+~
+End
+
+#66038
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66049 0 0
+~
+~
+Door 1 0 0 66041 0 0
+~
+~
+Door 2 0 0 66040 0 0
+~
+~
+Door 3 0 0 66037 0 0
+~
+~
+End
+
+#66039
+Name An Ancient Path Through the Forest of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 66042 0 0
+~
+~
+Door 1 0 0 66033 0 0
+~
+~
+Door 2 0 0 66024 0 0
+~
+~
+Door 3 0 0 66029 0 0
+~
+~
+End
+
+#66040
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66038 0 0
+~
+~
+Door 1 0 0 66029 0 0
+~
+~
+Door 2 0 0 66022 0 0
+~
+~
+Door 3 0 0 66030 0 0
+~
+~
+End
+
+#66041
+Name An Ancient Path Through the Forest of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 66050 0 0
+~
+~
+Door 1 0 0 66042 0 0
+~
+~
+Door 2 0 0 66029 0 0
+~
+~
+Door 3 0 0 66038 0 0
+~
+~
+End
+
+#66042
+Name An Ancient Path Through the Forest of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 66051 0 0
+~
+~
+Door 1 0 0 66043 0 0
+~
+~
+Door 2 0 0 66039 0 0
+~
+~
+Door 3 0 0 66041 0 0
+~
+~
+End
+
+#66043
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66052 0 0
+~
+~
+Door 1 0 0 66044 0 0
+~
+~
+Door 2 0 0 66033 0 0
+~
+~
+Door 3 0 0 66042 0 0
+~
+~
+End
+
+#66044
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66053 0 0
+~
+~
+Door 1 0 0 66045 0 0
+~
+~
+Door 2 0 0 66034 0 0
+~
+~
+Door 3 0 0 66043 0 0
+~
+~
+End
+
+#66045
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66054 0 0
+~
+~
+Door 1 0 0 66079 0 0
+~
+~
+Door 2 0 0 66073 0 0
+~
+~
+Door 3 0 0 66044 0 0
+~
+~
+End
+
+#66046
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66056 0 0
+~
+~
+Door 1 0 0 66047 0 0
+~
+~
+Door 2 0 0 66035 0 0
+~
+~
+End
+
+#66047
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66057 0 0
+~
+~
+Door 1 0 0 66048 0 0
+~
+~
+Door 2 0 0 66036 0 0
+~
+~
+Door 3 0 0 66046 0 0
+~
+~
+End
+
+#66048
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66058 0 0
+~
+~
+Door 1 0 0 66049 0 0
+~
+~
+Door 2 0 0 66037 0 0
+~
+~
+Door 3 0 0 66047 0 0
+~
+~
+End
+
+#66049
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66059 0 0
+~
+~
+Door 1 0 0 66050 0 0
+~
+~
+Door 2 0 0 66038 0 0
+~
+~
+Door 3 0 0 66048 0 0
+~
+~
+End
+
+#66050
+Name An Ancient Path Through the Forest of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 66060 0 0
+~
+~
+Door 1 0 0 66051 0 0
+~
+~
+Door 2 0 0 66041 0 0
+~
+~
+Door 3 0 0 66049 0 0
+~
+~
+End
+
+#66051
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66061 0 0
+~
+~
+Door 1 0 0 66052 0 0
+~
+~
+Door 2 0 0 66042 0 0
+~
+~
+Door 3 0 0 66050 0 0
+~
+~
+End
+
+#66052
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66062 0 0
+~
+~
+Door 1 0 0 66053 0 0
+~
+~
+Door 2 0 0 66043 0 0
+~
+~
+Door 3 0 0 66051 0 0
+~
+~
+End
+
+#66053
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66063 0 0
+~
+~
+Door 1 0 0 66054 0 0
+~
+~
+Door 2 0 0 66044 0 0
+~
+~
+Door 3 0 0 66052 0 0
+~
+~
+End
+
+#66054
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Reset M 66000 1 100
+Door 0 0 0 66064 0 0
+~
+~
+Door 1 0 0 66055 0 0
+~
+~
+Door 2 0 0 66045 0 0
+~
+~
+Door 3 0 0 66053 0 0
+~
+~
+End
+
+#66055
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66065 0 0
+~
+~
+Door 2 0 0 66079 0 0
+~
+~
+Door 3 0 0 66054 0 0
+~
+~
+End
+
+#66056
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 1 0 0 66057 0 0
+~
+~
+Door 2 0 0 66046 0 0
+~
+~
+End
+
+#66057
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 1 0 0 66058 0 0
+~
+~
+Door 2 0 0 66047 0 0
+~
+~
+Door 3 0 0 66056 0 0
+~
+~
+End
+
+#66058
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Reset M 66001 1 100
+Door 1 0 0 66059 0 0
+~
+~
+Door 2 0 0 66048 0 0
+~
+~
+Door 3 0 0 66057 0 0
+~
+~
+End
+
+#66059
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 1 0 0 66060 0 0
+~
+~
+Door 2 0 0 66049 0 0
+~
+~
+Door 3 0 0 66058 0 0
+~
+~
+End
+
+#66060
+Name An Ancient Path Through the Forest of Tyrsis~
+Descr
+~
+Sector 5
+Door 1 0 0 66061 0 0
+~
+~
+Door 2 0 0 66050 0 0
+~
+~
+Door 3 0 0 66059 0 0
+~
+~
+End
+
+#66061
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 1 0 0 66062 0 0
+~
+~
+Door 2 0 0 66051 0 0
+~
+~
+Door 3 0 0 66060 0 0
+~
+~
+End
+
+#66062
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 1 0 0 66063 0 0
+~
+~
+Door 2 0 0 66052 0 0
+~
+~
+Door 3 0 0 66061 0 0
+~
+~
+End
+
+#66063
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 1 0 0 66064 0 0
+~
+~
+Door 2 0 0 66053 0 0
+~
+~
+Door 3 0 0 66062 0 0
+~
+~
+End
+
+#66064
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 1 0 0 66065 0 0
+~
+~
+Door 2 0 0 66054 0 0
+~
+~
+Door 3 0 0 66063 0 0
+~
+~
+End
+
+#66065
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 2 0 0 66055 0 0
+~
+~
+Door 3 0 0 66064 0 0
+~
+~
+End
+
+#66066
+Name A Small Field~
+Descr
+~
+Sector 7
+Reset M 66000 1 100
+Door 0 0 0 66067 0 0
+~
+~
+Door 1 0 0 66069 0 0
+~
+~
+Door 3 0 0 66027 0 0
+~
+~
+End
+
+#66067
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66068 0 0
+~
+~
+Door 1 0 0 66070 0 0
+~
+~
+Door 2 0 0 66066 0 0
+~
+~
+Door 3 0 0 66014 0 0
+~
+~
+End
+
+#66068
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66026 0 0
+~
+~
+Door 1 0 0 66071 0 0
+~
+~
+Door 2 0 0 66067 0 0
+~
+~
+Door 3 0 0 66018 0 0
+~
+~
+End
+
+#66069
+Name A Small Field~
+Descr
+~
+Sector 7
+Door 0 0 0 66070 0 0
+~
+~
+Door 1 0 0 66074 0 0
+~
+~
+Door 3 0 0 66066 0 0
+~
+~
+End
+
+#66070
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66071 0 0
+~
+~
+Door 1 0 0 66075 0 0
+~
+~
+Door 2 0 0 66069 0 0
+~
+~
+Door 3 0 0 66067 0 0
+~
+~
+End
+
+#66071
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66072 0 0
+~
+~
+Door 1 0 0 66076 0 0
+~
+~
+Door 2 0 0 66070 0 0
+~
+~
+Door 3 0 0 66068 0 0
+~
+~
+End
+
+#66072
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66073 0 0
+~
+~
+Door 1 0 0 66077 0 0
+~
+~
+Door 2 0 0 66071 0 0
+~
+~
+Door 3 0 0 66026 0 0
+~
+~
+End
+
+#66073
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66045 0 0
+~
+~
+Door 1 0 0 66078 0 0
+~
+~
+Door 2 0 0 66072 0 0
+~
+~
+Door 3 0 0 66034 0 0
+~
+~
+End
+
+#66074
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66075 0 0
+~
+~
+Door 3 0 0 66069 0 0
+~
+~
+End
+
+#66075
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66076 0 0
+~
+~
+Door 2 0 0 66074 0 0
+~
+~
+Door 3 0 0 66070 0 0
+~
+~
+End
+
+#66076
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66077 0 0
+~
+~
+Door 2 0 0 66075 0 0
+~
+~
+Door 3 0 0 66071 0 0
+~
+~
+End
+
+#66077
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Reset M 66001 1 100
+Door 0 0 0 66078 0 0
+~
+~
+Door 2 0 0 66076 0 0
+~
+~
+Door 3 0 0 66072 0 0
+~
+~
+End
+
+#66078
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66079 0 0
+~
+~
+Door 2 0 0 66077 0 0
+~
+~
+Door 3 0 0 66073 0 0
+~
+~
+End
+
+#66079
+Name The Forest of Tyrsis~
+Descr
+~
+Sector 27
+Door 0 0 0 66055 0 0
+~
+~
+Door 2 0 0 66078 0 0
+~
+~
+Door 3 0 0 66045 0 0
+~
+~
+End
+
+#66080
+Name The North Gate of Nolan~
+Descr
+~
+Sector 5
+Reset M 66002 1 100
+Reset M 66002 1 100
+Reset M 66002 1 100
+Reset M 66002 1 100
+Door 0 0 0 66000 0 0
+~
+~
+Door 2 0 0 65001 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

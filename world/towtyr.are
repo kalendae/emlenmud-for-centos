@@ -1,0 +1,2291 @@
+#AREADATA 
+Name Tower of Tyrsis~
+Repop A sinister laugh fills the air. 
+~
+SCZone 0
+Builders Bern~
+VNUMs 66547 66643
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#66547
+Name tyrsis bender~
+Short Tyrsis~
+Long 
+Tyrsis, Bender of Minds, is here peering at you with searching eyes.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits4 3
+Affect_By 680
+Money 500
+Level 200
+Sex 1
+MobType 1
+Hp 25
+Guard 0
+BCasts confusion~
+BCasts mind burrower~
+BCasts paralyze~
+BCast_P 1
+End
+
+#66548
+Name guard tyrsis tower~
+Short a Tyrsis tower guard~
+Long 
+A guard of the Tower of Tyrsis is here gazing at you intently.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 2
+ActBits4 1
+Affect_By 552
+Money 10
+Level 118
+Sex 1
+MobType 0
+Hp 6
+Guard 4
+Spec spec_warrior
+End
+
+#66549
+Name insane Cedric~
+Short Cedric~
+Long 
+A man known as Cedric is sulking in this room.
+~
+AMax 1
+NHeight 0
+Level 150
+Sex 1
+MobType 0
+Hp 6
+Guard 0
+End
+
+#66550
+Name keymaster~
+Short the keymaster~
+Long 
+The keymaster is here checking the doors.
+~
+AMax 1
+NHeight 0
+Level 118
+Sex 1
+MobType 25
+Hp 5
+Guard 0
+End
+
+#66551
+Name shade thief~
+Short a deadly shade~
+Long 
+A deadly shade skulks about here in the shadows.
+~
+AMax 1
+NHeight 0
+ActBits 1036
+ActBits4 1
+Affect_By 98856
+Money 300
+Level 60
+Sex 1
+MobType 11
+Guard 0
+Spec spec_thief
+BCast_P 10
+End
+
+#66552
+Name insane adventurer~
+Short an insane adventurer~
+Long 
+An insane elven adventurer is here sulking in the corner.
+~
+AMax 1
+NHeight 0
+ActBits 20
+ActBits3 1
+Affect_By 544
+Level 118
+Sex 1
+MobType 1
+Hp 6
+Guard 66551
+Spec spec_warrior
+BCasts "Greater Healing Touch"~
+BCasts ka shield~
+BCast_P 20
+End
+
+#66601
+Name insane Scribe~
+Short a scribe~
+Long 
+An insane scribe is here writing on the walls.
+~
+AMax 4
+NHeight 0
+Money 3
+Level 118
+Sex 1
+MobType 0
+Hp 6
+Guard 0
+End
+
+#66602
+Name insane man~
+Short an insane man~
+Long 
+An insane man is here rocking in the corner.
+~
+AMax 1
+NHeight 0
+Money 1
+Level 118
+Sex 1
+MobType 0
+Hp 6
+Guard 0
+End
+
+#66603
+Name insane rat~
+Short an insane rat~
+Long 
+A rat is here who has been here way too long.
+~
+AMax 1
+NHeight 0
+Money 1
+Level 65
+Hp 2
+Guard 0
+End
+
+#66604
+Name an insane warrior~
+Short an insane warrior~
+Long 
+An insane warrior is here reliving past battles.
+~
+AMax 1
+NHeight 0
+Level 118
+Sex 1
+MobType 23
+Hp 6
+Guard 0
+Spec spec_warrior
+End
+
+#66605
+Name insane mage~
+Short an insane mage~
+Long 
+An insane mage is here repeating a spell over and over.
+~
+AMax 1
+NHeight 0
+Money 1
+Level 118
+Sex 1
+MobType 1
+Hp 6
+Guard 0
+BCasts touch of frost~
+BCasts fists of flame~
+BCast_P 20
+End
+
+#66606
+Name insane cook~
+Short an insane cook~
+Long 
+An insane cook is here looking for a rat.
+~
+AMax 1
+NHeight 0
+Money 1
+Level 118
+Sex 1
+MobType 25
+Hp 6
+Guard 0
+End
+
+#66607
+Name lamp shade~
+Short a lamp shade~
+Long 
+A lamp...shade...is floating......what?
+~
+AMax 4
+NHeight 0
+Level 10
+Hp 2
+Guard 0
+End
+
+#66608
+Name dog~
+Short a dog~
+Long 
+A dog is here chasing his tail.
+~
+AMax 1
+NHeight 0
+Level 50
+MobType 6
+Guard 0
+End
+
+#66609
+Name rope~
+Short a rope~
+Long 
+This rope seems to be alive and very mad.
+~
+AMax 1
+NHeight 0
+Level 10
+Hp 2
+Guard 0
+End
+
+#66610
+Name thief~
+Short an insane thief~
+Long 
+An insane thief who can not steal anything is here.
+~
+AMax 1
+NHeight 0
+Money 1
+Level 118
+Sex 1
+MobType 34
+Hp 6
+Guard 0
+End
+
+#66611
+Name lost thief~
+Short a thief~
+Long 
+A thief is here searching for his dagger.
+~
+AMax 1
+NHeight 0
+Level 118
+Sex 2
+MobType 34
+Hp 6
+Guard 0
+End
+
+#66612
+Name ear warrior~
+Short a warrior~
+Long 
+A warrior is here looking for ears to add to his necklace.
+~
+AMax 2
+NHeight 0
+Level 118
+Sex 1
+MobType 25
+Hp 6
+Guard 0
+Spec spec_warrior
+End
+
+#66613
+Name shadow mage~
+Short a mage~
+Long 
+A mage is here casting a spell on his shadow.
+~
+AMax 2
+NHeight 0
+Level 118
+Sex 2
+MobType 1
+Hp 6
+Guard 0
+BCasts life tap~
+BCasts curse~
+BCast_P 20
+End
+
+#66614
+Name ladder~
+Short a ladder~
+Long 
+A ladder is....walking?
+~
+AMax 5
+NHeight 0
+Money 5
+Level 10
+Hp 2
+Guard 0
+End
+
+#66615
+Name jester~
+Short a jester~
+Long 
+A jester is here laughing at jokes only he can hear.
+~
+AMax 4
+NHeight 0
+ActBits4 1
+Money 10
+Level 118
+Sex 1
+MobType 3
+Hp 6
+Guard 0
+End
+
+#66616
+Name weapon weaponsmith~
+Short a weaponsmith~
+Long 
+A weaponsmith is here looking for another "customer" to skewer.
+~
+AMax 1
+NHeight 0
+ActBits 1048576
+Money 10
+Level 118
+Sex 1
+MobType 25
+Hp 6
+Guard 0
+End
+
+#66617
+Name naked priest~
+Short a naked preist~
+Long 
+A naked priest is here, shamed for a certain...act.
+~
+AMax 1
+NHeight 0
+Money 50
+Level 118
+Sex 1
+MobType 0
+Hp 6
+Guard 0
+BCasts healing touch~
+BCast_P 20
+End
+
+#66618
+Name monk~
+Short a monk~
+Long 
+A monk who failed his monkhood test is here.
+~
+AMax 1
+NHeight 0
+Money 15
+Level 118
+Sex 1
+MobType 1
+Hp 6
+Guard 0
+BCasts stonehand punch~
+BCast_P 20
+End
+
+#66619
+Name warrior~
+Short a warrior~
+Long 
+A warrior speaks of his raping and pillaging in a nearby town.
+~
+AMax 1
+NHeight 0
+Money 100
+Level 118
+Sex 1
+MobType 10
+Hp 6
+Guard 0
+Spec spec_warrior
+End
+
+#66620
+Name armor armorsmith~
+Short an armorsmith~
+Long 
+An armorsmith, known for strangling customers with his wares, pounds on a rock.
+~
+AMax 1
+NHeight 0
+ActBits 2097152
+Money 500
+Level 118
+MobType 2
+Hp 6
+Guard 0
+Spec spec_warrior
+End
+
+#66621
+Name miner~
+Short a miner~
+Long 
+A miner is here talking about a chunk he once had.
+~
+AMax 1
+NHeight 0
+ActBits4 1
+Money 5
+Level 118
+Sex 1
+MobType 2
+Hp 6
+Guard 0
+End
+
+#66622
+Name ranger~
+Short a ranger~
+Long 
+A ranger who does bad things to woodland creatures is here.
+~
+AMax 1
+NHeight 0
+Money 3
+Level 118
+Sex 1
+MobType 1
+Hp 6
+Guard 0
+End
+
+#66623
+Name sailor~
+Short a sailor~
+Long 
+A sailor, guilty of eating his captain's harem, wanders these halls.
+~
+AMax 1
+NHeight 0
+Money 4
+Level 118
+Sex 1
+MobType 25
+Hp 6
+Guard 0
+End
+
+#66624
+Name man~
+Short a man~
+Long 
+A man who likes fire stands here with a gleam in his eye.
+~
+AMax 1
+NHeight 0
+Money 50
+Level 118
+Sex 1
+MobType 0
+Hp 6
+Guard 0
+End
+
+#66625
+Name cannibal~
+Short a cannibal~
+Long 
+A cannibal is here licking his chops at the sight of you.
+~
+AMax 2
+NHeight 0
+ActBits 8
+Money 500
+Level 118
+Hp 6
+Guard 0
+End
+
+#66626
+Name medicine man~
+Short a medicine man~
+Long 
+A medicine man is here pulling a powder out of his....nevermind.
+~
+AMax 1
+NHeight 0
+Money 100
+Level 118
+Sex 1
+MobType 25
+Hp 6
+Guard 0
+End
+
+#66627
+Name tree~
+Short a tree~
+Long 
+A tree is here...walking?!
+~
+AMax 1
+NHeight 0
+Money 5
+Level 220
+Hp 40
+Guard 0
+End
+
+#66628
+Name guildmaster retired insane~
+Short an old guildmaster~
+Long 
+A long retired guildmaster is here, banging his head on a wall.
+~
+AMax 1
+NHeight 0
+ActBits4 1
+Affect_By 552
+Money 100
+Level 118
+MobType 0
+Hp 6
+Guard 0
+End
+
+#66629
+Name woman~
+Short a woman~
+Long 
+A woman is here holding a skeleton of a baby.
+~
+AMax 1
+NHeight 0
+ActBits4 1
+Money 900
+Level 150
+Sex 2
+MobType 0
+Hp 6
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#66547
+Name tower junk~
+Short a large mirror~
+Descr
+A large mirror.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#66548
+Name rusty tower key~
+Short a rusty tower key~
+Descr
+A rusty key is here on the ground.
+[0;36m~
+Type 18
+Extra 33570824
+Wear 16389
+Weight 1
+Cost 0
+End
+
+#66549
+Name skeleton baby~
+Short a baby's skeleton~
+Descr
+The [33myellowed[0m skeleton of a baby lies here on the ground.
+[0;36m~
+Type 13
+Extra 16392
+Wear 16385
+Weight 1
+Cost 0
+End
+
+#66550
+Name sliver bone~
+Short [0ma sliver of bone~
+Descr
+A sliver of bone is here covered in dust.
+[0;36m~
+Type 5
+Extra 147464
+Wear 16385
+Values 0 10 0 11 0 0 0 4 1 0 0
+Weight 1
+Cost 0
+End
+
+#66551
+Name gold bar~
+Short [0ma [1m[33mg[0m[33mo[0m[1m[33ml[0m[33md[0m bar~
+Descr
+[0mA [1m[33mg[0m[33mo[0m[1m[33ml[0m[33md[0m bar is here starting to tarnish in the dust on the floor.
+[0;36m~
+Type 13
+Extra 8
+Wear 1
+Weight 2
+Cost 0
+End
+
+#66590
+Name symbol necromancer tier1~
+Short [1m[30ma dark symbol of the [31mNe[0m[31mcr[0m[37mo[1m[30mm[0m[37ma[0m[31mnc[1m[31mer[0m~
+Descr
+Shouldnt be seeing this
+[0;36m~
+Type 9
+Extra 33562754
+Wear 5
+Values 0 0 3 0 0 0 0 0 0 0 8388608
+Weight 0
+Cost 0
+Affect 13 12 1 0 0
+Affect 20 3 1 0 0
+End
+
+#66591
+Name earring necromancer tier2~
+Short [1m[30ma dark earring of the [31mNe[0m[31mcr[0m[37mo[1m[30mm[0m[37ma[0m[31mnc[1m[31mer[0m~
+Descr
+Shouldnt be seeing this
+[0;36m~
+Type 9
+Extra 33566850
+Wear 262145
+Values 0 0 5 0 0 0 0 0 0 0 8388608
+Weight 0
+Cost 0
+Affect 13 20 1 0 0
+Affect 20 5 1 0 0
+Affect 17 3 1 0 0
+End
+
+#66592
+Name aura necromancer tier3~
+Short [1m[30ma dark aura of the [31mNe[0m[31mcr[0m[37mo[1m[30mm[0m[37ma[0m[31mnc[1m[31mer[0m~
+Descr
+You shouldn't be seeing hits!
+[0;36m~
+Type 9
+Extra 33562754
+Wear 131073
+Values 3 3 3 3 0 0 0 0 0 0 8388608
+Weight 0
+Cost 0
+Affect 22 1 1 0 0
+Affect 20 5 1 0 0
+Affect 19 -1 1 0 0
+Affect 18 3 1 0 0
+Affect 13 25 1 0 0
+End
+
+#66593
+Name guantlet tier4 necromancer int~
+Short [1m[30ma pair of dark [31mNe[0m[31mcr[0m[37mo[1m[30mm[0m[37ma[0m[31mnc[1m[31mer [1m[30mgauntlets[0m~
+Descr
+You shouldnt be seeing this.
+[0;36m~
+Type 9
+Extra 33562754
+Wear 129
+Values 0 0 0 8 0 0 0 0 0 0 8388608
+Weight 0
+Cost 0
+Affect 13 25 1 0 0
+Affect 14 10 1 0 0
+Affect 20 3 1 0 0
+Affect 17 3 1 0 0
+Affect 3 1 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#66547
+Name Pinnacle of the Tower~
+Descr
+This room at the top of the tower is filled with a library of texts as
+well as a rather unique collection of treatment methods for curing the
+insane. Against the far wall rests a large mirror that seems to cast no
+reflection... 
+~
+Flags2 6
+Flags 671089796
+Sector 0
+ExtraDescr mirror~
+You look into the mirror only to see the reflection of yourself...What
+
+did you expect???  
+
+~
+ExtraDescr mirror~
+You look into the mirror only to see your own reflection. What did you
+
+expect???  
+
+~
+ExtraDescr mirror~
+You only see your reflection in the mirror, what did you expect?  
+
+~
+Reset O 66547 -5 100
+Reset M 66547 1 100
+Door 5 0 0 66548 0 0
+~
+~
+End
+
+#66548
+Name Nearing the Top of the Tower~
+Descr
+~
+Flags 1158
+Sector 0
+Reset M 66548 1 100
+Door 0 7 66548 66551 80 80
+~
+door~
+Door 1 0 0 66549 0 0
+~
+~
+Door 2 7 66548 66552 80 80
+~
+door~
+Door 3 7 66548 66550 80 80
+~
+door~
+Door 4 0 0 66547 0 0
+~
+~
+End
+
+#66549
+Name At the Head of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 3 0 0 66548 0 0
+~
+~
+Door 5 0 0 66553 0 0
+~
+~
+End
+
+#66550
+Name A Padded Room~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66549 1 100
+Door 1 7 66548 66548 80 80
+~
+door~
+End
+
+#66551
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 2 7 66548 66548 80 80
+~
+door~
+End
+
+#66552
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66629 1 100
+Reset O 66549 -4 100
+Door 0 7 66548 66548 80 80
+~
+door~
+End
+
+#66553
+Name At the Foot of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 3 0 0 66554 0 0
+~
+~
+Door 4 0 0 66549 0 0
+~
+~
+End
+
+#66554
+Name A Hallway~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66550 1 100
+Reset O 66548 -4 100
+Door 0 7 66548 66555 80 80
+~
+door~
+Door 1 0 0 66553 0 0
+~
+~
+Door 2 7 66548 66557 80 80
+~
+door~
+Door 3 0 0 66556 0 0
+~
+~
+End
+
+#66555
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66628 1 100
+Door 2 7 66548 66554 80 80
+~
+door~
+End
+
+#66556
+Name At the Head of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66554 0 0
+~
+~
+Door 5 0 0 66558 0 0
+~
+~
+End
+
+#66557
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66552 1 100
+Reset O 66551 -5 100
+Door 0 7 66548 66554 80 80
+~
+door~
+End
+
+#66558
+Name At the Foot of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66559 0 0
+~
+~
+Door 4 0 0 66556 0 0
+~
+~
+End
+
+#66559
+Name A Hallway~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66563 0 0
+~
+~
+Door 2 0 0 66558 0 0
+~
+~
+End
+
+#66560
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66612 1 100
+Door 1 0 0 66562 0 0
+~
+~
+End
+
+#66561
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 7 66548 66563 30 30
+~
+door~
+Door 1 0 0 66565 0 0
+~
+~
+Door 2 0 0 66562 0 0
+~
+~
+End
+
+#66562
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66607 1 100
+Door 0 0 0 66561 0 0
+~
+~
+Door 1 0 0 66566 0 0
+~
+~
+Door 3 0 0 66560 0 0
+~
+~
+End
+
+#66563
+Name A Hallway~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66551 1 100
+Reset O 66550 -4 100
+Door 1 0 0 66564 0 0
+~
+~
+Door 2 7 66548 66561 30 30
+~
+door~
+Door 3 0 0 66559 0 0
+~
+~
+End
+
+#66564
+Name At the Head of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 3 0 0 66563 0 0
+~
+~
+Door 5 0 0 66567 0 0
+~
+~
+End
+
+#66565
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66607 1 100
+Door 2 0 0 66566 0 0
+~
+~
+Door 3 0 0 66561 0 0
+~
+~
+End
+
+#66566
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66607 1 100
+Door 0 0 0 66565 0 0
+~
+~
+Door 3 0 0 66562 0 0
+~
+~
+End
+
+#66567
+Name At the Foot of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 3 0 0 66570 0 0
+~
+~
+Door 4 0 0 66564 0 0
+~
+~
+End
+
+#66568
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66601 1 100
+Door 2 0 0 66569 0 0
+~
+~
+Door 3 0 0 66571 0 0
+~
+~
+End
+
+#66569
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66601 1 100
+Door 0 0 0 66568 0 0
+~
+~
+Door 3 0 0 66572 0 0
+~
+~
+End
+
+#66570
+Name A Hallway~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66567 0 0
+~
+~
+Door 2 7 66548 66571 30 30
+~
+door~
+Door 3 0 0 66573 0 0
+~
+~
+End
+
+#66571
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 7 66548 66570 30 30
+~
+door~
+Door 1 0 0 66568 0 0
+~
+~
+Door 2 0 0 66572 0 0
+~
+~
+Door 3 0 0 66574 0 0
+~
+~
+End
+
+#66572
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66571 0 0
+~
+~
+Door 1 0 0 66569 0 0
+~
+~
+Door 3 0 0 66575 0 0
+~
+~
+End
+
+#66573
+Name At the Head of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66570 0 0
+~
+~
+Door 5 0 0 66576 0 0
+~
+~
+End
+
+#66574
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66601 1 100
+Door 1 0 0 66571 0 0
+~
+~
+Door 2 0 0 66575 0 0
+~
+~
+End
+
+#66575
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66601 1 100
+Door 0 0 0 66574 0 0
+~
+~
+Door 1 0 0 66572 0 0
+~
+~
+End
+
+#66576
+Name At the Foot of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66581 0 0
+~
+~
+Door 4 0 0 66573 0 0
+~
+~
+End
+
+#66577
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66582 0 0
+~
+~
+Door 2 0 0 66578 0 0
+~
+~
+Door 3 0 0 66579 0 0
+~
+~
+End
+
+#66578
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66614 1 100
+Door 0 0 0 66577 0 0
+~
+~
+Door 1 0 0 66583 0 0
+~
+~
+End
+
+#66579
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66615 1 100
+Door 1 0 0 66577 0 0
+~
+~
+End
+
+#66580
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66627 1 100
+Door 2 7 66548 66581 30 30
+~
+door~
+End
+
+#66581
+Name A Hallway~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 7 66548 66580 30 30
+~
+door~
+Door 1 0 0 66585 0 0
+~
+~
+Door 2 7 66548 66582 30 30
+~
+door~
+Door 3 0 0 66576 0 0
+~
+~
+End
+
+#66582
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66615 1 100
+Door 0 7 66548 66581 30 30
+~
+~
+Door 1 0 0 66586 0 0
+~
+~
+Door 2 0 0 66583 0 0
+~
+~
+Door 3 0 0 66577 0 0
+~
+~
+End
+
+#66583
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66582 0 0
+~
+~
+Door 1 0 0 66587 0 0
+~
+~
+Door 2 0 0 66584 0 0
+~
+~
+Door 3 0 0 66578 0 0
+~
+~
+End
+
+#66584
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66615 1 100
+Door 0 0 0 66583 0 0
+~
+~
+End
+
+#66585
+Name At the Head of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 3 0 0 66581 0 0
+~
+~
+Door 5 0 0 66589 0 0
+~
+~
+End
+
+#66586
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66588 0 0
+~
+~
+Door 2 0 0 66587 0 0
+~
+~
+Door 3 0 0 66582 0 0
+~
+~
+End
+
+#66587
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66614 1 100
+Door 0 0 0 66586 0 0
+~
+~
+Door 3 0 0 66583 0 0
+~
+~
+End
+
+#66588
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66615 1 100
+Door 3 0 0 66586 0 0
+~
+~
+End
+
+#66589
+Name At the Foot of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 3 0 0 66594 0 0
+~
+~
+Door 4 0 0 66585 0 0
+~
+~
+End
+
+#66590
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 3 0 0 66591 0 0
+~
+~
+End
+
+#66591
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66622 1 100
+Door 1 0 0 66590 0 0
+~
+~
+Door 2 0 0 66592 0 0
+~
+~
+Door 3 0 0 66595 0 0
+~
+~
+End
+
+#66592
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66624 1 100
+Door 0 0 0 66591 0 0
+~
+~
+Door 3 0 0 66596 0 0
+~
+~
+End
+
+#66593
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66625 1 100
+Door 2 7 66548 66594 30 30
+~
+door~
+End
+
+#66594
+Name A Hallway~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 7 66548 66593 30 30
+~
+door~
+Door 1 0 0 66589 0 0
+~
+~
+Door 2 7 66548 66595 30 30
+~
+door~
+Door 3 0 0 66598 0 0
+~
+~
+End
+
+#66595
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 7 66548 66594 30 30
+~
+door~
+Door 1 0 0 66591 0 0
+~
+~
+Door 2 0 0 66596 0 0
+~
+~
+Door 3 0 0 66599 0 0
+~
+~
+End
+
+#66596
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66595 0 0
+~
+~
+Door 1 0 0 66592 0 0
+~
+~
+Door 2 0 0 66597 0 0
+~
+~
+Door 3 0 0 66600 0 0
+~
+~
+End
+
+#66597
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66626 1 100
+Door 0 0 0 66596 0 0
+~
+~
+End
+
+#66598
+Name At the Head of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66594 0 0
+~
+~
+Door 5 0 0 66602 0 0
+~
+~
+End
+
+#66599
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66623 1 100
+Door 1 0 0 66595 0 0
+~
+~
+Door 2 0 0 66600 0 0
+~
+~
+Door 3 0 0 66601 0 0
+~
+~
+End
+
+#66600
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66599 0 0
+~
+~
+Door 1 0 0 66596 0 0
+~
+~
+End
+
+#66601
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66621 1 100
+Door 1 0 0 66599 0 0
+~
+~
+End
+
+#66602
+Name At the Foot of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66607 0 0
+~
+~
+Door 4 0 0 66598 0 0
+~
+~
+End
+
+#66603
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66618 1 100
+Door 1 0 0 66604 0 0
+~
+~
+End
+
+#66604
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66605 0 0
+~
+~
+Door 2 3 0 66607 30 30
+~
+door~
+Door 3 0 0 66603 0 0
+~
+~
+End
+
+#66605
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66617 1 100
+Door 3 0 0 66604 0 0
+~
+~
+End
+
+#66606
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66620 1 100
+Reset M 66611 1 100
+Door 2 0 0 66610 0 0
+~
+~
+End
+
+#66607
+Name A Hallway~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 7 66548 66604 30 30
+~
+door~
+Door 1 0 0 66608 0 0
+~
+~
+Door 2 7 66548 66612 30 30
+~
+door~
+Door 3 0 0 66602 0 0
+~
+~
+End
+
+#66608
+Name At the Head of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 3 0 0 66607 0 0
+~
+~
+Door 5 0 0 66623 0 0
+~
+~
+End
+
+#66609
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66616 1 100
+Door 2 0 0 66614 0 0
+~
+~
+End
+
+#66610
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66606 0 0
+~
+~
+Door 1 0 0 66611 0 0
+~
+~
+Door 2 0 0 66615 0 0
+~
+~
+End
+
+#66611
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66612 0 0
+~
+~
+Door 2 0 0 66616 0 0
+~
+~
+Door 3 0 0 66610 0 0
+~
+~
+End
+
+#66612
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66619 1 100
+Door 0 7 66548 66607 30 30
+~
+door~
+Door 1 0 0 66613 0 0
+~
+~
+Door 2 0 0 66617 0 0
+~
+~
+Door 3 0 0 66611 0 0
+~
+~
+End
+
+#66613
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66614 0 0
+~
+~
+Door 2 0 0 66618 0 0
+~
+~
+Door 3 0 0 66612 0 0
+~
+~
+End
+
+#66614
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66609 0 0
+~
+~
+Door 2 0 0 66619 0 0
+~
+~
+Door 3 0 0 66613 0 0
+~
+~
+End
+
+#66615
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66610 0 0
+~
+~
+Door 1 0 0 66616 0 0
+~
+~
+End
+
+#66616
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66611 0 0
+~
+~
+Door 1 0 0 66617 0 0
+~
+~
+Door 2 0 0 66620 0 0
+~
+~
+Door 3 0 0 66615 0 0
+~
+~
+End
+
+#66617
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66612 0 0
+~
+~
+Door 1 0 0 66618 0 0
+~
+~
+Door 2 0 0 66621 0 0
+~
+~
+Door 3 0 0 66616 0 0
+~
+~
+End
+
+#66618
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66613 0 0
+~
+~
+Door 1 0 0 66619 0 0
+~
+~
+Door 2 0 0 66622 0 0
+~
+~
+Door 3 0 0 66617 0 0
+~
+~
+End
+
+#66619
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66615 1 100
+Door 0 0 0 66614 0 0
+~
+~
+Door 3 0 0 66618 0 0
+~
+~
+End
+
+#66620
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66613 1 100
+Door 0 0 0 66616 0 0
+~
+~
+Door 1 0 0 66621 0 0
+~
+~
+End
+
+#66621
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66617 0 0
+~
+~
+Door 1 0 0 66622 0 0
+~
+~
+Door 3 0 0 66620 0 0
+~
+~
+End
+
+#66622
+Name ~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66614 1 100
+Door 0 0 0 66618 0 0
+~
+~
+Door 3 0 0 66621 0 0
+~
+~
+End
+
+#66623
+Name At the Foot of the Stairs~
+Descr
+~
+Flags 1156
+Sector 0
+Door 3 0 0 66627 0 0
+~
+~
+Door 4 0 0 66608 0 0
+~
+~
+End
+
+#66624
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66603 1 100
+Door 3 0 0 66625 0 0
+~
+~
+End
+
+#66625
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66624 0 0
+~
+~
+Door 3 0 0 66626 0 0
+~
+~
+End
+
+#66626
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66625 0 0
+~
+~
+Door 2 0 0 66628 0 0
+~
+~
+End
+
+#66627
+Name A Hallway~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66623 0 0
+~
+~
+Door 2 3 0 66633 30 30
+~
+door~
+End
+
+#66628
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66601 1 100
+Door 0 0 0 66626 0 0
+~
+~
+Door 2 0 0 66634 0 0
+~
+~
+Door 3 0 0 66629 0 0
+~
+~
+End
+
+#66629
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66602 1 100
+Door 1 0 0 66628 0 0
+~
+~
+Door 2 0 0 66635 0 0
+~
+~
+End
+
+#66630
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66607 1 100
+Door 2 0 0 66631 0 0
+~
+~
+End
+
+#66631
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66630 0 0
+~
+~
+Door 2 0 0 66636 0 0
+~
+~
+Door 3 0 0 66632 0 0
+~
+~
+End
+
+#66632
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Door 1 0 0 66631 0 0
+~
+~
+Door 2 0 0 66637 0 0
+~
+~
+Door 3 0 0 66633 0 0
+~
+~
+End
+
+#66633
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66606 1 100
+Door 0 3 0 66627 30 30
+~
+door~
+Door 1 0 0 66632 0 0
+~
+~
+Door 2 0 0 66638 0 0
+~
+~
+Door 3 0 0 66634 0 0
+~
+~
+End
+
+#66634
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66610 1 100
+Reset M 66609 1 100
+Door 0 0 0 66628 0 0
+~
+~
+Door 1 0 0 66633 0 0
+~
+~
+Door 2 0 0 66639 0 0
+~
+~
+Door 3 0 0 66635 0 0
+~
+~
+End
+
+#66635
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66629 0 0
+~
+~
+Door 1 0 0 66634 0 0
+~
+~
+Door 2 0 0 66640 0 0
+~
+~
+End
+
+#66636
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66631 0 0
+~
+~
+Door 3 0 0 66637 0 0
+~
+~
+End
+
+#66637
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66632 0 0
+~
+~
+Door 1 0 0 66636 0 0
+~
+~
+Door 2 0 0 66641 0 0
+~
+~
+Door 3 0 0 66638 0 0
+~
+~
+End
+
+#66638
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66633 0 0
+~
+~
+Door 1 0 0 66637 0 0
+~
+~
+Door 2 0 0 66642 0 0
+~
+~
+Door 3 0 0 66639 0 0
+~
+~
+End
+
+#66639
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66634 0 0
+~
+~
+Door 1 0 0 66638 0 0
+~
+~
+Door 2 0 0 66643 0 0
+~
+~
+Door 3 0 0 66640 0 0
+~
+~
+End
+
+#66640
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Door 0 0 0 66635 0 0
+~
+~
+Door 1 0 0 66639 0 0
+~
+~
+End
+
+#66641
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66604 1 100
+Door 0 0 0 66637 0 0
+~
+~
+Door 3 0 0 66642 0 0
+~
+~
+End
+
+#66642
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66608 1 100
+Door 0 0 0 66638 0 0
+~
+~
+Door 1 0 0 66641 0 0
+~
+~
+Door 3 0 0 66643 0 0
+~
+~
+End
+
+#66643
+Name The Ground Level~
+Descr
+~
+Flags 1156
+Sector 0
+Reset M 66605 1 100
+Door 0 0 0 66639 0 0
+~
+~
+Door 1 0 0 66642 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,4971 @@
+#AREADATA 
+Name The City of Crimson~
+Repop The residents of Crimson begin a new day.~
+SCZone 0
+Builders Lonath~
+VNUMs 51200 51399
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#51200
+Name rogi knight~
+Short rogi the knight~
+Long 
+Rogi the knight stands here, barely tolerating your presence!
+~
+Descr
+One of the noblest Knights of all the land, Rogi stands at the center of
+the known world protecting Crimson and it's citizens. He has won many
+glorious battles in his life and isn't about to lose anytime soon. 
+~
+Attackmsg pound~
+AMax 1
+ActBits 2
+Affect_By 2097320
+Money 1000
+Level 360
+MobType 10
+Hp 40
+Guard 0
+Spec spec_warrior
+End
+
+#51201
+Name guard gateguard~
+Short a gateguard~
+Long 
+A gateguard watches out for trouble.~
+AMax 3
+ActBits 2
+Affect_By 680
+Level 150
+MobType 0
+Guard 2
+Spec spec_warrior
+End
+
+#51202
+Name guard gateguard~
+Short a gateguard~
+Long 
+A gateguard watches out for trouble.~
+AMax 3
+ActBits 2
+Affect_By 680
+Level 150
+MobType 0
+Spec spec_warrior
+End
+
+#51203
+Name guard gateguard~
+Short a gateguard~
+Long 
+A gateguard watches out for trouble.~
+AMax 3
+ActBits 2
+Affect_By 680
+Level 150
+MobType 0
+End
+
+#51204
+Name guard gateguard~
+Short a gateguard~
+Long 
+A gateguard watches out for trouble.~
+AMax 3
+ActBits 2
+Affect_By 680
+Level 150
+End
+
+#51205
+Name cityguard guard~
+Short a cityguard~
+Long 
+A patrolling cityguard nods to you as you walk by.~
+Descr
+This guard patrolls Crimson and the walls around it. It would be wise not
+to fool around while your inside the city. 
+~
+AMax 5
+Level 85
+MobType 0
+End
+
+#51206
+Name elite cityguard guard~
+Short an elite cityguard~
+Long 
+An elite cityguard watches out for any kind of trouble.~
+Descr
+This is the elite guard of Crimson. He would like to test his skills
+on you. 
+~
+AMax 5
+Affect_By 680
+Level 125
+MobType 0
+End
+
+#51207
+Name shop guard ~
+Short a shop guard~
+Long 
+A huge guard is here keeping watch over the shop.
+~
+Descr
+This is a mean looking guard. Getting by him would be a trick. This guard
+waits for the chance to smite a thief. 
+~
+AMax 8
+ActBits 2
+Affect_By 648
+Level 250
+Hp 35
+End
+
+#51208
+Name zantar shop~
+Short zantar~
+Long 
+Zantar greets you as you enter his humble shop.
+~
+Descr
+Zantar gives you a glance of money wanting eyes as you walk into his shop.
+You feel uneasy being in this city with this guy. 
+~
+AMax 1
+ActBits 2
+Affect_By 680
+Level 300
+Hp 90
+Shop    0   1  17  22  27 100 60 6 22
+Shopd2 5
+Shopd3 4
+End
+
+#51209
+Name grol shop~
+Short grol~
+Long 
+Grol is here absorbed in polishing a blade.[0;37m~
+Descr
+This filthy man grimaces at you as yu walk in, but wants to get to your
+coin purse as much as the other shop clerks do. He draws a sword and
+sharpens it with a massive sharpening stone. 
+~
+AMax 1
+ActBits 2
+Affect_By 680
+Level 300
+Hp 30
+Shop    0   2   0   0   0 100 60 6 22
+Shopd2 5
+Shopd3 4
+End
+
+#51210
+Name thargon shop~
+Short thargon~
+Long 
+Thargon is examining a little trinket a customer just brought in.~
+Descr
+Thargon laughs at you for your ignorance to come to his shop and sell
+something to him. Begone, Thargon warns you as he draws a sword from his
+sheath. 
+~
+AMax 1
+ActBits 2
+Affect_By 680
+Level 250
+Hp 25
+End
+
+#51211
+Name des'tra gemshop shop~
+Short des'Tra~
+Long 
+Des'Tra smiles as she sees profit walking in the door.~
+Descr
+Des'Tra looks like a fat snake with a human head that slithers around her
+shop, leaving a trail of scum behind its tail. On the counter she has many
+magical gems she would like to sell to you. 
+~
+AMax 1
+ActBits 2
+Affect_By 680
+Money 1500
+Level 250
+Shop    0   7   0   0   0 100 60 6 22
+Shopd2 5
+Shopd3 4
+End
+
+#51212
+Name shelara shop~
+Short shelara~
+Long 
+Shelara is poring over her account ledgers.~
+Descr
+Shelara stands behind a lavishly decorated counter. She counts coins
+stacked on the table she sits at. 
+~
+AMax 1
+ActBits 2
+Affect_By 168
+Level 250
+Hp 60
+End
+
+#51213
+Name jodath shop~
+Short jodath~
+Long 
+Jodath is here restocking lanterns up on a high shelf.~
+Descr
+This shopkeeper keeps track of everything on the shelves from books to
+peace pipes. She is very organized and sells all kinds of goods. 
+~
+AMax 1
+ActBits 2
+Affect_By 680
+Level 250
+Hp 40
+Shop    0   5   4  22   1 100 60 6 22
+Shopd2 5
+Shopd3 4
+End
+
+#51214
+Name skrag shop pract~
+Short skrag~
+Long 
+Skrag asks you to wait for a moment, so he can finish this potion.~
+Descr
+This is the Alchemist of crimson. He sits idly by brewing more potion. 
+~
+AMax 1
+ActBits 2
+Level 350
+MobType 1
+Hp 30
+Shop    0   9  27   0   0 100 60 6 22
+Shopd2 5
+Shopd3 4
+End
+
+#51215
+Name urial shop pract~
+Short urial~
+Long 
+Urial greets you with a broad smile and offers to let you sample a pastry.~
+Descr
+This baker prepares you with fresh loaves of bread that melt in your
+mouth as you eat them. This is one of the finest bakers on the world. 
+~
+AMax 1
+ActBits 2
+Affect_By 680
+Money 1000
+Level 250
+Shop    0   4   0   0   0 100 60 6 22
+Shopd2 5
+Shopd3 4
+End
+
+#51216
+Name street sweeper~
+Short a street sweeper~
+Long 
+A street sweeper shuffles along, whistling a happy tune.~
+Descr
+This scrubby human retells of past stories of how he made it cleaning off
+the kings boots of blood. But now he is only a low paid street sweeper. 
+~
+AMax 5
+Level 0
+End
+
+#51217
+Name poor citizen~
+Short a poor citizen~
+Long 
+A poor citizen greets you.~
+Descr
+This filty beggar wanders Crimson in hope of food or money. It would be
+kind of you to spare a few gold coins to this poor sab's coin purse. 
+~
+AMax 6
+Level 25
+End
+
+#51218
+Name rich citizen~
+Short a rich citizen~
+Long 
+A rich citizen clutches her coin purse as you enter.~
+Descr
+This greedy citizen of Crimson has hoarded it's money for all of its
+life. This person deserves to be killed and have its money taken. 
+~
+AMax 5
+Level 45
+End
+
+#51219
+Name incomo barkeep~
+Short incomo the barkeep~
+Long 
+Incomo lets out a hearty laugh as he greets his favorite customers.~
+Descr
+This fat bartender slings drinks to all the alcoholics sitting around the
+bar. He greets you with a cheer and a toast to getting drunk. He tosses down
+a bottle of absolute to prove to you how much more of a drunk he is than you
+are. You could never top this drunk. 
+~
+AMax 1
+Level 0
+End
+
+#51220
+Name elven elf adventurer~
+Short an elven adventurer~
+Long 
+An elven adventurer gives you a glance, then returns to his companions.~
+Descr
+This elvish traveler goes beyond Crimson to find work outside. He looks
+like the kind of person that is street wise beyond his years. 
+~
+AMax 4
+Affect_By 552
+Money 300
+Level 30
+End
+
+#51221
+Name human warrior~
+Short a human warrior~
+Long 
+A human warrior raises his mug in a salute to you.~
+Descr
+This warrior is well respected. He shows signs of distrust as you stare
+at him. 
+~
+AMax 5
+Level 0
+End
+
+#51222
+Name goblin short~
+Short a short goblin~
+Long 
+A short goblin bumps you and growls.~
+Descr
+This greenskin represents the grotesqueness of all the goblin race. He
+looks at you derisively and snorts about your apearance. 
+~
+AMax 5
+Level 0
+End
+
+#51223
+Name duergar warrior drunkard~
+Short a duergar warrior~
+Long 
+A duergar drunkard stumbles past you.~
+Descr
+This drunken warrior has fell from the bar. He couldnt outdrink Incomo
+and is now wandering around to find a whore and a bed to sleep in. 
+~
+AMax 5
+Level 45
+MobType 0
+End
+
+#51224
+Name small girl child~
+Short a small girl~
+Long 
+A small girl plays with her rag doll.~
+Descr
+This is a tiny humanoid with ruffled up hair. 
+~
+AMax 5
+Level 0
+End
+
+#51225
+Name small boy child~
+Short a small boy~
+Long 
+A small boy is here using a stick to poke at a cornered rat.~
+Descr
+This is a small humanoid that is in waiting for his mother. 
+~
+AMax 5
+Level 0
+End
+
+#51226
+Name rat~
+Short a rat~
+Long 
+A rat is here chewing on some scraps.~
+Descr
+This large rodent is extremely hungry. 
+~
+AMax 5
+ActBits 8
+Level 35
+MobType 7
+End
+
+#51227
+Name skeleton~
+Short a skeleton~
+Long 
+A skeleton shambles toward you and attacks.~
+Descr
+This ancient pile of bones knows no meanings of not fighting. It has
+cracked bones and is decayed beyond recognition of its previous self. 
+~
+AMax 5
+ActBits 8
+Level 45
+MobType 21
+End
+
+#51228
+Name ghost wailing~
+Short a wailing ghost~
+Long 
+A wailing ghost reaches out and tries to make you dead too!!~
+Descr
+A pile of cloth eminate the image of this ghost. You could clean the
+house with this feeble creature. 
+~
+AMax 5
+Level 0
+End
+
+#51229
+Name ruffian ~
+Short a scruffy ruffian~
+Long 
+A scruffy ruffian attempts to intimidate you.~
+Descr
+This shady fellow is one of the lower classes of the city. This is a real scumbag. You would find it better to have this one dead than alive.
+~
+AMax 5
+Level 0
+End
+
+#51230
+Name thief skaven shady-looking~
+Short a skaven thief~
+Long 
+A shady-looking skaven smirks at you.~
+Descr
+A well trained thief of skills, this clepto has a very talent to empty
+your purse of its coins. 
+~
+AMax 5
+Level 0
+End
+
+#51231
+Name warrior trainee~
+Short a warrior trainee~
+Long 
+A warrior trainee is attempting to hit a bag with a sword.~
+Descr
+This guard trainee is working very hard to become a Crimson City guard.
+But he is still weak with young age. 
+~
+AMax 5
+Level 0
+End
+
+#51232
+Name mayor aone~
+Short the mayor~
+Long 
+The mayor is here greeting all those who come to his city.~
+Descr
+Other than Rogi, the mayor controls the city. This mayor is a fanatic for
+killing. He has ordered his bodyguards to do many evil things. Beware of The
+Mayor. 
+~
+AMax 1
+ActBits 1
+Affect_By 680
+Level 200
+End
+
+#51233
+Name mayoral bodyguard guard~
+Short a mayoral bodyguard~
+Long 
+A REALLY tough-looking bodyguard is watching over the mayor.
+~
+Descr
+These are the mayor's personal bodyguards, they protect the mayor at all
+costs. 
+~
+AMax 3
+ActBits 1
+Level 100
+MobType 0
+Guard -48
+End
+
+#51234
+Name niquer sexy priestess~
+Short the sexy priestess~
+Long 
+A sexy priestess is in the mayor's house...umm healing him.~
+Descr
+This woman is astoundingly beautiful. She gives you a hard on just
+glancing at her. You think of the occasion of getting a date from this
+attractive woman. But the Mayor has her for his own. It would'nt be a good
+idea to interfere with this fox. 
+~
+AMax 1
+Affect_By 680
+Level 235
+End
+
+#51235
+Name busty waitress~
+Short a busty waitress~
+Long 
+A busty waitress pushes her way toward you to take your order.~
+Descr
+This waitress tends to all the patrons inside the bar. She does
+prostitution services also. 
+~
+AMax 3
+ActBits 2
+Level 25
+MobType 0
+Spec spec_warrior
+End
+
+#51236
+Name guard trainer~
+Short the guard trainer~
+Long 
+The guard trainer is instructing some recruits in the use of the sword.~
+Descr
+This former city guard now teaches the replacements for the next
+generation of guards to protect Crimson and its streets. 
+~
+AMax 4
+ActBits 1
+Affect_By 128
+Level 135
+End
+
+#51237
+Name grybl mage pract~
+Short grybl the mage~
+Long 
+Grybl the mage pokes the dust in the corner of the room.~
+Descr
+This acient old mage moves around the tower casting spells upon all the
+little creatures that live inside. This mage has a high amount of wisdom and
+may benefit you not to kill it. 
+~
+AMax 1
+ActBits 2
+Affect_By 680
+Level 300
+MobType 0
+Hp 35
+End
+
+#51238
+Name skeeler thief pract~
+Short skeeler~
+Long 
+Skeeler the sneaky thief is resting up for a break-in.~
+Descr
+You would be a fool to mess with this thief, for he could gut you inside
+and out in a matter of seconds. Skeeler looks at you and laughs at your puny
+appearance. 
+~
+AMax 1
+ActBits 2
+Affect_By 98434
+AffectTWO 262144
+Money 1400
+Level 300
+MobType 1
+Hp 45
+Spec spec_thief
+End
+
+#51239
+Name guard captain~
+Short the guard captain~
+Long 
+The captain of the guard is here poring over the requisition orders.~
+AMax 1
+ActBits 2
+Affect_By 680
+Level 300
+Hp 30
+Spec spec_warrior
+End
+
+#0
+
+
+
+#OBJDATA
+#51200
+Name bone bracelet~
+Short a [1m[37mbone[0m bracelet~
+Descr
+A bone bracelet lies on the ground here.
+[0;36m~
+Type 9
+Wear 4097
+Values 0 0 0 2 10 10 50 50 10 3 0
+Weight 7
+Cost 100
+Affect 13 3 1 0 0
+Affect 18 1 1 0 0
+End
+
+#51201
+Name ghostly wisp~
+Short [1m[37ma [33mghostly[37m wisp[0m~
+Descr
+A ghostly wisp lies here on the ground
+[0;36m~
+Type 9
+Extra 1
+Wear 131073
+Values 0 0 0 0 10 10 50 50 10 3 0
+Weight 1
+Cost 200
+Affect 20 1 1 0 0
+Affect 17 2 1 0 0
+End
+
+#51202
+Name blue dark anklet~
+Short a [1m[1;30mdark [1m[34mblue[0;37m anklet~
+Descr
+~
+Type 9
+Wear 524289
+Values 3 0 0 0 10 10 10 10 10 3 0
+Weight 5
+Cost 2500
+Affect 13 5 5 0 0
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+Affect 18 1 1 0 0
+End
+
+#51203
+Name shoulder pad~
+Short a shoulder pad~
+Descr
+~
+Type 9
+Wear 16385
+Values 0 0 1 1 10 10 50 50 10 3 0
+Weight 22
+Cost 100
+End
+
+#51204
+Name broom~
+Short a broom~
+Descr
+~
+Type 2
+Extra 524288
+Wear 8193
+Values 0 5 0 7 0 0 0 1 5 0 0
+Weight 63
+Cost 40
+End
+
+#51205
+Name elven shortsword word apb~
+Short an elven [37mshort sword[0m~
+Descr
+An elven short sword has been carelessly discarded here.
+[0;36m~
+Type 5
+Extra 4194304
+Wear 8193
+Values 0 15 0 3 0 0 0 6 2 0 0
+Weight 58
+Cost 200
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#51206
+Name gate key crimson~
+Short a huge gate key~
+Descr
+~
+Type 16
+Extra 16384
+Wear 8193
+Weight 50
+Cost 0
+End
+
+#51210
+Name halberd jagged~
+Short a jagged halberd~
+Descr
+~
+Type 2
+Extra 1677721601
+Wear 8193
+Values 0 50 0 14 0 0 0 6 3 0 0
+Weight 305
+Cost 3000
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#51211
+Name elbow pad~
+Short an elbow pad~
+Descr
+~
+Type 9
+Wear 1048577
+Values 0 1 0 5 10 10 10 10 10 1 0
+Weight 15
+Cost 500
+End
+
+#51212
+Name metal visor~
+Short a [1m[1;30mmetal[0;37m visor~
+Descr
+~
+Type 9
+Wear 8388609
+Values 0 0 2 0 10 10 10 10 10 1 0
+Weight 5
+Cost 3000
+End
+
+#51213
+Name knee pad kneepad~
+Short a kneepad~
+Descr
+~
+Type 9
+Wear 2097153
+Values 2 0 0 0 10 10 10 10 10 1 0
+Weight 7
+Cost 1000
+Affect 22 2 2 0 0
+End
+
+#51216
+Name golden visor spiked~
+Short a spiked, [1m[33mgolden[0;37m visor~
+Descr
+A golden spiked visor lays on the floor.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 8388609
+Values 0 3 5 1 10 10 40 40 10 1 0
+Weight 10
+Cost 5000
+Affect 18 4 1 0 0
+Affect 19 1 1 0 0
+End
+
+#51239
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 5
+Extra 524291
+Wear 0
+Weight 0
+Cost 0
+End
+
+#51377
+Name amulet undead~
+Short [0m[33mThe [0m[33mA[1m[30mm[0m[32mu[1m[33mle[0m[33mt o[1m[32mf the [0m[32mUn[0m[33md[1m[30me[0m[33mad~
+Descr
+A fleshy amulet of the undead lays here.
+[0;36m~
+Type 9
+Extra 33554435
+Wear 5
+Values 5 7 6 5 0 0 0 0 0 0 8388608
+Weight 3
+Cost 20000
+Affect 13 20 1 0 0
+Affect 17 5 1 0 0
+End
+
+#51399
+Name essence strength power 2apb apb~
+Short [0m[37mthe [1m[33mes[1m[37mse[0m[37mn[1m[37mc[1m[33me [0m[37mof [0m[31mstr[1m[31meng[0m[31mth [0m[37mand [0m[32mpo[1m[32mwe[0m[32mr[0m[37m~
+Descr
+You feel a strong vibration coming from the ground.
+[0;36m~
+Type 9
+Extra 2
+Wear 131073
+Weight 90
+Cost 50000
+Affect 19 2 2 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#51200
+Name The Great Fountain of Crimson~
+Descr
+This concrete structure serves as the central point of the city where
+adventurers from all over the realm meet. Many signs etched along the
+fountain rise reflect the vast history of visitors this place has seen.
+The market surrounds you with the din of a bustling city filled with
+content inhabitants just going about their business. 
+~
+Flags2 6
+Flags 3407872
+Reset M 51200 1 100
+Reset O 51202 0 20
+Reset O 207 0 100
+Reset O 51211 0 10
+Reset O 51212 0 20
+Reset O 51213 0 20
+Reset O 51216 0 1
+Door 0 0 0 51201 0 0
+~
+~
+Door 1 0 0 51207 0 0
+~
+~
+Door 2 0 0 51205 0 0
+~
+~
+Door 3 0 0 51203 0 0
+~
+~
+End
+
+#51201
+Name The Great Northern Promenade~
+Descr
+This road leads north out of the marketplace, and past the mayor's
+house. It is in the richer part of town, as this is where the merchants
+live with their families. The lampposts beside the road are bedecked
+with bunting and flowers for some sort of festival which always seems
+to be happening here.
+~
+Flags 262144
+Door 0 0 0 51227 0 0
+~
+~
+Door 1 0 0 51208 0 0
+~
+~
+Door 2 0 0 51200 0 0
+~
+~
+Door 3 0 0 51202 0 0
+~
+~
+End
+
+#51202
+Name The Provisions Shop[0;37m~
+Descr
+The walls are filled with the mundane provisions any adventurer needs to
+explore the unknown, but which sometimes seem to get lost in the desire
+to go out and search for glory and gold. 
+~
+Flags 262148
+Sector 0
+Reset M 51207 1 100
+Reset O 206 0 25
+Reset M 51213 1 100
+Reset O 30 10 100
+Reset O 36 10 100
+Reset O 33 10 100
+Reset O 38 10 100
+Reset O 39 10 100
+Reset O 41 2 100
+Reset O 42 2 100
+Reset O 31 5 100
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 51201 0 0
+~
+~
+Door 2 0 0 51203 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+End
+
+#51203
+Name The Great Western Promenade~
+Descr
+You are travelling along the main western thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Visitors from
+all over frequent the many shops of this city naturally leaving a mess
+behind, much to the annoyance of the residents. The janitors attempt to
+keep it clean, but it is hard. 
+~
+Flags 262144
+Door 0 0 0 51202 0 0
+~
+~
+Door 1 0 0 51200 0 0
+~
+~
+Door 2 0 0 51204 0 0
+~
+~
+Door 3 0 0 51212 0 0
+~
+~
+End
+
+#51204
+Name The Bank of Crimson~
+Descr
+The back of your neck tingles as you enter this shop. The display cases
+are filled with magical items of every imaginable type. The owner is hard
+at work studying a new item she acquired, but she always has time for new
+customers. 
+~
+Flags 262148
+Sector 0
+Reset M 51207 1 100
+Reset O 206 0 25
+Reset M 51212 1 100
+Door 0 0 0 51203 0 0
+~
+~
+Door 1 0 0 51205 0 0
+~
+~
+End
+
+#51205
+Name The Great Southern Promenade~
+Descr
+This promenade leads from the marketplace to the south gate. This part of
+town is a little poorer than the northern end, as this is where most of
+the laborers live. The guards in this part of town are a little most
+suspicious of travellers, and the citizens shuffle along on their way
+without saying hello. The street itself is in fairly good repair, but
+cracks can be seen in the paving stones and the sides of buildings. 
+~
+Flags 262144
+Door 0 0 0 51200 0 0
+~
+~
+Door 1 0 0 51206 0 0
+~
+~
+Door 2 0 0 51233 0 0
+~
+~
+Door 3 0 0 51204 0 0
+~
+~
+End
+
+#51206
+Name The Crimson Armory~
+Descr
+As you enter the shop, you take in a deep breath and notice the smell of
+iron and steel amongst the hot air lingering around the room. Squatly
+constructed with a low ceiling and narrow walls, this little store has
+made its claim to fame as the only store in the region which sells any
+sort of armor at all. Many different styles of armor made from many
+different types of material line the walls and shelves of this shop. 
+~
+Flags 262148
+Sector 0
+Reset M 51207 1 100
+Reset O 206 0 25
+Reset M 51208 1 100
+Door 0 0 0 51207 0 0
+~
+~
+Door 3 0 0 51205 0 0
+~
+~
+End
+
+#51207
+Name The Great Eastern Promenade~
+Descr
+You are travelling along the main eastern thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Despite that,
+it still tends to get rather boisterous at night, especially with the
+Dwarf and Griffin in nearby. People greet you as you pass, and you know
+you are among friendly residents here. 
+~
+Flags 262144
+Door 0 0 0 51208 0 0
+~
+~
+Door 1 0 0 51209 0 0
+~
+~
+Door 2 0 0 51206 0 0
+~
+~
+Door 3 0 0 51200 0 0
+~
+~
+End
+
+#51208
+Name The House of Pain[0;37m~
+Descr
+This cluttered shop is clearly not the home of a master craftsman. The
+owner has evidently stopped caring about the appearance of his shop, and
+as such has started to let it fall into ruin. 
+~
+Flags 262148
+Sector 0
+Reset M 51207 1 100
+Reset O 206 0 25
+Reset M 51209 1 100
+Reset O 201 2 100
+Reset O 202 1 20
+Reset O 203 2 20
+Reset O 205 2 100
+Reset O 206 1 10
+Reset O 207 1 5
+Door 2 0 0 51207 0 0
+~
+~
+Door 3 0 0 51201 0 0
+~
+~
+End
+
+#51209
+Name The Great Eastern Promenade~
+Descr
+You are travelling along the main eastern thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Despite that,
+it still tends to get rather boisterous at night, especially with the
+Dwarf and Griffin in nearby. People greet you as you pass, and you know
+you are among friendly residents here. 
+~
+Flags 262144
+Reset M 51205 1 100
+Door 0 0 0 51210 0 0
+~
+~
+Door 1 0 0 51221 0 0
+~
+~
+Door 2 0 0 51211 0 0
+~
+~
+Door 3 0 0 51207 0 0
+~
+~
+End
+
+#51210
+Name Thargon's Treasures~
+Descr
+The security here is the most severe you have ever seen. It is clear that
+Thargon feels his little treasures are such a tempatation that he will
+take no chances with miscreants. He eyes you with contempt as he 
+examines a new broach he has just bought to get the highest price he can 
+for it.
+~
+Flags 262148
+Sector 0
+Reset M 51207 1 100
+Reset O 206 0 25
+Reset M 51210 1 100
+Door 2 0 0 51209 0 0
+~
+~
+End
+
+#51211
+Name Des'Tra's Gems~
+Descr
+Des'Tra smiles broadly as you enter, but perhaps that is just because
+demons do not have teeth. The shop has several examples of fine magical
+gems floating (literally) around which Des'Tra will be happy to let 
+you inspect.
+~
+Flags 262148
+Sector 0
+Reset M 51207 1 100
+Reset O 206 0 25
+Reset M 51211 1 100
+Door 0 0 0 51209 0 0
+~
+~
+End
+
+#51212
+Name The Great Western Promenade~
+Descr
+You are travelling along the main western thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Visitors from
+all over frequent the many shops of this city naturally leaving a mess
+behind, much to the annoyance of the residents. The janitors attempt to
+keep it clean, but it is hard. 
+~
+Flags 262144
+Reset M 51205 1 100
+Door 0 0 0 51213 0 0
+~
+~
+Door 1 0 0 51203 0 0
+~
+~
+Door 2 0 0 51214 0 0
+~
+~
+Door 3 0 0 51215 0 0
+~
+~
+End
+
+#51213
+Name Skrag's Potion Shop~
+Descr
+The stench of ammonia and chlorine assault your senses as Skrag works
+on preparing another concoction. He waves you toward the display case
+with many bottles containing all manner of fizzing, bubbling potions
+in every color of the rainbow.
+~
+Flags 262148
+Sector 0
+Reset M 51207 1 100
+Reset O 206 0 25
+Reset M 51214 1 100
+Door 2 0 0 51212 0 0
+~
+~
+End
+
+#51214
+Name Urial's Bakery~
+Descr
+MMMmmMMM, now this smells GREAT! You consider yourself lucky to live
+in this part of the world, where you can just stop by and get all kinds
+of breads and pastries from Urial which will keep you fat and happy
+for days to come.
+~
+Flags 262148
+Sector 0
+Reset M 51207 1 100
+Reset O 206 0 25
+Reset M 51215 1 100
+Reset O 37 20 100
+Reset O 35 20 100
+Reset O 50 20 100
+Door 0 0 0 51212 0 0
+~
+~
+End
+
+#51215
+Name The Great Western Promenade~
+Descr
+You are travelling along the main western thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Visitors from
+all over frequent the many shops of this city naturally leaving a mess
+behind, much to the annoyance of the residents. The janitors attempt to
+keep it clean, but it is hard. 
+~
+Flags 262144
+Reset M 51218 1 100
+Door 1 0 0 51212 0 0
+~
+~
+Door 2 3 0 51324 30 30
+~
+door~
+Door 3 0 0 51216 0 0
+~
+~
+End
+
+#51216
+Name The Great Western Promenade~
+Descr
+You are travelling along the main western thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Visitors from
+all over frequent the many shops of this city naturally leaving a mess
+behind, much to the annoyance of the residents. The janitors attempt to
+keep it clean, but it is hard. 
+~
+Flags 262144
+Door 0 0 0 51245 0 0
+~
+~
+Door 1 0 0 51215 0 0
+~
+~
+Door 2 0 0 51217 0 0
+~
+~
+Door 3 3 0 51322 30 30
+The door to the training center is closed.
+~
+door~
+End
+
+#51217
+Name The Great Western Promenade~
+Descr
+You are travelling along the main western thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Visitors from
+all over frequent the many shops of this city naturally leaving a mess
+behind, much to the annoyance of the residents. The janitors attempt to
+keep it clean, but it is hard. 
+~
+Flags 262144
+Door 0 0 0 51216 0 0
+~
+~
+Door 1 0 0 0 0 0
+~
+~
+Door 2 0 0 51218 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+End
+
+#51218
+Name The Great Western Promenade~
+Descr
+You are travelling along the main western thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Visitors from
+all over frequent the many shops of this city naturally leaving a mess
+behind, much to the annoyance of the residents. The janitors attempt to
+keep it clean, but it is hard. 
+~
+Flags 262144
+Reset M 51205 1 100
+Door 0 0 0 51217 0 0
+~
+~
+Door 1 0 0 0 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51219 0 0
+~
+~
+End
+
+#51219
+Name The Great Western Promenade~
+Descr
+You are travelling along the main western thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Visitors from
+all over frequent the many shops of this city naturally leaving a mess
+behind, much to the annoyance of the residents. The janitors attempt to
+keep it clean, but it is hard. 
+~
+Flags 262144
+Reset M 51206 1 50
+Door 0 3 0 51325 30 30
+~
+door~
+Door 1 0 0 51218 0 0
+~
+~
+Door 2 0 0 51244 0 0
+~
+~
+Door 3 0 0 51220 0 0
+~
+~
+End
+
+#51220
+Name The Great Western Gate of Crimson~
+Descr
+You are standing at the western gate of Crimson. Well trained guards
+ignore your presence being accustomed to many different travellers that
+wander through these gates. The sounds of the city are inviting after a
+long day, and you wish to follow the others into the city. 
+~
+Flags 262144
+Reset M 51201 3 100
+Reset M 51201 3 100
+Reset M 51201 3 100
+Door 1 0 0 51219 0 0
+~
+~
+Door 3 0 0 51337 0 0
+~
+~
+End
+
+#51221
+Name The Great Eastern Promenade~
+Descr
+You are travelling along the main eastern thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Despite that,
+it still tends to get rather boisterous at night, especially with the
+Dwarf and Griffin in nearby. People greet you as you pass, and you know
+you are among friendly residents here. 
+~
+Flags 262144
+Door 0 3 0 51361 30 30
+~
+door~
+Door 1 0 0 51222 0 0
+~
+~
+Door 2 3 0 51303 30 30
+~
+door~
+Door 3 0 0 51209 0 0
+~
+~
+End
+
+#51222
+Name The Eastern Promenade~
+Descr
+You are travelling along the main eastern thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Despite that,
+it still tends to get rather boisterous at night, especially with the
+Dwarf and Griffin in nearby. People greet you as you pass, and you know
+you are among friendly residents here. 
+~
+Flags 262144
+Door 0 0 0 51223 0 0
+~
+~
+Door 1 0 0 0 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51221 0 0
+~
+~
+End
+
+#51223
+Name The Great Eastern Promenade~
+Descr
+You are travelling along the main eastern thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Despite that,
+it still tends to get rather boisterous at night, especially with the
+Dwarf and Griffin in nearby. People greet you as you pass, and you know
+you are among friendly residents here. 
+~
+Flags 262144
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 51224 0 0
+~
+~
+Door 2 0 0 51222 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+End
+
+#51224
+Name The Great Eastern Promenade~
+Descr
+You are travelling along the main eastern thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Despite that,
+it still tends to get rather boisterous at night, especially with the
+Dwarf and Griffin in nearby. People greet you as you pass, and you know
+you are among friendly residents here. 
+~
+Flags 262144
+Reset M 51218 1 100
+Reset M 51206 1 50
+Door 0 0 0 51259 0 0
+~
+~
+Door 1 0 0 51225 0 0
+~
+~
+Door 3 0 0 51223 0 0
+~
+~
+End
+
+#51225
+Name The Great Eastern Promenade~
+Descr
+You are travelling along the main eastern thoroughfare in Crimson. The
+cityguards can be seen patrolling the streets at all hours. Despite that,
+it still tends to get rather boisterous at night, especially with the
+Dwarf and Griffin in nearby. People greet you as you pass, and you know
+you are among friendly residents here. 
+~
+Flags 262144
+Reset M 51205 1 100
+Door 1 0 1406 51226 57 57
+~
+door~
+Door 2 0 0 51260 0 0
+~
+~
+Door 3 0 0 51224 0 0
+~
+~
+End
+
+#51226
+Name The Great Eastern Gate of Crimson~
+Descr
+You are standing at the eastern gate of Crimson. Well trained guards
+ignore your presence being accustomed to many different travellers that
+wander through these gates. The sounds of the city are inviting after a
+long day, and you wish to follow the others into the city. 
+~
+Flags 262144
+Reset M 51202 3 100
+Reset M 51202 3 100
+Reset M 51202 3 100
+Door 1 0 0 51345 0 0
+~
+~
+Door 3 0 1406 51225 57 57
+~
+door~
+End
+
+#51227
+Name The Great Northern Promenade~
+Descr
+This road leads north out of the marketplace, and past the mayor's
+house. It is in the richer part of town, as this is where the merchants
+live with their families. The lampposts beside the road are bedecked
+with bunting and flowers for some sort of festival which always seems
+to be happening here.
+~
+Flags 262144
+Reset M 51205 1 100
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 51228 0 0
+~
+~
+Door 2 0 0 51201 0 0
+~
+~
+Door 3 3 0 51310 30 30
+~
+door~
+End
+
+#51228
+Name The Great Northern Promenade~
+Descr
+This road leads north out of the marketplace, and past the mayor's
+house. It is in the richer part of town, as this is where the merchants
+live with their families. The lampposts beside the road are bedecked
+with bunting and flowers for some sort of festival which always seems
+to be happening here.
+~
+Flags 262144
+Door 0 0 0 51229 0 0
+~
+~
+Door 1 0 0 0 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51227 0 0
+~
+~
+End
+
+#51229
+Name The Great Northern Promenade~
+Descr
+This road leads north out of the marketplace, and past the mayor's
+house. It is in the richer part of town, as this is where the merchants
+live with their families. The lampposts beside the road are bedecked
+with bunting and flowers for some sort of festival which always seems
+to be happening here.
+~
+Flags 262144
+Reset M 51218 1 100
+Reset M 51216 1 100
+Door 0 0 0 51230 0 0
+~
+~
+Door 1 3 0 51280 30 30
+~
+door~
+Door 2 0 0 51228 0 0
+~
+~
+End
+
+#51230
+Name The Great Northern Promenade~
+Descr
+This road leads north out of the marketplace, and past the mayor's
+house. It is in the richer part of town, as this is where the merchants
+live with their families. The lampposts beside the road are bedecked
+with bunting and flowers for some sort of festival which always seems
+to be happening here.
+~
+Flags 262144
+Reset M 51217 1 100
+Reset M 51206 1 50
+Door 0 0 0 51231 0 0
+~
+~
+Door 2 0 0 51229 0 0
+~
+~
+Door 3 0 0 51252 0 0
+~
+~
+End
+
+#51231
+Name The Great Northern Promenade~
+Descr
+This road leads north out of the marketplace, and past the mayor's
+house. It is in the richer part of town, as this is where the merchants
+live with their families. The lampposts beside the road are bedecked
+with bunting and flowers for some sort of festival which always seems
+to be happening here.
+~
+Flags 262144
+Reset M 51205 1 100
+Door 0 0 0 51232 0 0
+~
+~
+Door 1 0 0 51253 0 0
+~
+~
+Door 2 0 0 51230 0 0
+~
+~
+Door 3 3 0 51309 30 30
+~
+door~
+End
+
+#51232
+Name The Great Northern Gate of Crimson~
+Descr
+You are standing at the northern gate of Crimson. Well trained guards
+ignore your presence being accustomed to many different travellers that
+wander through these gates. The sounds of the city are inviting after a
+long day, and you wish to follow the others into the city. 
+~
+Flags 262144
+Reset M 51203 3 100
+Reset M 51203 3 100
+Reset M 51203 3 100
+Door 2 0 0 51231 0 0
+~
+~
+End
+
+#51233
+Name The Great Southern Promenade~
+Descr
+This promenade leads from the marketplace to the south gate. This part of
+town is a little poorer than the northern end, as this is where most of
+the laborers live. The guards in this part of town are a little most
+suspicious of travellers, and the citizens shuffle along on their way
+without saying hello. The street itself is in fairly good repair, but
+cracks can be seen in the paving stones and the sides of buildings. 
+~
+Flags 262144
+Reset M 51205 1 100
+Door 0 0 0 51205 0 0
+~
+~
+Door 1 3 0 51294 30 30
+~
+door~
+Door 2 0 0 51234 0 0
+~
+~
+Door 3 3 0 51373 34 34
+~
+door~
+End
+
+#51234
+Name The Great Southern Promenade~
+Descr
+This promenade leads from the marketplace to the south gate. This part of
+town is a little poorer than the northern end, as this is where most of
+the laborers live. The guards in this part of town are a little most
+suspicious of travellers, and the citizens shuffle along on their way
+without saying hello. The street itself is in fairly good repair, but
+cracks can be seen in the paving stones and the sides of buildings. 
+~
+Flags 262144
+Door 0 0 0 51233 0 0
+~
+~
+Door 1 0 0 51270 0 0
+~
+~
+Door 2 0 0 51235 0 0
+~
+~
+End
+
+#51235
+Name The Great Southern Promenade~
+Descr
+This promenade leads from the marketplace to the south gate. This part of
+town is a little poorer than the northern end, as this is where most of
+the laborers live. The guards in this part of town are a little most
+suspicious of travellers, and the citizens shuffle along on their way
+without saying hello. The street itself is in fairly good repair, but
+cracks can be seen in the paving stones and the sides of buildings. 
+~
+Flags 262144
+Door 0 0 0 51234 0 0
+~
+~
+Door 1 3 0 51390 34 34
+The Promenade turns north.
+~
+door~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51236 0 0
+~
+~
+End
+
+#51236
+Name The Great Southern Promenade~
+Descr
+This promenade leads from the marketplace to the south gate. This part of
+town is a little poorer than the northern end, as this is where most of
+the laborers live. The guards in this part of town are a little most
+suspicious of travellers, and the citizens shuffle along on their way
+without saying hello. The street itself is in fairly good repair, but
+cracks can be seen in the paving stones and the sides of buildings. 
+~
+Flags 262144
+Reset M 51216 1 100
+Door 0 3 0 51291 30 30
+~
+door~
+Door 1 0 0 51235 0 0
+~
+~
+Door 2 3 0 51292 30 30
+~
+door~
+Door 3 0 0 51237 0 0
+~
+~
+End
+
+#51237
+Name The Great Southern Promenade~
+Descr
+This promenade leads from the marketplace to the south gate. This part of
+town is a little poorer than the northern end, as this is where most of
+the laborers live. The guards in this part of town are a little most
+suspicious of travellers, and the citizens shuffle along on their way
+without saying hello. The street itself is in fairly good repair, but
+cracks can be seen in the paving stones and the sides of buildings. 
+~
+Flags 262144
+Reset M 51206 1 50
+Door 0 0 0 51288 0 0
+~
+~
+Door 1 0 0 51236 0 0
+~
+~
+Door 2 0 0 51238 0 0
+~
+~
+Door 3 3 0 51328 30 30
+The door to a small house blocks the way.
+~
+door~
+End
+
+#51238
+Name The Great Southern Promenade~
+Descr
+This promenade leads from the marketplace to the south gate. This part of
+town is a little poorer than the northern end, as this is where most of
+the laborers live. The guards in this part of town are a little most
+suspicious of travellers, and the citizens shuffle along on their way
+without saying hello. The street itself is in fairly good repair, but
+cracks can be seen in the paving stones and the sides of buildings. 
+~
+Flags 262144
+Reset M 51205 1 100
+Door 0 0 0 51237 0 0
+~
+~
+Door 2 0 0 51239 0 0
+~
+~
+Door 3 0 0 51240 0 0
+~
+~
+End
+
+#51239
+Name The Great Southern Gate of Crimson~
+Descr
+You are standing at the southern gate of Crimson. Well trained guards
+ignore your presence being accustomed to many different travellers that
+wander through these gates. The sounds of the city are inviting after a
+long day, and you wish to follow the others into the city. 
+~
+Flags 262144
+Reset M 51204 3 100
+Reset M 51204 3 100
+Reset M 51204 3 100
+Door 0 0 0 51238 0 0
+~
+~
+End
+
+#51240
+Name A Dirty Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 1 0 0 51238 0 0
+~
+~
+Door 3 0 0 51241 0 0
+~
+~
+End
+
+#51241
+Name A Dirty Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Reset M 51216 1 100
+Door 0 0 0 51242 0 0
+~
+~
+Door 1 0 0 51240 0 0
+~
+~
+Door 3 3 0 51327 30 30
+~
+door~
+End
+
+#51242
+Name A Dirty Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 3 0 51326 30 30
+~
+door~
+Door 2 0 0 51241 0 0
+~
+~
+Door 3 0 0 51243 0 0
+~
+~
+End
+
+#51243
+Name A Dirty Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 0 0 51244 0 0
+~
+~
+Door 1 0 0 51242 0 0
+~
+~
+End
+
+#51244
+Name A Dirty Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Reset M 51217 1 100
+Door 0 0 0 51219 0 0
+~
+~
+Door 2 0 0 51243 0 0
+~
+~
+End
+
+#51245
+Name A Twisty, Smelly Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals, and possibly people,
+littering the alley at intervals. The feral dogs give you a wide berth,
+but they would probably not hesitate to attack if they had sufficient
+numbers. 
+~
+Flags 262144
+Door 0 0 0 51246 0 0
+~
+~
+Door 1 3 0 51321 30 30
+~
+door~
+Door 2 0 0 51216 0 0
+~
+~
+End
+
+#51246
+Name A Twisty, Smelly Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals, and possibly people,
+littering the alley at intervals. The feral dogs give you a wide berth,
+but they would probably not hesitate to attack if they had sufficient
+numbers. 
+~
+Flags 262144
+Reset M 51216 1 100
+Door 0 0 0 51247 0 0
+~
+~
+Door 1 3 0 51320 30 30
+~
+door~
+Door 2 0 0 51245 0 0
+~
+~
+Door 3 3 0 51319 30 30
+~
+door~
+End
+
+#51247
+Name A Twisty, Smelly Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals, and possibly people,
+littering the alley at intervals. The feral dogs give you a wide berth,
+but they would probably not hesitate to attack if they had sufficient
+numbers. 
+~
+Flags 262144
+Door 1 0 0 51248 0 0
+~
+~
+Door 2 0 0 51246 0 0
+~
+~
+Door 3 0 0 51275 0 0
+~
+~
+End
+
+#51248
+Name A Twisty, Smelly Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals, and possibly people,
+littering the alley at intervals. The feral dogs give you a wide berth,
+but they would probably not hesitate to attack if they had sufficient
+numbers. 
+~
+Flags 262144
+Door 0 3 0 51317 30 30
+~
+door~
+Door 1 0 0 51249 0 0
+~
+~
+Door 3 0 0 51247 0 0
+~
+~
+End
+
+#51249
+Name A Twisty, Smelly Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals, and possibly people,
+littering the alley at intervals. The feral dogs give you a wide berth,
+but they would probably not hesitate to attack if they had sufficient
+numbers. 
+~
+Flags 262144
+Door 0 0 0 51250 0 0
+~
+~
+Door 2 3 0 51316 30 30
+~
+door~
+Door 3 0 0 51248 0 0
+~
+~
+End
+
+#51250
+Name A Twisty, Smelly Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals, and possibly people,
+littering the alley at intervals. The feral dogs give you a wide berth,
+but they would probably not hesitate to attack if they had sufficient
+numbers. 
+~
+Flags 262144
+Door 0 3 0 51315 30 30
+~
+door~
+Door 1 0 0 51251 0 0
+~
+~
+Door 2 0 0 51249 0 0
+~
+~
+End
+
+#51251
+Name A Twisty, Smelly Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals, and possibly people,
+littering the alley at intervals. The feral dogs give you a wide berth,
+but they would probably not hesitate to attack if they had sufficient
+numbers. 
+~
+Flags 262144
+Reset M 51216 1 100
+Door 0 3 0 51313 30 30
+~
+door~
+Door 1 0 0 51252 0 0
+~
+~
+Door 2 3 0 51314 30 30
+~
+door~
+Door 3 0 0 51250 0 0
+~
+~
+End
+
+#51252
+Name A Twisty, Smelly Alleyway~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals, and possibly people,
+littering the alley at intervals. The feral dogs give you a wide berth,
+but they would probably not hesitate to attack if they had sufficient
+numbers. 
+~
+Flags 262144
+Door 1 0 0 51230 0 0
+~
+~
+Door 2 3 0 51311 30 30
+~
+door~
+Door 3 0 0 51251 0 0
+~
+~
+End
+
+#51253
+Name A Small, Dark Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 3 0 51389 30 30
+~
+door~
+Door 1 0 0 51254 0 0
+~
+~
+Door 3 0 0 51231 0 0
+~
+~
+End
+
+#51254
+Name A Small, Dark Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Reset M 51217 1 100
+Door 1 0 0 51255 0 0
+~
+~
+Door 3 0 0 51253 0 0
+~
+~
+End
+
+#51255
+Name A Small, Dark Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Reset M 51216 1 100
+Door 1 3 0 51308 30 30
+~
+door~
+Door 2 0 0 51256 0 0
+~
+~
+Door 3 0 0 51254 0 0
+~
+~
+End
+
+#51256
+Name A Small, Dark Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 0 0 51255 0 0
+~
+~
+Door 2 0 0 51257 0 0
+~
+~
+End
+
+#51257
+Name A Small, Dark Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 0 0 51256 0 0
+~
+~
+Door 1 0 0 51258 0 0
+~
+~
+Door 2 3 0 51307 30 30
+~
+door~
+End
+
+#51258
+Name A Small, Dark Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 3 0 51306 30 30
+~
+door~
+Door 1 3 0 51305 30 30
+~
+door~
+Door 2 0 0 51259 0 0
+~
+~
+Door 3 0 0 51257 0 0
+~
+~
+End
+
+#51259
+Name A Small, Dark Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Reset M 51216 1 100
+Door 0 0 0 51258 0 0
+~
+~
+Door 1 3 0 51304 30 30
+~
+door~
+Door 2 0 0 51224 0 0
+~
+~
+End
+
+#51260
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 0 0 51225 0 0
+~
+~
+Door 2 0 0 51261 0 0
+~
+~
+Door 3 0 0 51286 0 0
+~
+~
+End
+
+#51261
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Reset M 51216 1 100
+Door 0 0 0 51260 0 0
+~
+~
+Door 2 0 0 51262 0 0
+~
+~
+Door 3 0 0 51287 0 0
+~
+~
+End
+
+#51262
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 0 0 51261 0 0
+~
+~
+Door 3 0 0 51263 0 0
+~
+~
+End
+
+#51263
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 1 0 0 51262 0 0
+~
+~
+Door 2 3 0 51302 100 100
+~
+door~
+Door 3 0 0 51264 0 0
+~
+~
+End
+
+#51264
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 3 0 51301 30 30
+~
+door~
+Door 1 0 0 51263 0 0
+~
+~
+Door 2 0 0 51265 0 0
+~
+~
+Door 3 3 0 51300 30 30
+~
+door~
+End
+
+#51265
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Reset M 51216 1 100
+Door 0 0 0 51264 0 0
+~
+~
+Door 2 0 0 51266 0 0
+~
+~
+Door 3 3 0 51299 30 30
+~
+door~
+End
+
+#51266
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 0 0 51265 0 0
+~
+~
+Door 1 0 0 51271 0 0
+~
+~
+Door 2 3 0 51297 30 30
+~
+door~
+Door 3 0 0 51267 0 0
+~
+~
+End
+
+#51267
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 1 0 0 51266 0 0
+~
+~
+Door 3 0 0 51268 0 0
+~
+~
+End
+
+#51268
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 0 0 51269 0 0
+~
+~
+Door 1 0 0 51267 0 0
+~
+~
+Door 2 3 0 51296 30 30
+~
+door~
+End
+
+#51269
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 3 0 51295 30 30
+~
+door~
+Door 2 0 0 51268 0 0
+~
+~
+Door 3 0 0 51270 0 0
+~
+~
+End
+
+#51270
+Name A Cluttered Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Reset M 51217 1 100
+Door 1 0 0 51269 0 0
+~
+~
+Door 3 0 0 51234 0 0
+~
+~
+End
+
+#51271
+Name An Ancient Courtyard~
+Descr
+This ancient courtyard used to be a marketplace before the city grew. The
+fading paint of ancient merchant stalls can still be seen adorning the walls
+of the makeshift shacks back here. You wonder if they ever got sewers in
+this part of town, as the stench of urine is almost enough to make you throw
+up. 
+ 
+~
+Flags 262144
+Reset M 51230 1 100
+Door 1 0 0 51272 0 0
+~
+~
+Door 2 0 0 51273 0 0
+~
+~
+Door 3 0 0 51266 0 0
+~
+~
+End
+
+#51272
+Name An Ancient Courtyard~
+Descr
+This ancient courtyard used to be a marketplace before the city grew. The
+fading paint of ancient merchant stalls can still be seen adorning the walls
+of the makeshift shacks back here. You wonder if they ever got sewers in
+this part of town, as the stench of urine is almost enough to make you throw
+up. 
+ 
+~
+Flags 262144
+Door 0 3 0 51298 30 30
+~
+door~
+Door 2 0 0 51274 0 0
+~
+~
+Door 3 0 0 51271 0 0
+~
+~
+End
+
+#51273
+Name An Ancient Courtyard~
+Descr
+This ancient courtyard used to be a marketplace before the city grew. The
+fading paint of ancient merchant stalls can still be seen adorning the walls
+of the makeshift shacks back here. You wonder if they ever got sewers in
+this part of town, as the stench of urine is almost enough to make you throw
+up. 
+ 
+~
+Flags 262144
+Door 0 0 0 51271 0 0
+~
+~
+Door 1 0 0 51274 0 0
+~
+~
+End
+
+#51274
+Name An Ancient Courtyard~
+Descr
+This ancient courtyard used to be a marketplace before the city grew. The
+fading paint of ancient merchant stalls can still be seen adorning the walls
+of the makeshift shacks back here. You wonder if they ever got sewers in
+this part of town, as the stench of urine is almost enough to make you throw
+up. 
+ 
+~
+Flags 262144
+Reset M 51229 1 100
+Reset O 202 0 10
+Reset O 51203 0 50
+Door 0 0 0 51272 0 0
+~
+~
+Door 3 0 0 51273 0 0
+~
+~
+End
+
+#51275
+Name A Stinky Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals, and possibly people,
+littering the alley at intervals. The feral dogs give you a wide berth,
+but they would probably not hesitate to attack if they had sufficient
+numbers. 
+~
+Flags 262144
+Door 0 0 0 51276 0 0
+~
+~
+Door 1 0 0 51247 0 0
+~
+~
+End
+
+#51276
+Name An Old Market~
+Descr
+This ancient courtyard used to be the central market. It has fallen into
+disrepair, and now the only things that live here are the rats and the
+poorest of the poor. 
+~
+Flags 262144
+Door 0 0 0 51277 0 0
+~
+~
+Door 1 0 0 51279 0 0
+~
+~
+Door 2 0 0 51275 0 0
+~
+~
+End
+
+#51277
+Name An Old Market~
+Descr
+This ancient courtyard used to be the central market. It has fallen into
+disrepair, and now the only things that live here are the rats and the
+poorest of the poor. 
+~
+Flags 262144
+Reset M 51229 1 100
+Reset O 202 0 10
+Reset O 51203 0 50
+Door 1 0 0 51278 0 0
+~
+~
+Door 2 0 0 51276 0 0
+~
+~
+End
+
+#51278
+Name An Old Market~
+Descr
+This ancient courtyard used to be the central market. It has fallen into
+disrepair, and now the only things that live here are the rats and the
+poorest of the poor. 
+~
+Flags 262144
+Door 1 3 0 51318 35 35
+~
+door~
+Door 2 0 0 51279 0 0
+~
+~
+Door 3 0 0 51277 0 0
+~
+~
+End
+
+#51279
+Name An Old Market~
+Descr
+This ancient courtyard used to be the central market. It has fallen into
+disrepair, and now the only things that live here are the rats and the
+poorest of the poor. 
+~
+Flags 262144
+Reset M 51230 1 100
+Reset O 202 0 10
+Reset O 51203 0 50
+Door 0 0 0 51278 0 0
+~
+~
+Door 3 0 0 51276 0 0
+~
+~
+End
+
+#51280
+Name The Mayor's House~
+Descr
+This magnificicent mansion overlooks the rich part of town. From here,
+the mayor directs his army to keep the peace over Crimson. The house
+itself looks to have all the trappings of luxury, but in times of
+need it actually doubles as a fairly sturdy fortress. It is from
+here that the mayor may direct the affairs of the city.
+~
+Flags 262148
+Sector 0
+Reset M 51232 1 100
+Reset O 500 -1 5
+Reset M 51233 3 100
+Reset M 51233 3 100
+Reset M 51233 3 100
+Door 0 0 0 51281 0 0
+~
+~
+Door 1 0 0 51283 0 0
+~
+~
+Door 2 0 0 51285 0 0
+~
+~
+Door 3 3 0 51229 30 30
+~
+door~
+End
+
+#51281
+Name The Mayor's House~
+Descr
+This magnificicent mansion overlooks the rich part of town. From here,
+the mayor directs his army to keep the peace over Crimson. The house
+itself looks to have all the trappings of luxury, but in times of
+need it actually doubles as a fairly sturdy fortress. It is from
+here that the mayor may direct the affairs of the city.
+~
+Flags 262148
+Sector 0
+Door 2 0 0 51280 0 0
+~
+~
+End
+
+#51282
+Name The Mayor's House~
+Descr
+This magnificicent mansion overlooks the rich part of town. From here,
+the mayor directs his army to keep the peace over Crimson. The house
+itself looks to have all the trappings of luxury, but in times of
+need it actually doubles as a fairly sturdy fortress. It is from
+here that the mayor may direct the affairs of the city.
+~
+Flags 262148
+Sector 0
+Door 2 3 0 51283 30 30
+~
+door~
+End
+
+#51283
+Name The Mayor's House~
+Descr
+This magnificicent mansion overlooks the rich part of town. From here,
+the mayor directs his army to keep the peace over Crimson. The house
+itself looks to have all the trappings of luxury, but in times of
+need it actually doubles as a fairly sturdy fortress. It is from
+here that the mayor may direct the affairs of the city.
+~
+Flags 262148
+Sector 0
+Door 0 3 0 51282 30 30
+~
+door~
+Door 2 0 0 51284 0 0
+~
+~
+Door 3 0 0 51280 0 0
+~
+~
+End
+
+#51284
+Name The Mayor's House~
+Descr
+This magnificicent mansion overlooks the rich part of town. From here,
+the mayor directs his army to keep the peace over Crimson. The house
+itself looks to have all the trappings of luxury, but in times of
+need it actually doubles as a fairly sturdy fortress. It is from
+here that the mayor may direct the affairs of the city.
+~
+Flags 262148
+Sector 0
+Reset M 51234 1 100
+Door 0 0 0 51283 0 0
+~
+~
+Door 3 0 0 51285 0 0
+~
+~
+End
+
+#51285
+Name The Mayor's House~
+Descr
+This magnificicent mansion overlooks the rich part of town. From here,
+the mayor directs his army to keep the peace over Crimson. The house
+itself looks to have all the trappings of luxury, but in times of
+need it actually doubles as a fairly sturdy fortress. It is from
+here that the mayor may direct the affairs of the city.
+~
+Flags 262148
+Sector 0
+Door 0 0 0 51280 0 0
+~
+~
+Door 1 0 0 51284 0 0
+~
+~
+End
+
+#51286
+Name A Small Courtyard~
+Descr
+This small courtyard used to be a mustering point for the militia.
+Now it has been abandoned and is a mustering point for rats and
+other vermin.
+~
+Flags 262144
+Door 1 0 0 51260 0 0
+~
+~
+Door 2 0 0 51287 0 0
+~
+~
+End
+
+#51287
+Name A Small Courtyard~
+Descr
+This small courtyard used to be a mustering point for the militia.
+Now it has been abandoned and is a mustering point for rats and
+other vermin.
+~
+Flags 262144
+Door 0 0 0 51286 0 0
+~
+~
+Door 1 0 0 51261 0 0
+~
+~
+End
+
+#51288
+Name A Short Alley~
+Descr
+This small, dirty alley looks like it could use a good cleaning. You
+notice there are decaying bodies of animals (and possibly people)
+littering the alley at intervals. The feral dogs give you a wide
+berth, but they would probably not hesitate to attack if they had
+sufficient numbers.
+~
+Flags 262144
+Door 0 3 0 51290 30 30
+~
+door~
+Door 2 0 0 51237 0 0
+~
+~
+Door 3 3 0 51289 30 30
+~
+door~
+End
+
+#51289
+Name A Tiny Shack~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Door 1 3 0 51288 30 30
+~
+door~
+End
+
+#51290
+Name A House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51218 1 100
+Reset M 51224 1 100
+Door 2 3 0 51288 30 30
+~
+door~
+End
+
+#51291
+Name A Neglected House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51218 1 100
+Door 2 3 0 51236 30 30
+~
+door~
+End
+
+#51292
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Door 0 3 0 51236 30 30
+~
+door~
+End
+
+#51293
+Name A House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51225 1 100
+Door 2 0 0 51309 0 0
+~
+~
+End
+
+#51294
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Door 3 3 0 51233 30 30
+~
+door~
+End
+
+#51295
+Name A Tiny Shack~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Door 2 3 0 51269 30 30
+~
+door~
+End
+
+#51296
+Name A House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51224 1 100
+Door 0 3 0 51268 30 30
+~
+door~
+End
+
+#51297
+Name A Neglected House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Door 0 3 0 51266 30 30
+~
+door~
+End
+
+#51298
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Door 2 3 0 51272 30 30
+~
+door~
+End
+
+#51299
+Name A Small House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51225 1 100
+Door 1 3 0 51265 30 30
+~
+door~
+End
+
+#51300
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Door 1 3 0 51264 30 30
+~
+door~
+End
+
+#51301
+Name A Tiny Shack~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Door 2 3 0 51264 30 30
+~
+door~
+End
+
+#51302
+Name A House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51224 1 100
+Door 0 3 0 51263 100 100
+~
+door~
+End
+
+#51303
+Name A Large House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51218 1 100
+Door 0 3 0 51221 30 30
+~
+door~
+End
+
+#51304
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Door 3 3 0 51259 30 30
+~
+door~
+End
+
+#51305
+Name A House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51225 1 100
+Door 0 0 0 51312 0 0
+~
+~
+Door 3 3 0 51258 30 30
+~
+door~
+End
+
+#51306
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Door 2 3 0 51258 30 30
+~
+door~
+End
+
+#51307
+Name A Tiny Shack~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Door 0 3 0 51257 30 30
+~
+door~
+End
+
+#51308
+Name A House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Reset M 51224 1 100
+Door 3 3 0 51255 30 30
+~
+door~
+End
+
+#51309
+Name A Neglected House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Door 0 0 0 51293 0 0
+~
+~
+Door 1 3 0 51231 30 30
+~
+door~
+End
+
+#51310
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51218 1 100
+Door 1 3 0 51227 30 30
+~
+door~
+End
+
+#51311
+Name A Small House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51225 1 100
+Door 0 3 0 51252 30 30
+~
+door~
+End
+
+#51312
+Name A House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Door 2 0 0 51305 0 0
+~
+~
+End
+
+#51313
+Name A Tinker's House~
+Descr
+This small house is filled with clutter and inventions which the tinker
+makes in his spare time. The walls are covered with tubes and pipes and
+other things used to make little gadgets. 
+~
+Flags 262148
+Sector 0
+Door 2 3 0 51251 30 30
+~
+door~
+End
+
+#51314
+Name A House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51224 1 100
+Door 0 3 0 51251 30 30
+~
+door~
+End
+
+#51315
+Name A Neglected House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Door 2 3 0 51250 30 30
+~
+door~
+End
+
+#51316
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Door 0 3 0 51249 30 30
+~
+door~
+End
+
+#51317
+Name A Small Shack~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51225 1 100
+Door 2 3 0 51248 30 30
+~
+door~
+End
+
+#51318
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51238 1 100
+Reset O 31377 -1 1
+Reset O 24 -1 3
+Door 3 3 0 51278 35 35
+~
+door~
+End
+
+#51319
+Name A Tiny Shack~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Door 1 3 0 51246 30 30
+~
+door~
+End
+
+#51320
+Name A House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51224 1 100
+Door 3 3 0 51246 30 30
+~
+door~
+End
+
+#51321
+Name A Neglected House~
+Descr
+This small home lacks most of the amenities one would desire, but its
+inhabitants get by. There is really nothing of value, just a few simple
+cooking supplies and furniture. The only thing of intrest is a large
+trapdoor on the ground. 
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Door 3 3 0 51245 30 30
+~
+door~
+Door 5 0 0 0 0 0
+~
+~
+End
+
+#51322
+Name The Cityguard Training Center~
+Descr
+This the main training center the mayor uses to keep his troops fresh,
+and to train new recruits. The smell of sweat makes you gag, and you must
+tread lightly to avoid getting stabbed with a sword in the hands of a
+novice. 
+~
+Flags 262144
+Sector 0
+Reset M 51231 1 100
+Door 0 0 0 51323 0 0
+~
+~
+Door 1 3 0 51216 30 30
+~
+door~
+Door 3 0 0 51387 0 0
+~
+~
+End
+
+#51323
+Name The Cityguard Training Center~
+Descr
+This the main training center the mayor uses to keep his troops fresh,
+and to train new recruits. The smell of sweat makes you gag, and you must
+tread lightly to avoid getting stabbed with a sword in the hands of a
+novice. 
+~
+Flags 262144
+Sector 0
+Reset M 51231 1 100
+Door 2 0 0 51322 0 0
+~
+~
+Door 3 0 0 51388 0 0
+~
+~
+End
+
+#51324
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Door 0 3 0 51215 30 30
+~
+door~
+End
+
+#51325
+Name A Small House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Door 2 3 0 51219 30 30
+~
+door~
+End
+
+#51326
+Name A House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Reset M 51224 1 100
+Door 2 3 0 51242 30 30
+~
+door~
+End
+
+#51327
+Name A Neglected House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Reset M 51217 1 100
+Door 1 3 0 51241 30 30
+~
+door~
+End
+
+#51328
+Name A Small House~
+Descr
+This small home is fairly well-kept despite the poor furnishings.
+The occupants seem to be neat, and pride themselves in taking
+care of what little they have.
+~
+Flags 262148
+Sector 0
+Reset M 51218 1 100
+Door 1 3 0 51237 30 30
+~
+door~
+End
+
+#51329
+Name Just South of Crimson~
+Descr
+You stand just south of the great city of Crimson. The sounds and
+smells of the city waft along on the breezes. To the south
+you see a great highway heading toward a great city and finally into
+the unknown wastelands of the southlands.
+~
+Flags 262144
+Sector 5
+Door 0 0 0 51239 0 0
+~
+~
+Door 1 0 0 51332 0 0
+~
+~
+Door 2 0 0 51335 0 0
+~
+~
+Door 3 0 0 51330 0 0
+~
+~
+End
+
+#51330
+Name A Path Around Crimson[0;37m~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 5
+Door 1 0 0 51329 0 0
+~
+~
+Door 2 0 0 51334 0 0
+~
+~
+Door 3 0 0 51331 0 0
+~
+~
+End
+
+#51331
+Name A Path Around Crimson[0;37m~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 5
+Door 1 0 0 51330 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+End
+
+#51332
+Name A Path Around Crimson[0;37m~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 5
+Door 1 0 0 51333 0 0
+~
+~
+Door 2 0 0 51336 0 0
+~
+~
+Door 3 0 0 51329 0 0
+~
+~
+End
+
+#51333
+Name A Path Around Crimson[0;37m~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 5
+Door 1 0 0 0 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51332 0 0
+~
+~
+End
+
+#51334
+Name Fields Around Crimson[0;37m~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 7
+Door 0 0 0 51330 0 0
+~
+~
+Door 1 0 0 51335 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+End
+
+#51335
+Name The Southern Highway[0;37m~
+Descr
+A great road travels north and south here. This road is one of the most
+well-maintained in the land. Under your feet, you feel the cobblestones
+which have been worn smooth by centuries of travellers, and the sign which
+points toward the continuation of the road is weathered and grey with age.
+The trees have been kept back from the edge of the road, to make it easier
+to spot possible bandits, although the density of traffic discourages such
+activity. 
+~
+Flags 262144
+Sector 3
+Door 0 0 0 51329 0 0
+~
+~
+Door 1 0 0 51336 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51334 0 0
+~
+~
+End
+
+#51336
+Name Fields Around Crimson[0;37m~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 7
+Door 0 0 0 51332 0 0
+~
+~
+Door 1 0 0 0 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51335 0 0
+~
+~
+End
+
+#51337
+Name Just West of Crimson~
+Descr
+You are just west of Crimson. To the west, a road leads to the
+heartland of evil, should you feel brave enough to travel that way.
+The smells and sounds of Crimson beckon you after your long, hard
+day of travelling. 
+~
+Flags 262144
+Door 0 0 0 51338 0 0
+~
+~
+Door 1 0 0 51220 0 0
+~
+~
+Door 2 0 0 51340 0 0
+~
+~
+Door 3 0 0 51343 0 0
+~
+~
+End
+
+#51338
+Name Just West of Crimson~
+Descr
+You are just west of Crimson. To the west, a road leads to the
+heartland of evil, should you feel brave enough to travel that way.
+The smells and sounds of Crimson beckon you after your long, hard
+day of travelling. 
+~
+Flags 262144
+Sector 2
+Door 0 0 0 51339 0 0
+~
+~
+Door 2 0 0 51337 0 0
+~
+~
+Door 3 0 0 51344 0 0
+~
+~
+End
+
+#51339
+Name Just West of Crimson~
+Descr
+You are just west of Crimson. To the west, a road leads to the
+heartland of evil, should you feel brave enough to travel that way.
+The smells and sounds of Crimson beckon you after your long, hard
+day of travelling. 
+~
+Flags 262144
+Sector 2
+Door 0 0 0 0 0 0
+~
+~
+Door 2 0 0 51338 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+End
+
+#51340
+Name Just West of Crimson~
+Descr
+You are just west of Crimson. To the west, a road leads to the
+heartland of evil, should you feel brave enough to travel that way.
+The smells and sounds of Crimson beckon you after your long, hard
+day of travelling. 
+~
+Flags 262144
+Sector 2
+Door 0 0 0 51337 0 0
+~
+~
+Door 2 0 0 51341 0 0
+~
+~
+Door 3 0 0 51342 0 0
+~
+~
+End
+
+#51341
+Name Just West of Crimson~
+Descr
+You are just west of Crimson. To the west, a road leads to the
+heartland of evil, should you feel brave enough to travel that way.
+The smells and sounds of Crimson beckon you after your long, hard
+day of travelling. 
+~
+Flags 262144
+Sector 2
+Door 0 0 0 51340 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+End
+
+#51342
+Name Just West of Crimson~
+Descr
+You are just west of Crimson. To the west, a road leads to the
+heartland of evil, should you feel brave enough to travel that way.
+The smells and sounds of Crimson beckon you after your long, hard
+day of travelling. 
+~
+Flags 262144
+Sector 2
+Door 0 0 0 51343 0 0
+~
+~
+Door 1 0 0 51340 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+End
+
+#51343
+Name Just West of Crimson~
+Descr
+You are just west of Crimson. To the west, a road leads to the
+heartland of evil, should you feel brave enough to travel that way.
+The smells and sounds of Crimson beckon you after your long, hard
+day of travelling. 
+~
+Flags 262144
+Door 0 0 0 51344 0 0
+~
+~
+Door 1 0 0 51337 0 0
+~
+~
+Door 2 0 0 51342 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+End
+
+#51344
+Name Just West of Crimson~
+Descr
+You are just west of Crimson. To the west, a road leads to the
+heartland of evil, should you feel brave enough to travel that way.
+The smells and sounds of Crimson beckon you after your long, hard
+day of travelling. 
+~
+Flags 262144
+Sector 2
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 51338 0 0
+~
+~
+Door 2 0 0 51343 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+End
+
+#51345
+Name Just East of Crimson~
+Descr
+Close to the west lies the city of Crimson. You hear the sounds of a
+large town and notice the crowds which enter and leave by the
+great eastern gate.
+~
+Flags 262144
+Door 0 0 0 51346 0 0
+~
+~
+Door 1 0 0 51350 0 0
+~
+~
+Door 2 0 0 51348 0 0
+~
+~
+Door 3 0 0 51226 0 0
+~
+~
+End
+
+#51346
+Name A Path Around Crimson[0;37m~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 5
+Door 0 0 0 51347 0 0
+~
+~
+Door 1 0 0 51351 0 0
+~
+~
+Door 2 0 0 51345 0 0
+~
+~
+End
+
+#51347
+Name A Path Around Crimson[0;37m~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 5
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 0 0 0
+~
+~
+Door 2 0 0 51346 0 0
+~
+~
+End
+
+#51348
+Name A Path Around Crimson[0;37m~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 5
+Door 0 0 0 51345 0 0
+~
+~
+Door 1 0 0 51352 0 0
+~
+~
+Door 2 0 0 51349 0 0
+~
+~
+End
+
+#51349
+Name A Path Around Crimson[0;37m~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 5
+Door 0 0 0 51348 0 0
+~
+~
+Door 1 0 0 0 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+End
+
+#51350
+Name Just East of Crimson~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 7
+Door 0 0 0 51351 0 0
+~
+~
+Door 1 0 0 51386 0 0
+~
+~
+Door 2 0 0 51352 0 0
+~
+~
+Door 3 0 0 51345 0 0
+~
+~
+End
+
+#51351
+Name Just East of Crimson~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 7
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 0 0 0
+~
+~
+Door 2 0 0 51350 0 0
+~
+~
+Door 3 0 0 51346 0 0
+~
+~
+End
+
+#51352
+Name Just East of Crimson~
+Descr
+A great field streches all around the base of the walls of Crimson. The
+forest has been cut back in all directions from the walls to provide a
+killing zone for the defenders of the city in times of strife. Small animals
+live out here, but the mayor of Crimson makes sure no trees or bushes grow
+anywhere near his city. 
+~
+Flags 262144
+Sector 7
+Door 0 0 0 51350 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51348 0 0
+~
+~
+End
+
+#51353
+Name Just North of Crimson~
+Descr
+You are standing just outside the northern gate of Crimson. To the
+north you see a great range of mountains past a huge forest. The
+sounds of the city are inviting after a long day, and you wish to
+follow the others into the city.
+~
+Flags 262144
+Sector 3
+Door 0 0 0 51359 0 0
+~
+~
+Door 1 0 0 51356 0 0
+~
+~
+Door 2 0 0 51232 0 0
+~
+~
+Door 3 0 0 51354 0 0
+~
+~
+End
+
+#51354
+Name Just North of Crimson~
+Descr
+You are standing just outside the northern gate of Crimson. To the
+north you see a great range of mountains past a huge forest. The
+sounds of the city are inviting after a long day, and you wish to
+follow the others into the city.
+~
+Flags 262144
+Sector 5
+Door 0 0 0 51360 0 0
+~
+~
+Door 1 0 0 51353 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51355 0 0
+~
+~
+End
+
+#51355
+Name Just North of Crimson~
+Descr
+You are standing just outside the northern gate of Crimson. To the
+north you see a great range of mountains past a huge forest. The
+sounds of the city are inviting after a long day, and you wish to
+follow the others into the city.
+~
+Flags 262144
+Sector 5
+Door 0 0 0 0 30 30
+Trees block your path.
+~
+~
+Door 1 0 0 51354 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+Door 5 0 0 0 0 0
+~
+~
+End
+
+#51356
+Name Just North of Crimson~
+Descr
+You are standing just outside the northern gate of Crimson. To the
+north you see a great range of mountains past a huge forest. The
+sounds of the city are inviting after a long day, and you wish to
+follow the others into the city.
+~
+Flags 262144
+Sector 5
+Door 0 0 0 51358 0 0
+~
+~
+Door 1 0 0 51357 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51353 0 0
+~
+~
+End
+
+#51357
+Name Just North of Crimson~
+Descr
+You are standing just outside the northern gate of Crimson. To the north
+you see a great range of mountains past a huge forest. The sounds of the
+city are inviting after a long day, and you wish to follow the others into
+the city. 
+~
+Flags 262144
+Sector 5
+Door 0 0 0 0 30 30
+Thorns prevent passage in this direction.
+~
+~
+Door 1 0 0 0 30 30
+A thick stand of trees blocks the way east.
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 51356 0 0
+~
+~
+End
+
+#51358
+Name Just North of Crimson~
+Descr
+You are standing just outside the northern gate of Crimson. To the
+north you see a great range of mountains past a huge forest. The
+sounds of the city are inviting after a long day, and you wish to
+follow the others into the city.
+~
+Flags 262144
+Sector 7
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 0 30 30
+The plants are too thick this way.
+~
+~
+Door 2 0 0 51356 0 0
+~
+~
+Door 3 0 0 51359 0 0
+~
+~
+End
+
+#51359
+Name The Great Northern Highway~
+Descr
+You are standing just outside the northern gate of Crimson. To the
+north you see a great range of mountains past a huge forest. The
+sounds of the city are inviting after a long day, and you wish to
+follow the others into the city.
+~
+Flags 262144
+Sector 3
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 51358 0 0
+~
+~
+Door 2 0 0 51353 0 0
+~
+~
+Door 3 0 0 51360 0 0
+~
+~
+End
+
+#51360
+Name Just North of Crimson~
+Descr
+You are standing just outside the northern gate of Crimson. To the
+north you see a great range of mountains past a huge forest. The
+sounds of the city are inviting after a long day, and you wish to
+follow the others into the city.
+~
+Flags 262144
+Sector 7
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 51359 0 0
+~
+~
+Door 2 0 0 51354 0 0
+~
+~
+Door 3 0 0 0 30 30
+Thick underbrush stops you from travelling this way.
+~
+~
+End
+
+#51361
+Name The Dwarf and Griffin Inn~
+Descr
+This crowded inn is the noisiest place in the city of Crimson.
+Adventurers from all over the realm come here to relax and enjoy the
+company of others. In general the patrons frown on those starting
+trouble, and will take the time to help those in need in this neutral
+place. 
+~
+Flags 262148
+Sector 0
+Reset M 51235 1 100
+Door 2 3 0 51221 30 30
+~
+door~
+Door 4 0 0 51362 0 0
+~
+~
+Door 5 0 0 0 0 0
+~
+~
+End
+
+#51362
+Name The Dwarf and Griffin Inn~
+Descr
+This crowded inn is the noisiest place in the city of Crimson.
+Adventurers from all over the realm come here to relax and enjoy the
+company of others. In general the patrons frown on those starting
+trouble, and will take the time to help those in need in this neutral
+place. 
+~
+Flags 262148
+Sector 0
+Reset M 51223 1 100
+Door 0 0 0 51366 0 0
+~
+~
+Door 1 0 0 51363 0 0
+~
+~
+Door 2 0 0 51364 0 0
+~
+~
+Door 3 0 0 51365 0 0
+~
+~
+Door 5 0 0 51361 0 0
+~
+~
+End
+
+#51363
+Name The Dwarf and Griffin Inn~
+Descr
+This crowded inn is the noisiest place in the city of Crimson.
+Adventurers from all over the realm come here to relax and enjoy the
+company of others. In general the patrons frown on those starting
+trouble, and will take the time to help those in need in this neutral
+place. 
+~
+Flags 262148
+Sector 0
+Reset M 51221 1 100
+Door 0 0 0 51368 0 0
+~
+~
+Door 2 0 0 51369 0 0
+~
+~
+Door 3 0 0 51362 0 0
+~
+~
+End
+
+#51364
+Name The Dwarf and Griffin Inn~
+Descr
+This crowded inn is the noisiest place in the city of Crimson.
+Adventurers from all over the realm come here to relax and enjoy the
+company of others. In general the patrons frown on those starting
+trouble, and will take the time to help those in need in this neutral
+place. 
+~
+Flags 262148
+Sector 0
+Reset M 51220 1 100
+Reset O 51205 0 10
+Reset M 51235 1 100
+Door 0 0 0 51362 0 0
+~
+~
+Door 1 0 0 51369 0 0
+~
+~
+Door 3 0 0 51370 0 0
+~
+~
+End
+
+#51365
+Name The Dwarf and Griffin Inn~
+Descr
+This crowded inn is the noisiest place in the city of Crimson.
+Adventurers from all over the realm come here to relax and enjoy the
+company of others. In general the patrons frown on those starting
+trouble, and will take the time to help those in need in this neutral
+place. 
+~
+Flags 262148
+Sector 0
+Reset M 51220 1 100
+Reset O 51205 0 10
+Reset M 51221 1 100
+Door 0 0 0 51367 0 0
+~
+~
+Door 1 0 0 51362 0 0
+~
+~
+Door 2 0 0 51370 0 0
+~
+~
+End
+
+#51366
+Name The Dwarf and Griffin Inn~
+Descr
+This crowded inn is the noisiest place in the city of Crimson.
+Adventurers from all over the realm come here to relax and enjoy the
+company of others. In general the patrons frown on those starting
+trouble, and will take the time to help those in need in this neutral
+place. 
+~
+Flags 262148
+Sector 0
+Reset M 51221 1 100
+Door 1 0 0 51368 0 0
+~
+~
+Door 2 0 0 51362 0 0
+~
+~
+Door 3 0 0 51367 0 0
+~
+~
+End
+
+#51367
+Name The Dwarf and Griffin Inn~
+Descr
+This crowded inn is the noisiest place in the city of Crimson.
+Adventurers from all over the realm come here to relax and enjoy the
+company of others. In general the patrons frown on those starting
+trouble, and will take the time to help those in need in this neutral
+place. 
+~
+Flags 262148
+Sector 0
+Reset M 51222 1 100
+Door 1 0 0 51366 0 0
+~
+~
+Door 2 0 0 51365 0 0
+~
+~
+End
+
+#51368
+Name The Dwarf and Griffin Inn~
+Descr
+This crowded inn is the noisiest place in the city of Crimson.
+Adventurers from all over the realm come here to relax and enjoy the
+company of others. In general the patrons frown on those starting
+trouble, and will take the time to help those in need in this neutral
+place. 
+~
+Flags 262148
+Sector 0
+Reset M 51220 1 100
+Reset O 51205 0 10
+Door 0 3 0 51371 30 30
+~
+door~
+Door 2 0 0 51363 0 0
+~
+~
+Door 3 0 0 51366 0 0
+~
+~
+End
+
+#51369
+Name The Dwarf and Griffin Inn~
+Descr
+This crowded inn is the noisiest place in the city of Crimson.
+Adventurers from all over the realm come here to relax and enjoy the
+company of others. In general the patrons frown on those starting
+trouble, and will take the time to help those in need in this neutral
+place. 
+~
+Flags 262148
+Sector 0
+Reset M 51235 1 100
+Reset M 51219 1 100
+Reset M 51222 1 100
+Reset O 201 0 10
+Door 0 0 0 51363 0 0
+~
+~
+Door 3 0 0 51364 0 0
+~
+~
+End
+
+#51370
+Name The Dwarf and Griffin Inn~
+Descr
+This crowded inn is the noisiest place in the city of Crimson.
+Adventurers from all over the realm come here to relax and enjoy the
+company of others. In general the patrons frown on those starting
+trouble, and will take the time to help those in need in this neutral
+place. 
+~
+Flags 262148
+Sector 0
+Reset M 51222 1 100
+Reset O 201 0 10
+Door 0 0 0 51365 0 0
+~
+~
+Door 1 0 0 51364 0 0
+~
+~
+End
+
+#51371
+Name A Private Room~
+Descr
+This small room is quieter than the main room, and is generally
+used for drunkards who need to sleep it off.
+~
+Flags 262148
+Sector 0
+Reset M 51223 1 100
+Door 1 3 0 51372 30 30
+~
+board~
+Door 2 3 0 51368 30 30
+~
+door~
+End
+
+#51372
+Name A Quiet Room~
+Descr
+This room is very quiet and relaxing, and looks like a good place
+to meditate and think on the day's activities.
+~
+Flags 11796484
+Sector 0
+Door 3 3 0 51371 30 30
+~
+board~
+End
+
+#51373
+Name A Crumbling Old Tower~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Door 1 3 0 51233 34 34
+~
+door~
+Door 4 0 0 51374 0 0
+~
+~
+End
+
+#51374
+Name A Dirty, Old Hallway~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Door 0 0 0 51375 0 0
+~
+~
+Door 3 3 0 51376 30 30
+~
+door~
+Door 5 0 0 51373 0 0
+~
+~
+End
+
+#51375
+Name A Dirty, Old Hallway~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Door 2 0 0 51374 0 0
+~
+~
+Door 3 0 0 51377 0 0
+~
+~
+End
+
+#51376
+Name A Closet~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Reset M 51226 1 100
+Reset M 51227 1 100
+Reset O 51200 0 50
+Door 1 3 0 51374 30 30
+~
+door~
+End
+
+#51377
+Name A Climbing the Tower~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Reset M 51237 1 100
+Door 1 0 0 51375 0 0
+~
+~
+Door 4 0 0 51378 0 0
+~
+~
+End
+
+#51378
+Name A Dark Hallway~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Reset M 51226 1 100
+Door 2 0 0 51379 0 0
+~
+~
+Door 5 0 0 51377 0 0
+~
+~
+End
+
+#51379
+Name A Dark Hallway~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Reset M 51227 1 100
+Reset O 51200 0 50
+Door 0 0 0 51378 0 0
+~
+~
+Door 1 0 0 51380 0 0
+~
+~
+End
+
+#51380
+Name A Dark Hallway~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Reset M 51226 1 100
+Door 0 3 0 51382 30 30
+~
+door~
+Door 2 3 0 51381 30 30
+~
+door~
+Door 3 0 0 51379 0 0
+~
+~
+End
+
+#51381
+Name A Small Storage Room~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Reset M 51228 1 100
+Reset O 51201 0 50
+Door 0 3 0 51380 30 30
+~
+door~
+End
+
+#51382
+Name A Staircase~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Reset M 51227 1 100
+Reset O 51200 0 50
+Door 2 3 0 51380 30 30
+~
+door~
+Door 4 0 0 51383 0 0
+~
+~
+End
+
+#51383
+Name Top of the Stairs~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Reset M 51226 1 100
+Door 0 3 0 51385 30 30
+~
+door~
+Door 3 0 0 51384 0 0
+~
+~
+Door 5 0 0 51382 0 0
+~
+~
+End
+
+#51384
+Name Top of the Tower~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 262148
+Sector 0
+Reset M 51226 1 100
+Reset M 51228 1 100
+Reset O 51201 0 50
+Door 1 0 0 51383 0 0
+~
+~
+End
+
+#51385
+Name A Ruined Chamber~
+Descr
+This crumbling old tower was once the mages guild for the entire realm. It
+has fallen into repair since the last great war, and is now abandoned
+and very dusty. You notice there are cobwebs entirely covering some portals
+and halls, and that the rats seem to be the only inhabitants left in this
+dark and ancient place.
+~
+Flags 3407876
+Sector 0
+Reset M 51226 1 100
+Reset M 51227 1 100
+Reset O 51200 0 50
+Door 2 3 0 51383 30 30
+~
+door~
+End
+
+#51386
+Name The Great Eastern Road~
+Descr
+The road leads east into the unknown...
+~
+Flags 262144
+Sector 3
+Door 0 0 0 0 0 0
+~
+~
+Door 1 0 0 58942 0 0
+~
+~
+Door 3 0 0 51350 0 0
+~
+~
+End
+
+#51387
+Name The Cityguard Training Center~
+Descr
+This the main training center the mayor uses to keep his troops fresh,
+and to train new recruits. The smell of sweat makes you gag, and you must
+tread lightly to avoid getting stabbed with a sword in the hands of a
+novice. 
+~
+Flags 262148
+Sector 0
+Reset M 51231 1 100
+Door 0 0 0 51388 0 0
+~
+~
+Door 1 0 0 51322 0 0
+~
+~
+End
+
+#51388
+Name The Cityguard Training Center~
+Descr
+This the main training center the mayor uses to keep his troops fresh,
+and to train new recruits. The smell of sweat makes you gag, and you must
+tread lightly to avoid getting stabbed with a sword in the hands of a
+novice. 
+~
+Flags 262148
+Sector 0
+Reset M 51231 3 100
+Reset M 51231 3 100
+Reset M 51231 3 100
+Reset M 51236 1 100
+Reset O 206 0 35
+Door 1 0 0 51323 0 0
+~
+~
+Door 2 0 0 51387 0 0
+~
+~
+End
+
+#51389
+Name A Small House~
+Descr
+This small home lacks most of the amenities one would desire, but
+its inhabitants get by. There is really nothing of value, just a few
+simple cooking supplies and furniture.
+~
+Flags 262148
+Sector 0
+Door 2 3 0 51253 30 30
+~
+door~
+Door 5 0 0 0 0 0
+~
+~
+End
+
+#51390
+Name A Guard Barracks~
+Descr
+The inside of this large, new building is filled with weapons of every
+description. The rooms smell of oil and steel, and the stench of sweat
+from guards exerting themselves. The lighting is unnatural and an
+eerie blue: evidently the guards are trained to see at night by keeping
+the lighting level low in their barracks.
+~
+Flags 262148
+Sector 0
+Door 2 0 0 51391 0 0
+~
+~
+Door 3 3 0 51235 34 34
+~
+door~
+End
+
+#51391
+Name A Guard Barracks~
+Descr
+The inside of this large, new building is filled with weapons of every
+description. The rooms smell of oil and steel, and the stench of sweat
+from guards exerting themselves. The lighting is unnatural and an
+eerie blue: evidently the guards are trained to see at night by keeping
+the lighting level low in their barracks.
+~
+Flags 262148
+Sector 0
+Door 0 0 0 51390 0 0
+~
+~
+Door 4 0 0 51398 0 0
+~
+~
+End
+
+#51392
+Name A Guard Barracks~
+Descr
+The inside of this large, new building is filled with weapons of every
+description. The rooms smell of oil and steel, and the stench of sweat
+from guards exerting themselves. The lighting is unnatural and an
+eerie blue: evidently the guards are trained to see at night by keeping
+the lighting level low in their barracks.
+~
+Flags 262148
+Sector 0
+Door 0 0 0 51394 0 0
+~
+~
+Door 2 0 0 51393 0 0
+~
+~
+Door 3 0 0 51399 0 0
+~
+~
+End
+
+#51393
+Name A Guard Barracks~
+Descr
+The inside of this large, new building is filled with weapons of every
+description. The rooms smell of oil and steel, and the stench of sweat
+from guards exerting themselves. The lighting is unnatural and an
+eerie blue: evidently the guards are trained to see at night by keeping
+the lighting level low in their barracks.
+~
+Flags 262148
+Sector 0
+Door 0 0 0 51392 0 0
+~
+~
+Door 1 0 0 51398 0 0
+~
+~
+Door 3 0 0 51395 0 0
+~
+~
+End
+
+#51394
+Name A Guard Barracks~
+Descr
+The inside of this large, new building is filled with weapons of every
+description. The rooms smell of oil and steel, and the stench of sweat
+from guards exerting themselves. The lighting is unnatural and an
+eerie blue: evidently the guards are trained to see at night by keeping
+the lighting level low in their barracks.
+~
+Flags 262148
+Sector 0
+Door 1 0 0 51397 0 0
+~
+~
+Door 2 0 0 51392 0 0
+~
+~
+Door 3 0 0 51396 0 0
+~
+~
+End
+
+#51395
+Name A Guard Barracks~
+Descr
+The inside of this large, new building is filled with weapons of every
+description. The rooms smell of oil and steel, and the stench of sweat
+from guards exerting themselves. The lighting is unnatural and an
+eerie blue: evidently the guards are trained to see at night by keeping
+the lighting level low in their barracks.
+~
+Flags 262148
+Sector 0
+Door 0 0 0 51399 0 0
+~
+~
+Door 1 0 0 51393 0 0
+~
+~
+End
+
+#51396
+Name A Guard Barracks~
+Descr
+The inside of this large, new building is filled with weapons of every
+description. The rooms smell of oil and steel, and the stench of sweat
+from guards exerting themselves. The lighting is unnatural and an
+eerie blue: evidently the guards are trained to see at night by keeping
+the lighting level low in their barracks.
+~
+Flags 262148
+Sector 0
+Door 1 0 0 51394 0 0
+~
+~
+Door 2 0 0 51399 0 0
+~
+~
+End
+
+#51397
+Name A Guard Barracks~
+Descr
+The inside of this large, new building is filled with weapons of every
+description. The rooms smell of oil and steel, and the stench of sweat
+from guards exerting themselves. The lighting is unnatural and an
+eerie blue: evidently the guards are trained to see at night by keeping
+the lighting level low in their barracks.
+~
+Flags 262148
+Sector 0
+Door 3 0 0 51394 0 0
+~
+~
+End
+
+#51398
+Name A Guard Barracks~
+Descr
+The inside of this large, new building is filled with weapons of every
+description. The rooms smell of oil and steel, and the stench of sweat
+from guards exerting themselves. The lighting is unnatural and an
+eerie blue: evidently the guards are trained to see at night by keeping
+the lighting level low in their barracks.
+~
+Flags 262148
+Sector 0
+Door 3 0 0 51393 0 0
+~
+~
+Door 5 0 0 51391 0 0
+~
+~
+End
+
+#51399
+Name A Guard Barracks~
+Descr
+The inside of this large, new building is filled with weapons of every
+description. The rooms smell of oil and steel, and the stench of sweat
+from guards exerting themselves. The lighting is unnatural and an
+eerie blue: evidently the guards are trained to see at night by keeping
+the lighting level low in their barracks.
+~
+Flags 262148
+Sector 0
+Reset M 51239 1 100
+Door 0 0 0 51396 0 0
+~
+~
+Door 1 0 0 51392 0 0
+~
+~
+Door 2 0 0 51395 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

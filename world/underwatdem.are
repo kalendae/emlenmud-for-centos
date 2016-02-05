@@ -1,0 +1,2021 @@
+#AREADATA 
+Name The Lands of Blackspire~
+Repop The sounds of blackspire keep fill the air with mystery. 
+~
+SCZone 0
+Builders Demonstench~
+VNUMs 16251 16350
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#16263
+Name high Guard Blackspire~
+Short High-Guard of Blackspire~
+Long 
+The High-Guards of Blackspire is here protecting the Prince.
+~
+AMax 3
+NHeight 80
+ActBits 2
+ActBits3 2
+Affect_By 168
+AffectTWO 524288
+Money 300
+Level 100
+Sex 1
+MobType 4
+Hp 20
+Guard 1
+Spec spec_warrior
+End
+
+#16269
+Name body guard king~
+Short Bodyguard of the King~
+Long 
+Bodyguard of the King is guarding the keep.
+~
+AMax 5
+NHeight 70
+Affect_By 168
+Money 200
+Level 110
+Sex 1
+MobType 4
+Guard 0
+Spec spec_warrior
+End
+
+#16281
+Name citizen~
+Short A blackspire citizen~
+Long 
+A blackspire citizen walks around thinking about the past.
+~
+AMax 40
+NHeight 0
+Affect_By 512
+Money 300
+Level 140
+Sex 1
+MobType 1
+Hp 2
+Guard 0
+End
+
+#16296
+Name high Body Guard King~
+Short High-Bodyguard~
+Long 
+High Bodyguard stands here guarding the King.
+~
+AMax 2
+NHeight 80
+ActBits 2
+ActBits3 2
+Affect_By 524968
+AffectTWO 524296
+Money 200
+Level 120
+Sex 1
+MobType 10
+Guard 1
+Spec spec_warrior
+End
+
+#16299
+Name gothar de Uthar King Black spire~
+Short Gothar de'Uthar the King~
+Long 
+Gothar de'Uthar the King of Blackspire glares at you with a keen eye.
+~
+AMax 1
+NHeight 80
+ActBits 258
+ActBits4 1
+Affect_By 680
+AffectTWO 8
+Money 800
+Level 450
+Sex 1
+MobType 4
+Hp 15
+Guard 0
+Spec spec_warrior
+ASklTaught 0 192
+End
+
+#16300
+Name lord amothus holy knight~
+Short Lord Amothus the Holy Knight~
+Long 
+Lord Amothus the Holy Knight of Blackspire stands here 
+~
+AMax 1
+NHeight 80
+ActBits 2
+Affect_By 680
+Money 450
+Level 200
+Sex 1
+MobType 4
+Guard 0
+Spec spec_warrior
+End
+
+#16301
+Name lord grirkus~
+Short Lord Grirkus ~
+Long 
+Lord Grirkus is here grinning at you in a evil way.
+~
+AMax 1
+NHeight 80
+ActBits 2
+Affect_By 680
+Money 500
+Level 160
+Sex 1
+MobType 10
+Guard 0
+Spec spec_warrior
+End
+
+#16309
+Name slave master ~
+Short A buff slavemaster~
+Long 
+A slavemaster is here making sure there is diamond to shop to the kingdom.
+~
+AMax 1
+NHeight 90
+ActBits 2
+Affect_By 680
+Money 300
+Level 200
+Sex 1
+MobType 10
+Hp 40
+Guard 0
+Spec spec_warrior
+End
+
+#16310
+Name dwarvern miner~
+Short A dwarven miner~
+Long 
+A dwarven miner is here hacking away the ground.
+~
+AMax 7
+NHeight 500
+ActBits 1
+Affect_By 680
+Level 90
+Sex 1
+MobType 2
+Guard 0
+End
+
+#16338
+Name gil salesmen~
+Short gil~
+Long 
+Gil, The perenial loser salesman, is here preparing for his day.
+~
+AMax 1
+ActBits 2
+ActBits3 524288
+Affect_By 520
+Money 500
+Level 400
+Sex 1
+MobType 0
+Hp 90
+Guard 0
+Shop    0   0   0   0   0 800 20 0 24
+Shopd2 100
+Shopd3 1
+End
+
+#16339
+Name do not use~
+Short Gil~
+Long 
+Gil, the perenial loser traveling salesman, is preparing for his day here.
+~
+AMax 1
+ActBits 2
+ActBits3 524288
+Affect_By 648
+Money 300
+Level 400
+Sex 1
+MobType 0
+Hp 90
+Guard 0
+Spec spec_janitor
+Shop    0  38  38  38  38 38 100 1 24
+Shopd2 5
+Shopd3 4
+End
+
+#16340
+Name guntarick knight~
+Short Guntarick the mighty~
+Long 
+Guntarick, the forgotten mighty knight stands here coldly.
+~
+AMax 1
+NHeight 0
+ActBits 11
+Affect_By 168
+AffectTWO 524296
+Money 3000
+Level 450
+Sex 1
+Hp 35
+Guard 0
+Spec spec_warrior
+BCasts paralyze~
+BCast_P 10
+End
+
+#0
+
+
+
+#OBJDATA
+#16299
+Name elbowpad great king gothar~
+Short a pair of elbowpads of the great [36mK[1mi[0m[36mn[1mg G[0m[36mo[1mt[0m[36mh[1ma[36mr~
+Descr
+Some elbowpads have been dropped here by a great king.
+[0;36m~
+Type 9
+Extra 1
+Wear 1048577
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 9
+Cost 200
+Affect 13 10 1 0 0
+Affect 18 1 1 0 0
+End
+
+#16301
+Name kneepad diamond~
+Short a kneepad of solid [1m[36md[37mi[0m[37ma[36mm[1m[30mo[37mn[36md[0m~
+Descr
+A kneepad made of solid diamond lies on the ground.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 2097153
+Values 5 0 0 0 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+Affect 22 2 1 0 0
+End
+
+#16338
+Name filing cabinet~
+Short filing cainet~
+Descr
+A large green filing cabinet is in the corner here.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#16340
+Name gem eye power~
+Short an [31mE[1m[30my[0m[31me[1m[30m of [0m[34mP[1mo[36mw[34me[0m[34mr[0m~
+Descr
+An [31mE[1m[30my[0m[31me[1m[30m of [0m[31mP[1m[30mowe[0m[31mr[0m lies on the ground.
+[0;36m~
+Type 21
+Extra 33554433
+Wear 24577
+Values 7 75 75 45 0 0 0 0 0 0 33024
+Weight 3
+Cost 2030
+End
+
+#16341
+Name golden coin~
+Short a [1m[33mgolden [0m[37mcoin of great value !~
+Descr
+A coin of great value lays here.
+[0;36m~
+Type 13
+Extra 3
+Wear 1
+Weight 0
+Cost 100
+End
+
+#0
+
+
+
+#ROOMDATA
+#16251
+Name The Lost Catacombs of Blackspire~
+Descr
+The narrow and rocky walls are covered in a thick moss and the reek of
+decomposing. The scattering of bones and skulls adds to the stench. The
+caverns are dark and what little light is cast upon the walls seems to
+animate them into living creatures. The floor seems to absorb all source of
+light and casts a dark shadow upon everything. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 9299 0 0
+~
+~
+Door 5 259 0 30046 30 30
+~
+NIGHTMARE~
+End
+
+#16252
+Name The Lost Catacombs of Blackspire~
+Descr
+The narrow and rocky walls are covered in a thick moss and the reek of
+decomposing. The scattering of bones and skulls adds to the stench. The
+caverns are dark and what little light is cast upon the walls seems to
+animate them into living creatures. The floor seems to absorb all source of
+light and casts a dark shadow upon everything. 
+~
+Flags 16384
+Sector 39
+Door 2 0 0 16253 0 0
+~
+~
+Door 3 0 0 9287 0 0
+~
+~
+End
+
+#16253
+Name The Lost Catacombs of Blackspire~
+Descr
+The narrow and rocky walls are covered in a thick moss and the reek of
+decomposing. The scattering of bones and skulls adds to the stench. The
+caverns are dark and what little light is cast upon the walls seems to
+animate them into living creatures. The floor seems to absorb all source of
+light and casts a dark shadow upon everything. 
+~
+Flags 16384
+Sector 39
+Reset M 9290 1 100
+Reset O 5107 -1 30
+Door 0 0 0 16252 0 0
+~
+~
+Door 1 0 0 16257 0 0
+~
+~
+Door 2 0 0 16254 0 0
+~
+~
+Door 3 0 0 9288 0 0
+~
+~
+End
+
+#16254
+Name The Lost Catacombs of Blackspire~
+Descr
+The narrow and rocky walls are covered in a thick moss and the reek of
+decomposing. The scattering of bones and skulls adds to the stench. The
+caverns are dark and what little light is cast upon the walls seems to
+animate them into living creatures. The floor seems to absorb all source of
+light and casts a dark shadow upon everything. 
+~
+Flags 16384
+Sector 43
+Door 0 0 0 16253 0 0
+~
+~
+Door 1 0 0 16258 0 0
+~
+~
+Door 2 0 0 16255 0 0
+~
+~
+Door 3 0 0 9289 0 0
+~
+~
+End
+
+#16255
+Name The Lost Catacombs of Blackspire~
+Descr
+The narrow and rocky walls are covered in a thick moss and the reek of
+decomposing. The scattering of bones and skulls adds to the stench. The
+caverns are dark and what little light is cast upon the walls seems to
+animate them into living creatures. The floor seems to absorb all source of
+light and casts a dark shadow upon everything. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 16254 0 0
+~
+~
+Door 1 0 0 16259 0 0
+~
+~
+Door 2 0 0 16256 0 0
+~
+~
+Door 3 0 0 9290 0 0
+~
+~
+End
+
+#16256
+Name The Lost Catacombs of Blackspire~
+Descr
+The narrow and rocky walls are covered in a thick moss and the reek of
+decomposing. The scattering of bones and skulls adds to the stench. The
+caverns are dark and what little light is cast upon the walls seems to
+animate them into living creatures. The floor seems to absorb all source of
+light and casts a dark shadow upon everything. 
+~
+Sector 39
+Reset M 9290 1 100
+Door 0 0 0 16255 0 0
+~
+~
+Door 3 0 0 9291 0 0
+~
+~
+End
+
+#16257
+Name The Lost Catacombs of Blackspire~
+Descr
+The narrow and rocky walls are covered in a thick moss and the reek of
+decomposing. The scattering of bones and skulls adds to the stench. The
+caverns are dark and what little light is cast upon the walls seems to
+animate them into living creatures. The floor seems to absorb all source of
+light and casts a dark shadow upon everything. 
+~
+Flags 16384
+Sector 39
+Door 2 0 0 16258 0 0
+~
+~
+Door 3 0 0 16253 0 0
+~
+~
+End
+
+#16258
+Name The Lost Catacombs of Blackspire~
+Descr
+The narrow and rocky walls are covered in a thick moss and the reek of
+decomposing. The scattering of bones and skulls adds to the stench. The
+caverns are dark and what little light is cast upon the walls seems to
+animate them into living creatures. The floor seems to absorb all source of
+light and casts a dark shadow upon everything. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 16257 0 0
+~
+~
+Door 1 0 0 16260 0 0
+~
+~
+Door 2 0 0 16259 0 0
+~
+~
+Door 3 0 0 16254 0 0
+~
+~
+End
+
+#16259
+Name The Lost Catacombs of Blackspire~
+Descr
+The narrow and rocky walls are covered in a thick moss and the reek of
+decomposing. The scattering of bones and skulls adds to the stench. The
+caverns are dark and what little light is cast upon the walls seems to
+animate them into living creatures. The floor seems to absorb all source of
+light and casts a dark shadow upon everything. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 16258 0 0
+~
+~
+Door 3 0 0 16255 0 0
+~
+~
+End
+
+#16260
+Name The Lost Catacombs of Blackspire~
+Descr
+The narrow and rocky walls are covered in a thick moss and the reek of
+decomposing. The scattering of bones and skulls adds to the stench. The
+caverns are dark and what little light is cast upon the walls seems to
+animate them into living creatures. The floor seems to absorb all source of
+light and casts a dark shadow upon everything. 
+~
+Flags 16384
+Sector 39
+Reset O 9290 -5 100
+Door 3 0 0 16258 0 0
+~
+~
+End
+
+#16261
+Name The Remains of Blackspire Keep~
+Descr
+You walk within the Blackspire Keep. Even after the tragic fall of the
+kingdom, you notice that it didn't stop it from prospering. The area seems
+alive with energy, maybe one day the kingdom can gain back it's full
+strength. 
+~
+Sector 0
+Door 1 0 0 16262 0 0
+~
+~
+Door 3 0 0 9040 0 0
+~
+~
+End
+
+#16262
+Name The Remains of Blackspire Keep~
+Descr
+You walk within the Blackspire Keep. Even after the tragic fall of the
+kingdom, you notice that it didn't stop it from prospering. The area seems
+alive with energy, maybe one day the kingdom can gain back it's full
+strength. 
+~
+Sector 0
+Reset M 16281 1 100
+Door 1 0 0 16266 0 0
+~
+~
+Door 3 0 0 16261 0 0
+~
+~
+End
+
+#16263
+Name The Remains of Blackspire Keep~
+Descr
+You walk within the Blackspire Keep. Even after the tragic fall of the
+kingdom, you notice that it didn't stop it from prospering. The area seems
+alive with energy, maybe one day the kingdom can gain back it's full
+strength. 
+~
+Sector 0
+Reset M 16263 1 100
+Reset M 16263 1 100
+Reset M 16263 1 100
+Door 1 515 0 9041 33 33
+~
+Chamber Doors~
+Door 3 0 0 16264 0 0
+~
+~
+End
+
+#16264
+Name The Remains of Blackspire Keep~
+Descr
+You walk within the Blackspire Keep. Even after the tragic fall of the
+kingdom, you notice that it didn't stop it from prospering. The area seems
+alive with energy, maybe one day the kingdom can gain back it's full
+strength. 
+~
+Sector 0
+Reset M 16281 1 100
+Door 1 0 0 16263 0 0
+~
+~
+Door 3 0 0 16265 0 0
+~
+~
+End
+
+#16265
+Name The Remains of Blackspire Keep~
+Descr
+You walk within the Blackspire Keep. Even after the tragic fall of the
+kingdom, you notice that it didn't stop it from prospering. The area seems
+alive with energy, maybe one day the kingdom can gain back it's full
+strength. 
+~
+Sector 0
+Door 1 0 0 16264 0 0
+~
+~
+Door 3 0 0 16266 0 0
+~
+~
+End
+
+#16266
+Name The Remains of Blackspire Keep~
+Descr
+You walk within the Blackspire Keep. Even after the tragic fall of the
+kingdom, you notice that it didn't stop it from prospering. The area seems
+alive with energy, maybe one day the kingdom can gain back it's full
+strength. 
+~
+Sector 0
+Door 1 0 0 16265 0 0
+~
+~
+Door 3 0 0 16262 0 0
+~
+~
+End
+
+#16267
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 0 0 0 9054 0 0
+~
+~
+Door 2 0 0 16268 0 0
+~
+~
+End
+
+#16268
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Reset M 16281 1 100
+Door 0 0 0 16267 0 0
+~
+~
+Door 2 0 0 16269 0 0
+~
+~
+End
+
+#16269
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Reset M 16281 1 100
+Door 0 0 0 16268 0 0
+~
+~
+Door 1 0 0 16270 0 0
+~
+~
+End
+
+#16270
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 1 0 0 16271 0 0
+~
+~
+Door 3 0 0 16269 0 0
+~
+~
+End
+
+#16271
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 1 0 0 16272 0 0
+~
+~
+Door 3 0 0 16270 0 0
+~
+~
+End
+
+#16272
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 1 0 0 16273 0 0
+~
+~
+Door 3 0 0 16271 0 0
+~
+~
+End
+
+#16273
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 1 0 0 16274 0 0
+~
+~
+Door 3 0 0 16272 0 0
+~
+~
+End
+
+#16274
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 1 0 0 16275 0 0
+~
+~
+Door 3 0 0 16273 0 0
+~
+~
+End
+
+#16275
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 1 0 0 16276 0 0
+~
+~
+Door 3 0 0 16274 0 0
+~
+~
+End
+
+#16276
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Door 0 0 0 16277 0 0
+~
+~
+Door 3 0 0 16275 0 0
+~
+~
+End
+
+#16277
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Door 0 0 0 16278 0 0
+~
+~
+Door 2 0 0 16276 0 0
+~
+~
+End
+
+#16278
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Door 0 0 0 16279 0 0
+~
+~
+Door 2 0 0 16277 0 0
+~
+~
+End
+
+#16279
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Door 0 0 0 16280 0 0
+~
+~
+Door 2 0 0 16278 0 0
+~
+~
+End
+
+#16280
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Door 0 0 0 16281 0 0
+~
+~
+Door 2 0 0 16279 0 0
+~
+~
+End
+
+#16281
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Sector 40
+Reset M 16281 1 100
+Door 0 0 0 16282 0 0
+~
+~
+Door 1 0 0 16296 0 0
+~
+~
+Door 2 0 0 16280 0 0
+~
+~
+End
+
+#16282
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 0 0 0 16283 0 0
+~
+~
+Door 2 0 0 16281 0 0
+~
+~
+End
+
+#16283
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be d falling a part in some areas of the passage.There seems to be no
+light source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 0 0 0 16284 0 0
+~
+~
+Door 2 0 0 16282 0 0
+~
+~
+End
+
+#16284
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 0 0 0 16285 0 0
+~
+~
+Door 2 0 0 16283 0 0
+~
+~
+End
+
+#16285
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 0 0 0 16286 0 0
+~
+~
+Door 2 0 0 16284 0 0
+~
+~
+End
+
+#16286
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 2 0 0 16285 0 0
+~
+~
+Door 3 0 0 16287 0 0
+~
+~
+End
+
+#16287
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Door 1 0 0 16286 0 0
+~
+~
+Door 3 0 0 16288 0 0
+~
+~
+End
+
+#16288
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 1 0 0 16287 0 0
+~
+~
+Door 3 0 0 16289 0 0
+~
+~
+End
+
+#16289
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Door 1 0 0 16288 0 0
+~
+~
+Door 3 0 0 16290 0 0
+~
+~
+End
+
+#16290
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Sector 40
+Reset M 16281 1 100
+Door 1 0 0 16289 0 0
+~
+~
+Door 3 0 0 16291 0 0
+~
+~
+End
+
+#16291
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Door 1 0 0 16290 0 0
+~
+~
+Door 3 0 0 16292 0 0
+~
+~
+End
+
+#16292
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 1 0 0 16291 0 0
+~
+~
+Door 3 0 0 16293 0 0
+~
+~
+End
+
+#16293
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 1 0 0 16292 0 0
+~
+~
+Door 2 0 0 16294 0 0
+~
+~
+End
+
+#16294
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 0 0 0 16293 0 0
+~
+~
+Door 2 0 0 16295 0 0
+~
+~
+End
+
+#16295
+Name A Dark and Mysterious Passage Within the Keep~
+Descr
+You are walking within a dark passage. The passage smells old and seems
+to be falling a part in some areas of the passage.There seems to be no light
+source ahead so be advise to use a torch. 
+~
+Flags 1
+Sector 40
+Reset M 16281 1 100
+Door 0 0 0 16294 0 0
+~
+~
+Door 2 0 0 9056 0 0
+~
+~
+End
+
+#16296
+Name Before the Grand Throne Room~
+Descr
+You are just before the throne room of what use to be a grand kingdom.
+You can hardly see waht is in the next room because of the two massive
+looking bodyguards that are standing in your way. Hey they don't look that
+hard... 
+~
+Sector 40
+Reset M 16296 1 100
+Reset M 16296 1 100
+Door 1 7 8805 16297 40 40
+~
+Chamber Doors ~
+Door 3 0 0 16281 0 0
+~
+~
+End
+
+#16297
+Name Grand Throne Room of Blackspire~
+Descr
+The throne room is lined with many priceless gemstones and gold. This
+room was made just for the king and his royal advisors. Not even a
+earthquake could shatter this room apart. 
+~
+Flags 16384
+Sector 40
+Door 1 0 0 16298 0 0
+~
+~
+Door 3 3 0 16296 40 40
+~
+Chamber Doors~
+End
+
+#16298
+Name Grand Throne Room of Blackspire~
+Descr
+The throne room is lined with many priceless gemstones and gold. This
+room was made just for the king and his royal advisors. Not even a
+earthquake could shatter this room apart. 
+~
+Flags 16384
+Sector 42
+Door 0 0 0 16301 0 0
+~
+~
+Door 1 0 0 16299 0 0
+~
+~
+Door 2 0 0 16300 0 0
+~
+~
+Door 3 0 0 16297 0 0
+~
+~
+End
+
+#16299
+Name Grand Throne Room of Blackspire~
+Descr
+The throne room is lined with many priceless gemstones and gold. This
+room was made just for the king and his royal advisors. Not even a
+earthquake could shatter this room apart. 
+~
+Flags 16384
+Sector 42
+Reset M 16299 1 100
+Reset O 16093 -1 1
+Reset O 70 -1 1
+Door 3 0 0 16298 0 0
+~
+~
+Door 5 3 0 16340 30 30
+~
+door~
+End
+
+#16300
+Name Grand Throne Room of Blackspire~
+Descr
+The throne room is lined with many priceless gemstones and gold. This
+room was made just for the king and his royal advisors. Not even a
+earthquake could shatter this room apart. 
+~
+Flags 16384
+Sector 42
+Reset M 16300 1 100
+Reset O 8718 -1 5
+Reset O 8708 -1 20
+Reset O 8717 -1 10
+Door 0 0 0 16298 0 0
+~
+~
+End
+
+#16301
+Name Grand Throne Room of Blackspire~
+Descr
+The throne room is lined with many priceless gemstones and gold. This
+room was made just for the king and his royal advisors. Not even a
+earthquake could shatter this room apart. 
+~
+Flags 16384
+Sector 42
+Reset M 16301 1 100
+Reset O 16301 -1 10
+Reset O 8703 -1 40
+Door 2 0 0 16298 0 0
+~
+~
+End
+
+#16302
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16303 0 0
+~
+~
+Door 1 0 0 21200 0 0
+~
+~
+Door 2 0 0 16307 0 0
+~
+~
+Door 3 0 0 16304 0 0
+~
+~
+End
+
+#16303
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 2 0 0 16302 0 0
+~
+~
+End
+
+#16304
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 21175 1 100
+Reset O 21174 -1 30
+Door 1 0 0 16302 0 0
+~
+~
+End
+
+#16305
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21199 0 0
+~
+~
+Door 3 0 0 16306 0 0
+~
+~
+End
+
+#16306
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21200 0 0
+~
+~
+Door 1 0 0 16305 0 0
+~
+~
+Door 3 0 0 16307 0 0
+~
+~
+End
+
+#16307
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16302 0 0
+~
+~
+Door 1 0 0 16306 0 0
+~
+~
+Door 2 0 0 16308 0 0
+~
+~
+End
+
+#16308
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 21174 1 100
+Door 0 0 0 16307 0 0
+~
+~
+End
+
+#16309
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 16310 0 0
+~
+~
+Door 3 0 0 21138 0 0
+~
+~
+End
+
+#16310
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 16311 0 0
+~
+~
+Door 3 0 0 16309 0 0
+~
+~
+End
+
+#16311
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 16310 1 100
+Door 0 0 0 16316 0 0
+~
+~
+Door 1 0 0 16313 0 0
+~
+~
+Door 2 0 0 16325 0 0
+~
+~
+Door 3 0 0 16310 0 0
+~
+~
+End
+
+#16312
+Name ~
+Descr
+~
+Door 2 0 0 16326 0 0
+~
+~
+Door 3 0 0 16311 0 0
+~
+~
+End
+
+#16313
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16317 0 0
+~
+~
+Door 1 0 0 16314 0 0
+~
+~
+Door 2 0 0 16327 0 0
+~
+~
+Door 3 0 0 16311 0 0
+~
+~
+End
+
+#16314
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16318 0 0
+~
+~
+Door 1 0 0 16315 0 0
+~
+~
+Door 2 0 0 16328 0 0
+~
+~
+Door 3 0 0 16313 0 0
+~
+~
+End
+
+#16315
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16319 0 0
+~
+~
+Door 2 0 0 16329 0 0
+~
+~
+Door 3 0 0 16314 0 0
+~
+~
+End
+
+#16316
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 259 0 16338 30 30
+~
+salesmansdoor~
+Door 1 0 0 16317 0 0
+~
+~
+Door 2 0 0 16311 0 0
+~
+~
+End
+
+#16317
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 16318 0 0
+~
+~
+Door 2 0 0 16313 0 0
+~
+~
+Door 3 0 0 16316 0 0
+~
+~
+End
+
+#16318
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16321 0 0
+~
+~
+Door 1 0 0 16319 0 0
+~
+~
+Door 2 0 0 16314 0 0
+~
+~
+Door 3 0 0 16317 0 0
+~
+~
+End
+
+#16319
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16322 0 0
+~
+~
+Door 1 0 0 16320 0 0
+~
+~
+Door 2 0 0 16315 0 0
+~
+~
+Door 3 0 0 16318 0 0
+~
+~
+End
+
+#16320
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16323 0 0
+~
+~
+Door 3 0 0 16319 0 0
+~
+~
+End
+
+#16321
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 16322 0 0
+~
+~
+Door 2 0 0 16318 0 0
+~
+~
+End
+
+#16322
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 16310 1 100
+Door 1 0 0 16323 0 0
+~
+~
+Door 2 0 0 16319 0 0
+~
+~
+Door 3 0 0 16321 0 0
+~
+~
+End
+
+#16323
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 16324 0 0
+~
+~
+Door 2 0 0 16320 0 0
+~
+~
+Door 3 0 0 16322 0 0
+~
+~
+End
+
+#16324
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 16310 1 100
+Door 3 0 0 16323 0 0
+~
+~
+End
+
+#16325
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16311 0 0
+~
+~
+Door 1 0 0 16326 0 0
+~
+~
+Door 2 0 0 16330 0 0
+~
+~
+End
+
+#16326
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16312 0 0
+~
+~
+Door 1 0 0 16327 0 0
+~
+~
+Door 2 0 0 16331 0 0
+~
+~
+Door 3 0 0 16325 0 0
+~
+~
+End
+
+#16327
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16313 0 0
+~
+~
+Door 1 0 0 16328 0 0
+~
+~
+Door 2 0 0 16332 0 0
+~
+~
+Door 3 0 0 16326 0 0
+~
+~
+End
+
+#16328
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16314 0 0
+~
+~
+Door 1 0 0 16329 0 0
+~
+~
+Door 2 0 0 16333 0 0
+~
+~
+Door 3 0 0 16327 0 0
+~
+~
+End
+
+#16329
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 16310 1 100
+Door 0 0 0 16315 0 0
+~
+~
+Door 3 0 0 16328 0 0
+~
+~
+End
+
+#16330
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 16310 1 100
+Door 0 0 0 16325 0 0
+~
+~
+Door 1 0 0 16331 0 0
+~
+~
+End
+
+#16331
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16326 0 0
+~
+~
+Door 1 0 0 16332 0 0
+~
+~
+Door 2 0 0 16335 0 0
+~
+~
+Door 3 0 0 16330 0 0
+~
+~
+End
+
+#16332
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16327 0 0
+~
+~
+Door 1 0 0 16333 0 0
+~
+~
+Door 2 0 0 16334 0 0
+~
+~
+Door 3 0 0 16331 0 0
+~
+~
+End
+
+#16333
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16328 0 0
+~
+~
+Door 2 0 0 16336 0 0
+~
+~
+Door 3 0 0 16332 0 0
+~
+~
+End
+
+#16334
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16332 0 0
+~
+~
+Door 1 0 0 16336 0 0
+~
+~
+Door 2 0 0 16337 0 0
+~
+~
+Door 3 0 0 16335 0 0
+~
+~
+End
+
+#16335
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16331 0 0
+~
+~
+Door 1 0 0 16334 0 0
+~
+~
+End
+
+#16336
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 16333 0 0
+~
+~
+Door 3 0 0 16334 0 0
+~
+~
+End
+
+#16337
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 16309 1 100
+Reset O 21174 -1 30
+Door 0 0 0 16334 0 0
+~
+~
+End
+
+#16338
+Name A Traveling Salesman's Office~
+Descr
+As you enter this hidden office you notice stacks of paper, receipts,
+and forged tax documents. You realize this salesman was selling some of the
+chunks the miners were digging without the Kings knowledge. 
+~
+Sector 44
+Reset O 16338 -5 100
+Door 0 259 0 16339 30 30
+~
+privatedoor~
+Door 2 259 0 16316 30 30
+~
+salesmansdoor~
+End
+
+#16339
+Name Gil's Private Room~
+Descr
+~
+Sector 44
+Reset M 16338 1 100
+Reset O 111 -4 100
+Reset O 111 -4 100
+Reset O 111 -4 100
+Reset O 111 -4 100
+Reset O 111 -4 100
+Reset O 111 -4 100
+Reset O 111 -4 100
+Reset O 111 -4 100
+Reset O 111 -4 100
+Reset O 111 -4 100
+Reset O 112 -4 100
+Reset O 112 -4 100
+Reset O 112 -4 100
+Reset O 112 -4 100
+Reset O 112 -4 100
+Reset O 112 -4 100
+Reset O 112 -4 100
+Reset O 112 -4 100
+Reset O 112 -4 100
+Reset O 112 -4 100
+Reset O 113 -4 100
+Reset O 113 -4 100
+Reset O 113 -4 100
+Reset O 113 -4 100
+Reset O 113 -4 100
+Reset O 113 -4 100
+Reset O 113 -4 100
+Door 2 3 0 16338 30 30
+~
+privatedoor~
+End
+
+#16340
+Name The Labrynth~
+Descr
+As you enter this room you feel a great presence overcome you, as if
+some great power lives here. 
+~
+Sector 39
+Reset M 16340 1 100
+Reset O 16340 1 1
+Door 4 3 0 16299 30 30
+~
+door~
+End
+
+#0
+
+
+
+#$

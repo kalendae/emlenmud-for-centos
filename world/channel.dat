@@ -1,0 +1,143 @@
+NEW_CHANNEL
+# ------ Regular chat channel --------
+NAME      <$B$7gossip$6>
+LEVEL     0
+CLAN      no
+CLAN2     no
+COMMAND   chat
+COMMAND   .
+COMMAND   gossip
+COLOR     $B$6
+ALIGNMENT same
+TO_LEVEL  0
+MOVES     0
+# --------------------------
+NEW_CHANNEL
+# ------- Clantalk channel ----------
+NAME      [Clantalk]:
+LEVEL     0
+CLAN      yes
+CLAN2     no
+COMMAND   clantalk
+COMMAND   -
+COMMAND   ct
+COLOR     $R$3
+ALIGNMENT same
+TO_LEVEL  0
+MOVES     0
+# --------------------------
+NEW_CHANNEL
+# -------- Godchat to good/humanoids ---------
+NAME      gossip
+LEVEL     110
+CLAN      no
+CLAN2     no
+COMMAND   gchat
+COMMAND   ggossip
+COLOR     $B$6
+ALIGNMENT good
+TO_LEVEL  0
+MOVES     0
+# -------------------------
+NEW_CHANNEL
+# -------- Godchat to evil/aturions ---------
+NAME      gossip
+LEVEL     110
+CLAN      no
+CLAN2     no
+COMMAND   echat
+COMMAND   egossip
+COLOR     $B$6
+ALIGNMENT evil
+TO_LEVEL  0
+MOVES     0
+# -------------------------
+NEW_CHANNEL
+# -------- GOD ---------
+NAME      =GOD=$B$1
+LEVEL     110
+CLAN      no
+CLAN2     no
+COMMAND   [
+COMMAND   god
+COLOR     $B$1
+ALIGNMENT both
+TO_LEVEL  110
+MOVES     100
+# -------------------------
+NEW_CHANNEL
+# -------- Immtalk ---------
+NAME      :
+LEVEL     100
+CLAN      no
+CLAN2     no
+COMMAND   immtalk 
+COMMAND   ]
+COLOR     $B$3
+ALIGNMENT both
+TO_LEVEL  100
+MOVES     0
+# -------------------------
+NEW_CHANNEL
+# -------- PRAY ---------
+NAME     $B$7-=$B$3Pray$B$7=-$B$3
+LEVEL     1
+CLAN      no
+CLAN2     no
+COMMAND   pray
+COLOR     $B$3
+ALIGNMENT both
+TO_LEVEL  110
+MOVES     100
+# -------------------------
+NEW_CHANNEL
+# -------- Auction ---------
+NAME      Auction
+LEVEL     1
+CLAN      no
+CLAN2     no
+COMMAND   HSN
+COLOR     $B$5
+ALIGNMENT same
+TO_LEVEL  0
+MOVES     10
+# -------------------------
+NEW_CHANNEL
+# --------- THUNDER ------------
+NAME       THUNDER
+LEVEL      110
+CLAN       no
+CLAN2      no
+Command    thunder
+Color      $B$1
+ALIGNMENT  both
+TO_LEVEL   1
+MOVES      0
+# --------------------------
+NEW_CHANNEL
+# ---------PK-----------
+NAME [raid]
+Level 35
+CLAN No
+CLAN2 No
+Command raid
+Color $B$4
+ALIGNMENT same
+TO_LEVEL 35
+MOVES 3
+# --------------------
+NEW_CHANNEL
+# ---------xalign-----------
+NAME $B$1<-=$4X-Align$1=->$R$4
+Level 75
+CLAN No
+CLAN2 No
+Command xl
+command x-align
+Color $4
+ALIGNMENT both
+TO_LEVEL 75       
+MOVES 150
+# --------------------
+END
+

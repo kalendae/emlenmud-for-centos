@@ -1,0 +1,436 @@
+Sender Structure~
+TBoard 50
+Date Sat Jul 14 02:13:19 2001~
+Stamp 995091199
+To all~
+Subject ~
+Text
+To the builders, I'm sorry but there were problem's which the server
+wouldn't come back up. I had to wipe and reload all the areas, causing in
+file loss. Since you all have IMM status's, heres what I want you to do.
+Type Aedit Create, then from there set yourself a filename, type file
+newarea1.are for example. Then type name Joe Smoe's Area, then heres the
+tricky part. Type area, see which vnum's are open, do not go above 100,000
+or it will mess up, use as little vnums as possible to get your area done.
+You must set higher and lower vnums, for example: vnum 97501 to 97550, make
+sure you get the numbers right and you dont mess with anyone else's area.
+Upon this file loss, I did save Rukzilla's area, it was taking I think a
+total of 5000 rooms, which is a little bit silly, so I'll trim it down to
+what he needs and re-enter it in when I z_relocate it. Anyways, sorry for
+the loss, everything should be fixed now. 
+ 
+Over and out
+~
+End
+Sender Structure~
+TBoard 1
+Date Sat Jul 14 02:34:53 2001~
+Stamp 995092493
+To all~
+Subject ~
+Text
+Oh to add from that, reboot it so you can see your vnum's on area, warn everyone first type reboot 5 etc. etc.
+~
+End
+Sender Structure~
+TBoard 1
+Date Sat Jul 14 02:39:46 2001~
+Stamp 995092786
+To all~
+Subject ~
+Text
+Oh, one more thing, after you get done building and say you have 200
+vnums and you only used 190, aedit it again type in vnum <lower> < and the
+max vnum you used> thanks. 
+~
+End
+Sender Structure~
+TBoard 1
+Date Sat Jul 14 02:40:44 2001~
+Stamp 995092844
+To all~
+Subject ~
+Text
+And another thing! :P Make sure your rooms look right, spelling corrections, room descriptions etc. etc. make it look good!
+~
+End
+Sender Structure~
+TBoard 1
+Date Sat Jul 14 23:55:22 2001~
+Stamp 995169322
+To all~
+Subject ~
+Text
+Oh, if something goes wrong when creating the vnums, please dont create
+like 10 more trying to figure it out, just wait for me :P thats why the
+server wasn't up today 
+~
+End
+Sender Morgoth~
+TBoard 1
+Date Sun Jul 15 02:23:03 2001~
+Stamp 995178183
+To structure~
+Subject ~
+Text
+my zone is done its morgoths area number two the prison of death, its exp cheater style to go in under the necros in uhh southlands, to spice it up since it has no actual purpose
+
+~
+End
+
+Sender Structure~
+TBoard 1
+Date Sun Jul 15 09:05:00 2001~
+Stamp 995202300
+To morgoth~
+Subject ~
+Text
+delete all teh cheater shit in here +40mvs? a 9d2 +2apb? comon
+
+i cant put this shit in the game
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Sun Jul 15 15:03:56 2001~
+Stamp 995223836
+To structure~
+Subject ~
+Text
+ok it was changed
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Mon Jul 16 02:29:33 2001~
+Stamp 995264973
+To all structure~
+Subject ~
+Text
+ If anyone cares to check out the fop 2 type goto avatar then go to gates
+
+and go down and you will see where its linked. 
+
+~
+End
+
+Sender Structure~
+TBoard 1
+Date Mon Jul 16 17:37:09 2001~
+Stamp 995319429
+To all~
+Subject ~
+Text
+morg careful what you do, morgoth3.are was corrupted and it wouldn't reboot because odf it, be more careful next time so i dont need to log on the shell every single day and figure out why its down
+
+~
+End
+
+Sender Calin~
+TBoard 1
+Date Tue Jul 17 05:30:22 2001~
+Stamp 995362222
+To all~
+Subject ~
+Text
+the guards in fop2 are insanely buff they balfire and have about 20K hps 
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Tue Jul 17 13:26:11 2001~
+Stamp 995390771
+To all~
+Subject ~
+Text
+that isnt the zone i built the zone i built has guards at 8514 goto and
+
+look at op 
+
+~
+End
+
+Sender Elburro~
+TBoard 50
+Date Sun Jul 22 21:35:48 2001~
+Stamp 995852148
+To all~
+Subject test~
+Text
+test
+
+~
+End
+
+Sender Azraen~
+TBoard 1
+Date Sun Jul 22 21:52:33 2001~
+Stamp 995853153
+To bern~
+Subject clanhouse~
+Text
+heya bern,
+
+I added 2 more guards, made a nocast room of the guardroom.
+
+Also put in 2 hidden doors, and a hidden portal somewhere
+
+Ask elburro where it is, and what the portalname is, he should know it.
+
+So we are almost done... I also made the statue of bumblebee and the room description, the statue description is up to you, and feel free to change the room desc if you want to.
+
+Uhm... plz doublecheck everything for me?
+
+I will be back in 17 days, when I get home from vacation.
+
+Take it easy,
+
+Azzie
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Sat Aug 11 03:10:27 2001~
+Stamp 997513827
+To all~
+Subject ~
+Text
+Please dont just fuck around on here if your gonna build build, dont use
+
+this to look up stats and check new zones 
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Sat Aug 11 03:27:06 2001~
+Stamp 997514826
+To all structure~
+Subject ~
+Text
+I edited raizels area and made it so people can actually use it might
+
+want to remove the one thats there and just add the changes i made to
+
+mobs/rooms so that theres no annihilating fast track aggros etc all mobs
+
+reasonable and zone isnt so deadly 
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Sat Aug 11 03:35:44 2001~
+Stamp 997515344
+To all structure~
+Subject ~
+Text
+I changed the necromancers in desert slightly so that people may have
+
+some use for it the flamberge is good now and the neck is very good maybe it
+
+will entice people to use the zone 
+
+~
+End
+
+Sender Rukkus~
+TBoard 1
+Date Sat Aug 11 19:23:40 2001~
+Stamp 997572220
+To all~
+Subject ~
+Text
+for a good time call 1900Morgoth  299 first min... 99 each additional.. and yes, they accept frequent caller miles!...  marlburo miles are half credit... thank you
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Tue Aug 14 04:35:17 2001~
+Stamp 997778117
+To structure~
+Subject ~
+Text
+This zone is done if we could look at it together im sure youd like it,
+
+its nearly 1200 rooms and all nicely done i think, theres a few loads,
+
+mostly nothing best in game some items are, blade of orcus in perticular,
+
+its an old school weapon that was in original seven sins its same stats as
+
+huge gleaming club but its a sword so it wont hit as hard 
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Fri Aug 24 15:42:25 2001~
+Stamp 998682145
+To all~
+Subject ~
+Text
+I fixed korgan's items ansi so they arent so fucking disgusting and they
+
+are the way that they used to be in apperance 
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Fri Aug 24 15:49:29 2001~
+Stamp 998682569
+To all~
+Subject ~
+Text
+I set korgan's items stats to the way they used to be, they are extremely
+
+good like they were maybe it will stimulate people to actually go there if
+
+these changes were incorporated on the player port, no one even bothers
+
+going to alteric pretty much cause eq sucks with the exception of rattels
+
+dagger 
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Fri Aug 24 15:53:26 2001~
+Stamp 998682806
+To all~
+Subject ~
+Text
+I edited alteric somewhat by making mobs slightly easier, by removing
+
+annihilate/balefire etc, the mobs are still high level and not soloable
+
+because they all regenerate maybe this would also stimulate use 
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Fri Aug 24 20:00:25 2001~
+Stamp 998697625
+To all~
+Subject ~
+Text
+i made a new spell heh level 91 napalm does about 550-600 hps try it out
+
+tell me what ya think it blinds confuses wounds and lethargies heh it does
+
+pretty random actually from like 400-700 
+
+~
+End
+
+Sender Morgoth~
+TBoard 1
+Date Fri Aug 24 20:14:48 2001~
+Stamp 998698488
+To tonik~
+Subject ~
+Text
+when going over area i changed its name from seven deadly sins to light and darkness 2051 is first vnum
+
+~
+End
+
+Sender Warped~
+TBoard 1
+Date Fri Aug 24 20:40:34 2001~
+Stamp 998700034
+To tonik structure~
+Subject area~
+Text
+warped.are 9801-10000 can u plz delete that area then re assign those vnums to me? i have to start again
+
+~
+End
+
+Sender Colostomybag~
+TBoard 50
+Date Sat Aug 25 17:44:48 2001~
+Stamp 998775888
+To tonik~
+Subject builder~
+Text
+make me a builder plz? danke.
+
+~
+End
+
+Sender Tonik~
+TBoard 1
+Date Sat Aug 25 20:57:38 2001~
+Stamp 998787458
+To all~
+Subject Commands~
+Text
+Ok, for those of you looking at the new area. goto 2440 That will be the
+
+entrance The commands you should use to work with are rstat which will show
+
+you the stats on each room. Hiddens, names the works. Also, type reset. That
+
+will show you what if anything loads in the room. If you see a reset then
+
+type ostat vnum to see stats on the object or mstat vnum to see the stats on
+
+the mob. 
+
+done
+
+~
+End
+
+Sender Tonik~
+TBoard 1
+Date Sat Aug 25 21:33:10 2001~
+Stamp 998789590
+To all~
+Subject advancing~
+Text
+For those just comming in to explore and are not assigned a building project lets keep those at level 103.
+
+That will give them more than enuf to do what they need to do.
+
+That will give them more than enuf to do what they need to do.
+
+Thnks
+
+Did I mention this editor sucks.
+
+~
+End
+
+Sender Propaganda~
+TBoard 1
+Date Sun Aug 26 13:38:30 2001~
+Stamp 998847510
+To all~
+Subject bug~
+Text
+When making resets for your items or mobs please make sure you do it right other than that it creates bugs, and I have just seen a bug from a reset so please check your resets.
+
+~
+End
+

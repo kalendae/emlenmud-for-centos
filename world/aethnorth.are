@@ -1,0 +1,5114 @@
+#AREADATA 
+Name Northern Aethenae~
+Repop The ground under your feet shakes.
+~
+SCZone 0
+Builders Tonik~
+VNUMs 56501 57000
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#56641
+Name a bandit~
+Short a bandit~
+Long 
+A bandit stands here attacking anything in sight.
+~
+AMax 20
+NHeight 0
+ActBits 8
+Affect_By 512
+Level 20
+Hp 2
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#56501
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 30
+Door 0 0 0 2278 0 0
+~
+~
+Door 1 0 0 56652 0 0
+~
+~
+Door 2 0 0 56502 0 0
+~
+~
+End
+
+#56502
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56501 0 0
+~
+~
+Door 1 0 0 56503 0 0
+~
+~
+End
+
+#56503
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56652 0 0
+~
+~
+Door 1 0 0 56653 0 0
+~
+~
+Door 2 0 0 56504 0 0
+~
+~
+Door 3 0 0 56502 0 0
+~
+~
+End
+
+#56504
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56503 0 0
+~
+~
+Door 1 0 0 56654 0 0
+~
+~
+Door 2 0 0 56505 0 0
+~
+~
+End
+
+#56505
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56504 0 0
+~
+~
+Door 1 0 0 56655 0 0
+~
+~
+Door 2 0 0 56506 0 0
+~
+~
+End
+
+#56506
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Reset M 56641 5 100
+Door 0 0 0 56505 0 0
+~
+~
+Door 1 0 0 56507 0 0
+~
+~
+End
+
+#56507
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56655 0 0
+~
+~
+Door 1 0 0 56508 0 0
+~
+~
+Door 3 0 0 56506 0 0
+~
+~
+End
+
+#56508
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56656 0 0
+~
+~
+Door 1 0 0 56509 0 0
+~
+~
+Door 3 0 0 56507 0 0
+~
+~
+End
+
+#56509
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56657 0 0
+~
+~
+Door 1 0 0 56510 0 0
+~
+~
+Door 3 0 0 56508 0 0
+~
+~
+End
+
+#56510
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56658 0 0
+~
+~
+Door 1 0 0 56659 0 0
+~
+~
+Door 2 0 0 56511 0 0
+~
+~
+Door 3 0 0 56509 0 0
+~
+~
+End
+
+#56511
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56510 0 0
+~
+~
+Door 1 0 0 56660 0 0
+~
+~
+Door 2 0 0 56512 0 0
+~
+~
+End
+
+#56512
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56511 0 0
+~
+~
+Door 1 0 0 56661 0 0
+~
+~
+Door 2 0 0 56513 0 0
+~
+~
+End
+
+#56513
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56512 0 0
+~
+~
+Door 1 0 0 56514 0 0
+~
+~
+End
+
+#56514
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56661 0 0
+~
+~
+Door 1 0 0 56662 0 0
+~
+~
+Door 2 0 0 56515 0 0
+~
+~
+Door 3 0 0 56513 0 0
+~
+~
+End
+
+#56515
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Reset M 56641 5 100
+Door 0 0 0 56514 0 0
+~
+~
+Door 1 0 0 56516 0 0
+~
+~
+End
+
+#56516
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56662 0 0
+~
+~
+Door 1 0 0 56663 0 0
+~
+~
+Door 2 0 0 56517 0 0
+~
+~
+Door 3 0 0 56515 0 0
+~
+~
+End
+
+#56517
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56516 0 0
+~
+~
+Door 1 0 0 56518 0 0
+~
+~
+Door 2 0 0 56664 0 0
+~
+~
+End
+
+#56518
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56663 0 0
+~
+~
+Door 2 0 0 56519 0 0
+~
+~
+Door 3 0 0 56517 0 0
+~
+~
+End
+
+#56519
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56518 0 0
+~
+~
+Door 1 0 0 56556 0 0
+~
+~
+Door 3 0 0 56664 0 0
+~
+~
+End
+
+#56520
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56665 0 0
+~
+~
+Door 1 0 0 56521 0 0
+~
+~
+Door 4 0 0 56519 0 0
+~
+~
+End
+
+#56521
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56666 0 0
+~
+~
+Door 1 0 0 56522 0 0
+~
+~
+Door 3 0 0 56520 0 0
+~
+~
+End
+
+#56522
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56667 0 0
+~
+~
+Door 1 0 0 56523 0 0
+~
+~
+Door 3 0 0 56521 0 0
+~
+~
+End
+
+#56523
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56668 0 0
+~
+~
+Door 1 0 0 56524 0 0
+~
+~
+Door 3 0 0 56522 0 0
+~
+~
+End
+
+#56524
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56669 0 0
+~
+~
+Door 2 0 0 56525 0 0
+~
+~
+Door 3 0 0 56523 0 0
+~
+~
+End
+
+#56525
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56524 0 0
+~
+~
+Door 1 0 0 56670 0 0
+~
+~
+Door 2 0 0 56526 0 0
+~
+~
+End
+
+#56526
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56525 0 0
+~
+~
+Door 1 0 0 56671 0 0
+~
+~
+Door 2 0 0 56527 0 0
+~
+~
+End
+
+#56527
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56526 0 0
+~
+~
+Door 1 0 0 56672 0 0
+~
+~
+Door 2 0 0 56528 0 0
+~
+~
+End
+
+#56528
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56527 0 0
+~
+~
+Door 1 0 0 56529 0 0
+~
+~
+End
+
+#56529
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56672 0 0
+~
+~
+Door 1 0 0 56673 0 0
+~
+~
+Door 2 0 0 56530 0 0
+~
+~
+Door 3 0 0 56528 0 0
+~
+~
+End
+
+#56530
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56529 0 0
+~
+~
+Door 1 0 0 56531 0 0
+~
+~
+End
+
+#56531
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56673 0 0
+~
+~
+Door 1 0 0 56674 0 0
+~
+~
+Door 2 0 0 56532 0 0
+~
+~
+Door 3 0 0 56530 0 0
+~
+~
+End
+
+#56532
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56531 0 0
+~
+~
+Door 1 0 0 56675 0 0
+~
+~
+Door 2 0 0 56533 0 0
+~
+~
+End
+
+#56533
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56532 0 0
+~
+~
+Door 1 0 0 56676 0 0
+~
+~
+Door 2 0 0 56677 0 0
+~
+~
+Door 3 0 0 56534 0 0
+~
+~
+End
+
+#56534
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56533 0 0
+~
+~
+Door 2 0 0 56535 0 0
+~
+~
+End
+
+#56535
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56534 0 0
+~
+~
+Door 1 0 0 56677 0 0
+~
+~
+Door 2 0 0 56678 0 0
+~
+~
+Door 3 0 0 56536 0 0
+~
+~
+End
+
+#56536
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56535 0 0
+~
+~
+Door 2 0 0 56537 0 0
+~
+~
+End
+
+#56537
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56536 0 0
+~
+~
+Door 1 0 0 56678 0 0
+~
+~
+Door 2 0 0 56679 0 0
+~
+~
+Door 3 0 0 56538 0 0
+~
+~
+End
+
+#56538
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56537 0 0
+~
+~
+Door 2 0 0 56539 0 0
+~
+~
+End
+
+#56539
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56538 0 0
+~
+~
+Door 1 0 0 56679 0 0
+~
+~
+Door 2 0 0 56540 0 0
+~
+~
+End
+
+#56540
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56539 0 0
+~
+~
+Door 1 0 0 56680 0 0
+~
+~
+Door 2 0 0 56541 0 0
+~
+~
+End
+
+#56541
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56540 0 0
+~
+~
+Door 1 0 0 56681 0 0
+~
+~
+Door 2 0 0 56682 0 0
+~
+~
+Door 3 0 0 56542 0 0
+~
+~
+End
+
+#56542
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56541 0 0
+~
+~
+Door 2 0 0 56543 0 0
+~
+~
+Door 3 0 0 56683 0 0
+~
+~
+End
+
+#56543
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56542 0 0
+~
+~
+Door 1 0 0 56682 0 0
+~
+~
+Door 3 0 0 56544 0 0
+~
+~
+End
+
+#56544
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56683 0 0
+~
+~
+Door 1 0 0 56543 0 0
+~
+~
+Door 3 0 0 56545 0 0
+~
+~
+End
+
+#56545
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56544 0 0
+~
+~
+Door 2 0 0 56684 0 0
+~
+~
+Door 3 0 0 56546 0 0
+~
+~
+End
+
+#56546
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56545 0 0
+~
+~
+Door 2 0 0 56685 0 0
+~
+~
+Door 3 0 0 56547 0 0
+~
+~
+End
+
+#56547
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56546 0 0
+~
+~
+Door 2 0 0 56548 0 0
+~
+~
+End
+
+#56548
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56547 0 0
+~
+~
+Door 1 0 0 56685 0 0
+~
+~
+Door 2 0 0 56549 0 0
+~
+~
+End
+
+#56549
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56548 0 0
+~
+~
+Door 1 0 0 56686 0 0
+~
+~
+Door 2 0 0 56550 0 0
+~
+~
+End
+
+#56550
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56549 0 0
+~
+~
+Door 1 0 0 56687 0 0
+~
+~
+Door 2 0 0 56688 0 0
+~
+~
+Door 3 0 0 56551 0 0
+~
+~
+End
+
+#56551
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56550 0 0
+~
+~
+Door 2 0 0 56689 0 0
+~
+~
+Door 3 0 0 56552 0 0
+~
+~
+End
+
+#56552
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56551 0 0
+~
+~
+Door 2 0 0 56553 0 0
+~
+~
+End
+
+#56553
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56552 0 0
+~
+~
+Door 1 0 0 56689 0 0
+~
+~
+Door 2 0 0 56554 0 0
+~
+~
+End
+
+#56554
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56553 0 0
+~
+~
+Door 1 0 0 56690 0 0
+~
+~
+Door 2 0 0 56555 0 0
+~
+~
+End
+
+#56555
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56554 0 0
+~
+~
+Door 1 0 0 56556 0 0
+~
+~
+End
+
+#56556
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56691 0 0
+~
+~
+Door 2 0 0 56557 0 0
+~
+~
+Door 3 0 0 56519 0 0
+~
+~
+End
+
+#56557
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56556 0 0
+~
+~
+Door 1 0 0 56558 0 0
+~
+~
+End
+
+#56558
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56691 0 0
+~
+~
+Door 1 0 0 56692 0 0
+~
+~
+Door 2 0 0 56559 0 0
+~
+~
+Door 3 0 0 56557 0 0
+~
+~
+End
+
+#56559
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56558 0 0
+~
+~
+Door 1 0 0 56693 0 0
+~
+~
+Door 2 0 0 56560 0 0
+~
+~
+End
+
+#56560
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56559 0 0
+~
+~
+Door 1 0 0 56561 0 0
+~
+~
+End
+
+#56561
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56693 0 0
+~
+~
+Door 1 0 0 56562 0 0
+~
+~
+Door 3 0 0 56560 0 0
+~
+~
+End
+
+#56562
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Reset M 56641 5 100
+Door 0 0 0 56694 0 0
+~
+~
+Door 1 0 0 56563 0 0
+~
+~
+Door 3 0 0 56561 0 0
+~
+~
+End
+
+#56563
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56695 0 0
+~
+~
+Door 1 0 0 56600 0 0
+~
+~
+Door 3 0 0 56562 0 0
+~
+~
+End
+
+#56564
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56696 0 0
+~
+~
+Door 1 0 0 56565 0 0
+~
+~
+Door 4 0 0 56563 0 0
+~
+~
+End
+
+#56565
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56697 0 0
+~
+~
+Door 1 0 0 56566 0 0
+~
+~
+Door 3 0 0 56564 0 0
+~
+~
+End
+
+#56566
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56698 0 0
+~
+~
+Door 1 0 0 56567 0 0
+~
+~
+Door 3 0 0 56565 0 0
+~
+~
+End
+
+#56567
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56699 0 0
+~
+~
+Door 2 0 0 56568 0 0
+~
+~
+Door 3 0 0 56566 0 0
+~
+~
+End
+
+#56568
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56567 0 0
+~
+~
+Door 1 0 0 56700 0 0
+~
+~
+Door 2 0 0 56569 0 0
+~
+~
+End
+
+#56569
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56568 0 0
+~
+~
+Door 1 0 0 56701 0 0
+~
+~
+Door 2 0 0 56570 0 0
+~
+~
+End
+
+#56570
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56569 0 0
+~
+~
+Door 1 0 0 56571 0 0
+~
+~
+End
+
+#56571
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56701 0 0
+~
+~
+Door 1 0 0 56572 0 0
+~
+~
+Door 3 0 0 56570 0 0
+~
+~
+End
+
+#56572
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56702 0 0
+~
+~
+Door 1 0 0 56573 0 0
+~
+~
+Door 3 0 0 56571 0 0
+~
+~
+End
+
+#56573
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56703 0 0
+~
+~
+Door 1 0 0 56574 0 0
+~
+~
+Door 3 0 0 56572 0 0
+~
+~
+End
+
+#56574
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56704 0 0
+~
+~
+Door 1 0 0 56705 0 0
+~
+~
+Door 2 0 0 56575 0 0
+~
+~
+Door 3 0 0 56573 0 0
+~
+~
+End
+
+#56575
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56574 0 0
+~
+~
+Door 1 0 0 56576 0 0
+~
+~
+End
+
+#56576
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56705 0 0
+~
+~
+Door 1 0 0 56706 0 0
+~
+~
+Door 2 0 0 56577 0 0
+~
+~
+Door 3 0 0 56575 0 0
+~
+~
+End
+
+#56577
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56576 0 0
+~
+~
+Door 1 0 0 56578 0 0
+~
+~
+End
+
+#56578
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56706 0 0
+~
+~
+Door 1 0 0 56579 0 0
+~
+~
+Door 3 0 0 56577 0 0
+~
+~
+End
+
+#56579
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56707 0 0
+~
+~
+Door 1 0 0 56580 0 0
+~
+~
+Door 3 0 0 56578 0 0
+~
+~
+End
+
+#56580
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56708 0 0
+~
+~
+Door 1 0 0 56709 0 0
+~
+~
+Door 2 0 0 56581 0 0
+~
+~
+Door 3 0 0 56579 0 0
+~
+~
+End
+
+#56581
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56580 0 0
+~
+~
+Door 1 0 0 56710 0 0
+~
+~
+Door 2 0 0 56582 0 0
+~
+~
+End
+
+#56582
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56581 0 0
+~
+~
+Door 1 0 0 56711 0 0
+~
+~
+Door 2 0 0 56583 0 0
+~
+~
+End
+
+#56583
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56582 0 0
+~
+~
+Door 1 0 0 56712 0 0
+~
+~
+Door 2 0 0 56584 0 0
+~
+~
+End
+
+#56584
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56583 0 0
+~
+~
+Door 1 0 0 56713 0 0
+~
+~
+Door 2 0 0 56585 0 0
+~
+~
+End
+
+#56585
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56584 0 0
+~
+~
+Door 1 0 0 56586 0 0
+~
+~
+End
+
+#56586
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56713 0 0
+~
+~
+Door 1 0 0 56587 0 0
+~
+~
+Door 3 0 0 56585 0 0
+~
+~
+End
+
+#56587
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56714 0 0
+~
+~
+Door 1 0 0 56715 0 0
+~
+~
+Door 2 0 0 56588 0 0
+~
+~
+Door 3 0 0 56586 0 0
+~
+~
+End
+
+#56588
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56587 0 0
+~
+~
+Door 1 0 0 56589 0 0
+~
+~
+End
+
+#56589
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56715 0 0
+~
+~
+Door 1 0 0 56716 0 0
+~
+~
+Door 2 0 0 56590 0 0
+~
+~
+Door 3 0 0 56588 0 0
+~
+~
+End
+
+#56590
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56589 0 0
+~
+~
+Door 1 0 0 56591 0 0
+~
+~
+End
+
+#56591
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56716 0 0
+~
+~
+Door 1 0 0 56717 0 0
+~
+~
+Door 2 0 0 56592 0 0
+~
+~
+Door 3 0 0 56590 0 0
+~
+~
+End
+
+#56592
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56591 0 0
+~
+~
+Door 1 0 0 56718 0 0
+~
+~
+Door 2 0 0 56593 0 0
+~
+~
+End
+
+#56593
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56592 0 0
+~
+~
+Door 1 0 0 56719 0 0
+~
+~
+Door 2 0 0 56594 0 0
+~
+~
+End
+
+#56594
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56593 0 0
+~
+~
+Door 1 0 0 56720 0 0
+~
+~
+Door 5 0 0 56595 0 0
+~
+~
+End
+
+#56595
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 2 0 0 56596 0 0
+~
+~
+Door 4 0 0 56594 0 0
+~
+~
+End
+
+#56596
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56595 0 0
+~
+~
+Door 2 0 0 56597 0 0
+~
+~
+End
+
+#56597
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56596 0 0
+~
+~
+Door 1 0 0 56721 0 0
+~
+~
+Door 2 0 0 56598 0 0
+~
+~
+End
+
+#56598
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56597 0 0
+~
+~
+Door 1 0 0 56599 0 0
+~
+~
+End
+
+#56599
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56721 0 0
+~
+~
+Door 1 0 0 56600 0 0
+~
+~
+Door 3 0 0 56598 0 0
+~
+~
+End
+
+#56600
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56722 0 0
+~
+~
+Door 1 0 0 56601 0 0
+~
+~
+Door 3 0 0 56563 0 0
+~
+~
+End
+
+#56601
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56602 0 0
+~
+~
+Door 3 0 0 56600 0 0
+~
+~
+End
+
+#56602
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56603 0 0
+~
+~
+Door 2 0 0 56601 0 0
+~
+~
+End
+
+#56603
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56604 0 0
+~
+~
+Door 3 0 0 56602 0 0
+~
+~
+End
+
+#56604
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56605 0 0
+~
+~
+Door 2 0 0 56603 0 0
+~
+~
+End
+
+#56605
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56606 0 0
+~
+~
+Door 3 0 0 56604 0 0
+~
+~
+End
+
+#56606
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56607 0 0
+~
+~
+Door 2 0 0 56605 0 0
+~
+~
+End
+
+#56607
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56723 0 0
+~
+~
+Door 1 0 0 56608 0 0
+~
+~
+Door 3 0 0 56606 0 0
+~
+~
+End
+
+#56608
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56609 0 0
+~
+~
+Door 3 0 0 56607 0 0
+~
+~
+End
+
+#56609
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56769 0 0
+~
+~
+Door 1 0 0 56610 0 0
+~
+~
+Door 2 0 0 56608 0 0
+~
+~
+Door 3 0 0 56723 0 0
+~
+~
+End
+
+#56610
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56770 0 0
+~
+~
+Door 1 0 0 56611 0 0
+~
+~
+Door 3 0 0 56609 0 0
+~
+~
+End
+
+#56611
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Reset M 56641 5 100
+Door 0 0 0 56771 0 0
+~
+~
+Door 1 0 0 56612 0 0
+~
+~
+Door 3 0 0 56610 0 0
+~
+~
+End
+
+#56612
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56772 0 0
+~
+~
+Door 1 0 0 56724 0 0
+~
+~
+Door 2 0 0 56613 0 0
+~
+~
+Door 3 0 0 56611 0 0
+~
+~
+End
+
+#56613
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56612 0 0
+~
+~
+Door 1 0 0 56614 0 0
+~
+~
+End
+
+#56614
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56724 0 0
+~
+~
+Door 1 0 0 56725 0 0
+~
+~
+Door 2 0 0 56615 0 0
+~
+~
+Door 3 0 0 56613 0 0
+~
+~
+End
+
+#56615
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56614 0 0
+~
+~
+Door 1 0 0 56616 0 0
+~
+~
+End
+
+#56616
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56725 0 0
+~
+~
+Door 1 0 0 56726 0 0
+~
+~
+Door 2 0 0 56617 0 0
+~
+~
+Door 3 0 0 56615 0 0
+~
+~
+End
+
+#56617
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56616 0 0
+~
+~
+Door 1 0 0 56727 0 0
+~
+~
+Door 2 0 0 56618 0 0
+~
+~
+End
+
+#56618
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56617 0 0
+~
+~
+Door 1 0 0 56728 0 0
+~
+~
+Door 2 0 0 56619 0 0
+~
+~
+End
+
+#56619
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56618 0 0
+~
+~
+Door 1 0 0 56729 0 0
+~
+~
+Door 2 0 0 56620 0 0
+~
+~
+End
+
+#56620
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56619 0 0
+~
+~
+Door 1 0 0 56730 0 0
+~
+~
+Door 2 0 0 56621 0 0
+~
+~
+End
+
+#56621
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Reset M 56641 1 100
+Door 0 0 0 56620 0 0
+~
+~
+Door 1 0 0 56731 0 0
+~
+~
+Door 2 0 0 56622 0 0
+~
+~
+End
+
+#56622
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56621 0 0
+~
+~
+Door 1 0 0 56732 0 0
+~
+~
+Door 2 0 0 56623 0 0
+~
+~
+End
+
+#56623
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56622 0 0
+~
+~
+Door 1 0 0 56624 0 0
+~
+~
+End
+
+#56624
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56732 0 0
+~
+~
+Door 2 0 0 56625 0 0
+~
+~
+Door 3 0 0 56623 0 0
+~
+~
+End
+
+#56625
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56624 0 0
+~
+~
+Door 1 0 0 56733 0 0
+~
+~
+Door 2 0 0 56626 0 0
+~
+~
+End
+
+#56626
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56625 0 0
+~
+~
+Door 1 0 0 56627 0 0
+~
+~
+End
+
+#56627
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56733 0 0
+~
+~
+Door 1 0 0 56734 0 0
+~
+~
+Door 2 0 0 56628 0 0
+~
+~
+Door 3 0 0 56626 0 0
+~
+~
+End
+
+#56628
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56627 0 0
+~
+~
+Door 1 0 0 56735 0 0
+~
+~
+Door 2 0 0 56629 0 0
+~
+~
+End
+
+#56629
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56628 0 0
+~
+~
+Door 1 0 0 56736 0 0
+~
+~
+Door 2 0 0 56630 0 0
+~
+~
+End
+
+#56630
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56629 0 0
+~
+~
+Door 1 0 0 56737 0 0
+~
+~
+Door 2 0 0 56631 0 0
+~
+~
+End
+
+#56631
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56630 0 0
+~
+~
+Door 1 0 0 56632 0 0
+~
+~
+End
+
+#56632
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56737 0 0
+~
+~
+Door 1 0 0 56738 0 0
+~
+~
+Door 2 0 0 56633 0 0
+~
+~
+Door 3 0 0 56631 0 0
+~
+~
+End
+
+#56633
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56632 0 0
+~
+~
+Door 1 0 0 56634 0 0
+~
+~
+End
+
+#56634
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56738 0 0
+~
+~
+Door 1 0 0 56739 0 0
+~
+~
+Door 2 0 0 56635 0 0
+~
+~
+Door 3 0 0 56633 0 0
+~
+~
+End
+
+#56635
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56634 0 0
+~
+~
+Door 1 0 0 56636 0 0
+~
+~
+End
+
+#56636
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Reset M 56641 5 100
+Door 0 0 0 56739 0 0
+~
+~
+Door 3 0 0 56635 0 0
+~
+~
+Door 4 0 0 56637 0 0
+~
+~
+End
+
+#56637
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 1 0 0 56740 0 0
+~
+~
+Door 2 0 0 56638 0 0
+~
+~
+Door 5 0 0 56636 0 0
+~
+~
+End
+
+#56638
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56637 0 0
+~
+~
+Door 1 0 0 56741 0 0
+~
+~
+Door 2 0 0 56639 0 0
+~
+~
+End
+
+#56639
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56638 0 0
+~
+~
+Door 1 0 0 56742 0 0
+~
+~
+Door 2 0 0 56640 0 0
+~
+~
+End
+
+#56640
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56639 0 0
+~
+~
+Door 1 0 0 56641 0 0
+~
+~
+End
+
+#56641
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Reset M 56641 1 100
+Door 0 0 0 56742 0 0
+~
+~
+Door 1 0 0 56743 0 0
+~
+~
+Door 2 0 0 56642 0 0
+~
+~
+Door 3 0 0 56640 0 0
+~
+~
+End
+
+#56642
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56641 0 0
+~
+~
+Door 1 0 0 56643 0 0
+~
+~
+End
+
+#56643
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56743 0 0
+~
+~
+Door 1 0 0 56744 0 0
+~
+~
+Door 2 0 0 56644 0 0
+~
+~
+Door 3 0 0 56642 0 0
+~
+~
+End
+
+#56644
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56643 0 0
+~
+~
+Door 1 0 0 56745 0 0
+~
+~
+Door 2 0 0 56645 0 0
+~
+~
+End
+
+#56645
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56644 0 0
+~
+~
+Door 1 0 0 56746 0 0
+~
+~
+Door 2 0 0 56646 0 0
+~
+~
+End
+
+#56646
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56645 0 0
+~
+~
+Door 1 0 0 56747 0 0
+~
+~
+Door 2 0 0 56647 0 0
+~
+~
+End
+
+#56647
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56646 0 0
+~
+~
+Door 1 0 0 56648 0 0
+~
+~
+End
+
+#56648
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56747 0 0
+~
+~
+Door 1 0 0 56649 0 0
+~
+~
+Door 2 0 0 56768 0 0
+~
+~
+Door 3 0 0 56647 0 0
+~
+~
+End
+
+#56649
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56748 0 0
+~
+~
+Door 1 0 0 56749 0 0
+~
+~
+Door 2 0 0 56650 0 0
+~
+~
+Door 3 0 0 56648 0 0
+~
+~
+End
+
+#56650
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56649 0 0
+~
+~
+Door 1 0 0 56750 0 0
+~
+~
+Door 2 0 0 56651 0 0
+~
+~
+Door 3 0 0 56768 0 0
+~
+~
+End
+
+#56651
+Name Northwest Pass~
+Descr
+This is the Northwest Pass, a cold snow blown road that has seen better
+times. This road is in much better repair than the trail to the south of
+Athenae. It would seem the people that use it survived the great war in much
+better shape than their southern counterparts. 
+~
+Sector 3
+Door 0 0 0 56650 0 0
+~
+~
+Door 1 0 0 56751 0 0
+~
+~
+Door 2 0 0 5001 0 0
+~
+~
+Door 3 0 0 56765 0 0
+~
+~
+End
+
+#56652
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56503 0 0
+~
+~
+Door 3 0 0 56501 0 0
+~
+~
+End
+
+#56653
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56654 0 0
+~
+~
+Door 3 0 0 56503 0 0
+~
+~
+End
+
+#56654
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56653 0 0
+~
+~
+Door 2 0 0 56655 0 0
+~
+~
+Door 3 0 0 56504 0 0
+~
+~
+End
+
+#56655
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56654 0 0
+~
+~
+Door 1 0 0 56656 0 0
+~
+~
+Door 2 0 0 56507 0 0
+~
+~
+Door 3 0 0 56505 0 0
+~
+~
+End
+
+#56656
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56657 0 0
+~
+~
+Door 2 0 0 56508 0 0
+~
+~
+Door 3 0 0 56655 0 0
+~
+~
+End
+
+#56657
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56658 0 0
+~
+~
+Door 2 0 0 56509 0 0
+~
+~
+Door 3 0 0 56656 0 0
+~
+~
+End
+
+#56658
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56510 0 0
+~
+~
+Door 3 0 0 56657 0 0
+~
+~
+End
+
+#56659
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56660 0 0
+~
+~
+Door 3 0 0 56510 0 0
+~
+~
+End
+
+#56660
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56659 0 0
+~
+~
+Door 3 0 0 56511 0 0
+~
+~
+End
+
+#56661
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56514 0 0
+~
+~
+Door 3 0 0 56512 0 0
+~
+~
+End
+
+#56662
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56516 0 0
+~
+~
+Door 3 0 0 56514 0 0
+~
+~
+End
+
+#56663
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56518 0 0
+~
+~
+Door 3 0 0 56516 0 0
+~
+~
+End
+
+#56664
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56517 0 0
+~
+~
+Door 1 0 0 56519 0 0
+~
+~
+End
+
+#56665
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56666 0 0
+~
+~
+Door 2 0 0 56520 0 0
+~
+~
+End
+
+#56666
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56667 0 0
+~
+~
+Door 2 0 0 56521 0 0
+~
+~
+Door 3 0 0 56665 0 0
+~
+~
+End
+
+#56667
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56668 0 0
+~
+~
+Door 2 0 0 56522 0 0
+~
+~
+Door 3 0 0 56666 0 0
+~
+~
+End
+
+#56668
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56669 0 0
+~
+~
+Door 2 0 0 56523 0 0
+~
+~
+Door 3 0 0 56667 0 0
+~
+~
+End
+
+#56669
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56524 0 0
+~
+~
+Door 3 0 0 56668 0 0
+~
+~
+End
+
+#56670
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56671 0 0
+~
+~
+Door 3 0 0 56525 0 0
+~
+~
+End
+
+#56671
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56670 0 0
+~
+~
+Door 2 0 0 56672 0 0
+~
+~
+Door 3 0 0 56526 0 0
+~
+~
+End
+
+#56672
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56671 0 0
+~
+~
+Door 2 0 0 56529 0 0
+~
+~
+Door 3 0 0 56527 0 0
+~
+~
+End
+
+#56673
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56531 0 0
+~
+~
+Door 3 0 0 56529 0 0
+~
+~
+End
+
+#56674
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56675 0 0
+~
+~
+Door 3 0 0 56531 0 0
+~
+~
+End
+
+#56675
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56674 0 0
+~
+~
+Door 3 0 0 56532 0 0
+~
+~
+End
+
+#56676
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 3 0 0 56533 0 0
+~
+~
+End
+
+#56677
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56533 0 0
+~
+~
+Door 3 0 0 56535 0 0
+~
+~
+End
+
+#56678
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56535 0 0
+~
+~
+Door 3 0 0 56537 0 0
+~
+~
+End
+
+#56679
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56537 0 0
+~
+~
+Door 2 0 0 56680 0 0
+~
+~
+Door 3 0 0 56539 0 0
+~
+~
+End
+
+#56680
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56679 0 0
+~
+~
+Door 2 0 0 56681 0 0
+~
+~
+Door 3 0 0 56540 0 0
+~
+~
+End
+
+#56681
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56680 0 0
+~
+~
+Door 3 0 0 56541 0 0
+~
+~
+End
+
+#56682
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56541 0 0
+~
+~
+Door 3 0 0 56543 0 0
+~
+~
+End
+
+#56683
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56542 0 0
+~
+~
+Door 2 0 0 56544 0 0
+~
+~
+End
+
+#56684
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56545 0 0
+~
+~
+Door 3 0 0 56685 0 0
+~
+~
+End
+
+#56685
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56546 0 0
+~
+~
+Door 1 0 0 56684 0 0
+~
+~
+Door 2 0 0 56686 0 0
+~
+~
+Door 3 0 0 56548 0 0
+~
+~
+End
+
+#56686
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56685 0 0
+~
+~
+Door 2 0 0 56687 0 0
+~
+~
+Door 3 0 0 56549 0 0
+~
+~
+End
+
+#56687
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56686 0 0
+~
+~
+Door 3 0 0 56550 0 0
+~
+~
+End
+
+#56688
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56550 0 0
+~
+~
+Door 3 0 0 56689 0 0
+~
+~
+End
+
+#56689
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56551 0 0
+~
+~
+Door 1 0 0 56688 0 0
+~
+~
+Door 2 0 0 56690 0 0
+~
+~
+Door 3 0 0 56553 0 0
+~
+~
+End
+
+#56690
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56689 0 0
+~
+~
+Door 2 0 0 56556 0 0
+~
+~
+Door 3 0 0 56554 0 0
+~
+~
+End
+
+#56691
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56558 0 0
+~
+~
+Door 3 0 0 56556 0 0
+~
+~
+End
+
+#56692
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56693 0 0
+~
+~
+Door 3 0 0 56558 0 0
+~
+~
+End
+
+#56693
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56692 0 0
+~
+~
+Door 1 0 0 56694 0 0
+~
+~
+Door 2 0 0 56561 0 0
+~
+~
+Door 3 0 0 56559 0 0
+~
+~
+End
+
+#56694
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56695 0 0
+~
+~
+Door 2 0 0 56562 0 0
+~
+~
+Door 3 0 0 56693 0 0
+~
+~
+End
+
+#56695
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56722 0 0
+~
+~
+Door 2 0 0 56563 0 0
+~
+~
+Door 3 0 0 56694 0 0
+~
+~
+End
+
+#56696
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56697 0 0
+~
+~
+Door 2 0 0 56564 0 0
+~
+~
+End
+
+#56697
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56698 0 0
+~
+~
+Door 2 0 0 56565 0 0
+~
+~
+Door 3 0 0 56696 0 0
+~
+~
+End
+
+#56698
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56699 0 0
+~
+~
+Door 2 0 0 56566 0 0
+~
+~
+Door 3 0 0 56697 0 0
+~
+~
+End
+
+#56699
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56567 0 0
+~
+~
+Door 3 0 0 56698 0 0
+~
+~
+End
+
+#56700
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56701 0 0
+~
+~
+Door 3 0 0 56568 0 0
+~
+~
+End
+
+#56701
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56700 0 0
+~
+~
+Door 1 0 0 56702 0 0
+~
+~
+Door 2 0 0 56571 0 0
+~
+~
+Door 3 0 0 56569 0 0
+~
+~
+End
+
+#56702
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56703 0 0
+~
+~
+Door 2 0 0 56572 0 0
+~
+~
+Door 3 0 0 56701 0 0
+~
+~
+End
+
+#56703
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56704 0 0
+~
+~
+Door 2 0 0 56573 0 0
+~
+~
+Door 3 0 0 56702 0 0
+~
+~
+End
+
+#56704
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56574 0 0
+~
+~
+Door 3 0 0 56703 0 0
+~
+~
+End
+
+#56705
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56576 0 0
+~
+~
+Door 3 0 0 56574 0 0
+~
+~
+End
+
+#56706
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56707 0 0
+~
+~
+Door 2 0 0 56578 0 0
+~
+~
+Door 3 0 0 56576 0 0
+~
+~
+End
+
+#56707
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56708 0 0
+~
+~
+Door 2 0 0 56579 0 0
+~
+~
+Door 3 0 0 56706 0 0
+~
+~
+End
+
+#56708
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56580 0 0
+~
+~
+Door 3 0 0 56707 0 0
+~
+~
+End
+
+#56709
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56710 0 0
+~
+~
+Door 3 0 0 56580 0 0
+~
+~
+End
+
+#56710
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56709 0 0
+~
+~
+Door 2 0 0 56711 0 0
+~
+~
+Door 3 0 0 56581 0 0
+~
+~
+End
+
+#56711
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56710 0 0
+~
+~
+Door 2 0 0 56712 0 0
+~
+~
+Door 3 0 0 56582 0 0
+~
+~
+End
+
+#56712
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56711 0 0
+~
+~
+Door 2 0 0 56713 0 0
+~
+~
+Door 3 0 0 56583 0 0
+~
+~
+End
+
+#56713
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56712 0 0
+~
+~
+Door 1 0 0 56714 0 0
+~
+~
+Door 2 0 0 56586 0 0
+~
+~
+Door 3 0 0 56584 0 0
+~
+~
+End
+
+#56714
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56587 0 0
+~
+~
+Door 3 0 0 56713 0 0
+~
+~
+End
+
+#56715
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56589 0 0
+~
+~
+Door 3 0 0 56587 0 0
+~
+~
+End
+
+#56716
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56591 0 0
+~
+~
+Door 3 0 0 56589 0 0
+~
+~
+End
+
+#56717
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56718 0 0
+~
+~
+Door 3 0 0 56591 0 0
+~
+~
+End
+
+#56718
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56717 0 0
+~
+~
+Door 2 0 0 56719 0 0
+~
+~
+Door 3 0 0 56592 0 0
+~
+~
+End
+
+#56719
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56718 0 0
+~
+~
+Door 2 0 0 56720 0 0
+~
+~
+Door 3 0 0 56593 0 0
+~
+~
+End
+
+#56720
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56719 0 0
+~
+~
+Door 3 0 0 56594 0 0
+~
+~
+End
+
+#56721
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Reset M 56641 1 100
+Door 1 0 0 56722 0 0
+~
+~
+Door 2 0 0 56599 0 0
+~
+~
+Door 3 0 0 56597 0 0
+~
+~
+End
+
+#56722
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56600 0 0
+~
+~
+Door 3 0 0 56695 0 0
+~
+~
+End
+
+#56723
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56773 0 0
+~
+~
+Door 1 0 0 56609 0 0
+~
+~
+Door 2 0 0 56607 0 0
+~
+~
+End
+
+#56724
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56614 0 0
+~
+~
+Door 3 0 0 56612 0 0
+~
+~
+End
+
+#56725
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56616 0 0
+~
+~
+Door 3 0 0 56614 0 0
+~
+~
+End
+
+#56726
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56727 0 0
+~
+~
+Door 3 0 0 56616 0 0
+~
+~
+End
+
+#56727
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56726 0 0
+~
+~
+Door 2 0 0 56728 0 0
+~
+~
+Door 3 0 0 56617 0 0
+~
+~
+End
+
+#56728
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56727 0 0
+~
+~
+Door 2 0 0 56729 0 0
+~
+~
+Door 3 0 0 56618 0 0
+~
+~
+End
+
+#56729
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56728 0 0
+~
+~
+Door 2 0 0 56730 0 0
+~
+~
+Door 3 0 0 56619 0 0
+~
+~
+End
+
+#56730
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56729 0 0
+~
+~
+Door 2 0 0 56731 0 0
+~
+~
+Door 3 0 0 56620 0 0
+~
+~
+End
+
+#56731
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56730 0 0
+~
+~
+Door 3 0 0 56621 0 0
+~
+~
+End
+
+#56732
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56624 0 0
+~
+~
+Door 3 0 0 56622 0 0
+~
+~
+End
+
+#56733
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56627 0 0
+~
+~
+Door 3 0 0 56625 0 0
+~
+~
+End
+
+#56734
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56735 0 0
+~
+~
+Door 3 0 0 56627 0 0
+~
+~
+End
+
+#56735
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56734 0 0
+~
+~
+Door 2 0 0 56736 0 0
+~
+~
+Door 3 0 0 56628 0 0
+~
+~
+End
+
+#56736
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56735 0 0
+~
+~
+Door 3 0 0 56629 0 0
+~
+~
+End
+
+#56737
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Flags 65536
+Sector 30
+Reset M 56641 1 100
+Door 2 0 0 56632 0 0
+~
+~
+Door 3 0 0 56630 0 0
+~
+~
+End
+
+#56738
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56634 0 0
+~
+~
+Door 3 0 0 56632 0 0
+~
+~
+End
+
+#56739
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56636 0 0
+~
+~
+Door 3 0 0 56634 0 0
+~
+~
+End
+
+#56740
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56741 0 0
+~
+~
+Door 3 0 0 56637 0 0
+~
+~
+End
+
+#56741
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56740 0 0
+~
+~
+Door 2 0 0 56742 0 0
+~
+~
+Door 3 0 0 56638 0 0
+~
+~
+End
+
+#56742
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56741 0 0
+~
+~
+Door 2 0 0 56641 0 0
+~
+~
+Door 3 0 0 56639 0 0
+~
+~
+End
+
+#56743
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56643 0 0
+~
+~
+Door 3 0 0 56641 0 0
+~
+~
+End
+
+#56744
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56745 0 0
+~
+~
+Door 3 0 0 56643 0 0
+~
+~
+End
+
+#56745
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56744 0 0
+~
+~
+Door 2 0 0 56746 0 0
+~
+~
+Door 3 0 0 56644 0 0
+~
+~
+End
+
+#56746
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56745 0 0
+~
+~
+Door 2 0 0 56747 0 0
+~
+~
+Door 3 0 0 56645 0 0
+~
+~
+End
+
+#56747
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56746 0 0
+~
+~
+Door 1 0 0 56748 0 0
+~
+~
+Door 2 0 0 56648 0 0
+~
+~
+Door 3 0 0 56646 0 0
+~
+~
+End
+
+#56748
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56649 0 0
+~
+~
+Door 3 0 0 56747 0 0
+~
+~
+End
+
+#56749
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56750 0 0
+~
+~
+Door 3 0 0 56649 0 0
+~
+~
+End
+
+#56750
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56749 0 0
+~
+~
+Door 2 0 0 56751 0 0
+~
+~
+Door 3 0 0 56650 0 0
+~
+~
+End
+
+#56751
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56750 0 0
+~
+~
+Door 3 0 0 56651 0 0
+~
+~
+End
+
+#56752
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56759 0 0
+~
+~
+Door 1 0 0 5000 0 0
+~
+~
+Door 2 0 0 5003 0 0
+~
+~
+Door 3 0 0 56753 0 0
+~
+~
+End
+
+#56753
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56761 0 0
+~
+~
+Door 1 0 0 56752 0 0
+~
+~
+Door 2 0 0 5004 0 0
+~
+~
+Door 3 0 0 56754 0 0
+~
+~
+End
+
+#56754
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56762 0 0
+~
+~
+Door 1 0 0 56753 0 0
+~
+~
+Door 2 0 0 5005 0 0
+~
+~
+Door 3 0 0 56755 0 0
+~
+~
+End
+
+#56755
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56763 0 0
+~
+~
+Door 1 0 0 56754 0 0
+~
+~
+Door 2 0 0 5006 0 0
+~
+~
+Door 3 0 0 56756 0 0
+~
+~
+End
+
+#56756
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56764 0 0
+~
+~
+Door 1 0 0 56755 0 0
+~
+~
+Door 2 0 0 5013 0 0
+~
+~
+Door 3 0 0 56757 0 0
+~
+~
+End
+
+#56757
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 56756 0 0
+~
+~
+Door 2 0 0 5014 0 0
+~
+~
+Door 3 0 0 56758 0 0
+~
+~
+End
+
+#56758
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 56757 0 0
+~
+~
+Door 2 0 0 2640 0 0
+~
+~
+End
+
+#56759
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56765 0 0
+~
+~
+Door 1 0 0 5001 0 0
+~
+~
+Door 2 0 0 56752 0 0
+~
+~
+Door 3 0 0 56761 0 0
+~
+~
+End
+
+#56760
+Name ~
+Descr
+~
+End
+
+#56761
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56766 0 0
+~
+~
+Door 1 0 0 56759 0 0
+~
+~
+Door 2 0 0 56753 0 0
+~
+~
+Door 3 0 0 56762 0 0
+~
+~
+End
+
+#56762
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56767 0 0
+~
+~
+Door 1 0 0 56761 0 0
+~
+~
+Door 2 0 0 56754 0 0
+~
+~
+Door 3 0 0 56763 0 0
+~
+~
+End
+
+#56763
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 56762 0 0
+~
+~
+Door 2 0 0 56755 0 0
+~
+~
+Door 3 0 0 56764 0 0
+~
+~
+End
+
+#56764
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 56763 0 0
+~
+~
+Door 2 0 0 56756 0 0
+~
+~
+End
+
+#56765
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56768 0 0
+~
+~
+Door 1 0 0 56651 0 0
+~
+~
+Door 2 0 0 56759 0 0
+~
+~
+Door 3 0 0 56766 0 0
+~
+~
+End
+
+#56766
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 56765 0 0
+~
+~
+Door 2 0 0 56761 0 0
+~
+~
+Door 3 0 0 56767 0 0
+~
+~
+End
+
+#56767
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 1 0 0 56766 0 0
+~
+~
+Door 2 0 0 56762 0 0
+~
+~
+End
+
+#56768
+Name The Athenae Highlands~
+Descr
+You are in the hills surrounding the city. They form a great natural
+barrier that has obviously served the city well in past attacks. The city
+seems to stand here as a monument to those that have resisted involvement in
+the great war. 
+~
+Sector 30
+Door 0 0 0 56648 0 0
+~
+~
+Door 1 0 0 56650 0 0
+~
+~
+Door 2 0 0 56765 0 0
+~
+~
+End
+
+#56769
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56775 0 0
+~
+~
+Door 1 0 0 56770 0 0
+~
+~
+Door 2 0 0 56609 0 0
+~
+~
+Door 3 0 0 56773 0 0
+~
+~
+End
+
+#56770
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56776 0 0
+~
+~
+Door 1 0 0 56771 0 0
+~
+~
+Door 2 0 0 56610 0 0
+~
+~
+Door 3 0 0 56769 0 0
+~
+~
+End
+
+#56771
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56777 0 0
+~
+~
+Door 1 0 0 56772 0 0
+~
+~
+Door 2 0 0 56611 0 0
+~
+~
+Door 3 0 0 56770 0 0
+~
+~
+End
+
+#56772
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56612 0 0
+~
+~
+Door 3 0 0 56771 0 0
+~
+~
+End
+
+#56773
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56774 0 0
+~
+~
+Door 1 0 0 56769 0 0
+~
+~
+Door 2 0 0 56723 0 0
+~
+~
+End
+
+#56774
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56775 0 0
+~
+~
+Door 2 0 0 56773 0 0
+~
+~
+End
+
+#56775
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 0 0 0 56778 0 0
+~
+~
+Door 1 0 0 56776 0 0
+~
+~
+Door 2 0 0 56769 0 0
+~
+~
+Door 3 0 0 56774 0 0
+~
+~
+End
+
+#56776
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 1 0 0 56777 0 0
+~
+~
+Door 2 0 0 56770 0 0
+~
+~
+Door 3 0 0 56775 0 0
+~
+~
+End
+
+#56777
+Name Near The Northwest Pass~
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+~
+Sector 30
+Door 2 0 0 56771 0 0
+~
+~
+Door 3 0 0 56776 0 0
+~
+~
+End
+
+#56778
+Name Near The Northwest Pass~
+Cvnuml 141314680
+Descr
+You are near the Northwest Pass. Travel would be much easier on the road. 
+There appears to be a tiny piece of material sticking out here...
+~
+Sector 30
+Door 2 0 0 56775 0 0
+~
+~
+Door 5 259 0 93801 30 30
+~
+flap~
+End
+
+#0
+
+
+
+#$

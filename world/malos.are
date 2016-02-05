@@ -1,0 +1,1202 @@
+#AREADATA 
+Name Mount Malos~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Structure~
+VNUMs 11701 11800
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#11711
+Name spirt prac eh~
+Short Spirt~
+Long 
+Spirt the draconian warrior, rests here before continuing further.
+~
+AMax 1
+NHeight 30
+ActBits 258
+Affect_By 134742664
+AffectTWO 8
+Alignment 1
+Money 100
+Level 90
+Sex 1
+MobType 37
+Guard 0
+Spec spec_warrior
+ASklTaught 0 231
+ASklTaught 1 65
+ASklTaught 2 147
+ASklTaught 3 235
+ASklTaught 4 146
+ASklTaught 5 64
+End
+
+#11714
+Name guard draconian~
+Short a draconian guard~
+Long 
+A draconian guard sits here guarding the flying town.
+~
+AMax 4
+NHeight 0
+ActBits 2
+ActBits3 8
+ActBits4 16384
+Affect_By 524840
+AffectTWO 524296
+Alignment 1
+Level 210
+MobType 37
+Guard 0
+Spec spec_warrior
+End
+
+#11719
+Name bagu prac eh~
+Short bagu~
+Long 
+Bagu, the protector of the flying city.
+~
+AMax 1
+NHeight 0
+ActBits 66817
+ActBits3 524288
+ActBits4 16384
+Affect_By 134742696
+AffectTWO 8912904
+Alignment 1
+Money 20000
+Level 400
+Sex 1
+MobType 37
+Hp 20
+Guard 0
+Spec spec_warrior
+ASklTaught 0 118
+ASklTaught 1 18
+ASklTaught 2 78
+End
+
+#11720
+Name citizen~
+Short malos citizen~
+Long 
+A malos citizen walks around looking for money.
+~
+AMax 8
+NHeight 0
+ActBits 1
+Affect_By 524808
+Alignment 1
+Money 200
+Level 50
+Sex 1
+MobType 37
+Guard 0
+End
+
+#11734
+Name draconian guard~
+Short draconian guard~
+Long 
+A draconian guard sits here protecting the flying city.
+~
+AMax 4
+NHeight 30
+ActBits 2
+ActBits3 8
+ActBits4 16384
+Affect_By 134742568
+AffectTWO 524296
+Alignment 1
+Money 90
+Level 200
+MobType 37
+Hp 15
+Guard 1
+Spec spec_warrior
+End
+
+#11743
+Name claribel prac~
+Short claribel~
+Long 
+Claribel sits here studying the arkane.
+~
+AMax 1
+ActBits 258
+Affect_By 532608
+AffectTWO 33554432
+Level 250
+Sex 2
+MobType 0
+Guard 0
+ASklTaught 0 77
+ASklTaught 1 70
+ASklTaught 2 175
+End
+
+#11744
+Name halex~
+Short Halex~
+Long 
+Halex the armorsmith stands here pounding armor.
+~
+AMax 1
+NHeight 0
+ActBits 2097154
+Affect_By 524808
+Money 10000
+Level 500
+MobType 37
+Hp 900
+Guard 0
+Shop    0   9   0   0   0 100 50 1 23
+Shopd2 5
+Shopd3 4
+End
+
+#11745
+Name putoa~
+Short putoa~
+Long 
+Putoa gathers water and supply's for the next adventurer.
+~
+AMax 1
+NHeight 70
+ActBits 2
+Affect_By 524808
+Alignment 1
+Money 10000
+Level 500
+MobType 37
+Hp 900
+Guard 0
+Shop    0  19   9   0   5 100 50 1 23
+Shopd2 5
+Shopd3 4
+ShopCr 2009
+ShopCS Putoa goes into the back room, you here the screams of some captive and he returns bearing a bloody heart.~
+End
+
+#11746
+Name muldan~
+Short Muldan~
+Long 
+Muldan, the town banker stands here counting coins.
+~
+AMax 1
+NHeight 0
+ActBits 393218
+Affect_By 524808
+Alignment 1
+Level 40
+Sex 1
+Hp 500
+Guard 0
+End
+
+#11747
+Name galok weaponsmith~
+Short Galok~
+Long 
+Galok sits here pounding a hammer to a sword.
+~
+AMax 1
+NHeight 30
+ActBits 1048578
+Affect_By 524808
+Alignment 1
+Money 10000
+Level 500
+MobType 37
+Hp 900
+Guard 0
+Shop    0   5   0   0   0 100 50 1 23
+Shopd2 5
+Shopd3 4
+End
+
+#0
+
+
+
+#OBJDATA
+#11711
+Name sword dragon hilted slashing~
+Short [0ma [1m[32mdr[0m[32mag[1m[32mon[1m[37m-[30mhilted [0msword~
+Descr
+A dragon-hilted sword lies on the ground.
+[0;36m~
+Type 5
+Extra 4194306
+Wear 24577
+Values 0 60 0 3 0 0 0 4 3 0 0
+Weight 60
+Cost 3500
+End
+
+#11719
+Name fountain~
+Short a small fountain~
+Descr
+A small fountain sits in the center of the city.
+[0;36m~
+Type 25
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#11701
+Name Path Towards Malos~
+Descr
+This is the path towards the small city of Malos. This mountain is very
+steep and slick, many have fallen off of this mountain. 
+~
+Sector 5
+Door 0 0 0 2122 0 0
+~
+~
+Door 1 0 0 17733 0 0
+~
+~
+Door 2 0 0 11702 0 0
+~
+~
+Door 3 0 0 17730 0 0
+~
+~
+End
+
+#11702
+Name Path Towards Malos~
+Descr
+This is the path towards the small city of Malos. This mountain is very
+steep and slick, many have fallen off of this mountain. 
+~
+Sector 5
+Door 0 0 0 11701 0 0
+~
+~
+Door 1 0 0 17732 0 0
+~
+~
+Door 2 0 0 11703 0 0
+~
+~
+Door 3 0 0 17731 0 0
+~
+~
+End
+
+#11703
+Name Path Towards Malos~
+Descr
+This is the path towards the small city of Malos. This mountain is very
+steep and slick, many have fallen off of this mountain. 
+~
+Sector 5
+Door 0 0 0 11702 0 0
+~
+~
+Door 1 0 0 11705 0 0
+~
+~
+Door 3 0 0 11704 0 0
+~
+~
+End
+
+#11704
+Name End of a Path~
+Descr
+This is the path towards the small city of Malos. This mountain is very
+steep and slick, many have fallen off of this mountain. 
+~
+Sector 5
+Door 1 0 0 11703 0 0
+~
+~
+End
+
+#11705
+Name Path Towards Malos~
+Descr
+This is the path towards the small city of Malos. This mountain is very
+steep and slick, many have fallen off of this mountain. 
+~
+Sector 5
+Door 1 0 0 11706 0 0
+~
+~
+Door 3 0 0 11703 0 0
+~
+~
+End
+
+#11706
+Name Path Towards Malos~
+Descr
+This is the path towards the small city of Malos. This mountain is very
+steep and slick, many have fallen off of this mountain. 
+~
+Sector 5
+Door 1 0 0 17749 0 0
+~
+~
+Door 2 0 0 11707 0 0
+~
+~
+Door 3 0 0 11705 0 0
+~
+~
+End
+
+#11707
+Name Path Towards Malos~
+Descr
+This is the path towards the small city of Malos. This mountain is very
+steep and slick, many have fallen off of this mountain. 
+~
+Sector 5
+Door 0 0 0 11706 0 0
+~
+~
+Door 1 0 0 17750 0 0
+~
+~
+Door 2 0 0 11708 0 0
+~
+~
+End
+
+#11708
+Name Path Towards Malos~
+Descr
+This is the path towards the small city of Malos. This mountain is very
+steep and slick, many have fallen off of this mountain. 
+~
+Sector 5
+Door 0 0 0 11707 0 0
+~
+~
+Door 1 0 0 17755 0 0
+~
+~
+Door 3 0 0 11709 0 0
+~
+~
+End
+
+#11709
+Name Path Towards Malos~
+Descr
+This is the path towards the small city of Malos. This mountain is very
+steep and slick, many have fallen off of this mountain. 
+~
+Sector 5
+Door 1 0 0 11708 0 0
+~
+~
+Door 4 0 0 11710 0 0
+~
+~
+End
+
+#11710
+Name Climing Mount Malos~
+Descr
+You find yourself climbimg up the mountain Malos, you feel as if you are
+getting exhausted by each step, its very steep and slick. 
+~
+Sector 5
+Door 0 0 0 17756 0 0
+~
+~
+Door 2 0 0 17761 0 0
+~
+~
+Door 3 0 0 11711 0 0
+~
+~
+Door 5 0 0 11709 0 0
+~
+~
+End
+
+#11711
+Name Climing Mount Malos~
+Descr
+You find yourself climbimg up the mountain Malos, you feel as if you are
+getting exhausted by each step, its very steep and slick. 
+~
+Sector 5
+Reset M 11711 1 100
+Reset O 63 -1 40
+Reset O 11711 -1 15
+Door 0 0 0 17757 0 0
+~
+~
+Door 1 0 0 11710 0 0
+~
+~
+Door 2 0 0 17760 0 0
+~
+~
+Door 3 0 0 11712 0 0
+~
+~
+End
+
+#11712
+Name Climing Mount Malos~
+Descr
+You find yourself climbimg up the mountain Malos, you feel as if you are
+getting exhausted by each step, its very steep and slick. 
+~
+Sector 5
+Door 0 0 0 17758 0 0
+~
+~
+Door 1 0 0 11711 0 0
+~
+~
+Door 2 0 0 17759 0 0
+~
+~
+Door 4 0 0 11713 0 0
+~
+~
+End
+
+#11713
+Name Top of Mount Malos~
+Descr
+You find yourself on top of the mountain, Malos. To the north you see
+extremely buff gate guards awaiting enemys. To the south is the exhausting
+way you just came from. 
+~
+Sector 5
+Door 0 0 0 11714 0 0
+~
+~
+Door 5 0 0 11712 0 0
+~
+~
+End
+
+#11714
+Name The Gates of Malos~
+Descr
+You are at the main gates of Malos, these gates are heavily fortified by
+the greatest draconian warriors in Malos. You feel a sense of security as
+you pass through security. 
+~
+Sector 34
+Reset M 11714 1 100
+Reset O 260 -1 100
+Reset M 11714 1 100
+Reset O 260 -1 100
+Reset M 11714 1 100
+Reset O 260 -1 100
+Reset M 11714 1 100
+Reset O 260 -1 100
+Door 0 0 0 11715 0 0
+~
+~
+Door 2 0 0 11713 0 0
+~
+~
+End
+
+#11715
+Name Just Inside the Gates of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Reset M 11720 1 100
+Door 0 0 0 11717 0 0
+~
+~
+Door 2 0 0 11714 0 0
+~
+~
+Door 3 0 0 11716 0 0
+~
+~
+End
+
+#11716
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Door 0 0 0 11718 0 0
+~
+~
+Door 1 0 0 11715 0 0
+~
+~
+Door 3 0 0 11720 0 0
+~
+~
+End
+
+#11717
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Door 2 0 0 11715 0 0
+~
+~
+Door 3 0 0 11718 0 0
+~
+~
+End
+
+#11718
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Door 0 0 0 11741 0 0
+~
+~
+Door 1 0 0 11717 0 0
+~
+~
+Door 2 0 0 11716 0 0
+~
+~
+Door 3 0 0 11719 0 0
+~
+~
+End
+
+#11719
+Name Malos;The Center of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Flags 65536
+Reset M 11719 1 100
+Reset O 11719 -5 100
+Door 0 0 0 11738 0 0
+~
+~
+Door 1 0 0 11718 0 0
+~
+~
+Door 2 0 0 11720 0 0
+~
+~
+Door 3 0 0 11730 0 0
+~
+~
+End
+
+#11720
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Reset M 11720 1 100
+Door 0 0 0 11719 0 0
+~
+~
+Door 1 0 0 11716 0 0
+~
+~
+Door 3 0 0 11731 0 0
+~
+~
+End
+
+#11721
+Name ~
+Descr
+~
+Door 1 0 0 11720 0 0
+~
+~
+Door 2 0 0 11720 0 0
+~
+~
+Door 3 0 0 11723 0 0
+~
+~
+End
+
+#11722
+Name ~
+Descr
+~
+Door 0 0 0 11723 0 0
+~
+~
+Door 1 0 0 11720 0 0
+~
+~
+End
+
+#11723
+Name ~
+Descr
+~
+Door 1 0 0 11721 0 0
+~
+~
+Door 2 0 0 11722 0 0
+~
+~
+End
+
+#11724
+Name ~
+Descr
+~
+End
+
+#11725
+Name ~
+Descr
+~
+End
+
+#11726
+Name ~
+Descr
+~
+End
+
+#11727
+Name ~
+Descr
+~
+End
+
+#11728
+Name ~
+Descr
+~
+End
+
+#11729
+Name ~
+Descr
+~
+End
+
+#11730
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Reset M 11720 1 100
+Door 0 0 0 11737 0 0
+~
+~
+Door 1 0 0 11719 0 0
+~
+~
+Door 2 0 0 11731 0 0
+~
+~
+Door 3 0 0 11733 0 0
+~
+~
+End
+
+#11731
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Door 0 0 0 11730 0 0
+~
+~
+Door 1 0 0 11720 0 0
+~
+~
+Door 3 0 0 11732 0 0
+~
+~
+End
+
+#11732
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Door 0 0 0 11733 0 0
+~
+~
+Door 1 0 0 11731 0 0
+~
+~
+Door 3 0 0 11734 0 0
+~
+~
+End
+
+#11733
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Door 1 0 0 11730 0 0
+~
+~
+Door 2 0 0 11732 0 0
+~
+~
+End
+
+#11734
+Name The Western Gate of Malos~
+Descr
+You are at the western gate of Malos, this gate is heavily guarded by the
+best draconian guards in Malos. They are armed with only their talon's, but
+these tough warriors pack a big punch. 
+~
+Reset M 11734 1 100
+Reset O 260 -1 100
+Reset M 11734 1 100
+Reset O 260 -1 100
+Reset M 11734 1 100
+Reset O 260 -1 100
+Reset M 11734 1 100
+Reset O 260 -1 100
+Door 1 0 0 11732 0 0
+~
+~
+Door 3 0 0 14001 0 0
+~
+~
+End
+
+#11735
+Name Just Before the Gates of Malos~
+Descr
+You find yourself just before the gates of Malos. These gates are
+very big and heavily guarded by extremely large flying draconians, be
+careful when approaching these guards. 
+~
+Sector 14
+Door 4 0 0 11714 0 0
+~
+~
+Door 5 0 0 11736 0 0
+~
+~
+End
+
+#11736
+Name Climbing up Mt. Malos~
+Descr
+You are walking on an extremely steep path, it leads to the gates of malos. 
+~
+Sector 14
+Door 4 0 0 11735 0 0
+~
+~
+Door 5 0 0 11704 0 0
+~
+~
+End
+
+#11737
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Reset M 11720 1 100
+Door 0 0 0 11740 0 0
+~
+~
+Door 1 0 0 11738 0 0
+~
+~
+Door 2 0 0 11730 0 0
+~
+~
+Door 3 0 0 11747 0 0
+~
+~
+End
+
+#11738
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Door 0 0 0 11739 0 0
+~
+~
+Door 1 0 0 11741 0 0
+~
+~
+Door 2 0 0 11719 0 0
+~
+~
+Door 3 0 0 11737 0 0
+~
+~
+End
+
+#11739
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Door 0 0 0 11743 0 0
+~
+~
+Door 1 0 0 11742 0 0
+~
+~
+Door 2 0 0 11738 0 0
+~
+~
+Door 3 0 0 11740 0 0
+~
+~
+End
+
+#11740
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Door 1 0 0 11739 0 0
+~
+~
+Door 2 0 0 11737 0 0
+~
+~
+Door 3 0 0 11744 0 0
+~
+~
+End
+
+#11741
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Reset M 11720 1 100
+Door 0 0 0 11742 0 0
+~
+~
+Door 1 0 0 11746 0 0
+~
+~
+Door 2 0 0 11718 0 0
+~
+~
+Door 3 0 0 11738 0 0
+~
+~
+End
+
+#11742
+Name The City of Malos~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Door 1 0 0 11745 0 0
+~
+~
+Door 2 0 0 11741 0 0
+~
+~
+Door 3 0 0 11739 0 0
+~
+~
+End
+
+#11743
+Name The Room of Arkane~
+Descr
+You find yourself in a magical room filled with secrets. You see huge
+pillars reaching towards the sky and statues of past heroes. You feel as if
+this room has been used for a very long time 
+~
+Flags2 6
+Flags 4
+Sector 34
+Reset M 11743 1 100
+Door 2 0 0 11739 0 0
+~
+~
+End
+
+#11744
+Name Malos Armorer~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Reset M 11744 1 100
+Reset O 102 1 100
+Reset O 103 1 100
+Reset O 104 1 100
+Reset O 103 1 100
+Reset O 102 1 100
+Reset O 102 1 100
+Reset O 1931 3 50
+Reset O 1930 3 50
+Reset O 1929 3 50
+Reset O 1928 3 50
+Reset O 1927 3 50
+Reset O 1926 3 50
+Reset O 1925 3 50
+Reset O 1924 3 50
+Reset O 1923 3 50
+Reset O 1922 3 50
+Reset O 1921 3 50
+Reset O 1920 3 50
+Reset O 1919 3 50
+Reset O 1918 3 50
+Reset O 1917 3 50
+Door 1 0 0 11740 0 0
+~
+~
+End
+
+#11745
+Name Malos Provisioner~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Reset M 11720 1 100
+Reset M 11745 1 100
+Reset O 32 2 100
+Reset O 36 6 100
+Reset O 30 12 100
+Reset O 39 6 100
+Reset O 2009 5 75
+Reset O 2010 5 100
+Reset O 2008 5 75
+Door 3 0 0 11742 0 0
+~
+~
+End
+
+#11746
+Name Malos Banker~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Reset M 11746 1 100
+Door 3 0 0 11741 0 0
+~
+~
+End
+
+#11747
+Name Malos Weaponsmith~
+Descr
+You find yourself in the small city of Malos. It is upon a high mountain
+that these citizens fend to keep the enemys off their homelands. You find
+yourself feeling quite protected. 
+~
+Reset M 11720 1 100
+Reset M 11747 1 100
+Reset O 120 1 100
+Reset O 120 1 100
+Reset O 120 1 100
+Reset O 120 1 100
+Reset O 120 1 100
+Reset O 121 1 100
+Reset O 121 1 100
+Reset O 121 1 100
+Reset O 121 1 100
+Reset O 121 1 100
+Reset O 2007 2 50
+Reset O 1935 2 50
+Reset O 1934 2 50
+Reset O 1933 2 50
+Reset O 1932 2 50
+Door 1 0 0 11737 0 0
+~
+~
+End
+
+#11748
+Name ~
+Descr
+~
+End
+
+#11749
+Name ~
+Descr
+~
+End
+
+#11750
+Name ~
+Descr
+~
+End
+
+#11751
+Name ~
+Descr
+~
+End
+
+#11752
+Name ~
+Descr
+~
+End
+
+#11753
+Name ~
+Descr
+~
+End
+
+#11754
+Name ~
+Descr
+~
+End
+
+#11755
+Name ~
+Descr
+~
+End
+
+#11756
+Name ~
+Descr
+~
+End
+
+#11757
+Name ~
+Descr
+~
+End
+
+#11758
+Name ~
+Descr
+~
+End
+
+#11759
+Name ~
+Descr
+~
+End
+
+#11760
+Name ~
+Descr
+~
+End
+
+#11790
+Name Below the City of Malos~
+Descr
+You are directly below the city of the great city of Malos, you hear
+citizen's above going about their everyday business. 
+~
+Sector 14
+Door 4 0 0 11732 0 0
+~
+~
+Door 5 0 0 11791 0 0
+~
+~
+End
+
+#11791
+Name Below the City of Malos~
+Descr
+You are directly below the city of the great city of Malos, you hear
+citizen's above going about their everyday business. 
+~
+Sector 14
+Door 4 0 0 11790 0 0
+~
+~
+Door 5 0 0 11704 0 0
+~
+~
+End
+
+#11792
+Name ~
+Descr
+~
+End
+
+#11793
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

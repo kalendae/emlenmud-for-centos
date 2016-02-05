@@ -1,0 +1,65 @@
+oload 103
+mload 103
+where 1
+finger 5
+goto  100
+title 1
+replace 3
+rating 1
+edit 107
+scriptedit 107
+listcode 107
+listtriggers 107
+show_questflags 107
+sedit 108
+cedit 110
+cedit2 110
+coins 110
+disconnect 110
+recho 105
+limited 110
+mindex 110
+mreset 110
+oindex 110
+oreset 110
+owhere 110
+mwhere 110
+noaffect 110
+objscatter 110
+users 109
+setlevels 110
+setfighters 110
+who 10
+slookup 101
+transfer 110
+damroll 110
+unlearn 3
+preset 15
+reboot 109
+cast_p 107
+casts 107
+attackname 107
+LINK cls clear
+LINK config auto
+LINK alliance ally
+LINK sacrifice junk
+LINK cedit2 religionedit
+LINK clan2  sect
+LINK cls    redraw
+LINK up     u
+LINK down   d
+LINK south  s
+LINK north  n
+LINK east   e
+LINK west   w
+LINK cast   c
+END
+
+
+
+
+
+
+
+
+

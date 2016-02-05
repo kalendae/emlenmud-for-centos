@@ -1,0 +1,36 @@
+#AREADATA 
+Name the dracon forest~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders None Bern~
+VNUMs 66081 66999
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#66081
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

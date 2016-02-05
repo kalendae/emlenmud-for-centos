@@ -1,0 +1,2191 @@
+#AREADATA 
+Name The Sanctuary~
+Repop <--- Insert Repop Message Here.
+~
+SCZone 0
+Builders Shiver~
+VNUMs 30301 30600
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#30301
+Name demon~
+Short a hellish demon~
+Long 
+A very ugly demon is standing here.
+~
+AMax 5
+NHeight 1
+Level 100
+MobType 11
+Hp 2
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#30301
+Name A Passage Leading Through Some Obsidian Caves~
+Descr
+~
+Flags 5
+Sector 40
+Door 1 0 0 30302 0 0
+~
+~
+End
+
+#30302
+Name A Passage Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 2 0 0 30303 0 0
+~
+~
+Door 3 0 0 30301 0 0
+~
+~
+End
+
+#30303
+Name A Passage Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30302 0 0
+~
+~
+Door 2 0 0 30304 0 0
+~
+~
+End
+
+#30304
+Name A Passage Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30303 0 0
+~
+~
+Door 1 0 0 30305 0 0
+~
+~
+End
+
+#30305
+Name A Trail Leading to Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 1 0 0 30306 0 0
+~
+~
+Door 3 0 0 30304 0 0
+~
+~
+End
+
+#30306
+Name A Trail Leading to Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 2 0 0 30307 0 0
+~
+~
+Door 3 0 0 30305 0 0
+~
+~
+End
+
+#30307
+Name The Entrance to Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30306 0 0
+~
+~
+Door 1 0 0 30308 0 0
+~
+~
+End
+
+#30308
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 2 0 0 30309 0 0
+~
+~
+Door 3 0 0 30307 0 0
+~
+~
+End
+
+#30309
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30308 0 0
+~
+~
+Door 2 0 0 30310 0 0
+~
+~
+End
+
+#30310
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30309 0 0
+~
+~
+Door 1 0 0 30311 0 0
+~
+~
+End
+
+#30311
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 1 0 0 30313 0 0
+~
+~
+Door 3 0 0 30310 0 0
+~
+~
+End
+
+#30312
+Name ~
+Descr
+~
+Door 3 0 0 30311 0 0
+~
+~
+End
+
+#30313
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30314 0 0
+~
+~
+Door 3 0 0 30311 0 0
+~
+~
+End
+
+#30314
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30315 0 0
+~
+~
+Door 2 0 0 30313 0 0
+~
+~
+End
+
+#30315
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30316 0 0
+~
+~
+Door 2 0 0 30314 0 0
+~
+~
+End
+
+#30316
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 1 0 0 30317 0 0
+~
+~
+Door 2 0 0 30315 0 0
+~
+~
+End
+
+#30317
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 1 0 0 30318 0 0
+~
+~
+Door 3 0 0 30316 0 0
+~
+~
+End
+
+#30318
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30319 0 0
+~
+~
+Door 3 0 0 30317 0 0
+~
+~
+End
+
+#30319
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30320 0 0
+~
+~
+Door 2 0 0 30318 0 0
+~
+~
+End
+
+#30320
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 1 0 0 30321 0 0
+~
+~
+Door 2 0 0 30319 0 0
+~
+~
+End
+
+#30321
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 1 0 0 30322 0 0
+~
+~
+Door 3 0 0 30320 0 0
+~
+~
+End
+
+#30322
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30323 0 0
+~
+~
+Door 3 0 0 30321 0 0
+~
+~
+End
+
+#30323
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30324 0 0
+~
+~
+Door 2 0 0 30322 0 0
+~
+~
+End
+
+#30324
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30325 0 0
+~
+~
+Door 2 0 0 30323 0 0
+~
+~
+End
+
+#30325
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 2 0 0 30324 0 0
+~
+~
+Door 3 0 0 30326 0 0
+~
+~
+End
+
+#30326
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 1 0 0 30325 0 0
+~
+~
+Door 3 0 0 30327 0 0
+~
+~
+End
+
+#30327
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 1 0 0 30326 0 0
+~
+~
+Door 3 0 0 30328 0 0
+~
+~
+End
+
+#30328
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 0 0 0 30329 0 0
+~
+~
+Door 1 0 0 30327 0 0
+~
+~
+End
+
+#30329
+Name A Trail Leading Through Some Obsidian Caves~
+Descr
+~
+Sector 40
+Door 2 0 0 30328 0 0
+~
+~
+Door 5 257 0 30331 30 30
+~
+Hell~
+End
+
+#30330
+Name FALLING~
+Descr
+~
+Flags2 9
+Sector 44
+Move_dir 5
+Movemess
+FALLING!!!!!
+~
+Door 5 0 0 30335 0 0
+~
+~
+End
+
+#30331
+Name Just Before the Gates of Hell~
+Descr
+~
+Sector 44
+Door 4 257 0 30329 30 30
+~
+Hell~
+Door 5 0 0 30332 0 0
+~
+~
+End
+
+#30332
+Name The Gates of Hell~
+Descr
+~
+Sector 44
+Door 4 0 0 30331 0 0
+~
+~
+Door 5 0 0 30333 0 0
+~
+~
+End
+
+#30333
+Name FALLING~
+Descr
+~
+Flags2 9
+Flags 32
+Sector 44
+Move_dir 5
+Movemess
+FALLING!!!!
+~
+Door 5 0 0 30334 0 0
+~
+~
+End
+
+#30334
+Name FALLING~
+Descr
+~
+Flags2 9
+Sector 44
+Move_dir 5
+Movemess
+FALLING!!!!
+~
+Door 5 0 0 30330 0 0
+~
+~
+End
+
+#30335
+Name Starting Point~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30337 0 0
+~
+~
+Door 1 0 0 30336 0 0
+~
+~
+End
+
+#30336
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30338 0 0
+~
+~
+Door 3 0 0 30335 0 0
+~
+~
+End
+
+#30337
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30341 0 0
+~
+~
+Door 1 0 0 30338 0 0
+~
+~
+Door 2 0 0 30335 0 0
+~
+~
+End
+
+#30338
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30342 0 0
+~
+~
+Door 1 0 0 30339 0 0
+~
+~
+Door 2 0 0 30336 0 0
+~
+~
+Door 3 0 0 30337 0 0
+~
+~
+End
+
+#30339
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30343 0 0
+~
+~
+Door 1 0 0 30340 0 0
+~
+~
+Door 3 0 0 30338 0 0
+~
+~
+End
+
+#30340
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30344 0 0
+~
+~
+Door 3 0 0 30339 0 0
+~
+~
+End
+
+#30341
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30345 0 0
+~
+~
+Door 1 0 0 30342 0 0
+~
+~
+Door 2 0 0 30337 0 0
+~
+~
+End
+
+#30342
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30346 0 0
+~
+~
+Door 1 0 0 30343 0 0
+~
+~
+Door 2 0 0 30338 0 0
+~
+~
+Door 3 0 0 30341 0 0
+~
+~
+End
+
+#30343
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30347 0 0
+~
+~
+Door 1 0 0 30344 0 0
+~
+~
+Door 2 0 0 30339 0 0
+~
+~
+Door 3 0 0 30342 0 0
+~
+~
+End
+
+#30344
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30348 0 0
+~
+~
+Door 2 0 0 30340 0 0
+~
+~
+Door 3 0 0 30343 0 0
+~
+~
+End
+
+#30345
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30352 0 0
+~
+~
+Door 1 0 0 30346 0 0
+~
+~
+Door 2 0 0 30341 0 0
+~
+~
+End
+
+#30346
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30351 0 0
+~
+~
+Door 1 0 0 30347 0 0
+~
+~
+Door 2 0 0 30342 0 0
+~
+~
+Door 3 0 0 30345 0 0
+~
+~
+End
+
+#30347
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30350 0 0
+~
+~
+Door 1 0 0 30348 0 0
+~
+~
+Door 2 0 0 30343 0 0
+~
+~
+Door 3 0 0 30346 0 0
+~
+~
+End
+
+#30348
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30349 0 0
+~
+~
+Door 2 0 0 30344 0 0
+~
+~
+Door 3 0 0 30347 0 0
+~
+~
+End
+
+#30349
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30353 0 0
+~
+~
+Door 2 0 0 30348 0 0
+~
+~
+Door 3 0 0 30350 0 0
+~
+~
+End
+
+#30350
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30354 0 0
+~
+~
+Door 1 0 0 30349 0 0
+~
+~
+Door 2 0 0 30347 0 0
+~
+~
+Door 3 0 0 30351 0 0
+~
+~
+End
+
+#30351
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30355 0 0
+~
+~
+Door 1 0 0 30350 0 0
+~
+~
+Door 2 0 0 30346 0 0
+~
+~
+Door 3 0 0 30352 0 0
+~
+~
+End
+
+#30352
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30351 0 0
+~
+~
+Door 2 0 0 30345 0 0
+~
+~
+Door 3 0 0 30359 0 0
+~
+~
+End
+
+#30353
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30356 0 0
+~
+~
+Door 2 0 0 30349 0 0
+~
+~
+Door 3 0 0 30354 0 0
+~
+~
+End
+
+#30354
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30357 0 0
+~
+~
+Door 1 0 0 30353 0 0
+~
+~
+Door 2 0 0 30350 0 0
+~
+~
+Door 3 0 0 30355 0 0
+~
+~
+End
+
+#30355
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30358 0 0
+~
+~
+Door 1 0 0 30354 0 0
+~
+~
+Door 2 0 0 30351 0 0
+~
+~
+End
+
+#30356
+Name ISLAND~
+Descr
+~
+Flags 32
+Sector 44
+Door 2 0 0 30353 0 0
+~
+~
+Door 3 0 0 30357 0 0
+~
+~
+End
+
+#30357
+Name ISLAND~
+Descr
+~
+Flags 32
+Sector 44
+Door 1 0 0 30356 0 0
+~
+~
+Door 2 0 0 30354 0 0
+~
+~
+Door 3 0 0 30358 0 0
+~
+~
+End
+
+#30358
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30357 0 0
+~
+~
+Door 2 0 0 30355 0 0
+~
+~
+End
+
+#30359
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30352 0 0
+~
+~
+Door 3 0 0 30360 0 0
+~
+~
+End
+
+#30360
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30359 0 0
+~
+~
+Door 3 0 0 30361 0 0
+~
+~
+End
+
+#30361
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30362 0 0
+~
+~
+Door 1 0 0 30360 0 0
+~
+~
+Door 3 0 0 30370 0 0
+~
+~
+End
+
+#30362
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30363 0 0
+~
+~
+Door 2 0 0 30361 0 0
+~
+~
+Door 3 0 0 30377 0 0
+~
+~
+End
+
+#30363
+Name Lava~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30364 0 0
+~
+~
+Door 2 0 0 30362 0 0
+~
+~
+Door 3 0 0 30378 0 0
+~
+~
+End
+
+#30364
+Name Lava~
+Descr
+~
+Flags 32
+Sector 35
+Door 2 0 0 30363 0 0
+~
+~
+Door 3 0 0 30365 0 0
+~
+~
+End
+
+#30365
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30364 0 0
+~
+~
+Door 2 0 0 30378 0 0
+~
+~
+Door 3 0 0 30366 0 0
+~
+~
+End
+
+#30366
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30365 0 0
+~
+~
+Door 2 0 0 30380 0 0
+~
+~
+Door 3 0 0 30367 0 0
+~
+~
+End
+
+#30367
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 1 0 0 30366 0 0
+~
+~
+Door 2 0 0 30382 0 0
+~
+~
+Door 3 0 0 30368 0 0
+~
+~
+End
+
+#30368
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 1 0 0 30367 0 0
+~
+~
+Door 2 0 0 30384 0 0
+~
+~
+Door 3 0 0 30369 0 0
+~
+~
+End
+
+#30369
+Name Lava~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30368 0 0
+~
+~
+Door 2 0 0 30386 0 0
+~
+~
+End
+
+#30370
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30377 0 0
+~
+~
+Door 1 0 0 30361 0 0
+~
+~
+Door 3 0 0 30371 0 0
+~
+~
+End
+
+#30371
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30379 0 0
+~
+~
+Door 1 0 0 30370 0 0
+~
+~
+Door 2 0 0 30389 0 0
+~
+~
+Door 3 0 0 30372 0 0
+~
+~
+End
+
+#30372
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30381 0 0
+~
+~
+Door 1 0 0 30371 0 0
+~
+~
+Door 2 0 0 30391 0 0
+~
+~
+Door 3 0 0 30373 0 0
+~
+~
+End
+
+#30373
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30383 0 0
+~
+~
+Door 1 0 0 30372 0 0
+~
+~
+Door 2 0 0 30390 0 0
+~
+~
+Door 3 0 0 30374 0 0
+~
+~
+End
+
+#30374
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30385 0 0
+~
+~
+Door 1 0 0 30373 0 0
+~
+~
+Door 2 0 0 30388 0 0
+~
+~
+Door 3 0 0 30375 0 0
+~
+~
+End
+
+#30375
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30374 0 0
+~
+~
+Door 2 0 0 30387 0 0
+~
+~
+Door 3 0 0 30376 0 0
+~
+~
+End
+
+#30376
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30375 0 0
+~
+~
+End
+
+#30377
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30378 0 0
+~
+~
+Door 1 0 0 30362 0 0
+~
+~
+Door 2 0 0 30370 0 0
+~
+~
+Door 3 0 0 30379 0 0
+~
+~
+End
+
+#30378
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30365 0 0
+~
+~
+Door 1 0 0 30363 0 0
+~
+~
+Door 2 0 0 30377 0 0
+~
+~
+Door 3 0 0 30380 0 0
+~
+~
+End
+
+#30379
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30380 0 0
+~
+~
+Door 1 0 0 30377 0 0
+~
+~
+Door 2 0 0 30371 0 0
+~
+~
+Door 3 0 0 30381 0 0
+~
+~
+End
+
+#30380
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30366 0 0
+~
+~
+Door 1 0 0 30378 0 0
+~
+~
+Door 2 0 0 30379 0 0
+~
+~
+Door 3 0 0 30382 0 0
+~
+~
+End
+
+#30381
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30382 0 0
+~
+~
+Door 1 0 0 30379 0 0
+~
+~
+Door 2 0 0 30372 0 0
+~
+~
+Door 3 0 0 30383 0 0
+~
+~
+End
+
+#30382
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30367 0 0
+~
+~
+Door 1 0 0 30380 0 0
+~
+~
+Door 2 0 0 30381 0 0
+~
+~
+Door 3 0 0 30384 0 0
+~
+~
+End
+
+#30383
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30384 0 0
+~
+~
+Door 1 0 0 30381 0 0
+~
+~
+Door 2 0 0 30373 0 0
+~
+~
+Door 3 0 0 30385 0 0
+~
+~
+End
+
+#30384
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30368 0 0
+~
+~
+Door 1 0 0 30382 0 0
+~
+~
+Door 2 0 0 30383 0 0
+~
+~
+Door 3 0 0 30386 0 0
+~
+~
+End
+
+#30385
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30386 0 0
+~
+~
+Door 1 0 0 30383 0 0
+~
+~
+Door 2 0 0 30374 0 0
+~
+~
+End
+
+#30386
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30369 0 0
+~
+~
+Door 1 0 0 30384 0 0
+~
+~
+Door 2 0 0 30385 0 0
+~
+~
+End
+
+#30387
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30375 0 0
+~
+~
+Door 1 0 0 30388 0 0
+~
+~
+Door 2 0 0 30392 0 0
+~
+~
+End
+
+#30388
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30374 0 0
+~
+~
+Door 1 0 0 30390 0 0
+~
+~
+Door 2 0 0 30399 0 0
+~
+~
+Door 3 0 0 30387 0 0
+~
+~
+End
+
+#30389
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30371 0 0
+~
+~
+Door 2 0 0 30402 0 0
+~
+~
+Door 3 0 0 30391 0 0
+~
+~
+End
+
+#30390
+Name Lava~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30373 0 0
+~
+~
+Door 1 0 0 30391 0 0
+~
+~
+Door 2 0 0 30400 0 0
+~
+~
+Door 3 0 0 30388 0 0
+~
+~
+End
+
+#30391
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30372 0 0
+~
+~
+Door 1 0 0 30389 0 0
+~
+~
+Door 2 0 0 30401 0 0
+~
+~
+Door 3 0 0 30390 0 0
+~
+~
+End
+
+#30392
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30387 0 0
+~
+~
+Door 1 0 0 30399 0 0
+~
+~
+Door 2 0 0 30394 0 0
+~
+~
+End
+
+#30393
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30395 0 0
+~
+~
+Door 1 0 0 30415 0 0
+~
+~
+End
+
+#30394
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30392 0 0
+~
+~
+Door 1 0 0 30409 0 0
+~
+~
+Door 2 0 0 30395 0 0
+~
+~
+Door 3 0 0 30396 0 0
+~
+~
+End
+
+#30395
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30394 0 0
+~
+~
+Door 1 0 0 30413 0 0
+~
+~
+Door 2 0 0 30393 0 0
+~
+~
+Door 3 0 0 30398 0 0
+~
+~
+End
+
+#30396
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 1 0 0 30394 0 0
+~
+~
+Door 2 0 0 30398 0 0
+~
+~
+Door 3 0 0 30397 0 0
+~
+~
+End
+
+#30397
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 1 0 0 30396 0 0
+~
+~
+End
+
+#30398
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30396 0 0
+~
+~
+Door 1 0 0 30395 0 0
+~
+~
+End
+
+#30399
+Name Lava~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30388 0 0
+~
+~
+Door 1 0 0 30400 0 0
+~
+~
+Door 2 0 0 30409 0 0
+~
+~
+Door 3 0 0 30392 0 0
+~
+~
+End
+
+#30400
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30390 0 0
+~
+~
+Door 1 0 0 30401 0 0
+~
+~
+Door 2 0 0 30410 0 0
+~
+~
+Door 3 0 0 30399 0 0
+~
+~
+End
+
+#30401
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30391 0 0
+~
+~
+Door 1 0 0 30402 0 0
+~
+~
+Door 2 0 0 30411 0 0
+~
+~
+Door 3 0 0 30400 0 0
+~
+~
+End
+
+#30402
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30389 0 0
+~
+~
+Door 1 0 0 30403 0 0
+~
+~
+Door 2 0 0 30412 0 0
+~
+~
+Door 3 0 0 30401 0 0
+~
+~
+End
+
+#30403
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 1 0 0 30404 0 0
+~
+~
+Door 2 0 0 30405 0 0
+~
+~
+Door 3 0 0 30402 0 0
+~
+~
+End
+
+#30404
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 2 0 0 30406 0 0
+~
+~
+Door 3 0 0 30403 0 0
+~
+~
+End
+
+#30405
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30403 0 0
+~
+~
+Door 1 0 0 30406 0 0
+~
+~
+Door 2 0 0 30407 0 0
+~
+~
+Door 3 0 0 30412 0 0
+~
+~
+End
+
+#30406
+Name ISLAND~
+Descr
+~
+Flags 32
+Sector 44
+Door 0 0 0 30404 0 0
+~
+~
+Door 2 0 0 30408 0 0
+~
+~
+Door 3 0 0 30405 0 0
+~
+~
+End
+
+#30407
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30405 0 0
+~
+~
+Door 1 0 0 30408 0 0
+~
+~
+End
+
+#30408
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30406 0 0
+~
+~
+Door 3 0 0 30407 0 0
+~
+~
+End
+
+#30409
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30399 0 0
+~
+~
+Door 1 0 0 30410 0 0
+~
+~
+Door 2 0 0 30413 0 0
+~
+~
+Door 3 0 0 30394 0 0
+~
+~
+End
+
+#30410
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30400 0 0
+~
+~
+Door 1 0 0 30411 0 0
+~
+~
+Door 2 0 0 30414 0 0
+~
+~
+Door 3 0 0 30409 0 0
+~
+~
+End
+
+#30411
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30401 0 0
+~
+~
+Door 1 0 0 30412 0 0
+~
+~
+Door 3 0 0 30410 0 0
+~
+~
+End
+
+#30412
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30402 0 0
+~
+~
+Door 1 0 0 30405 0 0
+~
+~
+Door 3 0 0 30411 0 0
+~
+~
+End
+
+#30413
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30409 0 0
+~
+~
+Door 1 0 0 30414 0 0
+~
+~
+Door 2 0 0 30415 0 0
+~
+~
+Door 3 0 0 30395 0 0
+~
+~
+End
+
+#30414
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30410 0 0
+~
+~
+Door 2 0 0 30416 0 0
+~
+~
+Door 3 0 0 30413 0 0
+~
+~
+End
+
+#30415
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30413 0 0
+~
+~
+Door 1 0 0 30416 0 0
+~
+~
+Door 3 0 0 30393 0 0
+~
+~
+End
+
+#30416
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30414 0 0
+~
+~
+Door 1 0 0 30417 0 0
+~
+~
+Door 3 0 0 30415 0 0
+~
+~
+End
+
+#30417
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 2 0 0 30418 0 0
+~
+~
+Door 3 0 0 30416 0 0
+~
+~
+End
+
+#30418
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30417 0 0
+~
+~
+Door 2 0 0 30431 0 0
+~
+~
+Door 3 0 0 30419 0 0
+~
+~
+End
+
+#30419
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30418 0 0
+~
+~
+Door 2 0 0 30430 0 0
+~
+~
+Door 3 0 0 30420 0 0
+~
+~
+End
+
+#30420
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30419 0 0
+~
+~
+Door 2 0 0 30429 0 0
+~
+~
+Door 3 0 0 30421 0 0
+~
+~
+End
+
+#30421
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30420 0 0
+~
+~
+Door 2 0 0 30428 0 0
+~
+~
+Door 3 0 0 30422 0 0
+~
+~
+End
+
+#30422
+Name Lava~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30421 0 0
+~
+~
+Door 2 0 0 30427 0 0
+~
+~
+Door 3 0 0 30423 0 0
+~
+~
+End
+
+#30423
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 1 0 0 30422 0 0
+~
+~
+Door 2 0 0 30426 0 0
+~
+~
+Door 3 0 0 30425 0 0
+~
+~
+End
+
+#30424
+Name ~
+Descr
+~
+End
+
+#30425
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 1 0 0 30423 0 0
+~
+~
+End
+
+#30426
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30423 0 0
+~
+~
+Door 1 0 0 30427 0 0
+~
+~
+End
+
+#30427
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30422 0 0
+~
+~
+Door 1 0 0 30428 0 0
+~
+~
+Door 3 0 0 30426 0 0
+~
+~
+End
+
+#30428
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 0 0 0 30421 0 0
+~
+~
+Door 1 0 0 30429 0 0
+~
+~
+Door 3 0 0 30427 0 0
+~
+~
+End
+
+#30429
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30420 0 0
+~
+~
+Door 1 0 0 30430 0 0
+~
+~
+Door 3 0 0 30428 0 0
+~
+~
+End
+
+#30430
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30419 0 0
+~
+~
+Door 1 0 0 30431 0 0
+~
+~
+Door 3 0 0 30429 0 0
+~
+~
+End
+
+#30431
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30418 0 0
+~
+~
+Door 1 0 0 30432 0 0
+~
+~
+Door 3 0 0 30430 0 0
+~
+~
+End
+
+#30432
+Name LAVA~
+Descr
+~
+Flags 32
+Sector 35
+Door 1 0 0 30433 0 0
+~
+~
+Door 3 0 0 30431 0 0
+~
+~
+End
+
+#30433
+Name ISLAND~
+Descr
+~
+Flags 32
+Sector 44
+Door 1 0 0 30434 0 0
+~
+~
+Door 3 0 0 30432 0 0
+~
+~
+End
+
+#30434
+Name ISLAND~
+Descr
+~
+Flags 32
+Sector 44
+Door 2 0 0 30435 0 0
+~
+~
+Door 3 0 0 30433 0 0
+~
+~
+End
+
+#30435
+Name ISLAND~
+Descr
+~
+Sector 44
+Door 0 0 0 30434 0 0
+~
+~
+Door 3 0 0 30436 0 0
+~
+~
+End
+
+#30436
+Name ~
+Descr
+~
+Door 1 0 0 30435 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

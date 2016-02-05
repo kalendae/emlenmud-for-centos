@@ -1,0 +1,25 @@
+#! /bin/csh -f
+set port = 3333
+if ( "$1" != "" ) set port="$1"
+
+# Change to area/world directory.
+cd ../world
+
+# Set limits.
+nohup
+limit stack 1024k
+if ( -e shutdown.txt) rm -f shutdown.txt
+
+while ( 1 )
+    set index = 1000
+    while (1)
+	set logfile = ../log/$index.log
+	if ( ! -e $logfile ) break
+	@ index++
+    end
+
+    date > $logfile
+
+    ../src/LoC $port >&! $logfile
+
+end

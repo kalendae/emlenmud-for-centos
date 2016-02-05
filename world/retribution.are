@@ -1,0 +1,455 @@
+#AREADATA 
+Name The Retribution Clan Hall~
+Repop The area seems alive again!
+~
+SCZone 1
+Builders Kizmet~
+VNUMs 70100 70119
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#70100
+Name guardian~
+Short A guardian of retribution~
+Long 
+A Guardian of Retribution stands here guarding the haven.
+~
+AMax 8
+NHeight 0
+AClan 8
+ActBits 2
+ActBits3 1
+Affect_By 680
+AffectTWO 524296
+Alignment 2
+Money 30
+Level 140
+Sex 1
+MobType 2
+Guard 0
+End
+
+#70101
+Name barkeep retribution~
+Short A retribution barkeep~
+Long 
+A retribution barkeep is here serving drinks to his friends.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 680
+Level 800
+MobType 2
+Hp 200
+Guard 0
+Shop    0   0   0   0   0 100 75 1 23
+Shopd2 5
+Shopd3 4
+End
+
+#70102
+Name provisioner retribution~
+Short A retribution provisioner~
+Long 
+A retribution provisioner is here selling supplies.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 552
+Level 350
+MobType 1
+Hp 200
+Guard 0
+Shop    0   0   0   0   0 100 75 1 23
+Shopd2 5
+Shopd3 4
+End
+
+#70117
+Name armorer~
+Short A retribution armorer~
+Long 
+A Retribution Armorer stands here pounding armor.
+~
+AMax 1
+NHeight 0
+ActBits 3145730
+Affect_By 648
+Level 900
+Hp 90
+Guard 0
+End
+
+#70118
+Name retribution banker~
+Short A retribution banker~
+Long 
+A Retribution Banker stands here counting coins.
+~
+AMax 1
+NHeight 0
+ActBits 131074
+Affect_By 648
+Money 300
+Level 100
+Sex 1
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#70100
+Name well large~
+Short a large well~
+Descr
+A large well is here mounted into the ground.
+[0;36m~
+Type 25
+Wear 0
+Values 0 164 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#70111
+Name statue large~
+Short a large statue~
+Descr
+A large statue of a knight stands here glowing in the wind.
+[0;36m~
+Type 12
+Wear 0
+Values 4 70112 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#70116
+Name painting~
+Short a small painting~
+Descr
+A small painting is mounted on the wall here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 70100 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#70117
+Name whip retribution~
+Short [0m[37mA [1m[36mwhip of [1m[34mret[0m[34mrib[1m[37muti[30mon[0m~
+Descr
+A whip of beating has been discarded here.
+[0;36m~
+Type 13
+Extra 2
+Wear 24577
+Weight 5
+Cost 400
+End
+
+#0
+
+
+
+#ROOMDATA
+#70100
+Name The Entrance to Retribution~
+Descr
+~
+Flags 4
+Sector 47
+Reset M 70100 1 100
+Reset M 70100 1 100
+Reset M 70100 1 100
+Reset M 70100 1 100
+Reset M 70100 1 100
+Reset M 70100 1 100
+Reset M 70100 1 100
+Reset M 70100 1 100
+Door 0 0 0 70101 0 0
+~
+~
+Door 4 0 0 70119 0 0
+~
+~
+End
+
+#70101
+Name The Tower of Retribution~
+Descr
+~
+Flags 4
+Sector 47
+Door 0 0 0 70117 0 0
+~
+~
+Door 2 0 0 70100 0 0
+~
+~
+Door 3 0 0 70118 0 0
+~
+~
+Door 4 0 0 70102 0 0
+~
+~
+End
+
+#70102
+Name The Tower of Retribution~
+Descr
+~
+Flags 4
+Sector 47
+Door 4 0 0 70103 0 0
+~
+~
+Door 5 0 0 70101 0 0
+~
+~
+End
+
+#70103
+Name The Pathways of Retribution~
+Descr
+~
+Flags 4
+Sector 47
+Door 0 0 0 70104 0 0
+~
+~
+Door 5 0 0 70102 0 0
+~
+~
+End
+
+#70104
+Name The Pathways of Retribution~
+Descr
+~
+Flags 4
+Sector 47
+Door 0 0 0 70105 0 0
+~
+~
+Door 2 0 0 70103 0 0
+~
+~
+End
+
+#70105
+Name The Halls of Retribution~
+Descr
+~
+Flags 4
+Sector 47
+Door 0 0 0 70108 0 0
+~
+~
+Door 1 0 0 70107 0 0
+~
+~
+Door 2 0 0 70104 0 0
+~
+~
+Door 3 0 0 70106 0 0
+~
+~
+End
+
+#70106
+Name The Halls of Retribution~
+Descr
+~
+Flags 4
+Sector 47
+Reset M 70101 1 100
+Reset O 70117 3 100
+Door 0 0 0 70110 0 0
+~
+~
+Door 1 0 0 70105 0 0
+~
+~
+End
+
+#70107
+Name The Halls of Retribution~
+Descr
+~
+Flags 4
+Sector 47
+Reset M 70102 1 100
+Reset O 38 5 100
+Reset O 32 5 100
+Reset O 37 20 100
+Door 0 0 0 70109 0 0
+~
+~
+Door 3 0 0 70105 0 0
+~
+~
+End
+
+#70108
+Name The Center of Retribution~
+Descr
+~
+Flags2 6
+Flags 4
+Sector 47
+Reset O 70100 -5 100
+Door 1 0 0 70109 0 0
+~
+~
+Door 2 0 0 70105 0 0
+~
+~
+Door 3 0 0 70110 0 0
+~
+~
+Door 4 0 0 70111 0 0
+~
+~
+End
+
+#70109
+Name The Halls of Retribution~
+Descr
+~
+Flags 4
+Sector 47
+Door 2 0 0 70107 0 0
+~
+~
+Door 3 0 0 70108 0 0
+~
+~
+End
+
+#70110
+Name The Halls of Retribution~
+Descr
+~
+Sector 47
+Door 1 0 0 70108 0 0
+~
+~
+Door 2 0 0 70106 0 0
+~
+~
+End
+
+#70111
+Name The Retribution Statue Room~
+Descr
+~
+Reset O 70111 -5 100
+Door 5 0 0 70108 0 0
+~
+~
+End
+
+#70112
+Name The Retribution Secret Hall~
+Descr
+~
+Door 2 0 0 70113 0 0
+~
+~
+End
+
+#70113
+Name The Retribution Secret Hall~
+Descr
+~
+Door 0 0 0 70112 0 0
+~
+~
+Door 2 0 0 70114 0 0
+~
+~
+End
+
+#70114
+Name The Retribution Secret Hall~
+Descr
+~
+Door 0 0 0 70113 0 0
+~
+~
+Door 2 0 0 70115 0 0
+~
+~
+End
+
+#70115
+Name The Retribution Secret Hall~
+Descr
+~
+Door 0 0 0 70114 0 0
+~
+~
+Door 5 0 0 70116 0 0
+~
+~
+End
+
+#70116
+Name A Small Painting Room~
+Descr
+~
+Reset O 70116 -5 100
+Door 4 0 0 70115 0 0
+~
+~
+End
+
+#70117
+Name The Retribution Armorer~
+Descr
+~
+Reset M 70117 1 100
+Door 2 0 0 70101 0 0
+~
+~
+End
+
+#70118
+Name The Retribution Banker~
+Descr
+~
+Flags 32768
+Reset M 70118 1 100
+Door 1 0 0 70101 0 0
+~
+~
+End
+
+#70119
+Name ~
+Descr
+~
+Sector 47
+Door 5 0 0 70100 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,645 @@
+#AREADATA 
+Name Tier Equipment~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Structure~
+VNUMs 89900 89999
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#89900
+Name symbol warrior tier1~
+Short a [1m[30mblackened symbol of [0m[36mWa[1mRR[0m[37m[1mi[36moR[0m[36mS~
+Descr
+If you see this description report it to the immortals.
+[0;36m~
+Type 9
+Extra 33562754
+Wear 5
+Values 0 0 3 0 0 0 10 10 0 0 32
+Weight 0
+Cost 0
+Affect 14 5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#89901
+Name symbol cleric tier1~
+Short [1m[37ma shining symbol of the [0m[31mC[1ml[1m[33me[37mr[33mi[31mc[0m[31ms[0m~
+Descr
+If you see this message, contact a Immortal
+[0;36m~
+Type 9
+Extra 33562753
+Wear 5
+Values 0 0 3 0 0 0 0 0 0 0 128
+Weight 0
+Cost 0
+Affect 14 5 1 0 0
+Affect 20 2 1 0 0
+Affect 13 10 1 0 0
+End
+
+#89902
+Name symbol magic sorcerer tier1~
+Short a [1m[36mm[0m[36magica[1ml s[0m[36mymbo[1ml[0m of [1m[36mS[0m[36morcerer[1ms[0m~
+Descr
+If you see this message contact a Immortal
+[0;36m~
+Type 9
+Extra 33562753
+Wear 5
+Values 0 0 3 0 0 0 0 0 0 0 256
+Weight 0
+Cost 0
+Affect 14 5 1 0 0
+Affect 13 12 1 0 0
+Affect 17 1 1 0 0
+End
+
+#89903
+Name thief symbol tier1~
+Short a [1m[30mblackened iron symbol of Th[37mi[30meve[37ms~
+Descr
+(none)~
+Type 9
+Extra 33562754
+Wear 5
+Values 0 0 3 0 0 0 0 0 0 0 64
+Weight 0
+Cost 0
+Affect 13 5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#89904
+Name rogue tier1 symbol~
+Short a [1m[30mblackened steel symbol of Ro[1m[37mg[1m[30mue[1m[37ms[0m~
+Descr
+No desc's!
+[0;36m~
+Type 9
+Extra 33562753
+Wear 1
+Values 0 0 3 0 0 0 10 10 0 0 1024
+Weight 0
+Cost 0
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+Affect 14 3 1 0 0
+End
+
+#89905
+Name tinker symbol tier1~
+Short [33mA symbol of Tinkers[0m~
+Descr
+No desc
+[0;36m~
+Type 9
+Extra 33562755
+Wear 5
+Values 0 0 3 0 0 0 8 8 0 0 2048
+Weight 0
+Cost 0
+Affect 13 10 1 0 0
+Affect 18 4 1 0 0
+End
+
+#89906
+Name symbol ranger tier1~
+Short a [1m[36mcyan symbol of Ra[0m[36mng[1meRS[0m~
+Descr
+Nodesc
+[0;36m~
+Type 9
+Extra 33562753
+Wear 5
+Values 0 0 3 0 0 0 8 8 0 0 512
+Weight 0
+Cost 0
+Affect 18 5 1 0 0
+Affect 14 10 1 0 0
+End
+
+#89907
+Name symbol conjurer tier1~
+Short a [1m[32mcorrosive symbol of [0m[36mCo[1mnjuR[0m[36mer[1mS[0m~
+Descr
+(none)~
+Type 9
+Extra 33566849
+Wear 5
+Values 0 0 3 0 0 0 9 9 0 0 32768
+Weight 0
+Cost 300
+Affect 13 5 1 0 0
+Affect 20 2 1 0 0
+Affect 14 10 1 0 0
+End
+
+#89908
+Name symbol mystic tier1~
+Short a [1m[30msmokey black symbol of My[0m[31mst[1m[30mics[0m~
+Descr
+None
+[0;36m~
+Type 9
+Extra 33562754
+Wear 5
+Values 0 0 3 0 0 0 0 0 0 0 1048576
+Weight 0
+Cost 0
+Affect 18 3 1 0 0
+Affect 19 1 1 0 0
+End
+
+#89909
+Name symbol battlemaster bm tier1 ~
+Short a [1m[30mdull blackened symbol of BaTTLE[0m[31mMaS[1m[30mTerS[0m~
+Descr
+(none)~
+Type 9
+Extra 33562752
+Wear 5
+Values 0 0 3 0 0 0 0 0 0 0 2097152
+Weight 0
+Cost 0
+Affect 17 2 1 0 0
+Affect 18 4 1 0 0
+Affect 22 2 1 0 0
+End
+
+#89910
+Name earring warrior tier2~
+Short a [1m[30mblackened earring of [0m[36mWa[1mRR[37mi[36moR[0m[36ms[0m~
+Descr
+(none)~
+Type 9
+Extra 33562754
+Wear 262145
+Values 0 0 6 0 0 0 9 9 0 0 32
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+Affect 14 10 1 0 0
+Affect 13 3 1 0 0
+Affect 18 3 1 0 0
+End
+
+#89911
+Name earring cleric tier2~
+Short [1m[37ma shining earring of the [0m[31mC[1ml[1m[33me[37mr[33mi[31mc[0m[31ms[0m~
+Descr
+(none)~
+Type 9
+Extra 33562753
+Wear 262145
+Values 0 0 6 0 0 0 10 10 0 0 128
+Weight 0
+Cost 0
+Affect 19 -1 1 0 0
+Affect 13 10 1 0 0
+Affect 14 5 1 0 0
+Affect 17 1 1 0 0
+End
+
+#89912
+Name sorcerer wizard tier2 earring~
+Short a [1m[36mm[0m[36magica[1ml e[0m[36marrin[1mg[0m of [1m[36mS[0m[36morcerer[1ms[0m~
+Descr
+(none)~
+Type 9
+Extra 33562753
+Wear 262145
+Values 0 0 6 0 0 0 9 9 0 0 256
+Weight 0
+Cost 0
+Affect 13 20 1 0 0
+Affect 20 3 1 0 0
+End
+
+#89913
+Name tier2 thief earring~
+Short a [1m[30mblackened iron earring of Th[37mi[30meve[37ms[0m~
+Descr
+(none)~
+Type 9
+Extra 33562754
+Wear 262145
+Values 0 0 6 0 0 0 9 9 0 0 64
+Weight 0
+Cost 0
+Affect 14 5 1 0 0
+Affect 18 3 1 0 0
+Affect 19 1 1 0 0
+Affect 13 5 1 0 0
+End
+
+#89914
+Name assassin tier2 earring~
+Short a [1m[30mblackened steel earring of Assa[37ms[30msin[37ms[0m~
+Descr
+(none)~
+Type 9
+Extra 33562753
+Wear 262145
+Values 0 0 5 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 14 20 1 0 0
+Affect 22 2 1 0 0
+Affect 17 2 1 0 0
+Affect 18 3 1 0 0
+Affect 19 1 1 0 0
+End
+
+#89915
+Name earring tinker tier2~
+Short [33mA earring of tinkers[0m~
+Descr
+(none)~
+Type 9
+Extra 33566849
+Wear 262145
+Values 0 0 3 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 22 3 1 0 0
+Affect 20 3 1 0 0
+Affect 17 4 1 0 0
+Affect 18 5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#89916
+Name earring ranger tier2~
+Short a [1m[36mcyan earring of Ra[0m[36mng[1meRS[0m~
+Descr
+(none)~
+Type 9
+Extra 33562753
+Wear 262145
+Values 0 0 7 0 0 0 9 9 0 0 512
+Weight 0
+Cost 0
+Affect 13 10 1 0 0
+Affect 19 1 1 0 0
+End
+
+#89917
+Name conjurer tier2 earring~
+Short a [1m[32mcorrosive earring of [0m[36mCo[1mnjuR[0m[36mer[1mS[0m~
+Descr
+(none)~
+Type 9
+Extra 33562753
+Wear 262145
+Values 0 0 2 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 13 20 1 0 0
+Affect 14 20 1 0 0
+Affect 17 5 1 0 0
+Affect 20 3 1 0 0
+End
+
+#89918
+Name earring mystic tier2~
+Short [1m[30msmokey black earring of My[0m[31mst[1m[30mics[0m~
+Descr
+(none)~
+Type 9
+Extra 33562752
+Wear 262144
+Values 0 0 5 0 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 17 5 1 0 0
+Affect 13 10 1 0 0
+Affect 20 5 1 0 0
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+End
+
+#89919
+Name earring battlemaster bm tier2~
+Short [1m[30ma dull blackened earring of BaTTLE[0m[31mMaS[1m[30mTerS[0m~
+Descr
+(none)~
+Type 9
+Extra 33562753
+Wear 262145
+Values 0 0 3 0 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 18 6 1 0 0
+Affect 17 4 1 0 0
+Affect 14 10 1 0 0
+Affect 19 1 1 0 0
+Affect 22 3 1 0 0
+End
+
+#89920
+Name warrior aura tier3~
+Short a [1m[30mblackened aura of [0m[36mWa[1mRR[37mi[36moR[0m[36mS[0m~
+Descr
+(none)~
+Type 9
+Extra 33562754
+Wear 131073
+Values 4 4 4 4 0 0 0 0 0 0 32
+Weight 0
+Cost 0
+Affect 14 25 1 0 0
+Affect 18 4 1 0 0
+Affect 19 2 1 0 0
+End
+
+#89921
+Name cleric aura tier3~
+Short [1m[37ma shining aura of the [0m[31mC[1ml[1m[33me[37mr[33mi[31mc[0m[31ms[0m~
+Descr
+(none)~
+Type 9
+Extra 33562755
+Wear 131073
+Values 2 2 2 2 0 0 0 0 0 0 128
+Weight 0
+Cost 0
+Affect 17 3 1 0 0
+Affect 20 3 1 0 0
+Affect 13 25 1 0 0
+End
+
+#89922
+Name aura sorcerer wizard tier3~
+Short a [1m[36mm[0m[36magica[1ml a[0m[36mur[1ma[0m of [1m[36mS[0m[36morcerer[1ms[0m~
+Descr
+(none)~
+Type 9
+Extra 33562753
+Wear 131073
+Values 2 2 2 2 0 0 0 0 0 0 256
+Weight 0
+Cost 0
+Affect 17 3 1 0 0
+Affect 13 20 1 0 0
+Affect 14 10 1 0 0
+Affect 20 3 1 0 0
+End
+
+#89923
+Name aura thief tier3~
+Short a [1m[30mblackened iron aura of Th[37mi[30meve[37ms[0m~
+Descr
+(none)~
+Type 9
+Extra 33562755
+Wear 131073
+Values 4 4 4 4 0 0 0 0 0 0 64
+Weight 0
+Cost 0
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+Affect 19 2 1 0 0
+Affect 18 3 1 0 0
+End
+
+#89924
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#89925
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#89926
+Name ranger aura tier3~
+Short a [36m[1mcyan aura of Ra[0m[36mng[1meRS[0m~
+Descr
+(none)~
+Type 9
+Extra 33562755
+Wear 131073
+Values 4 4 4 4 0 0 0 0 0 0 512
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+Affect 20 2 1 0 0
+Affect 18 3 1 0 0
+Affect 14 25 1 0 0
+End
+
+#89927
+Name warrior gauntlet tier4 str~
+Short a pair of [1m[30mblackened [0m[36mWa[1mRR[37mi[36moR [30mgauntlets[0m~
+Descr
+If you can see this, report it to an imm.
+[0;36m~
+Type 9
+Extra 33562754
+Wear 129
+Values 0 0 0 6 0 0 10 10 0 0 32
+Weight 0
+Cost 0
+Affect 19 2 1 0 0
+Affect 22 3 1 0 0
+Affect 18 6 1 0 0
+Affect 14 15 1 0 0
+Affect 1 1 1 0 0
+End
+
+#89928
+Name gauntlet cleric tier4 wis~
+Short [1m[37ma shining pair of [0m[31mC[1ml[1m[33me[37mr[33mi[31mc[0m[31m [1m[37mgauntlets[0m~
+Descr
+If you can see this, report it to an imm.
+[0;36m~
+Type 9
+Extra 33562754
+Wear 129
+Values 0 0 0 8 0 0 10 10 0 0 128
+Weight 9
+Cost 0
+Affect 22 1 1 0 0
+Affect 18 2 1 0 0
+Affect 17 2 1 0 0
+Affect 20 3 1 0 0
+Affect 14 15 1 0 0
+Affect 13 20 1 0 0
+Affect 4 1 1 0 0
+End
+
+#89929
+Name sorcerer wizard gauntlet tier4 int~
+Short [1m[30ma pair of [36mm[0m[36magica[1ml [36mS[0m[36morcerer[1m g[0m[36mauntlet[1ms[0m~
+Descr
+If you can see this, report it to an imm.
+[0;36m~
+Type 9
+Extra 33562754
+Wear 129
+Values 0 0 0 8 0 0 15 15 0 0 256
+Weight 9
+Cost 0
+Affect 20 5 1 0 0
+Affect 13 25 1 0 0
+Affect 14 15 1 0 0
+Affect 3 1 1 0 0
+End
+
+#89930
+Name gauntlet tier4 thief dex~
+Short a pair of [1m[30mTh[37mi[30meve[37ms[0m gauntlets~
+Descr
+If you can see this, report it to an imm.
+[0;36m~
+Type 9
+Extra 33562754
+Wear 129
+Values 0 0 0 8 0 0 10 10 0 0 64
+Weight 0
+Cost 0
+Affect 19 2 1 0 0
+Affect 18 5 1 0 0
+Affect 13 15 1 0 0
+Affect 14 15 1 0 0
+Affect 2 1 1 0 0
+End
+
+#89931
+Name ranger gauntlet tier4 con~
+Short a pair of [1m[36mRa[0m[36mng[1meR[0m gauntlets~
+Descr
+If you see this contact a imm
+[0;36m~
+Type 9
+Extra 33562752
+Wear 129
+Values 0 0 0 8 0 0 9 9 0 0 512
+Weight 0
+Cost 0
+Affect 13 20 1 0 0
+Affect 19 2 1 0 0
+Affect 14 25 1 0 0
+Affect 5 1 1 0 0
+End
+
+#89932
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#89933
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#89934
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#89935
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#89936
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#89937
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#89939
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#89900
+Name Tier Eq Room~
+Descr
+~
+End
+
+#0
+
+
+
+#$

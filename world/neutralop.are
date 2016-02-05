@@ -1,0 +1,1333 @@
+#AREADATA 
+Name The Neutral City of Nolan~
+Repop The city of Nolan brightens with light as the start of a new day begins. 
+~
+SCZone 0
+Builders Structure Omar~
+VNUMs 65000 65060
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#65000
+Name runa the town wizard prac NH~
+Short Runa the sage~
+Long 
+Runa the town sage stands here greeting you warmly.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits4 16384
+Affect_By 648
+Money 4000
+Level 600
+Sex 1
+Hp 50
+Guard 0
+ASklTaught 0 60
+ASklTaught 1 18
+ASklTaught 2 231
+ASklTaught 3 65
+ASklTaught 4 70
+ASklTaught 5 147
+End
+
+#65006
+Name orozco banker~
+Short Orozco the banker~
+Long 
+Orozco, the town banker stands here accepting money.
+~
+AMax 1
+NHeight 0
+ActBits 131074
+Affect_By 680
+AffectTWO 524296
+Level 500
+Hp 20
+Guard 0
+End
+
+#65007
+Name larmorer landon~
+Short Landon the armorer~
+Long 
+Landon, the city armorer stands here pounding armor.
+~
+AMax 1
+NHeight 0
+ActBits 2097154
+Affect_By 552
+Level 500
+Hp 50
+Guard 0
+Shop    0   9   0   0   0 100 40 0 23
+Shopd2 50
+Shopd3 3
+End
+
+#65008
+Name nolan the city major prac NH~
+Short Nolan the city mayor~
+Long 
+Nolan the city mayor stands here greeting you warmly.
+~
+AMax 1
+NHeight 0
+ActBits 257
+ActBits4 16384
+Affect_By 648
+AffectTWO 524296
+Money 3000
+Level 900
+Sex 1
+MobType 0
+Hp 90
+Guard 0
+ASklTaught 0 561
+ASklTaught 1 565
+ASklTaught 2 556
+ASklTaught 3 572
+ASklTaught 4 573
+ASklTaught 5 574
+End
+
+#65010
+Name citizen nolan~
+Short A nolan citizen~
+Long 
+A citizen of Nolan wanders about doing his business.
+~
+AMax 8
+NHeight 0
+Money 500
+Level 30
+Sex 1
+Hp 2
+Guard 0
+End
+
+#65012
+Name morgon~
+Short Morgon the provisioner~
+Long 
+Morgon the city provisioner stands here selling his stuff.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 552
+Level 500
+Hp 50
+Guard 0
+Shop    0  17  19  27   0 100 50 0 23
+Shopd2 5
+Shopd3 4
+ShopCr 2008
+End
+
+#65013
+Name allen weaponsmith provisioner~
+Short Allen the weaponsmith~
+Long 
+Allen, the city weaponsmith stands here showing his wares.
+~
+AMax 1
+NHeight 0
+ActBits 1048578
+Affect_By 680
+Level 500
+Sex 1
+Hp 50
+Guard 0
+Shop    0   0   5   0   0 100 50 0 23
+Shopd2 50
+Shopd3 3
+End
+
+#65016
+Name gate guard~
+Short a gate-guard~
+Long 
+A gate-guard stands here protecting the city of Nolan.
+~
+AMax 5
+NHeight 0
+ActBits 65538
+ActBits3 8
+Affect_By 648
+AffectTWO 524288
+Money 5000
+Level 500
+Sex 1
+Hp 50
+Guard 0
+End
+
+#65039
+Name prexus wizard prac~
+Short Prexus the wizard~
+Long 
+Prexus the town wizard awaits an apprentice.
+~
+AMax 1
+ActBits 258
+Affect_By 648
+AffectTWO 100663296
+Money 10000
+Level 700
+MobType 0
+Hp 20
+Guard 0
+ASklTaught 0 77
+ASklTaught 1 118
+ASklTaught 2 175
+ASklTaught 3 235
+ASklTaught 4 146
+ASklTaught 5 64
+ASklTaught 6 78
+End
+
+#65040
+Name rogin warrior~
+Short Rogin the warrior~
+Long 
+Rogin the town warrior stands here awaiting an apprentice.
+~
+AMax 1
+NHeight 0
+ActBits 258
+Affect_By 648
+AffectTWO 524288
+Money 20000
+Level 700
+Hp 50
+Guard 0
+ASklTaught 0 566
+ASklTaught 1 555
+ASklTaught 2 590
+ASklTaught 3 568
+ASklTaught 4 376
+ASklTaught 5 359
+ASklTaught 6 352
+ASklTaught 7 353
+End
+
+#65041
+Name guard~
+Short the room of choosing guard~
+Long 
+A guard stands here blocking everyone but the neutral alignment.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 8
+Affect_By 520
+AffectTWO 524288
+Level 24464
+Hp 9090
+Guard 2
+End
+
+#0
+
+
+
+#OBJDATA
+#65000
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65001
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65002
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65003
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65004
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65005
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65006
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65007
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65008
+Name fountain water~
+Short an elegant water fountain is displayed here~
+Descr
+An elegant water fountain is displayed here.
+[0;36m~
+Type 25
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65009
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65010
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65011
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65012
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65013
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65014
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65015
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65016
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65017
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65018
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#65019
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#65000
+Name The Room of Regeneration~
+Descr
+If you need help learning the game look at the following commands:
+-= help newbie - help newbieone - help newbietwo =-
+-= help newbiethree - help newbiefour - help newbiecommands =-
+That should help you learn how the Lands of Chaos works.
+Trainers for skills and spells are e5sed and e5swd from here.
+To view spells and skills type - slist skills - slist spells.
+Have a fun time and enjoy yourself.
+ 
+Also-> Type help pkill (pkill1, pkill2,pkill3,ect...) to find out about how playerkill works here.
+ 
+Luck
+~
+Flags2 6
+Flags 536870912
+Reset M 65000 1 100
+Door 1 0 0 65001 0 0
+~
+~
+End
+
+#65001
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets.
+~
+Door 0 0 0 66080 0 0
+~
+~
+Door 1 0 0 65002 0 0
+~
+~
+Door 2 0 0 65004 0 0
+~
+~
+Door 3 0 0 65000 0 0
+~
+~
+End
+
+#65002
+Name The City Council~
+Descr
+This is the city council area, everyone goes here to discuss pressing
+matters going on in the realm. 
+~
+Reset O 6 -5 100
+Door 3 0 0 65001 0 0
+~
+~
+End
+
+#65003
+Name ~
+Descr
+~
+Door 0 0 0 65002 0 0
+~
+~
+End
+
+#65004
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 0 0 0 65001 0 0
+~
+~
+Door 2 0 0 65005 0 0
+~
+~
+End
+
+#65005
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 0 0 0 65004 0 0
+~
+~
+Door 1 0 0 65007 0 0
+~
+~
+Door 2 0 0 65008 0 0
+~
+~
+Door 3 0 0 65006 0 0
+~
+~
+End
+
+#65006
+Name The Nolan City Banker~
+Descr
+~
+Reset M 65006 1 100
+Door 1 0 0 65005 0 0
+~
+~
+Door 2 0 0 65010 0 0
+~
+~
+End
+
+#65007
+Name The Nolan City Armorer~
+Descr
+~
+Reset M 65007 1 100
+Reset O 100 -4 100
+Reset O 100 -4 100
+Reset O 100 -4 100
+Reset O 100 -4 100
+Reset O 101 -4 100
+Reset O 101 -4 100
+Reset O 101 -4 100
+Reset O 101 -4 100
+Reset O 101 -4 100
+Reset O 101 -4 100
+Reset O 102 -4 100
+Reset O 102 -4 100
+Reset O 102 -4 100
+Reset O 107 -4 100
+Reset O 107 -4 100
+Door 2 0 0 65009 0 0
+~
+~
+Door 3 0 0 65005 0 0
+~
+~
+End
+
+#65008
+Name Cnolan;The Center of the City Nolan~
+Descr
+The focal point of Nolan has always been this elegant fountain. It beauty
+is marvelled by travellers from all over the world. It was placed here when
+Nolan was first built resting at its center, where it still stands today. It
+has been said that this fountain holds magical properties, although few
+believe it. The City Center provides a great place to view Nolan, allowing
+you to appreciate the architecture and the facilities available to you. 
+~
+Reset O 65008 -5 100
+Reset M 65008 1 100
+Door 0 0 0 65005 0 0
+~
+~
+Door 1 0 0 65009 0 0
+~
+~
+Door 2 0 0 65011 0 0
+~
+~
+Door 3 0 0 65010 0 0
+~
+~
+Door 4 0 0 20701 0 0
+~
+~
+Door 5 3 0 65041 30 30
+~
+door~
+End
+
+#65009
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 0 0 0 65007 0 0
+~
+~
+Door 1 0 0 65027 0 0
+~
+~
+Door 2 0 0 65013 0 0
+~
+~
+Door 3 0 0 65008 0 0
+~
+~
+End
+
+#65010
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Reset M 65010 1 100
+Door 0 0 0 65006 0 0
+~
+~
+Door 1 0 0 65008 0 0
+~
+~
+Door 2 0 0 65012 0 0
+~
+~
+Door 3 0 0 65018 0 0
+~
+~
+End
+
+#65011
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 0 0 0 65008 0 0
+~
+~
+Door 1 0 0 65013 0 0
+~
+~
+Door 2 0 0 65014 0 0
+~
+~
+Door 3 0 0 65012 0 0
+~
+~
+End
+
+#65012
+Name The Nolan City Provisioner~
+Descr
+~
+Reset M 65012 1 100
+Reset O 2008 50 100
+Reset O 37 90 100
+Reset O 39 40 100
+Reset O 38 40 100
+Reset O 36 30 100
+Reset O 30 30 100
+Door 0 0 0 65010 0 0
+~
+~
+Door 1 0 0 65011 0 0
+~
+~
+End
+
+#65013
+Name The Nolan City Weaponsmith~
+Descr
+~
+Reset M 65013 1 100
+Reset O 117 -4 100
+Reset O 117 -4 100
+Reset O 118 -4 100
+Reset O 118 -4 100
+Reset O 119 -1 100
+Reset O 119 -1 100
+Reset O 120 -4 100
+Reset O 120 -4 100
+Reset O 121 -4 100
+Door 0 0 0 65009 0 0
+~
+~
+Door 3 0 0 65011 0 0
+~
+~
+End
+
+#65014
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 0 0 0 65011 0 0
+~
+~
+Door 1 0 0 65037 0 0
+~
+~
+Door 2 0 0 65015 0 0
+~
+~
+Door 3 0 0 65038 0 0
+~
+~
+End
+
+#65015
+Name Before the City Gates of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+To the south you see the city gates of Nolan, a wonderous site to behold.
+~
+Door 0 0 0 65014 0 0
+~
+~
+Door 1 0 0 65035 0 0
+~
+~
+Door 2 0 0 65016 0 0
+~
+~
+Door 3 0 0 65026 0 0
+~
+~
+End
+
+#65016
+Name The Gates of the City Nolan~
+Descr
+The gates of Nolan, the place of legends. Years of war plagued Nolan as
+factions tried to control this city. However not once did Nolan fall. Today
+Nolan is a peaceful city, holding its doors open to anyone that wants to
+enter. Yet still guards remain on these city gates, ready for any trouble
+you or others like you might bring. 
+~
+Reset M 65016 1 100
+Reset M 65016 1 100
+Reset M 65016 1 100
+Reset M 65016 1 100
+Reset M 65016 1 100
+Door 0 0 0 65015 0 0
+~
+~
+Door 2 0 0 58179 0 0
+~
+~
+End
+
+#65017
+Name ~
+Descr
+~
+End
+
+#65018
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 1 0 0 65010 0 0
+~
+~
+Door 3 0 0 65019 0 0
+~
+~
+End
+
+#65019
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets.
+~
+Door 1 0 0 65018 0 0
+~
+~
+Door 3 0 0 65020 0 0
+~
+~
+End
+
+#65020
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Reset M 65010 1 100
+Door 1 0 0 65019 0 0
+~
+~
+Door 2 0 0 65021 0 0
+~
+~
+End
+
+#65021
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 0 0 0 65020 0 0
+~
+~
+Door 2 0 0 65022 0 0
+~
+~
+End
+
+#65022
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 0 0 0 65021 0 0
+~
+~
+Door 2 0 0 65023 0 0
+~
+~
+End
+
+#65023
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Reset M 65010 1 100
+Door 0 0 0 65022 0 0
+~
+~
+Door 1 0 0 65024 0 0
+~
+~
+End
+
+#65024
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Reset M 65010 1 100
+Door 1 0 0 65025 0 0
+~
+~
+Door 3 0 0 65023 0 0
+~
+~
+End
+
+#65025
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 1 0 0 65026 0 0
+~
+~
+Door 3 0 0 65024 0 0
+~
+~
+End
+
+#65026
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 1 0 0 65015 0 0
+~
+~
+Door 3 0 0 65025 0 0
+~
+~
+End
+
+#65027
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets.
+~
+Reset M 65010 1 100
+Door 1 0 0 65028 0 0
+~
+~
+Door 3 0 0 65009 0 0
+~
+~
+End
+
+#65028
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 1 0 0 65029 0 0
+~
+~
+Door 3 0 0 65027 0 0
+~
+~
+End
+
+#65029
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 2 0 0 65030 0 0
+~
+~
+Door 3 0 0 65028 0 0
+~
+~
+End
+
+#65030
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Reset M 65010 1 100
+Door 0 0 0 65029 0 0
+~
+~
+Door 2 0 0 65031 0 0
+~
+~
+End
+
+#65031
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 0 0 0 65030 0 0
+~
+~
+Door 2 0 0 65032 0 0
+~
+~
+End
+
+#65032
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Reset M 65010 1 100
+Door 0 0 0 65031 0 0
+~
+~
+Door 3 0 0 65033 0 0
+~
+~
+End
+
+#65033
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 1 0 0 65032 0 0
+~
+~
+Door 3 0 0 65034 0 0
+~
+~
+End
+
+#65034
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Door 1 0 0 65033 0 0
+~
+~
+Door 3 0 0 65035 0 0
+~
+~
+End
+
+#65035
+Name The City Streets of Nolan~
+Descr
+The city of Nolan rushes by you as you walk down her streets. The
+unusually bright lights which line this city, so you've heard, is an
+attempty by local authorities to reduce crime. Thankfully it seems to work,
+as the citizens of Nolan seem oblivious to any harm which may come to them.
+The buildings that surround you match the limestone cobbles which line these
+fine streets. 
+~
+Reset M 65010 1 100
+Door 1 0 0 65034 0 0
+~
+~
+Door 3 0 0 65015 0 0
+~
+~
+End
+
+#65036
+Name ~
+Descr
+~
+End
+
+#65037
+Name A Small Shelter~
+Descr
+Escaping the elements you find yourself under a small wooden shelter. The
+shelter is covered in mold and vines, clearly showing the age and wear of
+this structure. In one corner of the shelter you notice a small hole
+concealed quite well by overgrowing weeds. The hole has stairs leading down
+to another room.
+~
+Door 3 0 0 65014 0 0
+~
+~
+Door 5 0 0 65040 0 0
+~
+~
+End
+
+#65038
+Name A Small Shelter~
+Descr
+Escaping the elements you find yourself under a small wooden shelter. The
+shelter is covered in mold and vines, clearly showing the age and wear of
+this structure. In one corner of the shelter you notice a small hole
+concealed quite well by overgrowing weeds. The hole has stairs leading down
+to another room. 
+~
+Door 1 0 0 65014 0 0
+~
+~
+Door 5 0 0 65039 0 0
+~
+~
+End
+
+#65039
+Name Prexus's Home of Magic~
+Descr
+This strange little room seems to have the power of displacement. Tables
+and chairs phase in and out of physical form creating a rather daunting
+image. However much overcome you are by this incredible room you none the
+less feel enlightened and refreshed to be here. A wonderful change from the
+wild world you escaped. 
+~
+Flags 36
+Reset M 65039 1 100
+Door 4 0 0 65038 0 0
+~
+~
+End
+
+#65040
+Name Rogin's Home of Warriors~
+Descr
+An armory is the best way to describe Rogin's home. Prize pieces of his
+fighting days cover his walls with pride. His one suit of armor, a magnicent
+mythril set, is stacked in the corner collecting dust. 
+~
+Flags 32
+Reset M 65040 1 100
+Door 4 0 0 65037 0 0
+~
+~
+End
+
+#65041
+Name The Room of Choosing Guard Room~
+Descr
+This is the guard room of the room of choosing, to the south you may
+choose which alignment you wish to go if you are of a neutral alignment. 
+~
+Flags 4
+Reset M 65041 1 100
+Door 2 0 0 65042 0 0
+~
+~
+Door 4 3 0 65008 30 30
+~
+door~
+Door 5 0 0 33202 0 0
+~
+~
+End
+
+#65042
+Name The Room of Choices~
+Descr
+This room now gives NEUTRALS two options:
+ 
+1) To choose an alignment type exactly: choosealignnow
+ 
+2) To choose to remain NEUTRAL type: remainneutralforever
+ 
+As of this time, once you choose to remain neutral, you
+will not be allowed to ever choose an alignment.
+ 
+You must be level 45+ to choose "CHOOSEALIGNNOW"
+~
+Flags 134217732
+Door 0 0 0 65041 0 0
+~
+~
+End
+
+#65043
+Name ~
+Descr
+~
+End
+
+#65044
+Name ~
+Descr
+~
+End
+
+#65045
+Name ~
+Descr
+~
+End
+
+#65046
+Name ~
+Descr
+~
+End
+
+#65047
+Name ~
+Descr
+~
+End
+
+#65048
+Name ~
+Descr
+~
+End
+
+#65049
+Name ~
+Descr
+~
+End
+
+#65050
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

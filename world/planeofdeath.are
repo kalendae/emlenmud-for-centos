@@ -1,0 +1,6323 @@
+#AREADATA 
+Name The Plane of Death~
+Repop The sounds of death fill the room as tortured souls echo in the distance!  
+~
+SCZone 0
+Builders Azraen Structure~
+VNUMs 54501 54900
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#54760
+Name follower~
+Short a follower of death~
+Long 
+A follower of Death remains here in honor of the god of death.
+~
+AMax 5
+NHeight 87
+ActBits 8
+Affect_By 520
+Level 60
+MobType 9
+Guard 0
+End
+
+#54761
+Name death~
+Short god of death~
+Long 
+The horrifying God of Death is here staring you down.
+~
+AMax 1
+NHeight 200
+ActBits 10
+ActBits3 524288
+Affect_By 554
+Level 400
+MobType 9
+Hp 30
+Guard 0
+BCasts ice comet~
+BCasts death fog~
+BCasts dark mist~
+End
+
+#54775
+Name bangon evil great agony~
+Short Bangon~
+Long 
+Bangon the once great evil in the world, now stands here chained in agony.
+~
+AMax 1
+NHeight 0
+ActBits 10
+Affect_By 648
+AffectTWO 524296
+Level 400
+Sex 1
+MobType 11
+Guard 0
+BCasts ice comet~
+BCast_P 5
+End
+
+#54776
+Name angel~
+Short angel~
+Long 
+A angel stands here hovering over heaven.
+~
+AMax 4
+NHeight 0
+ActBits 2
+Affect_By 524288
+Money 300
+Level 10
+Guard 0
+End
+
+#54783
+Name god father prac~
+Short God~
+Long 
+God, the father of all beings stands here watching your every move.
+~
+AMax 1
+NHeight 0
+ActBits 258
+Affect_By 524936
+AffectTWO 34078728
+Money 400
+Level 420
+Sex 1
+MobType 21
+Hp 35
+Guard 0
+BCasts wrath of god~
+BCast_P 30
+ASklTaught 0 221
+ASklTaught 1 269
+End
+
+#54501
+Name soul tortured~
+Short a tortured soul~
+Long 
+A tortured soul leaps out at you with agony!
+~
+AMax 25
+ActBits 8
+Affect_By 520
+Level 90
+MobType 21
+Hp 2
+Guard 0
+End
+
+#54502
+Name fire salamander~
+Short a fire salamander~
+Long 
+A fire salamander crawls over the floor.
+~
+AMax 7
+ActBits 8
+Affect_By 520
+Level 50
+MobType 20
+Hp 3
+Guard 0
+End
+
+#54546
+Name the protector~
+Short The protector~
+Long 
+The protector of the plane stands here greeting you with an attack of death!
+~
+AMax 1
+NHeight 0
+ActBits 10
+Affect_By 648
+AffectTWO 524296
+Money 300
+Level 300
+MobType 23
+Hp 30
+Guard 1
+End
+
+#54696
+Name a winged demon~
+Short A winged demon~
+Long 
+A winged demon awaits arrival of new blood!
+~
+AMax 7
+NHeight 0
+ActBits 9
+Affect_By 524808
+Money 300
+Level 60
+MobType 11
+Hp 9
+Guard 0
+End
+
+#54715
+Name satan devil evil~
+Short Satan~
+Long 
+The Lord of Evil, Satan stands here on his throne of hell.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+AffectTWO 33554440
+Money 300
+Level 400
+Sex 1
+MobType 11
+Hp 15
+Guard 0
+BCasts elemental blast~
+BCast_P 10
+End
+
+#54716
+Name lord plague baal~
+Short Baal~
+Long 
+The Lord of Plagues, Baal is here devising a new disease.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+AffectTWO 33554440
+Money 3000
+Level 400
+Sex 1
+MobType 11
+Hp 15
+Guard 0
+BCasts elemental blast~
+BCast_P 5
+End
+
+#54735
+Name fallen angel decay~
+Short A fallen angel~
+Long 
+A fallen angel stands here brining decay upon the world.
+~
+AMax 1
+NHeight 0
+ActBits 10
+Affect_By 648
+AffectTWO 33554432
+Money 1000
+Level 300
+Sex 1
+Hp 30
+Guard 0
+BCasts dazzle~
+BCast_P 10
+End
+
+#0
+
+
+
+#OBJDATA
+#54761
+Name boots~
+Short a pair of [1m[30mspiked[0m boots of [1m[30md[0m[37me[1ma[0m[37mt[1m[30mh[0m~
+Descr
+An evil metallic pair of black boots are here.
+[0;36m~
+Type 9
+Extra 33554466
+Wear 65
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 20
+Affect 20 3 1 0 0
+Affect 19 -2 1 0 0
+Affect 14 10 1 0 0
+Affect 13 10 1 0 0
+Affect 22 3 1 0 0
+End
+
+#54762
+Name helmet ritualistic fate apb 2apb~
+Short a [34mh[1m[30me[0m[37ml[1mm[0m[37me[34mt[0m of [31mc[1m[30mo[0m[37mn[1m[37md[0m[37me[1m[30mm[0m[31mn[1m[30mi[0m[37mn[31mg [1m[30mf[0m[37ma[1m[37mt[30me[0m~
+Descr
+A misplaced helm lies here on the ground.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 17
+Values 1 2 5 0 0 0 0 0 0 0 0
+Weight 9
+Cost 1032
+Affect 18 -1 1 0 0
+Affect 13 -10 1 0 0
+Affect 19 2 1 0 0
+End
+
+#54775
+Name charred armguards torture apb~
+Short a pair of [1m[30mc[0m[37mharre[1m[30md[0m [1m[30ma[31mr[30mm[31mg[30mu[31ma[30mr[31md[30ms[0m of [34mt[1mortur[0m[34me[0m~
+Descr
+A pair of charred armguards lay on the ground burned.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 257
+Values 0 0 0 5 0 0 10 10 0 0 0
+Weight 32
+Cost 300
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+Affect 14 -5 1 0 0
+Affect 13 -10 1 0 0
+End
+
+#54783
+Name heavenly anklet power apb~
+Short a [1m[37mh[34me[0m[34ma[1mv[36me[0m[36mn[1m[34ml[37my[0m anklet of [34mp[1m[30mo[0m[37mw[1me[0m[37mr~
+Descr
+An anklet from the heavens is on the ground here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 524289
+Values 3 0 0 0 0 0 10 10 0 0 0
+Weight 9
+Cost 300
+Affect 22 2 1 0 0
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+Affect 13 -10 1 0 0
+End
+
+#54784
+Name heavenly power dagger apb 4apb~
+Short a [1m[37mh[34me[0m[34ma[1mv[36me[0m[36mn[1m[34ml[37my[0m dagger of [34mp[1m[30mo[0m[37mw[1me[0m[37mr~
+Descr
+A dagger made of pure heaven is here on the ground.
+[0;36m~
+Type 5
+Extra 33685506
+Wear 24577
+Values 0 60 0 11 0 0 0 4 5 0 0
+Weight 9
+Cost 3000
+Affect 19 4 1 0 0
+End
+
+#54501
+Name portal return world por port~
+Short [1m[36mP[0m[36mo[0m[37mrt[36ma[34ml [0m[37mof [1m[30mre[0m[37mtu[1m[30mrn [0m[37mto the [1m[31mW[0m[31mor[0m[31ml[1m[31md[0m~
+Descr
+A portal lies here returning to the world
+[0;36m~
+Type 12
+Wear 0
+Values 4 5065 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#54502
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54503
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54504
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54505
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54506
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54507
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54508
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54509
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54510
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54511
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54512
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54513
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54514
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54515
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54516
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54517
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54518
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54519
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54520
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54521
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54522
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54523
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54524
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54525
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54526
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54527
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54528
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54529
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54530
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54531
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54532
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54533
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54534
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54535
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54536
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54537
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54538
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54539
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54540
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54541
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54542
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54543
+Name eyes essence fiery~
+Short a pair of [31mf[1mier[0m[31my[0m [36me[1mye[0m[36ms[0m of [1m[36me[0m[36mssenc[1m[36me[0m~
+Descr
+Some strange eyes lieo n the ground here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 8388609
+Values 0 0 5 0 0 0 0 0 0 0 0
+Weight 3
+Cost 393
+Affect 19 -1 1 0 0
+Affect 18 3 1 0 0
+Affect 13 20 1 0 0
+Affect 20 3 1 0 0
+End
+
+#54544
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54545
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54546
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54547
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54548
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54549
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54550
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54714
+Name helmet charred eternal fire apb~
+Short a [1m[30mcharred[0m helmet of [1m[34me[36mt[34me[0m[36mr[1m[34mn[36ma[34ml[0m [31mf[1m[30mi[31mr[0m[31me[0m~
+Descr
+A helmet of eternal fire lies on the ground here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 17
+Values 0 0 3 0 0 0 0 15 15 0 0
+Weight 2
+Cost 3000
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+Affect 17 3 1 0 0
+Affect 14 20 1 0 0
+Affect 13 -5 1 0 0
+End
+
+#54715
+Name burning eyes evil 2apb apb~
+Short a pair of [31mb[1murnin[0m[31mg[0m [36me[1mye[0m[36ms[0m of [31me[1m[37mv[0m[1m[30mi[0m[31ml[0m~
+Descr
+A pair of burning eyes lie on the ground here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 8388609
+Values 0 0 5 0 0 0 10 10 0 0 0
+Weight 3
+Cost 3000
+Affect 18 -5 1 0 0
+Affect 13 -10 1 0 0
+Affect 19 2 1 0 0
+End
+
+#54716
+Name belt disease plague~
+Short a belt of [31md[1m[30mi[0m[37ms[1me[0m[37ma[1m[30ms[0m[31me[0m and [34mp[1m[30ml[0m[37ma[1mg[0m[37mu[34me[0m~
+Descr
+A belt is here rotting on the ground.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 2049
+Values 0 5 0 0 0 0 10 10 0 0 0
+Weight 32
+Cost 0
+Affect 14 -5 1 0 0
+Affect 13 -15 1 0 0
+Affect 18 -2 1 0 0
+Affect 19 2 1 0 0
+End
+
+#54717
+Name kneepad pestilence plague~
+Short a kneepad of [31mp[1m[30me[0m[37ms[1m[30mt[37mi[1m[30ml[1m[37me[0m[37mn[1m[30mc[0m[31me[0m and [34mp[1m[30ml[0m[37ma[1mg[0m[37mu[34me[0m~
+Descr
+A kneepad is here destroyed on the ground.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 2097153
+Values 3 0 0 0 0 0 30 30 0 0 0
+Weight 3
+Cost 3000
+Affect 22 3 1 0 0
+Affect 20 3 1 0 0
+End
+
+#54734
+Name wrist guard angel fallen decaying~
+Short a wrist-guard of the [31mdec[1ma[33my[31mi[0m[31mn[1mg[0m [34mf[1m[36ma[34ml[1m[37ml[0m[36me[1mn[0m [36ma[1mnge[0m[36ml[0m~
+Descr
+A strange wrist-guard lies on the ground untouched.
+[0;36m~
+Type 9
+Extra 2
+Wear 4097
+Values 3 3 3 3 3 0 10 10 0 0 0
+Weight 3
+Cost 3000
+Affect 17 3 1 0 0
+Affect 19 -1 1 0 0
+Affect 18 3 1 0 0
+Affect 20 3 1 0 0
+Affect 14 10 1 0 0
+Affect 13 10 1 0 0
+End
+
+#54735
+Name decayed elbowpads fallen angel~
+Short a pair of [31md[1me[33mc[31ma[0m[31my[1me[0m[31md[0m elbowpads of the [34mf[1m[36ma[34ml[0ml[36me[1mn[0m [36ma[1mnge[0m[36ml[0m~
+Descr
+A pair of decaying elbowpads lay on the ground here.
+[0;36m~
+Type 9
+Extra 2
+Wear 1048577
+Values 0 0 0 5 0 0 10 10 0 0 0
+Weight 3
+Cost 3000
+Affect 20 2 1 0 0
+Affect 18 -1 1 0 0
+Affect 19 -2 1 0 0
+Affect 14 10 1 0 0
+Affect 13 20 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#54740
+Name ~
+Descr
+~
+End
+
+#54741
+Name ~
+Descr
+~
+End
+
+#54742
+Name ~
+Descr
+~
+End
+
+#54743
+Name ~
+Descr
+~
+End
+
+#54744
+Name ~
+Descr
+~
+End
+
+#54745
+Name ~
+Descr
+~
+End
+
+#54746
+Name ~
+Descr
+~
+End
+
+#54747
+Name ~
+Descr
+~
+End
+
+#54748
+Name ~
+Descr
+~
+End
+
+#54749
+Name ~
+Descr
+~
+End
+
+#54750
+Name ~
+Descr
+~
+End
+
+#54751
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 0 0 0 54752 0 0
+~
+~
+Door 2 0 0 54753 0 0
+~
+~
+Door 3 0 0 54754 0 0
+~
+~
+Door 5 259 0 54643 30 30
+~
+death~
+End
+
+#54752
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 2 0 0 54751 0 0
+~
+~
+Door 3 0 0 54755 0 0
+~
+~
+End
+
+#54753
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 0 0 0 54751 0 0
+~
+~
+Door 3 0 0 54756 0 0
+~
+~
+End
+
+#54754
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 0 0 0 54755 0 0
+~
+~
+Door 1 0 0 54751 0 0
+~
+~
+Door 2 0 0 54756 0 0
+~
+~
+Door 3 0 0 54758 0 0
+~
+~
+End
+
+#54755
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 1 0 0 54752 0 0
+~
+~
+Door 2 0 0 54754 0 0
+~
+~
+Door 3 0 0 54759 0 0
+~
+~
+End
+
+#54756
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 0 0 0 54754 0 0
+~
+~
+Door 1 0 0 54753 0 0
+~
+~
+Door 3 0 0 54757 0 0
+~
+~
+End
+
+#54757
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 0 0 0 54758 0 0
+~
+~
+Door 1 0 0 54756 0 0
+~
+~
+End
+
+#54758
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 0 0 0 54759 0 0
+~
+~
+Door 1 0 0 54754 0 0
+~
+~
+Door 2 0 0 54757 0 0
+~
+~
+Door 3 0 0 54760 0 0
+~
+~
+End
+
+#54759
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 1 0 0 54755 0 0
+~
+~
+Door 2 0 0 54758 0 0
+~
+~
+End
+
+#54760
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Reset M 54760 1 100
+Door 1 0 0 54758 0 0
+~
+~
+Door 5 259 0 54761 30 30
+~
+altar~
+End
+
+#54761
+Name The Center of the Altar of Death~
+Descr
+You are at the center of the Altar of Death. The sign of death itself
+lives in this very room, and is staring you in the face. Fate can only be
+determined by your actions in which you achieve, or fail. 
+~
+Flags 16388
+Sector 32
+Reset M 54761 1 100
+Reset O 54761 -1 1
+Door 0 0 0 54770 0 0
+~
+~
+Door 1 0 0 54763 0 0
+~
+~
+Door 2 0 0 54762 0 0
+~
+~
+Door 3 0 0 54764 0 0
+~
+~
+Door 4 259 0 54760 30 30
+~
+altar~
+End
+
+#54762
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 0 0 0 54761 0 0
+~
+~
+Door 1 0 0 54772 0 0
+~
+~
+Door 3 0 0 54773 0 0
+~
+~
+End
+
+#54763
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 0 0 0 54771 0 0
+~
+~
+Door 2 0 0 54772 0 0
+~
+~
+Door 3 0 0 54761 0 0
+~
+~
+End
+
+#54764
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 0 0 0 54774 0 0
+~
+~
+Door 1 0 0 54761 0 0
+~
+~
+Door 2 0 0 54773 0 0
+~
+~
+End
+
+#54765
+Name ~
+Descr
+~
+Door 0 0 0 54765 0 0
+~
+~
+Door 2 0 0 54766 0 0
+~
+~
+Door 3 0 0 54763 0 0
+~
+~
+End
+
+#54766
+Name ~
+Descr
+~
+Door 0 0 0 54765 0 0
+~
+~
+End
+
+#54767
+Name ~
+Descr
+~
+End
+
+#54768
+Name ~
+Descr
+~
+End
+
+#54769
+Name ~
+Descr
+~
+End
+
+#54770
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 1 0 0 54771 0 0
+~
+~
+Door 2 0 0 54761 0 0
+~
+~
+Door 3 0 0 54774 0 0
+~
+~
+End
+
+#54771
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Reset M 54760 1 100
+Door 2 0 0 54763 0 0
+~
+~
+Door 3 0 0 54770 0 0
+~
+~
+End
+
+#54772
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 0 0 0 54763 0 0
+~
+~
+Door 3 0 0 54762 0 0
+~
+~
+End
+
+#54773
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Reset M 54760 1 100
+Door 0 0 0 54764 0 0
+~
+~
+Door 1 0 0 54762 0 0
+~
+~
+End
+
+#54774
+Name The Altar of Death~
+Descr
+You are within the Altar of Death. The surrounding area is dark to the
+sight, and cold to the touch. The area fills your soul with an empty
+feeling. 
+~
+Flags 16388
+Sector 32
+Door 1 0 0 54770 0 0
+~
+~
+Door 2 0 0 54764 0 0
+~
+~
+End
+
+#54775
+Name Bangon's Room of Eternal Torture~
+Descr
+Here lies once a prime evils room where he will be tortured until the end
+of existence. He is still very powerful and capable of destroying you but he
+is damned forever. 
+~
+Flags 16416
+Sector 35
+Reset M 54775 1 100
+Reset O 54775 -1 1
+Door 4 259 0 54653 30 30
+~
+torture~
+End
+
+#54776
+Name The Entrance of the Sky~
+Descr
+As you enter this room you feel somewhat tranquil and peaceful as your
+mind settles from a havoc state to a clarity one. 
+~
+Flags 16384
+Sector 14
+Reset M 54776 1 100
+Door 4 0 0 54777 0 0
+~
+~
+Door 5 259 0 54552 30 30
+~
+heaven~
+End
+
+#54777
+Name HeaVeN~
+Descr
+As you enter this room you feel somewhat tranquil and peaceful as your
+mind settles from a havoc state to a clarity one. 
+~
+Flags 16384
+Sector 14
+Door 4 0 0 54778 0 0
+~
+~
+Door 5 0 0 54776 0 0
+~
+~
+End
+
+#54778
+Name HeaVeN~
+Descr
+As you enter this room you feel somewhat tranquil and peaceful as your
+mind settles from a havoc state to a clarity one. 
+~
+Flags 16384
+Sector 14
+Reset M 54776 1 100
+Door 4 0 0 54779 0 0
+~
+~
+Door 5 0 0 54777 0 0
+~
+~
+End
+
+#54779
+Name HeaVen~
+Descr
+As you enter this room you feel somewhat tranquil and peaceful as your
+mind settles from a havoc state to a clarity one. 
+~
+Flags 16384
+Sector 14
+Reset M 54776 1 100
+Door 4 0 0 54780 0 0
+~
+~
+Door 5 0 0 54778 0 0
+~
+~
+End
+
+#54780
+Name HeaVeN~
+Descr
+As you enter this room you feel somewhat tranquil and peaceful as your
+mind settles from a havoc state to a clarity one. 
+~
+Flags 16384
+Sector 14
+Reset M 54776 1 100
+Door 4 0 0 54781 0 0
+~
+~
+Door 5 0 0 54779 0 0
+~
+~
+End
+
+#54781
+Name HeaVeN~
+Descr
+As you enter this room you feel somewhat tranquil and peaceful as your
+mind settles from a havoc state to a clarity one. 
+~
+Flags 16384
+Sector 14
+Door 4 0 0 54782 0 0
+~
+~
+Door 5 0 0 54780 0 0
+~
+~
+End
+
+#54782
+Name HeaVeN~
+Descr
+As you enter this room you feel somewhat tranquil and peaceful as your
+mind settles from a havoc state to a clarity one. 
+~
+Flags 16384
+Sector 14
+Door 4 0 0 54783 0 0
+~
+~
+Door 5 0 0 54781 0 0
+~
+~
+End
+
+#54783
+Name The Sanctuary of Heaven~
+Descr
+As you enter this room you are blinded by a great and powerful light. You
+feel your mind ease away from your body as the father of all creations
+enters the room. 
+~
+Flags 81920
+Sector 14
+Reset M 54783 1 100
+Reset O 54784 -1 1
+Reset O 54783 -1 1
+Door 5 0 0 54782 0 0
+~
+~
+End
+
+#54784
+Name ~
+Descr
+~
+End
+
+#54785
+Name ~
+Descr
+~
+End
+
+#54786
+Name ~
+Descr
+~
+End
+
+#54787
+Name ~
+Descr
+~
+End
+
+#54788
+Name ~
+Descr
+~
+End
+
+#54789
+Name ~
+Descr
+~
+End
+
+#54790
+Name ~
+Descr
+~
+End
+
+#54791
+Name ~
+Descr
+~
+End
+
+#54792
+Name ~
+Descr
+~
+End
+
+#54793
+Name ~
+Descr
+~
+End
+
+#54794
+Name ~
+Descr
+~
+End
+
+#54795
+Name ~
+Descr
+~
+End
+
+#54796
+Name ~
+Descr
+~
+End
+
+#54797
+Name ~
+Descr
+~
+End
+
+#54798
+Name ~
+Descr
+~
+End
+
+#54799
+Name ~
+Descr
+~
+End
+
+#54800
+Name ~
+Descr
+~
+End
+
+#54801
+Name ~
+Descr
+~
+End
+
+#54802
+Name ~
+Descr
+~
+End
+
+#54803
+Name ~
+Descr
+~
+End
+
+#54804
+Name ~
+Descr
+~
+End
+
+#54805
+Name ~
+Descr
+~
+End
+
+#54806
+Name ~
+Descr
+~
+End
+
+#54807
+Name ~
+Descr
+~
+End
+
+#54808
+Name ~
+Descr
+~
+End
+
+#54809
+Name ~
+Descr
+~
+End
+
+#54810
+Name ~
+Descr
+~
+End
+
+#54811
+Name ~
+Descr
+~
+End
+
+#54812
+Name ~
+Descr
+~
+End
+
+#54813
+Name ~
+Descr
+~
+End
+
+#54814
+Name ~
+Descr
+~
+End
+
+#54815
+Name ~
+Descr
+~
+End
+
+#54816
+Name ~
+Descr
+~
+End
+
+#54817
+Name ~
+Descr
+~
+End
+
+#54818
+Name ~
+Descr
+~
+End
+
+#54819
+Name ~
+Descr
+~
+End
+
+#54820
+Name ~
+Descr
+~
+End
+
+#54821
+Name ~
+Descr
+~
+End
+
+#54822
+Name ~
+Descr
+~
+End
+
+#54823
+Name ~
+Descr
+~
+End
+
+#54824
+Name ~
+Descr
+~
+End
+
+#54825
+Name ~
+Descr
+~
+End
+
+#54826
+Name ~
+Descr
+~
+End
+
+#54827
+Name ~
+Descr
+~
+End
+
+#54828
+Name ~
+Descr
+~
+End
+
+#54829
+Name ~
+Descr
+~
+End
+
+#54830
+Name ~
+Descr
+~
+End
+
+#54501
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54502 0 0
+~
+~
+Door 1 0 0 54526 0 0
+~
+~
+End
+
+#54502
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54503 0 0
+~
+~
+Door 1 0 0 54525 0 0
+~
+~
+Door 2 0 0 54501 0 0
+~
+~
+Door 3 0 0 54627 0 0
+~
+~
+End
+
+#54503
+Name The Desert of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 33
+Reset M 54501 1 100
+Door 0 0 0 54504 0 0
+~
+~
+Door 1 0 0 54524 0 0
+~
+~
+Door 2 0 0 54502 0 0
+~
+~
+Door 3 0 0 54626 0 0
+~
+~
+End
+
+#54504
+Name The Desert of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54505 0 0
+~
+~
+Door 1 0 0 54523 0 0
+~
+~
+Door 2 0 0 54503 0 0
+~
+~
+Door 3 0 0 54625 0 0
+~
+~
+End
+
+#54505
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54506 0 0
+~
+~
+Door 1 0 0 54522 0 0
+~
+~
+Door 2 0 0 54504 0 0
+~
+~
+Door 3 0 0 54624 0 0
+~
+~
+End
+
+#54506
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54507 0 0
+~
+~
+Door 1 0 0 54521 0 0
+~
+~
+Door 2 0 0 54505 0 0
+~
+~
+Door 3 0 0 54623 0 0
+~
+~
+End
+
+#54507
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Reset M 54501 1 100
+Door 0 0 0 54508 0 0
+~
+~
+Door 1 0 0 54520 0 0
+~
+~
+Door 2 0 0 54506 0 0
+~
+~
+Door 3 0 0 54622 0 0
+~
+~
+End
+
+#54508
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54509 0 0
+~
+~
+Door 1 0 0 54519 0 0
+~
+~
+Door 2 0 0 54507 0 0
+~
+~
+Door 3 0 0 54621 0 0
+~
+~
+End
+
+#54509
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54510 0 0
+~
+~
+Door 1 0 0 54518 0 0
+~
+~
+Door 2 0 0 54508 0 0
+~
+~
+Door 3 0 0 54620 0 0
+~
+~
+End
+
+#54510
+Name The Cave of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 37
+Reset M 54501 1 100
+Door 0 0 0 54511 0 0
+~
+~
+Door 1 0 0 54517 0 0
+~
+~
+Door 2 0 0 54509 0 0
+~
+~
+Door 3 0 0 54619 0 0
+~
+~
+End
+
+#54511
+Name The Cave of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 37
+Reset M 54501 1 100
+Door 0 0 0 54512 0 0
+~
+~
+Door 1 0 0 54516 0 0
+~
+~
+Door 2 0 0 54510 0 0
+~
+~
+Door 3 0 0 54618 0 0
+~
+~
+End
+
+#54512
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54513 0 0
+~
+~
+Door 1 0 0 54515 0 0
+~
+~
+Door 2 0 0 54511 0 0
+~
+~
+Door 3 0 0 54628 0 0
+~
+~
+End
+
+#54513
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 1 0 0 54514 0 0
+~
+~
+Door 2 0 0 54512 0 0
+~
+~
+End
+
+#54514
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 1 0 0 54539 0 0
+~
+~
+Door 2 0 0 54515 0 0
+~
+~
+Door 3 0 0 54513 0 0
+~
+~
+End
+
+#54515
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54514 0 0
+~
+~
+Door 1 0 0 54538 0 0
+~
+~
+Door 2 0 0 54516 0 0
+~
+~
+Door 3 0 0 54512 0 0
+~
+~
+End
+
+#54516
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54515 0 0
+~
+~
+Door 1 0 0 54537 0 0
+~
+~
+Door 2 0 0 54517 0 0
+~
+~
+Door 3 0 0 54511 0 0
+~
+~
+End
+
+#54517
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54516 0 0
+~
+~
+Door 1 0 0 54536 0 0
+~
+~
+Door 2 0 0 54518 0 0
+~
+~
+Door 3 0 0 54510 0 0
+~
+~
+End
+
+#54518
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54517 0 0
+~
+~
+Door 1 0 0 54535 0 0
+~
+~
+Door 2 0 0 54519 0 0
+~
+~
+Door 3 0 0 54509 0 0
+~
+~
+End
+
+#54519
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54518 0 0
+~
+~
+Door 1 0 0 54534 0 0
+~
+~
+Door 2 0 0 54520 0 0
+~
+~
+Door 3 0 0 54508 0 0
+~
+~
+End
+
+#54520
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54519 0 0
+~
+~
+Door 1 0 0 54533 0 0
+~
+~
+Door 2 0 0 54521 0 0
+~
+~
+Door 3 0 0 54507 0 0
+~
+~
+End
+
+#54521
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54520 0 0
+~
+~
+Door 1 0 0 54532 0 0
+~
+~
+Door 2 0 0 54522 0 0
+~
+~
+Door 3 0 0 54506 0 0
+~
+~
+End
+
+#54522
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54521 0 0
+~
+~
+Door 1 0 0 54531 0 0
+~
+~
+Door 2 0 0 54523 0 0
+~
+~
+Door 3 0 0 54505 0 0
+~
+~
+End
+
+#54523
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54522 0 0
+~
+~
+Door 1 0 0 54530 0 0
+~
+~
+Door 2 0 0 54524 0 0
+~
+~
+Door 3 0 0 54504 0 0
+~
+~
+End
+
+#54524
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54523 0 0
+~
+~
+Door 1 0 0 54529 0 0
+~
+~
+Door 2 0 0 54525 0 0
+~
+~
+Door 3 0 0 54503 0 0
+~
+~
+End
+
+#54525
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54524 0 0
+~
+~
+Door 1 0 0 54528 0 0
+~
+~
+Door 2 0 0 54526 0 0
+~
+~
+Door 3 0 0 54502 0 0
+~
+~
+End
+
+#54526
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54525 0 0
+~
+~
+Door 1 0 0 54527 0 0
+~
+~
+Door 3 0 0 54501 0 0
+~
+~
+End
+
+#54527
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54528 0 0
+~
+~
+Door 1 0 0 54552 0 0
+~
+~
+Door 3 0 0 54526 0 0
+~
+~
+End
+
+#54528
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54529 0 0
+~
+~
+Door 1 0 0 54551 0 0
+~
+~
+Door 2 0 0 54527 0 0
+~
+~
+Door 3 0 0 54525 0 0
+~
+~
+End
+
+#54529
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54530 0 0
+~
+~
+Door 1 0 0 54550 0 0
+~
+~
+Door 2 0 0 54528 0 0
+~
+~
+Door 3 0 0 54524 0 0
+~
+~
+End
+
+#54530
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54531 0 0
+~
+~
+Door 1 0 0 54549 0 0
+~
+~
+Door 2 0 0 54529 0 0
+~
+~
+Door 3 0 0 54523 0 0
+~
+~
+End
+
+#54531
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. You are within The Plane of Death. The area is hardly visible
+from the fog within the air. A misty stench rises from the cold swamps
+making your stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54532 0 0
+~
+~
+Door 1 0 0 54548 0 0
+~
+~
+Door 2 0 0 54530 0 0
+~
+~
+Door 3 0 0 54522 0 0
+~
+~
+End
+
+#54532
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54533 0 0
+~
+~
+Door 1 0 0 54547 0 0
+~
+~
+Door 2 0 0 54531 0 0
+~
+~
+Door 3 0 0 54521 0 0
+~
+~
+End
+
+#54533
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54534 0 0
+~
+~
+Door 1 0 0 54546 0 0
+~
+~
+Door 2 0 0 54532 0 0
+~
+~
+Door 3 0 0 54520 0 0
+~
+~
+End
+
+#54534
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54535 0 0
+~
+~
+Door 1 0 0 54545 0 0
+~
+~
+Door 2 0 0 54533 0 0
+~
+~
+Door 3 0 0 54519 0 0
+~
+~
+End
+
+#54535
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54536 0 0
+~
+~
+Door 1 0 0 54544 0 0
+~
+~
+Door 2 0 0 54534 0 0
+~
+~
+Door 3 0 0 54518 0 0
+~
+~
+End
+
+#54536
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54537 0 0
+~
+~
+Door 1 0 0 54543 0 0
+~
+~
+Door 2 0 0 54535 0 0
+~
+~
+Door 3 0 0 54517 0 0
+~
+~
+End
+
+#54537
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54538 0 0
+~
+~
+Door 1 0 0 54542 0 0
+~
+~
+Door 2 0 0 54536 0 0
+~
+~
+Door 3 0 0 54516 0 0
+~
+~
+End
+
+#54538
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54539 0 0
+~
+~
+Door 1 0 0 54541 0 0
+~
+~
+Door 2 0 0 54537 0 0
+~
+~
+Door 3 0 0 54515 0 0
+~
+~
+End
+
+#54539
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 1 0 0 54540 0 0
+~
+~
+Door 2 0 0 54538 0 0
+~
+~
+Door 3 0 0 54514 0 0
+~
+~
+End
+
+#54540
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Reset M 54501 1 100
+Door 1 0 0 54565 0 0
+~
+~
+Door 2 0 0 54541 0 0
+~
+~
+Door 3 0 0 54539 0 0
+~
+~
+Door 5 259 0 54717 30 30
+~
+decay~
+End
+
+#54541
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54540 0 0
+~
+~
+Door 1 0 0 54564 0 0
+~
+~
+Door 2 0 0 54542 0 0
+~
+~
+Door 3 0 0 54538 0 0
+~
+~
+End
+
+#54542
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54541 0 0
+~
+~
+Door 1 0 0 54563 0 0
+~
+~
+Door 2 0 0 54543 0 0
+~
+~
+Door 3 0 0 54537 0 0
+~
+~
+End
+
+#54543
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Reset M 54501 1 100
+Door 0 0 0 54542 0 0
+~
+~
+Door 1 0 0 54562 0 0
+~
+~
+Door 2 0 0 54544 0 0
+~
+~
+Door 3 0 0 54536 0 0
+~
+~
+End
+
+#54544
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Reset M 54501 1 100
+Door 0 0 0 54543 0 0
+~
+~
+Door 1 0 0 54561 0 0
+~
+~
+Door 2 0 0 54545 0 0
+~
+~
+Door 3 0 0 54535 0 0
+~
+~
+End
+
+#54545
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54544 0 0
+~
+~
+Door 1 0 0 54560 0 0
+~
+~
+Door 2 0 0 54546 0 0
+~
+~
+Door 3 0 0 54534 0 0
+~
+~
+End
+
+#54546
+Name The Center of the Plane of Death~
+Descr
+You are at the center of The Plane of Death. This area seems to be
+completely covered with dead bodys and corpses. You begin to wonder why you
+came here. 
+~
+Flags2 6
+Flags 16384
+Sector 34
+Reset M 54546 1 100
+Reset O 54717 -1 1
+Door 0 0 0 54545 0 0
+~
+~
+Door 1 0 0 54559 0 0
+~
+~
+Door 2 0 0 54547 0 0
+~
+~
+Door 3 0 0 54533 0 0
+~
+~
+Door 5 259 0 54695 30 30
+~
+hell~
+End
+
+#54547
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54546 0 0
+~
+~
+Door 1 0 0 54558 0 0
+~
+~
+Door 2 0 0 54548 0 0
+~
+~
+Door 3 0 0 54532 0 0
+~
+~
+End
+
+#54548
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54547 0 0
+~
+~
+Door 1 0 0 54557 0 0
+~
+~
+Door 2 0 0 54549 0 0
+~
+~
+Door 3 0 0 54531 0 0
+~
+~
+End
+
+#54549
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54548 0 0
+~
+~
+Door 1 0 0 54556 0 0
+~
+~
+Door 2 0 0 54550 0 0
+~
+~
+Door 3 0 0 54530 0 0
+~
+~
+End
+
+#54550
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Reset M 54501 1 100
+Door 0 0 0 54549 0 0
+~
+~
+Door 1 0 0 54555 0 0
+~
+~
+Door 2 0 0 54551 0 0
+~
+~
+Door 3 0 0 54529 0 0
+~
+~
+End
+
+#54551
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54550 0 0
+~
+~
+Door 1 0 0 54554 0 0
+~
+~
+Door 2 0 0 54552 0 0
+~
+~
+Door 3 0 0 54528 0 0
+~
+~
+End
+
+#54552
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54551 0 0
+~
+~
+Door 1 0 0 54553 0 0
+~
+~
+Door 3 0 0 54527 0 0
+~
+~
+Door 4 259 0 54776 30 30
+~
+sky~
+End
+
+#54553
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54554 0 0
+~
+~
+Door 1 0 0 54590 0 0
+~
+~
+Door 3 0 0 54552 0 0
+~
+~
+End
+
+#54554
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54555 0 0
+~
+~
+Door 1 0 0 54589 0 0
+~
+~
+Door 2 0 0 54553 0 0
+~
+~
+Door 3 0 0 54551 0 0
+~
+~
+End
+
+#54555
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54556 0 0
+~
+~
+Door 1 0 0 54588 0 0
+~
+~
+Door 2 0 0 54554 0 0
+~
+~
+Door 3 0 0 54550 0 0
+~
+~
+End
+
+#54556
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54557 0 0
+~
+~
+Door 1 0 0 54587 0 0
+~
+~
+Door 2 0 0 54555 0 0
+~
+~
+Door 3 0 0 54549 0 0
+~
+~
+End
+
+#54557
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54558 0 0
+~
+~
+Door 1 0 0 54586 0 0
+~
+~
+Door 2 0 0 54556 0 0
+~
+~
+Door 3 0 0 54548 0 0
+~
+~
+End
+
+#54558
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54559 0 0
+~
+~
+Door 1 0 0 54585 0 0
+~
+~
+Door 2 0 0 54557 0 0
+~
+~
+Door 3 0 0 54547 0 0
+~
+~
+End
+
+#54559
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54560 0 0
+~
+~
+Door 1 0 0 54584 0 0
+~
+~
+Door 2 0 0 54558 0 0
+~
+~
+Door 3 0 0 54546 0 0
+~
+~
+End
+
+#54560
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54561 0 0
+~
+~
+Door 1 0 0 54583 0 0
+~
+~
+Door 2 0 0 54559 0 0
+~
+~
+Door 3 0 0 54545 0 0
+~
+~
+End
+
+#54561
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54562 0 0
+~
+~
+Door 1 0 0 54582 0 0
+~
+~
+Door 2 0 0 54560 0 0
+~
+~
+Door 3 0 0 54544 0 0
+~
+~
+End
+
+#54562
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54563 0 0
+~
+~
+Door 1 0 0 54581 0 0
+~
+~
+Door 2 0 0 54561 0 0
+~
+~
+Door 3 0 0 54543 0 0
+~
+~
+End
+
+#54563
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54564 0 0
+~
+~
+Door 1 0 0 54580 0 0
+~
+~
+Door 2 0 0 54562 0 0
+~
+~
+Door 3 0 0 54542 0 0
+~
+~
+End
+
+#54564
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54565 0 0
+~
+~
+Door 1 0 0 54579 0 0
+~
+~
+Door 2 0 0 54563 0 0
+~
+~
+Door 3 0 0 54541 0 0
+~
+~
+End
+
+#54565
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 1 0 0 54578 0 0
+~
+~
+Door 2 0 0 54564 0 0
+~
+~
+Door 3 0 0 54540 0 0
+~
+~
+End
+
+#54566
+Name ~
+Descr
+~
+Door 2 0 0 54567 0 0
+~
+~
+Door 3 0 0 54564 0 0
+~
+~
+End
+
+#54567
+Name ~
+Descr
+~
+Door 0 0 0 54566 0 0
+~
+~
+Door 2 0 0 54569 0 0
+~
+~
+Door 3 0 0 54563 0 0
+~
+~
+End
+
+#54568
+Name ~
+Descr
+~
+Door 0 0 0 54567 0 0
+~
+~
+Door 3 0 0 54562 0 0
+~
+~
+End
+
+#54569
+Name ~
+Descr
+~
+Door 0 0 0 54567 0 0
+~
+~
+Door 2 0 0 54570 0 0
+~
+~
+Door 3 0 0 54562 0 0
+~
+~
+End
+
+#54570
+Name ~
+Descr
+~
+Door 0 0 0 54569 0 0
+~
+~
+Door 2 0 0 54571 0 0
+~
+~
+Door 3 0 0 54561 0 0
+~
+~
+End
+
+#54571
+Name ~
+Descr
+~
+Door 0 0 0 54570 0 0
+~
+~
+Door 2 0 0 54572 0 0
+~
+~
+Door 3 0 0 54560 0 0
+~
+~
+End
+
+#54572
+Name ~
+Descr
+~
+Door 0 0 0 54571 0 0
+~
+~
+Door 2 0 0 54574 0 0
+~
+~
+Door 3 0 0 54559 0 0
+~
+~
+End
+
+#54573
+Name ~
+Descr
+~
+Door 0 0 0 54572 0 0
+~
+~
+Door 3 0 0 54558 0 0
+~
+~
+End
+
+#54574
+Name ~
+Descr
+~
+Door 0 0 0 54572 0 0
+~
+~
+Door 2 0 0 54575 0 0
+~
+~
+Door 3 0 0 54557 0 0
+~
+~
+End
+
+#54575
+Name ~
+Descr
+~
+Door 0 0 0 54574 0 0
+~
+~
+Door 2 0 0 54576 0 0
+~
+~
+Door 3 0 0 54556 0 0
+~
+~
+End
+
+#54576
+Name ~
+Descr
+~
+Door 0 0 0 54575 0 0
+~
+~
+Door 2 0 0 54577 0 0
+~
+~
+Door 3 0 0 54555 0 0
+~
+~
+End
+
+#54577
+Name ~
+Descr
+~
+Door 0 0 0 54576 0 0
+~
+~
+Door 3 0 0 54554 0 0
+~
+~
+End
+
+#54578
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 1 0 0 54690 0 0
+~
+~
+Door 2 0 0 54579 0 0
+~
+~
+Door 3 0 0 54565 0 0
+~
+~
+End
+
+#54579
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54578 0 0
+~
+~
+Door 1 0 0 54601 0 0
+~
+~
+Door 2 0 0 54580 0 0
+~
+~
+Door 3 0 0 54564 0 0
+~
+~
+End
+
+#54580
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54579 0 0
+~
+~
+Door 1 0 0 54600 0 0
+~
+~
+Door 2 0 0 54581 0 0
+~
+~
+Door 3 0 0 54563 0 0
+~
+~
+End
+
+#54581
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54580 0 0
+~
+~
+Door 1 0 0 54599 0 0
+~
+~
+Door 2 0 0 54582 0 0
+~
+~
+Door 3 0 0 54562 0 0
+~
+~
+End
+
+#54582
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54581 0 0
+~
+~
+Door 1 0 0 54598 0 0
+~
+~
+Door 2 0 0 54583 0 0
+~
+~
+Door 3 0 0 54561 0 0
+~
+~
+End
+
+#54583
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54582 0 0
+~
+~
+Door 1 0 0 54597 0 0
+~
+~
+Door 2 0 0 54584 0 0
+~
+~
+Door 3 0 0 54560 0 0
+~
+~
+End
+
+#54584
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54583 0 0
+~
+~
+Door 1 0 0 54596 0 0
+~
+~
+Door 2 0 0 54585 0 0
+~
+~
+Door 3 0 0 54559 0 0
+~
+~
+End
+
+#54585
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54584 0 0
+~
+~
+Door 1 0 0 54595 0 0
+~
+~
+Door 2 0 0 54586 0 0
+~
+~
+Door 3 0 0 54558 0 0
+~
+~
+End
+
+#54586
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54585 0 0
+~
+~
+Door 1 0 0 54594 0 0
+~
+~
+Door 2 0 0 54587 0 0
+~
+~
+Door 3 0 0 54557 0 0
+~
+~
+End
+
+#54587
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54586 0 0
+~
+~
+Door 1 0 0 54593 0 0
+~
+~
+Door 2 0 0 54588 0 0
+~
+~
+Door 3 0 0 54556 0 0
+~
+~
+End
+
+#54588
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54587 0 0
+~
+~
+Door 1 0 0 54592 0 0
+~
+~
+Door 2 0 0 54589 0 0
+~
+~
+Door 3 0 0 54555 0 0
+~
+~
+End
+
+#54589
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54588 0 0
+~
+~
+Door 1 0 0 54591 0 0
+~
+~
+Door 2 0 0 54590 0 0
+~
+~
+Door 3 0 0 54554 0 0
+~
+~
+End
+
+#54590
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54589 0 0
+~
+~
+Door 1 0 0 54647 0 0
+~
+~
+Door 3 0 0 54553 0 0
+~
+~
+End
+
+#54591
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54592 0 0
+~
+~
+Door 1 0 0 54648 0 0
+~
+~
+Door 2 0 0 54647 0 0
+~
+~
+Door 3 0 0 54589 0 0
+~
+~
+End
+
+#54592
+Name The Desert of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 33
+Reset M 54501 1 100
+Door 0 0 0 54593 0 0
+~
+~
+Door 1 0 0 54610 0 0
+~
+~
+Door 2 0 0 54591 0 0
+~
+~
+Door 3 0 0 54588 0 0
+~
+~
+End
+
+#54593
+Name The Desert of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54594 0 0
+~
+~
+Door 1 0 0 54609 0 0
+~
+~
+Door 2 0 0 54592 0 0
+~
+~
+Door 3 0 0 54587 0 0
+~
+~
+End
+
+#54594
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54595 0 0
+~
+~
+Door 1 0 0 54608 0 0
+~
+~
+Door 2 0 0 54593 0 0
+~
+~
+Door 3 0 0 54586 0 0
+~
+~
+End
+
+#54595
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54596 0 0
+~
+~
+Door 1 0 0 54607 0 0
+~
+~
+Door 2 0 0 54594 0 0
+~
+~
+Door 3 0 0 54585 0 0
+~
+~
+End
+
+#54596
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Reset M 54501 1 100
+Door 0 0 0 54597 0 0
+~
+~
+Door 1 0 0 54606 0 0
+~
+~
+Door 2 0 0 54595 0 0
+~
+~
+Door 3 0 0 54584 0 0
+~
+~
+End
+
+#54597
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54598 0 0
+~
+~
+Door 1 0 0 54605 0 0
+~
+~
+Door 2 0 0 54596 0 0
+~
+~
+Door 3 0 0 54583 0 0
+~
+~
+End
+
+#54598
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54599 0 0
+~
+~
+Door 1 0 0 54604 0 0
+~
+~
+Door 2 0 0 54597 0 0
+~
+~
+Door 3 0 0 54582 0 0
+~
+~
+End
+
+#54599
+Name The Cave of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 37
+Reset M 54501 1 100
+Door 0 0 0 54600 0 0
+~
+~
+Door 1 0 0 54603 0 0
+~
+~
+Door 2 0 0 54598 0 0
+~
+~
+Door 3 0 0 54581 0 0
+~
+~
+End
+
+#54600
+Name The Cave of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 37
+Door 0 0 0 54601 0 0
+~
+~
+Door 1 0 0 54602 0 0
+~
+~
+Door 2 0 0 54599 0 0
+~
+~
+Door 3 0 0 54580 0 0
+~
+~
+End
+
+#54601
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54690 0 0
+~
+~
+Door 1 0 0 54659 0 0
+~
+~
+Door 2 0 0 54600 0 0
+~
+~
+Door 3 0 0 54579 0 0
+~
+~
+End
+
+#54602
+Name The Cave of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 37
+Door 0 0 0 54659 0 0
+~
+~
+Door 1 0 0 54658 0 0
+~
+~
+Door 2 0 0 54603 0 0
+~
+~
+Door 3 0 0 54600 0 0
+~
+~
+End
+
+#54603
+Name The Cave of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 37
+Door 0 0 0 54602 0 0
+~
+~
+Door 1 0 0 54617 0 0
+~
+~
+Door 2 0 0 54604 0 0
+~
+~
+Door 3 0 0 54599 0 0
+~
+~
+End
+
+#54604
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54603 0 0
+~
+~
+Door 1 0 0 54616 0 0
+~
+~
+Door 2 0 0 54605 0 0
+~
+~
+Door 3 0 0 54598 0 0
+~
+~
+End
+
+#54605
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54604 0 0
+~
+~
+Door 1 0 0 54615 0 0
+~
+~
+Door 2 0 0 54606 0 0
+~
+~
+Door 3 0 0 54597 0 0
+~
+~
+End
+
+#54606
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54605 0 0
+~
+~
+Door 1 0 0 54614 0 0
+~
+~
+Door 2 0 0 54607 0 0
+~
+~
+Door 3 0 0 54596 0 0
+~
+~
+End
+
+#54607
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54606 0 0
+~
+~
+Door 1 0 0 54613 0 0
+~
+~
+Door 2 0 0 54608 0 0
+~
+~
+Door 3 0 0 54595 0 0
+~
+~
+End
+
+#54608
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54607 0 0
+~
+~
+Door 1 0 0 54612 0 0
+~
+~
+Door 2 0 0 54609 0 0
+~
+~
+Door 3 0 0 54594 0 0
+~
+~
+End
+
+#54609
+Name The Desert of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 33
+Reset M 54501 1 100
+Door 0 0 0 54608 0 0
+~
+~
+Door 1 0 0 54611 0 0
+~
+~
+Door 2 0 0 54610 0 0
+~
+~
+Door 3 0 0 54593 0 0
+~
+~
+End
+
+#54610
+Name The Desert of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54609 0 0
+~
+~
+Door 1 0 0 54649 0 0
+~
+~
+Door 2 0 0 54648 0 0
+~
+~
+Door 3 0 0 54592 0 0
+~
+~
+End
+
+#54611
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54612 0 0
+~
+~
+Door 1 0 0 54650 0 0
+~
+~
+Door 2 0 0 54649 0 0
+~
+~
+Door 3 0 0 54609 0 0
+~
+~
+End
+
+#54612
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54613 0 0
+~
+~
+Door 1 0 0 54651 0 0
+~
+~
+Door 2 0 0 54611 0 0
+~
+~
+Door 3 0 0 54608 0 0
+~
+~
+End
+
+#54613
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54614 0 0
+~
+~
+Door 1 0 0 54652 0 0
+~
+~
+Door 2 0 0 54612 0 0
+~
+~
+Door 3 0 0 54607 0 0
+~
+~
+End
+
+#54614
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Reset M 54501 1 100
+Door 0 0 0 54615 0 0
+~
+~
+Door 1 0 0 54653 0 0
+~
+~
+Door 2 0 0 54613 0 0
+~
+~
+Door 3 0 0 54606 0 0
+~
+~
+End
+
+#54615
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54616 0 0
+~
+~
+Door 1 0 0 54654 0 0
+~
+~
+Door 2 0 0 54614 0 0
+~
+~
+Door 3 0 0 54605 0 0
+~
+~
+End
+
+#54616
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54617 0 0
+~
+~
+Door 1 0 0 54655 0 0
+~
+~
+Door 2 0 0 54615 0 0
+~
+~
+Door 3 0 0 54604 0 0
+~
+~
+End
+
+#54617
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54658 0 0
+~
+~
+Door 1 0 0 54656 0 0
+~
+~
+Door 2 0 0 54616 0 0
+~
+~
+Door 3 0 0 54603 0 0
+~
+~
+End
+
+#54618
+Name The Cave of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 37
+Door 0 0 0 54628 0 0
+~
+~
+Door 1 0 0 54511 0 0
+~
+~
+Door 2 0 0 54619 0 0
+~
+~
+Door 3 0 0 54629 0 0
+~
+~
+End
+
+#54619
+Name The Cave of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 37
+Door 0 0 0 54618 0 0
+~
+~
+Door 1 0 0 54510 0 0
+~
+~
+Door 2 0 0 54620 0 0
+~
+~
+Door 3 0 0 54630 0 0
+~
+~
+End
+
+#54620
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54619 0 0
+~
+~
+Door 1 0 0 54509 0 0
+~
+~
+Door 2 0 0 54621 0 0
+~
+~
+Door 3 0 0 54631 0 0
+~
+~
+End
+
+#54621
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54620 0 0
+~
+~
+Door 1 0 0 54508 0 0
+~
+~
+Door 2 0 0 54622 0 0
+~
+~
+Door 3 0 0 54632 0 0
+~
+~
+End
+
+#54622
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54621 0 0
+~
+~
+Door 1 0 0 54507 0 0
+~
+~
+Door 2 0 0 54623 0 0
+~
+~
+Door 3 0 0 54633 0 0
+~
+~
+End
+
+#54623
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54622 0 0
+~
+~
+Door 1 0 0 54506 0 0
+~
+~
+Door 2 0 0 54624 0 0
+~
+~
+Door 3 0 0 54634 0 0
+~
+~
+End
+
+#54624
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54623 0 0
+~
+~
+Door 1 0 0 54505 0 0
+~
+~
+Door 2 0 0 54625 0 0
+~
+~
+Door 3 0 0 54635 0 0
+~
+~
+End
+
+#54625
+Name The Desert of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 33
+Reset O 54501 -5 100
+Reset M 54501 1 100
+Door 0 0 0 54624 0 0
+~
+~
+Door 1 0 0 54504 0 0
+~
+~
+Door 2 0 0 54626 0 0
+~
+~
+Door 3 0 0 54636 0 0
+~
+~
+End
+
+#54626
+Name The Desert of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54625 0 0
+~
+~
+Door 1 0 0 54503 0 0
+~
+~
+Door 2 0 0 54627 0 0
+~
+~
+Door 3 0 0 54637 0 0
+~
+~
+End
+
+#54627
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54626 0 0
+~
+~
+Door 1 0 0 54502 0 0
+~
+~
+End
+
+#54628
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 1 0 0 54512 0 0
+~
+~
+Door 2 0 0 54618 0 0
+~
+~
+End
+
+#54629
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 1 0 0 54618 0 0
+~
+~
+Door 2 0 0 54630 0 0
+~
+~
+End
+
+#54630
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54629 0 0
+~
+~
+Door 1 0 0 54619 0 0
+~
+~
+Door 2 0 0 54631 0 0
+~
+~
+Door 3 0 0 54640 0 0
+~
+~
+End
+
+#54631
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54630 0 0
+~
+~
+Door 1 0 0 54620 0 0
+~
+~
+Door 2 0 0 54632 0 0
+~
+~
+Door 3 0 0 54641 0 0
+~
+~
+End
+
+#54632
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54631 0 0
+~
+~
+Door 1 0 0 54621 0 0
+~
+~
+Door 2 0 0 54633 0 0
+~
+~
+Door 3 0 0 54642 0 0
+~
+~
+End
+
+#54633
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Reset M 54501 1 100
+Door 0 0 0 54632 0 0
+~
+~
+Door 1 0 0 54622 0 0
+~
+~
+Door 2 0 0 54634 0 0
+~
+~
+Door 3 0 0 54643 0 0
+~
+~
+End
+
+#54634
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54633 0 0
+~
+~
+Door 1 0 0 54623 0 0
+~
+~
+Door 2 0 0 54635 0 0
+~
+~
+Door 3 0 0 54644 0 0
+~
+~
+End
+
+#54635
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54634 0 0
+~
+~
+Door 1 0 0 54624 0 0
+~
+~
+Door 2 0 0 54636 0 0
+~
+~
+Door 3 0 0 54645 0 0
+~
+~
+End
+
+#54636
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54635 0 0
+~
+~
+Door 1 0 0 54625 0 0
+~
+~
+Door 2 0 0 54637 0 0
+~
+~
+Door 3 0 0 54646 0 0
+~
+~
+End
+
+#54637
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54636 0 0
+~
+~
+Door 1 0 0 54626 0 0
+~
+~
+End
+
+#54638
+Name ~
+Descr
+~
+End
+
+#54639
+Name ~
+Descr
+~
+Door 1 0 0 54629 0 0
+~
+~
+Door 2 0 0 54640 0 0
+~
+~
+End
+
+#54640
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 1 0 0 54630 0 0
+~
+~
+Door 2 0 0 54641 0 0
+~
+~
+End
+
+#54641
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54640 0 0
+~
+~
+Door 1 0 0 54631 0 0
+~
+~
+Door 2 0 0 54642 0 0
+~
+~
+End
+
+#54642
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54641 0 0
+~
+~
+Door 1 0 0 54632 0 0
+~
+~
+Door 2 0 0 54643 0 0
+~
+~
+End
+
+#54643
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54642 0 0
+~
+~
+Door 1 0 0 54633 0 0
+~
+~
+Door 2 0 0 54644 0 0
+~
+~
+Door 4 259 0 54751 30 30
+~
+death~
+End
+
+#54644
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54643 0 0
+~
+~
+Door 1 0 0 54634 0 0
+~
+~
+Door 2 0 0 54645 0 0
+~
+~
+End
+
+#54645
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54644 0 0
+~
+~
+Door 1 0 0 54635 0 0
+~
+~
+Door 2 0 0 54646 0 0
+~
+~
+End
+
+#54646
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54645 0 0
+~
+~
+Door 1 0 0 54636 0 0
+~
+~
+End
+
+#54647
+Name The Plane of Death~
+Descr
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54591 0 0
+~
+~
+Door 3 0 0 54590 0 0
+~
+~
+End
+
+#54648
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54610 0 0
+~
+~
+Door 3 0 0 54591 0 0
+~
+~
+End
+
+#54649
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54611 0 0
+~
+~
+Door 3 0 0 54610 0 0
+~
+~
+End
+
+#54650
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54651 0 0
+~
+~
+Door 3 0 0 54611 0 0
+~
+~
+End
+
+#54651
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54652 0 0
+~
+~
+Door 2 0 0 54650 0 0
+~
+~
+Door 3 0 0 54612 0 0
+~
+~
+End
+
+#54652
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54653 0 0
+~
+~
+Door 2 0 0 54651 0 0
+~
+~
+Door 3 0 0 54613 0 0
+~
+~
+End
+
+#54653
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54654 0 0
+~
+~
+Door 2 0 0 54652 0 0
+~
+~
+Door 3 0 0 54614 0 0
+~
+~
+Door 5 259 0 54775 30 30
+~
+torture~
+End
+
+#54654
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 0 0 0 54655 0 0
+~
+~
+Door 2 0 0 54653 0 0
+~
+~
+Door 3 0 0 54615 0 0
+~
+~
+End
+
+#54655
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Reset M 54501 1 100
+Door 0 0 0 54656 0 0
+~
+~
+Door 2 0 0 54654 0 0
+~
+~
+Door 3 0 0 54616 0 0
+~
+~
+End
+
+#54656
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 2 0 0 54655 0 0
+~
+~
+Door 3 0 0 54617 0 0
+~
+~
+End
+
+#54657
+Name ~
+Descr
+~
+End
+
+#54658
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 2 0 0 54617 0 0
+~
+~
+Door 3 0 0 54602 0 0
+~
+~
+End
+
+#54659
+Name The Plane of Death~
+Descr
+You are within The Plane of Death. The area is hardly visible from the
+fog within the air. A misty stench rises from the cold swamps making your
+stomach turn. 
+~
+Flags 16384
+Sector 21
+Door 2 0 0 54602 0 0
+~
+~
+Door 3 0 0 54601 0 0
+~
+~
+End
+
+#54660
+Name ~
+Descr
+~
+End
+
+#54661
+Name ~
+Descr
+~
+End
+
+#54662
+Name ~
+Descr
+~
+End
+
+#54663
+Name ~
+Descr
+~
+End
+
+#54664
+Name ~
+Descr
+~
+End
+
+#54665
+Name ~
+Descr
+~
+End
+
+#54666
+Name ~
+Descr
+~
+End
+
+#54667
+Name ~
+Descr
+~
+End
+
+#54668
+Name ~
+Descr
+~
+End
+
+#54669
+Name ~
+Descr
+~
+End
+
+#54670
+Name ~
+Descr
+~
+End
+
+#54671
+Name ~
+Descr
+~
+End
+
+#54672
+Name ~
+Descr
+~
+End
+
+#54673
+Name ~
+Descr
+~
+End
+
+#54674
+Name ~
+Descr
+~
+End
+
+#54675
+Name ~
+Descr
+~
+End
+
+#54676
+Name ~
+Descr
+~
+End
+
+#54677
+Name ~
+Descr
+~
+End
+
+#54678
+Name ~
+Descr
+~
+End
+
+#54679
+Name ~
+Descr
+~
+End
+
+#54680
+Name ~
+Descr
+~
+End
+
+#54681
+Name ~
+Descr
+~
+End
+
+#54682
+Name ~
+Descr
+~
+End
+
+#54683
+Name ~
+Descr
+~
+End
+
+#54684
+Name ~
+Descr
+~
+End
+
+#54685
+Name ~
+Descr
+~
+End
+
+#54686
+Name ~
+Descr
+~
+End
+
+#54687
+Name ~
+Descr
+~
+End
+
+#54688
+Name ~
+Descr
+~
+End
+
+#54689
+Name ~
+Descr
+~
+End
+
+#54690
+Name The Plane of Death~
+Descr
+~
+Flags2 6
+Flags 16384
+Sector 21
+Door 2 0 0 54601 0 0
+~
+~
+Door 3 0 0 54578 0 0
+~
+~
+End
+
+#54695
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 4 259 0 54546 30 30
+~
+hell~
+Door 5 0 0 54696 0 0
+~
+~
+End
+
+#54696
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Reset M 54696 1 100
+Reset M 54696 1 100
+Door 0 0 0 54698 0 0
+~
+~
+Door 1 0 0 54705 0 0
+~
+~
+Door 2 0 0 54700 0 0
+~
+~
+Door 3 0 0 54710 0 0
+~
+~
+Door 4 0 0 54695 0 0
+~
+~
+End
+
+#54697
+Name ~
+Descr
+~
+Door 2 0 0 54696 0 0
+~
+~
+End
+
+#54698
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54699 0 0
+~
+~
+Door 1 0 0 54706 0 0
+~
+~
+Door 2 0 0 54696 0 0
+~
+~
+Door 3 0 0 54709 0 0
+~
+~
+End
+
+#54699
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54715 0 0
+~
+~
+Door 1 0 0 54707 0 0
+~
+~
+Door 2 0 0 54698 0 0
+~
+~
+Door 3 0 0 54708 0 0
+~
+~
+End
+
+#54700
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54696 0 0
+~
+~
+Door 1 0 0 54704 0 0
+~
+~
+Door 2 0 0 54701 0 0
+~
+~
+Door 3 0 0 54711 0 0
+~
+~
+End
+
+#54701
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54700 0 0
+~
+~
+Door 1 0 0 54703 0 0
+~
+~
+Door 2 0 0 54702 0 0
+~
+~
+Door 3 0 0 54712 0 0
+~
+~
+End
+
+#54702
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54701 0 0
+~
+~
+Door 1 0 0 54714 0 0
+~
+~
+Door 2 0 0 54716 0 0
+~
+~
+Door 3 0 0 54713 0 0
+~
+~
+End
+
+#54703
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54704 0 0
+~
+~
+Door 2 0 0 54714 0 0
+~
+~
+Door 3 0 0 54701 0 0
+~
+~
+End
+
+#54704
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Reset M 54696 1 100
+Door 0 0 0 54705 0 0
+~
+~
+Door 2 0 0 54703 0 0
+~
+~
+Door 3 0 0 54700 0 0
+~
+~
+End
+
+#54705
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54706 0 0
+~
+~
+Door 2 0 0 54704 0 0
+~
+~
+Door 3 0 0 54696 0 0
+~
+~
+End
+
+#54706
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Reset M 54696 1 100
+Door 0 0 0 54707 0 0
+~
+~
+Door 2 0 0 54705 0 0
+~
+~
+Door 3 0 0 54698 0 0
+~
+~
+End
+
+#54707
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Reset M 54696 1 100
+Door 2 0 0 54706 0 0
+~
+~
+Door 3 0 0 54699 0 0
+~
+~
+End
+
+#54708
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Reset M 54696 1 100
+Door 1 0 0 54699 0 0
+~
+~
+Door 2 0 0 54709 0 0
+~
+~
+End
+
+#54709
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54708 0 0
+~
+~
+Door 1 0 0 54698 0 0
+~
+~
+Door 2 0 0 54710 0 0
+~
+~
+End
+
+#54710
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Reset M 54696 1 100
+Door 0 0 0 54709 0 0
+~
+~
+Door 1 0 0 54696 0 0
+~
+~
+Door 2 0 0 54711 0 0
+~
+~
+End
+
+#54711
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54710 0 0
+~
+~
+Door 1 0 0 54700 0 0
+~
+~
+Door 2 0 0 54712 0 0
+~
+~
+End
+
+#54712
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54711 0 0
+~
+~
+Door 1 0 0 54701 0 0
+~
+~
+Door 2 0 0 54713 0 0
+~
+~
+End
+
+#54713
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54712 0 0
+~
+~
+Door 1 0 0 54702 0 0
+~
+~
+End
+
+#54714
+Name The Void of Hell~
+Descr
+You are in the realm of Hell, you hear many sounds of pain and agony as
+people are being tortured in the distance. The sheer smell of rotting flesh
+boils your skin to the bone. 
+~
+Flags 32
+Sector 35
+Door 0 0 0 54703 0 0
+~
+~
+Door 3 0 0 54702 0 0
+~
+~
+End
+
+#54715
+Name The Lord of Evils Throne~
+Descr
+You are at the Lord of Evil, Satan's throne. You see a large throne with
+many skulls attached to it, here stands a large demon that seems completely
+unbeatable. 
+~
+Sector 37
+Reset M 54715 1 100
+Reset O 54714 -1 1
+Reset O 54715 -1 1
+Door 2 0 0 54699 0 0
+~
+~
+End
+
+#54716
+Name The Lord of Plagues Throne~
+Descr
+This is the room of the Lord of Plagues. This evil villan has spread
+plague and disease through the entire realm since the dawn of man. This
+villan is very powerful and seems very unbeatable. 
+~
+Sector 37
+Reset M 54716 1 100
+Reset O 54716 -1 1
+Door 0 0 0 54702 0 0
+~
+~
+End
+
+#54717
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Reset M 54502 1 100
+Door 0 0 0 54720 0 0
+~
+~
+Door 4 259 0 54540 30 30
+~
+decay~
+End
+
+#54718
+Name ~
+Descr
+~
+End
+
+#54719
+Name ~
+Descr
+~
+End
+
+#54720
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Door 0 0 0 54721 0 0
+~
+~
+Door 2 0 0 54717 0 0
+~
+~
+End
+
+#54721
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Door 2 0 0 54720 0 0
+~
+~
+Door 3 0 0 54722 0 0
+~
+~
+End
+
+#54722
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Reset M 54502 1 100
+Door 0 0 0 54723 0 0
+~
+~
+Door 1 0 0 54721 0 0
+~
+~
+End
+
+#54723
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Door 0 0 0 54724 0 0
+~
+~
+Door 2 0 0 54722 0 0
+~
+~
+End
+
+#54724
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Reset M 54502 1 100
+Door 1 0 0 54725 0 0
+~
+~
+Door 2 0 0 54723 0 0
+~
+~
+End
+
+#54725
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Door 0 0 0 54726 0 0
+~
+~
+Door 3 0 0 54724 0 0
+~
+~
+End
+
+#54726
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Reset M 54502 1 100
+Door 2 0 0 54725 0 0
+~
+~
+Door 5 0 0 54727 0 0
+~
+~
+End
+
+#54727
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Reset M 54502 1 100
+Door 0 0 0 54728 0 0
+~
+~
+Door 4 0 0 54726 0 0
+~
+~
+End
+
+#54728
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Reset M 54502 1 100
+Door 2 0 0 54727 0 0
+~
+~
+Door 5 0 0 54729 0 0
+~
+~
+End
+
+#54729
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Door 2 0 0 54730 0 0
+~
+~
+Door 4 0 0 54728 0 0
+~
+~
+End
+
+#54730
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Reset M 54502 1 100
+Door 0 0 0 54729 0 0
+~
+~
+Door 2 0 0 54731 0 0
+~
+~
+End
+
+#54731
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Door 0 0 0 54730 0 0
+~
+~
+Door 1 0 0 54733 0 0
+~
+~
+Door 2 0 0 54735 0 0
+~
+~
+Door 3 0 0 54732 0 0
+~
+~
+End
+
+#54732
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Door 1 0 0 54731 0 0
+~
+~
+Door 2 0 0 54736 0 0
+~
+~
+End
+
+#54733
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Door 2 0 0 54734 0 0
+~
+~
+Door 3 0 0 54731 0 0
+~
+~
+End
+
+#54734
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Door 0 0 0 54733 0 0
+~
+~
+Door 3 0 0 54735 0 0
+~
+~
+End
+
+#54735
+Name The Decaying Fallen Angels Alcove~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16416
+Sector 34
+Reset M 54735 1 100
+Reset O 54734 -1 1
+Reset O 54735 -1 1
+Door 0 0 0 54731 0 0
+~
+~
+Door 1 0 0 54734 0 0
+~
+~
+Door 3 0 0 54736 0 0
+~
+~
+End
+
+#54736
+Name The Halls of Decay~
+Descr
+You are walking within the Halls of Decay where the ground burns of fire
+and flame. The halls are filled with smoke and ash, causing your lungs great
+pain. 
+~
+Flags 16384
+Sector 35
+Door 0 0 0 54732 0 0
+~
+~
+Door 1 0 0 54735 0 0
+~
+~
+End
+
+#54737
+Name ~
+Descr
+~
+End
+
+#54738
+Name ~
+Descr
+~
+End
+
+#54739
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

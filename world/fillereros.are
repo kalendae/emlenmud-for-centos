@@ -1,0 +1,1674 @@
+#AREADATA 
+Name The Homelands of Eron~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Structure~
+VNUMs 20601 20700
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#20601
+Name wandering mystic~
+Short a wandering mystic~
+Long 
+A mystic wanders about surveying the area.
+~
+AMax 3
+Money 300
+Level 120
+MobType 0
+Hp 8
+Guard 0
+End
+
+#20608
+Name deer~
+Short a nervous deer~
+Long 
+A nervous deer is here, cautious to your every move.
+~
+AMax 5
+NHeight 0
+Affect_By 512
+Alignment 2
+Level 80
+Hp 2
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#20601
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20602 0 0
+~
+~
+Door 1 0 0 20610 0 0
+~
+~
+Door 2 0 0 16855 0 0
+~
+~
+Door 3 0 0 16853 0 0
+~
+~
+End
+
+#20602
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 20618 0 0
+~
+~
+Door 2 0 0 20601 0 0
+~
+~
+Door 3 0 0 16952 0 0
+~
+~
+End
+
+#20603
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16852 0 0
+~
+~
+Door 1 0 0 16854 0 0
+~
+~
+Door 2 0 0 20623 0 0
+~
+~
+Door 3 0 0 20604 0 0
+~
+~
+End
+
+#20604
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16851 0 0
+~
+~
+Door 1 0 0 20603 0 0
+~
+~
+End
+
+#20605
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+End
+
+#20606
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 4618 0 0
+~
+~
+Door 1 0 0 4690 0 0
+~
+~
+Door 3 0 0 20607 0 0
+~
+~
+End
+
+#20607
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 4617 0 0
+~
+~
+Door 1 0 0 20606 0 0
+~
+~
+Door 3 0 0 20608 0 0
+~
+~
+End
+
+#20608
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Reset M 20608 1 100
+Door 0 0 0 16948 0 0
+~
+~
+Door 1 0 0 20607 0 0
+~
+~
+End
+
+#20609
+Name ~
+Descr
+~
+End
+
+#20610
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20618 0 0
+~
+~
+Door 1 0 0 20611 0 0
+~
+~
+Door 2 0 0 16856 0 0
+~
+~
+Door 3 0 0 20601 0 0
+~
+~
+End
+
+#20611
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20619 0 0
+~
+~
+Door 1 0 0 20612 0 0
+~
+~
+Door 2 0 0 16857 0 0
+~
+~
+Door 3 0 0 20610 0 0
+~
+~
+End
+
+#20612
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20620 0 0
+~
+~
+Door 1 0 0 20613 0 0
+~
+~
+Door 2 0 0 20617 0 0
+~
+~
+Door 3 0 0 20611 0 0
+~
+~
+End
+
+#20613
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20621 0 0
+~
+~
+Door 1 0 0 20614 0 0
+~
+~
+Door 2 0 0 20616 0 0
+~
+~
+Door 3 0 0 20612 0 0
+~
+~
+End
+
+#20614
+Name The Sacred Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 20622 0 0
+~
+~
+Door 1 0 0 20636 0 0
+~
+~
+Door 2 0 0 20615 0 0
+~
+~
+Door 3 0 0 20613 0 0
+~
+~
+End
+
+#20615
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20614 0 0
+~
+~
+Door 1 0 0 20639 0 0
+~
+~
+Door 2 0 0 16862 0 0
+~
+~
+Door 3 0 0 20616 0 0
+~
+~
+End
+
+#20616
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Reset M 20608 3 50
+Door 0 0 0 20613 0 0
+~
+~
+Door 1 0 0 20615 0 0
+~
+~
+Door 2 0 0 16861 0 0
+~
+~
+Door 3 0 0 20617 0 0
+~
+~
+End
+
+#20617
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20612 0 0
+~
+~
+Door 1 0 0 20616 0 0
+~
+~
+Door 2 0 0 16860 0 0
+~
+~
+Door 3 0 0 16857 0 0
+~
+~
+End
+
+#20618
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 20619 0 0
+~
+~
+Door 2 0 0 20610 0 0
+~
+~
+Door 3 0 0 20602 0 0
+~
+~
+End
+
+#20619
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Reset M 20601 1 100
+Reset O 59 -1 40
+Door 1 0 0 20620 0 0
+~
+~
+Door 2 0 0 20611 0 0
+~
+~
+Door 3 0 0 20618 0 0
+~
+~
+End
+
+#20620
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 20621 0 0
+~
+~
+Door 2 0 0 20612 0 0
+~
+~
+Door 3 0 0 20619 0 0
+~
+~
+End
+
+#20621
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 20622 0 0
+~
+~
+Door 2 0 0 20613 0 0
+~
+~
+Door 3 0 0 20620 0 0
+~
+~
+End
+
+#20622
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 2 0 0 20614 0 0
+~
+~
+Door 3 0 0 20621 0 0
+~
+~
+End
+
+#20623
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20603 0 0
+~
+~
+Door 1 0 0 20624 0 0
+~
+~
+End
+
+#20624
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Reset M 20601 1 100
+Reset O 64 -1 20
+Door 0 0 0 16854 0 0
+~
+~
+Door 1 0 0 20625 0 0
+~
+~
+Door 3 0 0 20623 0 0
+~
+~
+End
+
+#20625
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16855 0 0
+~
+~
+Door 1 0 0 20626 0 0
+~
+~
+Door 3 0 0 20624 0 0
+~
+~
+End
+
+#20626
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16856 0 0
+~
+~
+Door 1 0 0 16859 0 0
+~
+~
+Door 2 0 0 20627 0 0
+~
+~
+Door 3 0 0 20625 0 0
+~
+~
+End
+
+#20627
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20626 0 0
+~
+~
+Door 1 0 0 20628 0 0
+~
+~
+End
+
+#20628
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16859 0 0
+~
+~
+Door 1 0 0 20629 0 0
+~
+~
+Door 2 0 0 20631 0 0
+~
+~
+Door 3 0 0 20627 0 0
+~
+~
+End
+
+#20629
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Reset M 20601 1 100
+Door 0 0 0 16860 0 0
+~
+~
+Door 1 0 0 20630 0 0
+~
+~
+Door 2 0 0 20632 0 0
+~
+~
+Door 3 0 0 20628 0 0
+~
+~
+End
+
+#20630
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16861 0 0
+~
+~
+Door 1 0 0 16863 0 0
+~
+~
+Door 2 0 0 20633 0 0
+~
+~
+Door 3 0 0 20629 0 0
+~
+~
+End
+
+#20631
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20628 0 0
+~
+~
+Door 1 0 0 20632 0 0
+~
+~
+End
+
+#20632
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20629 0 0
+~
+~
+Door 1 0 0 20633 0 0
+~
+~
+Door 2 0 0 20634 0 0
+~
+~
+Door 3 0 0 20631 0 0
+~
+~
+End
+
+#20633
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20630 0 0
+~
+~
+Door 1 0 0 16864 0 0
+~
+~
+Door 2 0 0 20635 0 0
+~
+~
+Door 3 0 0 20632 0 0
+~
+~
+End
+
+#20634
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20632 0 0
+~
+~
+Door 1 0 0 20635 0 0
+~
+~
+Door 2 0 0 16873 0 0
+~
+~
+End
+
+#20635
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20633 0 0
+~
+~
+Door 1 0 0 16865 0 0
+~
+~
+Door 2 0 0 16867 0 0
+~
+~
+Door 3 0 0 20634 0 0
+~
+~
+End
+
+#20636
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 20637 0 0
+~
+~
+Door 2 0 0 20639 0 0
+~
+~
+Door 3 0 0 20614 0 0
+~
+~
+End
+
+#20637
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 2 0 0 20638 0 0
+~
+~
+Door 3 0 0 20636 0 0
+~
+~
+End
+
+#20638
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20637 0 0
+~
+~
+Door 2 0 0 20641 0 0
+~
+~
+Door 3 0 0 20639 0 0
+~
+~
+End
+
+#20639
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20636 0 0
+~
+~
+Door 1 0 0 20638 0 0
+~
+~
+Door 2 0 0 20640 0 0
+~
+~
+Door 3 0 0 20615 0 0
+~
+~
+End
+
+#20640
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20639 0 0
+~
+~
+Door 1 0 0 20641 0 0
+~
+~
+Door 2 0 0 20648 0 0
+~
+~
+Door 3 0 0 16862 0 0
+~
+~
+End
+
+#20641
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20638 0 0
+~
+~
+Door 1 0 0 20642 0 0
+~
+~
+Door 2 0 0 20647 0 0
+~
+~
+Door 3 0 0 20640 0 0
+~
+~
+End
+
+#20642
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 2 0 0 20643 0 0
+~
+~
+Door 3 0 0 20641 0 0
+~
+~
+End
+
+#20643
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20642 0 0
+~
+~
+Door 1 0 0 20644 0 0
+~
+~
+Door 2 0 0 20652 0 0
+~
+~
+Door 3 0 0 20647 0 0
+~
+~
+End
+
+#20644
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 2 0 0 20645 0 0
+~
+~
+Door 3 0 0 20643 0 0
+~
+~
+End
+
+#20645
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20644 0 0
+~
+~
+Door 2 0 0 20646 0 0
+~
+~
+Door 3 0 0 20652 0 0
+~
+~
+End
+
+#20646
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20645 0 0
+~
+~
+Door 2 0 0 16871 0 0
+~
+~
+Door 3 0 0 20659 0 0
+~
+~
+End
+
+#20647
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20641 0 0
+~
+~
+Door 1 0 0 20643 0 0
+~
+~
+Door 2 0 0 20653 0 0
+~
+~
+Door 3 0 0 20648 0 0
+~
+~
+End
+
+#20648
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20640 0 0
+~
+~
+Door 1 0 0 20647 0 0
+~
+~
+Door 2 0 0 20654 0 0
+~
+~
+Door 3 0 0 16863 0 0
+~
+~
+End
+
+#20649
+Name ~
+Descr
+~
+End
+
+#20650
+Name ~
+Descr
+~
+End
+
+#20651
+Name ~
+Descr
+~
+End
+
+#20652
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20643 0 0
+~
+~
+Door 1 0 0 20645 0 0
+~
+~
+Door 2 0 0 20659 0 0
+~
+~
+Door 3 0 0 20653 0 0
+~
+~
+End
+
+#20653
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20647 0 0
+~
+~
+Door 1 0 0 20652 0 0
+~
+~
+Door 2 0 0 20660 0 0
+~
+~
+Door 3 0 0 20654 0 0
+~
+~
+End
+
+#20654
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20648 0 0
+~
+~
+Door 1 0 0 20653 0 0
+~
+~
+Door 2 0 0 20661 0 0
+~
+~
+Door 3 0 0 16864 0 0
+~
+~
+End
+
+#20655
+Name ~
+Descr
+~
+End
+
+#20656
+Name ~
+Descr
+~
+End
+
+#20657
+Name ~
+Descr
+~
+End
+
+#20658
+Name ~
+Descr
+~
+End
+
+#20659
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20652 0 0
+~
+~
+Door 1 0 0 20646 0 0
+~
+~
+Door 2 0 0 16870 0 0
+~
+~
+Door 3 0 0 20660 0 0
+~
+~
+End
+
+#20660
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20653 0 0
+~
+~
+Door 1 0 0 20659 0 0
+~
+~
+Door 2 0 0 16869 0 0
+~
+~
+Door 3 0 0 20661 0 0
+~
+~
+End
+
+#20661
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20654 0 0
+~
+~
+Door 1 0 0 20660 0 0
+~
+~
+Door 2 0 0 16868 0 0
+~
+~
+Door 3 0 0 16865 0 0
+~
+~
+End
+
+#20662
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16903 0 0
+~
+~
+Door 1 0 0 20663 0 0
+~
+~
+Door 2 0 0 20666 0 0
+~
+~
+Door 3 0 0 16910 0 0
+~
+~
+End
+
+#20663
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16902 0 0
+~
+~
+Door 3 0 0 20662 0 0
+~
+~
+End
+
+#20664
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16906 0 0
+~
+~
+Door 1 0 0 16910 0 0
+~
+~
+Door 2 0 0 16912 0 0
+~
+~
+Door 3 0 0 20665 0 0
+~
+~
+End
+
+#20665
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16908 0 0
+~
+~
+Door 1 0 0 20664 0 0
+~
+~
+Door 2 0 0 16913 0 0
+~
+~
+End
+
+#20666
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20662 0 0
+~
+~
+Door 3 0 0 16911 0 0
+~
+~
+End
+
+#20667
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 2 0 0 20687 0 0
+~
+~
+Door 3 0 0 20668 0 0
+~
+~
+End
+
+#20668
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 20667 0 0
+~
+~
+Door 2 0 0 16929 0 0
+~
+~
+Door 3 0 0 20669 0 0
+~
+~
+End
+
+#20669
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 2 0 0 16928 0 0
+~
+~
+Door 3 0 0 20670 0 0
+~
+~
+End
+
+#20670
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 20669 0 0
+~
+~
+Door 2 0 0 16927 0 0
+~
+~
+Door 3 0 0 20671 0 0
+~
+~
+End
+
+#20671
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 20670 0 0
+~
+~
+Door 2 0 0 16926 0 0
+~
+~
+Door 3 0 0 16916 0 0
+~
+~
+End
+
+#20672
+Name ~
+Descr
+~
+End
+
+#20673
+Name ~
+Descr
+~
+End
+
+#20674
+Name ~
+Descr
+~
+End
+
+#20675
+Name ~
+Descr
+~
+End
+
+#20676
+Name ~
+Descr
+~
+End
+
+#20677
+Name ~
+Descr
+~
+End
+
+#20678
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 16915 0 0
+~
+~
+Door 2 0 0 20679 0 0
+~
+~
+Door 3 0 0 20681 0 0
+~
+~
+End
+
+#20679
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20678 0 0
+~
+~
+Door 1 0 0 16916 0 0
+~
+~
+Door 2 0 0 16918 0 0
+~
+~
+Door 3 0 0 20680 0 0
+~
+~
+End
+
+#20680
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20681 0 0
+~
+~
+Door 1 0 0 20679 0 0
+~
+~
+Door 2 0 0 16919 0 0
+~
+~
+End
+
+#20681
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 1 0 0 20678 0 0
+~
+~
+Door 2 0 0 20680 0 0
+~
+~
+End
+
+#20682
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 16928 0 0
+~
+~
+Door 1 0 0 16930 0 0
+~
+~
+Door 2 0 0 20683 0 0
+~
+~
+End
+
+#20683
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20682 0 0
+~
+~
+Door 1 0 0 16931 0 0
+~
+~
+Door 2 0 0 16933 0 0
+~
+~
+End
+
+#20684
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20686 0 0
+~
+~
+Door 2 0 0 20685 0 0
+~
+~
+Door 3 0 0 16931 0 0
+~
+~
+End
+
+#20685
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20684 0 0
+~
+~
+Door 3 0 0 16932 0 0
+~
+~
+End
+
+#20686
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20687 0 0
+~
+~
+Door 2 0 0 20684 0 0
+~
+~
+Door 3 0 0 16930 0 0
+~
+~
+End
+
+#20687
+Name The Sacred Forest~
+Descr
+You are in a sacred forest near eron, the forest has been around for
+ages. It seems to be growing from a natural underground spring. 
+~
+Sector 27
+Door 0 0 0 20667 0 0
+~
+~
+Door 2 0 0 20686 0 0
+~
+~
+Door 3 0 0 16929 0 0
+~
+~
+End
+
+#20688
+Name Alongside a Steep Trail~
+Descr
+This is one steep hill!  You should probably get back on the path. 
+~
+Sector 27
+Door 1 0 0 20689 0 0
+~
+~
+Door 2 0 0 16934 0 0
+~
+~
+End
+
+#20689
+Name Alongside a Steep Trail~
+Descr
+This is one steep hill!  You should probably get back on the path. 
+~
+Sector 27
+Door 1 0 0 20690 0 0
+~
+~
+Door 2 0 0 16935 0 0
+~
+~
+Door 3 0 0 20688 0 0
+~
+~
+End
+
+#20690
+Name Alongside a Steep Trail~
+Descr
+This is one steep hill!  You should probably get back on the path. 
+~
+Sector 27
+Door 1 0 0 20691 0 0
+~
+~
+Door 2 0 0 16936 0 0
+~
+~
+Door 3 0 0 20689 0 0
+~
+~
+End
+
+#20691
+Name Alongside a Steep Trail~
+Descr
+This is one steep hill!  You should probably get back on the path. 
+~
+Sector 27
+Door 1 0 0 16939 0 0
+~
+~
+Door 2 0 0 16937 0 0
+~
+~
+Door 3 0 0 20690 0 0
+~
+~
+End
+
+#20692
+Name Alongside a Steep Trail~
+Descr
+This is one steep hill!  You should probably get back on the path. 
+~
+Sector 27
+Door 0 0 0 16940 0 0
+~
+~
+Door 3 0 0 16938 0 0
+~
+~
+End
+
+#20693
+Name Alongside a Steep Trail~
+Descr
+This is one steep hill!  You should probably get back on the path. 
+~
+Sector 27
+Door 0 0 0 16938 0 0
+~
+~
+Door 3 0 0 20694 0 0
+~
+~
+End
+
+#20694
+Name Alongside a Steep Trail~
+Descr
+This is one steep hill!  You should probably get back on the path. 
+~
+Sector 27
+Door 0 0 0 16937 0 0
+~
+~
+Door 1 0 0 20693 0 0
+~
+~
+Door 3 0 0 20695 0 0
+~
+~
+End
+
+#20695
+Name Alongside a Steep Trail~
+Descr
+This is one steep hill!  You should probably get back on the path. 
+~
+Sector 27
+Door 0 0 0 16936 0 0
+~
+~
+Door 1 0 0 20694 0 0
+~
+~
+Door 3 0 0 20696 0 0
+~
+~
+End
+
+#20696
+Name Alongside a Steep Trail~
+Descr
+This is one steep hill!  You should probably get back on the path. 
+~
+Sector 27
+Door 0 0 0 16935 0 0
+~
+~
+Door 1 0 0 20695 0 0
+~
+~
+Door 3 0 0 20697 0 0
+~
+~
+End
+
+#20697
+Name Alongside a Steep Trail~
+Descr
+This is one steep hill!  You should probably get back on the path. 
+~
+Sector 27
+Door 0 0 0 16934 0 0
+~
+~
+Door 1 0 0 20696 0 0
+~
+~
+End
+
+#20698
+Name ~
+Descr
+~
+End
+
+#20699
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

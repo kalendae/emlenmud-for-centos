@@ -1,0 +1,779 @@
+#SPELL
+Slot 0
+Gsn 552
+Sname Block~
+SFname Block~
+SLev 48
+Pr1 Kick~
+Pr2 Steadiness~
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 15
+Minwis 15
+Guilds 2097152
+#SPELL
+Slot 2
+Gsn 360
+Sname Steal~
+SFname Steal~
+SLev 70
+Noun ~
+Durat 0~
+Pos 12
+CastT 50
+WearO ~
+Guilds 3182560
+SplLag 5
+FailChan 20
+PKChan 20
+#SPELL
+Slot 0
+Gsn 576
+Sname Shoot~
+SFname Shoot~
+SLev 45
+Pr2 Dual Wield~
+Noun shot~
+Durat 0~
+CastT 10
+WearO ~
+Minint 27
+Minwis 28
+Guilds 2097696
+#SPELL
+Slot 0
+Gsn 553
+Sname Guard~
+SFname Guard~
+SLev 21
+Pr1 Rescue~
+Pr2 Block~
+Noun guard~
+Durat 0~
+Pos 9
+CastT 0
+WearO ~
+Minint 17
+Minwis 17
+Guilds 160
+#SPELL
+Slot 2
+Gsn 361
+Sname Forge~
+SFname Forge~
+SLev 50
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 23
+Minwis 23
+Guilds 2048
+#SPELL
+Slot 0
+Gsn 577
+Sname Throw~
+SFname Throw~
+SLev 40
+Pr1 Circle~
+Noun throw~
+Durat 0~
+CastT 10
+WearO ~
+Minint 26
+Minwis 27
+Guilds 2098272
+#SPELL
+Slot 1
+Gsn 121
+SType 0
+Sname Ranged Spells~
+SFname Ranged Spells~
+SLev 50
+Noun ~
+Durat 0~
+Mana 1000
+CastT 10
+WearO ~
+Minint 31
+Minwis 31
+Guilds 1081728
+#SPELL
+Slot 0
+Gsn 554
+Sname Backstab~
+SFname Backstab~
+SLev 24
+Pr1 Sneaking~
+Pr2 Armor Penetration~
+Noun backstab~
+Durat 0~
+Mana 20
+Pos 9
+CastT 30
+WearO ~
+Minint 18
+Minwis 25
+Guilds 64
+#SPELL
+Slot 2
+Gsn 362
+Sname Tracking~
+SFname Tracking~
+SLev 18
+Pr1 Search~
+Noun Xœ|pœ|pe	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 555
+Sname Dodge~
+SFname Dodge~
+SLev 13
+Pr1 Parry~
+Noun ~
+Durat 0~
+CastT 0
+WearO ~
+Minint 15
+Minwis 20
+#SPELL
+Slot 2
+Gsn 363
+Sname Brew~
+SFname Brew~
+SLev 110
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 30
+Minwis 20
+Guilds 3182560
+#SPELL
+Slot 0
+Gsn 579
+Sname Warcry~
+SFname Warcry~
+SLev 35
+Pr1 Enhanced Damage~
+Pr2 Accuracy~
+Noun Warcry~
+Durat 0~
+CastT 10
+WearO You calm down.~
+Minint 10
+Guilds 32
+#SPELL
+Slot 0
+Gsn 580
+Sname Flail~
+SFname Flail~
+SLev 75
+Pr1 Dual Wield~
+Noun Berserk~
+Durat 0~
+CastT 0
+WearO You settle down.~
+Minint 30
+Minwis 24
+Guilds 2099744
+#SPELL
+Slot 2
+Gsn 364
+Sname Mine~
+SFname Mine~
+SLev 30
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 19
+Minwis 14
+#SPELL
+Slot 2
+Gsn 365
+Sname Skin~
+SFname Skin~
+SLev 110
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 19
+Minwis 14
+Guilds 2560
+#SPELL
+Slot 0
+Gsn 583
+Sname Polearm Weapons~
+SFname Polearm Weapons~
+SLev 27
+Pr1 Whipping Weapons~
+Pr2 Concussion Weapons~
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 20
+Guilds 2097184
+#SPELL
+Slot 0
+Gsn 584
+Sname Critical Hit~
+SFname Critical Hit~
+SLev 55
+Pr1 Accuracy~
+Pr2 Circle~
+Noun critical~
+Durat 2~
+Mana 20
+Pos 9
+CastT 30
+WearO ~
+Minint 20
+Minwis 30
+Guilds 1088
+#SPELL
+Slot 0
+Gsn 561
+Sname Bash~
+SFname Bash~
+SLev 9
+Noun bash~
+Durat 0~
+Dam 0~
+CastT 3
+WearO ~
+Minint 20
+#SPELL
+Slot 0
+Gsn 585
+Sname Alertness~
+SFname Alertness~
+SLev 41
+Pr2 Circle~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+Minint 15
+Minwis 15
+#SPELL
+Slot 2
+Gsn 371
+Sname Enchant~
+SFname Enchant~
+SLev 70
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 29
+Minwis 27
+Guilds 1083648
+#SPELL
+Slot 0
+Gsn 563
+Sname Disarm~
+SFname Disarm~
+SLev 14
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 18
+Guilds 2097152
+#SPELL
+Slot 0
+Gsn 564
+Sname Enhanced Damage~
+SFname Enhanced Damage~
+SLev 29
+Pr1 Second Attack~
+Pr2 Concussion Weapons~
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 20
+#SPELL
+Slot 0
+Gsn 564
+Sname Enhanced Damage~
+SFname Enhanced Damage~
+SLev 21
+Pr1 Second Attack~
+Pr2 Concussion Weapons~
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+Minint 20
+#SPELL
+Slot 0
+Gsn 588
+Sname Impale~
+SFname Impale~
+SLev 32
+Pr1 Polearm Weapons~
+Pr2 Steadiness~
+Noun impale~
+Durat 0~
+CastT 20
+WearO ~
+Minint 27
+Minwis 22
+Guilds 2097184
+#SPELL
+Slot 0
+Gsn 589
+Sname Flash~
+SFname Flash~
+SLev 75
+Pr1 Critical Hit~
+Noun flash~
+Durat 0~
+Mana 10
+CastT 30
+WearO ~
+Minint 18
+Minwis 29
+#SPELL
+Slot 2
+Gsn 397
+Sname Sixth Sense~
+SFname Sixth Sense~
+SLev 110
+Pr1 Sneak~
+Pr2 Search~
+Noun iron~
+Durat 0~
+CastT 0
+WearO ~
+Minint 15
+Minwis 15
+#SPELL
+Slot 0
+Gsn 565
+Sname Kick~
+SFname Kick~
+SLev 18
+Noun kick~
+Durat 0~
+CastT 0
+WearO ~
+Minint 20
+#SPELL
+Slot 0
+Gsn 590
+Sname Tackle~
+SFname Tackle~
+SLev 10
+Noun tackle~
+Durat 0~
+CastT 0
+WearO ~
+Minint 16
+#SPELL
+Slot 0
+Gsn 566
+Sname Parry~
+SFname Parry~
+SLev 7
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 591
+Sname Flurry~
+SFname Flurry~
+SLev 17
+Pr1 Second Attack~
+Pr2 Slashing~
+Noun flurry~
+Durat 0~
+CastT 0
+WearO ~
+Minint 20
+#SPELL
+Slot 0
+Gsn 567
+Sname Shield Block~
+SFname Shield Block~
+SLev 27
+Pr1 Parry~
+Pr2 Dodge~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+Minint 20
+Guilds 2097152
+#SPELL
+Slot 2
+Gsn 352
+Sname Swim~
+SFname Swim~
+SLev 5
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 2
+Gsn 352
+Sname Swim~
+SFname Swim~
+SLev 5
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 592
+Sname Steadiness~
+SFname Steadiness~
+SLev 30
+Pr1 Sneaking~
+Pr2 Dodge~
+Noun balance~
+Durat 0~
+CastT 0
+WearO ~
+Minint 19
+Minwis 21
+#SPELL
+Slot 2
+Gsn 376
+Sname Searching~
+SFname Searching~
+SLev 9
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 568
+Sname Rescue~
+SFname Rescue~
+SLev 16
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 1
+Gsn 16
+SType 8
+SBits 262144
+Sname Identify~
+SFname Identify~
+SLev 19
+Noun –iËi‡)	n~
+A2C1 You gain some knowledge about your item.~
+Durat 0~
+Mana 80
+ManaT 2
+Pos 12
+CastT 20
+WearO ~
+Minint 15
+#SPELL
+Slot 0
+Gsn 593
+Sname Double Kick~
+SFname Double Kick~
+SLev 63
+Pr1 Block~
+Noun kick~
+Durat 0~
+CastT 0
+WearO ~
+Minint 23
+Guilds 2097184
+#SPELL
+Slot 2
+Gsn 353
+Sname Butcher~
+SFname Butcher~
+SLev 15
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 569
+Sname Second Attack~
+SFname Second Attack~
+SLev 15
+Pr1 Parry~
+Pr2 Slashing~
+Noun ~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 1
+Gsn 138
+SType 4
+BitT 262144
+Sname chameleon~
+SFname Chameleon~
+SLev 91
+Pr1 Sneak~
+Pr2 Hide~
+Noun –iËi‡)	n~
+A2C1 Your skin starts changing colors as you blend into the environment...~
+A2NV1 $n's skin changes colors in strange fashion and you cannot distinguish him from the surroundings.~
+Durat 2~
+Mana 50
+ManaT 1
+Pos 7
+CastT 30
+WearO You become visible again.~
+Minint 20
+Guilds 46656
+SplLag 8
+#SPELL
+Slot 1
+Gsn 18
+SType 4
+SBits 4194304
+Sname Word of Recall~
+SFname Word of Recall~
+SLev 14
+Noun –iËi‡)	n~
+A2C1 You call to the gods for safe passage and suddenly feel transported.~
+A2NV1 $n pleads with the gods for sanctuary.~
+Durat 0~
+Mana 70
+ManaT 16
+Pos 12
+CastT 90
+WearO ~
+Minint 10
+Minwis 10
+SplLag 1
+PKChan 80
+#SPELL
+Slot 0
+Gsn 570
+Sname Third Attack~
+SFname Third Attack~
+SLev 30
+Pr1 Flurry~
+Pr2 Enhanced Damage~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+Minint 20
+Guilds 32
+#SPELL
+Slot 0
+Gsn 594
+Sname Smash~
+SFname Smash~
+SLev 45
+Pr1 Bash~
+Pr2 Steadiness~
+Noun bash~
+Durat 0~
+CastT 0
+WearO ~
+Minint 20
+Guilds 2097184
+#SPELL
+Slot 0
+Gsn 571
+Sname Dual Wield~
+SFname Dual Wield~
+SLev 50
+Pr1 Third Attack~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+Minint 26
+Minwis 21
+#SPELL
+Slot 1
+Gsn 115
+SType 0
+Sname Blink~
+SFname Blink~
+SLev 40
+Noun –iËi‡)	n~
+Durat 0~
+Mana 1000
+ManaT 1
+CastT 10
+WearO ~
+Minint 24
+Minwis 24
+Guilds 256
+#SPELL
+Slot 0
+Gsn 595
+Sname Accuracy~
+SFname Accuracy~
+SLev 35
+Pr1 Armor Penetration~
+Pr2 Second Attack~
+Noun hit~
+Durat 0~
+CastT 3
+WearO ~
+Minint 20
+#SPELL
+Slot 0
+Gsn 596
+Sname Resilience~
+SFname Resilience~
+SLev 75
+Pr1 Warcry~
+Pr2 Steadiness~
+Noun iron~
+Durat 0~
+CastT 0
+WearO ~
+Minint 20
+Guilds 2099760
+#SPELL
+Slot 0
+Gsn 572
+Sname Piercing Weapons~
+SFname Piercing Weapons~
+SLev 1
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 2
+Gsn 356
+Sname Hide~
+SFname Hide~
+SLev 13
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 573
+Sname Slashing Weapons~
+SFname Slashing Weapons~
+SLev 1
+Noun –iËi‡)	n~
+Durat 0~
+CastT 0
+WearO ~
+Minint 15
+#SPELL
+Slot 2
+Gsn 357
+Sname Peek~
+SFname Peek~
+SLev 5
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 550
+Sname Circle~
+SFname Circle~
+SLev 38
+Pr1 Backstab~
+Pr2 Enhanced Damage~
+Noun circle~
+Durat 0~
+Mana 20
+CastT 30
+WearO ~
+Minint 20
+Minwis 27
+Guilds 1088
+#SPELL
+Slot 0
+Gsn 574
+Sname Concussion Weapons~
+SFname Concussion Weapons~
+SLev 1
+Noun –iËi‡)	n~
+Durat 0~
+CastT 0
+WearO ~
+#SPELL
+Slot 2
+Gsn 358
+Sname Locksmithy~
+SFname Locksmithy~
+SLev 14
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+Guilds 8192
+#SPELL
+Slot 0
+Gsn 599
+Sname Grapple~
+SFname Grapple~
+SLev 10
+Pr1 Tackle~
+Pr2 Bash~
+Noun Grapple~
+Durat 0~
+CastT 10
+WearO ~
+Minint 23
+Minwis 22
+Guilds 32
+#SPELL
+Slot 0
+Gsn 551
+Sname Armor Penetration~
+SFname Armor Penetration~
+SLev 22
+Pr1 Slashing~
+Pr2 Piercing~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 0
+Gsn 575
+Sname Whipping Weapons~
+SFname Whipping Weapons~
+SLev 25
+Pr1 Concussion ~
+Pr2 Disarm~
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO ~
+#SPELL
+Slot 2
+Gsn 359
+Sname Sneaking~
+SFname Sneaking~
+SLev 8
+Noun –iËi‡)	n~
+Durat 0~
+CastT 10
+WearO You stop sneaking...~
+#END

@@ -1,0 +1,361 @@
+LABEL Aurelius5~
+CODE :1 Say So @P you come to my city in search of knowledge?:2 wait 1 quick:3 say If you seek the knowledge of the guildmasters, you will need the proper item to gain admittance.
+~
+LABEL azerel~
+CODE :1 say AHA!:2 smirk:3 say Do you want to try me?:4 wait 2 quick:5 say I have already elimated this stupid race of sea elves.:6 grin:7 say If you are gonna try me, you better pack a lunch. :8 done
+~
+LABEL arack~
+CODE :1 whistle:2 say Aye lad, would ye want your weapons repaired?:3 wait 2 quick:4 say Ya needs your weapon nice and sharp here, if ye wishes to beat this here training ground.:5 done
+~
+LABEL asshm~
+CODE :1 trans @p 5107
+~
+LABEL assgld~
+CODE :1 pset @p SCRIPTFLAG ASS ON:2 say Thank you.  You now can come here and ask for passage anytime.:3 DESTROY_OBJ:4 done:5 
+~
+LABEL asschk~
+CODE :1 IF DG3=1 then:2 trans @p 16073
+~
+LABEL asstik~
+CODE :1 IF (ASS) then:2 goto 4:3 call notikflag:4 IF DG0=1 then:5 call badguild:6 IF DG1=1 then:7 call badguild:8 IF DG6=1 then:9 call badguild:10 IF DG7=1 then:11 call badguild:12 IF DG5=1 then:13 call badguild:14 IF DG9=1 then:15 call badguild:16 IF DG3=1 then:17 goto 21:18 say You seem like a suitable candidate, I will send you on your journey.:19 trans @p 16073 :20 done:21 say Welcome back to the fold @P.:22 transfer @P 16073:23 done
+~
+LABEL bloodydwa~
+CODE :1 yell ARRRGH RUN FOR YOUR LIVES THEY HAVE FOUND THE SECRET TUNNEL ARRRGHRHG RUNN!!!:2 done
+~
+LABEL badguild~
+CODE :1 say It would seem you belong to a guild that we would prefer not to associate with.  Be gone scum!:2 done
+~
+LABEL bmwander~
+CODE :1 if @R(1,6)=1 then:2 goto 16:3 if @R(1,6)=1 then:4 goto 18:5 if @R(1,6)=1 then:6 goto 20:7 if @R(1,6)=1 then:8 goto 22:9 if @R(1,6)=1 then:10 goto 24:11 if @R(1,6)=1 then:12 goto 26:13 if @R(1,10)=1 then:14 transfer battleticket @R(2000,20000):15 done:16 north:17 done:18 east:19 done:20 south:21 done:22 west:23 done:24 up:25 done:26 down:27 done
+~
+LABEL battgld~
+CODE :1 pset @p SCRIPTFLAG BAT ON:2 say Thank you.  You now can come here and ask for passage anytime.:3 DESTROY_OBJ:4 done
+~
+LABEL batthm~
+CODE :1 trans @p 5107
+~
+LABEL battchk~
+CODE :1 IF DG1=1 then:2 trans @p 16057
+~
+LABEL battik~
+CODE :1 IF (BAT) then:2 goto 4:3 call notikflag:4 IF DG3=1 then:5 call badguild:6 IF DG2=1 then:7 call badguild:8 IF DG4=1 then:9 call badguild:10 IF DG5=1 then:11 call badguild:12 IF DG7=1 then:13 call badguild:14 IF DG1=1 then:15 goto 19:16 say You seem like a suitable candidate, I will send you on your journey.:17 trans @p 16057 :18 done:19 say Welcome back to the fold @P.:20 transfer @P 16057:21 done
+~
+LABEL charac2~
+CODE :1 if @R(0,2)=1 then:2 goto 8:3 if @R(0,2)=1 then:4 goto 10:5 if @R(0,2)=1 then:6 goto 12:7 done:8 loom @P:9 done:10 yell I AM KING OF THE WORLD!!!!!!!!!:11 done:12 cackle:13 done
+~
+LABEL conjtik~
+CODE :1 IF (CON) then:2 goto 4:3 call notikflag:4 IF DG3=1 then:5 call badguild:6 IF DG2=1 then:7 call badguild:8 IF DG0=1 then:9 call badguild:10 IF DG1=1 then:11 call badguild:12 IF DG6=1 then:13 call badguild:14 IF DG7=1 then:15 call badguild:16 IF DG5=1 then:17 goto 21:18 say You seem like a suitable candidate, I will send you on your journey.:19 trans @p 16049 :20 done:21 say Welcome back to the fold @P.:22 transfer @P 16049:23 done 
+~
+LABEL conjchk~
+CODE :1 IF DG5=1 then:2 trans @p 16049
+~
+LABEL conjhom~
+CODE :1 trans @p 5107
+~
+LABEL conjgld~
+CODE :1 pset @p SCRIPTFLAG CON ON:2 say Thank you.  You now can come here and ask for passage anytime.:3 DESTROY_OBJ:4 done
+~
+LABEL chpeace~
+CODE :1 IF (PEW) then:2 goto 8:3 tell @P If you choose the side of peace you can not attack members of your own alignment.:4 wait 2 quick:5 tell @P You have been warned, if you are certain of your decision then choose this side again.:6 pset @P scriptflag PEW ON:7 done:8 pset @P align 2:9 transfer @P 102:10 tell @P You have chosen, I hope you do not regret this decision later.:11 done
+~
+LABEL chwar~
+CODE :1 if (WRW) then:2 goto 10:3 tell @P Be warned, the warlike ways of that alignment require a high price of those who would join them.:4 wait 2 quick:5 tell @P Make sure you are certain, for they require a gauntlet be run before one can even participate in their activities.:6 wait 2 quick:7 tell @P I have warned you, now you make your choice fully informed.:8 pset @P scriptflag WRW ON:9 done:10 pset @P align 1:11 transfer @P 101:12 tell @P Good luck to you, may you not regret your decision.:13 done
+~
+LABEL dncastle~
+CODE :1 wait 20 hour:2 create_obj 18901:3 drop ladder:4 goto 1:5 done
+~
+LABEL elventrc~
+CODE :1 Recho The elevator operator pulls the door closed and starts the elevator.:2 wait 2 quick:3 Recho You can feel the elevator jerk and bounce off the walls as it moves to another floor.:4 wait 2 quick:5 Recho The elevator lurches to a stop as you reach your level.:6 wait 2 quick:7 unlock south:8 open south:9 Say Now hurry out before I close the door.:10 wait 3 quick:11 close south:12 lock south
+~
+LABEL elvlevel3~
+CODE :1 Recho The elevator operator pulls the door closed and starts the elevator.:2 wait 2 quick:3 Recho You can feel the elevator jerk and bounce off the walls as it moves to another floor.:4 wait 2 quick:5 Recho The elevator lurches to a stop as you reach your level.:6 wait 2 quick:7 unlock west:8 open west:9 Say Now hurry out before I close the door.:10 wait 3 quick:11 close west:12 lock west
+~
+LABEL elvlevel2~
+CODE :1 Recho The elevator operator pulls the door closed and starts the elevator.:2 wait 2 quick:3 Recho You can feel the elevator jerk and bounce off the walls as it moves to another floor.:4 wait 2 quick:5 Recho The elevator lurches to a stop as you reach your level.:6 wait 2 quick:7 unlock north:8 open north:9 Say Now hurry out before I close the door.:10 wait 3 quick:11 close north:12 lock north
+~
+LABEL elvlevel1~
+CODE :1 Recho The elevator operator pulls the door closed and starts the elevator.:2 wait 2 quick:3 Recho You can feel the elevator jerk and bounce off the walls as it moves to another floor.:4 wait 2 quick:5 Recho The elevator lurches to a stop as you reach your level.:6 wait 2 quick:7 unlock east :8 open east:9 Say Now hurry out before I close the door.:10 wait 3 quick:11 close east:12 lock east
+~
+LABEL elvsay~
+CODE :1 wait 1 quick:2 Say Hello, I am the operator of the elevator.:3 wait 1 superquick:4 Say You may travel to the First, Second or Third levels of the mine, or return to the Entrance.
+~
+LABEL goson~
+CODE :1 say You have found me! You will never unveil the secret's of the dimensions! BEGONE!:2 Echo $4The dimension shifter's secret lair has been discovered! Beware of the danger ahead as the quest nears its end.$N:3 done:4 
+~
+LABEL gothar~
+CODE :1 stare:2 wait 2 quick:3 say Why did my empire fall from that stupid earthquake?:4 wait 2 quick:5 say I am still twenty times stronger then you. :6 smirk:7 done
+~
+LABEL gunthar~
+CODE :1 yawn:2 wait 2 quick:3 say What's up, you weenie?:4 done
+~
+LABEL gamoth~
+CODE :1 hmm:2 wait 2 quick:3 say Where is Atheana from right here?:4 ey:5 done
+~
+LABEL gldchktst~
+CODE :1 IF DG0=1 then:2 call badguild:3 IF DG1=1 then:4 call badguild:5 IF DG3=1 then:6 call badguild:7 say It would seem you are a suitable candidate, you may proceed.done
+~
+LABEL heatier3~
+CODE :1 If (KVK) then:2 goto 12:3 IF (T3) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89921:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done
+~
+LABEL heatier2~
+CODE :1 If (KVK) then:2 goto 12:3 IF (T2) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89911:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL heatier1~
+CODE :1 If (KVK) then:2 goto 12:3 IF (T1) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89901:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL healchk~
+CODE :1 IF DG6=1 then:2 transfer @p 16009
+~
+LABEL healhm~
+CODE :1 transfer @p 5107
+~
+LABEL healgld~
+CODE :1 pset @p SCRIPTFLAG HEA ON:2 say Thank you.  You now can come here and ask for passage anytime.:3 DESTROY_OBJ:4 done
+~
+LABEL healtik~
+CODE :1 transfer @P 16009
+~
+LABEL hlrgld~
+CODE :1 transfer @P 16009
+~
+LABEL hlwander~
+CODE :1 if @R(1,6)=1 then:2 north:3 if @R(1,6)=1 then:4 east:5 if @R(1,6)=1 then:6 south:7 if @R(1,6)=1 then:8 west:9 if @R(1,6)=1 then:10 up:11 if @R(1,6)=1 then:12 down:13 if @R(1,100)=1 then:14 transfer ticket@R(1,10) @R(2000,40000):15 done
+~
+LABEL heatik~
+CODE :1 IF (HEA) then:2 goto 4:3 call notikflag:4 IF DG3=1 then:5 call badguild:6 IF DG2=1 then:7 call badguild:8 IF DG5=1 then:9 call badguild:10 IF DG6=1 then:11 goto 15:12 say You seem like a suitable candidate, I will send you on your journey.:13 trans @p 16009 :14 done:15 say Welcome back to the fold @P.:16 transfer @P 16009:17 done:18 IF DG6=1 then
+~
+LABEL hlwander2~
+CODE :1 transfer ticket1 @R(2000,40000):2 transfer ticket2 @R(2000, 40000):3 transfer ticket3 @R(2000, 40000):4 transfer ticket4 @R(2000, 40000):5 transfer ticket5 @R(2000, 40000):6 transfer ticket6 @R(2000, 40000):7 transfer ticket7 @R(2000, 40000):8 transfer ticket8 @R(2000, 40000):9 transfer ticket9 @R(2000, 40000):10 transfer ticket10 @R(2000, 40000):11 done
+~
+LABEL hlwander7~
+CODE ~
+LABEL jamiras~
+CODE :1 smile:2 say Aye lad, would ye want your armor's repaired?:3 wait 2 quick:4 say Ya needs your armor tough and sturdy here, if ye wishes to beat this here training ground.:5 done
+~
+LABEL kiljasay~
+CODE :1 Say Very well.:2 wait 1 quick:3 unlock north:4 open north:5 say Now hurry along before I lock the door again.:6 wait 5 quick:7 close north:8 lock north
+~
+LABEL kiljorah~
+CODE :1 say Welcome Fighter to my training grounds.:2 wait 1 quick:3 say Only the strong survive, however the weak shall perish.:4 wait 1 quick:5 say Do you have the courage to take my test?:6 done
+~
+LABEL key1~
+CODE :1 Say This is the first key, you have four to go. And not much time.:2 pset @p SCRIPTFLAG K1 ON:3 eat key:4 done 
+~
+LABEL key2~
+CODE :1 If (K1) then:2 GOTO 6:3 Say Wrong key, or wrong order. If you expect my help I demand you do this right!:4 Drop key:5 Done:6 Say That is the second key, give me the rest. And hurry!:7 eat key:8 pset @p SCRIPTFLAG K2 ON:9 done:10 
+~
+LABEL key3~
+CODE :1 If (K2) then:2 GOTO 6:3 Say Wrong key, or wrong order. If you expect my help I demand you do this right!:4 Drop key:5 Done:6 Say That is the third key, give me the rest. And hurry!:7 eat key:8 pset @p SCRIPTFLAG K3 ON:9 done:10 
+~
+LABEL key4~
+CODE :1 If (K3) then:2 GOTO 6:3 Say Wrong key, or wrong order. If you expect my help I demand you do this right!:4 Drop key:5 Done:6 Say That is the fourth key, give me the rest. And hurry!:7 eat key:8 pset @p SCRIPTFLAG K4 ON:9 done:10 
+~
+LABEL key5~
+CODE :1 If (K4) then:2 GOTO 6:3 Say Wrong key, or wrong order. If you expect my help I demand you do this right!:4 Drop key:5 Done:6 Say About time!:7 eat key:8 pset @p scriptflag K1 OFF:9 pset @p scriptflag K2 OFF:10 pset @p scriptflag K3 OFF:11 pset @p scriptflag K4 OFF:12 CREATE_OBJ 35020:13 Drop portal:14 Done
+~
+LABEL loramax~
+CODE :1 Say Wow, you found me!:2 wait 2 quick:3 smile:4 done
+~
+LABEL mystik~
+CODE :1 IF (MYS) then:2 goto 4:3 call notikflag:4 IF DG3=1 then:5 call badguild:6 IF DG2=1 then:7 call badguild:8 IF DG0=1 then:9 call badguild:10 IF DG1=1 then:11 call badguild:12 IF DG4=1 then:13 call badguild:14 IF DG5=1 then:15 call badguild:16 IF DG7=1 then:17 goto 22:18 say You seem like a suitable candidate, I will send you on your journey.:19 send you on your journey.:20 trans @p 16041 :21 done:22 say Welcome back to the fold @P.:23 trans @p 16041:24 done
+~
+LABEL maze7~
+CODE :1 if (MZD) then:2 done:3 pset @P scriptflag MZD ON:4 pset @P scriptflag MZ6 OFF:5 pset @P scriptflag MZ5 OFF:6 pset @P scriptflag MZ4 OFF:7 pset @P scriptflag MZ3 OFF:8 pset @P scriptflag MZ2 OFF:9 pset @P scriptflag MZ1 OFF:10 done
+~
+LABEL maze6~
+CODE :1 if (MZ6) then:2 done:3 if (MZD) then:4 done:5 pset @P scriptflag MZ6 ON:6 recho The ground groans as it closes beneath your feet.:7 done
+~
+LABEL mazemaste~
+CODE :1 if DA1=1 then:2 goto 33:3 if @Cl<21 then:4 goto 41:5 if (MZD) then:6 goto 37:7 if (MZ6) then:8 goto 31:9 if (MZ5) then:10 goto 29:11 if (MZ4) then:12 goto 27:13 if (MZ3) then:14 goto 25:15 if (MZ2) then:16 goto 23:17 if (MZ1) then:18 goto 21:19 transfer @P @R(91000,91019):20 done:21 transfer @P @R(91020,91039):22 done:23 transfer @P @R(91040,91059):24 done:25 transfer @P @R(91060,91079):26 done:27 transfer @P @R(91080,91099):28 done:29 transfer @P 91100:30 done:31 transfer @P 91120:32 done:33 if DA2=1 then:34 goto 39:35 transfer @P 16748:36 done:37 transfer @P 2955:38 done:39 transfer @P 16658:40 done:41 if (MZD) then:42 goto 5:43 if (MZ6) then:44 goto 5:45 restore @P:46 tell @P Allow me to outfit you.:47 CREATE_OBJ 260:48 CREATE_OBJ 30:49 CREATE_OBJ 36:50 CREATE_OBJ 207:51 CREATE_OBJ 205:52 give shortsword @P:53 give torch @P:54 give tinderbox @P:55 give shoes @P:56 give shirt @P:57 force @P wear shortsword:58 force @P wear torch:59 force @P wear all:60 goto 5
+ 
+ 
+done
+~
+LABEL maze1~
+CODE :1 if (MZ1) then:2 done:3 pset @P scriptflag MZ1 ON:4 recho The ground groans as it closes beneath your feet.:5 done
+~
+LABEL mobyell~
+CODE :1 if DA1=1 then:2 yell Enemies at the gates! Send Help!
+~
+LABEL maze2~
+CODE :1 if (MZ2) then:2 done:3 pset @P scriptflag MZ2 ON:4 recho The ground groans as it closes beneath your feet.:5 done
+~
+LABEL maze3~
+CODE :1 if (MZ3):2 done:3 pset @P scriptflag MZ3 ON:4 recho The ground groans as it closes beneath your feet.:5 done:6 
+~
+LABEL maze4~
+CODE :1 if (MZ4) then:2 done:3 pset @P scriptflag MZ4 ON:4 recho The ground groans as it closes beneath your feet.:5 done:6 
+~
+LABEL maze5~
+CODE :1 if (MZ5) then:2 done:3 pset @P scriptflag MZ5 ON:4 recho The ground groans as it closes beneath your feet.:5 done:6 
+~
+LABEL mobyell2~
+CODE :1 if DA2=1 then:2 yell Enemies at the gates! Send Help!
+~
+LABEL mysgld~
+CODE :1 pset @p SCRIPTFLAG MYS ON:2 say Thank you.  You now can come here and ask for passage anytime.:3 DESTROY_OBJ:4 done
+~
+LABEL myshm~
+CODE :1 trans @p 5107
+~
+LABEL myschk~
+CODE :1 IF DG7=1 then:2 trans @p 16041
+~
+LABEL mazeskip~
+CODE :1 If (MZD) then:2 goto 4:3 pset @P scriptflag MZD ON:4 If DA2=1 then:5 goto 9:6 If DA1=1 then:7 transfer @P 16748:8 done:9 transfer @P 2955:10 done:11 
+~
+LABEL newbie~
+CODE ~
+LABEL notikflag~
+CODE :1 say It would seem you owe me an item before I can give you passage.:2 done
+~
+LABEL rantier3~
+CODE :1 IF (KVK) then:2 goto 12:3 IF (T3) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89926:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL rantier2~
+CODE :1 IF (KVK) then:2 goto 12:3 IF (T2) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89916:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL rantier1~
+CODE :1 IF (KVK) then:2 goto 12:3 IF (T1) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89906:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL raggedman~
+CODE :1 shiver:2 wait 1 quick:3 daydream:4 wait 1 quick:5 grimace:6 wait 1 quick:7 shiver:8 wait 1 quick:9 say I've been on this island for half of my life, seems like i am doomed to die here slowly in agony.:10 sigh:11 wait 1 quick:12 done
+~
+LABEL rantik~
+CODE :1 IF (RAN) then:2 goto 4:3 call notikflag :4 IF DG8=1 then:5 goto 9:6 say You seem like a suitable candidate, I will send you on your journey.:7 trans @p 16017 :8 done:9 say Welcome back to the fold @P.:10 transfer @P 16017:11 done
+ 
+~
+LABEL rngchk~
+CODE :1 IF DG8=1 then:2 trans @p 16017:3 
+~
+LABEL rnghom~
+CODE :1 trans @P 5107:2 
+~
+LABEL rangld~
+CODE :1 pset @p SCRIPTFLAG RAN ON:2 say Thank you.  You now can come here and ask for passage anytime.:3 DESTROY_OBJ:4 done
+~
+LABEL rnggld~
+CODE :1 done
+~
+LABEL ranggld~
+CODE :1 transfer @P 16017:2 
+done
+~
+LABEL riverboat~
+CODE :1 emote stares at you with eyes of flame.:2 recho The boat lurches as it moves through the water.:3 emote skillfully pilots the boat.:4 done
+~
+LABEL saygld~
+CODE :1 say Welcome, @P, to my guild hall.  Let me know when you want to go home.
+~
+LABEL saycastle~
+CODE :1 Say It looks like you will need a ladder to continue on.:2 done
+~
+LABEL sayladder~
+CODE :1 Say I only provide ladders at certain times of the day.  Please check back later.
+~
+LABEL tier1set~
+CODE :1 IF DW100=1 then:2 goto 6:3 pset @p scriptflag T1 ON:4 Say Nicely done, welcome to Tier One.:5 done:6 Say It would seem you need a few more Warpoints Grasshopper.:7 done:8   
+~
+LABEL tymeus~
+CODE :1 ss:2 say I am the last of my kind left. Do not enter this portal or you shall meet your doom, like my race did.:3 wait 2 quick:4 sigh:5 shake:6 done
+~
+LABEL tintik~
+CODE :1 IF (TIN) then:2 goto 4:3 call notikflag:4 IF DG3=1 then :5 call badguild:6 IF DG9=1 then:7 goto 11:8 say You seem like a suitable candidate, I will send you on your journey.:9 trans @p 16024 :10 done:11 say Welcome back to the fold @P.:12 transfer @P 16024:13 done
+~
+LABEL tnkgld~
+CODE :1 pset @p SCRIPTFLAG TIN ON:2 say Thank you.  You now can come here and ask for passage anytime.:3 DESTROY_OBJ:4 done
+~
+LABEL tinkgld~
+CODE :1 done
+~
+LABEL tinkhm~
+CODE :1 trans @p 5107
+~
+LABEL tinkchk~
+CODE :1 IF DG9=1 then:2 trans @p 16024
+~
+LABEL thihm~
+CODE :1 trans @p 5107
+~
+LABEL thigld~
+CODE :1 pset @p SCRIPTFLAG THI ON:2 say Thank you.  You now can come here and ask for passage anytime.:3 DESTROY_OBJ:4 done
+~
+LABEL thichk~
+CODE :1 if DG2=1 then:2 trans @p 16065
+~
+LABEL thitik~
+CODE :1 IF (THI) then:2 goto 4:3 call notikflag:4 IF DG0=1 then:5 call badguild:6 IF DG1=1 then:7 call badguild:8 IF DG6=1 then:9 call badguild:10 IF DG7=1 then:11 call badguild:12 IF DG5=1 then:13 call badguild:14 IF DG2=1 then:15 goto 19:16 say You seem like a suitable candidate, I will send you on your journey.:17 trans @p 16065 :18 done:19 say Welcome back to the fold @P.:20 transfer @P 16065:21 done
+~
+LABEL tier2set~
+CODE :1 IF DW350=1 then:2 goto 6:3 pset @p scriptflag T2 ON:4 Say Nicely done, welcome to Tier Two.:5 done:6 Say It would seem you need a few more Warpoints Grasshopper.:7 done:8 
+~
+LABEL tier3set~
+CODE :1 IF DW750=1 then:2 goto 6:3 pset @p scriptflag T3 ON:4 Say Nicely done, welcome to Tier Three.:5 done:6 Say It would seem you need a few more Warpoints Grasshopper.:7 done
+~
+LABEL thiarm1~
+CODE :1 If (KVK) then:2 goto 12:3 IF (T1) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89903:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL thiarm2~
+CODE :1 If (KVK) then:2 goto 12:3 IF (T2) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89913:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL thiarm3~
+CODE :1 If (KVK) then:2 goto 12:3 IF (T3) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89923:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL upcastle~
+CODE :1 wait 20 hour:2 create_obj 18921:3 drop ladder:4 goto 1:5 done
+~
+LABEL wartier3~
+CODE :1 IF (T3) then:2 goto 5:3 Say It would seem you have not attained tier one yet.:4 done:5 CREATE_OBJ 89920:6 drop symbol:7 force @P take all:8 say Use it well.:9 done:10 
+~
+LABEL wartier2~
+CODE :1 IF (T2) then:2 goto 5:3 Say It would seem you have not attained tier one yet.:4 done:5 CREATE_OBJ 89910:6 drop symbol:7 force @P take all:8 say Use it well.:9 done
+~
+LABEL wartier1~
+CODE :1 IF (T1) then:2 goto 5:3 Say It would seem you have not attained tier one yet.:4 done:5 CREATE_OBJ 89900:6 drop symbol:7 force @P take all:8 say Use it well.:9 done
+~
+LABEL wiztier3~
+CODE :1 If (KVK) then:2 goto 12:3 IF (T3) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89922:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL wiztik~
+CODE :1 IF (WIZ) then:2 goto 4:3 call notikflag:4 IF DG0=1 then:5 call badguild:6 IF DG1=1 then:7 call badguild:8 IF DG7=1 then:9 call badguild:10 IF DG4=1 then:11 goto 15:12 say You seem like a suitable candidate, I will send you on your journey.:13 trans @p 16033 :14 done:15 say Welcome back to the fold @P.:16 transfer @P 16033:17 done
+~
+LABEL wartik~
+CODE :1 IF (WSG) then:2 goto 4:3 call notikflag:4 IF DG3=1 then:5 call badguild:6 IF DG2=1 then:7 call badguild:8 IF DG4=1 then:9 call badguild:10 IF DG7=1 then:11 call badguild:12 IF DG5=1 then:13 call badguild:14 IF DG0=1 then:15 goto 19:16 say You seem like a suitable candidate, I will send you on your journey.:17 trans @p 16008 :18 done:19 say Welcome back to the fold @P.:20 transfer @P 16008:21 done
+~
+LABEL whitieyel~
+CODE IF @DA1=1 then yell Whities at the gates, send help now!
+~
+LABEL wargld~
+CODE :1 pset @p scriptflag WSG ON:2 say Thank you.  You now can come here and ask for passage anytime.:3 DESTROY_OBJ:4 done
+~
+LABEL war2gld~
+CODE :1 trans @P 5107
+~
+LABEL wargld3~
+CODE :1 say Welcome, @P.  When you are ready to go home let me know.
+~
+LABEL war4gld~
+CODE :1 IF DG0=1 then:2 transfer @p 16008:3 
+~
+LABEL wizgld~
+CODE :1 pset @p SCRIPTFLAG WIZ ON:2 say Thank you.  You now can come here and ask for passage anytime.:3 DESTROY_OBJ:4 done
+~
+LABEL wizhm~
+CODE :1 trans @p 5107
+~
+LABEL wizchk~
+CODE :1 IF DG4=1 then:2 trans @p 16033
+~
+LABEL warchk~
+CODE :1 IF DG3=1 then:2 call badguild:3 say You seem like a suitable candidate, I will send you on your journey.:4 eat signum
+~
+LABEL wizarm1~
+CODE :1 If (KVK) then:2 goto 12:3 IF (T1) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89902:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL wizarm2~
+CODE :1 If (KVK) then:2 goto 12:3 IF (T2) then:4 goto 7:5 Say It would seem you have not attained tier one yet.:6 done:7 CREATE_OBJ 89912:8 drop symbol:9 force @P take all:10 say Use it well.:11 done:12 Say Go away asshole. Next time think before you chat crap.:13 done:14 
+~
+LABEL womsay~
+CODE :1 Say Keys....must find the keys.:2 wait 1 quick:3 Say The lord....five keys.:4 wait 1 quick:5 Say Must give him the keys....so he will let me in.:6 done:7 
+~
+END

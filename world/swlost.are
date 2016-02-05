@@ -1,0 +1,2655 @@
+#AREADATA 
+Name The Swamp of the Lost~
+Repop A putrid smell rises from the stagnant pools.
+~
+SCZone 0
+Builders Bern~
+VNUMs 73706 73999
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#73706
+Name swamp rat~
+Short a swamp rat~
+Long 
+A rat is here meandering through the swamp.
+~
+AMax 15
+NHeight 0
+ActBits 21
+Affect_By 4194304
+Level 10
+MobType 7
+Alt_vnum 73707
+Guard 0
+Spec spec_janitor
+End
+
+#73707
+Name soul lost swamp~
+Short a lost soul of the swamp~
+Long 
+A lost soul is here seeking more souls for the swamp.
+~
+AMax 15
+NHeight 0
+ActBits 1049
+Affect_By 552
+Level 100
+MobType 21
+Alt_vnum 73706
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#73706
+Name portal tyrsis~
+Short a stone marker~
+Descr
+A glowing marker stone is here illuminating the sides of the tower.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#73707
+Name huge cypruss tree~
+Short a huge cypruss tree~
+Descr
+[36mA huge [32mCy[1mpru[0m[32mss T[1mre[0m[32me[36m is here soaking up swamp water.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#73708
+Name leaf cypruss tree quest~
+Short [32mL[1m[32me[33ma[0m[33mf[0m of the [32mCy[1m[32mpru[0m[32mss T[1m[32mre[0m[32me[0m~
+Descr
+A fallen leaf lies here.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#73706
+Name A Path Through the Swamp~
+Descr
+~
+Sector 5
+Reset O 73707 -5 100
+Door 0 0 0 56213 0 0
+~
+~
+Door 1 0 0 73710 0 0
+~
+~
+Door 2 0 0 73707 0 0
+~
+~
+Door 3 0 0 56214 0 0
+~
+~
+End
+
+#73707
+Name A Path Through the Swamp~
+Descr
+~
+Sector 5
+Reset O 73707 -5 100
+Door 0 0 0 73706 0 0
+~
+~
+Door 1 0 0 73711 0 0
+~
+~
+Door 2 0 0 73708 0 0
+~
+~
+Door 3 0 0 56215 0 0
+~
+~
+End
+
+#73708
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73707 0 0
+~
+~
+Door 1 0 0 73712 0 0
+~
+~
+Door 2 0 0 56217 0 0
+~
+~
+Door 3 0 0 56216 0 0
+~
+~
+End
+
+#73709
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 56212 0 0
+~
+~
+Door 1 0 0 73715 0 0
+~
+~
+Door 2 0 0 73710 0 0
+~
+~
+Door 3 0 0 56213 0 0
+~
+~
+End
+
+#73710
+Name A Path Through the Swamp~
+Descr
+~
+Sector 5
+Reset O 73707 -5 100
+Door 0 0 0 73709 0 0
+~
+~
+Door 1 0 0 73716 0 0
+~
+~
+Door 2 0 0 73711 0 0
+~
+~
+Door 3 0 0 73706 0 0
+~
+~
+End
+
+#73711
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73710 0 0
+~
+~
+Door 1 0 0 73717 0 0
+~
+~
+Door 2 0 0 73712 0 0
+~
+~
+Door 3 0 0 73707 0 0
+~
+~
+End
+
+#73712
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73711 0 0
+~
+~
+Door 1 0 0 73718 0 0
+~
+~
+Door 2 0 0 73713 0 0
+~
+~
+Door 3 0 0 73708 0 0
+~
+~
+End
+
+#73713
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 56138 5 100
+Reset O 73707 -5 100
+Door 0 0 0 73712 0 0
+~
+~
+Door 1 0 0 73719 0 0
+~
+~
+Door 2 0 0 56218 0 0
+~
+~
+Door 3 0 0 56217 0 0
+~
+~
+End
+
+#73714
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 56211 0 0
+~
+~
+Door 1 0 0 73721 0 0
+~
+~
+Door 2 0 0 73715 0 0
+~
+~
+Door 3 0 0 56212 0 0
+~
+~
+End
+
+#73715
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73714 0 0
+~
+~
+Door 1 0 0 73747 0 0
+~
+~
+Door 2 0 0 73716 0 0
+~
+~
+Door 3 0 0 73709 0 0
+~
+~
+End
+
+#73716
+Name A Path Through the Swamp~
+Descr
+~
+Sector 5
+Reset O 73707 -5 100
+Door 0 0 0 73715 0 0
+~
+~
+Door 1 0 0 73752 0 0
+~
+~
+Door 2 0 0 73717 0 0
+~
+~
+Door 3 0 0 73710 0 0
+~
+~
+End
+
+#73717
+Name A Path Through the Swamp~
+Descr
+~
+Sector 5
+Reset O 73707 -5 100
+Door 0 0 0 73716 0 0
+~
+~
+Door 1 0 0 73756 0 0
+~
+~
+Door 2 0 0 73718 0 0
+~
+~
+Door 3 0 0 73711 0 0
+~
+~
+End
+
+#73718
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73717 0 0
+~
+~
+Door 1 0 0 73760 0 0
+~
+~
+Door 2 0 0 73719 0 0
+~
+~
+Door 3 0 0 73712 0 0
+~
+~
+End
+
+#73719
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73718 0 0
+~
+~
+Door 1 0 0 73764 0 0
+~
+~
+Door 2 0 0 73720 0 0
+~
+~
+Door 3 0 0 73713 0 0
+~
+~
+End
+
+#73720
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73719 0 0
+~
+~
+Door 1 0 0 73734 0 0
+~
+~
+Door 2 0 0 56219 0 0
+~
+~
+Door 3 0 0 56218 0 0
+~
+~
+End
+
+#73721
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 1 0 0 73722 0 0
+~
+~
+Door 2 0 0 73747 0 0
+~
+~
+Door 3 0 0 73714 0 0
+~
+~
+End
+
+#73722
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73791 0 0
+~
+~
+Door 1 0 0 73723 0 0
+~
+~
+Door 2 0 0 73748 0 0
+~
+~
+Door 3 0 0 73721 0 0
+~
+~
+End
+
+#73723
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73792 0 0
+~
+~
+Door 1 0 0 73724 0 0
+~
+~
+Door 2 0 0 73749 0 0
+~
+~
+Door 3 0 0 73722 0 0
+~
+~
+End
+
+#73724
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73793 0 0
+~
+~
+Door 1 0 0 73725 0 0
+~
+~
+Door 2 0 0 73750 0 0
+~
+~
+Door 3 0 0 73723 0 0
+~
+~
+End
+
+#73725
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73794 0 0
+~
+~
+Door 1 0 0 73726 0 0
+~
+~
+Door 2 0 0 73751 0 0
+~
+~
+Door 3 0 0 73724 0 0
+~
+~
+End
+
+#73726
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73795 0 0
+~
+~
+Door 1 0 0 73727 0 0
+~
+~
+Door 3 0 0 73725 0 0
+~
+~
+End
+
+#73727
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73796 0 0
+~
+~
+Door 1 0 0 73728 0 0
+~
+~
+Door 3 0 0 73726 0 0
+~
+~
+End
+
+#73728
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73797 0 0
+~
+~
+Door 1 0 0 73729 0 0
+~
+~
+Door 3 0 0 73727 0 0
+~
+~
+End
+
+#73729
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73798 0 0
+~
+~
+Door 1 0 0 73730 0 0
+~
+~
+Door 2 0 0 73813 0 0
+~
+~
+Door 3 0 0 73728 0 0
+~
+~
+End
+
+#73730
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73799 0 0
+~
+~
+Door 1 0 0 73731 0 0
+~
+~
+Door 2 0 0 73814 0 0
+~
+~
+Door 3 0 0 73729 0 0
+~
+~
+End
+
+#73731
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73800 0 0
+~
+~
+Door 1 0 0 73732 0 0
+~
+~
+Door 2 0 0 73815 0 0
+~
+~
+Door 3 0 0 73730 0 0
+~
+~
+End
+
+#73732
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73801 0 0
+~
+~
+Door 1 0 0 73733 0 0
+~
+~
+Door 2 0 0 73816 0 0
+~
+~
+Door 3 0 0 73731 0 0
+~
+~
+End
+
+#73733
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 1 0 0 73802 0 0
+~
+~
+Door 2 0 0 73817 0 0
+~
+~
+Door 3 0 0 73732 0 0
+~
+~
+End
+
+#73734
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73764 0 0
+~
+~
+Door 1 0 0 73735 0 0
+~
+~
+Door 3 0 0 73720 0 0
+~
+~
+End
+
+#73735
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73765 0 0
+~
+~
+Door 1 0 0 73736 0 0
+~
+~
+Door 2 0 0 73769 0 0
+~
+~
+Door 3 0 0 73734 0 0
+~
+~
+End
+
+#73736
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73766 0 0
+~
+~
+Door 1 0 0 73737 0 0
+~
+~
+Door 2 0 0 73770 0 0
+~
+~
+Door 3 0 0 73735 0 0
+~
+~
+End
+
+#73737
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73767 0 0
+~
+~
+Door 1 0 0 73738 0 0
+~
+~
+Door 2 0 0 73771 0 0
+~
+~
+Door 3 0 0 73736 0 0
+~
+~
+End
+
+#73738
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73768 0 0
+~
+~
+Door 1 0 0 73739 0 0
+~
+~
+Door 2 0 0 73772 0 0
+~
+~
+Door 3 0 0 73737 0 0
+~
+~
+End
+
+#73739
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Reset O 73707 -5 100
+Door 1 0 0 73740 0 0
+~
+~
+Door 2 0 0 73773 0 0
+~
+~
+Door 3 0 0 73738 0 0
+~
+~
+End
+
+#73740
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 1 0 0 73741 0 0
+~
+~
+Door 2 0 0 73774 0 0
+~
+~
+Door 3 0 0 73739 0 0
+~
+~
+End
+
+#73741
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 1 0 0 73742 0 0
+~
+~
+Door 2 0 0 73775 0 0
+~
+~
+Door 3 0 0 73740 0 0
+~
+~
+End
+
+#73742
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73841 0 0
+~
+~
+Door 1 0 0 73743 0 0
+~
+~
+Door 2 0 0 73776 0 0
+~
+~
+Door 3 0 0 73741 0 0
+~
+~
+End
+
+#73743
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73842 0 0
+~
+~
+Door 1 0 0 73744 0 0
+~
+~
+Door 2 0 0 73777 0 0
+~
+~
+Door 3 0 0 73742 0 0
+~
+~
+End
+
+#73744
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73843 0 0
+~
+~
+Door 1 0 0 73745 0 0
+~
+~
+Door 2 0 0 73778 0 0
+~
+~
+Door 3 0 0 73743 0 0
+~
+~
+End
+
+#73745
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73844 0 0
+~
+~
+Door 1 0 0 73746 0 0
+~
+~
+Door 2 0 0 73779 0 0
+~
+~
+Door 3 0 0 73744 0 0
+~
+~
+End
+
+#73746
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73845 0 0
+~
+~
+Door 1 0 0 73780 0 0
+~
+~
+Door 3 0 0 73745 0 0
+~
+~
+End
+
+#73747
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73721 0 0
+~
+~
+Door 1 0 0 73748 0 0
+~
+~
+Door 2 0 0 73752 0 0
+~
+~
+Door 3 0 0 73715 0 0
+~
+~
+End
+
+#73748
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73722 0 0
+~
+~
+Door 1 0 0 73749 0 0
+~
+~
+Door 2 0 0 73753 0 0
+~
+~
+Door 3 0 0 73747 0 0
+~
+~
+End
+
+#73749
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73723 0 0
+~
+~
+Door 1 0 0 73750 0 0
+~
+~
+Door 2 0 0 73754 0 0
+~
+~
+Door 3 0 0 73748 0 0
+~
+~
+End
+
+#73750
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Reset O 73707 -5 100
+Door 0 0 0 73724 0 0
+~
+~
+Door 1 0 0 73751 0 0
+~
+~
+Door 2 0 0 73755 0 0
+~
+~
+Door 3 0 0 73749 0 0
+~
+~
+End
+
+#73751
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73725 0 0
+~
+~
+Door 3 0 0 73750 0 0
+~
+~
+End
+
+#73752
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73747 0 0
+~
+~
+Door 1 0 0 73753 0 0
+~
+~
+Door 2 0 0 73756 0 0
+~
+~
+Door 3 0 0 73716 0 0
+~
+~
+End
+
+#73753
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73748 0 0
+~
+~
+Door 1 0 0 73754 0 0
+~
+~
+Door 2 0 0 73757 0 0
+~
+~
+Door 3 0 0 73752 0 0
+~
+~
+End
+
+#73754
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73749 0 0
+~
+~
+Door 1 0 0 73755 0 0
+~
+~
+Door 2 0 0 73758 0 0
+~
+~
+Door 3 0 0 73753 0 0
+~
+~
+End
+
+#73755
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73750 0 0
+~
+~
+Door 2 0 0 73759 0 0
+~
+~
+Door 3 0 0 73754 0 0
+~
+~
+End
+
+#73756
+Name A Path Through the Swamp~
+Descr
+~
+Sector 5
+Reset O 73707 -5 100
+Door 0 0 0 73752 0 0
+~
+~
+Door 1 0 0 73757 0 0
+~
+~
+Door 2 0 0 73760 0 0
+~
+~
+Door 3 0 0 73717 0 0
+~
+~
+End
+
+#73757
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73753 0 0
+~
+~
+Door 1 0 0 73758 0 0
+~
+~
+Door 2 0 0 73761 0 0
+~
+~
+Door 3 0 0 73756 0 0
+~
+~
+End
+
+#73758
+Name A Path Through the Swamp~
+Descr
+~
+Sector 5
+Door 0 0 0 73754 0 0
+~
+~
+Door 1 0 0 73759 0 0
+~
+~
+Door 2 0 0 73762 0 0
+~
+~
+Door 3 0 0 73757 0 0
+~
+~
+End
+
+#73759
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+ExtraDescr marker~
+The small stone marker reads:
+
+Simply speak the name of the master to enter.
+
+~
+ExtraDescr stone~
+The small stone marker reads:
+
+Simply speak the name of the master to enter.
+
+~
+Door 0 0 0 73755 0 0
+~
+~
+Door 2 0 0 73763 0 0
+~
+~
+Door 3 0 0 73758 0 0
+~
+~
+End
+
+#73760
+Name A Path Through the Swamp~
+Descr
+~
+Sector 5
+Reset O 73707 -5 100
+Door 0 0 0 73756 0 0
+~
+~
+Door 1 0 0 73761 0 0
+~
+~
+Door 2 0 0 73764 0 0
+~
+~
+Door 3 0 0 73718 0 0
+~
+~
+End
+
+#73761
+Name A Path Through the Swamp~
+Descr
+~
+Sector 5
+Door 0 0 0 73757 0 0
+~
+~
+Door 1 0 0 73762 0 0
+~
+~
+Door 2 0 0 73765 0 0
+~
+~
+Door 3 0 0 73760 0 0
+~
+~
+End
+
+#73762
+Name A Path Through the Swamp~
+Descr
+~
+Sector 5
+Door 0 0 0 73758 0 0
+~
+~
+Door 1 0 0 73763 0 0
+~
+~
+Door 2 0 0 73766 0 0
+~
+~
+Door 3 0 0 73761 0 0
+~
+~
+End
+
+#73763
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73759 0 0
+~
+~
+Door 2 0 0 73767 0 0
+~
+~
+Door 3 0 0 73762 0 0
+~
+~
+End
+
+#73764
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Reset O 73707 -5 100
+Door 0 0 0 73760 0 0
+~
+~
+Door 1 0 0 73765 0 0
+~
+~
+Door 2 0 0 73734 0 0
+~
+~
+Door 3 0 0 73719 0 0
+~
+~
+End
+
+#73765
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73761 0 0
+~
+~
+Door 1 0 0 73766 0 0
+~
+~
+Door 2 0 0 73735 0 0
+~
+~
+Door 3 0 0 73764 0 0
+~
+~
+End
+
+#73766
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73762 0 0
+~
+~
+Door 1 0 0 73767 0 0
+~
+~
+Door 2 0 0 73736 0 0
+~
+~
+Door 3 0 0 73765 0 0
+~
+~
+End
+
+#73767
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73763 0 0
+~
+~
+Door 1 0 0 73768 0 0
+~
+~
+Door 2 0 0 73737 0 0
+~
+~
+Door 3 0 0 73766 0 0
+~
+~
+End
+
+#73768
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 2 0 0 73738 0 0
+~
+~
+Door 3 0 0 73767 0 0
+~
+~
+End
+
+#73769
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73735 0 0
+~
+~
+Door 1 0 0 73770 0 0
+~
+~
+End
+
+#73770
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73736 0 0
+~
+~
+Door 1 0 0 73771 0 0
+~
+~
+Door 3 0 0 73769 0 0
+~
+~
+End
+
+#73771
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73737 0 0
+~
+~
+Door 1 0 0 73772 0 0
+~
+~
+Door 2 0 0 73781 0 0
+~
+~
+Door 3 0 0 73770 0 0
+~
+~
+End
+
+#73772
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73738 0 0
+~
+~
+Door 1 0 0 73773 0 0
+~
+~
+Door 2 0 0 73782 0 0
+~
+~
+Door 3 0 0 73771 0 0
+~
+~
+End
+
+#73773
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73739 0 0
+~
+~
+Door 1 0 0 73774 0 0
+~
+~
+Door 2 0 0 73783 0 0
+~
+~
+Door 3 0 0 73772 0 0
+~
+~
+End
+
+#73774
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73740 0 0
+~
+~
+Door 1 0 0 73775 0 0
+~
+~
+Door 2 0 0 73784 0 0
+~
+~
+Door 3 0 0 73773 0 0
+~
+~
+End
+
+#73775
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73741 0 0
+~
+~
+Door 1 0 0 73776 0 0
+~
+~
+Door 2 0 0 73785 0 0
+~
+~
+Door 3 0 0 73774 0 0
+~
+~
+End
+
+#73776
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73742 0 0
+~
+~
+Door 1 0 0 73777 0 0
+~
+~
+Door 2 0 0 73786 0 0
+~
+~
+Door 3 0 0 73775 0 0
+~
+~
+End
+
+#73777
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73743 0 0
+~
+~
+Door 1 0 0 73778 0 0
+~
+~
+Door 2 0 0 73787 0 0
+~
+~
+Door 3 0 0 73776 0 0
+~
+~
+End
+
+#73778
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73744 0 0
+~
+~
+Door 1 0 0 73779 0 0
+~
+~
+Door 3 0 0 73777 0 0
+~
+~
+End
+
+#73779
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73745 0 0
+~
+~
+Door 3 0 0 73778 0 0
+~
+~
+End
+
+#73780
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73846 0 0
+~
+~
+Door 3 0 0 73746 0 0
+~
+~
+End
+
+#73781
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73771 0 0
+~
+~
+Door 1 0 0 73782 0 0
+~
+~
+End
+
+#73782
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73772 0 0
+~
+~
+Door 1 0 0 73783 0 0
+~
+~
+Door 3 0 0 73781 0 0
+~
+~
+End
+
+#73783
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73773 0 0
+~
+~
+Door 1 0 0 73784 0 0
+~
+~
+Door 2 0 0 73788 0 0
+~
+~
+Door 3 0 0 73782 0 0
+~
+~
+End
+
+#73784
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73774 0 0
+~
+~
+Door 1 0 0 73785 0 0
+~
+~
+Door 2 0 0 73789 0 0
+~
+~
+Door 3 0 0 73783 0 0
+~
+~
+End
+
+#73785
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73775 0 0
+~
+~
+Door 1 0 0 73786 0 0
+~
+~
+Door 2 0 0 73790 0 0
+~
+~
+Door 3 0 0 73784 0 0
+~
+~
+End
+
+#73786
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73776 0 0
+~
+~
+Door 1 0 0 73787 0 0
+~
+~
+Door 3 0 0 73785 0 0
+~
+~
+End
+
+#73787
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73777 0 0
+~
+~
+Door 3 0 0 73786 0 0
+~
+~
+End
+
+#73788
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73783 0 0
+~
+~
+Door 1 0 0 73789 0 0
+~
+~
+End
+
+#73789
+Name The Swamp of the Lost~
+Cvnuml 138172232
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73784 0 0
+~
+~
+Door 1 0 0 73790 0 0
+~
+~
+Door 3 0 0 73788 0 0
+~
+~
+Door 5 259 0 16081 30 30
+~
+bones~
+End
+
+#73790
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73785 0 0
+~
+~
+Door 3 0 0 73789 0 0
+~
+~
+End
+
+#73791
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 1 0 0 73792 0 0
+~
+~
+Door 2 0 0 73722 0 0
+~
+~
+End
+
+#73792
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 1 0 0 73793 0 0
+~
+~
+Door 2 0 0 73723 0 0
+~
+~
+Door 3 0 0 73791 0 0
+~
+~
+End
+
+#73793
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73803 0 0
+~
+~
+Door 1 0 0 73794 0 0
+~
+~
+Door 2 0 0 73724 0 0
+~
+~
+Door 3 0 0 73792 0 0
+~
+~
+End
+
+#73794
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73804 0 0
+~
+~
+Door 1 0 0 73795 0 0
+~
+~
+Door 2 0 0 73725 0 0
+~
+~
+Door 3 0 0 73793 0 0
+~
+~
+End
+
+#73795
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73805 0 0
+~
+~
+Door 1 0 0 73796 0 0
+~
+~
+Door 2 0 0 73726 0 0
+~
+~
+Door 3 0 0 73794 0 0
+~
+~
+End
+
+#73796
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73806 0 0
+~
+~
+Door 1 0 0 73797 0 0
+~
+~
+Door 2 0 0 73727 0 0
+~
+~
+Door 3 0 0 73795 0 0
+~
+~
+End
+
+#73797
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73807 0 0
+~
+~
+Door 1 0 0 73798 0 0
+~
+~
+Door 2 0 0 73728 0 0
+~
+~
+Door 3 0 0 73796 0 0
+~
+~
+End
+
+#73798
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73808 0 0
+~
+~
+Door 1 0 0 73799 0 0
+~
+~
+Door 2 0 0 73729 0 0
+~
+~
+Door 3 0 0 73797 0 0
+~
+~
+End
+
+#73799
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73809 0 0
+~
+~
+Door 1 0 0 73800 0 0
+~
+~
+Door 2 0 0 73730 0 0
+~
+~
+Door 3 0 0 73798 0 0
+~
+~
+End
+
+#73800
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 1 0 0 73801 0 0
+~
+~
+Door 2 0 0 73731 0 0
+~
+~
+Door 3 0 0 73799 0 0
+~
+~
+End
+
+#73801
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 2 0 0 73732 0 0
+~
+~
+Door 3 0 0 73800 0 0
+~
+~
+End
+
+#73802
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 2 0 0 73818 0 0
+~
+~
+Door 3 0 0 73733 0 0
+~
+~
+End
+
+#73803
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 1 0 0 73804 0 0
+~
+~
+Door 2 0 0 73793 0 0
+~
+~
+End
+
+#73804
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 1 0 0 73805 0 0
+~
+~
+Door 2 0 0 73794 0 0
+~
+~
+Door 3 0 0 73803 0 0
+~
+~
+End
+
+#73805
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73810 0 0
+~
+~
+Door 1 0 0 73806 0 0
+~
+~
+Door 2 0 0 73795 0 0
+~
+~
+Door 3 0 0 73804 0 0
+~
+~
+End
+
+#73806
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73811 0 0
+~
+~
+Door 1 0 0 73807 0 0
+~
+~
+Door 2 0 0 73796 0 0
+~
+~
+Door 3 0 0 73805 0 0
+~
+~
+End
+
+#73807
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73812 0 0
+~
+~
+Door 1 0 0 73808 0 0
+~
+~
+Door 2 0 0 73797 0 0
+~
+~
+Door 3 0 0 73806 0 0
+~
+~
+End
+
+#73808
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 1 0 0 73809 0 0
+~
+~
+Door 2 0 0 73798 0 0
+~
+~
+Door 3 0 0 73807 0 0
+~
+~
+End
+
+#73809
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 2 0 0 73799 0 0
+~
+~
+Door 3 0 0 73808 0 0
+~
+~
+End
+
+#73810
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 1 0 0 73811 0 0
+~
+~
+Door 2 0 0 73805 0 0
+~
+~
+End
+
+#73811
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 1 0 0 73812 0 0
+~
+~
+Door 2 0 0 73806 0 0
+~
+~
+Door 3 0 0 73810 0 0
+~
+~
+End
+
+#73812
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Reset O 73707 -5 100
+Door 2 0 0 73807 0 0
+~
+~
+Door 3 0 0 73811 0 0
+~
+~
+End
+
+#73813
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73729 0 0
+~
+~
+Door 1 0 0 73814 0 0
+~
+~
+End
+
+#73814
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73730 0 0
+~
+~
+Door 1 0 0 73815 0 0
+~
+~
+Door 2 0 0 73820 0 0
+~
+~
+Door 3 0 0 73813 0 0
+~
+~
+End
+
+#73815
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73731 0 0
+~
+~
+Door 1 0 0 73816 0 0
+~
+~
+Door 2 0 0 73821 0 0
+~
+~
+Door 3 0 0 73814 0 0
+~
+~
+End
+
+#73816
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73732 0 0
+~
+~
+Door 1 0 0 73817 0 0
+~
+~
+Door 2 0 0 73822 0 0
+~
+~
+Door 3 0 0 73815 0 0
+~
+~
+End
+
+#73817
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73733 0 0
+~
+~
+Door 1 0 0 73818 0 0
+~
+~
+Door 2 0 0 73823 0 0
+~
+~
+Door 3 0 0 73816 0 0
+~
+~
+End
+
+#73818
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73802 0 0
+~
+~
+Door 1 0 0 73819 0 0
+~
+~
+Door 2 0 0 73824 0 0
+~
+~
+Door 3 0 0 73817 0 0
+~
+~
+End
+
+#73819
+Name The Swamp of the Lost~
+Cvnumh 137086640
+Descr
+~
+Sector 22
+Door 2 0 0 73825 0 0
+~
+~
+Door 3 0 0 73818 0 0
+~
+~
+End
+
+#73820
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73814 0 0
+~
+~
+Door 1 0 0 73821 0 0
+~
+~
+Door 2 0 0 73827 0 0
+~
+~
+End
+
+#73821
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73815 0 0
+~
+~
+Door 1 0 0 73822 0 0
+~
+~
+Door 2 0 0 73828 0 0
+~
+~
+Door 3 0 0 73820 0 0
+~
+~
+End
+
+#73822
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73816 0 0
+~
+~
+Door 1 0 0 73823 0 0
+~
+~
+Door 2 0 0 73829 0 0
+~
+~
+Door 3 0 0 73821 0 0
+~
+~
+End
+
+#73823
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73817 0 0
+~
+~
+Door 1 0 0 73824 0 0
+~
+~
+Door 2 0 0 73830 0 0
+~
+~
+Door 3 0 0 73822 0 0
+~
+~
+End
+
+#73824
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73818 0 0
+~
+~
+Door 1 0 0 73825 0 0
+~
+~
+Door 2 0 0 73831 0 0
+~
+~
+Door 3 0 0 73823 0 0
+~
+~
+End
+
+#73825
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73819 0 0
+~
+~
+Door 1 0 0 73826 0 0
+~
+~
+Door 2 0 0 73832 0 0
+~
+~
+Door 3 0 0 73824 0 0
+~
+~
+End
+
+#73826
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 2 0 0 73833 0 0
+~
+~
+Door 3 0 0 73825 0 0
+~
+~
+End
+
+#73827
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73820 0 0
+~
+~
+Door 1 0 0 73828 0 0
+~
+~
+Door 2 0 0 73834 0 0
+~
+~
+End
+
+#73828
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73821 0 0
+~
+~
+Door 1 0 0 73829 0 0
+~
+~
+Door 2 0 0 73835 0 0
+~
+~
+Door 3 0 0 73827 0 0
+~
+~
+End
+
+#73829
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73822 0 0
+~
+~
+Door 1 0 0 73830 0 0
+~
+~
+Door 2 0 0 73836 0 0
+~
+~
+Door 3 0 0 73828 0 0
+~
+~
+End
+
+#73830
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73823 0 0
+~
+~
+Door 1 0 0 73831 0 0
+~
+~
+Door 2 0 0 73837 0 0
+~
+~
+Door 3 0 0 73829 0 0
+~
+~
+End
+
+#73831
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73824 0 0
+~
+~
+Door 1 0 0 73832 0 0
+~
+~
+Door 2 0 0 73838 0 0
+~
+~
+Door 3 0 0 73830 0 0
+~
+~
+End
+
+#73832
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73825 0 0
+~
+~
+Door 1 0 0 73833 0 0
+~
+~
+Door 2 0 0 73839 0 0
+~
+~
+Door 3 0 0 73831 0 0
+~
+~
+End
+
+#73833
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73826 0 0
+~
+~
+Door 2 0 0 73840 0 0
+~
+~
+Door 3 0 0 73832 0 0
+~
+~
+End
+
+#73834
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73827 0 0
+~
+~
+Door 1 0 0 73835 0 0
+~
+~
+Door 2 0 0 73842 0 0
+~
+~
+End
+
+#73835
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73828 0 0
+~
+~
+Door 1 0 0 73836 0 0
+~
+~
+Door 2 0 0 73843 0 0
+~
+~
+Door 3 0 0 73834 0 0
+~
+~
+End
+
+#73836
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73829 0 0
+~
+~
+Door 1 0 0 73837 0 0
+~
+~
+Door 2 0 0 73844 0 0
+~
+~
+Door 3 0 0 73835 0 0
+~
+~
+End
+
+#73837
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73830 0 0
+~
+~
+Door 1 0 0 73838 0 0
+~
+~
+Door 2 0 0 73845 0 0
+~
+~
+Door 3 0 0 73836 0 0
+~
+~
+End
+
+#73838
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73831 0 0
+~
+~
+Door 1 0 0 73839 0 0
+~
+~
+Door 2 0 0 73846 0 0
+~
+~
+Door 3 0 0 73837 0 0
+~
+~
+End
+
+#73839
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73832 0 0
+~
+~
+Door 1 0 0 73840 0 0
+~
+~
+Door 2 0 0 73847 0 0
+~
+~
+Door 3 0 0 73838 0 0
+~
+~
+End
+
+#73840
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73833 0 0
+~
+~
+Door 3 0 0 73839 0 0
+~
+~
+End
+
+#73841
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 1 0 0 73842 0 0
+~
+~
+Door 2 0 0 73742 0 0
+~
+~
+End
+
+#73842
+Name A Path Around the Tower of Tyrsis~
+Descr
+~
+Sector 5
+Door 0 0 0 73834 0 0
+~
+~
+Door 1 0 0 73843 0 0
+~
+~
+Door 2 0 0 73743 0 0
+~
+~
+Door 3 0 0 73841 0 0
+~
+~
+End
+
+#73843
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73835 0 0
+~
+~
+Door 1 0 0 73844 0 0
+~
+~
+Door 2 0 0 73744 0 0
+~
+~
+Door 3 0 0 73842 0 0
+~
+~
+End
+
+#73844
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset M 73706 1 100
+Door 0 0 0 73836 0 0
+~
+~
+Door 1 0 0 73845 0 0
+~
+~
+Door 2 0 0 73745 0 0
+~
+~
+Door 3 0 0 73843 0 0
+~
+~
+End
+
+#73845
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73837 0 0
+~
+~
+Door 1 0 0 73846 0 0
+~
+~
+Door 2 0 0 73746 0 0
+~
+~
+Door 3 0 0 73844 0 0
+~
+~
+End
+
+#73846
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Reset O 73707 -5 100
+Door 0 0 0 73838 0 0
+~
+~
+Door 1 0 0 73847 0 0
+~
+~
+Door 2 0 0 73780 0 0
+~
+~
+Door 3 0 0 73845 0 0
+~
+~
+End
+
+#73847
+Name The Swamp of the Lost~
+Descr
+~
+Sector 22
+Door 0 0 0 73839 0 0
+~
+~
+Door 3 0 0 73846 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

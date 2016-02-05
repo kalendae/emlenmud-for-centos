@@ -1,0 +1,4897 @@
+#AREADATA 
+Name The Plane of Hate~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Structure  Kerit~
+VNUMs 54001 54300
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#54020
+Name drunken soldier~
+Short a drunken soldier~
+Long 
+A drunk soldier is tumbling here.
+~
+AMax 5
+NHeight 0
+Level 80
+MobType 0
+Hp 2
+Guard 0
+End
+
+#54030
+Name giant bud~
+Short a giant stinky bud~
+Long 
+A giant stinky roaming the dump searching for food.
+~
+AMax 5
+NHeight 0
+Level 75
+MobType 18
+Hp 2
+Guard 0
+End
+
+#54151
+Name demon guard warrior~
+Short a demon guard~
+Long 
+A demon guard is here guarding something.
+~
+AMax 1
+NHeight 175
+ActBits 65538
+ActBits3 2
+Affect_By 1075839648
+AffectTWO 33554440
+Money 200
+Level 101
+Sex 1
+MobType 11
+Hp 2
+Guard 5
+End
+
+#54152
+Name trooper soldier warrior demon~
+Short a demon trooper~
+Long 
+An exhausted demon trooper is resting on the ground.
+~
+AMax 10
+NHeight 135
+Money 100
+Level 75
+Sex 1
+MobType 11
+Hp 2
+Guard 0
+End
+
+#54153
+Name demon trooper~
+Short a fully rested demon~
+Long 
+A fully rested demon is here getting ready for the next battle.
+~
+AMax 10
+NHeight 140
+Money 150
+Level 77
+MobType 11
+Hp 2
+Guard 0
+End
+
+#54201
+Name zaal the fourth hate~
+Short Zaal the fourth hate~
+Long 
+The Fourth Hate, Zaal stands here striking hate into your soul.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+AffectTWO 8
+Money 3000
+Level 300
+Sex 1
+MobType 11
+Hp 15
+Guard 0
+End
+
+#54205
+Name buron first hate~
+Short Buron the first hate~
+Long 
+The First Hate, Buron stands here raging hate into your very heart.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524936
+AffectTWO 33554432
+Money 3000
+Level 400
+Sex 1
+MobType 11
+Hp 15
+Guard 0
+BCasts paralyze~
+BCast_P 3
+End
+
+#54216
+Name frantic man~
+Short A frantic man~
+Long 
+A man runs around the around frantically in immense fear and agony!
+~
+AMax 11
+NHeight 0
+Level 75
+Sex 1
+MobType 0
+Hp 2
+Guard 0
+End
+
+#54242
+Name mephistos third hate~
+Short Mephistos the third hate~
+Long 
+The Third Hate, Mephistos is here striking hate into your body.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+AffectTWO 33554432
+Money 5000
+Level 450
+Sex 1
+MobType 11
+Hp 15
+Guard 0
+End
+
+#54246
+Name galor hate~
+Short Galor the second fear~
+Long 
+The Second Hate, Golor stands here striking fear into your mind.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+AffectTWO 34078720
+Money 3000
+Level 350
+Sex 1
+MobType 11
+Hp 20
+Guard 0
+BCasts wisk of the weakening~
+BCasts smite~
+BCasts wrath~
+BCast_P 5
+End
+
+#0
+
+
+
+#OBJDATA
+#54001
+Name portal return world por port~
+Short [1m[36mP[0m[36mo[0m[37mrt[36ma[34ml [0m[37mof [1m[30mre[0m[37mtu[1m[30mrn [0m[37mto the [1m[31mW[0m[31mor[0m[31ml[1m[31md[0m~
+Descr
+A portal lies here returning to the world
+[0;36m~
+Type 12
+Wear 0
+Values 4 5107 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#54052
+Name no name~
+Short a rusty old key~
+Descr
+Someone seems to have abandoned a rusty old key here.
+[0;36m~
+Type 18
+Wear 1
+Weight 0
+Cost 0
+End
+
+#54151
+Name spear jade apb~
+Short a [30m[1mlong thin [1m[32mj[0m[32ma[1md[0m[32me [1m[30mspear[0m~
+Descr
+A long thin [1m[32mj[0m[32ma[1md[0m[32me [0m[37mspear is here waiting for something to pick it up.
+[0;36m~
+Type 5
+Extra 67239937
+Wear 16385
+Values 0 35 0 15 0 0 0 6 2 0 0
+Weight 63
+Cost 0
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#54201
+Name armplates fear apb 2apb arm~
+Short armplates of [31ms[1m[30ma[0m[37mc[1m[37mr[1m[37mi[1m[30mf[0m[37mi[1m[30mc[37mi[0m[37ma[31ml [31mf[1m[30me[0m[37ma[1m[37mr[0m~
+Descr
+A pair of armplates are on the ground chilling your soul.
+[0;36m~
+Type 9
+Wear 257
+Weight 32
+Cost 300
+Affect 13 -10 1 0 0
+Affect 17 2 1 0 0
+Affect 19 2 1 0 0
+End
+
+#54205
+Name aura striking fear~
+Short an [34ma[1m[30mu[0m[37mr[1ma[0m of [34ms[1mt[0m[36mr[1mi[37mk[36mi[0m[36mn[34mg[0m [31mf[1m[30me[0m[37ma[1m[37mr[0m~
+Descr
+An aura lies on the ground striking fear in your existence
+[0;36m~
+Type 9
+Extra 1
+Wear 131073
+Values 0 0 3 0 0 0 10 10 0 0 0
+Weight 3
+Cost 1200
+Affect 19 -2 1 0 0
+Affect 20 10 1 0 0
+Affect 14 10 1 0 0
+Affect 13 15 1 0 0
+End
+
+#54224
+Name statue god fear~
+Short a statue of god fear etc~
+Descr
+[36mA small crumbling statue is here of the god of fear.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54242
+Name winding cloak mephistos~
+Short a [34mw[1m[30mi[0m[37mn[1m[37md[0m[37mi[1m[30mn[0m[34mg[0m [34mc[1m[30ml[0m[37mo[1ma[0m[37mk[0m of [34mM[1m[30me[0m[37mp[1mh[0m[37mi[1m[30ms[0m[37mt[1m[37mo[0m[34ms~
+Descr
+A rare and unusual cloak likes on the ground shimmering in evil.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 1025
+Values 2 2 2 0 2 0 0 0 0 0 0
+Weight 3
+Cost 3000
+Affect 18 5 1 0 0
+Affect 20 3 1 0 0
+Affect 14 10 1 0 0
+Affect 13 10 1 0 0
+Affect 22 2 1 0 0
+Affect 17 5 1 0 0
+End
+
+#54246
+Name mask ra~
+Short a [34mm[1m[30ma[0m[37ms[1m[37mk[0m of [1m[37mR[1m[30ma[0m~
+Descr
+A rare mask lies on the ground made of star dust.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 65537
+Values 0 0 3 0 0 0 0 0 0 0 0
+Weight 2
+Cost 300
+Affect 13 10 1 0 0
+Affect 17 3 1 0 0
+Affect 20 5 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#54001
+Name The Town Square~
+Descr
+~
+Sector 39
+Door 0 0 0 54011 0 0
+~
+~
+Door 1 0 0 54004 0 0
+~
+~
+Door 2 0 0 54012 0 0
+~
+~
+Door 3 0 0 54002 0 0
+~
+~
+End
+
+#54002
+Name West Valros Way~
+Descr
+~
+Sector 39
+Door 0 0 0 54010 0 0
+~
+~
+Door 1 0 0 54001 0 0
+~
+~
+Door 2 0 0 54009 0 0
+~
+~
+Door 3 0 0 54003 0 0
+~
+~
+End
+
+#54003
+Name West Valros Way~
+Descr
+~
+Sector 39
+Door 1 0 0 54002 0 0
+~
+~
+Door 4 0 0 54006 0 0
+~
+~
+End
+
+#54004
+Name East Valros Way~
+Descr
+~
+Sector 39
+Door 1 0 0 54005 0 0
+~
+~
+Door 3 0 0 54001 0 0
+~
+~
+End
+
+#54005
+Name A Dead-End~
+Descr
+~
+Sector 39
+Door 3 0 0 54004 0 0
+~
+~
+End
+
+#54006
+Name West Valros Way~
+Descr
+~
+Sector 39
+Door 0 259 0 54056 30 30
+~
+slab~
+Door 3 0 0 54007 0 0
+~
+~
+Door 4 259 0 54058 30 30
+~
+crack~
+Door 5 0 0 54003 0 0
+~
+~
+End
+
+#54007
+Name West Valros Way~
+Descr
+~
+Sector 39
+Door 1 0 0 54006 0 0
+~
+~
+Door 3 0 0 54008 0 0
+~
+~
+End
+
+#54008
+Name West Valros Way~
+Descr
+~
+Sector 39
+Door 1 0 0 54007 0 0
+~
+~
+Door 3 3 0 54055 40 40
+~
+door~
+End
+
+#54009
+Name The Armoury~
+Descr
+~
+Sector 39
+Door 0 0 0 54002 0 0
+~
+~
+Door 1 0 0 54012 0 0
+~
+~
+End
+
+#54010
+Name The Vault~
+Descr
+~
+Sector 39
+Door 1 0 0 54011 0 0
+~
+~
+Door 2 0 0 54002 0 0
+~
+~
+End
+
+#54011
+Name The northern Corridor of Champions~
+Descr
+~
+Sector 39
+Door 0 0 0 54013 0 0
+~
+~
+Door 2 0 0 54001 0 0
+~
+~
+Door 3 0 0 54010 0 0
+~
+~
+End
+
+#54012
+Name The Southern Passage of Courage~
+Descr
+~
+Sector 39
+Door 0 0 0 54001 0 0
+~
+~
+Door 2 0 0 54048 0 0
+~
+~
+Door 3 0 0 54009 0 0
+~
+~
+End
+
+#54013
+Name The northern Corridor of Champions~
+Descr
+~
+Sector 39
+Door 2 0 0 54011 0 0
+~
+~
+Door 5 0 0 54014 0 0
+~
+~
+End
+
+#54014
+Name The northern Corridor of Champions~
+Descr
+~
+Sector 39
+Door 0 0 0 54027 0 0
+~
+~
+Door 3 3 0 54015 40 40
+~
+door~
+Door 4 0 0 54013 0 0
+~
+~
+End
+
+#54015
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Door 0 0 0 54016 0 0
+~
+~
+Door 1 3 0 54014 40 40
+~
+door~
+Door 3 0 0 54017 0 0
+~
+~
+End
+
+#54016
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Reset M 54020 1 100
+Door 0 0 0 54019 0 0
+~
+~
+Door 2 0 0 54015 0 0
+~
+~
+Door 3 0 0 54018 0 0
+~
+~
+End
+
+#54017
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Reset M 54020 1 100
+Door 0 0 0 54018 0 0
+~
+~
+Door 1 0 0 54015 0 0
+~
+~
+Door 3 0 0 54022 0 0
+~
+~
+End
+
+#54018
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Door 0 0 0 54020 0 0
+~
+~
+Door 1 0 0 54016 0 0
+~
+~
+Door 2 0 0 54017 0 0
+~
+~
+Door 3 0 0 54021 0 0
+~
+~
+End
+
+#54019
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Door 0 0 0 54024 0 0
+~
+~
+Door 2 0 0 54016 0 0
+~
+~
+Door 3 0 0 54020 0 0
+~
+~
+End
+
+#54020
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Reset M 54020 1 100
+Door 0 0 0 54025 0 0
+~
+~
+Door 1 0 0 54019 0 0
+~
+~
+Door 2 0 0 54018 0 0
+~
+~
+Door 3 0 0 54023 0 0
+~
+~
+End
+
+#54021
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Door 0 0 0 54023 0 0
+~
+~
+Door 1 0 0 54018 0 0
+~
+~
+Door 2 0 0 54022 0 0
+~
+~
+End
+
+#54022
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Door 0 0 0 54021 0 0
+~
+~
+Door 1 0 0 54017 0 0
+~
+~
+End
+
+#54023
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Door 0 0 0 54026 0 0
+~
+~
+Door 1 0 0 54020 0 0
+~
+~
+Door 2 0 0 54021 0 0
+~
+~
+End
+
+#54024
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Reset M 54020 1 100
+Door 2 0 0 54019 0 0
+~
+~
+Door 3 0 0 54025 0 0
+~
+~
+End
+
+#54025
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Door 1 0 0 54024 0 0
+~
+~
+Door 2 0 0 54020 0 0
+~
+~
+Door 3 0 0 54026 0 0
+~
+~
+End
+
+#54026
+Name A Rowdy Tavern~
+Descr
+This is probably the most noisy place in this town. Soldiers usually come
+here to relax and have a drink in between battles. They drink, they laugh,
+and they fight, that is the life of many here. Comparing to the battle
+fields, this is the best place soldiers want to be at. 
+~
+Sector 39
+Reset M 54020 1 100
+Door 1 0 0 54025 0 0
+~
+~
+Door 2 0 0 54023 0 0
+~
+~
+End
+
+#54027
+Name The northern Corridor of Champions~
+Descr
+~
+Sector 39
+Door 1 0 0 54028 0 0
+~
+~
+Door 2 0 0 54014 0 0
+~
+~
+End
+
+#54028
+Name The northern Corridor of Champions~
+Descr
+~
+Sector 39
+Door 0 0 0 54029 0 0
+~
+~
+Door 3 0 0 54027 0 0
+~
+~
+End
+
+#54029
+Name The northern Corridor of Champions~
+Descr
+~
+Sector 39
+Door 2 0 0 54028 0 0
+~
+~
+Door 5 0 0 54030 0 0
+~
+~
+End
+
+#54030
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Flags 2
+Sector 39
+Door 0 0 0 54031 0 0
+~
+~
+Door 1 0 0 54038 0 0
+~
+~
+Door 4 0 0 54029 0 0
+~
+~
+End
+
+#54031
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Reset M 54030 1 100
+Door 0 0 0 54032 0 0
+~
+~
+Door 1 0 0 54037 0 0
+~
+~
+Door 2 0 0 54030 0 0
+~
+~
+End
+
+#54032
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 0 0 0 54033 0 0
+~
+~
+Door 1 0 0 54036 0 0
+~
+~
+Door 2 0 0 54031 0 0
+~
+~
+End
+
+#54033
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 0 0 0 54034 0 0
+~
+~
+Door 1 0 0 54035 0 0
+~
+~
+Door 2 0 0 54032 0 0
+~
+~
+End
+
+#54034
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Reset M 54030 1 100
+Door 2 0 0 54033 0 0
+~
+~
+End
+
+#54035
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 1 0 0 54042 0 0
+~
+~
+Door 2 0 0 54036 0 0
+~
+~
+Door 3 0 0 54033 0 0
+~
+~
+End
+
+#54036
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 0 0 0 54035 0 0
+~
+~
+Door 1 0 0 54041 0 0
+~
+~
+Door 2 0 0 54037 0 0
+~
+~
+Door 3 0 0 54032 0 0
+~
+~
+End
+
+#54037
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 0 0 0 54036 0 0
+~
+~
+Door 1 0 0 54040 0 0
+~
+~
+Door 2 0 0 54038 0 0
+~
+~
+Door 3 0 0 54031 0 0
+~
+~
+End
+
+#54038
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 0 0 0 54037 0 0
+~
+~
+Door 1 0 0 54039 0 0
+~
+~
+Door 3 0 0 54030 0 0
+~
+~
+End
+
+#54039
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Reset M 54030 1 100
+Door 0 0 0 54040 0 0
+~
+~
+Door 1 0 0 54043 0 0
+~
+~
+Door 3 0 0 54038 0 0
+~
+~
+End
+
+#54040
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 0 0 0 54041 0 0
+~
+~
+Door 2 0 0 54039 0 0
+~
+~
+Door 3 0 0 54037 0 0
+~
+~
+End
+
+#54041
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Reset M 54030 1 100
+Door 0 0 0 54042 0 0
+~
+~
+Door 1 0 0 54047 0 0
+~
+~
+Door 2 0 0 54040 0 0
+~
+~
+Door 3 0 0 54036 0 0
+~
+~
+End
+
+#54042
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 2 0 0 54041 0 0
+~
+~
+Door 3 0 0 54035 0 0
+~
+~
+End
+
+#54043
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 1 0 0 54044 0 0
+~
+~
+Door 3 0 0 54039 0 0
+~
+~
+End
+
+#54044
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 0 0 0 54045 0 0
+~
+~
+Door 3 0 0 54043 0 0
+~
+~
+End
+
+#54045
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Reset M 54030 1 100
+Door 0 0 0 54046 0 0
+~
+~
+Door 2 0 0 54044 0 0
+~
+~
+End
+
+#54046
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 2 0 0 54045 0 0
+~
+~
+Door 3 0 0 54047 0 0
+~
+~
+End
+
+#54047
+Name A Dumping Ground~
+Descr
+In this dump, you can see many objects people discarded. Some are in
+usable condition and some are so torn up that it does not look like anything
+near it's original figure. What a waste, why can people reuse it in some
+other way instead of displacing it. 
+~
+Sector 39
+Door 1 0 0 54046 0 0
+~
+~
+Door 3 0 0 54041 0 0
+~
+~
+End
+
+#54048
+Name The Southern Passage of Courage~
+Descr
+~
+Sector 39
+Door 0 0 0 54012 0 0
+~
+~
+Door 2 0 0 54049 0 0
+~
+~
+End
+
+#54049
+Name The Southern Passage of Courage~
+Descr
+~
+Sector 39
+Door 0 0 0 54048 0 0
+~
+~
+Door 1 3 0 54054 30 30
+~
+door~
+Door 3 0 0 54050 0 0
+~
+~
+End
+
+#54050
+Name The Southern Passage of Courage~
+Descr
+~
+Sector 39
+Door 0 3 0 54053 30 30
+~
+door~
+Door 1 0 0 54049 0 0
+~
+~
+Door 2 0 0 54051 0 0
+~
+~
+End
+
+#54051
+Name The Southern Passage of Courage~
+Descr
+~
+Sector 39
+Door 0 0 0 54050 0 0
+~
+~
+Door 3 3 0 54052 30 30
+~
+door~
+End
+
+#54052
+Name A Humble Cave~
+Descr
+~
+Sector 39
+Door 1 7 0 54051 30 30
+~
+door~
+End
+
+#54053
+Name A Well Furnished Dwelling~
+Descr
+A well decorated dwelling here one can see. As beautiful as it is, the
+place still feel empty because most who lives here have gone into battle. 
+~
+Sector 39
+Door 2 3 0 54050 30 30
+~
+door~
+End
+
+#54054
+Name A Well Furnished Dwelling~
+Descr
+~
+Sector 39
+Door 3 3 0 54049 30 30
+~
+door~
+End
+
+#54055
+Name Before the Gates of Valros~
+Descr
+~
+Sector 39
+Door 1 3 0 54008 40 40
+~
+door~
+Door 3 0 0 54070 0 0
+~
+~
+End
+
+#54056
+Name The Compound of the Occult~
+Descr
+~
+Sector 39
+Door 0 0 0 54057 0 0
+~
+~
+Door 1 3 0 54063 30 30
+~
+door~
+Door 2 259 0 54006 30 30
+~
+slab~
+End
+
+#54057
+Name The Compound of the Occult~
+Descr
+~
+Sector 39
+Door 2 0 0 54056 0 0
+~
+~
+Door 3 3 0 54059 30 30
+~
+door~
+End
+
+#54058
+Name Inside a Large Cranny~
+Descr
+~
+Sector 39
+Door 5 259 0 54006 30 30
+~
+crack~
+End
+
+#54059
+Name The Tower of Danar~
+Descr
+~
+Sector 39
+Door 1 3 0 54057 30 30
+~
+door~
+Door 4 0 0 54060 0 0
+~
+~
+End
+
+#54060
+Name The Tower of Danar~
+Descr
+~
+Sector 39
+Door 4 0 0 54061 0 0
+~
+~
+Door 5 0 0 54059 0 0
+~
+~
+End
+
+#54061
+Name The Tower of Danar~
+Descr
+~
+Sector 39
+Door 4 0 0 54062 0 0
+~
+~
+Door 5 0 0 54060 0 0
+~
+~
+End
+
+#54062
+Name The Tower of Danar~
+Descr
+~
+Sector 39
+Door 1 0 0 54069 0 0
+~
+~
+Door 5 0 0 54061 0 0
+~
+~
+End
+
+#54063
+Name The Tower of Minar~
+Descr
+~
+Sector 39
+Door 3 3 0 54056 30 30
+~
+door~
+Door 4 0 0 54064 0 0
+~
+~
+End
+
+#54064
+Name The Tower of Minar~
+Descr
+~
+Sector 39
+Door 4 0 0 54065 0 0
+~
+~
+Door 5 0 0 54063 0 0
+~
+~
+End
+
+#54065
+Name The Tower of Minar~
+Descr
+~
+Sector 39
+Door 4 0 0 54066 0 0
+~
+~
+Door 5 0 0 54064 0 0
+~
+~
+End
+
+#54066
+Name The Tower of Minar~
+Descr
+~
+Sector 39
+Door 0 0 0 54068 0 0
+~
+~
+Door 4 0 0 54067 0 0
+~
+~
+Door 5 0 0 54065 0 0
+~
+~
+End
+
+#54067
+Name The Tower of Minar~
+Descr
+~
+Sector 39
+Door 5 0 0 54066 0 0
+~
+~
+End
+
+#54068
+Name A Thin Walkway~
+Descr
+~
+Sector 39
+Door 2 0 0 54066 0 0
+~
+~
+Door 3 0 0 54069 0 0
+~
+~
+End
+
+#54069
+Name A Thin Walkway~
+Descr
+~
+Sector 39
+Door 1 0 0 54068 0 0
+~
+~
+Door 3 0 0 54062 0 0
+~
+~
+End
+
+#54070
+Name A Rubble Strewn Corridor~
+Descr
+~
+Sector 39
+Door 1 0 0 54055 0 0
+~
+~
+Door 3 0 0 54071 0 0
+~
+~
+End
+
+#54071
+Name A Rubble Strewn Corridor~
+Descr
+~
+Sector 39
+Door 0 0 0 54081 0 0
+~
+~
+Door 1 0 0 54070 0 0
+~
+~
+Door 3 0 0 54072 0 0
+~
+~
+End
+
+#54072
+Name A Rubble Strewn Corridor~
+Descr
+~
+Sector 39
+Door 0 0 0 54082 0 0
+~
+~
+Door 1 0 0 54071 0 0
+~
+~
+Door 3 0 0 54073 0 0
+~
+~
+End
+
+#54073
+Name A Rubble Strewn Corridor~
+Descr
+~
+Sector 39
+Door 1 0 0 54072 0 0
+~
+~
+Door 3 0 0 54074 0 0
+~
+~
+End
+
+#54074
+Name A Rubble Strewn Corridor~
+Descr
+~
+Sector 39
+Door 0 0 0 54084 0 0
+~
+~
+Door 1 0 0 54073 0 0
+~
+~
+Door 2 0 0 54075 0 0
+~
+~
+End
+
+#54075
+Name A Rubble Strewn Corridor~
+Descr
+~
+Sector 39
+Door 0 0 0 54074 0 0
+~
+~
+Door 3 0 0 54076 0 0
+~
+~
+End
+
+#54076
+Name A Rubble Strewn Corridor~
+Descr
+~
+Sector 39
+Door 1 0 0 54075 0 0
+~
+~
+Door 3 0 0 54077 0 0
+~
+~
+End
+
+#54077
+Name A Rubble Strewn Corridor~
+Descr
+~
+Sector 39
+Door 1 0 0 54076 0 0
+~
+~
+Door 5 0 0 54078 0 0
+~
+~
+End
+
+#54078
+Name A Rubble Strewn Corridor~
+Descr
+~
+Sector 39
+Door 4 0 0 54077 0 0
+~
+~
+Door 5 0 0 54079 0 0
+~
+~
+End
+
+#54079
+Name ~
+Descr
+~
+Sector 39
+Door 3 0 0 54080 0 0
+~
+~
+Door 4 0 0 54078 0 0
+~
+~
+End
+
+#54080
+Name A Rubble Strewn Corridor~
+Descr
+~
+Sector 37
+Door 1 0 0 54079 0 0
+~
+~
+End
+
+#54081
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 0 0 0 54087 0 0
+~
+~
+Door 2 0 0 54071 0 0
+~
+~
+Door 3 0 0 54082 0 0
+~
+~
+End
+
+#54082
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 0 0 0 54090 0 0
+~
+~
+Door 1 0 0 54081 0 0
+~
+~
+Door 2 0 0 54072 0 0
+~
+~
+Door 3 0 0 54083 0 0
+~
+~
+End
+
+#54083
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 0 0 0 54089 0 0
+~
+~
+Door 1 0 0 54082 0 0
+~
+~
+Door 3 0 0 54084 0 0
+~
+~
+End
+
+#54084
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 0 0 0 54088 0 0
+~
+~
+Door 1 0 0 54083 0 0
+~
+~
+Door 2 0 0 54074 0 0
+~
+~
+End
+
+#54085
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 1 0 0 54086 0 0
+~
+~
+Door 2 0 0 54083 0 0
+~
+~
+End
+
+#54086
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 1 0 0 54087 0 0
+~
+~
+Door 2 0 0 54082 0 0
+~
+~
+Door 3 0 0 54085 0 0
+~
+~
+End
+
+#54087
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 2 0 0 54081 0 0
+~
+~
+Door 3 0 0 54086 0 0
+~
+~
+End
+
+#54088
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 0 0 0 54091 0 0
+~
+~
+Door 1 0 0 54089 0 0
+~
+~
+Door 2 0 0 54084 0 0
+~
+~
+Door 3 0 0 54096 0 0
+~
+~
+End
+
+#54089
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 0 0 0 54093 0 0
+~
+~
+Door 1 0 0 54090 0 0
+~
+~
+Door 2 0 0 54083 0 0
+~
+~
+Door 3 0 0 54088 0 0
+~
+~
+End
+
+#54090
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 0 0 0 54094 0 0
+~
+~
+Door 2 0 0 54082 0 0
+~
+~
+Door 3 0 0 54089 0 0
+~
+~
+End
+
+#54091
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 0 0 0 54092 0 0
+~
+~
+Door 1 0 0 54093 0 0
+~
+~
+Door 2 0 0 54088 0 0
+~
+~
+Door 3 0 0 54097 0 0
+~
+~
+End
+
+#54092
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 0 259 0 54098 40 40
+~
+rubble~
+Door 2 0 0 54091 0 0
+~
+~
+End
+
+#54093
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 1 0 0 54094 0 0
+~
+~
+Door 2 0 0 54089 0 0
+~
+~
+Door 3 0 0 54091 0 0
+~
+~
+End
+
+#54094
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 1 0 0 54095 0 0
+~
+~
+Door 2 0 0 54090 0 0
+~
+~
+Door 3 0 0 54093 0 0
+~
+~
+End
+
+#54095
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 3 0 0 54094 0 0
+~
+~
+End
+
+#54096
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 0 0 0 54097 0 0
+~
+~
+Door 1 0 0 54088 0 0
+~
+~
+End
+
+#54097
+Name A Large Cavern~
+Descr
+~
+Sector 39
+Door 1 0 0 54091 0 0
+~
+~
+Door 2 0 0 54096 0 0
+~
+~
+End
+
+#54098
+Name A Small Side Cavern~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54099 0 0
+~
+~
+Door 2 259 0 54092 40 40
+~
+rubble~
+End
+
+#54099
+Name A Small Side Cavern~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54100 0 0
+~
+~
+Door 2 0 0 54098 0 0
+~
+~
+Door 3 0 0 54104 0 0
+~
+~
+End
+
+#54100
+Name A Small Side Cavern~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54101 0 0
+~
+~
+Door 2 0 0 54099 0 0
+~
+~
+Door 3 0 0 54103 0 0
+~
+~
+End
+
+#54101
+Name A Small Side Cavern~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 2 0 0 54100 0 0
+~
+~
+Door 3 0 0 54102 0 0
+~
+~
+End
+
+#54102
+Name A Small Side Cavern~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 1 0 0 54101 0 0
+~
+~
+Door 2 0 0 54103 0 0
+~
+~
+Door 3 0 0 54105 0 0
+~
+~
+End
+
+#54103
+Name A Small Side Cavern~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54102 0 0
+~
+~
+Door 1 0 0 54100 0 0
+~
+~
+Door 2 0 0 54104 0 0
+~
+~
+Door 3 0 0 54106 0 0
+~
+~
+End
+
+#54104
+Name A Small Side Cavern~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54103 0 0
+~
+~
+Door 1 0 0 54099 0 0
+~
+~
+Door 3 0 0 54107 0 0
+~
+~
+End
+
+#54105
+Name A Small Side Cavern~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 1 0 0 54102 0 0
+~
+~
+Door 2 0 0 54106 0 0
+~
+~
+End
+
+#54106
+Name A Small Side Cavern~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54105 0 0
+~
+~
+Door 1 0 0 54103 0 0
+~
+~
+Door 2 0 0 54107 0 0
+~
+~
+End
+
+#54107
+Name A Small Side Cavern~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54106 0 0
+~
+~
+Door 1 0 0 54104 0 0
+~
+~
+Door 3 0 0 54109 0 0
+~
+~
+End
+
+#54109
+Name A Small Tunnel~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 1 0 0 54107 0 0
+~
+~
+Door 3 0 0 54110 0 0
+~
+~
+End
+
+#54110
+Name A Small Tunnel~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 1 0 0 54109 0 0
+~
+~
+Door 2 0 0 54111 0 0
+~
+~
+End
+
+#54111
+Name A Small Tunnel~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54110 0 0
+~
+~
+Door 2 0 0 54112 0 0
+~
+~
+End
+
+#54112
+Name A Small Tunnel~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54111 0 0
+~
+~
+Door 2 0 0 54113 0 0
+~
+~
+End
+
+#54113
+Name A Small Tunnel~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54112 0 0
+~
+~
+Door 3 0 0 54114 0 0
+~
+~
+End
+
+#54114
+Name A Small Tunnel~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 1 0 0 54113 0 0
+~
+~
+Door 3 0 0 54115 0 0
+~
+~
+End
+
+#54115
+Name A Small Tunnel~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 1 0 0 54114 0 0
+~
+~
+Door 2 0 0 54116 0 0
+~
+~
+End
+
+#54116
+Name A Small Tunnel~
+Descr
+There is nothing special about this cavern but muddy ground and wet
+walls. The builder might have try to connect somewhere, but it's so dark in
+here that it seems like there is no end. 
+~
+Sector 39
+Door 0 0 0 54115 0 0
+~
+~
+End
+
+#54120
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54121 0 0
+~
+~
+Door 3 0 0 54150 0 0
+~
+~
+End
+
+#54121
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Reset M 54152 1 100
+Door 1 0 0 54149 0 0
+~
+~
+Door 3 0 0 54120 0 0
+~
+~
+End
+
+#54122
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags2 6
+Flags 16384
+Sector 39
+Reset M 54153 1 100
+Door 0 0 0 54131 0 0
+~
+~
+Door 1 0 0 54200 0 0
+~
+~
+Door 2 0 0 54147 0 0
+~
+~
+Door 3 0 0 54142 0 0
+~
+~
+Door 4 259 0 54178 30 30
+~
+crypt~
+End
+
+#54123
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54125 0 0
+~
+~
+Door 3 0 0 54151 0 0
+~
+~
+End
+
+#54125
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54153 1 100
+Door 1 0 0 54126 0 0
+~
+~
+Door 3 0 0 54123 0 0
+~
+~
+End
+
+#54126
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54127 0 0
+~
+~
+Door 3 0 0 54125 0 0
+~
+~
+End
+
+#54127
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54128 0 0
+~
+~
+Door 3 0 0 54126 0 0
+~
+~
+Door 4 259 0 54246 30 30
+~
+hideout~
+End
+
+#54128
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54129 0 0
+~
+~
+Door 3 0 0 54127 0 0
+~
+~
+End
+
+#54129
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54152 1 100
+Door 1 0 0 54130 0 0
+~
+~
+Door 3 0 0 54128 0 0
+~
+~
+End
+
+#54130
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54199 0 0
+~
+~
+Door 3 0 0 54129 0 0
+~
+~
+End
+
+#54131
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54132 0 0
+~
+~
+Door 2 0 0 54122 0 0
+~
+~
+End
+
+#54132
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54133 0 0
+~
+~
+Door 2 0 0 54131 0 0
+~
+~
+End
+
+#54133
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Reset M 54153 1 100
+Door 1 0 0 54134 0 0
+~
+~
+Door 2 0 0 54132 0 0
+~
+~
+End
+
+#54134
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54135 0 0
+~
+~
+Door 3 0 0 54133 0 0
+~
+~
+End
+
+#54135
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54136 0 0
+~
+~
+Door 3 0 0 54134 0 0
+~
+~
+End
+
+#54136
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54163 0 0
+~
+~
+Door 3 0 0 54135 0 0
+~
+~
+End
+
+#54137
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Reset M 54152 5 75
+Door 1 0 0 54138 0 0
+~
+~
+Door 3 0 0 54200 0 0
+~
+~
+End
+
+#54138
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54139 0 0
+~
+~
+Door 3 0 0 54137 0 0
+~
+~
+End
+
+#54139
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54140 0 0
+~
+~
+Door 3 0 0 54138 0 0
+~
+~
+End
+
+#54140
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Reset M 54152 1 100
+Door 0 0 0 54141 0 0
+~
+~
+Door 2 0 0 54139 0 0
+~
+~
+End
+
+#54141
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54163 0 0
+~
+~
+Door 2 0 0 54140 0 0
+~
+~
+End
+
+#54142
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54122 0 0
+~
+~
+Door 3 0 0 54143 0 0
+~
+~
+End
+
+#54143
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54142 0 0
+~
+~
+Door 3 0 0 54144 0 0
+~
+~
+End
+
+#54144
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Reset M 54152 1 100
+Door 1 0 0 54143 0 0
+~
+~
+Door 2 0 0 54145 0 0
+~
+~
+End
+
+#54145
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Reset M 54153 1 100
+Door 0 0 0 54144 0 0
+~
+~
+Door 2 0 0 54146 0 0
+~
+~
+End
+
+#54146
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54145 0 0
+~
+~
+Door 2 0 0 54150 0 0
+~
+~
+End
+
+#54147
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54122 0 0
+~
+~
+Door 2 0 0 54148 0 0
+~
+~
+End
+
+#54148
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54147 0 0
+~
+~
+Door 2 0 0 54149 0 0
+~
+~
+End
+
+#54149
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Reset M 54153 1 100
+Door 0 0 0 54148 0 0
+~
+~
+Door 3 0 0 54121 0 0
+~
+~
+End
+
+#54150
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 37
+Door 0 0 0 54146 0 0
+~
+~
+Door 1 0 0 54120 0 0
+~
+~
+End
+
+#54151
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54152 0 0
+~
+~
+Door 1 0 0 54123 0 0
+~
+~
+End
+
+#54152
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54153 0 0
+~
+~
+Door 1 0 0 54191 0 0
+~
+~
+Door 2 0 0 54151 0 0
+~
+~
+End
+
+#54153
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54155 0 0
+~
+~
+Door 1 0 0 54190 0 0
+~
+~
+Door 2 0 0 54152 0 0
+~
+~
+End
+
+#54155
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54153 1 100
+Door 0 0 0 54156 0 0
+~
+~
+Door 1 0 0 54175 0 0
+~
+~
+Door 2 0 0 54153 0 0
+~
+~
+End
+
+#54156
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54157 0 0
+~
+~
+Door 1 0 0 54174 0 0
+~
+~
+Door 2 0 0 54155 0 0
+~
+~
+End
+
+#54157
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54158 0 0
+~
+~
+Door 2 0 0 54156 0 0
+~
+~
+End
+
+#54158
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54159 0 0
+~
+~
+Door 3 0 0 54157 0 0
+~
+~
+End
+
+#54159
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54152 1 100
+Door 1 0 0 54160 0 0
+~
+~
+Door 3 0 0 54158 0 0
+~
+~
+End
+
+#54160
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54161 0 0
+~
+~
+Door 3 0 0 54159 0 0
+~
+~
+End
+
+#54161
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54162 0 0
+~
+~
+Door 3 0 0 54160 0 0
+~
+~
+End
+
+#54162
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54152 1 100
+Door 1 0 0 54164 0 0
+~
+~
+Door 3 0 0 54161 0 0
+~
+~
+End
+
+#54163
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Reset M 54153 1 100
+Door 2 0 0 54141 0 0
+~
+~
+Door 3 0 0 54136 0 0
+~
+~
+End
+
+#54164
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54165 0 0
+~
+~
+Door 3 0 0 54162 0 0
+~
+~
+End
+
+#54165
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54166 0 0
+~
+~
+Door 3 0 0 54164 0 0
+~
+~
+End
+
+#54166
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 2 0 0 54167 0 0
+~
+~
+Door 3 0 0 54165 0 0
+~
+~
+End
+
+#54167
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54166 0 0
+~
+~
+Door 2 0 0 54182 0 0
+~
+~
+Door 3 0 0 54168 0 0
+~
+~
+End
+
+#54168
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54167 0 0
+~
+~
+Door 3 0 0 54169 0 0
+~
+~
+End
+
+#54169
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54152 1 100
+Door 1 0 0 54168 0 0
+~
+~
+Door 2 0 0 54180 0 0
+~
+~
+Door 3 0 0 54170 0 0
+~
+~
+End
+
+#54170
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54169 0 0
+~
+~
+Door 3 0 0 54171 0 0
+~
+~
+End
+
+#54171
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54170 0 0
+~
+~
+Door 2 0 0 54178 0 0
+~
+~
+Door 3 0 0 54172 0 0
+~
+~
+End
+
+#54172
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54171 0 0
+~
+~
+Door 3 0 0 54173 0 0
+~
+~
+End
+
+#54173
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54172 0 0
+~
+~
+Door 2 0 0 54176 0 0
+~
+~
+Door 3 0 0 54174 0 0
+~
+~
+End
+
+#54174
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54173 0 0
+~
+~
+Door 3 0 0 54156 0 0
+~
+~
+End
+
+#54175
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54176 0 0
+~
+~
+Door 3 0 0 54155 0 0
+~
+~
+End
+
+#54176
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54173 0 0
+~
+~
+Door 1 0 0 54177 0 0
+~
+~
+Door 2 0 0 54189 0 0
+~
+~
+Door 3 0 0 54175 0 0
+~
+~
+End
+
+#54177
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54178 0 0
+~
+~
+Door 3 0 0 54176 0 0
+~
+~
+End
+
+#54178
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags2 6
+Flags 16386
+Sector 39
+Reset M 54151 1 100
+Reset O 54151 -3 1
+Door 0 0 0 54171 0 0
+~
+~
+Door 1 0 0 54179 0 0
+~
+~
+Door 2 0 0 54187 0 0
+~
+~
+Door 3 0 0 54177 0 0
+~
+~
+End
+
+#54179
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54180 0 0
+~
+~
+Door 3 0 0 54178 0 0
+~
+~
+End
+
+#54180
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54169 0 0
+~
+~
+Door 1 0 0 54181 0 0
+~
+~
+Door 2 0 0 54185 0 0
+~
+~
+Door 3 0 0 54179 0 0
+~
+~
+End
+
+#54181
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54182 0 0
+~
+~
+Door 3 0 0 54180 0 0
+~
+~
+End
+
+#54182
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54153 1 100
+Door 0 0 0 54167 0 0
+~
+~
+Door 2 0 0 54183 0 0
+~
+~
+Door 3 0 0 54181 0 0
+~
+~
+End
+
+#54183
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54182 0 0
+~
+~
+Door 2 0 0 54198 0 0
+~
+~
+Door 3 0 0 54184 0 0
+~
+~
+End
+
+#54184
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54183 0 0
+~
+~
+Door 3 0 0 54185 0 0
+~
+~
+End
+
+#54185
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54180 0 0
+~
+~
+Door 1 0 0 54184 0 0
+~
+~
+Door 2 0 0 54196 0 0
+~
+~
+Door 3 0 0 54186 0 0
+~
+~
+End
+
+#54186
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54185 0 0
+~
+~
+Door 3 0 0 54187 0 0
+~
+~
+End
+
+#54187
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54178 0 0
+~
+~
+Door 1 0 0 54186 0 0
+~
+~
+Door 2 0 0 54194 0 0
+~
+~
+Door 3 0 0 54188 0 0
+~
+~
+End
+
+#54188
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54187 0 0
+~
+~
+Door 3 0 0 54189 0 0
+~
+~
+End
+
+#54189
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54153 1 100
+Door 0 0 0 54176 0 0
+~
+~
+Door 1 0 0 54188 0 0
+~
+~
+Door 2 0 0 54192 0 0
+~
+~
+Door 3 0 0 54190 0 0
+~
+~
+End
+
+#54190
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54189 0 0
+~
+~
+Door 3 0 0 54153 0 0
+~
+~
+End
+
+#54191
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54192 0 0
+~
+~
+Door 3 0 0 54152 0 0
+~
+~
+End
+
+#54192
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54152 1 100
+Door 0 0 0 54189 0 0
+~
+~
+Door 1 0 0 54193 0 0
+~
+~
+Door 3 0 0 54191 0 0
+~
+~
+End
+
+#54193
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54194 0 0
+~
+~
+Door 3 0 0 54192 0 0
+~
+~
+End
+
+#54194
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54153 1 100
+Door 0 0 0 54187 0 0
+~
+~
+Door 1 0 0 54195 0 0
+~
+~
+Door 3 0 0 54193 0 0
+~
+~
+End
+
+#54195
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Reset M 54152 1 100
+Door 1 0 0 54196 0 0
+~
+~
+Door 3 0 0 54194 0 0
+~
+~
+End
+
+#54196
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54185 0 0
+~
+~
+Door 1 0 0 54197 0 0
+~
+~
+Door 3 0 0 54195 0 0
+~
+~
+End
+
+#54197
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54198 0 0
+~
+~
+Door 3 0 0 54196 0 0
+~
+~
+End
+
+#54198
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54183 0 0
+~
+~
+Door 2 0 0 54199 0 0
+~
+~
+Door 3 0 0 54197 0 0
+~
+~
+End
+
+#54199
+Name An Underground Hideout~
+Descr
+This area is where the demon use as a camp for the troopers. In here, you
+can see demon troopers getting ready for their next battle with the other
+alignments. There are also exhausted warriors resting on the ground. Beware,
+do not step on the resting one for they will slay you like one angry beast. 
+~
+Flags 16384
+Sector 39
+Door 0 0 0 54198 0 0
+~
+~
+Door 3 0 0 54130 0 0
+~
+~
+End
+
+#54200
+Name A Demon's Lair~
+Descr
+As soon as you step into this place, the sensation of death and anger
+fill your mind. All you can see here is nothing other than the wounded
+soldiers and the dead one lying helplessly on this mudding ground. It makes
+you wonder why creatures fight eachothers. 
+~
+Flags 16384
+Sector 39
+Door 1 0 0 54137 0 0
+~
+~
+Door 3 0 0 54122 0 0
+~
+~
+End
+
+#54201
+Name The Fourth Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54201 1 100
+Door 0 0 0 54202 0 0
+~
+~
+Door 1 0 0 54211 0 0
+~
+~
+End
+
+#54202
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset O 54001 -5 100
+Door 0 0 0 54203 0 0
+~
+~
+Door 1 0 0 54210 0 0
+~
+~
+Door 2 0 0 54201 0 0
+~
+~
+End
+
+#54203
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54204 0 0
+~
+~
+Door 1 0 0 54209 0 0
+~
+~
+Door 2 0 0 54202 0 0
+~
+~
+End
+
+#54204
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54205 0 0
+~
+~
+Door 1 0 0 54208 0 0
+~
+~
+Door 2 0 0 54203 0 0
+~
+~
+End
+
+#54205
+Name The First Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54205 1 100
+Reset O 54205 -1 1
+Reset M 54216 1 100
+Door 1 0 0 54207 0 0
+~
+~
+Door 2 0 0 54204 0 0
+~
+~
+End
+
+#54206
+Name ~
+Descr
+~
+Door 3 0 0 54205 0 0
+~
+~
+End
+
+#54207
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54216 0 0
+~
+~
+Door 2 0 0 54208 0 0
+~
+~
+Door 3 0 0 54205 0 0
+~
+~
+End
+
+#54208
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54207 0 0
+~
+~
+Door 1 0 0 54215 0 0
+~
+~
+Door 2 0 0 54209 0 0
+~
+~
+Door 3 0 0 54204 0 0
+~
+~
+End
+
+#54209
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54216 1 100
+Door 0 0 0 54208 0 0
+~
+~
+Door 1 0 0 54214 0 0
+~
+~
+Door 2 0 0 54210 0 0
+~
+~
+Door 3 0 0 54203 0 0
+~
+~
+End
+
+#54210
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54209 0 0
+~
+~
+Door 1 0 0 54213 0 0
+~
+~
+Door 2 0 0 54211 0 0
+~
+~
+Door 3 0 0 54202 0 0
+~
+~
+End
+
+#54211
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54216 1 100
+Door 0 0 0 54210 0 0
+~
+~
+Door 1 0 0 54212 0 0
+~
+~
+Door 3 0 0 54201 0 0
+~
+~
+End
+
+#54212
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54216 1 100
+Door 0 0 0 54213 0 0
+~
+~
+Door 1 0 0 54221 0 0
+~
+~
+Door 3 0 0 54211 0 0
+~
+~
+End
+
+#54213
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54214 0 0
+~
+~
+Door 1 0 0 54220 0 0
+~
+~
+Door 2 0 0 54212 0 0
+~
+~
+Door 3 0 0 54210 0 0
+~
+~
+End
+
+#54214
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54216 1 100
+Door 0 0 0 54215 0 0
+~
+~
+Door 1 0 0 54219 0 0
+~
+~
+Door 2 0 0 54213 0 0
+~
+~
+Door 3 0 0 54209 0 0
+~
+~
+End
+
+#54215
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54216 0 0
+~
+~
+Door 1 0 0 54218 0 0
+~
+~
+Door 2 0 0 54214 0 0
+~
+~
+Door 3 0 0 54208 0 0
+~
+~
+End
+
+#54216
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54216 1 100
+Door 1 0 0 54217 0 0
+~
+~
+Door 2 0 0 54215 0 0
+~
+~
+Door 3 0 0 54207 0 0
+~
+~
+End
+
+#54217
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54226 0 0
+~
+~
+Door 2 0 0 54218 0 0
+~
+~
+Door 3 0 0 54216 0 0
+~
+~
+End
+
+#54218
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54217 0 0
+~
+~
+Door 1 0 0 54225 0 0
+~
+~
+Door 2 0 0 54219 0 0
+~
+~
+Door 3 0 0 54215 0 0
+~
+~
+End
+
+#54219
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54218 0 0
+~
+~
+Door 1 0 0 54224 0 0
+~
+~
+Door 2 0 0 54220 0 0
+~
+~
+Door 3 0 0 54214 0 0
+~
+~
+End
+
+#54220
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54219 0 0
+~
+~
+Door 1 0 0 54223 0 0
+~
+~
+Door 2 0 0 54221 0 0
+~
+~
+Door 3 0 0 54213 0 0
+~
+~
+End
+
+#54221
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54220 0 0
+~
+~
+Door 1 0 0 54222 0 0
+~
+~
+Door 3 0 0 54212 0 0
+~
+~
+End
+
+#54222
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54223 0 0
+~
+~
+Door 1 0 0 54231 0 0
+~
+~
+Door 3 0 0 54221 0 0
+~
+~
+End
+
+#54223
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54224 0 0
+~
+~
+Door 1 0 0 54230 0 0
+~
+~
+Door 2 0 0 54222 0 0
+~
+~
+Door 3 0 0 54220 0 0
+~
+~
+End
+
+#54224
+Name The Center of the Plane of Hate~
+Descr
+This is the center of the Plane of Fear. You notice your wounds begin to
+heal. You hear echos of people screaming and crying in the distance. 
+~
+Flags2 6
+Flags 16384
+Sector 34
+Reset M 54216 1 100
+Reset O 54224 -5 100
+Door 0 0 0 54225 0 0
+~
+~
+Door 1 0 0 54229 0 0
+~
+~
+Door 2 0 0 54223 0 0
+~
+~
+Door 3 0 0 54219 0 0
+~
+~
+End
+
+#54225
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54226 0 0
+~
+~
+Door 1 0 0 54228 0 0
+~
+~
+Door 2 0 0 54224 0 0
+~
+~
+Door 3 0 0 54218 0 0
+~
+~
+End
+
+#54226
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54216 1 100
+Door 1 0 0 54227 0 0
+~
+~
+Door 2 0 0 54225 0 0
+~
+~
+Door 3 0 0 54217 0 0
+~
+~
+End
+
+#54227
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54236 0 0
+~
+~
+Door 2 0 0 54228 0 0
+~
+~
+Door 3 0 0 54226 0 0
+~
+~
+End
+
+#54228
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54227 0 0
+~
+~
+Door 1 0 0 54235 0 0
+~
+~
+Door 2 0 0 54229 0 0
+~
+~
+Door 3 0 0 54225 0 0
+~
+~
+End
+
+#54229
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54216 1 100
+Door 0 0 0 54228 0 0
+~
+~
+Door 1 0 0 54234 0 0
+~
+~
+Door 2 0 0 54230 0 0
+~
+~
+Door 3 0 0 54224 0 0
+~
+~
+End
+
+#54230
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54229 0 0
+~
+~
+Door 1 0 0 54233 0 0
+~
+~
+Door 2 0 0 54231 0 0
+~
+~
+Door 3 0 0 54223 0 0
+~
+~
+End
+
+#54231
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54230 0 0
+~
+~
+Door 1 0 0 54232 0 0
+~
+~
+Door 3 0 0 54222 0 0
+~
+~
+End
+
+#54232
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54233 0 0
+~
+~
+Door 1 0 0 54241 0 0
+~
+~
+Door 3 0 0 54231 0 0
+~
+~
+End
+
+#54233
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54234 0 0
+~
+~
+Door 1 0 0 54240 0 0
+~
+~
+Door 2 0 0 54232 0 0
+~
+~
+Door 3 0 0 54230 0 0
+~
+~
+End
+
+#54234
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54235 0 0
+~
+~
+Door 1 0 0 54239 0 0
+~
+~
+Door 2 0 0 54233 0 0
+~
+~
+Door 3 0 0 54229 0 0
+~
+~
+End
+
+#54235
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54236 0 0
+~
+~
+Door 1 0 0 54238 0 0
+~
+~
+Door 2 0 0 54234 0 0
+~
+~
+Door 3 0 0 54228 0 0
+~
+~
+End
+
+#54236
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54237 0 0
+~
+~
+Door 2 0 0 54235 0 0
+~
+~
+Door 3 0 0 54227 0 0
+~
+~
+End
+
+#54237
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54246 0 0
+~
+~
+Door 2 0 0 54238 0 0
+~
+~
+Door 3 0 0 54236 0 0
+~
+~
+End
+
+#54238
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54237 0 0
+~
+~
+Door 1 0 0 54245 0 0
+~
+~
+Door 2 0 0 54239 0 0
+~
+~
+Door 3 0 0 54235 0 0
+~
+~
+End
+
+#54239
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54238 0 0
+~
+~
+Door 1 0 0 54244 0 0
+~
+~
+Door 2 0 0 54240 0 0
+~
+~
+Door 3 0 0 54234 0 0
+~
+~
+End
+
+#54240
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54239 0 0
+~
+~
+Door 1 0 0 54243 0 0
+~
+~
+Door 2 0 0 54241 0 0
+~
+~
+Door 3 0 0 54233 0 0
+~
+~
+End
+
+#54241
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54240 0 0
+~
+~
+Door 1 0 0 54242 0 0
+~
+~
+Door 3 0 0 54232 0 0
+~
+~
+End
+
+#54242
+Name The Third Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54242 1 100
+Reset O 54242 -1 1
+Door 0 0 0 54243 0 0
+~
+~
+Door 3 0 0 54241 0 0
+~
+~
+End
+
+#54243
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54244 0 0
+~
+~
+Door 2 0 0 54242 0 0
+~
+~
+Door 3 0 0 54240 0 0
+~
+~
+End
+
+#54244
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54245 0 0
+~
+~
+Door 2 0 0 54243 0 0
+~
+~
+Door 3 0 0 54239 0 0
+~
+~
+End
+
+#54245
+Name The Plane of Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54216 1 100
+Door 0 0 0 54246 0 0
+~
+~
+Door 2 0 0 54244 0 0
+~
+~
+Door 3 0 0 54238 0 0
+~
+~
+End
+
+#54246
+Name The Second Hate~
+Descr
+You are within the Plane of Hate. The area looks as if it may have been a
+warzone at some point in time. Crumbled buildings and artifacts lay within
+the ruins of these wastelands. 
+~
+Flags 16384
+Sector 32
+Reset M 54246 1 100
+Reset O 54246 -1 1
+Reset M 54216 1 100
+Reset M 54216 1 100
+Door 2 0 0 54245 0 0
+~
+~
+Door 3 0 0 54237 0 0
+~
+~
+Door 5 259 0 54127 30 30
+~
+hideout~
+End
+
+#54247
+Name ~
+Descr
+~
+End
+
+#54248
+Name ~
+Descr
+~
+End
+
+#54249
+Name ~
+Descr
+~
+End
+
+#54250
+Name ~
+Descr
+~
+End
+
+#54251
+Name ~
+Descr
+~
+End
+
+#54252
+Name ~
+Descr
+~
+End
+
+#54253
+Name ~
+Descr
+~
+End
+
+#54254
+Name ~
+Descr
+~
+End
+
+#54255
+Name ~
+Descr
+~
+End
+
+#54256
+Name ~
+Descr
+~
+End
+
+#54257
+Name ~
+Descr
+~
+End
+
+#54258
+Name ~
+Descr
+~
+End
+
+#54259
+Name ~
+Descr
+~
+End
+
+#54260
+Name ~
+Descr
+~
+End
+
+#54261
+Name ~
+Descr
+~
+End
+
+#54262
+Name ~
+Descr
+~
+End
+
+#54263
+Name ~
+Descr
+~
+End
+
+#54264
+Name ~
+Descr
+~
+End
+
+#54265
+Name ~
+Descr
+~
+End
+
+#54266
+Name ~
+Descr
+~
+End
+
+#54267
+Name ~
+Descr
+~
+End
+
+#54268
+Name ~
+Descr
+~
+End
+
+#54269
+Name ~
+Descr
+~
+End
+
+#54270
+Name ~
+Descr
+~
+End
+
+#54271
+Name ~
+Descr
+~
+End
+
+#54272
+Name ~
+Descr
+~
+End
+
+#54273
+Name ~
+Descr
+~
+End
+
+#54274
+Name ~
+Descr
+~
+End
+
+#54275
+Name ~
+Descr
+~
+End
+
+#54276
+Name ~
+Descr
+~
+End
+
+#54277
+Name ~
+Descr
+~
+End
+
+#54278
+Name ~
+Descr
+~
+End
+
+#54279
+Name ~
+Descr
+~
+End
+
+#54280
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

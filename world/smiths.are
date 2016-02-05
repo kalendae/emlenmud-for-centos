@@ -1,0 +1,5749 @@
+#AREADATA 
+Name Subterranean Smiths~
+Repop The sound of hammers ringing against stone echos through the room.
+~
+SCZone 0
+Builders  Tonik~
+VNUMs 30601 30900
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#30674
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#30679
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#30686
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#30692
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#30698
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#30702
+Name elevator operator~
+Short an elevator operator~
+Long 
+An elevator operator is ready to take you to the level of your choice.
+~
+AMax 1
+ActBits 2
+ActBits4 5
+Affect_By 533120
+AffectTWO 8
+Level 500
+Sex 1
+MobType 0
+Hp 1000
+Guard 0
+End
+
+#30711
+Name apprentice smith~
+Short an apprentice smith~
+Long 
+An apprentice smith moves about completing his assigned tasks.
+~
+AMax 9
+NHeight 66
+Affect_By 520
+Money 150
+Level 20
+Sex 1
+MobType 2
+Guard 0
+End
+
+#30712
+Name junior smith~
+Short a junior smith~
+Long 
+An junior smith moves about completing his assigned tasks.
+~
+AMax 9
+NHeight 76
+Affect_By 520
+Money 250
+Level 40
+Sex 1
+MobType 2
+Guard 0
+End
+
+#30714
+Name bat~
+Short a bat~
+Long 
+A bat flutters past.
+~
+AMax 3
+ActBits 8
+Affect_By 520
+Level 10
+Sex 1
+MobType 7
+Guard 0
+End
+
+#30735
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 375
+Sex 1
+Guard 0
+End
+
+#30758
+Name senior smith~
+Short a senior smith~
+Long 
+A senior smith is here, in control of the whole mine.
+~
+AMax 1
+NHeight 86
+ActBits 258
+Affect_By 520
+Money 500
+Level 125
+Sex 1
+Guard 0
+ASklTaught 0 577
+ASklTaught 1 108
+ASklTaught 2 92
+ASklTaught 3 132
+End
+
+#30775
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#30789
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#30805
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+MobType 2
+Guard 0
+End
+
+#30864
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#30874
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#30882
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 8
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#30890
+Name master smith~
+Short a master smith~
+Long 
+A master smith is here directing his minions.
+~
+AMax 1
+NHeight 86
+ActBits 2
+Affect_By 520
+Money 500
+Level 100
+Sex 1
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#30702
+Name elevator key~
+Short elevator key~
+Descr
+An elevator key.
+[0;36m~
+Type 18
+Extra 16384
+Wear 1
+Weight 0
+Cost 0
+End
+
+#30703
+Name tunnel shaft~
+Short a tunnel shaft~
+Descr
+A tunnel shaft that leads further down into the mine.
+[0;36m~
+Type 12
+Wear 0
+Values 4 30706 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#30704
+Name tunnel shaft~
+Short a tunnel shaft~
+Descr
+A tunnel shaft that leads further down into the mine.
+[0;36m~
+Type 12
+Wear 0
+Values 4 30812 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#30705
+Name tunnel shaft~
+Short a tunnel shaft~
+Descr
+A tunnel shaft that leads further down into the mine.
+[0;36m~
+Type 12
+Wear 0
+Values 4 30895 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#30706
+Name tunnel shaft~
+Short a tunnel shaft~
+Descr
+A tunnel shaft that leads out of the mine.
+[0;36m~
+Type 12
+Wear 0
+Values 4 30703 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#30707
+Name hammer smith forge~
+Short a [1m[30mcharred forg[37mi[30mng[0m hammer~
+Descr
+A hammer lies here, ready for forging.
+[0;36m~
+Type 5
+Extra 524289
+Wear 24577
+Values 0 40 0 8 0 0 0 3 5 0 0
+Weight 30
+Cost 1000
+End
+
+#30754
+Name shadowy spectral ring~
+Short a [37ms[1m[30mhadow[0m[37my [1ms[30mpectra[37ml[0m ring~
+Descr
+A spectral ring lies on the ground
+[0;36m~
+Type 9
+Wear 3
+Weight 0
+Cost 0
+Affect 13 5 1 0 0
+Affect 14 8 1 0 0
+Affect 20 5 1 0 0
+End
+
+#30758
+Name note~
+Short a note~
+Descr
+A note laying on the floor with writing "God has all the answers, seek him and the fog will clear"
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#30812
+Name tunnel shaft~
+Short a tunnel shaft~
+Descr
+A tunnel shaft that leads out of the mine.
+[0;36m~
+Type 12
+Wear 0
+Values 4 30704 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#30895
+Name tunnel shaft~
+Short a tunnel shaft~
+Descr
+A tunnel shaft that leads out of the mine.
+[0;36m~
+Type 12
+Wear 0
+Values 4 30705 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#30601
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30655 0 0
+~
+~
+Door 2 0 0 30895 0 0
+~
+~
+Door 3 0 0 30602 0 0
+~
+~
+End
+
+#30602
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30601 0 0
+~
+~
+Door 3 0 0 30603 0 0
+~
+~
+End
+
+#30603
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30604 0 0
+~
+~
+Door 1 0 0 30602 0 0
+~
+~
+End
+
+#30604
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30605 0 0
+~
+~
+Door 2 0 0 30603 0 0
+~
+~
+End
+
+#30605
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30606 0 0
+~
+~
+Door 2 0 0 30604 0 0
+~
+~
+End
+
+#30606
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 2 0 0 30605 0 0
+~
+~
+Door 3 0 0 30607 0 0
+~
+~
+End
+
+#30607
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30606 0 0
+~
+~
+Door 3 0 0 30608 0 0
+~
+~
+End
+
+#30608
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30711 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 1 0 0 30607 0 0
+~
+~
+Door 3 0 0 30609 0 0
+~
+~
+End
+
+#30609
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30608 0 0
+~
+~
+Door 3 0 0 30610 0 0
+~
+~
+End
+
+#30610
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30611 0 0
+~
+~
+Door 1 0 0 30609 0 0
+~
+~
+End
+
+#30611
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30612 0 0
+~
+~
+Door 2 0 0 30610 0 0
+~
+~
+End
+
+#30612
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30613 0 0
+~
+~
+Door 2 0 0 30611 0 0
+~
+~
+End
+
+#30613
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30712 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30614 0 0
+~
+~
+Door 2 0 0 30612 0 0
+~
+~
+Door 3 0 0 30648 0 0
+~
+~
+End
+
+#30614
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30615 0 0
+~
+~
+Door 2 0 0 30613 0 0
+~
+~
+End
+
+#30615
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30616 0 0
+~
+~
+Door 2 0 0 30614 0 0
+~
+~
+End
+
+#30616
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30617 0 0
+~
+~
+Door 3 0 0 30615 0 0
+~
+~
+End
+
+#30617
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30618 0 0
+~
+~
+Door 3 0 0 30616 0 0
+~
+~
+End
+
+#30618
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30714 1 100
+Door 1 0 0 30619 0 0
+~
+~
+Door 3 0 0 30617 0 0
+~
+~
+End
+
+#30619
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30620 0 0
+~
+~
+Door 3 0 0 30618 0 0
+~
+~
+End
+
+#30620
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30621 0 0
+~
+~
+Door 3 0 0 30619 0 0
+~
+~
+End
+
+#30621
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30622 0 0
+~
+~
+Door 1 0 0 30640 0 0
+~
+~
+Door 3 0 0 30620 0 0
+~
+~
+End
+
+#30622
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30623 0 0
+~
+~
+Door 2 0 0 30621 0 0
+~
+~
+End
+
+#30623
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30624 0 0
+~
+~
+Door 2 0 0 30622 0 0
+~
+~
+End
+
+#30624
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30626 0 0
+~
+~
+Door 2 0 0 30623 0 0
+~
+~
+End
+
+#30626
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30627 0 0
+~
+~
+Door 2 0 0 30624 0 0
+~
+~
+End
+
+#30627
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30712 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30628 0 0
+~
+~
+Door 2 0 0 30626 0 0
+~
+~
+End
+
+#30628
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30629 0 0
+~
+~
+Door 1 0 0 30634 0 0
+~
+~
+Door 2 0 0 30627 0 0
+~
+~
+End
+
+#30629
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30630 0 0
+~
+~
+Door 2 0 0 30628 0 0
+~
+~
+End
+
+#30630
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30631 0 0
+~
+~
+Door 2 0 0 30629 0 0
+~
+~
+End
+
+#30631
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30758 0 0
+~
+~
+Door 1 0 0 30632 0 0
+~
+~
+Door 2 0 0 30630 0 0
+~
+~
+Door 3 0 0 30633 0 0
+~
+~
+End
+
+#30632
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30760 0 0
+~
+~
+Door 3 0 0 30631 0 0
+~
+~
+End
+
+#30633
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30759 0 0
+~
+~
+Door 1 0 0 30631 0 0
+~
+~
+End
+
+#30634
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30635 0 0
+~
+~
+Door 3 0 0 30628 0 0
+~
+~
+End
+
+#30635
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30636 0 0
+~
+~
+Door 3 0 0 30634 0 0
+~
+~
+End
+
+#30636
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30637 0 0
+~
+~
+Door 3 0 0 30635 0 0
+~
+~
+End
+
+#30637
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30638 0 0
+~
+~
+Door 1 0 0 30698 0 0
+~
+~
+Door 2 0 0 30639 0 0
+~
+~
+Door 3 0 0 30636 0 0
+~
+~
+End
+
+#30638
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30697 0 0
+~
+~
+Door 2 0 0 30637 0 0
+~
+~
+End
+
+#30639
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30637 0 0
+~
+~
+Door 1 0 0 30699 0 0
+~
+~
+End
+
+#30640
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30711 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 1 0 0 30641 0 0
+~
+~
+Door 3 0 0 30621 0 0
+~
+~
+End
+
+#30641
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30642 0 0
+~
+~
+Door 3 0 0 30640 0 0
+~
+~
+End
+
+#30642
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 2 0 0 30643 0 0
+~
+~
+Door 3 0 0 30641 0 0
+~
+~
+End
+
+#30643
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30642 0 0
+~
+~
+Door 2 0 0 30644 0 0
+~
+~
+End
+
+#30644
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30643 0 0
+~
+~
+Door 2 0 0 30645 0 0
+~
+~
+End
+
+#30645
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30644 0 0
+~
+~
+Door 1 0 0 30647 0 0
+~
+~
+Door 2 0 0 30692 0 0
+~
+~
+Door 3 0 0 30646 0 0
+~
+~
+End
+
+#30646
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30645 0 0
+~
+~
+Door 2 0 0 30691 0 0
+~
+~
+End
+
+#30647
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30693 0 0
+~
+~
+Door 3 0 0 30645 0 0
+~
+~
+End
+
+#30648
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30613 0 0
+~
+~
+Door 3 0 0 30649 0 0
+~
+~
+End
+
+#30649
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30648 0 0
+~
+~
+Door 3 0 0 30650 0 0
+~
+~
+End
+
+#30650
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30649 0 0
+~
+~
+Door 3 0 0 30651 0 0
+~
+~
+End
+
+#30651
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30650 0 0
+~
+~
+Door 3 0 0 30652 0 0
+~
+~
+End
+
+#30652
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30654 0 0
+~
+~
+Door 1 0 0 30651 0 0
+~
+~
+Door 2 0 0 30653 0 0
+~
+~
+Door 3 0 0 30686 0 0
+~
+~
+End
+
+#30653
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30652 0 0
+~
+~
+Door 3 0 0 30687 0 0
+~
+~
+End
+
+#30654
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30652 0 0
+~
+~
+Door 3 0 0 30685 0 0
+~
+~
+End
+
+#30655
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30656 0 0
+~
+~
+Door 3 0 0 30601 0 0
+~
+~
+End
+
+#30656
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30712 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 1 0 0 30657 0 0
+~
+~
+Door 3 0 0 30655 0 0
+~
+~
+End
+
+#30657
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30658 0 0
+~
+~
+Door 3 0 0 30656 0 0
+~
+~
+End
+
+#30658
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30659 0 0
+~
+~
+Door 3 0 0 30657 0 0
+~
+~
+End
+
+#30659
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30660 0 0
+~
+~
+Door 3 0 0 30658 0 0
+~
+~
+End
+
+#30660
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30661 0 0
+~
+~
+Door 3 0 0 30659 0 0
+~
+~
+End
+
+#30661
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30662 0 0
+~
+~
+Door 3 0 0 30660 0 0
+~
+~
+End
+
+#30662
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30711 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30663 0 0
+~
+~
+Door 2 0 0 30668 0 0
+~
+~
+Door 3 0 0 30661 0 0
+~
+~
+End
+
+#30663
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30664 0 0
+~
+~
+Door 2 0 0 30662 0 0
+~
+~
+End
+
+#30664
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30665 0 0
+~
+~
+Door 2 0 0 30663 0 0
+~
+~
+End
+
+#30665
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30674 0 0
+~
+~
+Door 1 0 0 30667 0 0
+~
+~
+Door 2 0 0 30664 0 0
+~
+~
+Door 3 0 0 30666 0 0
+~
+~
+End
+
+#30666
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30673 0 0
+~
+~
+Door 1 0 0 30665 0 0
+~
+~
+End
+
+#30667
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30675 0 0
+~
+~
+Door 3 0 0 30665 0 0
+~
+~
+End
+
+#30668
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30662 0 0
+~
+~
+Door 2 0 0 30669 0 0
+~
+~
+End
+
+#30669
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30668 0 0
+~
+~
+Door 2 0 0 30670 0 0
+~
+~
+End
+
+#30670
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30669 0 0
+~
+~
+Door 1 0 0 30671 0 0
+~
+~
+Door 2 0 0 30679 0 0
+~
+~
+Door 3 0 0 30672 0 0
+~
+~
+End
+
+#30671
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30681 0 0
+~
+~
+Door 3 0 0 30670 0 0
+~
+~
+End
+
+#30672
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30670 0 0
+~
+~
+Door 2 0 0 30680 0 0
+~
+~
+End
+
+#30673
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30678 0 0
+~
+~
+Door 1 0 0 30674 0 0
+~
+~
+Door 2 0 0 30666 0 0
+~
+~
+End
+
+#30674
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30674 1 100
+Door 0 0 0 30677 0 0
+~
+~
+Door 1 0 0 30675 0 0
+~
+~
+Door 2 0 0 30665 0 0
+~
+~
+Door 3 0 0 30673 0 0
+~
+~
+End
+
+#30675
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30676 0 0
+~
+~
+Door 2 0 0 30667 0 0
+~
+~
+Door 3 0 0 30674 0 0
+~
+~
+End
+
+#30676
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30675 0 0
+~
+~
+Door 3 0 0 30677 0 0
+~
+~
+End
+
+#30677
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30676 0 0
+~
+~
+Door 2 0 0 30674 0 0
+~
+~
+Door 3 0 0 30678 0 0
+~
+~
+End
+
+#30678
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30677 0 0
+~
+~
+Door 2 0 0 30673 0 0
+~
+~
+End
+
+#30679
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30679 1 100
+Door 0 0 0 30670 0 0
+~
+~
+Door 1 0 0 30681 0 0
+~
+~
+Door 2 0 0 30683 0 0
+~
+~
+Door 3 0 0 30680 0 0
+~
+~
+End
+
+#30680
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30672 0 0
+~
+~
+Door 1 0 0 30679 0 0
+~
+~
+Door 2 0 0 30684 0 0
+~
+~
+End
+
+#30681
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30671 0 0
+~
+~
+Door 2 0 0 30682 0 0
+~
+~
+Door 3 0 0 30679 0 0
+~
+~
+End
+
+#30682
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30681 0 0
+~
+~
+Door 3 0 0 30683 0 0
+~
+~
+End
+
+#30683
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30679 0 0
+~
+~
+Door 1 0 0 30682 0 0
+~
+~
+Door 3 0 0 30684 0 0
+~
+~
+End
+
+#30684
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30680 0 0
+~
+~
+Door 1 0 0 30683 0 0
+~
+~
+End
+
+#30685
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30654 0 0
+~
+~
+Door 2 0 0 30686 0 0
+~
+~
+Door 3 0 0 30689 0 0
+~
+~
+End
+
+#30686
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30686 1 100
+Reset O 30707 2 10
+Door 0 0 0 30685 0 0
+~
+~
+Door 1 0 0 30652 0 0
+~
+~
+Door 2 0 0 30687 0 0
+~
+~
+Door 3 0 0 30688 0 0
+~
+~
+End
+
+#30687
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30686 0 0
+~
+~
+Door 1 0 0 30653 0 0
+~
+~
+Door 3 0 0 30690 0 0
+~
+~
+End
+
+#30688
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30689 0 0
+~
+~
+Door 1 0 0 30686 0 0
+~
+~
+Door 2 0 0 30690 0 0
+~
+~
+End
+
+#30689
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30685 0 0
+~
+~
+Door 2 0 0 30688 0 0
+~
+~
+End
+
+#30690
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30688 0 0
+~
+~
+Door 1 0 0 30687 0 0
+~
+~
+End
+
+#30691
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30646 0 0
+~
+~
+Door 1 0 0 30692 0 0
+~
+~
+Door 2 0 0 30696 0 0
+~
+~
+End
+
+#30692
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30692 1 100
+Door 0 0 0 30645 0 0
+~
+~
+Door 1 0 0 30693 0 0
+~
+~
+Door 2 0 0 30695 0 0
+~
+~
+Door 3 0 0 30691 0 0
+~
+~
+End
+
+#30693
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30647 0 0
+~
+~
+Door 2 0 0 30694 0 0
+~
+~
+Door 3 0 0 30692 0 0
+~
+~
+End
+
+#30694
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30693 0 0
+~
+~
+Door 3 0 0 30695 0 0
+~
+~
+End
+
+#30695
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30692 0 0
+~
+~
+Door 1 0 0 30694 0 0
+~
+~
+Door 3 0 0 30696 0 0
+~
+~
+End
+
+#30696
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30691 0 0
+~
+~
+Door 1 0 0 30695 0 0
+~
+~
+End
+
+#30697
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30752 0 0
+~
+~
+Door 2 0 0 30698 0 0
+~
+~
+Door 3 0 0 30638 0 0
+~
+~
+End
+
+#30698
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30698 1 100
+Door 0 0 0 30697 0 0
+~
+~
+Door 1 0 0 30745 0 0
+~
+~
+Door 2 0 0 30699 0 0
+~
+~
+Door 3 0 0 30637 0 0
+~
+~
+End
+
+#30699
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30698 0 0
+~
+~
+Door 1 0 0 30700 0 0
+~
+~
+Door 3 0 0 30639 0 0
+~
+~
+End
+
+#30700
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30745 0 0
+~
+~
+Door 3 0 0 30699 0 0
+~
+~
+End
+
+#30701
+Name Before a Mine~
+Descr
+Tucked away in the corner of this mountainous region is an old mine. It
+seems to still be in operation after all these years. Just to the north is
+the mine elevator that leads to the depths of the mine. 
+~
+Sector 13
+Door 0 0 0 30702 0 0
+~
+~
+Door 2 0 0 2579 0 0
+~
+~
+End
+
+#30702
+Name An Elevator~
+Descr
+~
+Sector 0
+Reset M 30702 1 100
+Reset O 260 -1 100
+Reset O 30702 -1 100
+Door 0 535 30702 30704 100 100
+~
+Second Level~
+Door 1 535 30702 30703 100 100
+~
+First Level~
+Door 2 535 30702 30701 100 100
+~
+Entrance~
+Door 3 535 30702 30705 100 100
+~
+Third Level~
+End
+
+#30703
+Name Entrance to First Level of the Mine~
+Descr
+The low overhead rock ceiling makes you stoop as you move along towards
+the tunnel leading to the first level of the mine. At times you jump back as
+another bat flutters by startling you. 
+~
+Flags2 4
+Sector 44
+Reset O 30703 -5 100
+Door 3 0 0 30702 0 0
+~
+~
+End
+
+#30704
+Name Entrance to Second Level of the Mine~
+Descr
+The low overhead rock ceiling makes you stoop as you move along towards
+the tunnel leading to the first level of the mine. At times you jump back as
+another bat flutters by startling you. 
+~
+Flags2 4
+Reset O 30704 -5 100
+Door 2 0 0 30702 0 0
+~
+~
+End
+
+#30705
+Name Entrance to Third Level of the Mine~
+Descr
+The low overhead rock ceiling makes you stoop as you move along towards
+the tunnel leading to the first level of the mine. At times you jump back as
+another bat flutters by startling you. 
+~
+Flags2 4
+Reset O 30705 -5 100
+Door 1 0 0 30702 0 0
+~
+~
+End
+
+#30706
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset O 30706 -5 100
+Door 1 0 0 30707 0 0
+~
+~
+End
+
+#30707
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30708 0 0
+~
+~
+Door 3 0 0 30706 0 0
+~
+~
+End
+
+#30708
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30709 0 0
+~
+~
+Door 3 0 0 30707 0 0
+~
+~
+End
+
+#30709
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30733 0 0
+~
+~
+Door 1 0 0 30710 0 0
+~
+~
+Door 3 0 0 30708 0 0
+~
+~
+End
+
+#30710
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30711 0 0
+~
+~
+Door 3 0 0 30709 0 0
+~
+~
+End
+
+#30711
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30711 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 1 0 0 30712 0 0
+~
+~
+Door 3 0 0 30710 0 0
+~
+~
+End
+
+#30712
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30713 0 0
+~
+~
+Door 3 0 0 30711 0 0
+~
+~
+End
+
+#30713
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30714 0 0
+~
+~
+Door 3 0 0 30712 0 0
+~
+~
+End
+
+#30714
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30715 0 0
+~
+~
+Door 3 0 0 30713 0 0
+~
+~
+End
+
+#30715
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30716 0 0
+~
+~
+Door 2 0 0 30714 0 0
+~
+~
+End
+
+#30716
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30712 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30717 0 0
+~
+~
+Door 2 0 0 30715 0 0
+~
+~
+End
+
+#30717
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30718 0 0
+~
+~
+Door 2 0 0 30716 0 0
+~
+~
+End
+
+#30718
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30719 0 0
+~
+~
+Door 2 0 0 30717 0 0
+~
+~
+End
+
+#30719
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30720 0 0
+~
+~
+Door 3 0 0 30718 0 0
+~
+~
+End
+
+#30720
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30714 1 100
+Door 1 0 0 30721 0 0
+~
+~
+Door 3 0 0 30719 0 0
+~
+~
+End
+
+#30721
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30722 0 0
+~
+~
+Door 3 0 0 30720 0 0
+~
+~
+End
+
+#30722
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30711 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 1 0 0 30723 0 0
+~
+~
+Door 3 0 0 30721 0 0
+~
+~
+End
+
+#30723
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30724 0 0
+~
+~
+Door 2 0 0 30763 0 0
+~
+~
+Door 3 0 0 30722 0 0
+~
+~
+End
+
+#30724
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30725 0 0
+~
+~
+Door 3 0 0 30723 0 0
+~
+~
+End
+
+#30725
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30712 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30726 0 0
+~
+~
+Door 3 0 0 30724 0 0
+~
+~
+End
+
+#30726
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30727 0 0
+~
+~
+Door 2 0 0 30725 0 0
+~
+~
+End
+
+#30727
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30728 0 0
+~
+~
+Door 2 0 0 30726 0 0
+~
+~
+End
+
+#30728
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30711 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30729 0 0
+~
+~
+Door 1 0 0 30781 0 0
+~
+~
+Door 2 0 0 30727 0 0
+~
+~
+End
+
+#30729
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30730 0 0
+~
+~
+Door 2 0 0 30728 0 0
+~
+~
+End
+
+#30730
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30731 0 0
+~
+~
+Door 2 0 0 30729 0 0
+~
+~
+End
+
+#30731
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30712 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30732 0 0
+~
+~
+Door 2 0 0 30730 0 0
+~
+~
+End
+
+#30732
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30797 0 0
+~
+~
+Door 1 0 0 30795 0 0
+~
+~
+Door 2 0 0 30731 0 0
+~
+~
+Door 3 0 0 30796 0 0
+~
+~
+End
+
+#30733
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30734 0 0
+~
+~
+Door 2 0 0 30709 0 0
+~
+~
+End
+
+#30734
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30735 0 0
+~
+~
+Door 1 0 0 30762 0 0
+~
+~
+Door 2 0 0 30733 0 0
+~
+~
+Door 3 0 0 30761 0 0
+~
+~
+End
+
+#30735
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30735 1 100
+Reset O 81 -1 10
+Door 0 0 0 30748 0 0
+~
+~
+Door 1 0 0 30739 0 0
+~
+~
+Door 2 0 0 30734 0 0
+~
+~
+Door 3 0 0 30736 0 0
+~
+~
+End
+
+#30736
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30749 0 0
+~
+~
+Door 1 0 0 30735 0 0
+~
+~
+Door 2 0 0 30761 0 0
+~
+~
+Door 3 0 0 30737 0 0
+~
+~
+End
+
+#30737
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30750 0 0
+~
+~
+Door 1 0 0 30736 0 0
+~
+~
+Door 3 0 0 30738 0 0
+~
+~
+End
+
+#30738
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30751 0 0
+~
+~
+Door 1 0 0 30737 0 0
+~
+~
+End
+
+#30739
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30747 0 0
+~
+~
+Door 1 0 0 30740 0 0
+~
+~
+Door 2 0 0 30762 0 0
+~
+~
+Door 3 0 0 30735 0 0
+~
+~
+End
+
+#30740
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30746 0 0
+~
+~
+Door 1 0 0 30741 0 0
+~
+~
+Door 3 0 0 30739 0 0
+~
+~
+End
+
+#30741
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30742 0 0
+~
+~
+Door 3 0 0 30740 0 0
+~
+~
+End
+
+#30742
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30741 0 0
+~
+~
+Door 3 0 0 30746 0 0
+~
+~
+End
+
+#30743
+Name ~
+Descr
+~
+Door 2 0 0 30742 0 0
+~
+~
+End
+
+#30744
+Name ~
+Descr
+~
+Door 1 0 0 30744 0 0
+~
+~
+Door 2 0 0 30742 0 0
+~
+~
+Door 3 0 0 30744 0 0
+~
+~
+End
+
+#30745
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30752 0 0
+~
+~
+Door 2 0 0 30700 0 0
+~
+~
+Door 3 0 0 30698 0 0
+~
+~
+End
+
+#30746
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30742 0 0
+~
+~
+Door 2 0 0 30740 0 0
+~
+~
+Door 3 0 0 30747 0 0
+~
+~
+End
+
+#30747
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30746 0 0
+~
+~
+Door 2 0 0 30739 0 0
+~
+~
+Door 3 0 0 30748 0 0
+~
+~
+End
+
+#30748
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30747 0 0
+~
+~
+Door 2 0 0 30735 0 0
+~
+~
+Door 3 0 0 30749 0 0
+~
+~
+End
+
+#30749
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30748 0 0
+~
+~
+Door 2 0 0 30736 0 0
+~
+~
+Door 3 0 0 30750 0 0
+~
+~
+End
+
+#30750
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30749 0 0
+~
+~
+Door 2 0 0 30737 0 0
+~
+~
+Door 3 0 0 30751 0 0
+~
+~
+End
+
+#30751
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30750 0 0
+~
+~
+Door 2 0 0 30738 0 0
+~
+~
+End
+
+#30752
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30745 0 0
+~
+~
+Door 3 0 0 30697 0 0
+~
+~
+End
+
+#30753
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30754 0 0
+~
+~
+Door 2 0 0 30759 0 0
+~
+~
+End
+
+#30754
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30755 0 0
+~
+~
+Door 2 0 0 30758 0 0
+~
+~
+Door 3 0 0 30753 0 0
+~
+~
+End
+
+#30755
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30760 0 0
+~
+~
+Door 3 0 0 30754 0 0
+~
+~
+End
+
+#30756
+Name ~
+Descr
+~
+End
+
+#30757
+Name ~
+Descr
+~
+End
+
+#30758
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30758 1 100
+Reset O 56 -1 45
+Reset O 30754 -1 1
+Door 0 0 0 30754 0 0
+~
+~
+Door 1 0 0 30760 0 0
+~
+~
+Door 2 0 0 30631 0 0
+~
+~
+Door 3 0 0 30759 0 0
+~
+~
+End
+
+#30759
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30753 0 0
+~
+~
+Door 1 0 0 30758 0 0
+~
+~
+Door 2 0 0 30633 0 0
+~
+~
+End
+
+#30760
+Name The Lower Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30755 0 0
+~
+~
+Door 2 0 0 30632 0 0
+~
+~
+Door 3 0 0 30758 0 0
+~
+~
+End
+
+#30761
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30736 0 0
+~
+~
+Door 1 0 0 30734 0 0
+~
+~
+End
+
+#30762
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30739 0 0
+~
+~
+Door 3 0 0 30734 0 0
+~
+~
+End
+
+#30763
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30723 0 0
+~
+~
+Door 2 0 0 30764 0 0
+~
+~
+End
+
+#30764
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30763 0 0
+~
+~
+Door 2 0 0 30765 0 0
+~
+~
+End
+
+#30765
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30764 0 0
+~
+~
+Door 1 0 0 30766 0 0
+~
+~
+Door 2 0 0 30769 0 0
+~
+~
+Door 3 0 0 30767 0 0
+~
+~
+End
+
+#30766
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30770 0 0
+~
+~
+Door 3 0 0 30765 0 0
+~
+~
+End
+
+#30767
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30765 0 0
+~
+~
+Door 2 0 0 30768 0 0
+~
+~
+End
+
+#30768
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30767 0 0
+~
+~
+Door 1 0 0 30769 0 0
+~
+~
+Door 2 0 0 30776 0 0
+~
+~
+Door 3 0 0 30771 0 0
+~
+~
+End
+
+#30769
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30765 0 0
+~
+~
+Door 1 0 0 30770 0 0
+~
+~
+Door 2 0 0 30775 0 0
+~
+~
+Door 3 0 0 30768 0 0
+~
+~
+End
+
+#30770
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30766 0 0
+~
+~
+Door 1 0 0 30772 0 0
+~
+~
+Door 2 0 0 30774 0 0
+~
+~
+Door 3 0 0 30769 0 0
+~
+~
+End
+
+#30771
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30768 0 0
+~
+~
+Door 2 0 0 30777 0 0
+~
+~
+End
+
+#30772
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30773 0 0
+~
+~
+Door 3 0 0 30770 0 0
+~
+~
+End
+
+#30773
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30772 0 0
+~
+~
+Door 3 0 0 30774 0 0
+~
+~
+End
+
+#30774
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30770 0 0
+~
+~
+Door 1 0 0 30773 0 0
+~
+~
+Door 2 0 0 30779 0 0
+~
+~
+Door 3 0 0 30775 0 0
+~
+~
+End
+
+#30775
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30775 1 100
+Reset O 76 -1 20
+Door 0 0 0 30769 0 0
+~
+~
+Door 1 0 0 30774 0 0
+~
+~
+Door 2 0 0 30778 0 0
+~
+~
+Door 3 0 0 30776 0 0
+~
+~
+End
+
+#30776
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30768 0 0
+~
+~
+Door 1 0 0 30775 0 0
+~
+~
+Door 2 0 0 30780 0 0
+~
+~
+Door 3 0 0 30777 0 0
+~
+~
+End
+
+#30777
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30771 0 0
+~
+~
+Door 1 0 0 30776 0 0
+~
+~
+End
+
+#30778
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30775 0 0
+~
+~
+Door 1 0 0 30779 0 0
+~
+~
+Door 3 0 0 30780 0 0
+~
+~
+End
+
+#30779
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30774 0 0
+~
+~
+Door 3 0 0 30778 0 0
+~
+~
+End
+
+#30780
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30776 0 0
+~
+~
+Door 1 0 0 30778 0 0
+~
+~
+End
+
+#30781
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30782 0 0
+~
+~
+Door 3 0 0 30728 0 0
+~
+~
+End
+
+#30782
+Name The Upper Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30783 0 0
+~
+~
+Door 3 0 0 30781 0 0
+~
+~
+End
+
+#30783
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30784 0 0
+~
+~
+Door 1 0 0 30789 0 0
+~
+~
+Door 2 0 0 30785 0 0
+~
+~
+Door 3 0 0 30782 0 0
+~
+~
+End
+
+#30784
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30786 0 0
+~
+~
+Door 2 0 0 30783 0 0
+~
+~
+End
+
+#30785
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30783 0 0
+~
+~
+Door 1 0 0 30790 0 0
+~
+~
+End
+
+#30786
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30793 0 0
+~
+~
+Door 2 0 0 30789 0 0
+~
+~
+Door 3 0 0 30784 0 0
+~
+~
+End
+
+#30787
+Name ~
+Descr
+~
+Door 0 0 0 30787 0 0
+~
+~
+Door 2 0 0 30787 0 0
+~
+~
+Door 3 0 0 30786 0 0
+~
+~
+End
+
+#30788
+Name ~
+Descr
+~
+Door 3 0 0 30786 0 0
+~
+~
+End
+
+#30789
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30789 1 100
+Reset O 30707 1 5
+Door 0 0 0 30786 0 0
+~
+~
+Door 1 0 0 30792 0 0
+~
+~
+Door 2 0 0 30790 0 0
+~
+~
+Door 3 0 0 30783 0 0
+~
+~
+End
+
+#30790
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30789 0 0
+~
+~
+Door 1 0 0 30791 0 0
+~
+~
+Door 3 0 0 30785 0 0
+~
+~
+End
+
+#30791
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30792 0 0
+~
+~
+Door 3 0 0 30790 0 0
+~
+~
+End
+
+#30792
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30793 0 0
+~
+~
+Door 1 0 0 30794 0 0
+~
+~
+Door 2 0 0 30791 0 0
+~
+~
+Door 3 0 0 30789 0 0
+~
+~
+End
+
+#30793
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30792 0 0
+~
+~
+Door 3 0 0 30786 0 0
+~
+~
+End
+
+#30794
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 3 0 0 30792 0 0
+~
+~
+End
+
+#30795
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30804 0 0
+~
+~
+Door 3 0 0 30732 0 0
+~
+~
+End
+
+#30796
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30798 0 0
+~
+~
+Door 1 0 0 30732 0 0
+~
+~
+End
+
+#30797
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30805 0 0
+~
+~
+Door 1 0 0 30804 0 0
+~
+~
+Door 2 0 0 30732 0 0
+~
+~
+Door 3 0 0 30798 0 0
+~
+~
+End
+
+#30798
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30803 0 0
+~
+~
+Door 1 0 0 30797 0 0
+~
+~
+Door 2 0 0 30796 0 0
+~
+~
+Door 3 0 0 30801 0 0
+~
+~
+End
+
+#30799
+Name ~
+Descr
+~
+Door 1 0 0 30800 0 0
+~
+~
+Door 2 0 0 30795 0 0
+~
+~
+Door 3 0 0 30797 0 0
+~
+~
+End
+
+#30800
+Name ~
+Descr
+~
+Door 3 0 0 30799 0 0
+~
+~
+End
+
+#30801
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30802 0 0
+~
+~
+Door 1 0 0 30798 0 0
+~
+~
+End
+
+#30802
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30803 0 0
+~
+~
+Door 2 0 0 30801 0 0
+~
+~
+End
+
+#30803
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30809 0 0
+~
+~
+Door 1 0 0 30805 0 0
+~
+~
+Door 2 0 0 30798 0 0
+~
+~
+Door 3 0 0 30802 0 0
+~
+~
+End
+
+#30804
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30806 0 0
+~
+~
+Door 1 0 0 30807 0 0
+~
+~
+Door 2 0 0 30795 0 0
+~
+~
+Door 3 0 0 30797 0 0
+~
+~
+End
+
+#30805
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30805 1 100
+Reset O 30707 1 5
+Door 0 0 0 30810 0 0
+~
+~
+Door 1 0 0 30806 0 0
+~
+~
+Door 2 0 0 30797 0 0
+~
+~
+Door 3 0 0 30803 0 0
+~
+~
+End
+
+#30806
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30811 0 0
+~
+~
+Door 1 0 0 30808 0 0
+~
+~
+Door 2 0 0 30804 0 0
+~
+~
+Door 3 0 0 30805 0 0
+~
+~
+End
+
+#30807
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30808 0 0
+~
+~
+Door 3 0 0 30804 0 0
+~
+~
+End
+
+#30808
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30807 0 0
+~
+~
+Door 3 0 0 30806 0 0
+~
+~
+End
+
+#30809
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30810 0 0
+~
+~
+Door 2 0 0 30803 0 0
+~
+~
+End
+
+#30810
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30811 0 0
+~
+~
+Door 2 0 0 30805 0 0
+~
+~
+Door 3 0 0 30809 0 0
+~
+~
+End
+
+#30811
+Name The Upper Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30806 0 0
+~
+~
+Door 3 0 0 30810 0 0
+~
+~
+End
+
+#30812
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset O 30812 -5 100
+Door 0 0 0 30813 0 0
+~
+~
+End
+
+#30813
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30814 0 0
+~
+~
+Door 2 0 0 30812 0 0
+~
+~
+End
+
+#30814
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30815 0 0
+~
+~
+Door 2 0 0 30813 0 0
+~
+~
+End
+
+#30815
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30816 0 0
+~
+~
+Door 2 0 0 30814 0 0
+~
+~
+End
+
+#30816
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30817 0 0
+~
+~
+Door 2 0 0 30815 0 0
+~
+~
+End
+
+#30817
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30711 1 100
+Reset O 108 -1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Door 1 0 0 30829 0 0
+~
+~
+Door 2 0 0 30816 0 0
+~
+~
+Door 3 0 0 30818 0 0
+~
+~
+End
+
+#30818
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30817 0 0
+~
+~
+Door 3 0 0 30819 0 0
+~
+~
+End
+
+#30819
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30818 0 0
+~
+~
+Door 3 0 0 30820 0 0
+~
+~
+End
+
+#30820
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30819 0 0
+~
+~
+Door 3 0 0 30821 0 0
+~
+~
+End
+
+#30821
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30822 0 0
+~
+~
+Door 1 0 0 30820 0 0
+~
+~
+End
+
+#30822
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30823 0 0
+~
+~
+Door 2 0 0 30821 0 0
+~
+~
+End
+
+#30823
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30712 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30824 0 0
+~
+~
+Door 2 0 0 30822 0 0
+~
+~
+End
+
+#30824
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 2 0 0 30823 0 0
+~
+~
+Door 3 0 0 30825 0 0
+~
+~
+End
+
+#30825
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30824 0 0
+~
+~
+Door 3 0 0 30826 0 0
+~
+~
+End
+
+#30826
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30825 0 0
+~
+~
+Door 3 0 0 30827 0 0
+~
+~
+End
+
+#30827
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30826 0 0
+~
+~
+Door 3 0 0 30828 0 0
+~
+~
+End
+
+#30828
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30862 0 0
+~
+~
+Door 1 0 0 30827 0 0
+~
+~
+Door 2 0 0 30863 0 0
+~
+~
+Door 3 0 0 30864 0 0
+~
+~
+End
+
+#30829
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30830 0 0
+~
+~
+Door 3 0 0 30817 0 0
+~
+~
+End
+
+#30830
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30831 0 0
+~
+~
+Door 3 0 0 30829 0 0
+~
+~
+End
+
+#30831
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30832 0 0
+~
+~
+Door 3 0 0 30830 0 0
+~
+~
+End
+
+#30832
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30833 0 0
+~
+~
+Door 3 0 0 30831 0 0
+~
+~
+End
+
+#30833
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30834 0 0
+~
+~
+Door 3 0 0 30832 0 0
+~
+~
+End
+
+#30834
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30835 0 0
+~
+~
+Door 2 0 0 30833 0 0
+~
+~
+End
+
+#30835
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30711 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 1 0 0 30836 0 0
+~
+~
+Door 3 0 0 30834 0 0
+~
+~
+End
+
+#30836
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30837 0 0
+~
+~
+Door 3 0 0 30835 0 0
+~
+~
+End
+
+#30837
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30838 0 0
+~
+~
+Door 3 0 0 30836 0 0
+~
+~
+End
+
+#30838
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30839 0 0
+~
+~
+Door 2 0 0 30837 0 0
+~
+~
+End
+
+#30839
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30712 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30840 0 0
+~
+~
+Door 2 0 0 30838 0 0
+~
+~
+End
+
+#30840
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30841 0 0
+~
+~
+Door 2 0 0 30839 0 0
+~
+~
+End
+
+#30841
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30842 0 0
+~
+~
+Door 2 0 0 30840 0 0
+~
+~
+End
+
+#30842
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30843 0 0
+~
+~
+Door 1 0 0 30859 0 0
+~
+~
+Door 2 0 0 30841 0 0
+~
+~
+End
+
+#30843
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30844 0 0
+~
+~
+Door 2 0 0 30842 0 0
+~
+~
+End
+
+#30844
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30711 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30845 0 0
+~
+~
+Door 2 0 0 30843 0 0
+~
+~
+End
+
+#30845
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 2 0 0 30844 0 0
+~
+~
+Door 3 0 0 30846 0 0
+~
+~
+End
+
+#30846
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30845 0 0
+~
+~
+Door 3 0 0 30847 0 0
+~
+~
+End
+
+#30847
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30846 0 0
+~
+~
+Door 3 0 0 30848 0 0
+~
+~
+End
+
+#30848
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30714 1 100
+Door 1 0 0 30847 0 0
+~
+~
+Door 3 0 0 30849 0 0
+~
+~
+End
+
+#30849
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30848 0 0
+~
+~
+Door 3 0 0 30850 0 0
+~
+~
+End
+
+#30850
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30849 0 0
+~
+~
+Door 3 0 0 30851 0 0
+~
+~
+End
+
+#30851
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30850 0 0
+~
+~
+Door 2 0 0 30856 0 0
+~
+~
+Door 3 0 0 30852 0 0
+~
+~
+End
+
+#30852
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset M 30712 1 100
+Reset O 120 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Reset O 108 -1 100
+Door 0 0 0 30853 0 0
+~
+~
+Door 1 0 0 30851 0 0
+~
+~
+End
+
+#30853
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30854 0 0
+~
+~
+Door 2 0 0 30852 0 0
+~
+~
+End
+
+#30854
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30855 0 0
+~
+~
+Door 2 0 0 30853 0 0
+~
+~
+End
+
+#30855
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30890 0 0
+~
+~
+Door 1 0 0 30888 0 0
+~
+~
+Door 2 0 0 30854 0 0
+~
+~
+Door 3 0 0 30887 0 0
+~
+~
+End
+
+#30856
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30851 0 0
+~
+~
+Door 2 0 0 30857 0 0
+~
+~
+End
+
+#30857
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 0 0 0 30856 0 0
+~
+~
+Door 2 0 0 30858 0 0
+~
+~
+End
+
+#30858
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30857 0 0
+~
+~
+Door 1 0 0 30879 0 0
+~
+~
+Door 2 0 0 30882 0 0
+~
+~
+Door 3 0 0 30880 0 0
+~
+~
+End
+
+#30859
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30860 0 0
+~
+~
+Door 3 0 0 30842 0 0
+~
+~
+End
+
+#30860
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30861 0 0
+~
+~
+Door 3 0 0 30859 0 0
+~
+~
+End
+
+#30861
+Name The Middle Level of the Mine~
+Descr
+Inside the middle level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Door 1 0 0 30870 0 0
+~
+~
+Door 3 0 0 30860 0 0
+~
+~
+End
+
+#30862
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30828 0 0
+~
+~
+Door 3 0 0 30865 0 0
+~
+~
+End
+
+#30863
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30828 0 0
+~
+~
+Door 3 0 0 30866 0 0
+~
+~
+End
+
+#30864
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30864 1 100
+Reset O 88 -1 25
+Reset O 30707 1 5
+Door 0 0 0 30865 0 0
+~
+~
+Door 1 0 0 30828 0 0
+~
+~
+Door 2 0 0 30866 0 0
+~
+~
+Door 3 0 0 30868 0 0
+~
+~
+End
+
+#30865
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30862 0 0
+~
+~
+Door 2 0 0 30864 0 0
+~
+~
+Door 3 0 0 30869 0 0
+~
+~
+End
+
+#30866
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30864 0 0
+~
+~
+Door 1 0 0 30863 0 0
+~
+~
+Door 3 0 0 30867 0 0
+~
+~
+End
+
+#30867
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30868 0 0
+~
+~
+Door 1 0 0 30866 0 0
+~
+~
+End
+
+#30868
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30869 0 0
+~
+~
+Door 1 0 0 30864 0 0
+~
+~
+Door 2 0 0 30867 0 0
+~
+~
+End
+
+#30869
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30865 0 0
+~
+~
+Door 2 0 0 30868 0 0
+~
+~
+End
+
+#30870
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30871 0 0
+~
+~
+Door 1 0 0 30874 0 0
+~
+~
+Door 2 0 0 30872 0 0
+~
+~
+Door 3 0 0 30861 0 0
+~
+~
+End
+
+#30871
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30875 0 0
+~
+~
+Door 2 0 0 30870 0 0
+~
+~
+End
+
+#30872
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30870 0 0
+~
+~
+Door 1 0 0 30873 0 0
+~
+~
+End
+
+#30873
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30874 0 0
+~
+~
+Door 1 0 0 30878 0 0
+~
+~
+Door 3 0 0 30872 0 0
+~
+~
+End
+
+#30874
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30874 1 100
+Reset O 30707 1 5
+Door 0 0 0 30875 0 0
+~
+~
+Door 1 0 0 30877 0 0
+~
+~
+Door 2 0 0 30873 0 0
+~
+~
+Door 3 0 0 30870 0 0
+~
+~
+End
+
+#30875
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30876 0 0
+~
+~
+Door 2 0 0 30874 0 0
+~
+~
+Door 3 0 0 30871 0 0
+~
+~
+End
+
+#30876
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30877 0 0
+~
+~
+Door 3 0 0 30875 0 0
+~
+~
+End
+
+#30877
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30876 0 0
+~
+~
+Door 2 0 0 30878 0 0
+~
+~
+Door 3 0 0 30874 0 0
+~
+~
+End
+
+#30878
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30877 0 0
+~
+~
+Door 3 0 0 30873 0 0
+~
+~
+End
+
+#30879
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30883 0 0
+~
+~
+Door 3 0 0 30858 0 0
+~
+~
+End
+
+#30880
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30858 0 0
+~
+~
+Door 2 0 0 30881 0 0
+~
+~
+End
+
+#30881
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30880 0 0
+~
+~
+Door 1 0 0 30882 0 0
+~
+~
+Door 2 0 0 30886 0 0
+~
+~
+End
+
+#30882
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30882 1 100
+Reset O 30707 1 5
+Door 0 0 0 30858 0 0
+~
+~
+Door 1 0 0 30883 0 0
+~
+~
+Door 2 0 0 30885 0 0
+~
+~
+Door 3 0 0 30881 0 0
+~
+~
+End
+
+#30883
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30879 0 0
+~
+~
+Door 2 0 0 30884 0 0
+~
+~
+Door 3 0 0 30882 0 0
+~
+~
+End
+
+#30884
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30883 0 0
+~
+~
+Door 3 0 0 30885 0 0
+~
+~
+End
+
+#30885
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30882 0 0
+~
+~
+Door 1 0 0 30884 0 0
+~
+~
+Door 3 0 0 30886 0 0
+~
+~
+End
+
+#30886
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30881 0 0
+~
+~
+Door 1 0 0 30885 0 0
+~
+~
+End
+
+#30887
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30891 0 0
+~
+~
+Door 1 0 0 30855 0 0
+~
+~
+End
+
+#30888
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30889 0 0
+~
+~
+Door 3 0 0 30855 0 0
+~
+~
+End
+
+#30889
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30892 0 0
+~
+~
+Door 2 0 0 30888 0 0
+~
+~
+Door 3 0 0 30890 0 0
+~
+~
+End
+
+#30890
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Reset M 30890 1 100
+Reset O 30707 1 5
+Door 0 0 0 30893 0 0
+~
+~
+Door 1 0 0 30889 0 0
+~
+~
+Door 2 0 0 30855 0 0
+~
+~
+Door 3 0 0 30891 0 0
+~
+~
+End
+
+#30891
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 0 0 0 30894 0 0
+~
+~
+Door 1 0 0 30890 0 0
+~
+~
+Door 2 0 0 30887 0 0
+~
+~
+End
+
+#30892
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 2 0 0 30889 0 0
+~
+~
+Door 3 0 0 30893 0 0
+~
+~
+End
+
+#30893
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30892 0 0
+~
+~
+Door 2 0 0 30890 0 0
+~
+~
+Door 3 0 0 30894 0 0
+~
+~
+End
+
+#30894
+Name The Middle Level of the Mine~
+Descr
+The ceiling opens up dramatically here in this chamber. It is obviously
+one of the centers of the mining activity. In the room you can see a giant
+Master Smith. It is directing all of the low level workers efforts. 
+~
+Sector 44
+Door 1 0 0 30893 0 0
+~
+~
+Door 2 0 0 30891 0 0
+~
+~
+End
+
+#30895
+Name The Lower Level of the Mine~
+Descr
+Inside the lower level of the mine the walls and ceiling are much
+smoother and well defined. As you look about you see the Subterranean Smiths
+scurrying about doing their business. An occasional bat also travels by
+nipping at your face and hair. 
+~
+Sector 44
+Reset O 30895 -5 100
+Door 0 0 0 30601 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

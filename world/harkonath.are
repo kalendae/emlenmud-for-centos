@@ -1,0 +1,1637 @@
+#AREADATA 
+Name Homelands of Taron~
+Repop You can feel the dust settling around you.
+~
+SCZone 0
+Builders Structure~
+VNUMs 16701 16850
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#16715
+Name beginner thief~
+Short a beginner thief~
+Long 
+A new thief is here trying to figure out how to hold his dagger.
+~
+AMax 1
+Affect_By 512
+Money 100
+Level 20
+Sex 1
+MobType 1
+Hp 8
+Guard 0
+End
+
+#16743
+Name huge giant~
+Short A huge giant~
+Long 
+A huge giant stands here awaiting the arrival of enemys.
+~
+AMax 5
+NHeight 0
+ActBits 2
+ActBits3 8
+ActBits4 16384
+Affect_By 680
+AffectTWO 8912896
+Alignment 2
+Money 300
+Level 275
+Sex 1
+MobType 4
+Hp 20
+Guard 5
+End
+
+#16749
+Name a practice Darkie~
+Short a practice darkie~
+Long 
+A darkie that may actually be incapable of killing whities is here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 524288
+Affect_By 8320
+Alignment 2
+Level 50
+Sex 1
+Hp 9400
+Guard 0
+End
+
+#16755
+Name zaol prac GH~
+Short Zaol~
+Long 
+Zaol the fierce warrior wanders his city looking for combat.
+~
+AMax 1
+NHeight 30
+ActBits 259
+ActBits4 16384
+Affect_By 524936
+AffectTWO 524296
+Alignment 2
+Money 200
+Level 500
+Sex 1
+MobType 37
+Hp 50
+Guard 0
+Spec spec_warrior
+BCasts greater healing touch~
+BCast_P 25
+ASklTaught 0 574
+ASklTaught 1 572
+ASklTaught 2 573
+ASklTaught 3 566
+ASklTaught 4 561
+ASklTaught 5 590
+ASklTaught 6 352
+ASklTaught 7 359
+ASklTaught 8 376
+ASklTaught 9 353
+End
+
+#16765
+Name fara prac GH~
+Short Fara~
+Long 
+Fara the knowledgable sits here meditating.
+~
+AMax 1
+NHeight 0
+ActBits 258
+Affect_By 648
+Alignment 2
+Money 500
+Level 600
+Sex 1
+Hp 900
+Guard 0
+ASklTaught 0 60
+ASklTaught 1 118
+ASklTaught 2 231
+ASklTaught 3 77
+ASklTaught 4 65
+ASklTaught 5 147
+ASklTaught 6 175
+End
+
+#0
+
+
+
+#OBJDATA
+#16715
+Name hidden dagger~
+Short [0m[37ma [0m[34mhidden [0m[37mdagger[0m~
+Descr
+An almost invisible dagger lies on the ground here.
+[0;36m~
+Type 5
+Extra 131073
+Wear 24577
+Values 0 6 0 11 0 0 0 3 3 0 0
+Weight 7
+Cost 0
+End
+
+#16743
+Name sword longsword mean slashing apb~
+Short mean looking longsword~
+Descr
+A mean looking longsword is lying here.
+[0;36m~
+Type 5
+Extra 2359296
+Wear 16385
+Values 0 50 0 12 0 0 0 2 6 0 0
+Weight 60
+Cost 0
+Affect 19 1 1 0 0
+End
+
+#16744
+Name dual longsword bladed sword slashing~
+Short a dual-bladed longsword~
+Descr
+A sword with 2 blades lies here, awaiting one who can wield it.
+[0;36m~
+Type 5
+Extra 262146
+Wear 16385
+Values 0 1 0 1 0 0 0 1 10 0 0
+Weight 40
+Cost 1
+End
+
+#16749
+Name no name~
+Short shirt~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#16701
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on the
+ground. The road is made of broken stone and pebbles. 
+~
+Sector 5
+Door 0 0 0 16709 0 0
+~
+~
+Door 1 0 0 4607 0 0
+~
+~
+Door 2 0 0 16708 0 0
+~
+~
+Door 3 0 0 16702 0 0
+~
+~
+End
+
+#16702
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on the
+ground. The road is made of broken stone and pebbles. 
+~
+Sector 5
+Door 0 0 0 16707 0 0
+~
+~
+Door 1 0 0 16701 0 0
+~
+~
+Door 2 0 0 16710 0 0
+~
+~
+Door 3 0 0 16703 0 0
+~
+~
+End
+
+#16703
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on the
+ground. The road is made of broken stone and pebbles. 
+~
+Sector 5
+Door 0 0 0 16706 0 0
+~
+~
+Door 1 0 0 16702 0 0
+~
+~
+Door 2 0 0 16711 0 0
+~
+~
+Door 3 0 0 16704 0 0
+~
+~
+End
+
+#16704
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on the
+ground. The road is made of broken stone and pebbles. 
+~
+Sector 5
+Door 0 0 0 16705 0 0
+~
+~
+Door 1 0 0 16703 0 0
+~
+~
+Door 2 0 0 16712 0 0
+~
+~
+Door 5 0 0 16713 0 0
+~
+~
+End
+
+#16705
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 1 0 0 16706 0 0
+~
+~
+Door 2 0 0 16704 0 0
+~
+~
+End
+
+#16706
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 1 0 0 16707 0 0
+~
+~
+Door 2 0 0 16703 0 0
+~
+~
+Door 3 0 0 16705 0 0
+~
+~
+End
+
+#16707
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 1 0 0 16709 0 0
+~
+~
+Door 2 0 0 16702 0 0
+~
+~
+Door 3 0 0 16706 0 0
+~
+~
+End
+
+#16708
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 0 0 0 16701 0 0
+~
+~
+Door 1 0 0 16769 0 0
+~
+~
+Door 3 0 0 16710 0 0
+~
+~
+End
+
+#16709
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 1 0 0 16766 0 0
+~
+~
+Door 2 0 0 16701 0 0
+~
+~
+Door 3 0 0 16707 0 0
+~
+~
+End
+
+#16710
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 0 0 0 16702 0 0
+~
+~
+Door 1 0 0 16708 0 0
+~
+~
+Door 3 0 0 16711 0 0
+~
+~
+End
+
+#16711
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 0 0 0 16703 0 0
+~
+~
+Door 1 0 0 16710 0 0
+~
+~
+Door 3 0 0 16712 0 0
+~
+~
+End
+
+#16712
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 0 0 0 16704 0 0
+~
+~
+Door 1 0 0 16711 0 0
+~
+~
+End
+
+#16713
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 3 0 0 16715 0 0
+~
+~
+Door 4 0 0 16704 0 0
+~
+~
+End
+
+#16714
+Name ~
+Descr
+~
+Door 4 0 0 16713 0 0
+~
+~
+End
+
+#16715
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Reset M 16715 1 100
+Reset O 16715 -1 30
+Door 0 0 0 16722 0 0
+~
+~
+Door 1 0 0 16713 0 0
+~
+~
+Door 3 0 0 16716 0 0
+~
+~
+End
+
+#16716
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 0 0 0 16721 0 0
+~
+~
+Door 1 0 0 16715 0 0
+~
+~
+Door 3 0 0 16717 0 0
+~
+~
+End
+
+#16717
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 0 0 0 16720 0 0
+~
+~
+Door 1 0 0 16716 0 0
+~
+~
+Door 3 0 0 16718 0 0
+~
+~
+End
+
+#16718
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16719 0 0
+~
+~
+Door 1 0 0 16717 0 0
+~
+~
+End
+
+#16719
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16726 0 0
+~
+~
+Door 1 0 0 16720 0 0
+~
+~
+Door 2 0 0 16718 0 0
+~
+~
+End
+
+#16720
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 0 0 0 16725 0 0
+~
+~
+Door 1 0 0 16721 0 0
+~
+~
+Door 2 0 0 16717 0 0
+~
+~
+Door 3 0 0 16719 0 0
+~
+~
+End
+
+#16721
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16724 0 0
+~
+~
+Door 1 0 0 16722 0 0
+~
+~
+Door 2 0 0 16716 0 0
+~
+~
+Door 3 0 0 16720 0 0
+~
+~
+End
+
+#16722
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16723 0 0
+~
+~
+Door 2 0 0 16715 0 0
+~
+~
+Door 3 0 0 16721 0 0
+~
+~
+End
+
+#16723
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16730 0 0
+~
+~
+Door 2 0 0 16722 0 0
+~
+~
+Door 3 0 0 16724 0 0
+~
+~
+End
+
+#16724
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16729 0 0
+~
+~
+Door 1 0 0 16723 0 0
+~
+~
+Door 2 0 0 16721 0 0
+~
+~
+Door 3 0 0 16725 0 0
+~
+~
+End
+
+#16725
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 0 0 0 16728 0 0
+~
+~
+Door 1 0 0 16724 0 0
+~
+~
+Door 2 0 0 16720 0 0
+~
+~
+Door 3 0 0 16726 0 0
+~
+~
+End
+
+#16726
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16727 0 0
+~
+~
+Door 1 0 0 16725 0 0
+~
+~
+Door 2 0 0 16719 0 0
+~
+~
+End
+
+#16727
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16734 0 0
+~
+~
+Door 1 0 0 16728 0 0
+~
+~
+Door 2 0 0 16726 0 0
+~
+~
+End
+
+#16728
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 0 0 0 16733 0 0
+~
+~
+Door 1 0 0 16729 0 0
+~
+~
+Door 2 0 0 16725 0 0
+~
+~
+Door 3 0 0 16727 0 0
+~
+~
+End
+
+#16729
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16732 0 0
+~
+~
+Door 1 0 0 16730 0 0
+~
+~
+Door 2 0 0 16724 0 0
+~
+~
+Door 3 0 0 16728 0 0
+~
+~
+End
+
+#16730
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16731 0 0
+~
+~
+Door 2 0 0 16723 0 0
+~
+~
+Door 3 0 0 16729 0 0
+~
+~
+End
+
+#16731
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 2 0 0 16730 0 0
+~
+~
+Door 3 0 0 16732 0 0
+~
+~
+End
+
+#16732
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Flags 4
+Sector 39
+Door 1 0 0 16731 0 0
+~
+~
+Door 2 0 0 16729 0 0
+~
+~
+Door 3 0 0 16733 0 0
+~
+~
+End
+
+#16733
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 1 0 0 16732 0 0
+~
+~
+Door 2 0 0 16728 0 0
+~
+~
+Door 3 0 0 16734 0 0
+~
+~
+End
+
+#16734
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 1 0 0 16733 0 0
+~
+~
+Door 2 0 0 16727 0 0
+~
+~
+Door 3 0 0 16735 0 0
+~
+~
+End
+
+#16735
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 1 0 0 16734 0 0
+~
+~
+Door 3 0 0 16736 0 0
+~
+~
+End
+
+#16736
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 0 0 0 16737 0 0
+~
+~
+Door 1 0 0 16735 0 0
+~
+~
+Door 2 0 0 16738 0 0
+~
+~
+Door 3 0 0 16739 0 0
+~
+~
+End
+
+#16737
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 2 0 0 16736 0 0
+~
+~
+Door 3 0 0 16740 0 0
+~
+~
+End
+
+#16738
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 0 0 0 16736 0 0
+~
+~
+Door 3 0 0 16741 0 0
+~
+~
+End
+
+#16739
+Name The Traveller's Trail~
+Descr
+You are on the traveller's trail, there are many common footprints on
+the ground. The road is made of broken stone and pebbles. 
+~
+Flags 4
+Sector 5
+Door 0 0 0 16740 0 0
+~
+~
+Door 1 0 0 16736 0 0
+~
+~
+Door 2 0 0 16741 0 0
+~
+~
+Door 3 0 0 16743 0 0
+~
+~
+End
+
+#16740
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Sector 39
+Door 1 0 0 16737 0 0
+~
+~
+Door 2 0 0 16739 0 0
+~
+~
+End
+
+#16741
+Name The Underground Cave Formation~
+Descr
+This is one of many man-made caves built by the owner's of this land.
+The rocks are chipped away to perfection, the ceiling lit with magic. 
+~
+Flags 65536
+Sector 39
+Door 0 0 0 16739 0 0
+~
+~
+Door 1 0 0 16738 0 0
+~
+~
+End
+
+#16742
+Name ~
+Descr
+~
+Door 4 0 0 16739 0 0
+~
+~
+End
+
+#16743
+Name The Gates of Taron~
+Descr
+This is the gates of the small city of taron. The guards here are huge,
+their veins bulge with power and await anyone who dare try to break this
+city. 
+~
+Flags 4
+Sector 5
+Reset M 16743 1 100
+Reset O 16743 -1 100
+Reset M 16743 1 100
+Reset O 16743 -1 100
+Reset M 16743 1 100
+Reset O 16743 -1 100
+Reset M 16743 1 100
+Reset O 16743 -1 100
+Reset M 16743 1 100
+Reset O 16743 -1 100
+Door 1 0 0 16739 0 0
+~
+~
+Door 5 515 0 16772 30 30
+~
+gate~
+End
+
+#16744
+Name Taron;The Fountain of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags2 6
+Flags 1028
+Sector 34
+Reset M 16755 1 100
+Reset O 16974 -5 100
+Door 0 0 0 16745 0 0
+~
+~
+Door 1 0 0 16758 0 0
+~
+~
+Door 2 771 0 16746 70 70
+~
+Ruined Door~
+Door 3 0 0 16747 0 0
+~
+~
+Door 4 0 0 16772 0 0
+~
+~
+End
+
+#16745
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1028
+Door 0 0 0 16749 0 0
+~
+~
+Door 1 0 0 16757 0 0
+~
+~
+Door 2 0 0 16744 0 0
+~
+~
+Door 3 0 0 16748 0 0
+~
+~
+End
+
+#16746
+Name An Old Hallway of Storage Rooms~
+Descr
+This short hallway links several ancient storage rooms. A feeling of
+energy seems to trickle from the floor. 
+~
+Flags2 6
+Flags 4
+Sector 0
+Door 0 771 0 16744 70 70
+~
+Ruined Door~
+Door 1 515 0 16759 30 30
+~
+~
+Door 2 515 0 16774 30 30
+~
+~
+Door 3 515 0 16773 30 30
+~
+~
+Door 5 515 0 16751 30 30
+~
+~
+End
+
+#16747
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems pretty
+broken down and battered. The walls are crumbling and the floor is dirt. 
+~
+Flags 1028
+Door 0 0 0 16748 0 0
+~
+~
+Door 1 0 0 16744 0 0
+~
+~
+Door 3 0 0 16753 0 0
+~
+~
+End
+
+#16748
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1028
+Door 0 0 0 16750 0 0
+~
+~
+Door 1 0 0 16745 0 0
+~
+~
+Door 2 0 0 16747 0 0
+~
+~
+Door 3 0 0 16752 0 0
+~
+~
+End
+
+#16749
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags2 6
+Flags 1028
+Reset M 16749 1 100
+Reset O 260 -1 75
+Door 0 0 0 16760 0 0
+~
+~
+Door 1 0 0 16756 0 0
+~
+~
+Door 2 0 0 16745 0 0
+~
+~
+Door 3 0 0 16750 0 0
+~
+~
+End
+
+#16750
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1028
+Door 1 0 0 16749 0 0
+~
+~
+Door 2 0 0 16748 0 0
+~
+~
+Door 3 0 0 16754 0 0
+~
+~
+End
+
+#16751
+Name An Old Storage Room~
+Descr
+~
+Sector 0
+Door 4 515 0 16746 30 30
+~
+~
+End
+
+#16752
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1028
+Door 0 0 0 16754 0 0
+~
+~
+Door 1 0 0 16748 0 0
+~
+~
+Door 2 0 0 16753 0 0
+~
+~
+Door 3 0 0 16755 0 0
+~
+~
+End
+
+#16753
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1028
+Door 0 0 0 16752 0 0
+~
+~
+Door 1 0 0 16747 0 0
+~
+~
+End
+
+#16754
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags2 6
+Flags 1028
+Door 1 0 0 16750 0 0
+~
+~
+Door 2 0 0 16752 0 0
+~
+~
+End
+
+#16755
+Name The Storage Room~
+Descr
+You are in the storage room, there are many chests here containing old
+war utilities and other useless gear. It seem's to be almost abandoned by
+the looks of the room. 
+~
+Flags 1028
+Door 1 0 0 16752 0 0
+~
+~
+Door 4 0 0 65075 0 0
+~
+~
+End
+
+#16756
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1028
+Door 2 0 0 16757 0 0
+~
+~
+Door 3 0 0 16749 0 0
+~
+~
+End
+
+#16757
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1028
+Door 0 0 0 16756 0 0
+~
+~
+Door 2 0 0 16758 0 0
+~
+~
+Door 3 0 0 16745 0 0
+~
+~
+End
+
+#16758
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1028
+Door 0 0 0 16757 0 0
+~
+~
+Door 3 0 0 16744 0 0
+~
+~
+End
+
+#16759
+Name An Old Storage Room~
+Descr
+~
+Sector 0
+Door 3 515 0 16746 30 30
+~
+~
+End
+
+#16760
+Name Inside the Underground City of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1028
+Reset O 5 -5 100
+Door 2 0 0 16749 0 0
+~
+~
+Door 5 0 0 16763 0 0
+~
+~
+End
+
+#16761
+Name Below the City~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Door 4 0 0 16760 0 0
+~
+~
+Door 5 0 0 16762 0 0
+~
+~
+End
+
+#16762
+Name Below the City~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Door 4 0 0 16761 0 0
+~
+~
+Door 5 0 0 16763 0 0
+~
+~
+End
+
+#16763
+Name Below the City~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1024
+Door 0 0 0 16764 0 0
+~
+~
+Door 4 0 0 16760 0 0
+~
+~
+End
+
+#16764
+Name Below the City~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1024
+Door 0 0 0 16765 0 0
+~
+~
+Door 2 0 0 16763 0 0
+~
+~
+End
+
+#16765
+Name Fara's Shack~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 1024
+Reset M 16765 1 100
+Door 2 0 0 16764 0 0
+~
+~
+End
+
+#16766
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 1 0 0 16767 0 0
+~
+~
+Door 2 0 0 4607 0 0
+~
+~
+Door 3 0 0 16709 0 0
+~
+~
+End
+
+#16767
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 1 0 0 16768 0 0
+~
+~
+Door 2 0 0 4606 0 0
+~
+~
+Door 3 0 0 16766 0 0
+~
+~
+End
+
+#16768
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Reset M 4417 1 100
+Door 1 0 0 4592 0 0
+~
+~
+Door 2 0 0 4605 0 0
+~
+~
+Door 3 0 0 16767 0 0
+~
+~
+End
+
+#16769
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 0 0 0 4607 0 0
+~
+~
+Door 1 0 0 16770 0 0
+~
+~
+Door 3 0 0 16708 0 0
+~
+~
+End
+
+#16770
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 0 0 0 4606 0 0
+~
+~
+Door 1 0 0 16771 0 0
+~
+~
+Door 3 0 0 16769 0 0
+~
+~
+End
+
+#16771
+Name Inside a Small Forest~
+Descr
+This is one of the very few small forest's. There isn't really much to
+see, you can hear the animals around the area. 
+~
+Sector 27
+Door 0 0 0 4605 0 0
+~
+~
+Door 1 0 0 4590 0 0
+~
+~
+Door 3 0 0 16770 0 0
+~
+~
+End
+
+#16772
+Name Under the Gates of Taron~
+Descr
+You are in the small city of taron, it really isn't much. It seems
+pretty broken down and battered. The walls are crumbling and the floor is
+dirt. 
+~
+Flags 4
+Door 4 515 0 16743 30 30
+~
+gate~
+Door 5 0 0 16744 0 0
+~
+~
+End
+
+#16773
+Name An Old Storage Room~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 515 0 16746 30 30
+~
+~
+End
+
+#16774
+Name An Old Storage Room~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 515 0 16746 30 30
+~
+~
+End
+
+#16775
+Name ~
+Descr
+~
+End
+
+#16776
+Name ~
+Descr
+~
+End
+
+#16777
+Name ~
+Descr
+~
+End
+
+#16778
+Name ~
+Descr
+~
+End
+
+#16779
+Name ~
+Descr
+~
+End
+
+#16780
+Name ~
+Descr
+~
+End
+
+#16781
+Name ~
+Descr
+~
+End
+
+#16782
+Name ~
+Descr
+~
+End
+
+#16783
+Name ~
+Descr
+~
+End
+
+#16784
+Name ~
+Descr
+~
+End
+
+#16785
+Name ~
+Descr
+~
+End
+
+#16786
+Name ~
+Descr
+~
+End
+
+#16787
+Name ~
+Descr
+~
+End
+
+#16788
+Name ~
+Descr
+~
+End
+
+#16789
+Name ~
+Descr
+~
+End
+
+#16790
+Name ~
+Descr
+~
+End
+
+#16791
+Name ~
+Descr
+~
+End
+
+#16792
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

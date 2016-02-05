@@ -1,0 +1,12899 @@
+#AREADATA 
+Name Castle Alderen~
+Repop The beat of drums continue as the seige hasn't yet been broken. 
+~
+SCZone 0
+Builders Morgoth~
+VNUMs 15001 15714
+NQuit 2
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#15001
+Name sabre guardian guard prac~
+Short Sabre~
+Long 
+Sabre, the guardian of Alderan, stands here commanding the defenses.
+~
+AMax 1
+NHeight 78
+ActBits 258
+ActBits3 524288
+ActBits4 16384
+Affect_By 648
+Alignment 2
+Money 2000
+Level 500
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+ASklTaught 0 137
+ASklTaught 1 570
+ASklTaught 2 133
+ASklTaught 3 270
+ASklTaught 4 252
+End
+
+#15002
+Name gate guard alderen~
+Short an alderen gate guard~
+Long 
+An alderen gate guard stands here protecting the entrance.
+~
+AMax 4
+NHeight 90
+ActBits 2
+ActBits3 8
+ActBits4 16384
+Affect_By 648
+Alignment 2
+Money 100
+Level 150
+MobType 4
+Hp 2
+Guard 1
+Spec spec_warrior
+End
+
+#15003
+Name gandan cleric healer human~
+Short gandan the cleric~
+Long 
+Gandan the cleric of the castle mixes up a healing concoction.
+~
+AMax 1
+NHeight 70
+ActBits 2
+ActBits3 524288
+Affect_By 682
+Alignment 2
+Money 100
+Level 200
+MobType 0
+Hp 30
+Guard 0
+End
+
+#15004
+Name legolan elven prince~
+Short Legolan the elven prince~
+Long 
+Legolan the elven prince sits here ready for war.
+~
+AMax 1
+NHeight 70
+ActBits 2
+Affect_By 640
+AffectTWO 8
+Alignment 2
+Money 1000
+Level 200
+MobType 1
+Hp 40
+Guard 0
+Spec spec_warrior
+End
+
+#15005
+Name alderen gate guard~
+Short an alderen gate guard~
+Long 
+An alderen gate guard stands here awaiting action.
+~
+AMax 4
+NHeight 80
+ActBits 2
+Affect_By 680
+Alignment 2
+Money 100
+Level 150
+MobType 0
+Guard 0
+End
+
+#15006
+Name alderen gate guard~
+Short an alderen gate guard~
+Long 
+An alderen gate guard stands here awaiting action.
+~
+AMax 4
+NHeight 70
+ActBits 2
+Affect_By 680
+Alignment 2
+Money 1000
+Level 150
+MobType 0
+Hp 2
+Guard 0
+End
+
+#15007
+Name alderen gate guard~
+Short an alderen gate guard~
+Long 
+An alderen gate guard stands here awaiting action.
+~
+AMax 4
+NHeight 80
+ActBits 2
+ActBits3 8
+ActBits4 16384
+Affect_By 680
+Alignment 2
+Money 100
+Level 150
+MobType 0
+Hp 2
+Guard 1
+End
+
+#15008
+Name royal guard~
+Short a royal guard~
+Long 
+A royal guard stands here barring passage.
+~
+AMax 4
+NHeight 100
+ActBits 2
+ActBits3 8
+Affect_By 648
+AffectTWO 524288
+Alignment 2
+Money 200
+Level 250
+MobType 4
+Hp 50
+Guard 4
+Spec spec_warrior
+End
+
+#15009
+Name king alderen~
+Short king alderen~
+Long 
+King alderen sits upon his throne.
+~
+AMax 1
+NHeight 100
+ActBits 2
+Affect_By 648
+Alignment 2
+Money 10000
+Level 300
+MobType 4
+Hp 30
+Guard 0
+End
+
+#15010
+Name gandalf wizard~
+Short Gandalf, the castle wizard~
+Long 
+Gandalf, the castle wizard stands here conjuring a magnificent spell.
+~
+AMax 1
+NHeight 80
+Affect_By 532610
+AffectTWO 33554432
+Alignment 2
+Money 10000
+Level 300
+MobType 0
+Hp 20
+Guard 0
+BCasts 94~
+BCast_P 1
+End
+
+#15011
+Name castle guard~
+Short a castle guard~
+Long 
+A castle guard wanders keeping the peace.
+~
+AMax 3
+NHeight 100
+ActBits4 16384
+Affect_By 640
+Alignment 2
+Money 300
+Level 200
+MobType 4
+Hp 3
+Guard 0
+End
+
+#15012
+Name korgan d'aerth slave miner~
+Short Korgan d'Aerth~
+Long 
+Korgan d'Aerth, head of the slaves miners, sits at his desk.
+~
+AMax 1
+NHeight 100
+ActBits 2
+Affect_By 8872
+Alignment 2
+Money 3000
+Level 500
+Sex 1
+MobType 4
+Hp 60
+Guard 0
+Spec spec_warrior
+End
+
+#15013
+Name guard~
+Short a guard~
+Long 
+A guard stands here barring passage.
+~
+AMax 3
+NHeight 60
+ActBits 2
+ActBits3 2
+Affect_By 640
+Alignment 2
+Money 1000
+Level 100
+MobType 0
+Guard 5
+End
+
+#15014
+Name a guard~
+Short a guard~
+Long 
+A guard stands here barring passage.
+~
+AMax 4
+NHeight 70
+ActBits 2
+ActBits3 2
+Affect_By 648
+Alignment 2
+Money 1000
+Level 130
+MobType 0
+Guard 5
+End
+
+#15015
+Name giant guard~
+Short a giant guard~
+Long 
+A giant guard stands here at attention.
+~
+AMax 1
+NHeight 90
+ActBits 2
+ActBits3 2
+Affect_By 640
+Alignment 2
+Money 1000
+Level 250
+MobType 4
+Hp 20
+Guard 1
+Spec spec_warrior
+End
+
+#15016
+Name human slave~
+Short a human slave~
+Long 
+A human slave stands here chipping away at the rock.
+~
+AMax 40
+NHeight 60
+Affect_By 512
+Alignment 2
+Level 250
+MobType 0
+Hp 2
+Guard 0
+End
+
+#15017
+Name slavemaster human~
+Short a human slavemaster~
+Long 
+A human slavemaster keeps the slaves in line.
+~
+AMax 5
+NHeight 80
+Affect_By 640
+Alignment 2
+Money 1300
+Level 250
+MobType 0
+Hp 5
+Guard 0
+End
+
+#15018
+Name orcish warrior orc~
+Short An orcish warrior~
+Long 
+An orcish warrior stands here ready for war.
+~
+AMax 15
+NHeight 70
+ActBits 2
+Affect_By 512
+Alignment 2
+Money 100
+Level 200
+MobType 25
+Hp 3
+Guard 0
+End
+
+#15019
+Name orcish general~
+Short an orcish general~
+Long 
+An Orcish general stands here barking orders.
+~
+AMax 1
+NHeight 80
+ActBits 2
+ActBits4 16384
+Affect_By 512
+Alignment 2
+Money 3000
+Level 300
+MobType 25
+Guard 0
+End
+
+#15020
+Name human warrior~
+Short a human warrior~
+Long 
+A human warrior stands here ready to serve.
+~
+AMax 15
+NHeight 70
+ActBits 2
+Affect_By 512
+Alignment 2
+Money 300
+Level 200
+MobType 0
+Hp 3
+Guard 0
+Spec spec_warrior
+End
+
+#15021
+Name denethor steward of alderen~
+Short Denethor, steward of alderen~
+Long 
+Denethor, steward of alderen stands here ready to defend his castle.
+~
+AMax 1
+NHeight 150
+ActBits 65538
+ActBits4 268435456
+Affect_By 680
+Alignment 2
+Level 300
+MobType 4
+Hp 20
+Guard 0
+Spec spec_warrior
+End
+
+#15022
+Name hill Giant gate guard~
+Short a Hill-Giant Gate guard~
+Long 
+A Hill-Giant gate guard stands here blocking passage of evil.
+~
+AMax 4
+NHeight 150
+ActBits 2
+ActBits3 2
+ActBits4 16384
+Affect_By 8744
+Alignment 2
+Money 200
+Level 100
+MobType 4
+Hp 30
+Guard 1
+End
+
+#15023
+Name the mountain king~
+Short the mountain king~
+Long 
+The mountain king stands here ready to back his Alderenian allies.
+~
+AMax 1
+NHeight 190
+ActBits 2
+ActBits4 16384
+Affect_By 8832
+AffectTWO 4
+Alignment 2
+Money 10000
+Level 300
+MobType 4
+Hp 40
+Guard 0
+Spec spec_warrior
+End
+
+#15024
+Name giant blacksmith~
+Short a giant blacksmith~
+Long 
+A giant blacksmith stands here doubling as a banker.
+~
+AMax 1
+NHeight 100
+ActBits 3538946
+Affect_By 8744
+Alignment 2
+Money 1000
+Level 100
+Sex 1
+MobType 4
+Hp 40
+Guard 0
+Spec spec_warrior
+End
+
+#15025
+Name orcish guard~
+Short an orcish guard~
+Long 
+An orcish guard stands here ready for war.
+~
+AMax 1
+NHeight 100
+ActBits 2
+ActBits3 2
+ActBits4 16384
+Affect_By 512
+Alignment 2
+Money 100
+Level 100
+MobType 25
+Hp 30
+Guard 3
+End
+
+#15026
+Name uruk war leader~
+Short the Uruk war leader~
+Long 
+The Uruk war leader stands here ready to kill
+~
+AMax 1
+NHeight 80
+ActBits 2
+Affect_By 512
+AffectTWO 4
+Alignment 2
+Money 10
+Level 120
+MobType 12
+Hp 15
+Guard 0
+End
+
+#15027
+Name alderen archer~
+Short an alderen archer~
+Long 
+An alderen archer stands here waiting to fire.
+~
+AMax 10
+NHeight 80
+ActBits 2
+Affect_By 512
+Alignment 2
+Money 300
+Level 250
+MobType 0
+Hp 3
+Guard 0
+End
+
+#15028
+Name scrawny mage prac~
+Short a scrawny mage~
+Long 
+A scrawny looking mage stands here practicing his spells.
+~
+AMax 1
+ActBits 256
+Alignment 2
+Level 500
+Sex 1
+MobType 0
+Hp 20
+Guard 0
+ASklTaught 0 125
+ASklTaught 1 254
+End
+
+#15029
+Name man armor~
+Short a man~
+Long 
+A man selling armor and weapons stands here awaiting purchases.
+~
+AMax 1
+ActBits 2
+Affect_By 520
+Alignment 2
+Level 300
+Sex 1
+MobType 0
+Hp 90
+Guard 0
+Shop    0   5   9   0   0 100 50 1 24
+Shopd2 50
+Shopd3 1
+End
+
+#15030
+Name elf elve child~
+Short a small elf~
+Long 
+A small female elf cheers you up on your journey!
+~
+AMax 5
+ActBits 1
+Affect_By 512
+Alignment 2
+Level 12
+Sex 2
+MobType 1
+Guard 0
+End
+
+#15031
+Name elf wife~
+Short an elf wife~
+Long 
+An elf wife of some guard walk about here.
+~
+AMax 5
+ActBits 1
+Affect_By 520
+Alignment 2
+Level 30
+Sex 2
+MobType 1
+Guard 0
+End
+
+#15032
+Name aggressive elf~
+Short a little elf~
+Long 
+A little elf is standing here ready to attack.
+~
+AMax 15
+NHeight 0
+ActBits 8
+Affect_By 512
+Alignment 2
+Level 20
+Hp 2
+Guard 0
+End
+
+#15033
+Name alderen gate guard~
+Short an alderen gate guard~
+Long 
+An alderen gate guard stands here awaiting action.
+~
+AMax 5
+NHeight 80
+ActBits 2
+ActBits3 8
+ActBits4 16384
+Affect_By 680
+Alignment 2
+Money 100
+Level 150
+MobType 0
+Hp 2
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#15001
+Name sapphire-hilted longsword sapphire hilted sword~
+Short a [1m[34msa[0m[34mpphi[1m[34mre[0m-[0m[37mhilted[0m longsword~
+Descr
+A [1m[34msa[0m[34mpphi[1m[34mre[0m-[0m[37mhilted[0m longsword rests here, beautifully carved.
+[0;36m~
+Type 5
+Extra 37748738
+Wear 24577
+Values 0 0 0 3 0 0 0 6 3 0 0
+Weight 40
+Cost 0
+Affect 19 1 1 0 0
+Affect 18 5 1 0 0
+End
+
+#15002
+Name healers robes of knowledge~
+Short a [1m[34mc[0m[34ml[1m[34me[0m[34mr[1m[34mi[0m[34mc[1m[34ma[0m[34ml[0m robe of [1m[33mk[1m[37mn[1m[33mo[0m[37mw[1m[33ml[0m[37me[1m[33md[0m[37mg[1m[33me[0m~
+Descr
+A [1m[34mc[0m[34ml[1m[34me[0m[34mr[1m[34mi[0m[34mc[1m[34ma[0m[34ml[0m robe of [1m[33mk[1m[37mn[1m[33mo[0m[37mw[1m[33ml[0m[37me[1m[33md[0m[37mg[1m[33me[0m rests here perfectly folded.
+[0;36m~
+Type 9
+Extra 33554435
+Wear 1025
+Values 3 3 4 4 0 0 0 0 0 0 0
+Weight 10
+Cost 1000
+Affect 17 2 1 0 0
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+Affect 20 2 1 0 0
+Affect 19 -2 1 0 0
+End
+
+#15003
+Name light of elven war knife apb~
+Short the e[1ml[0mv[1me[0mn war knife '[1m[30mda[0m[37mr[1m[30mks[0m[37mt[1m[30mar[0m'~
+Descr
+The e[1ml[0mv[1me[0mn war knife '[1m[30mda[0m[37mr[1m[30mks[0m[37mt[1m[30mar[0m' rests here in its sheath.
+[0;36m~
+Type 5
+Extra 131073
+Wear 24577
+Values 0 0 0 2 0 0 0 8 2 0 0
+Weight 10
+Cost 1000
+Affect 18 3 1 0 0
+Affect 19 1 1 0 0
+End
+
+#15004
+Name sapphire anklet~
+Short a [1m[34msa[0m[34mpphi[1m[34mre[0m anklet~
+Descr
+A [1m[34msa[0m[34mpphi[1m[34mre[0m anklet rests here.
+[0;36m~
+Type 9
+Extra 1
+Wear 524289
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 100
+Affect 22 2 1 0 0
+Affect 13 -5 1 0 0
+End
+
+#15005
+Name sapphire knee-brace~
+Short a [1m[34msa[0m[34mpphi[1m[34mre[0m knee-brace~
+Descr
+A [1m[34msa[0m[34mpphi[1m[34mre[0m knee-brace rests here.
+[0;36m~
+Type 9
+Extra 1
+Wear 2097153
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 100
+Affect 22 1 1 0 0
+Affect 13 -5 1 0 0
+End
+
+#15006
+Name sapphire ring apb~
+Short a [1m[34msa[0m[34mpphi[1m[34mre[0m ring~
+Descr
+A [1m[34msa[0m[34mpphi[1m[34mre[0m ring rests here.
+[0;36m~
+Type 9
+Extra 1
+Wear 3
+Values 0 0 0 3 0 0 0 0 0 0 0
+Weight 10
+Cost 100
+Affect 19 1 1 0 0
+Affect 13 -5 1 0 0
+End
+
+#15007
+Name sapphire elbow-guard~
+Short a [1m[34msa[0m[34mpphi[1m[34mre[0m elbow-guard~
+Descr
+A [1m[34msa[0m[34mpphi[1m[34mre[0m elbow-guard rests here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 1048577
+Values 0 0 0 3 0 0 0 0 0 0 0
+Weight 10
+Cost 1000
+Affect 19 1 1 0 0
+Affect 13 -5 1 0 0
+End
+
+#15008
+Name stone of power~
+Short the stone of [1mp[0mo[1mw[0me[1mr[0m~
+Descr
+The stone of [1mp[0mo[1mw[0me[1mr[0m rests here.
+[0;36m~
+Type 21
+Extra 33554435
+Wear 24577
+Values 9 75 50 30 0 0 0 0 0 0 0
+Weight 10
+Cost 100000
+Affect 19 1 1 0 0
+End
+
+#15009
+Name aura of power~
+Short the aura of [1mp[0mo[1mw[0me[1mr[0m~
+Descr
+The aura of [1mp[0mo[1mw[0me[1mr[0m rests here above the ground.
+[0;36m~
+Type 9
+Extra 33554435
+Wear 131073
+Values 2 4 4 2 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 13 5 1 0 0
+End
+
+#15010
+Name korgan d'aerth's golden helmet apb~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m helmet~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m helmet has been discarded here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 17
+Values 0 0 6 0 0 0 0 0 0 0 0
+Weight 20
+Cost 0
+Affect 17 1 1 0 0
+Affect 14 -10 1 0 0
+Affect 18 3 1 0 0
+Affect 13 -10 1 0 0
+Affect 19 1 1 0 0
+End
+
+#15011
+Name korgan d'aerths golden face mask apb~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m face-mask~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m face-mask has been discarded here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 65537
+Values 0 0 5 0 0 0 0 0 0 0 0
+Weight 20
+Cost 10000
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#15012
+Name korgan d'aerths golden enchanted neck clasp~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m neck-clasp~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m neck-clasp has been discarded here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 5
+Values 0 4 5 0 0 0 0 0 0 0 0
+Weight 10
+Cost 10000
+Affect 19 -2 1 0 0
+Affect 14 5 1 0 0
+Affect 13 10 1 0 0
+Affect 20 2 1 0 0
+End
+
+#15013
+Name korgan d'aerths golden enchanted pauldron~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m pauldron~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m pauldron has been discarded here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 32769
+Values 0 5 3 2 0 0 0 0 0 0 0
+Weight 10
+Cost 10000
+Affect 20 2 1 0 0
+Affect 19 -1 1 0 0
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+End
+
+#15014
+Name korgan d'aerths golen body armor apb~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m ceramic body armor~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m ceramic body armor has been discarded here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 9
+Values 0 7 0 0 0 0 0 0 0 0 0
+Weight 40
+Cost 10000
+Affect 13 -5 1 0 0
+Affect 18 3 1 0 0
+Affect 19 1 1 0 0
+End
+
+#15015
+Name korgan d'aerths golden enchanted vambraces arms~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m vambraces~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m vambraces have been discarded here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 257
+Values 0 0 0 7 0 0 0 0 0 0 0
+Weight 25
+Cost 10000
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+End
+
+#15016
+Name korgan d'aerths golden spiked elbow guard apb~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m elbow-guard~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m elbow-guard has been discarded here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 1048577
+Values 0 0 0 7 0 0 0 0 0 0 0
+Weight 15
+Cost 10000
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#15017
+Name korgan d'aerths golden enchanted wrist-clasp~
+Short korgan d'Aerth's [1m[33mgo[0m[33ml[1m[33mde[0m[33mn [1m[30me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md [0m[37mwrist-clasp~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m wrist-clasp has been discarded here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 4097
+Values 0 0 0 5 0 0 0 0 0 0 0
+Weight 15
+Cost 10000
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+End
+
+#15018
+Name korgan d'aerths golden enchanted ring.~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m ring~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m ring has been discarded here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 3
+Values 0 0 0 9 0 0 0 0 0 0 0
+Weight 10
+Cost 10000
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+End
+
+#15019
+Name korgan d'aerths golden belt apb~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m belt~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m belt has been discarded here.
+[0;36m~
+Type 9
+Extra 8623489024
+Wear 2049
+Values 2 7 0 0 0 0 0 0 0 0 0
+Weight 35
+Cost 10000
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#15020
+Name korgan d'aerths golden enchanted greaves~
+Short korgan d'aerths [1m[33mgo[0m[33ml[1m[33mde[0m[33mn[0m [1m[30me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m greaves~
+Descr
+Korgan d'aerths [1m[33mgo[0m[33ml[1m[33mde[0m[33mn[0m [1m[30me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m greaves rest here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 33
+Values 7 0 0 0 0 0 0 0 0 0 0
+Weight 20
+Cost 10000
+Affect 14 5 1 0 0
+Affect 22 3 1 0 0
+End
+
+#15021
+Name korgan d'aerths golden enchanted knee pad~
+Short korgan d'aerths [1m[33mgo[0m[33ml[1m[33mde[0m[33mn[0m [1m[30me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m knee-pad~
+Descr
+Korgan d'aerths [1m[33mgo[0m[33ml[1m[33mde[0m[33mn[0m [1m[30me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m knee-pad
+[0;36m~
+Type 9
+Extra 33554434
+Wear 2097153
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 10000
+Affect 14 5 1 0 0
+Affect 22 2 1 0 0
+End
+
+#15022
+Name spire of alderen~
+Short the spire of alderen~
+Descr
+The mighty [1m[30mS[1m[37mp[1m[30mi[1m[37mr[1m[30me[0m of [1m[36mA[0m[36ml[1m[36md[0m[36me[1m[36mr[0m[36me[1m[36mn[0m stands here for truth and justice
+[0;36m~
+Type 12
+Extra 2
+Wear 262144
+Values 0 2 4 2 0 0 0 0 0 2 0
+Weight 0
+Cost 0
+Affect 13 20 1 0 0
+Affect 14 10 1 0 0
+ExtraDescr spire alderen~
+Like a spike of pure ivory, it reaches towards the heavens, and you can
+
+almost feel the power of the light descend upon it. The spire of alderen has
+
+been here long before the castle was built. The first lord of alderen was
+
+quick to realize its power, and build the castle to protect it, and since it
+
+has become a fortress of the light. 
+
+~
+ExtraDescr spire alderen~
+Like a spike of pure ivory, it reaches towards the heavens, and you can
+
+almost feel the power of the light descend upon it. The spire of alderen has
+
+been here long before the castle was built. The first lord of alderen was
+
+quick to realize its power, and build the castle to protect as a fortress of
+
+the light. 
+
+~
+End
+
+#15023
+Name huge iron chest~
+Short a Huge [31miron[0m chest~
+Descr
+A Huge [31mi[1m[30mr[0m[31mo[1m[30mn[0m chest sits here.
+[0;36m~
+Type 15
+Extra 3
+Wear 0
+Values 1000 15 15024 0 0 0 0 0 0 0 0
+Weight 100
+Cost 0
+End
+
+#15024
+Name huge iron key~
+Short a huge [31mi[1m[30mr[0m[31mo[1m[30mn[0m key~
+Descr
+A huge [31mi[1m[30mr[0m[31mo[1m[30mn[0m key rests here.
+[0;36m~
+Type 18
+Extra 33554435
+Wear 5
+Timer 180
+Weight 10
+Cost 100
+End
+
+#15025
+Name fountain drink water crystal~
+Short the holy fountain of alderen~
+Descr
+The holy fountain of alderen draws its water from the light.
+[0;36m~
+Type 25
+Extra 2
+Wear 0
+Weight 0
+Cost 0
+End
+
+#15026
+Name orcish plate war~
+Short an [0m[37morcish [33mplate[0m [0mof [31mwar[0m~
+Descr
+An [0m[37morcish [33mplate[0m [0mof [31mwar[0m rests here covered in blood.
+[0;36m~
+Type 9
+Extra 33554435
+Wear 9
+Weight 50
+Cost 500
+Affect 19 -2 1 0 0
+Affect 18 -2 1 0 0
+Affect 13 14 1 0 0
+Affect 20 2 1 0 0
+Affect 17 2 1 0 0
+End
+
+#15027
+Name club stone king elite mountain concussion apb~
+Short the [0m[37mstone[0m club of the [1m[30mMo[1m[37mu[0m[34mnt[1m[37ma[1m[30min[0m [1m[30mK[0m[37mi[1m[30mn[0m[37mg[0m~
+Descr
+The [0m[37mstone[0m club of the [1m[30mMo[1m[37mu[0m[34mnt[1m[37ma[1m[30min[0m [1m[30mK[0m[37mi[1m[30mn[0m[37mg[0m rests here huge and unwieldy.
+[0;36m~
+Type 5
+Extra 68753555459
+Wear 16385
+Values 0 0 0 8 0 0 0 5 3 0 0
+Weight 100
+Cost 10000
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#15028
+Name uruk Battle armor of death~
+Short some [1m[30mU[0m[34mru[1m[30mk[0m battle armor of [1m[30md[37me[30ma[37mt[30mh[0m~
+Descr
+Some [1m[30mU[0m[34mru[1m[30mk[0m battle armor of [1m[30md[37me[30ma[37mt[30mh[0m rests here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 9
+Values 1 6 0 1 10 10 50 50 10 5 0
+Weight 39
+Cost 2350
+Affect 17 2 1 0 0
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+End
+
+#15029
+Name korgan d'aerth's golden enchanted spiked anklet~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m spiked anklet~
+Descr
+[0mKorgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m spiked anklet has been discarded here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 524289
+Values 4 0 0 0 0 0 0 0 0 0 0
+Weight 28
+Cost 10000
+Affect 22 1 1 0 0
+Affect 13 2 1 0 0
+Affect 14 5 1 0 0
+End
+
+#15030
+Name korgan d'aerth's golden enchanted spiked boots~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m spiked boots~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m spiked boots have been discarded here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 65
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 40
+Cost 10000
+Affect 22 2 1 0 0
+End
+
+#15031
+Name korgan d'aerth's golden enchanted earring~
+Short korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m earring~
+Descr
+Korgan d'Aerth's [33m[1mgo[0m[33ml[1mde[0m[33mn [30m[1me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m earring has been discarded here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 262145
+Values 0 0 6 0 0 0 0 0 0 0 0
+Weight 30
+Cost 10000
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+End
+
+#15309
+Name mask secret society~
+Short a [31mg[1ml[33mo[37mw[33mi[31mn[0m[31mg [0m[37m[36mm[1mas[0m[36mk [0m[37mof the [1m[30ms[0m[37me[1m[37mcr[0m[37me[1m[30mt [32ms[0m[32mociet[1my[0m[37m~
+Descr
+A glowing mask of the society lies on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 65537
+Values 0 0 4 0 0 0 10 10 0 40 0
+Weight 10
+Cost 30000
+Affect 14 10 1 0 0
+Affect 17 5 1 0 0
+Affect 18 2 1 0 0
+Affect 13 -10 1 0 0
+End
+
+#15500
+Name earring korgan golden~
+Short korgan d'Aerth's [1m[33mgo[0m[33ml[1mde[0m[33mn [1m[30me[0m[37mn[1m[30mc[0m[37mh[1m[30ma[0m[37mn[1m[30mt[0m[37me[1m[30md[0m[37m earring~
+Descr
+Korgan d'Aerth's golden enchanted earring
+[0;36m~
+Type 9
+Extra 4096
+Wear 262145
+Weight 60
+Cost 0
+Affect 13 -50 1 0 0
+Affect 14 -50 1 0 0
+Affect 19 -10 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#15640
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15628 0 0
+~
+~
+Door 1 0 0 15641 0 0
+~
+~
+Door 3 0 0 15639 0 0
+~
+~
+End
+
+#15641
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15629 0 0
+~
+~
+Door 1 0 0 15447 0 0
+~
+~
+Door 3 0 0 15640 0 0
+~
+~
+End
+
+#15642
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 1 0 0 15643 0 0
+~
+~
+Door 5 0 0 15444 0 0
+~
+~
+End
+
+#15643
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 2 0 0 15644 0 0
+~
+~
+Door 3 0 0 15642 0 0
+~
+~
+End
+
+#15644
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15643 0 0
+~
+~
+Door 2 0 0 15645 0 0
+~
+~
+End
+
+#15645
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15644 0 0
+~
+~
+Door 1 0 0 15646 0 0
+~
+~
+End
+
+#15646
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 3 0 0 15645 0 0
+~
+~
+Door 4 0 0 15647 0 0
+~
+~
+End
+
+#15647
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 4 0 0 15648 0 0
+~
+~
+Door 5 0 0 15646 0 0
+~
+~
+End
+
+#15648
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15649 0 0
+~
+~
+Door 5 0 0 15647 0 0
+~
+~
+End
+
+#15649
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15650 0 0
+~
+~
+Door 2 0 0 15648 0 0
+~
+~
+End
+
+#15650
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15651 0 0
+~
+~
+Door 2 0 0 15649 0 0
+~
+~
+End
+
+#15651
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15652 0 0
+~
+~
+Door 2 0 0 15650 0 0
+~
+~
+End
+
+#15652
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 1 0 0 15653 0 0
+~
+~
+Door 2 0 0 15651 0 0
+~
+~
+End
+
+#15653
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 2 0 0 15654 0 0
+~
+~
+Door 3 0 0 15652 0 0
+~
+~
+End
+
+#15654
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15653 0 0
+~
+~
+Door 2 0 0 15655 0 0
+~
+~
+End
+
+#15655
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15654 0 0
+~
+~
+Door 2 0 0 15656 0 0
+~
+~
+End
+
+#15656
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15655 0 0
+~
+~
+Door 2 0 0 15657 0 0
+~
+~
+End
+
+#15657
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15656 0 0
+~
+~
+Door 4 0 0 15658 0 0
+~
+~
+End
+
+#15658
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15660 0 0
+~
+~
+Door 3 0 0 15659 0 0
+~
+~
+Door 5 0 0 15657 0 0
+~
+~
+End
+
+#15659
+Name A Sharp Cliff~
+Cvnuml 140643320
+Descr
+~
+Flags2 6
+Sector 13
+Door 1 0 0 15658 0 0
+~
+~
+Door 5 0 0 0 0 0
+~
+~
+End
+
+#15660
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15661 0 0
+~
+~
+Door 2 0 0 15658 0 0
+~
+~
+End
+
+#15661
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15662 0 0
+~
+~
+Door 2 0 0 15660 0 0
+~
+~
+End
+
+#15662
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15663 0 0
+~
+~
+Door 2 0 0 15661 0 0
+~
+~
+End
+
+#15663
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15664 0 0
+~
+~
+Door 2 0 0 15662 0 0
+~
+~
+End
+
+#15664
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 1 0 0 15665 0 0
+~
+~
+Door 2 0 0 15663 0 0
+~
+~
+End
+
+#15665
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 2 0 0 15666 0 0
+~
+~
+Door 3 0 0 15664 0 0
+~
+~
+End
+
+#15666
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15665 0 0
+~
+~
+Door 2 0 0 15667 0 0
+~
+~
+End
+
+#15667
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15666 0 0
+~
+~
+Door 2 0 0 15668 0 0
+~
+~
+End
+
+#15668
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15667 0 0
+~
+~
+Door 2 0 0 15669 0 0
+~
+~
+End
+
+#15669
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15668 0 0
+~
+~
+Door 2 0 0 15670 0 0
+~
+~
+End
+
+#15670
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15669 0 0
+~
+~
+Door 4 0 0 15671 0 0
+~
+~
+End
+
+#15671
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15672 0 0
+~
+~
+Door 5 0 0 15670 0 0
+~
+~
+End
+
+#15672
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15673 0 0
+~
+~
+Door 2 0 0 15671 0 0
+~
+~
+End
+
+#15673
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15674 0 0
+~
+~
+Door 2 0 0 15672 0 0
+~
+~
+End
+
+#15674
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15675 0 0
+~
+~
+Door 2 0 0 15673 0 0
+~
+~
+End
+
+#15675
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15676 0 0
+~
+~
+Door 2 0 0 15674 0 0
+~
+~
+End
+
+#15676
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 1 0 0 15677 0 0
+~
+~
+Door 2 0 0 15675 0 0
+~
+~
+End
+
+#15677
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 2 0 0 15678 0 0
+~
+~
+Door 3 0 0 15676 0 0
+~
+~
+End
+
+#15678
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15677 0 0
+~
+~
+Door 2 0 0 15679 0 0
+~
+~
+End
+
+#15679
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15678 0 0
+~
+~
+Door 2 0 0 15680 0 0
+~
+~
+End
+
+#15680
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15679 0 0
+~
+~
+Door 2 0 0 15681 0 0
+~
+~
+End
+
+#15681
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15680 0 0
+~
+~
+Door 2 0 0 15682 0 0
+~
+~
+End
+
+#15682
+Name Path up the Mountainside~
+Descr
+~
+Sector 5
+Door 0 0 0 15681 0 0
+~
+~
+Door 4 0 0 15683 0 0
+~
+~
+End
+
+#15683
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 1 0 0 15684 0 0
+~
+~
+Door 5 0 0 15682 0 0
+~
+~
+End
+
+#15684
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 2 0 0 15685 0 0
+~
+~
+Door 3 0 0 15683 0 0
+~
+~
+End
+
+#15685
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 0 0 0 15684 0 0
+~
+~
+Door 3 0 0 15686 0 0
+~
+~
+End
+
+#15686
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 1 0 0 15685 0 0
+~
+~
+Door 3 0 0 15687 0 0
+~
+~
+End
+
+#15687
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 0 0 0 15688 0 0
+~
+~
+Door 1 0 0 15686 0 0
+~
+~
+End
+
+#15688
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 0 0 0 15689 0 0
+~
+~
+Door 2 0 0 15687 0 0
+~
+~
+End
+
+#15689
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 0 0 0 15690 0 0
+~
+~
+Door 2 0 0 15688 0 0
+~
+~
+End
+
+#15690
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 1 0 0 15691 0 0
+~
+~
+Door 2 0 0 15689 0 0
+~
+~
+End
+
+#15691
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 1 0 0 15692 0 0
+~
+~
+Door 3 0 0 15690 0 0
+~
+~
+End
+
+#15692
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 3 0 0 15691 0 0
+~
+~
+Door 4 0 0 15693 0 0
+~
+~
+End
+
+#15693
+Name The Plateau of the Mountain King~
+Descr
+~
+Sector 5
+Door 0 0 0 15702 0 0
+~
+~
+Door 1 0 0 15694 0 0
+~
+~
+Door 2 0 0 15703 0 0
+~
+~
+Door 5 0 0 15692 0 0
+~
+~
+End
+
+#15694
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 0 0 0 15701 0 0
+~
+~
+Door 1 0 0 15695 0 0
+~
+~
+Door 2 0 0 15704 0 0
+~
+~
+Door 3 0 0 15693 0 0
+~
+~
+End
+
+#15695
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 0 0 0 15700 0 0
+~
+~
+Door 1 0 0 15696 0 0
+~
+~
+Door 2 0 0 15705 0 0
+~
+~
+Door 3 0 0 15694 0 0
+~
+~
+End
+
+#15696
+Name Path Before the Hall of the Mountain King~
+Descr
+~
+Sector 5
+Door 0 0 0 15699 0 0
+~
+~
+Door 1 0 0 15697 0 0
+~
+~
+Door 2 0 0 15706 0 0
+~
+~
+Door 3 0 0 15695 0 0
+~
+~
+End
+
+#15697
+Name The Gates of the Mountain King's Hall~
+Descr
+~
+Sector 5
+Door 1 3 0 15698 30 30
+~
+mithril gates~
+Door 3 0 0 15696 0 0
+~
+~
+End
+
+#15698
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 0 0 0 15716 0 0
+~
+~
+Door 1 0 0 15707 0 0
+~
+~
+Door 3 3 0 15697 30 30
+~
+mithril gates~
+End
+
+#15699
+Name A Rocky Plain~
+Descr
+~
+Sector 31
+Door 2 0 0 15696 0 0
+~
+~
+Door 3 0 0 15700 0 0
+~
+~
+End
+
+#15700
+Name A Rocky Plain~
+Descr
+~
+Sector 31
+Door 1 0 0 15699 0 0
+~
+~
+Door 2 0 0 15695 0 0
+~
+~
+Door 3 0 0 15701 0 0
+~
+~
+End
+
+#15701
+Name A Rocky Plain~
+Descr
+~
+Sector 31
+Door 1 0 0 15700 0 0
+~
+~
+Door 2 0 0 15694 0 0
+~
+~
+Door 3 0 0 15702 0 0
+~
+~
+End
+
+#15702
+Name A Rocky Plain~
+Descr
+~
+Sector 31
+Door 1 0 0 15701 0 0
+~
+~
+Door 2 0 0 15693 0 0
+~
+~
+End
+
+#15703
+Name A Rocky Plain~
+Descr
+~
+Sector 31
+Door 0 0 0 15693 0 0
+~
+~
+Door 1 0 0 15704 0 0
+~
+~
+End
+
+#15704
+Name A Rocky Plain~
+Descr
+~
+Sector 31
+Door 0 0 0 15694 0 0
+~
+~
+Door 1 0 0 15705 0 0
+~
+~
+Door 3 0 0 15703 0 0
+~
+~
+End
+
+#15705
+Name A Rocky Plain~
+Descr
+~
+Sector 31
+Door 0 0 0 15695 0 0
+~
+~
+Door 1 0 0 15706 0 0
+~
+~
+Door 3 0 0 15704 0 0
+~
+~
+End
+
+#15706
+Name A Rocky Plain~
+Descr
+~
+Sector 31
+Door 0 0 0 15696 0 0
+~
+~
+Door 3 0 0 15705 0 0
+~
+~
+End
+
+#15707
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 1 0 0 15708 0 0
+~
+~
+Door 3 0 0 15698 0 0
+~
+~
+End
+
+#15708
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 0 0 0 15717 0 0
+~
+~
+Door 1 0 0 15709 0 0
+~
+~
+Door 3 0 0 15707 0 0
+~
+~
+End
+
+#15709
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 0 0 0 15711 0 0
+~
+~
+Door 1 0 0 15710 0 0
+~
+~
+Door 3 0 0 15708 0 0
+~
+~
+End
+
+#15710
+Name Throne of the Mountain King~
+Descr
+~
+Flags2 6
+Flags 20
+Sector 37
+Reset M 15023 1 100
+Door 3 0 0 15709 0 0
+~
+~
+End
+
+#15711
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 0 0 0 15712 0 0
+~
+~
+Door 2 0 0 15709 0 0
+~
+~
+End
+
+#15712
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 2 0 0 15711 0 0
+~
+~
+Door 3 0 0 15714 0 0
+~
+~
+End
+
+#15713
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 1 0 0 15714 0 0
+~
+~
+Door 2 0 0 15715 0 0
+~
+~
+End
+
+#15714
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 1 0 0 15712 0 0
+~
+~
+Door 3 0 0 15713 0 0
+~
+~
+End
+
+#15715
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 0 0 0 15713 0 0
+~
+~
+Door 3 0 0 15716 0 0
+~
+~
+End
+
+#15716
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 1 0 0 15715 0 0
+~
+~
+Door 2 0 0 15698 0 0
+~
+~
+End
+
+#15717
+Name Within the Hall of the Mountain King~
+Descr
+~
+Sector 37
+Door 2 0 0 15708 0 0
+~
+~
+End
+
+#15718
+Name Above a Foul Smelling Hole~
+Cvnumh 137522496
+Descr
+~
+Sector 5
+Reset M 15032 5 100
+Door 1 0 0 15310 0 0
+~
+~
+Door 3 0 0 0 0 0
+~
+~
+Door 4 3 0 10194 30 30
+~
+trapdoor~
+Door 5 0 0 15719 0 0
+~
+~
+End
+
+#15719
+Name Before A Hastily Constructed Orc Hole~
+Descr
+~
+Sector 38
+Reset M 15025 1 100
+Door 3 0 0 15720 0 0
+~
+~
+Door 4 0 0 15718 0 0
+~
+~
+End
+
+#15720
+Name The Hastily dug orc Hole~
+Descr
+~
+Flags 32
+Sector 38
+Door 1 0 0 15719 0 0
+~
+~
+Door 3 0 0 15721 0 0
+~
+~
+End
+
+#15721
+Name The Hastily dug orc Hole~
+Descr
+~
+Flags 32
+Sector 38
+Door 1 0 0 15720 0 0
+~
+~
+Door 3 0 0 15722 0 0
+~
+~
+End
+
+#15722
+Name The Hastily dug orc Hole~
+Descr
+~
+Flags2 6
+Flags 48
+Sector 38
+Reset M 15026 1 100
+Reset O 64 -1 20
+Reset O 15028 -1 1
+Door 1 0 0 15721 0 0
+~
+~
+End
+
+#15001
+Name Center of the Castle Alederen~
+Descr
+~
+Flags2 6
+Flags 65536
+Sector 5
+Reset O 15022 -5 100
+Reset O 15025 -5 100
+Reset M 15001 1 100
+Reset O 31230 -1 1
+Door 0 0 0 15003 0 0
+~
+~
+Door 1 0 0 15004 0 0
+~
+~
+Door 2 0 0 15005 0 0
+~
+~
+Door 3 0 0 15002 0 0
+~
+~
+Door 5 259 0 15135 30 30
+~
+grate~
+End
+
+#15002
+Name Lord Alderan Square~
+Descr
+~
+Sector 5
+Door 0 0 0 15007 0 0
+~
+~
+Door 1 0 0 15001 0 0
+~
+~
+Door 2 0 0 15006 0 0
+~
+~
+Door 3 0 0 15010 0 0
+~
+~
+End
+
+#15003
+Name Lord Alderan Square~
+Descr
+~
+Sector 5
+Reset M 15031 1 100
+Door 0 0 0 15018 0 0
+~
+~
+Door 1 0 0 15008 0 0
+~
+~
+Door 2 0 0 15001 0 0
+~
+~
+Door 3 0 0 15007 0 0
+~
+~
+End
+
+#15004
+Name Lord Alderan Square~
+Descr
+~
+Sector 5
+Door 0 0 0 15008 0 0
+~
+~
+Door 1 0 0 15014 0 0
+~
+~
+Door 2 0 0 15009 0 0
+~
+~
+Door 3 0 0 15001 0 0
+~
+~
+End
+
+#15005
+Name Lord Alderan Square~
+Descr
+~
+Sector 5
+Reset M 15031 1 100
+Door 0 0 0 15001 0 0
+~
+~
+Door 1 0 0 15009 0 0
+~
+~
+Door 2 0 0 15022 0 0
+~
+~
+Door 3 0 0 15006 0 0
+~
+~
+End
+
+#15006
+Name Lord Alderan Square~
+Descr
+~
+Reset M 15024 1 100
+Door 0 0 0 15002 0 0
+~
+~
+Door 1 0 0 15005 0 0
+~
+~
+End
+
+#15007
+Name Lord Alderan Square~
+Descr
+~
+Reset M 15029 1 100
+Reset O 261 2 100
+Reset O 130 2 100
+Reset O 253 2 100
+Reset O 202 2 100
+Reset O 216 2 100
+Reset O 202 2 100
+Reset O 213 2 100
+Door 1 0 0 15003 0 0
+~
+~
+Door 2 0 0 15002 0 0
+~
+~
+End
+
+#15008
+Name Lord Alderan Square~
+Descr
+~
+Flags 262148
+Door 2 0 0 15004 0 0
+~
+~
+Door 3 0 0 15003 0 0
+~
+~
+End
+
+#15009
+Name Lord Alderan Square~
+Descr
+~
+Door 0 0 0 15004 0 0
+~
+~
+Door 3 0 0 15005 0 0
+~
+~
+End
+
+#15010
+Name Western Road~
+Descr
+~
+Sector 5
+Reset M 15011 1 100
+Door 0 0 0 15064 0 0
+~
+~
+Door 1 0 0 15002 0 0
+~
+~
+Door 2 0 0 15120 0 0
+~
+~
+Door 3 0 0 15011 0 0
+~
+~
+End
+
+#15011
+Name Western Road~
+Descr
+~
+Sector 5
+Reset M 15030 1 100
+Door 1 0 0 15010 0 0
+~
+~
+Door 3 0 0 15012 0 0
+~
+~
+End
+
+#15012
+Name Western Road~
+Descr
+~
+Sector 5
+Door 1 0 0 15011 0 0
+~
+~
+Door 3 0 0 15013 0 0
+~
+~
+End
+
+#15013
+Name Western Road~
+Descr
+~
+Sector 5
+Door 0 0 0 15034 0 0
+~
+~
+Door 1 0 0 15012 0 0
+~
+~
+Door 2 0 0 15044 0 0
+~
+~
+Door 3 0 0 15062 0 0
+~
+~
+End
+
+#15014
+Name Eastern Road~
+Descr
+~
+Sector 5
+Reset M 15030 1 100
+Reset M 15011 1 100
+Door 0 0 0 15080 0 0
+~
+~
+Door 1 0 0 15015 0 0
+~
+~
+Door 2 0 0 15103 0 0
+~
+~
+Door 3 0 0 15004 0 0
+~
+~
+End
+
+#15015
+Name Eastern Road~
+Descr
+~
+Sector 5
+Door 1 0 0 15016 0 0
+~
+~
+Door 3 0 0 15014 0 0
+~
+~
+End
+
+#15016
+Name Eastern Road~
+Descr
+~
+Sector 5
+Door 1 0 0 15017 0 0
+~
+~
+Door 3 0 0 15015 0 0
+~
+~
+End
+
+#15017
+Name Eastern Road~
+Descr
+~
+Sector 5
+Door 0 0 0 15043 0 0
+~
+~
+Door 2 0 0 15053 0 0
+~
+~
+Door 3 0 0 15016 0 0
+~
+~
+End
+
+#15018
+Name Northern Road~
+Descr
+~
+Sector 5
+Reset M 15011 1 100
+Door 0 0 0 15019 0 0
+~
+~
+Door 1 0 0 15093 0 0
+~
+~
+Door 2 0 0 15003 0 0
+~
+~
+End
+
+#15019
+Name Northern Road~
+Descr
+~
+Sector 5
+Door 0 0 0 15020 0 0
+~
+~
+Door 2 0 0 15018 0 0
+~
+~
+End
+
+#15020
+Name Northern Road~
+Descr
+~
+Sector 5
+Door 0 0 0 15021 0 0
+~
+~
+Door 2 0 0 15019 0 0
+~
+~
+End
+
+#15021
+Name Northern Road~
+Descr
+~
+Sector 5
+Reset M 15030 1 100
+Door 1 0 0 15035 0 0
+~
+~
+Door 2 0 0 15020 0 0
+~
+~
+Door 3 0 0 15026 0 0
+~
+~
+End
+
+#15022
+Name Southern Road~
+Descr
+~
+Sector 5
+Reset M 15011 1 100
+Door 0 0 0 15005 0 0
+~
+~
+Door 2 0 0 15023 0 0
+~
+~
+End
+
+#15023
+Name Southern Road~
+Descr
+~
+Sector 5
+Door 0 0 0 15022 0 0
+~
+~
+Door 2 0 0 15024 0 0
+~
+~
+End
+
+#15024
+Name Southern Road~
+Descr
+~
+Sector 5
+Reset M 15030 1 100
+Door 0 0 0 15023 0 0
+~
+~
+Door 2 0 0 15025 0 0
+~
+~
+End
+
+#15025
+Name Southern Road~
+Descr
+~
+Sector 5
+Door 0 0 0 15024 0 0
+~
+~
+Door 1 0 0 15061 0 0
+~
+~
+Door 2 0 0 15099 0 0
+~
+~
+Door 3 0 0 15052 0 0
+~
+~
+End
+
+#15026
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15021 0 0
+~
+~
+Door 3 0 0 15027 0 0
+~
+~
+End
+
+#15027
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15026 0 0
+~
+~
+Door 3 0 0 15028 0 0
+~
+~
+End
+
+#15028
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15027 0 0
+~
+~
+Door 3 0 0 15029 0 0
+~
+~
+End
+
+#15029
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15028 0 0
+~
+~
+Door 3 0 0 15030 0 0
+~
+~
+End
+
+#15030
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Reset M 15031 1 100
+Reset M 15011 1 100
+Door 1 0 0 15029 0 0
+~
+~
+Door 2 0 0 15031 0 0
+~
+~
+End
+
+#15031
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15030 0 0
+~
+~
+Door 2 0 0 15032 0 0
+~
+~
+End
+
+#15032
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15031 0 0
+~
+~
+Door 2 0 0 15033 0 0
+~
+~
+End
+
+#15033
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15032 0 0
+~
+~
+Door 2 0 0 15034 0 0
+~
+~
+End
+
+#15034
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15033 0 0
+~
+~
+Door 2 0 0 15013 0 0
+~
+~
+End
+
+#15035
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15036 0 0
+~
+~
+Door 3 0 0 15021 0 0
+~
+~
+End
+
+#15036
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15037 0 0
+~
+~
+Door 3 0 0 15035 0 0
+~
+~
+End
+
+#15037
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15038 0 0
+~
+~
+Door 3 0 0 15036 0 0
+~
+~
+End
+
+#15038
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15039 0 0
+~
+~
+Door 3 0 0 15037 0 0
+~
+~
+End
+
+#15039
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Reset M 15011 1 100
+Door 2 0 0 15040 0 0
+~
+~
+Door 3 0 0 15038 0 0
+~
+~
+End
+
+#15040
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15039 0 0
+~
+~
+Door 2 0 0 15041 0 0
+~
+~
+End
+
+#15041
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15040 0 0
+~
+~
+Door 2 0 0 15042 0 0
+~
+~
+End
+
+#15042
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Reset M 15030 1 100
+Door 0 0 0 15041 0 0
+~
+~
+Door 2 0 0 15043 0 0
+~
+~
+Door 3 0 0 15431 0 0
+~
+~
+End
+
+#15043
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15042 0 0
+~
+~
+Door 2 0 0 15017 0 0
+~
+~
+End
+
+#15044
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15013 0 0
+~
+~
+Door 2 0 0 15045 0 0
+~
+~
+End
+
+#15045
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15044 0 0
+~
+~
+Door 2 0 0 15046 0 0
+~
+~
+End
+
+#15046
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15045 0 0
+~
+~
+Door 2 0 0 15047 0 0
+~
+~
+End
+
+#15047
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Reset M 15031 1 100
+Reset M 15030 1 100
+Door 0 0 0 15046 0 0
+~
+~
+Door 2 0 0 15048 0 0
+~
+~
+End
+
+#15048
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Reset M 15011 1 100
+Door 0 0 0 15047 0 0
+~
+~
+Door 1 0 0 15049 0 0
+~
+~
+End
+
+#15049
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15050 0 0
+~
+~
+Door 3 0 0 15048 0 0
+~
+~
+End
+
+#15050
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15051 0 0
+~
+~
+Door 3 0 0 15049 0 0
+~
+~
+End
+
+#15051
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Reset M 15031 1 100
+Door 1 0 0 15052 0 0
+~
+~
+Door 3 0 0 15050 0 0
+~
+~
+End
+
+#15052
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15025 0 0
+~
+~
+Door 3 0 0 15051 0 0
+~
+~
+End
+
+#15053
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15017 0 0
+~
+~
+Door 2 0 0 15054 0 0
+~
+~
+End
+
+#15054
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15053 0 0
+~
+~
+Door 2 0 0 15055 0 0
+~
+~
+End
+
+#15055
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15054 0 0
+~
+~
+Door 2 0 0 15056 0 0
+~
+~
+End
+
+#15056
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Reset M 15031 1 100
+Door 0 0 0 15055 0 0
+~
+~
+Door 2 0 0 15057 0 0
+~
+~
+End
+
+#15057
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Reset M 15011 1 100
+Door 0 0 0 15056 0 0
+~
+~
+Door 3 0 0 15058 0 0
+~
+~
+End
+
+#15058
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15057 0 0
+~
+~
+Door 3 0 0 15059 0 0
+~
+~
+End
+
+#15059
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15058 0 0
+~
+~
+Door 3 0 0 15060 0 0
+~
+~
+End
+
+#15060
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15059 0 0
+~
+~
+Door 3 0 0 15061 0 0
+~
+~
+End
+
+#15061
+Name Inside the Walls of Alderen~
+Descr
+~
+Sector 5
+Door 1 0 0 15060 0 0
+~
+~
+Door 3 0 0 15025 0 0
+~
+~
+End
+
+#15062
+Name Before the Massive Gates of Alderen~
+Descr
+~
+Sector 5
+Reset M 15007 5 100
+Reset M 15007 5 100
+Reset M 15007 5 100
+Reset M 15007 5 100
+Door 1 0 0 15013 0 0
+~
+~
+Door 3 0 0 15063 0 0
+~
+~
+End
+
+#15063
+Name On the Drawbridge~
+Descr
+~
+Sector 5
+Door 1 0 0 15062 0 0
+~
+~
+Door 3 0 0 15306 0 0
+~
+~
+End
+
+#15064
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 15010 0 0
+~
+~
+Door 3 0 0 15065 0 0
+~
+~
+End
+
+#15065
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15031 1 100
+Door 1 0 0 15064 0 0
+~
+~
+Door 3 0 0 15066 0 0
+~
+~
+End
+
+#15066
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15067 0 0
+~
+~
+Door 1 0 0 15065 0 0
+~
+~
+End
+
+#15067
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15030 1 100
+Door 0 0 0 15068 0 0
+~
+~
+Door 2 0 0 15066 0 0
+~
+~
+End
+
+#15068
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15069 0 0
+~
+~
+Door 2 0 0 15067 0 0
+~
+~
+End
+
+#15069
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15070 0 0
+~
+~
+Door 2 0 0 15068 0 0
+~
+~
+End
+
+#15070
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15071 0 0
+~
+~
+Door 3 0 0 15069 0 0
+~
+~
+End
+
+#15071
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15031 1 100
+Door 1 0 0 15072 0 0
+~
+~
+Door 3 0 0 15070 0 0
+~
+~
+End
+
+#15072
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 15073 0 0
+~
+~
+Door 3 0 0 15071 0 0
+~
+~
+End
+
+#15073
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15072 0 0
+~
+~
+Door 2 0 0 15074 0 0
+~
+~
+End
+
+#15074
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15073 0 0
+~
+~
+Door 3 0 0 15075 0 0
+~
+~
+End
+
+#15075
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15076 0 0
+~
+~
+Door 1 0 0 15074 0 0
+~
+~
+End
+
+#15076
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 15075 0 0
+~
+~
+Door 3 0 0 15077 0 0
+~
+~
+End
+
+#15077
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15030 1 100
+Door 1 0 0 15076 0 0
+~
+~
+Door 2 0 0 15078 0 0
+~
+~
+End
+
+#15078
+Name A Dimly lit Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15077 0 0
+~
+~
+End
+
+#15079
+Name A Dark Room~
+Descr
+~
+Flags 20
+Sector 0
+Door 5 0 0 15078 0 0
+~
+~
+End
+
+#15080
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15081 0 0
+~
+~
+Door 2 0 0 15014 0 0
+~
+~
+End
+
+#15081
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15082 0 0
+~
+~
+Door 3 0 0 15080 0 0
+~
+~
+End
+
+#15082
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 3 0 0 15081 0 0
+~
+~
+Door 4 0 0 15083 0 0
+~
+~
+End
+
+#15083
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15084 0 0
+~
+~
+Door 5 0 0 15082 0 0
+~
+~
+End
+
+#15084
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 15083 0 0
+~
+~
+Door 5 0 0 15085 0 0
+~
+~
+End
+
+#15085
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15086 0 0
+~
+~
+Door 4 0 0 15084 0 0
+~
+~
+End
+
+#15086
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15087 0 0
+~
+~
+Door 2 0 0 15085 0 0
+~
+~
+End
+
+#15087
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 15086 0 0
+~
+~
+Door 3 0 0 15088 0 0
+~
+~
+End
+
+#15088
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15087 0 0
+~
+~
+Door 2 0 0 15089 0 0
+~
+~
+End
+
+#15089
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15088 0 0
+~
+~
+Door 3 0 0 15090 0 0
+~
+~
+End
+
+#15090
+Name A Well lit Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15091 0 0
+~
+~
+Door 1 0 0 15089 0 0
+~
+~
+End
+
+#15091
+Name A Well lit Castle Hallway~
+Descr
+~
+Sector 0
+Door 2 0 0 15090 0 0
+~
+~
+Door 4 0 0 15092 0 0
+~
+~
+End
+
+#15092
+Name The Throne of an Elven Prince~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15004 1 100
+Door 5 0 0 15091 0 0
+~
+~
+End
+
+#15093
+Name A Small Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15094 0 0
+~
+~
+Door 3 0 0 15018 0 0
+~
+~
+End
+
+#15094
+Name A Small Castle Hallway~
+Descr
+~
+Flags 4
+Sector 0
+Door 3 0 0 15093 0 0
+~
+~
+Door 4 0 0 15095 0 0
+~
+~
+Door 5 3 0 15096 30 30
+~
+trapdoor~
+End
+
+#15095
+Name A Room of Healing~
+Descr
+~
+Flags2 6
+Flags 4
+Sector 0
+Door 5 0 0 15094 0 0
+~
+~
+End
+
+#15096
+Name A Dark Room of Torture~
+Descr
+~
+Flags2 6
+Flags 16
+Sector 37
+Reset M 15028 1 100
+Reset O 54 -1 1
+Door 4 3 0 15094 30 30
+~
+trapdoor~
+End
+
+#15097
+Name Before the Mighty Eastern Gate~
+Descr
+~
+Sector 5
+Reset M 15006 1 100
+Reset M 15006 1 100
+Reset M 15006 1 100
+Reset M 15006 1 100
+Door 1 0 0 15098 0 0
+~
+~
+Door 3 0 0 15017 0 0
+~
+~
+End
+
+#15098
+Name Upon a Draw Bridge~
+Descr
+~
+Sector 5
+Door 1 0 0 15350 0 0
+~
+~
+Door 3 0 0 15097 0 0
+~
+~
+End
+
+#15099
+Name Before the Mighty Southern Gate~
+Descr
+~
+Sector 5
+Reset M 15033 5 100
+Reset M 15033 5 100
+Reset M 15033 5 100
+Reset M 15033 5 100
+Door 0 0 0 15025 0 0
+~
+~
+Door 2 0 0 15100 0 0
+~
+~
+End
+
+#15100
+Name Upon a Draw Bridge~
+Descr
+~
+Sector 5
+Door 0 0 0 15099 0 0
+~
+~
+Door 2 0 0 15329 0 0
+~
+~
+End
+
+#15101
+Name Before the Mighty northern Gate~
+Descr
+~
+Sector 5
+Reset M 15005 1 100
+Reset M 15005 1 100
+Reset M 15005 1 100
+Reset M 15005 1 100
+Door 0 0 0 15102 0 0
+~
+~
+Door 2 0 0 15021 0 0
+~
+~
+End
+
+#15102
+Name Upon a Draw Bridge~
+Descr
+~
+Sector 5
+Door 0 0 0 15366 0 0
+~
+~
+End
+
+#15103
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15014 0 0
+~
+~
+Door 1 0 0 15104 0 0
+~
+~
+End
+
+#15104
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15105 0 0
+~
+~
+Door 3 0 0 15103 0 0
+~
+~
+End
+
+#15105
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15030 1 100
+Door 2 0 0 15106 0 0
+~
+~
+Door 3 0 0 15104 0 0
+~
+~
+End
+
+#15106
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15105 0 0
+~
+~
+Door 2 0 0 15107 0 0
+~
+~
+End
+
+#15107
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15106 0 0
+~
+~
+Door 2 0 0 15108 0 0
+~
+~
+End
+
+#15108
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15107 0 0
+~
+~
+Door 3 0 0 15109 0 0
+~
+~
+End
+
+#15109
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15108 0 0
+~
+~
+Door 3 0 0 15110 0 0
+~
+~
+End
+
+#15110
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15109 0 0
+~
+~
+Door 3 0 0 15111 0 0
+~
+~
+End
+
+#15111
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15031 1 100
+Door 0 0 0 15112 0 0
+~
+~
+Door 1 0 0 15110 0 0
+~
+~
+End
+
+#15112
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15113 0 0
+~
+~
+Door 2 0 0 15111 0 0
+~
+~
+End
+
+#15113
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15030 1 100
+Door 1 0 0 15114 0 0
+~
+~
+Door 2 0 0 15112 0 0
+~
+~
+End
+
+#15114
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15115 0 0
+~
+~
+Door 3 0 0 15113 0 0
+~
+~
+End
+
+#15115
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 15116 0 0
+~
+~
+Door 3 0 0 15114 0 0
+~
+~
+End
+
+#15116
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15031 1 100
+Door 0 0 0 15115 0 0
+~
+~
+Door 3 0 0 15117 0 0
+~
+~
+End
+
+#15117
+Name A Glowing Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15116 0 0
+~
+~
+Door 4 0 0 15118 0 0
+~
+~
+End
+
+#15118
+Name A Glorious Room~
+Descr
+~
+Flags 4
+Sector 0
+Door 4 0 0 15119 0 0
+~
+~
+Door 5 0 0 15117 0 0
+~
+~
+End
+
+#15119
+Name Throne Room of Alderen~
+Cvnumh 15714
+Cvnuml 15001
+Calign 2
+Cbonusstr w~
+Descr
+~
+Flags 16516
+Sector 49
+Reset M 15009 1 100
+Door 5 0 0 15118 0 0
+~
+~
+End
+
+#15120
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15010 0 0
+~
+~
+Door 3 0 0 15121 0 0
+~
+~
+End
+
+#15121
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15120 0 0
+~
+~
+Door 2 0 0 15122 0 0
+~
+~
+End
+
+#15122
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15121 0 0
+~
+~
+Door 1 0 0 15125 0 0
+~
+~
+Door 3 0 0 15123 0 0
+~
+~
+End
+
+#15123
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15124 0 0
+~
+~
+Door 1 0 0 15122 0 0
+~
+~
+End
+
+#15124
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15031 1 100
+Reset M 15030 1 100
+Door 2 0 0 15123 0 0
+~
+~
+End
+
+#15125
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15126 0 0
+~
+~
+Door 3 0 0 15122 0 0
+~
+~
+End
+
+#15126
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 15127 0 0
+~
+~
+Door 3 0 0 15125 0 0
+~
+~
+End
+
+#15127
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15126 0 0
+~
+~
+Door 3 0 0 15128 0 0
+~
+~
+End
+
+#15128
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15127 0 0
+~
+~
+Door 2 0 0 15129 0 0
+~
+~
+End
+
+#15129
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15128 0 0
+~
+~
+Door 1 0 0 15130 0 0
+~
+~
+Door 3 0 0 15131 0 0
+~
+~
+End
+
+#15130
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15010 1 100
+Door 3 0 0 15129 0 0
+~
+~
+End
+
+#15131
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15030 1 100
+Door 0 0 0 15132 0 0
+~
+~
+Door 1 0 0 15129 0 0
+~
+~
+End
+
+#15132
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 15131 0 0
+~
+~
+Door 3 0 0 15133 0 0
+~
+~
+End
+
+#15133
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15132 0 0
+~
+~
+Door 2 0 0 15134 0 0
+~
+~
+End
+
+#15134
+Name A Twisting Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15133 0 0
+~
+~
+End
+
+#15135
+Name A Small Trap~
+Descr
+~
+Flags 4096
+Sector 45
+Door 4 259 0 15001 30 30
+~
+grate~
+End
+
+#15136
+Name A Quickly Descending set of Stairs~
+Descr
+~
+Sector 45
+Door 4 0 0 15135 0 0
+~
+~
+Door 5 0 0 15137 0 0
+~
+~
+End
+
+#15137
+Name A Quickly Descending set of Stairs~
+Descr
+~
+Sector 45
+Door 4 0 0 15136 0 0
+~
+~
+Door 5 0 0 15138 0 0
+~
+~
+End
+
+#15138
+Name Within the Dungeon of Alederen~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15139 0 0
+~
+~
+Door 1 0 0 15142 0 0
+~
+~
+Door 2 0 0 15140 0 0
+~
+~
+Door 3 0 0 15141 0 0
+~
+~
+Door 4 0 0 15137 0 0
+~
+~
+End
+
+#15139
+Name A Poorly dug Room~
+Descr
+~
+Flags 4
+Door 2 0 0 15138 0 0
+~
+~
+End
+
+#15140
+Name A Hollowed out Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15138 0 0
+~
+~
+Door 2 0 0 15144 0 0
+~
+~
+End
+
+#15141
+Name A Poorly dug Room~
+Descr
+~
+Flags 4
+Door 1 0 0 15138 0 0
+~
+~
+End
+
+#15142
+Name A Poorly dug Room~
+Descr
+~
+Flags 4
+Door 3 0 0 15138 0 0
+~
+~
+End
+
+#15143
+Name Korgan D'aerth's Office~
+Descr
+~
+Flags2 6
+Flags 52
+Sector 0
+Reset M 15012 1 100
+Door 2 0 0 15165 0 0
+~
+~
+End
+
+#15144
+Name A Hollowed out Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15140 0 0
+~
+~
+Door 2 0 0 15145 0 0
+~
+~
+End
+
+#15145
+Name A Hollowed out Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Reset M 15013 1 100
+Reset M 15013 1 100
+Reset M 15013 1 100
+Door 0 0 0 15144 0 0
+~
+~
+Door 5 0 0 15146 0 0
+~
+~
+End
+
+#15146
+Name A Hollowed out Cavern~
+Descr
+~
+Sector 45
+Door 4 0 0 15145 0 0
+~
+~
+Door 5 0 0 15147 0 0
+~
+~
+End
+
+#15147
+Name A Hollowed out Cavern~
+Descr
+~
+Sector 45
+Reset M 15015 1 100
+Door 1 0 0 15148 0 0
+~
+~
+Door 4 0 0 15146 0 0
+~
+~
+End
+
+#15148
+Name A Hollowed out Cavern~
+Descr
+~
+Sector 45
+Door 0 0 0 15149 0 0
+~
+~
+Door 3 0 0 15147 0 0
+~
+~
+End
+
+#15149
+Name A Hollowed out Cavern~
+Descr
+~
+Sector 45
+Door 2 0 0 15148 0 0
+~
+~
+Door 3 0 0 15150 0 0
+~
+~
+End
+
+#15150
+Name A Hollowed out Cavern~
+Descr
+~
+Sector 45
+Reset M 15014 1 100
+Reset M 15014 1 100
+Reset M 15014 1 100
+Reset M 15014 1 100
+Door 1 0 0 15149 0 0
+~
+~
+Door 5 0 0 15151 0 0
+~
+~
+End
+
+#15151
+Name A Hollowed out Cavern~
+Descr
+~
+Sector 45
+Door 4 0 0 15150 0 0
+~
+~
+Door 5 0 0 15152 0 0
+~
+~
+End
+
+#15152
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15153 0 0
+~
+~
+Door 1 0 0 15235 0 0
+~
+~
+Door 3 0 0 15305 0 0
+~
+~
+Door 4 0 0 15151 0 0
+~
+~
+End
+
+#15153
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15154 0 0
+~
+~
+Door 1 0 0 15230 0 0
+~
+~
+Door 2 0 0 15152 0 0
+~
+~
+Door 3 0 0 15300 0 0
+~
+~
+End
+
+#15154
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15155 0 0
+~
+~
+Door 1 0 0 15225 0 0
+~
+~
+Door 2 0 0 15153 0 0
+~
+~
+Door 3 0 0 15295 0 0
+~
+~
+End
+
+#15155
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15156 0 0
+~
+~
+Door 1 0 0 15220 0 0
+~
+~
+Door 2 0 0 15154 0 0
+~
+~
+Door 3 0 0 15290 0 0
+~
+~
+End
+
+#15156
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15157 0 0
+~
+~
+Door 1 0 0 15215 0 0
+~
+~
+Door 2 0 0 15155 0 0
+~
+~
+Door 3 0 0 15285 0 0
+~
+~
+End
+
+#15157
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15158 0 0
+~
+~
+Door 1 0 0 15210 0 0
+~
+~
+Door 2 0 0 15156 0 0
+~
+~
+Door 3 0 0 15280 0 0
+~
+~
+End
+
+#15158
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Reset M 15017 1 100
+Door 0 0 0 15159 0 0
+~
+~
+Door 1 0 0 15205 0 0
+~
+~
+Door 2 0 0 15157 0 0
+~
+~
+Door 3 0 0 15275 0 0
+~
+~
+End
+
+#15159
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15160 0 0
+~
+~
+Door 1 0 0 15200 0 0
+~
+~
+Door 2 0 0 15158 0 0
+~
+~
+Door 3 0 0 15270 0 0
+~
+~
+End
+
+#15160
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15161 0 0
+~
+~
+Door 1 0 0 15195 0 0
+~
+~
+Door 2 0 0 15159 0 0
+~
+~
+Door 3 0 0 15265 0 0
+~
+~
+End
+
+#15161
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Reset M 15017 1 100
+Reset M 15016 1 100
+Door 0 0 0 15162 0 0
+~
+~
+Door 1 0 0 15190 0 0
+~
+~
+Door 2 0 0 15160 0 0
+~
+~
+Door 3 0 0 15260 0 0
+~
+~
+End
+
+#15162
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15163 0 0
+~
+~
+Door 1 0 0 15185 0 0
+~
+~
+Door 2 0 0 15161 0 0
+~
+~
+Door 3 0 0 15255 0 0
+~
+~
+End
+
+#15163
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15164 0 0
+~
+~
+Door 1 0 0 15180 0 0
+~
+~
+Door 2 0 0 15162 0 0
+~
+~
+Door 3 0 0 15250 0 0
+~
+~
+End
+
+#15164
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 0 0 15165 0 0
+~
+~
+Door 1 0 0 15175 0 0
+~
+~
+Door 2 0 0 15163 0 0
+~
+~
+Door 3 0 0 15245 0 0
+~
+~
+End
+
+#15165
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 0
+Door 0 3 0 15143 25 25
+~
+door~
+Door 1 0 0 15166 0 0
+~
+~
+Door 2 0 0 15164 0 0
+~
+~
+Door 3 0 0 15236 0 0
+~
+~
+End
+
+#15166
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 1 0 0 15167 0 0
+~
+~
+Door 2 0 0 15175 0 0
+~
+~
+Door 3 0 0 15165 0 0
+~
+~
+End
+
+#15167
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 1 0 0 15168 0 0
+~
+~
+Door 2 0 0 15174 0 0
+~
+~
+Door 3 0 0 15166 0 0
+~
+~
+End
+
+#15168
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 1 0 0 15169 0 0
+~
+~
+Door 2 0 0 15173 0 0
+~
+~
+Door 3 0 0 15167 0 0
+~
+~
+End
+
+#15169
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 1 0 0 15170 0 0
+~
+~
+Door 2 0 0 15172 0 0
+~
+~
+Door 3 0 0 15168 0 0
+~
+~
+End
+
+#15170
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 2 0 0 15171 0 0
+~
+~
+Door 3 0 0 15169 0 0
+~
+~
+End
+
+#15171
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15170 0 0
+~
+~
+Door 2 0 0 15176 0 0
+~
+~
+Door 3 0 0 15172 0 0
+~
+~
+End
+
+#15172
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags2 4
+Sector 37
+Door 0 0 0 15169 0 0
+~
+~
+Door 1 0 0 15171 0 0
+~
+~
+Door 2 0 0 15177 0 0
+~
+~
+Door 3 0 0 15173 0 0
+~
+~
+End
+
+#15173
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15168 0 0
+~
+~
+Door 1 0 0 15172 0 0
+~
+~
+Door 2 0 0 15178 0 0
+~
+~
+Door 3 0 0 15174 0 0
+~
+~
+End
+
+#15174
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15167 0 0
+~
+~
+Door 1 0 0 15173 0 0
+~
+~
+Door 2 0 0 15179 0 0
+~
+~
+Door 3 0 0 15175 0 0
+~
+~
+End
+
+#15175
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15166 0 0
+~
+~
+Door 1 0 0 15174 0 0
+~
+~
+Door 2 0 0 15180 0 0
+~
+~
+Door 3 0 0 15164 0 0
+~
+~
+End
+
+#15176
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15171 0 0
+~
+~
+Door 2 0 0 15181 0 0
+~
+~
+Door 3 0 0 15177 0 0
+~
+~
+End
+
+#15177
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15172 0 0
+~
+~
+Door 1 0 0 15176 0 0
+~
+~
+Door 2 0 0 15182 0 0
+~
+~
+Door 3 0 0 15178 0 0
+~
+~
+End
+
+#15178
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15173 0 0
+~
+~
+Door 1 0 0 15177 0 0
+~
+~
+Door 2 0 0 15183 0 0
+~
+~
+Door 3 0 0 15179 0 0
+~
+~
+End
+
+#15179
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15174 0 0
+~
+~
+Door 1 0 0 15178 0 0
+~
+~
+Door 2 0 0 15184 0 0
+~
+~
+Door 3 0 0 15180 0 0
+~
+~
+End
+
+#15180
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15175 0 0
+~
+~
+Door 1 0 0 15179 0 0
+~
+~
+Door 2 0 0 15185 0 0
+~
+~
+Door 3 0 0 15163 0 0
+~
+~
+End
+
+#15181
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15176 0 0
+~
+~
+Door 2 0 0 15186 0 0
+~
+~
+Door 3 0 0 15182 0 0
+~
+~
+End
+
+#15182
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15177 0 0
+~
+~
+Door 1 0 0 15181 0 0
+~
+~
+Door 2 0 0 15187 0 0
+~
+~
+Door 3 0 0 15183 0 0
+~
+~
+End
+
+#15183
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15178 0 0
+~
+~
+Door 1 0 0 15182 0 0
+~
+~
+Door 2 0 0 15188 0 0
+~
+~
+Door 3 0 0 15184 0 0
+~
+~
+End
+
+#15184
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15179 0 0
+~
+~
+Door 1 0 0 15183 0 0
+~
+~
+Door 2 0 0 15189 0 0
+~
+~
+Door 3 0 0 15185 0 0
+~
+~
+End
+
+#15185
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15180 0 0
+~
+~
+Door 1 0 0 15184 0 0
+~
+~
+Door 2 0 0 15190 0 0
+~
+~
+Door 3 0 0 15162 0 0
+~
+~
+End
+
+#15186
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15181 0 0
+~
+~
+Door 2 0 0 15191 0 0
+~
+~
+Door 3 0 0 15187 0 0
+~
+~
+End
+
+#15187
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15182 0 0
+~
+~
+Door 1 0 0 15186 0 0
+~
+~
+Door 2 0 0 15192 0 0
+~
+~
+Door 3 0 0 15188 0 0
+~
+~
+End
+
+#15188
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15183 0 0
+~
+~
+Door 1 0 0 15187 0 0
+~
+~
+Door 2 0 0 15193 0 0
+~
+~
+Door 3 0 0 15189 0 0
+~
+~
+End
+
+#15189
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15184 0 0
+~
+~
+Door 1 0 0 15188 0 0
+~
+~
+Door 2 0 0 15194 0 0
+~
+~
+Door 3 0 0 15190 0 0
+~
+~
+End
+
+#15190
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15185 0 0
+~
+~
+Door 1 0 0 15189 0 0
+~
+~
+Door 2 0 0 15195 0 0
+~
+~
+Door 3 0 0 15161 0 0
+~
+~
+End
+
+#15191
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15186 0 0
+~
+~
+Door 2 0 0 15196 0 0
+~
+~
+Door 3 0 0 15192 0 0
+~
+~
+End
+
+#15192
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15187 0 0
+~
+~
+Door 1 0 0 15191 0 0
+~
+~
+Door 2 0 0 15197 0 0
+~
+~
+Door 3 0 0 15193 0 0
+~
+~
+End
+
+#15193
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15188 0 0
+~
+~
+Door 1 0 0 15192 0 0
+~
+~
+Door 2 0 0 15198 0 0
+~
+~
+Door 3 0 0 15194 0 0
+~
+~
+End
+
+#15194
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15189 0 0
+~
+~
+Door 1 0 0 15193 0 0
+~
+~
+Door 2 0 0 15199 0 0
+~
+~
+Door 3 0 0 15195 0 0
+~
+~
+End
+
+#15195
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15190 0 0
+~
+~
+Door 1 0 0 15194 0 0
+~
+~
+Door 2 0 0 15200 0 0
+~
+~
+Door 3 0 0 15160 0 0
+~
+~
+End
+
+#15196
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15191 0 0
+~
+~
+Door 2 0 0 15201 0 0
+~
+~
+Door 3 0 0 15197 0 0
+~
+~
+End
+
+#15197
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15192 0 0
+~
+~
+Door 1 0 0 15196 0 0
+~
+~
+Door 2 0 0 15202 0 0
+~
+~
+Door 3 0 0 15198 0 0
+~
+~
+End
+
+#15198
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15193 0 0
+~
+~
+Door 1 0 0 15197 0 0
+~
+~
+Door 2 0 0 15203 0 0
+~
+~
+Door 3 0 0 15199 0 0
+~
+~
+End
+
+#15199
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15194 0 0
+~
+~
+Door 1 0 0 15198 0 0
+~
+~
+Door 2 0 0 15204 0 0
+~
+~
+Door 3 0 0 15200 0 0
+~
+~
+End
+
+#15200
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15195 0 0
+~
+~
+Door 1 0 0 15199 0 0
+~
+~
+Door 2 0 0 15205 0 0
+~
+~
+Door 3 0 0 15159 0 0
+~
+~
+End
+
+#15201
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15196 0 0
+~
+~
+Door 2 0 0 15206 0 0
+~
+~
+Door 3 0 0 15202 0 0
+~
+~
+End
+
+#15202
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15197 0 0
+~
+~
+Door 1 0 0 15201 0 0
+~
+~
+Door 2 0 0 15207 0 0
+~
+~
+Door 3 0 0 15203 0 0
+~
+~
+End
+
+#15203
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15198 0 0
+~
+~
+Door 1 0 0 15202 0 0
+~
+~
+Door 2 0 0 15208 0 0
+~
+~
+Door 3 0 0 15204 0 0
+~
+~
+End
+
+#15204
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15199 0 0
+~
+~
+Door 1 0 0 15203 0 0
+~
+~
+Door 2 0 0 15209 0 0
+~
+~
+Door 3 0 0 15205 0 0
+~
+~
+End
+
+#15205
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15200 0 0
+~
+~
+Door 1 0 0 15204 0 0
+~
+~
+Door 2 0 0 15210 0 0
+~
+~
+Door 3 0 0 15158 0 0
+~
+~
+End
+
+#15206
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15201 0 0
+~
+~
+Door 2 0 0 15211 0 0
+~
+~
+Door 3 0 0 15207 0 0
+~
+~
+End
+
+#15207
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15202 0 0
+~
+~
+Door 1 0 0 15206 0 0
+~
+~
+Door 2 0 0 15212 0 0
+~
+~
+Door 3 0 0 15208 0 0
+~
+~
+End
+
+#15208
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15203 0 0
+~
+~
+Door 1 0 0 15207 0 0
+~
+~
+Door 2 0 0 15213 0 0
+~
+~
+Door 3 0 0 15209 0 0
+~
+~
+End
+
+#15209
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15204 0 0
+~
+~
+Door 1 0 0 15208 0 0
+~
+~
+Door 2 0 0 15214 0 0
+~
+~
+Door 3 0 0 15210 0 0
+~
+~
+End
+
+#15210
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15205 0 0
+~
+~
+Door 1 0 0 15209 0 0
+~
+~
+Door 2 0 0 15215 0 0
+~
+~
+Door 3 0 0 15157 0 0
+~
+~
+End
+
+#15211
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15206 0 0
+~
+~
+Door 2 0 0 15216 0 0
+~
+~
+Door 3 0 0 15212 0 0
+~
+~
+End
+
+#15212
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15207 0 0
+~
+~
+Door 1 0 0 15211 0 0
+~
+~
+Door 2 0 0 15217 0 0
+~
+~
+Door 3 0 0 15213 0 0
+~
+~
+End
+
+#15213
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15208 0 0
+~
+~
+Door 1 0 0 15212 0 0
+~
+~
+Door 2 0 0 15218 0 0
+~
+~
+Door 3 0 0 15214 0 0
+~
+~
+End
+
+#15214
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15209 0 0
+~
+~
+Door 1 0 0 15213 0 0
+~
+~
+Door 2 0 0 15219 0 0
+~
+~
+Door 3 0 0 15215 0 0
+~
+~
+End
+
+#15215
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15210 0 0
+~
+~
+Door 1 0 0 15214 0 0
+~
+~
+Door 2 0 0 15220 0 0
+~
+~
+Door 3 0 0 15156 0 0
+~
+~
+End
+
+#15216
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15211 0 0
+~
+~
+Door 2 0 0 15221 0 0
+~
+~
+Door 3 0 0 15217 0 0
+~
+~
+End
+
+#15217
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15212 0 0
+~
+~
+Door 1 0 0 15216 0 0
+~
+~
+Door 2 0 0 15222 0 0
+~
+~
+Door 3 0 0 15218 0 0
+~
+~
+End
+
+#15218
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15213 0 0
+~
+~
+Door 1 0 0 15217 0 0
+~
+~
+Door 2 0 0 15223 0 0
+~
+~
+Door 3 0 0 15219 0 0
+~
+~
+End
+
+#15219
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15214 0 0
+~
+~
+Door 1 0 0 15218 0 0
+~
+~
+Door 2 0 0 15224 0 0
+~
+~
+Door 3 0 0 15220 0 0
+~
+~
+End
+
+#15220
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15215 0 0
+~
+~
+Door 1 0 0 15219 0 0
+~
+~
+Door 2 0 0 15225 0 0
+~
+~
+Door 3 0 0 15155 0 0
+~
+~
+End
+
+#15221
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15216 0 0
+~
+~
+Door 2 0 0 15226 0 0
+~
+~
+Door 3 0 0 15222 0 0
+~
+~
+End
+
+#15222
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15217 0 0
+~
+~
+Door 1 0 0 15221 0 0
+~
+~
+Door 2 0 0 15227 0 0
+~
+~
+Door 3 0 0 15223 0 0
+~
+~
+End
+
+#15223
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15218 0 0
+~
+~
+Door 1 0 0 15222 0 0
+~
+~
+Door 2 0 0 15228 0 0
+~
+~
+Door 3 0 0 15224 0 0
+~
+~
+End
+
+#15224
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15219 0 0
+~
+~
+Door 1 0 0 15223 0 0
+~
+~
+Door 2 0 0 15229 0 0
+~
+~
+Door 3 0 0 15225 0 0
+~
+~
+End
+
+#15225
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15220 0 0
+~
+~
+Door 1 0 0 15224 0 0
+~
+~
+Door 2 0 0 15230 0 0
+~
+~
+Door 3 0 0 15154 0 0
+~
+~
+End
+
+#15226
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15221 0 0
+~
+~
+Door 2 0 0 15231 0 0
+~
+~
+Door 3 0 0 15227 0 0
+~
+~
+End
+
+#15227
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags2 4
+Sector 37
+Door 0 0 0 15222 0 0
+~
+~
+Door 1 0 0 15226 0 0
+~
+~
+Door 2 0 0 15232 0 0
+~
+~
+Door 3 0 0 15228 0 0
+~
+~
+End
+
+#15228
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15223 0 0
+~
+~
+Door 1 0 0 15227 0 0
+~
+~
+Door 2 0 0 15233 0 0
+~
+~
+Door 3 0 0 15229 0 0
+~
+~
+End
+
+#15229
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15224 0 0
+~
+~
+Door 1 0 0 15228 0 0
+~
+~
+Door 2 0 0 15234 0 0
+~
+~
+Door 3 0 0 15230 0 0
+~
+~
+End
+
+#15230
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15225 0 0
+~
+~
+Door 1 0 0 15229 0 0
+~
+~
+Door 2 0 0 15235 0 0
+~
+~
+Door 3 0 0 15153 0 0
+~
+~
+End
+
+#15231
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15226 0 0
+~
+~
+Door 3 0 0 15232 0 0
+~
+~
+End
+
+#15232
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15227 0 0
+~
+~
+Door 1 0 0 15231 0 0
+~
+~
+Door 3 0 0 15233 0 0
+~
+~
+End
+
+#15233
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15228 0 0
+~
+~
+Door 1 0 0 15232 0 0
+~
+~
+Door 3 0 0 15234 0 0
+~
+~
+End
+
+#15234
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15229 0 0
+~
+~
+Door 1 0 0 15233 0 0
+~
+~
+Door 3 0 0 15235 0 0
+~
+~
+End
+
+#15235
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15230 0 0
+~
+~
+Door 1 0 0 15234 0 0
+~
+~
+Door 3 0 0 15152 0 0
+~
+~
+End
+
+#15236
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Reset M 15016 1 100
+Door 1 0 0 15165 0 0
+~
+~
+Door 2 0 0 15245 0 0
+~
+~
+Door 3 0 0 15237 0 0
+~
+~
+End
+
+#15237
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Door 1 0 0 15236 0 0
+~
+~
+Door 2 0 0 15244 0 0
+~
+~
+Door 3 0 0 15238 0 0
+~
+~
+End
+
+#15238
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Reset M 15016 1 100
+Door 1 0 0 15237 0 0
+~
+~
+Door 2 0 0 15243 0 0
+~
+~
+Door 3 0 0 15239 0 0
+~
+~
+End
+
+#15239
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Door 1 0 0 15238 0 0
+~
+~
+Door 2 0 0 15242 0 0
+~
+~
+Door 3 0 0 15240 0 0
+~
+~
+End
+
+#15240
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Door 1 0 0 15239 0 0
+~
+~
+Door 2 0 0 15241 0 0
+~
+~
+End
+
+#15241
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Door 0 0 0 15240 0 0
+~
+~
+Door 1 0 0 15242 0 0
+~
+~
+Door 2 0 0 15246 0 0
+~
+~
+End
+
+#15242
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags2 4
+Flags 32
+Sector 37
+Door 0 0 0 15239 0 0
+~
+~
+Door 1 0 0 15243 0 0
+~
+~
+Door 2 0 0 15247 0 0
+~
+~
+Door 3 0 0 15241 0 0
+~
+~
+End
+
+#15243
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Door 0 0 0 15238 0 0
+~
+~
+Door 1 0 0 15244 0 0
+~
+~
+Door 2 0 0 15248 0 0
+~
+~
+Door 3 0 0 15242 0 0
+~
+~
+End
+
+#15244
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Door 0 0 0 15237 0 0
+~
+~
+Door 1 0 0 15245 0 0
+~
+~
+Door 2 0 0 15249 0 0
+~
+~
+Door 3 0 0 15243 0 0
+~
+~
+End
+
+#15245
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Door 0 0 0 15236 0 0
+~
+~
+Door 1 0 0 15164 0 0
+~
+~
+Door 2 0 0 15250 0 0
+~
+~
+Door 3 0 0 15244 0 0
+~
+~
+End
+
+#15246
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15241 0 0
+~
+~
+Door 1 0 0 15247 0 0
+~
+~
+Door 2 0 0 15251 0 0
+~
+~
+End
+
+#15247
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Door 0 0 0 15242 0 0
+~
+~
+Door 1 0 0 15248 0 0
+~
+~
+Door 2 0 0 15252 0 0
+~
+~
+Door 3 0 0 15246 0 0
+~
+~
+End
+
+#15248
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15243 0 0
+~
+~
+Door 1 0 0 15249 0 0
+~
+~
+Door 2 0 0 15253 0 0
+~
+~
+Door 3 0 0 15247 0 0
+~
+~
+End
+
+#15249
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Reset M 15017 1 100
+Door 0 0 0 15244 0 0
+~
+~
+Door 1 0 0 15250 0 0
+~
+~
+Door 2 0 0 15254 0 0
+~
+~
+Door 3 0 0 15248 0 0
+~
+~
+End
+
+#15250
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags 32
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15245 0 0
+~
+~
+Door 1 0 0 15163 0 0
+~
+~
+Door 2 0 0 15255 0 0
+~
+~
+Door 3 0 0 15249 0 0
+~
+~
+End
+
+#15251
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15246 0 0
+~
+~
+Door 1 0 0 15252 0 0
+~
+~
+Door 2 0 0 15256 0 0
+~
+~
+End
+
+#15252
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15247 0 0
+~
+~
+Door 1 0 0 15253 0 0
+~
+~
+Door 2 0 0 15257 0 0
+~
+~
+Door 3 0 0 15251 0 0
+~
+~
+End
+
+#15253
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15248 0 0
+~
+~
+Door 1 0 0 15254 0 0
+~
+~
+Door 2 0 0 15258 0 0
+~
+~
+Door 3 0 0 15252 0 0
+~
+~
+End
+
+#15254
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15249 0 0
+~
+~
+Door 1 0 0 15255 0 0
+~
+~
+Door 2 0 0 15259 0 0
+~
+~
+Door 3 0 0 15253 0 0
+~
+~
+End
+
+#15255
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15250 0 0
+~
+~
+Door 1 0 0 15162 0 0
+~
+~
+Door 2 0 0 15260 0 0
+~
+~
+Door 3 0 0 15254 0 0
+~
+~
+End
+
+#15256
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15251 0 0
+~
+~
+Door 1 0 0 15257 0 0
+~
+~
+Door 2 0 0 15261 0 0
+~
+~
+End
+
+#15257
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15252 0 0
+~
+~
+Door 1 0 0 15258 0 0
+~
+~
+Door 2 0 0 15262 0 0
+~
+~
+Door 3 0 0 15256 0 0
+~
+~
+End
+
+#15258
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15253 0 0
+~
+~
+Door 1 0 0 15259 0 0
+~
+~
+Door 2 0 0 15263 0 0
+~
+~
+Door 3 0 0 15257 0 0
+~
+~
+End
+
+#15259
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15254 0 0
+~
+~
+Door 1 0 0 15260 0 0
+~
+~
+Door 2 0 0 15264 0 0
+~
+~
+Door 3 0 0 15258 0 0
+~
+~
+End
+
+#15260
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15255 0 0
+~
+~
+Door 1 0 0 15161 0 0
+~
+~
+Door 2 0 0 15265 0 0
+~
+~
+Door 3 0 0 15259 0 0
+~
+~
+End
+
+#15261
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15256 0 0
+~
+~
+Door 1 0 0 15262 0 0
+~
+~
+Door 2 0 0 15266 0 0
+~
+~
+End
+
+#15262
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15257 0 0
+~
+~
+Door 1 0 0 15263 0 0
+~
+~
+Door 2 0 0 15267 0 0
+~
+~
+Door 3 0 0 15261 0 0
+~
+~
+End
+
+#15263
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15258 0 0
+~
+~
+Door 1 0 0 15264 0 0
+~
+~
+Door 2 0 0 15268 0 0
+~
+~
+Door 3 0 0 15262 0 0
+~
+~
+End
+
+#15264
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15259 0 0
+~
+~
+Door 1 0 0 15265 0 0
+~
+~
+Door 2 0 0 15269 0 0
+~
+~
+Door 3 0 0 15263 0 0
+~
+~
+End
+
+#15265
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15260 0 0
+~
+~
+Door 1 0 0 15160 0 0
+~
+~
+Door 2 0 0 15270 0 0
+~
+~
+Door 3 0 0 15264 0 0
+~
+~
+End
+
+#15266
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15261 0 0
+~
+~
+Door 1 0 0 15267 0 0
+~
+~
+Door 2 0 0 15271 0 0
+~
+~
+End
+
+#15267
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15262 0 0
+~
+~
+Door 1 0 0 15268 0 0
+~
+~
+Door 2 0 0 15272 0 0
+~
+~
+Door 3 0 0 15266 0 0
+~
+~
+End
+
+#15268
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15263 0 0
+~
+~
+Door 1 0 0 15269 0 0
+~
+~
+Door 2 0 0 15273 0 0
+~
+~
+Door 3 0 0 15267 0 0
+~
+~
+End
+
+#15269
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15264 0 0
+~
+~
+Door 1 0 0 15270 0 0
+~
+~
+Door 2 0 0 15274 0 0
+~
+~
+Door 3 0 0 15268 0 0
+~
+~
+End
+
+#15270
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15265 0 0
+~
+~
+Door 1 0 0 15159 0 0
+~
+~
+Door 2 0 0 15275 0 0
+~
+~
+Door 3 0 0 15269 0 0
+~
+~
+End
+
+#15271
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15266 0 0
+~
+~
+Door 1 0 0 15272 0 0
+~
+~
+Door 2 0 0 15276 0 0
+~
+~
+End
+
+#15272
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15267 0 0
+~
+~
+Door 1 0 0 15273 0 0
+~
+~
+Door 2 0 0 15277 0 0
+~
+~
+Door 3 0 0 15271 0 0
+~
+~
+End
+
+#15273
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15268 0 0
+~
+~
+Door 1 0 0 15274 0 0
+~
+~
+Door 2 0 0 15278 0 0
+~
+~
+Door 3 0 0 15272 0 0
+~
+~
+End
+
+#15274
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15017 1 100
+Door 0 0 0 15269 0 0
+~
+~
+Door 1 0 0 15275 0 0
+~
+~
+Door 2 0 0 15279 0 0
+~
+~
+Door 3 0 0 15273 0 0
+~
+~
+End
+
+#15275
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15270 0 0
+~
+~
+Door 1 0 0 15158 0 0
+~
+~
+Door 2 0 0 15280 0 0
+~
+~
+Door 3 0 0 15274 0 0
+~
+~
+End
+
+#15276
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15271 0 0
+~
+~
+Door 1 0 0 15277 0 0
+~
+~
+Door 2 0 0 15281 0 0
+~
+~
+End
+
+#15277
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15272 0 0
+~
+~
+Door 1 0 0 15278 0 0
+~
+~
+Door 2 0 0 15282 0 0
+~
+~
+Door 3 0 0 15276 0 0
+~
+~
+End
+
+#15278
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15273 0 0
+~
+~
+Door 1 0 0 15279 0 0
+~
+~
+Door 2 0 0 15283 0 0
+~
+~
+Door 3 0 0 15277 0 0
+~
+~
+End
+
+#15279
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15274 0 0
+~
+~
+Door 1 0 0 15280 0 0
+~
+~
+Door 2 0 0 15284 0 0
+~
+~
+Door 3 0 0 15278 0 0
+~
+~
+End
+
+#15280
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15275 0 0
+~
+~
+Door 1 0 0 15157 0 0
+~
+~
+Door 2 0 0 15285 0 0
+~
+~
+Door 3 0 0 15279 0 0
+~
+~
+End
+
+#15281
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15276 0 0
+~
+~
+Door 1 0 0 15282 0 0
+~
+~
+Door 2 0 0 15286 0 0
+~
+~
+End
+
+#15282
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15277 0 0
+~
+~
+Door 1 0 0 15283 0 0
+~
+~
+Door 2 0 0 15287 0 0
+~
+~
+Door 3 0 0 15281 0 0
+~
+~
+End
+
+#15283
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15278 0 0
+~
+~
+Door 1 0 0 15284 0 0
+~
+~
+Door 2 0 0 15288 0 0
+~
+~
+Door 3 0 0 15282 0 0
+~
+~
+End
+
+#15284
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15279 0 0
+~
+~
+Door 1 0 0 15285 0 0
+~
+~
+Door 2 0 0 15289 0 0
+~
+~
+Door 3 0 0 15283 0 0
+~
+~
+End
+
+#15285
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15280 0 0
+~
+~
+Door 1 0 0 15156 0 0
+~
+~
+Door 2 0 0 15290 0 0
+~
+~
+Door 3 0 0 15284 0 0
+~
+~
+End
+
+#15286
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15281 0 0
+~
+~
+Door 1 0 0 15287 0 0
+~
+~
+Door 2 0 0 15291 0 0
+~
+~
+End
+
+#15287
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15282 0 0
+~
+~
+Door 1 0 0 15288 0 0
+~
+~
+Door 2 0 0 15292 0 0
+~
+~
+Door 3 0 0 15286 0 0
+~
+~
+End
+
+#15288
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15283 0 0
+~
+~
+Door 1 0 0 15289 0 0
+~
+~
+Door 2 0 0 15293 0 0
+~
+~
+Door 3 0 0 15287 0 0
+~
+~
+End
+
+#15289
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15284 0 0
+~
+~
+Door 1 0 0 15290 0 0
+~
+~
+Door 2 0 0 15294 0 0
+~
+~
+Door 3 0 0 15288 0 0
+~
+~
+End
+
+#15290
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15285 0 0
+~
+~
+Door 1 0 0 15155 0 0
+~
+~
+Door 2 0 0 15295 0 0
+~
+~
+Door 3 0 0 15289 0 0
+~
+~
+End
+
+#15291
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15286 0 0
+~
+~
+Door 1 0 0 15292 0 0
+~
+~
+Door 2 0 0 15296 0 0
+~
+~
+End
+
+#15292
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15287 0 0
+~
+~
+Door 1 0 0 15293 0 0
+~
+~
+Door 2 0 0 15297 0 0
+~
+~
+Door 3 0 0 15291 0 0
+~
+~
+End
+
+#15293
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15288 0 0
+~
+~
+Door 1 0 0 15294 0 0
+~
+~
+Door 2 0 0 15298 0 0
+~
+~
+Door 3 0 0 15292 0 0
+~
+~
+End
+
+#15294
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15017 1 100
+Door 0 0 0 15289 0 0
+~
+~
+Door 1 0 0 15295 0 0
+~
+~
+Door 2 0 0 15299 0 0
+~
+~
+Door 3 0 0 15293 0 0
+~
+~
+End
+
+#15295
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15290 0 0
+~
+~
+Door 1 0 0 15154 0 0
+~
+~
+Door 2 0 0 15300 0 0
+~
+~
+Door 3 0 0 15294 0 0
+~
+~
+End
+
+#15296
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15291 0 0
+~
+~
+Door 1 0 0 15297 0 0
+~
+~
+Door 2 0 0 15301 0 0
+~
+~
+End
+
+#15297
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Flags2 4
+Sector 37
+Door 0 0 0 15292 0 0
+~
+~
+Door 1 0 0 15298 0 0
+~
+~
+Door 2 0 0 15302 0 0
+~
+~
+Door 3 0 0 15296 0 0
+~
+~
+End
+
+#15298
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15293 0 0
+~
+~
+Door 1 0 0 15299 0 0
+~
+~
+Door 2 0 0 15303 0 0
+~
+~
+Door 3 0 0 15297 0 0
+~
+~
+End
+
+#15299
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15294 0 0
+~
+~
+Door 1 0 0 15300 0 0
+~
+~
+Door 2 0 0 15304 0 0
+~
+~
+Door 3 0 0 15298 0 0
+~
+~
+End
+
+#15300
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15295 0 0
+~
+~
+Door 1 0 0 15153 0 0
+~
+~
+Door 2 0 0 15305 0 0
+~
+~
+Door 3 0 0 15299 0 0
+~
+~
+End
+
+#15301
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15296 0 0
+~
+~
+Door 1 0 0 15302 0 0
+~
+~
+End
+
+#15302
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15297 0 0
+~
+~
+Door 1 0 0 15303 0 0
+~
+~
+Door 3 0 0 15301 0 0
+~
+~
+End
+
+#15303
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15298 0 0
+~
+~
+Door 1 0 0 15304 0 0
+~
+~
+Door 3 0 0 15302 0 0
+~
+~
+End
+
+#15304
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Door 0 0 0 15299 0 0
+~
+~
+Door 1 0 0 15305 0 0
+~
+~
+Door 3 0 0 15303 0 0
+~
+~
+End
+
+#15305
+Name A *HUGE* Mining Cavern~
+Descr
+~
+Sector 37
+Reset M 15016 1 100
+Door 0 0 0 15300 0 0
+~
+~
+Door 1 0 0 15152 0 0
+~
+~
+Door 3 0 0 15304 0 0
+~
+~
+End
+
+#15306
+Name Western Road to the Castle Alderen~
+Descr
+~
+Sector 5
+Reset M 15021 1 100
+Door 0 0 0 15311 0 0
+~
+~
+Door 1 0 0 15063 0 0
+~
+~
+Door 2 0 0 15315 0 0
+~
+~
+Door 3 0 0 15307 0 0
+~
+~
+End
+
+#15307
+Name Western Road to the Castle Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15506 0 0
+~
+~
+Door 1 0 0 15306 0 0
+~
+~
+Door 2 0 0 15538 0 0
+~
+~
+Door 3 0 0 15308 0 0
+~
+~
+End
+
+#15308
+Name Western Road to the Castle Alderen~
+Descr
+~
+Sector 5
+Reset M 15032 5 100
+Door 0 0 0 15514 0 0
+~
+~
+Door 1 0 0 15307 0 0
+~
+~
+Door 2 0 0 15546 0 0
+~
+~
+Door 3 0 0 15309 0 0
+~
+~
+End
+
+#15309
+Name Western Road to the Castle Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15522 0 0
+~
+~
+Door 1 0 0 15308 0 0
+~
+~
+Door 2 0 0 15554 0 0
+~
+~
+Door 3 0 0 15310 0 0
+~
+~
+End
+
+#15310
+Name Western Road to the Castle Alderen~
+Descr
+~
+Sector 5
+Door 0 0 0 15530 0 0
+~
+~
+Door 1 0 0 15309 0 0
+~
+~
+Door 2 0 0 15562 0 0
+~
+~
+Door 3 0 0 15718 0 0
+~
+~
+End
+
+#15311
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15430 0 0
+~
+~
+Door 1 0 0 15312 0 0
+~
+~
+Door 2 0 0 15306 0 0
+~
+~
+Door 3 0 0 15506 0 0
+~
+~
+End
+
+#15312
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15378 0 0
+~
+~
+Door 2 0 0 15313 0 0
+~
+~
+Door 3 0 0 15311 0 0
+~
+~
+End
+
+#15313
+Name Under the Draw Bridge~
+Descr
+~
+Flags 4
+Sector 10
+Door 0 0 0 15312 0 0
+~
+~
+Door 2 0 0 15314 0 0
+~
+~
+End
+
+#15314
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15313 0 0
+~
+~
+Door 2 0 0 15316 0 0
+~
+~
+Door 3 0 0 15315 0 0
+~
+~
+End
+
+#15315
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15306 0 0
+~
+~
+Door 1 0 0 15314 0 0
+~
+~
+Door 2 0 0 15379 0 0
+~
+~
+Door 3 0 0 15538 0 0
+~
+~
+End
+
+#15316
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15314 0 0
+~
+~
+Door 2 0 0 15317 0 0
+~
+~
+Door 3 0 0 15379 0 0
+~
+~
+End
+
+#15317
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15316 0 0
+~
+~
+Door 2 0 0 15318 0 0
+~
+~
+Door 3 0 0 15380 0 0
+~
+~
+End
+
+#15318
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15317 0 0
+~
+~
+Door 2 0 0 15319 0 0
+~
+~
+Door 3 0 0 15381 0 0
+~
+~
+End
+
+#15319
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15318 0 0
+~
+~
+Door 2 0 0 15320 0 0
+~
+~
+Door 3 0 0 15382 0 0
+~
+~
+End
+
+#15320
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15319 0 0
+~
+~
+Door 2 0 0 15321 0 0
+~
+~
+Door 3 0 0 15383 0 0
+~
+~
+End
+
+#15321
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15320 0 0
+~
+~
+Door 1 0 0 15322 0 0
+~
+~
+Door 2 0 0 15386 0 0
+~
+~
+Door 3 0 0 15384 0 0
+~
+~
+End
+
+#15322
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15323 0 0
+~
+~
+Door 2 0 0 15387 0 0
+~
+~
+Door 3 0 0 15321 0 0
+~
+~
+End
+
+#15323
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15324 0 0
+~
+~
+Door 2 0 0 15388 0 0
+~
+~
+Door 3 0 0 15322 0 0
+~
+~
+End
+
+#15324
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15325 0 0
+~
+~
+Door 2 0 0 15389 0 0
+~
+~
+Door 3 0 0 15323 0 0
+~
+~
+End
+
+#15325
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15326 0 0
+~
+~
+Door 2 0 0 15390 0 0
+~
+~
+Door 3 0 0 15324 0 0
+~
+~
+End
+
+#15326
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15327 0 0
+~
+~
+Door 2 0 0 15391 0 0
+~
+~
+Door 3 0 0 15325 0 0
+~
+~
+End
+
+#15327
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15328 0 0
+~
+~
+Door 2 0 0 15331 0 0
+~
+~
+Door 3 0 0 15326 0 0
+~
+~
+End
+
+#15328
+Name Under the Draw Bridge~
+Descr
+~
+Flags 4
+Sector 10
+Door 1 0 0 15332 0 0
+~
+~
+Door 3 0 0 15327 0 0
+~
+~
+End
+
+#15329
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Reset M 15032 5 100
+Door 0 0 0 15100 0 0
+~
+~
+Door 1 0 0 15333 0 0
+~
+~
+Door 2 0 0 15330 0 0
+~
+~
+Door 3 0 0 15331 0 0
+~
+~
+End
+
+#15330
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15329 0 0
+~
+~
+Door 2 0 0 15445 0 0
+~
+~
+Door 3 0 0 15605 0 0
+~
+~
+End
+
+#15331
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15327 0 0
+~
+~
+Door 1 0 0 15329 0 0
+~
+~
+Door 2 0 0 15605 0 0
+~
+~
+Door 3 0 0 15391 0 0
+~
+~
+End
+
+#15332
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15334 0 0
+~
+~
+Door 2 0 0 15333 0 0
+~
+~
+Door 3 0 0 15328 0 0
+~
+~
+End
+
+#15333
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15332 0 0
+~
+~
+Door 1 0 0 15392 0 0
+~
+~
+Door 3 0 0 15329 0 0
+~
+~
+End
+
+#15334
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15336 0 0
+~
+~
+Door 2 0 0 15392 0 0
+~
+~
+Door 3 0 0 15332 0 0
+~
+~
+End
+
+#15335
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15337 0 0
+~
+~
+Door 2 0 0 15394 0 0
+~
+~
+Door 3 0 0 15336 0 0
+~
+~
+End
+
+#15336
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15335 0 0
+~
+~
+Door 2 0 0 15393 0 0
+~
+~
+Door 3 0 0 15334 0 0
+~
+~
+End
+
+#15337
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15338 0 0
+~
+~
+Door 2 0 0 15395 0 0
+~
+~
+Door 3 0 0 15335 0 0
+~
+~
+End
+
+#15338
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 1 0 0 15339 0 0
+~
+~
+Door 2 0 0 15396 0 0
+~
+~
+Door 3 0 0 15337 0 0
+~
+~
+End
+
+#15339
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15340 0 0
+~
+~
+Door 1 0 0 15399 0 0
+~
+~
+Door 2 0 0 15397 0 0
+~
+~
+Door 3 0 0 15338 0 0
+~
+~
+End
+
+#15340
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15341 0 0
+~
+~
+Door 1 0 0 15400 0 0
+~
+~
+Door 2 0 0 15339 0 0
+~
+~
+End
+
+#15341
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15342 0 0
+~
+~
+Door 1 0 0 15401 0 0
+~
+~
+Door 2 0 0 15340 0 0
+~
+~
+End
+
+#15342
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15343 0 0
+~
+~
+Door 1 0 0 15402 0 0
+~
+~
+Door 2 0 0 15341 0 0
+~
+~
+End
+
+#15343
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15344 0 0
+~
+~
+Door 1 0 0 15403 0 0
+~
+~
+Door 2 0 0 15342 0 0
+~
+~
+End
+
+#15344
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15345 0 0
+~
+~
+Door 1 0 0 15404 0 0
+~
+~
+Door 2 0 0 15343 0 0
+~
+~
+End
+
+#15345
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15346 0 0
+~
+~
+Door 1 0 0 15349 0 0
+~
+~
+Door 2 0 0 15344 0 0
+~
+~
+End
+
+#15346
+Name Under the Draw Bridge~
+Descr
+~
+Flags 4
+Sector 10
+Door 0 0 0 15347 0 0
+~
+~
+Door 2 0 0 15345 0 0
+~
+~
+End
+
+#15347
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15351 0 0
+~
+~
+Door 1 0 0 15348 0 0
+~
+~
+Door 2 0 0 15346 0 0
+~
+~
+End
+
+#15348
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15405 0 0
+~
+~
+Door 1 0 0 15441 0 0
+~
+~
+Door 3 0 0 15347 0 0
+~
+~
+End
+
+#15349
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 2 0 0 15404 0 0
+~
+~
+Door 3 0 0 15345 0 0
+~
+~
+End
+
+#15350
+Name Path Into the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15348 0 0
+~
+~
+Door 2 0 0 15349 0 0
+~
+~
+Door 3 0 0 15098 0 0
+~
+~
+End
+
+#15351
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15352 0 0
+~
+~
+Door 1 0 0 15405 0 0
+~
+~
+Door 2 0 0 15347 0 0
+~
+~
+End
+
+#15352
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15353 0 0
+~
+~
+Door 1 0 0 15406 0 0
+~
+~
+Door 2 0 0 15351 0 0
+~
+~
+End
+
+#15353
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15354 0 0
+~
+~
+Door 1 0 0 15407 0 0
+~
+~
+Door 2 0 0 15352 0 0
+~
+~
+End
+
+#15354
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15355 0 0
+~
+~
+Door 1 0 0 15408 0 0
+~
+~
+Door 2 0 0 15353 0 0
+~
+~
+End
+
+#15355
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15356 0 0
+~
+~
+Door 1 0 0 15409 0 0
+~
+~
+Door 2 0 0 15354 0 0
+~
+~
+End
+
+#15356
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15412 0 0
+~
+~
+Door 1 0 0 15410 0 0
+~
+~
+Door 2 0 0 15355 0 0
+~
+~
+Door 3 0 0 15357 0 0
+~
+~
+End
+
+#15357
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15413 0 0
+~
+~
+Door 1 0 0 15356 0 0
+~
+~
+Door 3 0 0 15358 0 0
+~
+~
+End
+
+#15358
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15414 0 0
+~
+~
+Door 1 0 0 15357 0 0
+~
+~
+Door 3 0 0 15359 0 0
+~
+~
+End
+
+#15359
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15415 0 0
+~
+~
+Door 1 0 0 15358 0 0
+~
+~
+Door 3 0 0 15360 0 0
+~
+~
+End
+
+#15360
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15416 0 0
+~
+~
+Door 1 0 0 15359 0 0
+~
+~
+Door 3 0 0 15361 0 0
+~
+~
+End
+
+#15361
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15417 0 0
+~
+~
+Door 1 0 0 15360 0 0
+~
+~
+Door 3 0 0 15362 0 0
+~
+~
+End
+
+#15362
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15367 0 0
+~
+~
+Door 1 0 0 15361 0 0
+~
+~
+Door 3 0 0 15363 0 0
+~
+~
+End
+
+#15363
+Name Under the Draw Bridge~
+Descr
+~
+Flags 4
+Sector 10
+Door 1 0 0 15362 0 0
+~
+~
+Door 3 0 0 15364 0 0
+~
+~
+End
+
+#15364
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15365 0 0
+~
+~
+Door 1 0 0 15363 0 0
+~
+~
+Door 3 0 0 15368 0 0
+~
+~
+End
+
+#15365
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15581 0 0
+~
+~
+Door 1 0 0 15366 0 0
+~
+~
+Door 2 0 0 15364 0 0
+~
+~
+Door 3 0 0 15418 0 0
+~
+~
+End
+
+#15366
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15448 0 0
+~
+~
+Door 1 0 0 15367 0 0
+~
+~
+Door 2 0 0 15102 0 0
+~
+~
+Door 3 0 0 15365 0 0
+~
+~
+End
+
+#15367
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 1 0 0 15417 0 0
+~
+~
+Door 2 0 0 15362 0 0
+~
+~
+Door 3 0 0 15366 0 0
+~
+~
+End
+
+#15368
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15418 0 0
+~
+~
+Door 1 0 0 15364 0 0
+~
+~
+Door 3 0 0 15369 0 0
+~
+~
+End
+
+#15369
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15419 0 0
+~
+~
+Door 1 0 0 15368 0 0
+~
+~
+Door 3 0 0 15370 0 0
+~
+~
+End
+
+#15370
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15420 0 0
+~
+~
+Door 1 0 0 15369 0 0
+~
+~
+Door 3 0 0 15371 0 0
+~
+~
+End
+
+#15371
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15421 0 0
+~
+~
+Door 1 0 0 15370 0 0
+~
+~
+Door 3 0 0 15372 0 0
+~
+~
+End
+
+#15372
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15422 0 0
+~
+~
+Door 1 0 0 15371 0 0
+~
+~
+Door 3 0 0 15373 0 0
+~
+~
+End
+
+#15373
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15423 0 0
+~
+~
+Door 1 0 0 15372 0 0
+~
+~
+Door 2 0 0 15374 0 0
+~
+~
+Door 3 0 0 15425 0 0
+~
+~
+End
+
+#15374
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15373 0 0
+~
+~
+Door 2 0 0 15375 0 0
+~
+~
+Door 3 0 0 15426 0 0
+~
+~
+End
+
+#15375
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15374 0 0
+~
+~
+Door 2 0 0 15376 0 0
+~
+~
+Door 3 0 0 15427 0 0
+~
+~
+End
+
+#15376
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15375 0 0
+~
+~
+Door 2 0 0 15377 0 0
+~
+~
+Door 3 0 0 15428 0 0
+~
+~
+End
+
+#15377
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15376 0 0
+~
+~
+Door 2 0 0 15378 0 0
+~
+~
+Door 3 0 0 15429 0 0
+~
+~
+End
+
+#15378
+Name The Moat of Alderen~
+Descr
+~
+Sector 10
+Door 0 0 0 15377 0 0
+~
+~
+Door 2 0 0 15312 0 0
+~
+~
+Door 3 0 0 15430 0 0
+~
+~
+End
+
+#15379
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15315 0 0
+~
+~
+Door 1 0 0 15316 0 0
+~
+~
+Door 2 0 0 15380 0 0
+~
+~
+Door 3 0 0 15539 0 0
+~
+~
+End
+
+#15380
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15379 0 0
+~
+~
+Door 1 0 0 15317 0 0
+~
+~
+Door 2 0 0 15381 0 0
+~
+~
+Door 3 0 0 15540 0 0
+~
+~
+End
+
+#15381
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15380 0 0
+~
+~
+Door 1 0 0 15318 0 0
+~
+~
+Door 2 0 0 15382 0 0
+~
+~
+Door 3 0 0 15541 0 0
+~
+~
+End
+
+#15382
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15381 0 0
+~
+~
+Door 1 0 0 15319 0 0
+~
+~
+Door 2 0 0 15383 0 0
+~
+~
+Door 3 0 0 15542 0 0
+~
+~
+End
+
+#15383
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15382 0 0
+~
+~
+Door 1 0 0 15320 0 0
+~
+~
+Door 2 0 0 15384 0 0
+~
+~
+Door 3 0 0 15543 0 0
+~
+~
+End
+
+#15384
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15383 0 0
+~
+~
+Door 1 0 0 15321 0 0
+~
+~
+Door 2 0 0 15385 0 0
+~
+~
+Door 3 0 0 15544 0 0
+~
+~
+End
+
+#15385
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15384 0 0
+~
+~
+Door 1 0 0 15386 0 0
+~
+~
+Door 2 0 0 15598 0 0
+~
+~
+Door 3 0 0 15545 0 0
+~
+~
+End
+
+#15386
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15321 0 0
+~
+~
+Door 1 0 0 15387 0 0
+~
+~
+Door 2 0 0 15599 0 0
+~
+~
+Door 3 0 0 15385 0 0
+~
+~
+End
+
+#15387
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15322 0 0
+~
+~
+Door 1 0 0 15388 0 0
+~
+~
+Door 2 0 0 15600 0 0
+~
+~
+Door 3 0 0 15386 0 0
+~
+~
+End
+
+#15388
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15323 0 0
+~
+~
+Door 1 0 0 15389 0 0
+~
+~
+Door 2 0 0 15601 0 0
+~
+~
+Door 3 0 0 15387 0 0
+~
+~
+End
+
+#15389
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15324 0 0
+~
+~
+Door 1 0 0 15390 0 0
+~
+~
+Door 2 0 0 15602 0 0
+~
+~
+Door 3 0 0 15388 0 0
+~
+~
+End
+
+#15390
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15325 0 0
+~
+~
+Door 1 0 0 15391 0 0
+~
+~
+Door 2 0 0 15603 0 0
+~
+~
+Door 3 0 0 15389 0 0
+~
+~
+End
+
+#15391
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15326 0 0
+~
+~
+Door 1 0 0 15331 0 0
+~
+~
+Door 2 0 0 15604 0 0
+~
+~
+Door 3 0 0 15390 0 0
+~
+~
+End
+
+#15392
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15334 0 0
+~
+~
+Door 1 0 0 15393 0 0
+~
+~
+Door 3 0 0 15333 0 0
+~
+~
+End
+
+#15393
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15336 0 0
+~
+~
+Door 1 0 0 15394 0 0
+~
+~
+Door 3 0 0 15392 0 0
+~
+~
+End
+
+#15394
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15335 0 0
+~
+~
+Door 1 0 0 15395 0 0
+~
+~
+Door 3 0 0 15393 0 0
+~
+~
+End
+
+#15395
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15337 0 0
+~
+~
+Door 1 0 0 15396 0 0
+~
+~
+Door 3 0 0 15394 0 0
+~
+~
+End
+
+#15396
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15338 0 0
+~
+~
+Door 1 0 0 15397 0 0
+~
+~
+Door 3 0 0 15395 0 0
+~
+~
+End
+
+#15397
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15339 0 0
+~
+~
+Door 1 0 0 15398 0 0
+~
+~
+Door 3 0 0 15396 0 0
+~
+~
+End
+
+#15398
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Reset M 15032 5 100
+Door 0 0 0 15399 0 0
+~
+~
+Door 3 0 0 15397 0 0
+~
+~
+End
+
+#15399
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15400 0 0
+~
+~
+Door 2 0 0 15398 0 0
+~
+~
+Door 3 0 0 15339 0 0
+~
+~
+End
+
+#15400
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15401 0 0
+~
+~
+Door 2 0 0 15399 0 0
+~
+~
+Door 3 0 0 15340 0 0
+~
+~
+End
+
+#15401
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15402 0 0
+~
+~
+Door 2 0 0 15400 0 0
+~
+~
+Door 3 0 0 15341 0 0
+~
+~
+End
+
+#15402
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15403 0 0
+~
+~
+Door 2 0 0 15401 0 0
+~
+~
+Door 3 0 0 15342 0 0
+~
+~
+End
+
+#15403
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15404 0 0
+~
+~
+Door 2 0 0 15402 0 0
+~
+~
+Door 3 0 0 15343 0 0
+~
+~
+End
+
+#15404
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15349 0 0
+~
+~
+Door 2 0 0 15403 0 0
+~
+~
+Door 3 0 0 15344 0 0
+~
+~
+End
+
+#15405
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15406 0 0
+~
+~
+Door 2 0 0 15348 0 0
+~
+~
+Door 3 0 0 15351 0 0
+~
+~
+End
+
+#15406
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15407 0 0
+~
+~
+Door 2 0 0 15405 0 0
+~
+~
+Door 3 0 0 15352 0 0
+~
+~
+End
+
+#15407
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15408 0 0
+~
+~
+Door 2 0 0 15406 0 0
+~
+~
+Door 3 0 0 15353 0 0
+~
+~
+End
+
+#15408
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15409 0 0
+~
+~
+Door 2 0 0 15407 0 0
+~
+~
+Door 3 0 0 15354 0 0
+~
+~
+End
+
+#15409
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15410 0 0
+~
+~
+Door 2 0 0 15408 0 0
+~
+~
+Door 3 0 0 15355 0 0
+~
+~
+End
+
+#15410
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 0 0 0 15411 0 0
+~
+~
+Door 2 0 0 15409 0 0
+~
+~
+Door 3 0 0 15356 0 0
+~
+~
+End
+
+#15411
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 2 0 0 15410 0 0
+~
+~
+Door 3 0 0 15412 0 0
+~
+~
+End
+
+#15412
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 1 0 0 15411 0 0
+~
+~
+Door 2 0 0 15356 0 0
+~
+~
+Door 3 0 0 15413 0 0
+~
+~
+End
+
+#15413
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 1 0 0 15412 0 0
+~
+~
+Door 2 0 0 15357 0 0
+~
+~
+Door 3 0 0 15414 0 0
+~
+~
+End
+
+#15414
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 1 0 0 15413 0 0
+~
+~
+Door 2 0 0 15358 0 0
+~
+~
+Door 3 0 0 15415 0 0
+~
+~
+End
+
+#15415
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Reset M 15032 5 100
+Door 1 0 0 15414 0 0
+~
+~
+Door 2 0 0 15359 0 0
+~
+~
+Door 3 0 0 15416 0 0
+~
+~
+End
+
+#15416
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 1 0 0 15415 0 0
+~
+~
+Door 2 0 0 15360 0 0
+~
+~
+Door 3 0 0 15417 0 0
+~
+~
+End
+
+#15417
+Name Steppe Before the Mountains~
+Descr
+~
+Sector 24
+Door 1 0 0 15416 0 0
+~
+~
+Door 2 0 0 15361 0 0
+~
+~
+Door 3 0 0 15367 0 0
+~
+~
+End
+
+#15418
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15580 0 0
+~
+~
+Door 1 0 0 15365 0 0
+~
+~
+Door 2 0 0 15368 0 0
+~
+~
+Door 3 0 0 15419 0 0
+~
+~
+End
+
+#15419
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15579 0 0
+~
+~
+Door 1 0 0 15418 0 0
+~
+~
+Door 2 0 0 15369 0 0
+~
+~
+Door 3 0 0 15420 0 0
+~
+~
+End
+
+#15420
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15578 0 0
+~
+~
+Door 1 0 0 15419 0 0
+~
+~
+Door 2 0 0 15370 0 0
+~
+~
+Door 3 0 0 15421 0 0
+~
+~
+End
+
+#15421
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15577 0 0
+~
+~
+Door 1 0 0 15420 0 0
+~
+~
+Door 2 0 0 15371 0 0
+~
+~
+Door 3 0 0 15422 0 0
+~
+~
+End
+
+#15422
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15576 0 0
+~
+~
+Door 1 0 0 15421 0 0
+~
+~
+Door 2 0 0 15372 0 0
+~
+~
+Door 3 0 0 15423 0 0
+~
+~
+End
+
+#15423
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15575 0 0
+~
+~
+Door 1 0 0 15422 0 0
+~
+~
+Door 2 0 0 15373 0 0
+~
+~
+Door 3 0 0 15424 0 0
+~
+~
+End
+
+#15424
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15574 0 0
+~
+~
+Door 1 0 0 15423 0 0
+~
+~
+Door 2 0 0 15425 0 0
+~
+~
+Door 3 0 0 15513 0 0
+~
+~
+End
+
+#15425
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15424 0 0
+~
+~
+Door 1 0 0 15373 0 0
+~
+~
+Door 2 0 0 15426 0 0
+~
+~
+Door 3 0 0 15512 0 0
+~
+~
+End
+
+#15426
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15425 0 0
+~
+~
+Door 1 0 0 15374 0 0
+~
+~
+Door 2 0 0 15427 0 0
+~
+~
+Door 3 0 0 15511 0 0
+~
+~
+End
+
+#15427
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15426 0 0
+~
+~
+Door 1 0 0 15375 0 0
+~
+~
+Door 2 0 0 15428 0 0
+~
+~
+Door 3 0 0 15510 0 0
+~
+~
+End
+
+#15428
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15427 0 0
+~
+~
+Door 1 0 0 15376 0 0
+~
+~
+Door 2 0 0 15429 0 0
+~
+~
+Door 3 0 0 15509 0 0
+~
+~
+End
+
+#15429
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15428 0 0
+~
+~
+Door 1 0 0 15377 0 0
+~
+~
+Door 2 0 0 15430 0 0
+~
+~
+Door 3 0 0 15508 0 0
+~
+~
+End
+
+#15430
+Name The Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15429 0 0
+~
+~
+Door 1 0 0 15378 0 0
+~
+~
+Door 2 0 0 15311 0 0
+~
+~
+Door 3 0 0 15507 0 0
+~
+~
+End
+
+#15431
+Name A Damp Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15042 0 0
+~
+~
+Door 3 0 0 15432 0 0
+~
+~
+End
+
+#15432
+Name A Damp Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15031 1 100
+Door 0 0 0 15433 0 0
+~
+~
+Door 1 0 0 15431 0 0
+~
+~
+End
+
+#15433
+Name A Damp Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15434 0 0
+~
+~
+Door 2 0 0 15432 0 0
+~
+~
+End
+
+#15434
+Name A Damp Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 0 0 15435 0 0
+~
+~
+Door 3 0 0 15433 0 0
+~
+~
+End
+
+#15435
+Name A Damp Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 0 0 15434 0 0
+~
+~
+Door 3 0 0 15436 0 0
+~
+~
+End
+
+#15436
+Name A Damp Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15435 0 0
+~
+~
+Door 3 0 0 15437 0 0
+~
+~
+End
+
+#15437
+Name A Damp Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15436 0 0
+~
+~
+Door 3 0 0 15438 0 0
+~
+~
+End
+
+#15438
+Name A Damp Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 0 0 15437 0 0
+~
+~
+Door 2 0 0 15439 0 0
+~
+~
+End
+
+#15439
+Name A Damp Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Reset M 15031 1 100
+Door 0 0 0 15438 0 0
+~
+~
+Door 1 0 0 15440 0 0
+~
+~
+End
+
+#15440
+Name A Damp Corridor~
+Descr
+~
+Flags 4
+Sector 0
+Door 3 0 0 15439 0 0
+~
+~
+End
+
+#15441
+Name Path Into the Mountains~
+Descr
+~
+Sector 5
+Door 1 0 0 15442 0 0
+~
+~
+Door 3 0 0 15348 0 0
+~
+~
+End
+
+#15442
+Name Path Into the Mountains~
+Descr
+~
+Sector 5
+Door 1 0 0 15443 0 0
+~
+~
+Door 3 0 0 15441 0 0
+~
+~
+End
+
+#15443
+Name Path Into the Mountains~
+Descr
+~
+Sector 5
+Door 1 0 0 15444 0 0
+~
+~
+Door 3 0 0 15442 0 0
+~
+~
+End
+
+#15444
+Name Path Into the Mountains~
+Descr
+~
+Sector 5
+Door 3 0 0 15443 0 0
+~
+~
+Door 4 0 0 15642 0 0
+~
+~
+End
+
+#15445
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15330 0 0
+~
+~
+Door 2 0 0 15446 0 0
+~
+~
+Door 3 0 0 15617 0 0
+~
+~
+End
+
+#15446
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15445 0 0
+~
+~
+Door 2 0 0 15447 0 0
+~
+~
+Door 3 0 0 15629 0 0
+~
+~
+End
+
+#15447
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15446 0 0
+~
+~
+Door 2 0 0 0 0 0
+~
+~
+Door 3 0 0 15641 0 0
+~
+~
+End
+
+#15448
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15449 0 0
+~
+~
+Door 2 0 0 15366 0 0
+~
+~
+Door 3 0 0 15581 0 0
+~
+~
+End
+
+#15449
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 2 0 0 15448 0 0
+~
+~
+Door 3 0 0 15593 0 0
+~
+~
+End
+
+#15450
+Name Climbing the Wall~
+Descr
+~
+Flags 4
+Sector 0
+Door 4 0 0 15451 0 0
+~
+~
+Door 5 0 0 15030 0 0
+~
+~
+End
+
+#15451
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15452 0 0
+~
+~
+Door 3 0 0 15453 0 0
+~
+~
+Door 5 0 0 15450 0 0
+~
+~
+End
+
+#15452
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15505 0 0
+~
+~
+Door 2 0 0 15451 0 0
+~
+~
+Door 3 0 0 15454 0 0
+~
+~
+End
+
+#15453
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15454 0 0
+~
+~
+Door 1 0 0 15451 0 0
+~
+~
+Door 2 0 0 15455 0 0
+~
+~
+End
+
+#15454
+Name Atop the City Walls of Alderen~
+Descr
+~
+Reset M 15027 1 100
+Door 1 0 0 15452 0 0
+~
+~
+Door 2 0 0 15453 0 0
+~
+~
+End
+
+#15455
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15453 0 0
+~
+~
+Door 2 0 0 15456 0 0
+~
+~
+End
+
+#15456
+Name Atop the City Walls of Alderen~
+Descr
+~
+Reset M 15027 1 100
+Door 0 0 0 15455 0 0
+~
+~
+Door 2 0 0 15457 0 0
+~
+~
+End
+
+#15457
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15456 0 0
+~
+~
+Door 2 0 0 15458 0 0
+~
+~
+End
+
+#15458
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15457 0 0
+~
+~
+Door 2 0 0 15459 0 0
+~
+~
+End
+
+#15459
+Name Atop the City Walls of Alderen~
+Descr
+~
+Reset M 15027 1 100
+Door 0 0 0 15458 0 0
+~
+~
+Door 2 0 0 15460 0 0
+~
+~
+End
+
+#15460
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15459 0 0
+~
+~
+Door 2 0 0 15461 0 0
+~
+~
+End
+
+#15461
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15460 0 0
+~
+~
+Door 2 0 0 15462 0 0
+~
+~
+End
+
+#15462
+Name Atop the City Walls of Alderen~
+Descr
+~
+Reset M 15027 1 100
+Door 0 0 0 15461 0 0
+~
+~
+Door 2 0 0 15463 0 0
+~
+~
+End
+
+#15463
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15462 0 0
+~
+~
+Door 2 0 0 15464 0 0
+~
+~
+End
+
+#15464
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15463 0 0
+~
+~
+Door 1 0 0 15467 0 0
+~
+~
+Door 2 0 0 15465 0 0
+~
+~
+End
+
+#15465
+Name Atop the City Walls of Alderen~
+Descr
+~
+Reset M 15027 1 100
+Door 0 0 0 15464 0 0
+~
+~
+Door 1 0 0 15466 0 0
+~
+~
+End
+
+#15466
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15467 0 0
+~
+~
+Door 1 0 0 15469 0 0
+~
+~
+Door 3 0 0 15465 0 0
+~
+~
+End
+
+#15467
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 2 0 0 15466 0 0
+~
+~
+Door 3 0 0 15464 0 0
+~
+~
+Door 5 0 0 15468 0 0
+~
+~
+End
+
+#15468
+Name Climbing the Wall~
+Descr
+~
+Sector 0
+Door 4 0 0 15467 0 0
+~
+~
+Door 5 0 0 15048 0 0
+~
+~
+End
+
+#15469
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15470 0 0
+~
+~
+Door 3 0 0 15466 0 0
+~
+~
+End
+
+#15470
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15471 0 0
+~
+~
+Door 3 0 0 15469 0 0
+~
+~
+End
+
+#15471
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15472 0 0
+~
+~
+Door 3 0 0 15470 0 0
+~
+~
+End
+
+#15472
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15473 0 0
+~
+~
+Door 3 0 0 15471 0 0
+~
+~
+End
+
+#15473
+Name Atop the City Walls of Alderen~
+Descr
+~
+Reset M 15027 1 100
+Door 1 0 0 15474 0 0
+~
+~
+Door 3 0 0 15472 0 0
+~
+~
+End
+
+#15474
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15475 0 0
+~
+~
+Door 3 0 0 15473 0 0
+~
+~
+End
+
+#15475
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15476 0 0
+~
+~
+Door 3 0 0 15474 0 0
+~
+~
+End
+
+#15476
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15477 0 0
+~
+~
+Door 3 0 0 15475 0 0
+~
+~
+End
+
+#15477
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15478 0 0
+~
+~
+Door 3 0 0 15476 0 0
+~
+~
+End
+
+#15478
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15481 0 0
+~
+~
+Door 1 0 0 15479 0 0
+~
+~
+Door 3 0 0 15477 0 0
+~
+~
+End
+
+#15479
+Name Atop the City Walls of Alderen~
+Descr
+~
+Reset M 15027 1 100
+Door 0 0 0 15480 0 0
+~
+~
+Door 3 0 0 15478 0 0
+~
+~
+End
+
+#15480
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15483 0 0
+~
+~
+Door 2 0 0 15479 0 0
+~
+~
+Door 3 0 0 15481 0 0
+~
+~
+End
+
+#15481
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15480 0 0
+~
+~
+Door 2 0 0 15478 0 0
+~
+~
+Door 5 0 0 15482 0 0
+~
+~
+End
+
+#15482
+Name Climbing the Wall~
+Descr
+~
+Sector 0
+Door 4 0 0 15481 0 0
+~
+~
+Door 5 0 0 15057 0 0
+~
+~
+End
+
+#15483
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15484 0 0
+~
+~
+Door 2 0 0 15480 0 0
+~
+~
+End
+
+#15484
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15485 0 0
+~
+~
+Door 2 0 0 15483 0 0
+~
+~
+End
+
+#15485
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15486 0 0
+~
+~
+Door 2 0 0 15484 0 0
+~
+~
+End
+
+#15486
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15487 0 0
+~
+~
+Door 2 0 0 15485 0 0
+~
+~
+End
+
+#15487
+Name Atop the City Walls of Alderen~
+Descr
+~
+Reset M 15027 1 100
+Door 0 0 0 15488 0 0
+~
+~
+Door 2 0 0 15486 0 0
+~
+~
+End
+
+#15488
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15489 0 0
+~
+~
+Door 2 0 0 15487 0 0
+~
+~
+End
+
+#15489
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15490 0 0
+~
+~
+Door 2 0 0 15488 0 0
+~
+~
+End
+
+#15490
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15491 0 0
+~
+~
+Door 2 0 0 15489 0 0
+~
+~
+End
+
+#15491
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15492 0 0
+~
+~
+Door 2 0 0 15490 0 0
+~
+~
+End
+
+#15492
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15493 0 0
+~
+~
+Door 2 0 0 15491 0 0
+~
+~
+Door 3 0 0 15495 0 0
+~
+~
+End
+
+#15493
+Name Atop the City Walls of Alderen~
+Descr
+~
+Reset M 15027 1 100
+Door 2 0 0 15492 0 0
+~
+~
+Door 3 0 0 15494 0 0
+~
+~
+End
+
+#15494
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15493 0 0
+~
+~
+Door 2 0 0 15495 0 0
+~
+~
+Door 3 0 0 15497 0 0
+~
+~
+End
+
+#15495
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 0 0 0 15494 0 0
+~
+~
+Door 1 0 0 15492 0 0
+~
+~
+Door 5 0 0 15496 0 0
+~
+~
+End
+
+#15496
+Name Climbing the Wall~
+Descr
+~
+Sector 0
+Door 4 0 0 15495 0 0
+~
+~
+Door 5 0 0 15039 0 0
+~
+~
+End
+
+#15497
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15494 0 0
+~
+~
+Door 3 0 0 15498 0 0
+~
+~
+End
+
+#15498
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15497 0 0
+~
+~
+Door 3 0 0 15499 0 0
+~
+~
+End
+
+#15499
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15498 0 0
+~
+~
+Door 3 0 0 15500 0 0
+~
+~
+End
+
+#15500
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15499 0 0
+~
+~
+Door 3 0 0 15501 0 0
+~
+~
+End
+
+#15501
+Name Atop the City Walls of Alderen~
+Descr
+~
+Reset M 15027 1 100
+Door 1 0 0 15500 0 0
+~
+~
+Door 3 0 0 15502 0 0
+~
+~
+End
+
+#15502
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15501 0 0
+~
+~
+Door 3 0 0 15503 0 0
+~
+~
+End
+
+#15503
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15502 0 0
+~
+~
+Door 3 0 0 15504 0 0
+~
+~
+End
+
+#15504
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15503 0 0
+~
+~
+Door 3 0 0 15505 0 0
+~
+~
+End
+
+#15505
+Name Atop the City Walls of Alderen~
+Descr
+~
+Door 1 0 0 15504 0 0
+~
+~
+Door 3 0 0 15452 0 0
+~
+~
+End
+
+#15506
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15507 0 0
+~
+~
+Door 1 0 0 15311 0 0
+~
+~
+Door 2 0 0 15307 0 0
+~
+~
+Door 3 0 0 15514 0 0
+~
+~
+End
+
+#15507
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15508 0 0
+~
+~
+Door 1 0 0 15430 0 0
+~
+~
+Door 2 0 0 15506 0 0
+~
+~
+Door 3 0 0 15515 0 0
+~
+~
+End
+
+#15508
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15509 0 0
+~
+~
+Door 1 0 0 15429 0 0
+~
+~
+Door 2 0 0 15507 0 0
+~
+~
+Door 3 0 0 15516 0 0
+~
+~
+End
+
+#15509
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Reset M 15032 5 100
+Door 0 0 0 15510 0 0
+~
+~
+Door 1 0 0 15428 0 0
+~
+~
+Door 2 0 0 15508 0 0
+~
+~
+Door 3 0 0 15517 0 0
+~
+~
+End
+
+#15510
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15511 0 0
+~
+~
+Door 1 0 0 15427 0 0
+~
+~
+Door 2 0 0 15509 0 0
+~
+~
+Door 3 0 0 15518 0 0
+~
+~
+End
+
+#15511
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15512 0 0
+~
+~
+Door 1 0 0 15426 0 0
+~
+~
+Door 2 0 0 15510 0 0
+~
+~
+Door 3 0 0 15519 0 0
+~
+~
+End
+
+#15512
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15513 0 0
+~
+~
+Door 1 0 0 15425 0 0
+~
+~
+Door 2 0 0 15511 0 0
+~
+~
+Door 3 0 0 15520 0 0
+~
+~
+End
+
+#15513
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15573 0 0
+~
+~
+Door 1 0 0 15424 0 0
+~
+~
+Door 2 0 0 15512 0 0
+~
+~
+Door 3 0 0 15521 0 0
+~
+~
+End
+
+#15514
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15515 0 0
+~
+~
+Door 1 0 0 15506 0 0
+~
+~
+Door 2 0 0 15308 0 0
+~
+~
+Door 3 0 0 15522 0 0
+~
+~
+End
+
+#15515
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15516 0 0
+~
+~
+Door 1 0 0 15507 0 0
+~
+~
+Door 2 0 0 15514 0 0
+~
+~
+Door 3 0 0 15523 0 0
+~
+~
+End
+
+#15516
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15517 0 0
+~
+~
+Door 1 0 0 15508 0 0
+~
+~
+Door 2 0 0 15515 0 0
+~
+~
+Door 3 0 0 15524 0 0
+~
+~
+End
+
+#15517
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15518 0 0
+~
+~
+Door 1 0 0 15509 0 0
+~
+~
+Door 2 0 0 15516 0 0
+~
+~
+Door 3 0 0 15525 0 0
+~
+~
+End
+
+#15518
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15519 0 0
+~
+~
+Door 1 0 0 15510 0 0
+~
+~
+Door 2 0 0 15517 0 0
+~
+~
+Door 3 0 0 15526 0 0
+~
+~
+End
+
+#15519
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15520 0 0
+~
+~
+Door 1 0 0 15511 0 0
+~
+~
+Door 2 0 0 15518 0 0
+~
+~
+Door 3 0 0 15527 0 0
+~
+~
+End
+
+#15520
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15521 0 0
+~
+~
+Door 1 0 0 15512 0 0
+~
+~
+Door 2 0 0 15519 0 0
+~
+~
+Door 3 0 0 15528 0 0
+~
+~
+End
+
+#15521
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Reset M 15032 5 100
+Door 0 0 0 15572 0 0
+~
+~
+Door 1 0 0 15513 0 0
+~
+~
+Door 2 0 0 15520 0 0
+~
+~
+Door 3 0 0 15529 0 0
+~
+~
+End
+
+#15522
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15523 0 0
+~
+~
+Door 1 0 0 15514 0 0
+~
+~
+Door 2 0 0 15309 0 0
+~
+~
+Door 3 0 0 15530 0 0
+~
+~
+End
+
+#15523
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15524 0 0
+~
+~
+Door 1 0 0 15515 0 0
+~
+~
+Door 2 0 0 15522 0 0
+~
+~
+Door 3 0 0 15531 0 0
+~
+~
+End
+
+#15524
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15525 0 0
+~
+~
+Door 1 0 0 15516 0 0
+~
+~
+Door 2 0 0 15523 0 0
+~
+~
+Door 3 0 0 15532 0 0
+~
+~
+End
+
+#15525
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15526 0 0
+~
+~
+Door 1 0 0 15517 0 0
+~
+~
+Door 2 0 0 15524 0 0
+~
+~
+Door 3 0 0 15533 0 0
+~
+~
+End
+
+#15526
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15527 0 0
+~
+~
+Door 1 0 0 15518 0 0
+~
+~
+Door 2 0 0 15525 0 0
+~
+~
+Door 3 0 0 15534 0 0
+~
+~
+End
+
+#15527
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Reset M 15032 5 100
+Door 0 0 0 15528 0 0
+~
+~
+Door 1 0 0 15519 0 0
+~
+~
+Door 2 0 0 15526 0 0
+~
+~
+Door 3 0 0 15535 0 0
+~
+~
+End
+
+#15528
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15529 0 0
+~
+~
+Door 1 0 0 15520 0 0
+~
+~
+Door 2 0 0 15527 0 0
+~
+~
+Door 3 0 0 15536 0 0
+~
+~
+End
+
+#15529
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15571 0 0
+~
+~
+Door 1 0 0 15521 0 0
+~
+~
+Door 2 0 0 15528 0 0
+~
+~
+Door 3 0 0 15537 0 0
+~
+~
+End
+
+#15530
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15531 0 0
+~
+~
+Door 1 0 0 15522 0 0
+~
+~
+Door 2 0 0 15310 0 0
+~
+~
+End
+
+#15531
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Reset M 15032 5 100
+Door 0 0 0 15532 0 0
+~
+~
+Door 1 0 0 15523 0 0
+~
+~
+Door 2 0 0 15530 0 0
+~
+~
+End
+
+#15532
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15533 0 0
+~
+~
+Door 1 0 0 15524 0 0
+~
+~
+Door 2 0 0 15531 0 0
+~
+~
+End
+
+#15533
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15534 0 0
+~
+~
+Door 1 0 0 15525 0 0
+~
+~
+Door 2 0 0 15532 0 0
+~
+~
+End
+
+#15534
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15535 0 0
+~
+~
+Door 1 0 0 15526 0 0
+~
+~
+Door 2 0 0 15533 0 0
+~
+~
+End
+
+#15535
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15536 0 0
+~
+~
+Door 1 0 0 15527 0 0
+~
+~
+Door 2 0 0 15534 0 0
+~
+~
+End
+
+#15536
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15537 0 0
+~
+~
+Door 1 0 0 15528 0 0
+~
+~
+Door 2 0 0 15535 0 0
+~
+~
+End
+
+#15537
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15570 0 0
+~
+~
+Door 1 0 0 15529 0 0
+~
+~
+Door 2 0 0 15536 0 0
+~
+~
+End
+
+#15538
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15307 0 0
+~
+~
+Door 1 0 0 15315 0 0
+~
+~
+Door 2 0 0 15539 0 0
+~
+~
+Door 3 0 0 15546 0 0
+~
+~
+End
+
+#15539
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15538 0 0
+~
+~
+Door 1 0 0 15379 0 0
+~
+~
+Door 2 0 0 15540 0 0
+~
+~
+Door 3 0 0 15547 0 0
+~
+~
+End
+
+#15540
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Reset M 15032 5 100
+Door 0 0 0 15539 0 0
+~
+~
+Door 1 0 0 15380 0 0
+~
+~
+Door 2 0 0 15541 0 0
+~
+~
+Door 3 0 0 15548 0 0
+~
+~
+End
+
+#15541
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15540 0 0
+~
+~
+Door 1 0 0 15381 0 0
+~
+~
+Door 2 0 0 15542 0 0
+~
+~
+Door 3 0 0 15549 0 0
+~
+~
+End
+
+#15542
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15541 0 0
+~
+~
+Door 1 0 0 15382 0 0
+~
+~
+Door 2 0 0 15543 0 0
+~
+~
+Door 3 0 0 15550 0 0
+~
+~
+End
+
+#15543
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15542 0 0
+~
+~
+Door 1 0 0 15383 0 0
+~
+~
+Door 2 0 0 15544 0 0
+~
+~
+Door 3 0 0 15551 0 0
+~
+~
+End
+
+#15544
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Reset M 15032 5 100
+Door 0 0 0 15543 0 0
+~
+~
+Door 1 0 0 15384 0 0
+~
+~
+Door 2 0 0 15545 0 0
+~
+~
+Door 3 0 0 15552 0 0
+~
+~
+End
+
+#15545
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15544 0 0
+~
+~
+Door 1 0 0 15385 0 0
+~
+~
+Door 2 0 0 15597 0 0
+~
+~
+Door 3 0 0 15553 0 0
+~
+~
+End
+
+#15546
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15308 0 0
+~
+~
+Door 1 0 0 15538 0 0
+~
+~
+Door 2 0 0 15547 0 0
+~
+~
+Door 3 0 0 15554 0 0
+~
+~
+End
+
+#15547
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15546 0 0
+~
+~
+Door 1 0 0 15539 0 0
+~
+~
+Door 2 0 0 15548 0 0
+~
+~
+Door 3 0 0 15555 0 0
+~
+~
+End
+
+#15548
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15547 0 0
+~
+~
+Door 1 0 0 15540 0 0
+~
+~
+Door 2 0 0 15549 0 0
+~
+~
+Door 3 0 0 15556 0 0
+~
+~
+End
+
+#15549
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15548 0 0
+~
+~
+Door 1 0 0 15541 0 0
+~
+~
+Door 2 0 0 15550 0 0
+~
+~
+Door 3 0 0 15557 0 0
+~
+~
+End
+
+#15550
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15549 0 0
+~
+~
+Door 1 0 0 15542 0 0
+~
+~
+Door 2 0 0 15551 0 0
+~
+~
+Door 3 0 0 15558 0 0
+~
+~
+End
+
+#15551
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15550 0 0
+~
+~
+Door 1 0 0 15543 0 0
+~
+~
+Door 2 0 0 15552 0 0
+~
+~
+Door 3 0 0 15559 0 0
+~
+~
+End
+
+#15552
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15551 0 0
+~
+~
+Door 1 0 0 15544 0 0
+~
+~
+Door 2 0 0 15553 0 0
+~
+~
+Door 3 0 0 15560 0 0
+~
+~
+End
+
+#15553
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15552 0 0
+~
+~
+Door 1 0 0 15545 0 0
+~
+~
+Door 2 0 0 15596 0 0
+~
+~
+Door 3 0 0 15561 0 0
+~
+~
+End
+
+#15554
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15309 0 0
+~
+~
+Door 1 0 0 15546 0 0
+~
+~
+Door 2 0 0 15555 0 0
+~
+~
+Door 3 0 0 15562 0 0
+~
+~
+End
+
+#15555
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15554 0 0
+~
+~
+Door 1 0 0 15547 0 0
+~
+~
+Door 2 0 0 15556 0 0
+~
+~
+Door 3 0 0 15563 0 0
+~
+~
+End
+
+#15556
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15555 0 0
+~
+~
+Door 1 0 0 15548 0 0
+~
+~
+Door 2 0 0 15557 0 0
+~
+~
+Door 3 0 0 15564 0 0
+~
+~
+End
+
+#15557
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15556 0 0
+~
+~
+Door 1 0 0 15549 0 0
+~
+~
+Door 2 0 0 15558 0 0
+~
+~
+Door 3 0 0 15565 0 0
+~
+~
+End
+
+#15558
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Reset M 15032 5 100
+Door 0 0 0 15557 0 0
+~
+~
+Door 1 0 0 15550 0 0
+~
+~
+Door 2 0 0 15559 0 0
+~
+~
+Door 3 0 0 15566 0 0
+~
+~
+End
+
+#15559
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15558 0 0
+~
+~
+Door 1 0 0 15551 0 0
+~
+~
+Door 2 0 0 15560 0 0
+~
+~
+Door 3 0 0 15567 0 0
+~
+~
+End
+
+#15560
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15559 0 0
+~
+~
+Door 1 0 0 15552 0 0
+~
+~
+Door 2 0 0 15561 0 0
+~
+~
+Door 3 0 0 15568 0 0
+~
+~
+End
+
+#15561
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15560 0 0
+~
+~
+Door 1 0 0 15553 0 0
+~
+~
+Door 2 0 0 15595 0 0
+~
+~
+Door 3 0 0 15569 0 0
+~
+~
+End
+
+#15562
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15310 0 0
+~
+~
+Door 1 0 0 15554 0 0
+~
+~
+Door 2 0 0 15563 0 0
+~
+~
+End
+
+#15563
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15562 0 0
+~
+~
+Door 1 0 0 15555 0 0
+~
+~
+Door 2 0 0 15564 0 0
+~
+~
+End
+
+#15564
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15563 0 0
+~
+~
+Door 1 0 0 15556 0 0
+~
+~
+Door 2 0 0 15565 0 0
+~
+~
+End
+
+#15565
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15564 0 0
+~
+~
+Door 1 0 0 15557 0 0
+~
+~
+Door 2 0 0 15566 0 0
+~
+~
+End
+
+#15566
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15565 0 0
+~
+~
+Door 1 0 0 15558 0 0
+~
+~
+Door 2 0 0 15567 0 0
+~
+~
+End
+
+#15567
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15566 0 0
+~
+~
+Door 1 0 0 15559 0 0
+~
+~
+Door 2 0 0 15568 0 0
+~
+~
+End
+
+#15568
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15567 0 0
+~
+~
+Door 1 0 0 15560 0 0
+~
+~
+Door 2 0 0 15569 0 0
+~
+~
+End
+
+#15569
+Name Fields of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15568 0 0
+~
+~
+Door 1 0 0 15561 0 0
+~
+~
+Door 2 0 0 15594 0 0
+~
+~
+End
+
+#15570
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15582 0 0
+~
+~
+Door 1 0 0 15571 0 0
+~
+~
+Door 2 0 0 15537 0 0
+~
+~
+End
+
+#15571
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15583 0 0
+~
+~
+Door 1 0 0 15572 0 0
+~
+~
+Door 2 0 0 15529 0 0
+~
+~
+Door 3 0 0 15570 0 0
+~
+~
+End
+
+#15572
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15584 0 0
+~
+~
+Door 1 0 0 15573 0 0
+~
+~
+Door 2 0 0 15521 0 0
+~
+~
+Door 3 0 0 15571 0 0
+~
+~
+End
+
+#15573
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15585 0 0
+~
+~
+Door 1 0 0 15574 0 0
+~
+~
+Door 2 0 0 15513 0 0
+~
+~
+Door 3 0 0 15572 0 0
+~
+~
+End
+
+#15574
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15586 0 0
+~
+~
+Door 1 0 0 15575 0 0
+~
+~
+Door 2 0 0 15424 0 0
+~
+~
+Door 3 0 0 15573 0 0
+~
+~
+End
+
+#15575
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15587 0 0
+~
+~
+Door 1 0 0 15576 0 0
+~
+~
+Door 2 0 0 15423 0 0
+~
+~
+Door 3 0 0 15574 0 0
+~
+~
+End
+
+#15576
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15588 0 0
+~
+~
+Door 1 0 0 15577 0 0
+~
+~
+Door 2 0 0 15422 0 0
+~
+~
+Door 3 0 0 15575 0 0
+~
+~
+End
+
+#15577
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15589 0 0
+~
+~
+Door 1 0 0 15578 0 0
+~
+~
+Door 2 0 0 15421 0 0
+~
+~
+Door 3 0 0 15576 0 0
+~
+~
+End
+
+#15578
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15590 0 0
+~
+~
+Door 1 0 0 15579 0 0
+~
+~
+Door 2 0 0 15420 0 0
+~
+~
+Door 3 0 0 15577 0 0
+~
+~
+End
+
+#15579
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15591 0 0
+~
+~
+Door 1 0 0 15580 0 0
+~
+~
+Door 2 0 0 15419 0 0
+~
+~
+Door 3 0 0 15578 0 0
+~
+~
+End
+
+#15580
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15592 0 0
+~
+~
+Door 1 0 0 15581 0 0
+~
+~
+Door 2 0 0 15418 0 0
+~
+~
+Door 3 0 0 15579 0 0
+~
+~
+End
+
+#15581
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15593 0 0
+~
+~
+Door 1 0 0 15448 0 0
+~
+~
+Door 2 0 0 15365 0 0
+~
+~
+Door 3 0 0 15580 0 0
+~
+~
+End
+
+#15582
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15583 0 0
+~
+~
+Door 2 0 0 15570 0 0
+~
+~
+End
+
+#15583
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15584 0 0
+~
+~
+Door 2 0 0 15571 0 0
+~
+~
+Door 3 0 0 15582 0 0
+~
+~
+End
+
+#15584
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15585 0 0
+~
+~
+Door 2 0 0 15572 0 0
+~
+~
+Door 3 0 0 15583 0 0
+~
+~
+End
+
+#15585
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15586 0 0
+~
+~
+Door 2 0 0 15573 0 0
+~
+~
+Door 3 0 0 15584 0 0
+~
+~
+End
+
+#15586
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15587 0 0
+~
+~
+Door 2 0 0 15574 0 0
+~
+~
+Door 3 0 0 15585 0 0
+~
+~
+End
+
+#15587
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15588 0 0
+~
+~
+Door 2 0 0 15575 0 0
+~
+~
+Door 3 0 0 15586 0 0
+~
+~
+End
+
+#15588
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15589 0 0
+~
+~
+Door 2 0 0 15576 0 0
+~
+~
+Door 3 0 0 15587 0 0
+~
+~
+End
+
+#15589
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15590 0 0
+~
+~
+Door 2 0 0 15577 0 0
+~
+~
+Door 3 0 0 15588 0 0
+~
+~
+End
+
+#15590
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15591 0 0
+~
+~
+Door 2 0 0 15578 0 0
+~
+~
+Door 3 0 0 15589 0 0
+~
+~
+End
+
+#15591
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15592 0 0
+~
+~
+Door 2 0 0 15579 0 0
+~
+~
+Door 3 0 0 15590 0 0
+~
+~
+End
+
+#15592
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15593 0 0
+~
+~
+Door 2 0 0 15580 0 0
+~
+~
+Door 3 0 0 15591 0 0
+~
+~
+End
+
+#15593
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 1 0 0 15449 0 0
+~
+~
+Door 2 0 0 15581 0 0
+~
+~
+Door 3 0 0 15592 0 0
+~
+~
+End
+
+#15594
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15569 0 0
+~
+~
+Door 1 0 0 15595 0 0
+~
+~
+Door 2 0 0 15606 0 0
+~
+~
+End
+
+#15595
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15561 0 0
+~
+~
+Door 1 0 0 15596 0 0
+~
+~
+Door 2 0 0 15607 0 0
+~
+~
+Door 3 0 0 15594 0 0
+~
+~
+End
+
+#15596
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15553 0 0
+~
+~
+Door 1 0 0 15597 0 0
+~
+~
+Door 2 0 0 15608 0 0
+~
+~
+Door 3 0 0 15595 0 0
+~
+~
+End
+
+#15597
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15545 0 0
+~
+~
+Door 1 0 0 15598 0 0
+~
+~
+Door 2 0 0 15609 0 0
+~
+~
+Door 3 0 0 15596 0 0
+~
+~
+End
+
+#15598
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15385 0 0
+~
+~
+Door 1 0 0 15599 0 0
+~
+~
+Door 2 0 0 15610 0 0
+~
+~
+Door 3 0 0 15597 0 0
+~
+~
+End
+
+#15599
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15386 0 0
+~
+~
+Door 1 0 0 15600 0 0
+~
+~
+Door 2 0 0 15611 0 0
+~
+~
+Door 3 0 0 15598 0 0
+~
+~
+End
+
+#15600
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15387 0 0
+~
+~
+Door 1 0 0 15601 0 0
+~
+~
+Door 2 0 0 15612 0 0
+~
+~
+Door 3 0 0 15599 0 0
+~
+~
+End
+
+#15601
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15388 0 0
+~
+~
+Door 1 0 0 15602 0 0
+~
+~
+Door 2 0 0 15613 0 0
+~
+~
+Door 3 0 0 15600 0 0
+~
+~
+End
+
+#15602
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15389 0 0
+~
+~
+Door 1 0 0 15603 0 0
+~
+~
+Door 2 0 0 15614 0 0
+~
+~
+Door 3 0 0 15601 0 0
+~
+~
+End
+
+#15603
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15390 0 0
+~
+~
+Door 1 0 0 15604 0 0
+~
+~
+Door 2 0 0 15615 0 0
+~
+~
+Door 3 0 0 15602 0 0
+~
+~
+End
+
+#15604
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15391 0 0
+~
+~
+Door 1 0 0 15605 0 0
+~
+~
+Door 2 0 0 15616 0 0
+~
+~
+Door 3 0 0 15603 0 0
+~
+~
+End
+
+#15605
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15331 0 0
+~
+~
+Door 1 0 0 15330 0 0
+~
+~
+Door 2 0 0 15617 0 0
+~
+~
+Door 3 0 0 15604 0 0
+~
+~
+End
+
+#15606
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15594 0 0
+~
+~
+Door 1 0 0 15607 0 0
+~
+~
+Door 2 0 0 15618 0 0
+~
+~
+End
+
+#15607
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15595 0 0
+~
+~
+Door 1 0 0 15608 0 0
+~
+~
+Door 2 0 0 15619 0 0
+~
+~
+Door 3 0 0 15606 0 0
+~
+~
+End
+
+#15608
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15596 0 0
+~
+~
+Door 1 0 0 15609 0 0
+~
+~
+Door 2 0 0 15620 0 0
+~
+~
+Door 3 0 0 15607 0 0
+~
+~
+End
+
+#15609
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15597 0 0
+~
+~
+Door 1 0 0 15610 0 0
+~
+~
+Door 2 0 0 15621 0 0
+~
+~
+Door 3 0 0 15608 0 0
+~
+~
+End
+
+#15610
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15598 0 0
+~
+~
+Door 1 0 0 15611 0 0
+~
+~
+Door 2 0 0 15622 0 0
+~
+~
+Door 3 0 0 15609 0 0
+~
+~
+End
+
+#15611
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15599 0 0
+~
+~
+Door 1 0 0 15612 0 0
+~
+~
+Door 2 0 0 15623 0 0
+~
+~
+Door 3 0 0 15610 0 0
+~
+~
+End
+
+#15612
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15600 0 0
+~
+~
+Door 1 0 0 15613 0 0
+~
+~
+Door 2 0 0 15624 0 0
+~
+~
+Door 3 0 0 15611 0 0
+~
+~
+End
+
+#15613
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15601 0 0
+~
+~
+Door 1 0 0 15614 0 0
+~
+~
+Door 2 0 0 15625 0 0
+~
+~
+Door 3 0 0 15612 0 0
+~
+~
+End
+
+#15614
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Reset M 15032 5 100
+Door 0 0 0 15602 0 0
+~
+~
+Door 1 0 0 15615 0 0
+~
+~
+Door 2 0 0 15626 0 0
+~
+~
+Door 3 0 0 15613 0 0
+~
+~
+End
+
+#15615
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15603 0 0
+~
+~
+Door 1 0 0 15616 0 0
+~
+~
+Door 2 0 0 15627 0 0
+~
+~
+Door 3 0 0 15614 0 0
+~
+~
+End
+
+#15616
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15604 0 0
+~
+~
+Door 1 0 0 15617 0 0
+~
+~
+Door 2 0 0 15628 0 0
+~
+~
+Door 3 0 0 15615 0 0
+~
+~
+End
+
+#15617
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15605 0 0
+~
+~
+Door 1 0 0 15445 0 0
+~
+~
+Door 2 0 0 15629 0 0
+~
+~
+Door 3 0 0 15616 0 0
+~
+~
+End
+
+#15618
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15606 0 0
+~
+~
+Door 1 0 0 15619 0 0
+~
+~
+Door 2 0 0 15630 0 0
+~
+~
+End
+
+#15619
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15607 0 0
+~
+~
+Door 1 0 0 15620 0 0
+~
+~
+Door 2 0 0 15631 0 0
+~
+~
+Door 3 0 0 15618 0 0
+~
+~
+End
+
+#15620
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Reset M 15032 5 100
+Door 0 0 0 15608 0 0
+~
+~
+Door 1 0 0 15621 0 0
+~
+~
+Door 2 0 0 15632 0 0
+~
+~
+Door 3 0 0 15619 0 0
+~
+~
+End
+
+#15621
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15609 0 0
+~
+~
+Door 1 0 0 15622 0 0
+~
+~
+Door 2 0 0 15633 0 0
+~
+~
+Door 3 0 0 15620 0 0
+~
+~
+End
+
+#15622
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15610 0 0
+~
+~
+Door 1 0 0 15623 0 0
+~
+~
+Door 2 0 0 15634 0 0
+~
+~
+Door 3 0 0 15621 0 0
+~
+~
+End
+
+#15623
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15611 0 0
+~
+~
+Door 1 0 0 15624 0 0
+~
+~
+Door 2 0 0 15635 0 0
+~
+~
+Door 3 0 0 15622 0 0
+~
+~
+End
+
+#15624
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15612 0 0
+~
+~
+Door 1 0 0 15625 0 0
+~
+~
+Door 2 0 0 15636 0 0
+~
+~
+Door 3 0 0 15623 0 0
+~
+~
+End
+
+#15625
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15613 0 0
+~
+~
+Door 1 0 0 15626 0 0
+~
+~
+Door 2 0 0 15637 0 0
+~
+~
+Door 3 0 0 15624 0 0
+~
+~
+End
+
+#15626
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15614 0 0
+~
+~
+Door 1 0 0 15627 0 0
+~
+~
+Door 2 0 0 15638 0 0
+~
+~
+Door 3 0 0 15625 0 0
+~
+~
+End
+
+#15627
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15615 0 0
+~
+~
+Door 1 0 0 15628 0 0
+~
+~
+Door 2 0 0 15639 0 0
+~
+~
+Door 3 0 0 15626 0 0
+~
+~
+End
+
+#15628
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15616 0 0
+~
+~
+Door 1 0 0 15629 0 0
+~
+~
+Door 2 0 0 15640 0 0
+~
+~
+Door 3 0 0 15627 0 0
+~
+~
+End
+
+#15629
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15617 0 0
+~
+~
+Door 1 0 0 15446 0 0
+~
+~
+Door 2 0 0 15641 0 0
+~
+~
+Door 3 0 0 15628 0 0
+~
+~
+End
+
+#15630
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15618 0 0
+~
+~
+Door 1 0 0 15631 0 0
+~
+~
+End
+
+#15631
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15619 0 0
+~
+~
+Door 1 0 0 15632 0 0
+~
+~
+Door 3 0 0 15630 0 0
+~
+~
+End
+
+#15632
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15620 0 0
+~
+~
+Door 1 0 0 15633 0 0
+~
+~
+Door 3 0 0 15631 0 0
+~
+~
+End
+
+#15633
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15621 0 0
+~
+~
+Door 1 0 0 15634 0 0
+~
+~
+Door 3 0 0 15632 0 0
+~
+~
+End
+
+#15634
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15622 0 0
+~
+~
+Door 1 0 0 15635 0 0
+~
+~
+Door 3 0 0 15633 0 0
+~
+~
+End
+
+#15635
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15623 0 0
+~
+~
+Door 1 0 0 15636 0 0
+~
+~
+Door 3 0 0 15634 0 0
+~
+~
+End
+
+#15636
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15624 0 0
+~
+~
+Door 1 0 0 15637 0 0
+~
+~
+Door 3 0 0 15635 0 0
+~
+~
+End
+
+#15637
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15625 0 0
+~
+~
+Door 1 0 0 15638 0 0
+~
+~
+Door 3 0 0 15636 0 0
+~
+~
+End
+
+#15638
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15626 0 0
+~
+~
+Door 1 0 0 15639 0 0
+~
+~
+Door 3 0 0 15637 0 0
+~
+~
+End
+
+#15639
+Name The Plains of Battle~
+Descr
+~
+Sector 8
+Door 0 0 0 15627 0 0
+~
+~
+Door 1 0 0 15640 0 0
+~
+~
+Door 3 0 0 15638 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

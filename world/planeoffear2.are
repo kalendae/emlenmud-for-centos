@@ -1,0 +1,5208 @@
+#AREADATA 
+Name The Plane of Fear~
+Repop You hear shouts of fear as the plane adjusts itself into a new spectrum. 
+~
+SCZone 0
+Builders Larick Azraen~
+VNUMs 54901 55200
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#55001
+Name howler~
+Short a howler~
+Long 
+A howler is standing here, growling at you.
+~
+AMax 30
+Affect_By 520
+Money 200
+Level 100
+MobType 18
+Hp 6
+Guard 0
+End
+
+#55101
+Name ancient dwarven warrior~
+Short an ancient dwarven warrior~
+Long 
+An ancient dwarven warrior stands here quietly observing you with a hateful glare.
+~
+AMax 1
+NHeight 90
+ActBits 2
+Affect_By 520
+Money 1234
+Level 250
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#55102
+Name archmage Loctus~
+Short the archmage Loctus~
+Long 
+The archmage Loctus stands here moving his hands in mesmerizing patterns.
+~
+AMax 1
+NHeight 45
+ActBits 2
+Affect_By 524810
+Money 263
+Level 170
+Sex 1
+MobType 0
+Hp 35
+Guard 0
+End
+
+#55103
+Name demonically possessed warden~
+Short a demonically possessed warden~
+Long 
+A demonically possessed warden patrols the halls waiting to hurt something.
+~
+AMax 1
+NHeight 84
+ActBits 67109888
+Affect_By 520
+AffectTWO 8
+Money 2882
+Level 250
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#55104
+Name sly rogue~
+Short a sly rogue~
+Long 
+A sly rogue grins at you slightly, you should be worried.
+~
+AMax 1
+ActBits 67108870
+Affect_By 520
+AffectTWO 8
+Money 324
+Level 275
+Sex 1
+MobType 0
+Guard 0
+Spec spec_thief
+End
+
+#55105
+Name peculiar cleric~
+Short a peculiar cleric~
+Long 
+A peculiar cleric mutters some strange incantations under her breath.
+~
+AMax 1
+ActBits 2
+Affect_By 2097672
+AffectTWO 8
+Money 666
+Level 150
+Sex 2
+MobType 1
+Guard 0
+End
+
+#55106
+Name demented necromancer~
+Short a demented necromancer~
+Long 
+A demented necromancer weaves the very fabric of space and time.
+~
+AMax 1
+NHeight 78
+ActBits 2
+Affect_By 2097800
+AffectTWO 33554432
+Money 2341
+Level 250
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#55107
+Name miniature sand dragon~
+Short a miniature sand dragon~
+Long 
+A miniature sand dragon creeps accross the land with great stealth.
+~
+AMax 30
+ActBits 8
+Affect_By 520
+Level 100
+Sex 1
+MobType 5
+Hp 6
+Guard 0
+End
+
+#55108
+Name demon king karthos~
+Short the demon king Karthos~
+Long 
+The demon king Karthos stalks the halls waiting to reap death.
+~
+AMax 1
+ActBits 1065
+Affect_By 598666
+AffectTWO 12
+Level 190
+MobType 11
+Guard 0
+Spec spec_warrior
+BCasts paralyze~
+BCast_P 8
+End
+
+#55109
+Name beautiful sprite~
+Short a beautiful sprite ~
+Long 
+A beautiful sprite softly sings a soothing song.
+~
+AMax 1
+NHeight 56
+ActBits 2
+Affect_By 2622088
+Money 234
+Level 300
+Sex 2
+MobType 36
+Guard 0
+End
+
+#55110
+Name spirit of Forhal~
+Short the spirit of Forhal~
+Long 
+The spirit of Forhal is trapped within these rocks.
+~
+AMax 1
+ActBits 2
+Affect_By 520
+Money 30
+Level 100
+MobType 21
+Hp 6
+Guard 0
+End
+
+#55112
+Name elven elf princess~
+Short an elven princess~
+Long 
+The spirit of an elven princess is trapped within the rocks.
+~
+AMax 1
+ActBits 2
+Affect_By 520
+Level 100
+Sex 2
+MobType 21
+Hp 6
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#54901
+Name shoulderplate shoulder fear apb~
+Short a [1m[30mshoulderplate of [36mr[0m[36mi[1mp[0m[36mp[1ml[0m[36mi[1mn[0m[36mg [1m[31mf[0m[31mea[1m[31mr[0m~
+Descr
+A shoulderplate seems to ripple on the ground.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 32769
+Values 0 1 1 2 0 0 45 45 0 3 0
+Weight 20
+Cost 344
+Affect 19 1 1 0 0
+Affect 13 -15 1 0 0
+Affect 18 2 1 0 0
+End
+
+#54902
+Name eye~
+Short a [1m[36ms[0m[36mh[1mi[0m[36mm[1mm[0m[36me[1mr[0m[36mi[1mn[0m[36mg [1m[30mt[37mh[0m[31mi[1m[37mr[30md [1m[30me[37my[31me~
+Descr
+A eye is here rolling on the ground.
+[0;36m~
+Type 9
+Extra 33558529
+Wear 8388609
+Values 0 0 4 0 0 0 0 0 0 3 0
+Weight 9
+Cost 666
+Affect 13 -20 1 0 0
+Affect 19 1 1 0 0
+End
+
+#54903
+Name crysknife~
+Short a [1m[33mcr[0m[33my[1m[37ms[1m[33mk[0m[33mni[1m[33mfe[0m~
+Descr
+A strange knife lies here discarded.
+[0;36m~
+Type 5
+Extra 33685505
+Wear 24577
+Values 0 10 0 9 0 0 0 3 6 0 0
+Weight 18
+Cost 888
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#54904
+Name crown wisdom 20hp 3sv~
+Short a [1m[34mc[1m[36mr[37mo[36mw[34mn[0m of [36mw[1m[32mi[1m[33ms[36m[1md[32mo[0m[36mm[0m~
+Descr
+A crown is lying in the dust.
+[0;36m~
+Type 9
+Extra 33554593
+Wear 17
+Values 0 0 5 0 0 0 50 50 0 3 0
+Weight 2
+Cost 333
+Affect 15 20 1 0 0
+Affect 20 3 1 0 0
+Affect 13 20 1 0 0
+End
+
+#54905
+Name elbow cataclysmic devastation apb~
+Short an [1m[30melbowpad[0m of [1m[31mca[0m[31mt[1m[33ma[1m[31mc[0m[31mly[1m[31ms[1m[33mm[1m[31mic[0m [1m[30mde[1m[37mv[0m[37ma[1m[30mst[1m[37ma[1m[30mt[0m[37mi[1m[30mon[0m~
+Descr
+An elbowpad seems to glow with a sick power.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 1048577
+Values 0 0 0 2 0 0 30 30 0 0 0
+Weight 3
+Cost 0
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+Affect 13 -5 1 0 0
+End
+
+#54906
+Name ring time space apb~
+Short a [1m[32mr[0m[32mi[1m[32mn[0m[32mg [0mof [37mt[1m[37mim[0m[37me [0mand [1m[31ms[0m[31mp[1m[33ma[1m[31mc[0m[31me[0m~
+Descr
+A ring is lying on the ground here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 3
+Values 0 0 0 3 0 0 50 50 0 3 0
+Weight 14
+Cost 300
+Affect 13 -20 1 0 0
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+Affect 14 20 1 0 0
+End
+
+#54907
+Name wings~
+Short a [0m[31mp[1m[30ma[1m[37mi[1m[30mr [0mof [37ma[1m[37mng[0m[37me[1m[37mli[0m[37mc [1m[31ms[0m[31mp[1m[33mr[31mi[0m[31mt[1m[31me [1m[32mw[0m[32min[1m[32mg[0m[32ms[0m~
+Descr
+A pair of wings are here covered with dust.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 4194305
+Values 2 3 0 1 0 0 45 45 0 3 0
+Weight 2
+Cost 0
+Affect 15 10 1 0 0
+Affect 19 -1 1 0 0
+Affect 18 3 1 0 0
+Affect 14 15 1 0 0
+Affect 13 15 1 0 0
+End
+
+#54908
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 5
+Wear 1
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#54901
+Name The Planes of Fear~
+Cvnumh 139761920
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54902 0 0
+~
+~
+Door 1 0 0 54907 0 0
+~
+~
+Door 3 0 0 54919 0 0
+~
+~
+End
+
+#54902
+Name ~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54909 0 0
+~
+~
+Door 1 0 0 54903 0 0
+~
+~
+Door 2 0 0 54901 0 0
+~
+~
+End
+
+#54903
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54904 0 0
+~
+~
+Door 1 0 0 54906 0 0
+~
+~
+Door 2 0 0 54907 0 0
+~
+~
+Door 3 0 0 54918 0 0
+~
+~
+End
+
+#54904
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54915 0 0
+~
+~
+Door 1 0 0 54905 0 0
+~
+~
+Door 2 0 0 54903 0 0
+~
+~
+Door 3 0 0 54909 0 0
+~
+~
+End
+
+#54905
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54908 0 0
+~
+~
+Door 1 0 0 54911 0 0
+~
+~
+Door 2 0 0 54906 0 0
+~
+~
+Door 3 0 0 54904 0 0
+~
+~
+End
+
+#54906
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54905 0 0
+~
+~
+Door 1 0 0 54914 0 0
+~
+~
+Door 3 0 0 54903 0 0
+~
+~
+End
+
+#54907
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54903 0 0
+~
+~
+Door 3 0 0 54901 0 0
+~
+~
+End
+
+#54908
+Name A Blistering Desert~
+Descr
+The sun beats down heavily upon the land, never yielding its intense heat
+for a moment. The sands shift underfoot as step upon laden step is tred
+across its slippery surface. Thoughts of death can easily creep into one's
+mind if the conditions are bad, in this case they are far past that. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54916 0 0
+~
+~
+Door 1 0 0 54910 0 0
+~
+~
+Door 2 0 0 54905 0 0
+~
+~
+Door 3 0 0 54915 0 0
+~
+~
+End
+
+#54909
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54904 0 0
+~
+~
+Door 2 0 0 54918 0 0
+~
+~
+End
+
+#54910
+Name A Patch of Grass~
+Descr
+A gently meadow rises up from between the almost pathetic shelter of the
+surrounding foothills. Some life actually exists in this bleak landscape
+despite the harsh sun. If there was any civilized life in this region then
+it only makes sense for it to habit this area, however despite the most
+thorough search nothing can be found. 
+~
+Flags2 4
+Flags 16384
+Sector 7
+Reset O 54909 -5 100
+Door 0 0 0 54920 0 0
+~
+~
+Door 1 0 0 54912 0 0
+~
+~
+Door 2 0 0 54911 0 0
+~
+~
+Door 3 0 0 54908 0 0
+~
+~
+End
+
+#54911
+Name A Blistering Desert~
+Descr
+The sun beats down heavily upon the land, never yielding its intense heat
+for a moment. The sands shift underfoot as step upon laden step is tred
+across its slippery surface. Thoughts of death can easily creep into one's
+mind if the conditions are bad, in this case they are far past that. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54910 0 0
+~
+~
+Door 1 0 0 54913 0 0
+~
+~
+Door 2 0 0 54914 0 0
+~
+~
+Door 3 0 0 54905 0 0
+~
+~
+End
+
+#54912
+Name A Blistering Desert~
+Descr
+The sun beats down heavily upon the land, never yielding its intense heat
+for a moment. The sands shift underfoot as step upon laden step is tred
+across its slippery surface. Thoughts of death can easily creep into one's
+mind if the conditions are bad, in this case they are far past that. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54921 0 0
+~
+~
+Door 1 0 0 54923 0 0
+~
+~
+Door 2 0 0 54913 0 0
+~
+~
+Door 3 0 0 54910 0 0
+~
+~
+End
+
+#54913
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54912 0 0
+~
+~
+Door 1 0 0 54924 0 0
+~
+~
+Door 3 0 0 54911 0 0
+~
+~
+End
+
+#54914
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54911 0 0
+~
+~
+Door 3 0 0 54906 0 0
+~
+~
+End
+
+#54915
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54917 0 0
+~
+~
+Door 1 0 0 54908 0 0
+~
+~
+Door 2 0 0 54904 0 0
+~
+~
+End
+
+#54916
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54920 0 0
+~
+~
+Door 2 0 0 54908 0 0
+~
+~
+Door 3 0 0 54917 0 0
+~
+~
+End
+
+#54917
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54916 0 0
+~
+~
+Door 2 0 0 54915 0 0
+~
+~
+End
+
+#54918
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54909 0 0
+~
+~
+Door 1 0 0 54903 0 0
+~
+~
+Door 2 0 0 54919 0 0
+~
+~
+End
+
+#54919
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 81920
+Sector 32
+Door 0 0 0 54918 0 0
+~
+~
+Door 1 0 0 54901 0 0
+~
+~
+Door 5 3 0 55200 30 30
+~
+Solid Iron Door~
+End
+
+#54920
+Name A Blistering Desert~
+Descr
+The sun beats down heavily upon the land, never yielding its intense heat
+for a moment. The sands shift underfoot as step upon laden step is tred
+across its slippery surface. Thoughts of death can easily creep into one's
+mind if the conditions are bad, in this case they are far past that. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54930 0 0
+~
+~
+Door 1 0 0 54921 0 0
+~
+~
+Door 2 0 0 54910 0 0
+~
+~
+Door 3 0 0 54916 0 0
+~
+~
+End
+
+#54921
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54929 0 0
+~
+~
+Door 1 0 0 54922 0 0
+~
+~
+Door 2 0 0 54912 0 0
+~
+~
+Door 3 0 0 54920 0 0
+~
+~
+End
+
+#54922
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Door 0 0 0 54928 0 0
+~
+~
+Door 1 0 0 54926 0 0
+~
+~
+Door 2 0 0 54923 0 0
+~
+~
+Door 3 0 0 54921 0 0
+~
+~
+End
+
+#54923
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Door 0 0 0 54922 0 0
+~
+~
+Door 1 0 0 54925 0 0
+~
+~
+Door 2 0 0 54924 0 0
+~
+~
+Door 3 0 0 54912 0 0
+~
+~
+End
+
+#54924
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54923 0 0
+~
+~
+Door 3 0 0 54913 0 0
+~
+~
+End
+
+#54925
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54926 0 0
+~
+~
+Door 1 0 0 54939 0 0
+~
+~
+Door 3 0 0 54923 0 0
+~
+~
+End
+
+#54926
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54935 0 0
+~
+~
+Door 1 0 0 54938 0 0
+~
+~
+Door 2 0 0 54925 0 0
+~
+~
+Door 3 0 0 54922 0 0
+~
+~
+End
+
+#54927
+Name ~
+Descr
+~
+Sector 32
+Door 2 0 0 54926 0 0
+~
+~
+Door 3 0 0 54928 0 0
+~
+~
+End
+
+#54928
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54933 0 0
+~
+~
+Door 1 0 0 54935 0 0
+~
+~
+Door 2 0 0 54922 0 0
+~
+~
+Door 3 0 0 54929 0 0
+~
+~
+End
+
+#54929
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54932 0 0
+~
+~
+Door 1 0 0 54928 0 0
+~
+~
+Door 2 0 0 54921 0 0
+~
+~
+Door 3 0 0 54930 0 0
+~
+~
+End
+
+#54930
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54931 0 0
+~
+~
+Door 1 0 0 54929 0 0
+~
+~
+Door 2 0 0 54920 0 0
+~
+~
+End
+
+#54931
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54932 0 0
+~
+~
+Door 2 0 0 54930 0 0
+~
+~
+End
+
+#54932
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 1 0 0 54933 0 0
+~
+~
+Door 2 0 0 54929 0 0
+~
+~
+Door 3 0 0 54931 0 0
+~
+~
+End
+
+#54933
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Door 1 0 0 54934 0 0
+~
+~
+Door 2 0 0 54928 0 0
+~
+~
+Door 3 0 0 54932 0 0
+~
+~
+End
+
+#54934
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54936 0 0
+~
+~
+Door 2 0 0 54935 0 0
+~
+~
+Door 3 0 0 54933 0 0
+~
+~
+End
+
+#54935
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54934 0 0
+~
+~
+Door 1 0 0 54937 0 0
+~
+~
+Door 2 0 0 54926 0 0
+~
+~
+Door 3 0 0 54928 0 0
+~
+~
+End
+
+#54936
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54943 0 0
+~
+~
+Door 2 0 0 54937 0 0
+~
+~
+Door 3 0 0 54934 0 0
+~
+~
+End
+
+#54937
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54936 0 0
+~
+~
+Door 1 0 0 54942 0 0
+~
+~
+Door 2 0 0 54938 0 0
+~
+~
+Door 3 0 0 54935 0 0
+~
+~
+End
+
+#54938
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54937 0 0
+~
+~
+Door 1 0 0 54941 0 0
+~
+~
+Door 2 0 0 54939 0 0
+~
+~
+Door 3 0 0 54926 0 0
+~
+~
+End
+
+#54939
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54938 0 0
+~
+~
+Door 1 0 0 54940 0 0
+~
+~
+Door 3 0 0 54925 0 0
+~
+~
+End
+
+#54940
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54941 0 0
+~
+~
+Door 3 0 0 54939 0 0
+~
+~
+End
+
+#54941
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54942 0 0
+~
+~
+Door 2 0 0 54940 0 0
+~
+~
+Door 3 0 0 54938 0 0
+~
+~
+End
+
+#54942
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54943 0 0
+~
+~
+Door 2 0 0 54941 0 0
+~
+~
+Door 3 0 0 54937 0 0
+~
+~
+End
+
+#54943
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54944 0 0
+~
+~
+Door 1 0 0 54946 0 0
+~
+~
+Door 2 0 0 54942 0 0
+~
+~
+Door 3 0 0 54936 0 0
+~
+~
+End
+
+#54944
+Name A Low Foothill~
+Descr
+Some low foothills rise slightly over the crumbling earth. From this
+vantage point the view is the same as if you stared in one spot. Surrounding
+everything is nothing but a bleak desolate wasteland. How anything could
+possibly survive these conditions is a wonder. 
+~
+Flags 16384
+Sector 30
+Door 0 0 0 54952 0 0
+~
+~
+Door 1 0 0 54945 0 0
+~
+~
+Door 2 0 0 54943 0 0
+~
+~
+End
+
+#54945
+Name A Low Foothill~
+Descr
+Some low foothills rise slightly over the crumbling earth. From this
+vantage point the view is the same as if you stared in one spot. Surrounding
+everything is nothing but a bleak desolate wasteland. How anything could
+possibly survive these conditions is a wonder. 
+~
+Flags 16384
+Sector 30
+Door 0 0 0 54948 0 0
+~
+~
+Door 1 0 0 54947 0 0
+~
+~
+Door 2 0 0 54946 0 0
+~
+~
+Door 3 0 0 54944 0 0
+~
+~
+End
+
+#54946
+Name A Low Foothill~
+Descr
+Some low foothills rise slightly over the crumbling earth. From this
+vantage point the view is the same as if you stared in one spot. Surrounding
+everything is nothing but a bleak desolate wasteland. How anything could
+possibly survive these conditions is a wonder. 
+~
+Flags 16384
+Sector 30
+Door 0 0 0 54945 0 0
+~
+~
+Door 3 0 0 54943 0 0
+~
+~
+End
+
+#54947
+Name A Low Foothill~
+Descr
+Some low foothills rise slightly over the crumbling earth. From this
+vantage point the view is the same as if you stared in one spot. Surrounding
+everything is nothing but a bleak desolate wasteland. How anything could
+possibly survive these conditions is a wonder. 
+~
+Flags 16384
+Sector 30
+Door 0 0 0 54949 0 0
+~
+~
+Door 1 0 0 54955 0 0
+~
+~
+Door 3 0 0 54945 0 0
+~
+~
+End
+
+#54948
+Name ~
+Descr
+The sun beats down heavily upon the land, never yielding its intense heat
+for a moment. The sands shift underfoot as step upon laden step is tred
+across its slippery surface. Thoughts of death can easily creep into one's
+mind if the conditions are bad, in this case they are far past that. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54951 0 0
+~
+~
+Door 1 0 0 54949 0 0
+~
+~
+Door 2 0 0 54945 0 0
+~
+~
+Door 3 0 0 54952 0 0
+~
+~
+End
+
+#54949
+Name A Patch of Desert~
+Descr
+The sun beats down heavily upon the land, never yielding its intense heat
+for a moment. The sands shift underfoot as step upon laden step is tred
+across its slippery surface. Thoughts of death can easily creep into one's
+mind if the conditions are bad, in this case they are far past that. 
+~
+Flags2 2
+Flags 16384
+Sector 33
+Door 0 0 0 54950 0 0
+~
+~
+Door 1 0 0 54954 0 0
+~
+~
+Door 2 0 0 54947 0 0
+~
+~
+Door 3 0 0 54948 0 0
+~
+~
+End
+
+#54950
+Name A Low Foothill~
+Descr
+Some low foothills rise slightly over the crumbling earth. From this
+vantage point the view is the same as if you stared in one spot. Surrounding
+everything is nothing but a bleak desolate wasteland. How anything could
+possibly survive these conditions is a wonder. 
+~
+Flags 16384
+Sector 30
+Door 0 0 0 54968 0 0
+~
+~
+Door 1 0 0 54953 0 0
+~
+~
+Door 2 0 0 54949 0 0
+~
+~
+Door 3 0 0 54951 0 0
+~
+~
+End
+
+#54951
+Name A Low Foothill~
+Descr
+Some low foothills rise slightly over the crumbling earth. From this
+vantage point the view is the same as if you stared in one spot. Surrounding
+everything is nothing but a bleak desolate wasteland. How anything could
+possibly survive these conditions is a wonder. 
+~
+Flags 16384
+Sector 30
+Door 1 0 0 54950 0 0
+~
+~
+Door 2 0 0 54948 0 0
+~
+~
+End
+
+#54952
+Name A Low Foothill~
+Descr
+Some low foothills rise slightly over the crumbling earth. From this
+vantage point the view is the same as if you stared in one spot. Surrounding
+everything is nothing but a bleak desolate wasteland. How anything could
+possibly survive these conditions is a wonder. 
+~
+Flags 16384
+Sector 30
+Door 1 0 0 54948 0 0
+~
+~
+Door 2 0 0 54944 0 0
+~
+~
+End
+
+#54953
+Name A Low Foothill~
+Descr
+Some low foothills rise slightly over the crumbling earth. From this
+vantage point the view is the same as if you stared in one spot. Surrounding
+everything is nothing but a bleak desolate wasteland. How anything could
+possibly survive these conditions is a wonder. 
+~
+Sector 30
+Door 0 0 0 54956 0 0
+~
+~
+Door 1 0 0 54958 0 0
+~
+~
+Door 2 0 0 54954 0 0
+~
+~
+Door 3 0 0 54950 0 0
+~
+~
+End
+
+#54954
+Name A Patch of Desert~
+Descr
+Some low foothills rise slightly over the crumbling earth. From this
+vantage point the view is the same as if you stared in one spot. Surrounding
+everything is nothing but a bleak desolate wasteland. How anything could
+possibly survive these conditions is a wonder. 
+~
+Flags 16384
+Sector 30
+Door 0 0 0 54953 0 0
+~
+~
+Door 1 0 0 54959 0 0
+~
+~
+Door 2 0 0 54955 0 0
+~
+~
+Door 3 0 0 54949 0 0
+~
+~
+End
+
+#54955
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54954 0 0
+~
+~
+Door 1 0 0 54969 0 0
+~
+~
+Door 3 0 0 54947 0 0
+~
+~
+End
+
+#54956
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Door 0 0 0 54966 0 0
+~
+~
+Door 1 0 0 54957 0 0
+~
+~
+Door 2 0 0 54953 0 0
+~
+~
+Door 3 0 0 54968 0 0
+~
+~
+End
+
+#54957
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Door 0 0 0 54964 0 0
+~
+~
+Door 1 0 0 54962 0 0
+~
+~
+Door 2 0 0 54958 0 0
+~
+~
+Door 3 0 0 54956 0 0
+~
+~
+End
+
+#54958
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54957 0 0
+~
+~
+Door 1 0 0 54961 0 0
+~
+~
+Door 2 0 0 54959 0 0
+~
+~
+Door 3 0 0 54953 0 0
+~
+~
+End
+
+#54959
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54958 0 0
+~
+~
+Door 1 0 0 54960 0 0
+~
+~
+Door 2 0 0 54969 0 0
+~
+~
+Door 3 0 0 54954 0 0
+~
+~
+End
+
+#54960
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54961 0 0
+~
+~
+Door 3 0 0 54959 0 0
+~
+~
+End
+
+#54961
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Door 0 0 0 54962 0 0
+~
+~
+Door 1 0 0 54970 0 0
+~
+~
+Door 2 0 0 54960 0 0
+~
+~
+Door 3 0 0 54958 0 0
+~
+~
+End
+
+#54962
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54963 0 0
+~
+~
+Door 1 0 0 54971 0 0
+~
+~
+Door 2 0 0 54961 0 0
+~
+~
+Door 3 0 0 54957 0 0
+~
+~
+End
+
+#54963
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54977 0 0
+~
+~
+Door 1 0 0 54972 0 0
+~
+~
+Door 2 0 0 54962 0 0
+~
+~
+Door 3 0 0 54964 0 0
+~
+~
+End
+
+#54964
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54978 0 0
+~
+~
+Door 1 0 0 54963 0 0
+~
+~
+Door 2 0 0 54957 0 0
+~
+~
+Door 3 0 0 54965 0 0
+~
+~
+End
+
+#54965
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54995 0 0
+~
+~
+Door 1 0 0 54964 0 0
+~
+~
+Door 2 0 0 54956 0 0
+~
+~
+Door 3 0 0 54966 0 0
+~
+~
+End
+
+#54966
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Reset M 55107 1 100
+Door 1 0 0 54965 0 0
+~
+~
+Door 2 0 0 54956 0 0
+~
+~
+Door 3 0 0 54967 0 0
+~
+~
+End
+
+#54967
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54966 0 0
+~
+~
+Door 2 0 0 54968 0 0
+~
+~
+End
+
+#54968
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54967 0 0
+~
+~
+Door 1 0 0 54956 0 0
+~
+~
+Door 2 0 0 54950 0 0
+~
+~
+End
+
+#54969
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54959 0 0
+~
+~
+Door 3 0 0 54955 0 0
+~
+~
+End
+
+#54970
+Name The Planes of Fear~
+Descr
+The sun beats down heavily upon the land, never yielding its intense heat
+for a moment. The sands shift underfoot as step upon laden step is tred
+across its slippery surface. Thoughts of death can easily creep into one's
+mind if the conditions are bad, in this case they are far past that. 
+~
+Sector 33
+Door 0 0 0 54971 0 0
+~
+~
+Door 3 0 0 54961 0 0
+~
+~
+End
+
+#54971
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54972 0 0
+~
+~
+Door 1 0 0 54974 0 0
+~
+~
+Door 2 0 0 54970 0 0
+~
+~
+Door 3 0 0 54962 0 0
+~
+~
+End
+
+#54972
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54975 0 0
+~
+~
+Door 1 0 0 54973 0 0
+~
+~
+Door 2 0 0 54971 0 0
+~
+~
+Door 3 0 0 54963 0 0
+~
+~
+End
+
+#54973
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54976 0 0
+~
+~
+Door 1 0 0 54989 0 0
+~
+~
+Door 2 0 0 54974 0 0
+~
+~
+Door 3 0 0 54972 0 0
+~
+~
+End
+
+#54974
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54973 0 0
+~
+~
+Door 3 0 0 54971 0 0
+~
+~
+End
+
+#54975
+Name A Lone Patch of Desert~
+Descr
+The sun beats down heavily upon the land, never yielding its intense heat
+for a moment. The sands shift underfoot as step upon laden step is tred
+across its slippery surface. Thoughts of death can easily creep into one's
+mind if the conditions are bad, in this case they are far past that. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54980 0 0
+~
+~
+Door 1 0 0 54976 0 0
+~
+~
+Door 2 0 0 54972 0 0
+~
+~
+Door 3 0 0 54977 0 0
+~
+~
+End
+
+#54976
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54981 0 0
+~
+~
+Door 1 0 0 54983 0 0
+~
+~
+Door 2 0 0 54973 0 0
+~
+~
+Door 3 0 0 54975 0 0
+~
+~
+End
+
+#54977
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54979 0 0
+~
+~
+Door 1 0 0 54975 0 0
+~
+~
+Door 2 0 0 54963 0 0
+~
+~
+Door 3 0 0 54978 0 0
+~
+~
+End
+
+#54978
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 1 0 0 54977 0 0
+~
+~
+Door 2 0 0 54964 0 0
+~
+~
+Door 3 0 0 54995 0 0
+~
+~
+End
+
+#54979
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54980 0 0
+~
+~
+Door 2 0 0 54977 0 0
+~
+~
+End
+
+#54980
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54990 0 0
+~
+~
+Door 1 0 0 54981 0 0
+~
+~
+Door 2 0 0 54975 0 0
+~
+~
+Door 3 0 0 54979 0 0
+~
+~
+End
+
+#54981
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54987 0 0
+~
+~
+Door 1 0 0 54982 0 0
+~
+~
+Door 2 0 0 54976 0 0
+~
+~
+Door 3 0 0 54980 0 0
+~
+~
+End
+
+#54982
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54984 0 0
+~
+~
+Door 1 0 0 54986 0 0
+~
+~
+Door 2 0 0 54983 0 0
+~
+~
+Door 3 0 0 54981 0 0
+~
+~
+End
+
+#54983
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54982 0 0
+~
+~
+Door 1 0 0 54988 0 0
+~
+~
+Door 2 0 0 54989 0 0
+~
+~
+Door 3 0 0 54976 0 0
+~
+~
+End
+
+#54984
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54985 0 0
+~
+~
+Door 2 0 0 54982 0 0
+~
+~
+Door 3 0 0 54987 0 0
+~
+~
+End
+
+#54985
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 1 0 0 54991 0 0
+~
+~
+Door 2 0 0 54986 0 0
+~
+~
+Door 3 0 0 54984 0 0
+~
+~
+End
+
+#54986
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54985 0 0
+~
+~
+Door 1 0 0 54992 0 0
+~
+~
+Door 2 0 0 54988 0 0
+~
+~
+Door 3 0 0 54982 0 0
+~
+~
+End
+
+#54987
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54984 0 0
+~
+~
+Door 2 0 0 54981 0 0
+~
+~
+Door 3 0 0 54990 0 0
+~
+~
+End
+
+#54988
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54986 0 0
+~
+~
+Door 1 0 0 54993 0 0
+~
+~
+Door 2 0 0 54994 0 0
+~
+~
+Door 3 0 0 54983 0 0
+~
+~
+End
+
+#54989
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54983 0 0
+~
+~
+Door 1 0 0 54994 0 0
+~
+~
+Door 3 0 0 54973 0 0
+~
+~
+End
+
+#54990
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54987 0 0
+~
+~
+Door 2 0 0 54980 0 0
+~
+~
+End
+
+#54991
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54998 0 0
+~
+~
+Door 2 0 0 54992 0 0
+~
+~
+Door 3 0 0 54985 0 0
+~
+~
+End
+
+#54992
+Name A Patch of Desert~
+Descr
+The sun beats down heavily upon the land, never yielding its intense heat
+for a moment. The sands shift underfoot as step upon laden step is tred
+across its slippery surface. Thoughts of death can easily creep into one's
+mind if the conditions are bad, in this case they are far past that. 
+~
+Flags 16384
+Sector 33
+Door 0 0 0 54991 0 0
+~
+~
+Door 1 0 0 54997 0 0
+~
+~
+Door 2 0 0 54993 0 0
+~
+~
+Door 3 0 0 54986 0 0
+~
+~
+End
+
+#54993
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54992 0 0
+~
+~
+Door 1 0 0 54996 0 0
+~
+~
+Door 2 0 0 54999 0 0
+~
+~
+Door 3 0 0 54988 0 0
+~
+~
+End
+
+#54994
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 54988 0 0
+~
+~
+Door 1 0 0 54999 0 0
+~
+~
+Door 3 0 0 54989 0 0
+~
+~
+End
+
+#54995
+Name The Planes of Fear~
+Descr
+~
+Flags 16384
+Sector 32
+Door 1 0 0 54978 0 0
+~
+~
+Door 2 0 0 54965 0 0
+~
+~
+End
+
+#54996
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54997 0 0
+~
+~
+Door 3 0 0 54993 0 0
+~
+~
+End
+
+#54997
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Sector 32
+Door 0 0 0 54998 0 0
+~
+~
+Door 2 0 0 54996 0 0
+~
+~
+Door 3 0 0 54992 0 0
+~
+~
+End
+
+#54998
+Name The Planes of Fear~
+Cvnuml 139668488
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 2 0 0 54997 0 0
+~
+~
+Door 3 0 0 54991 0 0
+~
+~
+End
+
+#54999
+Name The Planes of Fear~
+Descr
+The skies overhead twist and swirl in strange shades of indigo and
+violet. The ground seems to be being held together with the greatest of
+strain from some unknown force. From the corner of your eye there seems to
+be a strange scurrying motion across the desolate wastes, but whatever
+creature could survive here is beyond any reasonable guess. 
+~
+Flags 16384
+Sector 32
+Door 0 0 0 54993 0 0
+~
+~
+Door 3 0 0 54994 0 0
+~
+~
+End
+
+#55001
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 1 0 0 55002 0 0
+~
+~
+End
+
+#55002
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 1 0 0 55003 0 0
+~
+~
+Door 2 0 0 55009 0 0
+~
+~
+Door 3 0 0 55001 0 0
+~
+~
+End
+
+#55003
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 1 0 0 55004 0 0
+~
+~
+Door 2 0 0 55010 0 0
+~
+~
+Door 3 0 0 55002 0 0
+~
+~
+End
+
+#55004
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 1 0 0 55005 0 0
+~
+~
+Door 2 0 0 55011 0 0
+~
+~
+Door 3 0 0 55003 0 0
+~
+~
+End
+
+#55005
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 1 0 0 55006 0 0
+~
+~
+Door 2 0 0 55012 0 0
+~
+~
+Door 3 0 0 55004 0 0
+~
+~
+End
+
+#55006
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 1 0 0 55007 0 0
+~
+~
+Door 2 0 0 55013 0 0
+~
+~
+Door 3 0 0 55005 0 0
+~
+~
+End
+
+#55007
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 1 0 0 55008 0 0
+~
+~
+Door 2 0 0 55014 0 0
+~
+~
+Door 3 0 0 55006 0 0
+~
+~
+End
+
+#55008
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 2 0 0 55015 0 0
+~
+~
+Door 3 0 0 55007 0 0
+~
+~
+End
+
+#55009
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55002 0 0
+~
+~
+Door 1 0 0 55010 0 0
+~
+~
+End
+
+#55010
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55003 0 0
+~
+~
+Door 1 0 0 55011 0 0
+~
+~
+Door 2 0 0 55017 0 0
+~
+~
+Door 3 0 0 55009 0 0
+~
+~
+End
+
+#55011
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55004 0 0
+~
+~
+Door 1 0 0 55012 0 0
+~
+~
+Door 2 0 0 55018 0 0
+~
+~
+Door 3 0 0 55010 0 0
+~
+~
+End
+
+#55012
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55005 0 0
+~
+~
+Door 1 0 0 55013 0 0
+~
+~
+Door 2 0 0 55019 0 0
+~
+~
+Door 3 0 0 55011 0 0
+~
+~
+End
+
+#55013
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55006 0 0
+~
+~
+Door 1 0 0 55014 0 0
+~
+~
+Door 2 0 0 55020 0 0
+~
+~
+Door 3 0 0 55012 0 0
+~
+~
+End
+
+#55014
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55007 0 0
+~
+~
+Door 1 0 0 55015 0 0
+~
+~
+Door 2 0 0 55021 0 0
+~
+~
+Door 3 0 0 55013 0 0
+~
+~
+End
+
+#55015
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55008 0 0
+~
+~
+Door 1 0 0 55016 0 0
+~
+~
+Door 2 0 0 55022 0 0
+~
+~
+Door 3 0 0 55014 0 0
+~
+~
+End
+
+#55016
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 2 0 0 55023 0 0
+~
+~
+Door 3 0 0 55015 0 0
+~
+~
+End
+
+#55017
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55010 0 0
+~
+~
+Door 1 0 0 55018 0 0
+~
+~
+Door 2 0 0 55025 0 0
+~
+~
+End
+
+#55018
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55011 0 0
+~
+~
+Door 1 0 0 55019 0 0
+~
+~
+Door 2 0 0 55026 0 0
+~
+~
+Door 3 0 0 55017 0 0
+~
+~
+End
+
+#55019
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55012 0 0
+~
+~
+Door 1 0 0 55020 0 0
+~
+~
+Door 2 0 0 55027 0 0
+~
+~
+Door 3 0 0 55018 0 0
+~
+~
+End
+
+#55020
+Name ~
+Descr
+The desert gives you a lonely feeling, far away from the world you grew
+up in. It almost makes you feel homesick. If only you had a place where you
+were safe in this world... 
+~
+Sector 33
+Reset M 55001 1 100
+Door 0 0 0 55013 0 0
+~
+~
+Door 1 0 0 55021 0 0
+~
+~
+Door 2 0 0 55028 0 0
+~
+~
+Door 3 0 0 55019 0 0
+~
+~
+End
+
+#55021
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55014 0 0
+~
+~
+Door 1 0 0 55022 0 0
+~
+~
+Door 2 0 0 55029 0 0
+~
+~
+Door 3 0 0 55020 0 0
+~
+~
+End
+
+#55022
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55015 0 0
+~
+~
+Door 1 0 0 55023 0 0
+~
+~
+Door 2 0 0 55030 0 0
+~
+~
+Door 3 0 0 55021 0 0
+~
+~
+End
+
+#55023
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55016 0 0
+~
+~
+Door 1 0 0 55024 0 0
+~
+~
+Door 2 0 0 55031 0 0
+~
+~
+Door 3 0 0 55022 0 0
+~
+~
+End
+
+#55024
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 2 0 0 55032 0 0
+~
+~
+Door 3 0 0 55023 0 0
+~
+~
+End
+
+#55025
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55017 0 0
+~
+~
+Door 1 0 0 55026 0 0
+~
+~
+Door 2 0 0 55034 0 0
+~
+~
+End
+
+#55026
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55018 0 0
+~
+~
+Door 1 0 0 55027 0 0
+~
+~
+Door 2 0 0 55035 0 0
+~
+~
+Door 3 0 0 55025 0 0
+~
+~
+End
+
+#55027
+Name ~
+Descr
+The desert gives you a lonely feeling, far away from the world you grew
+up in. It almost makes you feel homesick. If only you had a place where you
+were safe in this world... 
+~
+Sector 33
+Door 0 0 0 55019 0 0
+~
+~
+Door 1 0 0 55028 0 0
+~
+~
+Door 2 0 0 55036 0 0
+~
+~
+Door 3 0 0 55026 0 0
+~
+~
+End
+
+#55028
+Name ~
+Descr
+As you walk on the grass, you start wondering how there can be life in
+this cruel world of fear and destruction. It must be something magical,
+because the fields bloom boldly, not careworn about the harsh desert
+surrounding it.
+~
+Sector 7
+Door 0 0 0 55020 0 0
+~
+~
+Door 1 0 0 55029 0 0
+~
+~
+Door 2 0 0 55037 0 0
+~
+~
+Door 3 0 0 55027 0 0
+~
+~
+End
+
+#55029
+Name ~
+Descr
+The desert gives you a lonely feeling, far away from the world you grew
+up in. It almost makes you feel homesick. If only you had a place where you
+were safe in this world... 
+~
+Sector 33
+Door 0 0 0 55021 0 0
+~
+~
+Door 1 0 0 55030 0 0
+~
+~
+Door 2 0 0 55038 0 0
+~
+~
+Door 3 0 0 55028 0 0
+~
+~
+End
+
+#55030
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55022 0 0
+~
+~
+Door 1 0 0 55031 0 0
+~
+~
+Door 2 0 0 55039 0 0
+~
+~
+Door 3 0 0 55029 0 0
+~
+~
+End
+
+#55031
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55023 0 0
+~
+~
+Door 1 0 0 55032 0 0
+~
+~
+Door 2 0 0 55040 0 0
+~
+~
+Door 3 0 0 55030 0 0
+~
+~
+End
+
+#55032
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55024 0 0
+~
+~
+Door 1 0 0 55033 0 0
+~
+~
+Door 2 0 0 55041 0 0
+~
+~
+Door 3 0 0 55031 0 0
+~
+~
+End
+
+#55033
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 2 0 0 55042 0 0
+~
+~
+Door 3 0 0 55032 0 0
+~
+~
+End
+
+#55034
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55025 0 0
+~
+~
+Door 1 0 0 55035 0 0
+~
+~
+Door 2 0 0 55044 0 0
+~
+~
+End
+
+#55035
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55026 0 0
+~
+~
+Door 1 0 0 55036 0 0
+~
+~
+Door 2 0 0 55045 0 0
+~
+~
+Door 3 0 0 55034 0 0
+~
+~
+End
+
+#55036
+Name ~
+Descr
+The desert gives you a lonely feeling, far away from the world you grew
+up in. It almost makes you feel homesick. If only you had a place where you
+were safe in this world... 
+~
+Sector 33
+Door 0 0 0 55027 0 0
+~
+~
+Door 1 0 0 55037 0 0
+~
+~
+Door 2 0 0 55046 0 0
+~
+~
+Door 3 0 0 55035 0 0
+~
+~
+End
+
+#55037
+Name ~
+Descr
+As you walk on the grass, you start wondering how there can be life in
+this cruel world of fear and destruction. It must be something magical,
+because the fields bloom boldly, not careworn about the harsh desert
+surrounding it.
+~
+Sector 7
+Door 0 0 0 55028 0 0
+~
+~
+Door 1 0 0 55038 0 0
+~
+~
+Door 2 0 0 55047 0 0
+~
+~
+Door 3 0 0 55036 0 0
+~
+~
+End
+
+#55038
+Name ~
+Descr
+The desert gives you a lonely feeling, far away from the world you grew
+up in. It almost makes you feel homesick. If only you had a place where you
+were safe in this world... 
+~
+Sector 33
+Reset M 55001 1 100
+Door 0 0 0 55029 0 0
+~
+~
+Door 1 0 0 55039 0 0
+~
+~
+Door 2 0 0 55048 0 0
+~
+~
+Door 3 0 0 55037 0 0
+~
+~
+End
+
+#55039
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55030 0 0
+~
+~
+Door 1 0 0 55040 0 0
+~
+~
+Door 2 0 0 55049 0 0
+~
+~
+Door 3 0 0 55038 0 0
+~
+~
+End
+
+#55040
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55031 0 0
+~
+~
+Door 1 0 0 55041 0 0
+~
+~
+Door 2 0 0 55050 0 0
+~
+~
+Door 3 0 0 55039 0 0
+~
+~
+End
+
+#55041
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55032 0 0
+~
+~
+Door 1 0 0 55042 0 0
+~
+~
+Door 2 0 0 55051 0 0
+~
+~
+Door 3 0 0 55040 0 0
+~
+~
+End
+
+#55042
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55033 0 0
+~
+~
+Door 1 0 0 55043 0 0
+~
+~
+Door 2 0 0 55052 0 0
+~
+~
+Door 3 0 0 55041 0 0
+~
+~
+End
+
+#55043
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 2 0 0 55053 0 0
+~
+~
+Door 3 0 0 55042 0 0
+~
+~
+End
+
+#55044
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55034 0 0
+~
+~
+Door 1 0 0 55045 0 0
+~
+~
+Door 2 0 0 55054 0 0
+~
+~
+End
+
+#55045
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55035 0 0
+~
+~
+Door 1 0 0 55046 0 0
+~
+~
+Door 2 0 0 55055 0 0
+~
+~
+Door 3 0 0 55044 0 0
+~
+~
+End
+
+#55046
+Name ~
+Descr
+The desert gives you a lonely feeling, far away from the world you grew
+up in. It almost makes you feel homesick. If only you had a place where you
+were safe in this world... 
+~
+Sector 33
+Door 0 0 0 55036 0 0
+~
+~
+Door 1 0 0 55047 0 0
+~
+~
+Door 2 0 0 55056 0 0
+~
+~
+Door 3 0 0 55045 0 0
+~
+~
+End
+
+#55047
+Name ~
+Descr
+As you walk on the grass, you start wondering how there can be life in
+this cruel world of fear and destruction. It must be something magical,
+because the fields bloom boldly, not careworn about the harsh desert
+surrounding it.
+~
+Sector 7
+Reset M 55001 1 100
+Door 0 0 0 55037 0 0
+~
+~
+Door 1 0 0 55048 0 0
+~
+~
+Door 2 0 0 55057 0 0
+~
+~
+Door 3 0 0 55046 0 0
+~
+~
+End
+
+#55048
+Name ~
+Descr
+The desert gives you a lonely feeling, far away from the world you grew
+up in. It almost makes you feel homesick. If only you had a place where you
+were safe in this world... 
+~
+Sector 33
+Door 0 0 0 55038 0 0
+~
+~
+Door 1 0 0 55049 0 0
+~
+~
+Door 2 0 0 55058 0 0
+~
+~
+Door 3 0 0 55047 0 0
+~
+~
+End
+
+#55049
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55039 0 0
+~
+~
+Door 1 0 0 55050 0 0
+~
+~
+Door 2 0 0 55059 0 0
+~
+~
+Door 3 0 0 55048 0 0
+~
+~
+End
+
+#55050
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55040 0 0
+~
+~
+Door 1 0 0 55051 0 0
+~
+~
+Door 2 0 0 55060 0 0
+~
+~
+Door 3 0 0 55049 0 0
+~
+~
+End
+
+#55051
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55041 0 0
+~
+~
+Door 1 0 0 55052 0 0
+~
+~
+Door 2 0 0 55061 0 0
+~
+~
+Door 3 0 0 55050 0 0
+~
+~
+End
+
+#55052
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55042 0 0
+~
+~
+Door 1 0 0 55053 0 0
+~
+~
+Door 2 0 0 55062 0 0
+~
+~
+Door 3 0 0 55051 0 0
+~
+~
+End
+
+#55053
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55043 0 0
+~
+~
+Door 3 0 0 55052 0 0
+~
+~
+End
+
+#55054
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55044 0 0
+~
+~
+Door 1 0 0 55055 0 0
+~
+~
+Door 2 0 0 55063 0 0
+~
+~
+End
+
+#55055
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55045 0 0
+~
+~
+Door 1 0 0 55056 0 0
+~
+~
+Door 2 0 0 55064 0 0
+~
+~
+Door 3 0 0 55054 0 0
+~
+~
+End
+
+#55056
+Name ~
+Descr
+The desert gives you a lonely feeling, far away from the world you grew
+up in. It almost makes you feel homesick. If only you had a place where you
+were safe in this world... 
+~
+Sector 33
+Reset M 55001 1 100
+Door 0 0 0 55046 0 0
+~
+~
+Door 1 0 0 55057 0 0
+~
+~
+Door 2 0 0 55065 0 0
+~
+~
+Door 3 0 0 55055 0 0
+~
+~
+End
+
+#55057
+Name ~
+Descr
+As you walk on the grass, you start wondering how there can be life in
+this cruel world of fear and destruction. It must be something magical,
+because the fields bloom boldly, not careworn about the harsh desert
+surrounding it. 
+~
+Sector 7
+Door 0 0 0 55047 0 0
+~
+~
+Door 1 0 0 55058 0 0
+~
+~
+Door 2 0 0 55066 0 0
+~
+~
+Door 3 0 0 55056 0 0
+~
+~
+End
+
+#55058
+Name ~
+Descr
+The desert gives you a lonely feeling, far away from the world you grew
+up in. It almost makes you feel homesick. If only you had a place where you
+were safe in this world... 
+~
+Sector 33
+Door 0 0 0 55048 0 0
+~
+~
+Door 1 0 0 55059 0 0
+~
+~
+Door 2 0 0 55067 0 0
+~
+~
+Door 3 0 0 55057 0 0
+~
+~
+End
+
+#55059
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55049 0 0
+~
+~
+Door 1 0 0 55060 0 0
+~
+~
+Door 2 0 0 55068 0 0
+~
+~
+Door 3 0 0 55058 0 0
+~
+~
+End
+
+#55060
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55050 0 0
+~
+~
+Door 1 0 0 55061 0 0
+~
+~
+Door 2 0 0 55069 0 0
+~
+~
+Door 3 0 0 55059 0 0
+~
+~
+End
+
+#55061
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55051 0 0
+~
+~
+Door 1 0 0 55062 0 0
+~
+~
+Door 2 0 0 55070 0 0
+~
+~
+Door 3 0 0 55060 0 0
+~
+~
+End
+
+#55062
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55052 0 0
+~
+~
+Door 3 0 0 55061 0 0
+~
+~
+End
+
+#55063
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55054 0 0
+~
+~
+Door 1 0 0 55064 0 0
+~
+~
+Door 2 0 0 55072 0 0
+~
+~
+End
+
+#55064
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55055 0 0
+~
+~
+Door 1 0 0 55065 0 0
+~
+~
+Door 2 0 0 55073 0 0
+~
+~
+Door 3 0 0 55063 0 0
+~
+~
+End
+
+#55065
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55056 0 0
+~
+~
+Door 1 0 0 55066 0 0
+~
+~
+Door 2 0 0 55074 0 0
+~
+~
+Door 3 0 0 55064 0 0
+~
+~
+End
+
+#55066
+Name ~
+Descr
+The desert gives you a lonely feeling, far away from the world you grew
+up in. It almost makes you feel homesick. If only you had a place where you
+were safe in this world... 
+~
+Sector 33
+Reset M 55001 1 100
+Door 0 0 0 55057 0 0
+~
+~
+Door 1 0 0 55067 0 0
+~
+~
+Door 2 0 0 55075 0 0
+~
+~
+Door 3 0 0 55065 0 0
+~
+~
+End
+
+#55067
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55058 0 0
+~
+~
+Door 1 0 0 55068 0 0
+~
+~
+Door 2 0 0 55076 0 0
+~
+~
+Door 3 0 0 55066 0 0
+~
+~
+End
+
+#55068
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55059 0 0
+~
+~
+Door 1 0 0 55069 0 0
+~
+~
+Door 2 0 0 55077 0 0
+~
+~
+Door 3 0 0 55067 0 0
+~
+~
+End
+
+#55069
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55060 0 0
+~
+~
+Door 1 0 0 55070 0 0
+~
+~
+Door 2 0 0 55078 0 0
+~
+~
+Door 3 0 0 55068 0 0
+~
+~
+End
+
+#55070
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55061 0 0
+~
+~
+Door 3 0 0 55069 0 0
+~
+~
+End
+
+#55071
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 1 0 0 55072 0 0
+~
+~
+Door 2 0 0 55080 0 0
+~
+~
+End
+
+#55072
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55063 0 0
+~
+~
+Door 1 0 0 55073 0 0
+~
+~
+Door 2 0 0 55081 0 0
+~
+~
+Door 3 0 0 55071 0 0
+~
+~
+End
+
+#55073
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55064 0 0
+~
+~
+Door 1 0 0 55074 0 0
+~
+~
+Door 2 0 0 55082 0 0
+~
+~
+Door 3 0 0 55072 0 0
+~
+~
+End
+
+#55074
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55065 0 0
+~
+~
+Door 1 0 0 55075 0 0
+~
+~
+Door 2 0 0 55083 0 0
+~
+~
+Door 3 0 0 55073 0 0
+~
+~
+End
+
+#55075
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55066 0 0
+~
+~
+Door 1 0 0 55076 0 0
+~
+~
+Door 2 0 0 55084 0 0
+~
+~
+Door 3 0 0 55074 0 0
+~
+~
+End
+
+#55076
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55067 0 0
+~
+~
+Door 1 0 0 55077 0 0
+~
+~
+Door 2 0 0 55085 0 0
+~
+~
+Door 3 0 0 55075 0 0
+~
+~
+End
+
+#55077
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55068 0 0
+~
+~
+Door 1 0 0 55078 0 0
+~
+~
+Door 2 0 0 55086 0 0
+~
+~
+Door 3 0 0 55076 0 0
+~
+~
+End
+
+#55078
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55069 0 0
+~
+~
+Door 3 0 0 55077 0 0
+~
+~
+End
+
+#55079
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55107 1 100
+Reset M 55001 1 100
+Door 1 0 0 55080 0 0
+~
+~
+Door 3 0 0 54998 0 0
+~
+~
+End
+
+#55080
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55071 0 0
+~
+~
+Door 1 0 0 55081 0 0
+~
+~
+Door 3 0 0 55079 0 0
+~
+~
+End
+
+#55081
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55107 1 100
+Door 0 0 0 55072 0 0
+~
+~
+Door 1 0 0 55082 0 0
+~
+~
+Door 3 0 0 55080 0 0
+~
+~
+End
+
+#55082
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55073 0 0
+~
+~
+Door 1 0 0 55083 0 0
+~
+~
+Door 3 0 0 55081 0 0
+~
+~
+End
+
+#55083
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55074 0 0
+~
+~
+Door 1 0 0 55084 0 0
+~
+~
+Door 3 0 0 55082 0 0
+~
+~
+End
+
+#55084
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55075 0 0
+~
+~
+Door 1 0 0 55085 0 0
+~
+~
+Door 3 0 0 55083 0 0
+~
+~
+End
+
+#55085
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Reset M 55001 1 100
+Door 0 0 0 55076 0 0
+~
+~
+Door 1 0 0 55086 0 0
+~
+~
+Door 3 0 0 55084 0 0
+~
+~
+End
+
+#55086
+Name ~
+Descr
+As you walk through the wastelands of the Plane of Fear, you constantly
+feel observated carefully. It makes you feel very uncomfortable, especially
+because you don't know if there will be a way back when you need it... 
+~
+Sector 32
+Door 0 0 0 55077 0 0
+~
+~
+Door 3 0 0 55085 0 0
+~
+~
+End
+
+#55101
+Name Strange Tunnel Into a Forbidden Cave~
+Descr
+These caves almost seem alive with some sort of evil energy. There is a
+legend that within these caves lives a master of each class specility. It is
+said they were sent here condemned by the normal world, forced to live under
+the watch of the twisted demon king. 
+~
+Flags 16544
+Sector 47
+Reset M 55108 1 100
+Reset O 54905 55108 1
+Door 5 0 0 55102 0 0
+~
+~
+End
+
+#55102
+Name The Shimmering Caves~
+Descr
+The walls emit a strange luminescence as you pass by. Smooth walls give
+way to jagged crystals of an unknown substance as you travel farther through
+the cave. An overwhelming sense of evil permeates this place. The many dark
+shadows can easily give way to something sinister, beware. 
+~
+Flags 16512
+Sector 47
+Door 0 0 0 55103 0 0
+~
+~
+Door 4 0 0 55101 0 0
+~
+~
+End
+
+#55103
+Name The Shimmering Caves~
+Descr
+The walls emit a strange luminescence as you pass by. Smooth walls give
+way to jagged crystals of an unknown substance as you travel farther through
+the cave. An overwhelming sense of evil permeates this place. The many dark
+shadows can easily give way to something sinister, beware. 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55104 0 0
+~
+~
+Door 2 0 0 55102 0 0
+~
+~
+Door 3 3 0 55111 30 30
+~
+shimmer~
+End
+
+#55104
+Name The Shimmering Caves~
+Descr
+The walls emit a strange luminescence as you pass by. Smooth walls give
+way to jagged crystals of an unknown substance as you travel farther through
+the cave. An overwhelming sense of evil permeates this place. The many dark
+shadows can easily give way to something sinister, beware. 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55105 0 0
+~
+~
+Door 2 0 0 55103 0 0
+~
+~
+Door 3 3 0 55112 30 30
+~
+shimmer~
+End
+
+#55105
+Name The Shimmering Caves~
+Descr
+The walls emit a strange luminescence as you pass by. Smooth walls give
+way to jagged crystals of an unknown substance as you travel farther through
+the cave. An overwhelming sense of evil permeates this place. The many dark
+shadows can easily give way to something sinister, beware. 
+~
+Flags 16512
+Sector 37
+Door 1 0 0 55106 0 0
+~
+~
+Door 2 0 0 55104 0 0
+~
+~
+Door 3 3 0 55113 30 30
+~
+shimmer~
+End
+
+#55106
+Name The Shimmering Caves~
+Descr
+The walls emit a strange luminescence as you pass by. Smooth walls give
+way to jagged crystals of an unknown substance as you travel farther through
+the cave. An overwhelming sense of evil permeates this place. The many dark
+shadows can easily give way to something sinister, beware. 
+~
+Flags 16512
+Sector 37
+Door 0 3 0 55114 30 30
+~
+~
+Door 1 0 0 55107 0 0
+~
+~
+Door 3 0 0 55105 0 0
+~
+~
+End
+
+#55107
+Name The Shimmering Caves~
+Descr
+The walls emit a strange luminescence as you pass by. Smooth walls give
+way to jagged crystals of an unknown substance as you travel farther through
+the cave. An overwhelming sense of evil permeates this place. The many dark
+shadows can easily give way to something sinister, beware. 
+~
+Flags 16512
+Sector 37
+Door 1 3 0 55115 30 30
+~
+shimmer~
+Door 2 0 0 55108 0 0
+~
+~
+Door 3 0 0 55106 0 0
+~
+~
+End
+
+#55108
+Name The Shimmering Caves~
+Descr
+The walls emit a strange luminescence as you pass by. Smooth walls give
+way to jagged crystals of an unknown substance as you travel farther through
+the cave. An overwhelming sense of evil permeates this place. The many dark
+shadows can easily give way to something sinister, beware. 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55107 0 0
+~
+~
+Door 1 3 0 55116 30 30
+~
+shimmer~
+End
+
+#55109
+Name The Shimmering Caves~
+Descr
+The walls emit a strange luminescence as you pass by. Smooth walls give
+way to jagged crystals of an unknown substance as you travel farther through
+the cave. An overwhelming sense of evil permeates this place. The many dark
+shadows can easily give way to something sinister, beware. 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55108 0 0
+~
+~
+End
+
+#55110
+Name The Shimmering Caves~
+Descr
+The walls emit a strange luminescence as you pass by. Smooth walls give
+way to jagged crystals of an unknown substance as you travel farther through
+the cave. An overwhelming sense of evil permeates this place. The many dark
+shadows can easily give way to something sinister, beware. 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55109 0 0
+~
+~
+End
+
+#55111
+Name The Shimmering Caves~
+Descr
+These caves almost seem alive with some sort of evil energy. There is a
+legend that within these caves lives a master of each class specility. It is
+said they were sent here condemned by the normal world, forced to live under
+the watch of the twisted demon king. 
+~
+Flags 16512
+Sector 37
+Reset M 55101 1 100
+Reset O 54901 -3 1
+Door 1 3 0 55103 30 30
+~
+shimmer~
+End
+
+#55112
+Name The Shimmering Caves~
+Descr
+These caves almost seem alive with some sort of evil energy. There is a
+legend that within these caves lives a master of each class specility. It is
+said they were sent here condemned by the normal world, forced to live under
+the watch of the twisted demon king. 
+~
+Flags 16512
+Sector 37
+Reset M 55102 1 100
+Reset O 54902 -3 1
+Door 1 3 0 55104 30 30
+~
+shimmer~
+End
+
+#55113
+Name The Shimmering Caves~
+Descr
+These caves almost seem alive with some sort of evil energy. There is a
+legend that within these caves lives a master of each class specility. It is
+said they were sent here condemned by the normal world, forced to live under
+the watch of the twisted demon king. 
+~
+Flags 16512
+Sector 37
+Reset M 55104 1 100
+Door 1 3 0 55105 30 30
+~
+shimmer~
+End
+
+#55114
+Name A Meditation Chamber~
+Descr
+~
+Flags2 6
+Flags 16512
+Sector 37
+Door 2 3 0 55106 30 30
+~
+~
+Door 5 3 0 55119 30 30
+~
+trapdoor~
+End
+
+#55115
+Name The Shimmering Caves~
+Descr
+These caves almost seem alive with some sort of evil energy. There is a
+legend that within these caves lives a master of each class specility. It is
+said they were sent here condemned by the normal world, forced to live under
+the watch of the twisted demon king. 
+~
+Flags 16512
+Sector 37
+Reset M 55105 1 100
+Reset O 54904 -1 1
+Door 3 3 0 55107 30 30
+~
+shimmer~
+End
+
+#55116
+Name The Shimmering Caves~
+Descr
+These caves almost seem alive with some sort of evil energy. There is a
+legend that within these caves lives a master of each class specility. It is
+said they were sent here condemned by the normal world, forced to live under
+the watch of the twisted demon king. 
+~
+Flags 16512
+Sector 37
+Reset M 55106 1 100
+Reset O 54906 -3 1
+Door 3 3 0 55108 30 30
+~
+shimmer~
+End
+
+#55117
+Name The Shimmering Caves~
+Descr
+You feel a energy force flow through these caves,
+~
+Flags 16512
+Sector 37
+End
+
+#55118
+Name The Shimmering Caves~
+Descr
+You feel a energy force flow through these caves,
+~
+Flags 16544
+Sector 37
+End
+
+#55119
+Name A Tunnel Through the Earth~
+Descr
+~
+Flags 16512
+Sector 47
+Door 4 3 0 55114 30 30
+~
+trapdoor~
+Door 5 0 0 55120 0 0
+~
+~
+End
+
+#55120
+Name Caves of Darkness~
+Descr
+You walk through the caves of darkness, you can only see 2 feet in front
+of you but that is enough. You yell out hello and all you get in reply is
+echo's 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55121 0 0
+~
+~
+Door 4 0 0 55119 0 0
+~
+~
+End
+
+#55121
+Name Caves of Darkness~
+Descr
+You walk through the caves of darkness, you can only see 2 feet in front
+of you but that is enough. You yell out hello and all you get in reply is
+echo's 
+~
+Flags 16512
+Sector 37
+Door 1 0 0 55122 0 0
+~
+~
+Door 2 0 0 55120 0 0
+~
+~
+End
+
+#55122
+Name Caves of Darkness~
+Descr
+You walk through the caves of darkness, you can only see 2 feet in front
+of you but that is enough. You yell out hello and all you get in reply is
+echo's 
+~
+Flags 16512
+Sector 37
+Door 2 0 0 55123 0 0
+~
+~
+Door 3 0 0 55121 0 0
+~
+~
+End
+
+#55123
+Name Caves of Darkness~
+Descr
+You walk through the caves of darkness, you can only see 2 feet in front
+of you but that is enough. You yell out hello and all you get in reply is
+echo's 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55122 0 0
+~
+~
+Door 1 0 0 55124 0 0
+~
+~
+End
+
+#55124
+Name Caves of Darkness~
+Descr
+You walk through the caves of darkness, you can only see 2 feet in front
+of you but that is enough. You yell out hello and all you get in reply is
+echo's 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55125 0 0
+~
+~
+Door 3 0 0 55123 0 0
+~
+~
+End
+
+#55125
+Name Caves of Darkness~
+Descr
+You walk through the caves of darkness, you can only see 2 feet in front
+of you but that is enough. You yell out hello and all you get in reply is
+echo's 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55126 0 0
+~
+~
+Door 2 0 0 55124 0 0
+~
+~
+End
+
+#55126
+Name Caves of Darkness~
+Descr
+You walk through the caves of darkness, you can only see 2 feet in front
+of you but that is enough. You yell out hello and all you get in reply is
+echo's 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55127 0 0
+~
+~
+Door 2 0 0 55125 0 0
+~
+~
+End
+
+#55127
+Name Caves of Darkness~
+Descr
+You walk through the caves of darkness, you can only see 2 feet in front
+of you but that is enough. You yell out hello and all you get in reply is
+echo's 
+~
+Flags 16512
+Sector 37
+Door 0 0 0 55128 0 0
+~
+~
+Door 2 0 0 55126 0 0
+~
+~
+End
+
+#55128
+Name Caves of Darkness~
+Descr
+You walk through the caves of darkness, you can only see 2 feet in front
+of you but that is enough. You yell out hello and all you get in reply is
+echo's 
+~
+Flags 16512
+Sector 37
+Door 1 0 0 55133 0 0
+~
+~
+Door 2 0 0 55127 0 0
+~
+~
+Door 4 259 0 55129 90 90
+~
+apocalypse~
+End
+
+#55129
+Name Hill to a Safehaven~
+Descr
+The trek to the top of the hill is hard going but in the distance you
+hear a beautiful song, and it keeps you going. 
+~
+Flags 16544
+Sector 32
+Door 4 0 0 55130 30 30
+~
+apocalypse~
+Door 5 3 0 55128 30 30
+~
+apocalypse~
+End
+
+#55130
+Name Hill to a Safehaven~
+Descr
+The trek to the top of the hill is hard going but in the distance you
+hear a beautiful song, and it keeps you going. 
+~
+Flags 16544
+Sector 32
+Door 4 0 0 55131 30 30
+~
+apocalypse~
+Door 5 0 0 55129 30 30
+~
+apocalypse~
+End
+
+#55131
+Name Hill to a Safehaven~
+Descr
+The trek to the top of the hill is hard going but in the distance you
+hear a beautiful song, and it keeps you going. 
+~
+Flags 16544
+Sector 32
+Door 4 259 0 55132 30 30
+~
+apocalypse~
+Door 5 3 0 55130 30 30
+~
+apocalypse~
+End
+
+#55132
+Name A Sprites Safe Haven~
+Descr
+As you enter the room you hear the soft playing of a heart, as you look
+towards the sound of this music you gape in wonder at the beauty of this
+magnificent creature. 
+~
+Flags 16544
+Sector 32
+Reset M 55109 1 100
+Reset O 54907 -3 1
+Door 5 3 0 55131 30 30
+~
+apocalypse~
+End
+
+#55133
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 2 0 0 55134 0 0
+~
+~
+Door 3 0 0 55128 0 0
+~
+~
+End
+
+#55134
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 0 0 0 55133 0 0
+~
+~
+Door 1 0 0 55135 0 0
+~
+~
+End
+
+#55135
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 0 0 0 55136 0 0
+~
+~
+Door 3 0 0 55134 0 0
+~
+~
+End
+
+#55136
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 0 0 0 55137 0 0
+~
+~
+Door 2 0 0 55135 0 0
+~
+~
+End
+
+#55137
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 2 0 0 55136 0 0
+~
+~
+Door 3 0 0 55138 0 0
+~
+~
+End
+
+#55138
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 0 0 0 55139 0 0
+~
+~
+Door 1 0 0 55137 0 0
+~
+~
+End
+
+#55139
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 0 0 0 55140 0 0
+~
+~
+Door 2 0 0 55138 0 0
+~
+~
+End
+
+#55140
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 0 3 0 55145 30 30
+~
+rocks~
+Door 1 0 0 55141 0 0
+~
+~
+Door 2 0 0 55139 0 0
+~
+~
+End
+
+#55141
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 0 3 0 55146 30 30
+~
+rocks~
+Door 1 0 0 55142 0 0
+~
+~
+Door 3 0 0 55140 0 0
+~
+~
+End
+
+#55142
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 0 3 0 55147 30 30
+~
+rocks~
+Door 1 0 0 55143 0 0
+~
+~
+Door 3 0 0 55141 0 0
+~
+~
+End
+
+#55143
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Door 1 0 0 55144 0 0
+~
+~
+Door 3 0 0 55142 0 0
+~
+~
+End
+
+#55144
+Name Corridor of Doom~
+Descr
+As you walk along the corridor you feel a sense of forboding. The stench
+surrounding this place makes your stomach heave. 
+~
+Flags 16544
+Sector 32
+Reset M 55103 1 100
+Door 3 0 0 55143 0 0
+~
+~
+Door 4 0 0 55199 0 0
+~
+~
+End
+
+#55145
+Name A Underground Holding Cell~
+Descr
+As you enter the dark, damp, musty room of this cell you feel sickened at
+the sight of rats gnawing at the dead corpses surround the room. 
+~
+Flags 16544
+Sector 32
+Reset M 55112 1 100
+Door 2 3 0 55140 30 30
+~
+rocks~
+End
+
+#55146
+Name A Underground Holding Cell~
+Descr
+As you enter the dark, damp, musty room of this cell you feel sickened at
+the sight of rats gnawing at the dead corpses surround the room. 
+~
+Flags 16544
+Sector 32
+Reset M 55110 1 100
+Door 2 3 0 55141 30 30
+~
+rocks~
+End
+
+#55147
+Name A Underground Holding Cell~
+Descr
+As you enter the dark, damp, musty room of this cell you feel sickened at
+the sight of rats gnawing at the dead corpses surround the room. 
+~
+Flags 16544
+Sector 32
+Door 2 3 0 55142 30 30
+~
+rocks~
+End
+
+#55199
+Name A Prison Corridor~
+Descr
+~
+Flags 16384
+Sector 47
+Door 4 0 0 55200 0 0
+~
+~
+Door 5 0 0 55144 0 0
+~
+~
+End
+
+#55200
+Name A Prison Corridor~
+Descr
+~
+Flags 16384
+Sector 47
+Door 4 3 0 54919 30 30
+~
+Solid Iron Door~
+Door 5 0 0 55199 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

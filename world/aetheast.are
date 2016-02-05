@@ -1,0 +1,5601 @@
+#AREADATA 
+Name Eastern Athenae~
+Repop The ground shakes beneath your feet.
+~
+SCZone 0
+Builders Tonik~
+VNUMs 56001 56500
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#56138
+Name a rabid wolf~
+Short A rabid wolf~
+Long 
+A rabid wolf stands here on the prowl
+~
+AMax 20
+NHeight 0
+ActBits 8
+Affect_By 512
+Level 20
+MobType 18
+Hp 2
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#56001
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 4098 0 0
+~
+~
+Door 1 0 0 56151 0 0
+~
+~
+Door 2 0 0 56002 0 0
+~
+~
+End
+
+#56002
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 1 100
+Door 0 0 0 56001 0 0
+~
+~
+Door 1 0 0 56152 0 0
+~
+~
+Door 2 0 0 56003 0 0
+~
+~
+End
+
+#56003
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56002 0 0
+~
+~
+Door 1 0 0 56153 0 0
+~
+~
+Door 2 0 0 56004 0 0
+~
+~
+End
+
+#56004
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56003 0 0
+~
+~
+Door 1 0 0 56154 0 0
+~
+~
+Door 2 0 0 56005 0 0
+~
+~
+End
+
+#56005
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56004 0 0
+~
+~
+Door 1 0 0 56155 0 0
+~
+~
+Door 2 0 0 56006 0 0
+~
+~
+End
+
+#56006
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56005 0 0
+~
+~
+Door 1 0 0 56008 0 0
+~
+~
+End
+
+#56008
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56155 0 0
+~
+~
+Door 1 0 0 56009 0 0
+~
+~
+Door 3 0 0 56006 0 0
+~
+~
+End
+
+#56009
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56156 0 0
+~
+~
+Door 1 0 0 56010 0 0
+~
+~
+Door 3 0 0 56008 0 0
+~
+~
+End
+
+#56010
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56157 0 0
+~
+~
+Door 1 0 0 56158 0 0
+~
+~
+Door 2 0 0 56011 0 0
+~
+~
+Door 3 0 0 56009 0 0
+~
+~
+End
+
+#56011
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56010 0 0
+~
+~
+Door 1 0 0 56012 0 0
+~
+~
+End
+
+#56012
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56158 0 0
+~
+~
+Door 1 0 0 56160 0 0
+~
+~
+Door 2 0 0 56013 0 0
+~
+~
+Door 3 0 0 56011 0 0
+~
+~
+End
+
+#56013
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56012 0 0
+~
+~
+Door 1 0 0 56014 0 0
+~
+~
+End
+
+#56014
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56160 0 0
+~
+~
+Door 1 0 0 56034 0 0
+~
+~
+Door 3 0 0 56013 0 0
+~
+~
+End
+
+#56015
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56014 0 0
+~
+~
+Door 1 0 0 56016 0 0
+~
+~
+End
+
+#56016
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56161 0 0
+~
+~
+Door 1 0 0 56017 0 0
+~
+~
+Door 3 0 0 56015 0 0
+~
+~
+End
+
+#56017
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56162 0 0
+~
+~
+Door 1 0 0 56179 0 0
+~
+~
+End
+
+#56018
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56163 0 0
+~
+~
+Door 1 0 0 56165 0 0
+~
+~
+Door 2 0 0 56019 0 0
+~
+~
+Door 3 0 0 56017 0 0
+~
+~
+End
+
+#56019
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56018 0 0
+~
+~
+Door 1 0 0 56164 0 0
+~
+~
+Door 2 0 0 56020 0 0
+~
+~
+End
+
+#56020
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56019 0 0
+~
+~
+Door 1 0 0 56166 0 0
+~
+~
+Door 2 0 0 56021 0 0
+~
+~
+End
+
+#56021
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56020 0 0
+~
+~
+Door 1 0 0 56167 0 0
+~
+~
+Door 5 0 0 56022 0 0
+~
+~
+End
+
+#56022
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56168 0 0
+~
+~
+Door 1 0 0 56023 0 0
+~
+~
+Door 4 0 0 56021 0 0
+~
+~
+End
+
+#56023
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56169 0 0
+~
+~
+Door 1 0 0 56170 0 0
+~
+~
+Door 2 0 0 56024 0 0
+~
+~
+Door 3 0 0 56022 0 0
+~
+~
+End
+
+#56024
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56023 0 0
+~
+~
+Door 1 0 0 56025 0 0
+~
+~
+End
+
+#56025
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56170 0 0
+~
+~
+Door 1 0 0 56026 0 0
+~
+~
+Door 3 0 0 56024 0 0
+~
+~
+End
+
+#56026
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56171 0 0
+~
+~
+Door 1 0 0 56027 0 0
+~
+~
+Door 3 0 0 56025 0 0
+~
+~
+End
+
+#56027
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56172 0 0
+~
+~
+Door 1 0 0 56173 0 0
+~
+~
+Door 2 0 0 56028 0 0
+~
+~
+Door 3 0 0 56026 0 0
+~
+~
+End
+
+#56028
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56027 0 0
+~
+~
+Door 1 0 0 56174 0 0
+~
+~
+Door 2 0 0 56029 0 0
+~
+~
+End
+
+#56029
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56028 0 0
+~
+~
+Door 1 0 0 56175 0 0
+~
+~
+Door 2 0 0 56030 0 0
+~
+~
+End
+
+#56030
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56029 0 0
+~
+~
+Door 1 0 0 56176 0 0
+~
+~
+Door 2 0 0 56031 0 0
+~
+~
+End
+
+#56031
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 1 100
+Door 0 0 0 56030 0 0
+~
+~
+Door 1 0 0 56177 0 0
+~
+~
+Door 2 0 0 56032 0 0
+~
+~
+End
+
+#56032
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56031 0 0
+~
+~
+Door 1 0 0 56178 0 0
+~
+~
+Door 5 0 0 56033 0 0
+~
+~
+End
+
+#56033
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56179 0 0
+~
+~
+Door 3 0 0 56162 0 0
+~
+~
+End
+
+#56034
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56180 0 0
+~
+~
+Door 1 0 0 56035 0 0
+~
+~
+Door 3 0 0 56014 0 0
+~
+~
+End
+
+#56035
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56181 0 0
+~
+~
+Door 1 0 0 56036 0 0
+~
+~
+Door 3 0 0 56034 0 0
+~
+~
+End
+
+#56036
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56182 0 0
+~
+~
+Door 1 0 0 56037 0 0
+~
+~
+Door 3 0 0 56035 0 0
+~
+~
+End
+
+#56037
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56183 0 0
+~
+~
+Door 1 0 0 56038 0 0
+~
+~
+Door 3 0 0 56036 0 0
+~
+~
+End
+
+#56038
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56184 0 0
+~
+~
+Door 1 0 0 56185 0 0
+~
+~
+Door 2 0 0 56039 0 0
+~
+~
+Door 3 0 0 56037 0 0
+~
+~
+End
+
+#56039
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 1 100
+Door 0 0 0 56038 0 0
+~
+~
+Door 1 0 0 56186 0 0
+~
+~
+Door 2 0 0 56040 0 0
+~
+~
+End
+
+#56040
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56039 0 0
+~
+~
+Door 1 0 0 56041 0 0
+~
+~
+End
+
+#56041
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56186 0 0
+~
+~
+Door 1 0 0 56187 0 0
+~
+~
+Door 2 0 0 56042 0 0
+~
+~
+Door 3 0 0 56040 0 0
+~
+~
+End
+
+#56042
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56041 0 0
+~
+~
+Door 1 0 0 56188 0 0
+~
+~
+Door 2 0 0 56043 0 0
+~
+~
+End
+
+#56043
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56042 0 0
+~
+~
+Door 1 0 0 56189 0 0
+~
+~
+Door 2 0 0 56044 0 0
+~
+~
+End
+
+#56044
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56043 0 0
+~
+~
+Door 1 0 0 56190 0 0
+~
+~
+Door 2 0 0 56045 0 0
+~
+~
+End
+
+#56045
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56044 0 0
+~
+~
+Door 1 0 0 56046 0 0
+~
+~
+End
+
+#56046
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56190 0 0
+~
+~
+Door 1 0 0 56191 0 0
+~
+~
+Door 2 0 0 56047 0 0
+~
+~
+Door 3 0 0 56045 0 0
+~
+~
+End
+
+#56047
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56046 0 0
+~
+~
+Door 1 0 0 56192 0 0
+~
+~
+Door 2 0 0 56048 0 0
+~
+~
+End
+
+#56048
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56047 0 0
+~
+~
+Door 1 0 0 56193 0 0
+~
+~
+Door 2 0 0 56049 0 0
+~
+~
+End
+
+#56049
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56048 0 0
+~
+~
+Door 1 0 0 56194 0 0
+~
+~
+Door 2 0 0 56195 0 0
+~
+~
+Door 3 0 0 56050 0 0
+~
+~
+End
+
+#56050
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56049 0 0
+~
+~
+Door 2 0 0 56051 0 0
+~
+~
+End
+
+#56051
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56050 0 0
+~
+~
+Door 1 0 0 56195 0 0
+~
+~
+Door 2 0 0 56196 0 0
+~
+~
+Door 3 0 0 56052 0 0
+~
+~
+End
+
+#56052
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56051 0 0
+~
+~
+Door 2 0 0 56053 0 0
+~
+~
+End
+
+#56053
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 5 100
+Door 0 0 0 56052 0 0
+~
+~
+Door 1 0 0 56196 0 0
+~
+~
+Door 2 0 0 56197 0 0
+~
+~
+Door 3 0 0 56054 0 0
+~
+~
+End
+
+#56054
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56053 0 0
+~
+~
+Door 2 0 0 56055 0 0
+~
+~
+End
+
+#56055
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56054 0 0
+~
+~
+Door 1 0 0 56197 0 0
+~
+~
+Door 2 0 0 56198 0 0
+~
+~
+Door 3 0 0 56056 0 0
+~
+~
+End
+
+#56056
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56055 0 0
+~
+~
+Door 2 0 0 56199 0 0
+~
+~
+Door 3 0 0 56057 0 0
+~
+~
+End
+
+#56057
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56056 0 0
+~
+~
+Door 2 0 0 56200 0 0
+~
+~
+Door 3 0 0 56058 0 0
+~
+~
+End
+
+#56058
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56057 0 0
+~
+~
+Door 2 0 0 56059 0 0
+~
+~
+Door 3 0 0 56288 0 0
+~
+~
+End
+
+#56059
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56058 0 0
+~
+~
+Door 1 0 0 56200 0 0
+~
+~
+Door 2 0 0 56201 0 0
+~
+~
+Door 3 0 0 56060 0 0
+~
+~
+End
+
+#56060
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56288 0 0
+~
+~
+Door 1 0 0 56059 0 0
+~
+~
+Door 2 0 0 56202 0 0
+~
+~
+Door 3 0 0 56061 0 0
+~
+~
+End
+
+#56061
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56289 0 0
+~
+~
+Door 1 0 0 56060 0 0
+~
+~
+Door 2 0 0 56203 0 0
+~
+~
+Door 3 0 0 56062 0 0
+~
+~
+End
+
+#56062
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56290 0 0
+~
+~
+Door 1 0 0 56061 0 0
+~
+~
+Door 2 0 0 56204 0 0
+~
+~
+Door 3 0 0 56063 0 0
+~
+~
+End
+
+#56063
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56291 0 0
+~
+~
+Door 1 0 0 56062 0 0
+~
+~
+Door 2 0 0 56205 0 0
+~
+~
+Door 3 0 0 56064 0 0
+~
+~
+End
+
+#56064
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 1 100
+Door 0 0 0 56292 0 0
+~
+~
+Door 1 0 0 56063 0 0
+~
+~
+Door 2 0 0 56065 0 0
+~
+~
+End
+
+#56065
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56064 0 0
+~
+~
+Door 1 0 0 56205 0 0
+~
+~
+Door 2 0 0 56066 0 0
+~
+~
+End
+
+#56066
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56065 0 0
+~
+~
+Door 1 0 0 56206 0 0
+~
+~
+Door 2 0 0 56067 0 0
+~
+~
+End
+
+#56067
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56066 0 0
+~
+~
+Door 1 0 0 56207 0 0
+~
+~
+Door 2 0 0 56068 0 0
+~
+~
+End
+
+#56068
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56067 0 0
+~
+~
+Door 1 0 0 56208 0 0
+~
+~
+Door 2 0 0 56069 0 0
+~
+~
+End
+
+#56069
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 5 100
+Door 0 0 0 56068 0 0
+~
+~
+Door 1 0 0 56209 0 0
+~
+~
+Door 2 0 0 56070 0 0
+~
+~
+End
+
+#56070
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56069 0 0
+~
+~
+Door 1 0 0 56210 0 0
+~
+~
+Door 2 0 0 56071 0 0
+~
+~
+End
+
+#56071
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56070 0 0
+~
+~
+Door 1 0 0 56211 0 0
+~
+~
+Door 2 0 0 56212 0 0
+~
+~
+Door 3 0 0 56072 0 0
+~
+~
+End
+
+#56072
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56071 0 0
+~
+~
+Door 2 0 0 56073 0 0
+~
+~
+End
+
+#56073
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56072 0 0
+~
+~
+Door 1 0 0 56212 0 0
+~
+~
+Door 2 0 0 56213 0 0
+~
+~
+Door 3 0 0 56074 0 0
+~
+~
+End
+
+#56074
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56073 0 0
+~
+~
+Door 2 0 0 56075 0 0
+~
+~
+End
+
+#56075
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56074 0 0
+~
+~
+Door 1 0 0 56213 0 0
+~
+~
+Door 2 0 0 56214 0 0
+~
+~
+Door 3 0 0 56076 0 0
+~
+~
+End
+
+#56076
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56075 0 0
+~
+~
+Door 2 0 0 56077 0 0
+~
+~
+End
+
+#56077
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56076 0 0
+~
+~
+Door 1 0 0 56214 0 0
+~
+~
+Door 2 0 0 56078 0 0
+~
+~
+End
+
+#56078
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56077 0 0
+~
+~
+Door 1 0 0 56215 0 0
+~
+~
+Door 2 0 0 56079 0 0
+~
+~
+End
+
+#56079
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56078 0 0
+~
+~
+Door 1 0 0 56216 0 0
+~
+~
+Door 2 0 0 56080 0 0
+~
+~
+End
+
+#56080
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56079 0 0
+~
+~
+Door 1 0 0 56081 0 0
+~
+~
+End
+
+#56081
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56216 0 0
+~
+~
+Door 1 0 0 56217 0 0
+~
+~
+Door 2 0 0 56082 0 0
+~
+~
+Door 3 0 0 56080 0 0
+~
+~
+End
+
+#56082
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56081 0 0
+~
+~
+Door 1 0 0 56083 0 0
+~
+~
+End
+
+#56083
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56217 0 0
+~
+~
+Door 1 0 0 56218 0 0
+~
+~
+Door 2 0 0 56084 0 0
+~
+~
+Door 3 0 0 56082 0 0
+~
+~
+End
+
+#56084
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56083 0 0
+~
+~
+Door 1 0 0 56085 0 0
+~
+~
+End
+
+#56085
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56218 0 0
+~
+~
+Door 1 0 0 56219 0 0
+~
+~
+Door 2 0 0 56086 0 0
+~
+~
+Door 3 0 0 56084 0 0
+~
+~
+End
+
+#56086
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56085 0 0
+~
+~
+Door 1 0 0 56220 0 0
+~
+~
+Door 2 0 0 56087 0 0
+~
+~
+End
+
+#56087
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56086 0 0
+~
+~
+Door 1 0 0 56221 0 0
+~
+~
+Door 2 0 0 56088 0 0
+~
+~
+End
+
+#56088
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 1 100
+Door 0 0 0 56087 0 0
+~
+~
+Door 1 0 0 56089 0 0
+~
+~
+End
+
+#56089
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56221 0 0
+~
+~
+Door 1 0 0 56090 0 0
+~
+~
+Door 3 0 0 56088 0 0
+~
+~
+End
+
+#56090
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56222 0 0
+~
+~
+Door 1 0 0 56223 0 0
+~
+~
+Door 2 0 0 56091 0 0
+~
+~
+Door 3 0 0 56089 0 0
+~
+~
+End
+
+#56091
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56090 0 0
+~
+~
+Door 1 0 0 56092 0 0
+~
+~
+End
+
+#56092
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56223 0 0
+~
+~
+Door 1 0 0 56224 0 0
+~
+~
+Door 2 0 0 56093 0 0
+~
+~
+Door 3 0 0 56091 0 0
+~
+~
+End
+
+#56093
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56092 0 0
+~
+~
+Door 1 0 0 56225 0 0
+~
+~
+Door 2 0 0 56094 0 0
+~
+~
+End
+
+#56094
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56093 0 0
+~
+~
+Door 1 0 0 56226 0 0
+~
+~
+Door 2 0 0 56095 0 0
+~
+~
+End
+
+#56095
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 1 100
+Door 0 0 0 56094 0 0
+~
+~
+Door 1 0 0 56096 0 0
+~
+~
+End
+
+#56096
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56226 0 0
+~
+~
+Door 1 0 0 56097 0 0
+~
+~
+Door 3 0 0 56095 0 0
+~
+~
+End
+
+#56097
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56227 0 0
+~
+~
+Door 1 0 0 56228 0 0
+~
+~
+Door 2 0 0 56098 0 0
+~
+~
+Door 3 0 0 56096 0 0
+~
+~
+End
+
+#56098
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56097 0 0
+~
+~
+Door 1 0 0 56099 0 0
+~
+~
+End
+
+#56099
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56228 0 0
+~
+~
+Door 1 0 0 56229 0 0
+~
+~
+Door 2 0 0 56100 0 0
+~
+~
+Door 3 0 0 56098 0 0
+~
+~
+End
+
+#56100
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56099 0 0
+~
+~
+Door 1 0 0 56101 0 0
+~
+~
+End
+
+#56101
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56229 0 0
+~
+~
+Door 1 0 0 56230 0 0
+~
+~
+Door 2 0 0 56102 0 0
+~
+~
+Door 3 0 0 56100 0 0
+~
+~
+End
+
+#56102
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56101 0 0
+~
+~
+Door 1 0 0 56231 0 0
+~
+~
+Door 2 0 0 56103 0 0
+~
+~
+End
+
+#56103
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 5 100
+Door 0 0 0 56102 0 0
+~
+~
+Door 1 0 0 56232 0 0
+~
+~
+Door 5 0 0 56150 0 0
+~
+~
+End
+
+#56104
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56233 0 0
+~
+~
+Door 2 0 0 56105 0 0
+~
+~
+Door 4 0 0 56103 0 0
+~
+~
+End
+
+#56105
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56104 0 0
+~
+~
+Door 1 0 0 56234 0 0
+~
+~
+Door 2 0 0 56106 0 0
+~
+~
+End
+
+#56106
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56105 0 0
+~
+~
+Door 1 0 0 56235 0 0
+~
+~
+Door 2 0 0 56107 0 0
+~
+~
+End
+
+#56107
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56106 0 0
+~
+~
+Door 1 0 0 56108 0 0
+~
+~
+End
+
+#56108
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56235 0 0
+~
+~
+Door 1 0 0 56236 0 0
+~
+~
+Door 2 0 0 56109 0 0
+~
+~
+Door 3 0 0 56107 0 0
+~
+~
+End
+
+#56109
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56108 0 0
+~
+~
+Door 1 0 0 56110 0 0
+~
+~
+End
+
+#56110
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56236 0 0
+~
+~
+Door 1 0 0 56237 0 0
+~
+~
+Door 2 0 0 56111 0 0
+~
+~
+Door 3 0 0 56109 0 0
+~
+~
+End
+
+#56111
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56110 0 0
+~
+~
+Door 1 0 0 56112 0 0
+~
+~
+End
+
+#56112
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56237 0 0
+~
+~
+Door 1 0 0 56113 0 0
+~
+~
+Door 3 0 0 56111 0 0
+~
+~
+End
+
+#56113
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56238 0 0
+~
+~
+Door 1 0 0 56114 0 0
+~
+~
+Door 3 0 0 56112 0 0
+~
+~
+End
+
+#56114
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56239 0 0
+~
+~
+Door 1 0 0 56115 0 0
+~
+~
+Door 3 0 0 56113 0 0
+~
+~
+End
+
+#56115
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56240 0 0
+~
+~
+Door 1 0 0 56275 0 0
+~
+~
+Door 2 0 0 56116 0 0
+~
+~
+Door 3 0 0 56114 0 0
+~
+~
+End
+
+#56116
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 1 100
+Door 0 0 0 56115 0 0
+~
+~
+Door 1 0 0 56241 0 0
+~
+~
+Door 2 0 0 56117 0 0
+~
+~
+End
+
+#56117
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56116 0 0
+~
+~
+Door 1 0 0 56118 0 0
+~
+~
+End
+
+#56118
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56241 0 0
+~
+~
+Door 1 0 0 56284 0 0
+~
+~
+Door 2 0 0 56119 0 0
+~
+~
+Door 3 0 0 56117 0 0
+~
+~
+End
+
+#56119
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56118 0 0
+~
+~
+Door 1 0 0 56242 0 0
+~
+~
+Door 2 0 0 56120 0 0
+~
+~
+End
+
+#56120
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56119 0 0
+~
+~
+Door 1 0 0 56121 0 0
+~
+~
+End
+
+#56121
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56242 0 0
+~
+~
+Door 1 0 0 56122 0 0
+~
+~
+Door 3 0 0 56120 0 0
+~
+~
+End
+
+#56122
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56243 0 0
+~
+~
+Door 1 0 0 56123 0 0
+~
+~
+Door 3 0 0 56121 0 0
+~
+~
+End
+
+#56123
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56244 0 0
+~
+~
+Door 1 0 0 56124 0 0
+~
+~
+Door 3 0 0 56122 0 0
+~
+~
+End
+
+#56124
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56245 0 0
+~
+~
+Door 1 0 0 56246 0 0
+~
+~
+Door 2 0 0 56125 0 0
+~
+~
+Door 3 0 0 56123 0 0
+~
+~
+End
+
+#56125
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56124 0 0
+~
+~
+Door 1 0 0 56126 0 0
+~
+~
+End
+
+#56126
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56246 0 0
+~
+~
+Door 1 0 0 56247 0 0
+~
+~
+Door 2 0 0 56127 0 0
+~
+~
+Door 3 0 0 56125 0 0
+~
+~
+End
+
+#56127
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56126 0 0
+~
+~
+Door 1 0 0 56128 0 0
+~
+~
+End
+
+#56128
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56247 0 0
+~
+~
+Door 1 0 0 56129 0 0
+~
+~
+Door 3 0 0 56127 0 0
+~
+~
+End
+
+#56129
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56248 0 0
+~
+~
+Door 1 0 0 56130 0 0
+~
+~
+Door 3 0 0 56128 0 0
+~
+~
+End
+
+#56130
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Reset M 56138 1 100
+Door 0 0 0 56249 0 0
+~
+~
+Door 1 0 0 56131 0 0
+~
+~
+Door 3 0 0 56129 0 0
+~
+~
+End
+
+#56131
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56250 0 0
+~
+~
+Door 1 0 0 56132 0 0
+~
+~
+Door 3 0 0 56130 0 0
+~
+~
+End
+
+#56132
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56251 0 0
+~
+~
+Door 1 0 0 56133 0 0
+~
+~
+Door 3 0 0 56131 0 0
+~
+~
+End
+
+#56133
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56252 0 0
+~
+~
+Door 1 0 0 56253 0 0
+~
+~
+Door 2 0 0 56134 0 0
+~
+~
+Door 3 0 0 56132 0 0
+~
+~
+End
+
+#56134
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56133 0 0
+~
+~
+Door 1 0 0 56135 0 0
+~
+~
+End
+
+#56135
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56253 0 0
+~
+~
+Door 1 0 0 56136 0 0
+~
+~
+Door 3 0 0 56134 0 0
+~
+~
+End
+
+#56136
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56254 0 0
+~
+~
+Door 1 0 0 56137 0 0
+~
+~
+Door 3 0 0 56135 0 0
+~
+~
+End
+
+#56137
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56255 0 0
+~
+~
+Door 1 0 0 56138 0 0
+~
+~
+Door 3 0 0 56136 0 0
+~
+~
+End
+
+#56138
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56256 0 0
+~
+~
+Door 1 0 0 56139 0 0
+~
+~
+Door 3 0 0 56137 0 0
+~
+~
+End
+
+#56139
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56257 0 0
+~
+~
+Door 1 0 0 56140 0 0
+~
+~
+Door 3 0 0 56138 0 0
+~
+~
+End
+
+#56140
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56258 0 0
+~
+~
+Door 1 0 0 56259 0 0
+~
+~
+Door 2 0 0 56141 0 0
+~
+~
+Door 3 0 0 56139 0 0
+~
+~
+End
+
+#56141
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56140 0 0
+~
+~
+Door 1 0 0 56260 0 0
+~
+~
+Door 2 0 0 56142 0 0
+~
+~
+End
+
+#56142
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56141 0 0
+~
+~
+Door 1 0 0 56143 0 0
+~
+~
+End
+
+#56143
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56260 0 0
+~
+~
+Door 1 0 0 56144 0 0
+~
+~
+Door 3 0 0 56142 0 0
+~
+~
+End
+
+#56144
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56261 0 0
+~
+~
+Door 1 0 0 56262 0 0
+~
+~
+Door 2 0 0 56145 0 0
+~
+~
+Door 3 0 0 56143 0 0
+~
+~
+End
+
+#56145
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56144 0 0
+~
+~
+Door 1 0 0 56263 0 0
+~
+~
+Door 2 0 0 56146 0 0
+~
+~
+End
+
+#56146
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56145 0 0
+~
+~
+Door 1 0 0 56264 0 0
+~
+~
+Door 2 0 0 56147 0 0
+~
+~
+End
+
+#56147
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56146 0 0
+~
+~
+Door 1 0 0 56265 0 0
+~
+~
+Door 2 0 0 56148 0 0
+~
+~
+End
+
+#56148
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56147 0 0
+~
+~
+Door 1 0 0 56266 0 0
+~
+~
+Door 2 0 0 56149 0 0
+~
+~
+End
+
+#56149
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 0 0 0 56148 0 0
+~
+~
+Door 1 0 0 56267 0 0
+~
+~
+End
+
+#56150
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56268 0 0
+~
+~
+Door 2 0 0 4097 0 0
+~
+~
+Door 4 0 0 56103 0 0
+~
+~
+End
+
+#56151
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56152 0 0
+~
+~
+Door 3 0 0 56001 0 0
+~
+~
+End
+
+#56152
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56151 0 0
+~
+~
+Door 2 0 0 56153 0 0
+~
+~
+Door 3 0 0 56002 0 0
+~
+~
+End
+
+#56153
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56152 0 0
+~
+~
+Door 2 0 0 56154 0 0
+~
+~
+Door 3 0 0 56003 0 0
+~
+~
+End
+
+#56154
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56153 0 0
+~
+~
+Door 2 0 0 56155 0 0
+~
+~
+Door 3 0 0 56004 0 0
+~
+~
+End
+
+#56155
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56154 0 0
+~
+~
+Door 1 0 0 56156 0 0
+~
+~
+Door 2 0 0 56008 0 0
+~
+~
+Door 3 0 0 56005 0 0
+~
+~
+End
+
+#56156
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Reset M 56138 5 100
+Door 1 0 0 56157 0 0
+~
+~
+Door 2 0 0 56009 0 0
+~
+~
+Door 3 0 0 56155 0 0
+~
+~
+End
+
+#56157
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56159 0 0
+~
+~
+Door 2 0 0 56010 0 0
+~
+~
+Door 3 0 0 56156 0 0
+~
+~
+End
+
+#56158
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56159 0 0
+~
+~
+Door 2 0 0 56012 0 0
+~
+~
+Door 3 0 0 56010 0 0
+~
+~
+End
+
+#56159
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56158 0 0
+~
+~
+Door 3 0 0 56157 0 0
+~
+~
+End
+
+#56160
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56180 0 0
+~
+~
+Door 2 0 0 56014 0 0
+~
+~
+Door 3 0 0 56012 0 0
+~
+~
+End
+
+#56161
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56162 0 0
+~
+~
+Door 2 0 0 56016 0 0
+~
+~
+Door 3 0 0 56014 0 0
+~
+~
+End
+
+#56162
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56033 0 0
+~
+~
+Door 2 0 0 56017 0 0
+~
+~
+End
+
+#56163
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56018 0 0
+~
+~
+Door 3 0 0 56162 0 0
+~
+~
+End
+
+#56164
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56165 0 0
+~
+~
+Door 2 0 0 56166 0 0
+~
+~
+Door 3 0 0 56019 0 0
+~
+~
+End
+
+#56165
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56164 0 0
+~
+~
+Door 3 0 0 56018 0 0
+~
+~
+End
+
+#56166
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56164 0 0
+~
+~
+Door 2 0 0 56167 0 0
+~
+~
+Door 3 0 0 56020 0 0
+~
+~
+End
+
+#56167
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56166 0 0
+~
+~
+Door 3 0 0 56021 0 0
+~
+~
+End
+
+#56168
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling 
+~
+Sector 27
+Door 1 0 0 56169 0 0
+~
+~
+Door 2 0 0 56022 0 0
+~
+~
+End
+
+#56169
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling 
+~
+Sector 27
+Door 2 0 0 56023 0 0
+~
+~
+Door 3 0 0 56168 0 0
+~
+~
+End
+
+#56170
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56171 0 0
+~
+~
+Door 2 0 0 56025 0 0
+~
+~
+Door 3 0 0 56023 0 0
+~
+~
+End
+
+#56171
+Name The Southwest Trail~
+Descr
+The road here starts out in good repair but soon starts to fall apart as
+you travel south. Why someone would build a road through such a god forsaken
+place is beyond you. The road is lined with impassable mountains on either
+side, making the choice of which way to go a moot point. 
+~
+Sector 3
+Door 1 0 0 56172 0 0
+~
+~
+Door 2 0 0 56026 0 0
+~
+~
+Door 3 0 0 56170 0 0
+~
+~
+End
+
+#56172
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling 
+~
+Sector 27
+Door 2 0 0 56027 0 0
+~
+~
+Door 3 0 0 56171 0 0
+~
+~
+End
+
+#56173
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling 
+~
+Sector 27
+Door 2 0 0 56174 0 0
+~
+~
+Door 3 0 0 56027 0 0
+~
+~
+End
+
+#56174
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling 
+~
+Sector 27
+Door 0 0 0 56173 0 0
+~
+~
+Door 2 0 0 56175 0 0
+~
+~
+Door 3 0 0 56028 0 0
+~
+~
+End
+
+#56175
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling 
+~
+Sector 27
+Door 0 0 0 56174 0 0
+~
+~
+Door 2 0 0 56176 0 0
+~
+~
+Door 3 0 0 56029 0 0
+~
+~
+End
+
+#56176
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling 
+~
+Sector 27
+Door 0 0 0 56175 0 0
+~
+~
+Door 2 0 0 56177 0 0
+~
+~
+Door 3 0 0 56030 0 0
+~
+~
+End
+
+#56177
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling 
+~
+Sector 27
+Door 0 0 0 56176 0 0
+~
+~
+Door 2 0 0 56178 0 0
+~
+~
+Door 3 0 0 56031 0 0
+~
+~
+End
+
+#56178
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling 
+~
+Sector 27
+Door 0 0 0 56177 0 0
+~
+~
+Door 3 0 0 56032 0 0
+~
+~
+End
+
+#56179
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56033 0 0
+~
+~
+Door 3 0 0 56017 0 0
+~
+~
+End
+
+#56180
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56181 0 0
+~
+~
+Door 2 0 0 56034 0 0
+~
+~
+Door 3 0 0 56160 0 0
+~
+~
+End
+
+#56181
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56182 0 0
+~
+~
+Door 2 0 0 56035 0 0
+~
+~
+Door 3 0 0 56180 0 0
+~
+~
+End
+
+#56182
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56183 0 0
+~
+~
+Door 2 0 0 56036 0 0
+~
+~
+Door 3 0 0 56181 0 0
+~
+~
+End
+
+#56183
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56184 0 0
+~
+~
+Door 2 0 0 56037 0 0
+~
+~
+Door 3 0 0 56182 0 0
+~
+~
+End
+
+#56184
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56038 0 0
+~
+~
+Door 3 0 0 56183 0 0
+~
+~
+End
+
+#56185
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56186 0 0
+~
+~
+Door 3 0 0 56038 0 0
+~
+~
+End
+
+#56186
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56185 0 0
+~
+~
+Door 2 0 0 56041 0 0
+~
+~
+Door 3 0 0 56039 0 0
+~
+~
+End
+
+#56187
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56188 0 0
+~
+~
+Door 3 0 0 56041 0 0
+~
+~
+End
+
+#56188
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56187 0 0
+~
+~
+Door 2 0 0 56189 0 0
+~
+~
+Door 3 0 0 56042 0 0
+~
+~
+End
+
+#56189
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Reset M 56138 5 100
+Door 0 0 0 56188 0 0
+~
+~
+Door 2 0 0 56190 0 0
+~
+~
+Door 3 0 0 56043 0 0
+~
+~
+End
+
+#56190
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56189 0 0
+~
+~
+Door 2 0 0 56046 0 0
+~
+~
+Door 3 0 0 56044 0 0
+~
+~
+End
+
+#56191
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56192 0 0
+~
+~
+Door 3 0 0 56046 0 0
+~
+~
+End
+
+#56192
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56191 0 0
+~
+~
+Door 2 0 0 56193 0 0
+~
+~
+Door 3 0 0 56047 0 0
+~
+~
+End
+
+#56193
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56192 0 0
+~
+~
+Door 2 0 0 56194 0 0
+~
+~
+Door 3 0 0 56048 0 0
+~
+~
+End
+
+#56194
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56193 0 0
+~
+~
+Door 3 0 0 56049 0 0
+~
+~
+End
+
+#56195
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56049 0 0
+~
+~
+Door 3 0 0 56051 0 0
+~
+~
+End
+
+#56196
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56051 0 0
+~
+~
+Door 3 0 0 56053 0 0
+~
+~
+End
+
+#56197
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56053 0 0
+~
+~
+Door 3 0 0 56055 0 0
+~
+~
+End
+
+#56198
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56055 0 0
+~
+~
+Door 3 0 0 56199 0 0
+~
+~
+End
+
+#56199
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56056 0 0
+~
+~
+Door 1 0 0 56198 0 0
+~
+~
+Door 3 0 0 56200 0 0
+~
+~
+End
+
+#56200
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56057 0 0
+~
+~
+Door 1 0 0 56199 0 0
+~
+~
+Door 3 0 0 56059 0 0
+~
+~
+End
+
+#56201
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56059 0 0
+~
+~
+Door 3 0 0 56202 0 0
+~
+~
+End
+
+#56202
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56060 0 0
+~
+~
+Door 1 0 0 56201 0 0
+~
+~
+Door 3 0 0 56203 0 0
+~
+~
+End
+
+#56203
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56061 0 0
+~
+~
+Door 1 0 0 56202 0 0
+~
+~
+Door 3 0 0 56204 0 0
+~
+~
+End
+
+#56204
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56062 0 0
+~
+~
+Door 1 0 0 56203 0 0
+~
+~
+Door 3 0 0 56205 0 0
+~
+~
+End
+
+#56205
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56063 0 0
+~
+~
+Door 1 0 0 56204 0 0
+~
+~
+Door 2 0 0 56206 0 0
+~
+~
+Door 3 0 0 56065 0 0
+~
+~
+End
+
+#56206
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56205 0 0
+~
+~
+Door 2 0 0 56207 0 0
+~
+~
+Door 3 0 0 56066 0 0
+~
+~
+End
+
+#56207
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56206 0 0
+~
+~
+Door 2 0 0 56208 0 0
+~
+~
+Door 3 0 0 56067 0 0
+~
+~
+End
+
+#56208
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56207 0 0
+~
+~
+Door 2 0 0 56209 0 0
+~
+~
+Door 3 0 0 56068 0 0
+~
+~
+End
+
+#56209
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56208 0 0
+~
+~
+Door 2 0 0 56210 0 0
+~
+~
+Door 3 0 0 56069 0 0
+~
+~
+End
+
+#56210
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56209 0 0
+~
+~
+Door 2 0 0 56211 0 0
+~
+~
+Door 3 0 0 56070 0 0
+~
+~
+End
+
+#56211
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56210 0 0
+~
+~
+Door 2 0 0 73714 0 0
+~
+~
+Door 3 0 0 56071 0 0
+~
+~
+End
+
+#56212
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56071 0 0
+~
+~
+Door 1 0 0 73714 0 0
+~
+~
+Door 2 0 0 73709 0 0
+~
+~
+Door 3 0 0 56073 0 0
+~
+~
+End
+
+#56213
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56073 0 0
+~
+~
+Door 1 0 0 73709 0 0
+~
+~
+Door 2 0 0 73706 0 0
+~
+~
+Door 3 0 0 56075 0 0
+~
+~
+End
+
+#56214
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56075 0 0
+~
+~
+Door 1 0 0 73706 0 0
+~
+~
+Door 2 0 0 56215 0 0
+~
+~
+Door 3 0 0 56077 0 0
+~
+~
+End
+
+#56215
+Name A Branch off the Trail~
+Descr
+This small side trail leads off into the swamp to the east. 
+~
+Sector 5
+Door 0 0 0 56214 0 0
+~
+~
+Door 1 0 0 73707 0 0
+~
+~
+Door 2 0 0 56216 0 0
+~
+~
+Door 3 0 0 56078 0 0
+~
+~
+End
+
+#56216
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56215 0 0
+~
+~
+Door 1 0 0 73708 0 0
+~
+~
+Door 2 0 0 56081 0 0
+~
+~
+Door 3 0 0 56079 0 0
+~
+~
+End
+
+#56217
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 73708 0 0
+~
+~
+Door 1 0 0 73713 0 0
+~
+~
+Door 2 0 0 56083 0 0
+~
+~
+Door 3 0 0 56081 0 0
+~
+~
+End
+
+#56218
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 73713 0 0
+~
+~
+Door 1 0 0 73720 0 0
+~
+~
+Door 2 0 0 56085 0 0
+~
+~
+Door 3 0 0 56083 0 0
+~
+~
+End
+
+#56219
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 73720 0 0
+~
+~
+Door 2 0 0 56220 0 0
+~
+~
+Door 3 0 0 56085 0 0
+~
+~
+End
+
+#56220
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56219 0 0
+~
+~
+Door 2 0 0 56221 0 0
+~
+~
+Door 3 0 0 56086 0 0
+~
+~
+End
+
+#56221
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56220 0 0
+~
+~
+Door 1 0 0 56222 0 0
+~
+~
+Door 2 0 0 56089 0 0
+~
+~
+Door 3 0 0 56087 0 0
+~
+~
+End
+
+#56222
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56090 0 0
+~
+~
+Door 3 0 0 56221 0 0
+~
+~
+End
+
+#56223
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56092 0 0
+~
+~
+Door 3 0 0 56090 0 0
+~
+~
+End
+
+#56224
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56225 0 0
+~
+~
+Door 3 0 0 56092 0 0
+~
+~
+End
+
+#56225
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56224 0 0
+~
+~
+Door 2 0 0 56226 0 0
+~
+~
+Door 3 0 0 56093 0 0
+~
+~
+End
+
+#56226
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56225 0 0
+~
+~
+Door 1 0 0 56227 0 0
+~
+~
+Door 2 0 0 56096 0 0
+~
+~
+Door 3 0 0 56094 0 0
+~
+~
+End
+
+#56227
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56097 0 0
+~
+~
+Door 3 0 0 56226 0 0
+~
+~
+End
+
+#56228
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56099 0 0
+~
+~
+Door 3 0 0 56097 0 0
+~
+~
+End
+
+#56229
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56101 0 0
+~
+~
+Door 3 0 0 56099 0 0
+~
+~
+End
+
+#56230
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56231 0 0
+~
+~
+Door 3 0 0 56101 0 0
+~
+~
+End
+
+#56231
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56230 0 0
+~
+~
+Door 2 0 0 56232 0 0
+~
+~
+Door 3 0 0 56102 0 0
+~
+~
+End
+
+#56232
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56231 0 0
+~
+~
+Door 3 0 0 56103 0 0
+~
+~
+Door 5 0 0 56268 0 0
+~
+~
+End
+
+#56233
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56234 0 0
+~
+~
+Door 3 0 0 56104 0 0
+~
+~
+End
+
+#56234
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56233 0 0
+~
+~
+Door 2 0 0 56235 0 0
+~
+~
+Door 3 0 0 56105 0 0
+~
+~
+End
+
+#56235
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56234 0 0
+~
+~
+Door 2 0 0 56108 0 0
+~
+~
+Door 3 0 0 56106 0 0
+~
+~
+End
+
+#56236
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56110 0 0
+~
+~
+Door 3 0 0 56108 0 0
+~
+~
+End
+
+#56237
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56238 0 0
+~
+~
+Door 2 0 0 56112 0 0
+~
+~
+Door 3 0 0 56110 0 0
+~
+~
+End
+
+#56238
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56239 0 0
+~
+~
+Door 2 0 0 56113 0 0
+~
+~
+Door 3 0 0 56237 0 0
+~
+~
+End
+
+#56239
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56240 0 0
+~
+~
+Door 2 0 0 56114 0 0
+~
+~
+Door 3 0 0 56238 0 0
+~
+~
+End
+
+#56240
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56269 0 0
+~
+~
+Door 2 0 0 56115 0 0
+~
+~
+Door 3 0 0 56239 0 0
+~
+~
+End
+
+#56241
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56275 0 0
+~
+~
+Door 1 0 0 56280 0 0
+~
+~
+Door 2 0 0 56118 0 0
+~
+~
+Door 3 0 0 56116 0 0
+~
+~
+End
+
+#56242
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56284 0 0
+~
+~
+Door 1 0 0 56243 0 0
+~
+~
+Door 2 0 0 56121 0 0
+~
+~
+Door 3 0 0 56119 0 0
+~
+~
+End
+
+#56243
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56285 0 0
+~
+~
+Door 1 0 0 56244 0 0
+~
+~
+Door 2 0 0 56122 0 0
+~
+~
+Door 3 0 0 56242 0 0
+~
+~
+End
+
+#56244
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56286 0 0
+~
+~
+Door 1 0 0 56245 0 0
+~
+~
+Door 2 0 0 56123 0 0
+~
+~
+Door 3 0 0 56243 0 0
+~
+~
+End
+
+#56245
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56287 0 0
+~
+~
+Door 2 0 0 56124 0 0
+~
+~
+Door 3 0 0 56244 0 0
+~
+~
+End
+
+#56246
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56126 0 0
+~
+~
+Door 3 0 0 56124 0 0
+~
+~
+End
+
+#56247
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56248 0 0
+~
+~
+Door 2 0 0 56128 0 0
+~
+~
+Door 3 0 0 56126 0 0
+~
+~
+End
+
+#56248
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56249 0 0
+~
+~
+Door 2 0 0 56129 0 0
+~
+~
+Door 3 0 0 56247 0 0
+~
+~
+End
+
+#56249
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56250 0 0
+~
+~
+Door 2 0 0 56130 0 0
+~
+~
+Door 3 0 0 56248 0 0
+~
+~
+End
+
+#56250
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56251 0 0
+~
+~
+Door 2 0 0 56131 0 0
+~
+~
+Door 3 0 0 56249 0 0
+~
+~
+End
+
+#56251
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56252 0 0
+~
+~
+Door 2 0 0 56132 0 0
+~
+~
+Door 3 0 0 56250 0 0
+~
+~
+End
+
+#56252
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56133 0 0
+~
+~
+Door 3 0 0 56251 0 0
+~
+~
+End
+
+#56253
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56254 0 0
+~
+~
+Door 2 0 0 56135 0 0
+~
+~
+Door 3 0 0 56133 0 0
+~
+~
+End
+
+#56254
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56255 0 0
+~
+~
+Door 2 0 0 56136 0 0
+~
+~
+Door 3 0 0 56253 0 0
+~
+~
+End
+
+#56255
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56256 0 0
+~
+~
+Door 2 0 0 56137 0 0
+~
+~
+Door 3 0 0 56254 0 0
+~
+~
+End
+
+#56256
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56257 0 0
+~
+~
+Door 2 0 0 56138 0 0
+~
+~
+Door 3 0 0 56255 0 0
+~
+~
+End
+
+#56257
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56258 0 0
+~
+~
+Door 2 0 0 56139 0 0
+~
+~
+Door 3 0 0 56256 0 0
+~
+~
+End
+
+#56258
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56140 0 0
+~
+~
+Door 3 0 0 56257 0 0
+~
+~
+End
+
+#56259
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56260 0 0
+~
+~
+Door 3 0 0 56140 0 0
+~
+~
+End
+
+#56260
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56259 0 0
+~
+~
+Door 1 0 0 56261 0 0
+~
+~
+Door 2 0 0 56143 0 0
+~
+~
+Door 3 0 0 56141 0 0
+~
+~
+End
+
+#56261
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56144 0 0
+~
+~
+Door 3 0 0 56260 0 0
+~
+~
+End
+
+#56262
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 56263 0 0
+~
+~
+Door 3 0 0 56144 0 0
+~
+~
+End
+
+#56263
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56262 0 0
+~
+~
+Door 2 0 0 56264 0 0
+~
+~
+Door 3 0 0 56145 0 0
+~
+~
+End
+
+#56264
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56263 0 0
+~
+~
+Door 2 0 0 56265 0 0
+~
+~
+Door 3 0 0 56146 0 0
+~
+~
+End
+
+#56265
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56264 0 0
+~
+~
+Door 2 0 0 56266 0 0
+~
+~
+Door 3 0 0 56147 0 0
+~
+~
+End
+
+#56266
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56265 0 0
+~
+~
+Door 2 0 0 56267 0 0
+~
+~
+Door 3 0 0 56148 0 0
+~
+~
+End
+
+#56267
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56266 0 0
+~
+~
+Door 2 0 0 56268 0 0
+~
+~
+Door 3 0 0 56149 0 0
+~
+~
+End
+
+#56268
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 2 0 0 4096 0 0
+~
+~
+Door 3 0 0 56150 0 0
+~
+~
+Door 4 0 0 56232 0 0
+~
+~
+End
+
+#56269
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56270 0 0
+~
+~
+Door 2 0 0 56275 0 0
+~
+~
+Door 3 0 0 56240 0 0
+~
+~
+End
+
+#56270
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56271 0 0
+~
+~
+Door 2 0 0 56276 0 0
+~
+~
+Door 3 0 0 56269 0 0
+~
+~
+End
+
+#56271
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56272 0 0
+~
+~
+Door 2 0 0 56277 0 0
+~
+~
+Door 3 0 0 56270 0 0
+~
+~
+End
+
+#56272
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56273 0 0
+~
+~
+Door 2 0 0 56278 0 0
+~
+~
+Door 3 0 0 56271 0 0
+~
+~
+End
+
+#56273
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 1 0 0 56274 0 0
+~
+~
+Door 2 0 0 56279 0 0
+~
+~
+Door 3 0 0 56272 0 0
+~
+~
+End
+
+#56274
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 3 0 0 56273 0 0
+~
+~
+End
+
+#56275
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56269 0 0
+~
+~
+Door 1 0 0 56276 0 0
+~
+~
+Door 2 0 0 56241 0 0
+~
+~
+Door 3 0 0 56115 0 0
+~
+~
+End
+
+#56276
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56270 0 0
+~
+~
+Door 1 0 0 56277 0 0
+~
+~
+Door 2 0 0 56280 0 0
+~
+~
+Door 3 0 0 56275 0 0
+~
+~
+End
+
+#56277
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56271 0 0
+~
+~
+Door 1 0 0 56278 0 0
+~
+~
+Door 2 0 0 56281 0 0
+~
+~
+Door 3 0 0 56276 0 0
+~
+~
+End
+
+#56278
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56272 0 0
+~
+~
+Door 1 0 0 56279 0 0
+~
+~
+Door 2 0 0 56282 0 0
+~
+~
+Door 3 0 0 56277 0 0
+~
+~
+End
+
+#56279
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56273 0 0
+~
+~
+Door 2 0 0 56283 0 0
+~
+~
+Door 3 0 0 56278 0 0
+~
+~
+End
+
+#56280
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56276 0 0
+~
+~
+Door 1 0 0 56281 0 0
+~
+~
+Door 2 0 0 56284 0 0
+~
+~
+Door 3 0 0 56241 0 0
+~
+~
+End
+
+#56281
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56277 0 0
+~
+~
+Door 1 0 0 56282 0 0
+~
+~
+Door 2 0 0 56285 0 0
+~
+~
+Door 3 0 0 56280 0 0
+~
+~
+End
+
+#56282
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56278 0 0
+~
+~
+Door 1 0 0 56283 0 0
+~
+~
+Door 2 0 0 56286 0 0
+~
+~
+Door 3 0 0 56281 0 0
+~
+~
+End
+
+#56283
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56279 0 0
+~
+~
+Door 2 0 0 56287 0 0
+~
+~
+Door 3 0 0 56282 0 0
+~
+~
+End
+
+#56284
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56280 0 0
+~
+~
+Door 1 0 0 56285 0 0
+~
+~
+Door 2 0 0 56242 0 0
+~
+~
+Door 3 0 0 56118 0 0
+~
+~
+End
+
+#56285
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56281 0 0
+~
+~
+Door 1 0 0 56286 0 0
+~
+~
+Door 2 0 0 56243 0 0
+~
+~
+Door 3 0 0 56284 0 0
+~
+~
+End
+
+#56286
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56282 0 0
+~
+~
+Door 1 0 0 56287 0 0
+~
+~
+Door 2 0 0 56244 0 0
+~
+~
+Door 3 0 0 56285 0 0
+~
+~
+End
+
+#56287
+Name Near The Southwest Trail~
+Descr
+It would seem to make sense to move back onto the road, where traveling
+is easier. 
+~
+Sector 27
+Door 0 0 0 56283 0 0
+~
+~
+Door 2 0 0 56245 0 0
+~
+~
+Door 3 0 0 56286 0 0
+~
+~
+End
+
+#56288
+Name Near the Southwest Trail~
+Descr
+~
+Sector 27
+Door 1 0 0 56058 0 0
+~
+~
+Door 2 0 0 56060 0 0
+~
+~
+Door 3 0 0 56289 0 0
+~
+~
+End
+
+#56289
+Name Near the Southwest Trail~
+Descr
+~
+Sector 27
+Door 0 0 0 56295 0 0
+~
+~
+Door 1 0 0 56288 0 0
+~
+~
+Door 2 0 0 56061 0 0
+~
+~
+Door 3 0 0 56290 0 0
+~
+~
+End
+
+#56290
+Name Near the Southwest Trail~
+Descr
+~
+Sector 27
+Door 0 0 0 56294 0 0
+~
+~
+Door 1 0 0 56289 0 0
+~
+~
+Door 2 0 0 56062 0 0
+~
+~
+Door 3 0 0 56291 0 0
+~
+~
+End
+
+#56291
+Name Near the Southwest Trail~
+Descr
+~
+Sector 27
+Door 0 0 0 56293 0 0
+~
+~
+Door 1 0 0 56290 0 0
+~
+~
+Door 2 0 0 56063 0 0
+~
+~
+Door 3 0 0 56292 0 0
+~
+~
+End
+
+#56292
+Name Near the Southwest Trail~
+Descr
+~
+Sector 27
+Door 1 0 0 56291 0 0
+~
+~
+Door 2 0 0 56064 0 0
+~
+~
+End
+
+#56293
+Name Near the Southwest Trail~
+Descr
+~
+Sector 27
+Door 1 0 0 56294 0 0
+~
+~
+Door 2 0 0 56291 0 0
+~
+~
+End
+
+#56294
+Name Near the Southwest Trail~
+Cvnumh 136456760
+Descr
+~
+Sector 27
+Door 1 0 0 56295 0 0
+~
+~
+Door 2 0 0 56290 0 0
+~
+~
+Door 3 0 0 56293 0 0
+~
+~
+End
+
+#56295
+Name Near the Southwest Trail~
+Descr
+~
+Sector 27
+Door 2 0 0 56289 0 0
+~
+~
+Door 3 0 0 56294 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

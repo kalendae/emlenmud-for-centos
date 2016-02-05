@@ -1,0 +1,10577 @@
+#AREADATA 
+Name The Halls of Illusion~
+Repop The sands of time shift to another day.
+~
+SCZone 0
+Builders Raizel Propaganda~
+VNUMs 35001 36000
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#35001
+Name cockatrice~
+Short a small cockatrice ~
+Long 
+A small bird like figure wanders the mountain plains.
+~
+AMax 25
+NHeight 0
+Affect_By 524328
+Alignment 1
+Money 500
+Level 80
+MobType 13
+Hp 5
+Guard 0
+BCasts paralyze~
+BCast_P 3
+End
+
+#35002
+Name cloud giant~
+Short a smokey cloud giant~
+Long 
+A smokey cloudy looking figure stands here swirling around.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524328
+AffectTWO 64
+Money 1000
+Level 101
+MobType 4
+Hp 5
+Guard 0
+End
+
+#35003
+Name fire giant~
+Short a flaming fire giant~
+Long 
+A mass of swirling flames stands tall here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 40
+AffectTWO 33554433
+Money 1000
+Level 101
+MobType 4
+Hp 5
+Guard 0
+End
+
+#35004
+Name granite earth giant~
+Short a granite earth giant~
+Long 
+A huge rocky mass sits here against the pillar.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 40
+AffectTWO 8
+Money 500
+Level 101
+MobType 4
+Hp 5
+Guard 0
+Spec spec_warrior
+End
+
+#35005
+Name a water giant~
+Short a water giant~
+Long 
+A mass of flowing water stands ready for battle.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 40
+AffectTWO 1024
+Money 1000
+Level 101
+MobType 4
+Hp 5
+Guard 0
+End
+
+#35006
+Name mystical giant~
+Short a mystical giant~
+Long 
+A mystical being stands here at the pillar of colors.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 168
+Money 1000
+Level 101
+MobType 4
+Hp 5
+Guard 0
+End
+
+#35007
+Name large cockatrice~
+Short a large cockatrice~
+Long 
+A large being sits here hidden from the world.
+~
+AMax 3
+NHeight 0
+ActBits 2
+Affect_By 131232
+Money 1000
+Level 130
+MobType 13
+Hp 25
+Guard 0
+Spec spec_warrior
+BCasts paraylze~
+BCasts paralyze~
+BCasts searing orb~
+BCast_P 20
+End
+
+#35008
+Name a fierce waterlord Kraken~
+Short the kraken waterlord~
+Long 
+A HUGE being stands here guarding his treasures.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 168
+AffectTWO 33554440
+Money 1000
+Level 130
+MobType 5
+Guard 0
+Spec spec_breath_frost
+BCasts stream of magma~
+BCast_P 15
+End
+
+#35009
+Name a small woman~
+Short a small woman ~
+Long 
+A small woman sits here rambling a short prophecy.
+~
+AMax 1
+NHeight 0
+ActBits 258
+ActBits3 524288
+ActBits4 1
+Affect_By 524456
+AffectTWO 33554440
+Money 1000
+Level 500
+MobType 0
+Hp 50
+Guard 0
+BCasts death fog~
+BCast_P 50
+ASklTaught 0 178
+ASklTaught 1 179
+ASklTaught 2 181
+ASklTaught 3 180
+End
+
+#35010
+Name lord of the keys~
+Short the lord of the keys~
+Long 
+The lord of the keys stands beside a huge tower.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 532648
+AffectTWO 8
+Money 500
+Level 500
+MobType 5
+Guard 0
+Spec spec_warrior
+BCasts smite~
+BCast_P 50
+End
+
+#35011
+Name the dungeon keeper~
+Short the dungeon keeper~
+Long 
+A huge man holds the key to the inner dungeon.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 524290
+Affect_By 532648
+AffectTWO 8
+Money 1500
+Level 145
+MobType 12
+Guard 5
+Spec spec_warrior
+End
+
+#35012
+Name a mage of illusion~
+Short a mage of illusion~
+Long 
+A mage blinking in and out of time stands here.
+~
+AMax 2
+NHeight 0
+ActBits 2
+Affect_By 524448
+AffectTWO 4
+Money 500
+Level 100
+MobType 3
+Guard 0
+BCasts hands of wind~
+BCast_P 20
+End
+
+#35013
+Name a warrior of illusion~
+Short a warrior of illusion~
+Long 
+A huge warrior stands here fragmenting time.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 532520
+AffectTWO 8
+Money 1000
+Level 110
+MobType 11
+Guard 0
+Spec spec_warrior
+End
+
+#35014
+Name a forger created from shadows~
+Short a shadow forger~
+Long 
+A forger created from shadows stands here fixing equipment.
+~
+AMax 1
+NHeight 0
+ActBits 3145730
+Level 1
+MobType 11
+Hp 100
+Guard 0
+Shop    0   0   0   0   0 100 100 0 24
+Shopd2 5
+Shopd3 4
+End
+
+#35015
+Name a shadow banker~
+Short a shadow banker~
+Long 
+A shadowy figure stands here collecting money.
+~
+AMax 1
+NHeight 0
+ActBits 131074
+Money 1000
+Level 1
+MobType 11
+Hp 100
+Guard 0
+Spec spec_warrior
+End
+
+#35016
+Name assassin of illusion~
+Short the assassin~
+Long 
+The assassin of I l l u S i o N stands here waiting for his next victim!
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 67666088
+AffectTWO 33554440
+Money 1000
+Level 350
+MobType 0
+Hp 30
+Guard 0
+Spec spec_thief
+End
+
+#35017
+Name a warrior apprentice~
+Short a warrior apprentice~
+Long 
+A warrior apprentice practices his art.
+~
+AMax 5
+NHeight 0
+Affect_By 32
+AffectTWO 8
+Level 20
+MobType 0
+Hp 7
+Guard 0
+Spec spec_warrior
+End
+
+#35018
+Name salgor the wise sage~
+Short Salgor the sage~
+Long 
+Salgor sits here studying the ancient arcane of the elementals.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 160
+Money 300
+Level 130
+MobType 0
+Guard 0
+BCasts chill of the windsaber~
+BCast_P 10
+End
+
+#35019
+Name an apprentice sage~
+Short an apprentice sage ~
+Long 
+A apprentice sage wanders the library gathering information.
+~
+AMax 4
+NHeight 0
+Affect_By 524448
+Money 100
+Level 110
+MobType 0
+Hp 7
+Guard 0
+End
+
+#35020
+Name an illusion~
+Short an illusion~
+Long 
+A illusion blinks in and out of reality here.
+~
+AMax 4
+NHeight 0
+ActBits 2
+Affect_By 532520
+Money 500
+Level 60
+MobType 21
+Guard 0
+End
+
+#35021
+Name a fragment of time ~
+Short a fragment of time~
+Long 
+A fragment of time shifts in and out of time.
+~
+AMax 4
+NHeight 0
+ActBits 2
+Affect_By 524448
+Money 300
+Level 75
+MobType 11
+Guard 0
+End
+
+#35022
+Name a golden dragon~
+Short a golden dragon~
+Long 
+A golden dragon stands here defending his jewels.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 524288
+Affect_By 524456
+AffectTWO 8
+Money 2000
+Level 140
+MobType 5
+Guard 0
+Spec spec_warrior
+End
+
+#35023
+Name the master of illusion~
+Short the master of illusion~
+Long 
+A huge figure blinks in out and out visibility.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524320
+AffectTWO 8
+Money 1000
+Level 170
+Guard 0
+Spec spec_warrior
+BCasts elemental blast~
+BCast_P 10
+End
+
+#35024
+Name valgor the mystical thief~
+Short valgor the thief~
+Long 
+Valgor the thief hides in his secret hideout
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 134283296
+AffectTWO 8
+Money 2000
+Level 75
+MobType 1
+Hp 20
+Guard 0
+GDamR 90
+Spec spec_warrior
+End
+
+#35025
+Name a mountain troll~
+Short a mountain troll~
+Long 
+A huge mountain troll wanders the battlefield looking for a fight.
+~
+AMax 7
+NHeight 0
+Money 500
+Level 110
+MobType 12
+Hp 5
+Guard 0
+Spec spec_warrior
+End
+
+#35026
+Name a hobgoblin~
+Short a hobgoblin~
+Long 
+A small hobgoblin wanders around in search of a newhome.
+~
+AMax 6
+NHeight 0
+Money 500
+Level 110
+MobType 38
+Hp 5
+Guard 0
+End
+
+#35027
+Name the battleground keeper~
+Short the keeper~
+Long 
+The keeper of the grounds sits in his office counting his money.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524448
+Money 1000
+Level 150
+MobType 4
+Guard 0
+Spec spec_warrior
+End
+
+#35028
+Name a wizard of the mystical clan~
+Short a wizard ~
+Long 
+A wizard of the mystical clan searches for information.
+~
+AMax 5
+NHeight 0
+Level 400
+MobType 1
+Hp 30
+Guard 0
+End
+
+#35029
+Name gothemenes~
+Short gothemenes~
+Long 
+The wizard lord gothemenes stands here inscribing in his spell book.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524448
+Level 290
+MobType 1
+Hp 20
+Guard 0
+BCasts ice comet~
+BCast_P 15
+End
+
+#35030
+Name the guard of illusion~
+Short the guard of illusion~
+Long 
+The guards of illusion block the entrance to the upper levels of the tower.
+~
+AMax 3
+NHeight 0
+ActBits 2
+ActBits3 2
+Affect_By 524328
+Money 200
+Level 60
+MobType 4
+Guard 4
+End
+
+#35031
+Name the illusion of purity~
+Short the illusion of purity~
+Long 
+The illusion of purity sits here contemplating the mystery.
+~
+AMax 4
+NHeight 0
+ActBits 2
+Affect_By 524448
+Money 500
+Level 110
+MobType 21
+Hp 8
+Guard 0
+End
+
+#35032
+Name the illusion of evil~
+Short the illusion of evil~
+Long 
+The illusion of evil sits here contemplating the world of evilness.
+~
+AMax 4
+NHeight 0
+ActBits 2
+Affect_By 524456
+Money 1000
+Level 110
+MobType 11
+Guard 0
+End
+
+#35033
+Name the bodyguard of illusion~
+Short the bodyguard~
+Long 
+The bodyguard of illusion protects the higher being.
+~
+AMax 2
+NHeight 0
+ActBits 2
+ActBits3 2
+Affect_By 524456
+AffectTWO 8
+Alignment 1
+Money 1000
+Level 120
+MobType 11
+Guard 0
+Spec spec_warrior
+BCasts ice comet~
+BCast_P 5
+End
+
+#35034
+Name jalspier the evil wizard~
+Short Jalspier~
+Long 
+Jalspier the evil wizard of illusion stands here controlling time.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524968
+AffectTWO 4
+Money 5000
+Level 300
+MobType 0
+Hp 40
+Guard 0
+Spec spec_warrior
+BCasts smite~
+BCasts ice comet~
+BCast_P 10
+End
+
+#35035
+Name valtrex the guardian of planes~
+Short Valtrex~
+Long 
+Valtrex the guardian of planes stands here casting a portal spell.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524448
+AffectTWO 4
+Money 3000
+Level 400
+MobType 1
+Hp 15
+Guard 0
+Spec spec_warrior
+BCasts death winds~
+BCasts incinerate~
+BCast_P 10
+End
+
+#35036
+Name crynus Arikus~
+Short Crynus Arikus~
+Long 
+Crynus Arikus the shadow warrior of the elemental plane stands here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524448
+Money 2000
+Level 350
+MobType 4
+Hp 15
+Guard 0
+Spec spec_warrior
+BCasts tsunami~
+BCast_P 10
+End
+
+#35037
+Name a statue of illusion~
+Short a statue of illusion~
+Long 
+A huge statue flickers in and out of time.
+~
+AMax 3
+NHeight 0
+ActBits 2
+Affect_By 524448
+Money 3000
+Level 150
+MobType 15
+Hp 3
+Guard 0
+End
+
+#35038
+Name the wraith of illusion~
+Short the wraith of illusion~
+Long 
+The wraith of illusion guards the passageways.
+~
+AMax 12
+NHeight 0
+ActBits 1032
+ActBits3 524288
+Affect_By 532650
+AffectTWO 262152
+Money 200
+Level 110
+MobType 5
+Hp 20
+Guard 0
+Spec spec_warrior
+BCasts ice comet~
+BCast_P 30
+End
+
+#35039
+Name a mist monster~
+Short a mist monster~
+Long 
+A mist monster wanders the roads of mist.
+~
+AMax 5
+NHeight 0
+Money 1000
+Level 110
+MobType 12
+Hp 8
+Guard 0
+End
+
+#35040
+Name a spectre of a king~
+Short a spectre of a king~
+Long 
+A spectre of a forgotten king rests in anguish.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524328
+Money 5000
+Level 200
+MobType 21
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#35001
+Name a pillar of burning flames~
+Short a pillar of [31m[1mb[0m[31mu[1m[31mr[0m[31mn[1m[31mi[0m[31mn[1m[31mg [31mflames[0m~
+Descr
+A pillar of [1m[31mb[0m[31mu[1m[31mr[0m[31mn[1m[31mi[0m[31mn[1m[31mg [0m[31mflames [0m[37mstands here.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#35002
+Name a pillar of misty clouds~
+Short a pillar of [36mm[37m[1mi[0m[36ms[1m[37mt[0m[36my [37mclouds [0mstands here.[0m~
+Descr
+A pillar of [36mm[1m[37mi[0m[36ms[1m[37mt[0m[36my [0mclouds [0mstands here.[0m
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#35003
+Name a pillar of flowing water~
+Short a pillar of [1m[34mf[0m[34ml[1m[34mo[0m[34mw[1m[34mi[0m[34mn[1m[34mg [1mwater [0mstands here.[0m~
+Descr
+A pillar of [1m[34mf[0m[34ml[1m[34mo[0m[34mw[1m[34mi[0m[34mn[1m[34mg [1mwater [0mstands here.[0m
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#35004
+Name a pillar of granite earth~
+Short a pillar of [30m[1mgranite [32me[1m[32ma[0m[32mr[1m[32mt[0m[32mh [0mstands here.[0m~
+Descr
+A pillar of [30m[1mgranite [32me[1m[32ma[0m[32mr[1m[32mt[0m[32mh [0mstands here.[0m
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#35005
+Name a pillar of mystical colors~
+Short a pillar of [1m[33mmystical [34mc[32mo[36ml[31mo[35mr[33ms[0m~
+Descr
+A pillar of [1m[33mmystical [34mc[32mo[36ml[31mo[35mr[33ms [0mstands here[0m
+[0;36m~
+Type 13
+Extra 16384
+Wear 0
+Weight 0
+Cost 0
+End
+
+#35006
+Name a flaming key~
+Short a [1m[31mf[0m[31ml[1m[31ma[0m[31mm[1m[31mi[0m[31mn[1m[31mg [0mkey[0m~
+Descr
+A [31m[1mf[0m[31ml[1m[31ma[0m[31mm[1m[31mi[0m[31mn[1m[31mg [0mkey lies here.[0m
+[0;36m~
+Type 18
+Extra 16641
+Wear 16385
+Weight 1
+Cost 0
+End
+
+#35007
+Name a cloudy key~
+Short a [36mc[37ml[36mo[37mu[36md[37my [0mkey[0m~
+Descr
+A [36mc[37ml[36mo[37mu[36md[37my[0m key lies here.[0m
+[0;36m~
+Type 18
+Extra 16641
+Wear 16385
+Weight 1
+Cost 0
+End
+
+#35008
+Name a flowing key~
+Short a [34mf[1m[34ml[0m[34mo[1m[34mw[0m[34mi[1m[34mn[0m[34mg [0mkey~
+Descr
+A [34mf[1m[34ml[0m[34mo[1m[34mw[0m[34mi[1m[34mn[0m[34mg [0mkey lies here.
+[0;36m~
+Type 18
+Extra 16641
+Wear 16385
+Weight 1
+Cost 0
+End
+
+#35009
+Name a key of earth~
+Short a key of [32me[1m[32ma[0m[32mr[1m[32mt[0m[32mh[0m~
+Descr
+A key of [32me[1m[32ma[0m[32mr[1m[32mt[0m[32mh[0m lies here.
+[0;36m~
+Type 18
+Extra 16641
+Wear 16385
+Weight 1
+Cost 0
+End
+
+#35010
+Name a mystical key~
+Short a [33m[1mmystical [0mkey~
+Descr
+A [33m[1mmystical [0mkey lies here.[0m
+[0;36m~
+Type 18
+Extra 16641
+Wear 16385
+Weight 1
+Cost 0
+End
+
+#35011
+Name a misty portal~
+Short a misty portal lies here in a pile of dust~
+Descr
+A misty portal lies here in a pile of dust.
+[0;36m~
+Type 12
+Wear 0
+Values 4 35277 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35012
+Name a portal ~
+Short a portal to a lost battleground~
+Descr
+A portal to a lost battleground lies here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 35329 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35013
+Name a portal~
+Short a portal to the tower~
+Descr
+A glowing portal leading to the tower lies here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 35324 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35014
+Name a portal~
+Short a portal to the wizards keep~
+Descr
+A portal to the wizards keep lies here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 35361 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35015
+Name a portal~
+Short a portal back to the tower~
+Descr
+A portal back to the tower lies here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 35319 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35016
+Name a rope~
+Short a long dangling rope stands in mid air~
+Descr
+A long dangling rope stands in mid air.
+[0;36m~
+Type 30
+Wear 0
+Values 3 0 35146 35146 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35017
+Name a rope~
+Short a long dangling rope floats here in mid air~
+Descr
+A long dangling rope floats here in mid air.
+[0;36m~
+Type 30
+Wear 0
+Values 3 0 35146 35146 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35018
+Name a rope~
+Short a long dangling rope floats here in mid air~
+Descr
+A long dangling rope floats here in mid air.
+[0;36m~
+Type 30
+Wear 0
+Values 3 0 35406 35146 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35019
+Name a swirling portal~
+Short a swirling portal lies here~
+Descr
+A swirling portal lies here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 35407 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35020
+Name a shimmering portal~
+Short a [37m[1mshimmering [0mportal of time sits here~
+Descr
+A [37m[1mshimmering [0mportal of time sits here.
+[0;36m~
+Type 12
+Wear 0
+Timer 5
+Values 4 35197 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35021
+Name a dungeon key~
+Short [30m[1mthe dungeon key[0m~
+Descr
+[30m[1mthe dungeon key[0m
+[0;36m~
+Type 18
+Wear 16385
+Timer 15
+Weight 1
+Cost 0
+End
+
+#35022
+Name twisted shard fragmented time 2apb apb~
+Short a tw[1mi[0m[37mst[1me[0m[37md shard of [1m[30mfr[36ma[30mg[36mm[30me[36mn[30mt[36me[30md [0m[37mtime[0m~
+Descr
+A long slender fragment of some sort lays at your feet.
+[0;36m~
+Type 5
+Extra 37879873
+Wear 24577
+Values 0 0 0 9 0 0 0 9 2 0 64
+Weight 60
+Cost 536
+Affect 19 2 1 0 0
+Affect 18 2 1 0 0
+End
+
+#35023
+Name unholy blade destruction 2apb apb~
+Short an [1m[30mu[0m[37mn[1mh[0m[37mol[1m[30my blade of destruction[0m~
+Descr
+A blade of enourmous power lays across from you in the room.
+[0;36m~
+Type 5
+Extra 4456513
+Wear 24577
+Values 0 0 0 3 0 0 0 5 3 0 0
+Weight 80
+Cost 1000
+Affect 19 2 1 0 0
+End
+
+#35024
+Name shifting belt planes apb~
+Short a belt of [34mshif[1m[30mt[34ming [0m[37mplanes~
+Descr
+A long narrow belt seems to by lying at your feet.
+[0;36m~
+Type 9
+Extra 1
+Wear 2049
+Values 1 4 0 0 0 0 100 100 0 2 0
+Weight 4
+Cost 300
+Affect 22 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#35025
+Name earring fragmented time~
+Short an earring of [1m[30mfr[36ma[30mg[36mm[30me[36mn[30mt[36me[30md [0m[37mtime[0m~
+Descr
+A small piece of time has been left on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 262145
+Values 0 0 4 0 0 0 0 0 0 0 0
+Weight 1
+Cost 450
+Affect 20 3 1 0 0
+Affect 17 3 1 0 0
+Affect 13 15 1 0 0
+Affect 14 15 1 0 0
+End
+
+#35026
+Name magic purple slippers~
+Short a pair of ma[1mg[0m[37mi[1mc [0m[35mpurple [1m[34ms[0m[31ml[1m[33mi[31mp[0m[36mp[1m[34me[0m[32mr[1m[33ms[0m~
+Descr
+Two identical looking slippers seem to glow with energy as you stare at them.
+[0;36m~
+Type 9
+Extra 1
+Wear 65
+Values 0 0 0 8 0 0 0 0 0 5 0
+Weight 8
+Cost 328
+Affect 14 10 1 0 0
+Affect 22 2 1 0 0
+Affect 17 2 1 0 0
+Affect 20 3 1 0 0
+Affect 13 5 1 0 0
+End
+
+#35027
+Name wickedly scorched elbowguard~
+Short a [1m[30mwi[0m[37mck[1me[0m[37mdl[1m[30my [0m[31ms[1mc[33mo[1m[37mr[33mc[31mh[0m[31med[0m elbowguard~
+Descr
+A small burnt piece of metal lays at your feet.
+[0;36m~
+Type 9
+Extra 2
+Wear 1048577
+Values 0 0 0 3 50 50 100 100 50 1 0
+Weight 2
+Cost 0
+Affect 14 10 1 0 0
+End
+
+#35028
+Name wickedly scorched kneeguard~
+Short a [1m[30mwi[0m[37mck[1me[0m[37mdl[1m[30my [0m[31ms[1mc[33mo[1m[37mr[33mc[31mh[0m[31med[0m kneeguard~
+Descr
+A fairly large metallic object with burn marks on it lays at your feet.
+[0;36m~
+Type 9
+Extra 2
+Wear 2097153
+Values 2 0 0 0 50 50 100 100 50 2 0
+Weight 0
+Cost 0
+Affect 13 10 1 0 0
+Affect 22 1 1 0 0
+End
+
+#35029
+Name swirling flaming greaves apb~
+Short [1m[30ma pair of [34ms[36mw[0m[36mi[1m[37mr[0m[36ml[1mi[0m[34mn[1m[34mg[0m [31mflaming[1m[30m greaves[0m~
+Descr
+A small dark circular piece of metal lays at your feet.
+[0;36m~
+Type 9
+Extra 2
+Wear 33
+Values 5 0 0 0 50 50 100 100 100 1 0
+Weight 5
+Cost 329
+Affect 22 3 1 0 0
+Affect 19 1 1 0 0
+End
+
+#35030
+Name kraken trident pure lightning apb~
+Short [0ma [0m[32mkr[1m[32ma[0m[32mken's [1m[30mtrident[0m of [1m[33mli[0m[33mght[1m[33mn[1m[33min[1m[33mg~
+Descr
+A long green trident lies on the ground
+[0;36m~
+Type 5
+Extra 100663297
+Wear 16385
+Values 0 0 0 15 0 0 0 8 2 0 0
+Weight 15
+Cost 200
+Affect 18 3 1 0 0
+Affect 19 1 1 0 0
+End
+
+#35031
+Name ring grievous punishment apb~
+Short a ring of [37mgr[1m[30mi[0m[37mevo[1m[30mu[0m[37ms [1m[30mpu[0m[31mni[1m[30mshme[0m[31mn[1m[30mt[0m~
+Descr
+A circular object that appears to have stains of blood on it lays on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 3
+Values 0 0 0 4 0 0 0 0 0 1 0
+Weight 1
+Cost 234
+Affect 14 5 1 0 0
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#35032
+Name a hooded shroud pure white crystal apb~
+Short a [30m[1mhooded shroud [0mof pure [37m[1mwhite [36mc[37mr[36my[37ms[36mt[37ma[36ml[0m~
+Descr
+A long hooded shroud lies here.
+[0;36m~
+Type 9
+Extra 2
+Wear 1025
+Values 3 3 4 3 3 0 0 0 0 0 0
+Weight 5
+Cost 200
+Affect 19 1 1 0 0
+Affect 13 -10 1 0 0
+Affect 18 2 1 0 0
+End
+
+#35033
+Name ancient crown purity apb~
+Short an ancient [33mcrown [0m[37mof [1mpurity~
+Descr
+An oddly shaped circlet lays on the ground.
+[0;36m~
+Type 9
+Extra 2
+Wear 17
+Values 0 0 4 0 50 50 100 100 50 3 0
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+End
+
+#35034
+Name the eyes of faerie sight eye~
+Short [37m[1mthe eyes of [34mf[32ma[36me[31mr[35mi[33me [0m[1m[37msight[0m~
+Descr
+A pair of rainbow looking eyes lies here.
+[0;36m~
+Type 9
+Extra 1
+Wear 65537
+Values 0 0 5 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 18 1 1 0 0
+Affect 14 10 1 0 0
+End
+
+#35035
+Name mithril spine of binding apb~
+Short a [1m[30mm[36mi[30mt[36mh[30mr[36mi[30ml spine [0m[37mof [31mb[1m[30mi[0m[31mn[1m[30md[0m[31mi[1m[30mn[0m[31mg[0m~
+Descr
+A long exoskeleton of a human lies here.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 4194305
+Values 2 5 1 2 0 0 0 0 0 4 0
+Weight 5
+Cost 200
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+Affect 14 5 1 0 0
+End
+
+#35036
+Name the gauntlets of blackened mist~
+Short the [36mgauntlets [37mof [1m[30mblackend [0m[35mm[1m[30mi[0m[35ms[1m[30mt[0m~
+Descr
+A pair of dark gauntlets lies here
+[0;36m~
+Type 9
+Extra 2
+Wear 129
+Values 0 0 0 5 0 0 0 0 0 0 0
+Weight 3
+Cost 100
+Affect 18 2 1 0 0
+Affect 14 10 1 0 0
+Affect 13 20 1 0 0
+Affect 20 3 1 0 0
+End
+
+#35037
+Name the plates of blackened bone and flesh~
+Short the plates of blackened bone and flesh~
+Descr
+(none)~
+Type 9
+Wear 0
+Weight 0
+Cost 0
+End
+
+#35038
+Name a portal out of time~
+Short a portal of time~
+Descr
+A portal of time lies here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 35328 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35039
+Name a dangling rope~
+Short a dangling rope~
+Descr
+A dangling rope floats in the forest of mist.
+[0;36m~
+Type 30
+Wear 0
+Values 2 0 35401 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#35503
+Name forest dagger~
+Short a [33mfo[1m[32mre[0m[33mst da[1m[32mgg[0m[33mer[0m~
+Descr
+A [33mfo[1m[32mre[0m[33mst da[1m[32mgg[0m[33mer[0m blends in with the ground.
+[0;36m~
+Type 5
+Extra 131072
+Wear 24577
+Values 0 17 0 11 0 0 0 4 3 0 0
+Weight 30
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#35001
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35002 0 0
+~
+~
+Door 1 0 0 35038 0 0
+~
+~
+Door 5 0 0 10253 0 0
+~
+~
+End
+
+#35002
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35003 0 0
+~
+~
+Door 1 0 0 35039 0 0
+~
+~
+Door 2 0 0 35001 0 0
+~
+~
+End
+
+#35003
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35004 0 0
+~
+~
+Door 1 0 0 35040 0 0
+~
+~
+Door 2 0 0 35002 0 0
+~
+~
+End
+
+#35004
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35005 0 0
+~
+~
+Door 1 0 0 35041 0 0
+~
+~
+Door 2 0 0 35003 0 0
+~
+~
+End
+
+#35005
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35006 0 0
+~
+~
+Door 1 0 0 35042 0 0
+~
+~
+Door 2 0 0 35004 0 0
+~
+~
+Door 3 0 0 35124 0 0
+~
+~
+End
+
+#35006
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35007 0 0
+~
+~
+Door 1 0 0 35043 0 0
+~
+~
+Door 2 0 0 35005 0 0
+~
+~
+End
+
+#35007
+Name ~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35008 0 0
+~
+~
+Door 1 0 0 35044 0 0
+~
+~
+Door 2 0 0 35006 0 0
+~
+~
+End
+
+#35008
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35009 0 0
+~
+~
+Door 1 0 0 35045 0 0
+~
+~
+Door 2 0 0 35007 0 0
+~
+~
+End
+
+#35009
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35010 0 0
+~
+~
+Door 1 0 0 35046 0 0
+~
+~
+Door 2 0 0 35008 0 0
+~
+~
+End
+
+#35010
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Reset M 35001 1 100
+Door 1 0 0 35011 0 0
+~
+~
+Door 2 0 0 35009 0 0
+~
+~
+Door 3 0 0 35112 0 0
+~
+~
+End
+
+#35011
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 1 0 0 35012 0 0
+~
+~
+Door 2 0 0 35046 0 0
+~
+~
+Door 3 0 0 35010 0 0
+~
+~
+End
+
+#35012
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 1 0 0 35013 0 0
+~
+~
+Door 2 0 0 35047 0 0
+~
+~
+Door 3 0 0 35011 0 0
+~
+~
+End
+
+#35013
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 1 0 0 35014 0 0
+~
+~
+Door 2 0 0 35048 0 0
+~
+~
+Door 3 0 0 35012 0 0
+~
+~
+End
+
+#35014
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 1 0 0 35015 0 0
+~
+~
+Door 2 0 0 35049 0 0
+~
+~
+Door 3 0 0 35013 0 0
+~
+~
+End
+
+#35015
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35143 0 0
+~
+~
+Door 1 0 0 35016 0 0
+~
+~
+Door 2 0 0 35050 0 0
+~
+~
+Door 3 0 0 35014 0 0
+~
+~
+End
+
+#35016
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 1 0 0 35017 0 0
+~
+~
+Door 2 0 0 35051 0 0
+~
+~
+Door 3 0 0 35015 0 0
+~
+~
+End
+
+#35017
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 1 0 0 35018 0 0
+~
+~
+Door 2 0 0 35052 0 0
+~
+~
+Door 3 0 0 35016 0 0
+~
+~
+End
+
+#35018
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 1 0 0 35019 0 0
+~
+~
+Door 2 0 0 35053 0 0
+~
+~
+Door 3 0 0 35017 0 0
+~
+~
+End
+
+#35019
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Reset M 35001 1 100
+Door 1 0 0 35020 0 0
+~
+~
+Door 2 0 0 35104 0 0
+~
+~
+Door 3 0 0 35018 0 0
+~
+~
+End
+
+#35020
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 1 0 0 35118 0 0
+~
+~
+Door 2 0 0 35021 0 0
+~
+~
+Door 3 0 0 35019 0 0
+~
+~
+End
+
+#35021
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35020 0 0
+~
+~
+Door 2 0 0 35022 0 0
+~
+~
+Door 3 0 0 35104 0 0
+~
+~
+End
+
+#35022
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35021 0 0
+~
+~
+Door 2 0 0 35023 0 0
+~
+~
+Door 3 0 0 35105 0 0
+~
+~
+End
+
+#35023
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35022 0 0
+~
+~
+Door 1 0 0 35153 0 0
+~
+~
+Door 2 0 0 35024 0 0
+~
+~
+Door 3 0 0 35106 0 0
+~
+~
+End
+
+#35024
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35023 0 0
+~
+~
+Door 2 0 0 35025 0 0
+~
+~
+Door 3 0 0 35107 0 0
+~
+~
+End
+
+#35025
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35024 0 0
+~
+~
+Door 2 0 0 35026 0 0
+~
+~
+Door 3 0 0 35108 0 0
+~
+~
+End
+
+#35026
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35025 0 0
+~
+~
+Door 1 0 0 35130 0 0
+~
+~
+Door 2 0 0 35027 0 0
+~
+~
+Door 3 0 0 35109 0 0
+~
+~
+End
+
+#35027
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35026 0 0
+~
+~
+Door 2 0 0 35028 0 0
+~
+~
+Door 3 0 0 35110 0 0
+~
+~
+End
+
+#35028
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35027 0 0
+~
+~
+Door 3 0 0 35030 0 0
+~
+~
+End
+
+#35029
+Name ~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Door 0 0 0 35028 0 0
+~
+~
+End
+
+#35030
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35110 0 0
+~
+~
+Door 1 0 0 35028 0 0
+~
+~
+Door 3 0 0 35031 0 0
+~
+~
+End
+
+#35031
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35101 0 0
+~
+~
+Door 1 0 0 35030 0 0
+~
+~
+Door 3 0 0 35032 0 0
+~
+~
+End
+
+#35032
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35094 0 0
+~
+~
+Door 1 0 0 35031 0 0
+~
+~
+Door 3 0 0 35033 0 0
+~
+~
+End
+
+#35033
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35087 0 0
+~
+~
+Door 1 0 0 35032 0 0
+~
+~
+Door 3 0 0 35034 0 0
+~
+~
+End
+
+#35034
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35080 0 0
+~
+~
+Door 1 0 0 35033 0 0
+~
+~
+Door 3 0 0 35035 0 0
+~
+~
+End
+
+#35035
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35073 0 0
+~
+~
+Door 1 0 0 35034 0 0
+~
+~
+Door 3 0 0 35036 0 0
+~
+~
+End
+
+#35036
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35066 0 0
+~
+~
+Door 1 0 0 35035 0 0
+~
+~
+End
+
+#35037
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 3 0 0 35038 0 0
+~
+~
+Door 5 0 0 10251 0 0
+~
+~
+End
+
+#35038
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35039 0 0
+~
+~
+Door 1 0 0 35037 0 0
+~
+~
+Door 3 0 0 35001 0 0
+~
+~
+Door 5 0 0 10252 0 0
+~
+~
+End
+
+#35039
+Name ~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35040 0 0
+~
+~
+Door 2 0 0 35038 0 0
+~
+~
+Door 3 0 0 35002 0 0
+~
+~
+End
+
+#35040
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35041 0 0
+~
+~
+Door 3 0 0 35003 0 0
+~
+~
+End
+
+#35041
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35042 0 0
+~
+~
+Door 1 0 0 35058 0 0
+~
+~
+Door 2 0 0 35040 0 0
+~
+~
+Door 3 0 0 35004 0 0
+~
+~
+End
+
+#35042
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35043 0 0
+~
+~
+Door 1 0 0 35057 0 0
+~
+~
+Door 2 0 0 35041 0 0
+~
+~
+Door 3 0 0 35005 0 0
+~
+~
+End
+
+#35043
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35044 0 0
+~
+~
+Door 1 0 0 35056 0 0
+~
+~
+Door 2 0 0 35042 0 0
+~
+~
+Door 3 0 0 35006 0 0
+~
+~
+End
+
+#35044
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35045 0 0
+~
+~
+Door 1 0 0 35055 0 0
+~
+~
+Door 2 0 0 35043 0 0
+~
+~
+Door 3 0 0 35007 0 0
+~
+~
+End
+
+#35045
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35046 0 0
+~
+~
+Door 1 0 0 35054 0 0
+~
+~
+Door 2 0 0 35044 0 0
+~
+~
+Door 3 0 0 35008 0 0
+~
+~
+End
+
+#35046
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35011 0 0
+~
+~
+Door 1 0 0 35047 0 0
+~
+~
+Door 2 0 0 35045 0 0
+~
+~
+Door 3 0 0 35009 0 0
+~
+~
+End
+
+#35047
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35012 0 0
+~
+~
+Door 1 0 0 35048 0 0
+~
+~
+Door 2 0 0 35054 0 0
+~
+~
+Door 3 0 0 35046 0 0
+~
+~
+End
+
+#35048
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35013 0 0
+~
+~
+Door 1 0 0 35049 0 0
+~
+~
+Door 2 0 0 35061 0 0
+~
+~
+Door 3 0 0 35047 0 0
+~
+~
+End
+
+#35049
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35014 0 0
+~
+~
+Door 1 0 0 35050 0 0
+~
+~
+Door 2 0 0 35068 0 0
+~
+~
+Door 3 0 0 35048 0 0
+~
+~
+End
+
+#35050
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35015 0 0
+~
+~
+Door 1 0 0 35051 0 0
+~
+~
+Door 2 0 0 35075 0 0
+~
+~
+Door 3 0 0 35049 0 0
+~
+~
+End
+
+#35051
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35016 0 0
+~
+~
+Door 1 0 0 35052 0 0
+~
+~
+Door 2 0 0 35082 0 0
+~
+~
+Door 3 0 0 35050 0 0
+~
+~
+End
+
+#35052
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35017 0 0
+~
+~
+Door 1 0 0 35053 0 0
+~
+~
+Door 2 0 0 35089 0 0
+~
+~
+Door 3 0 0 35051 0 0
+~
+~
+End
+
+#35053
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35018 0 0
+~
+~
+Door 1 0 0 35104 0 0
+~
+~
+Door 2 0 0 35096 0 0
+~
+~
+Door 3 0 0 35052 0 0
+~
+~
+End
+
+#35054
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35047 0 0
+~
+~
+Door 1 0 0 35061 0 0
+~
+~
+Door 2 0 0 35055 0 0
+~
+~
+Door 3 0 0 35045 0 0
+~
+~
+End
+
+#35055
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35054 0 0
+~
+~
+Door 1 0 0 35062 0 0
+~
+~
+Door 2 0 0 35056 0 0
+~
+~
+Door 3 0 0 35044 0 0
+~
+~
+End
+
+#35056
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35055 0 0
+~
+~
+Door 1 0 0 35063 0 0
+~
+~
+Door 2 0 0 35057 0 0
+~
+~
+Door 3 0 0 35043 0 0
+~
+~
+End
+
+#35057
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35056 0 0
+~
+~
+Door 1 0 0 35065 0 0
+~
+~
+Door 2 0 0 35058 0 0
+~
+~
+Door 3 0 0 35042 0 0
+~
+~
+End
+
+#35058
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35057 0 0
+~
+~
+Door 1 0 0 35066 0 0
+~
+~
+Door 3 0 0 35041 0 0
+~
+~
+End
+
+#35059
+Name ~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Door 0 0 0 35058 0 0
+~
+~
+Door 2 0 0 35060 0 0
+~
+~
+End
+
+#35060
+Name ~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Door 0 0 0 35059 0 0
+~
+~
+End
+
+#35061
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35048 0 0
+~
+~
+Door 1 0 0 35068 0 0
+~
+~
+Door 2 0 0 35062 0 0
+~
+~
+Door 3 0 0 35054 0 0
+~
+~
+End
+
+#35062
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35061 0 0
+~
+~
+Door 1 0 0 35069 0 0
+~
+~
+Door 2 0 0 35063 0 0
+~
+~
+Door 3 0 0 35055 0 0
+~
+~
+End
+
+#35063
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35062 0 0
+~
+~
+Door 1 0 0 35070 0 0
+~
+~
+Door 2 0 0 35064 0 0
+~
+~
+Door 3 0 0 35056 0 0
+~
+~
+End
+
+#35064
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35063 0 0
+~
+~
+Door 1 0 0 35071 0 0
+~
+~
+Door 2 0 0 35065 0 0
+~
+~
+Door 3 0 0 35057 0 0
+~
+~
+End
+
+#35065
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35064 0 0
+~
+~
+Door 1 0 0 35072 0 0
+~
+~
+Door 2 0 0 35066 0 0
+~
+~
+Door 3 0 0 35057 0 0
+~
+~
+End
+
+#35066
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35065 0 0
+~
+~
+Door 1 0 0 35073 0 0
+~
+~
+Door 2 0 0 35036 0 0
+~
+~
+End
+
+#35067
+Name ~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Door 0 0 0 35066 0 0
+~
+~
+End
+
+#35068
+Name A Lake Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 10
+Door 0 0 0 35049 0 0
+~
+~
+Door 1 0 0 35075 0 0
+~
+~
+Door 2 0 0 35069 0 0
+~
+~
+Door 3 0 0 35061 0 0
+~
+~
+End
+
+#35069
+Name A Lake Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 10
+Door 0 0 0 35068 0 0
+~
+~
+Door 1 0 0 35076 0 0
+~
+~
+Door 2 0 0 35070 0 0
+~
+~
+Door 3 0 0 35062 0 0
+~
+~
+End
+
+#35070
+Name A Lake Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 10
+Door 0 0 0 35069 0 0
+~
+~
+Door 1 0 0 35077 0 0
+~
+~
+Door 2 0 0 35071 0 0
+~
+~
+Door 3 0 0 35063 0 0
+~
+~
+End
+
+#35071
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35070 0 0
+~
+~
+Door 1 0 0 35078 0 0
+~
+~
+Door 2 0 0 35072 0 0
+~
+~
+Door 3 0 0 35064 0 0
+~
+~
+End
+
+#35072
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35071 0 0
+~
+~
+Door 1 0 0 35079 0 0
+~
+~
+Door 2 0 0 35073 0 0
+~
+~
+Door 3 0 0 35065 0 0
+~
+~
+End
+
+#35073
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Door 0 0 0 35072 0 0
+~
+~
+Door 1 0 0 35080 0 0
+~
+~
+Door 2 0 0 35035 0 0
+~
+~
+Door 3 0 0 35066 0 0
+~
+~
+End
+
+#35074
+Name ~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Door 0 0 0 35073 0 0
+~
+~
+End
+
+#35075
+Name A Lake Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 10
+Door 0 0 0 35050 0 0
+~
+~
+Door 1 0 0 35082 0 0
+~
+~
+Door 2 0 0 35076 0 0
+~
+~
+Door 3 0 0 35068 0 0
+~
+~
+End
+
+#35076
+Name The Center Of Illusions~
+Descr
+~
+Flags2 4
+Flags 2
+Sector 10
+Reset M 35009 1 100
+Reset O 86 -1 1
+Door 0 0 0 35075 0 0
+~
+~
+Door 1 0 0 35083 0 0
+~
+~
+Door 2 0 0 35077 0 0
+~
+~
+Door 3 0 0 35069 0 0
+~
+~
+Door 5 0 0 35136 0 0
+~
+~
+End
+
+#35077
+Name A Lake Of Illusion~
+Descr
+~
+Sector 10
+Door 0 0 0 35076 0 0
+~
+~
+Door 1 0 0 35084 0 0
+~
+~
+Door 2 0 0 35078 0 0
+~
+~
+Door 3 0 0 35070 0 0
+~
+~
+End
+
+#35078
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35077 0 0
+~
+~
+Door 1 0 0 35085 0 0
+~
+~
+Door 2 0 0 35079 0 0
+~
+~
+Door 3 0 0 35071 0 0
+~
+~
+End
+
+#35079
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35078 0 0
+~
+~
+Door 1 0 0 35086 0 0
+~
+~
+Door 2 0 0 35080 0 0
+~
+~
+Door 3 0 0 35072 0 0
+~
+~
+End
+
+#35080
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35079 0 0
+~
+~
+Door 1 0 0 35087 0 0
+~
+~
+Door 2 0 0 35034 0 0
+~
+~
+Door 3 0 0 35073 0 0
+~
+~
+End
+
+#35081
+Name ~
+Descr
+~
+Door 0 0 0 35080 0 0
+~
+~
+End
+
+#35082
+Name A Lake Of Illusion~
+Descr
+~
+Sector 10
+Door 0 0 0 35051 0 0
+~
+~
+Door 1 0 0 35089 0 0
+~
+~
+Door 2 0 0 35083 0 0
+~
+~
+Door 3 0 0 35075 0 0
+~
+~
+End
+
+#35083
+Name A Lake Of Illusion~
+Descr
+~
+Sector 10
+Door 0 0 0 35082 0 0
+~
+~
+Door 1 0 0 35090 0 0
+~
+~
+Door 2 0 0 35084 0 0
+~
+~
+Door 3 0 0 35076 0 0
+~
+~
+End
+
+#35084
+Name A Lake Of Illusion~
+Descr
+~
+Sector 10
+Door 0 0 0 35083 0 0
+~
+~
+Door 1 0 0 35091 0 0
+~
+~
+Door 2 0 0 35085 0 0
+~
+~
+Door 3 0 0 35077 0 0
+~
+~
+End
+
+#35085
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35084 0 0
+~
+~
+Door 1 0 0 35092 0 0
+~
+~
+Door 2 0 0 35086 0 0
+~
+~
+Door 3 0 0 35078 0 0
+~
+~
+End
+
+#35086
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35085 0 0
+~
+~
+Door 1 0 0 35093 0 0
+~
+~
+Door 2 0 0 35087 0 0
+~
+~
+Door 3 0 0 35079 0 0
+~
+~
+End
+
+#35087
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35086 0 0
+~
+~
+Door 1 0 0 35094 0 0
+~
+~
+Door 2 0 0 35033 0 0
+~
+~
+Door 3 0 0 35080 0 0
+~
+~
+End
+
+#35088
+Name ~
+Descr
+~
+Door 0 0 0 35087 0 0
+~
+~
+End
+
+#35089
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35052 0 0
+~
+~
+Door 1 0 0 35096 0 0
+~
+~
+Door 2 0 0 35090 0 0
+~
+~
+Door 3 0 0 35082 0 0
+~
+~
+End
+
+#35090
+Name ~
+Descr
+~
+Sector 13
+Door 0 0 0 35089 0 0
+~
+~
+Door 1 0 0 35097 0 0
+~
+~
+Door 2 0 0 35091 0 0
+~
+~
+Door 3 0 0 35083 0 0
+~
+~
+End
+
+#35091
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35090 0 0
+~
+~
+Door 1 0 0 35098 0 0
+~
+~
+Door 2 0 0 35092 0 0
+~
+~
+Door 3 0 0 35084 0 0
+~
+~
+End
+
+#35092
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35091 0 0
+~
+~
+Door 1 0 0 35099 0 0
+~
+~
+Door 2 0 0 35093 0 0
+~
+~
+Door 3 0 0 35085 0 0
+~
+~
+End
+
+#35093
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35092 0 0
+~
+~
+Door 1 0 0 35100 0 0
+~
+~
+Door 2 0 0 35094 0 0
+~
+~
+Door 3 0 0 35086 0 0
+~
+~
+End
+
+#35094
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35093 0 0
+~
+~
+Door 1 0 0 35101 0 0
+~
+~
+Door 2 0 0 35032 0 0
+~
+~
+Door 3 0 0 35087 0 0
+~
+~
+End
+
+#35095
+Name ~
+Descr
+~
+Door 0 0 0 35094 0 0
+~
+~
+End
+
+#35096
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35053 0 0
+~
+~
+Door 1 0 0 35105 0 0
+~
+~
+Door 2 0 0 35097 0 0
+~
+~
+Door 3 0 0 35089 0 0
+~
+~
+End
+
+#35097
+Name ~
+Descr
+~
+Sector 13
+Door 0 0 0 35096 0 0
+~
+~
+Door 1 0 0 35106 0 0
+~
+~
+Door 2 0 0 35098 0 0
+~
+~
+Door 3 0 0 35090 0 0
+~
+~
+End
+
+#35098
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35097 0 0
+~
+~
+Door 1 0 0 35107 0 0
+~
+~
+Door 2 0 0 35099 0 0
+~
+~
+Door 3 0 0 35091 0 0
+~
+~
+End
+
+#35099
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35098 0 0
+~
+~
+Door 1 0 0 35108 0 0
+~
+~
+Door 2 0 0 35100 0 0
+~
+~
+Door 3 0 0 35092 0 0
+~
+~
+End
+
+#35100
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35099 0 0
+~
+~
+Door 1 0 0 35109 0 0
+~
+~
+Door 2 0 0 35101 0 0
+~
+~
+Door 3 0 0 35093 0 0
+~
+~
+End
+
+#35101
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35100 0 0
+~
+~
+Door 1 0 0 35110 0 0
+~
+~
+Door 2 0 0 35031 0 0
+~
+~
+Door 3 0 0 35094 0 0
+~
+~
+End
+
+#35102
+Name ~
+Descr
+~
+Door 0 0 0 35101 0 0
+~
+~
+End
+
+#35103
+Name ~
+Descr
+~
+Door 3 0 0 35053 0 0
+~
+~
+End
+
+#35104
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35019 0 0
+~
+~
+Door 1 0 0 35021 0 0
+~
+~
+Door 2 0 0 35105 0 0
+~
+~
+Door 3 0 0 35053 0 0
+~
+~
+End
+
+#35105
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35104 0 0
+~
+~
+Door 1 0 0 35022 0 0
+~
+~
+Door 2 0 0 35106 0 0
+~
+~
+Door 3 0 0 35096 0 0
+~
+~
+End
+
+#35106
+Name ~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35105 0 0
+~
+~
+Door 1 0 0 35023 0 0
+~
+~
+Door 2 0 0 35107 0 0
+~
+~
+Door 3 0 0 35097 0 0
+~
+~
+End
+
+#35107
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35106 0 0
+~
+~
+Door 1 0 0 35024 0 0
+~
+~
+Door 2 0 0 35108 0 0
+~
+~
+Door 3 0 0 35098 0 0
+~
+~
+End
+
+#35108
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Reset M 35001 1 100
+Door 0 0 0 35107 0 0
+~
+~
+Door 1 0 0 35025 0 0
+~
+~
+Door 2 0 0 35109 0 0
+~
+~
+Door 3 0 0 35099 0 0
+~
+~
+End
+
+#35109
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35108 0 0
+~
+~
+Door 1 0 0 35026 0 0
+~
+~
+Door 2 0 0 35110 0 0
+~
+~
+Door 3 0 0 35100 0 0
+~
+~
+End
+
+#35110
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35109 0 0
+~
+~
+Door 1 0 0 35027 0 0
+~
+~
+Door 2 0 0 35030 0 0
+~
+~
+Door 3 0 0 35101 0 0
+~
+~
+End
+
+#35111
+Name ~
+Descr
+~
+Door 0 0 0 35110 0 0
+~
+~
+End
+
+#35112
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35010 0 0
+~
+~
+Door 3 0 0 35113 0 0
+~
+~
+End
+
+#35113
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35112 0 0
+~
+~
+Door 3 0 0 35114 0 0
+~
+~
+End
+
+#35114
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35115 0 0
+~
+~
+Door 1 0 0 35113 0 0
+~
+~
+End
+
+#35115
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 2 0 0 35114 0 0
+~
+~
+Door 3 0 0 35116 0 0
+~
+~
+End
+
+#35116
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35115 0 0
+~
+~
+Door 3 0 0 35117 0 0
+~
+~
+End
+
+#35117
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 1 0 0 35116 0 0
+~
+~
+Door 3 0 0 35193 0 0
+~
+~
+End
+
+#35118
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35119 0 0
+~
+~
+Door 3 0 0 35020 0 0
+~
+~
+End
+
+#35119
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35120 0 0
+~
+~
+Door 3 0 0 35118 0 0
+~
+~
+End
+
+#35120
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35121 0 0
+~
+~
+Door 3 0 0 35119 0 0
+~
+~
+End
+
+#35121
+Name The Mountains Of Illusion~
+Descr
+~
+Flags 2
+Sector 13
+Door 1 0 0 35122 0 0
+~
+~
+Door 2 0 0 35120 0 0
+~
+~
+End
+
+#35122
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35123 0 0
+~
+~
+Door 3 0 0 35121 0 0
+~
+~
+End
+
+#35123
+Name A Crevice of Pure Earth~
+Descr
+~
+Sector 13
+Reset M 35004 1 100
+Reset O 35009 -4 50
+Reset O 35004 -5 100
+Door 3 0 0 35122 0 0
+~
+~
+End
+
+#35124
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35005 0 0
+~
+~
+Door 3 0 0 35125 0 0
+~
+~
+End
+
+#35125
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35124 0 0
+~
+~
+Door 3 0 0 35126 0 0
+~
+~
+End
+
+#35126
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 1 0 0 35125 0 0
+~
+~
+Door 2 0 0 35127 0 0
+~
+~
+End
+
+#35127
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35126 0 0
+~
+~
+Door 3 0 0 35128 0 0
+~
+~
+End
+
+#35128
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35127 0 0
+~
+~
+Door 3 0 0 35129 0 0
+~
+~
+End
+
+#35129
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 1 0 0 35128 0 0
+~
+~
+Door 3 0 0 35189 0 0
+~
+~
+End
+
+#35130
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35131 0 0
+~
+~
+Door 3 0 0 35026 0 0
+~
+~
+End
+
+#35131
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35132 0 0
+~
+~
+Door 3 0 0 35130 0 0
+~
+~
+End
+
+#35132
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 2 0 0 35133 0 0
+~
+~
+Door 3 0 0 35131 0 0
+~
+~
+End
+
+#35133
+Name The Mountains Of Illusion~
+Descr
+~
+Flags 2
+Sector 13
+Door 0 0 0 35132 0 0
+~
+~
+Door 1 0 0 35134 0 0
+~
+~
+End
+
+#35134
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35135 0 0
+~
+~
+Door 3 0 0 35133 0 0
+~
+~
+End
+
+#35135
+Name A Crevice Of Water~
+Descr
+~
+Sector 13
+Reset M 35005 1 100
+Reset O 35008 -4 50
+Reset O 35003 -5 100
+Door 3 0 0 35134 0 0
+~
+~
+End
+
+#35136
+Name A Old Passage Way~
+Descr
+~
+Sector 12
+Door 4 0 0 35076 0 0
+~
+~
+Door 5 0 0 35137 0 0
+~
+~
+End
+
+#35137
+Name A Old Passage Way~
+Descr
+~
+Sector 12
+Door 4 0 0 35136 0 0
+~
+~
+Door 5 0 0 35138 0 0
+~
+~
+End
+
+#35138
+Name A Passage Junction~
+Descr
+~
+Sector 44
+Door 0 0 0 35140 0 0
+~
+~
+Door 1 0 0 35139 0 0
+~
+~
+Door 2 0 0 35142 0 0
+~
+~
+Door 3 0 0 35141 0 0
+~
+~
+Door 4 0 0 35137 0 0
+~
+~
+End
+
+#35139
+Name A Small Alcove~
+Descr
+~
+Sector 44
+Reset M 35007 1 100
+Door 3 0 0 35138 0 0
+~
+~
+End
+
+#35140
+Name A Small Alcove~
+Descr
+~
+Sector 44
+Reset M 35007 1 100
+Door 0 259 0 35212 30 30
+~
+rock~
+Door 2 0 0 35138 0 0
+~
+~
+End
+
+#35141
+Name A Small Alcove~
+Descr
+~
+Sector 44
+Reset M 35007 1 100
+Door 1 0 0 35138 0 0
+~
+~
+End
+
+#35142
+Name A Crevice Of Spirits~
+Descr
+~
+Sector 44
+Reset M 35006 1 100
+Reset O 35010 -4 50
+Reset O 35005 -5 100
+Door 0 0 0 35138 0 0
+~
+~
+End
+
+#35143
+Name A Glowing Pathway~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Flags 2
+Sector 34
+Reset M 35037 1 100
+Door 0 0 0 35144 0 0
+~
+~
+Door 2 0 0 35015 0 0
+~
+~
+End
+
+#35144
+Name A Glowing Pathway~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 34
+Door 0 0 0 35145 0 0
+~
+~
+Door 2 0 0 35143 0 0
+~
+~
+End
+
+#35145
+Name A Glowing Pathway~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 34
+Reset M 35010 1 100
+Door 0 0 0 35146 0 0
+~
+~
+Door 2 0 0 35144 0 0
+~
+~
+End
+
+#35146
+Name Outside The Tower Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 34
+Door 1 0 0 35150 0 0
+~
+~
+Door 2 0 0 35145 0 0
+~
+~
+Door 3 0 0 35147 0 0
+~
+~
+End
+
+#35147
+Name Outside The Tower Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 34
+Door 1 0 0 35146 0 0
+~
+~
+Door 3 0 0 35148 0 0
+~
+~
+End
+
+#35148
+Name Outside The Tower Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 34
+Door 1 0 0 35147 0 0
+~
+~
+Door 3 0 0 35149 0 0
+~
+~
+End
+
+#35149
+Name Outside The Tower Of Illusion~
+Descr
+~
+Sector 34
+Reset M 35037 1 100
+Door 1 0 0 35148 0 0
+~
+~
+End
+
+#35150
+Name Outside The Tower Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 34
+Door 1 0 0 35151 0 0
+~
+~
+Door 3 0 0 35146 0 0
+~
+~
+End
+
+#35151
+Name Outside The Tower Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 34
+Door 1 0 0 35152 0 0
+~
+~
+Door 3 0 0 35150 0 0
+~
+~
+End
+
+#35152
+Name Outside The Tower Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 34
+Reset M 35037 1 100
+Door 3 0 0 35151 0 0
+~
+~
+End
+
+#35153
+Name The Mountains Of Illusion~
+Descr
+The high mountains of illusion break your concentration when you look at
+them. A huge tower towers over the mountains to the north. The lands are
+quiest and calm. 
+~
+Sector 13
+Reset M 35001 1 100
+Door 1 0 0 35154 0 0
+~
+~
+Door 3 0 0 35023 0 0
+~
+~
+End
+
+#35154
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35155 0 0
+~
+~
+Door 3 0 0 35153 0 0
+~
+~
+End
+
+#35155
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 1 0 0 35156 0 0
+~
+~
+Door 3 0 0 35154 0 0
+~
+~
+End
+
+#35156
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35157 0 0
+~
+~
+Door 3 0 0 35155 0 0
+~
+~
+End
+
+#35157
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35158 0 0
+~
+~
+Door 3 0 0 35156 0 0
+~
+~
+End
+
+#35158
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 1 0 0 35159 0 0
+~
+~
+Door 3 0 0 35157 0 0
+~
+~
+End
+
+#35159
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35166 0 0
+~
+~
+Door 1 0 0 35172 0 0
+~
+~
+Door 2 0 0 35160 0 0
+~
+~
+Door 3 0 0 35158 0 0
+~
+~
+End
+
+#35160
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35159 0 0
+~
+~
+Door 3 0 0 35161 0 0
+~
+~
+End
+
+#35161
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35160 0 0
+~
+~
+Door 3 0 0 35162 0 0
+~
+~
+End
+
+#35162
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35161 0 0
+~
+~
+Door 3 0 0 35163 0 0
+~
+~
+End
+
+#35163
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35162 0 0
+~
+~
+Door 3 0 0 35164 0 0
+~
+~
+End
+
+#35164
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35163 0 0
+~
+~
+Door 3 0 0 35165 0 0
+~
+~
+End
+
+#35165
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35164 0 0
+~
+~
+End
+
+#35166
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 2 0 0 35159 0 0
+~
+~
+Door 3 0 0 35167 0 0
+~
+~
+End
+
+#35167
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35166 0 0
+~
+~
+Door 3 0 0 35168 0 0
+~
+~
+End
+
+#35168
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35167 0 0
+~
+~
+Door 3 0 0 35169 0 0
+~
+~
+End
+
+#35169
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35168 0 0
+~
+~
+Door 3 0 0 35170 0 0
+~
+~
+End
+
+#35170
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35169 0 0
+~
+~
+Door 3 0 0 35171 0 0
+~
+~
+End
+
+#35171
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35170 0 0
+~
+~
+End
+
+#35172
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35173 0 0
+~
+~
+Door 3 0 0 35159 0 0
+~
+~
+End
+
+#35173
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35174 0 0
+~
+~
+Door 1 0 0 35187 0 0
+~
+~
+Door 2 0 0 35178 0 0
+~
+~
+Door 3 0 0 35172 0 0
+~
+~
+End
+
+#35174
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35175 0 0
+~
+~
+Door 2 0 0 35173 0 0
+~
+~
+End
+
+#35175
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35176 0 0
+~
+~
+Door 1 0 0 35188 0 0
+~
+~
+Door 2 0 0 35174 0 0
+~
+~
+End
+
+#35176
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35177 0 0
+~
+~
+Door 1 0 0 35182 0 0
+~
+~
+Door 2 0 0 35175 0 0
+~
+~
+End
+
+#35177
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 2 0 0 35176 0 0
+~
+~
+End
+
+#35178
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35173 0 0
+~
+~
+Door 2 0 0 35179 0 0
+~
+~
+End
+
+#35179
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35178 0 0
+~
+~
+Door 1 0 0 35186 0 0
+~
+~
+Door 2 0 0 35180 0 0
+~
+~
+End
+
+#35180
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 0 0 0 35179 0 0
+~
+~
+Door 1 0 0 35184 0 0
+~
+~
+Door 2 0 0 35181 0 0
+~
+~
+End
+
+#35181
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35180 0 0
+~
+~
+End
+
+#35182
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35183 0 0
+~
+~
+Door 2 0 0 35188 0 0
+~
+~
+Door 3 0 0 35176 0 0
+~
+~
+End
+
+#35183
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 3 0 0 35182 0 0
+~
+~
+End
+
+#35184
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35186 0 0
+~
+~
+Door 1 0 0 35185 0 0
+~
+~
+Door 3 0 0 35180 0 0
+~
+~
+End
+
+#35185
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 3 0 0 35184 0 0
+~
+~
+End
+
+#35186
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Reset M 35001 1 100
+Door 2 0 0 35184 0 0
+~
+~
+Door 3 0 0 35179 0 0
+~
+~
+End
+
+#35187
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 3 0 0 35173 0 0
+~
+~
+End
+
+#35188
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35182 0 0
+~
+~
+Door 3 0 0 35175 0 0
+~
+~
+End
+
+#35189
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35129 0 0
+~
+~
+Door 3 0 0 35190 0 0
+~
+~
+End
+
+#35190
+Name The Mountains Of Illusion~
+Descr
+~
+Flags 2
+Sector 13
+Door 0 0 0 35191 0 0
+~
+~
+Door 1 0 0 35189 0 0
+~
+~
+End
+
+#35191
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 0 0 0 35192 0 0
+~
+~
+Door 2 0 0 35190 0 0
+~
+~
+End
+
+#35192
+Name A Crevice Of Wind~
+Descr
+~
+Sector 13
+Reset M 35002 1 100
+Reset O 35007 -4 50
+Reset O 35002 -5 100
+Door 2 0 0 35191 0 0
+~
+~
+End
+
+#35193
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35117 0 0
+~
+~
+Door 3 0 0 35194 0 0
+~
+~
+End
+
+#35194
+Name The Mountains Of Illusion~
+Descr
+~
+Sector 13
+Door 1 0 0 35193 0 0
+~
+~
+Door 2 0 0 35195 0 0
+~
+~
+End
+
+#35195
+Name The Mountains Of Illusion~
+Descr
+~
+Flags 2
+Sector 13
+Door 0 0 0 35194 0 0
+~
+~
+Door 2 0 0 35196 0 0
+~
+~
+End
+
+#35196
+Name A Flaming Crevice~
+Descr
+~
+Sector 13
+Reset M 35003 1 100
+Reset O 35006 -4 50
+Reset O 35001 -5 100
+Door 0 0 0 35195 0 0
+~
+~
+End
+
+#35197
+Name Inside The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 34
+Door 0 0 0 35198 0 0
+~
+~
+Door 2 0 0 35146 0 0
+~
+~
+End
+
+#35198
+Name Inside The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 34
+Door 0 0 0 35199 0 0
+~
+~
+Door 2 0 0 35197 0 0
+~
+~
+End
+
+#35199
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 4
+Sector 34
+Door 0 0 0 35225 0 0
+~
+~
+Door 1 0 0 35200 0 0
+~
+~
+Door 2 0 0 35198 0 0
+~
+~
+Door 3 0 0 35202 0 0
+~
+~
+End
+
+#35200
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35201 0 0
+~
+~
+Door 3 0 0 35199 0 0
+~
+~
+End
+
+#35201
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35211 0 0
+~
+~
+Door 1 3 0 35214 30 30
+~
+door~
+Door 3 0 0 35200 0 0
+~
+~
+End
+
+#35202
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35199 0 0
+~
+~
+Door 3 0 0 35203 0 0
+~
+~
+End
+
+#35203
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35204 0 0
+~
+~
+Door 1 0 0 35202 0 0
+~
+~
+End
+
+#35204
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35205 0 0
+~
+~
+Door 2 0 0 35203 0 0
+~
+~
+End
+
+#35205
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35207 0 0
+~
+~
+Door 2 0 0 35204 0 0
+~
+~
+Door 3 0 0 35228 0 0
+~
+~
+End
+
+#35207
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35208 0 0
+~
+~
+Door 3 0 0 35205 0 0
+~
+~
+End
+
+#35208
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35209 0 0
+~
+~
+Door 3 0 0 35207 0 0
+~
+~
+End
+
+#35209
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35210 0 0
+~
+~
+Door 3 0 0 35208 0 0
+~
+~
+End
+
+#35210
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35218 0 0
+~
+~
+Door 1 3 0 35216 30 30
+~
+door~
+Door 2 0 0 35211 0 0
+~
+~
+Door 3 0 0 35209 0 0
+~
+~
+End
+
+#35211
+Name ~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35210 0 0
+~
+~
+Door 2 0 0 35201 0 0
+~
+~
+End
+
+#35212
+Name A Damp Passageway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 44
+Door 0 256 0 35213 30 30
+~
+~
+Door 2 259 0 35140 30 30
+~
+rock~
+End
+
+#35213
+Name The Krakens Resting Place~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 44
+Reset M 35008 1 100
+Reset O 35030 -1 3
+Door 2 0 0 35212 0 0
+~
+~
+End
+
+#35214
+Name A Shadowy Bank~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35215 0 0
+~
+~
+Door 3 3 0 35201 30 30
+~
+door~
+End
+
+#35215
+Name A Shadowy Bank~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35015 1 100
+Door 3 0 0 35214 0 0
+~
+~
+End
+
+#35216
+Name A Shadowy Store~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35217 0 0
+~
+~
+Door 3 3 0 35210 30 30
+~
+door~
+End
+
+#35217
+Name A Shadowy Armorer~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35014 1 100
+Door 3 0 0 35216 0 0
+~
+~
+End
+
+#35218
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35219 0 0
+~
+~
+Door 2 0 0 35210 0 0
+~
+~
+End
+
+#35219
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 2 0 0 35218 0 0
+~
+~
+Door 3 0 0 35220 0 0
+~
+~
+End
+
+#35220
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35219 0 0
+~
+~
+Door 3 0 0 35221 0 0
+~
+~
+End
+
+#35221
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 4
+Sector 34
+Door 0 3 0 35222 30 30
+~
+door~
+Door 1 0 0 35220 0 0
+~
+~
+Door 2 3 0 35223 30 30
+~
+door~
+Door 3 3 0 35224 30 30
+~
+door~
+End
+
+#35222
+Name A Room Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35012 1 100
+Door 2 3 0 35221 30 30
+~
+door~
+End
+
+#35223
+Name A Room Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35013 1 100
+Door 0 3 0 35221 30 30
+~
+door~
+End
+
+#35224
+Name A Room Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35012 1 100
+Door 1 3 0 35221 30 30
+~
+door~
+End
+
+#35225
+Name A Iron Room~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35011 1 100
+Reset O 35021 -1 100
+Door 2 0 0 35199 0 0
+~
+~
+Door 5 279 35021 35226 30 30
+~
+dungeongate~
+End
+
+#35226
+Name A Twisting Passageway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 45
+Door 4 20 35021 35225 30 30
+~
+dungeongate~
+Door 5 0 0 35227 0 0
+~
+~
+End
+
+#35227
+Name A Twisting Passageway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 45
+Door 0 0 0 35502 0 0
+~
+~
+Door 4 0 0 35226 0 0
+~
+~
+End
+
+#35228
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35205 0 0
+~
+~
+Door 3 0 0 35229 0 0
+~
+~
+End
+
+#35229
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35228 0 0
+~
+~
+Door 4 0 0 35230 0 0
+~
+~
+End
+
+#35230
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35231 0 0
+~
+~
+Door 5 0 0 35229 0 0
+~
+~
+End
+
+#35231
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35232 0 0
+~
+~
+Door 3 0 0 35230 0 0
+~
+~
+End
+
+#35232
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35233 0 0
+~
+~
+Door 3 0 0 35231 0 0
+~
+~
+End
+
+#35233
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 3 0 35234 30 30
+~
+barracks~
+Door 1 0 0 35240 0 0
+~
+~
+Door 2 3 0 35237 30 30
+~
+door~
+Door 3 0 0 35232 0 0
+~
+~
+End
+
+#35234
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35017 1 100
+Door 0 0 0 35235 0 0
+~
+~
+Door 2 3 0 35233 30 30
+~
+barracks~
+Door 3 0 0 35268 0 0
+~
+~
+End
+
+#35235
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35017 1 100
+Door 0 0 0 35236 0 0
+~
+~
+Door 2 0 0 35234 0 0
+~
+~
+Door 3 0 0 35270 0 0
+~
+~
+End
+
+#35236
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 2 0 0 35235 0 0
+~
+~
+Door 3 0 0 35271 0 0
+~
+~
+End
+
+#35237
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 3 0 35233 30 30
+~
+door~
+Door 2 0 0 35238 0 0
+~
+~
+End
+
+#35238
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35237 0 0
+~
+~
+Door 2 0 0 35239 0 0
+~
+~
+End
+
+#35239
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35238 0 0
+~
+~
+Door 4 0 0 35277 0 0
+~
+~
+End
+
+#35240
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35241 0 0
+~
+~
+Door 3 0 0 35233 0 0
+~
+~
+End
+
+#35241
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35242 0 0
+~
+~
+Door 3 0 0 35240 0 0
+~
+~
+End
+
+#35242
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35243 0 0
+~
+~
+Door 3 0 0 35241 0 0
+~
+~
+End
+
+#35243
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 3 0 35244 30 30
+~
+library~
+Door 2 0 0 35248 0 0
+~
+~
+Door 3 0 0 35242 0 0
+~
+~
+End
+
+#35244
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35245 0 0
+~
+~
+Door 1 0 0 35260 0 0
+~
+~
+Door 2 3 0 35243 30 30
+~
+library~
+Door 3 0 0 35267 0 0
+~
+~
+End
+
+#35245
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35246 0 0
+~
+~
+Door 1 0 0 35261 0 0
+~
+~
+Door 2 0 0 35244 0 0
+~
+~
+Door 3 0 0 35266 0 0
+~
+~
+End
+
+#35246
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35247 0 0
+~
+~
+Door 1 0 0 35262 0 0
+~
+~
+Door 2 0 0 35245 0 0
+~
+~
+Door 3 0 0 35265 0 0
+~
+~
+End
+
+#35247
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35018 1 100
+Door 1 0 0 35263 0 0
+~
+~
+Door 2 0 0 35246 0 0
+~
+~
+Door 3 0 0 35264 0 0
+~
+~
+End
+
+#35248
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35243 0 0
+~
+~
+Door 1 3 0 35253 30 30
+~
+door~
+Door 2 0 0 35249 0 0
+~
+~
+Door 3 3 0 35252 30 30
+~
+door~
+End
+
+#35249
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35248 0 0
+~
+~
+Door 1 3 0 35255 30 30
+~
+door~
+Door 2 0 0 35250 0 0
+~
+~
+Door 3 3 0 35254 30 30
+~
+door~
+End
+
+#35250
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35249 0 0
+~
+~
+Door 1 3 0 35257 30 30
+~
+door~
+Door 2 0 0 35251 0 0
+~
+~
+Door 3 3 0 35256 30 30
+~
+door~
+End
+
+#35251
+Name A Small Hallway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 4
+Sector 34
+Door 0 0 0 35250 0 0
+~
+~
+Door 1 3 0 35259 30 30
+~
+door~
+Door 3 3 0 35258 30 30
+~
+door~
+End
+
+#35252
+Name A Room Of Fragmenting Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35020 1 100
+Door 1 3 0 35248 30 30
+~
+door~
+End
+
+#35253
+Name A Room Of Fragmenting Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35021 1 100
+Door 3 3 0 35248 30 30
+~
+door~
+End
+
+#35254
+Name A Room Of Fragmenting Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Flags 4
+Sector 34
+Reset M 35020 1 100
+Door 1 3 0 35249 30 30
+~
+door~
+End
+
+#35255
+Name A Room Of Fragmenting Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Flags 4
+Sector 34
+Reset M 35021 1 100
+Door 3 3 0 35249 30 30
+~
+door~
+End
+
+#35256
+Name A Room Of Fragmenting Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35020 1 100
+Door 1 3 0 35250 30 30
+~
+door~
+End
+
+#35257
+Name A Room Of Fragmenting Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35021 1 100
+Door 3 3 0 35250 30 30
+~
+door~
+End
+
+#35258
+Name A Room Of Fragmenting Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35020 1 100
+Door 1 3 0 35251 30 30
+~
+door~
+End
+
+#35259
+Name A Room Of Fragmenting Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35021 1 100
+Door 3 3 0 35251 30 30
+~
+door~
+End
+
+#35260
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35019 1 100
+Door 0 0 0 35261 0 0
+~
+~
+Door 3 0 0 35244 0 0
+~
+~
+End
+
+#35261
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35262 0 0
+~
+~
+Door 2 0 0 35260 0 0
+~
+~
+Door 3 0 0 35245 0 0
+~
+~
+End
+
+#35262
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35019 1 100
+Door 0 0 0 35263 0 0
+~
+~
+Door 2 0 0 35261 0 0
+~
+~
+Door 3 0 0 35246 0 0
+~
+~
+End
+
+#35263
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 2 0 0 35262 0 0
+~
+~
+Door 3 0 0 35247 0 0
+~
+~
+End
+
+#35264
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35247 0 0
+~
+~
+Door 2 0 0 35265 0 0
+~
+~
+End
+
+#35265
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35019 1 100
+Door 0 0 0 35264 0 0
+~
+~
+Door 1 0 0 35246 0 0
+~
+~
+Door 2 0 0 35266 0 0
+~
+~
+End
+
+#35266
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35265 0 0
+~
+~
+Door 1 0 0 35245 0 0
+~
+~
+Door 2 0 0 35267 0 0
+~
+~
+End
+
+#35267
+Name A Library Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35019 1 100
+Door 0 0 0 35266 0 0
+~
+~
+Door 1 0 0 35244 0 0
+~
+~
+End
+
+#35268
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35270 0 0
+~
+~
+Door 1 0 0 35234 0 0
+~
+~
+Door 3 0 0 35273 0 0
+~
+~
+End
+
+#35269
+Name ~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Door 1 0 0 35268 0 0
+~
+~
+End
+
+#35270
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35271 0 0
+~
+~
+Door 1 0 0 35235 0 0
+~
+~
+Door 2 0 0 35268 0 0
+~
+~
+Door 3 0 0 35274 0 0
+~
+~
+End
+
+#35271
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35017 1 100
+Door 0 0 0 35272 0 0
+~
+~
+Door 1 0 0 35236 0 0
+~
+~
+Door 2 0 0 35270 0 0
+~
+~
+Door 3 0 0 35275 0 0
+~
+~
+End
+
+#35272
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 2 0 0 35271 0 0
+~
+~
+Door 3 0 0 35276 0 0
+~
+~
+End
+
+#35273
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35017 1 100
+Door 0 0 0 35274 0 0
+~
+~
+Door 1 0 0 35268 0 0
+~
+~
+End
+
+#35274
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35275 0 0
+~
+~
+Door 1 0 0 35270 0 0
+~
+~
+Door 2 0 0 35273 0 0
+~
+~
+End
+
+#35275
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35017 1 100
+Door 0 0 0 35276 0 0
+~
+~
+Door 1 0 0 35271 0 0
+~
+~
+Door 2 0 0 35274 0 0
+~
+~
+End
+
+#35276
+Name A Barracks Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35016 1 100
+Reset O 35032 -1 1
+Door 1 0 0 35272 0 0
+~
+~
+Door 2 0 0 35275 0 0
+~
+~
+End
+
+#35277
+Name Before The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 3 0 35278 30 30
+~
+illusion~
+Door 5 0 0 35239 0 0
+~
+~
+End
+
+#35278
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 32
+Flags 12293
+Sector 34
+Door 0 0 0 35279 0 0
+~
+~
+Door 2 3 0 35277 30 30
+~
+illusion~
+Door 3 0 0 35287 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35279
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 256
+Flags 12293
+Sector 34
+Door 0 0 0 35280 0 0
+~
+~
+Door 2 0 0 35278 0 0
+~
+~
+Door 3 0 0 35286 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35280
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 32
+Flags 12293
+Sector 34
+Door 0 0 0 35281 0 0
+~
+~
+Door 2 0 0 35279 0 0
+~
+~
+Door 3 0 0 35285 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35281
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 256
+Flags 12293
+Sector 34
+Door 0 0 0 35282 0 0
+~
+~
+Door 2 0 0 35280 0 0
+~
+~
+Door 3 0 0 35284 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35282
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 32
+Flags 12293
+Sector 34
+Door 2 0 0 35281 0 0
+~
+~
+Door 3 0 0 35283 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35283
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 134
+Flags 12293
+Sector 34
+Door 1 0 0 35282 0 0
+~
+~
+Door 2 0 0 35284 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35301 0 0
+~
+~
+End
+
+#35284
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 512
+Flags 12293
+Sector 34
+Door 0 0 0 35283 0 0
+~
+~
+Door 1 0 0 35281 0 0
+~
+~
+Door 2 0 0 35285 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35285
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 128
+Flags 12293
+Sector 34
+Door 0 0 0 35284 0 0
+~
+~
+Door 1 0 0 35280 0 0
+~
+~
+Door 2 0 0 35286 0 0
+~
+~
+Door 4 0 0 35302 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35286
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 512
+Flags 12293
+Sector 34
+Door 0 0 0 35285 0 0
+~
+~
+Door 1 0 0 35279 0 0
+~
+~
+Door 2 0 0 35287 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35287
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 128
+Flags 12293
+Sector 34
+Door 0 0 0 35286 0 0
+~
+~
+Door 1 0 0 35278 0 0
+~
+~
+Door 2 0 0 35288 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35288
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 12293
+Sector 34
+Door 0 0 0 35287 0 0
+~
+~
+Door 3 0 0 35289 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35289
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 12293
+Sector 34
+Door 1 0 0 35288 0 0
+~
+~
+Door 3 0 0 35290 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35290
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 12293
+Sector 34
+Door 0 0 0 35291 0 0
+~
+~
+Door 1 0 0 35289 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35291
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 1024
+Flags 12293
+Sector 34
+Door 0 0 0 35292 0 0
+~
+~
+Door 2 0 0 35290 0 0
+~
+~
+Door 3 0 0 35300 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35292
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 2048
+Flags 12293
+Sector 34
+Door 0 0 0 35293 0 0
+~
+~
+Door 2 0 0 35291 0 0
+~
+~
+Door 3 0 0 35299 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35293
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 1024
+Flags 12293
+Sector 34
+Door 0 0 0 35294 0 0
+~
+~
+Door 2 0 0 35292 0 0
+~
+~
+Door 3 0 0 35298 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35294
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 2048
+Flags 12293
+Sector 34
+Door 0 0 0 35295 0 0
+~
+~
+Door 2 0 0 35293 0 0
+~
+~
+Door 3 0 0 35297 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35295
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 1024
+Flags 12293
+Sector 34
+Door 2 0 0 35294 0 0
+~
+~
+Door 3 0 0 35296 0 0
+~
+~
+Door 4 0 0 35305 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35296
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 2048
+Flags 12293
+Sector 34
+Door 1 0 0 35295 0 0
+~
+~
+Door 2 0 0 35297 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35297
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 1024
+Flags 12293
+Sector 34
+Door 0 0 0 35296 0 0
+~
+~
+Door 1 0 0 35294 0 0
+~
+~
+Door 2 0 0 35298 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35298
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 12293
+Sector 34
+Door 0 0 0 35297 0 0
+~
+~
+Door 1 0 0 35293 0 0
+~
+~
+Door 2 0 0 35299 0 0
+~
+~
+Door 4 0 0 35307 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35299
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 12293
+Sector 34
+Door 0 0 0 35298 0 0
+~
+~
+Door 1 0 0 35292 0 0
+~
+~
+Door 2 0 0 35300 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35300
+Name The Trial Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 12293
+Sector 34
+Door 0 0 0 35299 0 0
+~
+~
+Door 1 0 0 35291 0 0
+~
+~
+Door 4 0 0 35146 0 0
+~
+~
+Door 5 0 0 35146 0 0
+~
+~
+End
+
+#35301
+Name A Damp Passageway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 4 0 0 35283 0 0
+~
+~
+Door 5 259 0 35303 30 30
+~
+mistydoor~
+End
+
+#35302
+Name A Damp Passage Way~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 4 259 0 35304 30 30
+~
+secretpassage~
+Door 5 0 0 35285 0 0
+~
+~
+End
+
+#35303
+Name A Dragons Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35022 1 100
+Door 4 259 0 35301 30 30
+~
+mistydoor~
+End
+
+#35304
+Name The Room Of Pure Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35023 1 100
+Door 5 259 0 35302 30 30
+~
+secretpassage~
+End
+
+#35305
+Name A Damp Room~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 4 259 0 35306 30 30
+~
+hidden~
+Door 5 0 0 35295 0 0
+~
+~
+End
+
+#35306
+Name The Room Of The Hidden Thief~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35024 1 100
+Reset O 35031 -1 1
+Door 5 259 0 35305 30 30
+~
+hidden~
+End
+
+#35307
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35308 0 0
+~
+~
+Door 5 0 0 35298 0 0
+~
+~
+End
+
+#35308
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35309 0 0
+~
+~
+Door 2 0 0 35307 0 0
+~
+~
+End
+
+#35309
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 6
+Sector 34
+Door 0 0 0 35310 0 0
+~
+~
+End
+
+#35310
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35311 0 0
+~
+~
+Door 2 0 0 35309 0 0
+~
+~
+End
+
+#35311
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Flags 4
+Sector 34
+Door 0 0 0 35312 0 0
+~
+~
+Door 2 0 0 35310 0 0
+~
+~
+End
+
+#35312
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35313 0 0
+~
+~
+Door 2 0 0 35311 0 0
+~
+~
+End
+
+#35313
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35314 0 0
+~
+~
+Door 2 0 0 35312 0 0
+~
+~
+End
+
+#35314
+Name The Junction Of Battle~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 4
+Sector 34
+Reset O 35011 -5 100
+Door 0 259 0 35325 50 50
+~
+illusions~
+Door 1 0 0 35315 0 0
+~
+~
+Door 2 0 0 35313 0 0
+~
+~
+Door 3 0 0 35320 0 0
+~
+~
+Door 5 259 0 35146 34 34
+~
+time~
+End
+
+#35315
+Name The Magical Pathway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35316 0 0
+~
+~
+Door 3 0 0 35314 0 0
+~
+~
+End
+
+#35316
+Name The Magical Pathway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35317 0 0
+~
+~
+Door 3 0 0 35315 0 0
+~
+~
+End
+
+#35317
+Name The Magical Pathway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35318 0 0
+~
+~
+Door 3 0 0 35316 0 0
+~
+~
+End
+
+#35318
+Name The Magical Pathway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 259 0 35319 34 34
+~
+seal~
+Door 3 0 0 35317 0 0
+~
+~
+End
+
+#35319
+Name The Magical Pathway~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 6
+Sector 34
+Reset O 35014 -5 100
+Door 3 259 0 35318 34 34
+~
+seal~
+End
+
+#35320
+Name The Pathway Of Blood~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35314 0 0
+~
+~
+Door 3 0 0 35321 0 0
+~
+~
+End
+
+#35321
+Name The Pathway Of Blood~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35320 0 0
+~
+~
+Door 3 0 0 35322 0 0
+~
+~
+End
+
+#35322
+Name The Pathway Of Blood~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35321 0 0
+~
+~
+Door 3 0 0 35323 0 0
+~
+~
+End
+
+#35323
+Name The Pathway Of Blood~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35322 0 0
+~
+~
+Door 3 259 0 35324 34 34
+~
+blood~
+End
+
+#35324
+Name The Pathway Of Blood~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 6
+Sector 34
+Reset O 35012 -5 100
+Door 1 259 0 35323 34 34
+~
+blood~
+End
+
+#35325
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 259 0 35326 50 50
+~
+secret~
+Door 1 259 0 35435 50 50
+~
+portal~
+Door 2 259 0 35314 50 50
+~
+illusions~
+Door 3 259 0 35434 50 50
+~
+doorway~
+Door 4 0 0 35444 0 0
+~
+~
+Door 5 259 0 35445 50 50
+~
+spirit~
+End
+
+#35326
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 259 0 35327 50 50
+~
+hidden~
+Door 1 259 0 35437 50 50
+~
+rock~
+Door 2 259 0 35325 50 50
+~
+secret~
+Door 3 259 0 35436 50 50
+~
+rockplate~
+Door 4 259 0 35442 50 50
+~
+sky~
+Door 5 259 0 35443 50 50
+~
+grate~
+End
+
+#35327
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 259 0 35328 50 50
+~
+shifting~
+Door 1 259 0 35439 50 50
+~
+bookshelf~
+Door 2 259 0 35326 50 50
+~
+hidden~
+Door 3 259 0 35438 50 50
+~
+wall~
+Door 4 259 0 35440 30 30
+~
+air~
+Door 5 259 0 35441 50 50
+~
+pit~
+End
+
+#35328
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 2 259 0 35327 50 50
+~
+shifting~
+Door 4 0 0 35374 0 0
+~
+~
+End
+
+#35329
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35025 1 100
+Reset O 35013 -5 100
+Door 0 0 0 35330 0 0
+~
+~
+Door 1 0 0 35344 0 0
+~
+~
+End
+
+#35330
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35331 0 0
+~
+~
+Door 1 0 0 35343 0 0
+~
+~
+Door 2 0 0 35329 0 0
+~
+~
+End
+
+#35331
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35025 1 100
+Door 0 0 0 35332 0 0
+~
+~
+Door 1 0 0 35342 0 0
+~
+~
+Door 2 0 0 35330 0 0
+~
+~
+End
+
+#35332
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35333 0 0
+~
+~
+Door 1 0 0 35341 0 0
+~
+~
+Door 2 0 0 35331 0 0
+~
+~
+End
+
+#35333
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35334 0 0
+~
+~
+Door 1 0 0 35340 0 0
+~
+~
+Door 2 0 0 35332 0 0
+~
+~
+End
+
+#35334
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35026 1 100
+Reset M 35025 1 100
+Door 0 0 0 35335 0 0
+~
+~
+Door 1 0 0 35339 0 0
+~
+~
+Door 2 0 0 35333 0 0
+~
+~
+End
+
+#35335
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35336 0 0
+~
+~
+Door 1 0 0 35338 0 0
+~
+~
+Door 2 0 0 35334 0 0
+~
+~
+End
+
+#35336
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35337 0 0
+~
+~
+Door 2 0 0 35335 0 0
+~
+~
+End
+
+#35337
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35025 1 100
+Door 1 0 0 35352 0 0
+~
+~
+Door 2 0 0 35338 0 0
+~
+~
+Door 3 0 0 35336 0 0
+~
+~
+End
+
+#35338
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35337 0 0
+~
+~
+Door 1 0 0 35351 0 0
+~
+~
+Door 2 0 0 35339 0 0
+~
+~
+Door 3 0 0 35335 0 0
+~
+~
+End
+
+#35339
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35026 1 100
+Door 0 0 0 35338 0 0
+~
+~
+Door 1 0 0 35350 0 0
+~
+~
+Door 2 0 0 35340 0 0
+~
+~
+Door 3 0 0 35334 0 0
+~
+~
+End
+
+#35340
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35339 0 0
+~
+~
+Door 1 0 0 35349 0 0
+~
+~
+Door 2 0 0 35341 0 0
+~
+~
+Door 3 0 0 35333 0 0
+~
+~
+End
+
+#35341
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35340 0 0
+~
+~
+Door 1 0 0 35348 0 0
+~
+~
+Door 2 0 0 35342 0 0
+~
+~
+Door 3 0 0 35332 0 0
+~
+~
+End
+
+#35342
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35341 0 0
+~
+~
+Door 1 0 0 35347 0 0
+~
+~
+Door 2 0 0 35343 0 0
+~
+~
+Door 3 0 0 35331 0 0
+~
+~
+End
+
+#35343
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35026 1 100
+Door 0 0 0 35342 0 0
+~
+~
+Door 1 0 0 35346 0 0
+~
+~
+Door 2 0 0 35344 0 0
+~
+~
+Door 3 0 0 35330 0 0
+~
+~
+End
+
+#35344
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35343 0 0
+~
+~
+Door 1 0 0 35345 0 0
+~
+~
+Door 3 0 0 35329 0 0
+~
+~
+End
+
+#35345
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 34
+Door 0 0 0 35346 0 0
+~
+~
+Door 1 0 0 35360 0 0
+~
+~
+Door 3 0 0 35344 0 0
+~
+~
+End
+
+#35346
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35348 0 0
+~
+~
+Door 1 0 0 35359 0 0
+~
+~
+Door 2 0 0 35345 0 0
+~
+~
+Door 3 0 0 35343 0 0
+~
+~
+End
+
+#35347
+Name ~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 2 0 0 35346 0 0
+~
+~
+Door 3 0 0 35342 0 0
+~
+~
+End
+
+#35348
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35026 1 100
+Reset M 35025 1 100
+Door 0 0 0 35349 0 0
+~
+~
+Door 1 0 0 35358 0 0
+~
+~
+Door 2 0 0 35346 0 0
+~
+~
+Door 3 0 0 35341 0 0
+~
+~
+End
+
+#35349
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35350 0 0
+~
+~
+Door 1 0 0 35357 0 0
+~
+~
+Door 2 0 0 35348 0 0
+~
+~
+Door 3 0 0 35340 0 0
+~
+~
+End
+
+#35350
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35026 1 100
+Reset M 35025 1 100
+Door 0 0 0 35351 0 0
+~
+~
+Door 1 0 0 35356 0 0
+~
+~
+Door 2 0 0 35349 0 0
+~
+~
+Door 3 0 0 35339 0 0
+~
+~
+End
+
+#35351
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35352 0 0
+~
+~
+Door 1 0 0 35355 0 0
+~
+~
+Door 2 0 0 35350 0 0
+~
+~
+Door 3 0 0 35338 0 0
+~
+~
+End
+
+#35352
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 4
+Sector 34
+Reset M 35026 1 100
+Door 0 3 0 35353 30 30
+~
+battlekeeper~
+Door 1 0 0 35354 0 0
+~
+~
+Door 2 0 0 35351 0 0
+~
+~
+Door 3 0 0 35337 0 0
+~
+~
+End
+
+#35353
+Name The Room Of The Keeper~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 4
+Sector 34
+Reset M 35027 1 100
+Reset O 35036 1 1
+Door 2 3 0 35352 30 30
+~
+battlekeeper~
+End
+
+#35354
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 2 0 0 35355 0 0
+~
+~
+Door 3 0 0 35352 0 0
+~
+~
+End
+
+#35355
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35025 1 100
+Door 0 0 0 35354 0 0
+~
+~
+Door 2 0 0 35356 0 0
+~
+~
+Door 3 0 0 35351 0 0
+~
+~
+End
+
+#35356
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35355 0 0
+~
+~
+Door 2 0 0 35357 0 0
+~
+~
+Door 3 0 0 35350 0 0
+~
+~
+End
+
+#35357
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35356 0 0
+~
+~
+Door 2 0 0 35358 0 0
+~
+~
+Door 3 0 0 35349 0 0
+~
+~
+End
+
+#35358
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35357 0 0
+~
+~
+Door 2 0 0 35359 0 0
+~
+~
+Door 3 0 0 35348 0 0
+~
+~
+End
+
+#35359
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35358 0 0
+~
+~
+Door 2 0 0 35360 0 0
+~
+~
+Door 3 0 0 35346 0 0
+~
+~
+End
+
+#35360
+Name A Forsaked Battleground~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35025 1 100
+Door 0 0 0 35359 0 0
+~
+~
+Door 3 0 0 35345 0 0
+~
+~
+End
+
+#35361
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset O 35015 -5 100
+Door 0 0 0 35362 0 0
+~
+~
+Door 1 0 0 35368 0 0
+~
+~
+End
+
+#35362
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35028 1 100
+Door 0 0 0 35363 0 0
+~
+~
+Door 1 0 0 35367 0 0
+~
+~
+Door 2 0 0 35361 0 0
+~
+~
+End
+
+#35363
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35364 0 0
+~
+~
+Door 1 0 0 35366 0 0
+~
+~
+Door 2 0 0 35362 0 0
+~
+~
+End
+
+#35364
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35365 0 0
+~
+~
+Door 2 0 0 35363 0 0
+~
+~
+End
+
+#35365
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35028 1 100
+Door 1 0 0 35372 0 0
+~
+~
+Door 2 0 0 35366 0 0
+~
+~
+Door 3 0 0 35364 0 0
+~
+~
+End
+
+#35366
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35365 0 0
+~
+~
+Door 1 0 0 35371 0 0
+~
+~
+Door 2 0 0 35367 0 0
+~
+~
+Door 3 0 0 35363 0 0
+~
+~
+End
+
+#35367
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35366 0 0
+~
+~
+Door 1 0 0 35370 0 0
+~
+~
+Door 2 0 0 35368 0 0
+~
+~
+Door 3 0 0 35362 0 0
+~
+~
+End
+
+#35368
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35367 0 0
+~
+~
+Door 1 0 0 35369 0 0
+~
+~
+Door 3 0 0 35361 0 0
+~
+~
+End
+
+#35369
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35028 1 100
+Door 0 0 0 35370 0 0
+~
+~
+Door 3 0 0 35368 0 0
+~
+~
+End
+
+#35370
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35371 0 0
+~
+~
+Door 2 0 0 35369 0 0
+~
+~
+Door 3 0 0 35367 0 0
+~
+~
+End
+
+#35371
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35028 1 100
+Door 0 0 0 35372 0 0
+~
+~
+Door 2 0 0 35370 0 0
+~
+~
+Door 3 0 0 35366 0 0
+~
+~
+End
+
+#35372
+Name A Mages Keep~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 3 0 35373 30 30
+~
+wizardsdoor~
+Door 2 0 0 35371 0 0
+~
+~
+Door 3 0 0 35365 0 0
+~
+~
+End
+
+#35373
+Name The Masters Quarters~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 4
+Sector 34
+Reset M 35029 1 100
+Reset O 35025 -1 1
+Door 2 3 0 35372 30 30
+~
+wizardsdoor~
+End
+
+#35374
+Name A Passage Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 6
+Sector 34
+Door 4 0 0 35375 0 0
+~
+~
+Door 5 0 0 35328 0 0
+~
+~
+End
+
+#35375
+Name The Entrance To The Upper Tower~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Flags 4
+Sector 34
+Reset M 35030 1 100
+Reset M 35030 1 100
+Door 4 3 0 35376 30 30
+~
+chamber~
+Door 5 0 0 35374 0 0
+~
+~
+End
+
+#35376
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35377 0 0
+~
+~
+Door 5 3 0 35375 30 30
+~
+chamber~
+End
+
+#35377
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35378 0 0
+~
+~
+Door 2 0 0 35376 0 0
+~
+~
+End
+
+#35378
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 4
+Sector 34
+Reset O 35016 -5 100
+Door 0 0 0 35400 0 0
+~
+~
+Door 1 0 0 35379 0 0
+~
+~
+Door 2 0 0 35377 0 0
+~
+~
+Door 3 0 0 35391 0 0
+~
+~
+End
+
+#35379
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35380 0 0
+~
+~
+Door 3 0 0 35378 0 0
+~
+~
+End
+
+#35380
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 3 0 35396 30 30
+~
+door~
+Door 2 0 0 35381 0 0
+~
+~
+Door 3 0 0 35379 0 0
+~
+~
+End
+
+#35381
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35380 0 0
+~
+~
+Door 1 3 0 35397 30 30
+~
+door~
+Door 2 0 0 35382 0 0
+~
+~
+End
+
+#35382
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35381 0 0
+~
+~
+Door 1 3 0 35398 30 30
+~
+door~
+Door 2 0 0 35383 0 0
+~
+~
+End
+
+#35383
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35382 0 0
+~
+~
+Door 1 3 0 35399 30 30
+~
+door~
+Door 3 0 0 35384 0 0
+~
+~
+End
+
+#35384
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35383 0 0
+~
+~
+Door 3 0 0 35385 0 0
+~
+~
+End
+
+#35385
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35384 0 0
+~
+~
+Door 3 0 0 35386 0 0
+~
+~
+End
+
+#35386
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35385 0 0
+~
+~
+Door 3 0 0 35387 0 0
+~
+~
+End
+
+#35387
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35388 0 0
+~
+~
+Door 1 0 0 35386 0 0
+~
+~
+Door 3 3 0 35392 30 30
+~
+door~
+End
+
+#35388
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35389 0 0
+~
+~
+Door 2 0 0 35387 0 0
+~
+~
+Door 3 3 0 35393 30 30
+~
+door~
+End
+
+#35389
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35390 0 0
+~
+~
+Door 2 0 0 35388 0 0
+~
+~
+Door 3 3 0 35394 30 30
+~
+door~
+End
+
+#35390
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35391 0 0
+~
+~
+Door 2 0 0 35389 0 0
+~
+~
+Door 3 3 0 35395 30 30
+~
+door~
+End
+
+#35391
+Name The Roof Of The Tower Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35378 0 0
+~
+~
+Door 3 0 0 35390 0 0
+~
+~
+End
+
+#35392
+Name The Rooms Of Purity~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35031 1 100
+Door 1 0 0 35387 0 0
+~
+~
+End
+
+#35393
+Name The Rooms Of Purity~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35031 1 100
+Door 1 3 0 35388 30 30
+~
+door~
+End
+
+#35394
+Name The Rooms Of Purity~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35031 1 100
+Door 1 3 0 35389 30 30
+~
+door~
+End
+
+#35395
+Name The Rooms Of Purity~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Flags 4
+Sector 34
+Reset M 35031 1 100
+Door 1 3 0 35390 30 30
+~
+door~
+End
+
+#35396
+Name The Rooms Of Evilness~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Flags 4
+Sector 34
+Reset M 35032 1 100
+Door 3 3 0 35380 30 30
+~
+door~
+End
+
+#35397
+Name The Rooms Of Evilness~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35032 1 100
+Door 3 1 0 35381 30 30
+~
+~
+End
+
+#35398
+Name The Rooms Of Evilness~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35032 1 100
+Door 3 3 0 35382 30 30
+~
+door~
+End
+
+#35399
+Name The Rooms Of Evilness~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35032 1 100
+Door 3 3 0 35383 30 30
+~
+door~
+End
+
+#35400
+Name The Passage Of Fragmented Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset O 35017 -5 100
+Door 0 0 0 35401 0 0
+~
+~
+Door 2 0 0 35378 0 0
+~
+~
+End
+
+#35401
+Name The Passage Of Fragmented Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset O 35018 -5 100
+Door 0 0 0 35402 0 0
+~
+~
+Door 2 0 0 35400 0 0
+~
+~
+End
+
+#35402
+Name The Passage Of Fragmented Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset O 35017 -5 100
+Door 0 0 0 35403 0 0
+~
+~
+Door 2 0 0 35401 0 0
+~
+~
+End
+
+#35403
+Name The Passage Of Fragmented Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Flags 4
+Sector 34
+Reset O 35019 -5 100
+Reset O 35016 -5 100
+Door 2 0 0 35402 0 0
+~
+~
+End
+
+#35404
+Name ~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+End
+
+#35405
+Name ~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+End
+
+#35406
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35433 0 0
+~
+~
+Door 1 0 0 35461 0 0
+~
+~
+End
+
+#35407
+Name The Passage Of Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35408 0 0
+~
+~
+End
+
+#35408
+Name The Passage Of Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35409 0 0
+~
+~
+Door 2 0 0 35407 0 0
+~
+~
+End
+
+#35409
+Name The Passage Of Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35410 0 0
+~
+~
+Door 2 0 0 35408 0 0
+~
+~
+End
+
+#35410
+Name The Passage Of Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35411 0 0
+~
+~
+Door 2 0 0 35409 0 0
+~
+~
+End
+
+#35411
+Name The Passage Of Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Flags 4
+Sector 34
+Door 2 0 0 35410 0 0
+~
+~
+Door 4 0 0 35412 0 0
+~
+~
+End
+
+#35412
+Name The Passage Of Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 4 0 0 35413 0 0
+~
+~
+Door 5 0 0 35411 0 0
+~
+~
+End
+
+#35413
+Name The Passage Of Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35414 0 0
+~
+~
+Door 5 0 0 35412 0 0
+~
+~
+End
+
+#35414
+Name The Passage Of Time~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35415 0 0
+~
+~
+Door 2 0 0 35413 0 0
+~
+~
+End
+
+#35415
+Name The Passageways Of The Planes~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 4
+Sector 34
+Reset O 35038 -5 100
+Door 0 0 0 35416 0 0
+~
+~
+Door 1 0 0 35422 0 0
+~
+~
+Door 2 0 0 35414 0 0
+~
+~
+Door 3 0 0 35418 0 0
+~
+~
+End
+
+#35416
+Name The Passageways Of The Planes~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35417 0 0
+~
+~
+Door 2 0 0 35415 0 0
+~
+~
+End
+
+#35417
+Name The Passageways Of The Planes~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35426 0 0
+~
+~
+Door 2 0 0 35416 0 0
+~
+~
+End
+
+#35418
+Name The Passageways Of The Planes~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35415 0 0
+~
+~
+Door 3 0 0 35419 0 0
+~
+~
+End
+
+#35419
+Name The Passageways Of The Planes~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35420 0 0
+~
+~
+Door 1 0 0 35418 0 0
+~
+~
+End
+
+#35420
+Name Before The Portal Of Planes~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35421 0 0
+~
+~
+Door 2 0 0 35419 0 0
+~
+~
+End
+
+#35421
+Name The Portal Of Planes~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35035 1 100
+Reset O 35024 -1 1
+Reset O 35026 37 1
+Door 2 0 0 35420 0 0
+~
+~
+End
+
+#35422
+Name The Passageways Of The Planes~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35423 0 0
+~
+~
+Door 3 0 0 35415 0 0
+~
+~
+End
+
+#35423
+Name The Passageways Of The Planes~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35424 0 0
+~
+~
+Door 3 0 0 35422 0 0
+~
+~
+End
+
+#35424
+Name Before The Elemental Portal~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35425 0 0
+~
+~
+Door 2 0 0 35423 0 0
+~
+~
+End
+
+#35425
+Name The Elemental Portal~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35036 1 100
+Reset O 35028 -1 1
+Reset O 35027 -1 1
+Door 2 0 0 35424 0 0
+~
+~
+End
+
+#35426
+Name The Passageways Of The Planes~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Flags 4
+Sector 34
+Door 0 0 0 35427 0 0
+~
+~
+Door 2 0 0 35417 0 0
+~
+~
+End
+
+#35427
+Name The Keep Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Flags 4
+Sector 34
+Reset M 35033 1 100
+Reset M 35033 1 100
+Door 0 0 0 35430 0 0
+~
+~
+Door 1 0 0 35429 0 0
+~
+~
+Door 2 0 0 35426 0 0
+~
+~
+Door 3 0 0 35428 0 0
+~
+~
+End
+
+#35428
+Name The Keep Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 1 0 0 35427 0 0
+~
+~
+End
+
+#35429
+Name The Keep Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 3 0 0 35427 0 0
+~
+~
+End
+
+#35430
+Name The Keep Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 0 0 0 35431 0 0
+~
+~
+Door 2 0 0 35427 0 0
+~
+~
+End
+
+#35431
+Name The Altar Of Time And Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Flags 4
+Sector 34
+Reset M 35034 1 100
+Reset O 35023 -1 1
+Reset O 35022 -1 1
+Door 2 0 0 35430 0 0
+~
+~
+End
+
+#35432
+Name ~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Door 5 258 0 35256 30 30
+~
+cellar~
+End
+
+#35433
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 4
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35446 0 0
+~
+~
+Door 1 0 0 35460 0 0
+~
+~
+Door 2 0 0 35406 0 0
+~
+~
+End
+
+#35434
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Door 1 259 0 35325 50 50
+~
+doorway~
+End
+
+#35435
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Door 3 259 0 35325 50 50
+~
+portal~
+End
+
+#35436
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Door 1 259 0 35326 50 50
+~
+rockplate~
+End
+
+#35437
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Door 3 3 0 35326 50 50
+~
+rock~
+End
+
+#35438
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Door 1 259 0 35327 50 50
+~
+wall~
+End
+
+#35439
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Door 3 259 0 35327 50 50
+~
+bookshelf~
+End
+
+#35440
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Door 5 259 0 35327 30 30
+~
+air~
+End
+
+#35441
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Door 4 259 0 35327 50 50
+~
+pit~
+End
+
+#35442
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Door 5 259 0 35326 50 50
+~
+sky~
+End
+
+#35443
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Reset O 35031 -1 1
+Door 4 259 0 35326 50 50
+~
+grate~
+End
+
+#35444
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Door 5 0 0 35325 0 0
+~
+~
+End
+
+#35445
+Name The Wrath Of Illusion~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Sector 34
+Reset M 35038 1 100
+Reset O 35034 -1 1
+Door 4 259 0 35325 50 50
+~
+spirit~
+End
+
+#35446
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35447 0 0
+~
+~
+Door 1 0 0 35459 0 0
+~
+~
+Door 2 0 0 35433 0 0
+~
+~
+End
+
+#35447
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35448 0 0
+~
+~
+Door 1 0 0 35458 0 0
+~
+~
+Door 2 0 0 35446 0 0
+~
+~
+End
+
+#35448
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35449 0 0
+~
+~
+Door 1 0 0 35457 0 0
+~
+~
+Door 2 0 0 35447 0 0
+~
+~
+End
+
+#35449
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35450 0 0
+~
+~
+Door 1 0 0 35456 0 0
+~
+~
+Door 2 0 0 35448 0 0
+~
+~
+End
+
+#35450
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35451 0 0
+~
+~
+Door 1 0 0 35455 0 0
+~
+~
+Door 2 0 0 35449 0 0
+~
+~
+End
+
+#35451
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35452 0 0
+~
+~
+Door 1 0 0 35454 0 0
+~
+~
+Door 2 0 0 35450 0 0
+~
+~
+End
+
+#35452
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 1 0 0 35453 0 0
+~
+~
+Door 2 0 0 35451 0 0
+~
+~
+End
+
+#35453
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Reset M 35039 1 100
+Door 1 0 0 35470 0 0
+~
+~
+Door 2 0 0 35454 0 0
+~
+~
+Door 3 0 0 35452 0 0
+~
+~
+End
+
+#35454
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35453 0 0
+~
+~
+Door 1 0 0 35469 0 0
+~
+~
+Door 2 0 0 35455 0 0
+~
+~
+Door 3 0 0 35451 0 0
+~
+~
+End
+
+#35455
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35454 0 0
+~
+~
+Door 1 0 0 35468 0 0
+~
+~
+Door 2 0 0 35456 0 0
+~
+~
+Door 3 0 0 35450 0 0
+~
+~
+End
+
+#35456
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35455 0 0
+~
+~
+Door 1 0 0 35467 0 0
+~
+~
+Door 2 0 0 35457 0 0
+~
+~
+Door 3 0 0 35449 0 0
+~
+~
+End
+
+#35457
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35456 0 0
+~
+~
+Door 1 0 0 35466 0 0
+~
+~
+Door 2 0 0 35458 0 0
+~
+~
+Door 3 0 0 35448 0 0
+~
+~
+End
+
+#35458
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35457 0 0
+~
+~
+Door 1 0 0 35465 0 0
+~
+~
+Door 2 0 0 35459 0 0
+~
+~
+Door 3 0 0 35447 0 0
+~
+~
+End
+
+#35459
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35458 0 0
+~
+~
+Door 1 0 0 35464 0 0
+~
+~
+Door 2 0 0 35460 0 0
+~
+~
+Door 3 0 0 35446 0 0
+~
+~
+End
+
+#35460
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35459 0 0
+~
+~
+Door 1 0 0 35463 0 0
+~
+~
+Door 2 0 0 35461 0 0
+~
+~
+Door 3 0 0 35433 0 0
+~
+~
+End
+
+#35461
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35460 0 0
+~
+~
+Door 1 0 0 35462 0 0
+~
+~
+Door 3 0 0 35406 0 0
+~
+~
+End
+
+#35462
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35463 0 0
+~
+~
+Door 1 0 0 35479 0 0
+~
+~
+Door 3 0 0 35461 0 0
+~
+~
+End
+
+#35463
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35464 0 0
+~
+~
+Door 1 0 0 35478 0 0
+~
+~
+Door 2 0 0 35462 0 0
+~
+~
+Door 3 0 0 35460 0 0
+~
+~
+End
+
+#35464
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35465 0 0
+~
+~
+Door 1 0 0 35477 0 0
+~
+~
+Door 2 0 0 35463 0 0
+~
+~
+Door 3 0 0 35459 0 0
+~
+~
+End
+
+#35465
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35466 0 0
+~
+~
+Door 1 0 0 35476 0 0
+~
+~
+Door 2 0 0 35464 0 0
+~
+~
+Door 3 0 0 35458 0 0
+~
+~
+End
+
+#35466
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35467 0 0
+~
+~
+Door 1 0 0 35475 0 0
+~
+~
+Door 2 0 0 35465 0 0
+~
+~
+Door 3 0 0 35457 0 0
+~
+~
+End
+
+#35467
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35468 0 0
+~
+~
+Door 1 0 0 35474 0 0
+~
+~
+Door 2 0 0 35466 0 0
+~
+~
+Door 3 0 0 35456 0 0
+~
+~
+End
+
+#35468
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35469 0 0
+~
+~
+Door 1 0 0 35473 0 0
+~
+~
+Door 2 0 0 35467 0 0
+~
+~
+Door 3 0 0 35455 0 0
+~
+~
+End
+
+#35469
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35470 0 0
+~
+~
+Door 1 0 0 35472 0 0
+~
+~
+Door 2 0 0 35468 0 0
+~
+~
+Door 3 0 0 35454 0 0
+~
+~
+End
+
+#35470
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 1 0 0 35471 0 0
+~
+~
+Door 2 0 0 35469 0 0
+~
+~
+Door 3 0 0 35453 0 0
+~
+~
+End
+
+#35471
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 1 0 0 35488 0 0
+~
+~
+Door 2 0 0 35472 0 0
+~
+~
+Door 3 0 0 35470 0 0
+~
+~
+End
+
+#35472
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35471 0 0
+~
+~
+Door 1 0 0 35487 0 0
+~
+~
+Door 2 0 0 35473 0 0
+~
+~
+Door 3 0 0 35469 0 0
+~
+~
+End
+
+#35473
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35472 0 0
+~
+~
+Door 1 0 0 35486 0 0
+~
+~
+Door 2 0 0 35474 0 0
+~
+~
+Door 3 0 0 35468 0 0
+~
+~
+End
+
+#35474
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35473 0 0
+~
+~
+Door 1 0 0 35485 0 0
+~
+~
+Door 2 0 0 35475 0 0
+~
+~
+Door 3 0 0 35467 0 0
+~
+~
+Door 4 0 0 35499 0 0
+~
+~
+End
+
+#35475
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35474 0 0
+~
+~
+Door 1 0 0 35484 0 0
+~
+~
+Door 2 0 0 35476 0 0
+~
+~
+Door 3 0 0 35466 0 0
+~
+~
+End
+
+#35476
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35475 0 0
+~
+~
+Door 1 0 0 35483 0 0
+~
+~
+Door 2 0 0 35477 0 0
+~
+~
+Door 3 0 0 35465 0 0
+~
+~
+End
+
+#35477
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35476 0 0
+~
+~
+Door 1 0 0 35482 0 0
+~
+~
+Door 2 0 0 35478 0 0
+~
+~
+Door 3 0 0 35464 0 0
+~
+~
+End
+
+#35478
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35477 0 0
+~
+~
+Door 1 0 0 35481 0 0
+~
+~
+Door 2 0 0 35479 0 0
+~
+~
+Door 3 0 0 35463 0 0
+~
+~
+End
+
+#35479
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35478 0 0
+~
+~
+Door 1 0 0 35480 0 0
+~
+~
+Door 3 0 0 35462 0 0
+~
+~
+End
+
+#35480
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35481 0 0
+~
+~
+Door 1 0 0 35497 0 0
+~
+~
+Door 3 0 0 35479 0 0
+~
+~
+End
+
+#35481
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35482 0 0
+~
+~
+Door 1 0 0 35496 0 0
+~
+~
+Door 2 0 0 35480 0 0
+~
+~
+Door 3 0 0 35478 0 0
+~
+~
+End
+
+#35482
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35483 0 0
+~
+~
+Door 1 0 0 35495 0 0
+~
+~
+Door 2 0 0 35481 0 0
+~
+~
+Door 3 0 0 35477 0 0
+~
+~
+End
+
+#35483
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35484 0 0
+~
+~
+Door 1 0 0 35494 0 0
+~
+~
+Door 2 0 0 35482 0 0
+~
+~
+Door 3 0 0 35476 0 0
+~
+~
+End
+
+#35484
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35485 0 0
+~
+~
+Door 1 0 0 35493 0 0
+~
+~
+Door 2 0 0 35483 0 0
+~
+~
+Door 3 0 0 35475 0 0
+~
+~
+End
+
+#35485
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35486 0 0
+~
+~
+Door 1 0 0 35492 0 0
+~
+~
+Door 2 0 0 35484 0 0
+~
+~
+Door 3 0 0 35474 0 0
+~
+~
+End
+
+#35486
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35487 0 0
+~
+~
+Door 1 0 0 35491 0 0
+~
+~
+Door 2 0 0 35485 0 0
+~
+~
+Door 3 0 0 35473 0 0
+~
+~
+End
+
+#35487
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35488 0 0
+~
+~
+Door 1 0 0 35490 0 0
+~
+~
+Door 2 0 0 35486 0 0
+~
+~
+Door 3 0 0 35472 0 0
+~
+~
+End
+
+#35488
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Reset M 35039 1 100
+Door 1 0 0 35489 0 0
+~
+~
+Door 2 0 0 35487 0 0
+~
+~
+Door 3 0 0 35471 0 0
+~
+~
+End
+
+#35489
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 2 0 0 35490 0 0
+~
+~
+Door 3 0 0 35488 0 0
+~
+~
+End
+
+#35490
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35489 0 0
+~
+~
+Door 2 0 0 35491 0 0
+~
+~
+Door 3 0 0 35487 0 0
+~
+~
+End
+
+#35491
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35490 0 0
+~
+~
+Door 2 0 0 35492 0 0
+~
+~
+Door 3 0 0 35486 0 0
+~
+~
+End
+
+#35492
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35491 0 0
+~
+~
+Door 2 0 0 35493 0 0
+~
+~
+Door 3 0 0 35485 0 0
+~
+~
+End
+
+#35493
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35492 0 0
+~
+~
+Door 2 0 0 35494 0 0
+~
+~
+Door 3 0 0 35484 0 0
+~
+~
+End
+
+#35494
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35493 0 0
+~
+~
+Door 2 0 0 35495 0 0
+~
+~
+Door 3 0 0 35483 0 0
+~
+~
+End
+
+#35495
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Door 0 0 0 35494 0 0
+~
+~
+Door 2 0 0 35496 0 0
+~
+~
+Door 3 0 0 35482 0 0
+~
+~
+End
+
+#35496
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35495 0 0
+~
+~
+Door 2 0 0 35497 0 0
+~
+~
+Door 3 0 0 35481 0 0
+~
+~
+End
+
+#35497
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Sector 3
+Reset M 35039 1 100
+Door 0 0 0 35496 0 0
+~
+~
+Door 2 0 0 35498 0 0
+~
+~
+Door 3 0 0 35480 0 0
+~
+~
+End
+
+#35498
+Name The Roads Of Mist~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags2 6
+Sector 3
+Door 0 0 0 35497 0 0
+~
+~
+End
+
+#35499
+Name The Misty Forest~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Door 4 0 0 35500 0 0
+~
+~
+Door 5 0 0 35474 0 0
+~
+~
+End
+
+#35500
+Name The Misty Forest~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Reset O 35039 -5 100
+Door 5 0 0 35499 0 0
+~
+~
+End
+
+#35502
+Name A Musty Prison~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 36
+Door 0 0 0 35503 0 0
+~
+~
+Door 2 0 0 35227 0 0
+~
+~
+End
+
+#35503
+Name A Musty Prison~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 36
+Door 0 0 0 35504 0 0
+~
+~
+Door 2 0 0 35502 0 0
+~
+~
+End
+
+#35504
+Name A Musty Prison~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 36
+Door 0 0 0 35505 0 0
+~
+~
+Door 2 0 0 35503 0 0
+~
+~
+End
+
+#35505
+Name A Musty Prison~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 36
+Door 0 7 0 35506 30 30
+~
+prisoncell~
+Door 2 0 0 35504 0 0
+~
+~
+End
+
+#35506
+Name The Kings Prison Cell~
+Descr
+The walls of illusion seem to not even be there. There is a strong
+magical pressence in the air. You feel as if time is at a stand still here.
+There is a dark and evil pressence that posseses this place. 
+~
+Flags 4
+Reset M 35040 1 100
+Reset O 35035 1 1
+Door 2 3 0 35505 30 30
+~
+prisoncell~
+End
+
+#0
+
+
+
+#$

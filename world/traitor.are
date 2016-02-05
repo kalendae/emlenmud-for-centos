@@ -1,0 +1,2313 @@
+#AREADATA 
+Name Place of Traitors~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Flatline~
+VNUMs 16601 16700
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#16601
+Name undead corpse~
+Short a shambling corpse~
+Long 
+An undead corpse of a traitor shambles about here.
+~
+AMax 10
+ActBits4 16384
+Alignment 3
+Level 30
+MobType 9
+Guard 0
+Spec spec_poison
+End
+
+#16602
+Name undead ogre~
+Short +* A Forsaken Ogre *+~
+Long 
+An undead ronin ogre wanders about here.
+~
+AMax 3
+ActBits4 16384
+Alignment 3
+Money 1000
+Level 60
+MobType 9
+Hp 15
+Guard 0
+End
+
+#16603
+Name titan champion warrior~
+Short +* A Forsaken Titan *+~
+Long 
+A powerful warrior of the titan race wanders about here.
+~
+AMax 1
+ActBits4 16384
+Alignment 3
+Money 4000
+Level 120
+Sex 1
+MobType 4
+Hp 18
+Guard 0
+End
+
+#16604
+Name dragon priest forsaken~
+Short +* A Forsaken Dragon *+~
+Long 
+A dragon high-priest stands here.
+~
+AMax 1
+ActBits 258
+Alignment 3
+Level 180
+MobType 5
+Hp 20
+Guard 0
+BCasts Paralyze~
+BCasts Chill of the Windsaber~
+BCasts Storm Palms~
+BCast_P 15
+ASklTaught 0 573
+ASklTaught 1 561
+ASklTaught 2 565
+ASklTaught 3 572
+ASklTaught 4 574
+ASklTaught 5 126
+ASklTaught 6 590
+ASklTaught 7 599
+ASklTaught 8 357
+ASklTaught 9 353
+ASklTaught 10 352
+ASklTaught 11 71
+ASklTaught 12 60
+ASklTaught 13 61
+ASklTaught 14 134
+End
+
+#0
+
+
+
+#OBJDATA
+#16601
+Name vision fallen warriors eyes~
+Short the vision of the [1m[30mfallen[0m~
+Descr
+The vision of the fallen warriors lies here.
+[0;36m~
+Type 9
+Wear 8388609
+Values 0 0 1 0 0 0 20 20 0 0 0
+Weight 0
+Cost 1000
+Affect 18 3 1 0 0
+End
+
+#16602
+Name necklace fallen symbol neck~
+Short a necklace bearing the insignia of a [1m[30mfallen[0m army~
+Descr
+A necklace bearing the insignia of a fallen army lies here.
+[0;36m~
+Type 9
+Wear 5
+Values 0 1 1 0 0 0 20 20 0 0 0
+Weight 10
+Cost 5000
+Affect 18 2 1 0 0
+End
+
+#16603
+Name fallen armband elbow apb~
+Short an armband bearing a [1m[30mfallen[0m army's insignia~
+Descr
+An armband bearing a fallen army's insignia lies on the ground.
+[0;36m~
+Type 9
+Wear 1048577
+Values 0 0 0 1 0 0 10 10 0 0 0
+Weight 10
+Cost 1000
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+End
+
+#16604
+Name charred steel boots feet~
+Short a pair of [1m[30mcharred[0m steel boots~
+Descr
+A pair of charred steel boots have been discarded here.
+[0;36m~
+Type 9
+Wear 65
+Values 10 0 0 0 0 0 20 20 0 0 0
+Weight 10
+Cost 1000
+Affect 22 2 1 0 0
+End
+
+#16605
+Name belt bones bone dangling~
+Short a belt of dangling bones~
+Descr
+A belt with bones tied to it is here.
+[0;36m~
+Type 9
+Extra 2
+Wear 10241
+Values 2 2 0 0 0 0 10 10 0 1 0
+Weight 0
+Cost 0
+End
+
+#16609
+Name bear claws~
+Short a set of bear claws~
+Descr
+A set of bear claws lie on the ground.
+[0;36m~
+Type 22
+Wear 129
+Values 13 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#16700
+Name note~
+Short a note~
+Descr
+A note here saying only two words "Cresent Inn"
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#16601
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 31
+Door 0 0 0 16602 0 0
+~
+~
+Door 2 0 0 17395 0 0
+~
+~
+End
+
+#16602
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16620 0 0
+~
+~
+Door 1 0 0 16603 0 0
+~
+~
+Door 2 0 0 16601 0 0
+~
+~
+Door 3 0 0 16611 0 0
+~
+~
+End
+
+#16603
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16621 0 0
+~
+~
+Door 1 0 0 16604 0 0
+~
+~
+Door 2 0 0 16663 0 0
+~
+~
+Door 3 0 0 16602 0 0
+~
+~
+End
+
+#16604
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16605 0 0
+~
+~
+Door 1 0 0 16666 0 0
+~
+~
+Door 2 0 0 16664 0 0
+~
+~
+Door 3 0 0 16603 0 0
+~
+~
+End
+
+#16605
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Reset M 16601 5 100
+Door 0 0 0 16622 0 0
+~
+~
+Door 1 0 0 16606 0 0
+~
+~
+Door 2 0 0 16604 0 0
+~
+~
+Door 3 0 0 16621 0 0
+~
+~
+End
+
+#16606
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16607 0 0
+~
+~
+Door 1 0 0 16668 0 0
+~
+~
+Door 2 0 0 16666 0 0
+~
+~
+Door 3 0 0 16605 0 0
+~
+~
+End
+
+#16607
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16602 5 100
+Door 0 0 0 16633 0 0
+~
+~
+Door 1 0 0 16608 0 0
+~
+~
+Door 2 0 0 16606 0 0
+~
+~
+Door 3 0 0 16622 0 0
+~
+~
+End
+
+#16608
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16609 0 0
+~
+~
+Door 1 0 0 16670 0 0
+~
+~
+Door 2 0 0 16668 0 0
+~
+~
+Door 3 0 0 16607 0 0
+~
+~
+End
+
+#16609
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16601 5 100
+Door 0 0 0 16610 0 0
+~
+~
+Door 1 0 0 16671 0 0
+~
+~
+Door 2 0 0 16608 0 0
+~
+~
+Door 3 0 0 16633 0 0
+~
+~
+End
+
+#16610
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16674 0 0
+~
+~
+Door 1 0 0 16672 0 0
+~
+~
+Door 2 0 0 16609 0 0
+~
+~
+Door 3 0 0 16640 0 0
+~
+~
+End
+
+#16611
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16619 0 0
+~
+~
+Door 1 0 0 16602 0 0
+~
+~
+Door 2 0 0 16696 0 0
+~
+~
+Door 3 0 0 16612 0 0
+~
+~
+End
+
+#16612
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16601 5 100
+Door 0 0 0 16613 0 0
+~
+~
+Door 1 0 0 16611 0 0
+~
+~
+Door 2 0 0 16695 0 0
+~
+~
+Door 3 0 0 16693 0 0
+~
+~
+End
+
+#16613
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16626 0 0
+~
+~
+Door 1 0 0 16619 0 0
+~
+~
+Door 2 0 0 16612 0 0
+~
+~
+Door 3 0 0 16614 0 0
+~
+~
+End
+
+#16614
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16615 0 0
+~
+~
+Door 1 0 0 16613 0 0
+~
+~
+Door 2 0 0 16693 0 0
+~
+~
+Door 3 0 0 16691 0 0
+~
+~
+End
+
+#16615
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16601 5 100
+Door 0 0 0 16627 0 0
+~
+~
+Door 1 0 0 16626 0 0
+~
+~
+Door 2 0 0 16614 0 0
+~
+~
+Door 3 0 0 16616 0 0
+~
+~
+End
+
+#16616
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16617 0 0
+~
+~
+Door 1 0 0 16615 0 0
+~
+~
+Door 2 0 0 16691 0 0
+~
+~
+Door 3 0 0 16689 0 0
+~
+~
+End
+
+#16617
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16618 0 0
+~
+~
+Door 1 0 0 16627 0 0
+~
+~
+Door 2 0 0 16616 0 0
+~
+~
+Door 3 0 0 16653 0 0
+~
+~
+End
+
+#16618
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16686 0 0
+~
+~
+Door 1 0 0 16634 0 0
+~
+~
+Door 2 0 0 16617 0 0
+~
+~
+Door 3 0 0 16688 0 0
+~
+~
+End
+
+#16619
+Name A Scarred Wasteland~
+Descr
+No vegetation can grow here. The ground has been completely decimated. It
+still smokes... smoking eternally from the forces that destroyed it. Bones
+jut from the ground... screams still hang in the air... battle cries still
+echo. 
+~
+Sector 32
+Door 0 0 0 16625 0 0
+~
+~
+Door 1 0 0 16620 0 0
+~
+~
+Door 2 0 0 16611 0 0
+~
+~
+Door 3 0 0 16613 0 0
+~
+~
+End
+
+#16620
+Name A Scarred Wasteland~
+Descr
+No vegetation can grow here. The ground has been completely decimated. It
+still smokes... smoking eternally from the forces that destroyed it. Bones
+jut from the ground... screams still hang in the air... battle cries still
+echo. 
+~
+Sector 32
+Door 0 0 0 16624 0 0
+~
+~
+Door 1 0 0 16621 0 0
+~
+~
+Door 2 0 0 16602 0 0
+~
+~
+Door 3 0 0 16619 0 0
+~
+~
+End
+
+#16621
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16623 0 0
+~
+~
+Door 1 0 0 16605 0 0
+~
+~
+Door 2 0 0 16603 0 0
+~
+~
+Door 3 0 0 16620 0 0
+~
+~
+End
+
+#16622
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16632 0 0
+~
+~
+Door 1 0 0 16607 0 0
+~
+~
+Door 2 0 0 16605 0 0
+~
+~
+Door 3 0 0 16623 0 0
+~
+~
+End
+
+#16623
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16631 0 0
+~
+~
+Door 1 0 0 16622 0 0
+~
+~
+Door 2 0 0 16621 0 0
+~
+~
+Door 3 0 0 16624 0 0
+~
+~
+End
+
+#16624
+Name A Scarred Wasteland~
+Descr
+No vegetation can grow here. The ground has been completely decimated. It
+still smokes... smoking eternally from the forces that destroyed it. Bones
+jut from the ground... screams still hang in the air... battle cries still
+echo. 
+~
+Sector 32
+Door 0 0 0 16630 0 0
+~
+~
+Door 1 0 0 16623 0 0
+~
+~
+Door 2 0 0 16620 0 0
+~
+~
+Door 3 0 0 16625 0 0
+~
+~
+End
+
+#16625
+Name A Scarred Wasteland~
+Descr
+No vegetation can grow here. The ground has been completely decimated. It
+still smokes... smoking eternally from the forces that destroyed it. Bones
+jut from the ground... screams still hang in the air... battle cries still
+echo. 
+~
+Sector 32
+Reset M 16601 5 100
+Door 0 0 0 16629 0 0
+~
+~
+Door 1 0 0 16624 0 0
+~
+~
+Door 2 0 0 16619 0 0
+~
+~
+Door 3 0 0 16626 0 0
+~
+~
+End
+
+#16626
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16628 0 0
+~
+~
+Door 1 0 0 16625 0 0
+~
+~
+Door 2 0 0 16613 0 0
+~
+~
+Door 3 0 0 16615 0 0
+~
+~
+End
+
+#16627
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16634 0 0
+~
+~
+Door 1 0 0 16628 0 0
+~
+~
+Door 2 0 0 16615 0 0
+~
+~
+Door 3 0 0 16617 0 0
+~
+~
+End
+
+#16628
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16635 0 0
+~
+~
+Door 1 0 0 16629 0 0
+~
+~
+Door 2 0 0 16626 0 0
+~
+~
+Door 3 0 0 16627 0 0
+~
+~
+End
+
+#16629
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16636 0 0
+~
+~
+Door 1 0 0 16630 0 0
+~
+~
+Door 2 0 0 16625 0 0
+~
+~
+Door 3 0 0 16628 0 0
+~
+~
+Door 5 0 0 5182 0 0
+~
+~
+End
+
+#16630
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16602 5 100
+Reset O 16605 -1 30
+Door 0 0 0 16637 0 0
+~
+~
+Door 1 0 0 16631 0 0
+~
+~
+Door 2 0 0 16624 0 0
+~
+~
+Door 3 0 0 16629 0 0
+~
+~
+End
+
+#16631
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16601 5 100
+Door 0 0 0 16638 0 0
+~
+~
+Door 1 0 0 16632 0 0
+~
+~
+Door 2 0 0 16623 0 0
+~
+~
+Door 3 0 0 16630 0 0
+~
+~
+End
+
+#16632
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16639 0 0
+~
+~
+Door 1 0 0 16633 0 0
+~
+~
+Door 2 0 0 16622 0 0
+~
+~
+Door 3 0 0 16631 0 0
+~
+~
+End
+
+#16633
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16640 0 0
+~
+~
+Door 1 0 0 16609 0 0
+~
+~
+Door 2 0 0 16607 0 0
+~
+~
+Door 3 0 0 16632 0 0
+~
+~
+End
+
+#16634
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16601 5 100
+Door 0 0 0 16641 0 0
+~
+~
+Door 1 0 0 16635 0 0
+~
+~
+Door 2 0 0 16627 0 0
+~
+~
+Door 3 0 0 16618 0 0
+~
+~
+End
+
+#16635
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16642 0 0
+~
+~
+Door 1 0 0 16636 0 0
+~
+~
+Door 2 0 0 16628 0 0
+~
+~
+Door 3 0 0 16634 0 0
+~
+~
+End
+
+#16636
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16643 0 0
+~
+~
+Door 1 0 0 16637 0 0
+~
+~
+Door 2 0 0 16629 0 0
+~
+~
+Door 3 0 0 16635 0 0
+~
+~
+End
+
+#16637
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16644 0 0
+~
+~
+Door 1 0 0 16638 0 0
+~
+~
+Door 2 0 0 16630 0 0
+~
+~
+Door 3 0 0 16636 0 0
+~
+~
+End
+
+#16638
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16645 0 0
+~
+~
+Door 1 0 0 16639 0 0
+~
+~
+Door 2 0 0 16631 0 0
+~
+~
+Door 3 0 0 16637 0 0
+~
+~
+End
+
+#16639
+Name A Broken Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 4
+Door 0 0 0 16646 0 0
+~
+~
+Door 1 0 0 16640 0 0
+~
+~
+Door 2 0 0 16632 0 0
+~
+~
+Door 3 0 0 16638 0 0
+~
+~
+End
+
+#16640
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16647 0 0
+~
+~
+Door 1 0 0 16610 0 0
+~
+~
+Door 2 0 0 16633 0 0
+~
+~
+Door 3 0 0 16639 0 0
+~
+~
+End
+
+#16641
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16684 0 0
+~
+~
+Door 1 0 0 16642 0 0
+~
+~
+Door 2 0 0 16634 0 0
+~
+~
+Door 3 0 0 16686 0 0
+~
+~
+End
+
+#16642
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16652 0 0
+~
+~
+Door 1 0 0 16643 0 0
+~
+~
+Door 2 0 0 16635 0 0
+~
+~
+Door 3 0 0 16641 0 0
+~
+~
+End
+
+#16643
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16601 5 100
+Door 0 0 0 16651 0 0
+~
+~
+Door 1 0 0 16644 0 0
+~
+~
+Door 2 0 0 16636 0 0
+~
+~
+Door 3 0 0 16642 0 0
+~
+~
+End
+
+#16644
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16650 0 0
+~
+~
+Door 1 0 0 16645 0 0
+~
+~
+Door 2 0 0 16637 0 0
+~
+~
+Door 3 0 0 16643 0 0
+~
+~
+End
+
+#16645
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16601 5 100
+Door 0 0 0 16649 0 0
+~
+~
+Door 1 0 0 16646 0 0
+~
+~
+Door 2 0 0 16638 0 0
+~
+~
+Door 3 0 0 16644 0 0
+~
+~
+End
+
+#16646
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16648 0 0
+~
+~
+Door 1 0 0 16647 0 0
+~
+~
+Door 2 0 0 16639 0 0
+~
+~
+Door 3 0 0 16645 0 0
+~
+~
+End
+
+#16647
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16676 0 0
+~
+~
+Door 1 0 0 16674 0 0
+~
+~
+Door 2 0 0 16640 0 0
+~
+~
+Door 3 0 0 16646 0 0
+~
+~
+End
+
+#16648
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16678 0 0
+~
+~
+Door 1 0 0 16676 0 0
+~
+~
+Door 2 0 0 16646 0 0
+~
+~
+Door 3 0 0 16649 0 0
+~
+~
+End
+
+#16649
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16679 0 0
+~
+~
+Door 1 0 0 16648 0 0
+~
+~
+Door 2 0 0 16645 0 0
+~
+~
+Door 3 0 0 16650 0 0
+~
+~
+End
+
+#16650
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16602 5 100
+Door 0 0 0 16680 0 0
+~
+~
+Door 1 0 0 16649 0 0
+~
+~
+Door 2 0 0 16644 0 0
+~
+~
+Door 3 0 0 16651 0 0
+~
+~
+End
+
+#16651
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Door 0 0 0 16681 0 0
+~
+~
+Door 1 0 0 16650 0 0
+~
+~
+Door 2 0 0 16643 0 0
+~
+~
+Door 3 0 0 16652 0 0
+~
+~
+End
+
+#16652
+Name A Scarred and Bloody Field~
+Descr
+You are wandering upon a still bloody field. The grass grows, where it
+grows, upon the spent life of thousands of fallen warriors. The ground is
+scarred and most of it can not support any life... Something terrible
+happened here. 
+~
+Sector 7
+Reset M 16601 5 100
+Door 0 0 0 16682 0 0
+~
+~
+Door 1 0 0 16651 0 0
+~
+~
+Door 2 0 0 16642 0 0
+~
+~
+Door 3 0 0 16684 0 0
+~
+~
+End
+
+#16653
+Name A Shattered Trail in a Wartorn Valley~
+Descr
+You are wandering upon a broken and shattered trail through a wasteland.
+The ground seems to still smoke from long discharged spells, the smell of
+death hangs heavy in the air. Even after all these years... you can still
+hear the crashing of blows echoing off the valley rim. 
+~
+Sector 32
+Reset M 16603 1 100
+Reset O 16602 -1 25
+Reset O 16601 -1 25
+Door 1 0 0 16617 0 0
+~
+~
+Door 3 0 0 16654 0 0
+~
+~
+End
+
+#16654
+Name The Ruins of an Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 0 0 0 16655 0 0
+~
+~
+Door 1 0 0 16653 0 0
+~
+~
+Door 2 0 0 16656 0 0
+~
+~
+Door 3 0 0 16658 0 0
+~
+~
+End
+
+#16655
+Name The Ruins of an Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 2 0 0 16654 0 0
+~
+~
+Door 3 0 0 16659 0 0
+~
+~
+End
+
+#16656
+Name The Ruins of an Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 0 0 0 16654 0 0
+~
+~
+Door 3 0 0 16657 0 0
+~
+~
+End
+
+#16657
+Name The Ruins of an Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 0 0 0 16658 0 0
+~
+~
+Door 1 0 0 16656 0 0
+~
+~
+Door 2 0 0 16699 0 0
+~
+~
+Door 3 0 0 16660 0 0
+~
+~
+End
+
+#16658
+Name The Ruins of an Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Flags2 4
+Sector 34
+Reset M 16604 5 100
+Reset O 16604 -1 25
+Reset O 16603 -1 10
+Door 0 0 0 16659 0 0
+~
+~
+Door 1 0 0 16654 0 0
+~
+~
+Door 2 0 0 16657 0 0
+~
+~
+Door 3 0 0 16661 0 0
+~
+~
+End
+
+#16659
+Name The Ruins of an Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 1 0 0 16655 0 0
+~
+~
+Door 2 0 0 16658 0 0
+~
+~
+Door 3 0 0 16662 0 0
+~
+~
+End
+
+#16660
+Name The Ruins of an Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 0 0 0 16661 0 0
+~
+~
+Door 1 0 0 16657 0 0
+~
+~
+End
+
+#16661
+Name The Ruins of an Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 0 0 0 16662 0 0
+~
+~
+Door 1 0 0 16658 0 0
+~
+~
+Door 2 0 0 16660 0 0
+~
+~
+Door 3 0 0 109 0 0
+~
+~
+End
+
+#16662
+Name The Ruins of an Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 0 0 0 16697 0 0
+~
+~
+Door 1 0 0 16659 0 0
+~
+~
+Door 2 0 0 16661 0 0
+~
+~
+End
+
+#16663
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16603 0 0
+~
+~
+Door 1 0 0 16664 0 0
+~
+~
+End
+
+#16664
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16604 0 0
+~
+~
+Door 1 0 0 16665 0 0
+~
+~
+Door 3 0 0 16663 0 0
+~
+~
+End
+
+#16665
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16666 0 0
+~
+~
+Door 3 0 0 16664 0 0
+~
+~
+End
+
+#16666
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16606 0 0
+~
+~
+Door 1 0 0 16667 0 0
+~
+~
+Door 2 0 0 16665 0 0
+~
+~
+Door 3 0 0 16604 0 0
+~
+~
+End
+
+#16667
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16668 0 0
+~
+~
+Door 3 0 0 16666 0 0
+~
+~
+End
+
+#16668
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16608 0 0
+~
+~
+Door 1 0 0 16669 0 0
+~
+~
+Door 2 0 0 16667 0 0
+~
+~
+Door 3 0 0 16606 0 0
+~
+~
+End
+
+#16669
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16670 0 0
+~
+~
+Door 3 0 0 16668 0 0
+~
+~
+End
+
+#16670
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16671 0 0
+~
+~
+Door 2 0 0 16669 0 0
+~
+~
+Door 3 0 0 16608 0 0
+~
+~
+End
+
+#16671
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16672 0 0
+~
+~
+Door 2 0 0 16670 0 0
+~
+~
+Door 3 0 0 16609 0 0
+~
+~
+End
+
+#16672
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16673 0 0
+~
+~
+Door 2 0 0 16671 0 0
+~
+~
+Door 3 0 0 16610 0 0
+~
+~
+End
+
+#16673
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 2 0 0 16672 0 0
+~
+~
+Door 3 0 0 16674 0 0
+~
+~
+End
+
+#16674
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16675 0 0
+~
+~
+Door 1 0 0 16673 0 0
+~
+~
+Door 2 0 0 16610 0 0
+~
+~
+Door 3 0 0 16647 0 0
+~
+~
+End
+
+#16675
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 2 0 0 16674 0 0
+~
+~
+Door 3 0 0 16676 0 0
+~
+~
+End
+
+#16676
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16677 0 0
+~
+~
+Door 1 0 0 16675 0 0
+~
+~
+Door 2 0 0 16647 0 0
+~
+~
+Door 3 0 0 16648 0 0
+~
+~
+End
+
+#16677
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 2 0 0 16676 0 0
+~
+~
+Door 3 0 0 16678 0 0
+~
+~
+End
+
+#16678
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 1 0 0 16677 0 0
+~
+~
+Door 2 0 0 16648 0 0
+~
+~
+Door 3 0 0 16679 0 0
+~
+~
+End
+
+#16679
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 1 0 0 16678 0 0
+~
+~
+Door 2 0 0 16649 0 0
+~
+~
+Door 3 0 0 16680 0 0
+~
+~
+End
+
+#16680
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 31
+Door 0 0 0 17501 0 0
+~
+~
+Door 1 0 0 16679 0 0
+~
+~
+Door 2 0 0 16650 0 0
+~
+~
+Door 3 0 0 16681 0 0
+~
+~
+End
+
+#16681
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 1 0 0 16680 0 0
+~
+~
+Door 2 0 0 16651 0 0
+~
+~
+Door 3 0 0 16682 0 0
+~
+~
+End
+
+#16682
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 1 0 0 16681 0 0
+~
+~
+Door 2 0 0 16652 0 0
+~
+~
+Door 3 0 0 16683 0 0
+~
+~
+End
+
+#16683
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 1 0 0 16682 0 0
+~
+~
+Door 2 0 0 16684 0 0
+~
+~
+End
+
+#16684
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16683 0 0
+~
+~
+Door 1 0 0 16652 0 0
+~
+~
+Door 2 0 0 16641 0 0
+~
+~
+Door 3 0 0 16685 0 0
+~
+~
+End
+
+#16685
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 1 0 0 16684 0 0
+~
+~
+Door 2 0 0 16686 0 0
+~
+~
+End
+
+#16686
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16685 0 0
+~
+~
+Door 1 0 0 16641 0 0
+~
+~
+Door 2 0 0 16618 0 0
+~
+~
+Door 3 0 0 16687 0 0
+~
+~
+End
+
+#16687
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 1 0 0 16686 0 0
+~
+~
+Door 2 0 0 16688 0 0
+~
+~
+End
+
+#16688
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16687 0 0
+~
+~
+Door 1 0 0 16618 0 0
+~
+~
+End
+
+#16689
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 1 0 0 16616 0 0
+~
+~
+Door 2 0 0 16690 0 0
+~
+~
+End
+
+#16690
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16689 0 0
+~
+~
+Door 1 0 0 16691 0 0
+~
+~
+End
+
+#16691
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16616 0 0
+~
+~
+Door 1 0 0 16614 0 0
+~
+~
+Door 2 0 0 16692 0 0
+~
+~
+Door 3 0 0 16690 0 0
+~
+~
+End
+
+#16692
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16691 0 0
+~
+~
+Door 1 0 0 16693 0 0
+~
+~
+End
+
+#16693
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16614 0 0
+~
+~
+Door 1 0 0 16612 0 0
+~
+~
+Door 2 0 0 16694 0 0
+~
+~
+Door 3 0 0 16692 0 0
+~
+~
+End
+
+#16694
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16693 0 0
+~
+~
+Door 1 0 0 16695 0 0
+~
+~
+End
+
+#16695
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16612 0 0
+~
+~
+Door 1 0 0 16696 0 0
+~
+~
+Door 3 0 0 16694 0 0
+~
+~
+End
+
+#16696
+Name Along the Rim of A Volcanic Valley~
+Descr
+The smell of long expended sulfur coats the surrounding environs, choking
+you with it's acrid reak. The area is almost impassable, covered in jutting
+volcanic glass that pierces your boots and draws minute amounts of blood. 
+~
+Sector 13
+Door 0 0 0 16611 0 0
+~
+~
+Door 3 0 0 16695 0 0
+~
+~
+End
+
+#16697
+Name The Ruins of an Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 2 0 0 16662 0 0
+~
+~
+Door 3 0 0 16698 0 0
+~
+~
+End
+
+#16698
+Name The Ruins of an Outpost~
+Cvnuml 136470000
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 1 0 0 16697 0 0
+~
+~
+Door 5 0 0 111 0 0
+~
+~
+End
+
+#16699
+Name The Ruins of An Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 0 0 0 16657 0 0
+~
+~
+Door 3 0 0 16700 0 0
+~
+~
+End
+
+#16700
+Name The Ruins of An Outpost~
+Descr
+This was once a proud and mighty city, you see the remains of statues
+shattered in some great conflict. The ground is uneven, jutted upward,
+paving stones and other building materials lie in disarray on the ground.
+You swear you can still hear the citizens screaming... 
+~
+Sector 34
+Door 1 0 0 16699 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

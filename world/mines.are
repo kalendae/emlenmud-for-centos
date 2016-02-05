@@ -1,0 +1,612 @@
+#AREADATA 
+Name The Old Mine Tunnel~
+Repop The walls screech as an old mine comes alive!  
+~
+SCZone 0
+Builders Structure~
+VNUMs 39650 39700
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#39650
+Name rat~
+Short a rat~
+Long 
+A huge rat stands here awaiting to attack.
+~
+AMax 10
+NHeight 0
+ActBits 8
+ActBits4 16384
+Affect_By 512
+Level 5
+Sex 1
+Hp 2
+Guard 0
+End
+
+#39675
+Name dragon guard~
+Short a dragon guard~
+Long 
+A dragon guard stands here protecting their homelands.
+~
+AMax 2
+NHeight 0
+ActBits 2
+ActBits3 8
+ActBits4 1
+Affect_By 524808
+AffectTWO 524296
+Alignment 1
+Level 75
+MobType 5
+Hp 3
+Guard 3
+End
+
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#39650
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Sector 47
+Door 3 0 0 39651 0 0
+~
+~
+End
+
+#39651
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 1 0 0 39650 0 0
+~
+~
+Door 3 0 0 39652 0 0
+~
+~
+End
+
+#39652
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Reset M 39650 1 100
+Door 1 0 0 39651 0 0
+~
+~
+Door 3 0 0 39653 0 0
+~
+~
+End
+
+#39653
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 1 0 0 39652 0 0
+~
+~
+Door 3 0 0 39654 0 0
+~
+~
+End
+
+#39654
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Reset M 39650 1 100
+Door 1 0 0 39653 0 0
+~
+~
+Door 3 0 0 39655 0 0
+~
+~
+End
+
+#39655
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 39656 0 0
+~
+~
+Door 1 0 0 39654 0 0
+~
+~
+Door 2 0 0 39657 0 0
+~
+~
+Door 3 0 0 39658 0 0
+~
+~
+End
+
+#39656
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 2 0 0 39655 0 0
+~
+~
+End
+
+#39657
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 39655 0 0
+~
+~
+End
+
+#39658
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Sector 47
+Reset M 39650 1 100
+Door 1 0 0 39655 0 0
+~
+~
+Door 5 259 0 39659 30 30
+~
+hidden~
+End
+
+#39659
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 2 0 0 39660 0 0
+~
+~
+Door 4 259 0 39658 30 30
+~
+hidden~
+End
+
+#39660
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Reset M 39650 1 100
+Door 0 0 0 39659 0 0
+~
+~
+Door 2 0 0 39661 0 0
+~
+~
+End
+
+#39661
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 39660 0 0
+~
+~
+Door 2 0 0 39662 0 0
+~
+~
+End
+
+#39662
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Reset M 39650 1 100
+Door 0 0 0 39661 0 0
+~
+~
+Door 3 0 0 39663 0 0
+~
+~
+End
+
+#39663
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 1 0 0 39662 0 0
+~
+~
+Door 3 0 0 39664 0 0
+~
+~
+End
+
+#39664
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 1 0 0 39663 0 0
+~
+~
+Door 5 259 0 39665 30 30
+~
+mine~
+End
+
+#39665
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Reset M 39650 1 100
+Door 3 0 0 39666 0 0
+~
+~
+Door 4 259 0 39664 30 30
+~
+mine~
+End
+
+#39666
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 1 0 0 39665 0 0
+~
+~
+Door 2 0 0 39667 0 0
+~
+~
+End
+
+#39667
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 39666 0 0
+~
+~
+Door 3 0 0 39668 0 0
+~
+~
+End
+
+#39668
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Reset M 39650 1 100
+Door 1 0 0 39667 0 0
+~
+~
+Door 2 0 0 39669 0 0
+~
+~
+End
+
+#39669
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 39668 0 0
+~
+~
+Door 4 0 0 39670 0 0
+~
+~
+End
+
+#39670
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 2 0 0 39671 0 0
+~
+~
+Door 5 0 0 39669 0 0
+~
+~
+End
+
+#39671
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 39670 0 0
+~
+~
+Door 2 0 0 39672 0 0
+~
+~
+End
+
+#39672
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 39671 0 0
+~
+~
+Door 5 0 0 39673 0 0
+~
+~
+End
+
+#39673
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Sector 47
+Reset M 39650 1 100
+Door 1 0 0 39674 0 0
+~
+~
+Door 3 0 0 39679 0 0
+~
+~
+Door 4 0 0 39672 0 0
+~
+~
+End
+
+#39674
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 1 0 0 39675 0 0
+~
+~
+Door 3 0 0 39673 0 0
+~
+~
+End
+
+#39675
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 4128
+Sector 47
+Reset M 39675 1 100
+Reset M 39675 1 100
+Door 1 0 0 39676 0 0
+~
+~
+Door 3 0 0 39674 0 0
+~
+~
+End
+
+#39676
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Reset M 39650 1 100
+Door 2 0 0 39677 0 0
+~
+~
+Door 3 0 0 39675 0 0
+~
+~
+End
+
+#39677
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 39676 0 0
+~
+~
+Door 2 0 0 39678 0 0
+~
+~
+End
+
+#39678
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 0 0 0 39677 0 0
+~
+~
+End
+
+#39679
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Sector 47
+Door 1 0 0 39673 0 0
+~
+~
+Door 3 0 0 39680 0 0
+~
+~
+End
+
+#39680
+Name A Old Mine Tunnel~
+Descr
+You enter a small mine that has been abandoned for a long time. You hear
+drip's of water in the distance as you pass through the mine. 
+~
+Flags 32
+Sector 47
+Door 1 0 0 39679 0 0
+~
+~
+End
+
+#39681
+Name ~
+Descr
+~
+End
+
+#39682
+Name ~
+Descr
+~
+End
+
+#39683
+Name ~
+Descr
+~
+End
+
+#39684
+Name ~
+Descr
+~
+End
+
+#39685
+Name ~
+Descr
+~
+End
+
+#39686
+Name ~
+Descr
+~
+End
+
+#39687
+Name ~
+Descr
+~
+End
+
+#39688
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

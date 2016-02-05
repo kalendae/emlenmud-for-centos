@@ -1,0 +1,19 @@
+$B$2+$1-------------------------------------------------------------------------$2+
+$1|             $2 *lnme*                $1  |
+$2+$1------------------------$2+$1---------------------$2+$1--------------------------$2+
+$B$1|$R$7 Strength     : [$B$4*2str*$R$7/$B$7*2qstr*$R$7] $B$1|$R$7 Race : $B$5*13r*$B$1|$R$7 Practices   : [   $3*4pra*$7 ] $B$1|$R$7
+$B$1|$R$7 Constitution : [$B$4*2con*$R$7/$B$7*2qcon*$R$7] $B$1|$R$7 Sex  : $B$1*1sex*      $1|$R$7 Learns      : [   $3*3lea*$7  ] $B$1|$R$7
+$B$1|$R$7 Dexterity    : [$B$4*2dex*$R$7/$B$7*2qdex*$R$7] $B$1|$R$7 Lvl  : $B$2*3lvl*          $1|$R$7 Skill Slots : [ $3*3cskl*$7/$3*3tskl*$7] $B$1|$R$7
+$B$1|$R$7 Intelligence : [$B$4*2int*$R$7/$B$7*2qint*$R$7] $B$1|$R$7 Hgt  : $B$3*7ht*      $1|$R$7 Spell Slots : [ $3*3cspl*$7/$3*3tspl*$7] $B$1|$R$7
+$B$1|$R$7 Wisdom       : [$B$4*2wis*$R$7/$B$7*2qwis*$R$7] $B$1|$R$7 Wgt  : $B$4*18kw*$R$7 ($B$7*ww*$R$7)$B$1|$R$7
+$B$2+$1------------------------$2+$1---------------------$2+$1--------------------------$2+
+$B$1|$R$7 Hit    : [$B$4*5hn*$7/$4*5hm*$R$7] $B$1|$R$7 Warpoints : $B$4*5wp*   $1|$R$7 Attack Power  : [ $B$4*3ap*$R$7  ] $B$1|$R$7
+$B$1|$R$7 Moves  : [$B$2*5mn*$7/$2*5mm*$R$7] $B$1|$R$7 Total Wps : $B$4*5twp*   $1|$R$7 Offensive     : [ $B$2*3ob*$R$7  ] $B$1|$R$7
+$B$1|$R$7 Mana   : [$B$3  *3mnn*$7/$3*3mmm*$R$7  ] $B$1|$R$7 Total Pks : $B$4*5npks*   $1|$R$7 Evasion Bonus : [ $B$5*3eb*$R$7  ] $B$1|$R$7
+$B$1|$R$7 Coins  : [$B$6*11cn*$R$7] $B$1|$R$7 Pk Levels : $B$4*5npkl*   $1|$R$7 Wimpy         : [ $B$4*3wim*$R$7  ] $B$1|$R$7
+$B$1|$R$7 Bank   : [$B$6*11cb*$R$7] $B$1|$R$7 Deaths    : $B$0*5dth*   $1|$R$7 Age           : [ $3*2a*$7   ] $B$1|$R$7
+$B$1|$R$7 Xp2Lvl : [$B$7*11xl*$R$7] $B$1|$R$7 Pk Deaths : $B$0*5npkd*   $1|$R$7 Hours Online  : [ $3*4pt*$7 ] $B$1|$R$7
+$B$1|$R$7 Align  : [      $B$4*5al*$R$7] $B$1|$R$7 Pk Helpers: $B$0*5npkh*   $1|$R$7 Remorts       : [ $B$7*2rmt*$R$7   ] $B$1|$R$7
+$B$2+$1------------------------$2+$1---------------------$2+$1--------------------------$2+*guil**clan* 
+$R$7  Type 'aff' for affects, 'who' to see players on, 'help' for other info.
+~

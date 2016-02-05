@@ -1,0 +1,2969 @@
+#AREADATA 
+Name A Forest Passage~
+Repop The forest seems to gather around you.
+~
+SCZone 0
+Builders Starson~
+VNUMs 11000 11200
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#11000
+Name elaya monk guildmaster~
+Short Elaya the protector of the wolves~
+Long 
+Elaya, the monk guildmaster stands here watching over her monks.
+~
+AMax 1
+NHeight 60
+ActBits 256
+ActBits3 16777216
+Money 100
+Level 375
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+ASklTaught 0 564
+ASklTaught 1 143
+ASklTaught 2 97
+ASklTaught 3 556
+ASklTaught 4 560
+ASklTaught 5 559
+ASklTaught 6 558
+ASklTaught 7 562
+End
+
+#11001
+Name wolf~
+Short a strange looking wolf~
+Long 
+A strange looking wolf is here stalking his pray.
+~
+AMax 45
+NHeight 40
+ActBits 5
+Alignment 2
+Level 120
+MobType 6
+Hp 2
+Guard 0
+Spec spec_warrior
+End
+
+#11002
+Name wolf cub baby pup~
+Short a wolf cub~
+Long 
+A wolf cub sits here, playing.
+~
+AMax 5
+ActBits 1
+Level 40
+Sex 2
+MobType 6
+Guard 0
+GHitR 40
+GDamR 12
+ArmorClass -3
+End
+
+#11003
+Name she wolf mama parent~
+Short a she-wolf~
+Long 
+A large she-wolf stands here.
+~
+AMax 1
+NHeight 100
+ActBits 11
+Affect_By 640
+Money 100
+Level 100
+Sex 2
+MobType 6
+Hp 15
+Guard 0
+Spec spec_warrior
+End
+
+#11004
+Name kaz~
+Short Kaz the thief~
+Long 
+Kaz is hiding here from the police!!
+~
+AMax 1
+NHeight 40
+ActBits 1
+Affect_By 98472
+Money 1000
+Level 200
+MobType 0
+Hp 6
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#11000
+Name key~
+Short key of the trees~
+Descr
+A wooden looking key is lying here.
+[0;36m~
+Type 18
+Wear 1
+Values 0 1 1 0 0 0 0 0 0 0 0
+Weight 2
+Cost 0
+End
+
+#11001
+Name spring~
+Short a [1m[36mwierd [0mlooking spring~
+Descr
+[0ma wierd looking [1m[36mspring [0mis here inviting you to have a drink.
+[0;36m~
+Type 25
+Wear 0
+Values 1000 1000 4 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#11002
+Name wolf tooth fang earring~
+Short a [33mw[1m[30mol[0m[33mf fa[1m[30mng[0m[33med[0m earring~
+Descr
+A tooth of a wolf lies here.
+[0;36m~
+Type 9
+Extra 1
+Wear 262145
+Values 0 0 1 0 0 0 20 20 0 0 0
+Weight 10
+Cost 300
+Affect 18 2 1 0 0
+End
+
+#11003
+Name cloak wolf fur white ice pelt~
+Short an [37m[1mice[36m-[37mwhite [0mwolves pelt~
+Descr
+A pile of wolf fur lies here.
+[0;36m~
+Type 9
+Extra 2
+Wear 1025
+Values 0 5 0 2 0 0 40 40 0 3 0
+Weight 60
+Cost 4000
+Affect 14 15 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#11000
+Name A Pit~
+Descr
+This appears to be an old sunken trench of once a pleasant valley. The
+wolves that once inhabited this area had to move somewhere else due to
+flooding. 
+~
+Flags 36
+Door 4 259 0 5065 30 30
+~
+trench~
+End
+
+#11001
+Name The Entrance to a Strange Forest~
+Descr
+The forest changes a bit as you enter this area. You begin to hear
+strange noises, little scurrying sounds, and strange noises. Light barely
+filters down through the thick canopy up above, distorting vision and
+perception. 
+~
+Sector 27
+Door 0 0 0 11002 0 0
+~
+~
+Door 2 0 0 11000 0 0
+~
+~
+End
+
+#11002
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 1 0 0 11003 0 0
+~
+~
+Door 2 0 0 11001 0 0
+~
+~
+End
+
+#11003
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 1 0 0 11004 0 0
+~
+~
+Door 3 0 0 11002 0 0
+~
+~
+End
+
+#11004
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 1 0 0 11005 0 0
+~
+~
+Door 3 0 0 11003 0 0
+~
+~
+End
+
+#11005
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 0 0 0 11006 0 0
+~
+~
+Door 3 0 0 11004 0 0
+~
+~
+End
+
+#11006
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 0 0 0 11007 0 0
+~
+~
+Door 2 0 0 11005 0 0
+~
+~
+End
+
+#11007
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 2 0 0 11006 0 0
+~
+~
+Door 3 0 0 11008 0 0
+~
+~
+End
+
+#11008
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 1 0 0 11007 0 0
+~
+~
+Door 2 0 0 11009 0 0
+~
+~
+End
+
+#11009
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 0 0 0 11008 0 0
+~
+~
+Door 3 0 0 11010 0 0
+~
+~
+End
+
+#11010
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 1 0 0 11009 0 0
+~
+~
+Door 3 0 0 11012 0 0
+~
+~
+End
+
+#11011
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11038 0 0
+~
+~
+Door 2 0 0 11036 0 0
+~
+~
+Door 3 0 0 11034 0 0
+~
+~
+End
+
+#11012
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 0 0 0 11013 0 0
+~
+~
+Door 1 0 0 11010 0 0
+~
+~
+End
+
+#11013
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 0 0 0 11014 0 0
+~
+~
+Door 2 0 0 11012 0 0
+~
+~
+End
+
+#11014
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 1 0 0 11015 0 0
+~
+~
+Door 2 0 0 11013 0 0
+~
+~
+End
+
+#11015
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 0 771 0 11016 100 100
+~
+bracket of trees~
+Door 3 0 0 11014 0 0
+~
+~
+End
+
+#11016
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11017 0 0
+~
+~
+Door 1 0 0 11022 0 0
+~
+~
+Door 4 259 0 8859 30 30
+~
+passage~
+End
+
+#11017
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11018 0 0
+~
+~
+Door 2 0 0 11016 0 0
+~
+~
+End
+
+#11018
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11019 0 0
+~
+~
+Door 2 0 0 11022 0 0
+~
+~
+Door 3 0 0 11017 0 0
+~
+~
+End
+
+#11019
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11020 0 0
+~
+~
+Door 2 0 0 11023 0 0
+~
+~
+Door 3 0 0 11018 0 0
+~
+~
+End
+
+#11020
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Reset M 11001 1 100
+Door 1 0 0 11021 0 0
+~
+~
+Door 2 0 0 11024 0 0
+~
+~
+Door 3 0 0 11019 0 0
+~
+~
+End
+
+#11021
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11026 0 0
+~
+~
+Door 1 0 0 11138 0 0
+~
+~
+Door 2 0 0 11025 0 0
+~
+~
+Door 3 0 0 11020 0 0
+~
+~
+End
+
+#11022
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11018 0 0
+~
+~
+Door 1 0 0 11023 0 0
+~
+~
+Door 3 0 0 11016 0 0
+~
+~
+End
+
+#11023
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11019 0 0
+~
+~
+Door 1 0 0 11024 0 0
+~
+~
+Door 3 0 0 11022 0 0
+~
+~
+End
+
+#11024
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11020 0 0
+~
+~
+Door 1 0 0 11025 0 0
+~
+~
+Door 3 0 0 11023 0 0
+~
+~
+End
+
+#11025
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11021 0 0
+~
+~
+Door 1 0 0 11139 0 0
+~
+~
+Door 3 0 0 11024 0 0
+~
+~
+End
+
+#11026
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11027 0 0
+~
+~
+Door 1 0 0 11137 0 0
+~
+~
+Door 2 0 0 11021 0 0
+~
+~
+End
+
+#11027
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11028 0 0
+~
+~
+Door 2 0 0 11026 0 0
+~
+~
+End
+
+#11028
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11029 0 0
+~
+~
+Door 2 0 0 11137 0 0
+~
+~
+Door 3 0 0 11027 0 0
+~
+~
+End
+
+#11029
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11030 0 0
+~
+~
+Door 2 0 0 11076 0 0
+~
+~
+Door 3 0 0 11028 0 0
+~
+~
+End
+
+#11030
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 2 0 0 11031 0 0
+~
+~
+Door 3 0 0 11029 0 0
+~
+~
+End
+
+#11031
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11030 0 0
+~
+~
+Door 2 0 0 11032 0 0
+~
+~
+Door 3 0 0 11076 0 0
+~
+~
+End
+
+#11032
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11031 0 0
+~
+~
+Door 2 0 0 11033 0 0
+~
+~
+Door 3 0 0 11077 0 0
+~
+~
+End
+
+#11033
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Reset M 11001 1 100
+Door 0 0 0 11032 0 0
+~
+~
+Door 2 0 0 11034 0 0
+~
+~
+Door 3 0 0 11140 0 0
+~
+~
+End
+
+#11034
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11033 0 0
+~
+~
+Door 1 0 0 11011 0 0
+~
+~
+Door 2 0 0 11035 0 0
+~
+~
+End
+
+#11035
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11034 0 0
+~
+~
+Door 1 0 0 11036 0 0
+~
+~
+End
+
+#11036
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11011 0 0
+~
+~
+Door 1 0 0 11037 0 0
+~
+~
+Door 3 0 0 11035 0 0
+~
+~
+End
+
+#11037
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11038 0 0
+~
+~
+Door 3 0 0 11036 0 0
+~
+~
+End
+
+#11038
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11039 0 0
+~
+~
+Door 2 0 0 11037 0 0
+~
+~
+Door 3 0 0 11011 0 0
+~
+~
+End
+
+#11039
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11040 0 0
+~
+~
+Door 2 0 0 11038 0 0
+~
+~
+End
+
+#11040
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11041 0 0
+~
+~
+Door 2 0 0 11039 0 0
+~
+~
+End
+
+#11041
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11042 0 0
+~
+~
+Door 3 0 0 11040 0 0
+~
+~
+End
+
+#11042
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11043 0 0
+~
+~
+Door 3 0 0 11041 0 0
+~
+~
+End
+
+#11043
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11044 0 0
+~
+~
+Door 2 0 0 11042 0 0
+~
+~
+End
+
+#11044
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11045 0 0
+~
+~
+Door 2 0 0 11043 0 0
+~
+~
+End
+
+#11045
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11046 0 0
+~
+~
+Door 2 0 0 11044 0 0
+~
+~
+End
+
+#11046
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 2 0 0 11045 0 0
+~
+~
+Door 3 0 0 11047 0 0
+~
+~
+End
+
+#11047
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11046 0 0
+~
+~
+Door 3 0 0 11048 0 0
+~
+~
+End
+
+#11048
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11047 0 0
+~
+~
+Door 3 0 0 11049 0 0
+~
+~
+End
+
+#11049
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11048 0 0
+~
+~
+Door 3 0 0 11050 0 0
+~
+~
+End
+
+#11050
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11051 0 0
+~
+~
+Door 1 0 0 11049 0 0
+~
+~
+End
+
+#11051
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11052 0 0
+~
+~
+Door 2 0 0 11050 0 0
+~
+~
+End
+
+#11052
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11053 0 0
+~
+~
+Door 2 0 0 11051 0 0
+~
+~
+End
+
+#11053
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 2 0 0 11052 0 0
+~
+~
+Door 3 0 0 11054 0 0
+~
+~
+End
+
+#11054
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11053 0 0
+~
+~
+Door 3 0 0 11055 0 0
+~
+~
+End
+
+#11055
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Sector 27
+Door 1 0 0 11054 0 0
+~
+~
+Door 3 0 0 11056 0 0
+~
+~
+End
+
+#11056
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11058 0 0
+~
+~
+Door 1 0 0 11055 0 0
+~
+~
+Door 3 0 0 11057 0 0
+~
+~
+End
+
+#11057
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11056 0 0
+~
+~
+End
+
+#11058
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11059 0 0
+~
+~
+Door 2 0 0 11056 0 0
+~
+~
+End
+
+#11059
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11060 0 0
+~
+~
+Door 2 0 0 11058 0 0
+~
+~
+End
+
+#11060
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Reset M 11001 1 100
+Door 0 0 0 11061 0 0
+~
+~
+Door 2 0 0 11059 0 0
+~
+~
+End
+
+#11061
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11062 0 0
+~
+~
+Door 2 0 0 11060 0 0
+~
+~
+End
+
+#11062
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11063 0 0
+~
+~
+Door 3 0 0 11061 0 0
+~
+~
+End
+
+#11063
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11065 0 0
+~
+~
+Door 1 0 0 11064 0 0
+~
+~
+Door 3 0 0 11062 0 0
+~
+~
+End
+
+#11064
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11120 0 0
+~
+~
+Door 1 0 0 11121 0 0
+~
+~
+Door 3 0 0 11063 0 0
+~
+~
+End
+
+#11065
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11066 0 0
+~
+~
+Door 1 0 0 11120 0 0
+~
+~
+Door 2 0 0 11063 0 0
+~
+~
+End
+
+#11066
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11067 0 0
+~
+~
+Door 1 0 0 11113 0 0
+~
+~
+Door 2 0 0 11065 0 0
+~
+~
+End
+
+#11067
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11068 0 0
+~
+~
+Door 1 0 0 11108 0 0
+~
+~
+Door 2 0 0 11066 0 0
+~
+~
+End
+
+#11068
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11104 0 0
+~
+~
+Door 2 0 0 11067 0 0
+~
+~
+Door 3 0 0 11069 0 0
+~
+~
+End
+
+#11069
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11068 0 0
+~
+~
+Door 3 0 0 11070 0 0
+~
+~
+End
+
+#11070
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11069 0 0
+~
+~
+Door 3 0 0 11071 0 0
+~
+~
+End
+
+#11071
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11070 0 0
+~
+~
+Door 3 0 0 11072 0 0
+~
+~
+End
+
+#11072
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11071 0 0
+~
+~
+Door 3 0 0 11073 0 0
+~
+~
+End
+
+#11073
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Reset O 11002 -3 5
+Door 1 0 0 11072 0 0
+~
+~
+Door 3 0 0 11074 0 0
+~
+~
+End
+
+#11074
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11075 0 0
+~
+~
+Door 1 0 0 11073 0 0
+~
+~
+End
+
+#11075
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Reset O 11002 -3 5
+Door 1 0 0 11078 0 0
+~
+~
+Door 2 0 0 11074 0 0
+~
+~
+End
+
+#11076
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11029 0 0
+~
+~
+Door 1 0 0 11031 0 0
+~
+~
+Door 2 0 0 11077 0 0
+~
+~
+Door 3 0 0 11137 0 0
+~
+~
+End
+
+#11077
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11076 0 0
+~
+~
+Door 1 0 0 11032 0 0
+~
+~
+Door 2 0 0 11140 0 0
+~
+~
+Door 3 0 0 11138 0 0
+~
+~
+End
+
+#11078
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11079 0 0
+~
+~
+Door 3 0 0 11075 0 0
+~
+~
+End
+
+#11079
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11080 0 0
+~
+~
+Door 3 0 0 11078 0 0
+~
+~
+End
+
+#11080
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Reset O 11002 -3 5
+Door 1 0 0 11081 0 0
+~
+~
+Door 3 0 0 11079 0 0
+~
+~
+End
+
+#11081
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11082 0 0
+~
+~
+Door 3 0 0 11080 0 0
+~
+~
+End
+
+#11082
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11083 0 0
+~
+~
+Door 3 0 0 11081 0 0
+~
+~
+End
+
+#11083
+Name A Strange Forest~
+Descr
+Here the forest begins to change. From thick, overgrown animal trails,
+you now walk on a tame, recently cut lawn. The lawn appears to stretch for a
+long ways to the north where a tall figure sits near a glowing fountain. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Reset O 11002 -3 5
+Door 0 0 0 11084 0 0
+~
+~
+Door 3 0 0 11082 0 0
+~
+~
+End
+
+#11084
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11085 0 0
+~
+~
+Door 2 0 0 11083 0 0
+~
+~
+End
+
+#11085
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11086 0 0
+~
+~
+Door 1 0 0 11103 0 0
+~
+~
+Door 2 0 0 11084 0 0
+~
+~
+End
+
+#11086
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11087 0 0
+~
+~
+Door 1 0 0 11096 0 0
+~
+~
+Door 2 0 0 11085 0 0
+~
+~
+End
+
+#11087
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11088 0 0
+~
+~
+Door 2 0 0 11086 0 0
+~
+~
+End
+
+#11088
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11089 0 0
+~
+~
+Door 1 0 0 11094 0 0
+~
+~
+Door 2 0 0 11096 0 0
+~
+~
+Door 3 0 0 11087 0 0
+~
+~
+End
+
+#11089
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11090 0 0
+~
+~
+Door 1 0 0 11112 0 0
+~
+~
+Door 2 0 0 11088 0 0
+~
+~
+End
+
+#11090
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11091 0 0
+~
+~
+Door 2 0 0 11089 0 0
+~
+~
+End
+
+#11091
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11092 0 0
+~
+~
+Door 2 0 0 11112 0 0
+~
+~
+Door 3 0 0 11090 0 0
+~
+~
+End
+
+#11092
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags2 6
+Flags 4112
+Sector 27
+Door 0 0 0 11093 0 0
+~
+~
+Door 2 0 0 11111 0 0
+~
+~
+Door 3 0 0 11091 0 0
+~
+~
+End
+
+#11093
+Name A Clearing in a Strange Forest~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Reset M 11000 1 100
+Reset O 65 -1 10
+Reset O 11003 -1 45
+Reset O 11001 -5 100
+Door 2 0 0 11092 0 0
+~
+~
+End
+
+#11094
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11112 0 0
+~
+~
+Door 1 0 0 11095 0 0
+~
+~
+Door 2 0 0 11097 0 0
+~
+~
+Door 3 0 0 11088 0 0
+~
+~
+End
+
+#11095
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11111 0 0
+~
+~
+Door 2 0 0 11098 0 0
+~
+~
+Door 3 0 0 11094 0 0
+~
+~
+End
+
+#11096
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11088 0 0
+~
+~
+Door 1 0 0 11097 0 0
+~
+~
+Door 2 0 0 11103 0 0
+~
+~
+Door 3 0 0 11086 0 0
+~
+~
+End
+
+#11097
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11094 0 0
+~
+~
+Door 1 0 0 11098 0 0
+~
+~
+Door 2 0 0 11102 0 0
+~
+~
+Door 3 0 0 11096 0 0
+~
+~
+End
+
+#11098
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11095 0 0
+~
+~
+Door 1 0 0 11099 0 0
+~
+~
+Door 2 0 0 11101 0 0
+~
+~
+Door 3 0 0 11097 0 0
+~
+~
+End
+
+#11099
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Door 2 0 0 11100 0 0
+~
+~
+Door 3 0 0 11098 0 0
+~
+~
+End
+
+#11100
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11099 0 0
+~
+~
+Door 3 0 0 11101 0 0
+~
+~
+End
+
+#11101
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Reset M 11001 1 100
+Door 0 0 0 11098 0 0
+~
+~
+Door 1 0 0 11100 0 0
+~
+~
+Door 3 0 0 11102 0 0
+~
+~
+End
+
+#11102
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11097 0 0
+~
+~
+Door 1 0 0 11101 0 0
+~
+~
+Door 3 0 0 11103 0 0
+~
+~
+End
+
+#11103
+Name A Peaceful Glade~
+Descr
+Rolling lawns massage feet worn by miles of travel. A strong feeling of
+contentment greets you as you wander around this glade. Here and there you
+see large wolves, who strangely enough ignore you. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11096 0 0
+~
+~
+Door 1 0 0 11102 0 0
+~
+~
+Door 3 0 0 11085 0 0
+~
+~
+End
+
+#11104
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 1 0 0 11105 0 0
+~
+~
+Door 2 0 0 11108 0 0
+~
+~
+Door 3 0 0 11068 0 0
+~
+~
+End
+
+#11105
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11106 0 0
+~
+~
+Door 2 0 0 11109 0 0
+~
+~
+Door 3 0 0 11104 0 0
+~
+~
+End
+
+#11106
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 1 0 0 11107 0 0
+~
+~
+Door 2 0 0 11110 0 0
+~
+~
+Door 3 0 0 11105 0 0
+~
+~
+End
+
+#11107
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 3 0 0 11106 0 0
+~
+~
+End
+
+#11108
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11104 0 0
+~
+~
+Door 1 0 0 11109 0 0
+~
+~
+Door 2 0 0 11113 0 0
+~
+~
+Door 3 0 0 11067 0 0
+~
+~
+End
+
+#11109
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11105 0 0
+~
+~
+Door 1 0 0 11110 0 0
+~
+~
+Door 2 0 0 11114 0 0
+~
+~
+Door 3 0 0 11108 0 0
+~
+~
+End
+
+#11110
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11106 0 0
+~
+~
+Door 2 0 0 11115 0 0
+~
+~
+Door 3 0 0 11109 0 0
+~
+~
+End
+
+#11111
+Name A Peaceful Glade~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11092 0 0
+~
+~
+Door 2 0 0 11095 0 0
+~
+~
+Door 3 0 0 11112 0 0
+~
+~
+End
+
+#11112
+Name A Peaceful Glade~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11091 0 0
+~
+~
+Door 1 0 0 11111 0 0
+~
+~
+Door 2 0 0 11094 0 0
+~
+~
+Door 3 0 0 11089 0 0
+~
+~
+End
+
+#11113
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11108 0 0
+~
+~
+Door 1 0 0 11114 0 0
+~
+~
+Door 2 0 0 11120 0 0
+~
+~
+Door 3 0 0 11066 0 0
+~
+~
+End
+
+#11114
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11109 0 0
+~
+~
+Door 1 0 0 11115 0 0
+~
+~
+Door 2 0 0 11119 0 0
+~
+~
+Door 3 0 0 11113 0 0
+~
+~
+End
+
+#11115
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11110 0 0
+~
+~
+Door 1 0 0 11116 0 0
+~
+~
+Door 2 0 0 11118 0 0
+~
+~
+Door 3 0 0 11114 0 0
+~
+~
+End
+
+#11116
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 2 0 0 11117 0 0
+~
+~
+Door 3 0 0 11115 0 0
+~
+~
+End
+
+#11117
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11116 0 0
+~
+~
+Door 1 0 0 11122 0 0
+~
+~
+Door 3 0 0 11118 0 0
+~
+~
+End
+
+#11118
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Door 0 0 0 11115 0 0
+~
+~
+Door 1 0 0 11117 0 0
+~
+~
+Door 3 0 0 11119 0 0
+~
+~
+End
+
+#11119
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Reset M 11001 1 100
+Door 0 0 0 11114 0 0
+~
+~
+Door 1 0 0 11118 0 0
+~
+~
+Door 2 0 0 11121 0 0
+~
+~
+Door 3 0 0 11120 0 0
+~
+~
+End
+
+#11120
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Sector 27
+Reset M 11001 1 100
+Door 0 0 0 11113 0 0
+~
+~
+Door 1 0 0 11119 0 0
+~
+~
+Door 2 0 0 11064 0 0
+~
+~
+Door 3 0 0 11065 0 0
+~
+~
+End
+
+#11121
+Name A Strange Forest~
+Descr
+~
+Flags 16
+Sector 27
+Door 0 0 0 11119 0 0
+~
+~
+Door 3 0 0 11064 0 0
+~
+~
+End
+
+#11122
+Name Entrance Into a Dark Cave~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 1 0 0 11123 0 0
+~
+~
+Door 3 0 0 11117 0 0
+~
+~
+End
+
+#11123
+Name In A Dark Cave~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 1 0 0 11124 0 0
+~
+~
+Door 3 0 0 11122 0 0
+~
+~
+End
+
+#11124
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 1 0 0 11129 0 0
+~
+~
+Door 2 0 0 11125 0 0
+~
+~
+Door 3 0 0 11123 0 0
+~
+~
+End
+
+#11125
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 0 0 0 11124 0 0
+~
+~
+Door 1 0 0 11128 0 0
+~
+~
+Door 2 0 0 11126 0 0
+~
+~
+End
+
+#11126
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 0 0 0 11125 0 0
+~
+~
+Door 1 0 0 11127 0 0
+~
+~
+End
+
+#11127
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 0 0 0 11128 0 0
+~
+~
+Door 1 0 0 11132 0 0
+~
+~
+Door 3 0 0 11126 0 0
+~
+~
+End
+
+#11128
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Reset M 11002 1 100
+Reset M 11002 1 100
+Reset M 11002 1 100
+Reset M 11003 1 100
+Reset O 11002 1 100
+Door 0 0 0 11129 0 0
+~
+~
+Door 1 0 0 11131 0 0
+~
+~
+Door 2 0 0 11127 0 0
+~
+~
+Door 3 0 0 11125 0 0
+~
+~
+End
+
+#11129
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Reset M 11002 1 100
+Door 1 0 0 11130 0 0
+~
+~
+Door 2 0 0 11128 0 0
+~
+~
+Door 3 0 0 11124 0 0
+~
+~
+End
+
+#11130
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Reset M 11002 1 100
+Door 0 0 0 11133 0 0
+~
+~
+Door 1 0 0 11135 0 0
+~
+~
+Door 2 0 0 11131 0 0
+~
+~
+Door 3 0 0 11129 0 0
+~
+~
+End
+
+#11131
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Reset M 11002 1 100
+Reset M 11002 1 100
+Door 0 0 0 11130 0 0
+~
+~
+Door 1 0 0 11136 0 0
+~
+~
+Door 2 0 0 11132 0 0
+~
+~
+Door 3 0 0 11128 0 0
+~
+~
+End
+
+#11132
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 0 0 0 11131 0 0
+~
+~
+Door 3 0 0 11127 0 0
+~
+~
+End
+
+#11133
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 1 0 0 11134 0 0
+~
+~
+Door 2 0 0 11130 0 0
+~
+~
+End
+
+#11134
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 2 0 0 11135 0 0
+~
+~
+Door 3 0 0 11133 0 0
+~
+~
+End
+
+#11135
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 0 0 0 11134 0 0
+~
+~
+Door 2 0 0 11136 0 0
+~
+~
+Door 3 0 0 11130 0 0
+~
+~
+End
+
+#11136
+Name In a Large Cavern~
+Descr
+A strong smell of wolf eminates from this cave. Many paw-prints are
+visible on the ground, and glowing red eyes regard you from the darkness of
+the cave. 
+~
+Sector 37
+Door 0 0 0 11135 0 0
+~
+~
+Door 3 0 0 11131 0 0
+~
+~
+End
+
+#11137
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Door 0 0 0 11028 0 0
+~
+~
+Door 1 0 0 11076 0 0
+~
+~
+Door 2 0 0 11138 0 0
+~
+~
+Door 3 0 0 11026 0 0
+~
+~
+End
+
+#11138
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Reset M 11001 1 100
+Door 0 0 0 11137 0 0
+~
+~
+Door 1 0 0 11077 0 0
+~
+~
+Door 2 0 0 11139 0 0
+~
+~
+Door 3 0 0 11021 0 0
+~
+~
+End
+
+#11139
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Door 0 0 0 11138 0 0
+~
+~
+Door 1 0 0 11140 0 0
+~
+~
+Door 3 0 0 11025 0 0
+~
+~
+End
+
+#11140
+Name A Strange Forest~
+Descr
+The forest thickens almost into impassability, strange noises stalk you
+as you wander about. Some scurry, some chitter, all the sounds are
+maddening. You feel as though you are surrounded by a thousand angry, hungry
+eyes. 
+~
+Flags 16
+Door 0 0 0 11077 0 0
+~
+~
+Door 1 0 0 11033 0 0
+~
+~
+Door 3 0 0 11139 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

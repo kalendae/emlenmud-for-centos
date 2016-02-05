@@ -1,0 +1,1338 @@
+#AREADATA 
+Name The Surrounding Area of Malos~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Structure~
+VNUMs 17701 17801
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#0
+
+
+
+#ROOMDATA
+#17701
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2013 0 0
+~
+~
+Door 1 0 0 17703 0 0
+~
+~
+Door 2 0 0 17702 0 0
+~
+~
+Door 3 0 0 2023 0 0
+~
+~
+End
+
+#17702
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17701 0 0
+~
+~
+Door 1 0 0 17704 0 0
+~
+~
+Door 2 0 0 17706 0 0
+~
+~
+Door 3 0 0 2024 0 0
+~
+~
+End
+
+#17703
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 2 0 0 17704 0 0
+~
+~
+Door 3 0 0 17701 0 0
+~
+~
+End
+
+#17704
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17703 0 0
+~
+~
+Door 2 0 0 17705 0 0
+~
+~
+Door 3 0 0 17702 0 0
+~
+~
+End
+
+#17705
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17704 0 0
+~
+~
+Door 3 0 0 17706 0 0
+~
+~
+End
+
+#17706
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17702 0 0
+~
+~
+Door 1 0 0 17705 0 0
+~
+~
+Door 2 0 0 17709 0 0
+~
+~
+Door 3 0 0 17707 0 0
+~
+~
+End
+
+#17707
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2024 0 0
+~
+~
+Door 1 0 0 17706 0 0
+~
+~
+Door 2 0 0 17708 0 0
+~
+~
+Door 3 0 0 17710 0 0
+~
+~
+End
+
+#17708
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17707 0 0
+~
+~
+Door 1 0 0 17709 0 0
+~
+~
+Door 3 0 0 17711 0 0
+~
+~
+End
+
+#17709
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17706 0 0
+~
+~
+Door 3 0 0 17708 0 0
+~
+~
+End
+
+#17710
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2035 0 0
+~
+~
+Door 1 0 0 17707 0 0
+~
+~
+Door 2 0 0 17711 0 0
+~
+~
+Door 3 0 0 2434 0 0
+~
+~
+End
+
+#17711
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17710 0 0
+~
+~
+Door 1 0 0 17708 0 0
+~
+~
+Door 2 0 0 17712 0 0
+~
+~
+Door 3 0 0 2435 0 0
+~
+~
+End
+
+#17712
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17711 0 0
+~
+~
+Door 3 0 0 17713 0 0
+~
+~
+End
+
+#17713
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2435 0 0
+~
+~
+Door 1 0 0 17712 0 0
+~
+~
+Door 2 0 0 17748 0 0
+~
+~
+Door 3 0 0 2707 0 0
+~
+~
+End
+
+#17714
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 1 0 0 2157 0 0
+~
+~
+Door 2 0 0 17715 0 0
+~
+~
+End
+
+#17715
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17714 0 0
+~
+~
+Door 1 0 0 17716 0 0
+~
+~
+Door 2 0 0 17718 0 0
+~
+~
+End
+
+#17716
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 1 0 0 2432 0 0
+~
+~
+Door 2 0 0 17717 0 0
+~
+~
+Door 3 0 0 17715 0 0
+~
+~
+End
+
+#17717
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17716 0 0
+~
+~
+Door 1 0 0 2433 0 0
+~
+~
+Door 2 0 0 17720 0 0
+~
+~
+Door 3 0 0 17718 0 0
+~
+~
+End
+
+#17718
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17715 0 0
+~
+~
+Door 1 0 0 17717 0 0
+~
+~
+Door 2 0 0 17719 0 0
+~
+~
+End
+
+#17719
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17718 0 0
+~
+~
+Door 1 0 0 17720 0 0
+~
+~
+End
+
+#17720
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17717 0 0
+~
+~
+Door 1 0 0 17721 0 0
+~
+~
+Door 2 0 0 17722 0 0
+~
+~
+Door 3 0 0 17719 0 0
+~
+~
+End
+
+#17721
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2433 0 0
+~
+~
+Door 1 0 0 17725 0 0
+~
+~
+Door 2 0 0 17723 0 0
+~
+~
+Door 3 0 0 17720 0 0
+~
+~
+End
+
+#17722
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17720 0 0
+~
+~
+Door 1 0 0 17723 0 0
+~
+~
+End
+
+#17723
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17721 0 0
+~
+~
+Door 1 0 0 17724 0 0
+~
+~
+Door 3 0 0 17722 0 0
+~
+~
+End
+
+#17724
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17725 0 0
+~
+~
+Door 1 0 0 17726 0 0
+~
+~
+Door 3 0 0 17723 0 0
+~
+~
+End
+
+#17725
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2126 0 0
+~
+~
+Door 1 0 0 17727 0 0
+~
+~
+Door 2 0 0 17724 0 0
+~
+~
+Door 3 0 0 17721 0 0
+~
+~
+End
+
+#17726
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17727 0 0
+~
+~
+Door 1 0 0 17729 0 0
+~
+~
+Door 3 0 0 17724 0 0
+~
+~
+End
+
+#17727
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2125 0 0
+~
+~
+Door 1 0 0 17728 0 0
+~
+~
+Door 2 0 0 17726 0 0
+~
+~
+Door 3 0 0 17725 0 0
+~
+~
+End
+
+#17728
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2124 0 0
+~
+~
+Door 1 0 0 17730 0 0
+~
+~
+Door 2 0 0 17729 0 0
+~
+~
+Door 3 0 0 17727 0 0
+~
+~
+End
+
+#17729
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17728 0 0
+~
+~
+Door 1 0 0 17731 0 0
+~
+~
+Door 3 0 0 17726 0 0
+~
+~
+End
+
+#17730
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2123 0 0
+~
+~
+Door 1 0 0 11701 0 0
+~
+~
+Door 2 0 0 17731 0 0
+~
+~
+Door 3 0 0 17728 0 0
+~
+~
+End
+
+#17731
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17730 0 0
+~
+~
+Door 1 0 0 11702 0 0
+~
+~
+Door 3 0 0 17729 0 0
+~
+~
+End
+
+#17732
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17733 0 0
+~
+~
+Door 1 0 0 17734 0 0
+~
+~
+Door 3 0 0 11702 0 0
+~
+~
+End
+
+#17733
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2121 0 0
+~
+~
+Door 1 0 0 17735 0 0
+~
+~
+Door 2 0 0 17732 0 0
+~
+~
+Door 3 0 0 11701 0 0
+~
+~
+End
+
+#17734
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17735 0 0
+~
+~
+Door 1 0 0 17737 0 0
+~
+~
+Door 3 0 0 17732 0 0
+~
+~
+End
+
+#17735
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2120 0 0
+~
+~
+Door 1 0 0 17736 0 0
+~
+~
+Door 2 0 0 17734 0 0
+~
+~
+Door 3 0 0 17733 0 0
+~
+~
+End
+
+#17736
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2119 0 0
+~
+~
+Door 1 0 0 17738 0 0
+~
+~
+Door 2 0 0 17737 0 0
+~
+~
+Door 3 0 0 17735 0 0
+~
+~
+End
+
+#17737
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17736 0 0
+~
+~
+Door 1 0 0 17739 0 0
+~
+~
+Door 3 0 0 17734 0 0
+~
+~
+End
+
+#17738
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2118 0 0
+~
+~
+Door 1 0 0 17740 0 0
+~
+~
+Door 2 0 0 17739 0 0
+~
+~
+Door 3 0 0 17736 0 0
+~
+~
+End
+
+#17739
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17738 0 0
+~
+~
+Door 1 0 0 17741 0 0
+~
+~
+Door 3 0 0 17737 0 0
+~
+~
+End
+
+#17740
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2117 0 0
+~
+~
+Door 1 0 0 17742 0 0
+~
+~
+Door 2 0 0 17741 0 0
+~
+~
+Door 3 0 0 17738 0 0
+~
+~
+End
+
+#17741
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17740 0 0
+~
+~
+Door 1 0 0 17743 0 0
+~
+~
+Door 3 0 0 17739 0 0
+~
+~
+End
+
+#17742
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2116 0 0
+~
+~
+Door 1 0 0 17744 0 0
+~
+~
+Door 2 0 0 17743 0 0
+~
+~
+Door 3 0 0 17740 0 0
+~
+~
+End
+
+#17743
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17742 0 0
+~
+~
+Door 1 0 0 17745 0 0
+~
+~
+Door 3 0 0 17741 0 0
+~
+~
+End
+
+#17744
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2115 0 0
+~
+~
+Door 1 0 0 17746 0 0
+~
+~
+Door 2 0 0 17745 0 0
+~
+~
+Door 3 0 0 17742 0 0
+~
+~
+End
+
+#17745
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17744 0 0
+~
+~
+Door 1 0 0 17747 0 0
+~
+~
+Door 3 0 0 17743 0 0
+~
+~
+End
+
+#17746
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 2707 0 0
+~
+~
+Door 1 0 0 17748 0 0
+~
+~
+Door 2 0 0 17747 0 0
+~
+~
+Door 3 0 0 17744 0 0
+~
+~
+End
+
+#17747
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17746 0 0
+~
+~
+Door 3 0 0 17745 0 0
+~
+~
+End
+
+#17748
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass
+is too steep for you to climb. 
+~
+Sector 31
+Door 0 0 0 17713 0 0
+~
+~
+Door 3 0 0 17746 0 0
+~
+~
+End
+
+#17749
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass is too steep for you to climb.
+~
+Sector 31
+Door 2 0 0 17750 0 0
+~
+~
+Door 3 0 0 11706 0 0
+~
+~
+End
+
+#17750
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass is too steep for you to climb.
+~
+Sector 31
+Door 0 0 0 17749 0 0
+~
+~
+Door 2 0 0 17755 0 0
+~
+~
+Door 3 0 0 11707 0 0
+~
+~
+End
+
+#17751
+Name ~
+Descr
+~
+Door 0 0 0 17750 0 0
+~
+~
+Door 2 0 0 17752 0 0
+~
+~
+End
+
+#17752
+Name ~
+Descr
+~
+Door 0 0 0 17751 0 0
+~
+~
+Door 3 0 0 11708 0 0
+~
+~
+End
+
+#17753
+Name ~
+Descr
+~
+End
+
+#17754
+Name ~
+Descr
+~
+End
+
+#17755
+Name Alongside a Tall Mountain~
+Descr
+This mountain formation is alongside the path to Malos, the mountain pass is too steep for you to climb.
+~
+Sector 31
+Door 0 0 0 17750 0 0
+~
+~
+Door 3 0 0 11708 0 0
+~
+~
+End
+
+#17756
+Name Alongside a Tall Mountain~
+Descr
+You find yourself climbimg up the mountain Malos, you feel as if you are
+getting exhausted by each step, its very steep and slick. 
+~
+Sector 31
+Door 2 0 0 11710 0 0
+~
+~
+Door 3 0 0 17757 0 0
+~
+~
+End
+
+#17757
+Name Alongside a Tall Mountain~
+Descr
+You find yourself climbimg up the mountain Malos, you feel as if you are
+getting exhausted by each step, its very steep and slick. 
+~
+Sector 31
+Door 1 0 0 17756 0 0
+~
+~
+Door 2 0 0 11711 0 0
+~
+~
+Door 3 0 0 17758 0 0
+~
+~
+End
+
+#17758
+Name Alongside a Tall Mountain~
+Descr
+You find yourself climbimg up the mountain Malos, you feel as if you are
+getting exhausted by each step, its very steep and slick. 
+~
+Sector 31
+Door 1 0 0 17757 0 0
+~
+~
+Door 2 0 0 11712 0 0
+~
+~
+End
+
+#17759
+Name Alongside a Tall Mountain~
+Descr
+You find yourself climbimg up the mountain Malos, you feel as if you are
+getting exhausted by each step, its very steep and slick. 
+~
+Sector 31
+Door 0 0 0 11712 0 0
+~
+~
+Door 1 0 0 17760 0 0
+~
+~
+End
+
+#17760
+Name Alongside a Tall Mountain~
+Descr
+You find yourself climbimg up the mountain Malos, you feel as if you are
+getting exhausted by each step, its very steep and slick. 
+~
+Sector 31
+Door 0 0 0 11711 0 0
+~
+~
+Door 1 0 0 17761 0 0
+~
+~
+Door 3 0 0 17759 0 0
+~
+~
+End
+
+#17761
+Name Alongside a Tall Mountain~
+Descr
+You find yourself climbimg up the mountain Malos, you feel as if you are
+getting exhausted by each step, its very steep and slick. 
+~
+Sector 31
+Door 0 0 0 11710 0 0
+~
+~
+Door 3 0 0 17760 0 0
+~
+~
+End
+
+#17762
+Name ~
+Descr
+~
+End
+
+#17763
+Name ~
+Descr
+~
+End
+
+#17764
+Name ~
+Descr
+~
+End
+
+#17765
+Name ~
+Descr
+~
+End
+
+#17766
+Name ~
+Descr
+~
+End
+
+#17767
+Name ~
+Descr
+~
+End
+
+#17768
+Name ~
+Descr
+~
+End
+
+#17769
+Name ~
+Descr
+~
+End
+
+#17770
+Name ~
+Descr
+~
+End
+
+#17771
+Name ~
+Descr
+~
+End
+
+#17772
+Name ~
+Descr
+~
+End
+
+#17773
+Name ~
+Descr
+~
+End
+
+#17774
+Name ~
+Descr
+~
+End
+
+#17775
+Name ~
+Descr
+~
+End
+
+#17776
+Name ~
+Descr
+~
+End
+
+#17777
+Name ~
+Descr
+~
+End
+
+#17778
+Name ~
+Descr
+~
+End
+
+#17779
+Name ~
+Descr
+~
+End
+
+#17780
+Name ~
+Descr
+~
+End
+
+#17781
+Name ~
+Descr
+~
+End
+
+#17782
+Name ~
+Descr
+~
+End
+
+#17783
+Name ~
+Descr
+~
+End
+
+#17784
+Name ~
+Descr
+~
+End
+
+#17785
+Name ~
+Descr
+~
+End
+
+#17786
+Name ~
+Descr
+~
+End
+
+#17787
+Name ~
+Descr
+~
+End
+
+#17788
+Name ~
+Descr
+~
+End
+
+#17789
+Name ~
+Descr
+~
+End
+
+#17790
+Name ~
+Descr
+~
+End
+
+#17791
+Name ~
+Descr
+~
+End
+
+#17792
+Name ~
+Descr
+~
+End
+
+#17793
+Name ~
+Descr
+~
+End
+
+#17794
+Name ~
+Descr
+~
+End
+
+#17795
+Name ~
+Descr
+~
+End
+
+#17796
+Name ~
+Descr
+~
+End
+
+#17797
+Name ~
+Descr
+~
+End
+
+#17798
+Name ~
+Descr
+~
+End
+
+#17799
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

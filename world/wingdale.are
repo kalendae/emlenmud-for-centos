@@ -1,0 +1,50 @@
+#AREADATA 
+Name Wingdale~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Njal~
+VNUMs 92000 92500
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#92000
+Name tattoo Njal ~
+Short [0m[37m[31mN[1m[31mj[1m[33ma[1m[31ml[0m[1m[30m'[0m[31ms [34mT[1m[34ma[0m[34mt[1m[34mt[1m[37mo[0m[37mo [1m[30mof [0m[31mP[1m[31mo[1m[33mw[1m[31me[0m[31mr[0m~
+Descr
+This you should never see!
+[0;36m~
+Type 9
+Extra 4227
+Wear 16777217
+Values 0 0 0 0 0 20 60 60 20 20 0
+Weight 0
+Cost 1000000
+End
+
+#0
+
+
+
+#ROOMDATA
+#92000
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

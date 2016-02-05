@@ -1,0 +1,138 @@
+#AREADATA 
+Name North Aethenae~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders None~
+VNUMs 54001 55000
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#54786
+Name greaves heaven~
+Short a pair of [36mg[1mreave[0m[36ms[0m made of [1m[34mh[36me[34ma[0m[36mv[1m[34me[36mn[0m~
+Descr
+A pair of greaves made of heaven lie on the ground here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 33
+Values 10 10 10 10 0 0 0 0 0 0 0
+Weight 9
+Cost 3000
+Affect 13 25 1 0 0
+Affect 17 3 1 0 0
+End
+
+#54787
+Name sleeves heaven~
+Short a pair of [36ms[1mleeve[0m[36ms[0m made of [1m[34mh[36me[34ma[0m[36mv[1m[34me[36mn[0m~
+Descr
+A pair of sleeves made from heaven lie ont he ground here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 257
+Values 10 10 5 10 0 0 0 0 0 0 0
+Weight 3
+Cost 0
+Affect 13 50 1 0 0
+Affect 14 50 1 0 0
+Affect 20 10 1 0 0
+Affect 17 10 1 0 0
+Affect 19 -3 1 0 0
+Affect 22 5 1 0 0
+End
+
+#54789
+Name belt heaven~
+Short a [36mb[1mel[0m[36mt[0m made of [1m[34mh[36me[34ma[0m[36mv[1m[34me[36mn[0m~
+Descr
+A belt made of heaven lies on the ground.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 2049
+Values 10 10 10 10 0 0 0 0 0 0 0
+Weight 9
+Cost 0
+Affect 13 25 1 0 0
+Affect 17 3 1 0 0
+End
+
+#54790
+Name shield heaven~
+Short a [36ms[1mhiel[0m[36md[0m made of [1m[34mh[36me[34ma[0m[36mv[1m[34me[36mn[0m~
+Descr
+A shield made of heaven lies here on the ground
+[0;36m~
+Type 9
+Extra 33554434
+Wear 513
+Values 10 10 5 5 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 18 5 1 0 0
+Affect 13 20 1 0 0
+Affect 20 3 1 0 0
+Affect 17 10 1 0 0
+End
+
+#54791
+Name note~
+Short a note~
+Descr
+A note lies on the ground saying "You seek answers? The chieftan of the sands will know what you ask"
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#54909
+Name portal return world por port~
+Short [1m[36mP[0m[36mo[0m[37mrt[36ma[34ml [0m[37mof [1m[30mre[0m[37mtu[1m[30mrn [0m[37mto the [1m[31mW[0m[31mor[0m[31ml[1m[31md[0m~
+Descr
+A portal lies here returning to the world
+[0;36m~
+Type 12
+Wear 0
+Values 4 8859 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#54343
+Name key treasure~
+Short a treasure room key~
+Descr
+A key is lying on the ground here.
+[0;36m~
+Type 18
+Extra 2
+Wear 1
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#0
+
+
+
+#$

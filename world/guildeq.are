@@ -1,0 +1,650 @@
+#AREADATA 
+Name Guild Eq~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Rukkus~
+VNUMs 33751 34000
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#33751
+Name spiked battle-helm~
+Short [1m[30mS[30mp[0mik[1m[30med [0m[33mg[1m[33mo[0m[33ml[1m[33md[0m[33me[1m[33mn [30mBat[0mtl[1m[30me-h[0me[1m[30mlm[0m~
+Descr
+A large helmet lies on the ground here.
+[0;36m~
+Type 9
+Extra 4224
+Wear 17
+Values 0 0 5 0 15 20 65 65 20 2 32
+Weight 45
+Cost 5000
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+Affect 17 1 1 0 0
+End
+
+#33752
+Name long crimson cloak~
+Short [1m[30mlong dark [1m[30mc[0m[31mr[1m[31mi[1m[30mm[31ms[0m[31mo[1m[30mn [1m[30mcl[31mo[0m[31ma[1m[30mk[0m~
+Descr
+A dark red cape lies here, collecting dust.
+[0;36m~
+Type 9
+Extra 1
+Wear 1025
+Values 1 3 0 0 15 10 50 50 8 2 32
+Weight 26
+Cost 5000
+Affect 19 1 1 0 0
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+End
+
+#33753
+Name plated gauntlets~
+Short [1m[37mPolished [1m[30mg[37mau[0mnt[1m[30ml[1m[37met[1m[30ms[0m of [1m[30mw[37mea[0mp[1m[37mo[30mn e[0m[1m[37mxp[0mer[1m[30mt[37me[0ms[1m[30me~
+Descr
+A pair of high-quality gauntlets lie here.
+[0;36m~
+Type 9
+Wear 129
+Values 0 0 0 3 10 10 60 60 10 1 32
+Weight 10
+Cost 2500
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+End
+
+#33754
+Name heavy golden corset~
+Short [1m[30mHe[0ma[1m[30mvy [33mg[0m[33mo[1m[33ml[0m[33md[1m[33me[0m[33mn [1m[30mco[0mrs[1m[30met[0m~
+Descr
+A large golden corset lies on the ground before you.
+[0;36m~
+Type 9
+Extra 33554496
+Wear 9
+Values 0 5 0 0 10 15 70 70 15 2 32
+Weight 70
+Cost 7500
+Affect 1 1 1 0 0
+Affect 19 2 1 0 0
+End
+
+#33755
+Name warrior's guild medallion~
+Short [31mWarrior's [1m[30mGuild [37mM[33me[37md[33ma[37ml[33ml[37mi[33mo[37mn[0m~
+Descr
+A necklace bearing a sword lies on the ground here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 5
+Values 0 0 0 0 0 0 30 30 0 0 32
+Weight 20
+Cost 1000
+Affect 19 1 1 0 0
+End
+
+#33756
+Name finely-honed broadsword~
+Short [1m[37mfinely-honed[0m broadsword[0m~
+Descr
+A quality broadsword lies infront of you.
+[0;36m~
+Type 5
+Wear 24577
+Values 0 45 0 1 0 0 0 4 4 0 32
+Weight 31
+Cost 750
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#33757
+Name well-balanced battle axe~
+Short [1m[37mwell-balanced [0mbattle [31maxe[0m~
+Descr
+A rather large battle axe is turned over here.
+[0;36m~
+Type 5
+Wear 16385
+Values 0 55 0 12 0 0 0 5 3 0 32
+Weight 60
+Cost 2500
+Affect 19 1 1 0 0
+End
+
+#33758
+Name heavy ebony maul~
+Short [1m[37mhe[0mavy [1m[30mebony [37mm[0mau[37ml[0m~
+Descr
+A large six-foot mace lies here taking up space.
+[0;36m~
+Type 5
+Extra 34078720
+Wear 16385
+Values 0 75 0 8 0 0 0 6 3 0 32
+Weight 152
+Cost 5000
+Affect 18 -3 1 0 0
+Affect 19 2 1 0 0
+End
+
+#33759
+Name serrated great sword~
+Short [1m[30mser[0m[31mr[0mat[1m[30med [30mgr[0mea[31mts[0mwor[1m[30md[0m~
+Descr
+A large serrated sword is lying here, covered in blood.
+[0;36m~
+Type 5
+Extra 304087040
+Wear 16385
+Values 0 60 0 12 0 0 0 6 3 0 32
+Weight 85
+Cost 7500
+Affect 18 -2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#33760
+Name gigantic claymore~
+Short [1m[30mGi[0m[31mG[1m[33ma[30mn[0m[31mT[1m[33mi[30mC C[33ml[0m[31mA[1m[30my[33mm[0m[31mo[1m[30mrE[0m~
+Descr
+A gigantic 10-foot long sword lies on the ground here.  You only wonder who could possibly pick it up.
+[0;36m~
+Type 5
+Extra 304119872
+Wear 16385
+Values 0 80 0 12 0 0 0 7 3 0 0
+Weight 170
+Cost 10000
+Affect 18 -8 1 0 0
+Affect 19 1 1 0 0
+End
+
+#33761
+Name skinned leggings of the cheetah~
+Short skinned leggings of the [33mC[1m[30mh[33me[37me[30mt[33mah~
+Descr
+A spotted pair of leggings lie balled up infront of you.
+[0;36m~
+Type 9
+Wear 33
+Values 2 0 0 0 15 8 50 50 6 1 512
+Weight 16
+Cost 750
+Affect 14 15 1 0 0
+Affect 22 1 1 0 0
+End
+
+#33762
+Name deep-green cloak~
+Short [32mdeep-green travellers cloak~
+Descr
+A forest green cloak lies here collecting dust.
+[0;36m~
+Type 9
+Wear 1025
+Values 2 2 2 2 15 10 55 55 8 3 512
+Weight 22
+Cost 1000
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+Affect 20 1 1 0 0
+Affect 24 2 1 0 0
+Affect 23 2 1 0 0
+End
+
+#33763
+Name woodland bracers of archery~
+Short [32mwo[1m[30mo[0m[31mo[1m[30md[32ml[1m[30ma[0m[31mn[32md [0mbracers of [1m[30marchery[0m~
+Descr
+A pair of dark colored bracers are lying here on the ground.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 4097
+Values 0 0 0 3 10 10 55 55 10 0 512
+Weight 13
+Cost 1250
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+End
+
+#33764
+Name ranger's guild trinket~
+Short [32mRanger's [1m[30mguild trinket[0m~
+Descr
+A wooden trinket deplicting the bow and leaf, lie here on the ground.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 5
+Values 0 0 0 0 0 0 50 50 0 2 512
+Weight 3
+Cost 1000
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+Affect 17 2 1 0 0
+End
+
+#33765
+Name gift of the woods~
+Short [1m[37mgift [30mof [32mt[0m[36mh[1m[30me W[32mo[0m[36mo[1m[32md[30ms[0m~
+Descr
+A bright ball of light appears before you, seems to be moving on its own.
+[0;36m~
+Type 9
+Extra 33554498
+Wear 131073
+Values 2 2 2 2 0 0 0 0 0 2 0
+Weight 1
+Cost 7500
+Affect 20 2 1 0 0
+Affect 19 1 1 0 0
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+End
+
+#33766
+Name wooden hunting spear~
+Short [33mwooden [0mhunting spear[0m~
+Descr
+A long wooden spear lies on the ground here.
+[0;36m~
+Type 5
+Extra 67108864
+Wear 16385
+Values 0 60 0 13 0 0 0 2 10 0 512
+Weight 28
+Cost 500
+End
+
+#33767
+Name hunting bow~
+Short [33mwooden [0mshortbow[0m~
+Descr
+A small wooden bow lies infront of you.
+[0;36m~
+Type 5
+Extra 512
+Wear 16385
+Values 0 17 0 7 1 0 0 1 10 0 512
+Weight 26
+Cost 1500
+End
+
+#33768
+Name rune-etched ebony chakram~
+Short [1m[35mr[36mun[35me-et[36mche[35md [1m[30mch[1ma[30mk[1mra[30mm[0m~
+Descr
+A circular blade with strange markings, lies on the ground here.
+[0;36m~
+Type 5
+Extra 167772224
+Wear 24577
+Values 0 65 0 3 0 0 0 3 5 0 512
+Weight 32
+Cost 5000
+Affect 18 5 1 0 0
+End
+
+#33769
+Name ivory greatbow of the master woodsman~
+Short [1m[37mivory [0mgreatbow of the [1m[30mmaster w[32moo[30mdsm[32ma[30mn[0m~
+Descr
+A rather large bow lies here without an owner.
+[0;36m~
+Type 5
+Extra 436208194
+Wear 16385
+Values 0 60 0 7 3 0 0 4 4 0 2097664
+Weight 52
+Cost 7500
+Affect 18 3 1 0 0
+Affect 19 1 1 0 0
+End
+
+#33770
+Name protector of the forrest~
+Short [1m[37m pro[0mt[1m[37mect[0mo[1m[37mr[0m of the [1m[32mfor[30mr[1m[32mest[0m~
+Descr
+A large etched spear lies here emmitting a strange green aura.
+[0;36m~
+Type 5
+Extra 503316545
+Wear 16385
+Values 0 60 0 11 0 0 0 3 8 0 544
+Weight 43
+Cost 7500
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#33771
+Name crafted iron hammer~
+Short crafted [1m[37msteel [0mhammer[0m~
+Descr
+.
+[0;36m~
+Type 5
+Wear 16385
+Values 0 65 0 6 0 0 0 4 4 0 2097152
+Weight 50
+Cost 500
+Affect 19 1 1 0 0
+End
+
+#33772
+Name large double-sided axe~
+Short a large [1m[37msteel[0m battle-axe[0m~
+Descr
+A large battle-axe lies here.
+[0;36m~
+Type 5
+Wear 16385
+Values 0 55 0 12 0 0 0 5 3 0 2097152
+Weight 42
+Cost 750
+Affect 17 1 1 0 0
+Affect 18 2 1 0 0
+Affect 19 1 1 0 0
+End
+
+#33773
+Name polished warblade~
+Short [1m[37mpolished [1m[30mWa[31mr[30mbl[31ma[30mde[0m~
+Descr
+A large wicked sword lies infront of you.
+[0;36m~
+Type 5
+Extra 301989888
+Wear 16385
+Values 0 55 0 12 0 0 0 6 3 0 2097152
+Weight 70
+Cost 3000
+Affect 17 1 1 0 0
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#33774
+Name weighty tower shield~
+Short weighty [1m[37mtower[0m shield[0m~
+Descr
+A rather bulky shield lies infront of your path.
+[0;36m~
+Type 9
+Wear 513
+Values 3 3 3 3 0 0 60 60 0 1 0
+Weight 70
+Cost 0
+End
+
+#33775
+Name battlemaster's guild medallion~
+Short [1m[30mBa[31mt[30mtl[31mem[30mast[31me[30mr's guild medallion[0m~
+Descr
+A necklace bearing a shield lies here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 5
+Values 0 0 0 0 0 0 0 0 0 1 2097152
+Weight 10
+Cost 1500
+Affect 20 1 1 0 0
+Affect 17 2 1 0 0
+End
+
+#33776
+Name crimson steel shin-guard~
+Short [31mcrimson[1m[37m steel[0m shin-guard[0m~
+Descr
+A shin guard lies here.
+[0;36m~
+Type 9
+Wear 524289
+Values 2 0 0 0 0 0 50 50 0 0 2097152
+Weight 25
+Cost 1000
+Affect 22 1 1 0 0
+End
+
+#33777
+Name crimson steel shoulder-plate~
+Short [31mcrimson [1m[37msteel[0m shoulder-plate[0m~
+Descr
+A blood red shoulder-guard lies here.
+[0;36m~
+Type 9
+Wear 32769
+Values 0 2 1 0 0 0 50 50 0 1 2097152
+Weight 20
+Cost 1000
+Affect 19 1 1 0 0
+End
+
+#33778
+Name crimson steel mantle~
+Short [31mcrimson[1m[37m steel[0m mantle[0m~
+Descr
+A crimson backplate lies here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 4194305
+Values 0 3 3 0 0 0 60 60 0 2 2097152
+Weight 50
+Cost 1500
+Affect 19 1 1 0 0
+End
+
+#33779
+Name crimson steel warbracer~
+Short [31mcrimson[1m[37m steel[0m warbracer[0m~
+Descr
+A blood-red pair of bracers lie here.
+[0;36m~
+Type 9
+Extra 33554432
+Wear 4097
+Values 0 0 0 5 8 10 50 50 12 1 2097152
+Weight 15
+Cost 3000
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
+End
+
+#33780
+Name crimson spiked-steel buckler of war~
+Short [31mcrimson [1m[37mspiked-steel [0mbuckler of [1m[30mWar[0m~
+Descr
+A strange blood-red shield lies here.
+[0;36m~
+Type 9
+Extra 33554496
+Wear 513
+Values 3 5 3 5 15 15 0 0 15 2 2097152
+Weight 100
+Cost 5000
+Affect 18 2 1 0 0
+Affect 14 5 1 0 0
+Affect 19 2 1 0 0
+End
+
+#33781
+Name silvery holy~
+Short a [1m[37msilvery [33mholy[0m symbol[0m~
+Descr
+A small cross lies on the ground here.
+[0;36m~
+Type 9
+Extra 64
+Wear 7
+Values 0 0 3 0 0 0 75 75 0 1 128
+Weight 10
+Cost 1000
+Affect 20 1 1 0 0
+Affect 13 20 1 0 0
+End
+
+#33782
+Name silvery mesh skull-cap~
+Short a [1m[37msilvery mesh [0mskull-cap[0m~
+Descr
+A chain hat lies on the ground here.
+[0;36m~
+Type 9
+Wear 17
+Values 0 0 5 0 12 10 55 55 8 1 128
+Weight 100
+Cost 2500
+Affect 20 2 1 0 0
+Affect 14 5 1 0 0
+Affect 13 5 1 0 0
+End
+
+#33783
+Name purple satin cloak~
+Short a [1m[35mpurple [37msatin [0mcloak[0m~
+Descr
+A deep purple cloak lies on the ground here.
+[0;36m~
+Type 9
+Extra 64
+Wear 4194305
+Values 2 5 3 2 15 10 70 70 5 2 128
+Weight 90
+Cost 5000
+Affect 19 -1 1 0 0
+Affect 20 2 1 0 0
+Affect 13 25 1 0 0
+End
+
+#33784
+Name holy garment of the high arch-byshop~
+Short [1m[33mHoly [37mgarments [0mof the [1m[37mar[33mc[37mh-b[33mysh[37mop[0m~
+Descr
+A set of robes lies folded up here, emmitting a strange warmth.
+[0;36m~
+Type 9
+Extra 33554498
+Wear 9
+Values 0 10 0 0 15 10 75 75 10 5 128
+Weight 120
+Cost 7500
+Affect 19 -1 1 0 0
+Affect 20 5 1 0 0
+Affect 13 50 1 0 0
+End
+
+#33785
+Name the pressence of gaia~
+Short [1m[37m([33mIlluminating[37m) The P[36mre[37msse[36mnc[37me of G[36ma[37mia[0m~
+Descr
+(none)~
+Type 9
+Extra 33554498
+Wear 131073
+Values 5 5 5 5 0 0 0 0 0 10 128
+Weight 0
+Cost 10000
+Affect 20 5 1 0 0
+Affect 4 1 1 0 0
+Affect 14 25 12 0 0
+Affect 13 25 1 0 0
+Affect 19 -1 1 0 0
+End
+
+#33786
+Name holy scepter~
+Short a [1m[33mholy [37mscepter[0m~
+Descr
+A small scepter lies here.
+[0;36m~
+Type 5
+Extra 64
+Wear 24577
+Values 0 55 0 7 0 0 0 1 5 0 0
+Weight 100
+Cost 1500
+Affect 17 1 1 0 0
+Affect 14 10 1 0 0
+Affect 13 10 1 0 0
+End
+
+#33787
+Name titanium holy trinket~
+Short a [34mtitanium [1m[33mholy [37mtrinket[0m~
+Descr
+A bold holy item lies infront of you.
+[0;36m~
+Type 13
+Extra 64
+Wear 16385
+Values 0 0 0 0 0 0 0 0 0 0 128
+Weight 5
+Cost 5000
+Affect 20 5 1 0 0
+Affect 17 5 1 0 0
+End
+
+#33788
+Name blessed container of holy water~
+Short [1m[37m(Blessed) [0mvial of [1m[33mholy[34m water[0m~
+Descr
+A vial of water lies here.
+[0;36m~
+Type 13
+Extra 33554498
+Wear 16385
+Values 0 0 0 0 0 0 0 0 0 0 128
+Weight 10
+Cost 0
+Affect 14 15 1 0 0
+Affect 17 3 1 0 0
+Affect 13 15 1 0 0
+Affect 19 1 1 0 0
+End
+
+#33789
+Name guild healer tome aleel~
+Short [1m[37m(Blessed) [34mS[36mac[35mr[36me[34md~
+Descr
+(none)~
+Type 21
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#33751
+Name Guildeq Warrior33751/33776;ranger33777/33801;tinkers33802/33826;battlemaster33827/33851;healers33852/33876;mystics33877/33901;wizards33902/33926;conjurer33927/33951;assassin33952/33976;thiefs33953/34000~
+Descr
+~
+End
+
+#0
+
+
+
+#$

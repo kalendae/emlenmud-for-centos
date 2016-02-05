@@ -1,0 +1,3677 @@
+#AREADATA 
+Name The Mithril Palace~
+Repop In the distance you hear the roar of Martauder as a clumsy golem loses a chunk.
+~
+SCZone 0
+Builders Azraen~
+VNUMs 36001 36500
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#36001
+Name iron golem~
+Short an iron golem~
+Long 
+An iron golem is standing here, waiting for orders.
+~
+AMax 16
+NHeight 60
+Affect_By 512
+Money 800
+Level 80
+Hp 2
+Guard 0
+End
+
+#36002
+Name silver golem~
+Short a silver golem~
+Long 
+A silver golem is standing here, waiting for orders.
+~
+AMax 10
+NHeight 60
+Affect_By 520
+AffectTWO 3073
+Money 100
+Level 100
+Hp 4
+Guard 0
+End
+
+#36003
+Name platinum golem~
+Short a large platinum golem~
+Long 
+A large platinum golem wanders around here.
+~
+AMax 8
+NHeight 100
+Affect_By 520
+AffectTWO 3113
+Money 1200
+Level 120
+Hp 5
+Guard 0
+End
+
+#36004
+Name huge mithril golem~
+Short a HUGE mithril golem~
+Long 
+A HUGE mithril golem is standing here, guarding an exit.
+~
+AMax 2
+NHeight 150
+ActBits 2
+ActBits3 2
+Affect_By 520
+Money 1500
+Level 150
+Hp 8
+Guard 2
+End
+
+#36005
+Name martauder~
+Short Martauder~
+Long 
+Martauder stands here, working on a new and stronger golem.
+~
+AMax 1
+NHeight 70
+ActBits 2
+ActBits4 5
+Affect_By 520
+Money 1500
+Level 150
+Sex 1
+Guard 0
+BCasts wrath~
+BCasts smite~
+BCast_P 20
+End
+
+#36006
+Name large titanium golem~
+Short a large titanium golem~
+Long 
+A large titanium golem is sweeping the floor.
+~
+AMax 8
+NHeight 120
+Affect_By 512
+Money 1400
+Level 140
+Hp 6
+Guard 0
+End
+
+#36007
+Name gold golem~
+Short a gold golem~
+Long 
+A gold golem is mining here.
+~
+AMax 5
+NHeight 100
+ActBits 14
+Affect_By 512
+Money 800
+Level 80
+Guard 0
+End
+
+#36008
+Name adamantium golem~
+Short a HUGE ADAMANTIUM golem~
+Long 
+A HUGE ADAMANTIUM golem is standing here, waiting for orders.
+~
+AMax 1
+NHeight 200
+ActBits 1034
+Affect_By 520
+Money 2000
+Level 200
+Guard 0
+End
+
+#36101
+Name guard~
+Short the guard~
+Long 
+A mob is guarding here
+~
+AMax 1
+NHeight 0
+ActBits 2
+Level 100
+Guard 0
+End
+
+#36102
+Name boss~
+Short the boss~
+Long 
+The boss is standing here.
+~
+AMax 5
+NHeight 0
+ActBits 65538
+Level 100
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#36001
+Name iron belt~
+Short a flimsy [1m[30miron [0mbelt[0m~
+Descr
+A flimsy iron belt lies here gathering dust.
+[0;36m~
+Type 9
+Wear 10241
+Values 0 2 0 0 0 0 0 20 20 1 0
+Weight 28
+Cost 0
+End
+
+#36002
+Name silver earring~
+Short [1ma dangling silver earring~
+Descr
+A dangling silver earring lies here gathering dust.
+[0;36m~
+Type 9
+Wear 262145
+Values 0 0 1 0 0 0 100 100 0 0 0
+Weight 8
+Cost 0
+End
+
+#36003
+Name flowing platinum necklace~
+Short a flowing [36mp[1ml[0matin[1m[36mu[0m[36mm [0mnecklace~
+Descr
+(none)~
+Type 9
+Wear 5
+Values 0 1 0 0 0 0 100 100 0 0 0
+Weight 16
+Cost 0
+Affect 18 1 1 0 0
+End
+
+#36004
+Name slitted mithril mask apb~
+Short a slitted [1m[30mm[36mit[0mh[1m[36mr[0m[36mi[1m[30ml [0mmask~
+Descr
+A slitted mithril mask lies here gathering dust.
+[0;36m~
+Type 9
+Wear 65537
+Values 0 0 3 0 0 0 100 100 0 0 0
+Weight 21
+Cost 0
+Affect 18 1 1 0 0
+Affect 13 5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#36005
+Name staff valgros~
+Short the [33mS[1mt[0ma[1m[36mf[0m[36mf [0mof [36mV[1ma[0ml[1m[37mgr[31mo[0m[31ms [0m~
+Descr
+A Staff is lying here on the ground.
+[0;36m~
+Type 3
+Extra 1
+Wear 16385
+Values 80 5 5 129 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#36006
+Name half golem~
+Short a lifeless adamantium golem~
+Descr
+An adamantium golem lies on the ground, ready to be enchanted.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#36007
+Name fountain~
+Short a big platinum fountain~
+Descr
+A big platinum fountain is placed here, providing refreshment.
+[0;36m~
+Type 25
+Wear 0
+Weight 0
+Cost 0
+ExtraDescr fountain~
+This big platinum fountain provides cool and fresh water.
+
+~
+End
+
+#36008
+Name titanium reinforced kneepad~
+Short a reinforced [36mtitanium [0mkneepad~
+Descr
+A reinforced titanium kneepad has been left here.
+[0;36m~
+Type 9
+Wear 2097153
+Values 4 0 0 0 0 0 45 45 0 3 0
+Weight 24
+Cost 444
+Affect 22 3 1 0 0
+Affect 14 2 1 0 0
+End
+
+#36009
+Name this item is fucked~
+Short dont use it~
+Descr
+Because its completely screwed over
+[0;36m~
+Type 13
+Wear 0
+Values 0 1 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+ExtraDescr desk delete~
+~
+ExtraDescr desk~
+~
+ExtraDescr desk~
+~
+ExtraDescr desk~
+The desk is filled with tools, obviously to create constructs. On the
+
+right side of the desk is a drawer, when you try to open it you notice that
+
+it's locked. 
+
+ 
+
+~
+End
+
+#36010
+Name drawer~
+Short the drawer~
+Descr
+The drawer
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 36167 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+ExtraDescr drawer~
+This drawer looks very 
+
+~
+End
+
+#36011
+Name desk~
+Short a desk~
+Descr
+A desk is placed on the far side of the room.
+[0;36m~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+ExtraDescr desk~
+The desk is filled with all kinds of tools to make a golem.
+
+On the left side are some drawings of new golem prototyped. At the right is an open drawer.
+
+~
+End
+
+#36012
+Name ancient eyepatch golempower eye apb~
+Short [0m[35mE[1my[0m[37mepat[1m[35mc[0m[35mh[0m Of [1m[30mG [0m[37mO [1mL E M P O W [0m[37mE [1m[30mR[0m~
+Descr
+An eyepatch is discarded on the groud here.
+[0;36m~
+Type 9
+Extra 33554690
+Wear 8388609
+Values 1 1 4 1 0 0 0 0 0 0 0
+Weight 3
+Cost 5500
+Affect 19 1 1 0 0
+Affect 13 -10 1 0 0
+Affect 18 2 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#36001
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36002 0 0
+~
+~
+Door 1 0 0 36009 0 0
+~
+~
+End
+
+#36002
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36003 0 0
+~
+~
+Door 1 0 0 36010 0 0
+~
+~
+Door 2 0 0 36001 0 0
+~
+~
+End
+
+#36003
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36004 0 0
+~
+~
+Door 1 0 0 36011 0 0
+~
+~
+Door 2 0 0 36002 0 0
+~
+~
+End
+
+#36004
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36005 0 0
+~
+~
+Door 1 0 0 36012 0 0
+~
+~
+Door 2 0 0 36003 0 0
+~
+~
+End
+
+#36005
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36006 0 0
+~
+~
+Door 1 0 0 36013 0 0
+~
+~
+Door 2 0 0 36004 0 0
+~
+~
+End
+
+#36006
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36007 0 0
+~
+~
+Door 1 0 0 36014 0 0
+~
+~
+Door 2 0 0 36005 0 0
+~
+~
+End
+
+#36007
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36008 0 0
+~
+~
+Door 1 0 0 36015 0 0
+~
+~
+Door 2 0 0 36006 0 0
+~
+~
+End
+
+#36008
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 1 0 0 36016 0 0
+~
+~
+Door 2 0 0 36007 0 0
+~
+~
+End
+
+#36009
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36010 0 0
+~
+~
+Door 1 0 0 36017 0 0
+~
+~
+Door 3 0 0 36001 0 0
+~
+~
+End
+
+#36010
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36011 0 0
+~
+~
+Door 1 0 0 36018 0 0
+~
+~
+Door 2 0 0 36009 0 0
+~
+~
+Door 3 0 0 36002 0 0
+~
+~
+End
+
+#36011
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36012 0 0
+~
+~
+Door 1 0 0 36019 0 0
+~
+~
+Door 2 0 0 36010 0 0
+~
+~
+Door 3 0 0 36003 0 0
+~
+~
+End
+
+#36012
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36013 0 0
+~
+~
+Door 1 0 0 36020 0 0
+~
+~
+Door 2 0 0 36011 0 0
+~
+~
+Door 3 0 0 36004 0 0
+~
+~
+End
+
+#36013
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36014 0 0
+~
+~
+Door 1 0 0 36021 0 0
+~
+~
+Door 2 0 0 36012 0 0
+~
+~
+Door 3 0 0 36005 0 0
+~
+~
+End
+
+#36014
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+ 
+~
+Door 0 0 0 36015 0 0
+~
+~
+Door 1 0 0 36022 0 0
+~
+~
+Door 2 0 0 36013 0 0
+~
+~
+Door 3 0 0 36006 0 0
+~
+~
+End
+
+#36015
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36016 0 0
+~
+~
+Door 1 0 0 36023 0 0
+~
+~
+Door 2 0 0 36014 0 0
+~
+~
+Door 3 0 0 36007 0 0
+~
+~
+Door 5 257 0 36041 30 30
+~
+small iron door~
+End
+
+#36016
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 1 0 0 36024 0 0
+~
+~
+Door 2 0 0 36015 0 0
+~
+~
+Door 3 0 0 36008 0 0
+~
+~
+End
+
+#36017
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36018 0 0
+~
+~
+Door 1 0 0 36025 0 0
+~
+~
+Door 3 0 0 36009 0 0
+~
+~
+End
+
+#36018
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36019 0 0
+~
+~
+Door 1 0 0 36026 0 0
+~
+~
+Door 2 0 0 36017 0 0
+~
+~
+Door 3 0 0 36010 0 0
+~
+~
+End
+
+#36019
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36020 0 0
+~
+~
+Door 1 0 0 36027 0 0
+~
+~
+Door 2 0 0 36018 0 0
+~
+~
+Door 3 0 0 36011 0 0
+~
+~
+End
+
+#36020
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36021 0 0
+~
+~
+Door 1 0 0 36028 0 0
+~
+~
+Door 2 0 0 36019 0 0
+~
+~
+Door 3 0 0 36012 0 0
+~
+~
+End
+
+#36021
+Name The Iron Hall~
+Cvnumh 140399416
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Flags2 4
+Door 0 0 0 36022 0 0
+~
+~
+Door 1 0 0 36029 0 0
+~
+~
+Door 2 0 0 36020 0 0
+~
+~
+Door 3 0 0 36013 0 0
+~
+~
+Door 4 3 0 58992 99 99
+~
+irondoor~
+End
+
+#36022
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36023 0 0
+~
+~
+Door 1 0 0 36030 0 0
+~
+~
+Door 2 0 0 36021 0 0
+~
+~
+Door 3 0 0 36014 0 0
+~
+~
+End
+
+#36023
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36024 0 0
+~
+~
+Door 1 0 0 36031 0 0
+~
+~
+Door 2 0 0 36022 0 0
+~
+~
+Door 3 0 0 36015 0 0
+~
+~
+End
+
+#36024
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 1 0 0 36032 0 0
+~
+~
+Door 2 0 0 36023 0 0
+~
+~
+Door 3 0 0 36016 0 0
+~
+~
+End
+
+#36025
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36026 0 0
+~
+~
+Door 1 0 0 36033 0 0
+~
+~
+Door 3 0 0 36017 0 0
+~
+~
+End
+
+#36026
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36027 0 0
+~
+~
+Door 1 0 0 36034 0 0
+~
+~
+Door 2 0 0 36025 0 0
+~
+~
+Door 3 0 0 36018 0 0
+~
+~
+End
+
+#36027
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36028 0 0
+~
+~
+Door 1 0 0 36035 0 0
+~
+~
+Door 2 0 0 36026 0 0
+~
+~
+Door 3 0 0 36019 0 0
+~
+~
+End
+
+#36028
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36029 0 0
+~
+~
+Door 1 0 0 36036 0 0
+~
+~
+Door 2 0 0 36027 0 0
+~
+~
+Door 3 0 0 36020 0 0
+~
+~
+End
+
+#36029
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36030 0 0
+~
+~
+Door 1 0 0 36037 0 0
+~
+~
+Door 2 0 0 36028 0 0
+~
+~
+Door 3 0 0 36021 0 0
+~
+~
+End
+
+#36030
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36031 0 0
+~
+~
+Door 1 0 0 36038 0 0
+~
+~
+Door 2 0 0 36029 0 0
+~
+~
+Door 3 0 0 36022 0 0
+~
+~
+End
+
+#36031
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36032 0 0
+~
+~
+Door 1 0 0 36039 0 0
+~
+~
+Door 2 0 0 36030 0 0
+~
+~
+Door 3 0 0 36023 0 0
+~
+~
+End
+
+#36032
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 1 0 0 36040 0 0
+~
+~
+Door 2 0 0 36031 0 0
+~
+~
+Door 3 0 0 36024 0 0
+~
+~
+End
+
+#36033
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36034 0 0
+~
+~
+Door 3 0 0 36025 0 0
+~
+~
+End
+
+#36034
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36035 0 0
+~
+~
+Door 2 0 0 36033 0 0
+~
+~
+Door 3 0 0 36026 0 0
+~
+~
+End
+
+#36035
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36036 0 0
+~
+~
+Door 2 0 0 36034 0 0
+~
+~
+Door 3 0 0 36027 0 0
+~
+~
+End
+
+#36036
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36037 0 0
+~
+~
+Door 2 0 0 36035 0 0
+~
+~
+Door 3 0 0 36028 0 0
+~
+~
+End
+
+#36037
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36038 0 0
+~
+~
+Door 2 0 0 36036 0 0
+~
+~
+Door 3 0 0 36029 0 0
+~
+~
+End
+
+#36038
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Door 0 0 0 36039 0 0
+~
+~
+Door 2 0 0 36037 0 0
+~
+~
+Door 3 0 0 36030 0 0
+~
+~
+End
+
+#36039
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 0 0 0 36040 0 0
+~
+~
+Door 2 0 0 36038 0 0
+~
+~
+Door 3 0 0 36031 0 0
+~
+~
+End
+
+#36040
+Name The Iron Hall~
+Descr
+You seem to be in a huge iron hall. The walls are built from large iron
+plates. In the ceiling are small lights, they look like diamonds enchanted
+with a light spell. The reflection of the light on the wall makes you feel
+very uncomfortable in this room... 
+~
+Reset M 36001 1 100
+Reset O 36001 30 1
+Door 2 0 0 36039 0 0
+~
+~
+Door 3 0 0 36032 0 0
+~
+~
+End
+
+#36041
+Name A Silver Passage~
+Descr
+This passage looks very clean, the walls are made of silver. Someone must
+have paid heaps of gold to build this castle. Your footsteps echo as you
+proceed investigating this eery place. 
+~
+Door 4 259 0 36015 30 30
+~
+a small iron door~
+Door 5 0 0 36042 0 0
+~
+~
+End
+
+#36042
+Name A Silver Passage~
+Descr
+This passage looks very clean, the walls are made of silver. Someone must
+have paid heaps of gold to build this castle. Your footsteps echo as you
+proceed investigating this eery place.
+~
+Door 0 0 0 36043 0 0
+~
+~
+Door 4 0 0 36041 0 0
+~
+~
+End
+
+#36043
+Name A Silver Passage~
+Descr
+This passage looks very clean, the walls are made of silver. Someone must
+have paid heaps of gold to build this castle. Your footsteps echo as you
+proceed investigating this eery place.
+~
+Door 0 0 0 36044 0 0
+~
+~
+Door 2 0 0 36042 0 0
+~
+~
+End
+
+#36044
+Name A Silver Passage~
+Descr
+This passage looks very clean, the walls are made of silver. Someone must
+have paid heaps of gold to build this castle. Your footsteps echo as you
+proceed investigating this eery place.
+~
+Door 0 0 0 36045 0 0
+~
+~
+Door 2 0 0 36043 0 0
+~
+~
+End
+
+#36045
+Name A Silver Passage~
+Descr
+This passage looks very clean, the walls are made of silver. Someone must
+have paid heaps of gold to build this castle. Your footsteps echo as you
+proceed investigating this eery place.
+~
+Door 0 0 0 36046 0 0
+~
+~
+Door 2 0 0 36044 0 0
+~
+~
+End
+
+#36046
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36047 0 0
+~
+~
+Door 1 0 0 36051 0 0
+~
+~
+Door 2 0 0 36045 0 0
+~
+~
+End
+
+#36047
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36048 0 0
+~
+~
+Door 1 0 0 36052 0 0
+~
+~
+Door 2 0 0 36046 0 0
+~
+~
+End
+
+#36048
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36049 0 0
+~
+~
+Door 1 0 0 36053 0 0
+~
+~
+Door 2 0 0 36047 0 0
+~
+~
+End
+
+#36049
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36050 0 0
+~
+~
+Door 1 0 0 36054 0 0
+~
+~
+Door 2 0 0 36048 0 0
+~
+~
+End
+
+#36050
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 1 0 0 36055 0 0
+~
+~
+Door 2 0 0 36049 0 0
+~
+~
+End
+
+#36051
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36052 0 0
+~
+~
+Door 1 0 0 36056 0 0
+~
+~
+Door 3 0 0 36046 0 0
+~
+~
+End
+
+#36052
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Reset M 36002 1 100
+Reset O 36002 5 1
+Door 0 0 0 36053 0 0
+~
+~
+Door 1 0 0 36057 0 0
+~
+~
+Door 2 0 0 36051 0 0
+~
+~
+Door 3 0 0 36047 0 0
+~
+~
+End
+
+#36053
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36054 0 0
+~
+~
+Door 1 0 0 36058 0 0
+~
+~
+Door 2 0 0 36052 0 0
+~
+~
+Door 3 0 0 36048 0 0
+~
+~
+End
+
+#36054
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Flags 65536
+Reset M 36002 1 100
+Reset O 36002 5 1
+Door 0 0 0 36055 0 0
+~
+~
+Door 1 0 0 36059 0 0
+~
+~
+Door 2 0 0 36053 0 0
+~
+~
+Door 3 0 0 36049 0 0
+~
+~
+End
+
+#36055
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 1 0 0 36060 0 0
+~
+~
+Door 2 0 0 36054 0 0
+~
+~
+Door 3 0 0 36050 0 0
+~
+~
+End
+
+#36056
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Reset M 36002 1 100
+Reset O 36002 5 1
+Door 0 0 0 36057 0 0
+~
+~
+Door 1 0 0 36061 0 0
+~
+~
+Door 3 0 0 36051 0 0
+~
+~
+End
+
+#36057
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36058 0 0
+~
+~
+Door 1 0 0 36062 0 0
+~
+~
+Door 2 0 0 36056 0 0
+~
+~
+Door 3 0 0 36052 0 0
+~
+~
+End
+
+#36058
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Reset M 36002 1 100
+Reset O 36002 5 1
+Door 0 0 0 36059 0 0
+~
+~
+Door 1 0 0 36063 0 0
+~
+~
+Door 2 0 0 36057 0 0
+~
+~
+Door 3 0 0 36053 0 0
+~
+~
+End
+
+#36059
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36060 0 0
+~
+~
+Door 1 0 0 36064 0 0
+~
+~
+Door 2 0 0 36058 0 0
+~
+~
+Door 3 0 0 36054 0 0
+~
+~
+End
+
+#36060
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 1 0 0 36065 0 0
+~
+~
+Door 2 0 0 36059 0 0
+~
+~
+Door 3 0 0 36055 0 0
+~
+~
+End
+
+#36061
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36062 0 0
+~
+~
+Door 1 0 0 36066 0 0
+~
+~
+Door 3 0 0 36056 0 0
+~
+~
+End
+
+#36062
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Reset M 36002 1 100
+Reset O 36002 5 1
+Door 0 0 0 36063 0 0
+~
+~
+Door 1 0 0 36067 0 0
+~
+~
+Door 2 0 0 36061 0 0
+~
+~
+Door 3 0 0 36057 0 0
+~
+~
+End
+
+#36063
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36064 0 0
+~
+~
+Door 1 0 0 36068 0 0
+~
+~
+Door 2 0 0 36062 0 0
+~
+~
+Door 3 0 0 36058 0 0
+~
+~
+End
+
+#36064
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36065 0 0
+~
+~
+Door 1 0 0 36069 0 0
+~
+~
+Door 2 0 0 36063 0 0
+~
+~
+Door 3 0 0 36059 0 0
+~
+~
+End
+
+#36065
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Reset M 36002 1 100
+Reset O 36002 5 1
+Door 1 0 0 36070 0 0
+~
+~
+Door 2 0 0 36064 0 0
+~
+~
+Door 3 0 0 36060 0 0
+~
+~
+End
+
+#36066
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Reset M 36002 1 100
+Reset O 36002 5 1
+Door 0 0 0 36067 0 0
+~
+~
+Door 1 0 0 36071 0 0
+~
+~
+Door 3 0 0 36061 0 0
+~
+~
+End
+
+#36067
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36068 0 0
+~
+~
+Door 1 0 0 36072 0 0
+~
+~
+Door 2 0 0 36066 0 0
+~
+~
+Door 3 0 0 36062 0 0
+~
+~
+End
+
+#36068
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36069 0 0
+~
+~
+Door 1 0 0 36073 0 0
+~
+~
+Door 2 0 0 36067 0 0
+~
+~
+Door 3 0 0 36063 0 0
+~
+~
+End
+
+#36069
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Reset M 36002 1 100
+Reset O 36002 5 1
+Door 0 0 0 36070 0 0
+~
+~
+Door 1 0 0 36074 0 0
+~
+~
+Door 2 0 0 36068 0 0
+~
+~
+Door 3 0 0 36064 0 0
+~
+~
+End
+
+#36070
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 1 0 0 36075 0 0
+~
+~
+Door 2 0 0 36069 0 0
+~
+~
+Door 3 0 0 36065 0 0
+~
+~
+End
+
+#36071
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36072 0 0
+~
+~
+Door 1 0 0 36076 0 0
+~
+~
+Door 3 0 0 36066 0 0
+~
+~
+End
+
+#36072
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Reset M 36002 1 100
+Reset O 36002 5 1
+Door 0 0 0 36073 0 0
+~
+~
+Door 1 0 0 36077 0 0
+~
+~
+Door 2 0 0 36071 0 0
+~
+~
+Door 3 0 0 36067 0 0
+~
+~
+End
+
+#36073
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36074 0 0
+~
+~
+Door 1 0 0 36078 0 0
+~
+~
+Door 2 0 0 36072 0 0
+~
+~
+Door 3 0 0 36068 0 0
+~
+~
+End
+
+#36074
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36075 0 0
+~
+~
+Door 1 0 0 36079 0 0
+~
+~
+Door 2 0 0 36073 0 0
+~
+~
+Door 3 0 0 36069 0 0
+~
+~
+End
+
+#36075
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 1 0 0 36080 0 0
+~
+~
+Door 2 0 0 36074 0 0
+~
+~
+Door 3 0 0 36070 0 0
+~
+~
+End
+
+#36076
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36077 0 0
+~
+~
+Door 3 0 0 36071 0 0
+~
+~
+End
+
+#36077
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36078 0 0
+~
+~
+Door 2 0 0 36076 0 0
+~
+~
+Door 3 0 0 36072 0 0
+~
+~
+End
+
+#36078
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Reset M 36002 1 100
+Reset O 36002 5 1
+Door 0 0 0 36079 0 0
+~
+~
+Door 2 0 0 36077 0 0
+~
+~
+Door 3 0 0 36073 0 0
+~
+~
+End
+
+#36079
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 0 0 0 36080 0 0
+~
+~
+Door 2 0 0 36078 0 0
+~
+~
+Door 3 0 0 36074 0 0
+~
+~
+End
+
+#36080
+Name A Silver Hall~
+Descr
+This area has one small light in the middle of the hall, but still the
+area is illuminated as if there are dozens of lights. The reflection of the
+silver walls is so perfect that apparently only one small diamond is needed.
+~
+Door 2 0 0 36079 0 0
+~
+~
+Door 3 0 0 36075 0 0
+~
+~
+Door 5 259 0 36081 30 30
+~
+small silver door~
+End
+
+#36081
+Name A Platinum Hallway~
+Descr
+You are standing in a hallway completely made of platinum. All of this
+must be made magically, how else can the walls be so made perfectly smooth? 
+What would be at the and of this hallway?  A complete lounge made of
+platinum?  Nah, noone can afford that.. 
+~
+Door 1 0 0 36082 0 0
+~
+~
+Door 4 259 0 36080 30 30
+~
+small silver door~
+End
+
+#36082
+Name A Platinum Hallway~
+Descr
+You are standing in a hallway completely made of platinum. All of this
+must be made magically, how else can the walls be so made perfectly smooth? 
+What would be at the and of this hallway?  A complete lounge made of
+platinum? Nah, noone can afford that.. 
+~
+Door 2 0 0 36083 0 0
+~
+~
+Door 3 0 0 36081 0 0
+~
+~
+End
+
+#36083
+Name A Platinum Hallway~
+Descr
+You are standing in a hallway completely made of platinum. All of this
+must be made magically, how else can the walls be so made perfectly smooth? 
+What would be at the and of this hallway?  A complete lounge made of
+platinum? Nah, noone can afford that.. 
+~
+Door 0 0 0 36082 0 0
+~
+~
+Door 2 0 0 36084 0 0
+~
+~
+End
+
+#36084
+Name A Platinum Hallway~
+Descr
+You are standing in a hallway completely made of platinum. All of this
+must be made magically, how else can the walls be so made perfectly smooth? 
+What would be at the and of this hallway?  A complete lounge made of
+platinum? Nah, noone can afford that.. 
+~
+Door 0 0 0 36083 0 0
+~
+~
+Door 2 0 0 36085 0 0
+~
+~
+End
+
+#36085
+Name A Platinum Hallway~
+Descr
+You are standing in a hallway completely made of platinum. All of this
+must be made magically, how else can the walls be so made perfectly smooth? 
+What would be at the and of this hallway?  A complete lounge made of
+platinum? Nah, noone can afford that.. 
+~
+Door 0 0 0 36084 0 0
+~
+~
+Door 2 3 0 36087 30 30
+~
+door~
+End
+
+#36086
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Reset M 36003 1 100
+Reset O 36003 7 1
+Door 1 0 0 36087 0 0
+~
+~
+Door 2 0 0 36091 0 0
+~
+~
+End
+
+#36087
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 3 0 36085 30 30
+~
+door~
+Door 1 0 0 36088 0 0
+~
+~
+Door 2 0 0 36092 0 0
+~
+~
+Door 3 0 0 36086 0 0
+~
+~
+End
+
+#36088
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 1 0 0 36089 0 0
+~
+~
+Door 2 0 0 36093 0 0
+~
+~
+Door 3 0 0 36087 0 0
+~
+~
+End
+
+#36089
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Reset M 36003 1 100
+Reset O 36003 8 1
+Door 1 0 0 36090 0 0
+~
+~
+Door 2 0 0 36094 0 0
+~
+~
+Door 3 0 0 36088 0 0
+~
+~
+End
+
+#36090
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 2 0 0 36095 0 0
+~
+~
+Door 3 0 0 36089 0 0
+~
+~
+End
+
+#36091
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36086 0 0
+~
+~
+Door 1 0 0 36092 0 0
+~
+~
+Door 2 0 0 36096 0 0
+~
+~
+End
+
+#36092
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Reset M 36003 1 100
+Reset O 36003 8 1
+Door 0 0 0 36087 0 0
+~
+~
+Door 1 0 0 36093 0 0
+~
+~
+Door 2 0 0 36097 0 0
+~
+~
+Door 3 0 0 36091 0 0
+~
+~
+End
+
+#36093
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36088 0 0
+~
+~
+Door 1 0 0 36094 0 0
+~
+~
+Door 2 0 0 36098 0 0
+~
+~
+Door 3 0 0 36092 0 0
+~
+~
+End
+
+#36094
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36089 0 0
+~
+~
+Door 1 0 0 36095 0 0
+~
+~
+Door 2 0 0 36099 0 0
+~
+~
+Door 3 0 0 36093 0 0
+~
+~
+End
+
+#36095
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36090 0 0
+~
+~
+Door 2 0 0 36100 0 0
+~
+~
+Door 3 0 0 36094 0 0
+~
+~
+End
+
+#36096
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Reset M 36003 1 100
+Reset O 36003 7 1
+Door 0 0 0 36091 0 0
+~
+~
+Door 1 0 0 36097 0 0
+~
+~
+Door 2 0 0 36101 0 0
+~
+~
+End
+
+#36097
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36092 0 0
+~
+~
+Door 1 0 0 36098 0 0
+~
+~
+Door 2 0 0 36102 0 0
+~
+~
+Door 3 0 0 36096 0 0
+~
+~
+End
+
+#36098
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Flags2 4
+ExtraDescr fountain~
+~
+Reset O 36007 -5 100
+Door 0 0 0 36093 0 0
+~
+~
+Door 1 0 0 36099 0 0
+~
+~
+Door 2 0 0 36103 0 0
+~
+~
+Door 3 0 0 36097 0 0
+~
+~
+End
+
+#36099
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36094 0 0
+~
+~
+Door 1 0 0 36100 0 0
+~
+~
+Door 2 0 0 36104 0 0
+~
+~
+Door 3 0 0 36098 0 0
+~
+~
+End
+
+#36100
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Reset M 36003 1 100
+Reset O 36003 8 1
+Door 0 0 0 36095 0 0
+~
+~
+Door 1 259 0 36121 30 30
+~
+small platinum door~
+Door 2 0 0 36105 0 0
+~
+~
+Door 3 0 0 36099 0 0
+~
+~
+End
+
+#36101
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36096 0 0
+~
+~
+Door 1 0 0 36102 0 0
+~
+~
+Door 2 0 0 36106 0 0
+~
+~
+End
+
+#36102
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36097 0 0
+~
+~
+Door 1 0 0 36103 0 0
+~
+~
+Door 2 0 0 36107 0 0
+~
+~
+Door 3 0 0 36101 0 0
+~
+~
+End
+
+#36103
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Reset M 36003 1 100
+Reset O 36003 8 1
+Door 0 0 0 36098 0 0
+~
+~
+Door 1 0 0 36104 0 0
+~
+~
+Door 2 0 0 36108 0 0
+~
+~
+Door 3 0 0 36102 0 0
+~
+~
+End
+
+#36104
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36099 0 0
+~
+~
+Door 1 0 0 36105 0 0
+~
+~
+Door 2 0 0 36109 0 0
+~
+~
+Door 3 0 0 36103 0 0
+~
+~
+End
+
+#36105
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36100 0 0
+~
+~
+Door 2 0 0 36110 0 0
+~
+~
+Door 3 0 0 36104 0 0
+~
+~
+End
+
+#36106
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Reset M 36003 1 100
+Reset O 36003 8 1
+Door 0 0 0 36101 0 0
+~
+~
+Door 1 0 0 36107 0 0
+~
+~
+End
+
+#36107
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36102 0 0
+~
+~
+Door 1 0 0 36108 0 0
+~
+~
+Door 3 0 0 36106 0 0
+~
+~
+End
+
+#36108
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Reset M 36003 1 100
+Reset O 36003 7 1
+Door 0 0 0 36103 0 0
+~
+~
+Door 1 0 0 36109 0 0
+~
+~
+Door 3 0 0 36107 0 0
+~
+~
+End
+
+#36109
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36104 0 0
+~
+~
+Door 1 0 0 36110 0 0
+~
+~
+Door 3 0 0 36108 0 0
+~
+~
+End
+
+#36110
+Name A Platinum Lounge~
+Descr
+Oh My God!!  A lounge made completely of platinum??  The owner of this
+place must be the richest man in the Lands of Chaos!!  Who is this man,
+spending so much money on rooms of such expensive minerals?  
+~
+Door 0 0 0 36105 0 0
+~
+~
+Door 3 0 0 36109 0 0
+~
+~
+End
+
+#36111
+Name A Mithril Hallway~
+Descr
+Gasp!!  This must be the most beautiful hallway you have ever seen!  The
+walls are made made of pure mithril., and although there is no window, the
+sun still shines in here. A real high magician must have been practicing his
+powers to realize this marvelous wonder of craftmanship and magic. 
+~
+Door 0 3 0 36158 30 30
+~
+titanium door~
+Door 2 0 0 36112 0 0
+~
+~
+End
+
+#36112
+Name A Mithril Hallway~
+Descr
+Gasp!!  This must be the most beautiful hallway you have ever seen!  The
+walls are made made of pure mithril., and although there is no window, the
+sun still shines in here. A real high magician must have been practicing his
+powers to realize this marvelous wonder of craftmanship and magic. 
+~
+Reset M 36004 1 100
+Reset M 36004 1 100
+Reset O 36004 6 1
+Door 0 0 0 36111 0 0
+~
+~
+Door 2 3 0 36113 30 30
+~
+big mithril door~
+End
+
+#36113
+Name Martauders Working Place~
+Descr
+After seeing all these beautiful rooms, the chaos in this room really
+hurts your eyes. Large and small pieces of minerals are scattered on the
+floor. Half finished golems are lying on the ground, waiting to be
+enchanted. In the middle of it all stands a man with a long beard, obviously
+concentrated on something difficult. 
+~
+Reset M 36005 1 100
+Reset O 36011 -5 100
+Reset O 36010 -5 100
+Reset O 36006 -5 100
+Reset O 113 -1 100
+Reset O 113 1 100
+Reset O 36012 -1 1
+Door 0 0 0 36112 0 0
+~
+~
+Door 4 0 0 36021 0 0
+~
+~
+End
+
+#36121
+Name A Titanium Hallway~
+Descr
+Titanium too now... So he is still building golems!  But he never left
+his palace... Where does he get the materials?  Maybe he has people working
+for him?  Or maybe golems?  That would explain all those golems around
+here.. 
+~
+Door 1 0 0 36122 0 0
+~
+~
+Door 3 259 0 36100 30 30
+~
+small platinum door~
+End
+
+#36122
+Name A Titanium Hallway~
+Descr
+Titanium too now... So he is still building golems!  But he never left
+his palace... Where does he get the materials?  Maybe he has people working
+for him?  Or maybe golems?  That would explain all those golems around
+here..
+~
+Door 2 0 0 36123 0 0
+~
+~
+Door 3 0 0 36121 0 0
+~
+~
+End
+
+#36123
+Name A Titanium Hallway~
+Descr
+Titanium too now... So he is still building golems!  But he never left
+his palace... Where does he get the materials?  Maybe he has people working
+for him?  Or maybe golems?  That would explain all those golems around
+here..
+~
+Door 0 0 0 36122 0 0
+~
+~
+Door 2 0 0 36124 0 0
+~
+~
+End
+
+#36124
+Name A Titanium Hallway~
+Descr
+Titanium too now... So he is still building golems!  But he never left
+his palace... Where does he get the materials?  Maybe he has people working
+for him?  Or maybe golems?  That would explain all those golems around
+here..
+~
+Door 0 0 0 36123 0 0
+~
+~
+Door 2 0 0 36125 0 0
+~
+~
+End
+
+#36125
+Name A Titanium Hallway~
+Descr
+Titanium too now... So he is still building golems!  But he never left
+his palace... Where does he get the materials?  Maybe he has people working
+for him?  Or maybe golems?  That would explain all those golems around
+here..
+~
+Door 0 0 0 36124 0 0
+~
+~
+Door 2 0 0 36128 0 0
+~
+~
+End
+
+#36126
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him... 
+~
+Reset M 36006 1 100
+Reset O 36008 37 1
+Door 1 0 0 36127 0 0
+~
+~
+Door 2 0 0 36131 0 0
+~
+~
+End
+
+#36127
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 1 0 0 36128 0 0
+~
+~
+Door 2 0 0 36132 0 0
+~
+~
+Door 3 0 0 36126 0 0
+~
+~
+End
+
+#36128
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36125 0 0
+~
+~
+Door 1 0 0 36129 0 0
+~
+~
+Door 2 0 0 36133 0 0
+~
+~
+Door 3 0 0 36127 0 0
+~
+~
+End
+
+#36129
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 1 0 0 36130 0 0
+~
+~
+Door 2 0 0 36134 0 0
+~
+~
+Door 3 0 0 36128 0 0
+~
+~
+End
+
+#36130
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 2 0 0 36135 0 0
+~
+~
+Door 3 0 0 36129 0 0
+~
+~
+End
+
+#36131
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36126 0 0
+~
+~
+Door 1 0 0 36132 0 0
+~
+~
+Door 2 0 0 36136 0 0
+~
+~
+End
+
+#36132
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36127 0 0
+~
+~
+Door 1 0 0 36133 0 0
+~
+~
+Door 2 0 0 36137 0 0
+~
+~
+Door 3 0 0 36131 0 0
+~
+~
+End
+
+#36133
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36128 0 0
+~
+~
+Door 1 0 0 36134 0 0
+~
+~
+Door 2 0 0 36138 0 0
+~
+~
+Door 3 0 0 36132 0 0
+~
+~
+End
+
+#36134
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Reset M 36006 1 100
+Reset O 36008 37 1
+Door 0 0 0 36129 0 0
+~
+~
+Door 1 0 0 36135 0 0
+~
+~
+Door 2 0 0 36139 0 0
+~
+~
+Door 3 0 0 36133 0 0
+~
+~
+End
+
+#36135
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36130 0 0
+~
+~
+Door 2 0 0 36140 0 0
+~
+~
+Door 3 0 0 36134 0 0
+~
+~
+End
+
+#36136
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36131 0 0
+~
+~
+Door 1 0 0 36137 0 0
+~
+~
+Door 2 0 0 36141 0 0
+~
+~
+End
+
+#36137
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Reset M 36006 1 100
+Reset O 36008 37 1
+Door 0 0 0 36132 0 0
+~
+~
+Door 1 0 0 36138 0 0
+~
+~
+Door 2 0 0 36142 0 0
+~
+~
+Door 3 0 0 36136 0 0
+~
+~
+End
+
+#36138
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36133 0 0
+~
+~
+Door 1 0 0 36139 0 0
+~
+~
+Door 2 0 0 36143 0 0
+~
+~
+Door 3 0 0 36137 0 0
+~
+~
+End
+
+#36139
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36134 0 0
+~
+~
+Door 1 0 0 36140 0 0
+~
+~
+Door 2 0 0 36144 0 0
+~
+~
+Door 3 0 0 36138 0 0
+~
+~
+End
+
+#36140
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36135 0 0
+~
+~
+Door 2 0 0 36145 0 0
+~
+~
+Door 3 0 0 36139 0 0
+~
+~
+End
+
+#36141
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36136 0 0
+~
+~
+Door 1 0 0 36142 0 0
+~
+~
+Door 2 0 0 36146 0 0
+~
+~
+End
+
+#36142
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36137 0 0
+~
+~
+Door 1 0 0 36143 0 0
+~
+~
+Door 2 0 0 36147 0 0
+~
+~
+Door 3 0 0 36141 0 0
+~
+~
+End
+
+#36143
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36138 0 0
+~
+~
+Door 1 0 0 36144 0 0
+~
+~
+Door 2 0 0 36148 0 0
+~
+~
+Door 3 0 0 36142 0 0
+~
+~
+End
+
+#36144
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36139 0 0
+~
+~
+Door 1 0 0 36145 0 0
+~
+~
+Door 2 0 0 36149 0 0
+~
+~
+Door 3 0 0 36143 0 0
+~
+~
+End
+
+#36145
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Reset M 36006 1 100
+Reset O 36008 37 1
+Door 0 0 0 36140 0 0
+~
+~
+Door 2 0 0 36150 0 0
+~
+~
+Door 3 0 0 36144 0 0
+~
+~
+End
+
+#36146
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36141 0 0
+~
+~
+Door 1 0 0 36147 0 0
+~
+~
+Door 2 0 0 36151 0 0
+~
+~
+End
+
+#36147
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36142 0 0
+~
+~
+Door 1 0 0 36148 0 0
+~
+~
+Door 2 0 0 36152 0 0
+~
+~
+Door 3 0 0 36146 0 0
+~
+~
+End
+
+#36148
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36143 0 0
+~
+~
+Door 1 0 0 36149 0 0
+~
+~
+Door 2 0 0 36153 0 0
+~
+~
+Door 3 0 0 36147 0 0
+~
+~
+End
+
+#36149
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Reset M 36006 1 100
+Reset O 36008 37 1
+Door 0 0 0 36144 0 0
+~
+~
+Door 1 0 0 36150 0 0
+~
+~
+Door 2 0 0 36154 0 0
+~
+~
+Door 3 0 0 36148 0 0
+~
+~
+End
+
+#36150
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36145 0 0
+~
+~
+Door 2 0 0 36155 0 0
+~
+~
+Door 3 0 0 36149 0 0
+~
+~
+End
+
+#36151
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Reset M 36006 1 100
+Reset O 36008 37 1
+Door 0 0 0 36146 0 0
+~
+~
+Door 1 0 0 36152 0 0
+~
+~
+Door 2 0 0 36156 0 0
+~
+~
+End
+
+#36152
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36147 0 0
+~
+~
+Door 1 0 0 36153 0 0
+~
+~
+Door 2 0 0 36157 0 0
+~
+~
+Door 3 0 0 36151 0 0
+~
+~
+End
+
+#36153
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36148 0 0
+~
+~
+Door 1 0 0 36154 0 0
+~
+~
+Door 2 0 0 36158 0 0
+~
+~
+Door 3 0 0 36152 0 0
+~
+~
+End
+
+#36154
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36149 0 0
+~
+~
+Door 1 0 0 36155 0 0
+~
+~
+Door 2 0 0 36159 0 0
+~
+~
+Door 3 0 0 36153 0 0
+~
+~
+End
+
+#36155
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36150 0 0
+~
+~
+Door 2 0 0 36160 0 0
+~
+~
+Door 3 0 0 36154 0 0
+~
+~
+End
+
+#36156
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36151 0 0
+~
+~
+Door 1 0 0 36157 0 0
+~
+~
+End
+
+#36157
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36152 0 0
+~
+~
+Door 1 0 0 36158 0 0
+~
+~
+Door 3 0 0 36156 0 0
+~
+~
+End
+
+#36158
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Reset M 36006 1 100
+Reset O 36008 37 1
+Door 0 0 0 36153 0 0
+~
+~
+Door 1 0 0 36159 0 0
+~
+~
+Door 2 259 0 36111 30 30
+~
+titanium door~
+Door 3 0 0 36157 0 0
+~
+~
+End
+
+#36159
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36154 0 0
+~
+~
+Door 1 0 0 36160 0 0
+~
+~
+Door 3 0 0 36158 0 0
+~
+~
+End
+
+#36160
+Name A Titanium Lounge~
+Descr
+This large titanium lounge doesnt even have lights in the ceiling. The
+room is illuminated but there is no clear source of light. The golems
+walking around here are cleaning the floor, so apparently Martauder found a
+way to let them work for him. Imagine what he could let the golems do for
+him...
+~
+Door 0 0 0 36155 0 0
+~
+~
+Door 3 0 0 36159 0 0
+~
+~
+End
+
+#36161
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Reset M 36007 1 100
+Reset O 113 1 100
+Door 2 0 0 36163 0 0
+~
+~
+End
+
+#36162
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Door 1 0 0 36163 0 0
+~
+~
+Door 2 0 0 36166 0 0
+~
+~
+End
+
+#36163
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Door 0 0 0 36161 0 0
+~
+~
+Door 1 0 0 36164 0 0
+~
+~
+Door 2 0 0 36167 0 0
+~
+~
+Door 3 0 0 36162 0 0
+~
+~
+End
+
+#36164
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Door 2 0 0 36168 0 0
+~
+~
+Door 3 0 0 36163 0 0
+~
+~
+End
+
+#36165
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Reset M 36007 1 100
+Reset O 113 1 100
+Door 1 0 0 36166 0 0
+~
+~
+End
+
+#36166
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Door 0 0 0 36162 0 0
+~
+~
+Door 1 0 0 36167 0 0
+~
+~
+Door 2 0 0 36170 0 0
+~
+~
+Door 3 0 0 36165 0 0
+~
+~
+End
+
+#36167
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Flags2 4
+Sector 39
+Reset M 36007 1 100
+Reset O 113 1 100
+Door 0 0 0 36163 0 0
+~
+~
+Door 1 0 0 36168 0 0
+~
+~
+Door 2 0 0 36171 0 0
+~
+~
+Door 3 0 0 36166 0 0
+~
+~
+Door 4 0 0 36113 0 0
+~
+~
+End
+
+#36168
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Door 0 0 0 36164 0 0
+~
+~
+Door 1 0 0 36169 0 0
+~
+~
+Door 2 0 0 36172 0 0
+~
+~
+Door 3 0 0 36167 0 0
+~
+~
+End
+
+#36169
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Reset M 36007 1 100
+Reset O 113 1 100
+Door 3 0 0 36168 0 0
+~
+~
+End
+
+#36170
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Door 0 0 0 36166 0 0
+~
+~
+Door 1 0 0 36171 0 0
+~
+~
+End
+
+#36171
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Door 0 0 0 36167 0 0
+~
+~
+Door 1 0 0 36172 0 0
+~
+~
+Door 2 0 0 36173 0 0
+~
+~
+Door 3 0 0 36170 0 0
+~
+~
+End
+
+#36172
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Door 0 0 0 36168 0 0
+~
+~
+Door 3 0 0 36171 0 0
+~
+~
+End
+
+#36173
+Name A Dark Cave~
+Descr
+So this is where he gets his materials!  And he has golems working here.
+Very smart, golems don't have to sleep so they can work 24/7. 
+~
+Sector 39
+Reset M 36007 1 100
+Reset O 113 1 100
+Door 0 0 0 36171 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

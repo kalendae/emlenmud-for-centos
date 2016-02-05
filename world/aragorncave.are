@@ -1,0 +1,382 @@
+#AREADATA 
+Name A Small Cave~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Aragorn~
+VNUMs 20901 20930
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#20901
+Name a mother bear~
+Short a mother bear~
+Long 
+A mother bear sits here watching for intruders.
+~
+AMax 1
+NHeight 100
+ActBits 2
+Affect_By 520
+Level 60
+MobType 6
+Guard 0
+End
+
+#20902
+Name a young bear~
+Short a young bear~
+Long 
+A young bear plays in the cave.
+~
+AMax 5
+NHeight 80
+Affect_By 520
+Level 53
+MobType 6
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#20907
+Name small bear paw~
+Short a small [0m[33mbrown[0m bear [1m[33mp[0m[33ma[1m[33mw[0m~
+Descr
+A small piece of brown fabric looking as though it could cover your hands.
+[0;36m~
+Type 9
+Wear 129
+Values 0 0 3 0 0 0 0 0 0 0 0
+Weight 2
+Cost 200
+End
+
+#20925
+Name adamantium dagger~
+Short a wicked [35ma[1md[0m[37mam[1man[0m[37mti[1m[35mu[0m[35mm [0m[37m dagger~
+Descr
+A wicked looking adamantium dagger is lying on the ground
+[0;36m~
+Type 5
+Extra 2
+Wear 24577
+Values 0 60 0 11 0 0 0 1 1 0 0
+Weight 1
+Cost 100
+End
+
+#0
+
+
+
+#ROOMDATA
+#20901
+Name The Entrance to a Bear's Cave~
+Descr
+You are entering a bear's cave, as you come closer you can smell and
+incredible stench, probably the bear's last meal. 
+~
+Flags 4
+Sector 37
+Door 0 0 0 20902 0 0
+~
+~
+Door 4 0 0 2439 0 0
+~
+~
+End
+
+#20902
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Door 0 0 0 20903 0 0
+~
+~
+Door 2 0 0 20901 0 0
+~
+~
+End
+
+#20903
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Reset M 20902 1 100
+Reset O 20907 21 100
+Door 0 0 0 20911 0 0
+~
+~
+Door 2 0 0 20902 0 0
+~
+~
+End
+
+#20904
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Door 0 0 0 20905 0 0
+~
+~
+End
+
+#20905
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Reset M 20902 1 100
+Reset O 20907 21 100
+Door 0 0 0 20907 0 0
+~
+~
+Door 2 0 0 20904 0 0
+~
+~
+Door 3 0 0 20906 0 0
+~
+~
+End
+
+#20906
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Door 1 0 0 20905 0 0
+~
+~
+End
+
+#20907
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Door 1 0 0 20908 0 0
+~
+~
+Door 2 0 0 20905 0 0
+~
+~
+End
+
+#20908
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Reset M 20902 1 100
+Reset O 20907 21 100
+Door 0 0 0 20909 0 0
+~
+~
+Door 3 0 0 20907 0 0
+~
+~
+End
+
+#20909
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Door 1 0 0 20910 0 0
+~
+~
+Door 2 0 0 20908 0 0
+~
+~
+End
+
+#20910
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Sector 37
+Door 0 0 0 20918 0 0
+~
+~
+Door 1 0 0 20917 0 0
+~
+~
+Door 2 0 0 20911 0 0
+~
+~
+Door 3 0 0 20909 0 0
+~
+~
+End
+
+#20911
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Door 0 0 0 20910 0 0
+~
+~
+Door 2 0 0 20903 0 0
+~
+~
+End
+
+#20912
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Door 0 0 0 20913 0 0
+~
+~
+End
+
+#20913
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Reset M 20902 1 100
+Reset O 20907 21 100
+Door 0 0 0 20915 0 0
+~
+~
+Door 1 0 0 20914 0 0
+~
+~
+Door 2 0 0 20912 0 0
+~
+~
+End
+
+#20914
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Door 3 0 0 20913 0 0
+~
+~
+End
+
+#20915
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Door 2 0 0 20913 0 0
+~
+~
+Door 3 0 0 20916 0 0
+~
+~
+End
+
+#20916
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Reset M 20902 1 100
+Reset O 20907 21 100
+Door 0 0 0 20917 0 0
+~
+~
+Door 1 0 0 20915 0 0
+~
+~
+End
+
+#20917
+Name Inside a Bear's Cave~
+Descr
+You are inside the bear's cave and the stench keeps getting stronger. You
+notice some younger bears tumbling about playfully. 
+~
+Flags 4
+Sector 37
+Door 2 0 0 20916 0 0
+~
+~
+Door 3 0 0 20910 0 0
+~
+~
+End
+
+#20918
+Name The Mother Bear's Lair~
+Descr
+You are in the mother bear's lair now. You notice many bones and some
+rotting carcases in some of the dark corners. The mother bear is sitting
+here snarling, hardly tolerating your bering here. 
+~
+Flags 4
+Sector 37
+Reset M 20901 1 100
+Door 2 0 0 20910 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

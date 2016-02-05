@@ -1,0 +1,531 @@
+#AREADATA 
+Name Ancient Ruins~
+Repop A wyvern can be heard screaming in the distance. 
+~
+SCZone 0
+Builders None~
+VNUMs 66973 66999
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#66974
+Name neutral quest questmaster master wizard ulodor~
+Short Ulodor the Quest-Master~
+Long 
+Ulodor, the Quest-Master, is here resting among the ruins.
+~
+AMax 1
+NHeight 0
+ActBits 6
+Affect_By 134218280
+Level 200
+Sex 1
+MobType 1
+Guard 0
+BCasts "complete team healing"~
+BCasts "mass heal"~
+BCasts 'healing of earth'~
+BCast_P 100
+End
+
+#66975
+Name drake fire~
+Short a fire drake~
+Long 
+A fire drake is here darting around the obstacles.
+~
+AMax 6
+NHeight 0
+ActBits 4
+Affect_By 524800
+Level 50
+MobType 20
+Hp 2
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#66974
+Name neutral quest staff ulodor~
+Short [0mthe staff of [31mU[1ml[0m[31mo[1md[0m[31mo[1mr[0m the [31mA[1mn[0m[31mc[1mi[0m[31me[1mn[0m[31mt[0m~
+Descr
+This better not be on the ground...if so sac it!
+[0;36m~
+Type 3
+Extra 94336
+Wear 16385
+Values 200 99 99 125 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66975
+Name scroll identify neutral quest~
+Short [0ma scroll of [37mid[0men[37mti[0mfy[0m~
+Descr
+[36mA [37msc[0mro[37mll[0m [36mis here on the ground being trampled into dust!
+[0;36m~
+Type 2
+Wear 24577
+Values 60 16 0 0 0 0 0 0 0 0 0
+Weight 1
+Cost 460
+End
+
+#66980
+Name letter neutral quest sealed~
+Short [0ma se[31m[1mal[0med letter~
+Descr
+[36mA [0mse[1m[31mal[0med letter[0m[36m is here being trampled underfoot.
+[0;36m~
+Type 13
+Extra 16640
+Wear 24577
+Timer 60
+Weight 0
+Cost 0
+End
+
+#66981
+Name tattered torn robe cloth neutral quest~
+Short [0ma piece of [1m[35mta[0m[35mtt[1mer[0m[35med[1m cl[0m[35mot[1mh[0m~
+Descr
+[36mA piece of [1m[35mta[0m[35mtt[1mer[0m[35med[1m cl[0m[35mot[1mh[0m [36mlies here getting filthy on the ground.
+[0;36m~
+Type 13
+Extra 16640
+Wear 16385
+Timer 60
+Weight 1
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#66973
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 66356 0 0
+~
+~
+Door 1 0 0 66974 0 0
+~
+~
+Door 2 0 0 66976 0 0
+~
+~
+Door 3 0 0 66333 0 0
+~
+~
+End
+
+#66974
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Reset M 66975 1 100
+Door 0 0 0 66357 0 0
+~
+~
+Door 1 0 0 66975 0 0
+~
+~
+Door 2 0 0 66980 0 0
+~
+~
+Door 3 0 0 66973 0 0
+~
+~
+End
+
+#66975
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 66358 0 0
+~
+~
+Door 1 0 0 66334 0 0
+~
+~
+Door 2 0 0 66984 0 0
+~
+~
+Door 3 0 0 66974 0 0
+~
+~
+End
+
+#66976
+Name The Ruins of an Ancient Tower~
+Descr
+~
+Sector 34
+Door 0 0 0 66973 0 0
+~
+~
+Door 1 0 0 66980 0 0
+~
+~
+Door 2 0 0 66977 0 0
+~
+~
+Door 3 0 0 66988 0 0
+~
+~
+End
+
+#66977
+Name The Ruins of an Ancient Tower~
+Descr
+~
+Sector 34
+Door 0 0 0 66976 0 0
+~
+~
+Door 1 0 0 66981 0 0
+~
+~
+Door 2 0 0 66978 0 0
+~
+~
+Door 3 0 0 66989 0 0
+~
+~
+End
+
+#66978
+Name The Ruins of an Ancient Tower~
+Descr
+~
+Sector 34
+Door 0 0 0 66977 0 0
+~
+~
+Door 1 0 0 66982 0 0
+~
+~
+Door 2 0 0 66979 0 0
+~
+~
+Door 3 0 0 66990 0 0
+~
+~
+End
+
+#66979
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 66978 0 0
+~
+~
+Door 1 0 0 66983 0 0
+~
+~
+Door 2 0 0 66222 0 0
+~
+~
+Door 3 0 0 66247 0 0
+~
+~
+End
+
+#66980
+Name The Ruins of an Ancient Tower~
+Descr
+~
+Sector 34
+Door 0 0 0 66974 0 0
+~
+~
+Door 1 0 0 66984 0 0
+~
+~
+Door 2 0 0 66981 0 0
+~
+~
+Door 3 0 0 66976 0 0
+~
+~
+End
+
+#66981
+Name The Ruins of an Ancient Tower~
+Descr
+Currently out, sorry...it was crashing the mud. 
+ 
+Bern
+~
+Flags2 6
+Flags 4
+Sector 34
+Door 0 0 0 66980 0 0
+~
+~
+Door 1 0 0 66985 0 0
+~
+~
+Door 2 0 0 66982 0 0
+~
+~
+Door 3 0 0 66977 0 0
+~
+~
+End
+
+#66982
+Name The Ruins of an Ancient Tower~
+Descr
+~
+Sector 34
+Door 0 0 0 66981 0 0
+~
+~
+Door 1 0 0 66986 0 0
+~
+~
+Door 2 0 0 66983 0 0
+~
+~
+Door 3 0 0 66978 0 0
+~
+~
+End
+
+#66983
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Reset M 66975 1 100
+Door 0 0 0 66982 0 0
+~
+~
+Door 1 0 0 66987 0 0
+~
+~
+Door 2 0 0 66223 0 0
+~
+~
+Door 3 0 0 66979 0 0
+~
+~
+End
+
+#66984
+Name The Ruins of an Ancient Tower~
+Descr
+~
+Sector 34
+Door 0 0 0 66975 0 0
+~
+~
+Door 1 0 0 66991 0 0
+~
+~
+Door 2 0 0 66985 0 0
+~
+~
+Door 3 0 0 66980 0 0
+~
+~
+End
+
+#66985
+Name The Ruins of an Ancient Tower~
+Descr
+~
+Sector 34
+Door 0 0 0 66984 0 0
+~
+~
+Door 1 0 0 66992 0 0
+~
+~
+Door 2 0 0 66986 0 0
+~
+~
+Door 3 0 0 66981 0 0
+~
+~
+End
+
+#66986
+Name The Ruins of an Ancient Tower~
+Descr
+~
+Sector 34
+Door 0 0 0 66985 0 0
+~
+~
+Door 1 0 0 66993 0 0
+~
+~
+Door 2 0 0 66987 0 0
+~
+~
+Door 3 0 0 66982 0 0
+~
+~
+End
+
+#66987
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 66986 0 0
+~
+~
+Door 1 0 0 66248 0 0
+~
+~
+Door 2 0 0 66224 0 0
+~
+~
+Door 3 0 0 66983 0 0
+~
+~
+End
+
+#66988
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Reset M 66975 1 100
+Door 0 0 0 66333 0 0
+~
+~
+Door 1 0 0 66976 0 0
+~
+~
+Door 2 0 0 66989 0 0
+~
+~
+Door 3 0 0 66311 0 0
+~
+~
+End
+
+#66989
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 66988 0 0
+~
+~
+Door 1 0 0 66977 0 0
+~
+~
+Door 2 0 0 66990 0 0
+~
+~
+Door 3 0 0 66290 0 0
+~
+~
+End
+
+#66990
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Reset M 66975 1 100
+Door 0 0 0 66989 0 0
+~
+~
+Door 1 0 0 66978 0 0
+~
+~
+Door 2 0 0 66247 0 0
+~
+~
+Door 3 0 0 66269 0 0
+~
+~
+End
+
+#66991
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Reset M 66975 1 100
+Door 0 0 0 66334 0 0
+~
+~
+Door 1 0 0 66312 0 0
+~
+~
+Door 2 0 0 66992 0 0
+~
+~
+Door 3 0 0 66984 0 0
+~
+~
+End
+
+#66992
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Door 0 0 0 66991 0 0
+~
+~
+Door 1 0 0 66291 0 0
+~
+~
+Door 2 0 0 66993 0 0
+~
+~
+Door 3 0 0 66985 0 0
+~
+~
+End
+
+#66993
+Name The Drakken Forest~
+Descr
+~
+Sector 27
+Reset M 66975 1 100
+Door 0 0 0 66992 0 0
+~
+~
+Door 1 0 0 66270 0 0
+~
+~
+Door 2 0 0 66248 0 0
+~
+~
+Door 3 0 0 66986 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

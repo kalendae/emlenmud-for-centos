@@ -1,0 +1,4085 @@
+#AREADATA 
+Name Lands of Blackspire~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders  Demonstench~
+VNUMs 21001 21200
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#21004
+Name vera prac~
+Short vera~
+Long 
+Vera stands here.
+~
+AMax 1
+ActBits 256
+Affect_By 520
+Money 563
+Level 250
+MobType 0
+Hp 25
+Guard 0
+ASklTaught 0 594
+ASklTaught 1 596
+ASklTaught 2 119
+ASklTaught 3 219
+ASklTaught 4 256
+ASklTaught 5 236
+ASklTaught 6 206
+End
+
+#21061
+Name goat~
+Short A goat~
+Long 
+A goat is here grazing on the hills.
+~
+AMax 3
+NHeight 45
+ActBits 8192
+Affect_By 552
+Level 50
+Sex 2
+MobType 18
+Guard 0
+End
+
+#21062
+Name hill giant~
+Short A hill giant~
+Long 
+A hill giant is here gathering food to eat.
+~
+AMax 10
+NHeight 80
+ActBits 1
+Affect_By 680
+Money 250
+Level 100
+Sex 1
+MobType 4
+Guard 0
+Spec spec_warrior
+End
+
+#21063
+Name huge hill giant~
+Short A HUGE hill-giant~
+Long 
+A HUGE hill-giant is here thrashing anybody that gets in it's way!
+~
+AMax 8
+NHeight 90
+ActBits 1
+Affect_By 680
+AffectTWO 8
+Money 250
+Level 115
+Sex 1
+Guard 0
+Spec spec_warrior
+End
+
+#21064
+Name royal knight black spire~
+Short A royal knight of blackspire~
+Long 
+A royal knight is here protecting the lands of blackspire.
+~
+AMax 10
+NHeight 70
+ActBits 1
+Affect_By 680
+AffectTWO 8
+Money 150
+Level 130
+Sex 1
+MobType 0
+Guard 0
+Spec spec_warrior
+End
+
+#21120
+Name an fallen angel~
+Short A fallen angel~
+Long 
+A fallen angel stands here contemplating his next step.
+~
+AMax 1
+NHeight 0
+ActBits 10
+Affect_By 648
+AffectTWO 67633152
+Money 3000
+Level 500
+Sex 1
+Hp 50
+Guard 0
+Spec spec_warrior
+BCasts paralyze~
+BCasts ice comet~
+BCasts death fog~
+BCast_P 30
+End
+
+#21174
+Name a dwarven miner~
+Short a dwarven miner~
+Long 
+A dwarven miner is here hacking away the ground.
+~
+AMax 8
+NHeight 0
+ActBits 1
+Affect_By 552
+Money 225
+Level 90
+Sex 1
+MobType 2
+Guard 0
+End
+
+#21175
+Name slave master ~
+Short A buff slavemaster~
+Long 
+A slavemaster is here making sure there is diamond to ship to the kingdom.
+~
+AMax 1
+NHeight 80
+ActBits 2
+Affect_By 680
+Money 150
+Level 150
+Sex 1
+MobType 10
+Guard 0
+End
+
+#21176
+Name cheerful kender~
+Short A cheerful kender~
+Long 
+A cheerful kender is here traveling in the hills.
+~
+AMax 10
+NHeight 57
+ActBits 1
+Affect_By 680
+Money 210
+Level 105
+Sex 1
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#21004
+Name stout bliring~
+Short [34m[1mstout [31m[1mbliring[0m~
+Descr
+A stout bliring is laying here.
+[0;36m~
+Type 5
+Extra 67108864
+Wear 16385
+Values 0 10 0 13 0 0 0 5 3 0 0
+Weight 25
+Cost 1500
+End
+
+#21005
+Name aura screaming souls~
+Short an aura of [31msc[1mre[30ma[37mm[0m[31min[1mg s[30mo[0m[31mu[1ml[37ms[0m~
+Descr
+A screaming aura lies on the ground shimmering.
+[0;36m~
+Type 9
+Extra 1
+Wear 131073
+Values 1 1 2 0 0 0 7 7 0 0 0
+Weight 0
+Cost 3433
+Affect 13 10 1 0 0
+Affect 20 4 1 0 0
+Affect 18 3 1 0 0
+End
+
+#21174
+Name slave master whip torture whipping~
+Short a [1m[30mslavemaster's[0m whip of [1m[31mt[0m[31mortu[1m[31mr[0m[31me[0m~
+Descr
+A whip of torture lays on the floor.
+[0;36m~
+Type 5
+Extra 1048577
+Wear 24577
+Values 0 0 0 4 0 0 0 4 3 0 0
+Weight 31
+Cost 1000
+Affect 18 2 1 0 0
+End
+
+#21175
+Name no name~
+Short a [1m[32mst[0m[32mu[1m[37md[0m[32md[1m[32med leather slave master vest~
+Descr
+(none)~
+Type 9
+Extra 1
+Wear 0
+Weight 21
+Cost 500
+End
+
+#21176
+Name belt furs pile~
+Short a belt of [33mfurs[0m~
+Descr
+A pile of furs lies here.
+[0;36m~
+Type 9
+Wear 10241
+Values 1 4 0 0 0 0 15 15 0 0 0
+Weight 30
+Cost 400
+Affect 17 -1 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#21001
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21002 0 0
+~
+~
+Door 2 0 0 21003 0 0
+~
+~
+Door 3 0 0 8932 0 0
+~
+~
+End
+
+#21002
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21004 0 0
+~
+~
+Door 3 0 0 21001 0 0
+~
+~
+End
+
+#21003
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21001 0 0
+~
+~
+Door 1 0 0 21004 0 0
+~
+~
+Door 2 0 0 21009 0 0
+~
+~
+Door 3 0 0 8931 0 0
+~
+~
+End
+
+#21004
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Reset M 21004 1 100
+Reset O 8848 -1 20
+Reset O 8944 -1 5
+Reset O 7705 -1 35
+Door 0 0 0 21002 0 0
+~
+~
+Door 1 0 0 21005 0 0
+~
+~
+Door 2 0 0 21010 0 0
+~
+~
+Door 3 0 0 21003 0 0
+~
+~
+End
+
+#21005
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21006 0 0
+~
+~
+Door 2 0 0 21011 0 0
+~
+~
+Door 3 0 0 21004 0 0
+~
+~
+End
+
+#21006
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21007 0 0
+~
+~
+Door 2 0 0 21012 0 0
+~
+~
+Door 3 0 0 21005 0 0
+~
+~
+End
+
+#21007
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21008 0 0
+~
+~
+Door 2 0 0 21013 0 0
+~
+~
+Door 3 0 0 21006 0 0
+~
+~
+End
+
+#21008
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21014 0 0
+~
+~
+Door 3 0 0 21007 0 0
+~
+~
+End
+
+#21009
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21003 0 0
+~
+~
+Door 1 0 0 21010 0 0
+~
+~
+Door 2 0 0 21018 0 0
+~
+~
+Door 3 0 0 8930 0 0
+~
+~
+End
+
+#21010
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21004 0 0
+~
+~
+Door 1 0 0 21011 0 0
+~
+~
+Door 2 0 0 21019 0 0
+~
+~
+Door 3 0 0 21009 0 0
+~
+~
+End
+
+#21011
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21005 0 0
+~
+~
+Door 1 0 0 21012 0 0
+~
+~
+Door 2 0 0 21020 0 0
+~
+~
+Door 3 0 0 21010 0 0
+~
+~
+End
+
+#21012
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21006 0 0
+~
+~
+Door 1 0 0 21013 0 0
+~
+~
+Door 2 0 0 21021 0 0
+~
+~
+Door 3 0 0 21011 0 0
+~
+~
+End
+
+#21013
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21007 0 0
+~
+~
+Door 1 0 0 21014 0 0
+~
+~
+Door 2 0 0 21022 0 0
+~
+~
+Door 3 0 0 21012 0 0
+~
+~
+End
+
+#21014
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Reset M 21062 1 100
+Door 0 0 0 21008 0 0
+~
+~
+Door 1 0 0 21015 0 0
+~
+~
+Door 2 0 0 21023 0 0
+~
+~
+Door 3 0 0 21013 0 0
+~
+~
+End
+
+#21015
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21016 0 0
+~
+~
+Door 2 0 0 21024 0 0
+~
+~
+Door 3 0 0 21014 0 0
+~
+~
+End
+
+#21016
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21017 0 0
+~
+~
+Door 2 0 0 21025 0 0
+~
+~
+Door 3 0 0 21015 0 0
+~
+~
+End
+
+#21017
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21026 0 0
+~
+~
+Door 3 0 0 21016 0 0
+~
+~
+End
+
+#21018
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21009 0 0
+~
+~
+Door 1 0 0 21019 0 0
+~
+~
+Door 2 0 0 21027 0 0
+~
+~
+Door 3 0 0 8929 0 0
+~
+~
+End
+
+#21019
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Reset M 8858 1 100
+Door 0 0 0 21010 0 0
+~
+~
+Door 1 0 0 21020 0 0
+~
+~
+Door 2 0 0 21028 0 0
+~
+~
+Door 3 0 0 21018 0 0
+~
+~
+End
+
+#21020
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21011 0 0
+~
+~
+Door 1 0 0 21021 0 0
+~
+~
+Door 2 0 0 21029 0 0
+~
+~
+Door 3 0 0 21019 0 0
+~
+~
+End
+
+#21021
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21012 0 0
+~
+~
+Door 1 0 0 21022 0 0
+~
+~
+Door 2 0 0 21030 0 0
+~
+~
+Door 3 0 0 21020 0 0
+~
+~
+End
+
+#21022
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21013 0 0
+~
+~
+Door 1 0 0 21023 0 0
+~
+~
+Door 2 0 0 21031 0 0
+~
+~
+Door 3 0 0 21021 0 0
+~
+~
+End
+
+#21023
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21014 0 0
+~
+~
+Door 1 0 0 21024 0 0
+~
+~
+Door 2 0 0 21032 0 0
+~
+~
+Door 3 0 0 21022 0 0
+~
+~
+End
+
+#21024
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21015 0 0
+~
+~
+Door 1 0 0 21025 0 0
+~
+~
+Door 2 0 0 21033 0 0
+~
+~
+Door 3 0 0 21023 0 0
+~
+~
+End
+
+#21025
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21016 0 0
+~
+~
+Door 1 0 0 21026 0 0
+~
+~
+Door 2 0 0 21034 0 0
+~
+~
+Door 3 0 0 21024 0 0
+~
+~
+End
+
+#21026
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21017 0 0
+~
+~
+Door 2 0 0 21035 0 0
+~
+~
+Door 3 0 0 21025 0 0
+~
+~
+End
+
+#21027
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21018 0 0
+~
+~
+Door 1 0 0 21028 0 0
+~
+~
+Door 2 0 0 21036 0 0
+~
+~
+Door 3 0 0 8928 0 0
+~
+~
+End
+
+#21028
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21019 0 0
+~
+~
+Door 1 0 0 21029 0 0
+~
+~
+Door 2 0 0 21037 0 0
+~
+~
+Door 3 0 0 21027 0 0
+~
+~
+End
+
+#21029
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21020 0 0
+~
+~
+Door 1 0 0 21030 0 0
+~
+~
+Door 2 0 0 21038 0 0
+~
+~
+Door 3 0 0 21028 0 0
+~
+~
+End
+
+#21030
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Reset O 8713 -5 100
+Door 0 0 0 21021 0 0
+~
+~
+Door 1 0 0 21031 0 0
+~
+~
+Door 2 0 0 21039 0 0
+~
+~
+Door 3 0 0 21029 0 0
+~
+~
+End
+
+#21031
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21022 0 0
+~
+~
+Door 1 0 0 21032 0 0
+~
+~
+Door 2 0 0 21040 0 0
+~
+~
+Door 3 0 0 21030 0 0
+~
+~
+End
+
+#21032
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21023 0 0
+~
+~
+Door 1 0 0 21033 0 0
+~
+~
+Door 2 0 0 21041 0 0
+~
+~
+Door 3 0 0 21031 0 0
+~
+~
+End
+
+#21033
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your suroundings you admire how beautiful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21024 0 0
+~
+~
+Door 1 0 0 21034 0 0
+~
+~
+Door 2 0 0 21042 0 0
+~
+~
+Door 3 0 0 21032 0 0
+~
+~
+End
+
+#21034
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beautiful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21025 0 0
+~
+~
+Door 1 0 0 21035 0 0
+~
+~
+Door 2 0 0 21043 0 0
+~
+~
+Door 3 0 0 21033 0 0
+~
+~
+End
+
+#21035
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Reset M 21062 1 100
+Door 0 0 0 21026 0 0
+~
+~
+Door 2 0 0 21044 0 0
+~
+~
+Door 3 0 0 21034 0 0
+~
+~
+End
+
+#21036
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21027 0 0
+~
+~
+Door 1 0 0 21037 0 0
+~
+~
+Door 2 0 0 21045 0 0
+~
+~
+Door 3 0 0 8903 0 0
+~
+~
+End
+
+#21037
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21028 0 0
+~
+~
+Door 1 0 0 21038 0 0
+~
+~
+Door 2 0 0 21046 0 0
+~
+~
+Door 3 0 0 21036 0 0
+~
+~
+End
+
+#21038
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21029 0 0
+~
+~
+Door 1 0 0 21039 0 0
+~
+~
+Door 2 0 0 21047 0 0
+~
+~
+Door 3 0 0 21037 0 0
+~
+~
+End
+
+#21039
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Reset M 8861 1 100
+Door 0 0 0 21030 0 0
+~
+~
+Door 1 0 0 21040 0 0
+~
+~
+Door 2 0 0 21048 0 0
+~
+~
+Door 3 0 0 21038 0 0
+~
+~
+End
+
+#21040
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21031 0 0
+~
+~
+Door 1 0 0 21041 0 0
+~
+~
+Door 2 0 0 21049 0 0
+~
+~
+Door 3 0 0 21039 0 0
+~
+~
+End
+
+#21041
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21032 0 0
+~
+~
+Door 1 0 0 21042 0 0
+~
+~
+Door 2 0 0 21050 0 0
+~
+~
+Door 3 0 0 21040 0 0
+~
+~
+End
+
+#21042
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21033 0 0
+~
+~
+Door 1 0 0 21043 0 0
+~
+~
+Door 3 0 0 21041 0 0
+~
+~
+End
+
+#21043
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21034 0 0
+~
+~
+Door 1 0 0 21044 0 0
+~
+~
+Door 2 0 0 21051 0 0
+~
+~
+Door 3 0 0 21042 0 0
+~
+~
+End
+
+#21044
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21035 0 0
+~
+~
+Door 2 0 0 21052 0 0
+~
+~
+Door 3 0 0 21043 0 0
+~
+~
+End
+
+#21045
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21036 0 0
+~
+~
+Door 1 0 0 21046 0 0
+~
+~
+Door 2 0 0 21053 0 0
+~
+~
+Door 3 0 0 8936 0 0
+~
+~
+End
+
+#21046
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Reset O 8713 -5 100
+Door 0 0 0 21037 0 0
+~
+~
+Door 1 0 0 21047 0 0
+~
+~
+Door 2 0 0 21054 0 0
+~
+~
+Door 3 0 0 21045 0 0
+~
+~
+End
+
+#21047
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21038 0 0
+~
+~
+Door 1 0 0 21048 0 0
+~
+~
+Door 2 0 0 21055 0 0
+~
+~
+Door 3 0 0 21046 0 0
+~
+~
+End
+
+#21048
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21039 0 0
+~
+~
+Door 1 0 0 21049 0 0
+~
+~
+Door 2 0 0 21056 0 0
+~
+~
+Door 3 0 0 21047 0 0
+~
+~
+End
+
+#21049
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21040 0 0
+~
+~
+Door 1 0 0 21050 0 0
+~
+~
+Door 3 0 0 21048 0 0
+~
+~
+End
+
+#21050
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21041 0 0
+~
+~
+Door 3 0 0 21049 0 0
+~
+~
+End
+
+#21051
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21043 0 0
+~
+~
+Door 1 0 0 21052 0 0
+~
+~
+End
+
+#21052
+Name Some Hills Near the Forest~
+Cvnumh 140728192
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21044 0 0
+~
+~
+Door 3 0 0 21051 0 0
+~
+~
+Door 4 0 0 91057 0 0
+~
+~
+Door 5 0 0 21061 0 0
+~
+~
+End
+
+#21053
+Name Enchanted Forest of Blackspire~
+Descr
+You are standing within a vast and very huge forest. The air is perfumed
+with the scent of sweet flowers and soft damp grass. The sounds of wildlife
+come from all around you, and the ground is soft and fertile. Glancing
+around yourself, you get lost in all of the wonderful beauty you see around
+you. The trunks of the huge Vallenwood trees are enormous, reaching high
+into the heavens, which almost cover the whole sky from your view. 
+~
+Sector 27
+Door 0 0 0 21045 0 0
+~
+~
+Door 1 0 0 21054 0 0
+~
+~
+Door 2 0 0 21057 0 0
+~
+~
+Door 3 0 0 8937 0 0
+~
+~
+End
+
+#21054
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21046 0 0
+~
+~
+Door 1 0 0 21055 0 0
+~
+~
+Door 2 0 0 21058 0 0
+~
+~
+Door 3 0 0 21053 0 0
+~
+~
+End
+
+#21055
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21047 0 0
+~
+~
+Door 1 0 0 21056 0 0
+~
+~
+Door 3 0 0 21054 0 0
+~
+~
+End
+
+#21056
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21048 0 0
+~
+~
+Door 3 0 0 21055 0 0
+~
+~
+End
+
+#21057
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21053 0 0
+~
+~
+Door 1 0 0 21058 0 0
+~
+~
+Door 2 0 0 21059 0 0
+~
+~
+Door 3 0 0 8938 0 0
+~
+~
+End
+
+#21058
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21054 0 0
+~
+~
+Door 3 0 0 21057 0 0
+~
+~
+End
+
+#21059
+Name Some Hills Near the Forest~
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21057 0 0
+~
+~
+Door 2 0 0 21060 0 0
+~
+~
+Door 3 0 0 8939 0 0
+~
+~
+End
+
+#21060
+Name Some Hills Near the Forest~
+Cvnumh 137086640
+Descr
+The sun warms your body up as you walk on the grassy hills near the
+forest. As you scan around your surroundings you admire how beauitful the
+remaining lands of Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21059 0 0
+~
+~
+Door 2 259 0 5202 30 30
+~
+shrub~
+Door 3 0 0 8940 0 0
+~
+~
+End
+
+#21061
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21062 0 0
+~
+~
+Door 4 0 0 21052 0 0
+~
+~
+End
+
+#21062
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21064 1 100
+Reset O 16743 1 3
+Door 0 0 0 21061 0 0
+~
+~
+Door 1 0 0 21063 0 0
+~
+~
+Door 2 0 0 21065 0 0
+~
+~
+End
+
+#21063
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21063 1 100
+Door 1 0 0 21064 0 0
+~
+~
+Door 2 0 0 21066 0 0
+~
+~
+Door 3 0 0 21062 0 0
+~
+~
+End
+
+#21064
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21067 0 0
+~
+~
+Door 3 0 0 21063 0 0
+~
+~
+End
+
+#21065
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21062 0 0
+~
+~
+Door 1 0 0 21066 0 0
+~
+~
+Door 2 0 0 21068 0 0
+~
+~
+End
+
+#21066
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21063 0 0
+~
+~
+Door 1 0 0 21067 0 0
+~
+~
+Door 2 0 0 21069 0 0
+~
+~
+Door 3 0 0 21065 0 0
+~
+~
+End
+
+#21067
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21064 0 0
+~
+~
+Door 2 0 0 21070 0 0
+~
+~
+Door 3 0 0 21066 0 0
+~
+~
+End
+
+#21068
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21062 1 100
+Reset O 21176 4 5
+Door 0 0 0 21065 0 0
+~
+~
+Door 1 0 0 21069 0 0
+~
+~
+End
+
+#21069
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21066 0 0
+~
+~
+Door 1 0 0 21070 0 0
+~
+~
+Door 3 0 0 21068 0 0
+~
+~
+End
+
+#21070
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21067 0 0
+~
+~
+Door 2 0 0 21071 0 0
+~
+~
+Door 3 0 0 21069 0 0
+~
+~
+End
+
+#21071
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21070 0 0
+~
+~
+Door 1 0 0 21072 0 0
+~
+~
+Door 2 0 0 21075 0 0
+~
+~
+End
+
+#21072
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21073 0 0
+~
+~
+Door 2 0 0 21076 0 0
+~
+~
+Door 3 0 0 21071 0 0
+~
+~
+End
+
+#21073
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21061 1 100
+Door 1 0 0 21074 0 0
+~
+~
+Door 2 0 0 21077 0 0
+~
+~
+Door 3 0 0 21072 0 0
+~
+~
+End
+
+#21074
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 259 0 0 30 30
+~
+polonia~
+Door 2 0 0 21078 0 0
+~
+~
+Door 3 0 0 21073 0 0
+~
+~
+End
+
+#21075
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21071 0 0
+~
+~
+Door 1 0 0 21076 0 0
+~
+~
+End
+
+#21076
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21072 0 0
+~
+~
+Door 1 0 0 21077 0 0
+~
+~
+Door 2 0 0 21080 0 0
+~
+~
+Door 3 0 0 21075 0 0
+~
+~
+End
+
+#21077
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills. As you scan
+around your surroundings you admire how beautiful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21073 0 0
+~
+~
+Door 1 0 0 21078 0 0
+~
+~
+Door 2 0 0 21081 0 0
+~
+~
+Door 3 0 0 21076 0 0
+~
+~
+End
+
+#21078
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21074 0 0
+~
+~
+Door 1 0 0 21079 0 0
+~
+~
+Door 2 0 0 21082 0 0
+~
+~
+Door 3 0 0 21077 0 0
+~
+~
+End
+
+#21079
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21083 0 0
+~
+~
+Door 3 0 0 21078 0 0
+~
+~
+End
+
+#21080
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21076 0 0
+~
+~
+Door 1 0 0 21081 0 0
+~
+~
+End
+
+#21081
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21063 1 100
+Reset O 21176 4 5
+Door 0 0 0 21077 0 0
+~
+~
+Door 1 0 0 21082 0 0
+~
+~
+Door 3 0 0 21080 0 0
+~
+~
+End
+
+#21082
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21078 0 0
+~
+~
+Door 1 0 0 21083 0 0
+~
+~
+Door 3 0 0 21081 0 0
+~
+~
+End
+
+#21083
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21079 0 0
+~
+~
+Door 3 0 0 21082 0 0
+~
+~
+Door 4 0 0 21084 0 0
+~
+~
+End
+
+#21084
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21085 0 0
+~
+~
+Door 5 0 0 21083 0 0
+~
+~
+End
+
+#21085
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21062 1 100
+Door 1 0 0 21086 0 0
+~
+~
+Door 3 0 0 21084 0 0
+~
+~
+End
+
+#21086
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21087 0 0
+~
+~
+Door 3 0 0 21085 0 0
+~
+~
+End
+
+#21087
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21090 0 0
+~
+~
+Door 1 0 0 21088 0 0
+~
+~
+Door 2 0 0 21086 0 0
+~
+~
+End
+
+#21088
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21091 0 0
+~
+~
+Door 1 0 0 21089 0 0
+~
+~
+Door 2 0 0 21087 0 0
+~
+~
+Door 3 0 0 21087 0 0
+~
+~
+End
+
+#21089
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21092 0 0
+~
+~
+Door 2 0 0 21087 0 0
+~
+~
+Door 3 0 0 21088 0 0
+~
+~
+End
+
+#21090
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21091 0 0
+~
+~
+Door 2 0 0 21087 0 0
+~
+~
+End
+
+#21091
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21093 0 0
+~
+~
+Door 1 0 0 21092 0 0
+~
+~
+Door 2 0 0 21088 0 0
+~
+~
+Door 3 0 0 21090 0 0
+~
+~
+End
+
+#21092
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21089 0 0
+~
+~
+Door 3 0 0 21091 0 0
+~
+~
+End
+
+#21093
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21094 0 0
+~
+~
+Door 2 0 0 21091 0 0
+~
+~
+End
+
+#21094
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21063 1 100
+Reset O 21176 4 5
+Door 1 0 0 21095 0 0
+~
+~
+Door 3 0 0 21093 0 0
+~
+~
+End
+
+#21095
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 3 0 0 21094 0 0
+~
+~
+Door 5 0 0 21096 0 0
+~
+~
+End
+
+#21096
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21097 0 0
+~
+~
+Door 4 0 0 21095 0 0
+~
+~
+End
+
+#21097
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21096 0 0
+~
+~
+Door 3 0 0 21098 0 0
+~
+~
+End
+
+#21098
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21062 1 100
+Door 0 0 0 21099 0 0
+~
+~
+Door 1 0 0 21097 0 0
+~
+~
+End
+
+#21099
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21098 0 0
+~
+~
+Door 3 0 0 21100 0 0
+~
+~
+End
+
+#21100
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21099 0 0
+~
+~
+Door 3 0 0 21101 0 0
+~
+~
+End
+
+#21101
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21102 0 0
+~
+~
+Door 1 0 0 21100 0 0
+~
+~
+End
+
+#21102
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21063 1 100
+Reset O 21176 -1 20
+Door 0 0 0 21103 0 0
+~
+~
+Door 2 0 0 21101 0 0
+~
+~
+End
+
+#21103
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21104 0 0
+~
+~
+Door 2 0 0 21102 0 0
+~
+~
+End
+
+#21104
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21064 1 100
+Door 0 0 0 21105 0 0
+~
+~
+Door 2 0 0 21103 0 0
+~
+~
+End
+
+#21105
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21106 0 0
+~
+~
+Door 2 0 0 21104 0 0
+~
+~
+End
+
+#21106
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21107 0 0
+~
+~
+Door 2 0 0 21105 0 0
+~
+~
+End
+
+#21107
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21108 0 0
+~
+~
+Door 3 0 0 21106 0 0
+~
+~
+End
+
+#21108
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21109 0 0
+~
+~
+Door 3 0 0 21107 0 0
+~
+~
+End
+
+#21109
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21110 0 0
+~
+~
+Door 3 0 0 21108 0 0
+~
+~
+End
+
+#21110
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21111 0 0
+~
+~
+Door 3 0 0 21109 0 0
+~
+~
+End
+
+#21111
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21062 1 100
+Door 0 0 0 21110 0 0
+~
+~
+Door 1 0 0 21116 0 0
+~
+~
+Door 3 0 0 21112 0 0
+~
+~
+End
+
+#21112
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21111 0 0
+~
+~
+Door 2 0 0 21113 0 0
+~
+~
+End
+
+#21113
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21112 0 0
+~
+~
+Door 1 0 0 21114 0 0
+~
+~
+End
+
+#21114
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21115 0 0
+~
+~
+Door 2 0 0 21117 0 0
+~
+~
+Door 3 0 0 21113 0 0
+~
+~
+End
+
+#21115
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21116 0 0
+~
+~
+Door 3 0 0 21114 0 0
+~
+~
+End
+
+#21116
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21115 0 0
+~
+~
+Door 3 0 0 21111 0 0
+~
+~
+End
+
+#21117
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21064 1 100
+Door 0 0 0 21114 0 0
+~
+~
+Door 5 0 0 21118 0 0
+~
+~
+End
+
+#21118
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21063 1 100
+Door 1 0 0 21119 0 0
+~
+~
+Door 2 0 0 21121 0 0
+~
+~
+Door 4 0 0 21117 0 0
+~
+~
+End
+
+#21119
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21120 0 0
+~
+~
+Door 2 0 0 21122 0 0
+~
+~
+Door 3 0 0 21118 0 0
+~
+~
+End
+
+#21120
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21123 0 0
+~
+~
+Door 3 0 0 21119 0 0
+~
+~
+End
+
+#21121
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21118 0 0
+~
+~
+Door 1 0 0 21122 0 0
+~
+~
+Door 2 0 0 21124 0 0
+~
+~
+End
+
+#21122
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21119 0 0
+~
+~
+Door 1 0 0 21123 0 0
+~
+~
+Door 2 0 0 21125 0 0
+~
+~
+Door 3 0 0 21121 0 0
+~
+~
+End
+
+#21123
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21120 0 0
+~
+~
+Door 2 0 0 21126 0 0
+~
+~
+Door 3 0 0 21122 0 0
+~
+~
+End
+
+#21124
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21121 0 0
+~
+~
+Door 1 0 0 21125 0 0
+~
+~
+End
+
+#21125
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21061 1 100
+Door 0 0 0 21122 0 0
+~
+~
+Door 1 0 0 21126 0 0
+~
+~
+Door 3 0 0 21124 0 0
+~
+~
+End
+
+#21126
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21123 0 0
+~
+~
+Door 1 0 0 21127 0 0
+~
+~
+Door 3 0 0 21125 0 0
+~
+~
+End
+
+#21127
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21128 0 0
+~
+~
+Door 3 0 0 21126 0 0
+~
+~
+End
+
+#21128
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21062 1 100
+Door 0 0 0 21127 0 0
+~
+~
+Door 1 0 0 21129 0 0
+~
+~
+Door 2 0 0 21130 0 0
+~
+~
+End
+
+#21129
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21131 0 0
+~
+~
+Door 3 0 0 21128 0 0
+~
+~
+End
+
+#21130
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21128 0 0
+~
+~
+Door 1 0 0 21131 0 0
+~
+~
+End
+
+#21131
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21129 0 0
+~
+~
+Door 1 0 0 21132 0 0
+~
+~
+Door 3 0 0 21130 0 0
+~
+~
+End
+
+#21132
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21133 0 0
+~
+~
+Door 3 0 0 21131 0 0
+~
+~
+End
+
+#21133
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21064 1 100
+Reset O 16743 1 1
+Door 2 0 0 21134 0 0
+~
+~
+Door 3 0 0 21132 0 0
+~
+~
+End
+
+#21134
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21133 0 0
+~
+~
+Door 2 0 0 21136 0 0
+~
+~
+End
+
+#21135
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21136 0 0
+~
+~
+Door 3 0 0 21174 0 0
+~
+~
+End
+
+#21136
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21134 0 0
+~
+~
+Door 2 0 0 21137 0 0
+~
+~
+Door 3 0 0 21135 0 0
+~
+~
+End
+
+#21137
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21136 0 0
+~
+~
+Door 1 0 0 21138 0 0
+~
+~
+Door 2 0 0 21139 0 0
+~
+~
+End
+
+#21138
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 16309 0 0
+~
+~
+Door 3 0 0 21137 0 0
+~
+~
+End
+
+#21139
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21137 0 0
+~
+~
+Door 2 0 0 21140 0 0
+~
+~
+End
+
+#21140
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21062 1 100
+Door 0 0 0 21139 0 0
+~
+~
+Door 2 0 0 21142 0 0
+~
+~
+Door 3 0 0 21141 0 0
+~
+~
+End
+
+#21141
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21140 0 0
+~
+~
+Door 2 0 0 21143 0 0
+~
+~
+End
+
+#21142
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21140 0 0
+~
+~
+Door 3 0 0 21143 0 0
+~
+~
+End
+
+#21143
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21141 0 0
+~
+~
+Door 1 0 0 21142 0 0
+~
+~
+Door 2 0 0 21144 0 0
+~
+~
+End
+
+#21144
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21063 1 100
+Door 0 0 0 21143 0 0
+~
+~
+Door 1 0 0 21145 0 0
+~
+~
+End
+
+#21145
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21146 0 0
+~
+~
+Door 3 0 0 21144 0 0
+~
+~
+End
+
+#21146
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21147 0 0
+~
+~
+Door 3 0 0 21145 0 0
+~
+~
+End
+
+#21147
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21148 0 0
+~
+~
+Door 3 0 0 21146 0 0
+~
+~
+End
+
+#21148
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21147 0 0
+~
+~
+Door 1 0 0 21149 0 0
+~
+~
+End
+
+#21149
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21150 0 0
+~
+~
+Door 2 0 0 21151 0 0
+~
+~
+Door 3 0 0 21148 0 0
+~
+~
+End
+
+#21150
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21152 0 0
+~
+~
+Door 3 0 0 21149 0 0
+~
+~
+End
+
+#21151
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21062 1 100
+Door 0 0 0 21149 0 0
+~
+~
+Door 1 0 0 21152 0 0
+~
+~
+Door 2 0 0 21153 0 0
+~
+~
+End
+
+#21152
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21150 0 0
+~
+~
+Door 2 0 0 21154 0 0
+~
+~
+Door 3 0 0 21151 0 0
+~
+~
+End
+
+#21153
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21151 0 0
+~
+~
+Door 1 0 0 21154 0 0
+~
+~
+End
+
+#21154
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21152 0 0
+~
+~
+Door 1 0 0 21155 0 0
+~
+~
+Door 3 0 0 21153 0 0
+~
+~
+End
+
+#21155
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21156 0 0
+~
+~
+Door 3 0 0 21154 0 0
+~
+~
+End
+
+#21156
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21155 0 0
+~
+~
+Door 1 0 0 21157 0 0
+~
+~
+End
+
+#21157
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21063 1 100
+Door 1 0 0 21158 0 0
+~
+~
+Door 2 0 0 21159 0 0
+~
+~
+Door 3 0 0 21156 0 0
+~
+~
+End
+
+#21158
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21160 0 0
+~
+~
+Door 3 0 0 21157 0 0
+~
+~
+End
+
+#21159
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21157 0 0
+~
+~
+Door 1 0 0 21160 0 0
+~
+~
+End
+
+#21160
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21064 1 100
+Door 0 0 0 21158 0 0
+~
+~
+Door 1 0 0 21161 0 0
+~
+~
+Door 2 0 0 21162 0 0
+~
+~
+Door 3 0 0 21159 0 0
+~
+~
+End
+
+#21161
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 2 0 0 21163 0 0
+~
+~
+Door 3 0 0 21160 0 0
+~
+~
+End
+
+#21162
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21061 1 100
+Door 0 0 0 21160 0 0
+~
+~
+Door 1 0 0 21163 0 0
+~
+~
+End
+
+#21163
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21161 0 0
+~
+~
+Door 2 0 0 21164 0 0
+~
+~
+Door 3 0 0 21162 0 0
+~
+~
+End
+
+#21164
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21163 0 0
+~
+~
+Door 2 0 0 21165 0 0
+~
+~
+End
+
+#21165
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21164 0 0
+~
+~
+Door 2 0 0 21167 0 0
+~
+~
+Door 3 0 0 21166 0 0
+~
+~
+End
+
+#21166
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21165 0 0
+~
+~
+Door 2 0 0 21168 0 0
+~
+~
+End
+
+#21167
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21165 0 0
+~
+~
+Door 3 0 0 21168 0 0
+~
+~
+End
+
+#21168
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21166 0 0
+~
+~
+Door 1 0 0 21167 0 0
+~
+~
+Door 3 0 0 21169 0 0
+~
+~
+End
+
+#21169
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21062 1 100
+Door 1 0 0 21168 0 0
+~
+~
+Door 3 0 0 21170 0 0
+~
+~
+End
+
+#21170
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 1 0 0 21169 0 0
+~
+~
+Door 2 0 0 21171 0 0
+~
+~
+End
+
+#21171
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Reset M 21063 1 100
+Door 0 0 0 21170 0 0
+~
+~
+Door 2 0 0 21172 0 0
+~
+~
+End
+
+#21172
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 0 0 0 21171 0 0
+~
+~
+Door 1 0 0 21173 0 0
+~
+~
+End
+
+#21173
+Name Some Beautiful Hills~
+Descr
+The sun warms your body up as you walk on the grassy hills.As you scan
+around your surroundings you admire how beauitful the remaining lands of
+Blackspire is. 
+~
+Sector 30
+Door 3 0 0 21172 0 0
+~
+~
+Door 5 0 0 30002 0 0
+~
+~
+End
+
+#21174
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 21135 0 0
+~
+~
+Door 3 0 0 21175 0 0
+~
+~
+End
+
+#21175
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 21174 0 0
+~
+~
+Door 3 0 0 21176 0 0
+~
+~
+End
+
+#21176
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 21175 0 0
+~
+~
+Door 2 0 0 21187 0 0
+~
+~
+Door 3 0 0 21177 0 0
+~
+~
+End
+
+#21177
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 21174 1 100
+Door 1 0 0 21176 0 0
+~
+~
+Door 2 0 0 21188 0 0
+~
+~
+Door 3 0 0 21178 0 0
+~
+~
+End
+
+#21178
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 21177 0 0
+~
+~
+Door 2 0 0 21189 0 0
+~
+~
+Door 3 0 0 21179 0 0
+~
+~
+End
+
+#21179
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 21178 0 0
+~
+~
+Door 2 0 0 21190 0 0
+~
+~
+Door 3 0 0 21180 0 0
+~
+~
+End
+
+#21180
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 21179 0 0
+~
+~
+Door 2 0 0 21191 0 0
+~
+~
+Door 3 0 0 21181 0 0
+~
+~
+End
+
+#21181
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 21174 1 100
+Door 0 0 0 21183 0 0
+~
+~
+Door 1 0 0 21180 0 0
+~
+~
+Door 3 0 0 21182 0 0
+~
+~
+End
+
+#21182
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21184 0 0
+~
+~
+Door 1 0 0 21181 0 0
+~
+~
+End
+
+#21183
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 2 0 0 21181 0 0
+~
+~
+Door 3 0 0 21184 0 0
+~
+~
+End
+
+#21184
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 21183 0 0
+~
+~
+Door 2 0 0 21182 0 0
+~
+~
+Door 3 0 0 21185 0 0
+~
+~
+End
+
+#21185
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 21184 0 0
+~
+~
+Door 3 0 0 21186 0 0
+~
+~
+End
+
+#21186
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 21174 1 100
+Door 1 0 0 21185 0 0
+~
+~
+End
+
+#21187
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21176 0 0
+~
+~
+Door 3 0 0 21188 0 0
+~
+~
+End
+
+#21188
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21177 0 0
+~
+~
+Door 1 0 0 21187 0 0
+~
+~
+Door 2 0 0 21192 0 0
+~
+~
+Door 3 0 0 21189 0 0
+~
+~
+End
+
+#21189
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21178 0 0
+~
+~
+Door 1 0 0 21188 0 0
+~
+~
+Door 2 0 0 21193 0 0
+~
+~
+Door 3 0 0 21190 0 0
+~
+~
+End
+
+#21190
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21179 0 0
+~
+~
+Door 1 0 0 21189 0 0
+~
+~
+Door 2 0 0 21194 0 0
+~
+~
+Door 3 0 0 21191 0 0
+~
+~
+End
+
+#21191
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21180 0 0
+~
+~
+Door 1 0 0 21190 0 0
+~
+~
+Door 2 0 0 21195 0 0
+~
+~
+End
+
+#21192
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21188 0 0
+~
+~
+Door 3 0 0 21193 0 0
+~
+~
+End
+
+#21193
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21189 0 0
+~
+~
+Door 1 0 0 21192 0 0
+~
+~
+Door 3 0 0 21194 0 0
+~
+~
+End
+
+#21194
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21190 0 0
+~
+~
+Door 1 0 0 21193 0 0
+~
+~
+Door 2 0 0 21197 0 0
+~
+~
+Door 3 0 0 21195 0 0
+~
+~
+End
+
+#21195
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21191 0 0
+~
+~
+Door 1 0 0 21194 0 0
+~
+~
+Door 3 0 0 21196 0 0
+~
+~
+End
+
+#21196
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 21195 0 0
+~
+~
+End
+
+#21197
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21194 0 0
+~
+~
+Door 2 0 0 21198 0 0
+~
+~
+End
+
+#21198
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 0 0 0 21197 0 0
+~
+~
+Door 3 0 0 21199 0 0
+~
+~
+End
+
+#21199
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Reset M 21174 1 100
+Door 1 0 0 21198 0 0
+~
+~
+Door 2 0 0 16305 0 0
+~
+~
+Door 3 0 0 21200 0 0
+~
+~
+End
+
+#21200
+Name An Old Mining Cavern~
+Descr
+This old cavern was used to mine the best minerals for the kingdom. All
+of the equipment that the army of Blackspire used was forged from the
+minerals from these left over mines. 
+~
+Sector 44
+Door 1 0 0 21199 0 0
+~
+~
+Door 2 0 0 16306 0 0
+~
+~
+Door 3 0 0 16302 0 0
+~
+~
+End
+
+#70120
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

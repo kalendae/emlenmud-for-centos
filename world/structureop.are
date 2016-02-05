@@ -1,0 +1,959 @@
+#AREADATA 
+Name Fortress of Sapientia~
+Repop War-gongs sound a siren call to alertness as the fortress begins a new day. 
+~
+SCZone 0
+Builders Structure~
+VNUMs 2952 2999
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#2952
+Name warlord hangaar prac eh~
+Short The Warlord Hangaar~
+Long 
+The Warlord Hangaar wanders the fortress inspecting his troops.
+~
+Descr
+King Hangaar the great hunter of the orc's wanders his town telling tales
+of his past battles. He is 71 inches tall, his face is scarred from many
+battles. You get a feeling of pride when you see him. King Hangaar is a
+legend amongst the orc family, his tales are told around the world. 
+~
+AMax 1
+NHeight 71
+ActBits 259
+ActBits4 16384
+Affect_By 134742696
+AffectTWO 524296
+Alignment 1
+Money 20000
+Level 500
+Sex 1
+MobType 25
+Hp 50
+Guard 0
+Spec spec_warrior
+BCasts ranged spells~
+BCasts cantrip~
+BCast_P 25
+ASklTaught 0 568
+ASklTaught 1 565
+ASklTaught 2 555
+ASklTaught 3 359
+End
+
+#2953
+Name ogre elite guard~
+Short an ogre elite~
+Long 
+An ogre elite guard sits here picking his nose, bored with guard duty.
+~
+AMax 5
+NHeight 72
+ActBits 65538
+ActBits3 8
+ActBits4 16384
+Affect_By 680
+AffectTWO 8912896
+Alignment 1
+Money 90
+Level 275
+Sex 1
+MobType 23
+Hp 20
+Guard 0
+End
+
+#2954
+Name gruntak sprites prac slayer eh~
+Short Gruntak, Slayer of Sprites~
+Long 
+Gruntak, the slayer of sprites, instructs others in the arts of war and genocide here.
+~
+Descr
+Gruntak the great, once a mighty warrior, legend, myth, sits here
+teaching new troops his skills of war. 
+~
+AMax 1
+NHeight 0
+ActBits 258
+Affect_By 648
+AffectTWO 8
+Alignment 1
+Money 20000
+Level 300
+Sex 1
+MobType 23
+Hp 50
+Guard 0
+Spec spec_warrior
+ASklTaught 0 572
+ASklTaught 1 574
+ASklTaught 2 573
+ASklTaught 3 566
+ASklTaught 4 561
+ASklTaught 5 590
+ASklTaught 6 352
+ASklTaught 7 357
+ASklTaught 8 376
+ASklTaught 9 353
+ASklTaught 10 556
+End
+
+#2955
+Name julan sorceror illithid bane prac~
+Short Julan, Illithid Bane~
+Long 
+Julan, Illithid Bane, sits here studying the arts of sorcery.
+~
+AMax 1
+NHeight 10
+ActBits 258
+Affect_By 648
+AffectTWO 8
+Alignment 1
+Level 300
+Sex 2
+MobType 36
+Hp 30
+Guard 0
+ASklTaught 0 60
+ASklTaught 1 273
+End
+
+#2971
+Name whitie practice~
+Short a practice whitie~
+Long 
+A practice whitie that may actually be incapable of killing you is here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+ActBits3 524288
+Affect_By 8320
+Alignment 1
+Level 50
+Sex 1
+MobType 0
+Hp 9400
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#2952
+Name the Center of Sapientia~
+Short a throne~
+Descr
+A large throne constructed of bones and gold sits here.
+[0;36m~
+Type 12
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#2952
+Name The Gates of Sapientia~
+Descr
+You come to the gates of a small fortress called Sapientia. A couple
+pissed off ogre's are here standing guard. The fortress gets it's name from
+an old saying, "Wisdom in Defeat" The warrior forces that inhabit this
+fortress have lost very few battles, as seen by the mass of decapitated heads
+lining the walls, held up by pikes and sharp sticks. 
+~
+Flags 16388
+Sector 5
+Reset M 2953 1 100
+Reset O 2007 -1 100
+Reset M 2953 1 100
+Reset O 2007 -4 100
+Reset M 2953 1 100
+Reset O 2007 -4 100
+Reset M 2953 1 100
+Reset O 2007 -4 100
+Reset M 2953 1 100
+Reset O 2007 -4 100
+Door 0 515 0 2953 30 30
+~
+gate~
+Door 2 0 0 2981 0 0
+~
+~
+End
+
+#2953
+Name Within the Fortress Courtyard~
+Descr
+You are just inside the walls of the fortress. It is a small
+fortification, but quite well fortified. This site was the location of the
+final battle, in which the enemy was driven out of the lush lands to the
+northwest and forced into the deserts far to the south. The grass here grows
+on the blood and decaying remains of those enemies. 
+~
+Flags 1024
+Sector 8
+Door 0 0 0 2955 0 0
+~
+~
+Door 2 515 0 2952 30 30
+~
+gate~
+End
+
+#2954
+Name Within the Fortress Courtyard~
+Descr
+You are just inside the walls of the fortress. It is a small
+fortification, but quite well fortified. This site was the location of the
+final battle, in which the enemy was driven out of the lush lands to the
+northwest and forced into the deserts far to the south. The grass here grows
+on the blood and decaying remains of those enemies. 
+~
+Flags 1024
+Sector 8
+Door 0 0 0 2956 0 0
+~
+~
+Door 3 0 0 2957 0 0
+~
+~
+End
+
+#2955
+Name Sap;The Center of Sapientia~
+Descr
+The site of the fall of the enemy leader's fortification. A part of it
+has been left as a reminder and for shelter from the harsh light of day.
+Grass grows up in between the rubble, kudzu vines entrench it, blocking out
+all light, or filtering it to the point where it is strangely choked
+appearing. 
+~
+Flags2 6
+Flags 1028
+Sector 34
+Reset M 2952 1 100
+Reset O 44 -5 100
+Door 0 0 0 2971 0 0
+~
+~
+Door 1 0 0 2963 0 0
+~
+~
+Door 2 0 0 2953 0 0
+~
+~
+Door 3 0 0 2956 0 0
+~
+~
+Door 5 259 0 2982 70 70
+~
+trapdoor~
+End
+
+#2956
+Name Within the Fortress Courtyard~
+Descr
+You are just inside the walls of the fortress. It is a small
+fortification, but quite well fortified. This site was the location of the
+final battle, in which the enemy was driven out of the lush lands to the
+northwest and forced into the deserts far to the south. The grass here grows
+on the blood and decaying remains of those enemies. 
+~
+Flags 1024
+Sector 8
+Door 0 0 0 2970 0 0
+~
+~
+Door 1 0 0 2955 0 0
+~
+~
+Door 2 0 0 2954 0 0
+~
+~
+End
+
+#2957
+Name Within the Fortress Courtyard~
+Descr
+You are just inside the walls of the fortress. It is a small
+fortification, but quite well fortified. This site was the location of the
+final battle, in which the enemy was driven out of the lush lands to the
+northwest and forced into the deserts far to the south. The grass here grows
+on the blood and decaying remains of those enemies. 
+~
+Flags 1024
+Sector 8
+Door 1 0 0 2954 0 0
+~
+~
+Door 3 3 0 2960 30 30
+~
+flap~
+End
+
+#2958
+Name A Small Building Within the Fortress~
+Descr
+You are inside a small building within the fortress of Sapientia.
+Primarily the building appears to be used for storage, but right now it is
+empty of anything other than dust or cobwebs. Should the need ever arrise,
+once again this building could be filled with arms and supplies to feed the
+ever growing war machine of Hangaar should the fortress ever be under siege.
+~
+Flags 1028
+Sector 0
+Door 0 0 0 2969 0 0
+~
+~
+Door 3 0 0 2959 0 0
+~
+~
+End
+
+#2959
+Name A Small Building Within the Fortress~
+Descr
+You are inside a small building within the fortress of Sapientia.
+Primarily the building appears to be used for storage, but right now it is
+empty of anything other than dust or cobwebs. Should the need ever arrise,
+once again this building could be filled with arms and supplies to feed the
+ever growing war machine of Hangaar should the fortress ever be under siege.
+~
+Flags 1028
+Sector 0
+Door 0 0 0 2968 0 0
+~
+~
+Door 1 0 0 2958 0 0
+~
+~
+End
+
+#2960
+Name Gruntak, The Slayer of Sprites', Tent~
+Descr
+This is the tent of the mighty Gruntak. Gruntak is one of the few
+remaining ogres and one of Hangaar's lieutenants to have succeeded in the
+warlord's genocidal plan. His task was to eliminate the sprite race down to
+the last child. A task he completed. Sprite skulls line his tent in various
+sizes, shapes, and degrees of destruction. Each skull once held a life which
+Gruntak took. 
+~
+Flags 4
+Sector 0
+Reset M 2954 1 100
+Door 1 3 0 2957 30 30
+~
+flap~
+End
+
+#2961
+Name ~
+Descr
+~
+Door 3 0 0 2955 0 0
+~
+~
+End
+
+#2962
+Name Within the Fortress Courtyard~
+Descr
+You are just inside the walls of the fortress. It is a small
+fortification, but quite well fortified. This site was the location of the
+final battle, in which the enemy was driven out of the lush lands to the
+northwest and forced into the deserts far to the south. The grass here grows
+on the blood and decaying remains of those enemies. 
+~
+Flags 1024
+Sector 8
+Door 0 0 0 2963 0 0
+~
+~
+Door 1 0 0 2965 0 0
+~
+~
+End
+
+#2963
+Name Within the Fortress Courtyard~
+Descr
+You are just inside the walls of the fortress. It is a small
+fortification, but quite well fortified. This site was the location of the
+final battle, in which the enemy was driven out of the lush lands to the
+northwest and forced into the deserts far to the south. The grass here grows
+on the blood and decaying remains of those enemies. 
+~
+Flags 1024
+Sector 8
+Door 0 0 0 2972 0 0
+~
+~
+Door 2 0 0 2962 0 0
+~
+~
+Door 3 0 0 2955 0 0
+~
+~
+End
+
+#2964
+Name A Small Building Within the Fortress~
+Descr
+You are inside a small building within the fortress of Sapientia.
+Primarily the building appears to be used for storage, but right now it is
+empty of anything other than dust or cobwebs. Should the need ever arrise,
+once again this building could be filled with arms and supplies to feed the
+ever growing war machine of Hangaar should the fortress ever be under siege.
+~
+Flags 1028
+Sector 0
+Door 0 0 0 2973 0 0
+~
+~
+Door 1 0 0 2967 0 0
+~
+~
+End
+
+#2965
+Name Within the Fortress Courtyard~
+Descr
+You are just inside the walls of the fortress. It is a small
+fortification, but quite well fortified. This site was the location of the
+final battle, in which the enemy was driven out of the lush lands to the
+northwest and forced into the deserts far to the south. The grass here grows
+on the blood and decaying remains of those enemies. 
+~
+Flags 1024
+Sector 8
+Door 1 3 0 2966 30 30
+~
+flap~
+Door 3 0 0 2962 0 0
+~
+~
+End
+
+#2966
+Name Julan, Illithid Bane's, Abode~
+Descr
+You are within the tent of Julan. Julan is the lieutenant of Hangaar who
+succeeded in removing the race of illithids from the world. Her home is
+decorated with various parts of illithid anatomy, each one torn from a still
+living specimen by the force of her magic. 
+~
+Flags 1028
+Sector 0
+Reset M 2955 1 100
+Door 3 3 0 2965 30 30
+~
+flap~
+End
+
+#2967
+Name A Small Building Within the Fortress~
+Descr
+You are inside a small building within the fortress of Sapientia.
+Primarily the building appears to be used for storage, but right now it is
+empty of anything other than dust or cobwebs. Should the need ever arrise,
+once again this building could be filled with arms and supplies to feed the
+ever growing war machine of Hangaar should the fortress ever be under siege.
+~
+Flags 1028
+Sector 0
+Door 0 0 0 2974 0 0
+~
+~
+Door 3 0 0 2964 0 0
+~
+~
+End
+
+#2968
+Name A Small Building Within the Fortress~
+Descr
+You are inside a small building within the fortress of Sapientia.
+Primarily the building appears to be used for storage, but right now it is
+empty of anything other than dust or cobwebs. Should the need ever arrise,
+once again this building could be filled with arms and supplies to feed the
+ever growing war machine of Hangaar should the fortress ever be under siege.
+~
+Flags 1028
+Sector 0
+Reset O 7707 -5 100
+Door 1 0 0 2969 0 0
+~
+~
+Door 2 0 0 2959 0 0
+~
+~
+Door 5 0 0 7750 0 0
+~
+~
+End
+
+#2969
+Name A Small Building Within the Fortress~
+Descr
+You are inside a small building within the fortress of Sapientia.
+Primarily the building appears to be used for storage, but right now it is
+empty of anything other than dust or cobwebs. Should the need ever arrise,
+once again this building could be filled with arms and supplies to feed the
+ever growing war machine of Hangaar should the fortress ever be under siege.
+~
+Flags 1028
+Sector 0
+Door 1 3 0 2970 30 30
+~
+door~
+Door 2 0 0 2958 0 0
+~
+~
+Door 3 0 0 2968 0 0
+~
+~
+End
+
+#2970
+Name Within the Fortress Courtyard~
+Descr
+You are just inside the walls of the fortress. It is a small
+fortification, but quite well fortified. This site was the location of the
+final battle, in which the enemy was driven out of the lush lands to the
+northwest and forced into the deserts far to the south. The grass here grows
+on the blood and decaying remains of those enemies. 
+~
+Flags 1024
+Sector 8
+Door 1 0 0 2971 0 0
+~
+~
+Door 2 0 0 2956 0 0
+~
+~
+Door 3 3 0 2969 30 30
+~
+door~
+End
+
+#2971
+Name Within the Fortress Courtyard~
+Descr
+You are just inside the walls of the fortress. It is a small
+fortification, but quite well fortified. This site was the location of the
+final battle, in which the enemy was driven out of the lush lands to the
+northwest and forced into the deserts far to the south. The grass here grows
+on the blood and decaying remains of those enemies. 
+~
+Flags2 6
+Flags 1024
+Sector 8
+Reset M 2971 1 100
+Reset O 260 -1 100
+Door 0 3 0 2976 30 30
+~
+door~
+Door 1 0 0 2972 0 0
+~
+~
+Door 2 0 0 2955 0 0
+~
+~
+Door 3 0 0 2970 0 0
+~
+~
+End
+
+#2972
+Name Within the Fortress Courtyard~
+Descr
+You are just inside the walls of the fortress. It is a small
+fortification, but quite well fortified. This site was the location of the
+final battle, in which the enemy was driven out of the lush lands to the
+northwest and forced into the deserts far to the south. The grass here grows
+on the blood and decaying remains of those enemies. 
+~
+Flags 1024
+Sector 8
+Door 1 3 0 2973 30 30
+~
+door~
+Door 2 0 0 2963 0 0
+~
+~
+Door 3 0 0 2971 0 0
+~
+~
+End
+
+#2973
+Name A Small Building Within the Fortress~
+Descr
+You are inside a small building within the fortress of Sapientia.
+Primarily the building appears to be used for storage, but right now it is
+empty of anything other than dust or cobwebs. Should the need ever arrise,
+once again this building could be filled with arms and supplies to feed the
+ever growing war machine of Hangaar should the fortress ever be under siege.
+~
+Flags 1028
+Sector 0
+Door 1 0 0 2974 0 0
+~
+~
+Door 2 0 0 2964 0 0
+~
+~
+Door 3 3 0 2972 30 30
+~
+door~
+End
+
+#2974
+Name A Small Building Within the Fortress~
+Descr
+You are inside a small building within the fortress of Sapientia.
+Primarily the building appears to be used for storage, but right now it is
+empty of anything other than dust or cobwebs. Should the need ever arrise,
+once again this building could be filled with arms and supplies to feed the
+ever growing war machine of Hangaar should the fortress ever be under siege.
+~
+Flags 1028
+Sector 0
+Door 2 0 0 2967 0 0
+~
+~
+Door 3 0 0 2973 0 0
+~
+~
+End
+
+#2975
+Name A Large Antichamber~
+Descr
+You are inside the main antechamber of the fortress, the home of Hangaar,
+chief warlord and destroyer of countless races of people. He claims heritage
+of the Valheru, and his home is decorated with various "Valheru" tapestries.
+One of which shows a big reddish illithid destroying twelve enemies in
+single combat, another shows two people sneaking into an outpost, one looks
+half dead and ashen, almost flatlined, the other almost hazy, and slaying
+every person in it down to the child. Hangaar is truly a slightly disturbed
+individual. 
+~
+Flags 1028
+Sector 0
+Door 0 0 0 2978 0 0
+~
+~
+Door 3 0 0 2976 0 0
+~
+~
+End
+
+#2976
+Name A Large Antichamber~
+Descr
+You are inside the main antechamber of the fortress, the home of Hangaar,
+chief warlord and destroyer of countless races of people. He claims heritage
+of the Valheru, and his home is decorated with various "Valheru" tapestries.
+One of which shows a big reddish illithid destroying twelve enemies in
+single combat, another shows two people sneaking into an outpost, one looks
+half dead and ashen, almost flatlined, the other almost hazy, and slaying
+every person in it down to the child. Hangaar is truly a slightly disturbed
+individual. 
+~
+Flags 1028
+Sector 0
+Reset O 4 -5 100
+Reset O 2952 -5 100
+Door 0 0 0 2979 0 0
+~
+~
+Door 1 0 0 2975 0 0
+~
+~
+Door 2 3 0 2971 30 30
+~
+door~
+Door 3 0 0 2977 0 0
+~
+~
+End
+
+#2977
+Name A Large Antichamber~
+Descr
+You are inside the main antechamber of the fortress, the home of Hangaar,
+chief warlord and destroyer of countless races of people. He claims heritage
+of the Valheru, and his home is decorated with various "Valheru" tapestries.
+One of which shows a big reddish illithid destroying twelve enemies in
+single combat, another shows two people sneaking into an outpost, one looks
+half dead and ashen, almost flatlined, the other almost hazy, and slaying
+every person in it down to the child. Hangaar is truly a slightly disturbed
+individual. 
+~
+Flags 1028
+Sector 0
+Door 0 0 0 2980 0 0
+~
+~
+Door 1 0 0 2976 0 0
+~
+~
+End
+
+#2978
+Name A Large Antichamber~
+Descr
+You are inside the main antechamber of the fortress, the home of Hangaar,
+chief warlord and destroyer of countless races of people. He claims heritage
+of the Valheru, and his home is decorated with various "Valheru" tapestries.
+One of which shows a big reddish illithid destroying twelve enemies in
+single combat, another shows two people sneaking into an outpost, one looks
+half dead and ashen, almost flatlined, the other almost hazy, and slaying
+every person in it down to the child. Hangaar is truly a slightly disturbed
+individual. 
+~
+Flags 1028
+Sector 0
+Door 2 0 0 2975 0 0
+~
+~
+Door 3 0 0 2979 0 0
+~
+~
+End
+
+#2979
+Name A Large Antichamber~
+Descr
+You are inside the main antechamber of the fortress, the home of Hangaar,
+chief warlord and destroyer of countless races of people. He claims heritage
+of the Valheru, and his home is decorated with various "Valheru" tapestries.
+One of which shows a big reddish illithid destroying twelve enemies in
+single combat, another shows two people sneaking into an outpost, one looks
+half dead and ashen, almost flatlined, the other almost hazy, and slaying
+every person in it down to the child. Hangaar is truly a slightly disturbed
+individual. 
+~
+Flags 1028
+Sector 0
+Door 1 0 0 2978 0 0
+~
+~
+Door 2 0 0 2976 0 0
+~
+~
+Door 3 0 0 2980 0 0
+~
+~
+End
+
+#2980
+Name A Large Antichamber~
+Descr
+You are inside the main antechamber of the fortress, the home of Hangaar,
+chief warlord and destroyer of countless races of people. He claims heritage
+of the Valheru, and his home is decorated with various "Valheru" tapestries.
+One of which shows a big reddish illithid destroying twelve enemies in
+single combat, another shows two people sneaking into an outpost, one looks
+half dead and ashen, almost flatlined, the other almost hazy, and slaying
+every person in it down to the child. Hangaar is truly a slightly disturbed
+individual. 
+~
+Flags 1028
+Sector 0
+Door 1 0 0 2979 0 0
+~
+~
+Door 2 0 0 2977 0 0
+~
+~
+End
+
+#2981
+Name Approach to Sapientia~
+Descr
+You are approaching the fortress of Sapientia, home to the Warlord
+Hangaar and his genocidal lieutenants Gruntak and Julan. Shock troops and
+warriors file and in and out from their forest training excercises upon
+captured troops. You look up at the walls of the fortification to see a line
+of human and demihuman skulls impaled upon pikes. 
+~
+Sector 5
+Door 0 0 0 2952 0 0
+~
+~
+Door 2 0 0 2469 0 0
+~
+~
+End
+
+#2982
+Name An Old Hallway Under Sapientia~
+Descr
+This short hallway links several old storage rooms. The earthen
+surroundings seem to eminate an energy. 
+~
+Flags2 6
+Sector 0
+Door 0 515 0 2985 30 30
+~
+~
+Door 1 515 0 2983 30 30
+~
+~
+Door 2 515 0 2986 30 30
+~
+~
+Door 3 515 0 2984 30 30
+~
+~
+Door 4 3 0 2955 70 70
+~
+trapdoor~
+End
+
+#2983
+Name An Old Storage Room~
+Descr
+~
+Flags 4
+Sector 0
+Door 3 515 0 2982 30 30
+~
+~
+End
+
+#2984
+Name An Old Storage Room~
+Descr
+~
+Flags 4
+Sector 0
+Door 1 515 0 2982 30 30
+~
+~
+End
+
+#2985
+Name An Old Storage Room~
+Descr
+~
+Flags 4
+Sector 0
+Door 2 515 0 2982 30 30
+~
+~
+End
+
+#2986
+Name An Old Storage Room~
+Descr
+~
+Flags 4
+Sector 0
+Door 0 515 0 2982 30 30
+~
+~
+End
+
+#2987
+Name ~
+Descr
+~
+End
+
+#2988
+Name ~
+Descr
+~
+End
+
+#2989
+Name ~
+Descr
+~
+End
+
+#2990
+Name ~
+Descr
+~
+End
+
+#2991
+Name ~
+Descr
+~
+End
+
+#2992
+Name ~
+Descr
+~
+End
+
+#2993
+Name ~
+Descr
+~
+End
+
+#2994
+Name ~
+Descr
+~
+End
+
+#2995
+Name ~
+Descr
+~
+End
+
+#2996
+Name ~
+Descr
+~
+End
+
+#2997
+Name ~
+Descr
+~
+End
+
+#2998
+Name ~
+Descr
+~
+End
+
+#2999
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

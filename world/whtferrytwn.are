@@ -1,0 +1,110 @@
+#AREADATA 
+Name The Harbor of Talus~
+Repop The sound of gulls can be heard in the distance.
+~
+SCZone 0
+Builders Tonik~
+VNUMs 38001 38250
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#38002
+Name ferrymaster ferry master~
+Short A ferrymaster~
+Long 
+A ferrymaster waits to take travelers to the other side.
+~
+AMax 1
+ActBits 2
+ActBits4 1
+Affect_By 512
+Level 250
+Sex 1
+MobType 0
+Hp 20
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#38002
+Name ferry ticket~
+Short a ferry ticket~
+Descr
+A ferry ticket is here.
+[0;36m~
+Type 13
+Extra 256
+Wear 1
+Weight 10
+Cost 1000
+End
+
+#38003
+Name ferry key~
+Short a ferry key~
+Descr
+A ferry key is here.
+[0;36m~
+Type 13
+Wear 1
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#38001
+Name The Eastern Ferry Dock~
+Descr
+You are on a small wood dock. It leads westward to a ferry that is
+waiting to give you passage to the town of Talus. 
+~
+Sector 4
+Door 3 0 0 38002 0 0
+~
+~
+End
+
+#38002
+Name The Eastern Ferry~
+Descr
+You are standing on a less than sturdy ferry, more like a few planks
+laying on some logs. The ferry master is anything but trustworthy also. 
+~
+Reset M 38002 1 100
+Reset O 38003 -1 100
+Door 1 3 38003 38001 30 30
+~
+railing~
+Door 3 7 38003 38003 30 30
+~
+railing~
+End
+
+#38003
+Name The Eastern Talus Ferry Dock~
+Descr
+Here at the eastern end of Talus you find a ferry dock. 
+~
+Door 1 0 0 38002 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

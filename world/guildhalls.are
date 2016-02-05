@@ -1,0 +1,1597 @@
+#AREADATA 
+Name Guild Halls~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Tonik~
+VNUMs 16001 16250
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#16002
+Name guild armorer~
+Short A Guild Armorer~
+Long 
+A Guild Armorer is here.
+~
+AMax 1
+ActBits 2
+Affect_By 8320
+Level 300
+Sex 1
+Guard 0
+End
+
+#16013
+Name guild armorer~
+Short Guild Armorer~
+Long 
+A Guild Armorer is here.
+~
+AMax 1
+ActBits 2
+Affect_By 8320
+Level 300
+Sex 1
+Guard 0
+End
+
+#16021
+Name guild armorer~
+Short Guild Armorer~
+Long 
+A Guild Armorer is here.
+~
+AMax 1
+ActBits 2
+Affect_By 8320
+Level 300
+Sex 1
+MobType 0
+Guard 0
+End
+
+#16038
+Name guild armorer~
+Short Guild Armorer~
+Long 
+A Guild Armorer is here.
+~
+AMax 1
+ActBits 2
+Affect_By 8320
+Level 300
+Sex 1
+MobType 0
+Guard 0
+End
+
+#16070
+Name guild Armoer~
+Short Guild Armorer~
+Long 
+A Guild Armorer is here.
+~
+AMax 1
+ActBits 2
+ActBits4 4
+Affect_By 8320
+Level 350
+Sex 1
+MobType 0
+Guard 0
+End
+
+#16085
+Name guild Armorer~
+Short A Guild Armorer~
+Long 
+A Guild Armorer is here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 8320
+Level 900
+Sex 1
+MobType 0
+Hp 3010
+Guard 0
+Shop    0   0   0   0   0 100 100 1 24
+Shopd2 5
+Shopd3 4
+ShopCr 66590
+End
+
+#16093
+Name a guild armorer~
+Short A Guild Armorer~
+Long 
+A Guard Armorer stands here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 8320
+Level 300
+Sex 1
+MobType 0
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#16093
+Name flaming dagger mithril apb 2apb~
+Short a [31mfl[1ma[33mm[31mi[0m[31mng[0m dagger of [1m[30mm[36mit[37mh[36mr[0m[36mi[1m[30ml[0m~
+Descr
+A flaming dagger of mithril lies on the ground.
+[0;36m~
+Type 5
+Extra 33685506
+Wear 24577
+Values 0 60 0 11 0 0 0 8 2 0 0
+Weight 12
+Cost 3039
+Affect 19 2 1 0 0
+Affect 18 3 1 0 0
+End
+
+#16240
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#16001
+Name Warrior Guild Hall~
+Descr
+You find yourself standing before the Warrior Guildmaster, the source of
+your power and knowledge. 
+~
+Flags 17408
+Reset M 215 1 100
+Door 2 0 0 16002 0 0
+~
+~
+End
+
+#16002
+Name Warrior Guild Hall~
+Descr
+You find yourself inside the Warrior Hall.
+~
+Flags 17412
+Sector 0
+Reset M 16002 1 100
+Door 0 0 0 16001 0 0
+~
+~
+Door 1 0 0 16004 0 0
+~
+~
+Door 2 0 0 16005 0 0
+~
+~
+Door 3 0 0 16003 0 0
+~
+~
+End
+
+#16003
+Name Warrior Guild Hall~
+Descr
+You find yourself inside the Warrior Hall.
+~
+Flags 17412
+Sector 0
+Door 1 0 0 16002 0 0
+~
+~
+Door 2 0 0 16006 0 0
+~
+~
+End
+
+#16004
+Name Warrior Guild Hall~
+Descr
+You find yourself inside the Warrior Hall.
+~
+Flags 17412
+Sector 0
+Door 2 0 0 16007 0 0
+~
+~
+Door 3 0 0 16002 0 0
+~
+~
+End
+
+#16005
+Name Warrior Guild Hall~
+Descr
+You find yourself inside the Warrior Hall.
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16002 0 0
+~
+~
+Door 1 0 0 16007 0 0
+~
+~
+Door 2 0 0 16008 0 0
+~
+~
+Door 3 0 0 16006 0 0
+~
+~
+End
+
+#16006
+Name Warrior Guild Hall~
+Descr
+You find yourself inside the Warrior Hall.
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16003 0 0
+~
+~
+Door 1 0 0 16005 0 0
+~
+~
+End
+
+#16007
+Name Warrior Guild Hall~
+Descr
+You find yourself inside the Warrior Hall.
+~
+Flags 17408
+Sector 0
+Door 0 0 0 16004 0 0
+~
+~
+Door 3 0 0 16005 0 0
+~
+~
+End
+
+#16008
+Name Entrance to the Warriors Guild Hall~
+Cvnumh 137062440
+Descr
+You stand before a great hall, and ponder the warriors that have traveled
+this path before you. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16005 0 0
+~
+~
+Door 4 0 0 5184 0 0
+~
+~
+End
+
+#16009
+Name Entrance to Healers Guild~
+Cvnumh 137070536
+Descr
+You stand before a great all and ponder the healers that have traveled
+this path before you. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16010 0 0
+~
+~
+Door 4 0 0 5196 0 0
+~
+~
+End
+
+#16010
+Name Inside Healers Guild~
+Descr
+You find yourself inside Healers Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16013 0 0
+~
+~
+Door 1 0 0 16012 0 0
+~
+~
+Door 2 0 0 16009 0 0
+~
+~
+Door 3 0 0 16011 0 0
+~
+~
+End
+
+#16011
+Name Inside Healers Guild~
+Descr
+You find yourself inside Healers Hall. 
+~
+Flags 17412
+Sector 0
+Door 1 0 0 16010 0 0
+~
+~
+End
+
+#16012
+Name Inside Healers Guild~
+Descr
+You find yourself inside Healers Hall. 
+~
+Flags 17412
+Sector 0
+Door 3 0 0 16010 0 0
+~
+~
+End
+
+#16013
+Name Inside Healers Guild~
+Descr
+You find yourself inside Healers Hall. 
+~
+Flags 17412
+Sector 0
+Reset M 16013 1 100
+Door 0 0 0 16016 0 0
+~
+~
+Door 1 0 0 16015 0 0
+~
+~
+Door 2 0 0 16010 0 0
+~
+~
+Door 3 0 0 16014 0 0
+~
+~
+End
+
+#16014
+Name Inside Healers Guild~
+Descr
+You find yourself inside Healers Hall. 
+~
+Flags 17412
+Sector 0
+Door 1 0 0 16013 0 0
+~
+~
+End
+
+#16015
+Name Inside Healers Guild~
+Descr
+You find yourself inside Healers Hall. 
+~
+Flags 17412
+Sector 0
+Door 3 0 0 16013 0 0
+~
+~
+End
+
+#16016
+Name Healers Hall~
+Descr
+You find yourself standing before the Healers Guildmaster, the source of
+your power and knowledge. 
+~
+Flags 17412
+Sector 0
+Reset M 220 1 100
+Door 2 0 0 16013 0 0
+~
+~
+End
+
+#16017
+Name Entrance to Rangers Guild~
+Cvnumh 137063464
+Descr
+You stand before a great hall, and ponder the rangers that have traveled
+this path before you. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16018 0 0
+~
+~
+Door 4 0 0 5188 0 0
+~
+~
+End
+
+#16018
+Name Inside Rangers Guild~
+Descr
+You find yourself inside Rangers Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16021 0 0
+~
+~
+Door 1 0 0 16020 0 0
+~
+~
+Door 2 0 0 16017 0 0
+~
+~
+Door 3 0 0 16019 0 0
+~
+~
+End
+
+#16019
+Name Inside Rangers Guild~
+Descr
+You find yourself inside Rangers Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16023 0 0
+~
+~
+Door 1 0 0 16018 0 0
+~
+~
+End
+
+#16020
+Name Inside Rangers Guild~
+Descr
+You find yourself inside Rangers Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16022 0 0
+~
+~
+Door 3 0 0 16018 0 0
+~
+~
+End
+
+#16021
+Name Inside Rangers Guild~
+Descr
+You find yourself inside Rangers Hall. 
+~
+Flags 17412
+Sector 0
+Reset M 16021 1 100
+Door 0 0 0 16025 0 0
+~
+~
+Door 1 0 0 16022 0 0
+~
+~
+Door 2 0 0 16018 0 0
+~
+~
+Door 3 0 0 16023 0 0
+~
+~
+End
+
+#16022
+Name Inside Rangers Guild~
+Descr
+You find yourself inside Rangers Hall. 
+~
+Flags 17412
+Sector 0
+Door 2 0 0 16020 0 0
+~
+~
+Door 3 0 0 16021 0 0
+~
+~
+End
+
+#16023
+Name Inside Rangers Guild~
+Descr
+You find yourself inside Rangers Hall. 
+~
+Flags 17412
+Sector 0
+Door 1 0 0 16021 0 0
+~
+~
+Door 2 0 0 16019 0 0
+~
+~
+End
+
+#16024
+Name Entrance to Tinkers Guild~
+Cvnumh 137064312
+Descr
+~
+Flags 17408
+Door 0 0 0 16026 0 0
+~
+~
+Door 4 0 0 5192 0 0
+~
+~
+End
+
+#16025
+Name Rangers Guild Hall~
+Descr
+You find yourself standing before the Ranger Guildmaster, the source of
+your power and knowledge. 
+~
+Flags 17412
+Sector 0
+Reset M 216 1 100
+Door 2 0 0 16021 0 0
+~
+~
+End
+
+#16026
+Name Inside Tinkers Guild~
+Descr
+~
+Flags 17408
+Door 0 0 0 16029 0 0
+~
+~
+Door 1 0 0 16028 0 0
+~
+~
+Door 2 0 0 16024 0 0
+~
+~
+Door 3 0 0 16027 0 0
+~
+~
+End
+
+#16027
+Name Inside Tinkers Guild~
+Descr
+~
+Flags 17408
+Door 0 0 0 16031 0 0
+~
+~
+Door 1 0 0 16026 0 0
+~
+~
+End
+
+#16028
+Name Inside Tinkers Guild~
+Descr
+~
+Flags 17408
+Door 0 0 0 16030 0 0
+~
+~
+Door 3 0 0 16026 0 0
+~
+~
+End
+
+#16029
+Name Inside Tinkers Guild~
+Descr
+~
+Flags 17408
+Door 0 0 0 16032 0 0
+~
+~
+Door 1 0 0 16030 0 0
+~
+~
+Door 2 0 0 16026 0 0
+~
+~
+Door 3 0 0 16031 0 0
+~
+~
+End
+
+#16030
+Name Inside Tinkers Guild~
+Descr
+~
+Flags 17408
+Door 2 0 0 16028 0 0
+~
+~
+Door 3 0 0 16029 0 0
+~
+~
+End
+
+#16031
+Name Inside Tinkers Guild~
+Descr
+~
+Flags 17408
+Door 1 0 0 16029 0 0
+~
+~
+Door 2 0 0 16027 0 0
+~
+~
+End
+
+#16032
+Name Tinkers Guild Hall~
+Descr
+You find yourself standing before the Tinkers Guildmaster, the source of
+your power and knowledge. 
+~
+Flags 17408
+Reset M 217 1 100
+Door 2 0 0 16029 0 0
+~
+~
+End
+
+#16033
+Name Entrance to Wizards Guild~
+Cvnumh 137066128
+Descr
+You stand before a great hall and ponder the wizards that have traveled
+this path before you. 
+~
+Flags 17408
+Door 0 0 0 16034 0 0
+~
+~
+Door 4 0 0 5200 0 0
+~
+~
+End
+
+#16034
+Name Inside Wizards Guild~
+Descr
+You find yourself inside Wizards Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16038 0 0
+~
+~
+Door 1 0 0 16036 0 0
+~
+~
+Door 2 0 0 16033 0 0
+~
+~
+Door 3 0 0 16035 0 0
+~
+~
+End
+
+#16035
+Name Inside Wizards Guild~
+Descr
+You find yourself inside Wizards Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16039 0 0
+~
+~
+Door 1 0 0 16034 0 0
+~
+~
+End
+
+#16036
+Name Inside Wizards Guild~
+Descr
+You find yourself inside Wizards Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16037 0 0
+~
+~
+Door 3 0 0 16034 0 0
+~
+~
+End
+
+#16037
+Name Inside Wizards Guild~
+Descr
+You find yourself inside Wizards Hall. 
+~
+Flags 17412
+Sector 0
+Door 2 0 0 16036 0 0
+~
+~
+Door 3 0 0 16038 0 0
+~
+~
+End
+
+#16038
+Name Inside Wizards Guild~
+Descr
+You find yourself inside Wizards Hall. 
+~
+Flags 17412
+Sector 0
+Reset M 16038 1 100
+Door 0 0 0 16040 0 0
+~
+~
+Door 1 0 0 16037 0 0
+~
+~
+Door 2 0 0 16034 0 0
+~
+~
+Door 3 0 0 16039 0 0
+~
+~
+End
+
+#16039
+Name Inside Wizards Guild~
+Descr
+You find yourself inside Wizards Hall. 
+~
+Flags 17412
+Sector 0
+Door 1 0 0 16038 0 0
+~
+~
+Door 2 0 0 16035 0 0
+~
+~
+End
+
+#16040
+Name Wizards Guild Hall~
+Descr
+You find yourself standing before the Wizards Guildmaster, the source of
+your power and knowledge. 
+~
+Flags 17412
+Sector 0
+Reset M 221 1 100
+Door 2 0 0 16038 0 0
+~
+~
+End
+
+#16041
+Name Entrance to Mystics Guild~
+Cvnumh 137067152
+Descr
+You stand before a great hall and ponder the mystics that have traveled
+this path before you. 
+~
+Flags 17408
+Door 0 0 0 16042 0 0
+~
+~
+Door 4 0 0 5204 0 0
+~
+~
+End
+
+#16042
+Name Inside Mystics Guild~
+Descr
+You find yourself inside Mystics Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16046 0 0
+~
+~
+Door 1 0 0 16043 0 0
+~
+~
+Door 2 0 0 16041 0 0
+~
+~
+Door 3 0 0 16044 0 0
+~
+~
+End
+
+#16043
+Name Inside Mystics Guild~
+Descr
+You find yourself inside Mystics Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16047 0 0
+~
+~
+Door 3 0 0 16042 0 0
+~
+~
+End
+
+#16044
+Name Inside Mystics Guild~
+Descr
+You find yourself inside Mystics Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16045 0 0
+~
+~
+Door 1 0 0 16042 0 0
+~
+~
+End
+
+#16045
+Name Inside Mystics Guild~
+Descr
+You find yourself inside Mystics Hall. 
+~
+Flags 17412
+Sector 0
+Door 1 0 0 16046 0 0
+~
+~
+Door 2 0 0 16044 0 0
+~
+~
+End
+
+#16046
+Name Inside Mystics Guild~
+Descr
+You find yourself inside Mystics Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16048 0 0
+~
+~
+Door 1 0 0 16047 0 0
+~
+~
+Door 2 0 0 16042 0 0
+~
+~
+Door 3 0 0 16045 0 0
+~
+~
+End
+
+#16047
+Name Inside Mystics Guild~
+Descr
+You find yourself inside Mystics Hall. 
+~
+Flags 17412
+Sector 0
+Door 2 0 0 16043 0 0
+~
+~
+Door 3 0 0 16046 0 0
+~
+~
+End
+
+#16048
+Name Mystics Guild Hall~
+Descr
+You find yourself standing before the Mystic Guildmaster, the source of
+your power and knowledge. 
+~
+Flags 17412
+Sector 0
+Reset M 222 1 100
+Door 2 0 0 16046 0 0
+~
+~
+End
+
+#16049
+Name Entrance to Conjurers Guild~
+Cvnumh 137068176
+Descr
+You stand before a great hall and ponder the conjurers that have traveled
+this path before you. 
+ 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16050 0 0
+~
+~
+Door 4 0 0 5208 0 0
+~
+~
+End
+
+#16050
+Name Inside Conjurers Guild~
+Descr
+You find yourself inside Conjurers Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16054 0 0
+~
+~
+Door 1 0 0 16052 0 0
+~
+~
+Door 2 0 0 16049 0 0
+~
+~
+Door 3 0 0 16051 0 0
+~
+~
+End
+
+#16051
+Name Inside Conjurers Guild~
+Descr
+You find yourself inside Conjurers Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16055 0 0
+~
+~
+Door 1 0 0 16050 0 0
+~
+~
+End
+
+#16052
+Name Inside Conjurers Guild~
+Descr
+You find yourself inside Conjurers Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16053 0 0
+~
+~
+Door 3 0 0 16050 0 0
+~
+~
+End
+
+#16053
+Name Inside Conjurers Guild~
+Descr
+You find yourself inside Conjurers Hall. 
+~
+Flags 17412
+Sector 0
+Door 2 0 0 16052 0 0
+~
+~
+Door 3 0 0 16054 0 0
+~
+~
+End
+
+#16054
+Name Inside Conjurers Guild~
+Descr
+You find yourself inside Conjurers Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16056 0 0
+~
+~
+Door 1 0 0 16053 0 0
+~
+~
+Door 2 0 0 16050 0 0
+~
+~
+Door 3 0 0 16055 0 0
+~
+~
+End
+
+#16055
+Name Inside Conjurers Guild~
+Descr
+You find yourself inside Conjurers Hall. 
+~
+Flags 17412
+Sector 0
+Door 1 0 0 16054 0 0
+~
+~
+Door 2 0 0 16051 0 0
+~
+~
+End
+
+#16056
+Name Conjurers Guild Hall~
+Descr
+You find yourself standing before the Conjurers Guildmaster, the source
+of your power and knowledge. 
+~
+Flags 17408
+Reset M 223 1 100
+Door 2 0 0 16054 0 0
+~
+~
+End
+
+#16057
+Name Entrance to Battlemasters Guild~
+Cvnumh 137069200
+Descr
+You stand before a great hall and ponder the battlemasters that have
+traveled this path before you. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16058 0 0
+~
+~
+Door 4 0 0 5212 0 0
+~
+~
+End
+
+#16058
+Name Inside Battlemasters Guild~
+Descr
+You find yourself inside Battlemasters Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16062 0 0
+~
+~
+Door 1 0 0 16060 0 0
+~
+~
+Door 2 0 0 16057 0 0
+~
+~
+Door 3 0 0 16059 0 0
+~
+~
+End
+
+#16059
+Name Inside Battlemasters Guild~
+Descr
+You find yourself inside Battlemasters Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16063 0 0
+~
+~
+Door 1 0 0 16058 0 0
+~
+~
+End
+
+#16060
+Name Inside Battlemasters Guild~
+Descr
+You find yourself inside Battlemasters Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16061 0 0
+~
+~
+Door 3 0 0 16058 0 0
+~
+~
+End
+
+#16061
+Name Inside Battlemasters Guild~
+Descr
+You find yourself inside Battlemasters Hall. 
+~
+Flags 17412
+Sector 0
+Door 2 0 0 16060 0 0
+~
+~
+Door 3 0 0 16062 0 0
+~
+~
+End
+
+#16062
+Name Inside Battlemasters Guild~
+Descr
+You find yourself inside Battlemasters Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16064 0 0
+~
+~
+Door 1 0 0 16061 0 0
+~
+~
+Door 2 0 0 16058 0 0
+~
+~
+Door 3 0 0 16063 0 0
+~
+~
+End
+
+#16063
+Name Inside Battlemasters Guild~
+Descr
+You find yourself inside Battlemasters Hall. 
+~
+Flags 17412
+Sector 0
+Door 1 0 0 16062 0 0
+~
+~
+Door 2 0 0 16059 0 0
+~
+~
+End
+
+#16064
+Name Battlemasters Guild Hall~
+Descr
+You find yourself standing before the Battlemasters Guildmaster, the
+source of your power and knowledge. 
+~
+Flags 17412
+Sector 0
+Reset M 224 1 100
+Door 2 0 0 16062 0 0
+~
+~
+End
+
+#16065
+Name Entrance to Thiefs Guild~
+Cvnumh 137060232
+Descr
+You stand before a great hall and ponder the thiefs that have traveled
+this path before you. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16066 0 0
+~
+~
+Door 4 0 0 5174 0 0
+~
+~
+End
+
+#16066
+Name Inside Thiefs Guild~
+Descr
+You find yourself inside ThiefsHall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16070 0 0
+~
+~
+Door 1 0 0 16067 0 0
+~
+~
+Door 2 0 0 16065 0 0
+~
+~
+Door 3 0 0 16068 0 0
+~
+~
+End
+
+#16067
+Name Inside Thiefs Guild~
+Descr
+You find yourself inside ThiefsHall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16071 0 0
+~
+~
+Door 3 0 0 16066 0 0
+~
+~
+End
+
+#16068
+Name Inside Thiefs Guild~
+Descr
+You find yourself inside ThiefsHall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16069 0 0
+~
+~
+Door 1 0 0 16066 0 0
+~
+~
+End
+
+#16069
+Name Inside Thiefs Guild~
+Descr
+You find yourself inside ThiefsHall. 
+~
+Flags 17412
+Sector 0
+Door 1 0 0 16070 0 0
+~
+~
+Door 2 0 0 16068 0 0
+~
+~
+End
+
+#16070
+Name Inside Thiefs Guild~
+Descr
+You find yourself inside ThiefsHall. 
+~
+Flags 17412
+Sector 0
+Reset M 16070 1 100
+Door 0 0 0 16072 0 0
+~
+~
+Door 1 0 0 16071 0 0
+~
+~
+Door 2 0 0 16066 0 0
+~
+~
+Door 3 0 0 16069 0 0
+~
+~
+End
+
+#16071
+Name Inside Thiefs Guild~
+Descr
+You find yourself inside ThiefsHall. 
+~
+Flags 17412
+Sector 0
+Door 2 0 0 16067 0 0
+~
+~
+Door 3 0 0 16070 0 0
+~
+~
+End
+
+#16072
+Name Thiefs Guild Hall~
+Descr
+You stand before the Thiefs Guildmaster, the source of your power and knowledge.
+~
+Flags 17412
+Sector 0
+Reset M 218 1 100
+Door 2 0 0 16070 0 0
+~
+~
+End
+
+#16073
+Name Entrance to Rogues Guild~
+Cvnumh 137061520
+Descr
+You stand before a great hall and ponder the assassins that have traveled
+this path before you. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16074 0 0
+~
+~
+Door 4 0 0 5180 0 0
+~
+~
+End
+
+#16074
+Name Inside Rogues Guild~
+Descr
+You find yourself inside Assassins Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16078 0 0
+~
+~
+Door 1 0 0 16076 0 0
+~
+~
+Door 2 0 0 16073 0 0
+~
+~
+Door 3 0 0 16075 0 0
+~
+~
+End
+
+#16075
+Name Inside Rogues Guild~
+Descr
+You find yourself inside Assassins Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16079 0 0
+~
+~
+Door 1 0 0 16074 0 0
+~
+~
+End
+
+#16076
+Name Inside Rogues Guild~
+Descr
+You find yourself inside Assassins Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16077 0 0
+~
+~
+Door 3 0 0 16074 0 0
+~
+~
+End
+
+#16077
+Name Inside Rogues Guild~
+Descr
+You find yourself inside Assassins Hall. 
+~
+Flags 17412
+Sector 0
+Door 2 0 0 16076 0 0
+~
+~
+Door 3 0 0 16078 0 0
+~
+~
+End
+
+#16078
+Name Inside Rogues Guild~
+Descr
+You find yourself inside Assassins Hall. 
+~
+Flags 17412
+Sector 0
+Door 0 0 0 16080 0 0
+~
+~
+Door 1 0 0 16077 0 0
+~
+~
+Door 2 0 0 16074 0 0
+~
+~
+Door 3 0 0 16079 0 0
+~
+~
+End
+
+#16079
+Name Inside Rogues Guild~
+Descr
+You find yourself inside Assassins Hall. 
+~
+Flags 17412
+Sector 0
+Door 1 0 0 16078 0 0
+~
+~
+Door 2 0 0 16075 0 0
+~
+~
+End
+
+#16080
+Name Rogues Guild Hall~
+Descr
+You find yourself standing before the Assassins Guildmaster, the source
+of your power and knowledge. 
+~
+Flags 17412
+Sector 0
+Reset M 219 1 100
+Door 2 0 0 16078 0 0
+~
+~
+End
+
+#16081
+Name Entrance to the Necromancer's Guild~
+Cvnumh 140799784
+Descr
+~
+Flags 17408
+Sector 43
+Door 0 0 0 16082 0 0
+~
+~
+Door 4 259 0 73789 30 30
+~
+bones~
+End
+
+#16082
+Name Inside the Necromancer's Guild~
+Descr
+~
+Flags 17408
+Sector 43
+Door 0 0 0 16085 0 0
+~
+~
+Door 1 0 0 16083 0 0
+~
+~
+Door 2 0 0 16081 0 0
+~
+~
+Door 3 0 0 16084 0 0
+~
+~
+End
+
+#16083
+Name Inside the Necromancer's Guild~
+Descr
+~
+Flags 17408
+Sector 43
+Door 0 0 0 16087 0 0
+~
+~
+Door 3 0 0 16082 0 0
+~
+~
+End
+
+#16084
+Name Inside the Necromancer's Guild~
+Descr
+~
+Flags 17408
+Sector 43
+Door 0 0 0 16086 0 0
+~
+~
+Door 1 0 0 16082 0 0
+~
+~
+End
+
+#16085
+Name Inside the Necromancer's Guild~
+Descr
+~
+Flags 17408
+Sector 43
+Reset M 16093 1 100
+Door 0 0 0 16088 0 0
+~
+~
+Door 1 0 0 16087 0 0
+~
+~
+Door 2 0 0 16082 0 0
+~
+~
+Door 3 0 0 16086 0 0
+~
+~
+End
+
+#16086
+Name Inside the Necromancer's Guild~
+Descr
+~
+Flags 17408
+Sector 43
+Door 1 0 0 16085 0 0
+~
+~
+Door 2 0 0 16084 0 0
+~
+~
+End
+
+#16087
+Name Inside the Necromancer's Guild~
+Descr
+~
+Flags 17408
+Sector 43
+Door 2 0 0 16083 0 0
+~
+~
+Door 3 0 0 16085 0 0
+~
+~
+End
+
+#16088
+Name Necromancer's Guild Hall~
+Descr
+If you have reached this room, leave a note to an immortal. We will
+instruct you further. 
+~
+Flags 17408
+Sector 43
+Reset M 225 1 100
+Door 2 0 0 16085 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

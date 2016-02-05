@@ -1,0 +1,1381 @@
+#AREADATA 
+Name Caverns of Mist~
+Repop A mist rises and moves around you.
+~
+SRepop 30
+SCZone 0
+Builders Flatline~
+VNUMs 7701 7750
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#7701
+Name tytlal thief~
+Short a tytlal thief~
+Long 
+A tytlal thief skulks about here.
+~
+AMax 15
+Alignment 1
+Money 200
+Level 40
+Sex 1
+MobType 32
+Hp 30015
+Guard 0
+ArmorClass -300
+End
+
+#7702
+Name sea imp~
+Short a sea imp~
+Long 
+A sea imp floats about the area here.
+~
+AMax 5
+Affect_By 524288
+Alignment 1
+Money 200
+Level 25
+MobType 32
+Hp 30010
+Guard 0
+ArmorClass -300
+End
+
+#7703
+Name mist elemental~
+Short a mist elemental~
+Long 
+A mist elemental flits about the area here.
+~
+AMax 2
+ActBits 2
+Money 500
+Level 120
+MobType 24
+Hp 30010
+Guard 0
+ArmorClass -300
+End
+
+#7704
+Name sea nymph~
+Short a sea nymph~
+Long 
+A sea nymph floats amongst the waves here.
+~
+AMax 1
+ActBits 2
+Money 500
+Level 110
+Sex 2
+MobType 24
+Hp 30010
+Guard 0
+ArmorClass -300
+End
+
+#7705
+Name weak mist elemental~
+Short a weakened mist elemental~
+Long 
+A weakened mist elemental sleeps here.
+~
+AMax 1
+ActBits 2
+Affect_By 131072
+Money 120
+Level 100
+MobType 24
+Hp 30002
+Guard 0
+ArmorClass -300
+End
+
+#7706
+Name tytlal warrior~
+Short a tytlal warrior~
+Long 
+A tytlal warrior wanders about here.
+~
+AMax 5
+Money 200
+Level 60
+Sex 1
+MobType 32
+Hp 30010
+Guard 0
+ArmorClass -300
+End
+
+#7707
+Name rat black~
+Short a black rat~
+Long 
+A black rat is here sniffing about.
+~
+AMax 15
+NHeight 0
+ActBits 1
+Alignment 1
+Level 10
+MobType 7
+Hp 30015
+Guard 0
+ArmorClass -300
+End
+
+#7708
+Name rathor underlord guard~
+Short Rathor~
+Long 
+Rathor brother of Hangaar stands here guarding the entrance.
+~
+AMax 1
+NHeight 150
+ActBits 3
+ActBits3 524288
+ActBits4 16384
+Affect_By 134218408
+AffectTWO 524300
+Alignment 1
+Money 10000
+Level 500
+Sex 1
+MobType 25
+Hp 50
+Guard 0
+Spec spec_warrior
+End
+
+#7709
+Name elite tytlal warrior~
+Short an elite tytlal warrior~
+Long 
+An elite tytlal warrior wanders about here.
+~
+AMax 5
+Money 200
+Level 80
+Sex 1
+MobType 32
+Hp 30010
+Guard 0
+ArmorClass -300
+End
+
+#0
+
+
+
+#OBJDATA
+#7701
+Name gossamer wings sea mist back~
+Short some [1m[36mgossamer[0m[37m wings of purest [34ms[1m[34me[36ma m[34mi[0m[34mst[0m[37m~
+Descr
+A pair of gossamer wings lay on the ground here.
+[0;36m~
+Type 9
+Wear 4194305
+Values 0 1 0 0 0 0 5 5 0 1 0
+Weight 10
+Cost 5000
+Affect 14 10 1 0 0
+End
+
+#7702
+Name kamikaze~
+Short unseen portal~
+Descr
+Unseen portal
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 7730 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#7705
+Name cherub wings~
+Short a pair of [36mcherub's wings[0m~
+Descr
+A pair of strange wing's lie on the ground collecting dust.
+[0;36m~
+Type 9
+Extra 1
+Wear 4194305
+Values 0 0 0 0 0 0 9 9 0 0 0
+Weight 0
+Cost 0
+Affect 14 5 1 0 0
+Affect 13 10 1 0 0
+End
+
+#7706
+Name shield true knights courage apb~
+Short a [36mt[1mru[0m[36me k[1mnight[0m[36ms [0mshield of [31mc[1mo[0m[31mu[1mr[0m[31ma[1mg[0m[31me[0m~
+Descr
+A shield of a true knight lays on the ground here.
+[0;36m~
+Type 9
+Extra 33554434
+Wear 513
+Values 0 1 0 2 3 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 14 5 1 0 0
+Affect 17 1 1 0 0
+Affect 13 10 1 0 0
+End
+
+#7707
+Name darkie evil newbie blocker~
+Short a evil newbie west blocker~
+Descr
+A darkie xp blocker is here.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Values 0 0 0 1 0 0 1 39 0 0 0
+Weight 0
+Cost 0
+End
+
+#7708
+Name gloves glove sheepskin surge~
+Short [1m[37mS[0m[37mh[1m[30me[0m[37me[1m[37mp[0m[37ms[1m[30mk[0m[37mi[1m[37mn[0m[37m gloves[0m~
+Descr
+A disgusting pair of Surge's "used" sheepskin gloves are lying on the ground. 
+[0;36m~
+Type 9
+Extra 3
+Wear 129
+Values 0 0 0 1 0 0 0 0 0 1 0
+Weight 0
+Cost 10000
+End
+
+#0
+
+
+
+#ROOMDATA
+#7701
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7707 1 100
+Door 0 0 0 7702 0 0
+~
+~
+Door 2 0 0 7711 0 0
+~
+~
+End
+
+#7702
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset O 7707 -5 100
+Reset M 7701 1 100
+Reset O 1935 -1 100
+Door 2 0 0 7701 0 0
+~
+~
+Door 3 0 0 7703 0 0
+~
+~
+End
+
+#7703
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 0 0 0 7705 0 0
+~
+~
+Door 1 0 0 7702 0 0
+~
+~
+Door 3 0 0 7704 0 0
+~
+~
+End
+
+#7704
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7702 1 100
+Door 0 0 0 7732 0 0
+~
+~
+Door 1 0 0 7703 0 0
+~
+~
+Door 2 0 0 7716 0 0
+~
+~
+Door 3 0 0 7708 0 0
+~
+~
+End
+
+#7705
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 0 0 0 7706 0 0
+~
+~
+Door 2 0 0 7703 0 0
+~
+~
+Door 3 0 0 7732 0 0
+~
+~
+End
+
+#7706
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7709 5 100
+Reset M 7701 1 100
+Reset O 1935 -1 100
+Door 1 0 0 7707 0 0
+~
+~
+Door 2 0 0 7705 0 0
+~
+~
+Door 3 0 0 7736 0 0
+~
+~
+End
+
+#7707
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7701 1 100
+Reset M 7703 1 100
+Door 3 0 0 7706 0 0
+~
+~
+End
+
+#7708
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7709 5 100
+Reset M 7701 1 100
+Door 0 0 0 7726 0 0
+~
+~
+Door 1 0 0 7704 0 0
+~
+~
+Door 2 0 0 7709 0 0
+~
+~
+Door 3 0 0 7724 0 0
+~
+~
+End
+
+#7709
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7701 1 100
+Door 0 0 0 7708 0 0
+~
+~
+Door 1 0 0 7716 0 0
+~
+~
+Door 2 0 0 7710 0 0
+~
+~
+Door 3 0 0 7721 0 0
+~
+~
+End
+
+#7710
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7701 1 100
+Reset M 7701 1 100
+Reset O 1935 -1 100
+Door 0 0 0 7709 0 0
+~
+~
+Door 1 0 0 7715 0 0
+~
+~
+Door 2 0 0 7718 0 0
+~
+~
+Door 3 0 0 7720 0 0
+~
+~
+End
+
+#7711
+Name The Center of the Mist Caverns~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags2 6
+Flags 16
+Sector 39
+Door 0 0 0 7701 0 0
+~
+~
+Door 1 0 0 7750 0 0
+~
+~
+Door 2 0 0 7712 0 0
+~
+~
+End
+
+#7712
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7707 1 100
+Reset O 7707 -5 100
+Reset M 7701 1 100
+Door 0 0 0 7711 0 0
+~
+~
+Door 3 0 0 7713 0 0
+~
+~
+End
+
+#7713
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7706 1 100
+Door 1 0 0 7712 0 0
+~
+~
+Door 3 0 0 7714 0 0
+~
+~
+End
+
+#7714
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7702 1 100
+Door 0 0 0 7715 0 0
+~
+~
+Door 1 0 0 7713 0 0
+~
+~
+Door 3 0 0 7718 0 0
+~
+~
+End
+
+#7715
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7707 1 100
+Reset M 7701 1 100
+Reset O 1935 -1 100
+Door 0 0 0 7716 0 0
+~
+~
+Door 2 0 0 7714 0 0
+~
+~
+Door 3 0 0 7710 0 0
+~
+~
+End
+
+#7716
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 0 0 0 7704 0 0
+~
+~
+Door 1 0 0 7717 30 30
+~
+~
+Door 2 0 0 7715 0 0
+~
+~
+Door 3 0 0 7709 0 0
+~
+~
+End
+
+#7717
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7703 1 100
+Door 3 0 0 7716 0 0
+~
+~
+End
+
+#7718
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7709 5 100
+Reset O 7707 -5 100
+Reset M 7701 1 100
+Door 0 0 0 7710 0 0
+~
+~
+Door 1 0 0 7714 0 0
+~
+~
+Door 3 0 0 7719 0 0
+~
+~
+End
+
+#7719
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 0 0 0 7720 0 0
+~
+~
+Door 1 0 0 7718 0 0
+~
+~
+Door 2 0 0 7722 0 0
+~
+~
+End
+
+#7720
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7707 1 100
+Reset M 7701 1 100
+Door 0 0 0 7721 0 0
+~
+~
+Door 1 0 0 7710 0 0
+~
+~
+Door 2 0 0 7719 0 0
+~
+~
+End
+
+#7721
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset O 7707 -5 100
+Reset M 7706 1 100
+Door 0 0 0 7724 0 0
+~
+~
+Door 1 0 0 7709 0 0
+~
+~
+Door 2 0 0 7720 0 0
+~
+~
+Door 3 0 0 7723 0 0
+~
+~
+End
+
+#7722
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7707 1 100
+Reset M 7702 1 100
+Door 0 0 0 7719 0 0
+~
+~
+Door 3 0 0 7731 0 0
+~
+~
+End
+
+#7723
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7709 5 100
+Reset M 7701 1 100
+Reset O 1935 -1 100
+Door 1 0 0 7721 0 0
+~
+~
+Door 3 0 0 7727 0 0
+~
+~
+End
+
+#7724
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 0 0 0 7725 0 0
+~
+~
+Door 1 0 0 7708 0 0
+~
+~
+Door 2 0 0 7721 0 0
+~
+~
+End
+
+#7725
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7707 1 100
+Reset O 7707 -5 100
+Reset M 7701 1 100
+Door 0 0 0 7738 0 0
+~
+~
+Door 1 0 0 7726 0 0
+~
+~
+Door 2 0 0 7724 0 0
+~
+~
+Door 3 0 0 7733 0 0
+~
+~
+End
+
+#7726
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7706 1 100
+Door 0 0 0 7737 0 0
+~
+~
+Door 1 0 0 7732 0 0
+~
+~
+Door 2 0 0 7708 0 0
+~
+~
+Door 3 0 0 7725 0 0
+~
+~
+End
+
+#7727
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 0 0 0 7735 0 0
+~
+~
+Door 1 0 0 7723 0 0
+~
+~
+Door 2 0 0 7728 0 0
+~
+~
+End
+
+#7728
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7702 1 100
+Door 0 0 0 7727 0 0
+~
+~
+Door 2 0 0 7729 0 0
+~
+~
+End
+
+#7729
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 0 0 0 7728 0 0
+~
+~
+Door 2 259 0 7730 30 30
+~
+collapsed wall~
+End
+
+#7730
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7705 1 100
+Door 0 259 0 7729 30 30
+~
+collapsed wall~
+End
+
+#7731
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 1 0 0 7722 0 0
+~
+~
+End
+
+#7732
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7707 1 100
+Door 0 0 0 7736 0 0
+~
+~
+Door 1 0 0 7705 0 0
+~
+~
+Door 2 0 0 7704 0 0
+~
+~
+Door 3 0 0 7726 0 0
+~
+~
+End
+
+#7733
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 0 0 0 7739 0 0
+~
+~
+Door 1 0 0 7725 0 0
+~
+~
+Door 3 0 0 7734 0 0
+~
+~
+End
+
+#7734
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7702 1 100
+Door 0 0 0 7740 0 0
+~
+~
+Door 1 0 0 7733 0 0
+~
+~
+Door 2 0 0 7735 0 0
+~
+~
+Door 3 0 0 7742 0 0
+~
+~
+End
+
+#7735
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 0 0 0 7734 0 0
+~
+~
+Door 2 0 0 7727 0 0
+~
+~
+Door 3 0 0 7743 0 0
+~
+~
+End
+
+#7736
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset O 7707 -5 100
+Door 1 0 0 7706 0 0
+~
+~
+Door 2 0 0 7732 0 0
+~
+~
+Door 3 0 0 7737 0 0
+~
+~
+End
+
+#7737
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7701 1 100
+Door 1 0 0 7736 0 0
+~
+~
+Door 2 0 0 7726 0 0
+~
+~
+Door 3 0 0 7738 0 0
+~
+~
+End
+
+#7738
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 1 0 0 7737 0 0
+~
+~
+Door 2 0 0 7725 0 0
+~
+~
+Door 3 0 0 7739 0 0
+~
+~
+End
+
+#7739
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7706 1 100
+Reset M 7701 1 100
+Reset O 1935 -1 100
+Door 1 0 0 7738 0 0
+~
+~
+Door 2 0 0 7733 0 0
+~
+~
+Door 3 0 0 7740 0 0
+~
+~
+End
+
+#7740
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset O 7707 -5 100
+Door 1 0 0 7739 0 0
+~
+~
+Door 2 0 0 7734 0 0
+~
+~
+Door 3 0 0 7741 0 0
+~
+~
+End
+
+#7741
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7701 1 100
+Door 1 0 0 7740 0 0
+~
+~
+Door 2 0 0 7742 0 0
+~
+~
+End
+
+#7742
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7707 1 100
+Door 0 0 0 7741 0 0
+~
+~
+Door 1 0 0 7734 0 0
+~
+~
+Door 2 0 0 7743 0 0
+~
+~
+End
+
+#7743
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset O 7707 -5 100
+Door 0 0 0 7742 0 0
+~
+~
+Door 1 0 0 7735 0 0
+~
+~
+Door 3 0 0 7744 0 0
+~
+~
+End
+
+#7744
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Reset M 7707 1 100
+Reset M 7706 1 100
+Door 1 0 0 7743 0 0
+~
+~
+Door 3 0 0 7745 0 0
+~
+~
+End
+
+#7745
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 16
+Sector 39
+Door 1 0 0 7744 0 0
+~
+~
+Door 3 0 0 7746 0 0
+~
+~
+End
+
+#7746
+Name A Calm Ocean~
+Descr
+You have exited the cavern system and emerged upon a calm section of the
+ocean. The waves buffet your feet and a cool breeze kicks up clouds of mist.
+The ocean spray cools your face and wets your clothing... chilling you to
+the bone. 
+~
+Flags2 6
+Flags 16
+Sector 10
+Reset M 7704 1 100
+Reset O 59 -1 40
+Reset O 7701 -1 10
+Door 0 0 0 7747 0 0
+~
+~
+Door 1 0 0 7745 0 0
+~
+~
+Door 2 0 0 7748 0 0
+~
+~
+Door 3 0 0 7749 0 0
+~
+~
+End
+
+#7747
+Name Rough Seas~
+Descr
+You shouldn't be here.
+~
+Flags 16
+Sector 11
+Door 2 0 0 7746 0 0
+~
+~
+End
+
+#7748
+Name Rough Seas~
+Descr
+You shouldn't be here.
+~
+Flags 16
+Sector 11
+Door 0 0 0 7746 0 0
+~
+~
+End
+
+#7749
+Name Rough Seas~
+Descr
+You shouldn't be here.
+~
+Flags 16
+Sector 11
+Door 1 0 0 7746 0 0
+~
+~
+End
+
+#7750
+Name Within a Misty Cavern~
+Descr
+You feel a sea breeze running throughout this cavern complex, generating
+a fine layer of mist that rests along the base of the cave. It is not thick
+enough to impede sight, but at the same time, it chills your legs and body a
+great deal and conceals a section of the floor. You find yourself stumbling
+a bit. 
+~
+Flags 1040
+Sector 39
+Reset M 7708 1 100
+Reset O 7707 -5 100
+Door 3 0 0 7711 0 0
+~
+~
+Door 4 0 0 2968 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

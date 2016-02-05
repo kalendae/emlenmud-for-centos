@@ -1,0 +1,1560 @@
+#AREADATA 
+Name The Burial Ground's~
+Repop You spine tingle's as the sound of death fills the air. 
+~
+SCZone 0
+Builders Structure~
+VNUMs 34001 34070
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#34003
+Name ancient mummy~
+Short An ancient mummy~
+Long 
+An ancient mummy stands here forbidding any passage to enemy's.
+~
+AMax 4
+NHeight 0
+ActBits 2
+ActBits3 8
+Affect_By 648
+Alignment 1
+Money 300
+Level 90
+Sex 1
+MobType 9
+Hp 5
+Guard 0
+End
+
+#34011
+Name skeleton small~
+Short A small skeleton~
+Long 
+A small skeleton looks around for fresh meat.
+~
+AMax 5
+NHeight 0
+ActBits 8
+Affect_By 520
+Level 50
+MobType 9
+Hp 2
+Guard 0
+End
+
+#34050
+Name mummy~
+Short a mummy~
+Long 
+A mummy wanders here with bandages falling to the ground.
+~
+AMax 30
+NHeight 0
+Affect_By 512
+Level 120
+MobType 9
+Hp 2
+Guard 0
+End
+
+#34051
+Name mummy royal ancient~
+Short An ancient royal mummy~
+Long 
+A royal mummy stands here guarding it's post for eternity.
+~
+Descr
+This mummy looks confused as to what it's purpose in death is.
+~
+AMax 5
+NHeight 68
+ActBits 2
+Affect_By 552
+Money 500
+Level 200
+MobType 9
+Hp 2
+Guard 0
+End
+
+#34060
+Name king yabir~
+Short King Yabir~
+Long 
+King Yabir stand's here awaiting his reincarnation.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+Money 300
+Level 120
+MobType 9
+Hp 8
+Guard 0
+End
+
+#34061
+Name king nizbit~
+Short King Nizbit~
+Long 
+King Nizbit rests here inside a catacomb.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+Money 3543
+Level 120
+MobType 9
+Hp 8
+Guard 0
+End
+
+#34062
+Name king koliran~
+Short King Koliran~
+Long 
+King Koliran stands here proudly watching over the heaven's.
+~
+AMax 1
+NHeight 0
+ActBits 10
+Affect_By 136315528
+AffectTWO 8
+Money 343
+Level 150
+MobType 9
+Hp 20
+Guard 0
+End
+
+#34067
+Name king rashal~
+Short King Rashal~
+Long 
+King Rashal's glances at you for distrubing his resting place.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 648
+Money 3243
+Level 120
+MobType 9
+Hp 8
+Guard 0
+End
+
+#34068
+Name ufgul keeper crypt~
+Short Ufgul~
+Long 
+Ufgul, Keeper of the Crypt, is here to prevent the undead from leaving.
+~
+AMax 1
+NHeight 39
+ActBits 2
+ActBits3 2
+Affect_By 680
+Alignment 2
+Level 150
+Sex 1
+MobType 9
+Hp 2
+Guard 4
+End
+
+#0
+
+
+
+#OBJDATA
+#34059
+Name portal~
+Short a [31mblood-red[0m portal~
+Descr
+A [31mblood-red[0m portal
+[0;36m~
+Type 12
+Wear 0
+Values 4 34001 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#34060
+Name royal ring apb~
+Short a [1m[32mr[0m[32moya[1ml [36mr[0m[36min[1mg[0m~
+Descr
+A ring lies on the ground collecting dust.
+[0;36m~
+Type 9
+Extra 1
+Wear 3
+Values 0 0 0 0 0 0 8 8 8 0 0
+Weight 9
+Cost 343
+Affect 19 1 1 0 0
+Affect 13 -5 1 0 0
+End
+
+#34061
+Name catacomb~
+Short a catacomb~
+Descr
+A catacomb
+[0;36m~
+Type 12
+Wear 0
+Values 4 34066 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#34065
+Name catacomb~
+Short a catacomb~
+Descr
+A catacomb
+[0;36m~
+Type 12
+Wear 0
+Values 4 34067 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#34066
+Name catacomb~
+Short a catacomb~
+Descr
+A catacomb
+[0;36m~
+Type 12
+Wear 0
+Values 4 34061 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#34067
+Name catacomb~
+Short a catacomb~
+Descr
+A catacomb
+[0;36m~
+Type 12
+Wear 0
+Values 4 34065 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#34068
+Name crown of nizbit~
+Short a [35mcr[1mow[0m[35mn [0mof [36mni[1m[37mz[36mbi[0m[36mt~
+Descr
+A royal crown lies on the ground forgotten.
+[0;36m~
+Type 9
+Extra 2
+Wear 17
+Values 0 0 8 0 0 0 8 8 0 0 0
+Weight 9
+Cost 302
+Affect 17 3 1 0 0
+Affect 20 2 1 0 0
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+End
+
+#34069
+Name sceptre white mage~
+Short a [34ms[36mc[1m[34me[36mp[0m[34mt[36mr[1m[34me [0mof the [1m[37mwhite [36mm[1m[37ma[36mg[0m[36me~
+Descr
+A glittering sceptre lies on the ground.
+[0;36m~
+Type 5
+Extra 1
+Wear 24577
+Values 0 8 0 8 0 0 0 2 3 0 0
+Weight 31
+Cost 34303
+Affect 20 5 1 0 0
+Affect 13 20 1 0 0
+Affect 17 4 1 0 0
+End
+
+#34070
+Name spiritual aura~
+Short a spiritual aura of [1m[37mfaith~
+Descr
+A aura is dropped on the ground.
+[0;36m~
+Type 9
+Wear 131073
+Weight 0
+Cost 300
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#34001
+Name A Warrior's Path~
+Descr
+You are on a odd path, the wall's have ancient scripture's and several
+painting's. 
+~
+Sector 28
+Door 0 0 0 34002 0 0
+~
+~
+Door 4 0 0 2588 0 0
+~
+~
+End
+
+#34002
+Name A Warrior's Path~
+Descr
+You are on a odd path, the wall's have ancient scripture's and several
+painting's. 
+~
+Sector 28
+Door 0 0 0 34003 0 0
+~
+~
+Door 2 0 0 34001 0 0
+~
+~
+End
+
+#34003
+Name The Entrance to a Tribal Burial Ground~
+Descr
+This is the Entrance to a sacred burial ground, be warned, there are
+several obstacles ahead. 
+~
+Sector 28
+Door 0 3 0 34004 30 30
+~
+gate~
+Door 2 0 0 34002 0 0
+~
+~
+End
+
+#34004
+Name A Burial Ground~
+Descr
+You are inside a burial ground, the smell of death fills your soul with
+fear. 
+~
+Sector 34
+Reset M 34011 1 100
+Door 0 0 0 34008 0 0
+~
+~
+Door 1 0 0 34006 0 0
+~
+~
+Door 2 3 0 34003 30 30
+~
+gate~
+Door 3 0 0 34005 0 0
+~
+~
+End
+
+#34005
+Name A Burial Ground~
+Descr
+You are inside a burial ground, the smell of death fills your soul with
+fear. 
+~
+Sector 34
+Door 0 0 0 34010 0 0
+~
+~
+Door 1 0 0 34004 0 0
+~
+~
+End
+
+#34006
+Name A Burial Ground~
+Descr
+You are inside a burial ground, the smell of death fills your soul with
+fear. 
+~
+Sector 34
+Door 0 0 0 34007 0 0
+~
+~
+Door 3 0 0 34004 0 0
+~
+~
+End
+
+#34007
+Name A Burial Ground~
+Descr
+You are inside a burial ground, the smell of death fills your soul with
+fear. 
+~
+Sector 34
+Door 0 0 0 34013 0 0
+~
+~
+Door 2 0 0 34006 0 0
+~
+~
+Door 3 0 0 34008 0 0
+~
+~
+End
+
+#34008
+Name A Burial Ground~
+Descr
+You are inside a burial ground, the smell of death fills your soul with
+fear. 
+~
+Sector 34
+Reset M 34011 1 100
+Door 0 0 0 34012 0 0
+~
+~
+Door 1 0 0 34007 0 0
+~
+~
+Door 2 0 0 34004 0 0
+~
+~
+Door 3 0 0 34010 0 0
+~
+~
+End
+
+#34009
+Name ~
+Descr
+~
+Door 1 0 0 34008 0 0
+~
+~
+End
+
+#34010
+Name A Burial Ground~
+Descr
+You are inside a burial ground, the smell of death fills your soul with
+fear. 
+~
+Sector 34
+Reset M 34011 1 100
+Door 0 0 0 34011 0 0
+~
+~
+Door 1 0 0 34008 0 0
+~
+~
+Door 2 0 0 34005 0 0
+~
+~
+End
+
+#34011
+Name A Burial Ground~
+Descr
+You are inside a burial ground, the smell of death fills your soul with
+fear. 
+~
+Sector 34
+Reset M 34011 1 100
+Door 1 0 0 34012 0 0
+~
+~
+Door 2 0 0 34010 0 0
+~
+~
+End
+
+#34012
+Name A Burial Ground~
+Cvnuml 139719728
+Descr
+You are inside a burial ground, the smell of death fills your soul with
+fear. 
+~
+Sector 34
+Door 1 0 0 34013 0 0
+~
+~
+Door 2 0 0 34008 0 0
+~
+~
+Door 3 0 0 34011 0 0
+~
+~
+End
+
+#34013
+Name A Burial Ground~
+Descr
+You are inside a burial ground, the smell of death fills your soul with
+fear. 
+~
+Sector 34
+Reset M 34011 1 100
+Door 2 0 0 34007 0 0
+~
+~
+Door 3 0 0 34012 0 0
+~
+~
+End
+
+#34014
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34068 1 100
+Door 4 0 0 9909 0 0
+~
+~
+Door 5 0 0 34015 0 0
+~
+~
+End
+
+#34015
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 1 0 0 34017 0 0
+~
+~
+Door 3 0 0 34016 0 0
+~
+~
+Door 4 0 0 34014 0 0
+~
+~
+End
+
+#34016
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34026 0 0
+~
+~
+Door 1 0 0 34015 0 0
+~
+~
+End
+
+#34017
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 1 0 0 34018 0 0
+~
+~
+Door 3 0 0 34015 0 0
+~
+~
+End
+
+#34018
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34019 0 0
+~
+~
+Door 3 0 0 34017 0 0
+~
+~
+End
+
+#34019
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 0 0 0 34020 0 0
+~
+~
+Door 2 0 0 34018 0 0
+~
+~
+End
+
+#34020
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34021 0 0
+~
+~
+Door 2 0 0 34019 0 0
+~
+~
+End
+
+#34021
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 2 0 0 34020 0 0
+~
+~
+Door 3 0 0 34022 0 0
+~
+~
+End
+
+#34022
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 1 0 0 34021 0 0
+~
+~
+Door 3 0 0 34023 0 0
+~
+~
+End
+
+#34023
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 1 0 0 34022 0 0
+~
+~
+Door 3 0 0 34024 0 0
+~
+~
+End
+
+#34024
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 1 0 0 34023 0 0
+~
+~
+Door 2 0 0 34025 0 0
+~
+~
+End
+
+#34025
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34024 0 0
+~
+~
+Door 1 0 0 34027 0 0
+~
+~
+Door 2 0 0 34026 0 0
+~
+~
+End
+
+#34026
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 0 0 0 34025 0 0
+~
+~
+Door 2 0 0 34016 0 0
+~
+~
+End
+
+#34027
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 1 0 0 34028 0 0
+~
+~
+Door 3 0 0 34025 0 0
+~
+~
+End
+
+#34028
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 2 0 0 34029 0 0
+~
+~
+Door 3 0 0 34027 0 0
+~
+~
+End
+
+#34029
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34028 0 0
+~
+~
+Door 3 0 0 34030 0 0
+~
+~
+End
+
+#34030
+Name Inside a Hidden Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 1 0 0 34029 0 0
+~
+~
+Door 5 0 0 34031 0 0
+~
+~
+End
+
+#34031
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 34
+Reset M 34050 1 100
+Door 0 0 0 34032 0 0
+~
+~
+Door 1 0 0 34034 0 0
+~
+~
+Door 2 0 0 34033 0 0
+~
+~
+Door 3 0 0 34035 0 0
+~
+~
+Door 4 0 0 34030 0 0
+~
+~
+End
+
+#34032
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 0 0 0 34042 0 0
+~
+~
+Door 1 0 0 34036 0 0
+~
+~
+Door 2 0 0 34031 0 0
+~
+~
+Door 3 0 0 34038 0 0
+~
+~
+End
+
+#34033
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34031 0 0
+~
+~
+Door 1 0 0 34040 0 0
+~
+~
+Door 3 0 0 34039 0 0
+~
+~
+End
+
+#34034
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34036 0 0
+~
+~
+Door 1 0 0 34046 0 0
+~
+~
+Door 2 0 0 34040 0 0
+~
+~
+Door 3 0 0 34031 0 0
+~
+~
+End
+
+#34035
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 0 0 0 34038 0 0
+~
+~
+Door 1 0 0 34031 0 0
+~
+~
+Door 2 0 0 34039 0 0
+~
+~
+Door 3 0 0 34052 0 0
+~
+~
+End
+
+#34036
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 0 0 0 34041 0 0
+~
+~
+Door 1 0 0 34045 0 0
+~
+~
+Door 2 0 0 34034 0 0
+~
+~
+Door 3 0 0 34032 0 0
+~
+~
+End
+
+#34037
+Name ~
+Descr
+~
+Door 3 0 0 34032 0 0
+~
+~
+End
+
+#34038
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 0 0 0 34043 0 0
+~
+~
+Door 1 0 0 34032 0 0
+~
+~
+Door 2 0 0 34035 0 0
+~
+~
+Door 3 0 0 34051 0 0
+~
+~
+End
+
+#34039
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34035 0 0
+~
+~
+Door 1 0 0 34033 0 0
+~
+~
+Door 3 0 0 34053 0 0
+~
+~
+End
+
+#34040
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 0 0 0 34034 0 0
+~
+~
+Door 3 0 0 34033 0 0
+~
+~
+End
+
+#34041
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 1 0 0 34044 0 0
+~
+~
+Door 2 0 0 34036 0 0
+~
+~
+Door 3 0 0 34042 0 0
+~
+~
+End
+
+#34042
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 1 0 0 34041 0 0
+~
+~
+Door 2 0 0 34032 0 0
+~
+~
+Door 3 0 0 34043 0 0
+~
+~
+End
+
+#34043
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 1 0 0 34042 0 0
+~
+~
+Door 2 0 0 34038 0 0
+~
+~
+Door 3 0 0 34050 0 0
+~
+~
+End
+
+#34044
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 1 0 0 34049 0 0
+~
+~
+Door 2 0 0 34045 0 0
+~
+~
+Door 3 0 0 34041 0 0
+~
+~
+End
+
+#34045
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 0 0 0 34044 0 0
+~
+~
+Door 1 0 0 34048 0 0
+~
+~
+Door 2 0 0 34046 0 0
+~
+~
+Door 3 0 0 34036 0 0
+~
+~
+End
+
+#34046
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 0 0 0 34045 0 0
+~
+~
+Door 1 0 0 34047 0 0
+~
+~
+Door 3 0 0 34034 0 0
+~
+~
+End
+
+#34047
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34048 0 0
+~
+~
+Door 3 0 0 34046 0 0
+~
+~
+End
+
+#34048
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34049 0 0
+~
+~
+Door 2 0 0 34047 0 0
+~
+~
+Door 3 0 0 34045 0 0
+~
+~
+End
+
+#34049
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 2 0 0 34048 0 0
+~
+~
+Door 3 0 0 34044 0 0
+~
+~
+End
+
+#34050
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 1 0 0 34043 0 0
+~
+~
+Door 2 0 0 34051 0 0
+~
+~
+Door 5 259 0 34063 30 30
+~
+clothpile~
+End
+
+#34051
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 0 0 0 34050 0 0
+~
+~
+Door 1 0 0 34038 0 0
+~
+~
+Door 2 0 0 34052 0 0
+~
+~
+End
+
+#34052
+Name A Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Reset M 34050 1 100
+Door 0 0 0 34051 0 0
+~
+~
+Door 1 0 0 34035 0 0
+~
+~
+Door 2 0 0 34053 0 0
+~
+~
+Door 3 0 0 34054 0 0
+~
+~
+End
+
+#34053
+Name An Open Catacomb~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 0 0 0 34052 0 0
+~
+~
+Door 1 0 0 34039 0 0
+~
+~
+End
+
+#34054
+Name A Sacred Path~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 1 0 0 34052 0 0
+~
+~
+Door 3 0 0 34055 0 0
+~
+~
+End
+
+#34055
+Name A Sacred Path~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 1 0 0 34054 0 0
+~
+~
+Door 3 0 0 34056 0 0
+~
+~
+End
+
+#34056
+Name A Sacred Path~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Reset M 34050 1 100
+Door 1 0 0 34055 0 0
+~
+~
+Door 3 0 0 34057 0 0
+~
+~
+End
+
+#34057
+Name A Sacred Path~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 1 0 0 34056 0 0
+~
+~
+Door 4 0 0 34058 0 0
+~
+~
+End
+
+#34058
+Name A Sacred Path~
+Descr
+You have entered the hidden catacomb's, several fallen king's are buried
+here. 
+~
+Flags 32
+Sector 0
+Door 4 0 0 34059 0 0
+~
+~
+Door 5 0 0 34057 0 0
+~
+~
+End
+
+#34059
+Name A Sacred Shrine~
+Descr
+You are at a Sacred Shrine, many follower's have come here to worship
+their deceased. The walls are decorated in elegant painting's and jewel
+encrusted shrine's illuminate the room with glory. 
+~
+Flags2 6
+Flags 32
+Sector 0
+Reset O 44 -5 100
+Door 0 0 0 34060 0 0
+~
+~
+Door 1 0 0 34062 0 0
+~
+~
+Door 2 0 0 34065 0 0
+~
+~
+Door 3 0 0 34061 0 0
+~
+~
+Door 5 0 0 34058 0 0
+~
+~
+End
+
+#34060
+Name King Yabir's Resting Chambers~
+Descr
+This is King Yabir's chamber's. Once a mighty king, leader of the once
+great tribe had fallen to old age. Now he rest's here in eternal bliss,
+untouched for century's. 
+~
+Flags 32
+Sector 0
+Reset M 34060 1 100
+Reset O 121 -1 100
+Reset O 109 -1 100
+Reset O 109 -1 100
+Reset O 109 -1 100
+Door 2 0 0 34059 0 0
+~
+~
+End
+
+#34061
+Name King Nizbit's Tomb~
+Descr
+This is the entrance of King Nizbit's tomb, there is nothing special
+about this room. 
+~
+Flags 32
+Sector 0
+Reset O 34061 -5 100
+Door 1 0 0 34059 0 0
+~
+~
+End
+
+#34062
+Name King Koliran, the Mighty's Holding Chamber~
+Descr
+This is the mighty King Koliran, he was so powerful that the heaven's
+granted him control over these burial grounds. This king was known for using
+arkane magic and developing the way's of the magic. The room is the most
+highly decorated with the finest gold and jewel's, there are many undead
+servant's here, tending to any of the king's needs. 
+~
+Flags 36
+Sector 0
+Reset M 34062 1 100
+Reset O 34060 -1 1
+Reset O 34069 -1 1
+Door 3 0 0 34059 0 0
+~
+~
+End
+
+#34063
+Name A Royal Catacomb~
+Descr
+This catacomb is adorned more in jewels and gold than the rest.
+~
+Flags 32
+Sector 0
+Reset M 34051 1 100
+Door 0 0 0 34064 0 0
+~
+~
+Door 3 0 0 34069 0 0
+~
+~
+Door 4 259 0 34050 30 30
+~
+clothpile~
+End
+
+#34064
+Name A Royal Catacomb~
+Descr
+This catacomb is adorned more in jewels and gold than the rest.
+~
+Flags 32
+Sector 0
+Reset M 34051 1 100
+Door 2 0 0 34063 0 0
+~
+~
+Door 3 0 0 34068 0 0
+~
+~
+End
+
+#34065
+Name King Rashal's Resting Tomb~
+Descr
+This is King Rashal's catacomb, the catacomb is nothing special. 
+~
+Flags 32
+Sector 0
+Reset O 34065 -5 100
+Door 0 0 0 34059 0 0
+~
+~
+End
+
+#34066
+Name King Nizbit's Resting Place~
+Descr
+This is the resting place of king nizbit. The wall's are elegantly
+decorated with silk and other fine linen. 
+~
+Reset O 34066 -5 100
+Reset M 34061 1 100
+Reset O 34068 -1 1
+End
+
+#34067
+Name King Rashal's Resting Place~
+Descr
+This is King Rashal's resting place, this mighty king once led the fallen
+tribe to it's glory around the world. But during this world conquest, a
+royal guard turned against this king slaying him in his sleep, destroying
+the conquest. 
+~
+Reset M 34067 1 100
+Reset O 34070 -1 5
+Reset O 34067 -5 100
+End
+
+#34068
+Name A Royal Catacomb~
+Descr
+This catacomb is adorned more in jewels and gold than the rest.
+~
+Flags 32
+Sector 0
+Reset M 34051 1 100
+Door 1 0 0 34064 0 0
+~
+~
+Door 2 0 0 34069 0 0
+~
+~
+End
+
+#34069
+Name A Royal Catacomb~
+Descr
+This catacomb is adorned more in jewels and gold than the rest.
+~
+Flags 32
+Sector 0
+Reset M 34051 1 100
+Door 0 0 0 34068 0 0
+~
+~
+Door 1 0 0 34063 0 0
+~
+~
+Door 3 0 0 34070 0 0
+~
+~
+End
+
+#34070
+Name A Royal Catacomb~
+Descr
+This catacomb is adorned more in jewels and gold than the rest.
+~
+Flags 32
+Sector 0
+Reset M 34051 1 100
+Door 1 0 0 34069 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,1615 @@
+#AREADATA 
+Name whitie lowbie xp~
+Repop The gnoll chief rallies his troops!
+~
+SRepop 30
+SCZone 0
+Builders None Bern~
+VNUMs 65075 65149
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#65075
+Name gnoll regular~
+Short a gnoll regular~
+Long 
+A gnoll regular is here trying to avoid orders.
+~
+AMax 10
+NHeight 0
+ActBits 1
+Affect_By 512
+Alignment 2
+Money 200
+Level 50
+Sex 1
+MobType 28
+Hp 29002
+Guard 0
+Spec spec_warrior
+End
+
+#65076
+Name gnoll chief grymbaol~
+Short gnoll chief grymboal~
+Long 
+Grymboal, Great Chief of the Gnolls, is here planning an attack on Taron!
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 512
+Money 500
+Level 165
+Sex 1
+MobType 28
+Hp 30001
+Guard 0
+Spec spec_warrior
+End
+
+#65077
+Name gnoll warrior~
+Short a gnoll warrior~
+Long 
+A gnoll warrior is here resting for the big battle.
+~
+AMax 7
+NHeight 0
+ActBits 2
+Affect_By 512
+Alignment 2
+Money 200
+Level 60
+Sex 1
+MobType 28
+Hp 30010
+Guard 0
+Spec spec_warrior
+ArmorClass -300
+End
+
+#65078
+Name gnoll elite warrior~
+Short an elite gnoll warrior~
+Long 
+An elite gnoll warrior is here resting.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 512
+Alignment 2
+Money 200
+Level 90
+Sex 1
+MobType 28
+Hp 30002
+Guard 0
+Spec spec_warrior
+End
+
+#65079
+Name gnoll trainer trenian~
+Short Trenian the trainer~
+Long 
+Trenian, the trainer of wardogs, is here beating the mutts into shape.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Level 165
+Sex 2
+MobType 28
+Hp 30003
+Guard 0
+Spec spec_warrior
+End
+
+#65080
+Name gnoll cook bresdyn~
+Short bresdyn the cook~
+Long 
+Bresdyn, the cook, stands here cooking a foul smelling hash.
+~
+AMax 1
+NHeight 0
+Affect_By 512
+Money 200
+Level 120
+Sex 2
+MobType 28
+Hp 30010
+Guard 0
+Spec spec_warrior
+ArmorClass -300
+End
+
+#65081
+Name gnoll messy regular~
+Short a messy gnoll regular~
+Long 
+A messy gnoll regular is here shovelling food in his face.
+~
+AMax 4
+NHeight 0
+ActBits 2
+Affect_By 512
+Alignment 2
+Money 100
+Level 50
+Sex 1
+MobType 28
+Hp 2
+Guard 0
+Spec spec_warrior
+End
+
+#65082
+Name gnoll regular~
+Short a gnoll regular~
+Long 
+A gnoll regular is here cleaning up after the dogs.
+~
+AMax 2
+NHeight 0
+ActBits 1
+Affect_By 512
+Alignment 2
+Level 35
+Sex 1
+MobType 28
+Hp 30015
+Guard 0
+End
+
+#65083
+Name gnoll taskmaster regryn~
+Short regryn the taskmaster~
+Long 
+Regryn the gnoll Taskmaster is here getting the troops in order.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 512
+Money 150
+Level 110
+Sex 1
+MobType 28
+Hp 30003
+Guard 0
+Spec spec_warrior
+End
+
+#65084
+Name gnoll elite warrior~
+Short an elite gnoll warrior~
+Long 
+An elite gnoll warrior is here guarding the entrance to the tent.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 512
+Alignment 2
+Money 200
+Level 90
+Sex 1
+MobType 28
+Hp 2
+Guard 3
+End
+
+#65085
+Name gnoll elite warrior~
+Short an elite gnoll warrior~
+Long 
+An elite gnoll warrior is here trying to round up the regulars.
+~
+AMax 3
+NHeight 0
+ActBits 1
+Alignment 2
+Money 200
+Level 90
+Sex 1
+MobType 28
+Hp 30001
+Guard 0
+Spec spec_warrior
+End
+
+#65086
+Name wardog puppy dog~
+Short a wardog puppy~
+Long 
+A wardog puppy is here learning to be mean.
+~
+AMax 5
+NHeight 0
+ActBits 1
+Alignment 2
+Level 25
+Sex 2
+MobType 6
+Hp 30015
+Guard 0
+ArmorClass -50
+End
+
+#65087
+Name bethany guard good~
+Short Bethany~
+Long 
+Bethany a Ranger of Light stands here protecting the young.
+~
+AMax 1
+NHeight 90
+ActBits 3
+ActBits3 524288
+ActBits4 16384
+Affect_By 680
+AffectTWO 524300
+Alignment 2
+Money 15000
+Level 500
+Sex 2
+MobType 25
+Hp 50
+Guard 0
+Spec spec_warrior
+End
+
+#65088
+Name gnoll chief grymbaol~
+Short gnoll chief grymboal~
+Long 
+Grymboal, Great Chief of the Gnolls, is here planning an attack on Taron!
+~
+AMax 5
+NHeight 0
+ActBits 2
+Affect_By 512
+Money 500
+Level 100
+Sex 1
+MobType 28
+Hp -25535
+Guard 0
+End
+
+#65143
+Name squirrel~
+Short a small squirrel~
+Long 
+A small squirrel stands here looking for nuts.
+~
+AMax 10
+NHeight 0
+Alignment 2
+Level 10
+MobType 18
+Hp 30015
+Guard 0
+GHitR 1
+GDamR -13
+ArmorClass -50
+End
+
+#0
+
+
+
+#OBJDATA
+#65075
+Name headdress chief gnoll elk~
+Short [0man [33mElk[31mSkull [33mHeaddress[0m~
+Descr
+The [33mH[31me[33ma[31md[33mr[31me[33ms[31ms[0m of a [33mG[31mn[33mo[31ml[33ml [31mC[33mh[31mi[33me[31mf[33mt[31ma[33mn[0m is here on the ground.
+[0;36m~
+Type 9
+Wear 17
+Values 0 0 2 0 15 0 5 5 0 2 0
+Weight 10
+Cost 5000
+Affect 14 10 1 0 0
+End
+
+#65076
+Name spear gnoll bone apb~
+Short [36mA [33mG[31mn[33mo[31ml[33ml[31mi[33ms[31mh [33mS[31mp[33me[31ma[33mr [36mof [31mP[33mo[31ml[33ml[31mi[33ms[31mh[33me[31md [33mB[31mo[33mn[31me.[0m~
+Descr
+[36mA spear lays discarded here on the ground.[0m
+[0;36m~
+Type 5
+Extra 393216
+Wear 16385
+Values 0 50 0 9 0 0 0 5 2 0 0
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+End
+
+#65077
+Name well fountain brick~
+Short a well~
+Descr
+A brick well has been constructed here for the gnolls to drink from.
+[0;36m~
+Type 25
+Wear 0
+Values 100 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#65078
+Name good whitie newbie blocker~
+Short good newbie xp north blocker~
+Descr
+Whitie Lowbie XP Blocker
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Values 1 0 0 0 0 0 1 39 0 0 0
+Weight 0
+Cost 0
+End
+
+#65079
+Name good whitie newbie blocker~
+Short good newbie xp south blocker~
+Descr
+Whitie Lowbie XP Blocker.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Values 0 0 1 0 0 0 1 39 0 0 0
+Weight 0
+Cost 0
+End
+
+#65080
+Name good whitie newbie blocker~
+Short good newbie xp west blocker~
+Descr
+Whitie Newbie XP Blocker.
+[0;36m~
+Type 13
+Extra 65536
+Wear 0
+Values 0 0 0 1 0 0 1 39 0 0 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#65075
+Name Taron's West Gate~
+Descr
+~
+Flags 1040
+Sector 5
+Reset M 65143 1 100
+Reset O 65080 -5 100
+Reset M 65087 1 100
+Door 3 0 0 65081 0 0
+~
+~
+Door 5 0 0 16755 0 0
+~
+~
+End
+
+#65076
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Door 0 0 0 65077 0 0
+~
+~
+Door 3 0 0 65082 0 0
+~
+~
+End
+
+#65077
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Door 1 0 0 65138 0 0
+~
+~
+Door 2 0 0 65076 0 0
+~
+~
+End
+
+#65078
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Reset M 65143 1 100
+Door 0 0 0 65079 0 0
+~
+~
+Door 1 0 0 65139 0 0
+~
+~
+End
+
+#65079
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Door 2 0 0 65078 0 0
+~
+~
+Door 3 0 0 65141 0 0
+~
+~
+End
+
+#65080
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Door 0 0 0 65081 0 0
+~
+~
+Door 3 0 0 65140 0 0
+~
+~
+End
+
+#65081
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Reset M 65143 1 100
+Door 1 0 0 65075 0 0
+~
+~
+Door 2 0 0 65080 0 0
+~
+~
+End
+
+#65082
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Reset M 65075 1 100
+Door 0 0 0 65083 0 0
+~
+~
+Door 1 0 0 65076 0 0
+~
+~
+End
+
+#65083
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Door 2 0 0 65082 0 0
+~
+~
+Door 3 0 0 65084 0 0
+~
+~
+End
+
+#65084
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Door 0 0 0 65085 0 0
+~
+~
+Door 1 0 0 65083 0 0
+~
+~
+End
+
+#65085
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Reset M 65143 1 100
+Reset M 65143 1 100
+Reset M 65085 1 100
+Door 2 0 0 65084 0 0
+~
+~
+Door 3 0 0 65086 0 0
+~
+~
+End
+
+#65086
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Door 1 0 0 65085 0 0
+~
+~
+Door 4 0 0 65087 0 0
+~
+~
+End
+
+#65087
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Reset M 65143 1 100
+Reset M 65075 1 100
+Door 3 0 0 65088 0 0
+~
+~
+Door 5 0 0 65086 0 0
+~
+~
+End
+
+#65088
+Name The End of the Path~
+Descr
+~
+Flags 16
+Sector 5
+Reset O 65080 -5 100
+Door 1 0 0 65087 0 0
+~
+~
+Door 3 0 0 65089 0 0
+~
+~
+End
+
+#65089
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65090 0 0
+~
+~
+Door 1 0 0 65088 0 0
+~
+~
+Door 2 0 0 65091 0 0
+~
+~
+Door 3 0 0 65092 0 0
+~
+~
+End
+
+#65090
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset M 65143 1 100
+Reset O 65078 -5 100
+Door 0 0 0 65099 0 0
+~
+~
+Door 2 0 0 65089 0 0
+~
+~
+Door 3 0 0 65093 0 0
+~
+~
+End
+
+#65091
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 65079 -5 100
+Reset M 65075 1 100
+Reset O 65076 -1 50
+Door 0 0 0 65089 0 0
+~
+~
+Door 2 0 0 65095 0 0
+~
+~
+Door 3 0 0 65094 0 0
+~
+~
+End
+
+#65092
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65093 0 0
+~
+~
+Door 1 0 0 65089 0 0
+~
+~
+Door 2 0 0 65094 0 0
+~
+~
+Door 3 0 0 65107 0 0
+~
+~
+End
+
+#65093
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 65078 -5 100
+Reset M 65075 1 100
+Reset O 65076 -1 50
+Door 0 0 0 65100 0 0
+~
+~
+Door 1 0 0 65090 0 0
+~
+~
+Door 2 0 0 65092 0 0
+~
+~
+Door 3 0 0 65108 0 0
+~
+~
+End
+
+#65094
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 65079 -5 100
+Reset M 65075 1 100
+Reset O 65076 -1 50
+Door 0 0 0 65092 0 0
+~
+~
+Door 1 0 0 65091 0 0
+~
+~
+Door 2 0 0 65096 0 0
+~
+~
+Door 3 0 0 65105 0 0
+~
+~
+End
+
+#65095
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65091 0 0
+~
+~
+Door 2 0 0 65097 0 0
+~
+~
+Door 3 0 0 65096 0 0
+~
+~
+End
+
+#65096
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65094 0 0
+~
+~
+Door 1 0 0 65095 0 0
+~
+~
+Door 2 0 0 65098 0 0
+~
+~
+Door 3 0 0 65104 0 0
+~
+~
+End
+
+#65097
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 128 -5 100
+Door 0 0 0 65095 0 0
+~
+~
+Door 3 0 0 65098 0 0
+~
+~
+End
+
+#65098
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 65079 -1 75
+Reset M 65075 1 100
+Reset O 65076 -1 50
+Door 0 0 0 65096 0 0
+~
+~
+Door 1 0 0 65097 0 0
+~
+~
+Door 2 0 0 65132 0 0
+~
+~
+Door 3 0 0 65103 0 0
+~
+~
+End
+
+#65099
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65101 0 0
+~
+~
+Door 2 0 0 65090 0 0
+~
+~
+Door 3 0 0 65100 0 0
+~
+~
+End
+
+#65100
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset M 65083 1 100
+Door 0 0 0 65102 0 0
+~
+~
+Door 1 0 0 65099 0 0
+~
+~
+Door 2 0 0 65093 0 0
+~
+~
+Door 3 0 0 65109 0 0
+~
+~
+End
+
+#65101
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 2 0 0 65099 0 0
+~
+~
+Door 3 0 0 65102 0 0
+~
+~
+End
+
+#65102
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 65078 -5 100
+Reset M 65075 1 100
+Door 0 0 0 65126 0 0
+~
+~
+Door 1 0 0 65101 0 0
+~
+~
+Door 2 0 0 65100 0 0
+~
+~
+Door 3 0 0 65110 0 0
+~
+~
+End
+
+#65103
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 128 -5 100
+Door 0 0 0 65104 0 0
+~
+~
+Door 1 0 0 65098 0 0
+~
+~
+Door 3 0 0 65106 0 0
+~
+~
+End
+
+#65104
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65105 0 0
+~
+~
+Door 1 0 0 65096 0 0
+~
+~
+Door 2 0 0 65103 0 0
+~
+~
+Door 3 0 0 65111 0 0
+~
+~
+End
+
+#65105
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 65079 -5 100
+Reset M 65085 1 100
+Door 0 0 0 65107 0 0
+~
+~
+Door 1 0 0 65094 0 0
+~
+~
+Door 2 0 0 65104 0 0
+~
+~
+Door 3 0 0 65112 0 0
+~
+~
+End
+
+#65106
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 128 -5 100
+Door 0 0 0 65111 0 0
+~
+~
+Door 1 0 0 65103 0 0
+~
+~
+End
+
+#65107
+Name Center of the Gnoll Encampment~
+Descr
+~
+Flags2 6
+Flags 16
+Sector 8
+Reset O 65077 -5 100
+Door 0 0 0 65108 0 0
+~
+~
+Door 1 0 0 65092 0 0
+~
+~
+Door 2 0 0 65105 0 0
+~
+~
+Door 3 0 0 65113 0 0
+~
+~
+End
+
+#65108
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 65078 -5 100
+Door 0 0 0 65109 0 0
+~
+~
+Door 1 0 0 65093 0 0
+~
+~
+Door 2 0 0 65107 0 0
+~
+~
+Door 3 0 0 65114 0 0
+~
+~
+End
+
+#65109
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65110 0 0
+~
+~
+Door 1 0 0 65100 0 0
+~
+~
+Door 2 0 0 65108 0 0
+~
+~
+Door 3 0 0 65115 0 0
+~
+~
+End
+
+#65110
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 1 0 0 65102 0 0
+~
+~
+Door 2 0 0 65109 0 0
+~
+~
+Door 3 0 0 65116 0 0
+~
+~
+End
+
+#65111
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset M 65075 1 100
+Reset O 65076 -1 50
+Door 0 0 0 65112 0 0
+~
+~
+Door 1 0 0 65104 0 0
+~
+~
+Door 2 0 0 65106 0 0
+~
+~
+End
+
+#65112
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 65080 -5 100
+Reset O 65079 -5 100
+Door 0 0 0 65113 0 0
+~
+~
+Door 1 0 0 65105 0 0
+~
+~
+Door 2 0 0 65111 0 0
+~
+~
+Door 3 3 0 65120 30 30
+~
+gate~
+End
+
+#65113
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65114 0 0
+~
+~
+Door 1 0 0 65107 0 0
+~
+~
+Door 2 0 0 65112 0 0
+~
+~
+End
+
+#65114
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset O 65080 -5 100
+Reset O 65078 -5 100
+Door 0 0 0 65115 0 0
+~
+~
+Door 1 0 0 65108 0 0
+~
+~
+Door 2 0 0 65113 0 0
+~
+~
+Door 3 3 0 65142 30 30
+~
+tent flap~
+End
+
+#65115
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Reset M 65075 1 100
+Door 0 0 0 65116 0 0
+~
+~
+Door 1 0 0 65109 0 0
+~
+~
+Door 2 0 0 65114 0 0
+~
+~
+End
+
+#65116
+Name A Gnoll Encampment~
+Descr
+~
+Flags 16
+Sector 8
+Door 1 0 0 65110 0 0
+~
+~
+Door 2 0 0 65115 0 0
+~
+~
+Door 3 259 0 65117 30 30
+~
+brush~
+End
+
+#65117
+Name Before a Large Tent~
+Descr
+~
+Flags 16
+Sector 26
+Reset M 65084 1 100
+Door 1 259 0 65116 30 30
+~
+brush~
+Door 3 3 0 65118 30 30
+~
+tent flap~
+End
+
+#65118
+Name The Gnoll Chief's Tent~
+Descr
+~
+Flags 20
+Sector 0
+Door 0 0 0 65119 0 0
+~
+~
+Door 1 3 0 65117 30 30
+~
+tent flap~
+End
+
+#65119
+Name The Gnoll Chief's Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65076 1 100
+Reset O 91 -1 40
+Reset O 65075 -1 10
+Door 2 0 0 65118 0 0
+~
+~
+End
+
+#65120
+Name A Dog Pen~
+Descr
+~
+Flags 16
+Sector 8
+Reset M 65086 1 100
+Door 0 0 0 65125 0 0
+~
+~
+Door 1 3 0 65112 30 30
+~
+gate~
+Door 3 0 0 65121 0 0
+~
+~
+End
+
+#65121
+Name A Dog Pen~
+Descr
+~
+Flags 16
+Sector 8
+Reset M 65086 1 100
+Door 0 0 0 65124 0 0
+~
+~
+Door 1 0 0 65120 0 0
+~
+~
+Door 3 0 0 65122 0 0
+~
+~
+End
+
+#65122
+Name A Dog Pen~
+Descr
+~
+Flags 16
+Sector 8
+Reset M 65086 1 100
+Reset M 65079 1 100
+Door 0 0 0 65123 0 0
+~
+~
+Door 1 0 0 65121 0 0
+~
+~
+End
+
+#65123
+Name A Dog Pen~
+Descr
+~
+Flags 16
+Sector 8
+Reset M 65086 1 100
+Door 1 0 0 65124 0 0
+~
+~
+Door 2 0 0 65122 0 0
+~
+~
+End
+
+#65124
+Name A Dog Pen~
+Descr
+~
+Flags 16
+Sector 8
+Reset M 65082 1 100
+Reset O 65076 -1 50
+Door 1 0 0 65125 0 0
+~
+~
+Door 2 0 0 65121 0 0
+~
+~
+Door 3 0 0 65123 0 0
+~
+~
+End
+
+#65125
+Name A Dog Pen~
+Descr
+~
+Flags 16
+Sector 8
+Reset M 65086 1 100
+Door 2 0 0 65120 0 0
+~
+~
+Door 3 0 0 65124 0 0
+~
+~
+End
+
+#65126
+Name A Row of Tents~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65129 0 0
+~
+~
+Door 1 3 0 65128 30 30
+~
+tent flap~
+Door 2 1 0 65102 30 30
+~
+~
+Door 3 3 0 65127 30 30
+~
+tent flap~
+End
+
+#65127
+Name A Warrior's Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65077 1 100
+Door 1 3 0 65126 30 30
+~
+tent flap~
+End
+
+#65128
+Name A Warrior's Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65077 1 100
+Door 3 3 0 65126 30 30
+~
+tent flap~
+End
+
+#65129
+Name A Row of Tents~
+Descr
+~
+Flags 16
+Sector 8
+Door 1 3 0 65131 30 30
+~
+tent flap~
+Door 2 0 0 65126 0 0
+~
+~
+Door 3 3 0 65130 30 30
+~
+tent flap~
+End
+
+#65130
+Name A Warrior's Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65078 1 100
+Door 1 3 0 65129 30 30
+~
+tent flap~
+End
+
+#65131
+Name A Warrior's Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65077 1 100
+Door 3 3 0 65129 30 30
+~
+tent flap~
+End
+
+#65132
+Name A Row of Tents~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65098 0 0
+~
+~
+Door 1 3 0 65137 30 30
+~
+tent flap~
+Door 2 0 0 65133 0 0
+~
+~
+Door 3 3 0 65134 30 30
+~
+tent flap~
+End
+
+#65133
+Name A Row of Tents~
+Descr
+~
+Flags 16
+Sector 8
+Door 0 0 0 65132 0 0
+~
+~
+Door 1 3 0 65136 30 30
+~
+tent flap~
+Door 3 3 0 65135 30 30
+~
+tent flap~
+End
+
+#65134
+Name A Warrior's Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65077 1 100
+Door 1 3 0 65132 30 30
+~
+tent flap~
+End
+
+#65135
+Name A Warrior's Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65077 1 100
+Door 1 3 0 65133 30 30
+~
+tent flap~
+End
+
+#65136
+Name A Warrior's Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65077 1 100
+Door 3 3 0 65133 30 30
+~
+tent flap~
+End
+
+#65137
+Name A Warrior's Tent~
+Descr
+~
+Flags 16
+Sector 0
+Reset M 65077 1 100
+Door 3 3 0 65132 30 30
+~
+tent flap~
+End
+
+#65138
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Reset M 65075 1 100
+Reset O 65076 -1 50
+Door 0 0 0 65139 0 0
+~
+~
+Door 3 0 0 65077 0 0
+~
+~
+End
+
+#65139
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Door 2 0 0 65138 0 0
+~
+~
+Door 3 0 0 65078 0 0
+~
+~
+End
+
+#65140
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Reset M 65082 1 100
+Reset M 65143 1 100
+Door 1 0 0 65080 0 0
+~
+~
+Door 2 0 0 65141 0 0
+~
+~
+End
+
+#65141
+Name A Narrow Path~
+Descr
+~
+Flags 16
+Sector 5
+Reset M 65085 1 100
+Door 0 0 0 65140 0 0
+~
+~
+Door 1 0 0 65079 0 0
+~
+~
+End
+
+#65142
+Name The Mess Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65143 1 100
+Reset M 65143 1 100
+Reset O 65078 -5 100
+Reset M 65081 1 100
+Door 0 0 0 65146 0 0
+~
+~
+Door 1 3 0 65114 30 30
+~
+tent flap~
+Door 3 0 0 65143 0 0
+~
+~
+End
+
+#65143
+Name The Mess Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65143 1 100
+Reset M 65081 1 100
+Reset O 65076 -1 50
+Door 0 0 0 65145 0 0
+~
+~
+Door 1 0 0 65142 0 0
+~
+~
+Door 3 3 0 65144 30 30
+~
+kitchen door~
+End
+
+#65144
+Name The Kitchen~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65080 1 100
+Door 1 3 0 65143 30 30
+~
+kitchen door~
+End
+
+#65145
+Name The Mess Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65143 1 100
+Reset M 65081 1 100
+Door 1 0 0 65146 0 0
+~
+~
+Door 2 0 0 65143 0 0
+~
+~
+End
+
+#65146
+Name The Mess Tent~
+Descr
+~
+Flags 20
+Sector 0
+Reset M 65143 1 100
+Reset M 65081 1 100
+Door 2 0 0 65142 0 0
+~
+~
+Door 3 0 0 65145 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

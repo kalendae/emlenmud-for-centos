@@ -1,0 +1,763 @@
+#AREADATA 
+Name The Wyvern Cave~
+Repop A rank smell smacks you in the face. 
+~
+SCZone 0
+Builders Bern~
+VNUMs 66496 66546
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#66500
+Name juvenile wyvern~
+Short a juvenile wyvern~
+Long 
+A juvenile wyvern is here awaiting a free meal.
+~
+AMax 4
+NHeight 0
+ActBits 4
+Affect_By 524800
+Level 90
+MobType 20
+Hp 2
+Guard 0
+BCasts dazzle~
+BCasts blink~
+BCast_P 5
+End
+
+#66501
+Name baby wyvern~
+Short a baby wyvern~
+Long 
+A baby wyvern is here awaiting food from its mother.
+~
+AMax 12
+NHeight 0
+ActBits 16
+Level 60
+MobType 20
+Hp 2
+Guard 0
+End
+
+#66502
+Name wyvern mother female~
+Short a female wyvern~
+Long 
+A mother wyvern is here tending her young.
+~
+AMax 6
+NHeight 0
+ActBits 2
+ActBits3 65536
+Affect_By 524808
+Level 120
+Sex 2
+MobType 20
+Hp 2
+Guard 66501
+BCasts dazzle~
+BCasts blink~
+BCast_P 2
+End
+
+#0
+
+
+
+#OBJDATA
+#66500
+Name wyvern's nest~
+Short a wyvern's nest~
+Descr
+A wyvern's nest is here under her protection.
+[0;36m~
+Type 12
+Wear 0
+Values 4 66531 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66501
+Name wyvern's nest~
+Short a wyvern's nest~
+Descr
+A wyvern's nest is here under her protection.
+[0;36m~
+Type 12
+Wear 0
+Values 4 66532 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66502
+Name wyvern's nest~
+Short a wyvern's nest~
+Descr
+A wyvern's nest is here under her protection.
+[0;36m~
+Type 12
+Wear 0
+Values 4 66533 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66503
+Name wyvern's nest~
+Short a wyvern's nest~
+Descr
+A wyvern's nest is here under her protection.
+[0;36m~
+Type 12
+Wear 0
+Values 4 66534 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66504
+Name wyvern's nest~
+Short a wyvern's nest~
+Descr
+A wyvern's nest is here under her protection.
+[0;36m~
+Type 12
+Wear 0
+Values 4 66545 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#66505
+Name wyvern's nest~
+Short a wyvern's nest~
+Descr
+A wyvern's nest is here under her protection.
+[0;36m~
+Type 12
+Wear 0
+Values 4 66536 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#66496
+Name The Entrance to A Dark Cave~
+Descr
+~
+Sector 37
+Door 0 0 0 66498 0 0
+~
+~
+Door 1 0 0 66497 0 0
+~
+~
+Door 2 0 0 66432 0 0
+~
+~
+End
+
+#66497
+Name The Entrance to a Dark Cave~
+Descr
+~
+Sector 37
+Door 0 0 0 66499 0 0
+~
+~
+Door 2 0 0 66433 0 0
+~
+~
+Door 3 0 0 66496 0 0
+~
+~
+End
+
+#66498
+Name A Dark Cave~
+Descr
+~
+Sector 37
+Reset M 66500 1 100
+Door 0 0 0 66501 0 0
+~
+~
+Door 1 0 0 66499 0 0
+~
+~
+Door 2 0 0 66496 0 0
+~
+~
+Door 3 0 0 66509 0 0
+~
+~
+End
+
+#66499
+Name A Dark Cave~
+Descr
+~
+Sector 37
+Door 1 0 0 66500 0 0
+~
+~
+Door 2 0 0 66497 0 0
+~
+~
+Door 3 0 0 66498 0 0
+~
+~
+End
+
+#66500
+Name A Dark Cave~
+Descr
+~
+Sector 37
+Reset M 66500 1 100
+Door 0 0 0 66503 0 0
+~
+~
+Door 3 0 0 66499 0 0
+~
+~
+End
+
+#66501
+Name A Dark Cave~
+Descr
+~
+Sector 37
+Door 0 0 0 66505 0 0
+~
+~
+Door 1 257 0 66502 30 30
+~
+~
+Door 2 0 0 66498 0 0
+~
+~
+Door 3 259 0 66546 30 30
+~
+rockwall~
+End
+
+#66502
+Name A Dark Cave~
+Descr
+~
+Sector 37
+Door 0 0 0 66506 0 0
+~
+~
+Door 1 0 0 66503 0 0
+~
+~
+Door 3 0 0 66501 0 0
+~
+~
+End
+
+#66503
+Name A Dark Cave~
+Descr
+~
+Sector 37
+Door 0 0 0 66507 0 0
+~
+~
+Door 1 0 0 66504 0 0
+~
+~
+Door 2 0 0 66500 0 0
+~
+~
+Door 3 0 0 66502 0 0
+~
+~
+End
+
+#66504
+Name The Entrance to a Dark Cave~
+Descr
+~
+Sector 37
+Door 0 0 0 66508 0 0
+~
+~
+Door 1 0 0 66476 0 0
+~
+~
+Door 3 0 0 66503 0 0
+~
+~
+End
+
+#66505
+Name A Dark Cave~
+Descr
+~
+Sector 37
+Reset M 66500 1 100
+Door 1 0 0 66506 0 0
+~
+~
+Door 2 0 0 66501 0 0
+~
+~
+End
+
+#66506
+Name A Dark Cave~
+Descr
+~
+Sector 37
+Door 1 0 0 66507 0 0
+~
+~
+Door 2 0 0 66502 0 0
+~
+~
+Door 3 0 0 66505 0 0
+~
+~
+End
+
+#66507
+Name A Dark Cave~
+Descr
+~
+Sector 37
+Reset M 66500 1 100
+Door 0 0 0 66520 0 0
+~
+~
+Door 1 0 0 66508 0 0
+~
+~
+Door 2 0 0 66503 0 0
+~
+~
+Door 3 0 0 66506 0 0
+~
+~
+End
+
+#66508
+Name The Entrance to a Dark Cave~
+Descr
+~
+Sector 37
+Door 1 0 0 66486 0 0
+~
+~
+Door 2 0 0 66504 0 0
+~
+~
+Door 3 0 0 66507 0 0
+~
+~
+End
+
+#66509
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 1 0 0 66498 0 0
+~
+~
+Door 3 0 0 66510 0 0
+~
+~
+End
+
+#66510
+Name A Junction of Tunnels~
+Descr
+~
+Sector 47
+Door 0 0 0 66517 0 0
+~
+~
+Door 1 0 0 66509 0 0
+~
+~
+Door 2 0 0 66511 0 0
+~
+~
+Door 3 0 0 66514 0 0
+~
+~
+End
+
+#66511
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 0 0 0 66510 0 0
+~
+~
+Door 3 0 0 66512 0 0
+~
+~
+End
+
+#66512
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 1 0 0 66511 0 0
+~
+~
+Door 2 0 0 66513 0 0
+~
+~
+End
+
+#66513
+Name A Wyvern's Nest~
+Descr
+~
+Sector 47
+Reset M 66502 1 100
+Reset O 66505 -5 100
+Door 0 0 0 66512 0 0
+~
+~
+End
+
+#66514
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 1 0 0 66510 0 0
+~
+~
+Door 3 0 0 66515 0 0
+~
+~
+End
+
+#66515
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 1 0 0 66514 0 0
+~
+~
+Door 2 0 0 66516 0 0
+~
+~
+End
+
+#66516
+Name A Wyvern's Nest~
+Descr
+~
+Sector 47
+Reset M 66502 1 100
+Reset O 66504 -5 100
+Door 0 0 0 66515 0 0
+~
+~
+End
+
+#66517
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 2 0 0 66510 0 0
+~
+~
+Door 3 0 0 66518 0 0
+~
+~
+End
+
+#66518
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 0 0 0 66519 0 0
+~
+~
+Door 1 0 0 66517 0 0
+~
+~
+End
+
+#66519
+Name A Wyvern's Nest~
+Descr
+~
+Sector 47
+Reset M 66502 1 100
+Reset O 66503 -5 100
+Door 2 0 0 66518 0 0
+~
+~
+End
+
+#66520
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 0 0 0 66522 0 0
+~
+~
+Door 2 0 0 66507 0 0
+~
+~
+End
+
+#66521
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 1 0 0 66522 0 0
+~
+~
+Door 2 0 0 66529 0 0
+~
+~
+End
+
+#66522
+Name A Junction of Tunnels~
+Descr
+~
+Sector 47
+Door 0 0 0 66523 0 0
+~
+~
+Door 1 0 0 66524 0 0
+~
+~
+Door 2 0 0 66520 0 0
+~
+~
+Door 3 0 0 66521 0 0
+~
+~
+End
+
+#66523
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 2 0 0 66522 0 0
+~
+~
+Door 3 0 0 66527 0 0
+~
+~
+End
+
+#66524
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 0 0 0 66525 0 0
+~
+~
+Door 3 0 0 66522 0 0
+~
+~
+End
+
+#66525
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 1 0 0 66526 0 0
+~
+~
+Door 2 0 0 66524 0 0
+~
+~
+End
+
+#66526
+Name A Wyvern's nest~
+Descr
+~
+Sector 47
+Reset M 66502 1 100
+Reset O 66500 -5 100
+Door 3 0 0 66525 0 0
+~
+~
+End
+
+#66527
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 0 0 0 66528 0 0
+~
+~
+Door 1 0 0 66523 0 0
+~
+~
+End
+
+#66528
+Name A Wyvern's nest~
+Descr
+~
+Sector 47
+Reset M 66502 1 100
+Reset O 66501 -5 100
+Door 2 0 0 66527 0 0
+~
+~
+End
+
+#66529
+Name A Smooth Tunnel~
+Descr
+~
+Sector 47
+Door 0 0 0 66521 0 0
+~
+~
+Door 3 0 0 66530 0 0
+~
+~
+End
+
+#66530
+Name A Wyvern's nest~
+Descr
+~
+Sector 47
+Reset M 66502 1 100
+Reset O 66502 -5 100
+Door 1 0 0 66529 0 0
+~
+~
+End
+
+#66531
+Name Inside the Nest~
+Descr
+~
+Flags 1
+Sector 37
+Reset M 66501 1 100
+Reset M 66501 1 100
+Door 4 0 0 66526 0 0
+~
+~
+End
+
+#66532
+Name Inside the Nest~
+Descr
+~
+Flags 1
+Sector 37
+Reset M 66501 1 100
+Reset M 66501 1 100
+Door 4 0 0 66528 0 0
+~
+~
+End
+
+#66533
+Name Inside the Nest~
+Descr
+~
+Flags 1
+Sector 37
+Reset M 66501 1 100
+Reset M 66501 1 100
+Door 4 0 0 66530 0 0
+~
+~
+End
+
+#66534
+Name Inside the Nest~
+Descr
+~
+Flags 1
+Sector 37
+Reset M 66501 1 100
+Reset M 66501 1 100
+Door 4 0 0 66519 0 0
+~
+~
+End
+
+#66536
+Name Inside the Nest~
+Descr
+~
+Flags 1
+Sector 37
+Reset M 66501 1 100
+Reset M 66501 1 100
+Door 4 0 0 66513 0 0
+~
+~
+End
+
+#66545
+Name Inside the Nest~
+Descr
+~
+Flags 1
+Sector 37
+Reset M 66501 1 100
+Reset M 66501 1 100
+Door 4 0 0 66516 0 0
+~
+~
+End
+
+#66546
+Name A Small Glowing Chamber~
+Descr
+~
+Flags2 6
+Flags 2
+Sector 37
+Door 1 259 0 66501 30 30
+~
+rockwall~
+End
+
+#0
+
+
+
+#$

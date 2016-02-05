@@ -1,0 +1,1194 @@
+#AREADATA 
+Name THE EQ AREA - DO NOT EDIT -~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Madman Demonstench   Structure Raizel~
+VNUMs 80000 80900
+NQuit 0
+Open 0
+Homeland 0
+End
+
+
+
+#MOBDATA
+#0
+
+
+
+#OBJDATA
+#80000
+Name aura knowledge infinite~
+Short [36mTh[1m[36me[0m [36maur[1m[36ma[0m [36mo[1m[36mf[0m [0m[1m[36mi[0m[1m[37mnf[0m[0m[1m[36minite[0m [36mkn[1m[36mowle[1m[37mdg[1m[36me[0m~
+Descr
+An aura of a Genius is lying here.
+[0;36m~
+Type 9
+Extra 2
+Wear 131073
+Weight 0
+Cost 3323
+Affect 13 10 1 0 0
+End
+
+#80001
+Name skullcap skull cap knowledge infinite~
+Short [36mTh[1m[36me[0m [36mSk[1m[36mu[1m[37ml[1m[36ml[0m[36mc[1m[36map[0m [36mo[1m[36mf[0m [1m[36mi[0m[1m[37mnf[0m[0m[1m[36minite[0m [36mkn[1m[36mowle[1m[37mdg[1m[36me[0m~
+Descr
+A dusty skullcap sits here, untouched.
+[0;36m~
+Type 9
+Extra 1
+Wear 17
+Weight 0
+Cost 0
+End
+
+#80002
+Name necklace neck forest eternal life~
+Short [32mA[0m [32mf[1m[32mor[1m[37me[32ms[1m[32mt[0m [32mn[1m[32me[32mc[1m[37mk[32mla[1m[32mce[0m [32mo[1m[32mf[0m [32me[1m[37mt[1m[32me[32mrn[1m[37ma[1m[32ml[0m [32ml[1m[37mi[1m[32mfe[0m~
+Descr
+An old forest necklace lies here.
+[0;36m~
+Type 9
+Extra 1
+Wear 5
+Values 0 0 3 0 0 0 10 10 0 0 0
+Weight 13
+Cost 3434
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+End
+
+#80003
+Name eyes eye necro necromancer~
+Short [31me[1m[37my[0m[31me[1m[30ms[0m [1m[30mof[0m [1m[30ma[0m [31mne[1m[37m[0mcr[31mo[1m[30m[0mm[31man[1m[30m[0mce[1m[30mr[0m~
+Descr
+Some bloody eyes have been dropped here.
+[0;36m~
+Type 9
+Extra 1
+Wear 8388609
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 9
+Cost 3433
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#80004
+Name face mask paladin anti~
+Short [1m[30mThe[0m [1m[30mm[31ma[0m[1m[30msk[0m [1m[30mof[0m [1m[30ma[0m [1m[30mp[31mal[0m[1m[30madi[31mn[0m ~
+Descr
+(none)~
+Type 9
+Extra 1
+Wear 65537
+Weight 0
+Cost 0
+End
+
+#80005
+Name frozen tear ear earring~
+Short [1m[37ma[0m [36mfr[1m[37mo[36mze[1m[37mn[0m [1m[36mt[1m[37mea[0m[36mrdr[0m[1m[37m[0mo[36mp[0m~
+Descr
+A teardrop lies on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 262145
+Weight 0
+Cost 3000
+Affect 13 5 1 0 0
+Affect -99 5 1 0 0
+Affect 20 3 1 0 0
+End
+
+#80006
+Name plate protection protect~
+Short [34mA[0m [34mp[1m[30mla[0m[34mte[0m [34mof[0m [34mPr[1m[30mot[0m[34me[0m[1m[30mcti[0m[34mon[0m~
+Descr
+(none)~
+Type 9
+Extra 1
+Wear 9
+Weight 0
+Cost 0
+End
+
+#80007
+Name ring rings protection protect~
+Short [34mA[0m [34mr[1m[30mi[0m[34mng[0m [34mof[0m [34mPr[1m[30mot[0m[34me[0m[1m[30mcti[0m[34mon[0m~
+Descr
+(none)~
+Type 9
+Extra 1
+Wear 3
+Weight 0
+Cost 0
+End
+
+#80008
+Name bracer defense ~
+Short [1m[31mA[0m [1m[31mb[1m[37mra[0m[1m[31mcer[0m [1m[31mof[0m [1m[31md[1m[37mef[0m[1m[31mense[0m~
+Descr
+(none)~
+Type 9
+Extra 1
+Wear 4097
+Weight 0
+Cost 0
+End
+
+#80009
+Name cloak defense~
+Short [1m[31mA[0m [1m[31mc[1m[37mlo[0m[1m[31mak[0m [1m[31mof[0m [1m[31md[1m[37mef[0m[1m[31mense[0m~
+Descr
+(none)~
+Type 9
+Extra 1
+Wear 1025
+Weight 0
+Cost 0
+End
+
+#80010
+Name elbow guard dragon scale~
+Short [1m[30mAn[0m [1m[30mel[31mb[1m[30mo[0m[31mw[0m[1m[30mg[0m[31mua[0m[1m[30mrd[0m [1m[30mof[0m [1m[30mdr[31ma[0m[1m[30mg[31mo[0m[1m[30mn[0m [1m[30msc[31ma[0m[1m[30ml[0m[31me[0m[1m[30ms[0m~
+Descr
+A elbowguard lies on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 1048577
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 30
+Cost 90
+Affect 13 8 1 0 0
+Affect 20 3 1 0 0
+End
+
+#80011
+Name knee guard dragon scale~
+Short [1m[30mA[0m [1m[30mkn[31mee[1m[30mg[0m[31m[0m[1m[30m[0m[31mua[0m[1m[30mrd[0m [1m[30mof[0m [1m[30mdr[31ma[0m[1m[30mg[31mo[0m[1m[30mn[0m [1m[30msc[31ma[0m[1m[30ml[0m[31me[0m[1m[30ms[0m~
+Descr
+A kneeguard lies here collecting dust.
+[0;36m~
+Type 9
+Extra 1
+Wear 2097153
+Values 2 0 0 0 0 0 10 10 0 0 0
+Weight 13
+Cost 900
+Affect 22 4 1 0 0
+End
+
+#80012
+Name boots fortune good~
+Short [35mT[1m[30mhe[0m [35mb[1m[30moo[1m[35mt[0m[1m[30ms[0m [1m[30mof[0m [35mg[1m[30moo[0m[1m[35md[0m [35mf[1m[30mor[0m[35mt[1m[30mun[0m[1m[35me[0m~
+Descr
+A boot lies here plated with runes.
+[0;36m~
+Type 9
+Extra 1
+Wear 65
+Values 5 0 0 0 0 0 0 0 0 0 0
+Weight 30
+Cost 3000
+Affect 14 25 1 0 0
+Affect 22 3 1 0 0
+End
+
+#80013
+Name sword fallen stars~
+Short a sword forged of [1m[30mfa[0m[31mll[1m[31men s[0m[31mta[1m[30mrs[0m[37m~
+Descr
+A sword forged of fallen stars lies on the ground here.
+[0;36m~
+Type 5
+Extra 2359297
+Wear 16385
+Values 0 50 0 12 0 0 0 4 4 0 0
+Weight 20
+Cost 10000
+End
+
+#80014
+Name sword cold iron soulblighter~
+Short a [1m[30mcold iron[0m[37m blade named [31m"[1m[31mSoulBlighter[0m[31m"[0m[37m~
+Descr
+A blade forged of cold iron lies on the ground here.
+[0;36m~
+Type 5
+Extra 270532610
+Wear 16385
+Values 0 40 0 1 0 0 0 5 4 0 0
+Weight 20
+Cost 15000
+End
+
+#80015
+Name sword vorpal strange black~
+Short a [1m[30mvorpal[0m[37m sword~
+Descr
+A strange black sword lies on the ground here.
+[0;36m~
+Type 5
+Wear 16385
+Values 0 100 0 1 0 0 0 3 5 0 0
+Weight 10
+Cost 1500
+End
+
+#80016
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80017
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80018
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80019
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80020
+Name gustav h4x0r~
+Short [31mG[1m[30musta[0m[31mv[0m[1m[30m's[0m [31mM[1m[30man[0m[31mual[0m [1m[30mof[0m [31mh[1m[30m4[0m[31mx[1m[30m0[0m[31mr[0m~
+Descr
+(none)~
+Type 5
+Extra 3
+Wear 1
+Weight 0
+Cost 0
+End
+
+#80100
+Name wind aura~
+Short [32man a[36m[1mu[0m[36mr[0m[32ma o[1mf t[0m[32mh[1me [36mw[0m[36min[1md[0m~
+Descr
+An aura blowing along with the wind sits here.
+[0;36m~
+Type 9
+Wear 131073
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 18 1 1 0 0
+Affect 13 5 1 0 0
+End
+
+#80101
+Name aura screaming souls~
+Short [1m[30man [37m[0mau[31mra [30m[1mof [1m[30msc[0m[31mre[1m[37ma[0m[31mmi[1m[30mng [1ms[37mo[0m[31mul[30m[1ms[0m~
+Descr
+An aura sits here screaming in the night.
+[0;36m~
+Type 9
+Extra 1
+Wear 131073
+Values 0 0 3 0 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#80102
+Name helm dwarven~
+Short an old dwarven helm~
+Descr
+An old cracked dwarven helm sits here decaying in the dust.
+[0;36m~
+Type 9
+Extra 1
+Wear 17
+Values 0 0 5 0 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 18 1 1 0 0
+End
+
+#80103
+Name pair chipped goggles~
+Short [36mA pa[1mir o[0m[36mf [1m[30mchipped[0m [36mgog[1mgle[0m[36ms[0m~
+Descr
+A blank expression sits here lying on the ground.
+[0;36m~
+Type 9
+Extra 2
+Wear 8388609
+Values 0 0 2 0 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 13 7 1 0 0
+Affect 14 7 1 0 0
+Affect 19 -1 1 0 0
+End
+
+#80104
+Name shadowy goggles~
+Short a pair of [1m[30ms[37mh[30ma[37md[30mo[37mw[30my [37mg[30mo[37mg[30mg[37ml[30me[37ms~
+Descr
+A dark looking pair of goggles lies on the floor.
+[0;36m~
+Type 9
+Wear 8388609
+Values 0 0 0 0 0 0 8 8 0 0 0
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#80105
+Name diamond studded earring~
+Short a [1m[30mdiamond[0m-studded earring~
+Descr
+A diamond studded earring lies in the dust.
+[0;36m~
+Type 9
+Extra 2
+Wear 262145
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 13 5 1 0 0
+Affect 20 3 1 0 0
+End
+
+#80106
+Name dragonscale blue mask~
+Short a [1m[34mblue dragonscale mask[0m~
+Descr
+A mask from a dragon lays here glowing.
+[0;36m~
+Type 9
+Extra 1
+Wear 65537
+Values 0 0 5 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 13 5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#80107
+Name power earring~
+Short an earring of [32mp[1mo[0m[32mw[1me[0m[32mr~
+Descr
+A earring sits here humming.
+[0;36m~
+Type 9
+Extra 2
+Wear 262145
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+End
+
+#80108
+Name anklet time~
+Short an anklet of [1m[34mt[36mi[37mm[0m[36me~
+Descr
+A shimmering anklet lies here phasing out of existence.
+[0;36m~
+Type 9
+Extra 1
+Wear 524289
+Values 3 0 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 22 3 1 0 0
+Affect 14 3 1 0 0
+End
+
+#80109
+Name cosmic helm force~
+Short a [1m[34mflimsy[30m black[0m helm~
+Descr
+A helm of the universe lies on the ground.
+[0;36m~
+Type 9
+Wear 17
+Values 0 0 5 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+End
+
+#80110
+Name ruby encrusted helmet~
+Short a [1m[31mruby[30m-[0m[32mencrusted[0m helmet~
+Descr
+An encrusted helmet is covered in dirt.
+[0;36m~
+Type 9
+Extra 1
+Wear 17
+Values 0 0 8 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 13 25 1 0 0
+End
+
+#80111
+Name shimmering necklace~
+Short a [34ms[1mh[0m[37mi[1m[30mm[0m[37mm[1m[30me[0m[37mr[1m[30mi[34mn[0m[34mg [36mn[1me[34mc[0m[34mk[37ml[1ma[30mce[0m of [1m[31ma[30mr[31mk[30ma[31mn[30me~
+Descr
+A necklace is here crumpled in the dirt.
+[0;36m~
+Type 9
+Wear 5
+Values 0 0 2 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+End
+
+#80112
+Name necklace human skulls~
+Short [33mA necklace made of human skulls[0m~
+Descr
+A necklace made of human skulls is here.
+[0;36m~
+Type 9
+Wear 5
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+End
+
+#80113
+Name mithril studded breastplate~
+Short a [36mmithril[1m[37m-studded[0m breastplate~
+Descr
+A mithril breastplate glitters in the light.
+[0;36m~
+Type 9
+Wear 9
+Values 2 10 1 1 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 19 2 1 0 0
+Affect 18 2 1 0 0
+End
+
+#80114
+Name demonic charred breastplate~
+Short a [1m[30md[31me[30mm[31mo[30mn[31mi[30mc[0m [1m[30mcharred[0m breastplate~
+Descr
+A demonic breastplate shimmers with evil.
+[0;36m~
+Type 9
+Wear 9
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 41
+Cost 3002
+Affect 14 5 1 0 0
+Affect 18 2 1 0 0
+Affect 13 10 1 0 0
+End
+
+#80115
+Name glittering silver cloak~
+Short a [1m[37mglittering silver[0m cloak~
+Descr
+A glittering cloak lies on the ground reflecting light.
+[0;36m~
+Type 9
+Extra 1
+Wear 4194305
+Values 0 5 0 0 0 0 10 10 0 0 0
+Weight 9
+Cost 300
+Affect 14 25 1 0 0
+Affect 18 3 1 0 0
+End
+
+#80116
+Name velvet black chainmail breastplate~
+Short a [31mvelvet [1m[30mblack[37m chainmail[0m breastplate~
+Descr
+A velvet-black dyed breastplate lies here decaying.
+[0;36m~
+Type 9
+Extra 1
+Wear 9
+Values 0 3 0 0 0 0 0 0 0 0 0
+Weight 53
+Cost 3933
+Affect 13 5 1 0 0
+Affect 19 1 1 0 0
+Affect 14 2 1 0 0
+Affect 18 1 1 0 0
+End
+
+#80117
+Name crimson spectacular robe light~
+Short a [31mcrimson [36mspec[1mtacul[0m[36mar [0mrobe of [1m[33mlight~
+Descr
+A spectacular robe lies here gleaming with light
+[0;36m~
+Type 9
+Wear 4194305
+Values 0 3 0 0 0 0 10 10 0 0 0
+Weight 9
+Cost 2300
+Affect 13 15 1 0 0
+Affect 14 5 1 0 0
+End
+
+#80118
+Name crimson baldric~
+Short a [31mcrimson[0m baldric~
+Descr
+A baldric lies on the ground collecting dust.
+[0;36m~
+Type 9
+Wear 32769
+Values 0 5 0 0 0 0 0 0 0 0 0
+Weight 10
+Cost 0
+Affect 13 10 1 0 0
+End
+
+#80119
+Name flaming spiked shoulderplate~
+Short a [31mf[1ml[33ma[37mm[33mi[31mn[0m[31mg[0m [1m[30mspiked[0m shoulderplate~
+Descr
+A flaming shoulderpiece lies here in mud.
+[0;36m~
+Type 9
+Wear 32769
+Values 0 3 0 0 0 0 10 10 0 0 0
+Weight 34
+Cost 900
+Affect 19 1 1 0 0
+Affect 18 3 1 0 0
+End
+
+#80120
+Name glorius battle shield~
+Short a [34m[1mgl[0m[34mor[1mius [1m[36mba[0m[36mtt[1mle[0m shield~
+Descr
+A glorious shield of many battles sits here gleaming with pride.
+[0;36m~
+Type 9
+Extra 2
+Wear 513
+Values 2 4 4 4 0 0 10 10 0 0 0
+Weight 34
+Cost 312
+Affect 18 3 1 0 0
+Affect 19 1 1 0 0
+End
+
+#80121
+Name leafy protection shield~
+Short [1m[36mA [0m[32mle[1maf[0m[32my [36mpr[1mot[0m[36mec[1m[34mti[0m[36mon [1msh[1m[37mie[36mld~
+Descr
+A leafy shield glows here awaiting a new owner.
+[0;36m~
+Type 9
+Extra 1
+Wear 513
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 21
+Cost 3212
+Affect 13 5 1 0 0
+Affect 18 1 1 0 0
+End
+
+#80122
+Name gauntlets water~
+Short a pair of [1m[34mwater-filled[0m [36mgau[1mntl[0m[36mets[0m~
+Descr
+Gauntlets made of pure water sit here seeping into the ground.
+[0;36m~
+Type 9
+Extra 2
+Wear 129
+Values 0 0 0 5 0 0 10 10 0 0 0
+Weight 20
+Cost 300
+Affect 14 10 1 0 0
+Affect 13 5 1 0 0
+Affect 20 3 1 0 0
+End
+
+#80123
+Name mithril engraved gauntlets~
+Short a pair of engraved [1m[30mm[36mit[37mh[36mr[0m[36mi[1m[30ml[0m gauntlets~
+Descr
+A pair of gauntlets lie on the ground engraved with mithril.
+[0;36m~
+Type 9
+Wear 129
+Values 0 0 0 3 0 0 10 10 0 0 0
+Weight 31
+Cost 3000
+Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+Affect 14 2 1 0 0
+End
+
+#80124
+Name scorched charred gauntlets~
+Short a pair of [31msco[1m[30mrc[0m[31mhed [1m[30mcharred[0m gauntlets~
+Descr
+A scorched pair of gauntlets lie on the ground burning.
+[0;36m~
+Type 9
+Wear 129
+Values 0 0 0 5 0 0 10 10 0 0 0
+Weight 32
+Cost 302
+Affect 19 1 1 0 0
+Affect 14 5 1 0 0
+End
+
+#80125
+Name purple sleeves~
+Short a pair of strange [35mpurple[0m sleeves~
+Descr
+A pair of strange looking purple sleeves are on the ground.
+[0;36m~
+Type 9
+Wear 257
+Values 0 0 0 8 0 0 10 10 0 0 0
+Weight 23
+Cost 3123
+Affect 13 10 1 0 0
+Affect 14 5 1 0 0
+End
+
+#80126
+Name titanium embroidered sleeves~
+Short a pair of [1m[30membroidered[0m[36m titanium[0m sleeves~
+Descr
+A pair of titanium sleeves lie in the dust.
+[0;36m~
+Type 9
+Extra 1
+Wear 257
+Values 0 0 0 4 0 0 10 10 0 0 0
+Weight 0
+Cost 0
+Affect 19 1 1 0 0
+End
+
+#80127
+Name blackened silk sleeves~
+Short a pair of [1m[30mblackened silk[0m sleeves~
+Descr
+A pair of silk sleeves lie on the ground.
+[0;36m~
+Type 9
+Wear 257
+Values 0 0 0 3 0 0 10 10 0 0 0
+Weight 9
+Cost 3021
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+End
+
+#80128
+Name elbowpad dark energy~
+Short an elbowpad of [30m[1mdark en[35merg[30my[0m~
+Descr
+A dark illuminating elbowpad lies on the ground full of energy
+[0;36m~
+Type 9
+Extra 1
+Wear 1048577
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 10
+Cost 1012
+Affect 19 1 1 0 0
+End
+
+#80129
+Name molten lava elbowpad~
+Short an elbowpad made of [31mm[1mo[0m[31ml[1mt[0m[31me[1mn l[1m[33ma[0m[31mv[1m[33ma[0m~
+Descr
+A elbowpad lays on the ground boiling hot.
+[0;36m~
+Type 9
+Wear 1048577
+Values 0 0 0 2 0 0 10 10 0 0 0
+Weight 3
+Cost 323
+Affect 13 5 1 0 0
+Affect 20 3 1 0 0
+End
+
+#80130
+Name jet black obsidian bracelet~
+Short a [1m[30mjet-black obsidian[0m bracelet~
+Descr
+A black looking bracelet lays on the ground.
+[0;36m~
+Type 9
+Extra 2
+Wear 4097
+Weight 30
+Cost 202
+Affect 13 10 1 0 0
+Affect 14 5 1 0 0
+End
+
+#80131
+Name well worn leather wristguard~
+Short a well-worn [33mleather[0m wristguard~
+Descr
+A leather bracer lies on the ground torn and abused.
+[0;36m~
+Type 9
+Wear 4097
+Values 0 0 0 1 0 0 5 5 0 0 0
+Weight 1
+Cost 3
+Affect 14 5 1 0 0
+End
+
+#80132
+Name ring frost~
+Short a ring of [1m[34mf[36mros[34mt[0m~
+Descr
+A ring shimmering with glow lies here.
+[0;36m~
+Type 9
+Extra 2
+Wear 3
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 5
+Cost 300
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+End
+
+#80133
+Name ring sapphire spiked~
+Short a [1m[30mspiked [34ms[0m[34ma[1mp[0m[34mp[1mh[0m[34mi[1mr[0m[34me[0m ring~
+Descr
+A ring lies on the ground covered in sapphires.
+[0;36m~
+Type 9
+Wear 3
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 1
+Cost 30
+Affect 19 1 1 0 0
+End
+
+#80134
+Name ethereal smoked sash~
+Short an [1m[30methereal-smoked[0m sash~
+Descr
+A sash lies on the ground.
+[0;36m~
+Type 9
+Wear 2049
+Values 3 0 0 0 0 0 10 10 0 0 0
+Weight 9
+Cost 90
+Affect 19 1 1 0 0
+End
+
+#80135
+Name hellish belt rock~
+Short a belt made of [31mhe[1mlli[0m[31msh [30m[1mrock[0m~
+Descr
+A belt made of smoking rock lies on the ground.
+[0;36m~
+Type 9
+Wear 2049
+Values 5 0 0 0 0 0 10 10 0 0 0
+Weight 12
+Cost 320
+Affect 13 8 1 0 0
+Affect 20 3 1 0 0
+End
+
+#80136
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80137
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80138
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80139
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80140
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80141
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80142
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80143
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80144
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80145
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80146
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80147
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80148
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80149
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80150
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80151
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80152
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80153
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80154
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80155
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80156
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80157
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80158
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80159
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80160
+Name no name~
+Short (none)~
+Descr
+(none)~
+Type 13
+Wear 0
+Weight 0
+Cost 0
+End
+
+#80200
+Name the boots of speed~
+Short the boots of [36ms[36m[1mp[0m[36me[1m[36me[0m[36md[0m~
+Descr
+A pair of [30m[1mblack boots [0mlie here.
+[0;36m~
+Type 9
+Wear 65
+Values 3 0 0 0 0 0 10 10 0 0 0
+Weight 30
+Cost 30
+Affect 14 10 1 0 0
+Affect 22 5 1 0 0
+End
+
+#80201
+Name a dull blue ring~
+Short [34m[1ma dull blue ring[0m~
+Descr
+[0m[37ma dark [34m[1mblue ring [37m[0m[37mlies here on the ground.
+[0;36m~
+Type 9
+Extra 1
+Wear 3
+Values 0 0 0 0 0 0 10 10 0 0 0
+Weight 2
+Cost 900
+Affect 13 10 1 0 0
+End
+
+#80202
+Name some purple sleeves~
+Short [0m[37msome [35mpurple [0m[37msleeves[0m~
+Descr
+A set of [35mpurple[0m sleeves lie here.
+[0;36m~
+Type 9
+Wear 257
+Weight 0
+Cost 0
+End
+
+#80800
+Name wyrmhide leggings~
+Short a pair of [0m[33mwy[1m[30mr[0m[33mmhide leggings~
+Descr
+(none)~
+Type 33
+Wear 1
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#80000
+Name ~
+Descr
+~
+End
+
+#0
+
+
+
+#$

@@ -1,0 +1,4708 @@
+#AREADATA 
+Name The House of Magic~
+Repop The area seems alive again!
+~
+SCZone 0
+Builders Kerit~
+VNUMs 55301 55501
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#55301
+Name water monster~
+Short a water monster~
+Long 
+An ugly slimmy water monster is swimming here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 40
+Level 200
+Hp 8
+Guard 0
+End
+
+#55302
+Name no name~
+Short an unidentified creature~
+Long 
+An unidentified creature roaming the area ignorantly.
+~
+AMax 8
+NHeight 0
+ActBits 2
+Affect_By 40
+Level 120
+Hp 5
+Guard 0
+End
+
+#55303
+Name black pawn~
+Short a black pawn~
+Long 
+A black pawn stand guarding here, tall and proud!
+~
+AMax 8
+NHeight 0
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55304
+Name white pawn~
+Short a white pawn~
+Long 
+A white pawn stand guarding here, tall and proud!
+~
+AMax 8
+NHeight 0
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55305
+Name black rook~
+Short a black rook~
+Long 
+A black rook is here, standing his post!
+~
+AMax 2
+NHeight 0
+Affect_By 40
+Level 120
+Hp 5
+Guard 0
+End
+
+#55306
+Name white rook~
+Short a white rook~
+Long 
+A white rook is here, standing his post!
+~
+AMax 2
+NHeight 0
+Affect_By 40
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55307
+Name white knight~
+Short a white knight~
+Long 
+A white knight on a horse is here.
+~
+AMax 2
+NHeight 0
+Affect_By 40
+Money 100
+Level 120
+Hp 5
+Guard 0
+End
+
+#55308
+Name black knight~
+Short a black knight~
+Long 
+A black knight on a horse is here.
+~
+AMax 2
+NHeight 0
+Affect_By 40
+Money 100
+Level 200
+Hp 5
+Guard 0
+End
+
+#55309
+Name black bishop~
+Short a black bishop~
+Long 
+A black bishop is in position here.
+~
+AMax 2
+NHeight 0
+Affect_By 40
+Money 100
+Level 120
+Hp 5
+Guard 0
+End
+
+#55310
+Name white bishop~
+Short a white bishop~
+Long 
+A white bishop is in position here.
+~
+AMax 2
+NHeight 0
+Affect_By 40
+Money 100
+Level 300
+Hp 5
+Guard 0
+End
+
+#55311
+Name black queen~
+Short a black queen~
+Long 
+A black queen is here, guarding her property.
+~
+AMax 1
+NHeight 0
+Affect_By 40
+Money 100
+Level 150
+Hp 4
+Guard 0
+End
+
+#55312
+Name white queen~
+Short a white queen~
+Long 
+A white queen is here, guarding her property.
+~
+AMax 1
+NHeight 0
+Affect_By 40
+Money 100
+Level 150
+Hp 4
+Guard 0
+End
+
+#55313
+Name white king~
+Short a white king~
+Long 
+A white king is here, guarding his castle.
+~
+AMax 1
+NHeight 0
+Affect_By 40
+Money 150
+Level 300
+Hp 20
+Guard 0
+End
+
+#55314
+Name black king~
+Short a black king~
+Long 
+A black king is here, guarding his castle.
+~
+AMax 1
+NHeight 0
+Affect_By 40
+Money 150
+Level 200
+Hp 7
+Guard 0
+End
+
+#55315
+Name lost scared human~
+Short a scared human~
+Long 
+A lost and scared human is hidding here.
+~
+AMax 1
+NHeight 0
+Affect_By 65536
+Money 50
+Level 120
+MobType 0
+Hp 5
+Guard 0
+Spec spec_warrior
+End
+
+#55316
+Name dying mage~
+Short a dying mage~
+Long 
+A dying mage is lying here helplessly.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 168
+Money 50
+Level 350
+MobType 1
+Hp 30
+Guard 0
+BCasts collapsing fire ring~
+BCast_P 50
+End
+
+#55317
+Name healer healing adventurer dwarf~
+Short an adventurer~
+Long 
+An exhausted adventurer is resting here for his next adventure.
+~
+AMax 1
+NHeight 0
+Affect_By 40
+Money 50
+Level 120
+Sex 1
+MobType 2
+Hp 5
+Guard 0
+End
+
+#55318
+Name floating candle~
+Short a floating candle~
+Long 
+A candle is floating here, mysteriously.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524288
+Level 120
+Hp 5
+Guard 0
+End
+
+#55319
+Name magical brush~
+Short a magical brush~
+Long 
+A wild brush is painting the south wall recklessly and madly.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55320
+Name floating spirit~
+Short a floating spirit~
+Long 
+A spirit of one the othe adventures, who lost and died in the house, is trapped here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+MobType 21
+Hp 5
+Guard 0
+End
+
+#55321
+Name floating card~
+Short a floating card~
+Long 
+A floating card is waiting here for it's next master.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55322
+Name mystical fire circling~
+Short a mystical fire~
+Long 
+A ball of mystical floating fire is circling the room endlessly.
+~
+AMax 1
+NHeight 0
+ActBits 2
+AffectTWO 33554432
+Level 120
+Hp 2
+Guard 0
+End
+
+#55323
+Name wave sounds~
+Short a wave of sounds~
+Long 
+A wave of sounds echo through the room here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55324
+Name magic stick~
+Short a magic stick~
+Long 
+A magic stick is here awaiting for it's next master.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55325
+Name status magician~
+Short a status of a magician~
+Long 
+A status of a magician stands firm and proud here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55326
+Name rope floating~
+Short a floating rope~
+Long 
+A rope is floating in the air here without support of anything.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55327
+Name magic book flying~
+Short a magic book~
+Long 
+A flying book is here flapping it's pages.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524288
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55328
+Name grandfather clock~
+Short a grandfather clock~
+Long 
+A grandfather clock is here ticking.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55329
+Name tiny green ferry~
+Short a green ferry~
+Long 
+A tiny green ferry is floating in the center of this room.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55330
+Name three-headed creature beast~
+Short a three-headed beast~
+Long 
+A three-headed creature is here patrolling the area.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55331
+Name floating carpet~
+Short a floating carpet~
+Long 
+A carpet is here floating in mid-air.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55332
+Name talking rabbit~
+Short a talking rabbit~
+Long 
+A talking rabbit greets you as you come in.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Level 120
+Hp 5
+Guard 0
+End
+
+#55333
+Name pointy hat~
+Short a pointy hat~
+Long 
+A pointy long hat is floating in midair here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+BCasts flamethrower~
+BCast_P 100
+End
+
+#55334
+Name magical wand~
+Short a magical wand~
+Long 
+A magical wand spinning in midair, looks like it try to relieve something.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55335
+Name blind flying lizard~
+Short a flying lizard~
+Long 
+A blind flying lizard in searching for it's lost eyeballs.
+~
+AMax 1
+NHeight 0
+ActBits 10
+Affect_By 524288
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55336
+Name wooden person~
+Short a wooden person~
+Long 
+A person made of wooden is learning to walk here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55337
+Name flying pig~
+Short a flying pig~
+Long 
+A flying pig is here trying to land, but do not know how.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Affect_By 524288
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55338
+Name human man wing~
+Short a man~
+Long 
+A man is trying to grow his wings here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+MobType 0
+Hp 5
+Guard 0
+End
+
+#55339
+Name apprentice student magic~
+Short a student of magic~
+Long 
+An apprentice of magic is here practicing his spells.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Sex 1
+Hp 5
+Guard 0
+End
+
+#55340
+Name dancing rose~
+Short a dancing rose~
+Long 
+A dancing rose is here practicing its dance steps.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Money 50
+Level 120
+Hp 5
+Guard 0
+End
+
+#55341
+Name tinman person~
+Short a tinman~
+Long 
+A person made of strong tin matel is here.
+~
+AMax 1
+NHeight 0
+ActBits 2
+Level 120
+Hp 5
+Guard 0
+End
+
+#55342
+Name flying ant~
+Short a flying ant~
+Long 
+A flying ant is here.
+~
+AMax 12
+NHeight 0
+ActBits 8
+Affect_By 524288
+Level 50
+Guard 0
+End
+
+#0
+
+
+
+#OBJDATA
+#55301
+Name portal~
+Short a odd-shaped portal stands here~
+Descr
+An odd-shaped portal sits in this room taking up space.
+[0;36m~
+Type 12
+Wear 0
+Values 4 10366 10366 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#55302
+Name tree~
+Short a huge tall tree~
+Descr
+A huge tall tree glows strong here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 55301 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#55303
+Name wing wings giantic~
+Short a pair of giantic wings~
+Descr
+[1m[37m-[33m=[37m* Floating *[33m=[37m- [0m[37mA huge pair of wings is floating here.
+[0;36m~
+Type 30
+Wear 0
+Values 1 0 55349 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#55304
+Name stone table chess chessboard~
+Short a stone table with a chessboard drawn on it~
+Descr
+[1m[33m-[32m=[33m* [37mMagical [33m*[32m=[33m- [0m[37mA stone table with a chessboard drawn on it is located in the center.
+[0;36m~
+Type 12
+Wear 0
+Values 4 55412 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#55305
+Name mystical fountain~
+Short a magical fountain~
+Descr
+[1m[37m-=* [33mS[37mp[33ma[37mr[33mk[37ml[33mi[37mn[33mg [37m*=- [0m[37mA mystical fountain is gleaming here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 55500 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#55306
+Name water trail~
+Short a water trail~
+Descr
+A long water trail running from the hole in the wall here.
+[0;36m~
+Type 25
+Wear 0
+Weight 0
+Cost 0
+End
+
+#55307
+Name crystal clear ice dagger~
+Short a [1m[34mc[0m[36mr[1my[30ms[37mt[0m[36ma[1m[34ml[0m dagger of [1m[34mi[0m[36mc[1m[30me[0m~
+Descr
+A crystal clear ice dagger is on the ground melting.
+[0;36m~
+Type 5
+Extra 33685506
+Wear 24577
+Values 0 0 0 11 0 0 0 6 3 0 0
+Weight 60
+Cost 5000
+End
+
+#55308
+Name ring dying mage apb~
+Short a [1m[34mr[30mi[0m[37mn[1mg[0m of a [36md[1myin[0m[36mg [1m[34mm[0m[36ma[1m[34mg[36me[0m~
+Descr
+A ring of the dying mage is here lying on the ground
+[0;36m~
+Type 9
+Extra 1
+Wear 3
+Values 0 0 0 4 10 0 0 0 0 0 0
+Weight 15
+Cost 1000
+Affect 18 2 1 0 0
+Affect 13 -5 1 0 0
+Affect 19 1 1 0 0
+End
+
+#55309
+Name boots white king apb~
+Short a pair of [36mb[1moot[0m[36ms[0m of the [1m[37mw[0m[37mh[1m[30mi[0m[37mt[1me [30mk[0m[37mi[1mn[30mg[0m~
+Descr
+A pair of boots from the white king is lying on the ground.
+[0;36m~
+Type 9
+Extra 33554433
+Wear 65
+Values 8 0 0 0 0 0 0 0 0 0 0
+Weight 20
+Cost 5000
+Affect 22 2 1 0 0
+Affect 13 -5 1 0 0
+Affect 19 1 1 0 0
+Affect 18 -1 1 0 0
+End
+
+#55389
+Name sign note~
+Short a small sign~
+Descr
+A small sign saying "The Smiths can help you on your journey"
+[0;36m~
+Type 28
+Wear 0
+Weight 0
+Cost 0
+End
+
+#55417
+Name painting paint~
+Short a magical painting~
+Descr
+[1m[36m-[33m=[36m* [37mShimmering [36m*[33m=[36m- [0m[37mA painting of an empty dining room is hanging on the wall here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 55489 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#55418
+Name light~
+Short a portal of blight light~
+Descr
+A portal of blight light
+[0;36m~
+Type 12
+Extra 65536
+Wear 0
+Values 4 41001 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#55301
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Reset O 55301 -5 100
+Door 4 0 0 55302 0 0
+~
+~
+End
+
+#55302
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 0 0 0 55303 0 0
+~
+~
+Door 1 0 0 55311 0 0
+~
+~
+Door 2 0 0 55307 0 0
+~
+~
+Door 3 0 0 55315 0 0
+~
+~
+Door 4 0 0 55324 0 0
+~
+~
+Door 5 0 0 55301 0 0
+~
+~
+End
+
+#55303
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 0 0 0 55304 0 0
+~
+~
+Door 2 0 0 55302 0 0
+~
+~
+End
+
+#55304
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Reset M 55342 1 100
+Door 1 0 0 55305 0 0
+~
+~
+Door 2 0 0 55303 0 0
+~
+~
+End
+
+#55305
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 1 0 0 55306 0 0
+~
+~
+Door 3 0 0 55304 0 0
+~
+~
+End
+
+#55306
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 3 0 0 55305 0 0
+~
+~
+End
+
+#55307
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 0 0 0 55302 0 0
+~
+~
+Door 2 0 0 55308 0 0
+~
+~
+End
+
+#55308
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Reset M 55342 1 100
+Door 0 0 0 55307 0 0
+~
+~
+Door 3 0 0 55309 0 0
+~
+~
+End
+
+#55309
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 1 0 0 55308 0 0
+~
+~
+Door 3 0 0 55310 0 0
+~
+~
+End
+
+#55310
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 1 0 0 55309 0 0
+~
+~
+End
+
+#55311
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 1 0 0 55312 0 0
+~
+~
+Door 3 0 0 55302 0 0
+~
+~
+End
+
+#55312
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 0 0 0 55322 0 0
+~
+~
+Door 2 0 0 55313 0 0
+~
+~
+Door 3 0 0 55311 0 0
+~
+~
+End
+
+#55313
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Reset M 55342 1 100
+Door 0 0 0 55312 0 0
+~
+~
+Door 2 0 0 55314 0 0
+~
+~
+End
+
+#55314
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 0 0 0 55313 0 0
+~
+~
+Door 3 0 0 55323 0 0
+~
+~
+End
+
+#55315
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 1 0 0 55302 0 0
+~
+~
+Door 3 0 0 55316 0 0
+~
+~
+End
+
+#55316
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 0 0 0 55317 0 0
+~
+~
+Door 1 0 0 55315 0 0
+~
+~
+Door 2 0 0 55320 0 0
+~
+~
+End
+
+#55317
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 0 0 0 55318 0 0
+~
+~
+Door 2 0 0 55316 0 0
+~
+~
+End
+
+#55318
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Reset M 55342 1 100
+Door 1 0 0 55319 0 0
+~
+~
+Door 2 0 0 55317 0 0
+~
+~
+End
+
+#55319
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 3 0 0 55318 0 0
+~
+~
+End
+
+#55320
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 0 0 0 55316 0 0
+~
+~
+Door 2 0 0 55321 0 0
+~
+~
+End
+
+#55321
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Reset M 55342 1 100
+Door 0 0 0 55320 0 0
+~
+~
+End
+
+#55322
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Reset M 55342 1 100
+Door 2 0 0 55312 0 0
+~
+~
+End
+
+#55323
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 1 0 0 55314 0 0
+~
+~
+End
+
+#55324
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 4 0 0 55325 0 0
+~
+~
+Door 5 0 0 55302 0 0
+~
+~
+End
+
+#55325
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 0 0 0 55326 0 0
+~
+~
+Door 3 0 0 55340 0 0
+~
+~
+Door 4 0 0 55341 0 0
+~
+~
+Door 5 0 0 55324 0 0
+~
+~
+End
+
+#55326
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 0 0 0 55327 0 0
+~
+~
+Door 2 0 0 55325 0 0
+~
+~
+End
+
+#55327
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 1 0 0 55328 0 0
+~
+~
+Door 2 0 0 55326 0 0
+~
+~
+End
+
+#55328
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 1 0 0 55329 0 0
+~
+~
+Door 3 0 0 55327 0 0
+~
+~
+End
+
+#55329
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 2 0 0 55330 0 0
+~
+~
+Door 3 0 0 55328 0 0
+~
+~
+End
+
+#55330
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Reset M 55342 1 100
+Door 0 0 0 55329 0 0
+~
+~
+Door 2 0 0 55331 0 0
+~
+~
+End
+
+#55331
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 0 0 0 55330 0 0
+~
+~
+Door 2 0 0 55332 0 0
+~
+~
+End
+
+#55332
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Reset M 55342 1 100
+Door 0 0 0 55331 0 0
+~
+~
+Door 2 0 0 55333 0 0
+~
+~
+End
+
+#55333
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 0 0 0 55332 0 0
+~
+~
+Door 3 0 0 55334 0 0
+~
+~
+End
+
+#55334
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 1 0 0 55333 0 0
+~
+~
+Door 3 0 0 55335 0 0
+~
+~
+End
+
+#55335
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 0 0 0 55336 0 0
+~
+~
+Door 1 0 0 55334 0 0
+~
+~
+End
+
+#55336
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Reset M 55342 1 100
+Door 2 0 0 55335 0 0
+~
+~
+Door 3 0 0 55337 0 0
+~
+~
+End
+
+#55337
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 1 0 0 55336 0 0
+~
+~
+Door 3 0 0 55338 0 0
+~
+~
+End
+
+#55338
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 0 0 0 55339 0 0
+~
+~
+Door 1 0 0 55337 0 0
+~
+~
+End
+
+#55339
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 1 0 0 55340 0 0
+~
+~
+Door 2 0 0 55338 0 0
+~
+~
+End
+
+#55340
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Flags 4
+Sector 27
+Door 1 0 0 55325 0 0
+~
+~
+Door 3 0 0 55339 0 0
+~
+~
+End
+
+#55341
+Name On a Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Door 4 0 0 55342 0 0
+~
+~
+Door 5 0 0 55325 0 0
+~
+~
+End
+
+#55342
+Name In the Air~
+Descr
+You are flying high above the ground. You would have a heart-attack if
+you are afraid of height and looking down. You can also see far to the two
+sides of the horizon because there is nothing high enough to block your
+view. 
+~
+Sector 14
+Door 3 0 0 55343 0 0
+~
+~
+Door 5 0 0 55341 0 0
+~
+~
+End
+
+#55343
+Name In the Air~
+Descr
+You are flying high above the ground. You would have a heart-attack if
+you are afraid of height and looking down. You can also see far to the two
+sides of the horizon because there is nothing high enough to block your
+view. 
+~
+Sector 14
+Reset M 55342 1 100
+Door 1 0 0 55342 0 0
+~
+~
+Door 3 0 0 55344 0 0
+~
+~
+End
+
+#55344
+Name In the Air~
+Descr
+You are flying high above the ground. You would have a heart-attack if
+you are afraid of height and looking down. You can also see far to the two
+sides of the horizon because there is nothing high enough to block your
+view. 
+~
+Sector 14
+Door 1 0 0 55343 0 0
+~
+~
+Door 3 0 0 55345 0 0
+~
+~
+End
+
+#55345
+Name In the Air~
+Descr
+You are flying high above the ground. You would have a heart-attack if
+you are afraid of height and looking down. You can also see far to the two
+sides of the horizon because there is nothing high enough to block your
+view. 
+~
+Sector 14
+Door 1 0 0 55344 0 0
+~
+~
+Door 3 0 0 55346 0 0
+~
+~
+End
+
+#55346
+Name In the Air~
+Descr
+You are flying high above the ground. You would have a heart-attack if
+you are afraid of height and looking down. You can also see far to the two
+sides of the horizon because there is nothing high enough to block your
+view. 
+~
+Sector 14
+Reset M 55342 1 100
+Door 1 0 0 55345 0 0
+~
+~
+Door 3 0 0 55347 0 0
+~
+~
+End
+
+#55347
+Name In the Air~
+Descr
+You are flying high above the ground. You would have a heart-attack if
+you are afraid of height and looking down. You can also see far to the two
+sides of the horizon because there is nothing high enough to block your
+view. 
+~
+Sector 14
+Door 1 0 0 55346 0 0
+~
+~
+Door 3 0 0 55348 0 0
+~
+~
+End
+
+#55348
+Name On top a of Huge Tall Tree~
+Descr
+This is tree is tall and huge. Climbing is still managable if you have
+great skill. Looking upward, the tree seems to glow forever. Looking to the
+side, it is so big, it seems as it got no end. 
+~
+Sector 27
+Reset O 55303 -5 100
+Door 1 0 0 55347 0 0
+~
+~
+End
+
+#55349
+Name On a Huge Pair of Wings~
+Descr
+This pair of wings spread out so wide and far, you feel as if you are
+riding on a giant bird. But this pair of wings got no head nor tail like a
+bird does, it is just a pair of wings. 
+~
+Flags2 8
+Flags 4
+Sector 0
+Move_dir 4
+Door 4 259 0 55350 30 30
+~
+~
+End
+
+#55350
+Name On a Huge Pair of Wings~
+Descr
+This pair of wings spread out so wide and far, you feel as if you are
+riding on a giant bird. But this pair of wings got no head nor tail like a
+bird does, it is just a pair of wings. 
+~
+Flags2 8
+Flags 4
+Sector 0
+Move_dir 4
+Door 4 259 0 55351 30 30
+~
+~
+Door 5 259 0 55349 30 30
+~
+~
+End
+
+#55351
+Name On a Huge Pair of Wings~
+Descr
+This pair of wings spread out so wide and far, you feel as if you are
+riding on a giant bird. But this pair of wings got no head nor tail like a
+bird does, it is just a pair of wings. 
+~
+Flags2 8
+Flags 4
+Sector 0
+Move_dir 4
+Door 4 259 0 55352 30 30
+~
+~
+Door 5 259 0 55350 30 30
+~
+~
+End
+
+#55352
+Name Before the House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 3 0 55353 30 30
+~
+magic-curtain~
+Door 5 259 0 55351 30 30
+~
+~
+End
+
+#55353
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset O 55305 -5 100
+Door 0 0 0 55371 0 0
+~
+~
+Door 1 0 0 55354 0 0
+~
+~
+Door 2 0 0 55372 0 0
+~
+~
+End
+
+#55354
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55355 0 0
+~
+~
+Door 3 0 0 55353 0 0
+~
+~
+End
+
+#55355
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55387 0 0
+~
+~
+Door 1 0 0 55356 0 0
+~
+~
+Door 2 0 0 55386 0 0
+~
+~
+Door 3 0 0 55354 0 0
+~
+~
+End
+
+#55356
+Name Center of the House~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags2 6
+Flags 6
+Sector 0
+Reset O 55304 -5 100
+Door 0 3 19091 55389 30 30
+~
+door~
+Door 1 0 0 55357 0 0
+~
+~
+Door 2 0 0 55388 0 0
+~
+~
+Door 3 0 0 55355 0 0
+~
+~
+Door 5 259 0 55413 30 30
+~
+secret~
+End
+
+#55357
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55390 0 0
+~
+~
+Door 1 0 0 55358 0 0
+~
+~
+Door 2 0 0 55391 0 0
+~
+~
+Door 3 0 0 55356 0 0
+~
+~
+End
+
+#55358
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55359 0 0
+~
+~
+Door 3 0 0 55357 0 0
+~
+~
+End
+
+#55359
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset O 55417 -5 100
+Door 0 0 0 55360 0 0
+~
+~
+Door 2 0 0 55383 0 0
+~
+~
+Door 3 0 0 55358 0 0
+~
+~
+End
+
+#55360
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55361 0 0
+~
+~
+Door 2 0 0 55359 0 0
+~
+~
+Door 3 0 0 55409 0 0
+~
+~
+End
+
+#55361
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55362 0 0
+~
+~
+Door 2 0 0 55360 0 0
+~
+~
+Door 3 0 0 55408 0 0
+~
+~
+End
+
+#55362
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55363 0 0
+~
+~
+Door 2 0 0 55361 0 0
+~
+~
+Door 3 0 0 55407 0 0
+~
+~
+End
+
+#55363
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55410 0 0
+~
+~
+Door 2 0 0 55362 0 0
+~
+~
+Door 3 0 0 55364 0 0
+~
+~
+End
+
+#55364
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55363 0 0
+~
+~
+Door 3 0 0 55365 0 0
+~
+~
+End
+
+#55365
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55364 0 0
+~
+~
+Door 2 0 0 55406 0 0
+~
+~
+Door 3 0 0 55366 0 0
+~
+~
+End
+
+#55366
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55365 0 0
+~
+~
+Door 2 0 0 55405 0 0
+~
+~
+Door 3 0 0 55367 0 0
+~
+~
+End
+
+#55367
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55366 0 0
+~
+~
+Door 2 0 0 55404 0 0
+~
+~
+Door 3 0 0 55384 0 0
+~
+~
+End
+
+#55368
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55384 0 0
+~
+~
+Door 2 0 0 55369 0 0
+~
+~
+End
+
+#55369
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55368 0 0
+~
+~
+Door 1 0 0 55403 0 0
+~
+~
+Door 2 0 0 55370 0 0
+~
+~
+End
+
+#55370
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55369 0 0
+~
+~
+Door 1 0 0 55402 0 0
+~
+~
+Door 2 0 0 55371 0 0
+~
+~
+End
+
+#55371
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55370 0 0
+~
+~
+Door 1 0 0 55401 0 0
+~
+~
+Door 2 0 0 55353 0 0
+~
+~
+End
+
+#55372
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55353 0 0
+~
+~
+Door 1 0 0 55400 0 0
+~
+~
+Door 2 0 0 55373 0 0
+~
+~
+End
+
+#55373
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55372 0 0
+~
+~
+Door 1 0 0 55399 0 0
+~
+~
+Door 2 0 0 55374 0 0
+~
+~
+End
+
+#55374
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55373 0 0
+~
+~
+Door 1 0 0 55398 0 0
+~
+~
+Door 2 0 0 55375 0 0
+~
+~
+End
+
+#55375
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55374 0 0
+~
+~
+Door 1 0 0 55385 0 0
+~
+~
+Door 2 259 0 5206 30 30
+~
+painting~
+End
+
+#55376
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55397 0 0
+~
+~
+Door 1 0 0 55377 0 0
+~
+~
+Door 3 0 0 55385 0 0
+~
+~
+End
+
+#55377
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55396 0 0
+~
+~
+Door 1 0 0 55378 0 0
+~
+~
+Door 3 0 0 55376 0 0
+~
+~
+End
+
+#55378
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55395 0 0
+~
+~
+Door 1 0 0 55379 0 0
+~
+~
+Door 3 0 0 55377 0 0
+~
+~
+End
+
+#55379
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55380 0 0
+~
+~
+Door 3 0 0 55378 0 0
+~
+~
+End
+
+#55380
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55381 0 0
+~
+~
+Door 1 0 0 55411 0 0
+~
+~
+Door 3 0 0 55379 0 0
+~
+~
+End
+
+#55381
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55382 0 0
+~
+~
+Door 2 0 0 55380 0 0
+~
+~
+Door 3 0 0 55394 0 0
+~
+~
+End
+
+#55382
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55383 0 0
+~
+~
+Door 2 0 0 55381 0 0
+~
+~
+Door 3 0 0 55393 0 0
+~
+~
+End
+
+#55383
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55359 0 0
+~
+~
+Door 2 0 0 55382 0 0
+~
+~
+Door 3 0 0 55392 0 0
+~
+~
+End
+
+#55384
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55367 0 0
+~
+~
+Door 3 0 0 55368 0 0
+~
+~
+End
+
+#55385
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Door 1 0 0 55376 0 0
+~
+~
+Door 3 0 0 55375 0 0
+~
+~
+End
+
+#55386
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55330 1 100
+Door 0 0 0 55355 0 0
+~
+~
+End
+
+#55387
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55326 1 100
+Door 2 0 0 55355 0 0
+~
+~
+End
+
+#55388
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55331 1 100
+Door 0 0 0 55356 0 0
+~
+~
+End
+
+#55389
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55325 1 100
+Door 2 1 19091 55356 30 30
+~
+door~
+End
+
+#55390
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55324 1 100
+Door 2 0 0 55357 0 0
+~
+~
+End
+
+#55391
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55332 1 100
+Door 0 0 0 55357 0 0
+~
+~
+End
+
+#55392
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55333 1 100
+Door 1 0 0 55383 0 0
+~
+~
+End
+
+#55393
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55334 1 100
+Door 1 0 0 55382 0 0
+~
+~
+End
+
+#55394
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55335 1 100
+Door 1 0 0 55381 0 0
+~
+~
+End
+
+#55395
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55336 1 100
+Door 2 0 0 55378 0 0
+~
+~
+End
+
+#55396
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55337 1 100
+Door 2 0 0 55377 0 0
+~
+~
+End
+
+#55397
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55338 1 100
+Door 2 0 0 55376 0 0
+~
+~
+End
+
+#55398
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55339 1 100
+Door 3 0 0 55374 0 0
+~
+~
+End
+
+#55399
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55340 1 100
+Door 3 0 0 55373 0 0
+~
+~
+End
+
+#55400
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55341 1 100
+Door 3 0 0 55372 0 0
+~
+~
+End
+
+#55401
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55327 1 100
+Door 3 0 0 55371 0 0
+~
+~
+End
+
+#55402
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55328 1 100
+Door 3 0 0 55370 0 0
+~
+~
+End
+
+#55403
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55329 1 100
+Door 3 0 0 55369 0 0
+~
+~
+End
+
+#55404
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55318 1 100
+Door 0 0 0 55367 0 0
+~
+~
+End
+
+#55405
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55319 1 100
+Door 0 0 0 55366 0 0
+~
+~
+End
+
+#55406
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55320 1 100
+Door 0 0 0 55365 0 0
+~
+~
+End
+
+#55407
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55321 1 100
+Door 1 0 0 55362 0 0
+~
+~
+End
+
+#55408
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55322 1 100
+Door 1 0 0 55361 0 0
+~
+~
+End
+
+#55409
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55323 1 100
+Door 1 0 0 55360 0 0
+~
+~
+End
+
+#55410
+Name An Escape Route~
+Descr
+As soon as you enter this realm, you are blinded by bright white light.
+It took you a few second to regain your eyesight. Observing the area,
+nothing can be found but a tunnel of white light ahead of you. 
+~
+Flags 4
+Sector 5
+Reset O 55418 -5 100
+Door 3 0 0 55363 0 0
+~
+~
+End
+
+#55411
+Name An Escape Route~
+Descr
+As soon as you enter this realm, you are blinded by bright white light.
+It took you a few second to regain your eyesight. Observing the area,
+nothing can be found but a tunnel of white light ahead of you. 
+~
+Flags 4
+Sector 5
+Reset O 55418 -5 100
+Door 3 0 0 55380 0 0
+~
+~
+End
+
+#55412
+Name Empty Space~
+Descr
+You appeared into the empty dark space. There is nothing here but empty
+space. 
+~
+Flags 5
+Sector 0
+Door 4 0 0 55448 0 0
+~
+~
+Door 5 0 0 55356 0 0
+~
+~
+End
+
+#55413
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55315 1 100
+Door 1 0 0 55415 0 0
+~
+~
+Door 3 0 0 55414 0 0
+~
+~
+Door 4 259 0 55356 30 30
+~
+secret~
+Door 5 0 0 55416 0 0
+~
+~
+End
+
+#55414
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags2 1
+Flags 4
+Sector 0
+Door 1 0 0 55413 0 0
+~
+~
+End
+
+#55415
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags2 1
+Flags 4
+Sector 0
+Reset M 55317 1 100
+Door 3 0 0 55413 0 0
+~
+~
+End
+
+#55416
+Name The House of Magic~
+Descr
+As soon as you step into this house, mysterious objects and sounds
+starting to reveal. You hear strange sounds echo through the empty hall. You
+see bizarre objects floating in the air. Despite all these strange
+encounters, you feel the power of magic surrounded you. 
+~
+Flags 4
+Sector 0
+Reset M 55316 1 100
+Reset O 55308 1 1
+Reset O 55306 -5 100
+Door 4 0 0 55413 0 0
+~
+~
+End
+
+#55417
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Sector 0
+Reset M 55306 1 100
+Door 0 0 0 55434 0 0
+~
+~
+Door 1 0 0 55418 0 0
+~
+~
+End
+
+#55418
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55307 1 100
+Door 0 0 0 55433 0 0
+~
+~
+Door 1 0 0 55419 0 0
+~
+~
+Door 3 0 0 55417 0 0
+~
+~
+End
+
+#55419
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55310 1 100
+Door 0 0 0 55432 0 0
+~
+~
+Door 1 0 0 55420 0 0
+~
+~
+Door 3 0 0 55418 0 0
+~
+~
+End
+
+#55420
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55313 1 100
+Reset O 55309 -1 1
+Door 0 0 0 55431 0 0
+~
+~
+Door 1 0 0 55421 0 0
+~
+~
+Door 3 0 0 55419 0 0
+~
+~
+End
+
+#55421
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55312 1 100
+Door 0 0 0 55430 0 0
+~
+~
+Door 1 0 0 55422 0 0
+~
+~
+Door 3 0 0 55420 0 0
+~
+~
+End
+
+#55422
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55310 1 100
+Door 0 0 0 55429 0 0
+~
+~
+Door 1 0 0 55423 0 0
+~
+~
+Door 3 0 0 55421 0 0
+~
+~
+End
+
+#55423
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55307 1 100
+Door 0 0 0 55428 0 0
+~
+~
+Door 1 0 0 55424 0 0
+~
+~
+Door 3 0 0 55422 0 0
+~
+~
+End
+
+#55424
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55306 1 100
+Door 0 0 0 55427 0 0
+~
+~
+Door 3 0 0 55423 0 0
+~
+~
+End
+
+#55425
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Door 1 0 0 55426 0 0
+~
+~
+Door 2 0 0 55497 0 0
+~
+~
+End
+
+#55426
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Door 1 0 0 55443 0 0
+~
+~
+Door 2 0 0 55496 0 0
+~
+~
+Door 3 0 0 55425 0 0
+~
+~
+End
+
+#55427
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55304 1 100
+Door 0 0 0 55442 0 0
+~
+~
+Door 2 0 0 55424 0 0
+~
+~
+Door 3 0 0 55428 0 0
+~
+~
+End
+
+#55428
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55304 1 100
+Door 0 0 0 55441 0 0
+~
+~
+Door 1 0 0 55427 0 0
+~
+~
+Door 2 0 0 55423 0 0
+~
+~
+Door 3 0 0 55429 0 0
+~
+~
+End
+
+#55429
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55304 1 100
+Door 0 0 0 55440 0 0
+~
+~
+Door 1 0 0 55428 0 0
+~
+~
+Door 2 0 0 55422 0 0
+~
+~
+Door 3 0 0 55430 0 0
+~
+~
+End
+
+#55430
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55304 1 100
+Door 0 0 0 55439 0 0
+~
+~
+Door 1 0 0 55429 0 0
+~
+~
+Door 2 0 0 55421 0 0
+~
+~
+Door 3 0 0 55431 0 0
+~
+~
+End
+
+#55431
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55304 1 100
+Door 0 0 0 55438 0 0
+~
+~
+Door 1 0 0 55430 0 0
+~
+~
+Door 2 0 0 55420 0 0
+~
+~
+Door 3 0 0 55432 0 0
+~
+~
+End
+
+#55432
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55304 1 100
+Door 0 0 0 55437 0 0
+~
+~
+Door 1 0 0 55431 0 0
+~
+~
+Door 2 0 0 55419 0 0
+~
+~
+Door 3 0 0 55433 0 0
+~
+~
+End
+
+#55433
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55304 1 100
+Door 0 0 0 55436 0 0
+~
+~
+Door 1 0 0 55432 0 0
+~
+~
+Door 2 0 0 55418 0 0
+~
+~
+Door 3 0 0 55434 0 0
+~
+~
+End
+
+#55434
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55304 1 100
+Door 0 0 0 55435 0 0
+~
+~
+Door 1 0 0 55433 0 0
+~
+~
+Door 2 0 0 55417 0 0
+~
+~
+End
+
+#55435
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55452 0 0
+~
+~
+Door 1 0 0 55436 0 0
+~
+~
+Door 2 0 0 55434 0 0
+~
+~
+End
+
+#55436
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55451 0 0
+~
+~
+Door 1 0 0 55437 0 0
+~
+~
+Door 2 0 0 55433 0 0
+~
+~
+Door 3 0 0 55435 0 0
+~
+~
+End
+
+#55437
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55450 0 0
+~
+~
+Door 1 0 0 55438 0 0
+~
+~
+Door 2 0 0 55432 0 0
+~
+~
+Door 3 0 0 55436 0 0
+~
+~
+End
+
+#55438
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55449 0 0
+~
+~
+Door 1 0 0 55439 0 0
+~
+~
+Door 2 0 0 55431 0 0
+~
+~
+Door 3 0 0 55437 0 0
+~
+~
+End
+
+#55439
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55448 0 0
+~
+~
+Door 1 0 0 55440 0 0
+~
+~
+Door 2 0 0 55430 0 0
+~
+~
+Door 3 0 0 55438 0 0
+~
+~
+End
+
+#55440
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55447 0 0
+~
+~
+Door 1 0 0 55441 0 0
+~
+~
+Door 2 0 0 55429 0 0
+~
+~
+Door 3 0 0 55439 0 0
+~
+~
+End
+
+#55441
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55446 0 0
+~
+~
+Door 1 0 0 55442 0 0
+~
+~
+Door 2 0 0 55428 0 0
+~
+~
+Door 3 0 0 55440 0 0
+~
+~
+End
+
+#55442
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55445 0 0
+~
+~
+Door 2 0 0 55427 0 0
+~
+~
+Door 3 0 0 55441 0 0
+~
+~
+End
+
+#55443
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Door 0 0 0 55461 0 0
+~
+~
+Door 1 0 0 55444 0 0
+~
+~
+Door 2 0 0 55495 0 0
+~
+~
+Door 3 0 0 55426 0 0
+~
+~
+End
+
+#55444
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Reset M 55302 1 100
+Door 1 0 0 55480 0 0
+~
+~
+Door 2 0 0 55494 0 0
+~
+~
+Door 3 0 0 55443 0 0
+~
+~
+End
+
+#55445
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55460 0 0
+~
+~
+Door 2 0 0 55442 0 0
+~
+~
+Door 3 0 0 55446 0 0
+~
+~
+End
+
+#55446
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55459 0 0
+~
+~
+Door 1 0 0 55445 0 0
+~
+~
+Door 2 0 0 55441 0 0
+~
+~
+Door 3 0 0 55447 0 0
+~
+~
+End
+
+#55447
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55458 0 0
+~
+~
+Door 1 0 0 55446 0 0
+~
+~
+Door 2 0 0 55440 0 0
+~
+~
+Door 3 0 0 55448 0 0
+~
+~
+End
+
+#55448
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55457 0 0
+~
+~
+Door 1 0 0 55447 0 0
+~
+~
+Door 2 0 0 55439 0 0
+~
+~
+Door 3 0 0 55449 0 0
+~
+~
+Door 5 0 0 55412 0 0
+~
+~
+End
+
+#55449
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55456 0 0
+~
+~
+Door 1 0 0 55448 0 0
+~
+~
+Door 2 0 0 55438 0 0
+~
+~
+Door 3 0 0 55450 0 0
+~
+~
+End
+
+#55450
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55455 0 0
+~
+~
+Door 1 0 0 55449 0 0
+~
+~
+Door 2 0 0 55437 0 0
+~
+~
+Door 3 0 0 55451 0 0
+~
+~
+End
+
+#55451
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55454 0 0
+~
+~
+Door 1 0 0 55450 0 0
+~
+~
+Door 2 0 0 55436 0 0
+~
+~
+Door 3 0 0 55452 0 0
+~
+~
+End
+
+#55452
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55453 0 0
+~
+~
+Door 1 0 0 55451 0 0
+~
+~
+Door 2 0 0 55435 0 0
+~
+~
+End
+
+#55453
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55470 0 0
+~
+~
+Door 1 0 0 55454 0 0
+~
+~
+Door 2 0 0 55452 0 0
+~
+~
+End
+
+#55454
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55469 0 0
+~
+~
+Door 1 0 0 55455 0 0
+~
+~
+Door 2 0 0 55451 0 0
+~
+~
+Door 3 0 0 55453 0 0
+~
+~
+End
+
+#55455
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55468 0 0
+~
+~
+Door 1 0 0 55456 0 0
+~
+~
+Door 2 0 0 55450 0 0
+~
+~
+Door 3 0 0 55454 0 0
+~
+~
+End
+
+#55456
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55467 0 0
+~
+~
+Door 1 0 0 55457 0 0
+~
+~
+Door 2 0 0 55449 0 0
+~
+~
+Door 3 0 0 55455 0 0
+~
+~
+End
+
+#55457
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55466 0 0
+~
+~
+Door 1 0 0 55458 0 0
+~
+~
+Door 2 0 0 55448 0 0
+~
+~
+Door 3 0 0 55456 0 0
+~
+~
+End
+
+#55458
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55465 0 0
+~
+~
+Door 1 0 0 55459 0 0
+~
+~
+Door 2 0 0 55447 0 0
+~
+~
+Door 3 0 0 55457 0 0
+~
+~
+End
+
+#55459
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55464 0 0
+~
+~
+Door 1 0 0 55460 0 0
+~
+~
+Door 2 0 0 55446 0 0
+~
+~
+Door 3 0 0 55458 0 0
+~
+~
+End
+
+#55460
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55463 0 0
+~
+~
+Door 2 0 0 55445 0 0
+~
+~
+Door 3 0 0 55459 0 0
+~
+~
+End
+
+#55461
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Reset M 55302 1 100
+Door 2 0 0 55443 0 0
+~
+~
+End
+
+#55462
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Reset M 55302 1 100
+Door 0 0 0 55490 0 0
+~
+~
+End
+
+#55463
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55478 0 0
+~
+~
+Door 2 0 0 55460 0 0
+~
+~
+Door 3 0 0 55464 0 0
+~
+~
+End
+
+#55464
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55477 0 0
+~
+~
+Door 1 0 0 55463 0 0
+~
+~
+Door 2 0 0 55459 0 0
+~
+~
+Door 3 0 0 55465 0 0
+~
+~
+End
+
+#55465
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55476 0 0
+~
+~
+Door 1 0 0 55464 0 0
+~
+~
+Door 2 0 0 55458 0 0
+~
+~
+Door 3 0 0 55466 0 0
+~
+~
+End
+
+#55466
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55475 0 0
+~
+~
+Door 1 0 0 55465 0 0
+~
+~
+Door 2 0 0 55457 0 0
+~
+~
+Door 3 0 0 55467 0 0
+~
+~
+End
+
+#55467
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55474 0 0
+~
+~
+Door 1 0 0 55466 0 0
+~
+~
+Door 2 0 0 55456 0 0
+~
+~
+Door 3 0 0 55468 0 0
+~
+~
+End
+
+#55468
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55473 0 0
+~
+~
+Door 1 0 0 55467 0 0
+~
+~
+Door 2 0 0 55455 0 0
+~
+~
+Door 3 0 0 55469 0 0
+~
+~
+End
+
+#55469
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55472 0 0
+~
+~
+Door 1 0 0 55468 0 0
+~
+~
+Door 2 0 0 55454 0 0
+~
+~
+Door 3 0 0 55470 0 0
+~
+~
+End
+
+#55470
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Door 0 0 0 55471 0 0
+~
+~
+Door 1 0 0 55469 0 0
+~
+~
+Door 2 0 0 55453 0 0
+~
+~
+End
+
+#55471
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55303 1 100
+Door 0 0 0 55488 0 0
+~
+~
+Door 1 0 0 55472 0 0
+~
+~
+Door 2 0 0 55470 0 0
+~
+~
+End
+
+#55472
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55303 1 100
+Door 0 0 0 55487 0 0
+~
+~
+Door 1 0 0 55473 0 0
+~
+~
+Door 2 0 0 55469 0 0
+~
+~
+Door 3 0 0 55471 0 0
+~
+~
+End
+
+#55473
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55303 1 100
+Door 0 0 0 55486 0 0
+~
+~
+Door 1 0 0 55474 0 0
+~
+~
+Door 2 0 0 55468 0 0
+~
+~
+Door 3 0 0 55472 0 0
+~
+~
+End
+
+#55474
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55303 1 100
+Door 0 0 0 55485 0 0
+~
+~
+Door 1 0 0 55475 0 0
+~
+~
+Door 2 0 0 55467 0 0
+~
+~
+Door 3 0 0 55473 0 0
+~
+~
+End
+
+#55475
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55303 1 100
+Door 0 0 0 55484 0 0
+~
+~
+Door 1 0 0 55476 0 0
+~
+~
+Door 2 0 0 55466 0 0
+~
+~
+Door 3 0 0 55474 0 0
+~
+~
+End
+
+#55476
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55303 1 100
+Door 0 0 0 55483 0 0
+~
+~
+Door 1 0 0 55477 0 0
+~
+~
+Door 2 0 0 55465 0 0
+~
+~
+Door 3 0 0 55475 0 0
+~
+~
+End
+
+#55477
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55303 1 100
+Door 0 0 0 55482 0 0
+~
+~
+Door 1 0 0 55478 0 0
+~
+~
+Door 2 0 0 55464 0 0
+~
+~
+Door 3 0 0 55476 0 0
+~
+~
+End
+
+#55478
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55303 1 100
+Door 0 0 0 55481 0 0
+~
+~
+Door 2 0 0 55463 0 0
+~
+~
+Door 3 0 0 55477 0 0
+~
+~
+End
+
+#55479
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+End
+
+#55480
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Door 2 0 0 55493 0 0
+~
+~
+Door 3 0 0 55444 0 0
+~
+~
+End
+
+#55481
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55305 1 100
+Door 2 0 0 55478 0 0
+~
+~
+Door 3 0 0 55482 0 0
+~
+~
+End
+
+#55482
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55308 1 100
+Door 1 0 0 55481 0 0
+~
+~
+Door 2 0 0 55477 0 0
+~
+~
+Door 3 0 0 55483 0 0
+~
+~
+End
+
+#55483
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55309 1 100
+Door 1 0 0 55482 0 0
+~
+~
+Door 2 0 0 55476 0 0
+~
+~
+Door 3 0 0 55484 0 0
+~
+~
+End
+
+#55484
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55311 1 100
+Door 1 0 0 55483 0 0
+~
+~
+Door 2 0 0 55475 0 0
+~
+~
+Door 3 0 0 55485 0 0
+~
+~
+End
+
+#55485
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55314 1 100
+Door 1 0 0 55484 0 0
+~
+~
+Door 2 0 0 55474 0 0
+~
+~
+Door 3 0 0 55486 0 0
+~
+~
+End
+
+#55486
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55309 1 100
+Door 1 0 0 55485 0 0
+~
+~
+Door 2 0 0 55473 0 0
+~
+~
+Door 3 0 0 55487 0 0
+~
+~
+End
+
+#55487
+Name A Black Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55308 1 100
+Door 1 0 0 55486 0 0
+~
+~
+Door 2 0 0 55472 0 0
+~
+~
+Door 3 0 0 55488 0 0
+~
+~
+End
+
+#55488
+Name A White Square~
+Descr
+You appeared to be on a giantic chessboard. Surrounded you are giantic
+chess pieces. Looking up you see big high ceiling. You feel so tiny some
+how. 
+~
+Flags 4
+Sector 0
+Reset M 55305 1 100
+Door 1 0 0 55487 0 0
+~
+~
+Door 2 0 0 55471 0 0
+~
+~
+End
+
+#55489
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Reset M 55302 1 100
+Door 0 0 0 55496 0 0
+~
+~
+Door 1 0 0 55490 0 0
+~
+~
+Door 3 0 0 55498 0 0
+~
+~
+Door 5 0 0 55499 0 0
+~
+~
+End
+
+#55490
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Door 0 0 0 55495 0 0
+~
+~
+Door 1 0 0 55491 0 0
+~
+~
+Door 2 0 0 55462 0 0
+~
+~
+Door 3 0 0 55489 0 0
+~
+~
+End
+
+#55491
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Reset M 55302 1 100
+Door 0 0 0 55494 0 0
+~
+~
+Door 1 0 0 55492 0 0
+~
+~
+Door 3 0 0 55490 0 0
+~
+~
+End
+
+#55492
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Door 0 0 0 55493 0 0
+~
+~
+Door 3 0 0 55491 0 0
+~
+~
+End
+
+#55493
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Door 0 0 0 55480 0 0
+~
+~
+Door 2 0 0 55492 0 0
+~
+~
+Door 3 0 0 55494 0 0
+~
+~
+End
+
+#55494
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Reset M 55302 1 100
+Door 0 0 0 55444 0 0
+~
+~
+Door 1 0 0 55493 0 0
+~
+~
+Door 2 0 0 55491 0 0
+~
+~
+Door 3 0 0 55495 0 0
+~
+~
+End
+
+#55495
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Door 0 0 0 55443 0 0
+~
+~
+Door 1 0 0 55494 0 0
+~
+~
+Door 2 0 0 55490 0 0
+~
+~
+Door 3 0 0 55496 0 0
+~
+~
+End
+
+#55496
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Reset M 55302 1 100
+Door 0 0 0 55426 0 0
+~
+~
+Door 1 0 0 55495 0 0
+~
+~
+Door 2 0 0 55489 0 0
+~
+~
+Door 3 0 0 55497 0 0
+~
+~
+End
+
+#55497
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Reset M 55302 1 100
+Door 0 0 0 55425 0 0
+~
+~
+Door 1 0 0 55496 0 0
+~
+~
+Door 2 0 0 55498 0 0
+~
+~
+End
+
+#55498
+Name In a Painting~
+Descr
+You are inside a painting of a dinning room. For some reason when you
+look at it on the outside, you see only empty dinning room, but as soon as
+you are sucked into the painting, you see monsters everywhere. How biazze!  
+~
+Flags 4
+Sector 0
+Door 0 0 0 55497 0 0
+~
+~
+Door 1 0 0 55489 0 0
+~
+~
+End
+
+#55499
+Name Empty Space~
+Descr
+You appeared into the empty dark space. There is nothing here but empty
+space. 
+~
+Flags 5
+Sector 0
+Door 5 0 0 55359 0 0
+~
+~
+End
+
+#55500
+Name Inside a Magical Fountain~
+Descr
+All of a sudden, you appeared underwater, inside some sort of a magical
+fountain. You see nothing special of this fountain. It is small and shadow. 
+~
+Flags 4
+Sector 12
+Reset M 55301 1 100
+Door 5 0 0 55501 0 0
+~
+~
+End
+
+#55501
+Name Empty Space~
+Descr
+You appeared into the empty dark space. There is nothing here but empty
+space. 
+~
+Flags 5
+Sector 0
+Door 5 0 0 55353 0 0
+~
+~
+End
+
+#0
+
+
+
+#$

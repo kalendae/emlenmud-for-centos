@@ -1,0 +1,3092 @@
+#AREADATA 
+Name The Maze of Death~
+Repop A strange mist rises from the ground and screams echo down the hallways.
+~
+SCZone 0
+Builders Flatline~
+VNUMs 91000 91199
+NQuit 0
+Open 1
+Homeland 0
+End
+
+
+
+#MOBDATA
+#91000
+Name lesser scourge~
+Short a lesser scourge~
+Long 
+A lesser scourge flies about here.
+~
+Descr
+An exceptionally large mosquito, the scourge can frequently be found in
+the wake of a demonic host. Aggressively hunting for blood, it's shear size
+is what makes it dangerous. Only the females are normally encountered as the
+males are of a normal size and do not need the blood of the living to breed.
+Occassionaly these creatures can carry diseases. 
+~
+AMax 1
+ActBits 1032
+Affect_By 4194816
+Level 1
+Sex 2
+MobType 8
+Hp 2
+Guard 0
+End
+
+#91001
+Name decayed zombie~
+Short a decayed zombie~
+Long 
+A zombie shambles along here, dripping flesh.
+~
+Descr
+A long dead warrior, this zombie's flesh has seen better days. It is
+dripping off in large chunks, skeleton exposed in places. 
+~
+AMax 1
+ActBits 8
+Affect_By 512
+Level 1
+MobType 9
+Hp 2
+Guard 0
+End
+
+#91002
+Name more intact zombie~
+Short A zombie~
+Long 
+A decaying zombie stands here, dripping bodily fluids.
+~
+AMax 1
+ActBits 10
+Affect_By 512
+Level 1
+MobType 9
+Hp 2
+Guard 4
+End
+
+#91003
+Name lesser demon~
+Short A lesser demon~
+Long 
+A lesser demon stands guard here, drooling disgustingly.
+~
+AMax 1
+ActBits 10
+Affect_By 512
+Level 1
+MobType 11
+Hp 2
+Guard 4
+End
+
+#91004
+Name skeletal warrior~
+Short a skeleton warrior~
+Long 
+A skeletal warrior patrols the area here.
+~
+AMax 10
+ActBits 8
+Affect_By 512
+Level 3
+MobType 9
+Hp 2
+Guard 0
+End
+
+#91005
+Name elite skeletal warrior~
+Short an elite skeletal warrior~
+Long 
+An elite skeletal warrior patrols the area here.
+~
+AMax 8
+ActBits 1032
+Affect_By 512
+Level 4
+MobType 9
+Hp 2
+Guard 0
+End
+
+#91006
+Name ghost damned~
+Short a ghost of the damned~
+Long 
+A ghost of the damned floats about here wailing.
+~
+AMax 5
+ActBits 10
+Affect_By 512
+Level 5
+MobType 9
+Hp 2
+Guard 0
+End
+
+#91007
+Name floating limb~
+Short a floating limb~
+Long 
+The severed limb of some poor soul floats around here.
+~
+AMax 5
+ActBits 1032
+Affect_By 512
+Level 3
+MobType 9
+Hp 2
+Guard 0
+End
+
+#91008
+Name death lord~
+Short a lesser death lord~
+Long 
+A lesser death lord stands here looking for something to kill.
+~
+AMax 1
+ActBits 10
+Affect_By 512
+Level 10
+MobType 9
+Guard 0
+End
+
+#91009
+Name lesser spirit fire~
+Short a lesser fire spirit~
+Long 
+A lesser spirit of fire stands guard here.
+~
+AMax 10
+ActBits3 524290
+Affect_By 512
+Level 6
+MobType 17
+Hp 5
+Guard 1
+End
+
+#91010
+Name lesser fire elemental~
+Short a lesser fire elemental~
+Long 
+A lesser fire elemental stands menacingly here.
+~
+AMax 1
+ActBits 10
+Affect_By 512
+Level 6
+MobType 24
+Hp 2
+Guard 0
+End
+
+#91011
+Name chained demon~
+Short a chained demon~
+Long 
+A chained demon snarls at the end of it's leash here.
+~
+AMax 1
+ActBits 2
+ActBits3 2
+Affect_By 512
+Level 6
+MobType 11
+Guard 4
+End
+
+#91012
+Name lord doubler~
+Short Lord Doubler~
+Long 
+Lord Doubler of the demons stands guard here.
+~
+AMax 1
+ActBits 2
+ActBits3 2
+Level 400
+MobType 11
+Guard 5
+End
+
+#0
+
+
+
+#OBJDATA
+#91000
+Name torch~
+Short a sputtering torch~
+Descr
+A [1m[32mbioluminescant[0m patch of moss emits an eerie glow here.
+[0;36m~
+Type 1
+Wear 0
+Timer 10
+Values 10 10 0 1 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#91001
+Name luminescent blood~
+Short some faintly glowing [1m[31mblood[0m~
+Descr
+A patch of luminescant [1m[31mblood[0m lies in a puddle here.
+[0;36m~
+Type 1
+Wear 0
+Timer 20
+Values 20 20 0 1 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#91002
+Name flaming chunk lava~
+Short a flaming chunk of rock~
+Descr
+A [1m[31mflaming[0m chunk of [31mlava[0m lies on the ground here.
+[0;36m~
+Type 1
+Wear 0
+Timer 25
+Values 25 25 0 1 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#91003
+Name key fragile~
+Short a fragile key~
+Descr
+An extremely fragile key lies on the ground here.
+[0;36m~
+Type 13
+Extra 16384
+Wear 1
+Weight 0
+Cost 0
+End
+
+#0
+
+
+
+#ROOMDATA
+#91000
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91001 0 0
+~
+~
+Door 2 0 0 91008 0 0
+~
+~
+End
+
+#91001
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91002 0 0
+~
+~
+Door 3 0 0 91000 0 0
+~
+~
+End
+
+#91002
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91003 0 0
+~
+~
+Door 1 0 0 91006 0 0
+~
+~
+Door 2 0 0 91001 0 0
+~
+~
+End
+
+#91003
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91004 0 0
+~
+~
+Door 2 0 0 91002 0 0
+~
+~
+End
+
+#91004
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Door 4 0 0 91011 0 0
+~
+~
+End
+
+#91005
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91004 0 0
+~
+~
+Door 3 0 0 91007 0 0
+~
+~
+End
+
+#91006
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91007 0 0
+~
+~
+Door 3 0 0 91002 0 0
+~
+~
+End
+
+#91007
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91008 0 0
+~
+~
+Door 1 0 0 91005 0 0
+~
+~
+Door 2 0 0 91012 0 0
+~
+~
+Door 3 0 0 91006 0 0
+~
+~
+End
+
+#91008
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91000 0 0
+~
+~
+Door 1 0 0 91009 0 0
+~
+~
+Door 2 0 0 91007 0 0
+~
+~
+End
+
+#91009
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91010 0 0
+~
+~
+Door 3 0 0 91008 0 0
+~
+~
+End
+
+#91010
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91011 0 0
+~
+~
+Door 3 0 0 91009 0 0
+~
+~
+End
+
+#91011
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 4 0 0 91120 0 0
+~
+~
+Door 5 0 0 91004 0 0
+~
+~
+End
+
+#91012
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91007 0 0
+~
+~
+Door 1 0 0 91013 0 0
+~
+~
+End
+
+#91013
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91014 0 0
+~
+~
+Door 3 0 0 91012 0 0
+~
+~
+End
+
+#91014
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91015 0 0
+~
+~
+Door 2 0 0 91015 0 0
+~
+~
+Door 3 0 0 91013 0 0
+~
+~
+End
+
+#91015
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91014 0 0
+~
+~
+Door 2 0 0 91014 0 0
+~
+~
+End
+
+#91016
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Reset M 91000 1 100
+Door 1 0 0 91017 0 0
+~
+~
+Door 2 0 0 91004 0 0
+~
+~
+Door 3 0 0 91019 0 0
+~
+~
+End
+
+#91017
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91018 0 0
+~
+~
+Door 3 0 0 91016 0 0
+~
+~
+End
+
+#91018
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91019 0 0
+~
+~
+Door 3 0 0 91017 0 0
+~
+~
+End
+
+#91019
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Reset M 91000 1 100
+Door 1 0 0 91016 0 0
+~
+~
+Door 2 0 0 91018 0 0
+~
+~
+End
+
+#91020
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 268435488
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91022 0 0
+~
+~
+Door 3 0 0 91021 0 0
+~
+~
+End
+
+#91021
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Reset M 91001 1 100
+Door 0 0 0 91023 0 0
+~
+~
+Door 1 0 0 91020 0 0
+~
+~
+Door 2 0 0 91025 0 0
+~
+~
+Door 3 0 0 91022 0 0
+~
+~
+End
+
+#91022
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91021 0 0
+~
+~
+Door 3 0 0 91020 0 0
+~
+~
+End
+
+#91023
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91024 0 0
+~
+~
+Door 2 0 0 91021 0 0
+~
+~
+End
+
+#91024
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Reset M 91001 1 100
+Door 0 0 0 91025 0 0
+~
+~
+Door 1 0 0 91032 0 0
+~
+~
+Door 2 0 0 91023 0 0
+~
+~
+End
+
+#91025
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91021 0 0
+~
+~
+Door 1 0 0 91026 0 0
+~
+~
+Door 2 0 0 91024 0 0
+~
+~
+End
+
+#91026
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91027 0 0
+~
+~
+Door 3 0 0 91025 0 0
+~
+~
+End
+
+#91027
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Reset M 91001 1 100
+Door 0 0 0 91028 0 0
+~
+~
+Door 2 0 0 91029 0 0
+~
+~
+Door 3 0 0 91026 0 0
+~
+~
+End
+
+#91028
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91029 0 0
+~
+~
+Door 2 0 0 91027 0 0
+~
+~
+End
+
+#91029
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91027 0 0
+~
+~
+Door 2 0 0 91028 0 0
+~
+~
+Door 3 0 0 91030 0 0
+~
+~
+End
+
+#91030
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91029 0 0
+~
+~
+Door 3 0 0 91031 0 0
+~
+~
+End
+
+#91031
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91033 0 0
+~
+~
+Door 1 0 0 91030 0 0
+~
+~
+Door 3 0 0 91032 0 0
+~
+~
+End
+
+#91032
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Reset M 91001 1 100
+Door 1 0 0 91031 0 0
+~
+~
+Door 3 0 0 91024 0 0
+~
+~
+End
+
+#91033
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91034 0 0
+~
+~
+Door 2 0 0 91031 0 0
+~
+~
+End
+
+#91034
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91035 0 0
+~
+~
+Door 2 0 0 91033 0 0
+~
+~
+Door 3 0 0 91036 0 0
+~
+~
+End
+
+#91035
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Reset M 91001 1 100
+Door 0 0 0 91038 0 0
+~
+~
+Door 1 0 0 91036 0 0
+~
+~
+Door 2 0 0 91037 0 0
+~
+~
+Door 3 0 0 91034 0 0
+~
+~
+End
+
+#91036
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91034 0 0
+~
+~
+Door 3 0 0 91035 0 0
+~
+~
+End
+
+#91037
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Reset M 91001 1 100
+Door 0 0 0 91035 0 0
+~
+~
+Door 1 0 0 91039 0 0
+~
+~
+Door 2 0 0 91038 0 0
+~
+~
+End
+
+#91038
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91037 0 0
+~
+~
+Door 2 0 0 91035 0 0
+~
+~
+End
+
+#91039
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Reset M 91003 1 100
+Door 3 0 0 91037 0 0
+~
+~
+Door 4 0 0 91040 0 0
+~
+~
+End
+
+#91040
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 268435488
+Sector 44
+Reset M 91004 100 75
+Reset O 91000 -5 100
+Door 0 0 0 91041 0 0
+~
+~
+Door 2 0 0 91055 0 0
+~
+~
+End
+
+#91041
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91042 0 0
+~
+~
+Door 2 0 0 91040 0 0
+~
+~
+End
+
+#91042
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset M 91004 100 75
+Reset O 91000 -5 100
+Door 1 0 0 91043 0 0
+~
+~
+Door 2 0 0 91041 0 0
+~
+~
+Door 3 0 0 91047 0 0
+~
+~
+End
+
+#91043
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91044 0 0
+~
+~
+Door 3 0 0 91042 0 0
+~
+~
+End
+
+#91044
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Reset M 91004 100 75
+Door 0 0 0 91046 0 0
+~
+~
+Door 2 0 0 91045 0 0
+~
+~
+Door 3 0 0 91043 0 0
+~
+~
+End
+
+#91045
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91044 0 0
+~
+~
+Door 2 0 0 91048 0 0
+~
+~
+End
+
+#91046
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset M 91004 100 75
+Reset O 91000 -5 100
+Door 0 0 0 91047 0 0
+~
+~
+Door 2 0 0 91044 0 0
+~
+~
+Door 3 0 0 91056 0 0
+~
+~
+End
+
+#91047
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset M 91004 100 75
+Reset O 91000 -5 100
+Door 0 0 0 91048 0 0
+~
+~
+Door 1 0 0 91042 0 0
+~
+~
+Door 2 0 0 91046 0 0
+~
+~
+End
+
+#91048
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset M 91004 100 75
+Reset O 91000 -5 100
+Door 0 0 0 91045 0 0
+~
+~
+Door 1 0 0 91050 0 0
+~
+~
+Door 2 0 0 91047 0 0
+~
+~
+Door 3 0 0 91049 0 0
+~
+~
+End
+
+#91049
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91048 0 0
+~
+~
+Door 3 0 0 91050 0 0
+~
+~
+End
+
+#91050
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91049 0 0
+~
+~
+Door 2 0 0 91051 0 0
+~
+~
+Door 3 0 0 91048 0 0
+~
+~
+End
+
+#91051
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91050 0 0
+~
+~
+Door 2 0 0 91052 0 0
+~
+~
+End
+
+#91052
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91051 0 0
+~
+~
+Door 1 0 0 91053 0 0
+~
+~
+Door 3 0 0 91054 0 0
+~
+~
+End
+
+#91053
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91054 0 0
+~
+~
+Door 3 0 0 91052 0 0
+~
+~
+End
+
+#91054
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91055 0 0
+~
+~
+Door 1 0 0 91052 0 0
+~
+~
+Door 3 0 0 91053 0 0
+~
+~
+End
+
+#91055
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91040 0 0
+~
+~
+Door 2 0 0 91054 0 0
+~
+~
+End
+
+#91056
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91046 0 0
+~
+~
+Door 3 0 0 91057 0 0
+~
+~
+End
+
+#91057
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset M 91004 100 75
+Reset O 91000 -5 100
+Door 0 0 0 91058 0 0
+~
+~
+Door 1 0 0 91056 0 0
+~
+~
+Door 2 0 0 91058 0 0
+~
+~
+End
+
+#91058
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91057 0 0
+~
+~
+Door 2 0 0 91057 0 0
+~
+~
+Door 3 0 0 91059 0 0
+~
+~
+End
+
+#91059
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91058 0 0
+~
+~
+Door 4 0 0 91060 0 0
+~
+~
+End
+
+#91060
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 268435488
+Sector 44
+Reset M 91005 1 100
+Reset O 91001 -5 100
+Door 1 0 0 91061 0 0
+~
+~
+End
+
+#91061
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset M 91005 1 100
+Reset M 91004 100 75
+Reset O 91001 -5 100
+Door 0 0 0 91062 0 0
+~
+~
+Door 1 0 0 91065 0 0
+~
+~
+Door 2 0 0 91063 0 0
+~
+~
+Door 3 0 0 91060 0 0
+~
+~
+End
+
+#91062
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset M 91005 1 100
+Reset O 91001 -5 100
+Door 1 0 0 91064 0 0
+~
+~
+Door 2 0 0 91061 0 0
+~
+~
+End
+
+#91063
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset O 91001 -5 100
+Door 0 0 0 91061 0 0
+~
+~
+Door 1 0 0 91066 0 0
+~
+~
+End
+
+#91064
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset O 91001 -5 100
+Door 0 0 0 91067 0 0
+~
+~
+Door 1 0 0 91072 0 0
+~
+~
+Door 2 0 0 91065 0 0
+~
+~
+Door 3 0 0 91062 0 0
+~
+~
+End
+
+#91065
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset M 91004 100 75
+Reset O 91001 -5 100
+Door 0 0 0 91064 0 0
+~
+~
+Door 1 0 0 91071 0 0
+~
+~
+Door 2 0 0 91066 0 0
+~
+~
+Door 3 0 0 91061 0 0
+~
+~
+End
+
+#91066
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset M 91005 1 100
+Reset O 91001 -5 100
+Door 0 0 0 91065 0 0
+~
+~
+Door 1 0 0 91070 0 0
+~
+~
+Door 2 0 0 91068 0 0
+~
+~
+Door 3 0 0 91063 0 0
+~
+~
+End
+
+#91067
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset M 91005 1 100
+Reset O 91001 -5 100
+Door 1 0 0 91073 0 0
+~
+~
+Door 2 0 0 91064 0 0
+~
+~
+End
+
+#91068
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset O 91001 -5 100
+Door 0 0 0 91066 0 0
+~
+~
+Door 1 0 0 91069 0 0
+~
+~
+End
+
+#91069
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset M 91005 1 100
+Reset O 91001 -5 100
+Door 0 0 0 91070 0 0
+~
+~
+Door 3 0 0 91068 0 0
+~
+~
+End
+
+#91070
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset O 91001 -5 100
+Door 0 0 0 91071 0 0
+~
+~
+Door 1 0 0 91074 0 0
+~
+~
+Door 2 0 0 91069 0 0
+~
+~
+Door 3 0 0 91066 0 0
+~
+~
+End
+
+#91071
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset O 91001 -5 100
+Door 0 0 0 91072 0 0
+~
+~
+Door 1 0 0 91075 0 0
+~
+~
+Door 2 0 0 91070 0 0
+~
+~
+Door 3 0 0 91065 0 0
+~
+~
+End
+
+#91072
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset M 91004 100 75
+Reset O 91001 -5 100
+Door 0 0 0 91073 0 0
+~
+~
+Door 1 0 0 91076 0 0
+~
+~
+Door 2 0 0 91071 0 0
+~
+~
+Door 3 0 0 91064 0 0
+~
+~
+End
+
+#91073
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset O 91001 -5 100
+Door 2 0 0 91072 0 0
+~
+~
+Door 3 0 0 91067 0 0
+~
+~
+End
+
+#91074
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset O 91001 -5 100
+Door 0 0 0 91075 0 0
+~
+~
+Door 3 0 0 91070 0 0
+~
+~
+End
+
+#91075
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset M 91005 1 100
+Reset O 91001 -5 100
+Door 0 0 0 91076 0 0
+~
+~
+Door 1 0 0 91077 0 0
+~
+~
+Door 2 0 0 91074 0 0
+~
+~
+Door 3 0 0 91071 0 0
+~
+~
+End
+
+#91076
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset O 91001 -5 100
+Door 2 0 0 91075 0 0
+~
+~
+Door 3 0 0 91072 0 0
+~
+~
+End
+
+#91077
+Name A Large Blood Stained Subterranian Chamber~
+Descr
+You stand within a huge conical chamber, covered and coated in a strange
+glowing substance resembling blood. The whole area is lit up by it's eerie
+red light, casting strange shadows from the bones of the dead littering the
+ground. Occassionally you will hear a crunch of bone or a groan as the
+denizens of this place move about hunting for new victims. 
+~
+Flags 32
+Sector 44
+Reset O 91001 -5 100
+Door 1 0 0 91078 0 0
+~
+~
+Door 3 0 0 91075 0 0
+~
+~
+End
+
+#91078
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset M 91005 1 100
+Reset O 91000 -5 100
+Door 1 0 0 91079 0 0
+~
+~
+Door 3 0 0 91077 0 0
+~
+~
+End
+
+#91079
+Name A Disorientingly Twisting Passage~
+Descr
+You stand within a passage carved from the raw rock by some sort of
+magical force. Quick and even cuts caused this passage to be almost
+completely smooth, and it is encassed in a strange mossy substance. Space
+seems to warp in places, distance not quite seeming right. In fact as you
+trace the outline of the walls they seem to converge at places, really
+strange. No wonder this place is a testing ground. 
+~
+Flags 32
+Sector 44
+Reset M 91008 5 100
+Reset O 91000 -5 100
+Door 3 0 0 91078 0 0
+~
+~
+Door 4 0 0 91080 0 0
+~
+~
+End
+
+#91080
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 268435488
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91081 0 0
+~
+~
+End
+
+#91081
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset M 91007 5 100
+Reset O 91000 -5 100
+Door 0 0 0 91082 0 0
+~
+~
+Door 3 0 0 91080 0 0
+~
+~
+End
+
+#91082
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 2 0 0 91081 0 0
+~
+~
+Door 3 0 0 91083 0 0
+~
+~
+End
+
+#91083
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset M 91006 5 100
+Reset O 91000 -5 100
+Door 1 0 0 91082 0 0
+~
+~
+Door 4 0 0 91084 0 0
+~
+~
+End
+
+#91084
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 2 0 0 91085 0 0
+~
+~
+Door 5 0 0 91083 0 0
+~
+~
+End
+
+#91085
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset M 91007 5 100
+Reset O 91000 -5 100
+Door 0 0 0 91084 0 0
+~
+~
+Door 1 0 0 91086 0 0
+~
+~
+End
+
+#91086
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91087 0 0
+~
+~
+Door 3 0 0 91085 0 0
+~
+~
+End
+
+#91087
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset M 91006 5 100
+Reset O 91000 -5 100
+Door 2 0 0 91086 0 0
+~
+~
+Door 4 0 0 91088 0 0
+~
+~
+End
+
+#91088
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 3 0 0 91089 0 0
+~
+~
+Door 5 0 0 91087 0 0
+~
+~
+End
+
+#91089
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset M 91007 5 100
+Reset O 91000 -5 100
+Door 1 0 0 91088 0 0
+~
+~
+Door 2 0 0 91090 0 0
+~
+~
+End
+
+#91090
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91089 0 0
+~
+~
+Door 1 0 0 91091 0 0
+~
+~
+End
+
+#91091
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset M 91006 5 100
+Reset O 91000 -5 100
+Door 3 0 0 91090 0 0
+~
+~
+Door 4 0 0 91092 30 30
+~
+heavy grate~
+End
+
+#91092
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 0 0 0 91093 0 0
+~
+~
+Door 5 0 0 91091 0 0
+~
+~
+End
+
+#91093
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset M 91007 5 100
+Reset O 91000 -5 100
+Door 2 0 0 91092 0 0
+~
+~
+Door 3 0 0 91094 0 0
+~
+~
+End
+
+#91094
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91093 0 0
+~
+~
+Door 2 0 0 91095 0 0
+~
+~
+End
+
+#91095
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset M 91006 5 100
+Reset O 91000 -5 100
+Door 0 0 0 91094 0 0
+~
+~
+Door 4 0 0 91096 0 0
+~
+~
+End
+
+#91096
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 1 0 0 91097 0 0
+~
+~
+Door 5 0 0 91095 0 0
+~
+~
+End
+
+#91097
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset M 91007 5 100
+Reset O 91000 -5 100
+Door 0 0 0 91098 0 0
+~
+~
+Door 3 0 0 91096 0 0
+~
+~
+End
+
+#91098
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset O 91000 -5 100
+Door 2 0 0 91097 0 0
+~
+~
+Door 3 0 0 91099 0 0
+~
+~
+End
+
+#91099
+Name A Spiraling Underground Staircase~
+Descr
+You stand within a giant spiraling staircase, cut from the earth in a
+similar manner as the passageways earlier. The only difference is that the
+spacial distortion you noticed earlier isn't present here. You can follow
+the walls with ease and trace your progress. The difficulty here doesn't lie
+in the maze, it lies in the guardians placed along the route. 
+~
+Flags 32
+Sector 44
+Reset M 91006 5 100
+Reset O 91000 -5 100
+Door 1 0 0 91098 0 0
+~
+~
+Door 4 0 0 91100 0 0
+~
+~
+End
+
+#91100
+Name Before the Firewalk~
+Descr
+You can feel the raw heat of the surroundings even here off the
+firewalk. The ground here is fairly stable, with cracks and spots of molten
+rock thrown in with the black volcanic substance that composes the ground.
+You feel as safe as one can feel when standing just outside of a huge lava
+flow. 
+~
+Flags 268435490
+Sector 44
+Reset O 91002 -5 100
+Door 1 0 0 91101 0 0
+~
+~
+End
+
+#91101
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91106 0 0
+~
+~
+Door 1 0 0 91102 0 0
+~
+~
+Door 2 0 0 91111 0 0
+~
+~
+Door 3 0 0 91100 0 0
+~
+~
+End
+
+#91102
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset O 91002 -5 100
+Door 0 0 0 91107 0 0
+~
+~
+Door 1 0 0 91103 0 0
+~
+~
+Door 2 0 0 91112 0 0
+~
+~
+Door 3 0 0 91101 0 0
+~
+~
+End
+
+#91103
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91108 0 0
+~
+~
+Door 1 0 0 91104 0 0
+~
+~
+Door 2 0 0 91113 0 0
+~
+~
+Door 3 0 0 91102 0 0
+~
+~
+End
+
+#91104
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset O 91002 -5 100
+Door 0 0 0 91109 0 0
+~
+~
+Door 1 0 0 91105 0 0
+~
+~
+Door 2 0 0 91114 0 0
+~
+~
+Door 3 0 0 91103 0 0
+~
+~
+End
+
+#91105
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91110 0 0
+~
+~
+Door 1 0 0 91117 0 0
+~
+~
+Door 2 0 0 91115 0 0
+~
+~
+Door 3 0 0 91104 0 0
+~
+~
+End
+
+#91106
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91111 0 0
+~
+~
+Door 1 0 0 91107 0 0
+~
+~
+Door 2 0 0 91101 0 0
+~
+~
+End
+
+#91107
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 34
+Sector 35
+Reset O 91002 -5 100
+Door 0 0 0 91112 0 0
+~
+~
+Door 1 0 0 91108 0 0
+~
+~
+Door 2 0 0 91102 0 0
+~
+~
+Door 3 0 0 91106 0 0
+~
+~
+End
+
+#91108
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset O 91002 -5 100
+Door 0 0 0 91113 0 0
+~
+~
+Door 1 0 0 91109 0 0
+~
+~
+Door 2 0 0 91103 0 0
+~
+~
+Door 3 0 0 91107 0 0
+~
+~
+End
+
+#91109
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91114 0 0
+~
+~
+Door 1 0 0 91110 0 0
+~
+~
+Door 2 0 0 91104 0 0
+~
+~
+Door 3 0 0 91108 0 0
+~
+~
+End
+
+#91110
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91115 0 0
+~
+~
+Door 1 0 0 91118 0 0
+~
+~
+Door 2 0 0 91105 0 0
+~
+~
+Door 3 0 0 91109 0 0
+~
+~
+End
+
+#91111
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset O 91002 -5 100
+Door 0 0 0 91101 0 0
+~
+~
+Door 1 0 0 91112 0 0
+~
+~
+Door 2 0 0 91106 0 0
+~
+~
+End
+
+#91112
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91102 0 0
+~
+~
+Door 1 0 0 91113 0 0
+~
+~
+Door 2 0 0 91107 0 0
+~
+~
+Door 3 0 0 91111 0 0
+~
+~
+End
+
+#91113
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91103 0 0
+~
+~
+Door 1 0 0 91114 0 0
+~
+~
+Door 2 0 0 91108 0 0
+~
+~
+Door 3 0 0 91112 0 0
+~
+~
+End
+
+#91114
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91104 0 0
+~
+~
+Door 1 0 0 91115 0 0
+~
+~
+Door 2 0 0 91109 0 0
+~
+~
+Door 3 0 0 91113 0 0
+~
+~
+End
+
+#91115
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset O 91002 -5 100
+Door 0 0 0 91105 0 0
+~
+~
+Door 1 0 0 91116 0 0
+~
+~
+Door 2 0 0 91110 0 0
+~
+~
+Door 3 0 0 91114 0 0
+~
+~
+End
+
+#91116
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91117 0 0
+~
+~
+Door 2 0 0 91118 0 0
+~
+~
+Door 3 0 0 91115 0 0
+~
+~
+End
+
+#91117
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 34
+Sector 35
+Reset O 91002 -5 100
+Door 0 0 0 91118 0 0
+~
+~
+Door 1 0 0 91119 0 0
+~
+~
+Door 2 0 0 91116 0 0
+~
+~
+Door 3 0 0 91105 0 0
+~
+~
+End
+
+#91118
+Name Firewalk~
+Descr
+Large chunks of rock float here in a pool of lava, flames shoot from the
+ground. You're beginning to feel a bit of the definition of the term trial
+by fire. The heat is blistering, causing your body to wrack with agony and
+your blood to boil, you can't last long here.... 
+~
+Flags2 32
+Flags 32
+Sector 35
+Reset M 91009 5 33
+Reset O 91002 -5 100
+Door 0 0 0 91116 0 0
+~
+~
+Door 2 0 0 91117 0 0
+~
+~
+Door 3 0 0 91110 0 0
+~
+~
+End
+
+#91119
+Name Before the Firewalk~
+Descr
+You can feel the raw heat of the surroundings even here off the
+firewalk. The ground here is fairly stable, with cracks and spots of molten
+rock thrown in with the black volcanic substance that composes the ground.
+You feel as safe as one can feel when standing just outside of a huge lava
+flow. 
+~
+Flags 268435488
+Sector 44
+Reset M 91010 5 100
+Reset O 91002 -5 100
+Door 3 0 0 91117 0 0
+~
+~
+Door 4 0 0 91120 0 0
+~
+~
+End
+
+#91120
+Name Bottom of a Bloody Pit~
+Descr
+You are at the bottom of a slickly cut pit, blood coats the walls making
+them slippery. Layer after layer of flesh and gore have built up and
+coagulated forming handholds on what would otherwise be a completely slick
+surface. Your feet find little purchase on the ground and you find yourself
+slipping around in the gore quite a bit. 
+~
+Flags 268435462
+Sector 46
+Door 4 0 0 91121 0 0
+~
+~
+Door 5 0 0 91011 0 0
+~
+~
+End
+
+#91121
+Name Ascending the Walls of a Bloody Pit~
+Descr
+You are ascending the walls of a slickly cut pit, blood coats the walls
+making them slippery. Layer after layer of flesh and gore have built up and
+coagulated forming handholds on what would otherwise be a completely slick
+surface. Your feet find little purchase on the ground and you find yourself
+slipping around in the gore quite a bit. 
+~
+Flags 4
+Sector 46
+Door 4 0 0 91122 0 0
+~
+~
+Door 5 0 0 91120 0 0
+~
+~
+End
+
+#91122
+Name Newbie's Read The Description Here Please~
+Descr
+Hello there, you are about to enter the real world, we took out maze
+because we fealt it wasn't getting newbies anywhere. Anyway's, once you go
+up, head northwest to the town Sapentina, find the down inside the town to
+Kobold Cave's, there you will be able to get some experience and level.
+Don't be afraid to ask for help, if you see a immortal on send us a pray,
+were happy to answer questions. Thank you!  
+~
+Flags 4
+Sector 46
+Door 4 3 91003 91123 99 99
+~
+heavy grate~
+Door 5 0 0 91121 0 0
+~
+~
+End
+
+#91123
+Name A Hole in the Ground~
+Descr
+You are above a bloody pit. All those new to this side are cast into a
+great vortex, after many trials and many deaths, they emerge here, accepted
+onto the side of evil and war. 
+~
+Flags 268435456
+Sector 38
+Door 4 0 0 2041 0 0
+~
+~
+Door 5 3 91003 91122 99 99
+~
+heavy grate~
+End
+
+#0
+
+
+
+#$

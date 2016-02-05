@@ -1,0 +1,89 @@
+#            bonus stats     max stats     100/99                 Abil flags
+#            S  I  W  D  C  S  I  W  D  C Rm MSk MSp MPf HMN/MX Abils     Abils2    Aug     AC  RHT/MV  Sw? Att Apb Bs Heal Hps Mana  Skills/Spells
+Neutral       0  0  0  0  0  0  0  0  0  0 0   0   0   0   0  0  0 0 0 0 0 0   0   0    0   0  0   0    0    0    0   0
+Evil       0  0  0  0  0  0  0  0  0  0  0 0   0   0   0   0  512  0 0 0 0 0 0   0    0   0  0   0    0    0    0   0
+Good       0  0  0  0  0  0  0  0  0  0 0   0   0   0   0  0  0 0 0 0   0 0 0   0    0   0  0   0    0    0    0   0
+Forsaken     0  0  0  0  0  0  0  0  0  0 0   0   0   0   0  0  0     0 0  0  0  0  0  0    0  0  0   0    0    0   0   0 
+#Lawthera     0  0  0  0  0  1  0  1  0  0 0   0   1   0   0  0  16777248  0         8192    15  10  20  0  20    3  10  20  1    5    553  0   0
+#Shadow       0  0  0  0  0  1  0  1  0  0 0   0   1   0   0  0  512       4098      0        5  10  30  0   5    0  20  10  2   15    357  0   0
+#Valheru        0  0  0  0  0  0  1  0  1  0 0   1   0   0   0  0  512      16385      0       10  20  0   0  10    1 10 15 1    5    0    0   0
+                                                                    
+#AFFECTS - NATURAL ABILITIES
+
+#             blind:            1   This toggles blindness.
+#         invisible:            2   This toggles invisibility.
+#       detect-good:    536870912   Tells if you can detect good.
+#       detect-evil:            4   Tells if you can detect evil.
+#      detect-invis:            8   This toggles detect-invisible.
+#      detect-magic:           16   This shows magic auras on items.
+#     detect-hidden:           32   This toggles if the mob can see hidden.
+#             wound:           64   This makes the mob lose hps rapidly..
+#         sanctuary:          128   This affect flag toggles sanctuary.
+#       faerie-fire:          256   This makes the mob's armor much much worse.
+#          infrared:          512   See in the dark.
+#             curse:         1024   This means the mob cannot recall.
+#           confuse:         2048   Toggles if the mob is confused.
+#           apoison:         4096   This toggles if the mob is poisoned.
+#            plague:      4194304   Toggles if the mob has the plague or not.
+#           protect:         8192   Toggles total protection.
+#          lethargy:        16384   This affect drains when the target moves.
+#             sleep:       131072   Toggles if someone isasleep. 
+#             sneak:        32768   Toggles silent movement.
+#              hide:        65536   Toggles if the mob will hide when possible.
+#             charm:       262144   Toggles if the mob can be ordered.
+#            flying:       524288   Is the mob flying or not.
+#         pass-door:      1048576   This allows passage through closed doors.
+#      regeneration:      2097152   This makes the mob regain hps fast.
+#           nocharm:   1073741824   Is it charmable?
+#      protect-evil:     16777216   This reduces damage from evil mobs.
+#      protect-good:     33554432   This reduces damage from good targets.
+#           mindsap:     67108864   This affect drains mana from the target.
+#         awareness:    134217728   Allows sleeping people to see who enters 
+#      water-breath:      8388608   This allows the mob to breath underwater.
+#            safety:  -2147483648   Lower level aggros don't attack.
+
+#AFFECT_TWO - NATURAL_ABILITES 2
+
+
+#         prot_fire:            1  Resistant to fire.
+#          prot_gas:            2  Resistant to gas.
+#        mindshield:            4  This protects you from some amagic.
+#             speed:            8  This can give you an extra attack.
+#          paralyze:           16  This paralyzes someone.
+#        prot_shock:           32  resistant to shock.
+#         prot_wind:           64  resistant to wind.
+#        prot_wound:          128  resistant to wounding.
+#     prot_paralyze:          256  resistant to paralyze.
+#       prot_locate:          512  resistant to locate.
+#          prot_ice:         1024  resistant to ice.
+#         prot_acid:         2048  resistant to acid.
+#       prot_astral:         4096  This wards off the effects of astral travel.
+#         prot_lava:         8192  This wards off the effects of lava.
+#        prot_shard:        16384  This wards off the effects of shards.
+#     spell_reflect:        32768  This reflects a spell back to its caster.
+#          Tracking:        65536  This mob leaves tracks.
+#           noblood:       131072  This mob leaves no blood trails.
+
+#IMPLANTS - BODY ENHANCEMENTS THAT ARE NATURAL FOR THESE RACES
+
+
+#         Leg Armor:            1  This implant toughens your legs.
+#        Body Armor:            2  This implant makes your ribcage stronger.
+#        Head Armor:            4  This implant makes your skull thicker.
+#         Arm Armor:            8  This implant toughens the skin on your arms.
+#     Body Strength:           16  This pumps you up.
+#     Hand Strength:           32  This makes you able to keep a strong grip.
+#      Leg Strength:           64  This makes your legs more durable.
+#      Arm Strength:          128  This improves the power of your arms.
+#          Head Int:          256  This improves your ability to think.
+#          Head Wis:          512  This helps you to ponder things.
+#        Face Spike:         1024  This makes nasty spikes on your head.
+#        Hand Speed:         2048  This improves the quickness of your hands.
+#        Foot Speed:         4096  This makes you more fleet of foot.
+#         Leg Speed:         8192  This improves how fast you can run and move.
+#     Foot Strength:        16384  This makes your feet and calves stronger.
+#        Foot Armor:        32768  This toughens your feet.
+#        Mana Boost:        65536  This gives a larger reserve of mana.
+#        Channeling:       131072  This increases your natural ability to cast.
+#        Mental armor
+#        Concentration
