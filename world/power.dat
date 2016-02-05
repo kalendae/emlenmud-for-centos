@@ -319,8 +319,8 @@ NEWBIE_OBJECT_10            90127
 
 # Regen_hp <min>  <+ for resting>  <+ for sleeping>  -- Some extra is added,
 # depending on the char's constitution..
-REGEN_HP  5  20 30
-REGEN_MP  5  12 24
+REGEN_HP  5  20 120
+REGEN_MP  5  12 96
 
 # Regen_mana <base regen> <+ for meditation>
 REGEN_MANA  6  18

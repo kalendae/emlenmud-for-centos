@@ -1973,11 +1973,11 @@ char_only_update (void)
         update_pos (ch);
       if (check_body_temp (ch))
         continue;
-      if (IS_PLAYER (ch) && ch->timer > 93 && ch->pcdata->no_quit_pk < 1)
+/*      if (IS_PLAYER (ch) && ch->timer > 93 && ch->pcdata->no_quit_pk < 1)
         {
           do_quit (ch, "specqa");
           continue;
-        }
+        } */
     }
   return;
 }
