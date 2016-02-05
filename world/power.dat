@@ -33,7 +33,7 @@ SPACE_NEEDED               3000000
 
 # Percent chance that a person will _fail_ a flee.  Applies to mobs also.
 # FLEE_CHANCE 10 means a person will fail to flee 10 percent of the time.
-FLEE_CHANCE 35
+FLEE_CHANCE 10
 
 # Specifies whether or not bashes will cause a slip into the groundfight
 # position, simulating a tackle. If set to NO, you can't slip from a bash
@@ -132,14 +132,14 @@ REMORT_REQ 	90    0     0	0	0	0	0 0
 REMORT_REQ 	91    0     0	0	0	0	0 0
 
 # Ascended characters get their own requirements table
-ASCENDED_REMORT_REQ     50     25      25	0	0 	0	0 0
-ASCENDED_REMORT_REQ 	53     50      50 	0	0	0 	0 0
-ASCENDED_REMORT_REQ 	55    100     100	0	0	0	0 0
-ASCENDED_REMORT_REQ 	55    150     150       0	0	0 	0 0
-ASCENDED_REMORT_REQ 	56    225     225	0	0	0 	0 0
-ASCENDED_REMORT_REQ 	60    300     300       0	0	0 	0 0 
-ASCENDED_REMORT_REQ 	65    400     400	0	0	0	0 0
-ASCENDED_REMORT_REQ     75    500     500       0	0	0	0 0
+ASCENDED_REMORT_REQ     50	0	0	0	0 	0	0 0
+ASCENDED_REMORT_REQ 	53	0	0 	0	0	0 	0 0
+ASCENDED_REMORT_REQ 	55	0	0	0	0	0	0 0
+ASCENDED_REMORT_REQ 	55	0	0       0	0	0 	0 0
+ASCENDED_REMORT_REQ 	56	0	0	0	0	0 	0 0
+ASCENDED_REMORT_REQ 	60	0	0       0	0	0 	0 0 
+ASCENDED_REMORT_REQ 	65	0	0	0	0	0	0 0
+ASCENDED_REMORT_REQ     75	0	0       0	0	0	0 0
 ASCENDED_REMORT_REQ 	91 	9000  9000	2000	2000	1000	0 0
 ASCENDED_REMORT_REQ 	75 	1000  1000	2500	2500	1000	0 0
 
@@ -147,8 +147,8 @@ ASCENDED_REMORT_REQ 	75 	1000  1000	2500	2500	1000	0 0
 # as in remorting if room is set to 0 then there is no need to be in a
 # room to forsake or ascend.
 #               Level  Remorts  CurrentWps  TotalWps  Room
-ASCENSION_REQ     56      8         200     1000        109
-FORSAKE_REQ       50      1        1000     1000      94661
+ASCENSION_REQ     56      8           0        0        109
+FORSAKE_REQ       50      1           0        0      94661
 
 # Guilds have been redone to allow people to choose any of a set number...
 # then as they increase in remorts...they may choose more guilds....
@@ -156,10 +156,10 @@ FORSAKE_REQ       50      1        1000     1000      94661
 # <num remorts> <level> <gold> <warpoints> <killpoints> <item1?> <item2>
 
 
-GUILD_COST 	0 	0	20	0	0	0	0
-GUILD_COST 	0 	10	30	0	0	0	0
-GUILD_COST 	0 	15	40	0	0	0	0
-GUILD_COST 	0 	20	50      0	0	0	0
+GUILD_COST 	0 	0	0	0	0	0	0
+GUILD_COST 	0 	10	0	0	0	0	0
+GUILD_COST 	0 	15	0	0	0	0	0
+GUILD_COST 	0 	20	0       0	0	0	0
 GUILD_COST 	15 	0	0	0	0	0	0
 GUILD_COST 	15 	0	0	0	0	0	0
 GUILD_COST 	15 	0	0	0	0	0	0
@@ -174,18 +174,18 @@ GUILD_COST 	15 	0	0	0	0	0	0
 #Can players only augment when they remort
 AUGMENT_REMORT_ONLY NO
 
-AUGMENT_COST      1        56        0    150        0    0       0  
-AUGMENT_COST      2        56        0    300        0    0       0
-AUGMENT_COST      3        56        0    500        0    0       0
-AUGMENT_COST      4        56        0    750        0    0       0
-AUGMENT_COST      8        70      150   1000      500    0       0
-AUGMENT_COST      12       60      200    850      500    0       0   
-AUGMENT_COST      12       60      400    950      500    0       0
-AUGMENT_COST      12       65      500    1150     500    0       0
-AUGMENT_COST      12       65      500    1450     500    0       0
-AUGMENT_COST      12       65      500    1550     500    0       0
-AUGMENT_COST      12       65      500    2050     500    0       0
-AUGMENT_COST      12       75      500    3050     500    0       0
+AUGMENT_COST      1        56        0      0        0    0       0  
+AUGMENT_COST      2        56        0      0        0    0       0
+AUGMENT_COST      3        56        0      0        0    0       0
+AUGMENT_COST      4        56        0      0        0    0       0
+AUGMENT_COST      8        70      150      0      500    0       0
+AUGMENT_COST      12       60      200      0      500    0       0   
+AUGMENT_COST      12       60      400      0      500    0       0
+AUGMENT_COST      12       65      500      0      500    0       0
+AUGMENT_COST      12       65      500      0      500    0       0
+AUGMENT_COST      12       65      500      0      500    0       0
+AUGMENT_COST      12       65      500      0      500    0       0
+AUGMENT_COST      12       75      500      0      500    0       0
 
 
 
@@ -319,11 +319,11 @@ NEWBIE_OBJECT_10            90127
 
 # Regen_hp <min>  <+ for resting>  <+ for sleeping>  -- Some extra is added,
 # depending on the char's constitution..
-REGEN_HP  5  10 15
-REGEN_MP  5  6  12
+REGEN_HP  5  20 30
+REGEN_MP  5  12 24
 
 # Regen_mana <base regen> <+ for meditation>
-REGEN_MANA  3  9
+REGEN_MANA  6  18
 
 TACKLE_WITH_WEAPON          YES
 TACKLE_PERSON_WITH_WEAPON   YES
