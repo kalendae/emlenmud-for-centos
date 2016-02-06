@@ -1,5 +1,5 @@
-#! /bin/csh -f
-set port = 3333
+#! /bin/csh  
+set port = 8868
 if ( "$1" != "" ) set port="$1"
 
 # Change to area/world directory.

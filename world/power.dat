@@ -29,7 +29,7 @@ LOOT_LEVEL 5
 # This is the allocation space for the world.  If it says you need more on
 # boot-up, increase this value.  If you set it really high, the mud will
 # take up more memory.
-SPACE_NEEDED               3000000
+SPACE_NEEDED               30000000
 
 # Percent chance that a person will _fail_ a flee.  Applies to mobs also.
 # FLEE_CHANCE 10 means a person will fail to flee 10 percent of the time.

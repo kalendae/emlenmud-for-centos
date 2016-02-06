@@ -82,3 +82,9 @@ Yahoo kilith_mpv@yahoo.com
 Email jaker_1976@hotmail.com
 
 I will give you ALL the assistance you need in getting yourself going.
+
+taonotes:
+
+- remove pkdata.dat and ratings and topten etc because those users don't exist
+  and will cause a server crash
+
