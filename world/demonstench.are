@@ -391,8 +391,8 @@ Wear 16385
 Values 0 0 0 3 0 0 0 6 3 0 0
 Weight 105
 Cost 999
-Affect 18 3 1 0 0
 Affect 19 1 1 0 0
+Affect 18 3 1 0 0
 End
 
 #8702
@@ -422,8 +422,8 @@ Wear 1025
 Values 0 1 0 1 10 10 15 15 10 3 0
 Weight 0
 Cost 0
-Affect 13 5 1 0 0
 Affect 17 3 1 0 0
+Affect 13 5 1 0 0
 End
 
 #8704
@@ -438,8 +438,8 @@ Wear 16385
 Values 0 0 0 15 0 0 0 8 2 0 0
 Weight 60
 Cost 1000
-Affect 18 1 1 0 0
 Affect 19 1 1 0 0
+Affect 18 1 1 0 0
 End
 
 #8705
@@ -454,10 +454,10 @@ Wear 131073
 Values 2 2 2 2 10 10 10 10 10 3 0
 Weight 0
 Cost 3000
-Affect 13 15 1 0 0
-Affect 17 3 1 0 0
-Affect 14 5 1 0 0
 Affect 15 5 1 0 0
+Affect 14 5 1 0 0
+Affect 17 3 1 0 0
+Affect 13 15 1 0 0
 End
 
 #8706
@@ -472,8 +472,8 @@ Wear 8388609
 Values 0 0 1 0 10 10 10 10 0 10 0
 Weight 15
 Cost 2000
-Affect 17 1 1 0 0
 Affect 18 2 1 0 0
+Affect 17 1 1 0 0
 End
 
 #8707
@@ -488,10 +488,10 @@ Wear 5
 Values 0 3 3 3 3 15 15 15 15 3 0
 Weight 10
 Cost 999
-Affect 19 -3 1 0 0
-Affect 13 15 1 0 0
-Affect 14 10 1 0 0
 Affect 17 2 1 0 0
+Affect 14 10 1 0 0
+Affect 13 15 1 0 0
+Affect 19 -3 1 0 0
 End
 
 #8708
@@ -506,9 +506,9 @@ Wear 32769
 Values 0 2 1 1 13 13 13 13 13 3 0
 Weight 30
 Cost 5000
-Affect 17 1 1 0 0
-Affect 18 2 1 0 0
 Affect 19 1 1 0 0
+Affect 18 2 1 0 0
+Affect 17 1 1 0 0
 End
 
 #8709
@@ -523,10 +523,10 @@ Wear 4097
 Values 0 0 0 5 0 15 15 15 0 15 0
 Weight 12
 Cost 1000
-Affect 19 -3 1 0 0
-Affect 18 3 1 0 0
-Affect 14 15 1 0 0
 Affect 13 15 1 0 0
+Affect 14 15 1 0 0
+Affect 18 3 1 0 0
+Affect 19 -3 1 0 0
 End
 
 #8710
@@ -566,11 +566,11 @@ Wear 129
 Values 0 5 0 8 5 15 15 15 15 3 0
 Weight 20
 Cost 5555
-Affect 19 -5 1 0 0
-Affect 17 4 1 0 0
-Affect 13 25 1 0 0
-Affect 20 3 1 0 0
 Affect 14 15 1 0 0
+Affect 20 3 1 0 0
+Affect 13 25 1 0 0
+Affect 17 4 1 0 0
+Affect 19 -5 1 0 0
 End
 
 #8713
@@ -597,9 +597,9 @@ Wear 524289
 Values 3 0 0 0 15 15 15 15 15 3 0
 Weight 10
 Cost 500
-Affect 19 1 1 0 0
-Affect 14 5 1 0 0
 Affect 22 3 1 0 0
+Affect 14 5 1 0 0
+Affect 19 1 1 0 0
 End
 
 #8715
@@ -614,10 +614,10 @@ Wear 1048577
 Values 0 2 0 2 15 15 15 15 15 3 0
 Weight 5
 Cost 5000
-Affect 20 3 1 0 0
-Affect 18 2 1 0 0
-Affect 13 15 1 0 0
 Affect 17 5 1 0 0
+Affect 13 15 1 0 0
+Affect 18 2 1 0 0
+Affect 20 3 1 0 0
 End
 
 #8716
@@ -632,9 +632,9 @@ Wear 3
 Values 0 0 0 3 5 15 15 15 15 3 0
 Weight 5
 Cost 500
-Affect 14 5 1 0 0
-Affect 13 15 1 0 0
 Affect 18 3 1 0 0
+Affect 13 15 1 0 0
+Affect 14 5 1 0 0
 End
 
 #8717
@@ -649,9 +649,9 @@ Wear 9
 Values 0 2 0 1 10 10 10 10 10 2 0
 Weight 20
 Cost 300
-Affect 13 5 1 0 0
-Affect 19 1 1 0 0
 Affect 18 3 1 0 0
+Affect 19 1 1 0 0
+Affect 13 5 1 0 0
 End
 
 #8718
@@ -666,8 +666,8 @@ Wear 4097
 Values 0 1 0 2 15 15 15 15 15 3 0
 Weight 10
 Cost 300
-Affect 18 3 1 0 0
 Affect 19 1 1 0 0
+Affect 18 3 1 0 0
 End
 
 #8805
@@ -695,8 +695,8 @@ Wear 24577
 Values 0 60 0 11 0 0 0 9 2 0 1088
 Weight 9
 Cost 9039
-Affect 18 3 1 0 0
 Affect 19 2 1 0 0
+Affect 18 3 1 0 0
 End
 
 #8848
@@ -711,9 +711,9 @@ Wear 1025
 Values 0 4 0 0 0 0 7 7 0 0 0
 Weight 2
 Cost 302
-Affect 14 5 1 0 0
-Affect 20 5 1 0 0
 Affect 13 10 1 0 0
+Affect 20 5 1 0 0
+Affect 14 5 1 0 0
 End
 
 #8859
@@ -728,10 +728,10 @@ Wear 2097153
 Values 2 2 0 2 0 0 8 8 0 0 0
 Weight 9
 Cost 3000
-Affect 13 10 1 0 0
-Affect 14 10 1 0 0
-Affect 17 3 1 0 0
 Affect 22 2 1 0 0
+Affect 17 3 1 0 0
+Affect 14 10 1 0 0
+Affect 13 10 1 0 0
 End
 
 #8893
@@ -757,11 +757,11 @@ Wear 32769
 Values 1 1 4 1 0 0 9 9 0 0 0
 Weight 9
 Cost 3000
-Affect 18 2 1 0 0
-Affect 20 5 1 0 0
-Affect 19 -1 1 0 0
-Affect 13 5 1 0 0
 Affect 14 20 1 0 0
+Affect 13 5 1 0 0
+Affect 19 -1 1 0 0
+Affect 20 5 1 0 0
+Affect 18 2 1 0 0
 End
 
 #9003
@@ -828,9 +828,9 @@ Wear 1025
 Values 0 4 0 0 0 0 9 9 0 0 0
 Weight 30
 Cost 3002
-Affect 19 1 1 0 0
-Affect 18 1 1 0 0
 Affect 13 -10 1 0 0
+Affect 18 1 1 0 0
+Affect 19 1 1 0 0
 End
 
 #9083
@@ -842,11 +842,11 @@ A ring glimmers as the sun hits it on the ground.
 Type 9
 Extra 33554433
 Wear 3
-Values 0 1 0 2 15 15 15 15 15 3 0
+Values 15 15 15 15 15 15 15 15 15 3 0
 Weight 1
 Cost 100
-Affect 13 10 1 0 0
 Affect 17 2 1 0 0
+Affect 13 10 1 0 0
 End
 
 #9084
@@ -861,8 +861,8 @@ Wear 32769
 Values 0 0 3 0 0 0 0 0 0 0 0
 Weight 3
 Cost 303
-Affect 17 2 1 0 0
 Affect 13 15 1 0 0
+Affect 17 2 1 0 0
 End
 
 #9085
@@ -902,9 +902,9 @@ Wear 17
 Values 0 0 4 0 0 0 7 7 0 0 0
 Weight 30
 Cost 500
-Affect 13 8 1 0 0
-Affect 14 8 1 0 0
 Affect 20 3 1 0 0
+Affect 14 8 1 0 0
+Affect 13 8 1 0 0
 End
 
 #9276

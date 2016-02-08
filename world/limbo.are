@@ -1070,8 +1070,8 @@ Wear 4194305
 Values 3 4 5 3 0 0 0 50 50 0 0
 Weight 10
 Cost 5000
-Affect 19 2 1 0 0
 Affect 22 2 1 0 0
+Affect 19 2 1 0 0
 End
 
 #20
@@ -1129,9 +1129,9 @@ Wear 129
 Values 2 2 3 3 0 0 50 50 0 0 0
 Weight 40
 Cost 5000
-Affect 18 3 1 0 0
-Affect 22 3 1 0 0
 Affect 19 2 1 0 0
+Affect 22 3 1 0 0
+Affect 18 3 1 0 0
 End
 
 #24
@@ -1173,10 +1173,10 @@ Wear 257
 Values 3 5 3 4 15 15 50 50 15 15 0
 Weight 10
 Cost 500
-Affect 22 3 1 0 0
-Affect 19 2 1 0 0
-Affect 17 1 1 0 0
 Affect 2 1 1 0 0
+Affect 17 1 1 0 0
+Affect 19 2 1 0 0
+Affect 22 3 1 0 0
 End
 
 #27
@@ -1480,11 +1480,12 @@ Type 9
 Wear 0
 Weight 0
 Cost 0
-ExtraDescr Saliva~
-This is what happens to those caught cheating, their heads are put on
-display. Do not cheat do not be caught, for you will suffer the same fate.
-Saliva was decapitated and placed here for being two people along with
-several other minor offenses. Be Warned. 
+ExtraDescr heads~
+The two were placed here for cheating. If you cheat you will join them.
+Be Warned. 
+~
+ExtraDescr cheater~
+If you cheat you will find your head beside these two. Be Warned. 
 ~
 ExtraDescr Amnesia~
 This is what happens to those caught cheating, their heads are put on
@@ -1492,12 +1493,11 @@ ExtraDescr Amnesia~
 Amnesia was decapitated and placed here for being two people along with
 several other minor offenses. Be Warned. 
 ~
-ExtraDescr cheater~
-If you cheat you will find your head beside these two. Be Warned. 
-~
-ExtraDescr heads~
-The two were placed here for cheating. If you cheat you will join them.
-Be Warned. 
+ExtraDescr Saliva~
+This is what happens to those caught cheating, their heads are put on
+display. Do not cheat do not be caught, for you will suffer the same fate.
+Saliva was decapitated and placed here for being two people along with
+several other minor offenses. Be Warned. 
 ~
 End
 
@@ -2122,9 +2122,9 @@ Timer 10
 Values 0 20 0 13 0 0 0 4 4 0 0
 Weight 30
 Cost 60000
-Affect 18 2 1 0 0
-Affect 13 10 1 0 0
 Affect 19 1 1 0 0
+Affect 13 10 1 0 0
+Affect 18 2 1 0 0
 End
 
 #96
@@ -2449,9 +2449,9 @@ Timer 1
 Values 0 0 0 8 0 0 0 9 7 0 0
 Weight 1
 Cost 0
-Affect 18 50 1 0 0
-Affect 19 100 1 0 0
 Affect 13 500 1 0 0
+Affect 19 100 1 0 0
+Affect 18 50 1 0 0
 End
 
 #120
@@ -2610,9 +2610,9 @@ Wear 65537
 Values 0 0 5 0 0 0 0 0 0 100 0
 Weight 0
 Cost 10000
-Affect 4 1 1 0 0
-Affect 3 1 1 0 0
 Affect 19 1 1 0 0
+Affect 3 1 1 0 0
+Affect 4 1 1 0 0
 End
 
 #132
@@ -2627,8 +2627,8 @@ Wear 4097
 Values 0 0 0 2 0 0 0 0 0 0 0
 Weight 10
 Cost 0
-Affect 13 10 1 0 0
 Affect 19 1 1 0 0
+Affect 13 10 1 0 0
 End
 
 #133
@@ -2655,8 +2655,8 @@ Wear 17
 Values 0 0 4 0 15 15 30 30 15 15 0
 Weight 5
 Cost 3000
-Affect 17 1 1 0 0
 Affect 19 1 1 0 0
+Affect 17 1 1 0 0
 End
 
 #135
@@ -2671,8 +2671,8 @@ Wear 65537
 Values 0 0 2 0 15 15 25 25 15 15 0
 Weight 5
 Cost 4000
-Affect 13 15 1 0 0
 Affect 17 1 1 0 0
+Affect 13 15 1 0 0
 End
 
 #136
@@ -2687,8 +2687,8 @@ Wear 33
 Values 4 0 0 0 15 15 25 25 15 15 0
 Weight 5
 Cost 3000
-Affect 22 4 1 0 0
 Affect 19 1 1 0 0
+Affect 22 4 1 0 0
 End
 
 #137
@@ -2703,9 +2703,9 @@ Wear 9
 Values 1 6 1 2 15 15 25 25 15 15 0
 Weight 15
 Cost 60000
-Affect 13 20 1 0 0
-Affect 18 1 1 0 0
 Affect 19 1 1 0 0
+Affect 18 1 1 0 0
+Affect 13 20 1 0 0
 End
 
 #138
@@ -2720,8 +2720,8 @@ Wear 131073
 Values 0 0 1 0 0 0 0 0 0 0 0
 Weight 0
 Cost 4000
-Affect 18 1 1 0 0
 Affect 17 1 1 0 0
+Affect 18 1 1 0 0
 End
 
 #139
@@ -2736,9 +2736,9 @@ Wear 32769
 Values 0 0 0 4 15 15 25 25 15 15 0
 Weight 3
 Cost 4000
-Affect 13 10 1 0 0
-Affect 17 1 1 0 0
 Affect 20 3 1 0 0
+Affect 17 1 1 0 0
+Affect 13 10 1 0 0
 End
 
 #140
@@ -2753,8 +2753,8 @@ Wear 524289
 Values 2 0 0 0 15 15 20 20 15 15 0
 Weight 5
 Cost 5000
-Affect 22 3 1 0 0
 Affect 13 5 1 0 0
+Affect 22 3 1 0 0
 End
 
 #141
@@ -2799,8 +2799,8 @@ Wear 17
 Values 0 0 5 0 20 20 40 40 20 30 0
 Weight 5
 Cost 3000
-Affect 18 3 1 0 0
 Affect 19 1 1 0 0
+Affect 18 3 1 0 0
 End
 
 #144
@@ -2815,8 +2815,8 @@ Wear 65537
 Values 0 0 5 0 20 20 0 0 20 20 0
 Weight 5
 Cost 3000
-Affect 17 2 1 0 0
 Affect 15 10 1 0 0
+Affect 17 2 1 0 0
 End
 
 #145
@@ -2831,10 +2831,10 @@ Wear 1025
 Values 4 4 4 4 0 20 30 30 20 20 0
 Weight 5
 Cost 3000
-Affect 19 1 1 0 0
-Affect 15 10 1 0 0
-Affect 18 3 1 0 0
 Affect 17 2 1 0 0
+Affect 18 3 1 0 0
+Affect 15 10 1 0 0
+Affect 19 1 1 0 0
 End
 
 #146
@@ -2849,9 +2849,9 @@ Wear 2049
 Values 5 0 0 0 20 20 30 30 20 20 0
 Weight 5
 Cost 3000
-Affect 13 10 1 0 0
-Affect 17 2 1 0 0
 Affect 15 20 1 0 0
+Affect 17 2 1 0 0
+Affect 13 10 1 0 0
 End
 
 #147
@@ -2916,6 +2916,19 @@ A portal leading to [34mn[1m[34me[1m[36mw[0m[36mb[1m[36mi[1m[34me[0m
 Type 12
 Wear 0
 Values 4 65075 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
+#152
+Name portal athenae~
+Short portal to athenae~
+Descr
+A portal to Athenae stand here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 5107 0 0 0 0 0 0 0 0 0
 Weight 0
 Cost 0
 End
@@ -3418,8 +3431,8 @@ Wear 65
 Values 4 0 0 0 0 0 30 30 0 0 0
 Weight 33
 Cost 550
-Affect 14 -3 1 0 0
 Affect 22 2 1 0 0
+Affect 14 -3 1 0 0
 End
 
 #236
@@ -3671,9 +3684,9 @@ Extra 1
 Wear 16385
 Weight 1
 Cost 500
-Affect 19 -1 1 0 0
-Affect 14 10 1 0 0
 Affect 13 10 1 0 0
+Affect 14 10 1 0 0
+Affect 19 -1 1 0 0
 End
 
 #277
@@ -3687,8 +3700,8 @@ Extra 1
 Wear 131073
 Weight 0
 Cost 0
-Affect 13 10 1 0 0
 Affect 14 -10 1 0 0
+Affect 13 10 1 0 0
 End
 
 #278
@@ -3703,9 +3716,9 @@ Wear 24577
 Values 0 15 0 3 0 0 0 6 3 0 0
 Weight 80
 Cost 200
-Affect 19 3 1 0 0
-Affect 18 3 1 0 0
 Affect 13 20 3 0 0
+Affect 18 3 1 0 0
+Affect 19 3 1 0 0
 End
 
 #279
@@ -3771,8 +3784,8 @@ Wear 4194305
 Values 60 163 0 0 0 0 0 0 0 0 0
 Weight 0
 Cost 0
-Affect 14 10 1 0 0
 Affect 13 5 1 0 0
+Affect 14 10 1 0 0
 End
 
 #300
@@ -3963,10 +3976,10 @@ Type 9
 Wear 16777217
 Weight 0
 Cost 0
-Affect 18 2 1 0 0
-Affect 13 15 1 0 0
-Affect 20 2 1 0 0
 Affect 17 2 1 0 0
+Affect 20 2 1 0 0
+Affect 13 15 1 0 0
+Affect 18 2 1 0 0
 End
 
 #400
@@ -4124,8 +4137,8 @@ Wear 24577
 Values 0 300 0 4 0 0 0 9 2 0 0
 Weight 20
 Cost 10000
-Affect 18 4 0 0 0
 Affect 19 2 0 0 0
+Affect 18 4 0 0 0
 End
 
 #417
@@ -4192,8 +4205,8 @@ Wear 131073
 Values 2 1 1 1 1 0 0 0 0 0 0
 Weight 0
 Cost 0
-Affect 13 10 1 0 0
 Affect 14 10 1 0 0
+Affect 13 10 1 0 0
 End
 
 #450
@@ -4221,8 +4234,8 @@ Wear 24577
 Values 0 30 0 11 0 0 0 5 2 0 0
 Weight 2
 Cost 2000
-Affect 19 1 1 0 0
 Affect 18 1 1 0 0
+Affect 19 1 1 0 0
 End
 
 #501
@@ -5210,8 +5223,8 @@ Wear 24577
 Values 0 100 0 11 0 0 0 9 2 0 0
 Weight 1
 Cost 5000
-Affect 18 2 1 0 0
 Affect 19 2 1 0 0
+Affect 18 2 1 0 0
 End
 
 #685
@@ -5226,10 +5239,10 @@ Wear 257
 Values 5 0 0 0 0 0 0 0 0 0 0
 Weight 9
 Cost 3000
-Affect 19 2 1 0 0
-Affect 18 3 1 0 0
-Affect 13 10 1 0 0
 Affect 22 2 1 0 0
+Affect 13 10 1 0 0
+Affect 18 3 1 0 0
+Affect 19 2 1 0 0
 End
 
 #700
@@ -5258,9 +5271,9 @@ Wear 2049
 Values 3 0 0 0 10 10 80 80 10 6 0
 Weight 6
 Cost 1500
-Affect 18 1 1 0 0
-Affect 14 6 1 0 0
 Affect 13 6 1 0 0
+Affect 14 6 1 0 0
+Affect 18 1 1 0 0
 End
 
 #702
@@ -5314,8 +5327,8 @@ Extra 2
 Wear 24577
 Weight 5
 Cost 1500
-Affect 13 -50 1 0 0
 Affect 19 -2 1 0 0
+Affect 13 -50 1 0 0
 End
 
 #706
@@ -5329,8 +5342,8 @@ Extra 2
 Wear 24577
 Weight 5
 Cost 5000
-Affect 19 2 1 0 0
 Affect 20 5 1 0 0
+Affect 19 2 1 0 0
 End
 
 #707
@@ -5964,9 +5977,9 @@ Wear 131073
 Values 2 2 2 2 0 0 0 0 0 0 0
 Weight 0
 Cost 4596
-Affect 13 15 1 0 0
-Affect 19 1 1 0 0
 Affect 17 2 1 0 0
+Affect 19 1 1 0 0
+Affect 13 15 1 0 0
 End
 
 #903
@@ -6042,9 +6055,9 @@ Wear 8388609
 Values 0 0 2 0 15 15 20 20 15 15 0
 Weight 3
 Cost 3000
-Affect 20 1 1 0 0
-Affect 13 10 1 0 0
 Affect 17 1 1 0 0
+Affect 13 10 1 0 0
+Affect 20 1 1 0 0
 End
 
 #994
@@ -6059,9 +6072,9 @@ Wear 131073
 Values 0 0 0 0 15 15 0 0 15 15 0
 Weight 0
 Cost 5000
-Affect 20 2 1 0 0
-Affect 13 20 1 0 0
 Affect 17 3 1 0 0
+Affect 13 20 1 0 0
+Affect 20 2 1 0 0
 End
 
 #995
@@ -6130,8 +6143,8 @@ Timer 666
 Values 0 30 0 10 0 0 0 100 100 0 0
 Weight 66
 Cost 666
-Affect 19 66 1 0 0
 Affect 18 66 1 0 0
+Affect 19 66 1 0 0
 End
 
 #0
@@ -6609,6 +6622,7 @@ Sector 0
 Reset O 151 -5 100
 Reset O 150 -5 100
 Reset M 101 1 100
+Reset O 152 -5 100
 Door 0 0 0 102 0 0
 ~
 ~

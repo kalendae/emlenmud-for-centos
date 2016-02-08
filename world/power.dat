@@ -302,8 +302,8 @@ REQUIRED_VALIDATION         NO
 MUD_EMAIL_ADDRESS          skate24_teen@yahoo.com
 
 # How high can you practice skills and spells from a practitioner?
-MAX_PRACTICE_SKILLS         65
-MAX_PRACTICE_SPELLS         65
+MAX_PRACTICE_SKILLS         75
+MAX_PRACTICE_SPELLS         90
 
 # 10 Objects newbies get... if not used, set to object 0.
 NEWBIE_OBJECT_1             39
