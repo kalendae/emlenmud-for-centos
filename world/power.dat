@@ -211,8 +211,8 @@ ASCTRANSFORM_IN_ROOM 112
 # warpoints and all that at this point....
 # Room Character has to be in to Remort 0 sets it to no Specific Room
 #Remort Number          1     2     3     4     5     6     7     8     9    10    11
-REMORT_IN_ROOM        110   110   110   110   110   110   110   110   110   110   110
-ASCEND_REMORT_IN_ROOM 110   110   110   110   110   110   110   110   109   109   109
+REMORT_IN_ROOM        0   0   0   0   0   110   110   110   110   110   110
+ASCEND_REMORT_IN_ROOM 0   0   0   0   0   110   110   110   109   109   109
 
 # Can a player remort multiple times?  0 = no remorting.
 # MAX_REMORT

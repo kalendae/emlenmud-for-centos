@@ -3898,12 +3898,12 @@ SType 4
 SBits 4194304
 Sname Word of Recall~
 SFname Word of Recall~
-SLev 14
+SLev 10
 Noun Ðièià)	n~
 A2C1 You call to the gods for safe passage and suddenly feel transported.~
 A2NV1 $n pleads with the gods for sanctuary.~
 Durat 0~
-Mana 70
+Mana 10
 ManaT 16
 Pos 12
 CastT 90

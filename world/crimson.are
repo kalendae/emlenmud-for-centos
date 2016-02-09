@@ -641,8 +641,8 @@ Wear 4097
 Values 0 0 0 2 10 10 50 50 10 3 0
 Weight 7
 Cost 100
-Affect 13 3 1 0 0
 Affect 18 1 1 0 0
+Affect 13 3 1 0 0
 End
 
 #51201
@@ -657,8 +657,8 @@ Wear 131073
 Values 0 0 0 0 10 10 50 50 10 3 0
 Weight 1
 Cost 200
-Affect 20 1 1 0 0
 Affect 17 2 1 0 0
+Affect 20 1 1 0 0
 End
 
 #51202
@@ -671,10 +671,10 @@ Wear 524289
 Values 3 0 0 0 10 10 10 10 10 3 0
 Weight 5
 Cost 2500
-Affect 13 5 5 0 0
-Affect 14 5 1 0 0
-Affect 13 5 1 0 0
 Affect 18 1 1 0 0
+Affect 13 5 1 0 0
+Affect 14 5 1 0 0
+Affect 13 5 5 0 0
 End
 
 #51203
@@ -710,12 +710,12 @@ An elven short sword has been carelessly discarded here.
 [0;36m~
 Type 5
 Extra 4194304
-Wear 8193
+Wear 24577
 Values 0 15 0 3 0 0 0 6 2 0 0
 Weight 58
 Cost 200
-Affect 18 1 1 0 0
 Affect 19 1 1 0 0
+Affect 18 1 1 0 0
 End
 
 #51206
@@ -741,8 +741,8 @@ Wear 8193
 Values 0 50 0 14 0 0 0 6 3 0 0
 Weight 305
 Cost 3000
-Affect 19 1 1 0 0
 Affect 18 2 1 0 0
+Affect 19 1 1 0 0
 End
 
 #51211
@@ -794,8 +794,8 @@ Wear 8388609
 Values 0 3 5 1 10 10 40 40 10 1 0
 Weight 10
 Cost 5000
-Affect 18 4 1 0 0
 Affect 19 1 1 0 0
+Affect 18 4 1 0 0
 End
 
 #51239
@@ -822,8 +822,8 @@ Wear 5
 Values 5 7 6 5 0 0 0 0 0 0 8388608
 Weight 3
 Cost 20000
-Affect 13 20 1 0 0
 Affect 17 5 1 0 0
+Affect 13 20 1 0 0
 End
 
 #51399

@@ -2933,6 +2933,19 @@ Weight 0
 Cost 0
 End
 
+#153
+Name portal crimson~
+Short portal to crimson~
+Descr
+A portal to Crimson stands here.
+[0;36m~
+Type 12
+Wear 0
+Values 4 51200 0 0 0 0 0 0 0 0 0
+Weight 0
+Cost 0
+End
+
 #199
 Name sword dancing flame apb~
 Short the sword of dancing [1m[31mf[1m[33ml[1m[31ma[1m[33mm[1m[31me[1m[33ms[0m~
@@ -6623,6 +6636,7 @@ Reset O 151 -5 100
 Reset O 150 -5 100
 Reset M 101 1 100
 Reset O 152 -5 100
+Reset O 153 -5 100
 Door 0 0 0 102 0 0
 ~
 ~
