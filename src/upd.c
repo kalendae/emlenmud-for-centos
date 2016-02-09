@@ -2920,7 +2920,7 @@ reset_room (ROOM_DATA * pRoom)
 	      continue;
 	    }
 	}
-      else if (number_precent () > 50 || number_percent () > UMAX(pReset->percent, 1))
+      else if (number_percent () > 50 || number_percent () > UMAX(pReset->percent, 1))
         {
           if (pReset->command == 'M')
             LastMob = NULL;
