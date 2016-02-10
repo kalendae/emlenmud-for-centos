@@ -2209,7 +2209,7 @@ one_hit (CHAR_DATA * ch, CHAR_DATA * victim, int dt, SINGLE_OBJECT * wield)
     bool broken = FALSE;
     if (wield !=NULL && (((I_WEAPON *) wield->more)->strength != 0) &&
 	(dam >= ((I_WEAPON *) wield->more)->strength))
-      if (number_range (1, 12) == 5)
+      if (number_range (1, 36) == 5)
 	{
 	  --((I_WEAPON *) wield->more)->damage_p;
 	  if (((I_WEAPON *) wield->more)->damage_p == 1)
@@ -2226,7 +2226,7 @@ one_hit (CHAR_DATA * ch, CHAR_DATA * victim, int dt, SINGLE_OBJECT * wield)
   }
   ghit_pos = 0;
 
-  if (dam >= 4 && number_range (1, 5) == 2
+  if (dam >= 4 && number_range (1, 20) == 2
       && (armor = get_eq_char (victim,(iWear = number_range (WEAR_NONE + 1, (MAX_WEAR-1))))) != NULL
       && armor->pIndexData->item_type == ITEM_ARMOR
       && armor->wear_loc != -1
